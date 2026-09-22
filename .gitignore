@@ -1,0 +1,22 @@
+# Environments
+backend/.venv/
+backend/.env
+
+# Python
+__pycache__/
+*.pyc
+backend/.pytest_cache/
+
+# Caches / downloaded models (huggingface, ollama, torch, pip)
+backend/.cache/
+
+# Generated media output
+backend/media_output/
+
+# Local state / databases
+*.sqlite3
+*.db
+
+# OS
+.DS_Store
+Thumbs.db

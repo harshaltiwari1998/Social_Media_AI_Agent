@@ -50,6 +50,13 @@ class TwitterPoster(SocialPoster):
             url=f"https://x.com/i/web/status/{tweet_id}",
         )
 
+    def verify_post(self, post_id: str) -> bool:
+        try:
+            response = self._v2_client().get_tweet(int(post_id))
+            return response.data is not None
+        except Exception:
+            return False
+
     def _post_image(self, image_path: str, caption: str) -> PostResult:
         return self._upload_and_tweet(image_path, caption, chunked=False)
 

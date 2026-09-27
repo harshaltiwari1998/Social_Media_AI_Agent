@@ -10,6 +10,10 @@ from app.pipeline import orchestrator, store
 def _isolate_store(tmp_path, monkeypatch):
     monkeypatch.setattr(settings, "media_output_dir", str(tmp_path))
     monkeypatch.setattr(settings, "dry_run", True)
+    # Tests assert on the "not configured" path regardless of what real credentials
+    # happen to be sitting in the developer's .env.
+    monkeypatch.setattr(settings, "meta_page_id", None)
+    monkeypatch.setattr(settings, "meta_access_token", None)
 
 
 def test_store_round_trip(tmp_path):
@@ -54,7 +58,7 @@ def test_run_pipeline_happy_path_dry_run(monkeypatch):
                         "trend_title": "Some Model",
                         "headline": "Big news",
                         "caption": "Check this out",
-                        "image_prompt": "a robot",
+                        "image_prompts": ["a robot", "a robot from another angle"],
                         "video_script": "narration",
                     }
                 ],
@@ -101,7 +105,7 @@ def test_run_pipeline_skips_already_posted_trend(monkeypatch):
                         "trend_title": "Some Model",
                         "headline": "h",
                         "caption": "c",
-                        "image_prompt": "p",
+                        "image_prompts": ["p"],
                         "video_script": "v",
                     }
                 ],

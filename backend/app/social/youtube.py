@@ -5,7 +5,10 @@ from pathlib import Path
 from app.config import settings
 from app.social.base import PostResult, SocialPoster
 
-_SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
+_SCOPES = [
+    "https://www.googleapis.com/auth/youtube.upload",
+    "https://www.googleapis.com/auth/youtube.readonly",
+]
 
 
 def _token_path() -> Path:
@@ -53,6 +56,16 @@ class YouTubePoster(SocialPoster):
             dry_run=False,
             error="YouTube has no standalone image post - use post_video instead",
         )
+
+    def verify_post(self, post_id: str) -> bool:
+        try:
+            from googleapiclient.discovery import build
+
+            youtube = build("youtube", "v3", credentials=self._get_credentials())
+            response = youtube.videos().list(part="id", id=post_id).execute()
+            return bool(response.get("items"))
+        except Exception:
+            return False
 
     def _post_video(self, video_path: str, caption: str) -> PostResult:
         from googleapiclient.discovery import build

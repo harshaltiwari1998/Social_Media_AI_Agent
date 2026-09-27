@@ -36,6 +36,17 @@ class FacebookPoster(SocialPoster):
             )
         return self._to_result(response)
 
+    def verify_post(self, post_id: str) -> bool:
+        try:
+            response = httpx.get(
+                f"{_GRAPH_API}/{post_id}",
+                params={"fields": "id", "access_token": settings.meta_access_token},
+                timeout=30.0,
+            )
+            return response.is_success and "id" in response.json()
+        except Exception:
+            return False
+
     def _to_result(self, response: httpx.Response) -> PostResult:
         payload = response.json()
         post_id = payload.get("id") or payload.get("post_id")

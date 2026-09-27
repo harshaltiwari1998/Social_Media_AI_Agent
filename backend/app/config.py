@@ -63,6 +63,15 @@ class Settings(BaseSettings):
 
     # Media generation (Stage 2/3)
     sd_model_id: str = Field(default="stable-diffusion-v1-5/stable-diffusion-v1-5", alias="SD_MODEL_ID")
+    # Defaults tuned for a 4GB VRAM laptop GPU: a 768/x4-upscale combo measured ~58
+    # min/image here (VAE decode of a 3072x3072 image OOMs without tiling, and even
+    # tiled it's too slow for a pipeline that generates several images per run), so
+    # upscaling is off by default - flip SD_ENABLE_UPSCALE=true for one-off hi-res runs.
+    sd_base_size: int = Field(default=768, alias="SD_BASE_SIZE")
+    sd_enable_upscale: bool = Field(default=False, alias="SD_ENABLE_UPSCALE")
+    sd_upscaler_model_id: str = Field(
+        default="stabilityai/stable-diffusion-x4-upscaler", alias="SD_UPSCALER_MODEL_ID"
+    )
     media_output_dir: str = Field(default="media_output", alias="MEDIA_OUTPUT_DIR")
 
     model_config = SettingsConfigDict(env_file=".env", case_sensitive=False, extra="ignore")

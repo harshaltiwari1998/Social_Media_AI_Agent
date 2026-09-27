@@ -17,12 +17,19 @@ Respond with ONLY a JSON object matching this shape:
       "trend_title": "must match one of the input trend titles",
       "headline": "short, scroll-stopping headline for a social post",
       "caption": "1-2 sentence caption/body copy for the post, written for a general tech audience",
-      "image_prompt": "a detailed Stable Diffusion prompt to illustrate this trend",
+      "image_prompts": [
+        "detailed Stable Diffusion prompt for scene 1, matching the first beat of video_script",
+        "detailed Stable Diffusion prompt for scene 2, matching the next beat",
+        "detailed Stable Diffusion prompt for scene 3, matching the final beat"
+      ],
       "video_script": "a 3-4 sentence narration script for a 20-30 second short-form video about this trend"
     }
   ]
 }
-Produce exactly 3 content_ideas, chosen from the highest-scoring, most newsworthy trends."""
+Produce exactly 3-4 image_prompts per idea, one per beat of that idea's video_script, each visually
+distinct (different framing/subject/angle) so the resulting video is a scene-changing slideshow
+rather than one static image held for the whole narration. Produce exactly 3 content_ideas, chosen
+from the highest-scoring, most newsworthy trends."""
 
 
 def analyze(trends: list[dict[str, Any]]) -> dict[str, Any]:

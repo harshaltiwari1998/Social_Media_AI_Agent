@@ -50,6 +50,12 @@ class SocialPoster(ABC):
     def post_video(self, video_path: str, caption: str) -> PostResult:
         return self._publish(video_path, caption, self._post_video)
 
+    def verify_post(self, post_id: str) -> bool:
+        """Re-check with the platform that a post_id from a successful response actually
+        exists there. Subclasses override this with a real lookup; default trusts the
+        original response (used only if a platform has no cheap way to look a post up)."""
+        return True
+
     def _publish(
         self, media_path: str, caption: str, real_call: Callable[[str, str], PostResult]
     ) -> PostResult:

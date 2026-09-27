@@ -70,6 +70,17 @@ class InstagramPoster(SocialPoster):
             )
         return self._publish_container(creation)
 
+    def verify_post(self, post_id: str) -> bool:
+        try:
+            response = httpx.get(
+                f"{_GRAPH_API}/{post_id}",
+                params={"fields": "id", "access_token": settings.meta_access_token},
+                timeout=30.0,
+            )
+            return response.is_success and "id" in response.json()
+        except Exception:
+            return False
+
     def _wait_until_ready(self, creation_id: str, timeout_s: float = 120.0) -> bool:
         deadline = time.monotonic() + timeout_s
         while time.monotonic() < deadline:

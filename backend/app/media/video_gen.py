@@ -116,5 +116,9 @@ def generate_video(
         "success": True,
         "source": "video_gen",
         "error": None,
-        "data": {"path": str(output_path.resolve()), "duration_seconds": video.duration},
+        "data": {
+            "path": str(output_path.resolve()),
+            "duration_seconds": video.duration,
+            "intermediate_paths": [str(audio_path.resolve())] + [str(p.resolve()) for p in frame_paths],
+        },
     }

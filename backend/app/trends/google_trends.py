@@ -6,7 +6,7 @@ SOURCE = "google_trends"
 
 # Seed keywords we track rising interest against. Kept small: pytrends only
 # accepts up to 5 keywords per payload.
-_SEED_KEYWORDS = ["ChatGPT", "Claude AI", "Gemini AI", "Stable Diffusion", "Llama AI"]
+_SEED_KEYWORDS = ["Hollywood movies", "Bollywood movies", "Tollywood movies", "video games", "new songs"]
 
 
 def fetch(limit: int = 10) -> list[TrendItem]:

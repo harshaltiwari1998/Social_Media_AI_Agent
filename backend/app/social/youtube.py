@@ -49,7 +49,7 @@ class YouTubePoster(SocialPoster):
 
         return creds
 
-    def _post_image(self, image_path: str, caption: str) -> PostResult:
+    def _post_image(self, image_path: str, caption: str, tags: list[str] | None = None) -> PostResult:
         return PostResult(
             platform=self.platform,
             success=False,
@@ -67,7 +67,7 @@ class YouTubePoster(SocialPoster):
         except Exception:
             return False
 
-    def _post_video(self, video_path: str, caption: str) -> PostResult:
+    def _post_video(self, video_path: str, caption: str, tags: list[str] | None = None) -> PostResult:
         from googleapiclient.discovery import build
         from googleapiclient.http import MediaFileUpload
 
@@ -75,10 +75,14 @@ class YouTubePoster(SocialPoster):
         youtube = build("youtube", "v3", credentials=creds)
         title = caption.split(".")[0][:95] or "AI Trend Short"
 
+        snippet = {"title": title, "description": caption, "categoryId": "28"}
+        if tags:
+            snippet["tags"] = tags
+
         request = youtube.videos().insert(
             part="snippet,status",
             body={
-                "snippet": {"title": title, "description": caption, "categoryId": "28"},
+                "snippet": snippet,
                 "status": {"privacyStatus": "public", "selfDeclaredMadeForKids": False},
             },
             media_body=MediaFileUpload(video_path, chunksize=-1, resumable=True),

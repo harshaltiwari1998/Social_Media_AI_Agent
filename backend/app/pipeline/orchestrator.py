@@ -94,7 +94,12 @@ def run_pipeline(
                 idea_result["posts"].append({"platform": platform_name, "skipped": "already posted"})
                 continue
 
-            result = poster.post_video(media_path, idea["caption"]) if use_video else poster.post_image(media_path, idea["caption"])
+            tags = idea.get("tags")
+            result = (
+                poster.post_video(media_path, idea["caption"], tags=tags)
+                if use_video
+                else poster.post_image(media_path, idea["caption"], tags=tags)
+            )
             store.record_post(trend_id, platform_name, result.post_id, result.dry_run)
             post_entry = {"platform": platform_name, **result.model_dump()}
 

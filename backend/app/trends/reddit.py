@@ -4,11 +4,11 @@ from app.config import settings
 from app.trends.schemas import TrendFetchError, TrendItem
 
 SOURCE = "reddit"
-_SUBREDDITS = ["MachineLearning", "LocalLLaMA"]
+_SUBREDDITS = ["movies", "bollywood", "gaming", "Music"]
 
 
 def fetch(limit: int = 10) -> list[TrendItem]:
-    """Fetch top AI-related posts from the last day via Reddit's read-only API."""
+    """Fetch top movies/games/music posts from the last day via Reddit's read-only API."""
     if not (settings.reddit_client_id and settings.reddit_client_secret):
         raise TrendFetchError(SOURCE, "REDDIT_CLIENT_ID / REDDIT_CLIENT_SECRET not configured")
 

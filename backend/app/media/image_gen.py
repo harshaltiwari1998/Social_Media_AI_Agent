@@ -91,7 +91,10 @@ def _upscale(image, prompt: str):
 
 def generate_image(
     prompt: str,
-    negative_prompt: str = "blurry, low quality, distorted, watermark, text",
+    negative_prompt: str = (
+        "blurry, low quality, distorted, watermark, text, words, letters, writing, "
+        "typography, captions, labels, signage, illegible text, gibberish text, UI text"
+    ),
     steps: int = 25,
     guidance_scale: float = 7.5,
 ) -> dict[str, Any]:

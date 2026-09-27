@@ -6,13 +6,13 @@ from app.trends.schemas import TrendFetchError, TrendItem
 SOURCE = "twitter"
 
 # X's free API tier does not include the legacy trends/place endpoint, so we
-# approximate "trending" by counting recent-search volume for AI model keywords
-# instead of relying on a dedicated trends endpoint.
-_KEYWORDS = ["ChatGPT", "Claude AI", "Gemini AI", "Llama 3", "Stable Diffusion", "Sora AI"]
+# approximate "trending" by counting recent-search volume for movie/game/music
+# keywords instead of relying on a dedicated trends endpoint.
+_KEYWORDS = ["Hollywood", "Bollywood", "Tollywood", "new movie", "new game", "new song"]
 
 
 def fetch(limit: int = 10) -> list[TrendItem]:
-    """Estimate AI-keyword buzz on X via recent-search result counts."""
+    """Estimate movies/games/music buzz on X via recent-search result counts."""
     if not settings.twitter_bearer_token:
         raise TrendFetchError(SOURCE, "TWITTER_BEARER_TOKEN not configured")
 

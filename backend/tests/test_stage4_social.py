@@ -18,11 +18,11 @@ class _DummyPoster(SocialPoster):
     def is_configured(self) -> bool:
         return self._configured
 
-    def _post_image(self, image_path: str, caption: str) -> PostResult:
+    def _post_image(self, image_path: str, caption: str, tags: list[str] | None = None) -> PostResult:
         self.real_calls.append(image_path)
         return PostResult(platform=self.platform, success=True, dry_run=False, post_id="real-123")
 
-    def _post_video(self, video_path: str, caption: str) -> PostResult:
+    def _post_video(self, video_path: str, caption: str, tags: list[str] | None = None) -> PostResult:
         self.real_calls.append(video_path)
         return PostResult(platform=self.platform, success=True, dry_run=False, post_id="real-video-123")
 
@@ -64,7 +64,7 @@ def test_real_call_exception_becomes_failed_result(monkeypatch):
     monkeypatch.setattr(settings, "dry_run", False)
 
     class _Boom(_DummyPoster):
-        def _post_image(self, image_path: str, caption: str) -> PostResult:
+        def _post_image(self, image_path: str, caption: str, tags: list[str] | None = None) -> PostResult:
             raise RuntimeError("network exploded")
 
     poster = _Boom(configured=True)

@@ -37,7 +37,7 @@ class InstagramPoster(SocialPoster):
         rel = Path(local_path).resolve().relative_to(Path(settings.media_output_dir).resolve())
         return f"{settings.media_public_base_url.rstrip('/')}/{rel.as_posix()}"
 
-    def _post_image(self, image_path: str, caption: str) -> PostResult:
+    def _post_image(self, image_path: str, caption: str, tags: list[str] | None = None) -> PostResult:
         image_url = self._public_url(image_path)
         creation = httpx.post(
             f"{_GRAPH_API}/{settings.meta_ig_user_id}/media",
@@ -46,7 +46,7 @@ class InstagramPoster(SocialPoster):
         ).json()
         return self._publish_container(creation)
 
-    def _post_video(self, video_path: str, caption: str) -> PostResult:
+    def _post_video(self, video_path: str, caption: str, tags: list[str] | None = None) -> PostResult:
         video_url = self._public_url(video_path)
         creation = httpx.post(
             f"{_GRAPH_API}/{settings.meta_ig_user_id}/media",

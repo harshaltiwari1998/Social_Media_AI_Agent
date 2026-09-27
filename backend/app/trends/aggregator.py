@@ -3,14 +3,12 @@ from __future__ import annotations
 import logging
 from typing import Any, Callable
 
-from app.trends import github_trending, google_trends, huggingface, reddit, twitter_trends
+from app.trends import google_trends, reddit, twitter_trends
 from app.trends.schemas import TrendFetchError, TrendItem
 
 logger = logging.getLogger(__name__)
 
 _FETCHERS: list[Callable[..., list[TrendItem]]] = [
-    huggingface.fetch,
-    github_trending.fetch,
     google_trends.fetch,
     reddit.fetch,
     twitter_trends.fetch,

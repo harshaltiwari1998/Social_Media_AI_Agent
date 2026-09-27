@@ -73,6 +73,7 @@ class Settings(BaseSettings):
         default="stabilityai/stable-diffusion-x4-upscaler", alias="SD_UPSCALER_MODEL_ID"
     )
     media_output_dir: str = Field(default="media_output", alias="MEDIA_OUTPUT_DIR")
+    tts_voice: str = Field(default="hi-IN-SwaraNeural", alias="TTS_VOICE")
 
     model_config = SettingsConfigDict(env_file=".env", case_sensitive=False, extra="ignore")
 

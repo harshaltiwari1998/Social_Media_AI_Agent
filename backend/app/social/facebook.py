@@ -16,7 +16,7 @@ class FacebookPoster(SocialPoster):
     def is_configured(self) -> bool:
         return bool(settings.meta_page_id and settings.meta_access_token)
 
-    def _post_image(self, image_path: str, caption: str) -> PostResult:
+    def _post_image(self, image_path: str, caption: str, tags: list[str] | None = None) -> PostResult:
         with open(image_path, "rb") as f:
             response = httpx.post(
                 f"{_GRAPH_API}/{settings.meta_page_id}/photos",
@@ -26,7 +26,7 @@ class FacebookPoster(SocialPoster):
             )
         return self._to_result(response)
 
-    def _post_video(self, video_path: str, caption: str) -> PostResult:
+    def _post_video(self, video_path: str, caption: str, tags: list[str] | None = None) -> PostResult:
         with open(video_path, "rb") as f:
             response = httpx.post(
                 f"{_GRAPH_API}/{settings.meta_page_id}/videos",

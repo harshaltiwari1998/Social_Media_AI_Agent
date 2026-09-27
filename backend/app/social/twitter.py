@@ -57,8 +57,8 @@ class TwitterPoster(SocialPoster):
         except Exception:
             return False
 
-    def _post_image(self, image_path: str, caption: str) -> PostResult:
+    def _post_image(self, image_path: str, caption: str, tags: list[str] | None = None) -> PostResult:
         return self._upload_and_tweet(image_path, caption, chunked=False)
 
-    def _post_video(self, video_path: str, caption: str) -> PostResult:
+    def _post_video(self, video_path: str, caption: str, tags: list[str] | None = None) -> PostResult:
         return self._upload_and_tweet(video_path, caption, chunked=True)

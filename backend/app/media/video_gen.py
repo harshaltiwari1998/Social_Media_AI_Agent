@@ -9,8 +9,11 @@ from typing import Any
 from app.config import settings
 
 _CANVAS_SIZE = (1080, 1920)  # vertical short-form video (Reels/Shorts)
-_VOICE = "en-US-AriaNeural"
+# Nirmala UI / Mangal render Devanagari (Hindi) glyphs; Arial doesn't and would
+# draw the caption as empty boxes now that captions are Hindi by default.
 _FONT_CANDIDATES = [
+    "C:/Windows/Fonts/Nirmala.ttc",
+    "C:/Windows/Fonts/mangal.ttf",
     "C:/Windows/Fonts/arialbd.ttf",
     "C:/Windows/Fonts/arial.ttf",
 ]
@@ -62,7 +65,7 @@ def _compose_frame(image_path: str, caption: str) -> "Image.Image":  # noqa: F82
 async def _synthesize_narration(text: str, output_path: Path) -> None:
     import edge_tts
 
-    communicate = edge_tts.Communicate(text, _VOICE)
+    communicate = edge_tts.Communicate(text, settings.tts_voice)
     await communicate.save(str(output_path))
 
 

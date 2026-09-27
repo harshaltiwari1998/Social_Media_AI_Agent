@@ -37,18 +37,18 @@ class SocialPoster(ABC):
         """Whether this platform has the credentials it needs to post for real."""
 
     @abstractmethod
-    def _post_image(self, image_path: str, caption: str) -> PostResult:
+    def _post_image(self, image_path: str, caption: str, tags: list[str] | None = None) -> PostResult:
         ...
 
     @abstractmethod
-    def _post_video(self, video_path: str, caption: str) -> PostResult:
+    def _post_video(self, video_path: str, caption: str, tags: list[str] | None = None) -> PostResult:
         ...
 
-    def post_image(self, image_path: str, caption: str) -> PostResult:
-        return self._publish(image_path, caption, self._post_image)
+    def post_image(self, image_path: str, caption: str, tags: list[str] | None = None) -> PostResult:
+        return self._publish(image_path, caption, lambda p, c: self._post_image(p, c, tags))
 
-    def post_video(self, video_path: str, caption: str) -> PostResult:
-        return self._publish(video_path, caption, self._post_video)
+    def post_video(self, video_path: str, caption: str, tags: list[str] | None = None) -> PostResult:
+        return self._publish(video_path, caption, lambda p, c: self._post_video(p, c, tags))
 
     def verify_post(self, post_id: str) -> bool:
         """Re-check with the platform that a post_id from a successful response actually

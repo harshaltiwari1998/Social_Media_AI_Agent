@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from pathlib import Path
 
 from app.config import settings
@@ -73,9 +74,13 @@ class YouTubePoster(SocialPoster):
 
         creds = self._get_credentials()
         youtube = build("youtube", "v3", credentials=creds)
-        title = caption.split(".")[0][:95] or "AI Trend Short"
+        # The orchestrator puts the headline on the first line; Hindi sentences end
+        # with "।" rather than ".", so split on line breaks first.
+        first_line = caption.strip().split("\n")[0]
+        title = (re.split(r"[।.?]", first_line)[0].strip() or first_line)[:90] or "Trending Short"
 
-        snippet = {"title": title, "description": caption, "categoryId": "28"}
+        # "#Shorts" in the description helps YouTube file vertical <60s videos under Shorts.
+        snippet = {"title": title, "description": f"{caption}\n\n#Shorts", "categoryId": "24"}
         if tags:
             snippet["tags"] = tags
 

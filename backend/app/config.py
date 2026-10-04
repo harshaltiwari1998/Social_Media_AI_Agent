@@ -74,6 +74,8 @@ class Settings(BaseSettings):
     )
     media_output_dir: str = Field(default="media_output", alias="MEDIA_OUTPUT_DIR")
     tts_voice: str = Field(default="hi-IN-SwaraNeural", alias="TTS_VOICE")
+    # Optional royalty-free background music (mp3/wav), looped and ducked under the narration.
+    bgm_path: str | None = Field(default=None, alias="BGM_PATH")
 
     model_config = SettingsConfigDict(env_file=".env", case_sensitive=False, extra="ignore")
 

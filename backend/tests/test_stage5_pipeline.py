@@ -73,7 +73,7 @@ def test_run_pipeline_happy_path_dry_run(monkeypatch):
     monkeypatch.setattr(
         orchestrator,
         "generate_video",
-        lambda images, caption, script: {"success": True, "data": {"path": "clip.mp4", "duration_seconds": 10}},
+        lambda images, caption, script, headline=None: {"success": True, "data": {"path": "clip.mp4", "duration_seconds": 10}},
     )
 
     result = orchestrator.run_pipeline(platforms=["facebook"], include_video=True)

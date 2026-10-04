@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import logging
+import re
 from pathlib import Path
 from typing import Any
 
@@ -25,6 +26,15 @@ def _cleanup_media(paths: list[str]) -> None:
             Path(path).unlink(missing_ok=True)
         except OSError:
             logger.warning("Could not delete generated media file: %s", path, exc_info=True)
+
+
+def _post_text(idea: dict[str, Any]) -> str:
+    """Headline on the first line (YouTube uses it as the title), then caption, then hashtags."""
+    hashtags = " ".join(
+        "#" + re.sub(r"[^\w]", "", tag) for tag in (idea.get("tags") or [])[:6] if re.sub(r"[^\w]", "", tag)
+    )
+    parts = [idea.get("headline", "").strip(), idea.get("caption", "").strip(), hashtags]
+    return "\n\n".join(p for p in parts if p)
 
 
 _POSTERS: dict[str, SocialPoster] = {
@@ -59,14 +69,25 @@ def run_pipeline(
     ideas_results: list[dict[str, Any]] = []
 
     for idea in analysis["data"].get("content_ideas", []):
-        trend = trends_by_title.get(idea["trend_title"])
-        trend_id = trend["id"] if trend else idea["trend_title"]
+        trend = trends_by_title.get(idea["trend_title"]) or next(
+            (t for title, t in trends_by_title.items() if title.casefold() == idea["trend_title"].strip().casefold()),
+            None,
+        )
+        if trend is None:
+            # Small local LLMs sometimes invent a "trend"; don't make or post content about it.
+            logger.warning("Skipping idea %r: it doesn't match any fetched trend", idea["trend_title"])
+            continue
+        trend_id = trend["id"]
 
         image_results = [generate_image(p) for p in idea["image_prompts"]]
         image_paths = [r["data"]["path"] for r in image_results if r["success"]]
         idea_result: dict[str, Any] = {
             "trend_title": idea["trend_title"],
+            "trend_id": trend_id,
             "headline": idea["headline"],
+            "post_text": _post_text(idea),
+            "tags": idea.get("tags"),
+            "video_script": idea["video_script"],
             "images": image_results,
             "video": None,
             "posts": [],
@@ -81,7 +102,9 @@ def run_pipeline(
         # "video" - generate_video slideshows across all scene images instead.
         video_result = None
         if include_video:
-            video_result = generate_video(image_paths, idea["caption"], idea["video_script"])
+            video_result = generate_video(
+                image_paths, idea["caption"], idea["video_script"], headline=idea.get("headline")
+            )
             idea_result["video"] = video_result
 
         use_video = bool(video_result and video_result["success"])
@@ -95,10 +118,11 @@ def run_pipeline(
                 continue
 
             tags = idea.get("tags")
+            post_text = _post_text(idea)
             result = (
-                poster.post_video(media_path, idea["caption"], tags=tags)
+                poster.post_video(media_path, post_text, tags=tags)
                 if use_video
-                else poster.post_image(media_path, idea["caption"], tags=tags)
+                else poster.post_image(media_path, post_text, tags=tags)
             )
             store.record_post(trend_id, platform_name, result.post_id, result.dry_run)
             post_entry = {"platform": platform_name, **result.model_dump()}

@@ -1,13 +1,15 @@
 from __future__ import annotations
 
 import time
+from contextlib import contextmanager
 from pathlib import Path
-from typing import Any
+from typing import Any, Iterator
 
 import httpx
 
 from app.config import settings
 from app.social.base import PostResult, SocialPoster
+from app.social.public_tunnel import public_url_for
 
 _GRAPH_API = "https://graph.facebook.com/v19.0"
 
@@ -17,9 +19,9 @@ class InstagramPoster(SocialPoster):
 
     Unlike Facebook Pages, Instagram's Content Publishing API has no raw
     file-upload endpoint - it only accepts a publicly reachable image_url or
-    video_url. `MEDIA_PUBLIC_BASE_URL` must be set to whatever serves
-    `MEDIA_OUTPUT_DIR` publicly (e.g. an ngrok tunnel) before this can post
-    for real; otherwise it fails with a clear error explaining why.
+    video_url. If `MEDIA_PUBLIC_BASE_URL` serves `MEDIA_OUTPUT_DIR` publicly it's
+    used directly; otherwise the file is exposed through a temporary Cloudflare
+    quick tunnel that stays open until Instagram has fetched and published it.
     """
 
     platform = "instagram"
@@ -27,48 +29,56 @@ class InstagramPoster(SocialPoster):
     def is_configured(self) -> bool:
         return bool(settings.meta_ig_user_id and settings.meta_access_token)
 
-    def _public_url(self, local_path: str) -> str:
-        if not settings.media_public_base_url:
-            raise RuntimeError(
-                "Instagram requires media at a public URL (no direct file-upload endpoint "
-                "exists). Set MEDIA_PUBLIC_BASE_URL in .env to a URL that serves "
-                "MEDIA_OUTPUT_DIR (e.g. via ngrok or a static file server) first."
-            )
-        rel = Path(local_path).resolve().relative_to(Path(settings.media_output_dir).resolve())
-        return f"{settings.media_public_base_url.rstrip('/')}/{rel.as_posix()}"
+    @contextmanager
+    def _public_url(self, local_path: str) -> Iterator[str]:
+        if settings.media_public_base_url:
+            rel = Path(local_path).resolve().relative_to(Path(settings.media_output_dir).resolve())
+            yield f"{settings.media_public_base_url.rstrip('/')}/{rel.as_posix()}"
+        else:
+            with public_url_for(local_path) as url:
+                yield url
 
     def _post_image(self, image_path: str, caption: str, tags: list[str] | None = None) -> PostResult:
-        image_url = self._public_url(image_path)
-        creation = httpx.post(
-            f"{_GRAPH_API}/{settings.meta_ig_user_id}/media",
-            data={"image_url": image_url, "caption": caption, "access_token": settings.meta_access_token},
-            timeout=60.0,
-        ).json()
-        return self._publish_container(creation)
+        from PIL import Image
+
+        # Instagram only accepts JPEG for image posts; Stable Diffusion writes PNG.
+        jpeg_path = Path(image_path).with_suffix(".ig.jpg")
+        Image.open(image_path).convert("RGB").save(jpeg_path, "JPEG", quality=92)
+        try:
+            with self._public_url(str(jpeg_path)) as image_url:
+                creation = httpx.post(
+                    f"{_GRAPH_API}/{settings.meta_ig_user_id}/media",
+                    data={"image_url": image_url, "caption": caption, "access_token": settings.meta_access_token},
+                    timeout=60.0,
+                ).json()
+                return self._publish_container(creation)
+        finally:
+            jpeg_path.unlink(missing_ok=True)
 
     def _post_video(self, video_path: str, caption: str, tags: list[str] | None = None) -> PostResult:
-        video_url = self._public_url(video_path)
-        creation = httpx.post(
-            f"{_GRAPH_API}/{settings.meta_ig_user_id}/media",
-            data={
-                "media_type": "REELS",
-                "video_url": video_url,
-                "caption": caption,
-                "access_token": settings.meta_access_token,
-            },
-            timeout=60.0,
-        ).json()
-        if "id" not in creation:
-            error = creation.get("error", {}).get("message", str(creation))
-            return PostResult(platform=self.platform, success=False, dry_run=False, error=error)
-        if not self._wait_until_ready(creation["id"]):
-            return PostResult(
-                platform=self.platform,
-                success=False,
-                dry_run=False,
-                error="Instagram video processing did not finish in time",
-            )
-        return self._publish_container(creation)
+        # The URL must stay reachable until processing finishes, so publish inside the block.
+        with self._public_url(video_path) as video_url:
+            creation = httpx.post(
+                f"{_GRAPH_API}/{settings.meta_ig_user_id}/media",
+                data={
+                    "media_type": "REELS",
+                    "video_url": video_url,
+                    "caption": caption,
+                    "access_token": settings.meta_access_token,
+                },
+                timeout=60.0,
+            ).json()
+            if "id" not in creation:
+                error = creation.get("error", {}).get("message", str(creation))
+                return PostResult(platform=self.platform, success=False, dry_run=False, error=error)
+            if not self._wait_until_ready(creation["id"]):
+                return PostResult(
+                    platform=self.platform,
+                    success=False,
+                    dry_run=False,
+                    error="Instagram video processing did not finish in time",
+                )
+            return self._publish_container(creation)
 
     def verify_post(self, post_id: str) -> bool:
         try:
@@ -81,7 +91,7 @@ class InstagramPoster(SocialPoster):
         except Exception:
             return False
 
-    def _wait_until_ready(self, creation_id: str, timeout_s: float = 120.0) -> bool:
+    def _wait_until_ready(self, creation_id: str, timeout_s: float = 300.0) -> bool:
         deadline = time.monotonic() + timeout_s
         while time.monotonic() < deadline:
             status = httpx.get(

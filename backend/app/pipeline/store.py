@@ -35,7 +35,9 @@ def already_posted(trend_id: str, platform: str) -> bool:
     conn = _get_conn()
     try:
         row = conn.execute(
-            "SELECT 1 FROM posted_trends WHERE trend_id = ? AND platform = ? AND dry_run = 0",
+            # Failed attempts are recorded too (post_id NULL) - they must not block a retry.
+            "SELECT 1 FROM posted_trends WHERE trend_id = ? AND platform = ? AND dry_run = 0"
+            " AND post_id IS NOT NULL",
             (trend_id, platform),
         ).fetchone()
         return row is not None

@@ -46,10 +46,11 @@ class Settings(BaseSettings):
     youtube_client_secret_file: str | None = Field(default=None, alias="YOUTUBE_CLIENT_SECRET_FILE")
 
     # Instagram's Content Publishing API has no raw-file upload endpoint - it
-    # only accepts a publicly reachable image_url/video_url. Point this at
-    # whatever serves MEDIA_OUTPUT_DIR publicly (e.g. an ngrok tunnel) before
-    # posting to Instagram outside DRY_RUN.
+    # only accepts a publicly reachable image_url/video_url. If this is set to
+    # whatever serves MEDIA_OUTPUT_DIR publicly, it's used as-is; otherwise each
+    # post opens a temporary Cloudflare quick tunnel via CLOUDFLARED_PATH.
     media_public_base_url: str | None = Field(default=None, alias="MEDIA_PUBLIC_BASE_URL")
+    cloudflared_path: str = Field(default="cloudflared", alias="CLOUDFLARED_PATH")
 
     # Stage 5: which platforms the orchestrator targets by default.
     target_platforms: List[str] = Field(

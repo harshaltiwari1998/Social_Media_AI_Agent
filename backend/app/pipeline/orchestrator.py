@@ -133,10 +133,11 @@ def run_pipeline(
             idea_result["posts"].append(post_entry)
 
         live_posts = [p for p in idea_result["posts"] if p.get("success") and not p.get("dry_run")]
-        # Only delete generated media once every platform that claimed a successful
-        # live post has been re-confirmed to actually have it - a false-positive
-        # verify would otherwise lose the only copy of unpublished content.
-        if live_posts and all(p.get("verified") for p in live_posts):
+        attempted = [p for p in idea_result["posts"] if "skipped" not in p]
+        # Only delete generated media once every attempted platform posted live and was
+        # re-confirmed to have it - if any platform failed, the media is still needed
+        # for a retry, and a false-positive verify would lose unpublished content.
+        if live_posts and len(live_posts) == len(attempted) and all(p.get("verified") for p in live_posts):
             paths_to_delete = list(image_paths)
             if use_video:
                 paths_to_delete.append(video_result["data"]["path"])

@@ -30,6 +30,7 @@ class YouTubePoster(SocialPoster):
         return bool(settings.youtube_client_secret_file)
 
     def _get_credentials(self):
+        from google.auth.exceptions import RefreshError
         from google.auth.transport.requests import Request
         from google.oauth2.credentials import Credentials
         from google_auth_oauthlib.flow import InstalledAppFlow
@@ -41,8 +42,13 @@ class YouTubePoster(SocialPoster):
 
         if not creds or not creds.valid:
             if creds and creds.expired and creds.refresh_token:
-                creds.refresh(Request())
-            else:
+                try:
+                    creds.refresh(Request())
+                except RefreshError:
+                    # Refresh tokens of OAuth apps in "Testing" status expire after 7 days;
+                    # fall back to the interactive login instead of failing the upload.
+                    creds = None
+            if not creds or not creds.valid:
                 flow = InstalledAppFlow.from_client_secrets_file(settings.youtube_client_secret_file, _SCOPES)
                 creds = flow.run_local_server(port=0)
             token_path.parent.mkdir(parents=True, exist_ok=True)

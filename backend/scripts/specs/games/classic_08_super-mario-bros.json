@@ -1,0 +1,45 @@
+{
+  "id": "super-mario-bros",
+  "slot": "classic",
+  "order": 8,
+  "headline": "Super Mario ki kahani",
+  "title": "Super Mario Bros Ki Kahani | Jumpman Se Mario Tak | Classic Games Hindi",
+  "video_script": "Super Mario Bros 1985 में Nintendo के NES पर आया था, और इसे बनाया Shigeru Miyamoto ने. Mario पहली बार 1981 के Donkey Kong game में दिखा था, तब उसका नाम था Jumpman. Mario एक plumber है, और Princess को Bowser से बचाता है. ये दुनिया के सबसे famous games में से एक है. आपका favourite Mario game कौन सा है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Super Mario Bros.",
+      "label": "Super Mario Bros"
+    },
+    {
+      "image": "wiki:Super Mario Bros.",
+      "fact": "1985",
+      "sub": "Nintendo NES | Shigeru Miyamoto"
+    },
+    {
+      "image": "wiki:Donkey Kong (1981 video game)",
+      "fact": "Pehla naam: Jumpman",
+      "sub": "Donkey Kong (1981)"
+    },
+    {
+      "image": "wiki:Super Mario Bros.",
+      "fact": "Mario vs Bowser",
+      "sub": "Princess ko bachao!"
+    }
+  ],
+  "description": "Super Mario Bros (1985, NES) - Shigeru Miyamoto ka banaya. Mario pehli baar Donkey Kong (1981) mein Jumpman naam se aaya tha.",
+  "hashtags": [
+    "SuperMario",
+    "Nintendo",
+    "RetroGaming"
+  ],
+  "tags": [
+    "Super Mario Bros",
+    "Mario",
+    "Nintendo",
+    "Shigeru Miyamoto",
+    "Jumpman",
+    "NES",
+    "retro games",
+    "classic games"
+  ]
+}

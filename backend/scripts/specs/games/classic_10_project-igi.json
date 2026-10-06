@@ -1,0 +1,45 @@
+{
+  "id": "project-igi",
+  "slot": "classic",
+  "order": 10,
+  "headline": "Project IGI - cyber cafe ka favourite",
+  "title": "Project IGI Ki Yaadein | I'm Going In | Classic Games Hindi",
+  "video_script": "Project IGI, यानी I'm Going In, 2000 में आया था. इसे Norway की company Innerloop Studios ने बनाया था. Hero है David Jones, एक trained commando, जो दुश्मन के बेस में अकेले घुसता है. भारत में ये game cyber cafe का favourite था, और इसका पहला mission आज भी लोगों को याद है. आपने IGI कितनी बार खेला? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Project I.G.I.",
+      "label": "Project IGI"
+    },
+    {
+      "image": "wiki:Project I.G.I.",
+      "fact": "I'm Going In",
+      "sub": "2000 | Innerloop Studios"
+    },
+    {
+      "image": "wiki:Project I.G.I.",
+      "fact": "David Jones",
+      "sub": "Akela commando"
+    },
+    {
+      "image": "wiki:Project I.G.I.",
+      "fact": "Cyber cafe ka favourite",
+      "sub": "India mein superhit"
+    }
+  ],
+  "description": "Project IGI (I'm Going In, 2000) - Innerloop Studios (Norway) ka game, David Jones ki kahani. India ke cyber cafes ka favourite.",
+  "hashtags": [
+    "ProjectIGI",
+    "IGI",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Project IGI",
+    "IGI game",
+    "I'm Going In",
+    "David Jones",
+    "Innerloop Studios",
+    "PC games",
+    "classic games",
+    "cyber cafe games"
+  ]
+}

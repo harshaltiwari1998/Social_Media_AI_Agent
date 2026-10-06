@@ -1,0 +1,45 @@
+{
+  "id": "tekken-3",
+  "slot": "classic",
+  "order": 11,
+  "headline": "Tekken 3 - best fighting game?",
+  "title": "Tekken 3 Ki Yaadein | Jin, Eddy, Hwoarang | Classic Games Hindi",
+  "video_script": "Tekken 3 1997 में arcade में और 1998 में PlayStation पर आया था. इसमें पहली बार आए Jin Kazama, Eddy Gordo और Hwoarang जैसे fighters. Story mode के अलावा इसमें Tekken Force और Tekken Ball जैसे मज़ेदार modes भी थे. बहुत से लोग इसे आज भी सबसे best fighting game मानते हैं. आपका favourite fighter कौन था? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Tekken 3",
+      "label": "Tekken 3"
+    },
+    {
+      "image": "wiki:Tekken 3",
+      "fact": "1997 / 1998",
+      "sub": "Arcade / PlayStation"
+    },
+    {
+      "image": "wiki:Tekken 3",
+      "fact": "Naye fighters",
+      "sub": "Jin Kazama | Eddy Gordo | Hwoarang"
+    },
+    {
+      "image": "wiki:Tekken 3",
+      "fact": "Tekken Force + Tekken Ball",
+      "sub": "Mazedaar extra modes"
+    }
+  ],
+  "description": "Tekken 3 (1997 arcade, 1998 PlayStation) - Jin Kazama, Eddy Gordo, Hwoarang ka debut, aur Tekken Force / Tekken Ball modes.",
+  "hashtags": [
+    "Tekken3",
+    "Tekken",
+    "PlayStation"
+  ],
+  "tags": [
+    "Tekken 3",
+    "Tekken",
+    "Jin Kazama",
+    "Eddy Gordo",
+    "Hwoarang",
+    "PlayStation",
+    "fighting game",
+    "classic games"
+  ]
+}

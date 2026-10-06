@@ -1,0 +1,45 @@
+{
+  "id": "minecraft",
+  "slot": "classic",
+  "order": 13,
+  "headline": "Minecraft - duniya ka sabse bada game",
+  "title": "Minecraft Ki Kahani | Notch, Mojang, 30 Crore Copies | Gaming Facts Hindi",
+  "video_script": "Minecraft को Markus Persson, यानी Notch, ने बनाया था. इसका पहला version 2009 में आया, और full release 2011 में हुआ. आज ये दुनिया का सबसे ज़्यादा बिकने वाला video game है, जिसकी तीस करोड़ से ज़्यादा copies बिक चुकी हैं. 2014 में Microsoft ने Minecraft की company Mojang को खरीद लिया था. आप survival खेलते हो या creative? Comment करो!",
+  "scenes": [
+    {
+      "image": "wikifile:Minecraft game logo 2023.png",
+      "label": "Minecraft"
+    },
+    {
+      "image": "wikifile:Caves & Cliffs II - Alex & Steve I.png",
+      "fact": "2009 / 2011",
+      "sub": "Notch (Markus Persson)"
+    },
+    {
+      "image": "wikifile:Minecraft Creeper (Crop).png",
+      "fact": "30 crore+ copies",
+      "sub": "Duniya ka sabse zyada bikne wala game"
+    },
+    {
+      "image": "wikifile:Minecraft Beta 1.8.1 – Crafting a Wooden Sword.png",
+      "fact": "2014",
+      "sub": "Microsoft ne Mojang khareeda"
+    }
+  ],
+  "description": "Minecraft: Notch ka banaya, 2009 mein pehla version, 2011 mein full release. 300 million+ copies - duniya ka sabse zyada bikne wala game. 2014 mein Microsoft ne Mojang khareeda.",
+  "hashtags": [
+    "Minecraft",
+    "Mojang",
+    "GamingFacts"
+  ],
+  "tags": [
+    "Minecraft",
+    "Minecraft facts",
+    "Notch",
+    "Mojang",
+    "best selling game",
+    "Microsoft",
+    "gaming facts Hindi",
+    "classic games"
+  ]
+}

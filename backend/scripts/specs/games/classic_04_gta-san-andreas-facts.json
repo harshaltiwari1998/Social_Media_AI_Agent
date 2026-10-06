@@ -1,0 +1,45 @@
+{
+  "id": "gta-san-andreas-facts",
+  "slot": "classic",
+  "order": 4,
+  "headline": "GTA San Andreas ki mazedaar baatein",
+  "title": "GTA San Andreas Ki Mazedaar Baatein | CJ, Los Santos, San Fierro | Classic Games Hindi",
+  "video_script": "GTA San Andreas के बारे में कुछ मज़ेदार बातें. ये game 2004 में PlayStation 2 पर आया था. Hero है Carl Johnson, यानी CJ, जो पाँच साल बाद Los Santos लौटता है. Map में तीन शहर हैं: Los Santos, San Fierro और Las Venturas. और ये PlayStation 2 का सबसे ज़्यादा बिकने वाला game माना जाता है. आपको CJ का कौन सा mission याद है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Grand Theft Auto: San Andreas",
+      "label": "GTA San Andreas"
+    },
+    {
+      "image": "steam:1547000:3",
+      "fact": "2004",
+      "sub": "PlayStation 2"
+    },
+    {
+      "image": "steam:1547000:4",
+      "fact": "Carl Johnson (CJ)",
+      "sub": "5 saal baad Los Santos wapas"
+    },
+    {
+      "image": "steam:1547000:5",
+      "fact": "3 shehar",
+      "sub": "Los Santos | San Fierro | Las Venturas"
+    }
+  ],
+  "description": "GTA San Andreas: 2004 mein PS2 par, CJ ki kahani, teen shehar - Los Santos, San Fierro, Las Venturas - aur PS2 ka sabse zyada bikne wala game.",
+  "hashtags": [
+    "GTASanAndreas",
+    "GTA",
+    "ClassicGames"
+  ],
+  "tags": [
+    "GTA San Andreas",
+    "GTA San Andreas facts",
+    "CJ",
+    "Carl Johnson",
+    "Los Santos",
+    "San Fierro",
+    "classic games",
+    "Rockstar"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "next-big-games",
+  "slot": "new",
+  "order": 8,
+  "expires": "2026-10-22",
+  "headline": "Agle kuch hafton ke bade games",
+  "title": "Aane Wale Bade Games | CoD MW4, Phantom Blade Zero, Zelda, GTA 6 | Gaming News Hindi",
+  "video_script": "अगले कुछ हफ़्तों में आने वाले बड़े games! 23 October को Call of Duty: Modern Warfare 4. 29 October को Phantom Blade Zero. 5 November को Switch 2 पर Zelda: Ocarina of Time का remake. और 19 November को साल का सबसे बड़ा game, GTA 6! आप सबसे ज़्यादा किसका wait कर रहे हो? Comment करो!",
+  "scenes": [
+    {
+      "image": "steam:4435490:5",
+      "fact": "Modern Warfare 4",
+      "sub": "23 October"
+    },
+    {
+      "image": "steam:4115450:1",
+      "fact": "Phantom Blade Zero",
+      "sub": "29 October"
+    },
+    {
+      "image": "wiki:The Legend of Zelda: Ocarina of Time",
+      "fact": "Zelda: Ocarina of Time",
+      "sub": "5 November | Switch 2 remake"
+    },
+    {
+      "image": "wiki:Grand Theft Auto VI",
+      "fact": "GTA 6",
+      "sub": "19 November"
+    }
+  ],
+  "description": "Aane wale bade games: Call of Duty: Modern Warfare 4 (23 Oct), Phantom Blade Zero (29 Oct), Zelda: Ocarina of Time Switch 2 remake (5 Nov), GTA 6 (19 Nov).",
+  "hashtags": [
+    "UpcomingGames",
+    "GTA6",
+    "GamingNews"
+  ],
+  "tags": [
+    "upcoming games 2026",
+    "GTA 6",
+    "Modern Warfare 4",
+    "Phantom Blade Zero",
+    "Zelda Ocarina of Time Switch 2",
+    "new games November 2026",
+    "gaming news Hindi"
+  ]
+}

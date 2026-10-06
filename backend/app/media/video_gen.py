@@ -141,13 +141,13 @@ def _render_scene(scene: _Scene, progress: float, card_mask) -> "Image.Image":  
     return frame
 
 
-def _build_header(headline: str) -> "Image.Image":  # noqa: F821
-    """'TRENDING' pill + up-to-3-line headline, rendered once and animated per frame."""
+def _build_header(headline: str, badge: str = "TRENDING") -> "Image.Image":  # noqa: F821
+    """Badge pill + up-to-3-line headline, rendered once and animated per frame."""
     from PIL import Image, ImageDraw
 
     from app.media.text_render import get_font, render_block, render_runs, wrap
 
-    pill_text = render_runs(get_font("bold", 36), [("TRENDING", (255, 255, 255))])
+    pill_text = render_runs(get_font("bold", 36), [(badge, (255, 255, 255))])
     pill = Image.new("RGBA", (pill_text.width + 40, pill_text.height + 6), (0, 0, 0, 0))
     ImageDraw.Draw(pill).rounded_rectangle([0, 0, pill.width - 1, pill.height - 1], radius=pill.height // 2, fill=_ACCENT)
     pill.alpha_composite(pill_text, (20, 3))
@@ -277,6 +277,7 @@ def generate_video(
     caption: str,
     narration_script: str,
     headline: str | None = None,
+    badge: str = "TRENDING",
 ) -> dict[str, Any]:
     """Assemble scene images + AI narration into an edited vertical short.
 
@@ -309,7 +310,7 @@ def generate_video(
         scenes = [_prepare_scene(path, i) for i, path in enumerate(image_paths)]
         renderer = _FrameRenderer(
             scenes,
-            _build_header(headline or caption),
+            _build_header(headline or caption, badge),
             _build_subtitle_chunks(words, get_font("bold", 78)),
             duration,
         )

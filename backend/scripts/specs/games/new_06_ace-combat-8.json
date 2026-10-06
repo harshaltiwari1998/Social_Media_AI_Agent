@@ -1,0 +1,45 @@
+{
+  "id": "ace-combat-8",
+  "slot": "new",
+  "order": 6,
+  "expires": "2026-10-31",
+  "headline": "Ace Combat 8 launch ho gaya!",
+  "title": "Ace Combat 8 Wings of Theve Launch Ho Gaya | Fighter Jet Game | Gaming News Hindi",
+  "video_script": "Ace Combat 8: Wings of Theve launch हो चुका है! Bandai Namco का ये flight combat game 1 October 2026 को PS5, Xbox Series X और S और PC पर आया. इसमें आप fighter jet उड़ाकर आसमान में लड़ाइयाँ लड़ते हो. Flight games पसंद करने वालों के लिए ये इस साल का बड़ा game है. आपने खेला? Comment करो!",
+  "scenes": [
+    {
+      "image": "steam:2288340:0",
+      "label": "Ace Combat 8: Wings of Theve"
+    },
+    {
+      "image": "steam:2288340:1",
+      "fact": "1 October 2026",
+      "sub": "PS5 | Xbox Series X|S | PC"
+    },
+    {
+      "image": "steam:2288340:2",
+      "fact": "Fighter jet combat",
+      "sub": "Bandai Namco"
+    },
+    {
+      "image": "steam:2288340:3",
+      "label": "Flight game fans ke liye"
+    }
+  ],
+  "description": "Ace Combat 8: Wings of Theve 1 October 2026 ko PS5, Xbox Series X|S aur PC par launch hua.",
+  "hashtags": [
+    "AceCombat8",
+    "AceCombat",
+    "BandaiNamco"
+  ],
+  "tags": [
+    "Ace Combat 8",
+    "Ace Combat 8 Wings of Theve",
+    "Ace Combat",
+    "flight game",
+    "fighter jet game",
+    "Bandai Namco",
+    "gaming news Hindi",
+    "new games 2026"
+  ]
+}

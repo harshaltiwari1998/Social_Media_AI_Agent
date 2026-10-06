@@ -12,10 +12,19 @@ from pathlib import Path
 
 from PIL import Image, ImageChops, ImageFilter
 
-# (path, face index inside the .ttc). Nirmala UI covers Devanagari + Latin.
+# (path, face index inside the .ttc). Nirmala UI covers Devanagari + Latin. On Linux
+# (GitHub Actions) there's no Nirmala, so the CI workflow downloads Hind (OFL, also
+# Devanagari + Latin) into .cache/fonts.
+_BUNDLED_FONTS = Path(__file__).resolve().parents[2] / ".cache" / "fonts"
 _FONT_FACES = {
-    "bold": [("C:/Windows/Fonts/Nirmala.ttc", 1), ("C:/Windows/Fonts/mangal.ttf", 0), ("C:/Windows/Fonts/arialbd.ttf", 0)],
-    "regular": [("C:/Windows/Fonts/Nirmala.ttc", 0), ("C:/Windows/Fonts/mangal.ttf", 0), ("C:/Windows/Fonts/arial.ttf", 0)],
+    "bold": [
+        ("C:/Windows/Fonts/Nirmala.ttc", 1), (str(_BUNDLED_FONTS / "Hind-Bold.ttf"), 0),
+        ("C:/Windows/Fonts/mangal.ttf", 0), ("C:/Windows/Fonts/arialbd.ttf", 0),
+    ],
+    "regular": [
+        ("C:/Windows/Fonts/Nirmala.ttc", 0), (str(_BUNDLED_FONTS / "Hind-Regular.ttf"), 0),
+        ("C:/Windows/Fonts/mangal.ttf", 0), ("C:/Windows/Fonts/arial.ttf", 0),
+    ],
 }
 # Characters with no glyph are dropped, but these must survive even though
 # fonts don't map them to visible glyphs - they steer Devanagari shaping.

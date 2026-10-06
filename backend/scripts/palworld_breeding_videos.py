@@ -137,7 +137,9 @@ def build_video(spec_path: Path) -> dict:
 
     if spec.get("tts_voice"):
         settings.tts_voice = spec["tts_voice"]
-    video = generate_video(paths, spec["caption"], spec["video_script"], headline=spec.get("headline"))
+    video = generate_video(
+        paths, spec["caption"], spec["video_script"], headline=spec.get("headline"), badge="BREEDING GUIDE"
+    )
     return {"spec": spec_path.name, "images": paths, "video": video}
 
 

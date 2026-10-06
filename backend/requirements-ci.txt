@@ -1,0 +1,21 @@
+# Slim dependency set for the GitHub Actions Palworld job (no torch / Stable Diffusion /
+# trend-source libraries - those only run on the laptop's daily task).
+pydantic==2.9.2
+pydantic-settings==2.5.2
+python-dotenv==1.0.1
+httpx==0.27.2
+Pillow==10.4.0
+numpy==2.5.3
+moviepy==1.0.3
+imageio==2.37.4
+imageio-ffmpeg==0.6.0
+decorator==4.4.2
+proglog==0.1.12
+tqdm==4.70.1
+edge-tts==7.2.8
+uharfbuzz==0.56.2
+freetype-py==2.5.1
+google-api-python-client==2.149.0
+google-auth==2.58.0
+google-auth-oauthlib==1.2.1
+google-auth-httplib2==0.2.0

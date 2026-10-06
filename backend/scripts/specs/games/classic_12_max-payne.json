@@ -1,0 +1,45 @@
+{
+  "id": "max-payne",
+  "slot": "classic",
+  "order": 12,
+  "headline": "Max Payne aur bullet time",
+  "title": "Max Payne 2001 | Bullet Time Wala Game | Classic Games Hindi",
+  "video_script": "Max Payne 2001 में आया था, और इसे Finland की company Remedy ने बनाया था. इस game ने bullet time को famous किया, जिसमें सब कुछ slow motion में चलता है और आप dodge करते हुए गोली चला सकते हो. Max New York का एक cop है, और उसकी कहानी comic जैसे panels में दिखाई जाती है. आपको Max Payne याद है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Max Payne (video game)",
+      "label": "Max Payne"
+    },
+    {
+      "image": "wiki:Max Payne (video game)",
+      "fact": "2001",
+      "sub": "Remedy (Finland)"
+    },
+    {
+      "image": "wiki:Max Payne (video game)",
+      "fact": "Bullet time",
+      "sub": "Slow motion action"
+    },
+    {
+      "image": "wiki:Max Payne (video game)",
+      "fact": "Comic panels",
+      "sub": "Kahani kehne ka anokha tareeka"
+    }
+  ],
+  "description": "Max Payne (2001, Remedy) - bullet time ko famous karne wala game, comic panels wali kahani.",
+  "hashtags": [
+    "MaxPayne",
+    "Remedy",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Max Payne",
+    "Max Payne 2001",
+    "bullet time",
+    "Remedy Entertainment",
+    "PC games",
+    "classic games",
+    "action games",
+    "Rockstar"
+  ]
+}

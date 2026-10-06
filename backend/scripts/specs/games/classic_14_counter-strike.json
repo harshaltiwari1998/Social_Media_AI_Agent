@@ -1,0 +1,45 @@
+{
+  "id": "counter-strike",
+  "slot": "classic",
+  "order": 14,
+  "headline": "Counter-Strike ki shuruaat",
+  "title": "Counter-Strike Ki Shuruaat | Half-Life Mod Se de_dust2 Tak | Classic Games Hindi",
+  "video_script": "Counter-Strike की शुरुआत 1999 में Half-Life के एक mod के रूप में हुई थी, जिसे Minh Le और Jess Cliffe ने बनाया था. बाद में Valve ने इसे खरीद लिया. Counter-Strike one point six भारत के cyber cafes में सबसे ज़्यादा खेला जाने वाला game था, और de_dust2 इसका सबसे famous map है. आप T side खेलते थे या CT side? Comment करो!",
+  "scenes": [
+    {
+      "image": "steam:10:0",
+      "label": "Counter-Strike"
+    },
+    {
+      "image": "steam:10:1",
+      "fact": "1999",
+      "sub": "Half-Life mod | Minh Le + Jess Cliffe"
+    },
+    {
+      "image": "steam:10:2",
+      "fact": "CS 1.6",
+      "sub": "Cyber cafe ka king"
+    },
+    {
+      "image": "steam:10:3",
+      "fact": "de_dust2",
+      "sub": "Sabse famous map"
+    }
+  ],
+  "description": "Counter-Strike: 1999 mein Half-Life mod ke roop mein shuru (Minh Le, Jess Cliffe), baad mein Valve ne khareeda. CS 1.6 aur de_dust2 - cyber cafe ki yaadein.",
+  "hashtags": [
+    "CounterStrike",
+    "CS16",
+    "Valve"
+  ],
+  "tags": [
+    "Counter-Strike",
+    "Counter-Strike 1.6",
+    "CS 1.6",
+    "de_dust2",
+    "Valve",
+    "Half-Life mod",
+    "cyber cafe games",
+    "classic games"
+  ]
+}

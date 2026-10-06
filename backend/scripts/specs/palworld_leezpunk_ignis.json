@@ -1,0 +1,15 @@
+{
+  "headline": "Palworld Breeding: Leezpunk Ignis kaise paayein",
+  "caption": "Leezpunk + Flambelle = Leezpunk Ignis. Palworld 1.0 ka unique breeding combo.",
+  "video_script": "Palworld में fire वाला Leezpunk, यानी Leezpunk Ignis, चाहिए? Leezpunk और Flambelle को breeding farm में साथ रखो, और cake डालो. ये unique combo है, इसलिए इन दो parents से हर बार Leezpunk Ignis ही निकलेगा. Palworld one point zero में भी ये combo काम करता है. ऐसे और combos के लिए follow करो!",
+  "parents": [
+    "Leezpunk",
+    "Flambelle"
+  ],
+  "child": "Leezpunk Ignis",
+  "color": [
+    255,
+    100,
+    40
+  ]
+}

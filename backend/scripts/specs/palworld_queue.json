@@ -1,0 +1,177 @@
+[
+  {
+    "parents": [
+      "Foxparks",
+      "Foxcicle"
+    ],
+    "child": "Foxparks Cryst"
+  },
+  {
+    "parents": [
+      "Chillet",
+      "Arsox"
+    ],
+    "child": "Chillet Ignis"
+  },
+  {
+    "parents": [
+      "Kitsun",
+      "Nyafia"
+    ],
+    "child": "Kitsun Noct"
+  },
+  {
+    "parents": [
+      "Blazehowl",
+      "Felbat"
+    ],
+    "child": "Blazehowl Noct"
+  },
+  {
+    "parents": [
+      "Bushi",
+      "Sootseer"
+    ],
+    "child": "Bushi Noct"
+  },
+  {
+    "parents": [
+      "Elphidran",
+      "Surfent"
+    ],
+    "child": "Elphidran Aqua"
+  },
+  {
+    "parents": [
+      "Mossanda",
+      "Grizzbolt"
+    ],
+    "child": "Mossanda Lux"
+  },
+  {
+    "parents": [
+      "Reptyro",
+      "Foxcicle"
+    ],
+    "child": "Reptyro Cryst"
+  },
+  {
+    "parents": [
+      "Jolthog",
+      "Pengullet"
+    ],
+    "child": "Jolthog Cryst"
+  },
+  {
+    "parents": [
+      "Eikthyrdeer",
+      "Hangyu"
+    ],
+    "child": "Eikthyrdeer Terra"
+  },
+  {
+    "parents": [
+      "Helzephyr",
+      "Beakon"
+    ],
+    "child": "Helzephyr Lux"
+  },
+  {
+    "parents": [
+      "Cryolinx",
+      "Dazemu"
+    ],
+    "child": "Cryolinx Terra"
+  },
+  {
+    "parents": [
+      "Warsect",
+      "Digtoise"
+    ],
+    "child": "Warsect Terra"
+  },
+  {
+    "parents": [
+      "Pyrin",
+      "Katress"
+    ],
+    "child": "Pyrin Noct"
+  },
+  {
+    "parents": [
+      "Quivern",
+      "Lullu"
+    ],
+    "child": "Quivern Botan"
+  },
+  {
+    "parents": [
+      "Mammorest",
+      "Wumpo"
+    ],
+    "child": "Mammorest Cryst"
+  },
+  {
+    "parents": [
+      "Loupmoon",
+      "Sweepa"
+    ],
+    "child": "Loupmoon Cryst"
+  },
+  {
+    "parents": [
+      "Gorirat",
+      "Kikit"
+    ],
+    "child": "Gorirat Terra"
+  },
+  {
+    "parents": [
+      "Fenglope",
+      "Azurmane"
+    ],
+    "child": "Fenglope Lux"
+  },
+  {
+    "parents": [
+      "Menasting",
+      "Knocklem"
+    ],
+    "child": "Menasting Terra"
+  },
+  {
+    "parents": [
+      "Caprity",
+      "Tarantriss"
+    ],
+    "child": "Caprity Noct"
+  },
+  {
+    "parents": [
+      "Dazzi",
+      "Omascul"
+    ],
+    "child": "Dazzi Noct"
+  },
+  {
+    "parents": [
+      "Hangyu",
+      "Swee"
+    ],
+    "child": "Hangyu Cryst"
+  },
+  {
+    "parents": [
+      "Ribbuny",
+      "Bristla"
+    ],
+    "child": "Ribbuny Botan"
+  },
+  {
+    "parents": [
+      "Faleris",
+      "Jormuntide"
+    ],
+    "child": "Faleris Aqua"
+  }
+]

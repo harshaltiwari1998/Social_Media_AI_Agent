@@ -1,0 +1,15 @@
+{
+  "headline": "Palworld Breeding: Lyleen Noct kaise paayein",
+  "caption": "Lyleen + Menasting = Lyleen Noct. Palworld 1.0 ka unique breeding combo.",
+  "video_script": "Palworld में dark वाला Lyleen, यानी Lyleen Noct, ऐसे breed करो. Lyleen और Menasting को breeding farm में साथ डालो. ये unique combo है, इसलिए इन दो parents से हमेशा Lyleen Noct ही निकलेगा. Palworld one point zero में भी ये combo वैसे ही काम करता है. Video save कर लो, बाद में काम आएगा!",
+  "parents": [
+    "Lyleen",
+    "Menasting"
+  ],
+  "child": "Lyleen Noct",
+  "color": [
+    150,
+    70,
+    230
+  ]
+}

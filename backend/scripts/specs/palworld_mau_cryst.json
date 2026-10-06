@@ -1,0 +1,15 @@
+{
+  "headline": "Palworld Breeding: Mau Cryst kaise paayein",
+  "caption": "Mau + Pengullet = Mau Cryst. Palworld 1.0 ka unique breeding combo.",
+  "video_script": "Palworld में ice वाला Mau, यानी Mau Cryst, बहुत आसानी से मिल जाता है. बस Mau और Pengullet को breeding farm में साथ डालो. ये unique combo है, इन दो parents से हमेशा Mau Cryst ही निकलेगा. Palworld one point zero में भी ये combo काम करता है. ऐसे और combos के लिए follow करो!",
+  "parents": [
+    "Mau",
+    "Pengullet"
+  ],
+  "child": "Mau Cryst",
+  "color": [
+    100,
+    200,
+    255
+  ]
+}

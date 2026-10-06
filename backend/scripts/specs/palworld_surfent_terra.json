@@ -1,0 +1,15 @@
+{
+  "headline": "Palworld Breeding: Surfent Terra kaise paayein",
+  "caption": "Surfent + Dumud = Surfent Terra. Palworld 1.0 ka unique breeding combo.",
+  "video_script": "Palworld में ground वाला Surfent, यानी Surfent Terra, चाहिए? Surfent और Dumud को breeding farm में साथ डालो, और cake डालो. ये unique combo है, इन दो parents से हमेशा Surfent Terra ही निकलेगा. Palworld one point zero में भी ये combo काम करता है. ऐसे और combos के लिए follow करो!",
+  "parents": [
+    "Surfent",
+    "Dumud"
+  ],
+  "child": "Surfent Terra",
+  "color": [
+    200,
+    150,
+    70
+  ]
+}

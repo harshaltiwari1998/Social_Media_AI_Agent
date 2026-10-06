@@ -1,0 +1,15 @@
+{
+  "headline": "Palworld Breeding: Kingpaca Cryst kaise paayein",
+  "caption": "Kingpaca + Reindrix = Kingpaca Cryst. Palworld 1.0 ka unique breeding combo.",
+  "video_script": "Palworld में ice वाला Kingpaca, यानी Kingpaca Cryst, चाहिए? Kingpaca और Reindrix को breeding farm में साथ रखो. ये unique combo है, इसलिए इन दो parents से हर बार Kingpaca Cryst ही निकलेगा. Palworld one point zero में भी ये combo काम करता है. Video save कर लो, बाद में काम आएगा!",
+  "parents": [
+    "Kingpaca",
+    "Reindrix"
+  ],
+  "child": "Kingpaca Cryst",
+  "color": [
+    90,
+    190,
+    255
+  ]
+}

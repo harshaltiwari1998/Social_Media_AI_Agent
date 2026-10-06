@@ -1,0 +1,15 @@
+{
+  "headline": "Palworld Breeding: Gobfin Ignis kaise paayein",
+  "caption": "Gobfin + Rooby = Gobfin Ignis. Palworld 1.0 ka unique breeding combo.",
+  "video_script": "Palworld में fire वाला Gobfin, यानी Gobfin Ignis, बहुत आसानी से मिल जाता है. बस Gobfin और Rooby को breeding farm में साथ रखो. ये unique combo है, इसलिए इन दो parents से हर बार Gobfin Ignis ही निकलेगा. Palworld one point zero में भी ये combo काम करता है. Video save कर लो, बाद में काम आएगा!",
+  "parents": [
+    "Gobfin",
+    "Rooby"
+  ],
+  "child": "Gobfin Ignis",
+  "color": [
+    255,
+    80,
+    50
+  ]
+}

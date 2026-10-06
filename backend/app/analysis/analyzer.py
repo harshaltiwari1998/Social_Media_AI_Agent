@@ -33,6 +33,7 @@ Respond with ONLY a JSON object matching this shape:
   "content_ideas": [
     {
       "trend_title": "must match one of the input trend titles",
+      "category": "one of: gaming, movies, music, sports, ai",
       "headline": "short, scroll-stopping headline for a social post (Hindi)",
       "caption": "1-2 sentence caption/body copy for the post, written for a general (non-technical) audience (Hindi)",
       "image_prompts": [
@@ -54,6 +55,8 @@ glowing networks, data particles, devices shown from an angle with no visible sc
 Each idea must be about exactly one input trend: copy its title verbatim into "trend_title", and
 base the headline, caption and script only on that trend's own title and summary - never compare
 it to a different topic or sport, and never invent facts that aren't in the summary.
+Set "category" to "gaming" only when the trend is about a video game, gaming hardware or the gaming
+industry; movies/TV, songs, sports and AI trends get their own category.
 Produce exactly 3 content_ideas, chosen from the highest-scoring, most newsworthy relevant trends."""
 
 

@@ -37,6 +37,22 @@ def _post_text(idea: dict[str, Any]) -> str:
     return "\n\n".join(p for p in parts if p)
 
 
+_GAMING_KEYWORDS = {"gaming", "game", "games", "videogame", "videogames", "esports", "gamer"}
+
+
+def is_gaming(idea: dict[str, Any]) -> bool:
+    """The LLM's category, falling back to the tags in case a small model omits it."""
+    category = str(idea.get("category") or "").strip().casefold()
+    if category:
+        return category == "gaming"
+    return any(re.sub(r"[^a-z]", "", str(tag).casefold()) in _GAMING_KEYWORDS for tag in idea.get("tags") or [])
+
+
+def platforms_for(idea: dict[str, Any]) -> list[str]:
+    """Gaming content -> GAMING_PLATFORMS (YouTube + Instagram), everything else -> TARGET_PLATFORMS."""
+    return list(settings.gaming_platforms if is_gaming(idea) else settings.target_platforms)
+
+
 _POSTERS: dict[str, SocialPoster] = {
     "facebook": FacebookPoster(),
     "instagram": InstagramPoster(),
@@ -51,9 +67,12 @@ def run_pipeline(
     platforms: list[str] | None = None,
     include_video: bool = True,
 ) -> dict[str, Any]:
-    """Trends -> LLM content ideas -> generated media -> (dry-run log | post), deduped via SQLite."""
-    target_platforms = platforms if platforms is not None else settings.target_platforms
-    unknown = sorted(set(target_platforms) - set(_POSTERS))
+    """Trends -> LLM content ideas -> generated media -> (dry-run log | post), deduped via SQLite.
+
+    An explicit `platforms` list overrides the per-idea gaming/non-gaming routing.
+    """
+    configured = platforms if platforms is not None else [*settings.target_platforms, *settings.gaming_platforms]
+    unknown = sorted(set(configured) - set(_POSTERS))
     if unknown:
         raise ValueError(f"unknown platform(s) {unknown}; choose from {sorted(_POSTERS)}")
 
@@ -87,6 +106,7 @@ def run_pipeline(
             "headline": idea["headline"],
             "post_text": _post_text(idea),
             "tags": idea.get("tags"),
+            "category": idea.get("category"),
             "video_script": idea["video_script"],
             "images": image_results,
             "video": None,
@@ -110,7 +130,7 @@ def run_pipeline(
         use_video = bool(video_result and video_result["success"])
         media_path = video_result["data"]["path"] if use_video else image_paths[0]
 
-        for platform_name in target_platforms:
+        for platform_name in platforms if platforms is not None else platforms_for(idea):
             poster = _POSTERS[platform_name]
 
             if store.already_posted(trend_id, platform_name):

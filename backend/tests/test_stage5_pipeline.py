@@ -121,3 +121,19 @@ def test_run_pipeline_skips_already_posted_trend(monkeypatch):
     result = orchestrator.run_pipeline(platforms=["facebook"], include_video=False)
 
     assert result["ideas"][0]["posts"][0] == {"platform": "facebook", "skipped": "already posted"}
+
+
+@pytest.mark.parametrize(
+    ("idea", "expected"),
+    [
+        ({"category": "gaming"}, ["youtube", "instagram"]),
+        ({"category": "sports", "tags": ["Gaming"]}, ["instagram", "facebook"]),
+        ({"tags": ["GTA6", "Gaming"]}, ["youtube", "instagram"]),
+        ({"tags": ["Bollywood"]}, ["instagram", "facebook"]),
+    ],
+)
+def test_platforms_for_routes_gaming_separately(monkeypatch, idea, expected):
+    monkeypatch.setattr(settings, "target_platforms", ["instagram", "facebook"])
+    monkeypatch.setattr(settings, "gaming_platforms", ["youtube", "instagram"])
+
+    assert orchestrator.platforms_for(idea) == expected

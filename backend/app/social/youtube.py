@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import os
 import re
 from pathlib import Path
 
@@ -49,7 +50,13 @@ class YouTubePoster(SocialPoster):
                     # fall back to the interactive login instead of failing the upload.
                     creds = None
             if not creds or not creds.valid:
-                flow = InstalledAppFlow.from_client_secrets_file(settings.youtube_client_secret_file, _SCOPES)
+                if os.environ.get("YOUTUBE_NONINTERACTIVE"):
+                    # Scheduled runs have nobody to click through the browser login - fail fast
+                    # instead of blocking forever on run_local_server().
+                    raise RuntimeError(
+                        "YouTube login expired - run scripts/youtube_login.py once interactively to sign in again"
+                    )
+                flow =InstalledAppFlow.from_client_secrets_file(settings.youtube_client_secret_file, _SCOPES)
                 creds = flow.run_local_server(port=0)
             token_path.parent.mkdir(parents=True, exist_ok=True)
             token_path.write_text(creds.to_json())
@@ -86,7 +93,7 @@ class YouTubePoster(SocialPoster):
         title = (re.split(r"[।.?]", first_line)[0].strip() or first_line)[:90] or "Trending Short"
 
         # "#Shorts" in the description helps YouTube file vertical <60s videos under Shorts.
-        snippet = {"title": title, "description": f"{caption}\n\n#Shorts", "categoryId": "24"}
+        snippet = {"title": title, "description": f"{caption}\n\n#Shorts", "categoryId": settings.youtube_category_id}
         if tags:
             snippet["tags"] = tags
 

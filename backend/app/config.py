@@ -52,10 +52,16 @@ class Settings(BaseSettings):
     media_public_base_url: str | None = Field(default=None, alias="MEDIA_PUBLIC_BASE_URL")
     cloudflared_path: str = Field(default="cloudflared", alias="CLOUDFLARED_PATH")
 
-    # Stage 5: which platforms the orchestrator targets by default.
+    # Stage 5: which platforms the orchestrator targets by default (non-gaming content).
     target_platforms: List[str] = Field(
-        default_factory=lambda: ["facebook", "twitter"], alias="TARGET_PLATFORMS"
+        default_factory=lambda: ["instagram", "facebook"], alias="TARGET_PLATFORMS"
     )
+    # Gaming content goes to these platforms instead of TARGET_PLATFORMS.
+    gaming_platforms: List[str] = Field(
+        default_factory=lambda: ["youtube", "instagram"], alias="GAMING_PLATFORMS"
+    )
+    # YouTube only receives gaming content by default, so "20" (Gaming) rather than "24" (Entertainment).
+    youtube_category_id: str = Field(default="20", alias="YOUTUBE_CATEGORY_ID")
 
     # Analysis LLM backend: "ollama" (free, local, default) or "openai"
     llm_backend: str = Field(default="ollama", alias="LLM_BACKEND")

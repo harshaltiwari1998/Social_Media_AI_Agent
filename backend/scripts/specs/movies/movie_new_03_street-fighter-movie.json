@@ -1,0 +1,46 @@
+{
+  "id": "street-fighter-movie",
+  "category": "movies",
+  "slot": "movie_new",
+  "order": 3,
+  "expires": "2026-10-16",
+  "headline": "Street Fighter movie mein Vidyut Jammwal!",
+  "title": "Street Fighter Movie 16 October | Vidyut Jammwal Bane Dhalsim | Movie News Hindi",
+  "video_script": "Street Fighter game अब Hollywood movie बनकर आ रही है, release date है 16 October 2026. और सबसे मज़ेदार बात, अपने Vidyut Jammwal इसमें Dhalsim बने हैं! Ryu बने हैं Andrew Koji, Ken बने हैं Noah Centineo, और Jason Momoa बने हैं Blanka. कहानी 1993 में सेट है. आप ये movie देखोगे? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Street Fighter (2026 film)",
+      "label": "Street Fighter (2026)"
+    },
+    {
+      "image": "wiki:Street Fighter (2026 film)",
+      "fact": "16 October 2026",
+      "sub": "Release date"
+    },
+    {
+      "image": "wiki:Street Fighter (2026 film)",
+      "fact": "Vidyut Jammwal = Dhalsim",
+      "sub": "India ka tadka!"
+    },
+    {
+      "image": "wiki:Street Fighter (2026 film)",
+      "fact": "Ryu, Ken, Chun-Li, Blanka",
+      "sub": "Andrew Koji | Noah Centineo | Jason Momoa"
+    }
+  ],
+  "description": "Street Fighter (2026) ki release date 16 October 2026. Vidyut Jammwal as Dhalsim, Andrew Koji as Ryu, Noah Centineo as Ken, Jason Momoa as Blanka.",
+  "hashtags": [
+    "StreetFighter",
+    "VidyutJammwal",
+    "Hollywood"
+  ],
+  "tags": [
+    "Street Fighter movie",
+    "Street Fighter 2026",
+    "Vidyut Jammwal Dhalsim",
+    "Jason Momoa Blanka",
+    "Hollywood movies 2026",
+    "video game movie",
+    "movie news Hindi"
+  ]
+}

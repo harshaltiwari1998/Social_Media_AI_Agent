@@ -1,0 +1,47 @@
+{
+  "id": "haiwaan-review-box-office",
+  "category": "movies",
+  "slot": "movie_review",
+  "order": 2,
+  "expires": "2026-10-25",
+  "headline": "Haiwaan: kyun nahi chali?",
+  "title": "Haiwaan Review aur Box Office | Akshay Kumar, Saif Ali Khan | Movie Review Hindi",
+  "video_script": "Akshay Kumar और Saif Ali Khan की Haiwaan 11 September को release हुई. Tashan के बाद दोनों पहली बार साथ आए, और director थे Priyadarshan. लेकिन film को critics से mixed reviews मिले, और box office पर पहले हफ़्ते में सिर्फ़ करीब 8.75 crore net की कमाई हुई. Hindustan Times ने Priyadarshan के direction की तारीफ़ की, पर कहानी पर सवाल उठाए. आपने Haiwaan देखी? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Haiwaan (film)",
+      "label": "Haiwaan"
+    },
+    {
+      "image": "wiki:Haiwaan (film)",
+      "fact": "Akshay + Saif",
+      "sub": "Tashan (2008) ke baad pehli baar saath"
+    },
+    {
+      "image": "wiki:Haiwaan (film)",
+      "fact": "Rs 8.75 crore",
+      "sub": "Pehle hafte ka net"
+    },
+    {
+      "image": "wiki:Haiwaan (film)",
+      "fact": "Mixed reviews",
+      "sub": "Direction achha, kahani kamzor"
+    }
+  ],
+  "description": "Haiwaan (11 September 2026) - Akshay Kumar aur Saif Ali Khan, director Priyadarshan. Mixed reviews, pehle hafte ~Rs 8.75 crore net.",
+  "hashtags": [
+    "Haiwaan",
+    "AkshayKumar",
+    "SaifAliKhan"
+  ],
+  "tags": [
+    "Haiwaan",
+    "Haiwaan review",
+    "Haiwaan box office collection",
+    "Akshay Kumar",
+    "Saif Ali Khan",
+    "Priyadarshan",
+    "Bollywood box office",
+    "movie review Hindi"
+  ]
+}

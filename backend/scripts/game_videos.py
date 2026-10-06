@@ -1,6 +1,7 @@
-"""Gaming shorts (new/upcoming releases and classic games) built from real game images.
+"""Gaming and movie shorts built from real images (game screenshots, cover art, posters).
 
-A spec in scripts/specs/games/*.json describes the narration, post text and 4 scenes.
+A spec in scripts/specs/games/*.json or scripts/specs/movies/*.json describes the
+narration, post text and 4 scenes ("category": "movies" for movie specs, else gaming).
 Each scene shows a real image - "steam:<appid>:<n>" (nth official Steam screenshot)
 or "wiki:<Wikipedia article>" (the article's infobox image, usually the cover art)
 or "wikifile:<File name>" (a specific Wikipedia/Commons file) -
@@ -136,7 +137,8 @@ def fact_card(img: Image.Image, fact: str, sub: str | None) -> Image.Image:
     return canvas.convert("RGB")
 
 
-_BADGES = {"new": "NEW GAME", "classic": "CLASSIC GAME"}
+_BADGES = {"new": "NEW GAME", "classic": "CLASSIC GAME", "movie_new": "NEW MOVIE", "movie_review": "BOX OFFICE + REVIEW"}
+_DEFAULT_HASHTAGS = {"gaming": ["Gaming", "GamingHindi"], "movies": ["Movies", "MovieNews", "Bollywood"]}
 
 
 def build_video(spec_path: Path) -> dict:
@@ -157,12 +159,17 @@ def build_video(spec_path: Path) -> dict:
 
 
 def post_id_for(spec: dict) -> str:
-    return f"custom:game-{spec['id']}"
+    return f"custom:{'movie' if category_of(spec) == 'movies' else 'game'}-{spec['id']}"
+
+
+def category_of(spec: dict) -> str:
+    return spec.get("category", "gaming")
 
 
 def post_text_and_tags(spec: dict) -> tuple[str, list[str]]:
     """Title on the first line (YouTube's title - no "." or "?", it's cut there), description, hashtags."""
-    hashtags = " ".join(f"#{h}" for h in [*spec.get("hashtags", []), "Gaming", "GamingHindi", "Shorts"])
+    extra = [h for h in _DEFAULT_HASHTAGS[category_of(spec)] if h not in spec.get("hashtags", [])]
+    hashtags = " ".join(f"#{h}" for h in [*spec.get("hashtags", []), *extra, "Shorts"])
     return f"{spec['title']}\n\n{spec['description']}\n\n{hashtags}", list(spec.get("tags", []))
 
 

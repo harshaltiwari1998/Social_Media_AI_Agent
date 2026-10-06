@@ -13,19 +13,25 @@ _SCOPES = [
 ]
 
 
-def _token_path() -> Path:
-    return Path(settings.media_output_dir).parent / ".cache" / "youtube_token.json"
+_BACKEND_ROOT = Path(__file__).resolve().parents[2]
 
 
 class YouTubePoster(SocialPoster):
-    """Uploads shorts to YouTube via the Data API v3 (OAuth installed-app flow).
+    """Uploads shorts to one YouTube channel via the Data API v3 (OAuth installed-app flow).
 
-    First run must happen interactively (it opens a browser to authorize);
-    the resulting refresh token is cached to `.cache/youtube_token.json` so
-    later scheduled runs don't need a browser.
+    Each channel has its own cached token file (one login per channel), e.g. the gaming
+    channel and the movies channel. The first login must happen interactively
+    (scripts/youtube_login.py opens a browser); later scheduled runs reuse the token.
     """
 
-    platform = "youtube"
+    def __init__(self, platform: str = "youtube", token_file: str | None = None, category_id: str | None = None) -> None:
+        self.platform = platform
+        self._token_file = token_file
+        self._category_id = category_id
+
+    def _token_path(self) -> Path:
+        path = Path(self._token_file or settings.youtube_token_file)
+        return path if path.is_absolute() else _BACKEND_ROOT / path
 
     def is_configured(self) -> bool:
         return bool(settings.youtube_client_secret_file)
@@ -36,7 +42,7 @@ class YouTubePoster(SocialPoster):
         from google.oauth2.credentials import Credentials
         from google_auth_oauthlib.flow import InstalledAppFlow
 
-        token_path = _token_path()
+        token_path = self._token_path()
         creds = None
         if token_path.exists():
             creds = Credentials.from_authorized_user_file(str(token_path), _SCOPES)
@@ -54,9 +60,9 @@ class YouTubePoster(SocialPoster):
                     # Scheduled runs have nobody to click through the browser login - fail fast
                     # instead of blocking forever on run_local_server().
                     raise RuntimeError(
-                        "YouTube login expired - run scripts/youtube_login.py once interactively to sign in again"
+                        f"YouTube login for {self.platform} expired - run scripts/youtube_login.py {self.platform} once to sign in again"
                     )
-                flow =InstalledAppFlow.from_client_secrets_file(settings.youtube_client_secret_file, _SCOPES)
+                flow = InstalledAppFlow.from_client_secrets_file(settings.youtube_client_secret_file, _SCOPES)
                 creds = flow.run_local_server(port=0)
             token_path.parent.mkdir(parents=True, exist_ok=True)
             token_path.write_text(creds.to_json())
@@ -93,7 +99,7 @@ class YouTubePoster(SocialPoster):
         title = (re.split(r"[।.?]", first_line)[0].strip() or first_line)[:90] or "Trending Short"
 
         # "#Shorts" in the description helps YouTube file vertical <60s videos under Shorts.
-        snippet = {"title": title, "description": f"{caption}\n\n#Shorts", "categoryId": settings.youtube_category_id}
+        snippet = {"title": title, "description": f"{caption}\n\n#Shorts", "categoryId": self._category_id or settings.youtube_category_id}
         if tags:
             snippet["tags"] = tags
 

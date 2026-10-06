@@ -1,0 +1,46 @@
+{
+  "id": "drishyam-3-review-box-office",
+  "category": "movies",
+  "slot": "movie_review",
+  "order": 1,
+  "expires": "2026-10-31",
+  "headline": "Drishyam 3: review aur box office",
+  "title": "Drishyam 3 Review aur Box Office | Ajay Devgn Ki Sabse Badi Opening | Movie Review Hindi",
+  "video_script": "Drishyam 3, यानी Drishyam: The Conclusion, 2 October को release हुई, और Ajay Devgn के career की सबसे बड़ी opening ले आई. पहले दिन India में करीब 66.75 crore net. Critics को भी film पसंद आई: Bollywood Hungama ने साढ़े चार star दिए, और Times of India ने साढ़े तीन star, ये कहते हुए कि आख़िर में film थोड़ी खिंचती है. आपने देखी? कैसी लगी? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Drishyam: The Conclusion",
+      "label": "Drishyam: The Conclusion"
+    },
+    {
+      "image": "wiki:Drishyam: The Conclusion",
+      "fact": "Rs 66.75 crore",
+      "sub": "Pehle din ka India net - Ajay Devgn ki sabse badi opening"
+    },
+    {
+      "image": "wiki:Drishyam: The Conclusion",
+      "fact": "4.5 / 5",
+      "sub": "Bollywood Hungama"
+    },
+    {
+      "image": "wiki:Drishyam: The Conclusion",
+      "fact": "3.5 / 5",
+      "sub": "Times of India - 'end mein thodi khinchti hai'"
+    }
+  ],
+  "description": "Drishyam 3 (Drishyam: The Conclusion) 2 October 2026 ko release - pehle din ~Rs 66.75 crore India net, Ajay Devgn ki career best opening. Bollywood Hungama 4.5/5, Times of India 3.5/5.",
+  "hashtags": [
+    "Drishyam3",
+    "AjayDevgn",
+    "BoxOffice"
+  ],
+  "tags": [
+    "Drishyam 3",
+    "Drishyam The Conclusion",
+    "Drishyam 3 review",
+    "Drishyam 3 box office collection",
+    "Ajay Devgn",
+    "Bollywood box office",
+    "movie review Hindi"
+  ]
+}

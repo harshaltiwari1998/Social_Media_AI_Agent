@@ -2,8 +2,10 @@
 
 1. Retry: every gaming video in media_output/{palworld,game}_videos.json is posted to the
    gaming platforms it hasn't reached yet (e.g. after YouTube's daily upload limit).
-2. New gaming videos: one new/upcoming game, one classic game (scripts/specs/games/) and
-   one Palworld breeding combo (scripts/specs/palworld_queue.json) per day by default.
+2. New videos, per day by default: one new/upcoming game, one classic game
+   (scripts/specs/games/), one Palworld breeding combo (scripts/specs/palworld_queue.json)
+   -> gaming channel; one new/upcoming movie and one review/box-office video
+   (scripts/specs/movies/) -> movies channel.
 3. Trends: the regular trend -> LLM -> media -> post pipeline (gaming/non-gaming routing).
 
 Already-posted (trend, platform) pairs are skipped via the pipeline store, so re-running
@@ -38,6 +40,7 @@ MANIFEST = ROOT / settings.media_output_dir / "palworld_videos.json"
 GAME_MANIFEST = ROOT / settings.media_output_dir / "game_videos.json"
 QUEUE = ROOT / "scripts" / "specs" / "palworld_queue.json"
 GAME_SPECS = ROOT / "scripts" / "specs" / "games"
+MOVIE_SPECS = ROOT / "scripts" / "specs" / "movies"
 OLLAMA_EXE = Path(r"F:\AI AGENT\Ollama\ollama.exe")
 OLLAMA_MODELS = ROOT / ".cache" / "ollama-models"
 
@@ -53,21 +56,21 @@ def _save(path: Path, manifest: dict) -> None:
 
 
 class Poster:
-    """Posts gaming videos; stops using YouTube for the run once its daily upload limit is hit."""
+    """Posts gaming/movie videos; stops using a YouTube channel for the run once its daily upload limit is hit."""
 
     def __init__(self) -> None:
-        self.youtube_blocked = False
+        self.blocked: set[str] = set()
 
     @staticmethod
-    def pending(trend_id: str) -> bool:
-        return not all(store.already_posted(trend_id, name) for name in platforms_for({"category": "gaming"}))
+    def pending(trend_id: str, category: str = "gaming") -> bool:
+        return not all(store.already_posted(trend_id, name) for name in platforms_for({"category": category}))
 
-    def post(self, trend_id: str, text: str, tags: list[str], video_path: str) -> None:
-        for name in platforms_for({"category": "gaming"}):
+    def post(self, trend_id: str, text: str, tags: list[str], video_path: str, category: str = "gaming") -> None:
+        for name in platforms_for({"category": category}):
             if store.already_posted(trend_id, name):
                 continue
-            if name == "youtube" and self.youtube_blocked:
-                log.info("  %s: skipped (YouTube upload limit reached today, retry tomorrow)", name)
+            if name in self.blocked:
+                log.info("  %s: skipped (upload limit reached today, retry tomorrow)", name)
                 continue
             result = _POSTERS[name].post_video(video_path, text, tags=tags)
             store.record_post(trend_id, name, result.post_id, result.dry_run)
@@ -75,8 +78,8 @@ class Poster:
                 log.info("  %s: posted %s%s", name, result.post_id, " (dry run)" if result.dry_run else "")
             else:
                 log.warning("  %s: FAILED %s", name, result.error)
-                if name == "youtube" and "uploadLimitExceeded" in (result.error or ""):
-                    self.youtube_blocked = True
+                if name.startswith("youtube") and "uploadLimitExceeded" in (result.error or ""):
+                    self.blocked.add(name)
 
 
 def _build(builder, spec_path: Path) -> str | None:
@@ -111,11 +114,12 @@ def retry_pending(poster: Poster) -> None:
             _save(MANIFEST, manifest)
         poster.post(pal.post_id_for(spec), *pal.post_text_and_tags(spec), entry["video"])
 
-    games = _load(GAME_MANIFEST)
+    games = _load(GAME_MANIFEST)  # gaming and movie specs built by game_videos.py
     for game_id, entry in games.items():
         spec_path = ROOT / entry["spec"]
         spec = json.loads(spec_path.read_text(encoding="utf-8"))
-        if not poster.pending(game.post_id_for(spec)):
+        category = game.category_of(spec)
+        if not poster.pending(game.post_id_for(spec), category):
             continue
         log.info("%s", game_id)
         if not Path(entry["video"]).exists():
@@ -123,7 +127,7 @@ def retry_pending(poster: Poster) -> None:
                 continue
             entry["video"] = video
             _save(GAME_MANIFEST, games)
-        poster.post(game.post_id_for(spec), *game.post_text_and_tags(spec), entry["video"])
+        poster.post(game.post_id_for(spec), *game.post_text_and_tags(spec), entry["video"], category)
 
 
 def make_new_palworld(poster: Poster, count: int) -> None:
@@ -148,21 +152,22 @@ def make_new_palworld(poster: Poster, count: int) -> None:
         poster.post(pal.post_id_for(spec), *pal.post_text_and_tags(spec), video)
 
 
-def make_new_games(poster: Poster, slot: str, count: int) -> None:
-    """Next `count` unposted specs of a slot ("new" / "classic"), in order, skipping expired news."""
-    log.info("== New %s-game videos (up to %d)", slot, count)
+def make_new_games(poster: Poster, slot: str, count: int, spec_dir: Path = GAME_SPECS) -> None:
+    """Next `count` unposted specs of a slot ("new" / "classic" games, "movie_new" / "movie_review"),
+    in order, skipping expired news."""
+    log.info("== New %s videos (up to %d)", slot, count)
     if count <= 0:
         return
     games = _load(GAME_MANIFEST)
     today = date.today().isoformat()
     specs = []
-    for path in sorted(GAME_SPECS.glob(f"{slot}_*.json")):
+    for path in sorted(spec_dir.glob(f"{slot}_*.json")):
         spec = json.loads(path.read_text(encoding="utf-8"))
         if spec["id"] in games or spec.get("expires", "9999-12-31") < today:
             continue
         specs.append((spec["order"], path, spec))
     if not specs:
-        log.warning("No %s-game specs left - add more to %s", slot, GAME_SPECS.relative_to(ROOT))
+        log.warning("No %s specs left - add more to %s", slot, spec_dir.relative_to(ROOT))
         return
     for _, path, spec in sorted(specs, key=lambda t: t[0])[:count]:
         log.info("%s", spec["id"])
@@ -170,7 +175,7 @@ def make_new_games(poster: Poster, slot: str, count: int) -> None:
             continue
         games[spec["id"]] = {"spec": path.relative_to(ROOT).as_posix(), "video": video}
         _save(GAME_MANIFEST, games)
-        poster.post(game.post_id_for(spec), *game.post_text_and_tags(spec), video)
+        poster.post(game.post_id_for(spec), *game.post_text_and_tags(spec), video, game.category_of(spec))
 
 
 def _ensure_ollama() -> subprocess.Popen | None:
@@ -219,8 +224,10 @@ def main() -> None:
     parser.add_argument("--new-games", type=int, default=1, help="new/upcoming-game videos per day")
     parser.add_argument("--classic-games", type=int, default=1, help="classic-game videos per day")
     parser.add_argument("--new-palworld", type=int, default=1, help="new Palworld videos per day")
+    parser.add_argument("--new-movies", type=int, default=1, help="new/upcoming-movie videos per day")
+    parser.add_argument("--movie-reviews", type=int, default=1, help="movie review / box-office videos per day")
     parser.add_argument("--skip-trends", action="store_true")
-    parser.add_argument("--skip-gaming", action="store_true", help="gaming videos run on GitHub Actions instead")
+    parser.add_argument("--skip-gaming", action="store_true", help="gaming + movie videos run on GitHub Actions instead")
     args = parser.parse_args()
 
     log_dir = ROOT / settings.media_output_dir / "logs"
@@ -238,6 +245,8 @@ def main() -> None:
         lambda: make_new_games(poster, "new", args.new_games),
         lambda: make_new_games(poster, "classic", args.classic_games),
         lambda: make_new_palworld(poster, args.new_palworld),
+        lambda: make_new_games(poster, "movie_new", args.new_movies, MOVIE_SPECS),
+        lambda: make_new_games(poster, "movie_review", args.movie_reviews, MOVIE_SPECS),
     ]
     for step in steps:
         try:

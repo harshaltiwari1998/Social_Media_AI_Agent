@@ -1,0 +1,46 @@
+{
+  "id": "clayface",
+  "category": "movies",
+  "slot": "movie_new",
+  "order": 4,
+  "expires": "2026-10-23",
+  "headline": "Clayface - DC ki horror film",
+  "title": "Clayface Release Date 23 October | DC Ki Body Horror Movie | Movie News Hindi",
+  "video_script": "DC की नई film Clayface की release date है 23 October 2026. ये Batman के villain Clayface की origin story है, जो अपनी शक्ल बदल सकता है. ये एक body horror film है, और Halloween के मौके को देखते हुए इसकी date September से October में खिसकाई गई. Clayface का role Tom Rhys Harries निभा रहे हैं. आप horror movies पसंद करते हो? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Clayface (film)",
+      "label": "Clayface"
+    },
+    {
+      "image": "wiki:Clayface (film)",
+      "fact": "23 October 2026",
+      "sub": "Release date"
+    },
+    {
+      "image": "wiki:Clayface (film)",
+      "fact": "Batman villain ki origin",
+      "sub": "Shakl badalne wala Clayface"
+    },
+    {
+      "image": "wiki:Clayface (film)",
+      "fact": "Body horror",
+      "sub": "Tom Rhys Harries as Clayface"
+    }
+  ],
+  "description": "Clayface (DC Studios) ki release date 23 October 2026 hai - Batman villain ki body horror origin story, Tom Rhys Harries as Clayface.",
+  "hashtags": [
+    "Clayface",
+    "DC",
+    "Batman"
+  ],
+  "tags": [
+    "Clayface",
+    "Clayface movie",
+    "DC Studios",
+    "Batman villain",
+    "horror movie 2026",
+    "Hollywood movies 2026",
+    "movie news Hindi"
+  ]
+}

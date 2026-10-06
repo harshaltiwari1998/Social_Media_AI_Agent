@@ -1,0 +1,45 @@
+{
+  "id": "october-movies",
+  "category": "movies",
+  "slot": "movie_new",
+  "order": 1,
+  "expires": "2026-10-15",
+  "headline": "Is mahine theatre mein kya dekhein?",
+  "title": "October 2026 Ki Badi Movies | Jailer 2, Street Fighter, Clayface | Movie News Hindi",
+  "video_script": "इस महीने theatre में क्या देखें? 15 October को Rajinikanth की Jailer 2. 16 October को Hollywood की Street Fighter, जिसमें अपने Vidyut Jammwal, Dhalsim बने हैं. और 23 October को DC की horror film Clayface. आप इनमें से कौन सी movie देखने जाओगे? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Jailer 2",
+      "label": "Jailer 2 - 15 October"
+    },
+    {
+      "image": "wiki:Street Fighter (2026 film)",
+      "label": "Street Fighter - 16 October"
+    },
+    {
+      "image": "wiki:Clayface (film)",
+      "label": "Clayface - 23 October"
+    },
+    {
+      "image": "wiki:Jailer 2",
+      "fact": "Aap kaunsi dekhoge?",
+      "sub": "Comment karo!"
+    }
+  ],
+  "description": "October 2026 ki badi movies: Jailer 2 (15 Oct), Street Fighter (16 Oct, Vidyut Jammwal as Dhalsim), Clayface (23 Oct).",
+  "hashtags": [
+    "Jailer2",
+    "StreetFighter",
+    "Clayface"
+  ],
+  "tags": [
+    "October 2026 movies",
+    "new movies October 2026",
+    "Jailer 2",
+    "Street Fighter movie",
+    "Clayface",
+    "Rajinikanth",
+    "Vidyut Jammwal",
+    "movie news Hindi"
+  ]
+}

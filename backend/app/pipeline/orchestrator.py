@@ -49,15 +49,23 @@ def is_gaming(idea: dict[str, Any]) -> bool:
 
 
 def platforms_for(idea: dict[str, Any]) -> list[str]:
-    """Gaming content -> GAMING_PLATFORMS (YouTube + Instagram), everything else -> TARGET_PLATFORMS."""
-    return list(settings.gaming_platforms if is_gaming(idea) else settings.target_platforms)
+    """Gaming -> GAMING_PLATFORMS (gaming YouTube channel + Instagram), movies -> MOVIE_PLATFORMS
+    (movies YouTube channel + Instagram + Facebook), everything else -> TARGET_PLATFORMS."""
+    if is_gaming(idea):
+        return list(settings.gaming_platforms)
+    if str(idea.get("category") or "").strip().casefold() == "movies":
+        return list(settings.movie_platforms)
+    return list(settings.target_platforms)
 
 
 _POSTERS: dict[str, SocialPoster] = {
     "facebook": FacebookPoster(),
     "instagram": InstagramPoster(),
     "twitter": TwitterPoster(),
-    "youtube": YouTubePoster(),
+    "youtube": YouTubePoster(),  # gaming channel
+    "youtube_movies": YouTubePoster(
+        "youtube_movies", settings.youtube_movies_token_file, settings.youtube_movies_category_id
+    ),
 }
 
 
@@ -71,7 +79,11 @@ def run_pipeline(
 
     An explicit `platforms` list overrides the per-idea gaming/non-gaming routing.
     """
-    configured = platforms if platforms is not None else [*settings.target_platforms, *settings.gaming_platforms]
+    configured = (
+        platforms
+        if platforms is not None
+        else [*settings.target_platforms, *settings.gaming_platforms, *settings.movie_platforms]
+    )
     unknown = sorted(set(configured) - set(_POSTERS))
     if unknown:
         raise ValueError(f"unknown platform(s) {unknown}; choose from {sorted(_POSTERS)}")

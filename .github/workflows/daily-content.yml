@@ -1,8 +1,9 @@
-name: Daily gaming videos
+name: Daily gaming and movie videos
 
-# Makes the day's gaming shorts (1 new/upcoming game, 1 classic game, 1 Palworld breeding
-# combo), retries uploads that failed earlier, and posts to YouTube + Instagram - no laptop
-# needed. "What's already posted" lives on the gaming-state branch.
+# Makes the day's shorts - gaming (1 new/upcoming game, 1 classic game, 1 Palworld breeding
+# combo) -> HarryBeast Gaming YouTube + Instagram, and movies (1 new/upcoming movie, 1
+# review/box-office) -> Name Writer YouTube + Instagram + Facebook - and retries uploads that
+# failed earlier. No laptop needed. "What's already posted" lives on the gaming-state branch.
 on:
   schedule:
     - cron: "30 4 * * *" # 10:00 IST
@@ -16,6 +17,12 @@ on:
         default: "1"
       new_palworld:
         description: "Palworld breeding videos"
+        default: "1"
+      new_movies:
+        description: "New/upcoming-movie videos"
+        default: "1"
+      movie_reviews:
+        description: "Movie review / box-office videos"
         default: "1"
 
 concurrency:
@@ -67,9 +74,11 @@ jobs:
         env:
           YOUTUBE_CLIENT_SECRET_JSON: ${{ secrets.YOUTUBE_CLIENT_SECRET_JSON }}
           YOUTUBE_TOKEN_JSON: ${{ secrets.YOUTUBE_TOKEN_JSON }}
+          YOUTUBE_MOVIES_TOKEN_JSON: ${{ secrets.YOUTUBE_MOVIES_TOKEN_JSON }}
         run: |
           printf '%s' "$YOUTUBE_CLIENT_SECRET_JSON" > .cache/youtube_client_secret.json
           printf '%s' "$YOUTUBE_TOKEN_JSON" > .cache/youtube_token.json
+          printf '%s' "$YOUTUBE_MOVIES_TOKEN_JSON" > .cache/youtube_token_movies.json
 
       - name: Make and post videos
         env:
@@ -79,7 +88,9 @@ jobs:
           META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
           YOUTUBE_CLIENT_SECRET_FILE: .cache/youtube_client_secret.json
           GAMING_PLATFORMS: '["youtube","instagram"]'
+          MOVIE_PLATFORMS: '["youtube_movies","instagram","facebook"]'
           YOUTUBE_CATEGORY_ID: "20"
+          YOUTUBE_MOVIES_CATEGORY_ID: "24"
           CLOUDFLARED_PATH: /usr/local/bin/cloudflared
           PYTHONUNBUFFERED: "1"
         run: >-
@@ -87,6 +98,8 @@ jobs:
           --new-games "${{ github.event.inputs.new_games || '1' }}"
           --classic-games "${{ github.event.inputs.classic_games || '1' }}"
           --new-palworld "${{ github.event.inputs.new_palworld || '1' }}"
+          --new-movies "${{ github.event.inputs.new_movies || '1' }}"
+          --movie-reviews "${{ github.event.inputs.movie_reviews || '1' }}"
 
       - name: Save posting state
         if: always()

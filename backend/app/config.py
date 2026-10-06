@@ -60,8 +60,16 @@ class Settings(BaseSettings):
     gaming_platforms: List[str] = Field(
         default_factory=lambda: ["youtube", "instagram"], alias="GAMING_PLATFORMS"
     )
-    # YouTube only receives gaming content by default, so "20" (Gaming) rather than "24" (Entertainment).
+    # Movie content (new releases, reviews) goes to these platforms.
+    movie_platforms: List[str] = Field(
+        default_factory=lambda: ["youtube_movies", "instagram", "facebook"], alias="MOVIE_PLATFORMS"
+    )
+    # Two YouTube channels, one login (token file) each: "youtube" is the gaming channel
+    # (category 20 = Gaming), "youtube_movies" the movies channel (24 = Entertainment).
+    youtube_token_file: str = Field(default=".cache/youtube_token.json", alias="YOUTUBE_TOKEN_FILE")
     youtube_category_id: str = Field(default="20", alias="YOUTUBE_CATEGORY_ID")
+    youtube_movies_token_file: str = Field(default=".cache/youtube_token_movies.json", alias="YOUTUBE_MOVIES_TOKEN_FILE")
+    youtube_movies_category_id: str = Field(default="24", alias="YOUTUBE_MOVIES_CATEGORY_ID")
 
     # Analysis LLM backend: "ollama" (free, local, default) or "openai"
     llm_backend: str = Field(default="ollama", alias="LLM_BACKEND")

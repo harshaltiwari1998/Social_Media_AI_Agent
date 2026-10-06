@@ -1,0 +1,18 @@
+{
+  "gears-of-war-e-day": {
+    "spec": "scripts/specs/games/new_01_gears-of-war-e-day.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-2388369d.mp4"
+  },
+  "gta-san-andreas-cheats": {
+    "spec": "scripts/specs/games/classic_01_gta-san-andreas-cheats.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-0f8f0595.mp4"
+  },
+  "october-movies": {
+    "spec": "scripts/specs/movies/movie_new_01_october-movies.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-03e7e017.mp4"
+  },
+  "drishyam-3-review-box-office": {
+    "spec": "scripts/specs/movies/movie_review_01_drishyam-3-review-box-office.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-a6f581cb.mp4"
+  }
+}

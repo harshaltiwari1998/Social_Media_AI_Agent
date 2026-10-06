@@ -37,26 +37,45 @@
   },
   "Broncherry Aqua": {
     "spec": "scripts/specs/palworld_broncherry_aqua.json",
-    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\videos\\short-fedea2dd.mp4"
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-74d06b21.mp4"
   },
   "Leezpunk Ignis": {
     "spec": "scripts/specs/palworld_leezpunk_ignis.json",
-    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\videos\\short-b5959e6d.mp4"
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-6faf41ea.mp4"
   },
   "Robinquill Terra": {
     "spec": "scripts/specs/palworld_robinquill_terra.json",
-    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\videos\\short-04171e8a.mp4"
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b0b54fcc.mp4"
   },
   "Gobfin Ignis": {
     "spec": "scripts/specs/palworld_gobfin_ignis.json",
-    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\videos\\short-db529562.mp4"
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-c122cf46.mp4"
   },
   "Surfent Terra": {
     "spec": "scripts/specs/palworld_surfent_terra.json",
-    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\videos\\short-3c50f7b2.mp4"
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-c0437f65.mp4"
   },
   "Dinossom Lux": {
     "spec": "scripts/specs/palworld_dinossom_lux.json",
-    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\videos\\short-c1280d4d.mp4"
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-8a603a6b.mp4"
+  },
+  "Foxparks Cryst": {
+    "spec": "scripts/specs/palworld_foxparks_cryst.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-09e3cf96.mp4",
+    "data": {
+      "headline": "Palworld Breeding: Foxparks Cryst kaise paayein",
+      "caption": "Foxparks + Foxcicle = Foxparks Cryst. Palworld 1.0 ka unique breeding combo.",
+      "video_script": "Foxparks Cryst चाहिए? तो ये combo याद रखो. Foxparks और Foxcicle को breeding farm में साथ डालो, और cake डालो. ये unique combo है, इन दो parents से हमेशा Foxparks Cryst ही निकलेगा. Palworld one point zero में भी ये combo काम करता है. आपका favourite Pal कौन सा है? Comment करो!",
+      "parents": [
+        "Foxparks",
+        "Foxcicle"
+      ],
+      "child": "Foxparks Cryst",
+      "color": [
+        80,
+        180,
+        255
+      ]
+    }
   }
 }

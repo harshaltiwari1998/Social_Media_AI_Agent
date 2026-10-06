@@ -1,0 +1,62 @@
+{
+  "Relaxaurus Lux": {
+    "spec": "scripts/specs/palworld_relaxaurus_lux.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\videos\\short-17da151a.mp4"
+  },
+  "Vanwyrm Cryst": {
+    "spec": "scripts/specs/palworld_vanwyrm_cryst.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\videos\\short-50157023.mp4"
+  },
+  "Jormuntide Ignis": {
+    "spec": "scripts/specs/palworld_jormuntide_ignis.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\videos\\short-8230c382.mp4"
+  },
+  "Lyleen Noct": {
+    "spec": "scripts/specs/palworld_lyleen_noct.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\videos\\short-180d7db5.mp4"
+  },
+  "Frostallion Noct": {
+    "spec": "scripts/specs/palworld_frostallion_noct.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\videos\\short-becc43c2.mp4"
+  },
+  "Suzaku Aqua": {
+    "spec": "scripts/specs/palworld_suzaku_aqua.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\videos\\short-b7aed203.mp4"
+  },
+  "Incineram Noct": {
+    "spec": "scripts/specs/palworld_incineram_noct.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\videos\\short-1dfc0c3b.mp4"
+  },
+  "Kingpaca Cryst": {
+    "spec": "scripts/specs/palworld_kingpaca_cryst.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\videos\\short-77d81fab.mp4"
+  },
+  "Mau Cryst": {
+    "spec": "scripts/specs/palworld_mau_cryst.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\videos\\short-862d2063.mp4"
+  },
+  "Broncherry Aqua": {
+    "spec": "scripts/specs/palworld_broncherry_aqua.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\videos\\short-fedea2dd.mp4"
+  },
+  "Leezpunk Ignis": {
+    "spec": "scripts/specs/palworld_leezpunk_ignis.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\videos\\short-b5959e6d.mp4"
+  },
+  "Robinquill Terra": {
+    "spec": "scripts/specs/palworld_robinquill_terra.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\videos\\short-04171e8a.mp4"
+  },
+  "Gobfin Ignis": {
+    "spec": "scripts/specs/palworld_gobfin_ignis.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\videos\\short-db529562.mp4"
+  },
+  "Surfent Terra": {
+    "spec": "scripts/specs/palworld_surfent_terra.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\videos\\short-3c50f7b2.mp4"
+  },
+  "Dinossom Lux": {
+    "spec": "scripts/specs/palworld_dinossom_lux.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\videos\\short-c1280d4d.mp4"
+  }
+}

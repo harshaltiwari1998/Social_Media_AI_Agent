@@ -70,5 +70,45 @@
   "gta6-game-informer": {
     "spec": "scripts/specs/games/gta6_10_game-informer.json",
     "video": "F:\\AI AGENT\\gta6-run\\videos\\short-857cc2eb.mp4"
+  },
+  "reel-avengers-doomsday": {
+    "spec": "scripts/specs/movies/reel_01_avengers-doomsday.json",
+    "video": "F:\\AI AGENT\\reel-run\\videos\\short-2ecc8315.mp4"
+  },
+  "reel-dune-part-three": {
+    "spec": "scripts/specs/movies/reel_02_dune-part-three.json",
+    "video": "F:\\AI AGENT\\reel-run\\videos\\short-4d9e9fe6.mp4"
+  },
+  "reel-december-clash": {
+    "spec": "scripts/specs/movies/reel_03_december-clash.json",
+    "video": "F:\\AI AGENT\\reel-run\\videos\\short-777d98d7.mp4"
+  },
+  "reel-the-odyssey-box-office": {
+    "spec": "scripts/specs/movies/reel_04_the-odyssey-box-office.json",
+    "video": "F:\\AI AGENT\\reel-run\\videos\\short-5e148d98.mp4"
+  },
+  "reel-toy-story-5-billion": {
+    "spec": "scripts/specs/movies/reel_05_toy-story-5-billion.json",
+    "video": "F:\\AI AGENT\\reel-run\\videos\\short-02067a73.mp4"
+  },
+  "reel-hanuman-ansh-profit": {
+    "spec": "scripts/specs/movies/reel_06_hanuman-ansh-profit.json",
+    "video": "F:\\AI AGENT\\reel-run\\videos\\short-01fcc518.mp4"
+  },
+  "reel-ott-this-week": {
+    "spec": "scripts/specs/movies/reel_07_ott-this-week.json",
+    "video": "F:\\AI AGENT\\reel-run\\videos\\short-2af77457.mp4"
+  },
+  "reel-ramayana-music-budget": {
+    "spec": "scripts/specs/movies/reel_08_ramayana-music-budget.json",
+    "video": "F:\\AI AGENT\\reel-run\\videos\\short-cd4bd098.mp4"
+  },
+  "reel-avengers-secret-wars-2027": {
+    "spec": "scripts/specs/movies/reel_09_avengers-secret-wars-2027.json",
+    "video": "F:\\AI AGENT\\reel-run\\videos\\short-e253c7f1.mp4"
+  },
+  "reel-ranbir-2026-2027": {
+    "spec": "scripts/specs/movies/reel_10_ranbir-2026-2027.json",
+    "video": "missing.mp4"
   }
 }

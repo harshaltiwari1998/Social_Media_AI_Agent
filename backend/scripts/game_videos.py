@@ -4,7 +4,8 @@ A spec in scripts/specs/games/*.json or scripts/specs/movies/*.json describes th
 narration, post text and 4 scenes ("category": "movies" for movie specs, else gaming).
 Each scene shows a real image - "steam:<appid>:<n>" (nth official Steam screenshot)
 or "wiki:<Wikipedia article>" (the article's infobox image, usually the cover art)
-or "wikifile:<File name>" (a specific Wikipedia/Commons file) -
+or "wikifile:<File name>" (a specific Wikipedia/Commons file)
+or "yt:<video id>:<maxresdefault|maxres1-3>" (frames of an official YouTube trailer) -
 either as an image card with a label, or as a "fact" card (big text over the image).
 Images are cached under media_output/game_art/.
 """
@@ -63,6 +64,10 @@ def _resolve_url(ref: str) -> str:
         if not shots:
             raise RuntimeError(f"no Steam screenshots for app {appid}")
         return shots[int(index or 0) % len(shots)]["path_full"]
+    if kind == "yt":
+        # Official trailer frames: yt:<video id>:<maxresdefault|maxres1|maxres2|maxres3>
+        video_id, _, variant = rest.partition(":")
+        return f"https://i.ytimg.com/vi/{video_id}/{variant or 'maxresdefault'}.jpg"
     if kind == "wikifile":
         files = _get_json(
             _WIKI_API, {"action": "query", "titles": f"File:{rest}", "prop": "imageinfo", "iiprop": "url", "format": "json"}
@@ -80,7 +85,7 @@ def _resolve_url(ref: str) -> str:
             _WIKI_API, {"action": "query", "titles": f"File:{image}", "prop": "imageinfo", "iiprop": "url", "format": "json"}
         )["query"]["pages"]
         return next(iter(files.values()))["imageinfo"][0]["url"]
-    raise ValueError(f"unknown image ref {ref!r} (use steam:<appid>:<n>, wiki:<article> or wikifile:<file name>)")
+    raise ValueError(f"unknown image ref {ref!r} (use steam:<appid>:<n>, wiki:<article>, wikifile:<file name> or yt:<id>:<frame>)")
 
 
 def fetch_image(ref: str) -> Image.Image:

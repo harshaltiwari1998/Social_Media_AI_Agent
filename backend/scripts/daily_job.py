@@ -226,6 +226,10 @@ def main() -> None:
     parser.add_argument("--new-palworld", type=int, default=1, help="new Palworld videos per day")
     parser.add_argument("--new-movies", type=int, default=1, help="new/upcoming-movie videos per day")
     parser.add_argument("--movie-reviews", type=int, default=1, help="movie review / box-office videos per day")
+    parser.add_argument(
+        "--extra-slot", action="append", default=[], metavar="SLOT:COUNT",
+        help="also post a one-off game spec slot, e.g. gta6:10 for scripts/specs/games/gta6_*.json",
+    )
     parser.add_argument("--skip-trends", action="store_true")
     parser.add_argument("--skip-gaming", action="store_true", help="gaming + movie videos run on GitHub Actions instead")
     args = parser.parse_args()
@@ -247,6 +251,10 @@ def main() -> None:
         lambda: make_new_palworld(poster, args.new_palworld),
         lambda: make_new_games(poster, "movie_new", args.new_movies, MOVIE_SPECS),
         lambda: make_new_games(poster, "movie_review", args.movie_reviews, MOVIE_SPECS),
+        *[
+            (lambda slot, count: lambda: make_new_games(poster, slot, int(count)))(*extra.split(":"))
+            for extra in args.extra_slot
+        ],
     ]
     for step in steps:
         try:

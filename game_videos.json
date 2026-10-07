@@ -14,5 +14,21 @@
   "drishyam-3-review-box-office": {
     "spec": "scripts/specs/movies/movie_review_01_drishyam-3-review-box-office.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-a6f581cb.mp4"
+  },
+  "dragons-dogma-2-dark-arisen": {
+    "spec": "scripts/specs/games/new_02_dragons-dogma-2-dark-arisen.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-12d315f7.mp4"
+  },
+  "gta-vice-city-cheats": {
+    "spec": "scripts/specs/games/classic_02_gta-vice-city-cheats.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-558a5929.mp4"
+  },
+  "jailer-2": {
+    "spec": "scripts/specs/movies/movie_new_02_jailer-2.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-1af6cecb.mp4"
+  },
+  "haiwaan-review-box-office": {
+    "spec": "scripts/specs/movies/movie_review_02_haiwaan-review-box-office.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f41c64e8.mp4"
   }
 }

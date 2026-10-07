@@ -77,5 +77,24 @@
         255
       ]
     }
+  },
+  "Chillet Ignis": {
+    "spec": "scripts/specs/palworld_chillet_ignis.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f9ad4c03.mp4",
+    "data": {
+      "headline": "Palworld Breeding: Chillet Ignis kaise paayein",
+      "caption": "Chillet + Arsox = Chillet Ignis. Palworld 1.0 ka unique breeding combo.",
+      "video_script": "Palworld में fire वाला Chillet, यानी Chillet Ignis, चाहिए? Chillet और Arsox को breeding farm में साथ रखो, और cake डालो. ये unique combo है, इसलिए इन दो parents से हर बार Chillet Ignis ही निकलेगा. Palworld one point zero में भी ये combo काम करता है. ऐसे और combos के लिए follow करो!",
+      "parents": [
+        "Chillet",
+        "Arsox"
+      ],
+      "child": "Chillet Ignis",
+      "color": [
+        255,
+        90,
+        40
+      ]
+    }
   }
 }

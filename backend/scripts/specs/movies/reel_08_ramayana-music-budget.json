@@ -1,0 +1,49 @@
+{
+  "id": "reel-ramayana-music-budget",
+  "category": "movies",
+  "slot": "reel",
+  "order": 8,
+  "expires": "2026-11-08",
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Ramayana: Hans Zimmer + A.R. Rahman!",
+  "title": "Ramayana Music Hans Zimmer aur AR Rahman | 4000 Crore Budget | Movie News Hindi",
+  "video_script": "Ramayana के बारे में दो बड़ी बातें. पहली, इसका music दो Oscar winners मिलकर बना रहे हैं, Hans Zimmer और A.R. Rahman, और ये दोनों पहली बार साथ काम कर रहे हैं. दूसरी, producer Namit Malhotra के मुताबिक दोनों parts का budget करीब चार हज़ार crore है. Part 1 India में 8 November को Diwali पर आ रहा है. आप ये film देखने जाओगे? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Ramayana: Part 1",
+      "label": "Ramayana: Part 1"
+    },
+    {
+      "image": "wiki:Ramayana: Part 1",
+      "fact": "Hans Zimmer + A.R. Rahman",
+      "sub": "Pehli baar saath"
+    },
+    {
+      "image": "wiki:Ramayana: Part 1",
+      "fact": "Rs ~4000 crore",
+      "sub": "Dono parts ka budget"
+    },
+    {
+      "image": "wiki:Ramayana: Part 1",
+      "fact": "8 November 2026",
+      "sub": "India - Diwali release"
+    }
+  ],
+  "description": "Ramayana ka music Hans Zimmer aur A.R. Rahman pehli baar saath bana rahe hain. Producer Namit Malhotra ke mutabik dono parts ka budget ~Rs 4000 crore. Part 1: 8 November 2026 (India).",
+  "hashtags": [
+    "Ramayana",
+    "ARRahman",
+    "HansZimmer"
+  ],
+  "tags": [
+    "Ramayana",
+    "Ramayana music",
+    "Hans Zimmer AR Rahman",
+    "Ramayana budget",
+    "Ranbir Kapoor",
+    "Namit Malhotra"
+  ]
+}

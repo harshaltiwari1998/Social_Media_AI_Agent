@@ -1,0 +1,49 @@
+{
+  "id": "reel-the-odyssey-box-office",
+  "category": "movies",
+  "slot": "reel",
+  "order": 4,
+  "expires": "2026-11-30",
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "The Odyssey ne kamaye 1 billion dollar",
+  "title": "The Odyssey Box Office | Christopher Nolan Ki Sabse Badi Film | Movie Box Office Hindi",
+  "video_script": "Christopher Nolan की The Odyssey ने दुनिया भर में एक billion dollar से ज़्यादा कमा लिए, और ये Nolan की अब तक की सबसे ज़्यादा कमाई वाली film बन गई. Dark Knight Rises के बाद ये Nolan की पहली film है जिसने ये आंकड़ा छुआ. और India में इसकी opening Nolan की अब तक की सबसे बड़ी opening रही. आपने The Odyssey देखी? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:The Odyssey (2026 film)",
+      "label": "The Odyssey"
+    },
+    {
+      "image": "wiki:The Odyssey (2026 film)",
+      "fact": "$1 billion+",
+      "sub": "Worldwide kamai"
+    },
+    {
+      "image": "wiki:Christopher Nolan",
+      "fact": "Nolan ki No. 1 film",
+      "sub": "Sabse zyada kamai"
+    },
+    {
+      "image": "wiki:The Odyssey (2026 film)",
+      "fact": "India: Nolan ki best opening",
+      "sub": "Aapne dekhi?"
+    }
+  ],
+  "description": "The Odyssey ne worldwide $1 billion+ kamaye - Christopher Nolan ki sabse zyada kamai wali film. India mein Nolan ki sabse badi opening.",
+  "hashtags": [
+    "TheOdyssey",
+    "ChristopherNolan",
+    "BoxOffice"
+  ],
+  "tags": [
+    "The Odyssey box office",
+    "The Odyssey",
+    "Christopher Nolan",
+    "The Odyssey India collection",
+    "Hollywood box office",
+    "Nolan highest grossing"
+  ]
+}

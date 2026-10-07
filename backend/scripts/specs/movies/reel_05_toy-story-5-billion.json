@@ -1,0 +1,49 @@
+{
+  "id": "reel-toy-story-5-billion",
+  "category": "movies",
+  "slot": "reel",
+  "order": 5,
+  "expires": "2026-11-30",
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Toy Story 5 - 1 billion dollar club mein!",
+  "title": "Toy Story 5 Box Office 1 Billion Dollar | Woody aur Buzz Ka Jalwa | Movie Box Office Hindi",
+  "video_script": "Woody और Buzz का जलवा आज भी कायम है! Toy Story 5 ने दुनिया भर में एक billion dollar से ज़्यादा कमा लिए हैं. ये Toy Story 3 और Toy Story 4 के बाद तीसरी Toy Story film है जिसने ये आंकड़ा पार किया. और 2026 में Super Mario Galaxy Movie और Michael के बाद ये तीसरी billion dollar film बनी. आपका favourite Toy Story character कौन है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Toy Story 5",
+      "label": "Toy Story 5"
+    },
+    {
+      "image": "wiki:Toy Story 5",
+      "fact": "$1 billion+",
+      "sub": "Worldwide kamai"
+    },
+    {
+      "image": "wiki:Toy Story 4",
+      "fact": "Teesri Toy Story",
+      "sub": "Toy Story 3 aur 4 ke baad"
+    },
+    {
+      "image": "wiki:Toy Story 5",
+      "fact": "2026 ki 3rd billion-dollar film",
+      "sub": "Mario Galaxy + Michael ke baad"
+    }
+  ],
+  "description": "Toy Story 5 ne worldwide $1 billion+ kamaye - Toy Story 3 aur 4 ke baad teesri Toy Story film, aur 2026 ki teesri billion-dollar film.",
+  "hashtags": [
+    "ToyStory5",
+    "Pixar",
+    "BoxOffice"
+  ],
+  "tags": [
+    "Toy Story 5",
+    "Toy Story 5 box office",
+    "Pixar",
+    "Disney",
+    "billion dollar movie",
+    "Woody Buzz"
+  ]
+}

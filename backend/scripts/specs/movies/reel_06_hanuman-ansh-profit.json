@@ -1,0 +1,48 @@
+{
+  "id": "reel-hanuman-ansh-profit",
+  "category": "movies",
+  "slot": "reel",
+  "order": 6,
+  "expires": "2026-11-15",
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "2 crore ki film, 400 crore+ kamai!",
+  "title": "Hanuman Ansh Box Office | 2 Crore Se Kam Budget, 400 Crore+ Kamai | Movie Box Office Hindi",
+  "video_script": "दो crore से भी कम budget में बनी film ने चार सौ crore से ज़्यादा कमा लिए! हम बात कर रहे हैं Hanuman Ansh की. इस film ने दुनिया भर में करीब 425 crore की कमाई की, और ये भारत की सबसे profitable films में गिनी जा रही है. शुरुआत में कम screens पर आई थी, लेकिन demand बढ़ने पर इसे दो हज़ार से ज़्यादा screens पर दिखाया गया. आपने ये film देखी? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Hanuman Ansh",
+      "label": "Hanuman Ansh"
+    },
+    {
+      "image": "wiki:Hanuman Ansh",
+      "fact": "Budget: 2 crore se kam",
+      "sub": "Chhoti si film"
+    },
+    {
+      "image": "wiki:Hanuman Ansh",
+      "fact": "Rs ~425 crore",
+      "sub": "Worldwide kamai"
+    },
+    {
+      "image": "wiki:Hanuman Ansh",
+      "fact": "2000+ screens",
+      "sub": "Demand se badhte gaye screens"
+    }
+  ],
+  "description": "Hanuman Ansh: budget Rs 2 crore se kam, worldwide ~Rs 425 crore - India ki sabse profitable films mein se ek. Release 2000+ screens tak badhi.",
+  "hashtags": [
+    "HanumanAnsh",
+    "BoxOffice",
+    "Bollywood"
+  ],
+  "tags": [
+    "Hanuman Ansh",
+    "Hanuman Ansh box office",
+    "most profitable Indian film",
+    "Bollywood box office 2026",
+    "low budget hit"
+  ]
+}

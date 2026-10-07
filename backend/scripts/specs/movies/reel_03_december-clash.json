@@ -1,0 +1,48 @@
+{
+  "id": "reel-december-clash",
+  "category": "movies",
+  "slot": "reel",
+  "order": 3,
+  "expires": "2026-12-17",
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "18 December: Avengers vs Dune!",
+  "title": "18 December Ka Mahayudh | Avengers Doomsday vs Dune Part Three | Movie News Hindi",
+  "video_script": "18 December 2026 को box office पर सबसे बड़ी टक्कर होने वाली है. एक तरफ़ Marvel की Avengers: Doomsday, और दूसरी तरफ़ Denis Villeneuve की Dune: Part Three. दोनों films US में एक ही दिन release हो रही हैं. Fans इस टक्कर को Dunesday बुला रहे हैं. आप पहले कौन सी देखोगे, Avengers या Dune? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Avengers: Doomsday",
+      "fact": "18 December 2026",
+      "sub": "Box office ki sabse badi takkar"
+    },
+    {
+      "image": "wiki:Avengers: Doomsday",
+      "label": "Avengers: Doomsday"
+    },
+    {
+      "image": "wiki:Dune: Part Three",
+      "label": "Dune: Part Three"
+    },
+    {
+      "image": "wiki:Dune: Part Three",
+      "fact": "Avengers ya Dune?",
+      "sub": "Comment karo!"
+    }
+  ],
+  "description": "18 December 2026 ko Avengers: Doomsday aur Dune: Part Three ek hi din US mein - 'Dunesday' clash.",
+  "hashtags": [
+    "AvengersDoomsday",
+    "DunePartThree",
+    "BoxOffice"
+  ],
+  "tags": [
+    "Avengers Doomsday vs Dune",
+    "Dunesday",
+    "Avengers Doomsday",
+    "Dune Part Three",
+    "December 2026 movies",
+    "box office clash"
+  ]
+}

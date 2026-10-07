@@ -1,0 +1,49 @@
+{
+  "id": "reel-ott-this-week",
+  "category": "movies",
+  "slot": "reel",
+  "order": 7,
+  "expires": "2026-10-11",
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Is hafte OTT par kya dekhein?",
+  "title": "Is Hafte OTT Par Kya Dekhein | Spider-Man, Mandaadi | Netflix, Prime Video, JioHotstar | Movie News Hindi",
+  "video_script": "इस हफ़्ते OTT पर क्या देखें? Spider-Man: Brand New Day अब Prime Video पर rent पर आ गई है, Hindi में भी. Soori की sports action film Mandaadi 8 October से Netflix पर है, Hindi समेत पाँच languages में. और JioHotstar पर 10 October से Pati Patni Aur Panga का Season 2 आ रहा है. आप इस weekend क्या देखोगे? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Spider-Man: Brand New Day",
+      "label": "Prime Video (rent) - 6 Oct"
+    },
+    {
+      "image": "wiki:Mandaadi",
+      "label": "Netflix - 8 Oct"
+    },
+    {
+      "image": "wiki:Pati Patni Aur Panga",
+      "label": "JioHotstar - 10 Oct"
+    },
+    {
+      "image": "wiki:Spider-Man: Brand New Day",
+      "fact": "Weekend plan?",
+      "sub": "Comment karo!"
+    }
+  ],
+  "description": "Is hafte OTT: Spider-Man: Brand New Day - Prime Video rent (6 Oct, Hindi bhi), Mandaadi - Netflix (8 Oct, 5 languages), Pati Patni Aur Panga S2 - JioHotstar (10 Oct).",
+  "hashtags": [
+    "OTTReleases",
+    "Netflix",
+    "PrimeVideo"
+  ],
+  "tags": [
+    "OTT releases this week",
+    "new OTT releases",
+    "Spider-Man Brand New Day OTT",
+    "Mandaadi Netflix",
+    "Pati Patni Aur Panga season 2",
+    "Netflix India",
+    "Prime Video India",
+    "JioHotstar"
+  ]
+}

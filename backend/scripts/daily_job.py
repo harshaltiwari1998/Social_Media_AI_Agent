@@ -62,11 +62,18 @@ class Poster:
         self.blocked: set[str] = set()
 
     @staticmethod
-    def pending(trend_id: str, category: str = "gaming") -> bool:
-        return not all(store.already_posted(trend_id, name) for name in platforms_for({"category": category}))
+    def targets(category: str, platforms: list[str] | None) -> list[str]:
+        """A spec's own "platforms" list (e.g. Facebook + Instagram reels only) beats category routing."""
+        return list(platforms) if platforms else platforms_for({"category": category})
 
-    def post(self, trend_id: str, text: str, tags: list[str], video_path: str, category: str = "gaming") -> None:
-        for name in platforms_for({"category": category}):
+    def pending(self, trend_id: str, category: str = "gaming", platforms: list[str] | None = None) -> bool:
+        return not all(store.already_posted(trend_id, name) for name in self.targets(category, platforms))
+
+    def post(
+        self, trend_id: str, text: str, tags: list[str], video_path: str,
+        category: str = "gaming", platforms: list[str] | None = None,
+    ) -> None:
+        for name in self.targets(category, platforms):
             if store.already_posted(trend_id, name):
                 continue
             if name in self.blocked:
@@ -119,7 +126,7 @@ def retry_pending(poster: Poster) -> None:
         spec_path = ROOT / entry["spec"]
         spec = json.loads(spec_path.read_text(encoding="utf-8"))
         category = game.category_of(spec)
-        if not poster.pending(game.post_id_for(spec), category):
+        if not poster.pending(game.post_id_for(spec), category, spec.get("platforms")):
             continue
         log.info("%s", game_id)
         if not Path(entry["video"]).exists():
@@ -127,7 +134,7 @@ def retry_pending(poster: Poster) -> None:
                 continue
             entry["video"] = video
             _save(GAME_MANIFEST, games)
-        poster.post(game.post_id_for(spec), *game.post_text_and_tags(spec), entry["video"], category)
+        poster.post(game.post_id_for(spec), *game.post_text_and_tags(spec), entry["video"], category, spec.get("platforms"))
 
 
 def make_new_palworld(poster: Poster, count: int) -> None:
@@ -175,7 +182,9 @@ def make_new_games(poster: Poster, slot: str, count: int, spec_dir: Path = GAME_
             continue
         games[spec["id"]] = {"spec": path.relative_to(ROOT).as_posix(), "video": video}
         _save(GAME_MANIFEST, games)
-        poster.post(game.post_id_for(spec), *game.post_text_and_tags(spec), video, game.category_of(spec))
+        poster.post(
+            game.post_id_for(spec), *game.post_text_and_tags(spec), video, game.category_of(spec), spec.get("platforms")
+        )
 
 
 def _ensure_ollama() -> subprocess.Popen | None:
@@ -228,7 +237,7 @@ def main() -> None:
     parser.add_argument("--movie-reviews", type=int, default=1, help="movie review / box-office videos per day")
     parser.add_argument(
         "--extra-slot", action="append", default=[], metavar="SLOT:COUNT",
-        help="also post a one-off game spec slot, e.g. gta6:10 for scripts/specs/games/gta6_*.json",
+        help="also post a one-off spec slot from specs/games or specs/movies, e.g. gta6:10 or reel:10",
     )
     parser.add_argument("--skip-trends", action="store_true")
     parser.add_argument("--skip-gaming", action="store_true", help="gaming + movie videos run on GitHub Actions instead")
@@ -252,7 +261,9 @@ def main() -> None:
         lambda: make_new_games(poster, "movie_new", args.new_movies, MOVIE_SPECS),
         lambda: make_new_games(poster, "movie_review", args.movie_reviews, MOVIE_SPECS),
         *[
-            (lambda slot, count: lambda: make_new_games(poster, slot, int(count)))(*extra.split(":"))
+            (lambda slot, count: lambda: make_new_games(
+                poster, slot, int(count), MOVIE_SPECS if any(MOVIE_SPECS.glob(f"{slot}_*.json")) else GAME_SPECS
+            ))(*extra.split(":"))
             for extra in args.extra_slot
         ],
     ]

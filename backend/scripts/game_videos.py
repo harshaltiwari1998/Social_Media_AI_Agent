@@ -142,7 +142,7 @@ def fact_card(img: Image.Image, fact: str, sub: str | None) -> Image.Image:
     return canvas.convert("RGB")
 
 
-_BADGES = {"new": "NEW GAME", "classic": "CLASSIC GAME", "movie_new": "NEW MOVIE", "movie_review": "BOX OFFICE + REVIEW"}
+_BADGES = {"new": "NEW GAME", "classic": "CLASSIC GAME", "movie_new": "NEW MOVIE", "movie_review": "BOX OFFICE + REVIEW", "reel": "MOVIE NEWS"}
 _DEFAULT_HASHTAGS = {"gaming": ["Gaming", "GamingHindi"], "movies": ["Movies", "MovieNews", "Bollywood"]}
 
 

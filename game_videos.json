@@ -30,5 +30,45 @@
   "haiwaan-review-box-office": {
     "spec": "scripts/specs/movies/movie_review_02_haiwaan-review-box-office.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f41c64e8.mp4"
+  },
+  "gta6-release-date": {
+    "spec": "scripts/specs/games/gta6_01_release-date.json",
+    "video": "F:\\AI AGENT\\gta6-run\\videos\\short-4f748417.mp4"
+  },
+  "gta6-lucia-jason": {
+    "spec": "scripts/specs/games/gta6_02_lucia-jason.json",
+    "video": "F:\\AI AGENT\\gta6-run\\videos\\short-e2a8de7d.mp4"
+  },
+  "gta6-leonida-map": {
+    "spec": "scripts/specs/games/gta6_03_leonida-map.json",
+    "video": "F:\\AI AGENT\\gta6-run\\videos\\short-5feb257e.mp4"
+  },
+  "gta6-vice-city-returns": {
+    "spec": "scripts/specs/games/gta6_04_vice-city-returns.json",
+    "video": "F:\\AI AGENT\\gta6-run\\videos\\short-95bfda4f.mp4"
+  },
+  "gta6-side-characters": {
+    "spec": "scripts/specs/games/gta6_05_side-characters.json",
+    "video": "F:\\AI AGENT\\gta6-run\\videos\\short-afe9ab93.mp4"
+  },
+  "gta6-trailer-records": {
+    "spec": "scripts/specs/games/gta6_06_trailer-records.json",
+    "video": "F:\\AI AGENT\\gta6-run\\videos\\short-d5b92bdc.mp4"
+  },
+  "gta6-delays": {
+    "spec": "scripts/specs/games/gta6_07_delays.json",
+    "video": "F:\\AI AGENT\\gta6-run\\videos\\short-d357f8d6.mp4"
+  },
+  "gta6-pc-version": {
+    "spec": "scripts/specs/games/gta6_08_pc-version.json",
+    "video": "F:\\AI AGENT\\gta6-run\\videos\\short-fe75d923.mp4"
+  },
+  "gta6-price": {
+    "spec": "scripts/specs/games/gta6_09_price.json",
+    "video": "F:\\AI AGENT\\gta6-run\\videos\\short-0970f0cb.mp4"
+  },
+  "gta6-game-informer": {
+    "spec": "scripts/specs/games/gta6_10_game-informer.json",
+    "video": "F:\\AI AGENT\\gta6-run\\videos\\short-857cc2eb.mp4"
   }
 }

@@ -1,0 +1,45 @@
+{
+  "id": "irumudi-box-office",
+  "category": "movies",
+  "slot": "movie_review",
+  "order": 12,
+  "expires": "2026-11-05",
+  "headline": "Ravi Teja ki Irumudi hit!",
+  "title": "Irumudi Box Office | Ravi Teja Ki Film 100 Crore Paar | Movie Box Office Hindi",
+  "video_script": "Ravi Teja की Telugu film Irumudi 21 August को release हुई, और आठ दिनों में दुनिया भर में 100 crore से ज़्यादा कमा चुकी है. Pinkvilla के मुताबिक पहले हफ़्ते में करीब 125 crore worldwide gross रहा. Film को Shiva Nirvana ने direct किया है. Ravi Teja के लिए ये बड़ी सफलता मानी जा रही है. आपने ये film देखी? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Irumudi",
+      "label": "Irumudi"
+    },
+    {
+      "image": "wiki:Irumudi",
+      "fact": "Rs 100 crore+",
+      "sub": "Worldwide, sirf 8 din mein"
+    },
+    {
+      "image": "wiki:Irumudi",
+      "fact": "Rs 125 crore",
+      "sub": "Pehla hafta (Pinkvilla)"
+    },
+    {
+      "image": "wiki:Irumudi",
+      "fact": "Shiva Nirvana",
+      "sub": "Ravi Teja ki film"
+    }
+  ],
+  "description": "Irumudi (Ravi Teja, director Shiva Nirvana, release 21 August 2026) ne 8 dino mein worldwide Rs 100 crore+ gross kamaye.",
+  "hashtags": [
+    "Irumudi",
+    "RaviTeja",
+    "BoxOffice"
+  ],
+  "tags": [
+    "Irumudi",
+    "Irumudi box office",
+    "Ravi Teja",
+    "Shiva Nirvana",
+    "Telugu box office 2026",
+    "movie box office Hindi"
+  ]
+}

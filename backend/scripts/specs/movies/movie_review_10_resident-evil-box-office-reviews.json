@@ -1,0 +1,45 @@
+{
+  "id": "resident-evil-box-office-reviews",
+  "category": "movies",
+  "slot": "movie_review",
+  "order": 10,
+  "expires": "2026-11-05",
+  "headline": "Resident Evil ka record!",
+  "title": "Resident Evil Box Office | 108 Million Opening Aur 97 Percent Reviews | Movie Box Office Hindi",
+  "video_script": "Zach Cregger की Resident Evil ने पहले weekend में दुनिया भर में करीब 108 million dollar कमाए, जो इस franchise की सबसे बड़ी opening है. North America से 60 million और बाकी दुनिया से करीब 48 million आए. Critics ने भी इसे खूब पसंद किया, Rotten Tomatoes पर करीब 97 percent, और ये सबसे high rated video game movie बनी. India में इसने पहले weekend में करीब 9 crore net कमाए. आपने ये देखी? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Resident Evil (2026 film)",
+      "label": "Resident Evil"
+    },
+    {
+      "image": "wiki:Resident Evil (2026 film)",
+      "fact": "$108 million",
+      "sub": "Worldwide opening, franchise record"
+    },
+    {
+      "image": "wiki:Resident Evil (2026 film)",
+      "fact": "97% Rotten Tomatoes",
+      "sub": "Best-rated game movie"
+    },
+    {
+      "image": "wiki:Resident Evil (2026 film)",
+      "fact": "Rs 9 crore",
+      "sub": "India opening weekend (net)"
+    }
+  ],
+  "description": "Resident Evil (Zach Cregger) ka worldwide opening ~$108.3 million (franchise record), Rotten Tomatoes ~97%. India opening weekend ~Rs 9 crore net.",
+  "hashtags": [
+    "ResidentEvil",
+    "BoxOffice",
+    "Hollywood"
+  ],
+  "tags": [
+    "Resident Evil",
+    "Resident Evil box office",
+    "Zach Cregger",
+    "Resident Evil India box office",
+    "video game movies",
+    "movie box office Hindi"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "mirzapur-the-movie-box-office",
+  "category": "movies",
+  "slot": "movie_review",
+  "order": 5,
+  "expires": "2026-11-05",
+  "headline": "Mirzapur: The Movie ka dhamaka!",
+  "title": "Mirzapur The Movie Box Office | 1 Hafte Mein 200 Crore | Movie Box Office Hindi",
+  "video_script": "Mirzapur: The Movie ने box office पर धमाल मचा दिया है. 4 September को release हुई इस film ने पहले हफ़्ते में India में करीब 148 crore net कमाए, और दुनिया भर में करीब 212 crore. Series के fans theatre तक पहुँचे, और film ने 200 crore का आंकड़ा सिर्फ़ एक हफ़्ते में पार कर लिया. आपने ये movie देखी? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Mirzapur (film)",
+      "label": "Mirzapur: The Movie"
+    },
+    {
+      "image": "wiki:Mirzapur (film)",
+      "fact": "Rs 148 crore",
+      "sub": "India net, pehle hafte mein"
+    },
+    {
+      "image": "wiki:Mirzapur (film)",
+      "fact": "Rs 212 crore",
+      "sub": "Worldwide, pehle hafte mein"
+    },
+    {
+      "image": "wiki:Mirzapur (film)",
+      "fact": "200 crore club",
+      "sub": "Sirf 1 hafte mein"
+    }
+  ],
+  "description": "Mirzapur: The Movie (release 4 September 2026) ne pehle hafte mein India mein ~Rs 148 crore net aur worldwide ~Rs 212 crore kamaye - 200 crore club sirf ek hafte mein.",
+  "hashtags": [
+    "MirzapurTheMovie",
+    "BoxOffice",
+    "Bollywood"
+  ],
+  "tags": [
+    "Mirzapur The Movie",
+    "Mirzapur box office",
+    "Mirzapur movie collection",
+    "Pankaj Tripathi",
+    "Bollywood box office 2026",
+    "movie box office Hindi"
+  ]
+}

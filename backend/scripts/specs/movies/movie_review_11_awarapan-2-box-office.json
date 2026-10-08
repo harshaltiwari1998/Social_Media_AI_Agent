@@ -1,0 +1,45 @@
+{
+  "id": "awarapan-2-box-office",
+  "category": "movies",
+  "slot": "movie_review",
+  "order": 11,
+  "expires": "2026-11-05",
+  "headline": "Awarapan 2 ne kamaye 150 crore",
+  "title": "Awarapan 2 Box Office | Emraan Hashmi Ki Film 150 Crore Worldwide | Movie Box Office Hindi",
+  "video_script": "Emraan Hashmi की Awarapan 2 ने पहले छह दिनों में दुनिया भर में 150 crore से ज़्यादा कमा लिए, और India में 100 crore net पार किए. ये film 50 crore से कम budget में बनी है. Critics की राय मिली-जुली रही: Pinkvilla और Siasat दोनों ने 3 out of 5 दिए, और ज़्यादातर ने Emraan की performance की तारीफ़ की. आपने Awarapan 2 देखी? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Awarapan 2",
+      "label": "Awarapan 2"
+    },
+    {
+      "image": "wiki:Awarapan 2",
+      "fact": "Rs 150 crore+",
+      "sub": "Worldwide, pehle 6 din mein"
+    },
+    {
+      "image": "wiki:Awarapan 2",
+      "fact": "Rs 100 crore+",
+      "sub": "India net"
+    },
+    {
+      "image": "wiki:Awarapan 2",
+      "fact": "3/5 - Pinkvilla",
+      "sub": "Siasat ne bhi 3/5 diye"
+    }
+  ],
+  "description": "Awarapan 2 (Emraan Hashmi) ne pehle 6 dino mein worldwide Rs 150 crore+ aur India mein Rs 100 crore+ net kamaye. Pinkvilla aur Siasat ne 3/5 diye.",
+  "hashtags": [
+    "Awarapan2",
+    "EmraanHashmi",
+    "BoxOffice"
+  ],
+  "tags": [
+    "Awarapan 2",
+    "Awarapan 2 box office",
+    "Emraan Hashmi",
+    "Awarapan 2 review",
+    "Bollywood box office 2026",
+    "movie box office Hindi"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "digger-box-office-tom-cruise",
+  "category": "movies",
+  "slot": "movie_review",
+  "order": 8,
+  "expires": "2026-11-05",
+  "headline": "Tom Cruise ki Digger flop?",
+  "title": "Digger Box Office | Tom Cruise Ki Sabse Kamzor Opening | Movie Box Office Hindi",
+  "video_script": "Tom Cruise की नई film Digger पहले weekend में box office पर बुरी तरह फिसल गई. दुनिया भर में सिर्फ़ करीब 20 million dollar की कमाई हुई, जिसमें 8 million dollar North America से आए. ये Cruise की करीब बीस साल की सबसे कमज़ोर opening है. Rotten Tomatoes पर critics का score करीब 51 percent है, और audience ने C plus CinemaScore दिया. Film को Alejandro G. Iñárritu ने direct किया है. आप ये देखोगे? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Digger (2026 film)",
+      "label": "Digger"
+    },
+    {
+      "image": "wiki:Digger (2026 film)",
+      "fact": "$20 million",
+      "sub": "Worldwide opening weekend"
+    },
+    {
+      "image": "wiki:Digger (2026 film)",
+      "fact": "Cruise ki 20 saal mein",
+      "sub": "Sabse kamzor opening"
+    },
+    {
+      "image": "wiki:Digger (2026 film)",
+      "fact": "51% Rotten Tomatoes",
+      "sub": "CinemaScore: C+"
+    }
+  ],
+  "description": "Digger (Tom Cruise, director Alejandro G. Inarritu) ka worldwide opening weekend ~$20 million ($8 million North America) - Cruise ki lagbhag 20 saal ki sabse kamzor opening.",
+  "hashtags": [
+    "Digger",
+    "TomCruise",
+    "BoxOffice"
+  ],
+  "tags": [
+    "Digger",
+    "Digger box office",
+    "Tom Cruise",
+    "Digger opening weekend",
+    "Hollywood box office",
+    "movie box office Hindi"
+  ]
+}

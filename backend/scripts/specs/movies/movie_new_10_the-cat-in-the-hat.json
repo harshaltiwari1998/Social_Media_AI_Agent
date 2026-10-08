@@ -1,0 +1,46 @@
+{
+  "id": "the-cat-in-the-hat",
+  "category": "movies",
+  "slot": "movie_new",
+  "order": 10,
+  "expires": "2026-11-06",
+  "headline": "The Cat in the Hat aa rahi hai!",
+  "title": "The Cat in the Hat Release Date 6 November | Bill Hader Ki Animated Film | Movie News Hindi",
+  "video_script": "Dr. Seuss का मशहूर character अब नई animated film में आ रहा है! The Cat in the Hat 6 November 2026 को US में release होगी, और international rollout 4 November से शुरू हो रहा है. Cat को आवाज़ दे रहे हैं Bill Hader, और cast में Quinta Brunson, Bowen Yang और Xochitl Gomez भी हैं. आपने बचपन में Dr. Seuss पढ़ा है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:The Cat in the Hat (2026 film)",
+      "label": "The Cat in the Hat"
+    },
+    {
+      "image": "wiki:The Cat in the Hat (2026 film)",
+      "fact": "6 November 2026",
+      "sub": "US release | Intl. 4 Nov"
+    },
+    {
+      "image": "wiki:The Cat in the Hat (2026 film)",
+      "fact": "Bill Hader",
+      "sub": "Cat ki awaaz"
+    },
+    {
+      "image": "wiki:The Cat in the Hat (2026 film)",
+      "fact": "Dr. Seuss ka character",
+      "sub": "Warner Bros. Pictures Animation"
+    }
+  ],
+  "description": "The Cat in the Hat - US release 6 November 2026, international rollout from 4 November. Bill Hader Cat ko awaaz de rahe hain; cast mein Quinta Brunson, Bowen Yang, Xochitl Gomez.",
+  "hashtags": [
+    "TheCatInTheHat",
+    "DrSeuss",
+    "Hollywood"
+  ],
+  "tags": [
+    "The Cat in the Hat",
+    "The Cat in the Hat movie",
+    "Bill Hader",
+    "Dr. Seuss",
+    "animated movies 2026",
+    "Hollywood movies November 2026",
+    "movie news Hindi"
+  ]
+}

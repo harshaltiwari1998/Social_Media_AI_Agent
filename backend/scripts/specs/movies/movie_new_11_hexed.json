@@ -1,0 +1,46 @@
+{
+  "id": "hexed",
+  "category": "movies",
+  "slot": "movie_new",
+  "order": 11,
+  "expires": "2026-11-25",
+  "headline": "Disney ki nayi film Hexed!",
+  "title": "Hexed Release Date 25 November | Disney Ki Nayi Animated Film | Movie News Hindi",
+  "video_script": "Disney की नई animated film Hexed 25 November 2026 को theatre में आ रही है, US में Thanksgiving से एक दिन पहले. कहानी एक teenager Billie की है, जिसे magical powers मिलती हैं. Voice cast में Hailee Steinfeld, Rashida Jones, Jodie Foster और Walton Goggins जैसे नाम हैं. आप Disney की ये film देखोगे? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Hexed (2026 film)",
+      "label": "Hexed"
+    },
+    {
+      "image": "wiki:Hexed (2026 film)",
+      "fact": "25 November 2026",
+      "sub": "US release"
+    },
+    {
+      "image": "wiki:Hexed (2026 film)",
+      "fact": "Billie ko mili magic",
+      "sub": "Teenager ki kahani"
+    },
+    {
+      "image": "wiki:Hexed (2026 film)",
+      "fact": "Hailee Steinfeld",
+      "sub": "Rashida Jones | Jodie Foster"
+    }
+  ],
+  "description": "Disney ki Hexed - US release 25 November 2026. Teenager Billie ki magical kahani. Voice cast: Hailee Steinfeld, Rashida Jones, Jodie Foster, Walton Goggins.",
+  "hashtags": [
+    "Hexed",
+    "Disney",
+    "Hollywood"
+  ],
+  "tags": [
+    "Hexed",
+    "Hexed Disney",
+    "Hexed release date",
+    "Hailee Steinfeld",
+    "Disney animation",
+    "Hollywood movies November 2026",
+    "movie news Hindi"
+  ]
+}

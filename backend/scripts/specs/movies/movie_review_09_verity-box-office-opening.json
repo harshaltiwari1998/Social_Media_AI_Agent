@@ -1,0 +1,45 @@
+{
+  "id": "verity-box-office-opening",
+  "category": "movies",
+  "slot": "movie_review",
+  "order": 9,
+  "expires": "2026-11-05",
+  "headline": "Verity ne maara number one!",
+  "title": "Verity Box Office | Anne Hathaway Ki Film Number One | Movie Box Office Hindi",
+  "video_script": "Anne Hathaway की film Verity ने North America में पहले weekend में करीब 33 million dollar कमाकर number one जगह ली, उसी weekend जब Tom Cruise की Digger फिसल गई. ये Colleen Hoover की book पर based है, और cast में Anne Hathaway के साथ Dakota Johnson हैं. Audience ने C plus CinemaScore दिया, लेकिन critics को film कम पसंद आई. आपने ये देखी? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Verity (film)",
+      "label": "Verity"
+    },
+    {
+      "image": "wiki:Verity (film)",
+      "fact": "$33 million",
+      "sub": "North America opening, No. 1"
+    },
+    {
+      "image": "wiki:Verity (film)",
+      "fact": "Colleen Hoover",
+      "sub": "Book par based"
+    },
+    {
+      "image": "wiki:Verity (film)",
+      "fact": "Anne Hathaway",
+      "sub": "Dakota Johnson | CinemaScore C+"
+    }
+  ],
+  "description": "Verity (Anne Hathaway, Dakota Johnson) ne North America mein pehle weekend mein ~$33 million kamaye aur number one rahi. Colleen Hoover ki book par based.",
+  "hashtags": [
+    "Verity",
+    "AnneHathaway",
+    "BoxOffice"
+  ],
+  "tags": [
+    "Verity",
+    "Verity box office",
+    "Anne Hathaway",
+    "Colleen Hoover",
+    "Hollywood box office",
+    "movie box office Hindi"
+  ]
+}

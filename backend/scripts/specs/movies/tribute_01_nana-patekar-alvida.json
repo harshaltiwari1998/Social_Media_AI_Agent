@@ -1,0 +1,51 @@
+{
+  "id": "tribute-nana-patekar-alvida",
+  "category": "movies",
+  "slot": "tribute",
+  "order": 1,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "tts_voice": "hi-IN-MadhurNeural",
+  "tts_rate": "-8%",
+  "headline": "Alvida Nana Patekar (1951 - 2026)",
+  "title": "Alvida Nana Patekar | Ek Sachche Kalakar Ko Vinamra Shraddhanjali",
+  "video_script": "आज भारतीय सिनेमा ने अपना एक सबसे सच्चा कलाकार खो दिया. 8 October 2026 को Goa में दिल का दौरा पड़ने से Nana Patekar हमें छोड़कर चले गए. वो 75 साल के थे. Pune के पास उनके गाँव Donaje में उन्हें अंतिम विदाई दी गई. Prime Minister Narendra Modi ने कहा, उनकी intensity, उनका अलग अंदाज़ और उनकी बेमिसाल मौजूदगी हमेशा याद रहेगी. अलविदा Nana. Comment में अपनी श्रद्धांजलि ज़रूर लिखें.",
+  "scenes": [
+    {
+      "image": "wiki:Nana Patekar",
+      "label": "Nana Patekar (1951 - 2026)"
+    },
+    {
+      "image": "wiki:Nana Patekar",
+      "fact": "8 October 2026",
+      "sub": "Goa mein antim saans"
+    },
+    {
+      "image": "wiki:Nana Patekar",
+      "fact": "Antim vidaai",
+      "sub": "Donaje gaon, Pune"
+    },
+    {
+      "image": "wiki:Nana Patekar",
+      "fact": "Alvida Nana",
+      "sub": "Vinamra shraddhanjali"
+    }
+  ],
+  "description": "Nana Patekar (1951-2026) ka 8 October 2026 ko Goa mein dil ka daura padne se nidhan ho gaya. Ek sachche kalakar ko vinamra shraddhanjali.",
+  "hashtags": [
+    "NanaPatekar",
+    "RIPNanaPatekar",
+    "Bollywood"
+  ],
+  "tags": [
+    "Nana Patekar",
+    "Nana Patekar tribute",
+    "RIP Nana Patekar",
+    "Nana Patekar passes away",
+    "Bollywood",
+    "Krantiveer",
+    "Parinda"
+  ]
+}

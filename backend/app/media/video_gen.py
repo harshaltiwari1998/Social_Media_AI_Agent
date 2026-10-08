@@ -52,7 +52,7 @@ async def _synthesize_narration(text: str, output_path: Path) -> list[_Word]:
     """Write the TTS audio to output_path and return per-word timings for subtitle sync."""
     import edge_tts
 
-    communicate = edge_tts.Communicate(text, settings.tts_voice, rate="+5%", boundary="WordBoundary")
+    communicate = edge_tts.Communicate(text, settings.tts_voice, rate=settings.tts_rate, boundary="WordBoundary")
     words: list[_Word] = []
     with output_path.open("wb") as audio_file:
         async for chunk in communicate.stream():

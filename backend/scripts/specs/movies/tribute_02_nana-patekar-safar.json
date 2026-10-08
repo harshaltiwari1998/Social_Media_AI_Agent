@@ -1,0 +1,54 @@
+{
+  "id": "tribute-nana-patekar-safar",
+  "category": "movies",
+  "slot": "tribute",
+  "order": 2,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "tts_voice": "hi-IN-MadhurNeural",
+  "tts_rate": "-8%",
+  "headline": "Nana Patekar: theatre se Padma Shri tak",
+  "title": "Nana Patekar Ka Safar | Theatre Se 3 National Awards Aur Padma Shri Tak | Shraddhanjali",
+  "video_script": "1 January 1951 को Murud-Janjira में जन्मे Nana Patekar ने अपना सफ़र theatre से शुरू किया. 1978 में Gaman से उन्होंने फ़िल्मों में कदम रखा. Parinda, Krantiveer और Agni Sakshi के लिए उन्हें तीन National Film Awards मिले, और 2013 में Padma Shri. Akshay Kumar ने कहा, वो ऐसे कलाकार थे जिन्हें कुछ ज़्यादा करने की ज़रूरत ही नहीं थी, आप बस उन्हें देखते रह जाते थे. पाँच दशक का ये सफ़र हमेशा याद रहेगा.",
+  "scenes": [
+    {
+      "image": "wiki:Nana Patekar",
+      "fact": "1 January 1951",
+      "sub": "Murud-Janjira, Maharashtra"
+    },
+    {
+      "image": "wiki:Salaam Bombay!",
+      "fact": "Theatre se cinema tak",
+      "sub": "1978: Gaman"
+    },
+    {
+      "image": "wiki:Parinda",
+      "fact": "3 National Film Awards",
+      "sub": "Parinda | Krantiveer | Agni Sakshi"
+    },
+    {
+      "image": "wiki:Nana Patekar",
+      "fact": "Padma Shri - 2013",
+      "sub": "Paanch dashak ka safar"
+    }
+  ],
+  "description": "Nana Patekar: 1 January 1951 ko Murud-Janjira mein janm, 1978 mein Gaman se debut, 3 National Film Awards (Parinda, Krantiveer, Agni Sakshi) aur 2013 mein Padma Shri.",
+  "hashtags": [
+    "NanaPatekar",
+    "RIPNanaPatekar",
+    "Bollywood"
+  ],
+  "tags": [
+    "Nana Patekar",
+    "Nana Patekar tribute",
+    "RIP Nana Patekar",
+    "Nana Patekar passes away",
+    "Bollywood",
+    "Krantiveer",
+    "Parinda",
+    "Nana Patekar life story",
+    "Nana Patekar National Award"
+  ]
+}

@@ -119,12 +119,16 @@ def _label(text: str, size: int, color=_WHITE, max_width: int = _SAFE_W, max_lin
 
 def image_card(img: Image.Image, label: str | None) -> Image.Image:
     canvas = _backdrop(img)
-    pic = _fit(img, 1000, 700 if label else 900)
-    y = (_CARD - pic.height) // 2 - (70 if label else 0)
-    canvas.paste(pic, ((_CARD - pic.width) // 2, max(40, y)))
-    if label:
-        lbl = _label(label, 68, _YELLOW)
-        canvas.alpha_composite(lbl, ((_CARD - lbl.width) // 2, _CARD - lbl.height - 150))
+    if not label:
+        pic = _fit(img, 1000, 900)
+        canvas.paste(pic, ((_CARD - pic.width) // 2, (_CARD - pic.height) // 2))
+        return canvas.convert("RGB")
+    # Label goes under the picture, both inside the area the Ken Burns crop never reaches.
+    lbl = _label(label, 64, _YELLOW)
+    pic = _fit(img, 1000, _CARD - 300 - lbl.height - 30)
+    top = 150 + (_CARD - 300 - (pic.height + 30 + lbl.height)) // 2
+    canvas.paste(pic, ((_CARD - pic.width) // 2, top))
+    canvas.alpha_composite(lbl, ((_CARD - lbl.width) // 2, top + pic.height + 30))
     return canvas.convert("RGB")
 
 
@@ -142,9 +146,10 @@ def fact_card(img: Image.Image, fact: str, sub: str | None) -> Image.Image:
     return canvas.convert("RGB")
 
 
-_BADGES = {"new": "NEW GAME", "classic": "CLASSIC GAME", "movie_new": "NEW MOVIE", "movie_review": "BOX OFFICE + REVIEW", "reel": "MOVIE NEWS"}
+_BADGES = {"new": "NEW GAME", "classic": "CLASSIC GAME", "movie_new": "NEW MOVIE", "movie_review": "BOX OFFICE + REVIEW", "reel": "MOVIE NEWS", "tribute": "SHRADDHANJALI"}
 _DEFAULT_HASHTAGS = {"gaming": ["Gaming", "GamingNews"], "movies": ["Movies", "MovieNews", "Bollywood"]}
 _DEFAULT_VOICE = settings.tts_voice  # TTS_VOICE as configured, before any per-video override
+_DEFAULT_RATE = settings.tts_rate
 
 
 def build_video(spec_path: Path) -> dict:
@@ -159,6 +164,7 @@ def build_video(spec_path: Path) -> dict:
         card.save(path)
         paths.append(str(path.resolve()))
     # Gaming videos are English (voice, text and post copy); movie videos stay Hindi.
+    settings.tts_rate = spec.get("tts_rate") or _DEFAULT_RATE
     settings.tts_voice = spec.get("tts_voice") or (
         settings.gaming_tts_voice if category_of(spec) == "gaming" else _DEFAULT_VOICE
     )

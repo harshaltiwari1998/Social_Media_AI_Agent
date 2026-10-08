@@ -91,6 +91,8 @@ class Settings(BaseSettings):
     tts_voice: str = Field(default="hi-IN-SwaraNeural", alias="TTS_VOICE")
     # Gaming videos (HarryBeast Gaming) are narrated in English; everything else uses TTS_VOICE.
     gaming_tts_voice: str = Field(default="en-US-GuyNeural", alias="GAMING_TTS_VOICE")
+    # Narration speed passed to edge-tts; specs can override it (e.g. slower for tributes).
+    tts_rate: str = Field(default="+5%", alias="TTS_RATE")
     # Optional royalty-free background music (mp3/wav), looped and ducked under the narration.
     bgm_path: str | None = Field(default=None, alias="BGM_PATH")
 

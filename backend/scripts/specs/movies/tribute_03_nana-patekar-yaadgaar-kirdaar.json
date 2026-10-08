@@ -1,0 +1,51 @@
+{
+  "id": "tribute-nana-patekar-yaadgaar-kirdaar",
+  "category": "movies",
+  "slot": "tribute",
+  "order": 3,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "tts_voice": "hi-IN-MadhurNeural",
+  "tts_rate": "-8%",
+  "headline": "Nana Patekar ke yaadgaar kirdaar",
+  "title": "Nana Patekar Ke Yaadgaar Kirdaar | Parinda, Krantiveer, Welcome, Natsamrat | Shraddhanjali",
+  "video_script": "Nana Patekar के किरदार कभी भुलाए नहीं जा सकते. Parinda का खौफ़नाक Anna, Krantiveer का गुस्सैल Pratap, Ab Tak Chhappan का पुलिस officer Sadhu Agashe, और Welcome का Uday Shetty जिसने सबको हँसाया. Marathi film Natsamrat ने सबकी आँखें नम कर दीं. पर्दे के बाहर उन्होंने Makarand Anaspure के साथ NAAM Foundation बनाकर किसानों की मदद की. आपका पसंदीदा Nana किरदार कौन सा है? Comment में ज़रूर बताएं.",
+  "scenes": [
+    {
+      "image": "wiki:Parinda",
+      "label": "Parinda (1989) - Anna"
+    },
+    {
+      "image": "wiki:Krantiveer",
+      "label": "Krantiveer (1994) - Pratap"
+    },
+    {
+      "image": "wiki:Welcome (2007 film)",
+      "label": "Welcome (2007) - Uday Shetty"
+    },
+    {
+      "image": "wiki:Natsamrat",
+      "label": "Natsamrat (2016)"
+    }
+  ],
+  "description": "Nana Patekar ke yaadgaar kirdaar: Parinda ka Anna, Krantiveer ka Pratap, Ab Tak Chhappan ka Sadhu Agashe, Welcome ka Uday Shetty aur Natsamrat. NAAM Foundation se kisanon ki madad.",
+  "hashtags": [
+    "NanaPatekar",
+    "RIPNanaPatekar",
+    "Bollywood"
+  ],
+  "tags": [
+    "Nana Patekar",
+    "Nana Patekar tribute",
+    "RIP Nana Patekar",
+    "Nana Patekar passes away",
+    "Bollywood",
+    "Krantiveer",
+    "Parinda",
+    "Uday Shetty",
+    "Welcome movie",
+    "Natsamrat"
+  ]
+}

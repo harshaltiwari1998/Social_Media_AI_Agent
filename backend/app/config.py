@@ -56,9 +56,9 @@ class Settings(BaseSettings):
     target_platforms: List[str] = Field(
         default_factory=lambda: ["instagram", "facebook"], alias="TARGET_PLATFORMS"
     )
-    # Gaming content goes to these platforms instead of TARGET_PLATFORMS.
+    # Gaming content goes only to the gaming YouTube channel (not Instagram/Facebook).
     gaming_platforms: List[str] = Field(
-        default_factory=lambda: ["youtube", "instagram"], alias="GAMING_PLATFORMS"
+        default_factory=lambda: ["youtube"], alias="GAMING_PLATFORMS"
     )
     # Movie content (new releases, reviews) goes to these platforms.
     movie_platforms: List[str] = Field(

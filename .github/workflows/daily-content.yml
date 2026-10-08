@@ -1,7 +1,7 @@
 name: Daily gaming and movie videos
 
 # Makes the day's shorts - gaming (1 new/upcoming game, 1 classic game, 1 Palworld breeding
-# combo) -> HarryBeast Gaming YouTube + Instagram, and movies (1 new/upcoming movie, 1
+# combo) -> HarryBeast Gaming YouTube only, and movies (1 new/upcoming movie, 1
 # review/box-office) -> Name Writer YouTube + Instagram + Facebook - and retries uploads that
 # failed earlier. No laptop needed. "What's already posted" lives on the gaming-state branch.
 on:
@@ -87,7 +87,7 @@ jobs:
           META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
           META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
           YOUTUBE_CLIENT_SECRET_FILE: .cache/youtube_client_secret.json
-          GAMING_PLATFORMS: '["youtube","instagram"]'
+          GAMING_PLATFORMS: '["youtube"]'
           MOVIE_PLATFORMS: '["youtube_movies","instagram","facebook"]'
           YOUTUBE_CATEGORY_ID: "20"
           YOUTUBE_MOVIES_CATEGORY_ID: "24"

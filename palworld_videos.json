@@ -115,5 +115,205 @@
         220
       ]
     }
+  },
+  "Anubis": {
+    "spec": "scripts/specs/palworld_anubis.json",
+    "video": "F:\\AI AGENT\\pal-run\\videos\\short-6d4d1977.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Anubis",
+      "caption": "Astegon + Blazamut = Anubis. A Palworld 1.0 breeding combo.",
+      "video_script": "Astegon plus Blazamut equals Anubis! That is a real Palworld one point zero breeding combo. Drop both Pals on your Breeding Farm, add a cake and wait for the egg to hatch. Save this video so you do not forget it. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Astegon",
+        "Blazamut"
+      ],
+      "child": "Anubis",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
+  },
+  "Helzephyr": {
+    "spec": "scripts/specs/palworld_helzephyr.json",
+    "video": "F:\\AI AGENT\\pal-run\\videos\\short-c5f3cdae.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Helzephyr",
+      "caption": "Vanwyrm + Wumpo Botan = Helzephyr. A Palworld 1.0 breeding combo.",
+      "video_script": "Breeding tip for Palworld: Helzephyr comes from Vanwyrm and Wumpo Botan. Place them together on the Breeding Farm, feed it a cake, and you get a Helzephyr egg. It works in Palworld one point zero. What is your favourite Pal? Comment below!",
+      "parents": [
+        "Vanwyrm",
+        "Wumpo Botan"
+      ],
+      "child": "Helzephyr",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Penking": {
+    "spec": "scripts/specs/palworld_penking.json",
+    "video": "F:\\AI AGENT\\pal-run\\videos\\short-cbbd05e9.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Penking",
+      "caption": "Lamball + Relaxaurus = Penking. A Palworld 1.0 breeding combo.",
+      "video_script": "Want Penking in Palworld without catching one? Breed Lamball with Relaxaurus. Put them together on your Breeding Farm, add a cake, and the egg hatches into Penking. This pair is confirmed in the Palworld one point zero breeding data. Follow for more breeding combos!",
+      "parents": [
+        "Lamball",
+        "Relaxaurus"
+      ],
+      "child": "Penking",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Jormuntide": {
+    "spec": "scripts/specs/palworld_jormuntide.json",
+    "video": "F:\\AI AGENT\\pal-run\\videos\\short-1eddd8c8.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Jormuntide",
+      "caption": "Blazamut + Relaxaurus Lux = Jormuntide. A Palworld 1.0 breeding combo.",
+      "video_script": "Here is an easy way to get Jormuntide in Palworld. Pair Blazamut and Relaxaurus Lux on the Breeding Farm with a cake. Their egg gives you Jormuntide, a completely different Pal from both parents. Checked against Palworld one point zero breeding data. Comment which Pal you want next!",
+      "parents": [
+        "Blazamut",
+        "Relaxaurus Lux"
+      ],
+      "child": "Jormuntide",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
+  },
+  "Kitsun": {
+    "spec": "scripts/specs/palworld_kitsun.json",
+    "video": "F:\\AI AGENT\\pal-run\\videos\\short-31be0737.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Kitsun",
+      "caption": "Chikipi + Knocklem = Kitsun. A Palworld 1.0 breeding combo.",
+      "video_script": "Chikipi plus Knocklem equals Kitsun! That is a real Palworld one point zero breeding combo. Drop both Pals on your Breeding Farm, add a cake and wait for the egg to hatch. Save this video so you do not forget it. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Chikipi",
+        "Knocklem"
+      ],
+      "child": "Kitsun",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
+  },
+  "Beakon": {
+    "spec": "scripts/specs/palworld_beakon.json",
+    "video": "F:\\AI AGENT\\pal-run\\videos\\short-adbc65fa.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Beakon",
+      "caption": "Dumud + Relaxaurus = Beakon. A Palworld 1.0 breeding combo.",
+      "video_script": "Breeding tip for Palworld: Beakon comes from Dumud and Relaxaurus. Place them together on the Breeding Farm, feed it a cake, and you get a Beakon egg. It works in Palworld one point zero. What is your favourite Pal? Comment below!",
+      "parents": [
+        "Dumud",
+        "Relaxaurus"
+      ],
+      "child": "Beakon",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
+  },
+  "Suzaku": {
+    "spec": "scripts/specs/palworld_suzaku.json",
+    "video": "F:\\AI AGENT\\pal-run\\videos\\short-efeb2c4b.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Suzaku",
+      "caption": "Loupmoon + Renjishi = Suzaku. A Palworld 1.0 breeding combo.",
+      "video_script": "Want Suzaku in Palworld without catching one? Breed Loupmoon with Renjishi. Put them together on your Breeding Farm, add a cake, and the egg hatches into Suzaku. This pair is confirmed in the Palworld one point zero breeding data. Follow for more breeding combos!",
+      "parents": [
+        "Loupmoon",
+        "Renjishi"
+      ],
+      "child": "Suzaku",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Quivern": {
+    "spec": "scripts/specs/palworld_quivern.json",
+    "video": "F:\\AI AGENT\\pal-run\\videos\\short-7d9a4097.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Quivern",
+      "caption": "Anubis + Caprity Noct = Quivern. A Palworld 1.0 breeding combo.",
+      "video_script": "Here is an easy way to get Quivern in Palworld. Pair Anubis and Caprity Noct on the Breeding Farm with a cake. Their egg gives you Quivern, a completely different Pal from both parents. Checked against Palworld one point zero breeding data. Comment which Pal you want next!",
+      "parents": [
+        "Anubis",
+        "Caprity Noct"
+      ],
+      "child": "Quivern",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Elphidran": {
+    "spec": "scripts/specs/palworld_elphidran.json",
+    "video": "F:\\AI AGENT\\pal-run\\videos\\short-becede09.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Elphidran",
+      "caption": "Fuack Ignis + Robinquill = Elphidran. A Palworld 1.0 breeding combo.",
+      "video_script": "Fuack Ignis plus Robinquill equals Elphidran! That is a real Palworld one point zero breeding combo. Drop both Pals on your Breeding Farm, add a cake and wait for the egg to hatch. Save this video so you do not forget it. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Fuack Ignis",
+        "Robinquill"
+      ],
+      "child": "Elphidran",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
+  },
+  "Digtoise": {
+    "spec": "scripts/specs/palworld_digtoise.json",
+    "video": "F:\\AI AGENT\\pal-run\\videos\\short-442f5234.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Digtoise",
+      "caption": "Blazamut Ryu + Depresso = Digtoise. A Palworld 1.0 breeding combo.",
+      "video_script": "Breeding tip for Palworld: Digtoise comes from Blazamut Ryu and Depresso. Place them together on the Breeding Farm, feed it a cake, and you get a Digtoise egg. It works in Palworld one point zero. What is your favourite Pal? Comment below!",
+      "parents": [
+        "Blazamut Ryu",
+        "Depresso"
+      ],
+      "child": "Digtoise",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
   }
 }

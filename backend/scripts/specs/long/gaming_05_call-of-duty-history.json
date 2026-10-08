@@ -1,0 +1,107 @@
+{
+  "id": "call-of-duty-history",
+  "category": "gaming",
+  "order": 5,
+  "title": "The History of Call of Duty | From World War II to Modern Warfare and Black Ops",
+  "description": "How Call of Duty grew from a 2003 World War II shooter into the best-selling first-person shooter series ever: Infinity Ward, Modern Warfare, Black Ops and the Microsoft deal.",
+  "hashtags": [
+    "CallOfDuty",
+    "CoD",
+    "Activision"
+  ],
+  "tags": [
+    "Call of Duty history",
+    "CoD history",
+    "Modern Warfare",
+    "Black Ops",
+    "Infinity Ward",
+    "Treyarch",
+    "Activision",
+    "Microsoft Activision",
+    "FPS games"
+  ],
+  "thumbnail": {
+    "image": "steam:2933620:0",
+    "text": "HISTORY OF CALL OF DUTY"
+  },
+  "sections": [
+    {
+      "heading": "A shooter that took over",
+      "script": "Call of Duty is listed by Guinness World Records as the best-selling first-person shooter series ever made, and the franchise has passed five hundred million copies sold. It started life as a World War II game and grew into a yearly event that millions of players wait for. In this video we go through its history: the original game, the Modern Warfare revolution, Black Ops, the studios behind it, and the huge deal that put it in the hands of Microsoft.",
+      "images": [
+        "steam:2933620:0",
+        "wiki:Call of Duty 4: Modern Warfare",
+        "wiki:Call of Duty: Black Ops"
+      ]
+    },
+    {
+      "heading": "Two thousand three: the original",
+      "script": "The first Call of Duty was released on October twenty ninth, two thousand three, for Windows. It was made by Infinity Ward, a studio formed by developers who had worked on Medal of Honor Allied Assault, and published by Activision, which later bought the studio. The game was set in World War II, and it was the start of a series that would eventually change online shooters forever.",
+      "images": [
+        "wiki:Call of Duty (video game)",
+        "wiki:Call of Duty 4: Modern Warfare"
+      ]
+    },
+    {
+      "heading": "More World War II games",
+      "script": "The series stayed in World War II for its first few games. Infinity Ward made Call of Duty two in two thousand five, which came to PC and the Xbox three sixty, and Treyarch made Call of Duty three in two thousand six. Treyarch returned to the war in two thousand eight with World at War. Each game added bigger battles and more cinematic moments, and the community around the series kept growing.",
+      "images": [
+        "wiki:Call of Duty (video game)",
+        "wiki:Call of Duty: Black Ops"
+      ]
+    },
+    {
+      "heading": "Two thousand seven: Modern Warfare",
+      "script": "Then everything changed. In two thousand seven, Call of Duty four Modern Warfare left World War II behind and moved the series into a modern setting. It was the breakthrough title for the series, and it created the Modern Warfare sub-series. Infinity Ward followed it with Modern Warfare two in two thousand nine, and Modern Warfare three came in twenty eleven. These games became hugely popular, and they are still remembered as some of the best in the series.",
+      "images": [
+        "wiki:Call of Duty 4: Modern Warfare",
+        "wiki:Call of Duty: Modern Warfare (2019 video game)"
+      ]
+    },
+    {
+      "heading": "Two thousand ten: Black Ops",
+      "script": "In two thousand ten, Treyarch released Call of Duty Black Ops, which started a second major sub-series. The series went on to include Black Ops two, Black Ops three, Black Ops four, Cold War, and Black Ops six in twenty twenty four, so the line is still going strong.",
+      "images": [
+        "wiki:Call of Duty: Black Ops",
+        "steam:2933620:1",
+        "steam:2933620:2"
+      ]
+    },
+    {
+      "heading": "Many studios, one series",
+      "script": "Today, Call of Duty is made by several studios working in rotation. Infinity Ward, Treyarch and Sledgehammer Games all lead different releases, with Raven Software helping on later Black Ops games. In twenty nineteen, Infinity Ward rebooted Modern Warfare, followed by Modern Warfare two in twenty twenty two and Modern Warfare three in twenty twenty three. This rotation is how the series manages to release a new game every year.",
+      "images": [
+        "wiki:Call of Duty: Modern Warfare (2019 video game)",
+        "steam:2933620:1",
+        "steam:2933620:0"
+      ]
+    },
+    {
+      "heading": "Record-breaking sales",
+      "script": "The sales are enormous. In April twenty twenty one, Activision announced that the franchise had passed four hundred million copies sold. A few years later, with Black Ops six on the market, the franchise had passed five hundred million. Guinness World Records lists it as the best-selling first-person shooter series, and it is also one of the best-selling video game franchises of all time.",
+      "images": [
+        "wiki:Call of Duty (video game)",
+        "steam:2933620:1",
+        "wiki:Call of Duty: Black Ops"
+      ]
+    },
+    {
+      "heading": "The Microsoft deal",
+      "script": "In January twenty twenty two, Microsoft announced that it would buy Activision Blizzard for sixty eight point seven billion dollars in cash. After reviews by regulators around the world, including the United Kingdom, the deal was completed on October thirteenth, twenty twenty three. That means Call of Duty is now part of Microsoft Gaming, alongside Xbox Game Studios, one of the biggest changes in the history of the series.",
+      "images": [
+        "steam:2933620:2",
+        "steam:2933620:1",
+        "wiki:Call of Duty 4: Modern Warfare"
+      ]
+    },
+    {
+      "heading": "Which one is your favourite",
+      "script": "That was the history of Call of Duty, from a World War II shooter in two thousand three to a giant that sells hundreds of millions of copies. Now it is your turn. Which Call of Duty is the best of all time: the original, Modern Warfare, Black Ops, or something newer? Tell us in the comments below, and subscribe to the channel for more gaming history and news.",
+      "images": [
+        "wiki:Call of Duty 4: Modern Warfare",
+        "wiki:Call of Duty: Black Ops",
+        "steam:2933620:0"
+      ]
+    }
+  ]
+}

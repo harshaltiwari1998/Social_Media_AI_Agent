@@ -1,0 +1,106 @@
+{
+  "id": "pokemon-franchise-history",
+  "category": "gaming",
+  "order": 8,
+  "title": "The History of Pokémon | From Game Boy to Pokémon Go and Beyond",
+  "description": "How Pokémon grew from two Game Boy games in 1996 into the highest-grossing media franchise in the world: Satoshi Tajiri, Red and Blue, the card game, the anime and Pokémon Go.",
+  "hashtags": [
+    "Pokemon",
+    "Nintendo",
+    "PokemonGo"
+  ],
+  "tags": [
+    "Pokemon history",
+    "Pokemon Red and Blue",
+    "Satoshi Tajiri",
+    "Game Freak",
+    "Pokemon Go",
+    "Pokemon trading card game",
+    "Pikachu",
+    "Nintendo",
+    "classic games"
+  ],
+  "thumbnail": {
+    "image": "wiki:Pikachu",
+    "text": "HISTORY OF POKÉMON"
+  },
+  "sections": [
+    {
+      "heading": "Gotta catch them all",
+      "script": "Pokémon is a world-famous franchise made of video games, an animated series, movies, a trading card game and much more. It is estimated to be the highest-grossing media franchise in the world. But it all started with a simple idea about catching bugs. In this video we trace the history of Pokémon, from the first Game Boy games in nineteen ninety six, to the cards and the anime, and the day that Pokémon Go took over the streets.",
+      "images": [
+        "wiki:Pikachu",
+        "wiki:Pokémon Red and Blue",
+        "wiki:Pokémon Scarlet and Violet"
+      ]
+    },
+    {
+      "heading": "Satoshi Tajiri's idea",
+      "script": "Pokémon began with Satoshi Tajiri, the founder of the Japanese studio Game Freak. As a child, Tajiri loved collecting insects, and he dreamed of turning that joy into a game. His idea was first called Capsule Monsters, and after some trademark problems it became Pocket Monsters, which is where the short name Pokémon comes from. Nintendo agreed to support the project, and development took years of hard work.",
+      "images": [
+        "wiki:Pokémon Red and Blue",
+        "wiki:Pikachu"
+      ]
+    },
+    {
+      "heading": "Nineteen ninety six: Red and Green",
+      "script": "The first two games, Pokémon Red and Green, were released on the Game Boy in Japan on February twenty seventh, nineteen ninety six. They started slowly, but word of mouth spread, and the games became sleeper hits. The first games featured one hundred and fifty one different Pokémon, and because you had to trade with a friend using a link cable to catch them all, the games also made players social.",
+      "images": [
+        "wiki:Pokémon Red and Blue",
+        "wiki:Pokémon Gold and Silver"
+      ]
+    },
+    {
+      "heading": "Cards and anime",
+      "script": "Soon the franchise grew beyond games. The Pokémon Trading Card Game launched in Japan in October nineteen ninety six, and its first set had one hundred and two cards. In April nineteen ninety seven, the animated series premiered in Japan, following a young trainer named Satoshi, who is known as Ash Ketchum in English, and his partner, Pikachu. These products turned a game into a cultural phenomenon.",
+      "images": [
+        "wiki:Pikachu",
+        "wiki:Pokémon Red and Blue"
+      ]
+    },
+    {
+      "heading": "Pokémania goes global",
+      "script": "From nineteen ninety eight to two thousand, Pokémon was exported to the rest of the world and created an unprecedented craze known as Pokémania. Pokémon Red and Blue arrived in North America in September nineteen ninety eight, and the cards and the cartoon followed. Millions of children collected cards, traded creatures and watched the show, and Pikachu became one of the most recognised characters on Earth.",
+      "images": [
+        "wiki:Pokémon Red and Blue",
+        "wiki:Pikachu",
+        "wiki:Pokémon Gold and Silver"
+      ]
+    },
+    {
+      "heading": "New generations",
+      "script": "Every few years, a new generation of games added new regions and new creatures. The series moved from the Game Boy to the Nintendo DS, the Switch and beyond, with titles such as Gold and Silver and Scarlet and Violet. The Pokémon Company, which manages the franchise, was established in two thousand by Nintendo, Creatures and Game Freak, and it works with partners around the world to keep the brand growing.",
+      "images": [
+        "wiki:Pokémon Gold and Silver",
+        "wiki:Pokémon Scarlet and Violet",
+        "wiki:Pikachu"
+      ]
+    },
+    {
+      "heading": "Twenty sixteen: Pokémon Go",
+      "script": "In July twenty sixteen, Pokémon found a second craze. Pokémon Go, a mobile game made by Niantic using augmented reality, launched on July sixth in a few countries and quickly spread around the world. People went outside to catch Pokémon in parks, malls and streets. By twenty nineteen, the Pokémon Company said it had been downloaded more than one billion times, one of the biggest mobile game successes ever.",
+      "images": [
+        "wiki:Pokémon Scarlet and Violet",
+        "wiki:Pikachu"
+      ]
+    },
+    {
+      "heading": "Why Pokémon lasts",
+      "script": "So why has Pokémon lasted for almost thirty years? The idea is simple and friendly: catch, train and battle creatures with friends. The games are easy to start but deep to master, and the franchise has something for every age group, from kids watching the anime to adults collecting cards. That is why the franchise remains one of the biggest in entertainment even after its second craze.",
+      "images": [
+        "wiki:Pokémon Red and Blue",
+        "wiki:Pokémon Scarlet and Violet",
+        "wiki:Pikachu"
+      ]
+    },
+    {
+      "heading": "Who is your favourite",
+      "script": "That was the history of Pokémon, from a boy who loved catching bugs to a franchise loved around the world. Now it is your turn. Who is your favourite Pokémon, and which game was your first one? Tell us in the comments below, and subscribe to the channel for more gaming history and news.",
+      "images": [
+        "wiki:Pikachu",
+        "wiki:Pokémon Scarlet and Violet",
+        "wiki:Pokémon Red and Blue"
+      ]
+    }
+  ]
+}

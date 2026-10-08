@@ -78,5 +78,93 @@
     ],
     "child": "Digtoise",
     "unique": false
+  },
+  {
+    "parents": [
+      "Foxparks",
+      "Lamball"
+    ],
+    "child": "Lifmunk",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Foxparks",
+      "Jolthog"
+    ],
+    "child": "Sparkit",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Gobfin",
+      "Lamball"
+    ],
+    "child": "Mozzarina",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Chikipi",
+      "Flopie"
+    ],
+    "child": "Rooby",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Cattiva",
+      "Depresso"
+    ],
+    "child": "Rushoar",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Lamball",
+      "Teafant"
+    ],
+    "child": "Vixy",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Cattiva",
+      "Pengullet"
+    ],
+    "child": "Ribbuny",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Cattiva",
+      "Direhowl"
+    ],
+    "child": "Melpaca",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Blazehowl",
+      "Cattiva"
+    ],
+    "child": "Mossanda",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Foxparks",
+      "Sparkit"
+    ],
+    "child": "Depresso",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Chikipi",
+      "Tombat"
+    ],
+    "child": "Eikthyrdeer",
+    "unique": false
   }
 ]

@@ -1,0 +1,96 @@
+{
+  "id": "zelda-franchise-history",
+  "category": "gaming",
+  "order": 7,
+  "title": "The History of The Legend of Zelda | From 1986 to Tears of the Kingdom",
+  "description": "How The Legend of Zelda became one of Nintendo's greatest series: the 1986 original, Ocarina of Time with its Metascore of 99, Breath of the Wild and Tears of the Kingdom.",
+  "hashtags": [
+    "Zelda",
+    "Nintendo",
+    "TearsOfTheKingdom"
+  ],
+  "tags": [
+    "Zelda history",
+    "Legend of Zelda history",
+    "Ocarina of Time",
+    "Breath of the Wild",
+    "Tears of the Kingdom",
+    "Link",
+    "Shigeru Miyamoto",
+    "Nintendo",
+    "classic games"
+  ],
+  "thumbnail": {
+    "image": "wiki:The Legend of Zelda: Breath of the Wild",
+    "text": "HISTORY OF ZELDA"
+  },
+  "sections": [
+    {
+      "heading": "An adventure in Hyrule",
+      "script": "The Legend of Zelda is one of the most loved game series ever made. It is the story of Link, a young hero, and Princess Zelda, and their fight to save the land of Hyrule from the evil Ganon. Along the way there are dungeons, puzzles and one of the greatest soundtracks in gaming. In this video we follow the series from the very first game in nineteen eighty six, through Ocarina of Time, to Breath of the Wild and Tears of the Kingdom.",
+      "images": [
+        "wiki:The Legend of Zelda: Breath of the Wild",
+        "wiki:The Legend of Zelda: Tears of the Kingdom",
+        "wiki:The Legend of Zelda: Ocarina of Time"
+      ]
+    },
+    {
+      "heading": "Nineteen eighty six: the original",
+      "script": "The first Legend of Zelda came out on February twenty first, nineteen eighty six, in Japan, as a launch title for the Famicom Disk System. It was created by Shigeru Miyamoto and Takashi Tezuka, and it could save your progress directly to the game disk, which was a big deal at the time. The game reached the United States in nineteen eighty seven on the Nintendo Entertainment System, and players loved its open map, hidden secrets and freedom to explore.",
+      "images": [
+        "wiki:The Legend of Zelda (video game)",
+        "wiki:The Legend of Zelda: A Link to the Past"
+      ]
+    },
+    {
+      "heading": "The heart of the series",
+      "script": "Almost every Zelda game follows a similar idea. Link is a brave young hero of the Hylian race, and Princess Zelda belongs to a royal bloodline linked to the goddess Hylia. Their enemy is usually Ganon, who wants to use the Triforce, a sacred relic that can grant any wish, to remake the world in his image. One small tip for new fans: the hero is Link, and Zelda is the princess, a mistake many people make.",
+      "images": [
+        "wiki:The Legend of Zelda (video game)",
+        "wiki:The Legend of Zelda: A Link to the Past"
+      ]
+    },
+    {
+      "heading": "Nineteen ninety eight: Ocarina of Time",
+      "script": "In November nineteen ninety eight, Ocarina of Time launched on the Nintendo 64, bringing the series into three dimensions for the first time. It is famous for its dungeons, its time-travel story, and its music. According to Guinness World Records, it is the only video game to have reached a Metacritic score of ninety nine, and many critics still call it one of the greatest games ever made.",
+      "images": [
+        "wiki:The Legend of Zelda: Ocarina of Time",
+        "wiki:The Legend of Zelda: A Link to the Past"
+      ]
+    },
+    {
+      "heading": "Twenty seventeen: Breath of the Wild",
+      "script": "After Ocarina, the series had many great games, but Breath of the Wild, released on March third, twenty seventeen, changed it again. It launched with the Nintendo Switch and, on the same day, on the Wii U. Instead of a strict path, it gave players a huge open world where you could climb almost anything and tackle challenges in any order. It earned a Metacritic score of ninety seven and sold more than thirty million copies.",
+      "images": [
+        "wiki:The Legend of Zelda: Breath of the Wild",
+        "wiki:The Legend of Zelda: Tears of the Kingdom"
+      ]
+    },
+    {
+      "heading": "Twenty twenty three: Tears of the Kingdom",
+      "script": "Tears of the Kingdom was released on May twelfth, twenty twenty three, on the Nintendo Switch. Nintendo announced that it sold more than ten million copies in its first three days, which made it the fastest-selling game in the history of the series. It builds on the world of Breath of the Wild, adding new ways to build and create, and it holds a Metacritic score of ninety six.",
+      "images": [
+        "wiki:The Legend of Zelda: Tears of the Kingdom",
+        "wiki:The Legend of Zelda: Breath of the Wild"
+      ]
+    },
+    {
+      "heading": "A series with huge sales",
+      "script": "The numbers show how popular the series is. Nintendo said in twenty twenty three that the Legend of Zelda had sold more than one hundred and thirty million copies over thirty five years, and later estimates say the total is even higher. Breath of the Wild and Tears of the Kingdom alone have sold tens of millions of copies each, which shows how strongly fans still connect with Hyrule.",
+      "images": [
+        "wiki:The Legend of Zelda: Breath of the Wild",
+        "wiki:The Legend of Zelda: Tears of the Kingdom",
+        "wiki:The Legend of Zelda: Ocarina of Time"
+      ]
+    },
+    {
+      "heading": "Your favourite Zelda",
+      "script": "That was the story of The Legend of Zelda, from a Famicom Disk System launch game to the open-world adventures of today. Now we want to hear from you. What is your favourite Zelda game: the original, Ocarina of Time, Breath of the Wild, or Tears of the Kingdom? Tell us in the comments below, and subscribe to the channel for more gaming history and news.",
+      "images": [
+        "wiki:The Legend of Zelda: Ocarina of Time",
+        "wiki:The Legend of Zelda: Breath of the Wild",
+        "wiki:The Legend of Zelda: Tears of the Kingdom"
+      ]
+    }
+  ]
+}

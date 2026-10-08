@@ -1,0 +1,106 @@
+{
+  "id": "super-mario-history",
+  "category": "gaming",
+  "order": 4,
+  "title": "The History of Super Mario | From Donkey Kong to the Switch | Nintendo's Plumber Explained",
+  "description": "How Mario went from a nameless jumping hero in Donkey Kong to the most famous character in gaming: Super Mario Bros, Super Mario 3, Super Mario World, Super Mario 64 and beyond.",
+  "hashtags": [
+    "SuperMario",
+    "Nintendo",
+    "Mario"
+  ],
+  "tags": [
+    "Super Mario history",
+    "Mario history",
+    "Super Mario Bros",
+    "Donkey Kong",
+    "Super Mario 64",
+    "Shigeru Miyamoto",
+    "Nintendo",
+    "classic games",
+    "Mario games"
+  ],
+  "thumbnail": {
+    "image": "wiki:Super Mario Bros.",
+    "text": "HISTORY OF MARIO"
+  },
+  "sections": [
+    {
+      "heading": "The most famous plumber",
+      "script": "Mario is the face of Nintendo and one of the most recognised characters in the world. He has jumped across screens for more than forty years, and almost every child who has held a controller knows his music. In this video we trace his whole story, from a nameless hero in an arcade game, to Super Mario Bros on the NES, the big sequels, the leap into three dimensions, and the way the series keeps reinventing itself. Grab a mushroom, and let's go.",
+      "images": [
+        "wiki:Super Mario Bros.",
+        "wiki:Super Mario Odyssey",
+        "wiki:Super Mario 64"
+      ]
+    },
+    {
+      "heading": "Nineteen eighty one: Donkey Kong",
+      "script": "Mario first appeared in the arcade game Donkey Kong in nineteen eighty one, designed by Shigeru Miyamoto. At that time he had no name and was simply called Jumpman, and his girlfriend was known as Lady. When Nintendo of America needed proper names, the staff named the hero after their warehouse landlord, a Seattle-area businessman called Mario Segale, and the lady became Pauline. That is how one of gaming's biggest names was born, almost by accident.",
+      "images": [
+        "wiki:Donkey Kong (1981 video game)",
+        "wiki:Super Mario Bros."
+      ]
+    },
+    {
+      "heading": "Nineteen eighty five: Super Mario Bros",
+      "script": "Super Mario Bros arrived in Japan on September thirteenth, nineteen eighty five, and on the Nintendo Entertainment System in North America later that year. It was designed by Shigeru Miyamoto and Takashi Tezuka, with an unforgettable score by Koji Kondo. You run and jump through levels, stomp enemies, grab power-ups that change your size and give you fireballs, and rescue Princess Peach from Bowser in the Mushroom Kingdom. It helped revive the console market after the video game crash of nineteen eighty three.",
+      "images": [
+        "wiki:Super Mario Bros.",
+        "wiki:Super Mario Bros. 3"
+      ]
+    },
+    {
+      "heading": "Super Mario Bros three and Super Mario World",
+      "script": "The sequels kept raising the bar. Super Mario Bros three arrived in Japan in nineteen eighty eight and introduced an overworld map, where you could choose between branching levels. Super Mario World followed in nineteen ninety as a launch game for the Super Nintendo, and added secret exits that rewarded curious players. Together, these games turned Mario from a hit into a true institution, and many fans still call them the high point of two-dimensional platforming.",
+      "images": [
+        "wiki:Super Mario Bros. 3",
+        "wiki:Super Mario World"
+      ]
+    },
+    {
+      "heading": "Nineteen ninety six: Super Mario 64",
+      "script": "In nineteen ninety six, Mario made his biggest leap yet. Super Mario 64 launched on the Nintendo 64, first in Japan in June and then in North America in September, and it was the first three-dimensional Mario game. Mario could now triple jump, ground pound, long jump, dive and somersault, and the game let you freely explore large worlds. It did not invent three-dimensional platforming, but it set the rules and controls that many later games copied.",
+      "images": [
+        "wiki:Super Mario 64",
+        "wiki:Super Mario Odyssey"
+      ]
+    },
+    {
+      "heading": "Open worlds and new ideas",
+      "script": "After Mario 64, the series split into two styles. Open-world games like Super Mario Sunshine and Super Mario Odyssey let players explore large, enclosed worlds with free movement in every direction. Other three-dimensional games use more linear paths, while the classic two-dimensional games keep the run-and-jump formula alive. Every new Mario game plays with this balance, and that is why the series never feels old.",
+      "images": [
+        "wiki:Super Mario Odyssey",
+        "wiki:Super Mario Bros. Wonder",
+        "wiki:Super Mario 64"
+      ]
+    },
+    {
+      "heading": "The Mario cast",
+      "script": "Mario's world is full of characters that are famous in their own right. His brother Luigi often joins him, and Princess Peach is usually the one waiting to be rescued. His main enemy is the fire-breathing Bowser. Most stories are set in the Mushroom Kingdom, and the simple plot of Mario and Luigi rescuing the princess from Bowser has been told in dozens of different ways, each with new levels, power-ups and ideas.",
+      "images": [
+        "wiki:Super Mario Bros.",
+        "wiki:Super Mario World",
+        "wiki:Super Mario Bros. Wonder"
+      ]
+    },
+    {
+      "heading": "A franchise of records",
+      "script": "The numbers show how big Mario really is. The Super Mario series has sold hundreds of millions of copies, and Super Mario Bros was the best-selling video game in the world for many years, until Nintendo's own Wii Sports passed it in two thousand nine. At least one Super Mario game has been released for every major Nintendo console, which makes Mario the one constant in Nintendo's history.",
+      "images": [
+        "wiki:Super Mario Bros.",
+        "wiki:Super Mario Bros. 3",
+        "wiki:Super Mario Odyssey"
+      ]
+    },
+    {
+      "heading": "Your favourite Mario game",
+      "script": "That was the story of Super Mario, from a nameless jumping hero to a gaming legend. Now we want to hear from you. What is your favourite Mario game of all time: the original, Super Mario Bros three, Super Mario World, Mario 64, or Odyssey? Tell us in the comments below, and subscribe to the channel for more gaming history and news.",
+      "images": [
+        "wiki:Super Mario Bros.",
+        "wiki:Super Mario World",
+        "wiki:Super Mario 64"
+      ]
+    }
+  ]
+}

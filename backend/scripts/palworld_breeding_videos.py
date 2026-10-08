@@ -87,32 +87,37 @@ def _label(text: str, size: int, color=_WHITE) -> Image.Image:
     return render_runs(get_font("bold", size), [(text, color)], stroke=6, shadow=8)
 
 
+# The video's Ken Burns zoom/pan crops up to ~14% off one side of each card, so text
+# stays at least ~140px from every edge.
+_EDGE = 140
+
+
 def pal_card(name: str, color: tuple[int, int, int], tag: str) -> Image.Image:
     canvas = _background(color).convert("RGBA")
-    art = _fit(fetch_pal_art(name), 760)
-    _paste_with_glow(canvas, art, ((_CARD - art.width) // 2, 90 + (760 - art.height) // 2))
     tag_img = _label(tag, 54, _YELLOW)
-    canvas.alpha_composite(tag_img, ((_CARD - tag_img.width) // 2, 10))
-    name_img = _label(name, 96)
-    canvas.alpha_composite(name_img, ((_CARD - name_img.width) // 2, _CARD - name_img.height - 30))
+    canvas.alpha_composite(tag_img, ((_CARD - tag_img.width) // 2, _EDGE))
+    art = _fit(fetch_pal_art(name), 600)
+    _paste_with_glow(canvas, art, ((_CARD - art.width) // 2, 215 + (600 - art.height) // 2))
+    name_img = _label(name, 88)
+    canvas.alpha_composite(name_img, ((_CARD - name_img.width) // 2, _CARD - name_img.height - _EDGE))
     return canvas.convert("RGB")
 
 
 def combo_card(parent_a: str, parent_b: str, child: str, color: tuple[int, int, int]) -> Image.Image:
     canvas = _background(color).convert("RGBA")
-    for name, cx in ((parent_a, 270), (parent_b, 810)):
-        art = _fit(fetch_pal_art(name), 360)
-        _paste_with_glow(canvas, art, (cx - art.width // 2, 70 + (360 - art.height) // 2))
-        lbl = _label(name, 50)
-        canvas.alpha_composite(lbl, (cx - lbl.width // 2, 440))
-    plus = _label("+", 140, _YELLOW)
-    canvas.alpha_composite(plus, ((_CARD - plus.width) // 2, 160))
-    eq = _label("=", 120, _YELLOW)
-    canvas.alpha_composite(eq, ((_CARD - eq.width) // 2, 505))
-    art = _fit(fetch_pal_art(child), 330)
-    _paste_with_glow(canvas, art, ((_CARD - art.width) // 2, 640 + (330 - art.height) // 2))
-    lbl = _label(child, 62, _YELLOW)
-    canvas.alpha_composite(lbl, ((_CARD - lbl.width) // 2, _CARD - lbl.height - 10))
+    for name, cx in ((parent_a, 330), (parent_b, 750)):
+        art = _fit(fetch_pal_art(name), 270)
+        _paste_with_glow(canvas, art, (cx - art.width // 2, 150 + (270 - art.height) // 2))
+        lbl = _label(name, 44)
+        canvas.alpha_composite(lbl, (cx - lbl.width // 2, 435))
+    plus = _label("+", 120, _YELLOW)
+    canvas.alpha_composite(plus, ((_CARD - plus.width) // 2, 215))
+    eq = _label("=", 100, _YELLOW)
+    canvas.alpha_composite(eq, ((_CARD - eq.width) // 2, 500))
+    art = _fit(fetch_pal_art(child), 230)
+    _paste_with_glow(canvas, art, ((_CARD - art.width) // 2, 615 + (230 - art.height) // 2))
+    lbl = _label(child, 58, _YELLOW)
+    canvas.alpha_composite(lbl, ((_CARD - lbl.width) // 2, _CARD - lbl.height - _EDGE))
     return canvas.convert("RGB")
 
 

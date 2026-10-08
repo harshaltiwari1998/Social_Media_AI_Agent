@@ -138,5 +138,19 @@
   "tribute-nana-patekar-yaadgaar-kirdaar": {
     "spec": "scripts/specs/movies/tribute_03_nana-patekar-yaadgaar-kirdaar.json",
     "video": "F:\\AI AGENT\\trib-run\\videos\\short-a14aaa04.mp4"
+  },
+  "gta6-everything-we-know": {
+    "spec": "scripts/specs/long/gaming_01_gta6-everything-we-know.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\long-run\\videos\\long-cd05a567.mp4",
+    "thumbnail": "F:\\AI AGENT\\long-run\\videos\\long-cd05a567-thumb.jpg",
+    "chapters": "0:00 GTA 6 is almost here\n0:22 Release date and platforms\n0:43 Lucia and Jason\n1:06 Welcome to Leonida\n1:35 Vice City returns\n1:58 The supporting cast\n2:24 Record-breaking trailers\n2:45 The road to launch: delays\n3:07 Is GTA 6 coming to PC?\n3:32 Price and editions\n3:52 Final thoughts"
+  },
+  "upcoming-movies-oct-dec-2026": {
+    "spec": "scripts/specs/long/movies_01_upcoming-movies-oct-dec-2026.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\long-run\\videos\\long-55856055.mp4",
+    "thumbnail": "F:\\AI AGENT\\long-run\\videos\\long-55856055-thumb.jpg",
+    "chapters": "0:00 Saal ke aakhri teen mahine\n0:26 Street Fighter - 16 October\n0:55 Clayface - 23 October\n1:20 Ramayana Part 1 - Diwali\n1:55 Godzilla Minus Zero\n2:18 The Hunger Games: Sunrise on the Reaping\n2:43 Avengers: Doomsday - 18 December\n3:13 Dune: Part Three - 18 December\n3:38 Aap kaunsi dekhoge?"
   }
 }

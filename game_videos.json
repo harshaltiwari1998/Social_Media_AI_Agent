@@ -126,5 +126,17 @@
   "dhurandhar-the-revenge-record": {
     "spec": "scripts/specs/movies/movie_review_03_dhurandhar-the-revenge-record.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-97f2d1ac.mp4"
+  },
+  "tribute-nana-patekar-alvida": {
+    "spec": "scripts/specs/movies/tribute_01_nana-patekar-alvida.json",
+    "video": "F:\\AI AGENT\\trib-run\\videos\\short-b0c152e6.mp4"
+  },
+  "tribute-nana-patekar-safar": {
+    "spec": "scripts/specs/movies/tribute_02_nana-patekar-safar.json",
+    "video": "F:\\AI AGENT\\trib-run\\videos\\short-22e4a0db.mp4"
+  },
+  "tribute-nana-patekar-yaadgaar-kirdaar": {
+    "spec": "scripts/specs/movies/tribute_03_nana-patekar-yaadgaar-kirdaar.json",
+    "video": "F:\\AI AGENT\\trib-run\\videos\\short-a14aaa04.mp4"
   }
 }

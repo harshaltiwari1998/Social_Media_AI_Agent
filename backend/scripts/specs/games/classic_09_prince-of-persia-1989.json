@@ -2,9 +2,9 @@
   "id": "prince-of-persia-1989",
   "slot": "classic",
   "order": 9,
-  "headline": "Prince of Persia: 60 minute ka challenge",
-  "title": "Prince of Persia 1989 | 60 Minute Ka Challenge | Classic Games Hindi",
-  "video_script": "Prince of Persia 1989 में आया था, और इसे Jordan Mechner ने बनाया था. Game में princess को बचाने के लिए सिर्फ़ साठ मिनट मिलते थे. Prince की smooth animation के लिए Jordan ने अपने भाई की दौड़ने-कूदने की video से frames बनाए थे. भारत में बहुत से लोगों ने इसे DOS वाले computer पर खेला. आपने खेला था? Comment करो!",
+  "headline": "Prince of Persia: the 60-minute challenge",
+  "title": "Prince of Persia 1989 | The 60 Minute Challenge | Classic Games",
+  "video_script": "Prince of Persia came out in nineteen eighty nine, made by Jordan Mechner. You had just sixty minutes to rescue the princess. For the Prince's smooth animation, Jordan traced frames from videos of his younger brother running and jumping. Lots of players in India played it on old DOS computers. Did you? Comment below!",
   "scenes": [
     {
       "image": "wiki:Prince of Persia (1989 video game)",
@@ -17,16 +17,16 @@
     },
     {
       "image": "wiki:Prince of Persia (1989 video game)",
-      "fact": "Sirf 60 minute",
-      "sub": "Princess ko bachao"
+      "fact": "Only 60 minutes",
+      "sub": "Rescue the princess"
     },
     {
       "image": "wiki:Prince of Persia (1989 video game)",
-      "fact": "Bhai ki video se animation",
+      "fact": "Animated from real video",
       "sub": "Rotoscoping"
     }
   ],
-  "description": "Prince of Persia (1989, Jordan Mechner) - princess ko bachane ke liye sirf 60 minute, aur bhai ki video se bani animation.",
+  "description": "Prince of Persia (1989, Jordan Mechner) - 60 minutes to save the princess, with animation traced from real video.",
   "hashtags": [
     "PrinceOfPersia",
     "RetroGaming",

@@ -2,9 +2,9 @@
   "id": "gta-vice-city-facts",
   "slot": "classic",
   "order": 7,
-  "headline": "GTA Vice City ki kahani",
-  "title": "GTA Vice City Ki Kahani | Tommy Vercetti, 1986, Ray Liotta | Classic Games Hindi",
-  "video_script": "GTA Vice City 2002 में आया था, और इसकी कहानी 1986 के Vice City में सेट है, जो Miami से inspired है. Hero है Tommy Vercetti, जिसकी आवाज़ Hollywood actor Ray Liotta ने दी थी. Game का 80s वाला music और neon शहर आज भी लोगों को याद है. और अब GTA 6 में फिर से Vice City वापस आ रहा है! Vice City आपको याद है? Comment करो!",
+  "headline": "The story of GTA Vice City",
+  "title": "The Story of GTA Vice City | Tommy Vercetti, 1986, Ray Liotta | Classic Games",
+  "video_script": "GTA Vice City came out in two thousand two, with a story set in nineteen eighty six in Vice City, a city inspired by Miami. The hero is Tommy Vercetti, voiced by Hollywood actor Ray Liotta. Its eighties soundtrack and neon streets are still legendary. And now Vice City is coming back in GTA 6! Do you remember the original? Comment below!",
   "scenes": [
     {
       "image": "wiki:Grand Theft Auto: Vice City",
@@ -13,20 +13,20 @@
     {
       "image": "steam:1546990:3",
       "fact": "2002",
-      "sub": "Kahani: 1986, Vice City"
+      "sub": "Story set in 1986 Vice City"
     },
     {
       "image": "steam:1546990:4",
       "fact": "Tommy Vercetti",
-      "sub": "Awaaz: Ray Liotta"
+      "sub": "Voiced by Ray Liotta"
     },
     {
       "image": "wiki:Grand Theft Auto VI",
-      "fact": "GTA 6 mein wapas",
+      "fact": "Back in GTA 6",
       "sub": "Vice City returns!"
     }
   ],
-  "description": "GTA Vice City (2002): 1986 ka Miami-inspired Vice City, Tommy Vercetti (awaaz: Ray Liotta) - aur ab GTA 6 mein Vice City wapas.",
+  "description": "GTA Vice City (2002): Miami-inspired Vice City in 1986, Tommy Vercetti voiced by Ray Liotta - and Vice City returns in GTA 6.",
   "hashtags": [
     "GTAViceCity",
     "GTA",

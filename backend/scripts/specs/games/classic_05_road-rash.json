@@ -2,9 +2,9 @@
   "id": "road-rash",
   "slot": "classic",
   "order": 5,
-  "headline": "Road Rash yaad hai?",
-  "title": "Road Rash Yaad Hai | EA Ka Bike Racing Game | Classic Games Hindi",
-  "video_script": "Road Rash याद है? EA का ये bike racing game 1991 में Sega Mega Drive पर आया था. इसमें race करते हुए दूसरे riders को मुक्का मार सकते थे, और डंडे जैसे हथियार छीनकर भी लड़ सकते थे. भारत में बहुत से लोगों ने इसका PC version खेला. Police से बचकर race जीतना ही असली मज़ा था! आपने Road Rash खेला है? Comment करो!",
+  "headline": "Remember Road Rash?",
+  "title": "Remember Road Rash | EA's Classic Bike Racing Game | Classic Games",
+  "video_script": "Remember Road Rash? EA's bike racing game first came out in nineteen ninety one on the Sega Mega Drive. While racing, you could punch other riders and grab weapons like clubs to fight them off. Lots of players in India played the PC version. Outrunning the police and winning the race was the real fun! Did you play Road Rash? Comment below!",
   "scenes": [
     {
       "image": "wiki:Road Rash (1991 video game)",
@@ -18,15 +18,15 @@
     {
       "image": "wiki:Road Rash (1991 video game)",
       "fact": "Race + Fight",
-      "sub": "Mukka maaro, hathiyar chheeno"
+      "sub": "Punch riders, grab weapons"
     },
     {
       "image": "wiki:Road Rash (1991 video game)",
-      "fact": "Police se bacho",
-      "sub": "Aur race jeeto!"
+      "fact": "Escape the police",
+      "sub": "And win the race!"
     }
   ],
-  "description": "Road Rash (EA, 1991, Sega Mega Drive) - race ke saath ladai wala classic bike game.",
+  "description": "Road Rash (EA, 1991, Sega Mega Drive) - the classic bike racing game where you fight while you race.",
   "hashtags": [
     "RoadRash",
     "ClassicGames",

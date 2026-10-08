@@ -127,7 +127,7 @@ def build_video(spec_path: Path) -> dict:
         ("1_parent_a", pal_card(a, color, "PARENT 1")),
         ("2_parent_b", pal_card(b, color, "PARENT 2")),
         ("3_combo", combo_card(a, b, child, color)),
-        ("4_child", pal_card(child, color, "NAYA PAL")),
+        ("4_child", pal_card(child, color, "NEW PAL")),
     ]
     paths = []
     for stem, img in cards:
@@ -135,48 +135,47 @@ def build_video(spec_path: Path) -> dict:
         img.save(path)
         paths.append(str(path.resolve()))
 
-    if spec.get("tts_voice"):
-        settings.tts_voice = spec["tts_voice"]
+    settings.tts_voice = spec.get("tts_voice") or settings.gaming_tts_voice  # Palworld is gaming -> English
     video = generate_video(
         paths, spec["caption"], spec["video_script"], headline=spec.get("headline"), badge="BREEDING GUIDE"
     )
     return {"spec": spec_path.name, "images": paths, "video": video}
 
 
-# Variant suffix -> (Hindi descriptor, element for tags, card colour).
+# Variant suffix -> (element for narration and tags, card colour).
 _VARIANTS = {
-    "Noct": ("dark वाला", "Dark", [140, 60, 220]),
-    "Cryst": ("ice वाला", "Ice", [80, 180, 255]),
-    "Ignis": ("fire वाला", "Fire", [255, 90, 40]),
-    "Terra": ("ground वाला", "Ground", [200, 140, 60]),
-    "Lux": ("electric वाला", "Electric", [240, 200, 40]),
-    "Aqua": ("पानी वाला", "Water", [40, 150, 240]),
-    "Botan": ("grass वाला", "Grass", [80, 200, 90]),
+    "Noct": ("Dark", [140, 60, 220]),
+    "Cryst": ("Ice", [80, 180, 255]),
+    "Ignis": ("Fire", [255, 90, 40]),
+    "Terra": ("Ground", [200, 140, 60]),
+    "Lux": ("Electric", [240, 200, 40]),
+    "Aqua": ("Water", [40, 150, 240]),
+    "Botan": ("Grass", [80, 200, 90]),
 }
 _SCRIPTS = [
-    "Palworld में {desc} {base}, यानी {child}, चाहिए? {a} और {b} को breeding farm में साथ रखो, और cake डालो. "
-    "ये unique combo है, इसलिए इन दो parents से हर बार {child} ही निकलेगा. "
-    "Palworld one point zero में भी ये combo काम करता है. ऐसे और combos के लिए follow करो!",
-    "Palworld में {desc} {base}, यानी {child}, ऐसे breed करो. {a} और {b} को breeding farm में साथ डालो. "
-    "ये unique combo है, इन दो parents से हमेशा {child} ही मिलेगा. "
-    "Palworld one point zero में भी ये combo काम करता है. Comment करो, अगला कौन सा Pal चाहिए!",
-    "Palworld में {child} breeding से ऐसे मिलेगा. बस {a} और {b} को breeding farm में साथ रखो. "
-    "ये unique combo है, इसलिए इन दो parents से हर बार {child} ही निकलेगा. "
-    "Palworld one point zero में भी ये combo काम करता है. Video save कर लो, बाद में काम आएगा!",
-    "{child} चाहिए? तो ये combo याद रखो. {a} और {b} को breeding farm में साथ डालो, और cake डालो. "
-    "ये unique combo है, इन दो parents से हमेशा {child} ही निकलेगा. "
-    "Palworld one point zero में भी ये combo काम करता है. आपका favourite Pal कौन सा है? Comment करो!",
+    "Want {child}, the {element} variant of {base}, in Palworld? Put {a} and {b} together on your Breeding Farm and add a cake. "
+    "This is a unique combo, so these two parents always give you {child}. "
+    "It still works after the Palworld one point zero update. Follow for more breeding combos!",
+    "Here is how to breed {child} in Palworld. Place {a} and {b} on the Breeding Farm together. "
+    "It is a unique combo, which means these parents will always hatch {child}. "
+    "Still working in Palworld one point zero. Comment which Pal you want next!",
+    "Getting {child} in Palworld is easy with breeding. Just pair {a} with {b} on the Breeding Farm. "
+    "Because this is a unique combo, the egg is always {child}. "
+    "Confirmed for Palworld one point zero. Save this video for later!",
+    "Need {child}? Remember this combo. {a} plus {b} on the Breeding Farm, with a cake. "
+    "It is a unique pairing, so you always get {child}, never anything else. "
+    "Works in Palworld one point zero too. What is your favourite Pal? Comment below!",
 ]
 
 
 def spec_from_combo(a: str, b: str, child: str, index: int = 0) -> dict:
-    """Build a video spec (Hindi narration etc.) for a verified unique combo."""
+    """Build an English video spec for a verified unique combo."""
     base, _, suffix = child.rpartition(" ")
-    desc, _, color = _VARIANTS.get(suffix, ("नया", "", [120, 60, 200]))
-    script = _SCRIPTS[index % len(_SCRIPTS)].format(desc=desc, base=base or child, child=child, a=a, b=b)
+    element, color = _VARIANTS.get(suffix, ("new", [120, 60, 200]))
+    script = _SCRIPTS[index % len(_SCRIPTS)].format(element=element, base=base or child, child=child, a=a, b=b)
     return {
-        "headline": f"Palworld Breeding: {child} kaise paayein",
-        "caption": f"{a} + {b} = {child}. Palworld 1.0 ka unique breeding combo.",
+        "headline": f"Palworld Breeding: How to get {child}",
+        "caption": f"{a} + {b} = {child}. A unique breeding combo in Palworld 1.0.",
         "video_script": script,
         "parents": [a, b],
         "child": child,
@@ -192,19 +191,19 @@ def post_id_for(spec: dict) -> str:
 def post_text_and_tags(spec: dict) -> tuple[str, list[str]]:
     """Title on the first line (YouTube's title - no "." or "?", it's cut there), description, hashtags."""
     (a, b), child = spec["parents"], spec["child"]
-    element = _VARIANTS.get(child.rpartition(" ")[2], ("", "", None))[1]
-    title = f"{child} Kaise Paaye | {a} + {b} | Palworld Breeding Guide Hindi"
+    element = _VARIANTS.get(child.rpartition(" ")[2], ("", None))[0]
+    title = f"How to Get {child} in Palworld | {a} + {b} | Palworld Breeding Guide"
     text = (
         f"{title}\n\n"
-        f"Palworld mein {child} chahiye? {a} aur {b} ko Breeding Farm mein saath rakho aur Cake daalo. "
-        f"Ye ek UNIQUE breeding combo hai - in dono parents se hamesha {child} hi niklega.\n\n"
+        f"Want {child} in Palworld? Put {a} and {b} together on the Breeding Farm and add a Cake. "
+        f"This is a UNIQUE breeding combo - these two parents always hatch {child}.\n\n"
         f"Breeding combo:\n{a} + {b} = {child}\n\n"
-        f"Palworld 1.0 update ke baad bhi ye combo kaam karta hai. "
-        f"Aise aur breeding combos ke liye Follow karo, aur comment mein batao agla kaun sa Pal chahiye!\n\n"
-        f"#Palworld #PalworldBreeding #{child.replace(' ', '')} #PalworldHindi #Gaming #Shorts"
+        f"Still works after the Palworld 1.0 update. "
+        f"Follow for more breeding combos, and comment which Pal you want next!\n\n"
+        f"#Palworld #PalworldBreeding #{child.replace(' ', '')} #Gaming #Shorts"
     )
     tags = [
-        "Palworld", "Palworld breeding", "Palworld breeding guide", "Palworld 1.0", "Palworld Hindi",
+        "Palworld", "Palworld breeding", "Palworld breeding guide", "Palworld 1.0",
         child, f"{child} breeding", f"how to get {child}", a, b,
         *([f"Palworld {element} Pal"] if element else []),
         "Palworld unique combo", "Palworld breeding combos", "Palworld shorts",

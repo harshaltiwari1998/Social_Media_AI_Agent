@@ -3,9 +3,9 @@
   "slot": "new",
   "order": 9,
   "expires": "2026-10-29",
-  "headline": "Phantom Blade Zero - release date",
-  "title": "Phantom Blade Zero Release Date 29 October | PS5 aur PC | Gaming News Hindi",
-  "video_script": "Phantom Blade Zero, S-GAME का dark wuxia action RPG, जिसमें तलवारबाज़ी वाली तेज़ combat है. इसकी release date है 29 October 2026, PS5 और PC पर. पहले ये 9 September को आने वाला था, लेकिन polish के लिए इसे पचास दिन आगे बढ़ाया गया. PC पर ये Steam और Epic Games Store दोनों पर मिलेगा. आप इसका wait कर रहे हो? Comment करो!",
+  "headline": "Phantom Blade Zero release date",
+  "title": "Phantom Blade Zero Release Date October 29 | PS5 and PC | Gaming News",
+  "video_script": "Phantom Blade Zero is S-GAME's dark wuxia action RPG, built around fast, blade-to-blade sword combat. It releases on October twenty ninth, twenty twenty six, on PS5 and PC. It was originally set for September ninth, but was pushed back fifty days for extra polish. On PC it is coming to both Steam and the Epic Games Store. Are you waiting for it? Comment below!",
   "scenes": [
     {
       "image": "steam:4115450:2",
@@ -19,15 +19,15 @@
     {
       "image": "steam:4115450:4",
       "fact": "Dark wuxia action RPG",
-      "sub": "Talwarbaazi wali combat"
+      "sub": "Fast sword combat"
     },
     {
       "image": "steam:4115450:5",
-      "fact": "50 din ki delay",
-      "sub": "Pehle 9 September tha"
+      "fact": "Delayed 50 days",
+      "sub": "Was September 9"
     }
   ],
-  "description": "Phantom Blade Zero (S-GAME) ki release date 29 October 2026 hai - PS5 aur PC (Steam + Epic Games Store). Pehle 9 September ko aana tha.",
+  "description": "Phantom Blade Zero (S-GAME) releases October 29, 2026 on PS5 and PC (Steam + Epic Games Store). It was originally due September 9.",
   "hashtags": [
     "PhantomBladeZero",
     "SGame",
@@ -40,7 +40,7 @@
     "wuxia game",
     "action RPG",
     "PS5 games",
-    "gaming news Hindi",
+    "gaming news",
     "new games 2026"
   ]
 }

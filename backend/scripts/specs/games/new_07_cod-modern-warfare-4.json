@@ -3,9 +3,9 @@
   "slot": "new",
   "order": 7,
   "expires": "2026-10-23",
-  "headline": "Call of Duty: Modern Warfare 4 - release date",
-  "title": "Call of Duty Modern Warfare 4 Release Date 23 October | Switch 2 Par Bhi | Gaming News Hindi",
-  "video_script": "Call of Duty: Modern Warfare 4 की release date है 23 October 2026. ये PS5, Xbox Series X और S, PC और Nintendo Switch 2 पर आएगा. Switch 2 पर Call of Duty की वापसी हो रही है, और वो भी cloud नहीं, native version में. ध्यान रहे, ये PS4 और Xbox One पर नहीं आएगा. Cross-play और cross-progression भी मिलेगा. आप ये खेलोगे? Comment करो!",
+  "headline": "Call of Duty: Modern Warfare 4 release date",
+  "title": "Call of Duty Modern Warfare 4 Release Date October 23 | Also on Switch 2 | Gaming News",
+  "video_script": "Call of Duty: Modern Warfare 4 releases on October twenty third, twenty twenty six, on PS5, Xbox Series X and S, PC and Nintendo Switch 2. Call of Duty is coming back to Nintendo, and Switch 2 gets a native version, not a cloud one. Note that it is not coming to PS4 or Xbox One. Cross-play and cross-progression are supported. Will you be playing? Comment below!",
   "scenes": [
     {
       "image": "steam:4435490:1",
@@ -18,16 +18,16 @@
     },
     {
       "image": "steam:4435490:3",
-      "fact": "Switch 2 par native",
-      "sub": "Cloud nahi - asli Switch 2 version"
+      "fact": "Native on Switch 2",
+      "sub": "Not a cloud version"
     },
     {
       "image": "steam:4435490:4",
-      "fact": "PS4 / Xbox One par nahi",
+      "fact": "No PS4 / Xbox One",
       "sub": "Cross-play + cross-progression"
     }
   ],
-  "description": "Call of Duty: Modern Warfare 4 ki release date 23 October 2026 hai - PS5, Xbox Series X|S, PC aur Nintendo Switch 2 (native). PS4/Xbox One par nahi.",
+  "description": "Call of Duty: Modern Warfare 4 releases October 23, 2026 on PS5, Xbox Series X|S, PC and Nintendo Switch 2 (native). Not on PS4/Xbox One.",
   "hashtags": [
     "CallOfDuty",
     "ModernWarfare4",
@@ -40,7 +40,7 @@
     "MW4 release date",
     "Call of Duty Switch 2",
     "Infinity Ward",
-    "gaming news Hindi",
+    "gaming news",
     "new games 2026"
   ]
 }

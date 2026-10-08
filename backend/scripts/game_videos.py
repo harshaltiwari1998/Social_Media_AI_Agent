@@ -143,7 +143,8 @@ def fact_card(img: Image.Image, fact: str, sub: str | None) -> Image.Image:
 
 
 _BADGES = {"new": "NEW GAME", "classic": "CLASSIC GAME", "movie_new": "NEW MOVIE", "movie_review": "BOX OFFICE + REVIEW", "reel": "MOVIE NEWS"}
-_DEFAULT_HASHTAGS = {"gaming": ["Gaming", "GamingHindi"], "movies": ["Movies", "MovieNews", "Bollywood"]}
+_DEFAULT_HASHTAGS = {"gaming": ["Gaming", "GamingNews"], "movies": ["Movies", "MovieNews", "Bollywood"]}
+_DEFAULT_VOICE = settings.tts_voice  # TTS_VOICE as configured, before any per-video override
 
 
 def build_video(spec_path: Path) -> dict:
@@ -157,6 +158,10 @@ def build_video(spec_path: Path) -> dict:
         path = out_dir / f"{i}.png"
         card.save(path)
         paths.append(str(path.resolve()))
+    # Gaming videos are English (voice, text and post copy); movie videos stay Hindi.
+    settings.tts_voice = spec.get("tts_voice") or (
+        settings.gaming_tts_voice if category_of(spec) == "gaming" else _DEFAULT_VOICE
+    )
     video = generate_video(
         paths, spec["title"], spec["video_script"], headline=spec["headline"], badge=_BADGES.get(spec.get("slot"), "GAMING")
     )

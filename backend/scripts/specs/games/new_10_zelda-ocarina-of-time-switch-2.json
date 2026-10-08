@@ -3,9 +3,9 @@
   "slot": "new",
   "order": 10,
   "expires": "2026-11-05",
-  "headline": "Zelda: Ocarina of Time Switch 2 par!",
-  "title": "Zelda Ocarina of Time Remake Switch 2 Release Date 5 November | Gaming News Hindi",
-  "video_script": "Zelda fans, बड़ी ख़बर! The Legend of Zelda: Ocarina of Time का remake Nintendo Switch 2 पर आ रहा है. इसकी release date है 5 November 2026. Nintendo 64 के इस classic game में अब नए graphics, पूरी voice acting वाले cutscenes और orchestral music होगा. Digital version की कीमत करीब 60 dollar है. आप ये खेलोगे? Comment करो!",
+  "headline": "Zelda: Ocarina of Time on Switch 2!",
+  "title": "Zelda Ocarina of Time Remake Switch 2 Release Date November 5 | Gaming News",
+  "video_script": "Big news, Zelda fans! A remake of The Legend of Zelda: Ocarina of Time is coming to Nintendo Switch 2 on November fifth, twenty twenty six. The Nintendo 64 classic gets brand new visuals, fully voiced cutscenes and an orchestral soundtrack. The digital version costs fifty nine ninety nine, and the physical edition sixty nine ninety nine. Will you play it? Comment below!",
   "scenes": [
     {
       "image": "wiki:The Legend of Zelda: Ocarina of Time",
@@ -18,7 +18,7 @@
     },
     {
       "image": "wiki:The Legend of Zelda: Ocarina of Time",
-      "fact": "Naye graphics",
+      "fact": "All-new visuals",
       "sub": "Voiced cutscenes + orchestral music"
     },
     {
@@ -27,7 +27,7 @@
       "sub": "$69.99 physical"
     }
   ],
-  "description": "The Legend of Zelda: Ocarina of Time ka remake 5 November 2026 ko Nintendo Switch 2 par - naye graphics, voiced cutscenes, orchestral music. $59.99 digital / $69.99 physical.",
+  "description": "The Legend of Zelda: Ocarina of Time remake launches November 5, 2026 on Nintendo Switch 2 - new visuals, voiced cutscenes, orchestral music. $59.99 digital / $69.99 physical.",
   "hashtags": [
     "Zelda",
     "OcarinaOfTime",
@@ -40,7 +40,7 @@
     "Nintendo Switch 2",
     "Nintendo",
     "Zelda",
-    "gaming news Hindi",
+    "gaming news",
     "new games 2026"
   ]
 }

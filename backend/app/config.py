@@ -89,6 +89,8 @@ class Settings(BaseSettings):
     )
     media_output_dir: str = Field(default="media_output", alias="MEDIA_OUTPUT_DIR")
     tts_voice: str = Field(default="hi-IN-SwaraNeural", alias="TTS_VOICE")
+    # Gaming videos (HarryBeast Gaming) are narrated in English; everything else uses TTS_VOICE.
+    gaming_tts_voice: str = Field(default="en-US-GuyNeural", alias="GAMING_TTS_VOICE")
     # Optional royalty-free background music (mp3/wav), looped and ducked under the narration.
     bgm_path: str | None = Field(default=None, alias="BGM_PATH")
 

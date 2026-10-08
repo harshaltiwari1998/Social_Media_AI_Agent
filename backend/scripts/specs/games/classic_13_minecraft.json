@@ -2,9 +2,9 @@
   "id": "minecraft",
   "slot": "classic",
   "order": 13,
-  "headline": "Minecraft - duniya ka sabse bada game",
-  "title": "Minecraft Ki Kahani | Notch, Mojang, 30 Crore Copies | Gaming Facts Hindi",
-  "video_script": "Minecraft को Markus Persson, यानी Notch, ने बनाया था. इसका पहला version 2009 में आया, और full release 2011 में हुआ. आज ये दुनिया का सबसे ज़्यादा बिकने वाला video game है, जिसकी तीस करोड़ से ज़्यादा copies बिक चुकी हैं. 2014 में Microsoft ने Minecraft की company Mojang को खरीद लिया था. आप survival खेलते हो या creative? Comment करो!",
+  "headline": "Minecraft - the best-selling game ever",
+  "title": "The Story of Minecraft | Notch, Mojang, 300 Million Copies | Gaming Facts",
+  "video_script": "Minecraft was created by Markus Persson, known as Notch. Its first version came out in two thousand nine, and the full release in two thousand eleven. Today it is the best-selling video game of all time, with more than three hundred million copies sold. In two thousand fourteen, Microsoft bought Mojang, the company behind Minecraft. Survival or creative? Comment below!",
   "scenes": [
     {
       "image": "wikifile:Minecraft game logo 2023.png",
@@ -17,16 +17,16 @@
     },
     {
       "image": "wikifile:Minecraft Creeper (Crop).png",
-      "fact": "30 crore+ copies",
-      "sub": "Duniya ka sabse zyada bikne wala game"
+      "fact": "300 million+ copies",
+      "sub": "Best-selling game ever"
     },
     {
       "image": "wikifile:Minecraft Beta 1.8.1 – Crafting a Wooden Sword.png",
       "fact": "2014",
-      "sub": "Microsoft ne Mojang khareeda"
+      "sub": "Microsoft bought Mojang"
     }
   ],
-  "description": "Minecraft: Notch ka banaya, 2009 mein pehla version, 2011 mein full release. 300 million+ copies - duniya ka sabse zyada bikne wala game. 2014 mein Microsoft ne Mojang khareeda.",
+  "description": "Minecraft: created by Notch, first version 2009, full release 2011. 300 million+ copies - the best-selling game ever. Microsoft bought Mojang in 2014.",
   "hashtags": [
     "Minecraft",
     "Mojang",

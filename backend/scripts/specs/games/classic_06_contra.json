@@ -2,9 +2,9 @@
   "id": "contra",
   "slot": "classic",
   "order": 6,
-  "headline": "Contra aur 30 lives wala cheat",
-  "title": "Contra Ka Konami Code | 30 Lives Cheat | Classic Games Hindi",
-  "video_script": "Contra, Konami का classic game, पहली बार 1987 में arcade में आया था. दो soldiers, Bill और Lance, aliens से लड़ते हैं. NES version में एक famous cheat था, Konami Code: ऊपर, ऊपर, नीचे, नीचे, बाएँ, दाएँ, बाएँ, दाएँ, B, A, और start. इससे मिलती थीं तीस lives! आपने Contra कितनी बार ख़त्म किया? Comment करो!",
+  "headline": "Contra and the 30-lives cheat",
+  "title": "Contra Konami Code | The 30 Lives Cheat | Classic Games",
+  "video_script": "Contra, Konami's classic, first hit arcades in nineteen eighty seven. Two soldiers, Bill and Lance, fight off an alien invasion. The NES version had a famous cheat, the Konami Code: up, up, down, down, left, right, left, right, B, A, then start. It gave you thirty lives! How many times did you beat Contra? Comment below!",
   "scenes": [
     {
       "image": "wiki:Contra (video game)",
@@ -18,15 +18,15 @@
     {
       "image": "wiki:Contra (video game)",
       "fact": "Bill + Lance",
-      "sub": "Aliens se ladai"
+      "sub": "Fighting aliens"
     },
     {
       "image": "wiki:Contra (video game)",
       "fact": "UP UP DOWN DOWN LEFT RIGHT LEFT RIGHT B A",
-      "sub": "NES par 30 lives!"
+      "sub": "30 lives on NES!"
     }
   ],
-  "description": "Contra (Konami, 1987) aur NES ka famous Konami Code - UP UP DOWN DOWN LEFT RIGHT LEFT RIGHT B A START = 30 lives.",
+  "description": "Contra (Konami, 1987) and the NES Konami Code - UP UP DOWN DOWN LEFT RIGHT LEFT RIGHT B A START for 30 lives.",
   "hashtags": [
     "Contra",
     "KonamiCode",

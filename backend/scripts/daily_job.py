@@ -148,7 +148,7 @@ def make_new_palworld(poster: Poster, count: int) -> None:
         return
     for combo in todo:
         a, b = combo["parents"]
-        spec = pal.spec_from_combo(a, b, combo["child"], index=len(manifest))
+        spec = pal.spec_from_combo(a, b, combo["child"], index=len(manifest), unique=combo.get("unique", True))
         spec_path = ROOT / "scripts" / "specs" / f"palworld_{combo['child'].lower().replace(' ', '_')}.json"
         spec_path.write_text(json.dumps(spec, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         log.info("%s = %s + %s", combo["child"], a, b)

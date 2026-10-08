@@ -168,18 +168,45 @@ _SCRIPTS = [
 ]
 
 
-def spec_from_combo(a: str, b: str, child: str, index: int = 0) -> dict:
-    """Build an English video spec for a verified unique combo."""
-    base, _, suffix = child.rpartition(" ")
-    element, color = _VARIANTS.get(suffix, ("new", [120, 60, 200]))
-    script = _SCRIPTS[index % len(_SCRIPTS)].format(element=element, base=base or child, child=child, a=a, b=b)
+# Regular (breeding-power) combos: the child is a different species from both parents.
+_NORMAL_SCRIPTS = [
+    "Want {child} in Palworld without catching one? Breed {a} with {b}. Put them together on your Breeding Farm, "
+    "add a cake, and the egg hatches into {child}. This pair is confirmed in the Palworld one point zero breeding data. "
+    "Follow for more breeding combos!",
+    "Here is an easy way to get {child} in Palworld. Pair {a} and {b} on the Breeding Farm with a cake. "
+    "Their egg gives you {child}, a completely different Pal from both parents. "
+    "Checked against Palworld one point zero breeding data. Comment which Pal you want next!",
+    "{a} plus {b} equals {child}! That is a real Palworld one point zero breeding combo. "
+    "Drop both Pals on your Breeding Farm, add a cake and wait for the egg to hatch. "
+    "Save this video so you do not forget it. Which Pal should I cover next? Comment below!",
+    "Breeding tip for Palworld: {child} comes from {a} and {b}. Place them together on the Breeding Farm, "
+    "feed it a cake, and you get a {child} egg. It works in Palworld one point zero. "
+    "What is your favourite Pal? Comment below!",
+]
+_NORMAL_COLOR = [
+    [255, 120, 40], [90, 170, 255], [150, 80, 230], [60, 190, 120], [240, 190, 40],
+]
+
+
+def spec_from_combo(a: str, b: str, child: str, index: int = 0, unique: bool = True) -> dict:
+    """Build an English video spec for a verified combo (unique variant combo or regular breeding)."""
+    if unique:
+        base, _, suffix = child.rpartition(" ")
+        element, color = _VARIANTS.get(suffix, ("new", [120, 60, 200]))
+        script = _SCRIPTS[index % len(_SCRIPTS)].format(element=element, base=base or child, child=child, a=a, b=b)
+        caption = f"{a} + {b} = {child}. A unique breeding combo in Palworld 1.0."
+    else:
+        color = _NORMAL_COLOR[index % len(_NORMAL_COLOR)]
+        script = _NORMAL_SCRIPTS[index % len(_NORMAL_SCRIPTS)].format(child=child, a=a, b=b)
+        caption = f"{a} + {b} = {child}. A Palworld 1.0 breeding combo."
     return {
         "headline": f"Palworld Breeding: How to get {child}",
-        "caption": f"{a} + {b} = {child}. A unique breeding combo in Palworld 1.0.",
+        "caption": caption,
         "video_script": script,
         "parents": [a, b],
         "child": child,
         "color": color,
+        "unique": unique,
     }
 
 
@@ -196,9 +223,13 @@ def post_text_and_tags(spec: dict) -> tuple[str, list[str]]:
     text = (
         f"{title}\n\n"
         f"Want {child} in Palworld? Put {a} and {b} together on the Breeding Farm and add a Cake. "
-        f"This is a UNIQUE breeding combo - these two parents always hatch {child}.\n\n"
-        f"Breeding combo:\n{a} + {b} = {child}\n\n"
-        f"Still works after the Palworld 1.0 update. "
+        + (
+            f"This is a UNIQUE breeding combo - these two parents always hatch {child}.\n\n"
+            if spec.get("unique", True)
+            else f"Their egg hatches into {child} - a different Pal from both parents.\n\n"
+        )
+        + f"Breeding combo:\n{a} + {b} = {child}\n\n"
+        f"Verified for Palworld 1.0. "
         f"Follow for more breeding combos, and comment which Pal you want next!\n\n"
         f"#Palworld #PalworldBreeding #{child.replace(' ', '')} #Gaming #Shorts"
     )
@@ -206,7 +237,8 @@ def post_text_and_tags(spec: dict) -> tuple[str, list[str]]:
         "Palworld", "Palworld breeding", "Palworld breeding guide", "Palworld 1.0",
         child, f"{child} breeding", f"how to get {child}", a, b,
         *([f"Palworld {element} Pal"] if element else []),
-        "Palworld unique combo", "Palworld breeding combos", "Palworld shorts",
+        "Palworld unique combo" if spec.get("unique", True) else "Palworld breeding calculator",
+        "Palworld breeding combos", "Palworld shorts",
     ]
     return text, tags
 

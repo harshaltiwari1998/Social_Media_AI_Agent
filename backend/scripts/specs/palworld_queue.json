@@ -1,177 +1,82 @@
 [
   {
     "parents": [
-      "Foxparks",
-      "Foxcicle"
+      "Astegon",
+      "Blazamut"
     ],
-    "child": "Foxparks Cryst"
+    "child": "Anubis",
+    "unique": false
   },
   {
     "parents": [
-      "Chillet",
-      "Arsox"
+      "Vanwyrm",
+      "Wumpo Botan"
     ],
-    "child": "Chillet Ignis"
+    "child": "Helzephyr",
+    "unique": false
   },
   {
     "parents": [
-      "Kitsun",
-      "Nyafia"
+      "Lamball",
+      "Relaxaurus"
     ],
-    "child": "Kitsun Noct"
+    "child": "Penking",
+    "unique": false
   },
   {
     "parents": [
-      "Blazehowl",
-      "Felbat"
+      "Blazamut",
+      "Relaxaurus Lux"
     ],
-    "child": "Blazehowl Noct"
+    "child": "Jormuntide",
+    "unique": false
   },
   {
     "parents": [
-      "Bushi",
-      "Sootseer"
+      "Chikipi",
+      "Knocklem"
     ],
-    "child": "Bushi Noct"
+    "child": "Kitsun",
+    "unique": false
   },
   {
     "parents": [
-      "Elphidran",
-      "Surfent"
+      "Dumud",
+      "Relaxaurus"
     ],
-    "child": "Elphidran Aqua"
-  },
-  {
-    "parents": [
-      "Mossanda",
-      "Grizzbolt"
-    ],
-    "child": "Mossanda Lux"
-  },
-  {
-    "parents": [
-      "Reptyro",
-      "Foxcicle"
-    ],
-    "child": "Reptyro Cryst"
-  },
-  {
-    "parents": [
-      "Jolthog",
-      "Pengullet"
-    ],
-    "child": "Jolthog Cryst"
-  },
-  {
-    "parents": [
-      "Eikthyrdeer",
-      "Hangyu"
-    ],
-    "child": "Eikthyrdeer Terra"
-  },
-  {
-    "parents": [
-      "Helzephyr",
-      "Beakon"
-    ],
-    "child": "Helzephyr Lux"
-  },
-  {
-    "parents": [
-      "Cryolinx",
-      "Dazemu"
-    ],
-    "child": "Cryolinx Terra"
-  },
-  {
-    "parents": [
-      "Warsect",
-      "Digtoise"
-    ],
-    "child": "Warsect Terra"
-  },
-  {
-    "parents": [
-      "Pyrin",
-      "Katress"
-    ],
-    "child": "Pyrin Noct"
-  },
-  {
-    "parents": [
-      "Quivern",
-      "Lullu"
-    ],
-    "child": "Quivern Botan"
-  },
-  {
-    "parents": [
-      "Mammorest",
-      "Wumpo"
-    ],
-    "child": "Mammorest Cryst"
+    "child": "Beakon",
+    "unique": false
   },
   {
     "parents": [
       "Loupmoon",
-      "Sweepa"
+      "Renjishi"
     ],
-    "child": "Loupmoon Cryst"
+    "child": "Suzaku",
+    "unique": false
   },
   {
     "parents": [
-      "Gorirat",
-      "Kikit"
+      "Anubis",
+      "Caprity Noct"
     ],
-    "child": "Gorirat Terra"
+    "child": "Quivern",
+    "unique": false
   },
   {
     "parents": [
-      "Fenglope",
-      "Azurmane"
+      "Fuack Ignis",
+      "Robinquill"
     ],
-    "child": "Fenglope Lux"
+    "child": "Elphidran",
+    "unique": false
   },
   {
     "parents": [
-      "Menasting",
-      "Knocklem"
+      "Blazamut Ryu",
+      "Depresso"
     ],
-    "child": "Menasting Terra"
-  },
-  {
-    "parents": [
-      "Caprity",
-      "Tarantriss"
-    ],
-    "child": "Caprity Noct"
-  },
-  {
-    "parents": [
-      "Dazzi",
-      "Omascul"
-    ],
-    "child": "Dazzi Noct"
-  },
-  {
-    "parents": [
-      "Hangyu",
-      "Swee"
-    ],
-    "child": "Hangyu Cryst"
-  },
-  {
-    "parents": [
-      "Ribbuny",
-      "Bristla"
-    ],
-    "child": "Ribbuny Botan"
-  },
-  {
-    "parents": [
-      "Faleris",
-      "Jormuntide"
-    ],
-    "child": "Faleris Aqua"
+    "child": "Digtoise",
+    "unique": false
   }
 ]

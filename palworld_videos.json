@@ -96,5 +96,24 @@
         40
       ]
     }
+  },
+  "Kitsun Noct": {
+    "spec": "scripts/specs/palworld_kitsun_noct.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-17e25acf.mp4",
+    "data": {
+      "headline": "Palworld Breeding: Kitsun Noct kaise paayein",
+      "caption": "Kitsun + Nyafia = Kitsun Noct. Palworld 1.0 ka unique breeding combo.",
+      "video_script": "Palworld में dark वाला Kitsun, यानी Kitsun Noct, ऐसे breed करो. Kitsun और Nyafia को breeding farm में साथ डालो. ये unique combo है, इन दो parents से हमेशा Kitsun Noct ही मिलेगा. Palworld one point zero में भी ये combo काम करता है. Comment करो, अगला कौन सा Pal चाहिए!",
+      "parents": [
+        "Kitsun",
+        "Nyafia"
+      ],
+      "child": "Kitsun Noct",
+      "color": [
+        140,
+        60,
+        220
+      ]
+    }
   }
 }

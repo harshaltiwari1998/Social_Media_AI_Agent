@@ -89,7 +89,7 @@
   },
   "reel-toy-story-5-billion": {
     "spec": "scripts/specs/movies/reel_05_toy-story-5-billion.json",
-    "video": "F:\\AI AGENT\\reel-run\\videos\\short-02067a73.mp4"
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-15cdd044.mp4"
   },
   "reel-hanuman-ansh-profit": {
     "spec": "scripts/specs/movies/reel_06_hanuman-ansh-profit.json",
@@ -109,6 +109,22 @@
   },
   "reel-ranbir-2026-2027": {
     "spec": "scripts/specs/movies/reel_10_ranbir-2026-2027.json",
-    "video": "missing.mp4"
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-a16c993b.mp4"
+  },
+  "planet-zoo-2": {
+    "spec": "scripts/specs/games/new_03_planet-zoo-2.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-c01aa06c.mp4"
+  },
+  "nfs-most-wanted-2005": {
+    "spec": "scripts/specs/games/classic_03_nfs-most-wanted-2005.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-62c7babd.mp4"
+  },
+  "street-fighter-movie": {
+    "spec": "scripts/specs/movies/movie_new_03_street-fighter-movie.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f903bd42.mp4"
+  },
+  "dhurandhar-the-revenge-record": {
+    "spec": "scripts/specs/movies/movie_review_03_dhurandhar-the-revenge-record.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-97f2d1ac.mp4"
   }
 }

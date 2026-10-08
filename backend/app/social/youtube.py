@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import logging
 import os
 import re
 from pathlib import Path
@@ -13,6 +14,7 @@ _SCOPES = [
 ]
 
 
+logger = logging.getLogger(__name__)
 _BACKEND_ROOT = Path(__file__).resolve().parents[2]
 
 
@@ -120,3 +122,40 @@ class YouTubePoster(SocialPoster):
             post_id=video_id,
             url=f"https://youtube.com/watch?v={video_id}",
         )
+
+    def post_long_video(
+        self, video_path: str, title: str, description: str, tags: list[str] | None = None, thumbnail: str | None = None
+    ) -> PostResult:
+        """Upload a regular (non-Shorts) video with an explicit title and an optional custom thumbnail."""
+        if settings.dry_run:
+            return PostResult(platform=self.platform, success=True, dry_run=True)
+        try:
+            from googleapiclient.discovery import build
+            from googleapiclient.http import MediaFileUpload
+
+            youtube = build("youtube", "v3", credentials=self._get_credentials())
+            snippet = {
+                "title": title[:100],
+                "description": description[:4900],
+                "categoryId": self._category_id or settings.youtube_category_id,
+            }
+            if tags:
+                snippet["tags"] = tags
+            response = youtube.videos().insert(
+                part="snippet,status",
+                body={"snippet": snippet, "status": {"privacyStatus": "public", "selfDeclaredMadeForKids": False}},
+                media_body=MediaFileUpload(video_path, chunksize=8 * 1024 * 1024, resumable=True),
+            ).execute()
+            video_id = response["id"]
+            if thumbnail:
+                try:
+                    youtube.thumbnails().set(videoId=video_id, media_body=MediaFileUpload(thumbnail)).execute()
+                except Exception as exc:  # custom thumbnails need a phone-verified channel
+                    logger.warning("Custom thumbnail rejected for %s: %s", video_id, exc)
+            return PostResult(
+                platform=self.platform, success=True, dry_run=False,
+                post_id=video_id, url=f"https://youtube.com/watch?v={video_id}",
+            )
+        except Exception as exc:
+            logger.exception("Long video upload to %s failed", self.platform)
+            return PostResult(platform=self.platform, success=False, dry_run=False, error=str(exc))

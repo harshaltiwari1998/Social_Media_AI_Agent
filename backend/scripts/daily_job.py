@@ -34,6 +34,7 @@ from app.config import settings  # noqa: E402
 from app.pipeline import store  # noqa: E402
 from app.pipeline.orchestrator import _POSTERS, platforms_for, run_pipeline  # noqa: E402
 from scripts import game_videos as game  # noqa: E402
+from scripts import long_video as longv  # noqa: E402
 from scripts import palworld_breeding_videos as pal  # noqa: E402
 
 MANIFEST = ROOT / settings.media_output_dir / "palworld_videos.json"
@@ -41,6 +42,7 @@ GAME_MANIFEST = ROOT / settings.media_output_dir / "game_videos.json"
 QUEUE = ROOT / "scripts" / "specs" / "palworld_queue.json"
 GAME_SPECS = ROOT / "scripts" / "specs" / "games"
 MOVIE_SPECS = ROOT / "scripts" / "specs" / "movies"
+LONG_SPECS = ROOT / "scripts" / "specs" / "long"
 OLLAMA_EXE = Path(r"F:\AI AGENT\Ollama\ollama.exe")
 OLLAMA_MODELS = ROOT / ".cache" / "ollama-models"
 
@@ -121,8 +123,22 @@ def retry_pending(poster: Poster) -> None:
             _save(MANIFEST, manifest)
         poster.post(pal.post_id_for(spec), *pal.post_text_and_tags(spec), entry["video"])
 
-    games = _load(GAME_MANIFEST)  # gaming and movie specs built by game_videos.py
+    games = _load(GAME_MANIFEST)  # shorts built by game_videos.py, long videos by long_video.py
     for game_id, entry in games.items():
+        if entry.get("kind") == "long":
+            spec = json.loads((ROOT / entry["spec"]).read_text(encoding="utf-8"))
+            if not poster.pending(longv.post_id_for(spec), platforms=longv.default_platforms(spec)):
+                continue
+            log.info("%s (long)", game_id)
+            if not Path(entry["video"]).exists():
+                result = longv.build_video(ROOT / entry["spec"])["video"]
+                if not result["success"]:
+                    log.warning("  rebuild failed: %s", result["error"])
+                    continue
+                entry.update(video=result["data"]["path"], thumbnail=result["data"]["thumbnail"], chapters=result["data"]["chapters"])
+                _save(GAME_MANIFEST, games)
+            post_long(poster, spec, entry)
+            continue
         spec_path = ROOT / entry["spec"]
         spec = json.loads(spec_path.read_text(encoding="utf-8"))
         category = game.category_of(spec)
@@ -187,6 +203,61 @@ def make_new_games(poster: Poster, slot: str, count: int, spec_dir: Path = GAME_
         )
 
 
+def post_long(poster: Poster, spec: dict, entry: dict) -> None:
+    """Upload a long video: YouTube channels get title/description/chapters/thumbnail, Facebook the file."""
+    trend_id = longv.post_id_for(spec)
+    description = longv.description_for(spec, entry.get("chapters", ""))
+    for name in longv.default_platforms(spec):
+        if store.already_posted(trend_id, name):
+            continue
+        if name in poster.blocked:
+            log.info("  %s: skipped (upload limit reached today, retry tomorrow)", name)
+            continue
+        target = _POSTERS[name]
+        if name.startswith("youtube"):
+            result = target.post_long_video(entry["video"], spec["title"], description, spec.get("tags"), entry.get("thumbnail"))
+        else:
+            result = target.post_video(entry["video"], f"{spec['title']}\n\n{description}", tags=spec.get("tags"))
+        store.record_post(trend_id, name, result.post_id, result.dry_run)
+        if result.success:
+            log.info("  %s: posted %s%s", name, result.post_id, " (dry run)" if result.dry_run else "")
+        else:
+            log.warning("  %s: FAILED %s", name, result.error)
+            if name.startswith("youtube") and "uploadLimitExceeded" in (result.error or ""):
+                poster.blocked.add(name)
+
+
+def make_long_videos(poster: Poster, per_category: int) -> None:
+    """Next unposted long spec(s) per category (gaming -> HarryBeast, movies -> Name Writer + Facebook)."""
+    log.info("== Long videos (up to %d per category)", per_category)
+    if per_category <= 0:
+        return
+    games = _load(GAME_MANIFEST)
+    today = date.today().isoformat()
+    for category in ("gaming", "movies"):
+        todo = []
+        for path in sorted(LONG_SPECS.glob("*.json")):
+            spec = json.loads(path.read_text(encoding="utf-8"))
+            if spec.get("category", "gaming") != category or spec["id"] in games or spec.get("expires", "9999-12-31") < today:
+                continue
+            todo.append((spec.get("order", 0), path, spec))
+        if not todo:
+            log.warning("No %s long-video specs left - add more to %s", category, LONG_SPECS.relative_to(ROOT))
+            continue
+        for _, path, spec in sorted(todo, key=lambda t: t[0])[:per_category]:
+            log.info("%s (long, %s)", spec["id"], category)
+            result = longv.build_video(path)["video"]
+            if not result["success"]:
+                log.warning("  build failed: %s", result["error"])
+                continue
+            entry = {"spec": path.relative_to(ROOT).as_posix(), "kind": "long", "video": result["data"]["path"],
+                     "thumbnail": result["data"]["thumbnail"], "chapters": result["data"]["chapters"]}
+            games[spec["id"]] = entry
+            _save(GAME_MANIFEST, games)
+            log.info("  rendered %.0f s", result["data"]["duration_seconds"])
+            post_long(poster, spec, entry)
+
+
 def _ensure_ollama() -> subprocess.Popen | None:
     """Start a local Ollama server (models on F:) if none is running. Returns it so we can stop it."""
     try:
@@ -235,6 +306,7 @@ def main() -> None:
     parser.add_argument("--new-palworld", type=int, default=1, help="new Palworld videos per day")
     parser.add_argument("--new-movies", type=int, default=1, help="new/upcoming-movie videos per day")
     parser.add_argument("--movie-reviews", type=int, default=1, help="movie review / box-office videos per day")
+    parser.add_argument("--long-videos", type=int, default=0, help="long-form videos per category (gaming, movies)")
     parser.add_argument(
         "--extra-slot", action="append", default=[], metavar="SLOT:COUNT",
         help="also post a one-off spec slot from specs/games or specs/movies, e.g. gta6:10 or reel:10",
@@ -260,6 +332,7 @@ def main() -> None:
         lambda: make_new_palworld(poster, args.new_palworld),
         lambda: make_new_games(poster, "movie_new", args.new_movies, MOVIE_SPECS),
         lambda: make_new_games(poster, "movie_review", args.movie_reviews, MOVIE_SPECS),
+        lambda: make_long_videos(poster, args.long_videos),
         *[
             (lambda slot, count: lambda: make_new_games(
                 poster, slot, int(count), MOVIE_SPECS if any(MOVIE_SPECS.glob(f"{slot}_*.json")) else GAME_SPECS

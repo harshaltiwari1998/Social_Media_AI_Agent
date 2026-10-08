@@ -32,7 +32,7 @@ class FacebookPoster(SocialPoster):
                 f"{_GRAPH_API}/{settings.meta_page_id}/videos",
                 data={"description": caption, "access_token": settings.meta_access_token},
                 files={"source": f},
-                timeout=300.0,
+                timeout=1800.0,  # long-form videos can be a few hundred MB
             )
         return self._to_result(response)
 

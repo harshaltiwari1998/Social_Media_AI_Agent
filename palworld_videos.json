@@ -315,5 +315,25 @@
       ],
       "unique": false
     }
+  },
+  "Lifmunk": {
+    "spec": "scripts/specs/palworld_lifmunk.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-9fd6bcff.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Lifmunk",
+      "caption": "Foxparks + Lamball = Lifmunk. A Palworld 1.0 breeding combo.",
+      "video_script": "Want Lifmunk in Palworld without catching one? Breed Foxparks with Lamball. Put them together on your Breeding Farm, add a cake, and the egg hatches into Lifmunk. This pair is confirmed in the Palworld one point zero breeding data. Follow for more breeding combos!",
+      "parents": [
+        "Foxparks",
+        "Lamball"
+      ],
+      "child": "Lifmunk",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
   }
 }

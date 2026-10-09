@@ -163,10 +163,24 @@
   },
   "clayface": {
     "spec": "scripts/specs/movies/movie_new_04_clayface.json",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b5c2ea5c.mp4"
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-da2bbd5a.mp4"
   },
   "spider-man-brand-new-day-india": {
     "spec": "scripts/specs/movies/movie_review_04_spider-man-brand-new-day-india.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ee98ccd3.mp4"
+  },
+  "gta-franchise-history": {
+    "spec": "scripts/specs/long/gaming_02_gta-franchise-history.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-faf9b57b.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-faf9b57b-thumb.jpg",
+    "chapters": "0:00 Where it all began\n0:29 Nineteen ninety seven: the original\n1:01 Two thousand one: the 3D revolution\n1:34 Two thousand two: Vice City\n2:00 Two thousand four: San Andreas\n2:27 Handheld adventures\n2:55 Two thousand eight: Grand Theft Auto four\n3:27 Twenty thirteen: Grand Theft Auto five\n3:57 The next chapter: Grand Theft Auto six\n4:25 Which one is your favourite"
+  },
+  "shah-rukh-khan-safar": {
+    "spec": "scripts/specs/long/movies_02_shah-rukh-khan-safar.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-a21036ab.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-a21036ab-thumb.jpg",
+    "chapters": "0:00 Bollywood ke King\n0:28 TV serial Fauji\n0:51 Deewana - 1992\n1:12 Dark roles की हिम्मत\n1:36 DDLJ - 1995\n1:58 DDLJ का रिकॉर्ड\n2:26 2023 - तीन films\n2:50 पहला National Award\n3:18 आपकी favourite film कौन सी"
   }
 }

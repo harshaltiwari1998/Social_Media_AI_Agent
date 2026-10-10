@@ -256,5 +256,25 @@
   "palworld-chain-penking": {
     "spec": "scripts/specs/games/palchain_10_penking.json",
     "video": "F:\\AI AGENT\\run_chain2\\videos\\short-9da2f49c.mp4"
+  },
+  "dussehra-clash-2026": {
+    "spec": "scripts/specs/movies/movie_new_19_dussehra-clash.json",
+    "video": "F:\\AI AGENT\\run_cine1\\videos\\short-606c4175.mp4"
+  },
+  "jailer-2-overseas-advance": {
+    "spec": "scripts/specs/movies/movie_new_18_jailer-2-overseas-advance.json",
+    "video": "F:\\AI AGENT\\run_cine1\\videos\\short-7645e749.mp4"
+  },
+  "ranabaali-trailer": {
+    "spec": "scripts/specs/movies/movie_new_17_ranabaali-trailer.json",
+    "video": "F:\\AI AGENT\\run_cine1\\videos\\short-9b864259.mp4"
+  },
+  "prahaar-trailer-ujjwal-nikam": {
+    "spec": "scripts/specs/movies/movie_new_16_prahaar-trailer.json",
+    "video": "F:\\AI AGENT\\run_cine1\\videos\\short-2dc5918c.mp4"
+  },
+  "drishyam-3-407-crore": {
+    "spec": "scripts/specs/movies/movie_review_17_drishyam-3-407-crore.json",
+    "video": "F:\\AI AGENT\\run_cine1\\videos\\short-3fe3fc5a.mp4"
   }
 }

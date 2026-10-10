@@ -248,7 +248,9 @@ def make_long_videos(poster: Poster, per_category: int) -> None:
         if not todo:
             log.warning("No %s long-video specs left - add more to %s", category, LONG_SPECS.relative_to(ROOT))
             continue
-        for _, path, spec in sorted(todo, key=lambda t: t[0], reverse=FROM_END)[:per_category]:
+        # Full-length scripts first; too-short ones only when nothing else is left.
+        todo.sort(key=lambda t: (longv.is_too_short(t[2]), -t[0] if FROM_END else t[0]))
+        for _, path, spec in todo[:per_category]:
             log.info("%s (long, %s)", spec["id"], category)
             result = longv.build_video(path)["video"]
             if not result["success"]:

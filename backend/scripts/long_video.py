@@ -33,6 +33,17 @@ _PAD = 0.8  # silence after each section's narration
 _SUB_MAX_W = 1500
 _SUB_MAX_WORDS = 7
 _YELLOW, _WHITE, _ACCENT = (255, 214, 0), (255, 255, 255), (255, 45, 85)
+# Measured narration speed: English ~165 words/min, Hindi ~124 words/min. These minimums
+# give roughly 7+ minute videos; shorter scripts still render but are flagged.
+MIN_WORDS = {"gaming": 1200, "movies": 900}
+
+
+def word_count(spec: dict) -> int:
+    return sum(len(sec["script"].split()) for sec in spec["sections"])
+
+
+def is_too_short(spec: dict) -> bool:
+    return word_count(spec) < MIN_WORDS.get(spec.get("category", "gaming"), 0)
 
 
 def _cover(img: Image.Image, scale: float = 1.12) -> Image.Image:
@@ -161,6 +172,13 @@ def build_video(spec_path: Path) -> dict:
 
     spec = json.loads(spec_path.read_text(encoding="utf-8"))
     gaming = spec.get("category", "gaming") == "gaming"
+    if is_too_short(spec):
+        import logging
+
+        logging.getLogger(__name__).warning(
+            "%s: script is only %d words (minimum %d for %s) - the video will be under ~7 minutes",
+            spec["id"], word_count(spec), MIN_WORDS[spec.get("category", "gaming")], spec.get("category", "gaming"),
+        )
     settings.tts_voice = spec.get("tts_voice") or (settings.gaming_tts_voice if gaming else "hi-IN-SwaraNeural")
     settings.tts_rate = spec.get("tts_rate") or "+0%"
 

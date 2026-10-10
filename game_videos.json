@@ -182,5 +182,35 @@
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-a21036ab.mp4",
     "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-a21036ab-thumb.jpg",
     "chapters": "0:00 Bollywood ke King\n0:28 TV serial Fauji\n0:51 Deewana - 1992\n1:12 Dark roles की हिम्मत\n1:36 DDLJ - 1995\n1:58 DDLJ का रिकॉर्ड\n2:26 2023 - तीन films\n2:50 पहला National Award\n3:18 आपकी favourite film कौन सी"
+  },
+  "metaphor-refantazio-switch-2": {
+    "spec": "scripts/specs/games/new_14_metaphor-refantazio-switch-2.json",
+    "video": "F:\\AI AGENT\\batch-run\\videos\\short-f3fd9a31.mp4"
+  },
+  "counter-strike": {
+    "spec": "scripts/specs/games/classic_14_counter-strike.json",
+    "video": "F:\\AI AGENT\\batch-run\\videos\\short-fa53aaa5.mp4"
+  },
+  "jumanji-open-world": {
+    "spec": "scripts/specs/movies/movie_new_13_jumanji-open-world.json",
+    "video": "F:\\AI AGENT\\batch-run\\videos\\short-e64dca27.mp4"
+  },
+  "dhamaal-4-200-crore": {
+    "spec": "scripts/specs/movies/movie_review_13_dhamaal-4-200-crore.json",
+    "video": "F:\\AI AGENT\\batch-run\\videos\\short-d2c224df.mp4"
+  },
+  "pokemon-franchise-history": {
+    "spec": "scripts/specs/long/gaming_08_pokemon-franchise-history.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\batch-run\\videos\\long-82521a9c.mp4",
+    "thumbnail": "F:\\AI AGENT\\batch-run\\videos\\long-82521a9c-thumb.jpg",
+    "chapters": "0:00 Gotta catch them all\n0:26 Satoshi Tajiri's idea\n0:52 Nineteen ninety six: Red and Green\n1:15 Cards and anime\n1:40 Pokémania goes global\n2:04 New generations\n2:28 Twenty sixteen: Pokémon Go\n2:54 Why Pokémon lasts\n3:19 Who is your favourite"
+  },
+  "hindi-cinema-ka-itihas": {
+    "spec": "scripts/specs/long/movies_08_hindi-cinema-ka-itihas.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\batch-run\\videos\\long-cad10ae1.mp4",
+    "thumbnail": "F:\\AI AGENT\\batch-run\\videos\\long-cad10ae1-thumb.jpg",
+    "chapters": "0:00 एक सदी से ज़्यादा का सफ़र\n0:24 Raja Harishchandra - 1913\n0:51 Alam Ara - 1931\n1:16 Mother India - 1957\n1:39 Mughal-e-Azam - 1960\n2:08 Sholay - 1975\n2:38 DDLJ - 1995\n3:02 Lagaan - 2001\n3:23 आपकी favourite classic"
   }
 }

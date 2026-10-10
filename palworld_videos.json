@@ -335,5 +335,25 @@
       ],
       "unique": false
     }
+  },
+  "Eikthyrdeer": {
+    "spec": "scripts/specs/palworld_eikthyrdeer.json",
+    "video": "F:\\AI AGENT\\batch-run\\videos\\short-c968e090.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Eikthyrdeer",
+      "caption": "Chikipi + Tombat = Eikthyrdeer. A Palworld 1.0 breeding combo.",
+      "video_script": "Here is an easy way to get Eikthyrdeer in Palworld. Pair Chikipi and Tombat on the Breeding Farm with a cake. Their egg gives you Eikthyrdeer, a completely different Pal from both parents. Checked against Palworld one point zero breeding data. Comment which Pal you want next!",
+      "parents": [
+        "Chikipi",
+        "Tombat"
+      ],
+      "child": "Eikthyrdeer",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
   }
 }

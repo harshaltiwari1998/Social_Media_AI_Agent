@@ -27,7 +27,7 @@
   "sections": [
     {
       "heading": "A racing legend",
-      "script": "Need for Speed is one of the most famous racing series in gaming. It has given us exotic supercars, police chases, neon-lit street races and some of the best car soundtracks ever. In this video we go through the history of the series, from the very first game in nineteen ninety four, to Underground and Most Wanted, the return of Hot Pursuit, and the latest game, Unbound. If you ever spent a night racing in Rockport or Olympic City, stay with us.",
+      "script": "Need for Speed is one of the most famous racing series in gaming. It has given us exotic supercars, police chases, neon-lit street races and some of the best car soundtracks ever. Over the years the series has passed through many studios, many styles and many cities, from scenic mountain roads to fictional street racing towns. In this video we go through the history of the series, from the very first game in nineteen ninety four, to Underground and Most Wanted, the return of Hot Pursuit, the Ghost Games years, and the latest game, Unbound. If you ever spent a night racing in Rockport or Olympic City, stay with us.",
       "images": [
         "steam:1846380:0",
         "wiki:Need for Speed: Most Wanted (2005 video game)",
@@ -36,7 +36,7 @@
     },
     {
       "heading": "Nineteen ninety four: the beginning",
-      "script": "The first game, simply called The Need for Speed, was released in nineteen ninety four. It was developed by Electronic Arts Canada and published by Electronic Arts. Instead of arcade-style fantasy, it focused on driving real exotic cars on scenic roads, a simple idea that gave the whole series its thrill. From that first game, the series has grown into one of the most successful racing franchises of all time.",
+      "script": "The first game, simply called The Need for Speed, was released in nineteen ninety four. It was developed by Electronic Arts Canada and published by Electronic Arts. Instead of arcade-style fantasy, it focused on driving real exotic cars on scenic roads, a simple idea that gave the whole series its thrill. It also included police chases, an idea the series would come back to again and again. From that first game, the series has grown into one of the most successful racing franchises of all time, with a new chapter arriving in almost every era of gaming. For players at the time, getting behind the wheel of an exotic car, even on a screen, felt like a dream.",
       "images": [
         "wiki:The Need for Speed",
         "wiki:Need for Speed: Hot Pursuit (2010 video game)"
@@ -44,7 +44,7 @@
     },
     {
       "heading": "Police chases arrive",
-      "script": "As the series grew, one idea kept coming back: the police chase. Need for Speed three, called Hot Pursuit, arrived in nineteen ninety eight, and let you play as either the racer or the cop. Chasing or escaping the police became a signature of the series, and most games that followed included police pursuits in some form. In two thousand two, a new team called EA Black Box took over the series with Hot Pursuit two, and that move would change everything.",
+      "script": "As the series grew, one idea kept coming back: the police chase. Need for Speed three, called Hot Pursuit, arrived in nineteen ninety eight, and let you play as either the racer or the cop. Chasing or escaping the police became a signature of the series, and most games that followed included police pursuits in some form. In two thousand two, a new team called EA Black Box made Hot Pursuit two, the first Need for Speed from that studio. That move would change everything.",
       "images": [
         "wiki:Need for Speed: Hot Pursuit (2010 video game)",
         "wiki:The Need for Speed"
@@ -52,7 +52,7 @@
     },
     {
       "heading": "Two thousand three: Underground",
-      "script": "Then came Need for Speed Underground in two thousand three. It moved the whole series from exotic supercars on scenic roads to illegal street racing in a city at night, with tuner cars, neon lights and deep customisation. It introduced drifting and drag racing to the series, and it let you change how your car looked as well as how it performed. For a whole generation of players, Underground was the game that made them fall in love with car modding.",
+      "script": "Then came Need for Speed Underground in two thousand three, also made by EA Black Box. It moved the whole series from exotic supercars on scenic roads to illegal street racing in a city at night, with tuner cars, neon lights and deep customisation. It introduced drifting and drag racing to the series, and it let you change how your car looked as well as how it performed. For a whole generation of players, Underground was the game that made them fall in love with car modding. Its influence can be felt in many later games, and the idea of building your own dream car, piece by piece, is still a big part of what players love about the series.",
       "images": [
         "wiki:Need for Speed: Underground",
         "wiki:Need for Speed: Most Wanted (2005 video game)"
@@ -60,7 +60,7 @@
     },
     {
       "heading": "Two thousand five: Most Wanted",
-      "script": "In two thousand five, Need for Speed Most Wanted brought the police back into the spotlight. The story was built around the Blacklist, a crew of fifteen racers that you had to beat one by one to climb to the top. Each rival unlocked new parts, cars and tracks, and the police chases across the city were tense and exciting. Many fans still call it the best Need for Speed ever made, and it remains a favourite among fans.",
+      "script": "In two thousand five, Need for Speed Most Wanted brought the police back into the spotlight. The story was built around the Blacklist, a crew of fifteen racers that you had to beat one by one to climb to the top. Each rival unlocked new parts, cars and tracks, and the police chases across the city were tense and exciting. Electronic Arts has reported that the game sold around sixteen million copies, which makes it the best-selling game in the series. Many fans still call it the best Need for Speed ever made, and it remains a favourite among fans.",
       "images": [
         "wiki:Need for Speed: Most Wanted (2005 video game)",
         "wiki:Need for Speed: Underground"
@@ -68,15 +68,42 @@
     },
     {
       "heading": "Two thousand ten: Criterion and Hot Pursuit",
-      "script": "In two thousand ten, the British studio Criterion Games took over and delivered a new Hot Pursuit. It was a successor to the nineteen ninety eight game of the same name, and it introduced Autolog, a social system that let you track your progress, compare your times on leaderboards and share screenshots with friends. The game was well received by critics, and a remastered version was released ten years later, in twenty twenty.",
+      "script": "In two thousand ten, the British studio Criterion Games took over and delivered a new Hot Pursuit. Criterion was already best known for the Burnout games. Its Hot Pursuit was a successor to the nineteen ninety eight game of the same name, and it introduced Autolog, a social system that let you track your progress, compare your times on leaderboards and share screenshots with friends. The game was well received by critics, and a remastered version was released ten years later, in twenty twenty.",
       "images": [
         "wiki:Need for Speed: Hot Pursuit (2010 video game)",
         "wiki:Need for Speed Unbound"
       ]
     },
     {
+      "heading": "Open worlds, crews and a closed track",
+      "script": "The street racing era kept rolling. Underground two, released in two thousand four, was the first game in the series with an open world, a fictional city called Bayview that you could drive around freely between events. Carbon followed in two thousand six, and added crews, where you recruit wingmen with special roles, plus the Canyon Duel, a tense one-on-one race on a mountain road where falling off the edge ends the race. Then in two thousand seven, ProStreet changed direction and moved the action to closed circuits at real-world venues instead of open streets. Critics were mixed on that choice, and EA said the sales fell short of expectations, but it shows how willing the series has been to try something new.",
+      "images": [
+        "wiki:Need for Speed: Underground 2",
+        "wiki:Need for Speed: Carbon",
+        "wiki:Need for Speed: ProStreet"
+      ]
+    },
+    {
+      "heading": "Shift, Most Wanted again and Rivals",
+      "script": "In two thousand nine, Need for Speed Shift arrived from Slightly Mad Studios, a team with a sim racing background. It aimed at a more serious driving experience, with a detailed cockpit view where you can look around the inside of the car. In October twenty twelve, Criterion released a new Most Wanted, built around an open city and an updated Autolog, and it is a separate game from the two thousand five original. Then in twenty thirteen, Need for Speed Rivals arrived from Ghost Games, with Criterion helping on the project. These years show a series changing its team and its style every few releases.",
+      "images": [
+        "wiki:Need for Speed: Shift",
+        "wiki:Need for Speed: Most Wanted (2012 video game)",
+        "wiki:Need for Speed Rivals"
+      ]
+    },
+    {
+      "heading": "The Ghost Games years and Heat",
+      "script": "After Rivals, Ghost Games led the series for several years, and its last game was Heat. Payback came on November tenth, twenty seventeen, and Heat followed on November eighth, twenty nineteen. Heat is set in Palm City, and its big idea is a split between day and night. By day the police are relaxed and you earn money in sanctioned events, while at night the racing goes underground and a rogue police task force hunts you. In February twenty twenty, EA announced that Criterion would take the series back from Ghost Games, which became EA Gothenburg. That change set the stage for Unbound. Criterion is the studio behind Burnout, so many fans were excited to see it lead the series again after Hot Pursuit and Most Wanted.",
+      "images": [
+        "wiki:Need for Speed Payback",
+        "wiki:Need for Speed Heat",
+        "wiki:Need for Speed Unbound"
+      ]
+    },
+    {
       "heading": "Different styles over the years",
-      "script": "Not every game followed the same recipe. Over the years the series has also tried simulation racing with the Shift games, a mobile free-to-play game called No Limits in twenty fifteen, and many different studios, including EA Canada, EA Black Box, Slightly Mad Studios, Criterion and Ghost Games. Each team brought its own style, which is why fans often argue about which era was the best.",
+      "script": "Not every game followed the same recipe. Over the years the series has also tried simulation racing with the Shift games, a mobile free-to-play game called No Limits in twenty fifteen, and many different studios, including EA Canada, EA Black Box, Slightly Mad Studios, Criterion and Ghost Games. Each team brought its own style, which is why fans often argue about which era was the best. That willingness to experiment is part of what has kept the name alive for so long. Even games that fans debate, like ProStreet or Payback, added ideas that later entries could build on, from realistic circuits to offline modes.",
       "images": [
         "wiki:Need for Speed: Underground",
         "wiki:Need for Speed: Hot Pursuit (2010 video game)",
@@ -85,7 +112,7 @@
     },
     {
       "heading": "Unbound: the latest chapter",
-      "script": "The most recent game in the series is Need for Speed Unbound, released on December second, twenty twenty two. Developed by Criterion, it brings street racing back to the centre of the series. It carries forward the idea that began with Underground: your car is your identity, and how it looks matters as much as how fast it goes.",
+      "script": "The most recent game in the series is Need for Speed Unbound, released on December second, twenty twenty two. Developed by Criterion, it brings street racing back to the centre of the series. Its look is unusual: it blends cel-shaded, graffiti-style effects with realistic cars, and EA described it as a visual style that mixes street art with the most realistic looking cars in the franchise's history. It carries forward the idea that began with Underground: your car is your identity, and how it looks matters as much as how fast it goes. Whether you love its bold style or prefer the more realistic look of earlier games, it shows that Criterion is still willing to take risks with the series, just as past teams did.",
       "images": [
         "steam:1846380:0",
         "steam:1846380:1",
@@ -95,7 +122,7 @@
     },
     {
       "heading": "Your favourite Need for Speed",
-      "script": "That was the history of Need for Speed, from exotic cars in nineteen ninety four to the street racing of Unbound. Now it is your turn. Which Need for Speed game is your favourite: Underground, Most Wanted, Hot Pursuit, or something else? Tell us in the comments below, and subscribe to the channel for more gaming history, guides and news.",
+      "script": "That was the history of Need for Speed, from exotic cars in nineteen ninety four to the street racing of Unbound, with police chases, Blacklists, crews and day and night cycles along the way. Every era gave players something different, and that is why everyone seems to have a different favourite. Now it is your turn. Which Need for Speed game is your favourite: Underground, Most Wanted, Hot Pursuit, or something else? Tell us in the comments below, and subscribe to the channel for more gaming history, guides and news.",
       "images": [
         "wiki:Need for Speed: Most Wanted (2005 video game)",
         "wiki:Need for Speed: Underground",

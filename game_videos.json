@@ -236,5 +236,25 @@
   "palworld-chain-beakon": {
     "spec": "scripts/specs/games/palchain_05_beakon.json",
     "video": "F:\\AI AGENT\\ch-run\\videos\\short-b053a69f.mp4"
+  },
+  "palworld-chain-pyrin": {
+    "spec": "scripts/specs/games/palchain_06_pyrin.json",
+    "video": "F:\\AI AGENT\\run_chain2\\videos\\short-6a486e84.mp4"
+  },
+  "palworld-chain-elphidran": {
+    "spec": "scripts/specs/games/palchain_07_elphidran.json",
+    "video": "F:\\AI AGENT\\run_chain2\\videos\\short-ae425d14.mp4"
+  },
+  "palworld-chain-warsect": {
+    "spec": "scripts/specs/games/palchain_08_warsect.json",
+    "video": "F:\\AI AGENT\\run_chain2\\videos\\short-03758513.mp4"
+  },
+  "palworld-chain-univolt": {
+    "spec": "scripts/specs/games/palchain_09_univolt.json",
+    "video": "F:\\AI AGENT\\run_chain2\\videos\\short-d3c968e6.mp4"
+  },
+  "palworld-chain-penking": {
+    "spec": "scripts/specs/games/palchain_10_penking.json",
+    "video": "F:\\AI AGENT\\run_chain2\\videos\\short-9da2f49c.mp4"
   }
 }

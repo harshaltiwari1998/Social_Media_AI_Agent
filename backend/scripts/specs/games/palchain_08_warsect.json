@@ -1,0 +1,57 @@
+{
+  "id": "palworld-chain-warsect",
+  "slot": "palchain",
+  "order": 8,
+  "headline": "Easy breeding chain: Warsect",
+  "title": "Easy Warsect Breeding Chain in Palworld | 3 Steps From Easy Pals | Palworld Breeding Guide",
+  "video_script": "Three breeds from easy Pals, and Warsect is yours. Let's go. Step one: breed Lovander with Vanwyrm to get Valentail. Step two: breed that Valentail with Bushi to get Tarantriss. Step three: breed Tarantriss with Wumpo, and the egg hatches into Warsect! Every step is checked against Palworld one point zero breeding data. Put each pair on the Breeding Farm with a cake. Which Pal should I chain next? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Warsect",
+      "label": "Goal: Warsect"
+    },
+    {
+      "combo": [
+        "Lovander",
+        "Vanwyrm",
+        "Valentail"
+      ],
+      "step": "STEP 1"
+    },
+    {
+      "combo": [
+        "Valentail",
+        "Bushi",
+        "Tarantriss"
+      ],
+      "step": "STEP 2"
+    },
+    {
+      "combo": [
+        "Tarantriss",
+        "Wumpo",
+        "Warsect"
+      ],
+      "step": "STEP 3"
+    }
+  ],
+  "description": "Easy 3-step Palworld 1.0 breeding chain to Warsect: Lovander + Vanwyrm = Valentail, Valentail + Bushi = Tarantriss, Tarantriss + Wumpo = Warsect. Each step verified on PalBreedCalc and with the breeding formula from PinDrop's combi ranks.",
+  "hashtags": [
+    "Palworld",
+    "PalworldBreeding",
+    "Warsect"
+  ],
+  "tags": [
+    "Palworld",
+    "Palworld breeding",
+    "Palworld breeding chain",
+    "how to get Warsect",
+    "Warsect breeding",
+    "Palworld 1.0",
+    "Palworld breeding guide",
+    "Lovander",
+    "Vanwyrm",
+    "Valentail",
+    "Tarantriss"
+  ]
+}

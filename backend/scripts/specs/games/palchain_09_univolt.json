@@ -1,0 +1,57 @@
+{
+  "id": "palworld-chain-univolt",
+  "slot": "palchain",
+  "order": 9,
+  "headline": "Easy breeding chain: Univolt",
+  "title": "Easy Univolt Breeding Chain in Palworld | 3 Steps From Easy Pals | Palworld Breeding Guide",
+  "video_script": "This simple breeding chain gets you Univolt, a lightning fast electric mount. Step one: breed Vanwyrm with Woolipop to get Yakumo. Step two: breed that Yakumo with Robinquill to get Wispaw. Step three: breed Wispaw with Dumud, and the egg hatches into Univolt! Every step is checked against Palworld one point zero breeding data. Put each pair on the Breeding Farm with a cake. Which Pal should I chain next? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Univolt",
+      "label": "Goal: Univolt"
+    },
+    {
+      "combo": [
+        "Vanwyrm",
+        "Woolipop",
+        "Yakumo"
+      ],
+      "step": "STEP 1"
+    },
+    {
+      "combo": [
+        "Yakumo",
+        "Robinquill",
+        "Wispaw"
+      ],
+      "step": "STEP 2"
+    },
+    {
+      "combo": [
+        "Wispaw",
+        "Dumud",
+        "Univolt"
+      ],
+      "step": "STEP 3"
+    }
+  ],
+  "description": "Easy 3-step Palworld 1.0 breeding chain to Univolt: Vanwyrm + Woolipop = Yakumo, Yakumo + Robinquill = Wispaw, Wispaw + Dumud = Univolt. Each step verified on PalBreedCalc and with the breeding formula from PinDrop's combi ranks.",
+  "hashtags": [
+    "Palworld",
+    "PalworldBreeding",
+    "Univolt"
+  ],
+  "tags": [
+    "Palworld",
+    "Palworld breeding",
+    "Palworld breeding chain",
+    "how to get Univolt",
+    "Univolt breeding",
+    "Palworld 1.0",
+    "Palworld breeding guide",
+    "Vanwyrm",
+    "Woolipop",
+    "Yakumo",
+    "Wispaw"
+  ]
+}

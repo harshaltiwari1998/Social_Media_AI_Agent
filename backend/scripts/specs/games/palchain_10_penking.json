@@ -1,0 +1,57 @@
+{
+  "id": "palworld-chain-penking",
+  "slot": "palchain",
+  "order": 10,
+  "headline": "Easy breeding chain: Penking",
+  "title": "Easy Penking Breeding Chain in Palworld | 3 Steps From Easy Pals | Palworld Breeding Guide",
+  "video_script": "Need Penking for your base? Follow these three easy breeding steps. Step one: breed Robinquill with Vanwyrm to get Fenglope. Step two: breed that Fenglope with Grintale to get Katress. Step three: breed Katress with Dinossom, and the egg hatches into Penking! Every step is checked against Palworld one point zero breeding data. Put each pair on the Breeding Farm with a cake. Which Pal should I chain next? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Penking",
+      "label": "Goal: Penking"
+    },
+    {
+      "combo": [
+        "Robinquill",
+        "Vanwyrm",
+        "Fenglope"
+      ],
+      "step": "STEP 1"
+    },
+    {
+      "combo": [
+        "Fenglope",
+        "Grintale",
+        "Katress"
+      ],
+      "step": "STEP 2"
+    },
+    {
+      "combo": [
+        "Katress",
+        "Dinossom",
+        "Penking"
+      ],
+      "step": "STEP 3"
+    }
+  ],
+  "description": "Easy 3-step Palworld 1.0 breeding chain to Penking: Robinquill + Vanwyrm = Fenglope, Fenglope + Grintale = Katress, Katress + Dinossom = Penking. Each step verified on PalBreedCalc and with the breeding formula from PinDrop's combi ranks.",
+  "hashtags": [
+    "Palworld",
+    "PalworldBreeding",
+    "Penking"
+  ],
+  "tags": [
+    "Palworld",
+    "Palworld breeding",
+    "Palworld breeding chain",
+    "how to get Penking",
+    "Penking breeding",
+    "Palworld 1.0",
+    "Palworld breeding guide",
+    "Robinquill",
+    "Vanwyrm",
+    "Fenglope",
+    "Katress"
+  ]
+}

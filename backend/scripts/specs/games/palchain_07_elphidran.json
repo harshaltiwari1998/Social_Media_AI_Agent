@@ -1,0 +1,57 @@
+{
+  "id": "palworld-chain-elphidran",
+  "slot": "palchain",
+  "order": 7,
+  "headline": "Easy breeding chain: Elphidran",
+  "title": "Easy Elphidran Breeding Chain in Palworld | 3 Steps From Easy Pals | Palworld Breeding Guide",
+  "video_script": "Here is the easiest way to get Elphidran in Palworld, a friendly dragon you can fly on. Step one: breed Tocotoco with Vanwyrm to get Dazemu. Step two: breed that Dazemu with Leezpunk to get Surfent. Step three: breed Surfent with Grintale, and the egg hatches into Elphidran! Every step is checked against Palworld one point zero breeding data. Put each pair on the Breeding Farm with a cake. Which Pal should I chain next? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Elphidran",
+      "label": "Goal: Elphidran"
+    },
+    {
+      "combo": [
+        "Tocotoco",
+        "Vanwyrm",
+        "Dazemu"
+      ],
+      "step": "STEP 1"
+    },
+    {
+      "combo": [
+        "Dazemu",
+        "Leezpunk",
+        "Surfent"
+      ],
+      "step": "STEP 2"
+    },
+    {
+      "combo": [
+        "Surfent",
+        "Grintale",
+        "Elphidran"
+      ],
+      "step": "STEP 3"
+    }
+  ],
+  "description": "Easy 3-step Palworld 1.0 breeding chain to Elphidran: Tocotoco + Vanwyrm = Dazemu, Dazemu + Leezpunk = Surfent, Surfent + Grintale = Elphidran. Each step verified on PalBreedCalc and with the breeding formula from PinDrop's combi ranks.",
+  "hashtags": [
+    "Palworld",
+    "PalworldBreeding",
+    "Elphidran"
+  ],
+  "tags": [
+    "Palworld",
+    "Palworld breeding",
+    "Palworld breeding chain",
+    "how to get Elphidran",
+    "Elphidran breeding",
+    "Palworld 1.0",
+    "Palworld breeding guide",
+    "Tocotoco",
+    "Vanwyrm",
+    "Dazemu",
+    "Surfent"
+  ]
+}

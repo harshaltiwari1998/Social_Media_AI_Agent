@@ -1,0 +1,57 @@
+{
+  "id": "palworld-chain-pyrin",
+  "slot": "palchain",
+  "order": 6,
+  "headline": "Easy breeding chain: Pyrin",
+  "title": "Easy Pyrin Breeding Chain in Palworld | 3 Steps From Easy Pals | Palworld Breeding Guide",
+  "video_script": "Want Pyrin, a fast fire horse you can ride? Skip the hunt and breed one with this easy three step chain. Step one: breed Sparkit with Vanwyrm to get Chillet. Step two: breed that Chillet with Robinquill to get Dumud. Step three: breed Dumud with Kitsun, and the egg hatches into Pyrin! Every step is checked against Palworld one point zero breeding data. Put each pair on the Breeding Farm with a cake. Which Pal should I chain next? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Pyrin",
+      "label": "Goal: Pyrin"
+    },
+    {
+      "combo": [
+        "Sparkit",
+        "Vanwyrm",
+        "Chillet"
+      ],
+      "step": "STEP 1"
+    },
+    {
+      "combo": [
+        "Chillet",
+        "Robinquill",
+        "Dumud"
+      ],
+      "step": "STEP 2"
+    },
+    {
+      "combo": [
+        "Dumud",
+        "Kitsun",
+        "Pyrin"
+      ],
+      "step": "STEP 3"
+    }
+  ],
+  "description": "Easy 3-step Palworld 1.0 breeding chain to Pyrin: Sparkit + Vanwyrm = Chillet, Chillet + Robinquill = Dumud, Dumud + Kitsun = Pyrin. Each step verified on PalBreedCalc and with the breeding formula from PinDrop's combi ranks.",
+  "hashtags": [
+    "Palworld",
+    "PalworldBreeding",
+    "Pyrin"
+  ],
+  "tags": [
+    "Palworld",
+    "Palworld breeding",
+    "Palworld breeding chain",
+    "how to get Pyrin",
+    "Pyrin breeding",
+    "Palworld 1.0",
+    "Palworld breeding guide",
+    "Sparkit",
+    "Vanwyrm",
+    "Chillet",
+    "Dumud"
+  ]
+}

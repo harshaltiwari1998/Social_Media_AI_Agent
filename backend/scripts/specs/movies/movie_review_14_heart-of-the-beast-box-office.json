@@ -1,0 +1,48 @@
+{
+  "id": "heart-of-the-beast-box-office",
+  "category": "movies",
+  "slot": "movie_review",
+  "order": 14,
+  "expires": "2026-11-01",
+  "headline": "Brad Pitt ki Heart of the Beast chali!",
+  "title": "Heart of the Beast Box Office | Brad Pitt | A- CinemaScore | Movie Box Office Hindi",
+  "video_script": "Brad Pitt की survival drama Heart of the Beast 25 September को US में release हुई और पहले weekend में North America में करीब 20 million dollar कमाए. Audiences ने film को A minus CinemaScore दिया, और दूसरे weekend में इसने 10 days में करीब 38 million dollar का domestic total बना लिया. Film का budget करीब 82 million dollar बताया गया है. आपको Brad Pitt की कौन सी film सबसे अच्छी लगी? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Heart of the Beast",
+      "label": [
+        "Heart of the Beast",
+        ""
+      ]
+    },
+    {
+      "image": "wiki:Heart of the Beast",
+      "fact": "$20 million",
+      "sub": "North America opening weekend"
+    },
+    {
+      "image": "wiki:Heart of the Beast",
+      "fact": "A- CinemaScore",
+      "sub": "Audience ka thumbs up"
+    },
+    {
+      "image": "wiki:Heart of the Beast",
+      "fact": "$38 million+",
+      "sub": "10 din mein domestic total"
+    }
+  ],
+  "description": "Brad Pitt ki Heart of the Beast ne North America mein ~$20 million opening li, A- CinemaScore mila; 10 din mein domestic ~$38 million.",
+  "hashtags": [
+    "HeartOfTheBeast",
+    "BradPitt",
+    "BoxOffice"
+  ],
+  "tags": [
+    "Heart of the Beast",
+    "Heart of the Beast box office",
+    "Brad Pitt",
+    "Hollywood box office 2026",
+    "CinemaScore",
+    "movie box office Hindi"
+  ]
+}

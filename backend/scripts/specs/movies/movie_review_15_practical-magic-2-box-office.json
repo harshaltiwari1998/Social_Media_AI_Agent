@@ -1,0 +1,48 @@
+{
+  "id": "practical-magic-2-box-office",
+  "category": "movies",
+  "slot": "movie_review",
+  "order": 15,
+  "expires": "2026-11-03",
+  "headline": "Practical Magic 2 ka box office",
+  "title": "Practical Magic 2 Box Office | Sandra Bullock Nicole Kidman | Movie Box Office Hindi",
+  "video_script": "Sandra Bullock और Nicole Kidman की Practical Magic 2 ने North America में अपने पहले weekend में करीब 30 million dollar कमाकर number one जगह ली. ये 1998 की film का sequel है. लेकिन दूसरे weekend में film की कमाई करीब 59 percent गिरकर 12 million dollar के आसपास रह गई, और बाद में Resident Evil ने चार्ट पर कब्ज़ा कर लिया. क्या आपने पहली Practical Magic देखी है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Practical Magic 2",
+      "label": [
+        "Practical Magic 2",
+        ""
+      ]
+    },
+    {
+      "image": "wiki:Practical Magic 2",
+      "fact": "$30 million",
+      "sub": "North America opening, number one"
+    },
+    {
+      "image": "wiki:Practical Magic 2",
+      "fact": "-59%",
+      "sub": "Dusre weekend mein girawat"
+    },
+    {
+      "image": "wiki:Practical Magic 2",
+      "fact": "Bullock | Kidman",
+      "sub": "1998 ki film ka sequel"
+    }
+  ],
+  "description": "Practical Magic 2 (Sandra Bullock, Nicole Kidman) ne ~$30 million ke saath US box office par number one opening li; dusre weekend mein ~59% girawat.",
+  "hashtags": [
+    "PracticalMagic2",
+    "SandraBullock",
+    "BoxOffice"
+  ],
+  "tags": [
+    "Practical Magic 2",
+    "Practical Magic 2 box office",
+    "Sandra Bullock",
+    "Nicole Kidman",
+    "Hollywood box office 2026",
+    "movie box office Hindi"
+  ]
+}

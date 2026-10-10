@@ -1,0 +1,48 @@
+{
+  "id": "avengers-endgame-encore-box-office",
+  "category": "movies",
+  "slot": "movie_review",
+  "order": 16,
+  "expires": "2026-11-05",
+  "headline": "Avengers: Endgame Encore ka dhamaka!",
+  "title": "Avengers Endgame Encore Box Office | 86 Million Dollar Weekend | Movie Box Office Hindi",
+  "video_script": "Avengers: Endgame की re-release, Endgame Encore, ने 25 से 27 September के weekend में North America में करीब 26 million dollar कमाए और number one पर रही. दुनिया भर में इसका weekend करीब 86 million dollar रहा, जिसमें लगभग 60 million dollar बाहर के देशों से आए. यानी सात साल बाद भी Marvel के fans theatre भर रहे हैं. आपका Endgame का favourite scene कौन सा है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Avengers: Endgame",
+      "label": [
+        "Avengers: Endgame Encore",
+        ""
+      ]
+    },
+    {
+      "image": "wiki:Avengers: Endgame",
+      "fact": "$26 million",
+      "sub": "North America weekend, number one"
+    },
+    {
+      "image": "wiki:Avengers: Endgame",
+      "fact": "$86 million",
+      "sub": "Worldwide opening weekend"
+    },
+    {
+      "image": "wiki:Avengers: Endgame",
+      "fact": "Re-release",
+      "sub": "Saat saal baad bhi fans ka pyaar"
+    }
+  ],
+  "description": "Avengers: Endgame Encore ne re-release weekend mein North America mein ~$26 million aur worldwide ~$86 million kamaye.",
+  "hashtags": [
+    "EndgameEncore",
+    "Avengers",
+    "BoxOffice"
+  ],
+  "tags": [
+    "Avengers Endgame Encore",
+    "Endgame re-release box office",
+    "Marvel",
+    "Avengers box office",
+    "Hollywood box office 2026",
+    "movie box office Hindi"
+  ]
+}

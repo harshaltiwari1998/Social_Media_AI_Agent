@@ -212,5 +212,9 @@
     "video": "F:\\AI AGENT\\batch-run\\videos\\long-cad10ae1.mp4",
     "thumbnail": "F:\\AI AGENT\\batch-run\\videos\\long-cad10ae1-thumb.jpg",
     "chapters": "0:00 एक सदी से ज़्यादा का सफ़र\n0:24 Raja Harishchandra - 1913\n0:51 Alam Ara - 1931\n1:16 Mother India - 1957\n1:39 Mughal-e-Azam - 1960\n2:08 Sholay - 1975\n2:38 DDLJ - 1995\n3:02 Lagaan - 2001\n3:23 आपकी favourite classic"
+  },
+  "palworld-how-to-get-shadowbeak": {
+    "spec": "scripts/specs/games/palguide_01_palworld-how-to-get-shadowbeak.json",
+    "video": "F:\\AI AGENT\\sb-run\\videos\\short-23c1f374.mp4"
   }
 }

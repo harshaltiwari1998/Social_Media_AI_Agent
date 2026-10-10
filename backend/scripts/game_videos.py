@@ -88,7 +88,23 @@ def _resolve_url(ref: str) -> str:
     raise ValueError(f"unknown image ref {ref!r} (use steam:<appid>:<n>, wiki:<article>, wikifile:<file name> or yt:<id>:<frame>)")
 
 
+def _pal_image(name: str) -> Image.Image:
+    """Official Pal art (transparent PNG) centred on a dark backdrop, as a regular RGB image."""
+    from scripts.palworld_breeding_videos import fetch_pal_art
+
+    art = fetch_pal_art(name)
+    art = art.crop(art.getbbox() or (0, 0, art.width, art.height))
+    # 16:9 canvas with the art scaled UP to fill it, so it stays large inside fact cards.
+    canvas = Image.new("RGB", (1600, 900), (28, 22, 48))
+    scale = min(1500 / art.width, 840 / art.height)
+    art = art.resize((max(1, int(art.width * scale)), max(1, int(art.height * scale))), Image.LANCZOS)
+    canvas.paste(art, ((1600 - art.width) // 2, (900 - art.height) // 2), art)
+    return canvas
+
+
 def fetch_image(ref: str) -> Image.Image:
+    if ref.startswith("pal:"):  # pal:<Pal name> - official Palworld art from the Fandom wiki
+        return _pal_image(ref[4:])
     cached = _art_dir() / (hashlib.sha1(ref.encode()).hexdigest()[:16] + ".png")
     if not cached.exists():
         data = httpx.get(_resolve_url(ref), headers=_HEADERS, timeout=60, follow_redirects=True).content
@@ -146,7 +162,7 @@ def fact_card(img: Image.Image, fact: str, sub: str | None) -> Image.Image:
     return canvas.convert("RGB")
 
 
-_BADGES = {"new": "NEW GAME", "classic": "CLASSIC GAME", "movie_new": "NEW MOVIE", "movie_review": "BOX OFFICE + REVIEW", "reel": "MOVIE NEWS", "tribute": "SHRADDHANJALI"}
+_BADGES = {"new": "NEW GAME", "classic": "CLASSIC GAME", "movie_new": "NEW MOVIE", "movie_review": "BOX OFFICE + REVIEW", "reel": "MOVIE NEWS", "tribute": "SHRADDHANJALI", "palguide": "BREEDING GUIDE"}
 _DEFAULT_HASHTAGS = {"gaming": ["Gaming", "GamingNews"], "movies": ["Movies", "MovieNews", "Bollywood"]}
 _DEFAULT_VOICE = settings.tts_voice  # TTS_VOICE as configured, before any per-video override
 _DEFAULT_RATE = settings.tts_rate

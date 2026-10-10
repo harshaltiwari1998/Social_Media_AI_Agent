@@ -275,6 +275,22 @@
   },
   "drishyam-3-407-crore": {
     "spec": "scripts/specs/movies/movie_review_17_drishyam-3-407-crore.json",
-    "video": "F:\\AI AGENT\\run_cine1\\videos\\short-3fe3fc5a.mp4"
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ad7e76f4.mp4"
+  },
+  "october-2026-games": {
+    "spec": "scripts/specs/games/new_05_october-2026-games.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-a36373ab.mp4"
+  },
+  "road-rash": {
+    "spec": "scripts/specs/games/classic_05_road-rash.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-7c5388ad.mp4"
+  },
+  "ramayana-part-1": {
+    "spec": "scripts/specs/movies/movie_new_05_ramayana-part-1.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-3bf264dd.mp4"
+  },
+  "mirzapur-the-movie-box-office": {
+    "spec": "scripts/specs/movies/movie_review_05_mirzapur-the-movie-box-office.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ca4a3ac9.mp4"
   }
 }

@@ -475,5 +475,25 @@
       ],
       "unique": false
     }
+  },
+  "Sparkit": {
+    "spec": "scripts/specs/palworld_sparkit.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-00f61a6e.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Sparkit",
+      "caption": "Foxparks + Jolthog = Sparkit. A Palworld 1.0 breeding combo.",
+      "video_script": "Want Sparkit in Palworld without catching one? Breed Foxparks with Jolthog. Put them together on your Breeding Farm, add a cake, and the egg hatches into Sparkit. This pair is confirmed in the Palworld one point zero breeding data. Follow for more breeding combos!",
+      "parents": [
+        "Foxparks",
+        "Jolthog"
+      ],
+      "child": "Sparkit",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
   }
 }

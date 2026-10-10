@@ -355,5 +355,125 @@
       ],
       "unique": false
     }
+  },
+  "Depresso": {
+    "spec": "scripts/specs/palworld_depresso.json",
+    "video": "F:\\AI AGENT\\pal-run\\videos\\short-8bb129b9.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Depresso",
+      "caption": "Foxparks + Sparkit = Depresso. A Palworld 1.0 breeding combo.",
+      "video_script": "Foxparks plus Sparkit equals Depresso! That is a real Palworld one point zero breeding combo. Drop both Pals on your Breeding Farm, add a cake and wait for the egg to hatch. Save this video so you do not forget it. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Foxparks",
+        "Sparkit"
+      ],
+      "child": "Depresso",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Mossanda": {
+    "spec": "scripts/specs/palworld_mossanda.json",
+    "video": "F:\\AI AGENT\\pal-run\\videos\\short-de6cfd2c.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Mossanda",
+      "caption": "Blazehowl + Cattiva = Mossanda. A Palworld 1.0 breeding combo.",
+      "video_script": "Breeding tip for Palworld: Mossanda comes from Blazehowl and Cattiva. Place them together on the Breeding Farm, feed it a cake, and you get a Mossanda egg. It works in Palworld one point zero. What is your favourite Pal? Comment below!",
+      "parents": [
+        "Blazehowl",
+        "Cattiva"
+      ],
+      "child": "Mossanda",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
+  },
+  "Melpaca": {
+    "spec": "scripts/specs/palworld_melpaca.json",
+    "video": "F:\\AI AGENT\\pal-run\\videos\\short-2334ab45.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Melpaca",
+      "caption": "Cattiva + Direhowl = Melpaca. A Palworld 1.0 breeding combo.",
+      "video_script": "Want Melpaca in Palworld without catching one? Breed Cattiva with Direhowl. Put them together on your Breeding Farm, add a cake, and the egg hatches into Melpaca. This pair is confirmed in the Palworld one point zero breeding data. Follow for more breeding combos!",
+      "parents": [
+        "Cattiva",
+        "Direhowl"
+      ],
+      "child": "Melpaca",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
+  },
+  "Ribbuny": {
+    "spec": "scripts/specs/palworld_ribbuny.json",
+    "video": "F:\\AI AGENT\\pal-run\\videos\\short-463bcf72.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Ribbuny",
+      "caption": "Cattiva + Pengullet = Ribbuny. A Palworld 1.0 breeding combo.",
+      "video_script": "Here is an easy way to get Ribbuny in Palworld. Pair Cattiva and Pengullet on the Breeding Farm with a cake. Their egg gives you Ribbuny, a completely different Pal from both parents. Checked against Palworld one point zero breeding data. Comment which Pal you want next!",
+      "parents": [
+        "Cattiva",
+        "Pengullet"
+      ],
+      "child": "Ribbuny",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
+  },
+  "Vixy": {
+    "spec": "scripts/specs/palworld_vixy.json",
+    "video": "F:\\AI AGENT\\pal-run\\videos\\short-60f39af1.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Vixy",
+      "caption": "Lamball + Teafant = Vixy. A Palworld 1.0 breeding combo.",
+      "video_script": "Lamball plus Teafant equals Vixy! That is a real Palworld one point zero breeding combo. Drop both Pals on your Breeding Farm, add a cake and wait for the egg to hatch. Save this video so you do not forget it. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Lamball",
+        "Teafant"
+      ],
+      "child": "Vixy",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Rushoar": {
+    "spec": "scripts/specs/palworld_rushoar.json",
+    "video": "F:\\AI AGENT\\pal-run\\videos\\short-4f1ef195.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Rushoar",
+      "caption": "Cattiva + Depresso = Rushoar. A Palworld 1.0 breeding combo.",
+      "video_script": "Breeding tip for Palworld: Rushoar comes from Cattiva and Depresso. Place them together on the Breeding Farm, feed it a cake, and you get a Rushoar egg. It works in Palworld one point zero. What is your favourite Pal? Comment below!",
+      "parents": [
+        "Cattiva",
+        "Depresso"
+      ],
+      "child": "Rushoar",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
   }
 }

@@ -10,10 +10,7 @@
   "scenes": [
     {
       "image": "wiki:Heart of the Beast",
-      "label": [
-        "Heart of the Beast",
-        ""
-      ]
+      "label": "Heart of the Beast"
     },
     {
       "image": "wiki:Heart of the Beast",

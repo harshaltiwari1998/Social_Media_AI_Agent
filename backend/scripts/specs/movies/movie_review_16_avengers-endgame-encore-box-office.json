@@ -10,10 +10,7 @@
   "scenes": [
     {
       "image": "wiki:Avengers: Endgame",
-      "label": [
-        "Avengers: Endgame Encore",
-        ""
-      ]
+      "label": "Avengers: Endgame Encore"
     },
     {
       "image": "wiki:Avengers: Endgame",

@@ -216,5 +216,25 @@
   "palworld-how-to-get-shadowbeak": {
     "spec": "scripts/specs/games/palguide_01_palworld-how-to-get-shadowbeak.json",
     "video": "F:\\AI AGENT\\sb-run\\videos\\short-23c1f374.mp4"
+  },
+  "palworld-chain-suzaku": {
+    "spec": "scripts/specs/games/palchain_01_suzaku.json",
+    "video": "F:\\AI AGENT\\ch-run\\videos\\short-3aecc8d2.mp4"
+  },
+  "palworld-chain-helzephyr": {
+    "spec": "scripts/specs/games/palchain_02_helzephyr.json",
+    "video": "F:\\AI AGENT\\ch-run\\videos\\short-a8b15d48.mp4"
+  },
+  "palworld-chain-quivern": {
+    "spec": "scripts/specs/games/palchain_03_quivern.json",
+    "video": "F:\\AI AGENT\\ch-run\\videos\\short-26ea395b.mp4"
+  },
+  "palworld-chain-mammorest": {
+    "spec": "scripts/specs/games/palchain_04_mammorest.json",
+    "video": "F:\\AI AGENT\\ch-run\\videos\\short-0b18696f.mp4"
+  },
+  "palworld-chain-beakon": {
+    "spec": "scripts/specs/games/palchain_05_beakon.json",
+    "video": "F:\\AI AGENT\\ch-run\\videos\\short-b053a69f.mp4"
   }
 }

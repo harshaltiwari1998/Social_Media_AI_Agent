@@ -1,0 +1,135 @@
+{
+  "id": "resident-evil-franchise-history",
+  "category": "gaming",
+  "order": 10,
+  "expires": "2026-12-31",
+  "title": "The History of Resident Evil | From 1996 to Requiem and Beyond",
+  "description": "How Resident Evil grew from a 1996 PlayStation horror game into Capcom's best-selling series: the mansion, Raccoon City, Resident Evil 4, the remakes and Resident Evil Requiem in 2026.",
+  "hashtags": [
+    "ResidentEvil",
+    "Capcom",
+    "Gaming"
+  ],
+  "tags": [
+    "Resident Evil history",
+    "Resident Evil Requiem",
+    "Resident Evil 4",
+    "Capcom",
+    "survival horror",
+    "Leon Kennedy",
+    "Shinji Mikami",
+    "Resident Evil remake",
+    "classic games"
+  ],
+  "thumbnail": {
+    "image": "wiki:Resident Evil Requiem",
+    "text": "HISTORY OF RESIDENT EVIL"
+  },
+  "sections": [
+    {
+      "heading": "Thirty years of survival horror",
+      "script": "Resident Evil is Capcom's best-selling game series, with more than two hundred million copies sold around the world. It began in nineteen ninety six with a spooky mansion and a handful of bullets, and thirty years later the series is still going strong, with a brand new main game in twenty twenty six and a remake of Code Veronica on the way. In this video we follow the whole story: how the first game was made, the famous sequels, the big change in Resident Evil 4, the return to real horror, the remakes, and what is coming next. Whether you are a long-time fan or you have never played a single game in the series, this story has something for you. So lock the door, check your ammo, and let's begin.",
+      "images": [
+        "wiki:Resident Evil (1996 video game)",
+        "wiki:Resident Evil 2 (2019 video game)",
+        "wiki:Resident Evil Requiem"
+      ]
+    },
+    {
+      "heading": "How it all started",
+      "script": "The story begins at Capcom with a producer named Tokuro Fujiwara. In nineteen eighty nine he had made a horror game for the Famicom called Sweet Home, and he asked a young designer, Shinji Mikami, to build a new horror game with ideas from it. The team began in nineteen ninety three at Capcom's Osaka studio. Along the way the game went through several designs, including a Super Nintendo version and a first-person three D version, before it became a third-person adventure with fixed camera angles. Even the careful item management, with a small inventory and limited space, was inspired by Sweet Home.",
+      "images": [
+        "wiki:Resident Evil (1996 video game)",
+        "wiki:Resident Evil 2 (2019 video game)"
+      ]
+    },
+    {
+      "heading": "March nineteen ninety six",
+      "script": "Resident Evil launched on the original PlayStation on March twenty second, nineteen ninety six. In Japan it was called Biohazard. You played as Chris Redfield or Jill Valentine, members of the special team S.T.A.R.S., exploring the Spencer Mansion and solving puzzles with limited ammunition. Item boxes, safe rooms and a save system became famous features. The game was a huge hit, and it is credited with defining the survival horror genre, a term that was used to describe it. It was later released on Sega Saturn and on Windows. Many people still call it one of the most influential games ever made, and it was later remade for the GameCube.",
+      "images": [
+        "wiki:Resident Evil (1996 video game)",
+        "wiki:Resident Evil 2 (2019 video game)"
+      ]
+    },
+    {
+      "heading": "Raccoon City and Code Veronica",
+      "script": "The success led to two sequels on PlayStation. Resident Evil 2 arrived in January nineteen ninety eight, with the rookie police officer Leon Kennedy and Claire Redfield, who was searching for her missing brother Chris. On the PlayStation, the game came on two discs, one for Leon's story and one for Claire's, so you could play through both. Resident Evil 3 Nemesis followed in nineteen ninety nine, with a relentless monster that chases you through the city. Then, in the year two thousand, Resident Evil Code Veronica came out on the Sega Dreamcast, a long adventure for Claire Redfield. These games built the world of Raccoon City and the Umbrella Corporation, which fans still talk about today.",
+      "images": [
+        "wiki:Resident Evil 2 (2019 video game)",
+        "wiki:Resident Evil (1996 video game)"
+      ]
+    },
+    {
+      "heading": "Resident Evil 4 changes everything",
+      "script": "After a remake of the first game and the prequel Resident Evil Zero, both on the Nintendo GameCube in two thousand two, Resident Evil 4 arrived in two thousand five, first on GameCube. It moved the camera right behind Leon's shoulder, in the famous over-the-shoulder view. Mikami said the team simply felt that angle was better, but it became hugely influential, and many later shooters such as Gears of War, Dead Space and The Last of Us used a similar view. Resident Evil 4 later came to PC, PlayStation 2 and Wii and it remains one of the most loved games in the series.",
+      "images": [
+        "wiki:Resident Evil 4",
+        "wiki:Resident Evil 4 (2023 video game)",
+        "steam:2050650:1"
+      ]
+    },
+    {
+      "heading": "Co-op and action",
+      "script": "After Resident Evil 4, the series leaned into action. Resident Evil 5, released in two thousand nine on PlayStation 3, Xbox 360 and Windows, let two players team up. Resident Evil 6 followed in October two thousand twelve, with several characters and big action scenes, but reviews were mixed. Capcom then decided it was time to refocus on fear and tension. The series also tried many side games, like the Revelations games on the Nintendo 3DS and the Gun Survivor and Chronicles series, and these kept fans busy while Capcom prepared a big change for the main series.",
+      "images": [
+        "wiki:Resident Evil 2 (2019 video game)",
+        "wiki:Resident Evil 4",
+        "wiki:Resident Evil (1996 video game)"
+      ]
+    },
+    {
+      "heading": "Back to fear: RE7 and Village",
+      "script": "That change was Resident Evil 7 Biohazard in January twenty seventeen. Set in a dilapidated mansion in Louisiana, it used a first-person view and put horror and exploration ahead of action, and it was the first game built on Capcom's new RE Engine. It was a hit with fans and critics. Resident Evil Village followed in May twenty twenty one, continuing the story of Ethan Winters in a mysterious European village, and introducing the towering noblewoman Lady Dimitrescu. Village was also the first Resident Evil on PlayStation 5 and Xbox Series X and S.",
+      "images": [
+        "steam:418370:1",
+        "steam:1196590:1",
+        "wiki:Resident Evil Village"
+      ]
+    },
+    {
+      "heading": "The remake era",
+      "script": "With the RE Engine, Capcom began remaking its classics. Resident Evil 2 came back in January twenty nineteen, followed by Resident Evil 3 in April twenty twenty, and Resident Evil 4 on March twenty fourth, twenty twenty three. Fans loved how these remakes kept the spirit of the originals while rebuilding the games with modern graphics and controls. Capcom announced that the Resident Evil 4 remake sold more than three million copies in its first two days. Together, the remakes brought a whole new generation of players into the series.",
+      "images": [
+        "steam:883710:1",
+        "steam:952060:1",
+        "steam:2050650:2"
+      ]
+    },
+    {
+      "heading": "Resident Evil Requiem",
+      "script": "Resident Evil Requiem was revealed at Summer Game Fest in June twenty twenty five, with a trailer that focused on the new character Grace Ashcroft. Leon Kennedy, now older, was confirmed later at The Game Awards. The ninth main game, Resident Evil Requiem, launched on February twenty seventh, twenty twenty six, on PlayStation 5, Xbox Series X and S, PC and Nintendo Switch 2. It was directed by Koshi Nakanishi, who also directed Resident Evil 7, and it follows a new hero, the FBI analyst Grace Ashcroft, alongside Leon Kennedy. Grace's scenes focus on survival horror, while Leon's are more action focused. Capcom said Requiem sold more than five million copies in about five days, making it the fastest-selling game in the series, and it later passed eight million.",
+      "images": [
+        "steam:3764200:1",
+        "steam:3764200:3",
+        "wiki:Resident Evil Requiem"
+      ]
+    },
+    {
+      "heading": "A series that keeps changing",
+      "script": "One reason Resident Evil has lasted for thirty years is that it keeps changing how it looks and plays. The first games used fixed camera angles and pre-rendered backgrounds, which gave them a cinematic and tense feeling. Resident Evil 4 moved the camera over the shoulder and made shooting more direct. Resident Evil 7 and Village switched to a first-person view to bring the player closer to the fear. Requiem lets you choose between first-person and third-person views. Through all of these changes, the core ideas stay the same: limited resources, clever puzzles, memorable monsters and the feeling that you are never quite safe.",
+      "images": [
+        "wiki:Resident Evil 2 (2019 video game)",
+        "steam:418370:1",
+        "steam:3764200:3"
+      ]
+    },
+    {
+      "heading": "What comes next",
+      "script": "The story is not over. At Summer Game Fest on June fifth, twenty twenty six, Capcom revealed Resident Evil Veronica, a remake of Code Veronica, coming in twenty twenty seven for PlayStation 5, Xbox Series X and S, Switch 2 and PC. It uses the RE Engine and follows Claire Redfield, with modernized gameplay and a reimagined story. After thirty years, the series is clearly in great health, and there has never been a better time to start playing.",
+      "images": [
+        "wiki:Resident Evil Requiem",
+        "steam:3764200:1",
+        "wiki:Resident Evil 2 (2019 video game)"
+      ]
+    },
+    {
+      "heading": "Your favourite Resident Evil",
+      "script": "That was the history of Resident Evil, from a haunted mansion on the first PlayStation to a global franchise with more than two hundred million copies sold. Now it is your turn. What is your favourite Resident Evil game: the original, Resident Evil 2, Resident Evil 4, Village, or Requiem? And which character is your favourite, Leon, Claire, Jill or Chris? Tell us in the comments below, and subscribe to the channel for more gaming history, guides and news.",
+      "images": [
+        "wiki:Resident Evil (1996 video game)",
+        "wiki:Resident Evil 4 (2023 video game)",
+        "wiki:Resident Evil Requiem"
+      ]
+    }
+  ]
+}

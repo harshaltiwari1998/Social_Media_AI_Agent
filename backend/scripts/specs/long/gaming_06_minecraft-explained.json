@@ -27,7 +27,7 @@
   "sections": [
     {
       "heading": "The biggest sandbox ever",
-      "script": "Minecraft looks simple, with its blocky graphics, but it is one of the most important games ever made. Over three hundred million copies have been sold, and the game is played by people of all ages around the world. In this video we explain what Minecraft is, how it began, how you play, what is waiting in the Nether and the End, and how a small indie game ended up owned by Microsoft.",
+      "script": "Minecraft looks simple, with its blocky graphics, but it is one of the most important games ever made. Over three hundred million copies have been sold, and the game is played by people of all ages around the world, on computers, consoles and phones. It has its own calm music, its own school edition, and even its own Hollywood movie, and its worlds are so big that you could explore for years without seeing everything. In this video we explain what Minecraft is, how it began, how you play, what is waiting in the Nether and the End, how it spread to every device, and how a small indie game ended up owned by Microsoft. Whether you are a brand new player or a veteran of a thousand nights, there is something here for you, so let us start at the very beginning.",
       "images": [
         "yt:MmB9b5njVbA:maxresdefault",
         "yt:MmB9b5njVbA:maxres1",
@@ -54,7 +54,7 @@
     },
     {
       "heading": "What is the game about",
-      "script": "In Minecraft, you explore a procedurally generated world made of blocks, which means every world is different and almost endless. You mine raw materials, craft tools and items, build structures, fight hostile creatures called mobs, and can play alone or with friends. There is no required goal, so you decide what to do. Some players build giant castles, some explore caves and survive the night, and some simply enjoy building with friends.",
+      "script": "In Minecraft, you explore a procedurally generated world made of blocks, which means every world is different and almost endless. You mine raw materials, craft tools and items, build structures, fight hostile creatures called mobs, trade emeralds with villagers for useful goods, and can play alone or with friends. There is no required goal, so you decide what to do. The game also has a day and night cycle, so the world is gentle in the day and dangerous at night. Some players build giant castles, some explore caves and survive the night, some build working machines and circuits with a material called redstone, and some simply enjoy building with friends.",
       "images": [
         "yt:MmB9b5njVbA:maxres3",
         "yt:MmB9b5njVbA:maxresdefault",
@@ -63,7 +63,7 @@
     },
     {
       "heading": "Survival and Creative",
-      "script": "Two main modes define how most people play. In Survival mode, the default, you have health and hunger bars, you must gather resources, and hostile mobs can attack you at night. In Creative mode, you get unlimited resources, you can fly, and you cannot be hurt, so you can focus fully on building. There are also Adventure and Spectator modes, which are useful for custom maps and for watching other players.",
+      "script": "Two main modes define how most people play. In Survival mode, the default, you have health and hunger bars, you must gather resources, and hostile mobs can attack you at night. In Creative mode, you get unlimited resources, you can fly, and you cannot be hurt, so you can focus fully on building. There are also Hardcore mode, where dying is permanent, plus Adventure and Spectator modes, which are useful for custom maps and for watching other players.",
       "images": [
         "yt:MmB9b5njVbA:maxresdefault",
         "yt:MmB9b5njVbA:maxres1",
@@ -72,7 +72,7 @@
     },
     {
       "heading": "The Nether and the End",
-      "script": "Minecraft also has other dimensions. The Nether is a hell-like underworld full of lava, reached through an obsidian portal, and it is home to mobs such as ghasts, piglins and blazes. The End is a dark world of floating islands, guarded by the Ender Dragon, the game's most famous boss. When you defeat the dragon, an exit portal opens, and the game's ending credits roll, though you can keep playing as long as you want.",
+      "script": "Minecraft also has other dimensions. The Nether is a hell-like underworld full of lava, reached through an obsidian portal, and it is home to mobs such as ghasts, piglins and blazes. To reach the End, you must find an underground stronghold and activate a portal using eyes of ender. The End is a dark world of floating islands, guarded by the Ender Dragon, the game's most famous boss. When you defeat the dragon, an exit portal opens, and the ending credits roll with the End Poem, written by the Irish author Julian Gough, though you can keep playing as long as you want.",
       "images": [
         "yt:MmB9b5njVbA:maxres1",
         "yt:MmB9b5njVbA:maxres2",
@@ -90,7 +90,7 @@
     },
     {
       "heading": "Microsoft buys Mojang",
-      "script": "In September twenty fourteen, Microsoft announced that it would buy Mojang, the studio behind Minecraft, for two point five billion dollars. The deal was completed in November twenty fourteen, and Notch and the other founders left the company. Since then, Microsoft has kept supporting Minecraft with regular updates, and the game keeps growing.",
+      "script": "On September fifteenth, twenty fourteen, Microsoft announced that it would buy Mojang, the studio behind Minecraft, for two point five billion dollars. The deal was completed in November twenty fourteen, after which Notch and the other founders left the company. Since then, Microsoft has kept supporting Minecraft with regular updates, and Xbox Game Studios publishes the Bedrock version of the game. The game keeps growing, and it is still updated with new features year after year.",
       "images": [
         "wiki:Markus Persson",
         "yt:MmB9b5njVbA:maxres3",
@@ -98,12 +98,30 @@
       ]
     },
     {
-      "heading": "Sales and community",
-      "script": "Minecraft passed two hundred million copies sold in twenty twenty, and in October twenty twenty three, Mojang announced that it had passed three hundred million. That makes it one of the best-selling video games of all time, and many sources call it the best-selling game ever. Its huge community creates mods, custom servers, skins, texture packs and maps, which keep the game fresh long after release.",
+      "heading": "One game on every device",
+      "script": "Minecraft did not stay on the computer for long. The Pocket Edition arrived on phones in the second half of twenty eleven, first on the Sony Xperia Play in August, then on other Android phones in October and on iPhone in November. The Xbox three sixty edition, made by the studio Four J and priced at about twenty dollars, launched on May ninth, twenty twelve, and broke the Xbox Live Arcade digital sales records, selling more than one million copies in under a week. In September twenty seventeen, the Better Together update merged several versions into the Bedrock Edition, so players on Windows, Xbox One, Android and iPhone could finally play together.",
+      "images": [
+        "yt:MmB9b5njVbA:maxres1",
+        "yt:MmB9b5njVbA:maxres2",
+        "yt:MmB9b5njVbA:maxres3"
+      ]
+    },
+    {
+      "heading": "Sales, updates and community",
+      "script": "Minecraft passed two hundred million copies sold in twenty twenty, and in October twenty twenty three, Mojang announced that it had passed three hundred million. That makes it one of the best-selling video games of all time, and many sources call it the best-selling game ever. Its huge community creates mods, custom servers, skins, texture packs and maps, which keep the game fresh long after release. Minecraft never stands still, because Mojang keeps adding big free updates. The Update Aquatic in twenty eighteen rebuilt the oceans with coral reefs, shipwrecks, dolphins and the hostile drowned. The Caves and Cliffs update, finished with Part Two on November thirtieth, twenty twenty one, made the world taller and deeper, with enormous new caves to explore. And on June seventeenth, twenty twenty five, the Chase the Skies drop added the happy ghast, a friendly flying mount, together with Vibrant Visuals, a graphics upgrade for the Bedrock Edition. Every update gives old players a reason to return and new players a reason to start.",
       "images": [
         "yt:MmB9b5njVbA:maxresdefault",
         "yt:MmB9b5njVbA:maxres1",
         "yt:MmB9b5njVbA:maxres2"
+      ]
+    },
+    {
+      "heading": "Music, school and Hollywood",
+      "script": "Minecraft's calm music was composed by the German musician Daniel Rosenfeld, known as C418, whose album Volume Alpha was released in March twenty eleven. The game also moved into classrooms. Minecraft Education Edition, built for teachers and students, launched on November first, twenty sixteen, in eleven languages and fifty countries. It grew out of MinecraftEdu, an earlier version made for schools. And in April twenty twenty five, A Minecraft Movie arrived in cinemas, made by Warner Bros and Legendary, directed by Jared Hess and starring Jack Black and Jason Momoa. It passed five hundred million dollars worldwide within weeks. Steve, the default hero, even became a fighter in Super Smash Bros Ultimate, announced in October twenty twenty, together with Alex, the Enderman and the zombie as alternate looks, and a Minecraft stage.",
+      "images": [
+        "yt:MmB9b5njVbA:maxresdefault",
+        "yt:MmB9b5njVbA:maxres2",
+        "yt:MmB9b5njVbA:maxres1"
       ]
     },
     {

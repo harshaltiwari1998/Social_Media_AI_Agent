@@ -2,6 +2,7 @@
   "id": "zelda-franchise-history",
   "category": "gaming",
   "order": 7,
+  "expires": "2027-04-29",
   "title": "The History of The Legend of Zelda | From 1986 to Tears of the Kingdom",
   "description": "How The Legend of Zelda became one of Nintendo's greatest series: the 1986 original, Ocarina of Time with its Metascore of 99, Breath of the Wild and Tears of the Kingdom.",
   "hashtags": [
@@ -27,7 +28,7 @@
   "sections": [
     {
       "heading": "An adventure in Hyrule",
-      "script": "The Legend of Zelda is one of the most loved game series ever made. It is the story of Link, a young hero, and Princess Zelda, and their fight to save the land of Hyrule from the evil Ganon. Along the way there are dungeons, puzzles and one of the greatest soundtracks in gaming. In this video we follow the series from the very first game in nineteen eighty six, through Ocarina of Time, to Breath of the Wild and Tears of the Kingdom.",
+      "script": "The Legend of Zelda is one of the most loved game series ever made. It is the story of Link, a young hero, and Princess Zelda, and their fight to save the land of Hyrule from the evil Ganon. Along the way there are dungeons, puzzles and one of the greatest soundtracks in gaming. In this video we follow the series from the very first game in nineteen eighty six, through the Super Nintendo and Game Boy days, Ocarina of Time and the 3D classics, to Breath of the Wild, Tears of the Kingdom and the live-action movie that is on its way. Whether you grew up with a Game Boy, a Nintendo 64 or a Switch, there is a Zelda for you. Grab your sword and shield, because Hyrule is calling.",
       "images": [
         "wiki:The Legend of Zelda: Breath of the Wild",
         "wiki:The Legend of Zelda: Tears of the Kingdom",
@@ -36,15 +37,24 @@
     },
     {
       "heading": "Nineteen eighty six: the original",
-      "script": "The first Legend of Zelda came out on February twenty first, nineteen eighty six, in Japan, as a launch title for the Famicom Disk System. It was created by Shigeru Miyamoto and Takashi Tezuka, and it could save your progress directly to the game disk, which was a big deal at the time. The game reached the United States in nineteen eighty seven on the Nintendo Entertainment System, and players loved its open map, hidden secrets and freedom to explore.",
+      "script": "The first Legend of Zelda came out on February twenty first, nineteen eighty six, in Japan, as a launch title for the Famicom Disk System. It was created by Shigeru Miyamoto and Takashi Tezuka, and it could save your progress directly to the game disk, which was a big deal at the time. The game reached the United States in nineteen eighty seven on the Nintendo Entertainment System, and players loved its open map, hidden secrets and freedom to explore. The sword you pick up in the very first cave began a tradition that the series still follows. Nobody told you where to go, so every cave and every bush could hide a surprise.",
       "images": [
         "wiki:The Legend of Zelda (video game)",
         "wiki:The Legend of Zelda: A Link to the Past"
       ]
     },
     {
+      "heading": "Super Nintendo and Game Boy",
+      "script": "After the first game and its sequel, the series moved to the Super Nintendo. A Link to the Past arrived in November nineteen ninety one in Japan, and it added the idea of an alternate dimension, the Dark World, that you could travel between. Then, in nineteen ninety three, Link's Awakening on the Game Boy became the first Zelda game on a handheld. It took place on a mysterious island called Koholint, away from Hyrule, and it was the first Zelda game in which the princess does not appear, and it showed that a full Zelda adventure could fit in your pocket. Both games are still loved by fans today, and Link's Awakening was remade for the Nintendo Switch in twenty nineteen.",
+      "images": [
+        "wiki:The Legend of Zelda: A Link to the Past",
+        "wiki:The Legend of Zelda: Link's Awakening",
+        "wiki:The Legend of Zelda (video game)"
+      ]
+    },
+    {
       "heading": "The heart of the series",
-      "script": "Almost every Zelda game follows a similar idea. Link is a brave young hero of the Hylian race, and Princess Zelda belongs to a royal bloodline linked to the goddess Hylia. Their enemy is usually Ganon, who wants to use the Triforce, a sacred relic that can grant any wish, to remake the world in his image. One small tip for new fans: the hero is Link, and Zelda is the princess, a mistake many people make.",
+      "script": "Almost every Zelda game follows a similar idea. Link is a brave young hero of the Hylian race, and Princess Zelda belongs to a royal bloodline linked to the goddess Hylia. Their enemy is usually Ganon, who wants to use the Triforce, a sacred relic that can grant any wish, to remake the world in his image. Shigeru Miyamoto has said that the princess was named after the American writer Zelda Fitzgerald, because he liked how the name sounded. One small tip for new fans: the hero is Link, and Zelda is the princess, a mistake many people make.",
       "images": [
         "wiki:The Legend of Zelda (video game)",
         "wiki:The Legend of Zelda: A Link to the Past"
@@ -52,15 +62,24 @@
     },
     {
       "heading": "Nineteen ninety eight: Ocarina of Time",
-      "script": "In November nineteen ninety eight, Ocarina of Time launched on the Nintendo 64, bringing the series into three dimensions for the first time. It is famous for its dungeons, its time-travel story, and its music. According to Guinness World Records, it is the only video game to have reached a Metacritic score of ninety nine, and many critics still call it one of the greatest games ever made.",
+      "script": "In November nineteen ninety eight, Ocarina of Time launched on the Nintendo 64, bringing the series into three dimensions for the first time. It is famous for its dungeons, its time-travel story, and its music, and playing songs on the ocarina is a core part of the adventure. It also added lock-on targeting, which made sword fights in three dimensions much easier. According to Guinness World Records, it is the only video game to have reached a Metacritic score of ninety nine, and many critics still call it one of the greatest games ever made.",
       "images": [
         "wiki:The Legend of Zelda: Ocarina of Time",
         "wiki:The Legend of Zelda: A Link to the Past"
       ]
     },
     {
+      "heading": "The 3D classics",
+      "script": "Ocarina of Time had a bold follow-up. Majora's Mask came out in the year two thousand and gave Link only three days to save a world, which you could relive over and over, using masks to change form. In December two thousand two, The Wind Waker arrived on the GameCube in Japan, with a cel-shaded cartoon look and a huge ocean to sail across. It reached North America in March two thousand three. Then Twilight Princess, in November two thousand six, was a launch game for the Nintendo Wii, with darker visuals and motion controls. The Twilight Princess GameCube version followed in December, as the last first-party game for that console. Skyward Sword came to the Wii in twenty eleven, using the Wii MotionPlus so that swinging the controller swung Link's sword, and an HD version arrived on the Nintendo Switch on July sixteenth, twenty twenty one. Each of these games gave fans a very different Hyrule to explore.",
+      "images": [
+        "wiki:The Legend of Zelda: Majora's Mask",
+        "wiki:The Legend of Zelda: The Wind Waker",
+        "wiki:The Legend of Zelda: Twilight Princess"
+      ]
+    },
+    {
       "heading": "Twenty seventeen: Breath of the Wild",
-      "script": "After Ocarina, the series had many great games, but Breath of the Wild, released on March third, twenty seventeen, changed it again. It launched with the Nintendo Switch and, on the same day, on the Wii U. Instead of a strict path, it gave players a huge open world where you could climb almost anything and tackle challenges in any order. It earned a Metacritic score of ninety seven and sold more than thirty million copies.",
+      "script": "After Ocarina, the series had many great games, but Breath of the Wild, released on March third, twenty seventeen, changed it again. It launched with the Nintendo Switch and, on the same day, on the Wii U. Instead of a strict path, it gave players a huge open world where you could climb almost anything and tackle challenges in any order. It earned a Metacritic score of ninety seven and sold more than thirty million copies, and it also won the top award at the D I C E Awards for game of the year.",
       "images": [
         "wiki:The Legend of Zelda: Breath of the Wild",
         "wiki:The Legend of Zelda: Tears of the Kingdom"
@@ -68,15 +87,24 @@
     },
     {
       "heading": "Twenty twenty three: Tears of the Kingdom",
-      "script": "Tears of the Kingdom was released on May twelfth, twenty twenty three, on the Nintendo Switch. Nintendo announced that it sold more than ten million copies in its first three days, which made it the fastest-selling game in the history of the series. It builds on the world of Breath of the Wild, adding new ways to build and create, and it holds a Metacritic score of ninety six.",
+      "script": "Tears of the Kingdom was released on May twelfth, twenty twenty three, on the Nintendo Switch. Nintendo announced that it sold more than ten million copies in its first three days, which made it the fastest-selling game in the history of the series. It builds on the world of Breath of the Wild, adding new ways to build and create with an ability called Ultrahand, with machines you can design yourself and sky islands high above Hyrule, and it holds a Metacritic score of ninety six.",
       "images": [
         "wiki:The Legend of Zelda: Tears of the Kingdom",
         "wiki:The Legend of Zelda: Breath of the Wild"
       ]
     },
     {
+      "heading": "Zelda takes the lead",
+      "script": "For nearly forty years, you played as Link. That changed on September twenty sixth, twenty twenty four, with Echoes of Wisdom on the Nintendo Switch, the first main Zelda game in which Princess Zelda herself is the playable hero. With a magical rod called the Tri Rod, and a small fairy companion named Tri, she copies objects and enemies, and uses these echoes to solve puzzles and fight. And there is more. A live-action Legend of Zelda film from Nintendo and Sony Pictures, directed by Wes Ball, is scheduled for April thirtieth, twenty twenty seven, after Nintendo moved it up from May seventh, and filming wrapped in April twenty twenty six. It stars Benjamin Evan Ainsworth as Link and Bo Bragason as Zelda.",
+      "images": [
+        "wiki:The Legend of Zelda: Echoes of Wisdom",
+        "wiki:The Legend of Zelda: Tears of the Kingdom",
+        "wiki:The Legend of Zelda: Breath of the Wild"
+      ]
+    },
+    {
       "heading": "A series with huge sales",
-      "script": "The numbers show how popular the series is. Nintendo said in twenty twenty three that the Legend of Zelda had sold more than one hundred and thirty million copies over thirty five years, and later estimates say the total is even higher. Breath of the Wild and Tears of the Kingdom alone have sold tens of millions of copies each, which shows how strongly fans still connect with Hyrule.",
+      "script": "The numbers show how popular the series is. Nintendo said in twenty twenty three that the Legend of Zelda had sold more than one hundred and thirty million copies over thirty five years, and later estimates say the total is even higher. Breath of the Wild and Tears of the Kingdom alone have sold tens of millions of copies each, which shows how strongly fans still connect with Hyrule. Together with the older games, they show that Zelda keeps finding new fans in every generation, from kids who started with the Switch to adults who remember the Super Nintendo.",
       "images": [
         "wiki:The Legend of Zelda: Breath of the Wild",
         "wiki:The Legend of Zelda: Tears of the Kingdom",
@@ -85,7 +113,7 @@
     },
     {
       "heading": "Your favourite Zelda",
-      "script": "That was the story of The Legend of Zelda, from a Famicom Disk System launch game to the open-world adventures of today. Now we want to hear from you. What is your favourite Zelda game: the original, Ocarina of Time, Breath of the Wild, or Tears of the Kingdom? Tell us in the comments below, and subscribe to the channel for more gaming history and news.",
+      "script": "That was the story of The Legend of Zelda, from a Famicom Disk System launch game to the open-world adventures of today, and with a movie on the way, the legend is still growing. Now we want to hear from you. What is your favourite Zelda game: the original, Ocarina of Time, Breath of the Wild, or Tears of the Kingdom? Tell us why in the comments below, and tell us which game you would like to see Nintendo make next. Subscribe to the channel for more gaming history and news.",
       "images": [
         "wiki:The Legend of Zelda: Ocarina of Time",
         "wiki:The Legend of Zelda: Breath of the Wild",

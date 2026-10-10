@@ -1,0 +1,45 @@
+{
+  "id": "sonic-the-hedgehog",
+  "slot": "classic",
+  "order": 16,
+  "headline": "Sonic the Hedgehog - Sega's answer to Mario",
+  "title": "The Story of Sonic the Hedgehog | Sega's Answer to Mario | Classic Games",
+  "video_script": "In nineteen ninety one, Sega released Sonic the Hedgehog on the Sega Genesis to challenge Nintendo's Mario. The game was made by Sonic Team, with programmer Yuji Naka and designer Naoto Ohshima. Its blazing speed made Sonic an instant icon, and a blue hedgehog became Sega's mascot. Sonic or Mario? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Sonic the Hedgehog (1991 video game)",
+      "label": "Sonic the Hedgehog"
+    },
+    {
+      "image": "wiki:Sonic the Hedgehog (1991 video game)",
+      "fact": "1991",
+      "sub": "Sega Genesis"
+    },
+    {
+      "image": "wiki:Sonic the Hedgehog (1991 video game)",
+      "fact": "Yuji Naka",
+      "sub": "Programmer"
+    },
+    {
+      "image": "wiki:Sonic the Hedgehog (1991 video game)",
+      "fact": "Naoto Ohshima",
+      "sub": "Character designer"
+    }
+  ],
+  "description": "Sonic the Hedgehog (1991) was Sega's mascot answer to Mario on the Sega Genesis, made by Yuji Naka and Naoto Ohshima.",
+  "hashtags": [
+    "Sonic",
+    "Sega",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Sonic the Hedgehog",
+    "Sonic 1991",
+    "Sega Genesis",
+    "Yuji Naka",
+    "Naoto Ohshima",
+    "Sega",
+    "classic games",
+    "retro gaming"
+  ]
+}

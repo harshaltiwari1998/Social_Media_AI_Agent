@@ -1,0 +1,46 @@
+{
+  "id": "sonic-pico-park",
+  "slot": "new",
+  "order": 17,
+  "expires": "2026-11-12",
+  "headline": "Sonic Pico Park launches soon!",
+  "title": "Sonic Pico Park Release Date November 12 | Sonic Co-op Chaos | Gaming News",
+  "video_script": "Sonic is going co-op! Sonic Pico Park, a new Sonic the Hedgehog game inspired by the hit indie puzzle game Pico Park, launches on November twelfth, twenty twenty six. It arrives on PlayStation 5, Xbox Series, Nintendo Switch 2, Switch and PC. Expect puzzle driven co-op action with a Sonic twist. Who would you team up with? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Sonic Pico Park",
+      "label": "Sonic Pico Park"
+    },
+    {
+      "image": "wiki:Sonic Pico Park",
+      "fact": "12 November 2026",
+      "sub": "Release date"
+    },
+    {
+      "image": "wiki:Sonic Pico Park",
+      "fact": "Co-op puzzle action",
+      "sub": "Inspired by Pico Park"
+    },
+    {
+      "image": "wiki:Sonic Pico Park",
+      "fact": "PS5, Xbox, Switch 2, Switch, PC",
+      "sub": "Many platforms"
+    }
+  ],
+  "description": "Sonic Pico Park, a co-op puzzle game inspired by Pico Park, launches November 12, 2026 on PS5, Xbox Series, Switch 2, Switch and PC.",
+  "hashtags": [
+    "SonicPicoPark",
+    "Sonic",
+    "Sega"
+  ],
+  "tags": [
+    "Sonic Pico Park",
+    "Pico Park",
+    "Sonic the Hedgehog",
+    "Sega",
+    "Tecopark",
+    "co-op games",
+    "new games 2026",
+    "gaming news"
+  ]
+}

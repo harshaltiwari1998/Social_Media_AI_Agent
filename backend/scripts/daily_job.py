@@ -47,6 +47,9 @@ OLLAMA_EXE = Path(r"F:\AI AGENT\Ollama\ollama.exe")
 OLLAMA_MODELS = ROOT / ".cache" / "ollama-models"
 
 log = logging.getLogger("daily_job")
+# --from-end: take the LAST queued specs instead of the first, so a one-off manual batch
+# never picks the same specs as a scheduled run that may be running at the same time.
+FROM_END = False
 
 
 def _load(path: Path) -> dict:
@@ -158,7 +161,8 @@ def make_new_palworld(poster: Poster, count: int) -> None:
     if count <= 0:
         return
     manifest = _load(MANIFEST)
-    todo = [c for c in json.loads(QUEUE.read_text(encoding="utf-8")) if c["child"] not in manifest][:count]
+    todo = [c for c in json.loads(QUEUE.read_text(encoding="utf-8")) if c["child"] not in manifest]
+    todo = (todo[::-1] if FROM_END else todo)[:count]
     if not todo:
         log.warning("Palworld queue is empty - add verified unique combos to %s", QUEUE.name)
         return
@@ -192,7 +196,7 @@ def make_new_games(poster: Poster, slot: str, count: int, spec_dir: Path = GAME_
     if not specs:
         log.warning("No %s specs left - add more to %s", slot, spec_dir.relative_to(ROOT))
         return
-    for _, path, spec in sorted(specs, key=lambda t: t[0])[:count]:
+    for _, path, spec in sorted(specs, key=lambda t: t[0], reverse=FROM_END)[:count]:
         log.info("%s", spec["id"])
         if not (video := _build(game.build_video, path)):
             continue
@@ -244,7 +248,7 @@ def make_long_videos(poster: Poster, per_category: int) -> None:
         if not todo:
             log.warning("No %s long-video specs left - add more to %s", category, LONG_SPECS.relative_to(ROOT))
             continue
-        for _, path, spec in sorted(todo, key=lambda t: t[0])[:per_category]:
+        for _, path, spec in sorted(todo, key=lambda t: t[0], reverse=FROM_END)[:per_category]:
             log.info("%s (long, %s)", spec["id"], category)
             result = longv.build_video(path)["video"]
             if not result["success"]:
@@ -313,7 +317,10 @@ def main() -> None:
     )
     parser.add_argument("--skip-trends", action="store_true")
     parser.add_argument("--skip-gaming", action="store_true", help="gaming + movie videos run on GitHub Actions instead")
+    parser.add_argument("--from-end", action="store_true", help="pick specs from the end of each queue (manual batches)")
     args = parser.parse_args()
+    global FROM_END
+    FROM_END = args.from_end
 
     log_dir = ROOT / settings.media_output_dir / "logs"
     log_dir.mkdir(parents=True, exist_ok=True)

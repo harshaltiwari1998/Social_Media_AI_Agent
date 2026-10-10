@@ -166,5 +166,53 @@
     ],
     "child": "Eikthyrdeer",
     "unique": false
+  },
+  {
+    "parents": [
+      "Chikipi",
+      "Rushoar"
+    ],
+    "child": "Fuack",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Chikipi",
+      "Woolipop"
+    ],
+    "child": "Gumoss",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Chikipi",
+      "Suzaku"
+    ],
+    "child": "Gorirat",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Cattiva",
+      "Mozzarina"
+    ],
+    "child": "Hangyu",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Cattiva",
+      "Suzaku"
+    ],
+    "child": "Pyrin",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Lamball",
+      "Penking"
+    ],
+    "child": "Nitewing",
+    "unique": false
   }
 ]

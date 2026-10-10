@@ -322,6 +322,10 @@ def main() -> None:
         format="%(asctime)s %(levelname)s %(message)s",
         handlers=[logging.FileHandler(log_dir / f"daily-{date.today()}.log", encoding="utf-8"), logging.StreamHandler()],
     )
+    # httpx logs every request URL at INFO, and Graph API calls carry access_token in the
+    # query string - that leaked the Meta token into logs and CI artifacts.
+    for noisy in ("httpx", "httpcore", "googleapiclient.discovery_cache"):
+        logging.getLogger(noisy).setLevel(logging.WARNING)
     log.info("Daily job start (DRY_RUN=%s)", settings.dry_run)
 
     poster = Poster()

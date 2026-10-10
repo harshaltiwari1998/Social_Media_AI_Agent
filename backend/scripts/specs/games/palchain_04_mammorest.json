@@ -1,0 +1,57 @@
+{
+  "id": "palworld-chain-mammorest",
+  "slot": "palchain",
+  "order": 4,
+  "headline": "Easy breeding chain: Mammorest",
+  "title": "Easy Mammorest Breeding Chain in Palworld | 3 Steps From Easy Pals | Palworld Breeding Guide",
+  "video_script": "Get Mammorest, a huge, tanky giant, with this simple breeding chain in Palworld. Step one: breed Lovander with Robinquill to get Sweepa. Step two: breed that Sweepa with Incineram to get Sibelyx. Step three: breed Sibelyx with Wumpo, and the egg hatches into Mammorest! Every step is checked against Palworld one point zero breeding data. Put each pair on the Breeding Farm with a cake. Which Pal should I chain next? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Mammorest",
+      "label": "Goal: Mammorest"
+    },
+    {
+      "combo": [
+        "Lovander",
+        "Robinquill",
+        "Sweepa"
+      ],
+      "step": "STEP 1"
+    },
+    {
+      "combo": [
+        "Sweepa",
+        "Incineram",
+        "Sibelyx"
+      ],
+      "step": "STEP 2"
+    },
+    {
+      "combo": [
+        "Sibelyx",
+        "Wumpo",
+        "Mammorest"
+      ],
+      "step": "STEP 3"
+    }
+  ],
+  "description": "Easy 3-step Palworld 1.0 breeding chain to Mammorest: Lovander + Robinquill = Sweepa, Sweepa + Incineram = Sibelyx, Sibelyx + Wumpo = Mammorest. Each step verified on PalBreedCalc and with the breeding formula from PinDrop's combi ranks.",
+  "hashtags": [
+    "Palworld",
+    "PalworldBreeding",
+    "Mammorest"
+  ],
+  "tags": [
+    "Palworld",
+    "Palworld breeding",
+    "Palworld breeding chain",
+    "how to get Mammorest",
+    "Mammorest breeding",
+    "Palworld 1.0",
+    "Palworld breeding guide",
+    "Lovander",
+    "Robinquill",
+    "Sweepa",
+    "Sibelyx"
+  ]
+}

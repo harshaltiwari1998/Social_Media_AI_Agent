@@ -1,0 +1,57 @@
+{
+  "id": "palworld-chain-quivern",
+  "slot": "palchain",
+  "order": 3,
+  "headline": "Easy breeding chain: Quivern",
+  "title": "Easy Quivern Breeding Chain in Palworld | 3 Steps From Easy Pals | Palworld Breeding Guide",
+  "video_script": "Three breeds, and you have Quivern. Here is the full Palworld breeding chain. Step one: breed Incineram with Kitsun to get Felbat. Step two: breed that Felbat with Relaxaurus to get Mammorest. Step three: breed Mammorest with Relaxaurus, and the egg hatches into Quivern! Every step is checked against Palworld one point zero breeding data. Put each pair on the Breeding Farm with a cake. Which Pal should I chain next? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Quivern",
+      "label": "Goal: Quivern"
+    },
+    {
+      "combo": [
+        "Incineram",
+        "Kitsun",
+        "Felbat"
+      ],
+      "step": "STEP 1"
+    },
+    {
+      "combo": [
+        "Felbat",
+        "Relaxaurus",
+        "Mammorest"
+      ],
+      "step": "STEP 2"
+    },
+    {
+      "combo": [
+        "Mammorest",
+        "Relaxaurus",
+        "Quivern"
+      ],
+      "step": "STEP 3"
+    }
+  ],
+  "description": "Easy 3-step Palworld 1.0 breeding chain to Quivern: Incineram + Kitsun = Felbat, Felbat + Relaxaurus = Mammorest, Mammorest + Relaxaurus = Quivern. Each step verified on PalBreedCalc and with the breeding formula from PinDrop's combi ranks.",
+  "hashtags": [
+    "Palworld",
+    "PalworldBreeding",
+    "Quivern"
+  ],
+  "tags": [
+    "Palworld",
+    "Palworld breeding",
+    "Palworld breeding chain",
+    "how to get Quivern",
+    "Quivern breeding",
+    "Palworld 1.0",
+    "Palworld breeding guide",
+    "Incineram",
+    "Kitsun",
+    "Felbat",
+    "Mammorest"
+  ]
+}

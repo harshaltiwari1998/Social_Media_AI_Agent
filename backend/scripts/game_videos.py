@@ -162,10 +162,23 @@ def fact_card(img: Image.Image, fact: str, sub: str | None) -> Image.Image:
     return canvas.convert("RGB")
 
 
-_BADGES = {"new": "NEW GAME", "classic": "CLASSIC GAME", "movie_new": "NEW MOVIE", "movie_review": "BOX OFFICE + REVIEW", "reel": "MOVIE NEWS", "tribute": "SHRADDHANJALI", "palguide": "BREEDING GUIDE"}
+_BADGES = {"new": "NEW GAME", "classic": "CLASSIC GAME", "movie_new": "NEW MOVIE", "movie_review": "BOX OFFICE + REVIEW", "reel": "MOVIE NEWS", "tribute": "SHRADDHANJALI", "palguide": "BREEDING GUIDE", "palchain": "BREEDING CHAIN"}
 _DEFAULT_HASHTAGS = {"gaming": ["Gaming", "GamingNews"], "movies": ["Movies", "MovieNews", "Bollywood"]}
 _DEFAULT_VOICE = settings.tts_voice  # TTS_VOICE as configured, before any per-video override
 _DEFAULT_RATE = settings.tts_rate
+
+
+_STEP_COLORS = [(90, 170, 255), (150, 80, 230), (255, 120, 40), (60, 190, 120), (240, 190, 40)]
+
+
+def _combo_scene(combo: list[str], step: str | None, index: int) -> Image.Image:
+    from scripts.palworld_breeding_videos import combo_card
+
+    card = combo_card(combo[0], combo[1], combo[2], _STEP_COLORS[index % len(_STEP_COLORS)]).convert("RGBA")
+    if step:
+        tag = _label(step, 58, _YELLOW)
+        card.alpha_composite(tag, ((_CARD - tag.width) // 2, 95))
+    return card.convert("RGB")
 
 
 def build_video(spec_path: Path) -> dict:
@@ -174,8 +187,11 @@ def build_video(spec_path: Path) -> dict:
     out_dir.mkdir(parents=True, exist_ok=True)
     paths = []
     for i, scene in enumerate(spec["scenes"], 1):
-        img = fetch_image(scene["image"])
-        card = fact_card(img, scene["fact"], scene.get("sub")) if "fact" in scene else image_card(img, scene.get("label"))
+        if "combo" in scene:  # Palworld "A + B = C" card with official Pal art
+            card = _combo_scene(scene["combo"], scene.get("step"), i)
+        else:
+            img = fetch_image(scene["image"])
+            card = fact_card(img, scene["fact"], scene.get("sub")) if "fact" in scene else image_card(img, scene.get("label"))
         path = out_dir / f"{i}.png"
         card.save(path)
         paths.append(str(path.resolve()))

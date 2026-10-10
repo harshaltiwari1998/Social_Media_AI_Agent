@@ -1,0 +1,57 @@
+{
+  "id": "palworld-chain-suzaku",
+  "slot": "palchain",
+  "order": 1,
+  "headline": "Easy breeding chain: Suzaku",
+  "title": "Easy Suzaku Breeding Chain in Palworld | 3 Steps From Easy Pals | Palworld Breeding Guide",
+  "video_script": "Want Suzaku in Palworld without hunting for one? Follow this easy three step breeding chain. Step one: breed Sparkit with Vanwyrm to get Chillet. Step two: breed that Chillet with Wumpo to get Felbat. Step three: breed Felbat with Wumpo, and the egg hatches into Suzaku! Every step is checked against Palworld one point zero breeding data. Put each pair on the Breeding Farm with a cake. Which Pal should I chain next? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Suzaku",
+      "label": "Goal: Suzaku"
+    },
+    {
+      "combo": [
+        "Sparkit",
+        "Vanwyrm",
+        "Chillet"
+      ],
+      "step": "STEP 1"
+    },
+    {
+      "combo": [
+        "Chillet",
+        "Wumpo",
+        "Felbat"
+      ],
+      "step": "STEP 2"
+    },
+    {
+      "combo": [
+        "Felbat",
+        "Wumpo",
+        "Suzaku"
+      ],
+      "step": "STEP 3"
+    }
+  ],
+  "description": "Easy 3-step Palworld 1.0 breeding chain to Suzaku: Sparkit + Vanwyrm = Chillet, Chillet + Wumpo = Felbat, Felbat + Wumpo = Suzaku. Each step verified on PalBreedCalc and with the breeding formula from PinDrop's combi ranks.",
+  "hashtags": [
+    "Palworld",
+    "PalworldBreeding",
+    "Suzaku"
+  ],
+  "tags": [
+    "Palworld",
+    "Palworld breeding",
+    "Palworld breeding chain",
+    "how to get Suzaku",
+    "Suzaku breeding",
+    "Palworld 1.0",
+    "Palworld breeding guide",
+    "Sparkit",
+    "Vanwyrm",
+    "Chillet",
+    "Felbat"
+  ]
+}

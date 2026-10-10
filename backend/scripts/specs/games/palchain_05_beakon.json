@@ -1,0 +1,57 @@
+{
+  "id": "palworld-chain-beakon",
+  "slot": "palchain",
+  "order": 5,
+  "headline": "Easy breeding chain: Beakon",
+  "title": "Easy Beakon Breeding Chain in Palworld | 3 Steps From Easy Pals | Palworld Breeding Guide",
+  "video_script": "This three step chain takes you from easy Pals all the way to Beakon. Step one: breed Grintale with Incineram to get Elizabee. Step two: breed that Elizabee with Kitsun to get Tarantriss. Step three: breed Tarantriss with Vanwyrm, and the egg hatches into Beakon! Every step is checked against Palworld one point zero breeding data. Put each pair on the Breeding Farm with a cake. Which Pal should I chain next? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Beakon",
+      "label": "Goal: Beakon"
+    },
+    {
+      "combo": [
+        "Grintale",
+        "Incineram",
+        "Elizabee"
+      ],
+      "step": "STEP 1"
+    },
+    {
+      "combo": [
+        "Elizabee",
+        "Kitsun",
+        "Tarantriss"
+      ],
+      "step": "STEP 2"
+    },
+    {
+      "combo": [
+        "Tarantriss",
+        "Vanwyrm",
+        "Beakon"
+      ],
+      "step": "STEP 3"
+    }
+  ],
+  "description": "Easy 3-step Palworld 1.0 breeding chain to Beakon: Grintale + Incineram = Elizabee, Elizabee + Kitsun = Tarantriss, Tarantriss + Vanwyrm = Beakon. Each step verified on PalBreedCalc and with the breeding formula from PinDrop's combi ranks.",
+  "hashtags": [
+    "Palworld",
+    "PalworldBreeding",
+    "Beakon"
+  ],
+  "tags": [
+    "Palworld",
+    "Palworld breeding",
+    "Palworld breeding chain",
+    "how to get Beakon",
+    "Beakon breeding",
+    "Palworld 1.0",
+    "Palworld breeding guide",
+    "Grintale",
+    "Incineram",
+    "Elizabee",
+    "Tarantriss"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "palworld-chain-helzephyr",
+  "slot": "palchain",
+  "order": 2,
+  "headline": "Easy breeding chain: Helzephyr",
+  "title": "Easy Helzephyr Breeding Chain in Palworld | 3 Steps From Easy Pals | Palworld Breeding Guide",
+  "video_script": "Here is how to breed Helzephyr, a fast dark flying mount, starting from Pals you can catch easily. Step one: breed Bushi with Vanwyrm to get Felbat. Step two: breed that Felbat with Wumpo to get Suzaku. Step three: breed Suzaku with Reptyro, and the egg hatches into Helzephyr! Every step is checked against Palworld one point zero breeding data. Put each pair on the Breeding Farm with a cake. Which Pal should I chain next? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Helzephyr",
+      "label": "Goal: Helzephyr"
+    },
+    {
+      "combo": [
+        "Bushi",
+        "Vanwyrm",
+        "Felbat"
+      ],
+      "step": "STEP 1"
+    },
+    {
+      "combo": [
+        "Felbat",
+        "Wumpo",
+        "Suzaku"
+      ],
+      "step": "STEP 2"
+    },
+    {
+      "combo": [
+        "Suzaku",
+        "Reptyro",
+        "Helzephyr"
+      ],
+      "step": "STEP 3"
+    }
+  ],
+  "description": "Easy 3-step Palworld 1.0 breeding chain to Helzephyr: Bushi + Vanwyrm = Felbat, Felbat + Wumpo = Suzaku, Suzaku + Reptyro = Helzephyr. Each step verified on PalBreedCalc and with the breeding formula from PinDrop's combi ranks.",
+  "hashtags": [
+    "Palworld",
+    "PalworldBreeding",
+    "Helzephyr"
+  ],
+  "tags": [
+    "Palworld",
+    "Palworld breeding",
+    "Palworld breeding chain",
+    "how to get Helzephyr",
+    "Helzephyr breeding",
+    "Palworld 1.0",
+    "Palworld breeding guide",
+    "Bushi",
+    "Vanwyrm",
+    "Felbat",
+    "Suzaku"
+  ]
+}

@@ -275,7 +275,7 @@
   },
   "drishyam-3-407-crore": {
     "spec": "scripts/specs/movies/movie_review_17_drishyam-3-407-crore.json",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-9f86490b.mp4"
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-93559cca.mp4"
   },
   "october-2026-games": {
     "spec": "scripts/specs/games/new_05_october-2026-games.json",
@@ -287,11 +287,11 @@
   },
   "ramayana-part-1": {
     "spec": "scripts/specs/movies/movie_new_05_ramayana-part-1.json",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ac244995.mp4"
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f30fe934.mp4"
   },
   "mirzapur-the-movie-box-office": {
     "spec": "scripts/specs/movies/movie_review_05_mirzapur-the-movie-box-office.json",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-d77e2497.mp4"
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-fa7bd231.mp4"
   },
   "biggest-games-october-december-2026": {
     "spec": "scripts/specs/long/gaming_09_biggest-games-october-december-2026.json",
@@ -303,8 +303,24 @@
   "amitabh-bachchan-safar": {
     "spec": "scripts/specs/long/movies_03_amitabh-bachchan-safar.json",
     "kind": "long",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-0c0a7bf3.mp4",
-    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-0c0a7bf3-thumb.jpg",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-73112710.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-73112710-thumb.jpg",
     "chapters": "0:00 Big B की कहानी\n0:40 Saat Hindustani - 1969\n1:24 संघर्ष के साल\n2:01 Zanjeer - Angry Young Man\n2:38 Sholay - 1975\n3:21 1970s का सबसे बड़ा दौर\n4:02 Coolie का हादसा - 1982\n4:41 Kaun Banega Crorepati - 2000\n5:21 वापसी - Mohabbatein, Black और Piku\n6:02 Dadasaheb Phalke Award\n6:40 आपकी favourite film कौन सी"
+  },
+  "ace-combat-8": {
+    "spec": "scripts/specs/games/new_06_ace-combat-8.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-3944401c.mp4"
+  },
+  "contra": {
+    "spec": "scripts/specs/games/classic_06_contra.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-fa50a5b9.mp4"
+  },
+  "godzilla-minus-zero": {
+    "spec": "scripts/specs/movies/movie_new_06_godzilla-minus-zero.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-466503c8.mp4"
+  },
+  "the-paradise-box-office": {
+    "spec": "scripts/specs/movies/movie_review_06_the-paradise-box-office.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-29bf4196.mp4"
   }
 }

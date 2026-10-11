@@ -495,5 +495,25 @@
       ],
       "unique": false
     }
+  },
+  "Mozzarina": {
+    "spec": "scripts/specs/palworld_mozzarina.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-7b1912e7.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Mozzarina",
+      "caption": "Gobfin + Lamball = Mozzarina. A Palworld 1.0 breeding combo.",
+      "video_script": "Here is an easy way to get Mozzarina in Palworld. Pair Gobfin and Lamball on the Breeding Farm with a cake. Their egg gives you Mozzarina, a completely different Pal from both parents. Checked against Palworld one point zero breeding data. Comment which Pal you want next!",
+      "parents": [
+        "Gobfin",
+        "Lamball"
+      ],
+      "child": "Mozzarina",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
   }
 }

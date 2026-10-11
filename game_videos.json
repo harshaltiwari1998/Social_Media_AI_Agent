@@ -334,5 +334,13 @@
   "aniimo-egg-heist-homeland": {
     "spec": "scripts/specs/games/aniimo_03_egg-heist-homeland.json",
     "video": "F:\\AI AGENT\\run_aniimo\\videos\\short-a28f06b1.mp4"
+  },
+  "aniimo-breeding-explained": {
+    "spec": "scripts/specs/games/aniimo_04_breeding-explained.json",
+    "video": "F:\\AI AGENT\\run_aniimo\\videos\\short-de773346.mp4"
+  },
+  "aniimo-egg-hatching-tips": {
+    "spec": "scripts/specs/games/aniimo_05_egg-hatching-tips.json",
+    "video": "F:\\AI AGENT\\run_aniimo\\videos\\short-cc0c7055.mp4"
   }
 }

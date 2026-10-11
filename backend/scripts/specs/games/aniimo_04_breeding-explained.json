@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-breeding-explained",
+  "slot": "aniimo",
+  "order": 4,
+  "headline": "Aniimo breeding explained: how to get new Aniimo",
+  "title": "Aniimo Breeding Explained | How To Get Eggs | Aniimo Guide",
+  "video_script": "Looking for Aniimo breeding? Here's the truth. Aniimo has no Palworld style breeding. You can't pair two Aniimo, and there is no breeding farm. Instead, new Aniimo come from eggs. Find eggs in nests in the wild, often high up on mountains and cliffs. You also get them from event rewards and treasure chests, and the rarest eggs are fought over in the Egg Heist mode. Follow for more Aniimo tips!",
+  "scenes": [
+    {
+      "image": "steam:4126040:2",
+      "label": "Aniimo Breeding"
+    },
+    {
+      "image": "steam:4126040:5",
+      "fact": "No pair breeding",
+      "sub": "You can't breed two Aniimo"
+    },
+    {
+      "image": "steam:4126040:7",
+      "fact": "Eggs = new Aniimo",
+      "sub": "Nests high on cliffs and mountains"
+    },
+    {
+      "image": "steam:4126040:12",
+      "fact": "Events & chests",
+      "sub": "Also drop Aniimo eggs"
+    },
+    {
+      "image": "steam:4126040:10",
+      "fact": "Egg Heist",
+      "sub": "Battle players for rare eggs"
+    }
+  ],
+  "description": "Does Aniimo have breeding? No - there is no two-parent breeding in Aniimo. New Aniimo come from eggs: wild nests (often high on mountains and cliffs), event rewards, chests and the Egg Heist mode. Hatch them in a Hatchinator.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "AniimoBreeding"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo breeding",
+    "Aniimo eggs",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Aniimo how to get eggs",
+    "Aniimo Egg Heist",
+    "creature catching game"
+  ]
+}

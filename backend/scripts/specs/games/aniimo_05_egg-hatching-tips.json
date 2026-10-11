@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-egg-hatching-tips",
+  "slot": "aniimo",
+  "order": 5,
+  "headline": "Aniimo egg hatching tips you need to know",
+  "title": "Aniimo Egg Hatching Tips | Hatchinator and Aniipod Ultra Guide",
+  "video_script": "Here's how to hatch eggs in Aniimo like a pro. Put your egg in a Hatchinator. The Outpost Hatchinator holds three eggs, and you can build more in your Homeland. Eggs keep hatching even when the game is closed, so fill every slot before you log off. Each egg has a guaranteed rarity, and you can never get worse than that. An Aniipod Ultra guarantees at least Elite, so only use it when the egg's own guarantee is lower. Save this for later!",
+  "scenes": [
+    {
+      "image": "steam:4126040:13",
+      "label": "Aniimo Egg Hatching"
+    },
+    {
+      "image": "steam:4126040:11",
+      "fact": "Hatchinator",
+      "sub": "Outpost holds 3 eggs"
+    },
+    {
+      "image": "steam:4126040:4",
+      "fact": "Build more at Homeland",
+      "sub": "Hatch more eggs at once"
+    },
+    {
+      "image": "steam:4126040:8",
+      "fact": "Hatches while offline",
+      "sub": "Fill every slot before logging off"
+    },
+    {
+      "image": "steam:4126040:3",
+      "fact": "Aniipod Ultra = Elite+",
+      "sub": "Use it only when it's an upgrade"
+    }
+  ],
+  "description": "Aniimo egg hatching tips: use the Outpost Hatchinator (3 eggs) and build more in your Homeland, let eggs hatch while you're offline, and only use an Aniipod Ultra (Elite or better) when it beats the egg's own guaranteed rarity.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoTips",
+    "AniimoEggs"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo egg hatching",
+    "Aniimo Hatchinator",
+    "Aniimo Aniipod Ultra",
+    "Aniimo eggs",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Aniimo breeding"
+  ]
+}

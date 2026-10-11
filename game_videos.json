@@ -322,5 +322,17 @@
   "the-paradise-box-office": {
     "spec": "scripts/specs/movies/movie_review_06_the-paradise-box-office.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-29bf4196.mp4"
+  },
+  "aniimo-what-is-aniimo": {
+    "spec": "scripts/specs/games/aniimo_01_what-is-aniimo.json",
+    "video": "F:\\AI AGENT\\run_aniimo\\videos\\short-e724722e.mp4"
+  },
+  "aniimo-twining": {
+    "spec": "scripts/specs/games/aniimo_02_twining.json",
+    "video": "F:\\AI AGENT\\run_aniimo\\videos\\short-8daa5f33.mp4"
+  },
+  "aniimo-egg-heist-homeland": {
+    "spec": "scripts/specs/games/aniimo_03_egg-heist-homeland.json",
+    "video": "F:\\AI AGENT\\run_aniimo\\videos\\short-a28f06b1.mp4"
   }
 }

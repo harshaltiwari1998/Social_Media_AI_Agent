@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-egg-heist-homeland",
+  "slot": "aniimo",
+  "order": 3,
+  "headline": "Aniimo multiplayer: Egg Heist, RV and Homeland",
+  "title": "Aniimo Multiplayer Explained | Egg Heist PvP, RV Camp and Homeland",
+  "video_script": "Aniimo is not just a solo adventure. In the Egg Heist mode, you join a team of three and battle other players in real time across the Lost Isles. Stuck on a tough fight? Blow the Horn to call other players for help, or use the Flute to invite them over. Every Pathfinder also gets a personal RV parked at a campsite, and back in your Homeland you can plant crops, build decorations and hang out with your Aniimo. Solo or squad? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:9",
+      "label": "Aniimo Multiplayer"
+    },
+    {
+      "image": "steam:4126040:10",
+      "fact": "Egg Heist",
+      "sub": "3-player teams in the Lost Isles"
+    },
+    {
+      "image": "steam:4126040:11",
+      "fact": "Horn & Flute",
+      "sub": "Call or invite other players"
+    },
+    {
+      "image": "steam:4126040:12",
+      "fact": "Your own RV",
+      "sub": "Meet players at the campsite"
+    },
+    {
+      "image": "steam:4126040:13",
+      "fact": "Homeland",
+      "sub": "Farm, decorate, relax with Aniimo"
+    }
+  ],
+  "description": "Aniimo multiplayer explained: Egg Heist (3-player team PvEvP in the Lost Isles), the Horn and Flute co-op tools, your personal RV campsite, and the Homeland where you farm, decorate and live with your Aniimo.",
+  "hashtags": [
+    "Aniimo",
+    "EggHeist",
+    "Multiplayer"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo Egg Heist",
+    "Aniimo multiplayer",
+    "Aniimo Homeland",
+    "Aniimo RV",
+    "Pawprint Studio",
+    "free to play games",
+    "co-op games"
+  ]
+}

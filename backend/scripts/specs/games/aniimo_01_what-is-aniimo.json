@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-what-is-aniimo",
+  "slot": "aniimo",
+  "order": 1,
+  "headline": "Aniimo: the free creature-catcher everyone is playing",
+  "title": "What Is Aniimo | Free Creature Catching Open World RPG | Gaming News",
+  "video_script": "Have you tried Aniimo yet? Aniimo is a free to play, creature catching open world RPG from Pawprint Studio. It launched in September twenty twenty six on PC, PlayStation 5 and Xbox Series, with mobile following a week later. Explore the huge continent of Idyll, catch over two hundred Aniimo with Aniipods, and watch new ones appear based on weather, biome and time of day. Most Aniimo can even evolve. Would you play this over Palworld? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:0",
+      "label": "Aniimo"
+    },
+    {
+      "image": "steam:4126040:1",
+      "fact": "Free to play",
+      "sub": "Out now on PC, PS5, Xbox"
+    },
+    {
+      "image": "steam:4126040:2",
+      "fact": "200+ Aniimo",
+      "sub": "Catch them with Aniipods"
+    },
+    {
+      "image": "steam:4126040:3",
+      "fact": "Weather & time matter",
+      "sub": "Different Aniimo appear"
+    },
+    {
+      "image": "steam:4126040:4",
+      "fact": "Most Aniimo evolve",
+      "sub": "Collect them all"
+    }
+  ],
+  "description": "Aniimo is a free-to-play creature-catching open-world RPG by Pawprint Studio. Out now on PC, PS5 and Xbox Series (mobile followed a week later). Explore Idyll, catch 200+ Aniimo with Aniipods, and discover creatures that change with weather, biome and time of day.",
+  "hashtags": [
+    "Aniimo",
+    "CreatureCollector",
+    "FreeToPlay"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo gameplay",
+    "Pawprint Studio",
+    "creature catching game",
+    "open world RPG",
+    "free to play games",
+    "games like Palworld",
+    "games like Pokemon",
+    "gaming news"
+  ]
+}

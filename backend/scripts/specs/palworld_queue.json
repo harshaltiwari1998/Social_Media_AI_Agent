@@ -214,5 +214,45 @@
     ],
     "child": "Nitewing",
     "unique": false
+  },
+  {
+    "parents": [
+      "Lifmunk",
+      "Reptyro"
+    ],
+    "child": "Katress",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Blazehowl",
+      "Wumpo"
+    ],
+    "child": "Relaxaurus",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Kitsun",
+      "Ragnahawk"
+    ],
+    "child": "Blazehowl",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Nitewing",
+      "Ragnahawk"
+    ],
+    "child": "Sibelyx",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Clovee",
+      "Ragnahawk"
+    ],
+    "child": "Lunaris",
+    "unique": false
   }
 ]

@@ -515,5 +515,105 @@
       ],
       "unique": false
     }
+  },
+  "Lunaris": {
+    "spec": "scripts/specs/palworld_lunaris.json",
+    "video": "F:\\AI AGENT\\run_aniimo\\videos\\short-4b60e399.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Lunaris",
+      "caption": "Clovee + Ragnahawk = Lunaris. A Palworld 1.0 breeding combo.",
+      "video_script": "Clovee plus Ragnahawk equals Lunaris! That is a real Palworld one point zero breeding combo. Drop both Pals on your Breeding Farm, add a cake and wait for the egg to hatch. Save this video so you do not forget it. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Clovee",
+        "Ragnahawk"
+      ],
+      "child": "Lunaris",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
+  },
+  "Sibelyx": {
+    "spec": "scripts/specs/palworld_sibelyx.json",
+    "video": "F:\\AI AGENT\\run_aniimo\\videos\\short-af987fe2.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Sibelyx",
+      "caption": "Nitewing + Ragnahawk = Sibelyx. A Palworld 1.0 breeding combo.",
+      "video_script": "Breeding tip for Palworld: Sibelyx comes from Nitewing and Ragnahawk. Place them together on the Breeding Farm, feed it a cake, and you get a Sibelyx egg. It works in Palworld one point zero. What is your favourite Pal? Comment below!",
+      "parents": [
+        "Nitewing",
+        "Ragnahawk"
+      ],
+      "child": "Sibelyx",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Blazehowl": {
+    "spec": "scripts/specs/palworld_blazehowl.json",
+    "video": "F:\\AI AGENT\\run_aniimo\\videos\\short-227fbef9.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Blazehowl",
+      "caption": "Kitsun + Ragnahawk = Blazehowl. A Palworld 1.0 breeding combo.",
+      "video_script": "Want Blazehowl in Palworld without catching one? Breed Kitsun with Ragnahawk. Put them together on your Breeding Farm, add a cake, and the egg hatches into Blazehowl. This pair is confirmed in the Palworld one point zero breeding data. Follow for more breeding combos!",
+      "parents": [
+        "Kitsun",
+        "Ragnahawk"
+      ],
+      "child": "Blazehowl",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Relaxaurus": {
+    "spec": "scripts/specs/palworld_relaxaurus.json",
+    "video": "F:\\AI AGENT\\run_aniimo\\videos\\short-8f9737ba.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Relaxaurus",
+      "caption": "Blazehowl + Wumpo = Relaxaurus. A Palworld 1.0 breeding combo.",
+      "video_script": "Here is an easy way to get Relaxaurus in Palworld. Pair Blazehowl and Wumpo on the Breeding Farm with a cake. Their egg gives you Relaxaurus, a completely different Pal from both parents. Checked against Palworld one point zero breeding data. Comment which Pal you want next!",
+      "parents": [
+        "Blazehowl",
+        "Wumpo"
+      ],
+      "child": "Relaxaurus",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
+  },
+  "Katress": {
+    "spec": "scripts/specs/palworld_katress.json",
+    "video": "F:\\AI AGENT\\run_aniimo\\videos\\short-e53f7fe5.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Katress",
+      "caption": "Lifmunk + Reptyro = Katress. A Palworld 1.0 breeding combo.",
+      "video_script": "Lifmunk plus Reptyro equals Katress! That is a real Palworld one point zero breeding combo. Drop both Pals on your Breeding Farm, add a cake and wait for the egg to hatch. Save this video so you do not forget it. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Lifmunk",
+        "Reptyro"
+      ],
+      "child": "Katress",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
   }
 }

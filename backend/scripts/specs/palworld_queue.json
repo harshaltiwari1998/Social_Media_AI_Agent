@@ -254,5 +254,45 @@
     ],
     "child": "Lunaris",
     "unique": false
+  },
+  {
+    "parents": [
+      "Chikipi",
+      "Gorirat"
+    ],
+    "child": "Caprity",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Lamball",
+      "Turtacle"
+    ],
+    "child": "Tocotoco",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Chikipi",
+      "Swee"
+    ],
+    "child": "Pengullet",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Chikipi",
+      "Mossanda"
+    ],
+    "child": "Galeclaw",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Cattiva",
+      "Muffly"
+    ],
+    "child": "Cinnamoth",
+    "unique": false
   }
 ]

@@ -1,0 +1,46 @@
+{
+  "id": "the-vvaan-box-office",
+  "category": "movies",
+  "slot": "movie_review",
+  "order": 18,
+  "expires": "2026-11-05",
+  "headline": "The Vvaan ka box office - critics vs public",
+  "title": "The Vvaan Box Office | Sidharth Malhotra Ka Bada Opening Weekend | Movie Box Office Hindi",
+  "video_script": "The Vvaan: Force of the Forrest ने अपने पहले weekend में India में 33 करोड़ 25 लाख रुपये net कमाए, Sacnilk के मुताबिक. ये Sidharth Malhotra का 2015 के बाद सबसे बड़ा opening weekend है. Critics ने film को ज़्यादातर कमज़ोर बताया, फिर भी कमाई चलती रही. तेरहवें दिन तक India net करीब 65 करोड़ रुपये और worldwide gross करीब 84 करोड़ 59 लाख रुपये रहा. क्या आपने The Vvaan देखी? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:The Vvaan: Force of the Forrest",
+      "label": "The Vvaan"
+    },
+    {
+      "image": "wiki:The Vvaan: Force of the Forrest",
+      "fact": "Rs 33.25 crore",
+      "sub": "Pehla weekend, India net"
+    },
+    {
+      "image": "wiki:The Vvaan: Force of the Forrest",
+      "fact": "Rs 65 crore net",
+      "sub": "Din 13 tak, India"
+    },
+    {
+      "image": "wiki:The Vvaan: Force of the Forrest",
+      "fact": "Rs 84.59 crore",
+      "sub": "Din 13 tak, worldwide gross"
+    }
+  ],
+  "description": "The Vvaan (Sidharth Malhotra, Tamannaah Bhatia) ne opening weekend mein Rs 33.25 crore net kamaye; din 13 tak India net ~Rs 65 crore aur worldwide gross ~Rs 84.59 crore (Sacnilk).",
+  "hashtags": [
+    "TheVvaan",
+    "SidharthMalhotra",
+    "BoxOffice"
+  ],
+  "tags": [
+    "The Vvaan",
+    "The Vvaan box office",
+    "Sidharth Malhotra",
+    "Tamannaah Bhatia",
+    "Bollywood box office 2026",
+    "Sacnilk",
+    "movie box office Hindi"
+  ]
+}

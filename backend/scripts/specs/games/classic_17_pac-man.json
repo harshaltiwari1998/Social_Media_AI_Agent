@@ -1,0 +1,45 @@
+{
+  "id": "pac-man",
+  "slot": "classic",
+  "order": 17,
+  "headline": "Pac-Man - from Puck Man to arcade legend",
+  "title": "The Story of Pac-Man | From Puck Man to Arcade Legend | Classic Games",
+  "video_script": "In nineteen eighty, Namco released Pac-Man in Japan under the name Puck Man. It was designed by Toru Iwatani, and the player eats dots in a maze while four colored ghosts chase. For the overseas release the name was changed to Pac-Man, to stop vandals from changing the first letter on arcade cabinets. Which classic arcade game is your favorite? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Pac-Man",
+      "label": "Pac-Man"
+    },
+    {
+      "image": "wiki:Pac-Man",
+      "fact": "1980",
+      "sub": "Namco arcade release"
+    },
+    {
+      "image": "wiki:Pac-Man",
+      "fact": "Toru Iwatani",
+      "sub": "Game designer"
+    },
+    {
+      "image": "wiki:Pac-Man",
+      "fact": "Puck Man = Pac-Man",
+      "sub": "Renamed overseas"
+    }
+  ],
+  "description": "Pac-Man (1980) by Namco, designed by Toru Iwatani, was released in Japan as Puck Man and renamed Pac-Man for overseas arcades.",
+  "hashtags": [
+    "PacMan",
+    "Namco",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Pac-Man",
+    "Puck Man",
+    "Namco",
+    "Toru Iwatani",
+    "arcade games",
+    "1980 arcade",
+    "classic games",
+    "retro gaming"
+  ]
+}

@@ -342,5 +342,73 @@
   "aniimo-egg-hatching-tips": {
     "spec": "scripts/specs/games/aniimo_05_egg-hatching-tips.json",
     "video": "F:\\AI AGENT\\run_aniimo\\videos\\short-cc0c7055.mp4"
+  },
+  "god-of-war-future-laufey-remake-tv": {
+    "spec": "scripts/specs/long/gaming_16_god-of-war-future.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_big\\videos\\long-355b5276.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_big\\videos\\long-355b5276-thumb.jpg",
+    "chapters": "0:00 A huge time for God of War\n0:33 God of War Laufey revealed\n1:21 Who is Faye\n2:02 The story and the Everywhen\n2:44 Gameplay: how Faye fights\n3:29 The cast and the villains\n4:06 Editions and pre-order bonuses\n4:42 Sons of Sparta\n5:19 The Greek Trilogy Remake\n5:54 The God of War TV series\n6:39 What we still don't know"
+  },
+  "god-of-war-story-explained": {
+    "spec": "scripts/specs/long/gaming_15_god-of-war-story-explained.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_big\\videos\\long-bee0aaa5.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_big\\videos\\long-bee0aaa5-thumb.jpg",
+    "chapters": "0:00 The story of Kratos\n0:30 A deal with Ares\n1:11 The Ghost of Sparta\n1:54 Serving the gods\n2:31 God of War: killing Ares\n3:08 God of War Two and Three: the fall of Olympus\n3:53 A new life in the north\n4:34 The truth about Faye and Atreus\n5:18 Ragnarok\n6:10 Valhalla and a new God of War\n6:44 What comes next"
+  },
+  "palworld-25-breeding-combos": {
+    "spec": "scripts/specs/long/gaming_14_palworld-25-breeding-combos.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_big\\videos\\long-b3385e33.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_big\\videos\\long-b3385e33-thumb.jpg",
+    "chapters": "0:00 25 combos in one video\n0:40 How to read these combos\n1:18 Combos one to five\n2:21 Combos six to ten\n3:14 Combos eleven to fifteen\n4:07 Combos sixteen to twenty\n4:58 Combos twenty one to twenty five\n5:55 Chain these combos together\n6:38 Tips before you start breeding\n7:15 The best breeding partners\n7:53 Which combo is your favourite"
+  },
+  "palworld-breeding-guide": {
+    "spec": "scripts/specs/long/gaming_13_palworld-breeding-guide.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_big\\videos\\long-060d9cdb.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_big\\videos\\long-060d9cdb-thumb.jpg",
+    "chapters": "0:00 Why breeding matters\n0:40 Step one: the Breeding Farm\n1:24 Step two: Cake\n2:10 Step three: eggs and the Egg Incubator\n2:54 How the game chooses the child\n3:41 Passive skills\n4:25 Early game breeding combos\n5:00 Mid game breeding combos\n5:34 Late game breeding combos\n6:12 Top breeding tips\n6:51 That's a wrap"
+  },
+  "gow-franchise-facts": {
+    "spec": "scripts/specs/games/gow_10_franchise-facts.json",
+    "video": "F:\\AI AGENT\\run_big\\videos\\short-0d64d7da.mp4"
+  },
+  "gow-every-game-in-order": {
+    "spec": "scripts/specs/games/gow_09_every-game-in-order.json",
+    "video": "F:\\AI AGENT\\run_big\\videos\\short-2df8497d.mp4"
+  },
+  "gow-kratos-story-60-seconds": {
+    "spec": "scripts/specs/games/gow_08_kratos-story-60-seconds.json",
+    "video": "F:\\AI AGENT\\run_big\\videos\\short-f82cfb7f.mp4"
+  },
+  "gow-tv-series-bautista": {
+    "spec": "scripts/specs/games/gow_07_tv-series-bautista.json",
+    "video": "F:\\AI AGENT\\run_big\\videos\\short-cad0d66f.mp4"
+  },
+  "gow-sons-of-sparta": {
+    "spec": "scripts/specs/games/gow_06_sons-of-sparta.json",
+    "video": "F:\\AI AGENT\\run_big\\videos\\short-ea2bd081.mp4"
+  },
+  "gow-trilogy-remake": {
+    "spec": "scripts/specs/games/gow_05_trilogy-remake.json",
+    "video": "F:\\AI AGENT\\run_big\\videos\\short-562cb2f1.mp4"
+  },
+  "gow-laufey-cast-villains": {
+    "spec": "scripts/specs/games/gow_04_laufey-cast-villains.json",
+    "video": "F:\\AI AGENT\\run_big\\videos\\short-4b286a6d.mp4"
+  },
+  "gow-laufey-gameplay": {
+    "spec": "scripts/specs/games/gow_03_laufey-gameplay.json",
+    "video": "F:\\AI AGENT\\run_big\\videos\\short-274662ac.mp4"
+  },
+  "gow-who-is-faye": {
+    "spec": "scripts/specs/games/gow_02_who-is-faye.json",
+    "video": "F:\\AI AGENT\\run_big\\videos\\short-426524cc.mp4"
+  },
+  "gow-laufey-release-date": {
+    "spec": "scripts/specs/games/gow_01_laufey-release-date.json",
+    "video": "F:\\AI AGENT\\run_big\\videos\\short-aca6ba08.mp4"
   }
 }

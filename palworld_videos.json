@@ -615,5 +615,405 @@
       ],
       "unique": false
     }
+  },
+  "Dumud": {
+    "spec": "scripts/specs/palworld_dumud.json",
+    "video": "F:\\AI AGENT\\run_big\\videos\\short-53fc337f.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Dumud",
+      "caption": "Bushi + Lifmunk = Dumud. A Palworld 1.0 breeding combo.",
+      "video_script": "Breeding tip for Palworld: Dumud comes from Bushi and Lifmunk. Place them together on the Breeding Farm, feed it a cake, and you get a Dumud egg. It works in Palworld one point zero. What is your favourite Pal? Comment below!",
+      "parents": [
+        "Bushi",
+        "Lifmunk"
+      ],
+      "child": "Dumud",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
+  },
+  "Loupmoon": {
+    "spec": "scripts/specs/palworld_loupmoon.json",
+    "video": "F:\\AI AGENT\\run_big\\videos\\short-69707b76.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Loupmoon",
+      "caption": "Gobfin + Kitsun = Loupmoon. A Palworld 1.0 breeding combo.",
+      "video_script": "Want Loupmoon in Palworld without catching one? Breed Gobfin with Kitsun. Put them together on your Breeding Farm, add a cake, and the egg hatches into Loupmoon. This pair is confirmed in the Palworld one point zero breeding data. Follow for more breeding combos!",
+      "parents": [
+        "Gobfin",
+        "Kitsun"
+      ],
+      "child": "Loupmoon",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Chillet": {
+    "spec": "scripts/specs/palworld_chillet.json",
+    "video": "F:\\AI AGENT\\run_big\\videos\\short-df518ce7.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Chillet",
+      "caption": "Sparkit + Vanwyrm = Chillet. A Palworld 1.0 breeding combo.",
+      "video_script": "Here is an easy way to get Chillet in Palworld. Pair Sparkit and Vanwyrm on the Breeding Farm with a cake. Their egg gives you Chillet, a completely different Pal from both parents. Checked against Palworld one point zero breeding data. Comment which Pal you want next!",
+      "parents": [
+        "Sparkit",
+        "Vanwyrm"
+      ],
+      "child": "Chillet",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Kingpaca": {
+    "spec": "scripts/specs/palworld_kingpaca.json",
+    "video": "F:\\AI AGENT\\run_big\\videos\\short-5bf393ce.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Kingpaca",
+      "caption": "Killamari + Kitsun = Kingpaca. A Palworld 1.0 breeding combo.",
+      "video_script": "Killamari plus Kitsun equals Kingpaca! That is a real Palworld one point zero breeding combo. Drop both Pals on your Breeding Farm, add a cake and wait for the egg to hatch. Save this video so you do not forget it. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Killamari",
+        "Kitsun"
+      ],
+      "child": "Kingpaca",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
+  },
+  "Sweepa": {
+    "spec": "scripts/specs/palworld_sweepa.json",
+    "video": "F:\\AI AGENT\\run_big\\videos\\short-a4965df0.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Sweepa",
+      "caption": "Leezpunk + Vanwyrm = Sweepa. A Palworld 1.0 breeding combo.",
+      "video_script": "Breeding tip for Palworld: Sweepa comes from Leezpunk and Vanwyrm. Place them together on the Breeding Farm, feed it a cake, and you get a Sweepa egg. It works in Palworld one point zero. What is your favourite Pal? Comment below!",
+      "parents": [
+        "Leezpunk",
+        "Vanwyrm"
+      ],
+      "child": "Sweepa",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
+  },
+  "Grintale": {
+    "spec": "scripts/specs/palworld_grintale.json",
+    "video": "F:\\AI AGENT\\run_big\\videos\\short-b6f216a1.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Grintale",
+      "caption": "Galeclaw + Kitsun = Grintale. A Palworld 1.0 breeding combo.",
+      "video_script": "Want Grintale in Palworld without catching one? Breed Galeclaw with Kitsun. Put them together on your Breeding Farm, add a cake, and the egg hatches into Grintale. This pair is confirmed in the Palworld one point zero breeding data. Follow for more breeding combos!",
+      "parents": [
+        "Galeclaw",
+        "Kitsun"
+      ],
+      "child": "Grintale",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
+  },
+  "Lovander": {
+    "spec": "scripts/specs/palworld_lovander.json",
+    "video": "F:\\AI AGENT\\run_big\\videos\\short-b3c94a94.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Lovander",
+      "caption": "Eikthyrdeer + Incineram = Lovander. A Palworld 1.0 breeding combo.",
+      "video_script": "Here is an easy way to get Lovander in Palworld. Pair Eikthyrdeer and Incineram on the Breeding Farm with a cake. Their egg gives you Lovander, a completely different Pal from both parents. Checked against Palworld one point zero breeding data. Comment which Pal you want next!",
+      "parents": [
+        "Eikthyrdeer",
+        "Incineram"
+      ],
+      "child": "Lovander",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Wixen": {
+    "spec": "scripts/specs/palworld_wixen.json",
+    "video": "F:\\AI AGENT\\run_big\\videos\\short-e48a7eaa.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Wixen",
+      "caption": "Bristla + Incineram = Wixen. A Palworld 1.0 breeding combo.",
+      "video_script": "Bristla plus Incineram equals Wixen! That is a real Palworld one point zero breeding combo. Drop both Pals on your Breeding Farm, add a cake and wait for the egg to hatch. Save this video so you do not forget it. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Bristla",
+        "Incineram"
+      ],
+      "child": "Wixen",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Foxcicle": {
+    "spec": "scripts/specs/palworld_foxcicle.json",
+    "video": "F:\\AI AGENT\\run_big\\videos\\short-0e5dd363.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Foxcicle",
+      "caption": "Cremis + Ragnahawk = Foxcicle. A Palworld 1.0 breeding combo.",
+      "video_script": "Breeding tip for Palworld: Foxcicle comes from Cremis and Ragnahawk. Place them together on the Breeding Farm, feed it a cake, and you get a Foxcicle egg. It works in Palworld one point zero. What is your favourite Pal? Comment below!",
+      "parents": [
+        "Cremis",
+        "Ragnahawk"
+      ],
+      "child": "Foxcicle",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
+  },
+  "Azurobe": {
+    "spec": "scripts/specs/palworld_azurobe.json",
+    "video": "F:\\AI AGENT\\run_big\\videos\\short-ec6963b5.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Azurobe",
+      "caption": "Bushi + Grintale = Azurobe. A Palworld 1.0 breeding combo.",
+      "video_script": "Want Azurobe in Palworld without catching one? Breed Bushi with Grintale. Put them together on your Breeding Farm, add a cake, and the egg hatches into Azurobe. This pair is confirmed in the Palworld one point zero breeding data. Follow for more breeding combos!",
+      "parents": [
+        "Bushi",
+        "Grintale"
+      ],
+      "child": "Azurobe",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
+  },
+  "Elizabee": {
+    "spec": "scripts/specs/palworld_elizabee.json",
+    "video": "F:\\AI AGENT\\run_big\\videos\\short-c1b57752.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Elizabee",
+      "caption": "Grintale + Incineram = Elizabee. A Palworld 1.0 breeding combo.",
+      "video_script": "Here is an easy way to get Elizabee in Palworld. Pair Grintale and Incineram on the Breeding Farm with a cake. Their egg gives you Elizabee, a completely different Pal from both parents. Checked against Palworld one point zero breeding data. Comment which Pal you want next!",
+      "parents": [
+        "Grintale",
+        "Incineram"
+      ],
+      "child": "Elizabee",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
+  },
+  "Vanwyrm": {
+    "spec": "scripts/specs/palworld_vanwyrm.json",
+    "video": "F:\\AI AGENT\\run_big\\videos\\short-79060d1f.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Vanwyrm",
+      "caption": "Bushi + Kitsun = Vanwyrm. A Palworld 1.0 breeding combo.",
+      "video_script": "Bushi plus Kitsun equals Vanwyrm! That is a real Palworld one point zero breeding combo. Drop both Pals on your Breeding Farm, add a cake and wait for the egg to hatch. Save this video so you do not forget it. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Bushi",
+        "Kitsun"
+      ],
+      "child": "Vanwyrm",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Felbat": {
+    "spec": "scripts/specs/palworld_felbat.json",
+    "video": "F:\\AI AGENT\\run_big\\videos\\short-05751166.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Felbat",
+      "caption": "Incineram + Kitsun = Felbat. A Palworld 1.0 breeding combo.",
+      "video_script": "Breeding tip for Palworld: Felbat comes from Incineram and Kitsun. Place them together on the Breeding Farm, feed it a cake, and you get a Felbat egg. It works in Palworld one point zero. What is your favourite Pal? Comment below!",
+      "parents": [
+        "Incineram",
+        "Kitsun"
+      ],
+      "child": "Felbat",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Bushi": {
+    "spec": "scripts/specs/palworld_bushi.json",
+    "video": "F:\\AI AGENT\\run_big\\videos\\short-c597b148.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Bushi",
+      "caption": "Incineram + Vanwyrm = Bushi. A Palworld 1.0 breeding combo.",
+      "video_script": "Want Bushi in Palworld without catching one? Breed Incineram with Vanwyrm. Put them together on your Breeding Farm, add a cake, and the egg hatches into Bushi. This pair is confirmed in the Palworld one point zero breeding data. Follow for more breeding combos!",
+      "parents": [
+        "Incineram",
+        "Vanwyrm"
+      ],
+      "child": "Bushi",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
+  },
+  "Vaelet": {
+    "spec": "scripts/specs/palworld_vaelet.json",
+    "video": "F:\\AI AGENT\\run_big\\videos\\short-eba12a26.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Vaelet",
+      "caption": "Sweepa + Wumpo = Vaelet. A Palworld 1.0 breeding combo.",
+      "video_script": "Here is an easy way to get Vaelet in Palworld. Pair Sweepa and Wumpo on the Breeding Farm with a cake. Their egg gives you Vaelet, a completely different Pal from both parents. Checked against Palworld one point zero breeding data. Comment which Pal you want next!",
+      "parents": [
+        "Sweepa",
+        "Wumpo"
+      ],
+      "child": "Vaelet",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
+  },
+  "Incineram": {
+    "spec": "scripts/specs/palworld_incineram.json",
+    "video": "F:\\AI AGENT\\run_big\\videos\\short-b55dc704.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Incineram",
+      "caption": "Broncherry + Bushi = Incineram. A Palworld 1.0 breeding combo.",
+      "video_script": "Broncherry plus Bushi equals Incineram! That is a real Palworld one point zero breeding combo. Drop both Pals on your Breeding Farm, add a cake and wait for the egg to hatch. Save this video so you do not forget it. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Broncherry",
+        "Bushi"
+      ],
+      "child": "Incineram",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
+  },
+  "Broncherry": {
+    "spec": "scripts/specs/palworld_broncherry.json",
+    "video": "F:\\AI AGENT\\run_big\\videos\\short-60181f8f.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Broncherry",
+      "caption": "Kitsun + Relaxaurus = Broncherry. A Palworld 1.0 breeding combo.",
+      "video_script": "Breeding tip for Palworld: Broncherry comes from Kitsun and Relaxaurus. Place them together on the Breeding Farm, feed it a cake, and you get a Broncherry egg. It works in Palworld one point zero. What is your favourite Pal? Comment below!",
+      "parents": [
+        "Kitsun",
+        "Relaxaurus"
+      ],
+      "child": "Broncherry",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Icelyn": {
+    "spec": "scripts/specs/palworld_icelyn.json",
+    "video": "F:\\AI AGENT\\run_big\\videos\\short-66d8f681.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Icelyn",
+      "caption": "Incineram + Ragnahawk = Icelyn. A Palworld 1.0 breeding combo.",
+      "video_script": "Want Icelyn in Palworld without catching one? Breed Incineram with Ragnahawk. Put them together on your Breeding Farm, add a cake, and the egg hatches into Icelyn. This pair is confirmed in the Palworld one point zero breeding data. Follow for more breeding combos!",
+      "parents": [
+        "Incineram",
+        "Ragnahawk"
+      ],
+      "child": "Icelyn",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Verdash": {
+    "spec": "scripts/specs/palworld_verdash.json",
+    "video": "F:\\AI AGENT\\run_big\\videos\\short-d0beec7a.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Verdash",
+      "caption": "Nitemary + Relaxaurus = Verdash. A Palworld 1.0 breeding combo.",
+      "video_script": "Here is an easy way to get Verdash in Palworld. Pair Nitemary and Relaxaurus on the Breeding Farm with a cake. Their egg gives you Verdash, a completely different Pal from both parents. Checked against Palworld one point zero breeding data. Comment which Pal you want next!",
+      "parents": [
+        "Nitemary",
+        "Relaxaurus"
+      ],
+      "child": "Verdash",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
+  },
+  "Reptyro": {
+    "spec": "scripts/specs/palworld_reptyro.json",
+    "video": "F:\\AI AGENT\\run_big\\videos\\short-ce3877ed.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Reptyro",
+      "caption": "Ragnahawk + Relaxaurus = Reptyro. A Palworld 1.0 breeding combo.",
+      "video_script": "Ragnahawk plus Relaxaurus equals Reptyro! That is a real Palworld one point zero breeding combo. Drop both Pals on your Breeding Farm, add a cake and wait for the egg to hatch. Save this video so you do not forget it. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Ragnahawk",
+        "Relaxaurus"
+      ],
+      "child": "Reptyro",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
   }
 }

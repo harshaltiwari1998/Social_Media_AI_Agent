@@ -1,0 +1,45 @@
+{
+  "id": "gow-trilogy-remake",
+  "slot": "gow",
+  "order": 5,
+  "headline": "God of War Trilogy Remake is official",
+  "title": "God of War Trilogy Remake Announced | Greek Kratos Returns | Gaming News",
+  "video_script": "The Greek God of War games are coming back. Sony officially announced the God of War Trilogy Remake at a State of Play in February twenty twenty six. It remakes God of War one, two and three, and TC Carson, the original voice of Kratos, is involved. Santa Monica Studio says it's in early development, so there's no release date yet. Which game do you want to replay first? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:God of War (2005 video game)",
+      "label": "Trilogy Remake"
+    },
+    {
+      "image": "wiki:God of War (2005 video game)",
+      "fact": "God of War 1, 2 & 3",
+      "sub": "All being remade"
+    },
+    {
+      "image": "wiki:God of War II",
+      "fact": "TC Carson",
+      "sub": "Original Kratos voice involved"
+    },
+    {
+      "image": "wiki:God of War III",
+      "fact": "Early development",
+      "sub": "No release date yet"
+    }
+  ],
+  "description": "Sony announced the God of War Trilogy Remake (God of War, II and III) at a February 2026 State of Play. Original Kratos voice actor TC Carson is involved. Early development, no release date.",
+  "hashtags": [
+    "GodOfWar",
+    "Kratos",
+    "Remake"
+  ],
+  "tags": [
+    "God of War Trilogy Remake",
+    "God of War remake",
+    "God of War 3 remake",
+    "TC Carson",
+    "Greek Kratos",
+    "Santa Monica Studio",
+    "PS5",
+    "gaming news"
+  ]
+}

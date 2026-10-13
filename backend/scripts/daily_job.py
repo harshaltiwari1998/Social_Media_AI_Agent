@@ -231,14 +231,14 @@ def post_long(poster: Poster, spec: dict, entry: dict) -> None:
                 poster.blocked.add(name)
 
 
-def make_long_videos(poster: Poster, per_category: int) -> None:
+def make_long_videos(poster: Poster, per_category: int, categories: tuple[str, ...] = ("gaming", "movies")) -> None:
     """Next unposted long spec(s) per category (gaming -> HarryBeast, movies -> Name Writer + Facebook)."""
     log.info("== Long videos (up to %d per category)", per_category)
     if per_category <= 0:
         return
     games = _load(GAME_MANIFEST)
     today = date.today().isoformat()
-    for category in ("gaming", "movies"):
+    for category in categories:
         todo = []
         for path in sorted(LONG_SPECS.glob("*.json")):
             spec = json.loads(path.read_text(encoding="utf-8"))
@@ -314,6 +314,10 @@ def main() -> None:
     parser.add_argument("--movie-reviews", type=int, default=1, help="movie review / box-office videos per day")
     parser.add_argument("--long-videos", type=int, default=0, help="long-form videos per category (gaming, movies)")
     parser.add_argument(
+        "--long-category", action="append", choices=("gaming", "movies"),
+        help="only make long videos for this category (repeatable; default: both)",
+    )
+    parser.add_argument(
         "--extra-slot", action="append", default=[], metavar="SLOT:COUNT",
         help="also post a one-off spec slot from specs/games or specs/movies, e.g. gta6:10 or reel:10",
     )
@@ -345,7 +349,7 @@ def main() -> None:
         lambda: make_new_palworld(poster, args.new_palworld),
         lambda: make_new_games(poster, "movie_new", args.new_movies, MOVIE_SPECS),
         lambda: make_new_games(poster, "movie_review", args.movie_reviews, MOVIE_SPECS),
-        lambda: make_long_videos(poster, args.long_videos),
+        lambda: make_long_videos(poster, args.long_videos, tuple(args.long_category or ("gaming", "movies"))),
         *[
             (lambda slot, count: lambda: make_new_games(
                 poster, slot, int(count), MOVIE_SPECS if any(MOVIE_SPECS.glob(f"{slot}_*.json")) else GAME_SPECS

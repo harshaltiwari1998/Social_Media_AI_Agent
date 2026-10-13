@@ -1,0 +1,131 @@
+{
+  "id": "palworld-breeding-guide",
+  "category": "gaming",
+  "order": 13,
+  "title": "Palworld Breeding Guide | How Breeding Works + Easy Combos for Every Stage",
+  "description": "A complete Palworld breeding guide for the full release: the Breeding Farm, Cake, eggs and the Egg Incubator, how the game picks the child Pal, passive skills, and verified breeding combos for the early game, mid game and late game.",
+  "hashtags": [
+    "Palworld",
+    "PalworldBreeding",
+    "Gaming"
+  ],
+  "tags": [
+    "Palworld breeding guide",
+    "Palworld breeding",
+    "Palworld breeding combos",
+    "Palworld Breeding Farm",
+    "Palworld cake",
+    "Palworld egg incubator",
+    "Palworld tips",
+    "Palworld guide",
+    "best Palworld combos"
+  ],
+  "thumbnail": {
+    "image": "pal:Anubis",
+    "text": "PALWORLD BREEDING GUIDE"
+  },
+  "sections": [
+    {
+      "heading": "Why breeding matters",
+      "script": "Breeding is one of the most powerful systems in Palworld. Catching Pals in the wild is fun, but breeding lets you create Pals you have not found yet, get strong Pals much earlier than normal, and stack the best passive skills onto one perfect worker or fighter. In this guide we go through everything step by step: what you need to start, how Cake works, how eggs hatch, how the game decides which Pal you get, how passive skills are passed down, and then a big list of breeding combos for the early game, the mid game and the late game. Every combo in this video was checked against full release breeding data, and every child is a different species from both of its parents. So grab a notepad, and let's get breeding.",
+      "images": [
+        "steam:1623730:0",
+        "pal:Anubis",
+        "steam:1623730:1"
+      ]
+    },
+    {
+      "heading": "Step one: the Breeding Farm",
+      "script": "Everything starts with the Breeding Farm. You unlock it in the technology tree, and then you build it at your base like any other structure. A Breeding Farm needs two Pals: one male and one female. The two parents do not have to be the same species, and that is the whole point, because mixing different species is how you get new Pals. There is one important rule that catches a lot of new players. The parents must be assigned to your base. Pals that are travelling in your party will not breed. So drop both parents into your base, assign them to the farm, and make sure the base has enough space and food so they are not distracted or unhappy. Once both Pals are on the farm, the next thing you need is Cake.",
+      "images": [
+        "steam:1623730:2",
+        "steam:1623730:3",
+        "pal:Lamball"
+      ]
+    },
+    {
+      "heading": "Step two: Cake",
+      "script": "Pals will only breed when there is Cake in the Breeding Farm's feed box. Each egg uses up one Cake, so if you want a lot of eggs, you need a steady supply. Cake is cooked at a cooking station, and the recipe needs Flour, Red Berries, Milk, Eggs and Honey. The easiest way to keep Cake flowing is to let your Pals make the ingredients for you. Put a Mozzarina on your Ranch for Milk, a Chikipi for Eggs, and a Beegarde for Honey. Grow wheat for Flour and berries on your farm plots, and assign planting and gathering Pals to them. Once this little production chain is running, you can leave your base, come back later, and find a stack of fresh eggs waiting at the farm. Pro tip: always cook several Cakes at once, so the farm never runs empty while you are exploring.",
+      "images": [
+        "pal:Mozzarina",
+        "pal:Chikipi",
+        "pal:Beegarde",
+        "steam:1623730:4"
+      ]
+    },
+    {
+      "heading": "Step three: eggs and the Egg Incubator",
+      "script": "When a breeding cycle finishes, an egg appears at the Breeding Farm. Pick it up and take it to an Egg Incubator. Put the egg inside and wait for it to hatch. Bigger and rarer eggs take longer, so do not be surprised if a strong Pal takes a long time. Temperature matters too. Eggs hatch best when the incubator is kept comfortable, so build it inside a closed room with a floor, walls and a roof, away from extreme heat or cold. Building more than one incubator is a great idea, because then you can hatch several eggs at the same time instead of waiting for one egg after another. When the timer finishes, collect your new Pal. It is ready to work at your base or fight at your side.",
+      "images": [
+        "steam:1623730:5",
+        "steam:1623730:6",
+        "pal:Lifmunk"
+      ]
+    },
+    {
+      "heading": "How the game chooses the child",
+      "script": "Here is the part that confuses most players. How does Palworld decide what hatches? Every Pal has a hidden breeding power value. When two Pals breed, the game takes the two values, finds the average, and then gives you the Pal whose own value is closest to that average. That is why two weak Pals give a weak child, and why pairing a weak Pal with a strong Pal can land you somewhere in the middle. There are also a few special combinations that ignore the average and always produce a specific Pal. And if you breed two Pals of the same species, you get that same species back. Because of this system, the smart way to breed is to work backwards. Decide which Pal you want first, then look up which parents produce it, and build a path from Pals you already own.",
+      "images": [
+        "steam:1623730:7",
+        "pal:Penking",
+        "pal:Relaxaurus"
+      ]
+    },
+    {
+      "heading": "Passive skills",
+      "script": "Breeding is not only about species. Children can inherit passive skills from their parents. This is how players build perfect Pals with four great passives, like a worker with skills that boost work speed, or a fighter with skills that raise attack. The basic method is simple. Pick parents that already have the passive skills you want, breed them, and keep the best child. Then breed that child with another Pal carrying more good passives. Repeat until one Pal has everything you want. It takes patience and a lot of Cake, but it is the single best way to make your base and your team much stronger. Remember that breeding two Pals of the same species is the easiest way to keep the species while you improve the passives.",
+      "images": [
+        "steam:1623730:8",
+        "steam:1623730:9",
+        "pal:Anubis"
+      ]
+    },
+    {
+      "heading": "Early game breeding combos",
+      "script": "Let's get into combos. These early game combos use Pals you can catch near the start of the game. Lifmunk: breed Foxparks with Lamball. Mozzarina: breed Gobfin with Lamball. A great Milk producer for your Cake. Sparkit: breed Foxparks with Jolthog. Depresso: breed Foxparks with Sparkit. Vixy: breed Lamball with Teafant. Rushoar: breed Cattiva with Depresso. None of these need rare parents, so they are perfect for practising the whole breeding loop.",
+      "images": [
+        "pal:Lifmunk",
+        "pal:Mozzarina",
+        "pal:Sparkit",
+        "pal:Depresso"
+      ]
+    },
+    {
+      "heading": "Mid game breeding combos",
+      "script": "Once your base is growing, these mid game combos start to pay off. Melpaca: breed Cattiva with Direhowl. Mossanda: breed Blazehowl with Cattiva. Eikthyrdeer: breed Chikipi with Tombat. Penking: breed Lamball with Relaxaurus. Kitsun: breed Chikipi with Knocklem. Beakon: breed Dumud with Relaxaurus. Notice how often a cheap Pal like Lamball, Cattiva or Chikipi appears. Weak Pals are incredibly useful as breeding partners.",
+      "images": [
+        "pal:Melpaca",
+        "pal:Mossanda",
+        "pal:Eikthyrdeer",
+        "pal:Penking"
+      ]
+    },
+    {
+      "heading": "Late game breeding combos",
+      "script": "Now for the strong stuff. These late game combos give you some of the best Pals in the game. Anubis: breed Astegon with Blazamut. Helzephyr: breed Vanwyrm with Wumpo Botan. Suzaku: breed Loupmoon with Renjishi. Quivern: breed Anubis with Caprity Noct. Jormuntide: breed Blazamut with Relaxaurus Lux. Digtoise: breed Blazamut Ryu with Depresso. Elphidran: breed Fuack Ignis with Robinquill. Some of these parents are hard to get, so save your best Pals for breeding instead of releasing them.",
+      "images": [
+        "pal:Anubis",
+        "pal:Helzephyr",
+        "pal:Suzaku",
+        "pal:Quivern"
+      ]
+    },
+    {
+      "heading": "Top breeding tips",
+      "script": "Before we finish, here are five quick tips. One: build more than one Breeding Farm and more than one incubator, so you are always producing eggs. Two: automate Cake by putting Mozzarina, Chikipi and Beegarde on your Ranch. Three: never release a strong Pal before checking whether it is a useful parent. Four: work backwards from the Pal you want, using a breeding calculator to plan the parents. Five: when you are improving passive skills, breed the same species together so you keep the species and only change the skills. Follow these and your Palbox will fill up with strong Pals much faster than catching alone.",
+      "images": [
+        "steam:1623730:10",
+        "steam:1623730:11",
+        "pal:Suzaku"
+      ]
+    },
+    {
+      "heading": "That's a wrap",
+      "script": "And that is everything you need to master breeding in Palworld. Build the farm, keep the Cake coming, hatch your eggs in a warm incubator, plan your parents, and stack great passive skills. If this guide helped you, hit like, subscribe to HarryBeast Gaming for more Palworld breeding combos, and tell us in the comments which Pal you want us to cover next. Happy breeding, Tamers!",
+      "images": [
+        "steam:1623730:12",
+        "pal:Helzephyr"
+      ]
+    }
+  ]
+}

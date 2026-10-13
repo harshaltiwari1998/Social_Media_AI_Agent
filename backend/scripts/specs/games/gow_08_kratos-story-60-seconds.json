@@ -1,0 +1,45 @@
+{
+  "id": "gow-kratos-story-60-seconds",
+  "slot": "gow",
+  "order": 8,
+  "headline": "Kratos' whole story in 60 seconds",
+  "title": "Kratos Story Explained in 60 Seconds | God of War Lore",
+  "video_script": "Here's Kratos' whole story, fast. A Spartan captain, Kratos pledged himself to Ares to win a battle. Ares tricked him into killing his own wife and daughter, and their ashes turned his skin white. He became the Ghost of Sparta, killed Ares and became the God of War. Betrayed by Zeus, he destroyed Olympus. Years later in the Norse lands, he raised his son Atreus, and together they survived Ragnarok. Favourite era? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Kratos (God of War)",
+      "label": "Kratos' Story"
+    },
+    {
+      "image": "wiki:God of War (2005 video game)",
+      "fact": "Tricked by Ares",
+      "sub": "The Ghost of Sparta is born"
+    },
+    {
+      "image": "wiki:God of War III",
+      "fact": "Destroyed Olympus",
+      "sub": "Revenge on Zeus"
+    },
+    {
+      "image": "steam:2322010:9",
+      "fact": "Norse era",
+      "sub": "Raising Atreus, surviving Ragnarok"
+    }
+  ],
+  "description": "Kratos' story in 60 seconds: the Spartan tricked by Ares, the Ghost of Sparta, the fall of Olympus, and his new life in the Norse realms with Atreus through Ragnarok.",
+  "hashtags": [
+    "GodOfWar",
+    "Kratos",
+    "Lore"
+  ],
+  "tags": [
+    "Kratos story",
+    "God of War story explained",
+    "God of War lore",
+    "Ghost of Sparta",
+    "Kratos Ares",
+    "God of War Ragnarok",
+    "Atreus",
+    "God of War"
+  ]
+}

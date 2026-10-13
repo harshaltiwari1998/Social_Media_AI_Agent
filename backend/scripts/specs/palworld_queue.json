@@ -294,5 +294,165 @@
     ],
     "child": "Cinnamoth",
     "unique": false
+  },
+  {
+    "parents": [
+      "Ragnahawk",
+      "Relaxaurus"
+    ],
+    "child": "Reptyro",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Nitemary",
+      "Relaxaurus"
+    ],
+    "child": "Verdash",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Incineram",
+      "Ragnahawk"
+    ],
+    "child": "Icelyn",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Kitsun",
+      "Relaxaurus"
+    ],
+    "child": "Broncherry",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Broncherry",
+      "Bushi"
+    ],
+    "child": "Incineram",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Sweepa",
+      "Wumpo"
+    ],
+    "child": "Vaelet",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Incineram",
+      "Vanwyrm"
+    ],
+    "child": "Bushi",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Incineram",
+      "Kitsun"
+    ],
+    "child": "Felbat",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Bushi",
+      "Kitsun"
+    ],
+    "child": "Vanwyrm",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Grintale",
+      "Incineram"
+    ],
+    "child": "Elizabee",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Bushi",
+      "Grintale"
+    ],
+    "child": "Azurobe",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Cremis",
+      "Ragnahawk"
+    ],
+    "child": "Foxcicle",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Bristla",
+      "Incineram"
+    ],
+    "child": "Wixen",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Eikthyrdeer",
+      "Incineram"
+    ],
+    "child": "Lovander",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Galeclaw",
+      "Kitsun"
+    ],
+    "child": "Grintale",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Leezpunk",
+      "Vanwyrm"
+    ],
+    "child": "Sweepa",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Killamari",
+      "Kitsun"
+    ],
+    "child": "Kingpaca",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Sparkit",
+      "Vanwyrm"
+    ],
+    "child": "Chillet",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Gobfin",
+      "Kitsun"
+    ],
+    "child": "Loupmoon",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Bushi",
+      "Lifmunk"
+    ],
+    "child": "Dumud",
+    "unique": false
   }
 ]

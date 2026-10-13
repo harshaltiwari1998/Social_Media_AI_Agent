@@ -1,0 +1,50 @@
+{
+  "id": "gow-franchise-facts",
+  "slot": "gow",
+  "order": 10,
+  "headline": "God of War facts you might not know",
+  "title": "God of War Facts You Didn't Know | Kratos | Gaming Facts",
+  "video_script": "Five God of War facts. One: the series was created by David Jaffe. Two: God of War twenty eighteen won Game of the Year at The Game Awards. Three: by November twenty twenty three the series had sold over sixty six million games. Four: Ragnarok came to PC on September nineteenth, twenty twenty four. Five: Bear McCreary composed the music for the Norse games and for Laufey. Which fact surprised you? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Kratos (God of War)",
+      "label": "God of War Facts"
+    },
+    {
+      "image": "wiki:God of War (2005 video game)",
+      "fact": "Created by David Jaffe",
+      "sub": "Fact 1"
+    },
+    {
+      "image": "wiki:God of War (2018 video game)",
+      "fact": "Game of the Year 2018",
+      "sub": "The Game Awards"
+    },
+    {
+      "image": "steam:2322010:10",
+      "fact": "66 million+ sold",
+      "sub": "As of November 2023"
+    },
+    {
+      "image": "steam:2322010:11",
+      "fact": "Ragnarok on PC",
+      "sub": "September 19, 2024"
+    }
+  ],
+  "description": "God of War facts: created by David Jaffe, God of War (2018) won Game of the Year at The Game Awards, the series sold 66 million+ by November 2023, Ragnarok hit PC on September 19, 2024, and Bear McCreary scores the Norse games.",
+  "hashtags": [
+    "GodOfWar",
+    "Kratos",
+    "GamingFacts"
+  ],
+  "tags": [
+    "God of War facts",
+    "Kratos",
+    "David Jaffe",
+    "God of War 2018",
+    "God of War Ragnarok PC",
+    "Bear McCreary",
+    "gaming facts",
+    "God of War"
+  ]
+}

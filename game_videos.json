@@ -410,5 +410,85 @@
   "gow-laufey-release-date": {
     "spec": "scripts/specs/games/gow_01_laufey-release-date.json",
     "video": "F:\\AI AGENT\\run_big\\videos\\short-aca6ba08.mp4"
+  },
+  "reel-dangal-cast-facts": {
+    "spec": "scripts/specs/movies/reel_30_dangal-cast-facts.json",
+    "video": "F:\\AI AGENT\\run_reels\\videos\\short-6b015a7c.mp4"
+  },
+  "reel-animal-records": {
+    "spec": "scripts/specs/movies/reel_29_animal-records.json",
+    "video": "F:\\AI AGENT\\run_reels\\videos\\short-704a278a.mp4"
+  },
+  "reel-kalki-2898-ad-facts": {
+    "spec": "scripts/specs/movies/reel_28_kalki-2898-ad-facts.json",
+    "video": "F:\\AI AGENT\\run_reels\\videos\\short-42aeba26.mp4"
+  },
+  "reel-stree-2-records": {
+    "spec": "scripts/specs/movies/reel_27_stree-2-records.json",
+    "video": "F:\\AI AGENT\\run_reels\\videos\\short-eaccdbf9.mp4"
+  },
+  "reel-pushpa-2-records": {
+    "spec": "scripts/specs/movies/reel_26_pushpa-2-records.json",
+    "video": "F:\\AI AGENT\\run_reels\\videos\\short-2376698a.mp4"
+  },
+  "reel-mughal-e-azam-facts": {
+    "spec": "scripts/specs/movies/reel_25_mughal-e-azam-facts.json",
+    "video": "F:\\AI AGENT\\run_reels\\videos\\short-b57efedb.mp4"
+  },
+  "reel-lagaan-oscar": {
+    "spec": "scripts/specs/movies/reel_24_lagaan-oscar.json",
+    "video": "F:\\AI AGENT\\run_reels\\videos\\short-37e8ad76.mp4"
+  },
+  "reel-srk-2023-pathaan-jawan": {
+    "spec": "scripts/specs/movies/reel_23_srk-2023-pathaan-jawan.json",
+    "video": "F:\\AI AGENT\\run_reels\\videos\\short-82b1e910.mp4"
+  },
+  "reel-kgf-2-records": {
+    "spec": "scripts/specs/movies/reel_22_kgf-2-records.json",
+    "video": "F:\\AI AGENT\\run_reels\\videos\\short-3d0b00ed.mp4"
+  },
+  "reel-baahubali-2-records": {
+    "spec": "scripts/specs/movies/reel_21_baahubali-2-records.json",
+    "video": "F:\\AI AGENT\\run_reels\\videos\\short-2f12ac45.mp4"
+  },
+  "reel-3-idiots-facts": {
+    "spec": "scripts/specs/movies/reel_20_3-idiots-facts.json",
+    "video": "F:\\AI AGENT\\run_reels\\videos\\short-03dc7d6d.mp4"
+  },
+  "reel-sholay-facts": {
+    "spec": "scripts/specs/movies/reel_19_sholay-facts.json",
+    "video": "F:\\AI AGENT\\run_reels\\videos\\short-122ba4d5.mp4"
+  },
+  "reel-ddlj-maratha-mandir": {
+    "spec": "scripts/specs/movies/reel_18_ddlj-maratha-mandir.json",
+    "video": "F:\\AI AGENT\\run_reels\\videos\\short-2a9c1680.mp4"
+  },
+  "reel-rrr-records": {
+    "spec": "scripts/specs/movies/reel_17_rrr-records.json",
+    "video": "F:\\AI AGENT\\run_reels\\videos\\short-223df7bc.mp4"
+  },
+  "reel-naatu-naatu-oscar": {
+    "spec": "scripts/specs/movies/reel_16_naatu-naatu-oscar.json",
+    "video": "F:\\AI AGENT\\run_reels\\videos\\short-af11ad58.mp4"
+  },
+  "reel-dangal-2000-crore": {
+    "spec": "scripts/specs/movies/reel_15_dangal-2000-crore.json",
+    "video": "F:\\AI AGENT\\run_reels\\videos\\short-25247c95.mp4"
+  },
+  "reel-20-november-releases": {
+    "spec": "scripts/specs/movies/reel_14_20-november-releases.json",
+    "video": "F:\\AI AGENT\\run_reels\\videos\\short-feebc730.mp4"
+  },
+  "reel-23-october-8-films": {
+    "spec": "scripts/specs/movies/reel_13_23-october-8-films.json",
+    "video": "F:\\AI AGENT\\run_reels\\videos\\short-3349b94d.mp4"
+  },
+  "reel-drishyam-3-500-crore-worldwide": {
+    "spec": "scripts/specs/movies/reel_12_drishyam-3-500-crore-worldwide.json",
+    "video": "F:\\AI AGENT\\run_reels\\videos\\short-a2908a61.mp4"
+  },
+  "reel-top-5-bollywood-2026": {
+    "spec": "scripts/specs/movies/reel_11_top-5-bollywood-2026.json",
+    "video": "F:\\AI AGENT\\run_reels\\videos\\short-4665293e.mp4"
   }
 }

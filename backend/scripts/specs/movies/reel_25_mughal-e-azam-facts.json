@@ -1,0 +1,49 @@
+{
+  "id": "reel-mughal-e-azam-facts",
+  "category": "movies",
+  "slot": "reel",
+  "order": 25,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Mughal-e-Azam के facts",
+  "title": "Mughal-e-Azam Facts | 15 Saal Tak Record | Madhubala Dilip Kumar | Bollywood Classic",
+  "video_script": "1960 की Mughal-e-Azam, Bollywood की सबसे शानदार films में से एक. इसके एक गाने का budget उस समय की पूरी film से ज़्यादा था! Release होते ही ये India की सबसे कमाऊ film बनी और 15 साल तक ये record इसी के पास रहा. 2004 में ये पहली black and white Hindi film बनी जिसे पूरा colour करके फिर से theatre में release किया गया. Madhubala की Anarkali याद है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Mughal-e-Azam",
+      "label": "Mughal-e-Azam"
+    },
+    {
+      "image": "wiki:Mughal-e-Azam",
+      "fact": "One song",
+      "sub": "Cost more than a whole film"
+    },
+    {
+      "image": "wiki:Madhubala",
+      "fact": "15 years",
+      "sub": "Highest-grossing Indian film"
+    },
+    {
+      "image": "wiki:Mughal-e-Azam",
+      "fact": "Colour re-release",
+      "sub": "12 November 2004"
+    }
+  ],
+  "description": "Mughal-e-Azam (5 August 1960): एक गाने का budget उस दौर की पूरी film से ज़्यादा; 15 साल तक India की सबसे कमाऊ film; 12 November 2004 को पूरा colour करके re-release. Dilip Kumar, Madhubala, Prithviraj Kapoor.",
+  "hashtags": [
+    "MughalEAzam",
+    "Madhubala",
+    "BollywoodClassic"
+  ],
+  "tags": [
+    "Mughal-e-Azam",
+    "Mughal-e-Azam facts",
+    "Madhubala",
+    "Dilip Kumar",
+    "K Asif",
+    "Bollywood classic",
+    "Anarkali"
+  ]
+}

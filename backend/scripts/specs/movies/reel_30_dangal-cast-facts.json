@@ -1,0 +1,49 @@
+{
+  "id": "reel-dangal-cast-facts",
+  "category": "movies",
+  "slot": "reel",
+  "order": 30,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Dangal के पीछे की कहानी",
+  "title": "Dangal Behind The Scenes | Satyamev Jayate Se Film Tak | Fatima Sanya Debut",
+  "video_script": "Dangal की कहानी कैसे शुरू हुई? Aamir Khan ने 2014 में अपने show Satyamev Jayate पर Phogat sisters का interview किया था. कुछ महीनों बाद director Nitesh Tiwari script लेकर आए, और Aamir hero और producer दोनों बन गए. Sanya Malhotra, Zaira Wasim, Suhani Bhatnagar और Aparshakti Khurana की ये पहली film थी, और Zaira को National Award मिला. Favourite scene? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Dangal (2016 film)",
+      "label": "Dangal: Behind the scenes"
+    },
+    {
+      "image": "wiki:Aamir Khan",
+      "fact": "Satyamev Jayate",
+      "sub": "Where it started (2014)"
+    },
+    {
+      "image": "wiki:Dangal (2016 film)",
+      "fact": "Debut film",
+      "sub": "Sanya, Zaira, Suhani, Aparshakti"
+    },
+    {
+      "image": "wiki:Dangal (2016 film)",
+      "fact": "National Award",
+      "sub": "Zaira Wasim"
+    }
+  ],
+  "description": "Dangal के पीछे: Aamir Khan ने 2014 में Satyamev Jayate पर Phogat sisters का interview किया; Nitesh Tiwari की script के बाद Aamir hero और producer बने; Sanya Malhotra, Zaira Wasim, Suhani Bhatnagar, Aparshakti Khurana की debut film; Zaira Wasim को National Award.",
+  "hashtags": [
+    "Dangal",
+    "AamirKhan",
+    "BollywoodFacts"
+  ],
+  "tags": [
+    "Dangal behind the scenes",
+    "Dangal facts",
+    "Aamir Khan",
+    "Phogat sisters",
+    "Zaira Wasim",
+    "Sanya Malhotra",
+    "Nitesh Tiwari"
+  ]
+}

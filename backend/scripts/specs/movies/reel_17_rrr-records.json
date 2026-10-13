@@ -1,0 +1,49 @@
+{
+  "id": "reel-rrr-records",
+  "category": "movies",
+  "slot": "reel",
+  "order": 17,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "RRR के records",
+  "title": "RRR Box Office Records | 550 Crore Budget, 223 Crore Day 1 | SS Rajamouli",
+  "video_script": "SS Rajamouli की RRR सिर्फ एक film नहीं, एक record book है. 550 करोड़ के budget के साथ ये अपने समय की India की सबसे महंगी film थी. पहले ही दिन worldwide 223 करोड़ कमाए, जो उस समय Indian film का सबसे बड़ा opening day था. कुल कमाई 1300 करोड़ से ज़्यादा. NTR Junior या Ram Charan, आपका favourite कौन? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:RRR (film)",
+      "label": "RRR"
+    },
+    {
+      "image": "wiki:RRR (film)",
+      "fact": "₹550 Cr budget",
+      "sub": "Most expensive at the time"
+    },
+    {
+      "image": "wiki:RRR (film)",
+      "fact": "₹223 Cr day 1",
+      "sub": "Record opening day"
+    },
+    {
+      "image": "wiki:RRR (film)",
+      "fact": "₹1300 Cr+",
+      "sub": "Worldwide gross"
+    }
+  ],
+  "description": "RRR (2022): ₹550 करोड़ budget (उस समय India की सबसे महंगी film), पहले दिन worldwide ₹223 करोड़ (record opening), कुल ₹1300-1387 करोड़ worldwide. Director SS Rajamouli.",
+  "hashtags": [
+    "RRR",
+    "SSRajamouli",
+    "BoxOffice"
+  ],
+  "tags": [
+    "RRR box office",
+    "RRR records",
+    "SS Rajamouli",
+    "NTR Jr",
+    "Ram Charan",
+    "RRR facts",
+    "Indian cinema records"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "reel-sholay-facts",
+  "category": "movies",
+  "slot": "reel",
+  "order": 19,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Sholay के अनसुने facts",
+  "title": "Sholay Facts | Pehle Flop Phir Blockbuster | Gabbar Singh | Bollywood Facts",
+  "video_script": "Sholay के बारे में ये बात कम लोग जानते हैं. 15 August 1975 को release होने पर इसे खराब reviews मिले और शुरुआत ठंडी रही. लेकिन लोगों की word of mouth ने इसे blockbuster बना दिया, और ये Mumbai के Minerva theatre में 5 साल से ज़्यादा चली. Shooting Karnataka के Ramanagara में ढाई साल तक हुई. 2005 में इसे 50 साल की Best Film चुना गया. Favourite dialogue? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Sholay",
+      "label": "Sholay"
+    },
+    {
+      "image": "wiki:Sholay",
+      "fact": "Weak start",
+      "sub": "Bad reviews in 1975"
+    },
+    {
+      "image": "wiki:Amitabh Bachchan",
+      "fact": "5+ years",
+      "sub": "At Minerva theatre"
+    },
+    {
+      "image": "wiki:Sholay",
+      "fact": "Best Film of 50 Years",
+      "sub": "Filmfare, 2005"
+    }
+  ],
+  "description": "Sholay (15 August 1975): शुरुआत में negative reviews, फिर word of mouth से blockbuster; Mumbai के Minerva theatre में 5 साल से ज़्यादा चली; shooting Ramanagara, Karnataka में ढाई साल; 2005 में Filmfare की Best Film of 50 Years.",
+  "hashtags": [
+    "Sholay",
+    "AmitabhBachchan",
+    "BollywoodFacts"
+  ],
+  "tags": [
+    "Sholay facts",
+    "Sholay",
+    "Gabbar Singh",
+    "Amitabh Bachchan Dharmendra",
+    "Minerva theatre",
+    "Bollywood classic",
+    "Ramesh Sippy"
+  ]
+}

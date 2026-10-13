@@ -1,0 +1,49 @@
+{
+  "id": "reel-animal-records",
+  "category": "movies",
+  "slot": "reel",
+  "order": 29,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Animal के records",
+  "title": "Animal Box Office | 917 Crore | Ranbir Kapoor | Animal Park Update",
+  "video_script": "Ranbir Kapoor की Animal, 1 December 2023 को आई, और 203 मिनट लंबी इस film ने worldwide करीब 918 करोड़ कमाए. ये 2023 की तीसरी सबसे बड़ी Indian film बनी. Filmfare में इसे 19 nominations मिले और Ranbir को Best Actor मिला. Bobby Deol का entry song आज भी viral है. और film के end में sequel Animal Park का ऐलान भी हुआ. Animal Park का इंतज़ार? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Animal (2023 Indian film)",
+      "label": "Animal"
+    },
+    {
+      "image": "wiki:Animal (2023 Indian film)",
+      "fact": "₹917 Cr",
+      "sub": "Worldwide gross"
+    },
+    {
+      "image": "wiki:Ranbir Kapoor",
+      "fact": "Best Actor",
+      "sub": "Filmfare for Ranbir"
+    },
+    {
+      "image": "wiki:Animal (2023 Indian film)",
+      "fact": "Animal Park",
+      "sub": "Sequel announced"
+    }
+  ],
+  "description": "Animal (1 December 2023): worldwide ₹917.82 करोड़, 2023 की तीसरी सबसे बड़ी Indian film; runtime 203 मिनट; 69th Filmfare में 19 nominations, Ranbir Kapoor को Best Actor; sequel Animal Park early development में.",
+  "hashtags": [
+    "Animal",
+    "RanbirKapoor",
+    "BobbyDeol"
+  ],
+  "tags": [
+    "Animal box office",
+    "Animal movie",
+    "Ranbir Kapoor",
+    "Bobby Deol",
+    "Animal Park",
+    "Sandeep Reddy Vanga",
+    "Bollywood records"
+  ]
+}

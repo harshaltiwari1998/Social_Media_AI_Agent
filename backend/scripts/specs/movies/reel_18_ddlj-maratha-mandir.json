@@ -1,0 +1,49 @@
+{
+  "id": "reel-ddlj-maratha-mandir",
+  "category": "movies",
+  "slot": "reel",
+  "order": 18,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "DDLJ: 31 साल से चल रही film",
+  "title": "DDLJ Maratha Mandir Record | 31 Saal Se Chal Rahi Film | Shah Rukh Khan Kajol",
+  "video_script": "एक film जो 31 साल से theatre से उतरी ही नहीं! Dilwale Dulhania Le Jayenge, यानी DDLJ, 20 October 1995 को release हुई थी, और Mumbai के Maratha Mandir में 2026 में भी दिखाई जा रही है. ये Indian cinema की सबसे लंबी चलने वाली film है. Shah Rukh Khan और Kajol की इस film ने 10 Filmfare Awards जीते थे. आपका favourite DDLJ dialogue? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Dilwale Dulhania Le Jayenge",
+      "label": "DDLJ"
+    },
+    {
+      "image": "wiki:Maratha Mandir",
+      "fact": "Maratha Mandir",
+      "sub": "Still running since 1995"
+    },
+    {
+      "image": "wiki:Dilwale Dulhania Le Jayenge",
+      "fact": "20 October 1995",
+      "sub": "Release date"
+    },
+    {
+      "image": "wiki:Shah Rukh Khan",
+      "fact": "10 Filmfare Awards",
+      "sub": "Record at that time"
+    }
+  ],
+  "description": "Dilwale Dulhania Le Jayenge (DDLJ), 20 October 1995 को release, Mumbai के Maratha Mandir में 2026 में भी चल रही - Indian cinema की सबसे लंबी चलने वाली film. Shah Rukh Khan, Kajol. 10 Filmfare Awards.",
+  "hashtags": [
+    "DDLJ",
+    "ShahRukhKhan",
+    "Kajol"
+  ],
+  "tags": [
+    "DDLJ",
+    "Dilwale Dulhania Le Jayenge",
+    "Maratha Mandir",
+    "DDLJ record",
+    "Shah Rukh Khan Kajol",
+    "longest running Indian film",
+    "Bollywood facts"
+  ]
+}

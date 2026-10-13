@@ -1,0 +1,49 @@
+{
+  "id": "reel-lagaan-oscar",
+  "category": "movies",
+  "slot": "reel",
+  "order": 24,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Lagaan: Oscar तक पहुंची Indian film",
+  "title": "Lagaan Oscar Nomination | Aamir Khan | Ashutosh Gowariker | Bollywood Facts",
+  "video_script": "Lagaan सिर्फ cricket की कहानी नहीं, history है. 2001 में आई ये film Oscar में Best Foreign Language Film के लिए nominate हुई, और Mother India और Salaam Bombay के बाद ऐसा करने वाली सिर्फ तीसरी Indian film बनी. ये Aamir Khan Productions की पहली film थी, और 25 करोड़ के budget के साथ अपने समय की सबसे महंगी Indian film. A R Rahman का music आज भी hit है. Favourite गाना? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Lagaan",
+      "label": "Lagaan"
+    },
+    {
+      "image": "wiki:Lagaan",
+      "fact": "Oscar nominated",
+      "sub": "Best Foreign Language Film"
+    },
+    {
+      "image": "wiki:Aamir Khan",
+      "fact": "Only 3rd Indian film",
+      "sub": "After Mother India & Salaam Bombay"
+    },
+    {
+      "image": "wiki:Lagaan",
+      "fact": "₹25 Cr budget",
+      "sub": "Most expensive of its time"
+    }
+  ],
+  "description": "Lagaan (2001): Oscar में Best Foreign Language Film के लिए nominate होने वाली तीसरी Indian film (Mother India, Salaam Bombay के बाद); Aamir Khan Productions की पहली film; ₹25 करोड़ budget; music A R Rahman.",
+  "hashtags": [
+    "Lagaan",
+    "AamirKhan",
+    "Oscar"
+  ],
+  "tags": [
+    "Lagaan",
+    "Lagaan Oscar",
+    "Aamir Khan",
+    "Ashutosh Gowariker",
+    "A R Rahman",
+    "Indian films at Oscars",
+    "Bollywood facts"
+  ]
+}

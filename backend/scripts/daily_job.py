@@ -50,6 +50,10 @@ log = logging.getLogger("daily_job")
 # --from-end: take the LAST queued specs instead of the first, so a one-off manual batch
 # never picks the same specs as a scheduled run that may be running at the same time.
 FROM_END = False
+# What this run actually produced. A run where every build (or every upload) failed exits
+# non-zero so GitHub marks it red and emails - edge-tts 403s once made 0 videos for 3 days
+# while every run still showed "success".
+HEALTH = {"built": 0, "build_failed": 0, "posted": 0, "post_failed": 0}
 
 
 def _load(path: Path) -> dict:
@@ -86,12 +90,23 @@ class Poster:
                 continue
             result = _POSTERS[name].post_video(video_path, text, tags=tags)
             store.record_post(trend_id, name, result.post_id, result.dry_run)
-            if result.success:
-                log.info("  %s: posted %s%s", name, result.post_id, " (dry run)" if result.dry_run else "")
-            else:
-                log.warning("  %s: FAILED %s", name, result.error)
-                if name.startswith("youtube") and "uploadLimitExceeded" in (result.error or ""):
-                    self.blocked.add(name)
+            _record_post_result(name, result)
+            if not result.success and name.startswith("youtube") and "uploadLimitExceeded" in (result.error or ""):
+                self.blocked.add(name)
+
+
+def _record_post_result(name: str, result) -> None:
+    if result.success:
+        HEALTH["posted"] += 1
+        log.info("  %s: posted %s%s", name, result.post_id, " (dry run)" if result.dry_run else "")
+        return
+    log.warning("  %s: FAILED %s", name, result.error)
+    if not (name.startswith("youtube") and "uploadLimitExceeded" in (result.error or "")):
+        HEALTH["post_failed"] += 1  # a daily upload limit isn't a broken pipeline
+
+
+def _record_build(ok: bool) -> None:
+    HEALTH["built" if ok else "build_failed"] += 1
 
 
 def _build(builder, spec_path: Path) -> str | None:
@@ -99,7 +114,9 @@ def _build(builder, spec_path: Path) -> str | None:
         video = builder(spec_path)["video"]
     except Exception:
         log.exception("  build failed")
+        _record_build(False)
         return None
+    _record_build(video["success"])
     if not video["success"]:
         log.warning("  video failed: %s", video["error"])
         return None
@@ -135,6 +152,7 @@ def retry_pending(poster: Poster) -> None:
             log.info("%s (long)", game_id)
             if not Path(entry["video"]).exists():
                 result = longv.build_video(ROOT / entry["spec"])["video"]
+                _record_build(result["success"])
                 if not result["success"]:
                     log.warning("  rebuild failed: %s", result["error"])
                     continue
@@ -223,12 +241,9 @@ def post_long(poster: Poster, spec: dict, entry: dict) -> None:
         else:
             result = target.post_video(entry["video"], f"{spec['title']}\n\n{description}", tags=spec.get("tags"))
         store.record_post(trend_id, name, result.post_id, result.dry_run)
-        if result.success:
-            log.info("  %s: posted %s%s", name, result.post_id, " (dry run)" if result.dry_run else "")
-        else:
-            log.warning("  %s: FAILED %s", name, result.error)
-            if name.startswith("youtube") and "uploadLimitExceeded" in (result.error or ""):
-                poster.blocked.add(name)
+        _record_post_result(name, result)
+        if not result.success and name.startswith("youtube") and "uploadLimitExceeded" in (result.error or ""):
+            poster.blocked.add(name)
 
 
 def make_long_videos(poster: Poster, per_category: int, categories: tuple[str, ...] = ("gaming", "movies")) -> None:
@@ -253,6 +268,7 @@ def make_long_videos(poster: Poster, per_category: int, categories: tuple[str, .
         for _, path, spec in todo[:per_category]:
             log.info("%s (long, %s)", spec["id"], category)
             result = longv.build_video(path)["video"]
+            _record_build(result["success"])
             if not result["success"]:
                 log.warning("  build failed: %s", result["error"])
                 continue
@@ -364,7 +380,13 @@ def main() -> None:
             log.exception("step crashed")
     if not args.skip_trends:
         run_trends()
-    log.info("Daily job done")
+    log.info("Daily job done (%s)", ", ".join(f"{k} {v}" for k, v in HEALTH.items()))
+    if HEALTH["build_failed"] and not HEALTH["built"]:
+        log.error("Every video build failed this run - check the warnings above (TTS, images, ffmpeg)")
+        sys.exit(1)
+    if HEALTH["post_failed"] and not HEALTH["posted"]:
+        log.error("Every upload failed this run - check platform tokens/credentials")
+        sys.exit(1)
 
 
 if __name__ == "__main__":

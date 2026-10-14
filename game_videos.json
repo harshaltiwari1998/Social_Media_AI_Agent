@@ -556,5 +556,45 @@
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-8280a93a.mp4",
     "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-8280a93a-thumb.jpg",
     "chapters": "0:00 Thalaiva की कहानी\n0:38 Shivaji Rao Gaekwad\n1:25 Apoorva Raagangal - 1975\n2:15 1990s - Baashha और Muthu\n2:56 Chandramukhi और Sivaji\n3:33 Enthiran और 2.0\n4:10 Jailer - 2023\n4:58 Vettaiyan - Amitabh के साथ\n5:35 पचास साल का जश्न\n6:11 बड़े सम्मान\n6:46 आपके लिए Thalaiva कौन सी film"
+  },
+  "comedy-de-dana-dan-facts": {
+    "spec": "scripts/specs/movies/comedy_01_de-dana-dan-facts.json",
+    "video": "F:\\AI AGENT\\run_comedy\\videos\\short-d49ade7f.mp4"
+  },
+  "comedy-hera-pheri-facts": {
+    "spec": "scripts/specs/movies/comedy_02_hera-pheri-facts.json",
+    "video": "F:\\AI AGENT\\run_comedy\\videos\\short-6ecdf8e6.mp4"
+  },
+  "comedy-andaz-apna-apna-facts": {
+    "spec": "scripts/specs/movies/comedy_03_andaz-apna-apna-facts.json",
+    "video": "F:\\AI AGENT\\run_comedy\\videos\\short-f69ae35c.mp4"
+  },
+  "comedy-welcome-facts": {
+    "spec": "scripts/specs/movies/comedy_04_welcome-facts.json",
+    "video": "F:\\AI AGENT\\run_comedy\\videos\\short-22cfe232.mp4"
+  },
+  "comedy-paresh-rawal-comedy-roles": {
+    "spec": "scripts/specs/movies/comedy_05_paresh-rawal-comedy-roles.json",
+    "video": "F:\\AI AGENT\\run_comedy\\videos\\short-c99d85f0.mp4"
+  },
+  "comedy-joke-wifi-password": {
+    "spec": "scripts/specs/movies/comedy_06_joke-wifi-password.json",
+    "video": "F:\\AI AGENT\\run_comedy\\videos\\short-5a6a65ed.mp4"
+  },
+  "comedy-joke-alarm-snooze": {
+    "spec": "scripts/specs/movies/comedy_07_joke-alarm-snooze.json",
+    "video": "F:\\AI AGENT\\run_comedy\\videos\\short-127aa2a7.mp4"
+  },
+  "comedy-joke-pressure-cooker": {
+    "spec": "scripts/specs/movies/comedy_08_joke-pressure-cooker.json",
+    "video": "F:\\AI AGENT\\run_comedy\\videos\\short-1961433f.mp4"
+  },
+  "comedy-joke-exam-sheet": {
+    "spec": "scripts/specs/movies/comedy_09_joke-exam-sheet.json",
+    "video": "F:\\AI AGENT\\run_comedy\\videos\\short-bcdb329f.mp4"
+  },
+  "comedy-joke-bas-ek-chai": {
+    "spec": "scripts/specs/movies/comedy_10_joke-bas-ek-chai.json",
+    "video": "F:\\AI AGENT\\run_comedy\\videos\\short-9fe85c2a.mp4"
   }
 }

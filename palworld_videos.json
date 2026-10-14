@@ -1035,5 +1035,125 @@
       ],
       "unique": false
     }
+  },
+  "Beegarde": {
+    "spec": "scripts/specs/palworld_beegarde.json",
+    "video": "F:\\AI AGENT\\run_b3\\videos\\short-faf76dc5.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Beegarde",
+      "caption": "Lamball + Vanwyrm = Beegarde. A Palworld 1.0 breeding combo.",
+      "video_script": "Want Beegarde in Palworld without catching one? Breed Lamball with Vanwyrm. Put them together on your Breeding Farm, add a cake, and the egg hatches into Beegarde. This pair is confirmed in the Palworld one point zero breeding data. Follow for more breeding combos!",
+      "parents": [
+        "Lamball",
+        "Vanwyrm"
+      ],
+      "child": "Beegarde",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Tombat": {
+    "spec": "scripts/specs/palworld_tombat.json",
+    "video": "F:\\AI AGENT\\run_b3\\videos\\short-0c2f16fa.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Tombat",
+      "caption": "Kitsun + Sparkit = Tombat. A Palworld 1.0 breeding combo.",
+      "video_script": "Here is an easy way to get Tombat in Palworld. Pair Kitsun and Sparkit on the Breeding Farm with a cake. Their egg gives you Tombat, a completely different Pal from both parents. Checked against Palworld one point zero breeding data. Comment which Pal you want next!",
+      "parents": [
+        "Kitsun",
+        "Sparkit"
+      ],
+      "child": "Tombat",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Dinossom": {
+    "spec": "scripts/specs/palworld_dinossom.json",
+    "video": "F:\\AI AGENT\\run_b3\\videos\\short-662d69a6.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Dinossom",
+      "caption": "Gobfin + Vanwyrm = Dinossom. A Palworld 1.0 breeding combo.",
+      "video_script": "Gobfin plus Vanwyrm equals Dinossom! That is a real Palworld one point zero breeding combo. Drop both Pals on your Breeding Farm, add a cake and wait for the egg to hatch. Save this video so you do not forget it. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Gobfin",
+        "Vanwyrm"
+      ],
+      "child": "Dinossom",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
+  },
+  "Rayhound": {
+    "spec": "scripts/specs/palworld_rayhound.json",
+    "video": "F:\\AI AGENT\\run_b3\\videos\\short-2050a197.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Rayhound",
+      "caption": "Sparkit + Wumpo = Rayhound. A Palworld 1.0 breeding combo.",
+      "video_script": "Breeding tip for Palworld: Rayhound comes from Sparkit and Wumpo. Place them together on the Breeding Farm, feed it a cake, and you get a Rayhound egg. It works in Palworld one point zero. What is your favourite Pal? Comment below!",
+      "parents": [
+        "Sparkit",
+        "Wumpo"
+      ],
+      "child": "Rayhound",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
+  },
+  "Reindrix": {
+    "spec": "scripts/specs/palworld_reindrix.json",
+    "video": "F:\\AI AGENT\\run_b3\\videos\\short-3b7c3b15.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Reindrix",
+      "caption": "Arsox + Bushi = Reindrix. A Palworld 1.0 breeding combo.",
+      "video_script": "Want Reindrix in Palworld without catching one? Breed Arsox with Bushi. Put them together on your Breeding Farm, add a cake, and the egg hatches into Reindrix. This pair is confirmed in the Palworld one point zero breeding data. Follow for more breeding combos!",
+      "parents": [
+        "Arsox",
+        "Bushi"
+      ],
+      "child": "Reindrix",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
+  },
+  "Fenglope": {
+    "spec": "scripts/specs/palworld_fenglope.json",
+    "video": "F:\\AI AGENT\\run_b3\\videos\\short-b41339f1.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Fenglope",
+      "caption": "Robinquill + Vanwyrm = Fenglope. A Palworld 1.0 breeding combo.",
+      "video_script": "Here is an easy way to get Fenglope in Palworld. Pair Robinquill and Vanwyrm on the Breeding Farm with a cake. Their egg gives you Fenglope, a completely different Pal from both parents. Checked against Palworld one point zero breeding data. Comment which Pal you want next!",
+      "parents": [
+        "Robinquill",
+        "Vanwyrm"
+      ],
+      "child": "Fenglope",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
   }
 }

@@ -1,0 +1,50 @@
+{
+  "id": "comedy-hera-pheri-facts",
+  "category": "movies",
+  "slot": "comedy",
+  "order": 2,
+  "platforms": [
+    "youtube_movies",
+    "instagram",
+    "facebook"
+  ],
+  "headline": "Hera Pheri के facts",
+  "title": "Hera Pheri Facts | Chhote Budget Mein 57 Crore Kamai | Baburao | Bollywood Comedy Facts",
+  "video_script": "Utha le re baba! Hera Pheri के बारे में ये बातें कम लोग जानते हैं. ये 1989 की Malayalam film Ramji Rao Speaking का remake है. 31 March 2000 को release पर इसे mixed reviews मिले, लेकिन सिर्फ 7.5 करोड़ के budget में film ने 57 करोड़ से ज़्यादा कमाए. इसी film से Akshay Kumar ने comedy में कदम रखा, और 2014 के Indian Express poll में इसे अब तक की best Bollywood comedy चुना गया. Raju, Shyam या Baburao? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Hera Pheri (2000 film)",
+      "label": "Hera Pheri Facts"
+    },
+    {
+      "image": "wiki:Hera Pheri (2000 film)",
+      "fact": "Remake",
+      "sub": "Of Ramji Rao Speaking (1989)"
+    },
+    {
+      "image": "wiki:Paresh Rawal",
+      "fact": "₹7.5 Cr → ₹57.4 Cr",
+      "sub": "Budget vs box office"
+    },
+    {
+      "image": "wiki:Hera Pheri (2000 film)",
+      "fact": "Best comedy ever",
+      "sub": "Indian Express poll, 2014"
+    }
+  ],
+  "description": "Hera Pheri (31 March 2000): Malayalam film Ramji Rao Speaking (1989) का remake; budget ₹7.5 करोड़, box office ₹57.4 करोड़; Akshay Kumar की comedy में पहली बड़ी film; 2014 Indian Express poll में best Bollywood comedy.",
+  "hashtags": [
+    "HeraPheri",
+    "Baburao",
+    "BollywoodComedy"
+  ],
+  "tags": [
+    "Hera Pheri",
+    "Hera Pheri facts",
+    "Baburao",
+    "Paresh Rawal",
+    "Akshay Kumar",
+    "Suniel Shetty",
+    "Bollywood comedy facts"
+  ]
+}

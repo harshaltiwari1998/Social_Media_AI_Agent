@@ -1,0 +1,49 @@
+{
+  "id": "comedy-de-dana-dan-facts",
+  "category": "movies",
+  "slot": "comedy",
+  "order": 1,
+  "platforms": [
+    "youtube_movies",
+    "instagram",
+    "facebook"
+  ],
+  "headline": "De Dana Dan के मज़ेदार facts",
+  "title": "De Dana Dan Facts | Priyadarshan Ki Comedy | Akshay Kumar Sunil Shetty Paresh Rawal | Comedy Facts",
+  "video_script": "De Dana Dan देखी है? तो ये facts भी जान लो. 27 November 2009 को आई इस comedy को Priyadarshan ने direct किया था. Film Hollywood की film Screwed से partly inspired है, और कुछ scenes Priyadarshan की अपनी Malayalam film Vettam से लिए गए थे. Cast में Akshay Kumar, Sunil Shetty, Katrina Kaif, Paresh Rawal, Sameera Reddy और Neha Dhupia थे. आपका favourite scene कौन सा है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:De Dana Dan",
+      "label": "De Dana Dan Facts"
+    },
+    {
+      "image": "wiki:De Dana Dan",
+      "fact": "27 November 2009",
+      "sub": "Release date"
+    },
+    {
+      "image": "wiki:De Dana Dan",
+      "fact": "Inspired by Screwed",
+      "sub": "+ scenes from Vettam"
+    },
+    {
+      "image": "wiki:Paresh Rawal",
+      "fact": "Big comedy cast",
+      "sub": "Akshay, Sunil, Katrina, Paresh"
+    }
+  ],
+  "description": "De Dana Dan (27 November 2009): director Priyadarshan, Hollywood film Screwed से partly inspired, कुछ scenes Priyadarshan की Malayalam film Vettam से. Akshay Kumar, Sunil Shetty, Katrina Kaif, Paresh Rawal, Sameera Reddy, Neha Dhupia.",
+  "hashtags": [
+    "DeDanaDan",
+    "AkshayKumar",
+    "BollywoodComedy"
+  ],
+  "tags": [
+    "De Dana Dan",
+    "De Dana Dan facts",
+    "Priyadarshan comedy",
+    "Akshay Kumar comedy",
+    "Paresh Rawal",
+    "Bollywood comedy facts"
+  ]
+}

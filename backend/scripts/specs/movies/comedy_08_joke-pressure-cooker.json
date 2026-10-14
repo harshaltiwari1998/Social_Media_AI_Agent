@@ -1,0 +1,48 @@
+{
+  "id": "comedy-joke-pressure-cooker",
+  "category": "movies",
+  "slot": "comedy",
+  "order": 8,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "तीसरी सीटी का राज़",
+  "title": "Teesri Seeti Ka Raaz | Pressure Cooker Comedy | Hindi Jokes",
+  "video_script": "पति ने पूछा, खाना कब बनेगा? पत्नी बोली, cooker की तीसरी सीटी के बाद. पति ने फिर पूछा, और अगर तीसरी सीटी नहीं बजी तो? पत्नी मुस्कुराकर बोली, तो समझ लेना आज Zomato वाले की घंटी बजेगी! पति तब से cooker के पास बैठकर सीटियां गिन रहा है. आपके घर में cooker कितनी सीटी लेता है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wikifile:Pressure cooker - Hawkins, Contura Model - 3 litres - 1.jpg",
+      "label": "Teesri Seeti Ka Raaz"
+    },
+    {
+      "image": "wikifile:Pressure cooker - Hawkins, Contura Model - 3 litres - 1.jpg",
+      "fact": "खाना कब बनेगा?",
+      "sub": "तीसरी सीटी के बाद"
+    },
+    {
+      "image": "wikifile:Pressure cooker - Hawkins, Contura Model - 3 litres - 2.jpg",
+      "fact": "तीसरी नहीं बजी तो?",
+      "sub": "Zomato की घंटी बजेगी!"
+    },
+    {
+      "image": "wikifile:Pressure cooker - Hawkins, Contura Model - 3 litres - 3.jpg",
+      "fact": "पति",
+      "sub": "अब सीटियां गिन रहा है"
+    }
+  ],
+  "description": "खाना तीसरी सीटी के बाद बनेगा, और अगर सीटी नहीं बजी तो? Original Hindi comedy.",
+  "hashtags": [
+    "HindiJokes",
+    "Comedy",
+    "PatiPatniJokes"
+  ],
+  "tags": [
+    "Hindi jokes",
+    "pati patni jokes",
+    "pressure cooker jokes",
+    "funny Hindi reels",
+    "family comedy",
+    "comedy reels"
+  ]
+}

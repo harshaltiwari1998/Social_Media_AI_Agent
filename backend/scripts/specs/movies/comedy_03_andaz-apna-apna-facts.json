@@ -1,0 +1,49 @@
+{
+  "id": "comedy-andaz-apna-apna-facts",
+  "category": "movies",
+  "slot": "comedy",
+  "order": 3,
+  "platforms": [
+    "youtube_movies",
+    "instagram",
+    "facebook"
+  ],
+  "headline": "Andaz Apna Apna: flop से cult classic तक",
+  "title": "Andaz Apna Apna Facts | Flop Se Cult Classic | Aamir Salman | Bollywood Comedy Facts",
+  "video_script": "क्या आप जानते हो Andaz Apna Apna box office पर flop हो गई थी? 4 November 1994 को आई Rajkumar Santoshi की इस comedy में Aamir Khan और Salman Khan, Amar और Prem बने थे, और Paresh Rawal ने double role किया था. Theatre में film नहीं चली, लेकिन TV और समय के साथ ये Bollywood की सबसे बड़ी cult comedy बन गई. Amar या Prem, आप किसकी team में? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Andaz Apna Apna",
+      "label": "Andaz Apna Apna"
+    },
+    {
+      "image": "wiki:Andaz Apna Apna",
+      "fact": "Flop in 1994",
+      "sub": "Released 4 November 1994"
+    },
+    {
+      "image": "wiki:Aamir Khan",
+      "fact": "Aamir & Salman",
+      "sub": "Amar and Prem"
+    },
+    {
+      "image": "wiki:Andaz Apna Apna",
+      "fact": "Cult classic",
+      "sub": "Loved more every year"
+    }
+  ],
+  "description": "Andaz Apna Apna (4 November 1994): Rajkumar Santoshi की film, Aamir Khan और Salman Khan, Paresh Rawal का double role; box office पर unsuccessful, बाद में cult film बन गई.",
+  "hashtags": [
+    "AndazApnaApna",
+    "AamirKhan",
+    "SalmanKhan"
+  ],
+  "tags": [
+    "Andaz Apna Apna",
+    "Andaz Apna Apna facts",
+    "Aamir Khan Salman Khan",
+    "cult comedy",
+    "Rajkumar Santoshi",
+    "Bollywood comedy facts"
+  ]
+}

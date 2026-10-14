@@ -1,0 +1,48 @@
+{
+  "id": "comedy-joke-bas-ek-chai",
+  "category": "movies",
+  "slot": "comedy",
+  "order": 10,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "बस एक चाय",
+  "title": "Bas Ek Chai | Chai Lovers Comedy | Hindi Jokes",
+  "video_script": "दोस्त ने पूछा, तू दिन में कितनी चाय पीता है? मैंने कहा, बस एक. उसने कहा, सच में? मैंने कहा, हाँ. एक सुबह उठने के लिए, एक नींद भगाने के लिए, एक office पहुंचकर, एक boss के जाने की खुशी में, और एक शाम को थकान मिटाने के लिए. दोस्त बोला, ये तो पांच हो गईं! मैंने कहा, नहीं भाई, हर बार बस एक! आप दिन में कितनी पीते हो? Comment करो!",
+  "scenes": [
+    {
+      "image": "wikifile:Masala Tea 2.jpg",
+      "label": "Bas Ek Chai"
+    },
+    {
+      "image": "wikifile:Masala Tea 1.jpg",
+      "fact": "कितनी चाय?",
+      "sub": "बस एक!"
+    },
+    {
+      "image": "wikifile:Tea stall apparatus.jpg",
+      "fact": "सुबह, office, शाम",
+      "sub": "हर बार बस एक"
+    },
+    {
+      "image": "wikifile:Masala Milk Tea.jpg",
+      "fact": "पांच हो गईं!",
+      "sub": "नहीं भाई, बस एक!"
+    }
+  ],
+  "description": "दिन में कितनी चाय? बस एक... हर बार! Original Hindi comedy for chai lovers.",
+  "hashtags": [
+    "ChaiLovers",
+    "HindiJokes",
+    "Comedy"
+  ],
+  "tags": [
+    "chai jokes",
+    "Hindi jokes",
+    "chai lovers",
+    "funny Hindi reels",
+    "relatable comedy",
+    "comedy reels"
+  ]
+}

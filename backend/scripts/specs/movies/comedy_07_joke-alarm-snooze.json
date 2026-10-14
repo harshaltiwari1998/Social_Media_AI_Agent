@@ -1,0 +1,48 @@
+{
+  "id": "comedy-joke-alarm-snooze",
+  "category": "movies",
+  "slot": "comedy",
+  "order": 7,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Alarm तो बजा ही नहीं!",
+  "title": "Alarm Toh Baja Hi Nahi | Snooze Comedy | Hindi Jokes",
+  "video_script": "रात को मैंने सुबह 6 बजे का alarm लगाया. 6 बजे alarm बजा, मैंने snooze किया. 6 बजकर 10 मिनट पर फिर snooze. 6:20 पर फिर snooze. फिर सीधा 9 बजे आंख खुली, और मैं बोला, ये phone खराब है, आज तो alarm बजा ही नहीं! Phone भी सोच रहा होगा, भाई मैं 10 बार बजा, तूने 10 बार चुप कराया. आप कितनी बार snooze करते हो? Comment करो!",
+  "scenes": [
+    {
+      "image": "wikifile:Classic alarm clock 20180513.jpg",
+      "label": "Alarm Toh Baja Hi Nahi"
+    },
+    {
+      "image": "wikifile:Classic alarm clock 20180513.jpg",
+      "fact": "6:00 AM",
+      "sub": "Snooze... snooze... snooze"
+    },
+    {
+      "image": "wikifile:Classic alarm clock 20180513.jpg",
+      "fact": "9:00 AM",
+      "sub": "आज तो alarm बजा ही नहीं!"
+    },
+    {
+      "image": "wikifile:Smartphone with case cover on table.jpg",
+      "fact": "Phone",
+      "sub": "मैं 10 बार बजा भाई!"
+    }
+  ],
+  "description": "Alarm 6 बजे का, आंख 9 बजे खुली, और गलती phone की! Original Hindi comedy.",
+  "hashtags": [
+    "HindiJokes",
+    "Comedy",
+    "Relatable"
+  ],
+  "tags": [
+    "Hindi jokes",
+    "alarm snooze jokes",
+    "relatable comedy",
+    "funny Hindi reels",
+    "morning jokes",
+    "comedy reels"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "comedy-welcome-facts",
+  "category": "movies",
+  "slot": "comedy",
+  "order": 4,
+  "platforms": [
+    "youtube_movies",
+    "instagram",
+    "facebook"
+  ],
+  "headline": "Welcome (2007) के facts",
+  "title": "Welcome 2007 Facts | Feroz Khan Ki Last Film | Nana Patekar Anil Kapoor | Bollywood Comedy Facts",
+  "video_script": "Welcome, Majnu bhai और Uday bhai की वो comedy जो आज भी memes में ज़िंदा है. Anees Bazmee की ये film 21 December 2007 को आई और साल की दूसरी सबसे बड़ी Hindi film बनी, worldwide करीब 122 करोड़. ये Feroz Khan की आखिरी film थी. ये Hollywood की Mickey Blue Eyes का loose remake है, और इसके बाद Welcome Back और 2026 में Welcome to the Jungle आई. Majnu या Uday? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Welcome (2007 film)",
+      "label": "Welcome (2007)"
+    },
+    {
+      "image": "wiki:Welcome (2007 film)",
+      "fact": "₹122 Cr worldwide",
+      "sub": "No. 2 Hindi film of 2007"
+    },
+    {
+      "image": "wiki:Nana Patekar",
+      "fact": "Feroz Khan's last film",
+      "sub": "With Nana & Anil Kapoor"
+    },
+    {
+      "image": "wiki:Anil Kapoor",
+      "fact": "Welcome series",
+      "sub": "Welcome Back, Welcome to the Jungle"
+    }
+  ],
+  "description": "Welcome (21 December 2007): director Anees Bazmee, Mickey Blue Eyes का loose remake, worldwide ₹122 करोड़ (2007 की दूसरी सबसे बड़ी Hindi film), Feroz Khan की आखिरी film; sequels Welcome Back (2015), Welcome to the Jungle (2026).",
+  "hashtags": [
+    "Welcome",
+    "NanaPatekar",
+    "BollywoodComedy"
+  ],
+  "tags": [
+    "Welcome 2007",
+    "Welcome movie facts",
+    "Majnu bhai",
+    "Uday bhai",
+    "Nana Patekar Anil Kapoor",
+    "Anees Bazmee",
+    "Bollywood comedy facts"
+  ]
+}

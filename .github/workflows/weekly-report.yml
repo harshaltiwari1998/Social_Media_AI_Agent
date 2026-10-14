@@ -1,0 +1,64 @@
+name: Weekly report
+
+# Every Sunday evening: what got posted in the last 7 days, uploads still failing, how many
+# days of content each queue has left, login status, and views/likes of the last 30 days'
+# videos. Opened as a GitHub issue (GitHub emails new issues to the repo owner).
+on:
+  schedule:
+    - cron: "0 14 * * 0" # Sunday 19:30 IST
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Restore posting state
+        run: |
+          mkdir -p media_output
+          git fetch --depth 1 origin gaming-state
+          for f in pipeline_store.sqlite3 palworld_videos.json game_videos.json; do
+            git show "origin/gaming-state:$f" > "media_output/$f" 2>/dev/null || rm -f "media_output/$f"
+          done
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: backend/requirements-ci.txt
+
+      - name: Install dependencies
+        run: pip install -r requirements-ci.txt
+
+      - name: Write YouTube credentials
+        env:
+          YOUTUBE_CLIENT_SECRET_JSON: ${{ secrets.YOUTUBE_CLIENT_SECRET_JSON }}
+          YOUTUBE_TOKEN_JSON: ${{ secrets.YOUTUBE_TOKEN_JSON }}
+          YOUTUBE_MOVIES_TOKEN_JSON: ${{ secrets.YOUTUBE_MOVIES_TOKEN_JSON }}
+        run: |
+          mkdir -p .cache
+          printf '%s' "$YOUTUBE_CLIENT_SECRET_JSON" > .cache/youtube_client_secret.json
+          printf '%s' "$YOUTUBE_TOKEN_JSON" > .cache/youtube_token.json
+          printf '%s' "$YOUTUBE_MOVIES_TOKEN_JSON" > .cache/youtube_token_movies.json
+
+      - name: Build report
+        env:
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+          YOUTUBE_CLIENT_SECRET_FILE: .cache/youtube_client_secret.json
+        run: python scripts/ops_report.py weekly --out weekly-report.md
+
+      - name: Open report issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue create --title "Weekly report - $(date -u +%F)" --body-file weekly-report.md

@@ -2,7 +2,8 @@ name: Daily gaming and movie videos
 
 # Makes the day's shorts - gaming (1 new/upcoming game, 1 classic game, 1 Palworld breeding
 # combo) -> HarryBeast Gaming YouTube only, and movies (1 new/upcoming movie, 1
-# review/box-office) -> Name Writer YouTube + Instagram + Facebook - and retries uploads that
+# review/box-office) -> Name Writer YouTube + Instagram + Facebook, 1 Hindi movie reel ->
+# Facebook + Instagram only - and retries uploads that
 # failed earlier. No laptop needed. "What's already posted" lives on the gaming-state branch.
 on:
   schedule:
@@ -23,6 +24,9 @@ on:
         default: "1"
       movie_reviews:
         description: "Movie review / box-office videos"
+        default: "1"
+      reels:
+        description: "Hindi movie reels (Facebook + Instagram only)"
         default: "1"
 
 concurrency:
@@ -100,6 +104,7 @@ jobs:
           --new-palworld "${{ github.event.inputs.new_palworld || '1' }}"
           --new-movies "${{ github.event.inputs.new_movies || '1' }}"
           --movie-reviews "${{ github.event.inputs.movie_reviews || '1' }}"
+          --extra-slot "reel:${{ github.event.inputs.reels || '1' }}"
 
       - name: Save posting state
         if: always()

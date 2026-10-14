@@ -21,7 +21,7 @@ accelerate==0.34.2
 safetensors==0.4.5
 Pillow==10.4.0
 moviepy==1.0.3
-edge-tts==7.2.8
+edge-tts==7.3.1
 
 # Social posting (Stage 4) - Meta/Facebook/Instagram use plain httpx (Graph API), no SDK needed
 google-api-python-client==2.149.0

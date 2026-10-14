@@ -490,5 +490,21 @@
   "reel-top-5-bollywood-2026": {
     "spec": "scripts/specs/movies/reel_11_top-5-bollywood-2026.json",
     "video": "F:\\AI AGENT\\run_reels\\videos\\short-4665293e.mp4"
+  },
+  "cod-modern-warfare-4": {
+    "spec": "scripts/specs/games/new_07_cod-modern-warfare-4.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-d8b8c2ee.mp4"
+  },
+  "gta-vice-city-facts": {
+    "spec": "scripts/specs/games/classic_07_gta-vice-city-facts.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b2c3e4c6.mp4"
+  },
+  "hunger-games-sunrise-on-the-reaping": {
+    "spec": "scripts/specs/movies/movie_new_07_hunger-games-sunrise-on-the-reaping.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-4439b21b.mp4"
+  },
+  "toxic-300-crore-reception": {
+    "spec": "scripts/specs/movies/movie_review_07_toxic-300-crore-reception.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-0bb414db.mp4"
   }
 }

@@ -1015,5 +1015,25 @@
       ],
       "unique": false
     }
+  },
+  "Rooby": {
+    "spec": "scripts/specs/palworld_rooby.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-60238df1.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Rooby",
+      "caption": "Chikipi + Flopie = Rooby. A Palworld 1.0 breeding combo.",
+      "video_script": "Breeding tip for Palworld: Rooby comes from Chikipi and Flopie. Place them together on the Breeding Farm, feed it a cake, and you get a Rooby egg. It works in Palworld one point zero. What is your favourite Pal? Comment below!",
+      "parents": [
+        "Chikipi",
+        "Flopie"
+      ],
+      "child": "Rooby",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
   }
 }

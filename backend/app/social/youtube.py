@@ -18,6 +18,11 @@ logger = logging.getLogger(__name__)
 _BACKEND_ROOT = Path(__file__).resolve().parents[2]
 
 
+
+def _youtube_safe(text: str) -> str:
+    """YouTube rejects titles/descriptions containing "<" or ">" (400 invalidDescription)."""
+    return text.replace(">", "-").replace("<", "-")
+
 class YouTubePoster(SocialPoster):
     """Uploads shorts to one YouTube channel via the Data API v3 (OAuth installed-app flow).
 
@@ -97,8 +102,9 @@ class YouTubePoster(SocialPoster):
         youtube = build("youtube", "v3", credentials=creds)
         # The orchestrator puts the headline on the first line; Hindi sentences end
         # with "।" rather than ".", so split on line breaks first.
+        caption = _youtube_safe(caption)
         first_line = caption.strip().split("\n")[0]
-        title = (re.split(r"[।.?]", first_line)[0].strip() or first_line)[:90] or "Trending Short"
+        title =(re.split(r"[।.?]", first_line)[0].strip() or first_line)[:90] or "Trending Short"
 
         # "#Shorts" in the description helps YouTube file vertical <60s videos under Shorts.
         snippet = {"title": title, "description": f"{caption}\n\n#Shorts", "categoryId": self._category_id or settings.youtube_category_id}
@@ -135,8 +141,8 @@ class YouTubePoster(SocialPoster):
 
             youtube = build("youtube", "v3", credentials=self._get_credentials())
             snippet = {
-                "title": title[:100],
-                "description": description[:4900],
+                "title": _youtube_safe(title)[:100],
+                "description": _youtube_safe(description)[:4900],
                 "categoryId": self._category_id or settings.youtube_category_id,
             }
             if tags:

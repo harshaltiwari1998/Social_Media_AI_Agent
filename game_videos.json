@@ -506,5 +506,19 @@
   "toxic-300-crore-reception": {
     "spec": "scripts/specs/movies/movie_review_07_toxic-300-crore-reception.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-0bb414db.mp4"
+  },
+  "need-for-speed-history": {
+    "spec": "scripts/specs/long/gaming_03_need-for-speed-history.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-943f50eb.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-943f50eb-thumb.jpg",
+    "chapters": "0:00 A racing legend\n0:36 Nineteen ninety four: the beginning\n1:17 Police chases arrive\n1:47 Two thousand three: Underground\n2:24 Two thousand five: Most Wanted\n2:57 Two thousand ten: Criterion and Hot Pursuit\n3:25 Open worlds, crews and a closed track\n4:05 Shift, Most Wanted again and Rivals\n4:41 The Ghost Games years and Heat\n5:25 Different styles over the years\n6:02 Unbound: the latest chapter\n6:44 Your favourite Need for Speed"
+  },
+  "rajinikanth-safar": {
+    "spec": "scripts/specs/long/movies_04_rajinikanth-safar.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-8280a93a.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-8280a93a-thumb.jpg",
+    "chapters": "0:00 Thalaiva की कहानी\n0:38 Shivaji Rao Gaekwad\n1:25 Apoorva Raagangal - 1975\n2:15 1990s - Baashha और Muthu\n2:56 Chandramukhi और Sivaji\n3:33 Enthiran और 2.0\n4:10 Jailer - 2023\n4:58 Vettaiyan - Amitabh के साथ\n5:35 पचास साल का जश्न\n6:11 बड़े सम्मान\n6:46 आपके लिए Thalaiva कौन सी film"
   }
 }

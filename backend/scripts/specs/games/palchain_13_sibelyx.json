@@ -1,0 +1,57 @@
+{
+  "id": "palworld-chain-sibelyx",
+  "slot": "palchain",
+  "order": 13,
+  "headline": "Easy breeding chain: Sibelyx",
+  "title": "Easy Sibelyx Breeding Chain in Palworld | 3 Steps From Easy Pals | Palworld Breeding Guide",
+  "video_script": "Need Sibelyx for your base? Follow these three easy breeding steps. Step one: breed Tocotoco with Vanwyrm to get Dazemu. Step two: breed that Dazemu with Grintale to get Sweepa. Step three: breed that Sweepa with Incineram, and the egg hatches into Sibelyx! Every step is checked against Palworld one point zero breeding data. Put each pair on the Breeding Farm with a cake. Which Pal should I chain next? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Sibelyx",
+      "label": "Goal: Sibelyx"
+    },
+    {
+      "combo": [
+        "Tocotoco",
+        "Vanwyrm",
+        "Dazemu"
+      ],
+      "step": "STEP 1"
+    },
+    {
+      "combo": [
+        "Dazemu",
+        "Grintale",
+        "Sweepa"
+      ],
+      "step": "STEP 2"
+    },
+    {
+      "combo": [
+        "Sweepa",
+        "Incineram",
+        "Sibelyx"
+      ],
+      "step": "STEP 3"
+    }
+  ],
+  "description": "Easy 3-step Palworld 1.0 breeding chain to Sibelyx: Tocotoco + Vanwyrm = Dazemu, Dazemu + Grintale = Sweepa, Sweepa + Incineram = Sibelyx. Each step verified on PalBreedCalc and with the breeding formula from PinDrop's combi ranks.",
+  "hashtags": [
+    "Palworld",
+    "PalworldBreeding",
+    "Sibelyx"
+  ],
+  "tags": [
+    "Palworld",
+    "Palworld breeding",
+    "Palworld breeding chain",
+    "how to get Sibelyx",
+    "Sibelyx breeding",
+    "Palworld 1.0",
+    "Palworld breeding guide",
+    "Dazemu",
+    "Grintale",
+    "Incineram",
+    "Sweepa"
+  ]
+}

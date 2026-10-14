@@ -1,0 +1,44 @@
+{
+  "id": "aniimo-inherit-explained",
+  "slot": "aniimo",
+  "order": 9,
+  "headline": "Aniimo Inherit explained",
+  "title": "Aniimo Inherit Explained | Transfer Levels To A Better Aniimo | Aniimo Guide",
+  "video_script": "Caught a better version of your favourite Aniimo? Don't level it from zero. Use Inherit! Open Aniimo Management, go to the Inherit tab, and move progress from one Aniimo to another of the same family. It transfers experience, level, Resonance stage, star rank and Capafruit effects. Each transfer costs twenty thousand Credits. Perfect for swapping in an Aniimo with better potential. Did you know about this? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:0",
+      "label": "Inherit Explained"
+    },
+    {
+      "image": "steam:4126040:2",
+      "fact": "Same family only",
+      "sub": "Move progress between Aniimo"
+    },
+    {
+      "image": "steam:4126040:4",
+      "fact": "Level, EXP, star rank",
+      "sub": "Resonance & Capafruit too"
+    },
+    {
+      "image": "steam:4126040:6",
+      "fact": "20,000 Credits",
+      "sub": "Per transfer"
+    }
+  ],
+  "description": "Aniimo Inherit: in Aniimo Management > Inherit, move EXP, level, Resonance stage, star rank and Capafruit effects to another Aniimo of the same family for 20,000 Credits.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "AniimoTips"
+  ],
+  "tags": [
+    "Aniimo Inherit",
+    "Aniimo inheritance",
+    "Aniimo transfer level",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Aniimo Capafruit",
+    "Aniimo Resonance"
+  ]
+}

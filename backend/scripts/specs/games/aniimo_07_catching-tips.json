@@ -1,0 +1,49 @@
+{
+  "id": "aniimo-catching-tips",
+  "slot": "aniimo",
+  "order": 7,
+  "headline": "Aniimo catching tips",
+  "title": "Aniimo Catching Tips | How To Catch Aniimo Easily | Aniimo Guide",
+  "video_script": "Stop wasting Aniipods in Aniimo! Tip one: sneak up and throw from behind for a backstab bonus. Tip two: sleeping and unaware Aniimo are easier to catch. Tip three: fill the Break gauge in battle first, a staggered Aniimo is much easier to catch. Tip four: hover your crosshair to see the catch chance before you throw. And tip five: missed Aniipods come back to you, so keep trying! Save this for later!",
+  "scenes": [
+    {
+      "image": "steam:4126040:4",
+      "label": "Catching Tips"
+    },
+    {
+      "image": "steam:4126040:5",
+      "fact": "Throw from behind",
+      "sub": "Backstab bonus"
+    },
+    {
+      "image": "steam:4126040:6",
+      "fact": "Break gauge first",
+      "sub": "Stagger, then catch"
+    },
+    {
+      "image": "steam:4126040:7",
+      "fact": "Check the %",
+      "sub": "Hover your crosshair"
+    },
+    {
+      "image": "steam:4126040:8",
+      "fact": "Missed pods return",
+      "sub": "Keep throwing!"
+    }
+  ],
+  "description": "Aniimo catching tips: throw from behind for a backstab bonus, target sleeping or unaware Aniimo, fill the Break gauge first, hover your crosshair to see the catch chance, and missed Aniipods are returned to you.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoTips",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo catching tips",
+    "how to catch Aniimo",
+    "Aniimo catch rate",
+    "Aniimo Aniipod",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Aniimo backstab"
+  ]
+}

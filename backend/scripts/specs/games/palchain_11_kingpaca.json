@@ -1,0 +1,57 @@
+{
+  "id": "palworld-chain-kingpaca",
+  "slot": "palchain",
+  "order": 11,
+  "headline": "Easy breeding chain: Kingpaca",
+  "title": "Easy Kingpaca Breeding Chain in Palworld | 3 Steps From Easy Pals | Palworld Breeding Guide",
+  "video_script": "Want a giant Kingpaca mount? Follow these three easy breeding steps. Step one: breed Vanwyrm with Woolipop to get Yakumo. Step two: breed that Yakumo with Lovander to get Sweepa. Step three: breed that Sweepa with Dumud, and the egg hatches into Kingpaca! Every step is checked against Palworld one point zero breeding data. Put each pair on the Breeding Farm with a cake. Which Pal should I chain next? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Kingpaca",
+      "label": "Goal: Kingpaca"
+    },
+    {
+      "combo": [
+        "Vanwyrm",
+        "Woolipop",
+        "Yakumo"
+      ],
+      "step": "STEP 1"
+    },
+    {
+      "combo": [
+        "Yakumo",
+        "Lovander",
+        "Sweepa"
+      ],
+      "step": "STEP 2"
+    },
+    {
+      "combo": [
+        "Sweepa",
+        "Dumud",
+        "Kingpaca"
+      ],
+      "step": "STEP 3"
+    }
+  ],
+  "description": "Easy 3-step Palworld 1.0 breeding chain to Kingpaca: Vanwyrm + Woolipop = Yakumo, Yakumo + Lovander = Sweepa, Sweepa + Dumud = Kingpaca. Each step verified on PalBreedCalc and with the breeding formula from PinDrop's combi ranks.",
+  "hashtags": [
+    "Palworld",
+    "PalworldBreeding",
+    "Kingpaca"
+  ],
+  "tags": [
+    "Palworld",
+    "Palworld breeding",
+    "Palworld breeding chain",
+    "how to get Kingpaca",
+    "Kingpaca breeding",
+    "Palworld 1.0",
+    "Palworld breeding guide",
+    "Dumud",
+    "Lovander",
+    "Sweepa",
+    "Vanwyrm"
+  ]
+}

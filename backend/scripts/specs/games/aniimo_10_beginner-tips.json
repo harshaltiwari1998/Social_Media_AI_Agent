@@ -1,0 +1,49 @@
+{
+  "id": "aniimo-beginner-tips",
+  "slot": "aniimo",
+  "order": 10,
+  "headline": "5 Aniimo tips for beginners",
+  "title": "5 Aniimo Beginner Tips | Things I Wish I Knew | Aniimo Guide",
+  "video_script": "Five Aniimo tips I wish I knew sooner. One: learn Twining early, it's how you get around Idyll. Two: catch lots of different species, not just fighters. Three: explore at different times and in different weather, because new Aniimo appear. Four: fill every Hatchinator before you log off, eggs keep hatching while you're away. Five: missed Aniipods come back, so don't panic when you miss. Follow for more Aniimo tips!",
+  "scenes": [
+    {
+      "image": "steam:4126040:1",
+      "label": "Beginner Tips"
+    },
+    {
+      "image": "steam:4126040:3",
+      "fact": "Learn Twining early",
+      "sub": "Tip 1"
+    },
+    {
+      "image": "steam:4126040:5",
+      "fact": "Catch every species",
+      "sub": "Tip 2"
+    },
+    {
+      "image": "steam:4126040:7",
+      "fact": "Weather & time",
+      "sub": "New Aniimo appear"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Fill your Hatchinators",
+      "sub": "Eggs hatch offline"
+    }
+  ],
+  "description": "5 Aniimo beginner tips: learn Twining early, catch many different species, explore in different weather and times of day, fill your Hatchinators before logging off, and don't worry about missed Aniipods - they come back.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoTips",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo beginner tips",
+    "Aniimo tips",
+    "Aniimo guide",
+    "Aniimo Twining",
+    "Aniimo Hatchinator",
+    "Aniimo new player",
+    "creature catching game"
+  ]
+}

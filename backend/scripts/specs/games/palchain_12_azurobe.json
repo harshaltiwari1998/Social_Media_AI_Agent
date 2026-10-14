@@ -1,0 +1,57 @@
+{
+  "id": "palworld-chain-azurobe",
+  "slot": "palchain",
+  "order": 12,
+  "headline": "Easy breeding chain: Azurobe",
+  "title": "Easy Azurobe Breeding Chain in Palworld | 3 Steps From Easy Pals | Palworld Breeding Guide",
+  "video_script": "Want Azurobe to ride across the water? Follow these three easy breeding steps. Step one: breed Tocotoco with Vanwyrm to get Dazemu. Step two: breed that Dazemu with Lovander to get Sweepa. Step three: breed that Sweepa with Bushi, and the egg hatches into Azurobe! Every step is checked against Palworld one point zero breeding data. Put each pair on the Breeding Farm with a cake. Which Pal should I chain next? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Azurobe",
+      "label": "Goal: Azurobe"
+    },
+    {
+      "combo": [
+        "Tocotoco",
+        "Vanwyrm",
+        "Dazemu"
+      ],
+      "step": "STEP 1"
+    },
+    {
+      "combo": [
+        "Dazemu",
+        "Lovander",
+        "Sweepa"
+      ],
+      "step": "STEP 2"
+    },
+    {
+      "combo": [
+        "Sweepa",
+        "Bushi",
+        "Azurobe"
+      ],
+      "step": "STEP 3"
+    }
+  ],
+  "description": "Easy 3-step Palworld 1.0 breeding chain to Azurobe: Tocotoco + Vanwyrm = Dazemu, Dazemu + Lovander = Sweepa, Sweepa + Bushi = Azurobe. Each step verified on PalBreedCalc and with the breeding formula from PinDrop's combi ranks.",
+  "hashtags": [
+    "Palworld",
+    "PalworldBreeding",
+    "Azurobe"
+  ],
+  "tags": [
+    "Palworld",
+    "Palworld breeding",
+    "Palworld breeding chain",
+    "how to get Azurobe",
+    "Azurobe breeding",
+    "Palworld 1.0",
+    "Palworld breeding guide",
+    "Bushi",
+    "Dazemu",
+    "Lovander",
+    "Sweepa"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "aniimo-best-starter",
+  "slot": "aniimo",
+  "order": 6,
+  "headline": "Aniimo best starter: Helion or Lunara?",
+  "title": "Aniimo Best Starter Helion or Lunara | Which Starter Should You Pick | Aniimo Guide",
+  "video_script": "Helion or Lunara? In Aniimo you pick one of two Light starters, and you can't get the other one later, so choose carefully. Helion is a melee fighter with self buffs and big burst damage up close. Lunara is a ranged attacker who debuffs enemies and can heal herself. Most guides recommend Lunara for beginners because she's safer and fits more teams, but early fights are easy, so pick the style you love. Team Helion or Team Lunara? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:0",
+      "label": "Best Starter"
+    },
+    {
+      "image": "steam:4126040:1",
+      "fact": "Helion",
+      "sub": "Melee burst damage"
+    },
+    {
+      "image": "steam:4126040:2",
+      "fact": "Lunara",
+      "sub": "Ranged + self-heal"
+    },
+    {
+      "image": "steam:4126040:3",
+      "fact": "Choose carefully",
+      "sub": "You only get one"
+    }
+  ],
+  "description": "Aniimo starter guide: Helion (melee, self-buffs, burst damage) vs Lunara (ranged, debuffs, self-sustain). Both are Light-element. You can't get the other starter later; Lunara is the usual beginner pick.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Helion"
+  ],
+  "tags": [
+    "Aniimo best starter",
+    "Aniimo Helion",
+    "Aniimo Lunara",
+    "Helion or Lunara",
+    "Aniimo starter guide",
+    "Aniimo tips",
+    "Aniimo beginner guide"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "palworld-chain-katress",
+  "slot": "palchain",
+  "order": 14,
+  "headline": "Easy breeding chain: Katress",
+  "title": "Easy Katress Breeding Chain in Palworld | 3 Steps From Easy Pals | Palworld Breeding Guide",
+  "video_script": "Want Katress on your team? Follow these three easy breeding steps. Step one: breed Vanwyrm with Woolipop to get Yakumo. Step two: breed that Yakumo with Sparkit to get Cinnamoth. Step three: breed that Cinnamoth with Incineram, and the egg hatches into Katress! Every step is checked against Palworld one point zero breeding data. Put each pair on the Breeding Farm with a cake. Which Pal should I chain next? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Katress",
+      "label": "Goal: Katress"
+    },
+    {
+      "combo": [
+        "Vanwyrm",
+        "Woolipop",
+        "Yakumo"
+      ],
+      "step": "STEP 1"
+    },
+    {
+      "combo": [
+        "Yakumo",
+        "Sparkit",
+        "Cinnamoth"
+      ],
+      "step": "STEP 2"
+    },
+    {
+      "combo": [
+        "Cinnamoth",
+        "Incineram",
+        "Katress"
+      ],
+      "step": "STEP 3"
+    }
+  ],
+  "description": "Easy 3-step Palworld 1.0 breeding chain to Katress: Vanwyrm + Woolipop = Yakumo, Yakumo + Sparkit = Cinnamoth, Cinnamoth + Incineram = Katress. Each step verified on PalBreedCalc and with the breeding formula from PinDrop's combi ranks.",
+  "hashtags": [
+    "Palworld",
+    "PalworldBreeding",
+    "Katress"
+  ],
+  "tags": [
+    "Palworld",
+    "Palworld breeding",
+    "Palworld breeding chain",
+    "how to get Katress",
+    "Katress breeding",
+    "Palworld 1.0",
+    "Palworld breeding guide",
+    "Cinnamoth",
+    "Incineram",
+    "Sparkit",
+    "Vanwyrm"
+  ]
+}

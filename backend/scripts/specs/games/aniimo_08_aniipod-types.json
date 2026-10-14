@@ -1,0 +1,49 @@
+{
+  "id": "aniimo-aniipod-types",
+  "slot": "aniimo",
+  "order": 8,
+  "headline": "Every Aniipod explained",
+  "title": "Aniimo Aniipods Explained | Pro, Mega, Hyper, Ultra, Sparkling Cube | Aniimo Guide",
+  "video_script": "Which Aniipod should you throw? The Aniipod Pro boosts your catch chance by one and a half times. Aniipod Mega and Hyper double it. Aniipod Track also doubles it and tracks nearby targets. The Aniipod Ultra guarantees the catch, and the Sparkling Cube guarantees it too and makes the Aniimo Sparkling with Perfect Potential. Use the weakest pod that works and save the big ones for rare Aniimo. Which pod do you use most? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:9",
+      "label": "Aniipods Explained"
+    },
+    {
+      "image": "steam:4126040:10",
+      "fact": "Pro: 1.5x",
+      "sub": "Mega & Hyper: 2x"
+    },
+    {
+      "image": "steam:4126040:11",
+      "fact": "Track: 2x",
+      "sub": "Tracks nearby targets"
+    },
+    {
+      "image": "steam:4126040:12",
+      "fact": "Ultra",
+      "sub": "Guaranteed catch"
+    },
+    {
+      "image": "steam:4126040:13",
+      "fact": "Sparkling Cube",
+      "sub": "Sparkling + Perfect Potential"
+    }
+  ],
+  "description": "Aniimo Aniipods explained: Pro 1.5x, Mega and Hyper 2x, Track 2x plus tracking, Ultra guarantees the catch, Sparkling Cube guarantees it and makes the Aniimo Sparkling with Perfect Potential.",
+  "hashtags": [
+    "Aniimo",
+    "Aniipod",
+    "AniimoGuide"
+  ],
+  "tags": [
+    "Aniimo Aniipod",
+    "Aniipod Ultra",
+    "Sparkling Cube",
+    "Aniimo Aniipod types",
+    "Aniimo catching",
+    "Aniimo guide",
+    "Aniimo tips"
+  ]
+}

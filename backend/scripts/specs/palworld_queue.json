@@ -454,5 +454,53 @@
     ],
     "child": "Dumud",
     "unique": false
+  },
+  {
+    "parents": [
+      "Robinquill",
+      "Vanwyrm"
+    ],
+    "child": "Fenglope",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Arsox",
+      "Bushi"
+    ],
+    "child": "Reindrix",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Sparkit",
+      "Wumpo"
+    ],
+    "child": "Rayhound",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Gobfin",
+      "Vanwyrm"
+    ],
+    "child": "Dinossom",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Kitsun",
+      "Sparkit"
+    ],
+    "child": "Tombat",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Lamball",
+      "Vanwyrm"
+    ],
+    "child": "Beegarde",
+    "unique": false
   }
 ]

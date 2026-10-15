@@ -609,6 +609,81 @@
     "spec": "scripts/specs/movies/reel_31_mother-india-oscar.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-bdcd5aff.mp4"
   },
+  "palworld-base-building-guide": {
+    "spec": "scripts/specs/long/gaming_22_palworld-base-building-guide.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_palbase\\videos\\long-56be9e9b.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_palbase\\videos\\long-56be9e9b-thumb.jpg",
+    "chapters": "0:00 Your base is your engine\n0:31 Base limits in one point zero\n1:00 World Settings\n1:34 Cover the bottleneck jobs first\n2:09 Best Pals for each base job\n2:42 Set up a Ranch\n3:09 Layout and pathing\n3:41 The Monitoring Stand\n4:08 Food, beds and sanity\n4:43 A breeding base\n5:15 Defending your base\n5:44 Make your workers faster\n6:14 Specialized bases\n6:43 Build your best base"
+  },
+  "palworld-best-base-pals-before-world-tree": {
+    "spec": "scripts/specs/long/gaming_21_palworld-best-base-pals-before-world-tree.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_palbase\\videos\\long-65a035a7.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_palbase\\videos\\long-65a035a7-thumb.jpg",
+    "chapters": "0:00 You don't need the World Tree\n0:30 Anubis: the all rounder\n1:02 Knocklem: mining and hauling\n1:34 Jormuntide and Jormuntide Ignis\n2:06 Lyleen: the farmer\n2:35 Frostallion Noct: the night gatherer\n3:02 Wumpo and Mimog: transport helpers\n3:32 Verdash and the farm\n4:03 Cooling and electricity\n4:39 Food, beds and sanity\n5:15 A sample mid game base\n5:49 Get more of your best workers\n6:21 When to upgrade\n6:51 Your mid game MVP"
+  },
+  "palworld-stronger-base-workers": {
+    "spec": "scripts/specs/long/gaming_20_palworld-stronger-base-workers.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_palbase\\videos\\long-1ee2152d.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_palbase\\videos\\long-1ee2152d-thumb.jpg",
+    "chapters": "0:00 Faster workers, better base\n0:32 Work speed passives\n1:15 Night workers and special passives\n1:55 How to get the passives you want\n2:28 Condensing to four stars\n3:02 Work Suitability books\n3:33 Choose passives by role\n4:10 What to upgrade first\n4:42 Food, beds and sanity\n5:18 Partner skills that help the base\n5:46 The Monitoring Stand\n6:17 Putting it all together\n6:53 What is your best worker"
+  },
+  "palworld-base-pals-tier-list": {
+    "spec": "scripts/specs/long/gaming_19_palworld-base-pals-tier-list.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_palbase\\videos\\long-a697256a.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_palbase\\videos\\long-a697256a-thumb.jpg",
+    "chapters": "0:00 How this tier list works\n0:46 S tier: Anubis and Knocklem\n1:23 S tier: the World Tree specialists\n2:01 A tier: strong specialists\n2:40 A tier: the mid game heroes\n3:18 B tier: useful supporters\n3:58 Why work level matters so much\n4:36 Partner skills and auras\n5:10 Use the Monitoring Stand\n5:46 Who to get first\n6:19 Do you agree"
+  },
+  "palworld-best-base-pal-every-job": {
+    "spec": "scripts/specs/long/gaming_18_palworld-best-base-pal-every-job.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_palbase\\videos\\long-22726d13.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_palbase\\videos\\long-22726d13-thumb.jpg",
+    "chapters": "0:00 A worker for every job\n0:41 Kindling and Watering\n1:25 Planting and Gathering\n2:08 Generating Electricity\n2:48 Handiwork\n3:26 Lumbering and Mining\n4:07 Medicine and Cooling\n4:49 Transporting\n5:28 Farming\n6:04 How to make any worker better\n6:43 Your dream base"
+  },
+  "palworld-best-transporting-pal": {
+    "spec": "scripts/specs/games/palbase_10_transporting.json",
+    "video": "F:\\AI AGENT\\run_palbase\\videos\\short-9d7661ff.mp4"
+  },
+  "palworld-best-medicine-pal": {
+    "spec": "scripts/specs/games/palbase_09_medicine.json",
+    "video": "F:\\AI AGENT\\run_palbase\\videos\\short-ed63a17f.mp4"
+  },
+  "palworld-best-mining-pal": {
+    "spec": "scripts/specs/games/palbase_08_mining.json",
+    "video": "F:\\AI AGENT\\run_palbase\\videos\\short-7fc48f1d.mp4"
+  },
+  "palworld-best-lumbering-pal": {
+    "spec": "scripts/specs/games/palbase_07_lumbering.json",
+    "video": "F:\\AI AGENT\\run_palbase\\videos\\short-211a5e55.mp4"
+  },
+  "palworld-best-gathering-pal": {
+    "spec": "scripts/specs/games/palbase_06_gathering.json",
+    "video": "F:\\AI AGENT\\run_palbase\\videos\\short-d50d3d20.mp4"
+  },
+  "palworld-best-handiwork-pal": {
+    "spec": "scripts/specs/games/palbase_05_handiwork.json",
+    "video": "F:\\AI AGENT\\run_palbase\\videos\\short-3789a437.mp4"
+  },
+  "palworld-best-electricity-pal": {
+    "spec": "scripts/specs/games/palbase_04_electricity.json",
+    "video": "F:\\AI AGENT\\run_palbase\\videos\\short-28cbdbda.mp4"
+  },
+  "palworld-best-planting-pal": {
+    "spec": "scripts/specs/games/palbase_03_planting.json",
+    "video": "F:\\AI AGENT\\run_palbase\\videos\\short-765e9c73.mp4"
+  },
+  "palworld-best-watering-pal": {
+    "spec": "scripts/specs/games/palbase_02_watering.json",
+    "video": "F:\\AI AGENT\\run_palbase\\videos\\short-00c168ee.mp4"
+  },
+  "palworld-best-kindling-pal": {
+    "spec": "scripts/specs/games/palbase_01_kindling.json",
+    "video": "F:\\AI AGENT\\run_palbase\\videos\\short-93c6439e.mp4"
+  },
   "palworld-guide-best-base-pals": {
     "spec": "scripts/specs/games/palguide_02_best-base-pals.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-26ebdaea.mp4"

@@ -1,0 +1,45 @@
+{
+  "id": "news-koffee-with-karan-9",
+  "category": "movies",
+  "slot": "movie_news",
+  "order": 5,
+  "expires": "2026-11-15",
+  "headline": "Koffee with Karan का आखिरी season",
+  "title": "Koffee With Karan Season 9 | Salman Khan First Guest | Last Season | Movie News Hindi",
+  "video_script": "Koffee with Karan वापस आ गया है, लेकिन ये इसका आखिरी season है! Season 9, 14 October से JioHotstar पर stream हो रहा है, और पहले guest हैं Salman Khan, वो भी अकेले. Karan Johar ने बताया है कि 22 साल, 8 seasons और 161 episodes के बाद ये show अब खत्म होने जा रहा है. बाकी guests का official ऐलान अभी नहीं हुआ है. आप किस star को Koffee couch पर देखना चाहते हो? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Koffee with Karan",
+      "label": "Koffee With Karan 9"
+    },
+    {
+      "image": "wiki:Salman Khan",
+      "fact": "Salman Khan",
+      "sub": "First guest - solo"
+    },
+    {
+      "image": "wiki:Karan Johar",
+      "fact": "Last season",
+      "sub": "After 22 years, 161 episodes"
+    },
+    {
+      "image": "wiki:Koffee with Karan",
+      "fact": "14 October",
+      "sub": "On JioHotstar"
+    }
+  ],
+  "description": "Koffee with Karan Season 9 - the final season - streams on JioHotstar from 14 October 2026. Salman Khan is the first guest (solo). Karan Johar said the show ends after 22 years, 8 seasons and 161 episodes.",
+  "hashtags": [
+    "KoffeeWithKaran",
+    "SalmanKhan",
+    "KaranJohar"
+  ],
+  "tags": [
+    "Koffee with Karan season 9",
+    "Salman Khan Koffee with Karan",
+    "Karan Johar",
+    "JioHotstar",
+    "Koffee with Karan last season",
+    "Bollywood news"
+  ]
+}

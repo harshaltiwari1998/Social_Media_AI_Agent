@@ -1,0 +1,46 @@
+{
+  "id": "news-prahaar-release-review",
+  "category": "movies",
+  "slot": "movie_news",
+  "order": 2,
+  "expires": "2026-11-05",
+  "headline": "Prahaar release: critics क्या कह रहे हैं",
+  "title": "Prahaar Review | Rajkummar Rao As Ujjwal Nikam | Courtroom Drama | Movie Review Hindi",
+  "video_script": "Rajkummar Rao की Prahaar, The Untold Story of Ujjwal Nikam, आज 16 October को theatres में आ गई है. Avinash Arun की इस courtroom drama में Rajkummar, मशहूर सरकारी वकील Ujjwal Nikam बने हैं, साथ में Wamiqa Gabbi हैं. Critics के reviews mixed से positive हैं. ज़्यादातर ने Rajkummar की acting और courtroom scenes की तारीफ की है, जबकि कुछ को film थोड़ी लंबी लगी. आप Prahaar देखने जाओगे? Comment करो!",
+  "scenes": [
+    {
+      "image": "yt:qGbvEhKhaWA:maxresdefault",
+      "label": "Prahaar Review"
+    },
+    {
+      "image": "wiki:Rajkummar Rao",
+      "fact": "Rajkummar Rao",
+      "sub": "As Ujjwal Nikam"
+    },
+    {
+      "image": "yt:qGbvEhKhaWA:maxres1",
+      "fact": "16 October",
+      "sub": "In theatres now"
+    },
+    {
+      "image": "yt:qGbvEhKhaWA:maxres2",
+      "fact": "Mixed to positive",
+      "sub": "Acting & courtroom scenes praised"
+    }
+  ],
+  "description": "Prahaar: The Untold Story of Ujjwal Nikam (16 October 2026): director Avinash Arun, Rajkummar Rao as Ujjwal Nikam, Wamiqa Gabbi. Critics mixed to positive - performances and courtroom scenes praised, some felt it was long.",
+  "hashtags": [
+    "Prahaar",
+    "RajkummarRao",
+    "MovieReview"
+  ],
+  "tags": [
+    "Prahaar review",
+    "Prahaar movie",
+    "Rajkummar Rao",
+    "Ujjwal Nikam",
+    "Wamiqa Gabbi",
+    "courtroom drama",
+    "Bollywood review"
+  ]
+}

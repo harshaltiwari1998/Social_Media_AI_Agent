@@ -1,0 +1,45 @@
+{
+  "id": "news-roadies-rebirth",
+  "category": "movies",
+  "slot": "movie_news",
+  "order": 6,
+  "expires": "2026-11-15",
+  "headline": "Roadies Rebirth शुरू",
+  "title": "Roadies Rebirth Premiere | JioHotstar aur MTV | Friday Saturday 7 PM | OTT News Hindi",
+  "video_script": "Roadies fans के लिए बड़ी खबर! Roadies का नया season, Roadies Rebirth, आज 16 October से शुरू हो गया है. ये हर Friday और Saturday शाम 7 बजे JioHotstar और MTV पर आएगा. India का सबसे पुराना youth reality show एक बार फिर नए contestants और नए tasks के साथ लौटा है. आप Roadies कब से देख रहे हो? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:MTV Roadies",
+      "label": "Roadies Rebirth"
+    },
+    {
+      "image": "wiki:MTV Roadies",
+      "fact": "16 October",
+      "sub": "Premiere"
+    },
+    {
+      "image": "wiki:MTV Roadies",
+      "fact": "Fri & Sat, 7 PM",
+      "sub": "JioHotstar + MTV"
+    },
+    {
+      "image": "wiki:MTV Roadies",
+      "fact": "Youth reality show",
+      "sub": "Back with a new season"
+    }
+  ],
+  "description": "Roadies Rebirth premieres 16 October 2026, every Friday and Saturday at 7 PM on JioHotstar and MTV.",
+  "hashtags": [
+    "Roadies",
+    "RoadiesRebirth",
+    "OTT"
+  ],
+  "tags": [
+    "Roadies Rebirth",
+    "MTV Roadies",
+    "Roadies new season",
+    "JioHotstar",
+    "reality show",
+    "OTT this week"
+  ]
+}

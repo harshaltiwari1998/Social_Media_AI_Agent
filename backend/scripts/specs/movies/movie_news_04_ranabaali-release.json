@@ -1,0 +1,45 @@
+{
+  "id": "news-ranabaali-release",
+  "category": "movies",
+  "slot": "movie_news",
+  "order": 4,
+  "expires": "2026-11-05",
+  "headline": "Ranabaali आज release",
+  "title": "Ranabaali Release Today | Vijay Deverakonda Rashmika Mandanna | Movie News Hindi",
+  "video_script": "Vijay Deverakonda और Rashmika Mandanna की Ranabaali आज 16 October को theatres में आ गई है. Rahul Sankrityan की ये period action drama, Rajinikanth की Jailer 2 के ठीक एक दिन बाद आई है, इसलिए box office पर इसे कड़ा मुकाबला मिल रहा है. Film Hindi में भी release हुई है. Vijay और Rashmika की जोड़ी को आप फिर से साथ देखने के लिए कितने excited हो? Comment करो!",
+  "scenes": [
+    {
+      "image": "yt:A36nagDzugo:maxresdefault",
+      "label": "Ranabaali"
+    },
+    {
+      "image": "wiki:Vijay Deverakonda",
+      "fact": "Vijay Deverakonda",
+      "sub": "With Rashmika Mandanna"
+    },
+    {
+      "image": "yt:A36nagDzugo:maxres1",
+      "fact": "16 October",
+      "sub": "Period action drama"
+    },
+    {
+      "image": "yt:A36nagDzugo:maxres2",
+      "fact": "Tough clash",
+      "sub": "A day after Jailer 2"
+    }
+  ],
+  "description": "Ranabaali (16 October 2026): Vijay Deverakonda और Rashmika Mandanna की period action drama, director Rahul Sankrityan, Hindi में भी release. Jailer 2 के एक दिन बाद आई.",
+  "hashtags": [
+    "Ranabaali",
+    "VijayDeverakonda",
+    "RashmikaMandanna"
+  ],
+  "tags": [
+    "Ranabaali",
+    "Ranabaali release",
+    "Vijay Deverakonda",
+    "Rashmika Mandanna",
+    "Rahul Sankrityan",
+    "Telugu movie"
+  ]
+}

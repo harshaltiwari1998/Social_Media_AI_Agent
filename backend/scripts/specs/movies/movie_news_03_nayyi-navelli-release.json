@@ -1,0 +1,45 @@
+{
+  "id": "news-nayyi-navelli-release",
+  "category": "movies",
+  "slot": "movie_news",
+  "order": 3,
+  "expires": "2026-11-05",
+  "headline": "Nayyi Navelli आज theatres में",
+  "title": "Nayyi Navelli Release Today | Yami Gautam Ki Fantasy Family Film | Movie News Hindi",
+  "video_script": "Yami Gautam की Nayyi Navelli आज 16 October को release हो गई है. ये एक fantasy family entertainer है, जिसमें Yami एक ऐसी दुल्हन बनी हैं जिस पर उनके देवर को शक है कि वो डायन है. कहानी Meerut की है. Film को Balaji Mohan ने direct किया है, ये उनकी पहली Hindi film है, और music GV Prakash Kumar का है. Film Amazon MGM Studios और Colour Yellow की है. आपको ये concept कैसा लगा? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Nayyi Navelli",
+      "label": "Nayyi Navelli"
+    },
+    {
+      "image": "wiki:Yami Gautam",
+      "fact": "Yami Gautam",
+      "sub": "A bride... or a witch?"
+    },
+    {
+      "image": "wiki:Nayyi Navelli",
+      "fact": "16 October",
+      "sub": "Fantasy family entertainer"
+    },
+    {
+      "image": "wiki:Nayyi Navelli",
+      "fact": "Balaji Mohan",
+      "sub": "His Hindi directorial debut"
+    }
+  ],
+  "description": "Nayyi Navelli (16 October 2026): Yami Gautam की fantasy family entertainer, Meerut की दुल्हन जिस पर देवर को डायन होने का शक है. Director Balaji Mohan (Hindi debut), music GV Prakash Kumar, Amazon MGM Studios और Colour Yellow.",
+  "hashtags": [
+    "NayyiNavelli",
+    "YamiGautam",
+    "NewRelease"
+  ],
+  "tags": [
+    "Nayyi Navelli",
+    "Yami Gautam",
+    "Nayyi Navelli release",
+    "Balaji Mohan",
+    "new Hindi movie",
+    "fantasy comedy"
+  ]
+}

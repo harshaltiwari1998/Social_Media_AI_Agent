@@ -1,0 +1,49 @@
+{
+  "id": "palworld-guide-tower-bosses-part-1",
+  "slot": "palguide",
+  "order": 3,
+  "headline": "Palworld tower bosses: first four",
+  "title": "How to Beat Palworld Tower Bosses Part 1 | Grizzbolt, Lyleen, Orserk, Faleris | Palworld Guide",
+  "video_script": "Here's how to beat the first four Palworld tower bosses. Zoe and Grizzbolt: Grizzbolt is Electric, so bring Ground Pals. Lily and Lyleen: Lyleen is Grass, so bring Fire. Axel and Orserk: Orserk is Electric and Dragon, so both Ground and Ice Pals work. Marcus and Faleris: Faleris is Fire, so bring Water Pals like Jormuntide, Azurobe or Penking. Remember, tower fights now have a five minute timer, so hit hard! Which boss was hardest for you? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Grizzbolt",
+      "label": "Tower Bosses Part 1"
+    },
+    {
+      "image": "pal:Grizzbolt",
+      "fact": "Grizzbolt",
+      "sub": "Electric - use Ground"
+    },
+    {
+      "image": "pal:Lyleen",
+      "fact": "Lyleen",
+      "sub": "Grass - use Fire"
+    },
+    {
+      "image": "pal:Orserk",
+      "fact": "Orserk",
+      "sub": "Use Ground or Ice"
+    },
+    {
+      "image": "pal:Faleris",
+      "fact": "Faleris",
+      "sub": "Fire - use Water"
+    }
+  ],
+  "description": "Palworld 1.0 tower bosses 1-4: Zoe & Grizzbolt (Electric, use Ground), Lily & Lyleen (Grass, use Fire), Axel & Orserk (Electric/Dragon, use Ground or Ice), Marcus & Faleris (Fire, use Water like Jormuntide, Azurobe, Penking). Tower fights have a 5-minute timer.",
+  "hashtags": [
+    "Palworld",
+    "PalworldGuide",
+    "TowerBoss"
+  ],
+  "tags": [
+    "Palworld tower bosses",
+    "Palworld Grizzbolt",
+    "Palworld Lyleen",
+    "Palworld Orserk",
+    "Palworld Faleris",
+    "Palworld 1.0",
+    "Palworld boss guide"
+  ]
+}

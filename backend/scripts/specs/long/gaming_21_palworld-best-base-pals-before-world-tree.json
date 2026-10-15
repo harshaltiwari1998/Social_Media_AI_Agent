@@ -1,0 +1,157 @@
+{
+  "id": "palworld-best-base-pals-before-world-tree",
+  "category": "gaming",
+  "order": 21,
+  "title": "Best Base Pals Before the World Tree in Palworld | Mid Game Workers Guide | Palworld Base Guide",
+  "description": "The best base Pals you can get before the World Tree endgame in Palworld 1.0: Anubis, Knocklem, Jormuntide, Jormuntide Ignis, Lyleen, Frostallion Noct, Wumpo, Mimog, Sekhmet and Verdash, what each one does best, and how to run a strong mid game base.",
+  "hashtags": [
+    "Palworld",
+    "PalworldBase",
+    "Gaming"
+  ],
+  "tags": [
+    "Palworld mid game base pals",
+    "Palworld best base pals",
+    "Palworld Anubis",
+    "Palworld Knocklem",
+    "Palworld Jormuntide",
+    "Palworld Lyleen",
+    "Palworld 1.0",
+    "Palworld base guide",
+    "Palworld workers"
+  ],
+  "thumbnail": {
+    "image": "pal:Knocklem",
+    "text": "BEST WORKERS BEFORE ENDGAME"
+  },
+  "sections": [
+    {
+      "heading": "You don't need the World Tree",
+      "script": "Every best base Pals list tells you to get the World Tree specialists, but those Pals arrive at the very end of the game. So what should you use until then? In this video I will show you the best base Pals you can get before the World Tree in Palworld one point zero, the workers that will carry your base through the whole mid game. For each one I will explain what it is best at, and how it fits into a strong base. These are the Pals that up to date one point zero guides agree on as the best options before the endgame specialists.",
+      "images": [
+        "steam:1623730:0",
+        "pal:Anubis",
+        "pal:Knocklem"
+      ]
+    },
+    {
+      "heading": "Anubis: the all rounder",
+      "script": "The first Pal on everyone's list is Anubis. It has level six Handiwork and level six Mining, so it can craft at your workbenches, build structures, and break stone and ore. That makes it the best all round worker before the endgame, and many players keep two or three of them. The Alpha Anubis is a level fifty five field boss in the desert, just south of the Anubis Dunes fast travel point. If you want Anubis to work even faster, add Sekhmet to the same base, because Sekhmet's partner skill boosts Anubis' work speed.",
+      "images": [
+        "pal:Anubis",
+        "pal:Sekhmet",
+        "steam:1623730:1"
+      ]
+    },
+    {
+      "heading": "Knocklem: mining and hauling",
+      "script": "The second must have is Knocklem. It has level seven Mining and level seven Transporting. This combination is special, because Knocklem breaks the ore and then carries it to storage by itself, so materials actually reach your chests instead of piling up on the ground. It is also the best transporter in the game. Knocklem is big, so give it wide paths and keep your ore nodes, storage and furnaces close together. With two Knocklem and two Anubis, your stone, ore and crafting are covered for most of the game.",
+      "images": [
+        "pal:Knocklem",
+        "steam:1623730:2",
+        "steam:1623730:3"
+      ]
+    },
+    {
+      "heading": "Jormuntide and Jormuntide Ignis",
+      "script": "For watering and smelting, the two Jormuntides are the answer. Jormuntide has level seven Watering, which keeps your crops growing and helps with production that needs water. Jormuntide Ignis has level seven Kindling, perfect for furnaces and cooking. Neither of them has competing jobs, and that is actually an advantage, because they never wander off to do something else. Put Jormuntide Ignis next to your furnaces and Jormuntide next to your fields, and those two jobs are solved until you find the World Tree specialists.",
+      "images": [
+        "pal:Jormuntide",
+        "pal:Jormuntide Ignis",
+        "steam:1623730:4"
+      ]
+    },
+    {
+      "heading": "Lyleen: the farmer",
+      "script": "For your farm, Lyleen is the star. It has level seven Planting and strong Gathering, so it can plant seeds and harvest crops by itself, handling several farming stages at once. Pair Lyleen with Jormuntide for watering and you have a complete farm with just two Pals. Lyleen is also a tower boss Pal, the partner of Lily, so it is a well known name. A good farm means a steady supply of wheat, berries and other crops, which you need for food and for cooking Cake.",
+      "images": [
+        "pal:Lyleen",
+        "pal:Jormuntide",
+        "steam:1623730:5"
+      ]
+    },
+    {
+      "heading": "Frostallion Noct: the night gatherer",
+      "script": "Most Pals sleep at night, which slows down your base for half the day. Frostallion Noct is different. It has level seven Gathering and it works at night, so your berries and crops keep getting harvested while everyone else sleeps. It is a legendary Pal, so it takes some effort to get, but if you have one, put it on gathering duty. You can also give the Insomnia passive skill to other workers through breeding to keep them awake at night.",
+      "images": [
+        "pal:Frostallion Noct",
+        "steam:1623730:6",
+        "pal:Lyleen"
+      ]
+    },
+    {
+      "heading": "Wumpo and Mimog: transport helpers",
+      "script": "If items are piling up on the floor of your base, you need more transporters. Wumpo has level six Transporting, and its partner skill gives other Pals at the base plus one Transporting. So Wumpo makes your whole base better at moving items, not just itself. Mimog is another great helper. It is the fastest light item transporter, which is perfect for short routes between your workstations and storage. One Wumpo plus a Knocklem or two will keep your storage full.",
+      "images": [
+        "pal:Wumpo",
+        "pal:Mimog",
+        "pal:Knocklem"
+      ]
+    },
+    {
+      "heading": "Verdash and the farm",
+      "script": "Verdash is the jack of all trades. It can do Planting, Gathering, Handiwork, Lumbering and Transporting. It is not the best at any of them, but it is very useful for a mid game farm, because it can jump between jobs and fill gaps. And don't forget your Ranch. Mozzarina gives Milk, Chikipi gives Eggs, Beegarde gives Honey and Lamball gives Wool. With Mozzarina, Chikipi and Beegarde on the Ranch, you have most of the ingredients for Cake, which you need for breeding.",
+      "images": [
+        "pal:Verdash",
+        "pal:Mozzarina",
+        "pal:Chikipi",
+        "pal:Beegarde"
+      ]
+    },
+    {
+      "heading": "Cooling and electricity",
+      "script": "Two jobs are easy to forget in the mid game, Cooling and Generating Electricity. A cooling Pal at your Cooler Box or Refrigerator keeps your food fresh much longer, which saves you a lot of cooking. The legendary Frostallion has level seven Cooling if you have one, and any Ice Pal is better than nothing. Electricity powers advanced machines like the Electric Furnace and electric crafting stations. Use the strongest Electric Pal you have at the Power Generator until you can catch Orserk, which is the best electricity Pal in the game. One good Pal is enough for each of these jobs at a base.",
+      "images": [
+        "pal:Frostallion",
+        "pal:Orserk",
+        "steam:1623730:8"
+      ]
+    },
+    {
+      "heading": "Food, beds and sanity",
+      "script": "Strong workers only stay strong if you look after them. Every Pal at your base gets hungry, so keep the Feed Box stocked with food, and the better the food, the happier your workers. Build a Pal Bed for each worker, because Pals rest at night and a comfortable place to sleep keeps them healthy. Overworked Pals also lose sanity, and a Pal with low sanity works badly and can even get sick. Hot Springs help them recover, and Medicine from your medicine makers treats sick Pals. A base with good food, enough beds and a Hot Spring keeps its workers productive for much longer.",
+      "images": [
+        "steam:1623730:13",
+        "steam:1623730:14",
+        "pal:Silvance"
+      ]
+    },
+    {
+      "heading": "A sample mid game base",
+      "script": "Here is a simple layout that works. Two Anubis on Handiwork and Mining. Two Knocklem on Mining and Transporting. One Jormuntide Ignis on Kindling at your furnaces. One Jormuntide and one Lyleen on your farm. One Wumpo to boost transporting. And Mozzarina, Chikipi and Beegarde on the Ranch. Use the Monitoring Stand to set work preferences, so Anubis stays on crafting and Knocklem stays on mining. This base covers crafting, mining, smelting, farming and hauling.",
+      "images": [
+        "pal:Anubis",
+        "pal:Knocklem",
+        "pal:Wumpo",
+        "steam:1623730:7"
+      ]
+    },
+    {
+      "heading": "Get more of your best workers",
+      "script": "Once you have one good Anubis or Knocklem, you will want more. The easiest way is breeding. If you breed two Pals of the same species, the egg hatches into that same species, so a male and a female Anubis give you more Anubis. This is also the best way to improve their passive skills, because children can inherit passives from their parents. Keep the best child, breed again, and slowly build a team of strong workers with work speed passives. Extra copies are useful for condensing too, so no egg goes to waste.",
+      "images": [
+        "pal:Anubis",
+        "pal:Knocklem",
+        "steam:1623730:9"
+      ]
+    },
+    {
+      "heading": "When to upgrade",
+      "script": "As you reach the World Tree, start swapping in the level eight specialists. Solenne replaces Anubis on Handiwork, Renjishi replaces Jormuntide Ignis on Kindling, Shaolong replaces Jormuntide on Watering, Dandilord replaces Lyleen on Planting, Aegidron takes over Mining, and Orserk handles electricity. But keep Knocklem, because it is still the best transporter. And until then, condense your mid game workers to four stars, which raises every work level by one.",
+      "images": [
+        "pal:Solenne",
+        "pal:Renjishi",
+        "pal:Shaolong",
+        "pal:Dandilord"
+      ]
+    },
+    {
+      "heading": "Your mid game MVP",
+      "script": "Those are the best base Pals before the World Tree: Anubis, Knocklem, the two Jormuntides, Lyleen, Frostallion Noct, Wumpo, Mimog and Verdash. Which one is the MVP of your base right now? Tell me in the comments. If this helped, hit like and subscribe to HarryBeast Gaming for more Palworld guides.",
+      "images": [
+        "pal:Anubis",
+        "pal:Knocklem"
+      ]
+    }
+  ]
+}

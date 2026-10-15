@@ -1,0 +1,132 @@
+{
+  "id": "palworld-base-pals-tier-list",
+  "category": "gaming",
+  "order": 19,
+  "title": "Palworld Base Pals Tier List | S, A and B Tier Workers Explained | Palworld Base Guide",
+  "description": "A Palworld 1.0 base Pals tier list: S tier (Anubis, Knocklem, Solenne, Renjishi, Shaolong, Dandilord, Orserk), A tier (Silvance, Aegidron, Jetragon, Celesdir Noct, Bastigor, Lyleen, Jormuntide, Jormuntide Ignis) and B tier (Sekhmet, Blazamut, Frostallion Noct, Verdash, Wumpo, Mimog), with why each one earns its place.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTierList",
+    "Gaming"
+  ],
+  "tags": [
+    "Palworld tier list",
+    "Palworld base pals tier list",
+    "Palworld best base pals",
+    "Palworld 1.0",
+    "Palworld Anubis",
+    "Palworld Knocklem",
+    "Palworld workers",
+    "Palworld base guide",
+    "Palworld S tier"
+  ],
+  "thumbnail": {
+    "image": "pal:Anubis",
+    "text": "BASE PALS TIER LIST"
+  },
+  "sections": [
+    {
+      "heading": "How this tier list works",
+      "script": "Welcome to the Palworld base Pals tier list for the full release. This is not a combat list. Here, a Pal is ranked by how much it improves your base. The most important thing is a high natural work suitability, because that decides how fast a Pal finishes its job. After that, we look at extra jobs, because a Pal that can do two or three things is worth more than a one trick worker, and we look at helpful partner skills. I built this list from up to date one point zero base guides, and the placements follow their consensus. We will go from S tier down to B tier, and at the end I will tell you which Pals to grab first. Keep in mind that most S tier specialists come from the World Tree at the end of the game, so I will also point out which Pals are the best to use while you get there.",
+      "images": [
+        "steam:1623730:0",
+        "pal:Anubis",
+        "steam:1623730:1"
+      ]
+    },
+    {
+      "heading": "S tier: Anubis and Knocklem",
+      "script": "S tier starts with two Pals you can actually get before the endgame. Anubis has level six Handiwork and level six Mining, so it can craft at your workbenches and break stone and ore, and it is the best all round worker for most of the game. The Alpha Anubis is a level fifty five field boss south of the Anubis Dunes fast travel point. Knocklem has level seven Mining and level seven Transporting. That means it mines ore and carries it straight to storage, which removes one of the biggest bottlenecks at any base. If you only have room for a few great workers, these two should be first on your list.",
+      "images": [
+        "pal:Anubis",
+        "pal:Knocklem",
+        "steam:1623730:2"
+      ]
+    },
+    {
+      "heading": "S tier: the World Tree specialists",
+      "script": "The rest of S tier are the endgame specialists, the Pals that reach level eight in their main job. Solenne is the best Handiwork Pal. Renjishi is the best Kindling Pal, and it also brings Handiwork, Gathering and Transporting. Shaolong is the best Watering Pal and can Gather too. Dandilord is the best Planting Pal and also has Handiwork and Medicine Production, which makes it one of the most valuable workers in the game. And Orserk is the best electricity Pal for powering your advanced machines. Most of these come from the World Tree area, so they arrive late, but once you have them your base becomes incredibly fast.",
+      "images": [
+        "pal:Solenne",
+        "pal:Renjishi",
+        "pal:Shaolong",
+        "pal:Dandilord"
+      ]
+    },
+    {
+      "heading": "A tier: strong specialists",
+      "script": "A tier is full of Pals that are the best at one job but bring less else. Silvance is the best Medicine Production Pal with level eight. Aegidron is the best miner with level eight Mining, but it is story gated. Jetragon has level eight Gathering, which is amazing, but it is also your best flying mount, so it may not want to sit at a berry farm. Celesdir Noct has level eight Lumbering and keeps your wood supply full. Bastigor has level eight Cooling, the best for keeping food fresh. These are all excellent Pals. They are just a little more limited than the S tier workers, or harder to get.",
+      "images": [
+        "pal:Silvance",
+        "pal:Aegidron",
+        "pal:Celesdir Noct",
+        "pal:Bastigor"
+      ]
+    },
+    {
+      "heading": "A tier: the mid game heroes",
+      "script": "A tier also includes three Pals that will carry you through the mid game. Lyleen has level seven Planting and strong Gathering, so it can run a whole farm stage by itself. Jormuntide has level seven Watering, and Jormuntide Ignis has level seven Kindling. Neither of the Jormuntides has competing jobs, which is actually a good thing, because they will always stay on the job you give them. If you are wondering what to use before the World Tree specialists, these three are the answer for farming, watering and smelting. Many players keep them at their bases for the rest of the game, even after the World Tree, because they are so reliable.",
+      "images": [
+        "pal:Lyleen",
+        "pal:Jormuntide",
+        "pal:Jormuntide Ignis"
+      ]
+    },
+    {
+      "heading": "B tier: useful supporters",
+      "script": "B tier Pals are not the fastest workers, but each one has a reason to be at your base. Sekhmet's partner skill boosts Anubis' work speed, so the two work brilliantly together at a crafting base. Wumpo has level six Transporting, and its partner skill gives other Pals at the base plus one Transporting. Mimog is the fastest light item transporter, which is perfect for short routes. Frostallion Noct has level seven Gathering and works at night. Verdash is a jack of all trades, with Planting, Gathering, Handiwork, Lumbering and Transporting, great for a mid game farm. And Blazamut is a strong Kindling and Mining Pal.",
+      "images": [
+        "pal:Sekhmet",
+        "pal:Wumpo",
+        "pal:Mimog",
+        "pal:Verdash"
+      ]
+    },
+    {
+      "heading": "Why work level matters so much",
+      "script": "Let's talk about why the natural work level is the top factor. A higher level means the Pal works faster at that job, and some of the most advanced structures in one point zero need a high level worker to be useful. Guides recommend aiming for at least one level six or higher job on every worker you keep at an endgame base. In one point zero, every work suitability can now go all the way to level ten. Natural levels top out at about seven or eight, and condensing and Work Suitability books push your best workers the rest of the way. So a Pal that starts at level eight is a perfect base for a level ten worker.",
+      "images": [
+        "steam:1623730:3",
+        "steam:1623730:4",
+        "pal:Solenne"
+      ]
+    },
+    {
+      "heading": "Partner skills and auras",
+      "script": "Some Pals raise the whole base, not just themselves. Wumpo is the best example. Its partner skill gives other Pals at the base plus one Transporting. Sekhmet makes Anubis work faster. These boosts stack nicely with a strong team, so one supporter can be worth more than another average worker. When you plan your base, think about which jobs are slow, and check if a partner skill can fix them before you replace a whole worker. Combining an S tier worker with the right supporter is the fastest way to a truly efficient base.",
+      "images": [
+        "pal:Wumpo",
+        "pal:Sekhmet",
+        "pal:Anubis"
+      ]
+    },
+    {
+      "heading": "Use the Monitoring Stand",
+      "script": "Multi job Pals like Anubis, Dandilord, Renjishi, Blazamut and Silvance have one problem. They can wander off to low priority jobs. The fix is the Monitoring Stand. Use it to set work preferences and direct assignments, so your best Handiwork Pal stays at the workbench instead of running off to carry wood. It is also a good idea to keep your Feed Box, storage and mining structures on the same level with wide paths, especially for large Pals like Knocklem and Shaolong, so they do not get stuck. Good layout plus the right priorities can feel like adding an extra worker.",
+      "images": [
+        "steam:1623730:5",
+        "pal:Dandilord",
+        "pal:Knocklem"
+      ]
+    },
+    {
+      "heading": "Who to get first",
+      "script": "If you are building a base right now, here is the order I recommend. First, get Anubis and Knocklem, because they solve crafting, mining and hauling. Next, add Lyleen, Jormuntide and Jormuntide Ignis for farming, watering and smelting, and a Wumpo to speed up transporting. Then, as you reach Feybreak, Sunreach and the World Tree, start replacing workers with the level eight specialists like Solenne, Renjishi, Shaolong, Dandilord and Orserk. And remember to condense your favourite workers to four stars for plus one on every job.",
+      "images": [
+        "pal:Anubis",
+        "pal:Knocklem",
+        "pal:Lyleen",
+        "pal:Wumpo"
+      ]
+    },
+    {
+      "heading": "Do you agree",
+      "script": "That is the Palworld base Pals tier list. S tier for Anubis, Knocklem, Solenne, Renjishi, Shaolong, Dandilord and Orserk, A tier for the specialists and mid game heroes, and B tier for the supporters that make everyone else better. Do you agree with these rankings, or is there a Pal you think deserves to be higher? Maybe a Pal that works great at your base but did not make this list? Tell me in the comments. If this helped, hit like and subscribe to HarryBeast Gaming for more Palworld guides.",
+      "images": [
+        "pal:Orserk",
+        "pal:Solenne",
+        "pal:Renjishi"
+      ]
+    }
+  ]
+}

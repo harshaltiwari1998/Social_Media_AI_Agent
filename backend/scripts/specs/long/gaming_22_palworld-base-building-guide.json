@@ -1,0 +1,158 @@
+{
+  "id": "palworld-base-building-guide",
+  "category": "gaming",
+  "order": 22,
+  "title": "Palworld Base Building Guide | More Bases, More Workers, Better Layout | Palworld Base Guide",
+  "description": "Palworld 1.0 base building guide: default limits (4 bases, 15 workers), raising your Base Level with Palbox missions, World Settings caps, which jobs to cover first, the Ranch, the Monitoring Stand, layout and pathing tips, and the best Pals to staff it.",
+  "hashtags": [
+    "Palworld",
+    "PalworldBase",
+    "Gaming"
+  ],
+  "tags": [
+    "Palworld base building",
+    "Palworld base guide",
+    "Palworld more bases",
+    "Palworld base level",
+    "Palworld world settings",
+    "Palworld base layout",
+    "Palworld 1.0",
+    "Palworld tips",
+    "Palworld best base pals"
+  ],
+  "thumbnail": {
+    "image": "steam:1623730:0",
+    "text": "BUILD THE PERFECT BASE"
+  },
+  "sections": [
+    {
+      "heading": "Your base is your engine",
+      "script": "In Palworld, your base is the engine that powers everything. It crafts your gear, smelts your ingots, cooks your food and breeds your Pals. A good base keeps working while you explore, so you come back to full chests. In this guide we will cover how many bases and workers you can have in one point zero, how to unlock more, which jobs to cover first, how to lay out your base so Pals don't get stuck, and which Pals to put in it. Whether you just placed your first Palbox or you are planning an endgame base, this will help.",
+      "images": [
+        "steam:1623730:0",
+        "steam:1623730:1",
+        "pal:Anubis"
+      ]
+    },
+    {
+      "heading": "Base limits in one point zero",
+      "script": "Let's start with the limits. By default, you can have up to four bases, and each base can have fifteen working Pals. You do not get all of that at once. Your Base Level controls how many workers and bases you have unlocked. To raise your Base Level, complete the missions shown on your Palbox. Each milestone unlocks more workers, and eventually more bases. So check your Palbox missions often, because they are the main way to grow.",
+      "images": [
+        "steam:1623730:2",
+        "steam:1623730:3",
+        "pal:Knocklem"
+      ]
+    },
+    {
+      "heading": "World Settings",
+      "script": "If you are playing in your own world, you can go further. Open World Settings before you load your world and raise the sliders for working Pals per base and for the number of bases. Guides say the maximum is fifty working Pals per base and ten bases. You still unlock them by leveling your base, so higher settings only raise the ceiling. These settings are per world, so make sure you edit the world you are actually playing. On a multiplayer server, the server owner controls these settings, and more Pals and bases can make the game run slower.",
+      "images": [
+        "steam:1623730:4",
+        "steam:1623730:5",
+        "steam:1623730:6"
+      ]
+    },
+    {
+      "heading": "Cover the bottleneck jobs first",
+      "script": "Which jobs should you fill first? Guides agree on six bottleneck jobs: Handiwork, Mining, Lumbering, Kindling, Watering and Transporting. Handiwork crafts almost everything. Mining and Lumbering give you stone, ore and wood. Kindling runs your furnaces and cooking. Watering keeps crops and some production moving. And Transporting carries everything to storage. If any one of these is weak, your whole base slows down. So before you add a fifth crafter, make sure each of these six jobs has at least one good Pal.",
+      "images": [
+        "pal:Anubis",
+        "pal:Knocklem",
+        "pal:Jormuntide Ignis",
+        "pal:Jormuntide"
+      ]
+    },
+    {
+      "heading": "Best Pals for each base job",
+      "script": "Here are the best Pals to staff those jobs. Before the endgame, Anubis for Handiwork and Mining, Knocklem for Mining and Transporting, Jormuntide Ignis for Kindling, Jormuntide for Watering, and Lyleen for Planting. In the endgame, the World Tree specialists take over: Solenne for Handiwork, Renjishi for Kindling, Shaolong for Watering, Dandilord for Planting, Aegidron for Mining, Celesdir Noct for Lumbering, Silvance for Medicine, Orserk for electricity, and Bastigor for Cooling. Knocklem stays the best transporter all game long.",
+      "images": [
+        "pal:Solenne",
+        "pal:Renjishi",
+        "pal:Shaolong",
+        "pal:Dandilord"
+      ]
+    },
+    {
+      "heading": "Set up a Ranch",
+      "script": "One of the best early upgrades is a Ranch. Farming Pals produce items when they are assigned to a Ranch. Mozzarina gives Milk, Chikipi gives Eggs, Beegarde gives Honey, Lamball gives Wool, and Sibelyx gives High Quality Cloth. Milk, Eggs and Honey are key ingredients for Cake, and Cake is what makes your Breeding Farm produce eggs. So a Ranch with Mozzarina, Chikipi and Beegarde supports both your kitchen and your breeding.",
+      "images": [
+        "pal:Mozzarina",
+        "pal:Chikipi",
+        "pal:Beegarde",
+        "pal:Lamball"
+      ]
+    },
+    {
+      "heading": "Layout and pathing",
+      "script": "A bad layout can waste half your workers' time. Keep your Feed Box, storage and workstations close together and on the same level, and leave wide paths between them. This matters most for large Pals like Knocklem and Shaolong, which can get stuck in tight spaces. Put your mining Pals near the stone and ore nodes, and your storage close to them. Put your furnaces next to your Kindling Pal, and your fields next to your Watering and Planting Pals. Short, wide routes mean more time working and less time walking.",
+      "images": [
+        "steam:1623730:7",
+        "pal:Knocklem",
+        "pal:Shaolong"
+      ]
+    },
+    {
+      "heading": "The Monitoring Stand",
+      "script": "Pals with several jobs, like Anubis, Dandilord, Renjishi, Blazamut and Silvance, can wander to low priority work. The Monitoring Stand fixes that. Use it to set work preferences and direct assignments, so each Pal focuses on the job you need. For example, keep your best Handiwork Pal on crafting instead of carrying wood. This is one of the easiest ways to make a base feel faster without catching a single new Pal.",
+      "images": [
+        "steam:1623730:8",
+        "pal:Dandilord",
+        "pal:Anubis"
+      ]
+    },
+    {
+      "heading": "Food, beds and sanity",
+      "script": "Strong workers only stay strong if you look after them. Every Pal at your base gets hungry, so keep the Feed Box stocked with food, and the better the food, the happier your workers. Build a Pal Bed for each worker, because Pals rest at night and a comfortable place to sleep keeps them healthy. Overworked Pals also lose sanity, and a Pal with low sanity works badly and can even get sick. Hot Springs help them recover, and Medicine from your medicine makers treats sick Pals. A base with good food, enough beds and a Hot Spring keeps its workers productive for much longer.",
+      "images": [
+        "steam:1623730:13",
+        "steam:1623730:14",
+        "pal:Silvance"
+      ]
+    },
+    {
+      "heading": "A breeding base",
+      "script": "A dedicated breeding base is one of the best uses for an extra base. You need a Breeding Farm, with one male and one female Pal assigned to it from the base, not from your party. Put Cake in the feed box, because each egg uses one Cake. Collect the eggs and hatch them in Egg Incubators, built inside a closed room so the temperature stays comfortable. A Ranch with Mozzarina, Chikipi and Beegarde next to it supplies the Milk, Eggs and Honey for the Cake, and passives like Philanthropist speed up the breeding.",
+      "images": [
+        "pal:Mozzarina",
+        "pal:Chikipi",
+        "pal:Beegarde",
+        "steam:1623730:15"
+      ]
+    },
+    {
+      "heading": "Defending your base",
+      "script": "Your base will not always be peaceful. From time to time, enemies attack your base, and your Pals will fight back. Keep a few strong combat Pals at each base, not only workers, and build defenses around the edges so attackers have a harder time reaching your workstations. A base that is easy to defend, with walls and clear space around it, means your workers spend less time fighting and more time working. Check on your bases after a raid to repair anything that was damaged.",
+      "images": [
+        "steam:1623730:16",
+        "pal:Anubis",
+        "steam:1623730:2"
+      ]
+    },
+    {
+      "heading": "Make your workers faster",
+      "script": "Once your base is set up, make your workers better. Condense your main workers to four stars, which raises every work suitability by one. Use Work Suitability books to push key jobs higher, since every job can now reach level ten. Breed for work speed passives like Artisan, Serious, Work Slave and Lucky, and Insomnia so they keep working at night. And add supporters like Wumpo, whose partner skill gives other Pals plus one Transporting, or Sekhmet, which speeds up Anubis.",
+      "images": [
+        "pal:Wumpo",
+        "pal:Sekhmet",
+        "steam:1623730:9"
+      ]
+    },
+    {
+      "heading": "Specialized bases",
+      "script": "With up to four bases by default, or more in your own world, it is smart to give each base a purpose. One base can be your main crafting and storage hub. Another can sit on top of a good ore field for mining and smelting. A third can be a farm and Ranch base, and a fourth can be a dedicated breeding base with Breeding Farms, Egg Incubators and a steady supply of Cake. Specialized bases are easier to manage, and each one can use the Pals and passives that fit its job.",
+      "images": [
+        "steam:1623730:10",
+        "steam:1623730:11",
+        "pal:Lyleen"
+      ]
+    },
+    {
+      "heading": "Build your best base",
+      "script": "So to recap: raise your Base Level with Palbox missions, use World Settings in your own world for bigger limits, cover the six bottleneck jobs first, add a Ranch, keep your layout short and wide, use the Monitoring Stand, and upgrade your workers with condensing, books and passives. How many bases do you have, and what is each one for? Tell me in the comments. If this helped, hit like and subscribe to HarryBeast Gaming for more Palworld guides.",
+      "images": [
+        "steam:1623730:12",
+        "pal:Knocklem"
+      ]
+    }
+  ]
+}

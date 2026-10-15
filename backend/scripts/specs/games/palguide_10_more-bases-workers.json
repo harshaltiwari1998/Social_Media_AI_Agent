@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-more-bases-workers",
+  "slot": "palguide",
+  "order": 10,
+  "headline": "How to get more bases and workers in Palworld",
+  "title": "How to Get More Bases and Workers in Palworld | Base Level and World Settings | Palworld Guide",
+  "video_script": "Want a bigger base in Palworld? By default you can have up to four bases and fifteen working Pals per base. To unlock more, raise your Base Level by completing the missions shown on your Palbox. Every milestone adds more workers and eventually more bases. Playing your own world? Open World Settings and raise the limits, up to fifty working Pals per base and ten bases. You still unlock them by leveling your base. How many bases do you have? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:16",
+      "label": "More Bases & Workers"
+    },
+    {
+      "image": "steam:1623730:1",
+      "fact": "4 bases, 15 workers",
+      "sub": "Default limits"
+    },
+    {
+      "image": "steam:1623730:3",
+      "fact": "Palbox missions",
+      "sub": "Raise your Base Level"
+    },
+    {
+      "image": "steam:1623730:4",
+      "fact": "World Settings",
+      "sub": "Up to 50 workers, 10 bases"
+    }
+  ],
+  "description": "Palworld 1.0 base limits: 4 bases and 15 working Pals per base by default. Raise your Base Level through Palbox missions to unlock more, and raise the caps in World Settings (up to 50 workers per base and 10 bases).",
+  "hashtags": [
+    "Palworld",
+    "PalworldGuide",
+    "PalworldBase"
+  ],
+  "tags": [
+    "Palworld base limit",
+    "Palworld more bases",
+    "Palworld base level",
+    "Palworld world settings",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld base building"
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "palworld-stronger-base-workers",
+  "category": "gaming",
+  "order": 20,
+  "title": "How to Make Your Base Pals Work Faster in Palworld | Passives, Condensing, Books | Palworld Base Guide",
+  "description": "How to make base Pals work faster in Palworld 1.0: the best worker passive skills (Artisan, Serious, Work Slave, Lucky, Remarkable Craftsmanship, Insomnia), condensing to 4 stars, Work Suitability books, mutations, partner skills and the Monitoring Stand.",
+  "hashtags": [
+    "Palworld",
+    "PalworldBase",
+    "Gaming"
+  ],
+  "tags": [
+    "Palworld passive skills",
+    "Palworld best worker passives",
+    "Palworld condensing",
+    "Palworld work speed",
+    "Palworld Artisan",
+    "Palworld 1.0",
+    "Palworld base guide",
+    "Palworld tips",
+    "Palworld work suitability book"
+  ],
+  "thumbnail": {
+    "image": "pal:Anubis",
+    "text": "SUPERCHARGE YOUR WORKERS"
+  },
+  "sections": [
+    {
+      "heading": "Faster workers, better base",
+      "script": "You have caught the best base Pals, but are they working as fast as they can? In Palworld one point zero there are several ways to make any worker much faster: passive skills, condensing, Work Suitability books, mutations, partner skills, and good management with the Monitoring Stand. In this video I will go through every one of them, explain what it does, and show you how to combine them. By the end, your base will be producing more items in less time, even with the same Pals. Let's start with the one that matters most for speed, passive skills.",
+      "images": [
+        "steam:1623730:0",
+        "pal:Anubis",
+        "steam:1623730:1"
+      ]
+    },
+    {
+      "heading": "Work speed passives",
+      "script": "Passive skills are the traits a Pal is born with, and several of them boost work speed. Serious gives plus twenty percent work speed. Work Slave gives plus thirty percent work speed, but lowers attack by thirty percent, which does not matter for a Pal that stays home. Artisan gives plus fifty percent work speed. Remarkable Craftsmanship gives plus seventy five percent. And Lucky gives plus twenty percent work speed along with plus fifteen percent attack and defense, which makes it great for a Pal that also fights. Conceited gives a small plus ten percent work speed with a defense penalty. A worker with three or four of these passives can be more than twice as fast as a normal one.",
+      "images": [
+        "pal:Anubis",
+        "pal:Knocklem",
+        "steam:1623730:2"
+      ]
+    },
+    {
+      "heading": "Night workers and special passives",
+      "script": "Speed is not the only thing that matters. Most Pals sleep at night, which means half the day your base slows down. The Insomnia passive stops a Pal from sleeping, so it keeps working through the night. Vampiric also means the Pal does not sleep at night. That is why guides suggest giving Insomnia to strong workers that are not naturally nocturnal, like Renjishi. Some passives raise a job directly. Farmhand gives plus one Farming, and Ranch Master gives plus two Farming. For a breeding base, Philanthropist doubles breeding speed at a Breeding Farm, and Babysitter speeds up egg production and incubation.",
+      "images": [
+        "pal:Renjishi",
+        "pal:Mozzarina",
+        "pal:Frostallion Noct"
+      ]
+    },
+    {
+      "heading": "How to get the passives you want",
+      "script": "You cannot add passive skills after a Pal is caught, but you can choose them through breeding. Children can inherit passive skills from their parents. So the classic method is to collect Pals that have the passives you want, breed them together, keep the best child, and repeat until one Pal has the perfect set. Breeding two Pals of the same species is the easiest way to keep the species while you improve the passives. This takes time and a lot of Cake, but a single worker with Artisan, Serious, Work Slave and Lucky will work circles around normal Pals for the rest of the game.",
+      "images": [
+        "pal:Anubis",
+        "pal:Chikipi",
+        "pal:Beegarde"
+      ]
+    },
+    {
+      "heading": "Condensing to four stars",
+      "script": "Condensing is the biggest upgrade for work levels. You feed duplicate Pals of the same species into the Pal Essence Condenser to rank your Pal up. In one point zero, each of the first three stars raises one work suitability by one, and reaching four stars raises every work suitability by one. Maxing a Pal out now takes forty eight Pals in total, much less than before. That means a level eight specialist can reach level nine and beyond. It is the most reliable way to push your best workers higher, so condense your main workers first.",
+      "images": [
+        "steam:1623730:3",
+        "pal:Solenne",
+        "pal:Renjishi"
+      ]
+    },
+    {
+      "heading": "Work Suitability books",
+      "script": "Work Suitability books are the next tool. They permanently raise one job rating on a Pal. Because every job can now reach level ten in one point zero, books are perfect for that final push, for example taking a worker from level nine to level ten after condensing. Books can also let a Pal reach high levels in a job it was not great at. Save your books for the Pals you will keep for the whole game, like your main Handiwork, Mining or Kindling worker, because that is where the extra speed pays off the most.",
+      "images": [
+        "steam:1623730:4",
+        "pal:Knocklem",
+        "pal:Dandilord"
+      ]
+    },
+    {
+      "heading": "Choose passives by role",
+      "script": "The best passives depend on what the Pal does. For a crafter that stays at the workbench, pure work speed is everything, so stack Artisan, Remarkable Craftsmanship, Serious and Work Slave. For a Pal that also fights for you, Lucky is better than Work Slave, because it raises attack and defense instead of lowering attack. For transporters and Pals that walk a lot, movement speed passives help them carry items faster. And for night shifts, Insomnia or Vampiric keeps them awake. Think about each worker's job before you start breeding for passives, so you don't waste time on skills it will never use.",
+      "images": [
+        "pal:Knocklem",
+        "pal:Mimog",
+        "pal:Renjishi"
+      ]
+    },
+    {
+      "heading": "What to upgrade first",
+      "script": "You will not be able to max out every Pal, so choose wisely. Start with the jobs your base uses the most, usually Handiwork and Mining, then Kindling for your furnaces and Transporting for moving items. Upgrade the Pals you plan to keep for the rest of the game, like Anubis, Knocklem or a level eight World Tree specialist, instead of Pals you will replace soon. Condensing gives the biggest jump for the effort, so do that first, then add Work Suitability books, and keep breeding for better passives in the background with a dedicated breeding base.",
+      "images": [
+        "pal:Anubis",
+        "pal:Knocklem",
+        "pal:Solenne"
+      ]
+    },
+    {
+      "heading": "Food, beds and sanity",
+      "script": "Strong workers only stay strong if you look after them. Every Pal at your base gets hungry, so keep the Feed Box stocked with food, and the better the food, the happier your workers. Build a Pal Bed for each worker, because Pals rest at night and a comfortable place to sleep keeps them healthy. Overworked Pals also lose sanity, and a Pal with low sanity works badly and can even get sick. Hot Springs help them recover, and Medicine from your medicine makers treats sick Pals. A base with good food, enough beds and a Hot Spring keeps its workers productive for much longer.",
+      "images": [
+        "steam:1623730:13",
+        "steam:1623730:14",
+        "pal:Silvance"
+      ]
+    },
+    {
+      "heading": "Partner skills that help the base",
+      "script": "Some partner skills boost the whole base or another Pal. Wumpo's partner skill gives other Pals at the base plus one Transporting, which is a great way to fix slow hauling. Sekhmet's partner skill boosts the work speed of Anubis, so if your base is full of Anubis, adding Sekhmet makes all of them faster. When you see a partner skill that mentions the base or other Pals, read it carefully. One good supporter can be worth more than adding another average worker.",
+      "images": [
+        "pal:Wumpo",
+        "pal:Sekhmet",
+        "pal:Anubis"
+      ]
+    },
+    {
+      "heading": "The Monitoring Stand",
+      "script": "All of this speed is wasted if your best Pals are doing the wrong jobs. Pals with several suitabilities, like Anubis, Dandilord, Renjishi, Blazamut and Silvance, can wander to low priority tasks. Build a Monitoring Stand and use work preferences and direct assignments, so your best crafter stays on Handiwork and your best miner stays on Mining. Also keep paths wide and keep storage, the Feed Box and your workstations close together on the same level, so big Pals like Knocklem and Shaolong do not get stuck.",
+      "images": [
+        "steam:1623730:6",
+        "pal:Dandilord",
+        "pal:Silvance"
+      ]
+    },
+    {
+      "heading": "Putting it all together",
+      "script": "Here is the full plan. Start with a Pal that has a high natural level in the job you need. Breed it until it has strong work speed passives like Artisan, Serious, Work Slave or Lucky, and add Insomnia if it sleeps at night. Condense it to four stars for plus one on every job. Use Work Suitability books to push its main job even higher. Add a supporter like Wumpo or Sekhmet. And finally, lock it to the right job with the Monitoring Stand. Do this for your three or four most important workers, and your base will feel twice as fast.",
+      "images": [
+        "pal:Anubis",
+        "pal:Wumpo",
+        "pal:Renjishi"
+      ]
+    },
+    {
+      "heading": "What is your best worker",
+      "script": "Those are all the ways to make your Palworld base Pals work faster. Passive skills, condensing, books, mutations, partner skills and smart management. What is the best worker at your base right now, and which passives does it have? Tell me in the comments. If this helped, hit like and subscribe to HarryBeast Gaming for more Palworld guides.",
+      "images": [
+        "pal:Solenne",
+        "pal:Knocklem"
+      ]
+    }
+  ]
+}

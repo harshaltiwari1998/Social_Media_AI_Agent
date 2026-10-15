@@ -612,5 +612,12 @@
   "palworld-guide-best-base-pals": {
     "spec": "scripts/specs/games/palguide_02_best-base-pals.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-26ebdaea.mp4"
+  },
+  "super-mario-history": {
+    "spec": "scripts/specs/long/gaming_04_super-mario-history.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-11913a70.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-11913a70-thumb.jpg",
+    "chapters": "0:00 The most famous plumber\n0:36 Nineteen eighty one: Donkey Kong\n1:09 Nineteen eighty five: Super Mario Bros\n1:49 Two very different sequels\n2:22 Super Mario Bros three and Super Mario World\n2:59 Nineteen ninety six: Super Mario 64\n3:35 Sunshine, Galaxy and new ideas\n4:16 Odyssey and Wonder\n5:02 The voice of Mario\n5:37 The Mario cast\n6:09 A franchise of records\n6:41 Your favourite Mario game"
   }
 }

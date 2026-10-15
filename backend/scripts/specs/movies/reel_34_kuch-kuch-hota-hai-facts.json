@@ -1,0 +1,49 @@
+{
+  "id": "reel-kuch-kuch-hota-hai-facts",
+  "category": "movies",
+  "slot": "reel",
+  "order": 34,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Kuch Kuch Hota Hai: Karan Johar की पहली film",
+  "title": "Kuch Kuch Hota Hai Facts | Karan Johar Ki Pehli Film | Shah Rukh Kajol Rani | Bollywood Facts",
+  "video_script": "Kuch Kuch Hota Hai 16 October 1998 को Diwali weekend पर रिलीज़ हुई. ये Karan Johar की बतौर director पहली film थी, और इसे उनके पिता Yash Johar ने बनाया. इसमें Shah Rukh Khan, Kajol और Rani Mukerji के साथ Salman Khan भी थे. फिल्म की कहानी दोस्ती और प्यार के त्रिकोण पर है. आपका favourite किरदार कौन सा है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Kuch Kuch Hota Hai",
+      "label": "Kuch Kuch Hota Hai (1998)"
+    },
+    {
+      "image": "wiki:Kuch Kuch Hota Hai",
+      "fact": "16 October 1998",
+      "sub": "Diwali weekend release"
+    },
+    {
+      "image": "wiki:Karan Johar",
+      "fact": "Karan Johar",
+      "sub": "Pehli film as director"
+    },
+    {
+      "image": "wiki:Kuch Kuch Hota Hai",
+      "fact": "Yash Johar",
+      "sub": "Producer"
+    }
+  ],
+  "description": "Kuch Kuch Hota Hai (16 October 1998): Karan Johar की पहली film, निर्माता Yash Johar; Shah Rukh Khan, Kajol, Rani Mukerji और Salman Khan.",
+  "hashtags": [
+    "KuchKuchHotaHai",
+    "KaranJohar",
+    "BollywoodFacts"
+  ],
+  "tags": [
+    "Kuch Kuch Hota Hai",
+    "Karan Johar",
+    "Shah Rukh Khan",
+    "Kajol",
+    "Rani Mukerji",
+    "Yash Johar",
+    "90s Bollywood"
+  ]
+}

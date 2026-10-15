@@ -1,0 +1,128 @@
+{
+  "id": "counter-strike-franchise-history",
+  "category": "gaming",
+  "order": 17,
+  "title": "The History of Counter-Strike | From a Half-Life Mod to Counter-Strike 2",
+  "description": "How Counter-Strike grew from a 1999 Half-Life mod by Minh Le and Jess Cliffe into a worldwide esports giant: Valve takes over, version 1.6, Source, Global Offensive, the free to play switch and Counter-Strike 2 in 2023.",
+  "hashtags": [
+    "CounterStrike",
+    "CS2",
+    "Gaming"
+  ],
+  "tags": [
+    "Counter-Strike history",
+    "Counter-Strike 2",
+    "CS GO",
+    "Counter-Strike 1.6",
+    "Valve",
+    "Minh Le",
+    "Half-Life mod",
+    "classic games",
+    "esports"
+  ],
+  "thumbnail": {
+    "image": "wiki:Counter-Strike 2",
+    "text": "HISTORY OF COUNTER-STRIKE"
+  },
+  "sections": [
+    {
+      "heading": "The game that changed shooters",
+      "script": "Two teams. One bomb. Every round is decided in a few tense seconds. Counter-Strike is one of the most influential multiplayer shooters ever made, and it started as a free fan made mod for another game. Today it is played by millions of people around the world, in living rooms, in internet cafes and on the biggest esports stages. In this video we walk through the complete history of Counter-Strike: how two hobbyist creators built a mod in nineteen ninety nine, how Valve turned it into a retail hit, how the series moved from version one point six to Source, to Global Offensive, and finally to Counter-Strike Two in twenty twenty three. If you have ever shouted that you are rushing B, this one is for you.",
+      "images": [
+        "wiki:Counter-Strike (video game)",
+        "wiki:Counter-Strike 2",
+        "wiki:Counter-Strike: Global Offensive"
+      ]
+    },
+    {
+      "heading": "A mod for Half-Life",
+      "script": "The story begins with a programmer named Minh Le, who went by the name Gooseman. He had already worked on mods for Quake, including Navy SEALs and Action Quake Two, and he wanted to build a mod of his own. He chose the Half-Life engine, called GoldSrc, because Half-Life had a realistic setting that suited his idea of terrorists against counter-terrorists. He was inspired by the Rainbow Six series. Development began in January of nineteen ninety nine, and he teamed up with Jess Cliffe, who helped with design, sound, art and community work. In March nineteen ninety nine the two of them settled on the name Counter-Strike, and the project began to attract attention from Half-Life fans around the world.",
+      "images": [
+        "wiki:Half-Life (video game)",
+        "wiki:Counter-Strike (video game)",
+        "wiki:Counter-Strike (video game)"
+      ]
+    },
+    {
+      "heading": "Valve steps in",
+      "script": "The mod grew so popular that Valve, the company behind Half-Life, took notice. In April of two thousand, Valve announced a partnership with the Counter-Strike team, and Valve took over the rights to the game. The creators joined the effort, and Valve worked on cleaning up the code and polishing the game. A full retail version was released in November of two thousand, and it was sold under the name Half-Life Counter-Strike. Valve also had to change some details for the retail release, including real weapon names, which were replaced by fictional ones. From that moment Counter-Strike was no longer just a mod. It became an official Valve game, and its players started to grow into the hundreds of thousands.",
+      "images": [
+        "wiki:Counter-Strike (video game)",
+        "wiki:Half-Life (video game)",
+        "wiki:Counter-Strike (video game)"
+      ]
+    },
+    {
+      "heading": "How the game works",
+      "script": "So what made Counter-Strike so addictive? The idea is simple. One team plays the Terrorists, the other plays the Counter-Terrorists. In the classic bomb defusal mode, the Terrorists try to plant a bomb on one of two bombsites, called A and B, and the Counter-Terrorists try to stop them or defuse it. In hostage rescue, the Counter-Terrorists try to bring hostages to safety. When you are eliminated, you do not respawn until the next round, so every move matters. Each round you earn money for kills, objectives and wins, and you spend it on better weapons. That buying system, called the economy, is what gives every match its tension and its strategy. In Counter-Strike Two, a standard match ends when one team wins thirteen rounds, and each team has five players.",
+      "images": [
+        "wiki:Counter-Strike (video game)",
+        "wiki:Counter-Strike 2",
+        "wiki:Counter-Strike (video game)"
+      ]
+    },
+    {
+      "heading": "Version one point six and Steam",
+      "script": "In two thousand three came the version that many players still remember most fondly: Counter-Strike one point six. A public beta started in January of two thousand three on Steam, and the final version arrived in September of two thousand three together with the Steam client. This update brought a redesigned interface and new weapons, and it became the version that is still remembered as a classic. It is also the reason that so many players call the original game simply one point six. Its arrival on Steam also showed how important the platform would become for the whole series.",
+      "images": [
+        "wiki:Counter-Strike (video game)",
+        "wiki:Counter-Strike (video game)",
+        "wiki:Half-Life (video game)"
+      ]
+    },
+    {
+      "heading": "Condition Zero and Source",
+      "script": "After one point six, Valve tried new directions. Counter-Strike Condition Zero was released in March of two thousand four. It was developed by Turtle Rock Studios and added a single player campaign, but it received mixed reviews compared to the original. Only a few months later, in October of two thousand four, came Counter-Strike Source. This was a remake of the original game on the new Source engine, the same technology that powered Half-Life Two. Source brought better graphics and real physics, so barrels, tires and bottles in the maps could move and react to your shots. Many fans loved the look, though a lot of competitive players stayed loyal to one point six for its feel.",
+      "images": [
+        "wiki:Counter-Strike: Condition Zero",
+        "wiki:Counter-Strike: Source",
+        "wiki:Counter-Strike (video game)"
+      ]
+    },
+    {
+      "heading": "Global Offensive arrives",
+      "script": "In August of twenty twelve, Valve released Counter-Strike Global Offensive, often called CS GO. Valve developed it together with Hidden Path Entertainment, and it launched on August twenty first for Windows, Mac, PlayStation Three and Xbox Three Sixty, with a Linux version following later. At launch it cost fourteen dollars and ninety nine cents. Global Offensive kept the classic bomb and hostage gameplay, but added new game modes, modern matchmaking, and a ranking system that let players compete against others of similar skill. It took a little time to win over every fan, but over the next years it grew into one of the most played games on the entire Steam platform.",
+      "images": [
+        "wiki:Counter-Strike: Global Offensive",
+        "wiki:Counter-Strike (video game)",
+        "wiki:Counter-Strike: Source"
+      ]
+    },
+    {
+      "heading": "Skins and the esports boom",
+      "script": "One update in August of twenty thirteen changed everything. The Arms Deal update added weapon skins, which are cosmetic designs that do not change how a gun plays. Players could earn weapon cases through drops, open them with keys, and trade or sell the skins on the Steam market. Soon a whole virtual economy was born around the game. At the same time, competitive Counter-Strike was growing. Valve began sponsoring Major Championships, which became the most prestigious tournaments in the series, with prize pools of around one million dollars. Global Offensive grew into one of the most popular esports in the world, with leagues and tournaments run by many organizers.",
+      "images": [
+        "wiki:Counter-Strike: Global Offensive",
+        "wiki:Counter-Strike (video game)",
+        "wiki:Counter-Strike 2"
+      ]
+    },
+    {
+      "heading": "Free to play",
+      "script": "On December sixth, twenty eighteen, Valve made a big change: Global Offensive became free to play. Players who already owned the game were upgraded to Prime status, which matches you with other Prime players, while new players could play for free and buy Prime later. The same update added a battle royale mode called Danger Zone, played on a map named Blacksite. With the entry price gone, anyone could try the game, and Valve kept earning from cosmetic items instead.",
+      "images": [
+        "wiki:Counter-Strike: Global Offensive",
+        "wiki:Counter-Strike (video game)",
+        "wiki:Counter-Strike 2"
+      ]
+    },
+    {
+      "heading": "Counter-Strike Two",
+      "script": "In March of twenty twenty three, Valve announced Counter-Strike Two, and on September twenty seventh, twenty twenty three, it launched as a free upgrade that replaced Global Offensive on Steam. The game moved to the Source Two engine, with better lighting and graphics, and a new server system called sub-tick, designed to register your movement and shots more accurately. Smoke grenades also became smarter, filling spaces and reacting to gunfire and grenades. Many classic maps were upgraded or rebuilt, such as Nuke and Inferno, while Dust Two kept its layout. A new Premier mode uses a pool of seven maps with a voting and banning system, and gives players a numerical rating. Best of all, the weapon skins you collected in Global Offensive were carried over, so your inventory moved to the new game with you.",
+      "images": [
+        "wiki:Counter-Strike 2",
+        "wiki:Counter-Strike (video game)",
+        "wiki:Counter-Strike: Global Offensive"
+      ]
+    },
+    {
+      "heading": "Your Counter-Strike story",
+      "script": "That is the story of Counter-Strike, from a nineteen ninety nine Half-Life mod made by two fans to a worldwide esports giant that is still growing. Few games have stayed relevant for more than twenty five years, and that tells you how strong its simple idea really is. Now we want to hear from you. Which version is your favorite: one point six, Source, Global Offensive or Counter-Strike Two? And which map is your all time favorite, Dust Two, Inferno or Mirage? Tell us in the comments below. If you enjoyed this video, please subscribe to the channel for more gaming history, news and guides, and we will see you in the next one.",
+      "images": [
+        "wiki:Counter-Strike (video game)",
+        "wiki:Counter-Strike 2",
+        "wiki:Counter-Strike: Global Offensive"
+      ]
+    }
+  ]
+}

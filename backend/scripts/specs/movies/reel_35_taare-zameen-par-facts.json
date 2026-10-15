@@ -1,0 +1,49 @@
+{
+  "id": "reel-taare-zameen-par-facts",
+  "category": "movies",
+  "slot": "reel",
+  "order": 35,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Taare Zameen Par: Aamir Khan की पहली film as director",
+  "title": "Taare Zameen Par Facts | Aamir Khan Ki Directorial Debut | Dyslexia | Bollywood Facts",
+  "video_script": "Taare Zameen Par 21 December 2007 को रिलीज़ हुई, और ये Aamir Khan की बतौर director पहली film थी. कहानी आठ साल के Ishaan की है, जिसे पढ़ने में दिक्कत होती है. एक art teacher समझता है कि उसे dyslexia है. इस film में Darsheel Safary ने Ishaan का किरदार निभाया, और इसने बच्चों की इस समस्या के बारे में जागरूकता फैलाई. आपका favourite scene कौन सा है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Taare Zameen Par",
+      "label": "Taare Zameen Par (2007)"
+    },
+    {
+      "image": "wiki:Taare Zameen Par",
+      "fact": "21 December 2007",
+      "sub": "Release date"
+    },
+    {
+      "image": "wiki:Aamir Khan",
+      "fact": "Aamir Khan",
+      "sub": "Directorial debut"
+    },
+    {
+      "image": "wiki:Taare Zameen Par",
+      "fact": "Dyslexia",
+      "sub": "Darsheel Safary as Ishaan"
+    }
+  ],
+  "description": "Taare Zameen Par (21 December 2007): Aamir Khan की पहली directorial film, Darsheel Safary, dyslexia पर जागरूकता.",
+  "hashtags": [
+    "TaareZameenPar",
+    "AamirKhan",
+    "BollywoodFacts"
+  ],
+  "tags": [
+    "Taare Zameen Par",
+    "Aamir Khan",
+    "Darsheel Safary",
+    "dyslexia",
+    "Bollywood facts",
+    "Bollywood classics",
+    "Aamir Khan director"
+  ]
+}

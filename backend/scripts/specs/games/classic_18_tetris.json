@@ -1,0 +1,45 @@
+{
+  "id": "tetris",
+  "slot": "classic",
+  "order": 18,
+  "headline": "Tetris - the game from a Soviet computer lab",
+  "title": "The Story of Tetris | A Soviet Engineer's Puzzle Game | Classic Games",
+  "video_script": "Tetris was created by Alexey Pajitnov, a Soviet software engineer, in the mid nineteen eighties. He made it in his spare time while working at the Dorodnitsyn Computing Center in Moscow. In the game, falling pieces made of four connected blocks must fill a horizontal line, and when a line is complete it disappears. Copies on floppy disks spread freely around Moscow before reaching Eastern Europe. Which classic puzzle game do you love? Comment below!",
+  "scenes": [
+    {
+      "image": "wikifile:Tetris-VeryFirstVersion.png",
+      "label": "Tetris"
+    },
+    {
+      "image": "wikifile:Alexey Pajitnov January 2008 cropped.jpg",
+      "fact": "Alexey Pajitnov",
+      "sub": "Soviet software engineer"
+    },
+    {
+      "image": "wikifile:Tetris-VeryFirstVersion.png",
+      "fact": "Four-block pieces",
+      "sub": "Fill a line to clear it"
+    },
+    {
+      "image": "wikifile:Tetris-VeryFirstVersion.png",
+      "fact": "Floppy disk copies",
+      "sub": "Spread across Moscow"
+    }
+  ],
+  "description": "Tetris was created in the mid 1980s by Soviet engineer Alexey Pajitnov at the Dorodnitsyn Computing Center in Moscow, and spread on floppy disks before reaching Eastern Europe.",
+  "hashtags": [
+    "Tetris",
+    "ClassicGames",
+    "RetroGaming"
+  ],
+  "tags": [
+    "Tetris",
+    "Alexey Pajitnov",
+    "Soviet games",
+    "puzzle games",
+    "Dorodnitsyn Computing Center",
+    "classic games",
+    "retro gaming",
+    "tetrominoes"
+  ]
+}

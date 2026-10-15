@@ -1,0 +1,49 @@
+{
+  "id": "reel-dil-chahta-hai-facts",
+  "category": "movies",
+  "slot": "reel",
+  "order": 39,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Dil Chahta Hai: Farhan Akhtar की पहली film",
+  "title": "Dil Chahta Hai Facts | Farhan Akhtar Ki Pehli Film | Aamir Saif Akshaye | Bollywood Facts",
+  "video_script": "Dil Chahta Hai 10 August 2001 को रिलीज़ हुई, और ये Farhan Akhtar की बतौर director पहली film थी. तीन दोस्तों की कहानी में Aamir Khan, Saif Ali Khan और Akshaye Khanna थे, और साथ में Preity Zinta, Sonali Kulkarni और Dimple Kapadia भी. film ने National Film Award में Best Feature Film in Hindi जीता, और आज भी इसे cult classic कहा जाता है. आपका favourite दोस्त कौन सा है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Dil Chahta Hai",
+      "label": "Dil Chahta Hai (2001)"
+    },
+    {
+      "image": "wiki:Dil Chahta Hai",
+      "fact": "10 August 2001",
+      "sub": "Release date"
+    },
+    {
+      "image": "wiki:Farhan Akhtar",
+      "fact": "Farhan Akhtar",
+      "sub": "Directorial debut"
+    },
+    {
+      "image": "wiki:Dil Chahta Hai",
+      "fact": "National Award",
+      "sub": "Best Feature Film in Hindi"
+    }
+  ],
+  "description": "Dil Chahta Hai (10 August 2001): Farhan Akhtar की पहली film, Aamir Khan, Saif Ali Khan, Akshaye Khanna; National Film Award for Best Feature Film in Hindi.",
+  "hashtags": [
+    "DilChahtaHai",
+    "FarhanAkhtar",
+    "BollywoodFacts"
+  ],
+  "tags": [
+    "Dil Chahta Hai",
+    "Farhan Akhtar",
+    "Aamir Khan",
+    "Saif Ali Khan",
+    "Akshaye Khanna",
+    "cult classic",
+    "Bollywood facts"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "reel-pather-panchali-cannes",
+  "category": "movies",
+  "slot": "reel",
+  "order": 32,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Pather Panchali: Satyajit Ray की पहली film",
+  "title": "Pather Panchali Facts | Satyajit Ray Ki Pehli Film | Cannes Best Human Document | Movie Facts",
+  "video_script": "Pather Panchali 1955 में आई Satyajit Ray की पहली film है. ये Bibhutibhushan Bandyopadhyay के 1929 के Bengali उपन्यास पर बनी है, और इसमें गाँव के गरीब परिवार में Apu और उसकी बहन Durga की कहानी दिखती है. 1956 में इसे Cannes film festival में Best Human Document का award मिला. ये Apu Trilogy की पहली film है. आपने कौन सी Satyajit Ray film देखी है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Pather Panchali",
+      "label": "Pather Panchali (1955)"
+    },
+    {
+      "image": "wiki:Satyajit Ray",
+      "fact": "Satyajit Ray",
+      "sub": "Unki pehli film"
+    },
+    {
+      "image": "wiki:Pather Panchali",
+      "fact": "Cannes 1956",
+      "sub": "Best Human Document"
+    },
+    {
+      "image": "wiki:Pather Panchali",
+      "fact": "Apu Trilogy",
+      "sub": "Pehli film"
+    }
+  ],
+  "description": "Pather Panchali (1955): Satyajit Ray की पहली film, 1929 के Bengali उपन्यास पर आधारित; 1956 में Cannes में Best Human Document award; Apu Trilogy की पहली film.",
+  "hashtags": [
+    "PatherPanchali",
+    "SatyajitRay",
+    "IndianCinema"
+  ],
+  "tags": [
+    "Pather Panchali",
+    "Satyajit Ray",
+    "Apu Trilogy",
+    "Cannes 1956",
+    "Best Human Document",
+    "Indian cinema classics",
+    "Bengali cinema"
+  ]
+}

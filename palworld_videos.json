@@ -1155,5 +1155,25 @@
       ],
       "unique": false
     }
+  },
+  "Fuack": {
+    "spec": "scripts/specs/palworld_fuack.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-07e00c3c.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Fuack",
+      "caption": "Chikipi + Rushoar = Fuack. A Palworld 1.0 breeding combo.",
+      "video_script": "Chikipi plus Rushoar equals Fuack! That is a real Palworld one point zero breeding combo. Drop both Pals on your Breeding Farm, add a cake and wait for the egg to hatch. Save this video so you do not forget it. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Chikipi",
+        "Rushoar"
+      ],
+      "child": "Fuack",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
   }
 }

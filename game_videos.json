@@ -596,5 +596,17 @@
   "comedy-joke-bas-ek-chai": {
     "spec": "scripts/specs/movies/comedy_10_joke-bas-ek-chai.json",
     "video": "F:\\AI AGENT\\run_comedy\\videos\\short-9fe85c2a.mp4"
+  },
+  "super-mario-bros": {
+    "spec": "scripts/specs/games/classic_08_super-mario-bros.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-d625ae5f.mp4"
+  },
+  "nayyi-navelli": {
+    "spec": "scripts/specs/movies/movie_new_08_nayyi-navelli.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-41f9f379.mp4"
+  },
+  "reel-mother-india-oscar": {
+    "spec": "scripts/specs/movies/reel_31_mother-india-oscar.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-bdcd5aff.mp4"
   }
 }

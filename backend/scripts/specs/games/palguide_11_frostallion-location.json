@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-frostallion-location",
+  "slot": "palguide",
+  "order": 11,
+  "headline": "Where to find Frostallion in Palworld 1.0",
+  "title": "Where to Find Frostallion in Palworld | Legendary Location and Level | Palworld Guide",
+  "video_script": "Want the legendary Frostallion in Palworld one point zero? It's now a level sixty field boss, up from level fifty in early access. You'll find it at a frozen lake in the Astral Mountains, at around minus three five seven, five zero eight. It's an Ice Pal, so bring Fire Pals and warm clothing for the cold. Frostallion is a great mount and one of the best Cooling Pals for your base. Have you caught it yet? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Frostallion",
+      "label": "Frostallion Location"
+    },
+    {
+      "image": "pal:Frostallion",
+      "fact": "Level 60",
+      "sub": "Up from 50 in early access"
+    },
+    {
+      "image": "steam:1623730:3",
+      "fact": "Astral Mountains",
+      "sub": "Frozen lake, around -357, 508"
+    },
+    {
+      "image": "pal:Frostallion",
+      "fact": "Ice type",
+      "sub": "Bring Fire Pals"
+    }
+  ],
+  "description": "Palworld 1.0 Frostallion location: a level 60 legendary field boss at a frozen lake in the Astral Mountains, around (-357, 508). It was level 50 in early access. Ice type - bring Fire Pals.",
+  "hashtags": [
+    "Palworld",
+    "Frostallion",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Frostallion location",
+    "where to find Frostallion",
+    "Palworld legendary pals",
+    "Palworld 1.0",
+    "Astral Mountains",
+    "Palworld guide",
+    "Palworld tips"
+  ]
+}

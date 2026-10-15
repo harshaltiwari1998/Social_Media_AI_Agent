@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-sulfur-location",
+  "slot": "palguide",
+  "order": 15,
+  "headline": "Where to find sulfur in Palworld",
+  "title": "Where to Find Sulfur in Palworld | Mount Obsidian Mining | Palworld Guide",
+  "video_script": "Need sulfur for gunpowder in Palworld? Head to Mount Obsidian, the volcano area. That's where sulfur nodes are found, around the volcano and its foot. It's hot there, so wear heat resistant armor or bring a Pal that helps with the heat, and expect strong Fire Pals. Mine it yourself, or bring Knocklem or Anubis if you build a base nearby, because they are the best miners. Do you have a volcano base? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:9",
+      "label": "Sulfur Location"
+    },
+    {
+      "image": "steam:1623730:10",
+      "fact": "Mount Obsidian",
+      "sub": "The volcano area"
+    },
+    {
+      "image": "steam:1623730:11",
+      "fact": "Heat resistant gear",
+      "sub": "It's hot up there"
+    },
+    {
+      "image": "pal:Knocklem",
+      "fact": "Best miners",
+      "sub": "Knocklem or Anubis"
+    }
+  ],
+  "description": "Palworld 1.0 sulfur: mine sulfur nodes around Mount Obsidian, the volcano area. Bring heat resistance; Knocklem and Anubis are the best miners.",
+  "hashtags": [
+    "Palworld",
+    "PalworldGuide",
+    "Sulfur"
+  ],
+  "tags": [
+    "Palworld sulfur location",
+    "Palworld sulfur",
+    "Palworld Mount Obsidian",
+    "Palworld gunpowder",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld mining"
+  ]
+}

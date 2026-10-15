@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-paladius-necromus-location",
+  "slot": "palguide",
+  "order": 12,
+  "headline": "Paladius and Necromus in Palworld 1.0",
+  "title": "Where to Find Paladius and Necromus in Palworld | Legendary Location | Palworld Guide",
+  "video_script": "Paladius and Necromus are two legendary Pals that share the same arena in Palworld. In one point zero, both are level sixty, up from fifty in early access. Their arena is in the desert, at around four four six, six eight zero. Here's the catch: you can only summon one of them at a time, so you'll need to come back for the other. Paladius is Neutral and Necromus is Dark. Which one are you catching first? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Paladius",
+      "label": "Paladius & Necromus"
+    },
+    {
+      "image": "pal:Necromus",
+      "fact": "Level 60",
+      "sub": "Both legendaries"
+    },
+    {
+      "image": "steam:1623730:6",
+      "fact": "Shared desert arena",
+      "sub": "Around 446, 680"
+    },
+    {
+      "image": "pal:Paladius",
+      "fact": "One at a time",
+      "sub": "Come back for the other"
+    }
+  ],
+  "description": "Palworld 1.0 Paladius and Necromus: both level 60 legendaries sharing one desert arena around (446, 680). Only one can be summoned at a time. Paladius is Neutral, Necromus is Dark.",
+  "hashtags": [
+    "Palworld",
+    "Paladius",
+    "Necromus"
+  ],
+  "tags": [
+    "Palworld Paladius location",
+    "Palworld Necromus location",
+    "Palworld legendary pals",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld tips",
+    "Palworld desert"
+  ]
+}

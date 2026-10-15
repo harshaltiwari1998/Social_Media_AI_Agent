@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-ore-coal-base-location",
+  "slot": "palguide",
+  "order": 14,
+  "headline": "Best ore and coal base spot in Palworld 1.0",
+  "title": "Best Ore and Coal Base Location in Palworld | Sealed Realm of the Guardian | Palworld Guide",
+  "video_script": "Looking for a base with ore and coal in Palworld? Many one point zero guides recommend the high ground near the Sealed Realm of the Guardian, at around one eighty, minus thirty nine. From there, ore and coal nodes are inside one base radius, so your miners can work on both without walking far. Put Knocklem or Anubis there for mining, and build your furnaces right next to the nodes. Where's your mining base? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:7",
+      "label": "Ore + Coal Base"
+    },
+    {
+      "image": "steam:1623730:8",
+      "fact": "Sealed Realm of the Guardian",
+      "sub": "Around 180, -39"
+    },
+    {
+      "image": "pal:Knocklem",
+      "fact": "Ore + coal nodes",
+      "sub": "In one base radius"
+    },
+    {
+      "image": "pal:Anubis",
+      "fact": "Best miners",
+      "sub": "Knocklem or Anubis"
+    }
+  ],
+  "description": "Palworld 1.0 ore and coal base: the high ground near the Sealed Realm of the Guardian around (180, -39) puts ore and coal nodes inside one base radius. Staff it with Knocklem or Anubis.",
+  "hashtags": [
+    "Palworld",
+    "PalworldBase",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld best base location",
+    "Palworld ore location",
+    "Palworld coal location",
+    "Palworld mining base",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Sealed Realm of the Guardian"
+  ]
+}

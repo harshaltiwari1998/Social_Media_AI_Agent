@@ -694,5 +694,29 @@
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-11913a70.mp4",
     "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-11913a70-thumb.jpg",
     "chapters": "0:00 The most famous plumber\n0:36 Nineteen eighty one: Donkey Kong\n1:09 Nineteen eighty five: Super Mario Bros\n1:49 Two very different sequels\n2:22 Super Mario Bros three and Super Mario World\n2:59 Nineteen ninety six: Super Mario 64\n3:35 Sunshine, Galaxy and new ideas\n4:16 Odyssey and Wonder\n5:02 The voice of Mario\n5:37 The Mario cast\n6:09 A franchise of records\n6:41 Your favourite Mario game"
+  },
+  "palworld-guide-legendary-pals-levels": {
+    "spec": "scripts/specs/games/palguide_16_legendary-pals-levels.json",
+    "video": "F:\\AI AGENT\\run_pg2\\videos\\short-ac174b85.mp4"
+  },
+  "palworld-guide-sulfur-location": {
+    "spec": "scripts/specs/games/palguide_15_sulfur-location.json",
+    "video": "F:\\AI AGENT\\run_pg2\\videos\\short-737892d6.mp4"
+  },
+  "palworld-guide-ore-coal-base-location": {
+    "spec": "scripts/specs/games/palguide_14_ore-coal-base-location.json",
+    "video": "F:\\AI AGENT\\run_pg2\\videos\\short-cf27058b.mp4"
+  },
+  "palworld-guide-best-flying-mounts": {
+    "spec": "scripts/specs/games/palguide_13_best-flying-mounts.json",
+    "video": "F:\\AI AGENT\\run_pg2\\videos\\short-8e6a3829.mp4"
+  },
+  "palworld-guide-paladius-necromus-location": {
+    "spec": "scripts/specs/games/palguide_12_paladius-necromus-location.json",
+    "video": "F:\\AI AGENT\\run_pg2\\videos\\short-f9754753.mp4"
+  },
+  "palworld-guide-frostallion-location": {
+    "spec": "scripts/specs/games/palguide_11_frostallion-location.json",
+    "video": "F:\\AI AGENT\\run_pg2\\videos\\short-062cdb72.mp4"
   }
 }

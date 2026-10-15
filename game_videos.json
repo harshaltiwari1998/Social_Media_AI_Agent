@@ -608,5 +608,9 @@
   "reel-mother-india-oscar": {
     "spec": "scripts/specs/movies/reel_31_mother-india-oscar.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-bdcd5aff.mp4"
+  },
+  "palworld-guide-best-base-pals": {
+    "spec": "scripts/specs/games/palguide_02_best-base-pals.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-26ebdaea.mp4"
   }
 }

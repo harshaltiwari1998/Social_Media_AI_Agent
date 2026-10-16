@@ -774,6 +774,60 @@
     "spec": "scripts/specs/games/palguide_03_tower-bosses-part-1.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-086e9443.mp4"
   },
+  "palworld-beginner-guide": {
+    "spec": "scripts/specs/long/gaming_24_palworld-beginner-guide.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_pg3\\videos\\long-9194e61a.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_pg3\\videos\\long-9194e61a-thumb.jpg",
+    "chapters": "0:00 Welcome to Palworld\n0:29 Your first catches\n1:04 Your first base\n1:37 Set up a Ranch early\n2:05 How to catch Pals\n2:38 Level up fast\n3:09 Your first Alpha\n3:40 Your first tower bosses\n4:13 Where to go next\n4:43 Your first flying mount\n5:14 Where to find ore, coal and sulfur\n5:45 Your first oil rig\n6:13 Quick tips\n6:42 Have fun, Tamer"
+  },
+  "palworld-endgame-guide": {
+    "spec": "scripts/specs/long/gaming_23_palworld-endgame-guide.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_pg3\\videos\\long-76995d74.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_pg3\\videos\\long-76995d74-thumb.jpg",
+    "chapters": "0:00 The road to the endgame\n0:33 Before you leave Palpagos\n1:06 Feybreak and Bjorn\n1:39 Into Sunreach\n2:14 The six barrier devices and Auri\n2:47 The Panthalus quest\n3:21 The World Tree\n3:53 Raid bosses\n4:25 The best Pals to bring\n4:57 Catching the legendaries\n5:32 Endgame mounts\n6:04 How to prepare\n6:35 See you in the World Tree"
+  },
+  "palworld-guide-regions-in-order": {
+    "spec": "scripts/specs/games/palguide_26_regions-in-order.json",
+    "video": "F:\\AI AGENT\\run_pg3\\videos\\short-46ba4dc0.mp4"
+  },
+  "palworld-guide-jormuntide-ignis": {
+    "spec": "scripts/specs/games/palguide_25_jormuntide-ignis.json",
+    "video": "F:\\AI AGENT\\run_pg3\\videos\\short-c9db00d1.mp4"
+  },
+  "palworld-guide-whats-new-in-1-0": {
+    "spec": "scripts/specs/games/palguide_24_whats-new-in-1-0.json",
+    "video": "F:\\AI AGENT\\run_pg3\\videos\\short-c1d1de0e.mp4"
+  },
+  "palworld-guide-how-to-unlock-world-tree": {
+    "spec": "scripts/specs/games/palguide_23_how-to-unlock-world-tree.json",
+    "video": "F:\\AI AGENT\\run_pg3\\videos\\short-19881121.mp4"
+  },
+  "palworld-guide-final-tower-auri-shaolong": {
+    "spec": "scripts/specs/games/palguide_22_final-tower-auri-shaolong.json",
+    "video": "F:\\AI AGENT\\run_pg3\\videos\\short-b697a254.mp4"
+  },
+  "palworld-guide-how-to-reach-sunreach": {
+    "spec": "scripts/specs/games/palguide_21_how-to-reach-sunreach.json",
+    "video": "F:\\AI AGENT\\run_pg3\\videos\\short-fcd2177e.mp4"
+  },
+  "palworld-guide-best-early-pals": {
+    "spec": "scripts/specs/games/palguide_20_best-early-pals.json",
+    "video": "F:\\AI AGENT\\run_pg3\\videos\\short-e1de5a3a.mp4"
+  },
+  "palworld-guide-lifmunk-effigies": {
+    "spec": "scripts/specs/games/palguide_19_lifmunk-effigies.json",
+    "video": "F:\\AI AGENT\\run_pg3\\videos\\short-bf4bc19a.mp4"
+  },
+  "palworld-guide-how-to-summon-raid-boss": {
+    "spec": "scripts/specs/games/palguide_18_how-to-summon-raid-boss.json",
+    "video": "F:\\AI AGENT\\run_pg3\\videos\\short-b304f779.mp4"
+  },
+  "palworld-guide-best-combat-pals": {
+    "spec": "scripts/specs/games/palguide_17_best-combat-pals.json",
+    "video": "F:\\AI AGENT\\run_pg3\\videos\\short-f0d5318d.mp4"
+  },
   "call-of-duty-history": {
     "spec": "scripts/specs/long/gaming_05_call-of-duty-history.json",
     "kind": "long",

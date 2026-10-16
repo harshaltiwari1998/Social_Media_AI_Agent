@@ -23,11 +23,16 @@ ROOT = Path(__file__).resolve().parent.parent
 API = "https://gen.pollinations.ai"
 SIZE = (768, 1344)
 
-STYLE = ("hyper-realistic 3D collectible figure, full body, clean light grey seamless studio background, "
-         "glossy reflective floor with soft reflection, soft diffused studio lighting, octane render, "
-         "8k, highly detailed textures, centered composition, vertical 9:16")
-BASE = ("Lucario, blue and black jackal warrior with cream chest fur, sharp spike on its chest and back of paws, "
-        "red eyes, four black appendages behind its head, standing in a confident fighting stance, " + STYLE)
+STYLE = ("photorealistic CGI creature, realistic detailed fur strands and skin texture, cinematic creature concept art, "
+         "full body, clean light grey seamless studio background, glossy reflective floor with soft reflection, "
+         "dramatic soft studio lighting, unreal engine 5 render, 8k, ultra detailed, centered composition, vertical 9:16")
+BASE = ("Lucario as a real living creature, photorealistic CGI creature design, blue and black jackal warrior with realistic "
+        "cream chest fur, sharp metallic spike on its chest and back of paws, glowing red eyes, four black appendages behind "
+        "its head, muscular athletic body, standing in a confident fighting stance, realistic detailed fur strands and skin "
+        "texture, cinematic creature concept art, full body, clean light grey seamless studio background, glossy reflective "
+        "floor with soft reflection, dramatic soft studio lighting, unreal engine 5 render, 8k, ultra detailed, centered "
+        "composition, vertical 9:16")
+BASE_SEED = 23
 KEEP = "Keep exactly the same character, face, proportions and camera framing. "
 
 # (key, form name, stone description, element burst, transformed look, attack)
@@ -120,7 +125,7 @@ def edit_image(prompt: str, source: Path, out: Path, model: str = "klein") -> No
 def generate(out_dir: Path, video: int) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     base = out_dir / "base.jpg"
-    text_to_image(BASE, base, seed=42)
+    text_to_image(BASE, base, seed=BASE_SEED)
     forms = VIDEO_FORMS[video]
     stones = ", ".join(f[2] for f in forms)
     edit_image(KEEP + f"Five evolution stones lie in a row on the floor in front of the character: {stones}. "

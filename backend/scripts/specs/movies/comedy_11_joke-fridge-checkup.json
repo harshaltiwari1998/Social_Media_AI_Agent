@@ -1,0 +1,48 @@
+{
+  "id": "comedy-joke-fridge-checkup",
+  "slot": "comedy",
+  "order": 11,
+  "category": "movies",
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Fridge check-up",
+  "title": "Fridge Check Up | Har 10 Minute Mein Fridge | Hindi Jokes",
+  "video_script": "हर घर में एक ऐसा इंसान होता है जो हर दस मिनट में fridge खोलता है. Fridge खोला, अंदर देखा, कुछ नहीं लिया, बंद कर दिया. दस मिनट बाद फिर खोला, शायद अब कुछ नया आ गया हो. Mummy बोलीं, बेटा fridge कोई TV नहीं है जो हर बार नया episode आएगा! आपके घर में ये कौन है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wikifile:Open refrigerator with food at night.jpg",
+      "label": "Fridge Check-up"
+    },
+    {
+      "image": "wikifile:Open refrigerator with food at night.jpg",
+      "fact": "हर 10 minute",
+      "sub": "Fridge खोलो, बंद करो"
+    },
+    {
+      "image": "wikifile:LG refrigerator interior.jpg",
+      "fact": "शायद अब कुछ नया हो",
+      "sub": "फिर से खोलो"
+    },
+    {
+      "image": "wikifile:Open refrigerator with food at night.jpg",
+      "fact": "Mummy:",
+      "sub": "Fridge कोई TV नहीं है!"
+    }
+  ],
+  "description": "Fridge check-up - original Hindi comedy.",
+  "hashtags": [
+    "HindiJokes",
+    "Comedy",
+    "FunnyReels"
+  ],
+  "tags": [
+    "Hindi jokes",
+    "funny Hindi reels",
+    "relatable comedy",
+    "comedy reels",
+    "family comedy",
+    "desi jokes"
+  ]
+}

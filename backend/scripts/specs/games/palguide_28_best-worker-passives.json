@@ -1,0 +1,49 @@
+{
+  "id": "palworld-guide-best-worker-passives",
+  "slot": "palguide",
+  "order": 28,
+  "headline": "Best worker passive skills in Palworld",
+  "title": "Best Worker Passive Skills in Palworld | Artisan, Work Slave, Serious | Palworld Guide",
+  "video_script": "Want faster base workers in Palworld? Look for these passive skills. Serious gives plus twenty percent work speed. Work Slave gives plus thirty percent, but lowers attack, which doesn't matter at home. Artisan gives plus fifty percent. Remarkable Craftsmanship gives plus seventy five percent. Lucky adds work speed and combat stats. And Insomnia stops a Pal from sleeping, so it works through the night. Breed them together for the perfect worker. Comment your best worker!",
+  "scenes": [
+    {
+      "image": "pal:Anubis",
+      "label": "Best Worker Passives"
+    },
+    {
+      "image": "pal:Anubis",
+      "fact": "Serious +20%",
+      "sub": "Work Slave +30%"
+    },
+    {
+      "image": "pal:Knocklem",
+      "fact": "Artisan +50%",
+      "sub": "Work speed"
+    },
+    {
+      "image": "pal:Solenne",
+      "fact": "Craftsmanship +75%",
+      "sub": "Remarkable Craftsmanship"
+    },
+    {
+      "image": "pal:Renjishi",
+      "fact": "Insomnia",
+      "sub": "Works through the night"
+    }
+  ],
+  "description": "Best worker passives in Palworld: Serious (+20% work speed), Work Slave (+30%, -30% attack), Artisan (+50%), Remarkable Craftsmanship (+75%), Lucky, and Insomnia for night shifts.",
+  "hashtags": [
+    "Palworld",
+    "PalworldBase",
+    "PalworldPassives"
+  ],
+  "tags": [
+    "Palworld worker passives",
+    "Palworld Artisan",
+    "Palworld Work Slave",
+    "Palworld best base passives",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld tips"
+  ]
+}

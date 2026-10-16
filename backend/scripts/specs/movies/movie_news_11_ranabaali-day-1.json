@@ -1,0 +1,45 @@
+{
+  "id": "news-ranabaali-day-1",
+  "slot": "movie_news",
+  "order": 11,
+  "category": "movies",
+  "expires": "2026-11-05",
+  "headline": "Ranabaali का पहला दिन",
+  "title": "Ranabaali Box Office Day 1 | Vijay Deverakonda Film Collection | Movie Box Office Hindi",
+  "video_script": "Vijay Deverakonda और Rashmika Mandanna की Ranabaali ने Jailer 2 के सामने भी अपनी जगह बनाई. Sacnilk के मुताबिक film ने पहले दिन India में करीब 9.25 करोड़ net और 10.75 करोड़ gross कमाए. सबसे ज़्यादा कमाई Andhra Pradesh और Telangana से आई. Jailer 2 के ठीक एक दिन बाद आना आसान नहीं था, फिर भी ये Friday की सबसे बड़ी नई release रही. Ranabaali देखने जाओगे? Comment करो!",
+  "scenes": [
+    {
+      "image": "yt:A36nagDzugo:maxresdefault",
+      "label": "Ranabaali Day 1"
+    },
+    {
+      "image": "yt:A36nagDzugo:maxres1",
+      "fact": "~₹9.25 Cr",
+      "sub": "Day 1 India net"
+    },
+    {
+      "image": "wiki:Vijay Deverakonda",
+      "fact": "Andhra & Telangana",
+      "sub": "Biggest share"
+    },
+    {
+      "image": "yt:A36nagDzugo:maxres2",
+      "fact": "Friday's top new release",
+      "sub": "Despite Jailer 2"
+    }
+  ],
+  "description": "Ranabaali Day 1 (Sacnilk): करीब ₹9.25 करोड़ net, ₹10.75 करोड़ gross, सबसे ज़्यादा Andhra Pradesh और Telangana से. 16 October की सबसे बड़ी नई release.",
+  "hashtags": [
+    "BoxOffice",
+    "MovieNews",
+    "Bollywood"
+  ],
+  "tags": [
+    "box office collection",
+    "Jailer 2",
+    "Prahaar",
+    "Nayyi Navelli",
+    "Ranabaali",
+    "movie news Hindi"
+  ]
+}

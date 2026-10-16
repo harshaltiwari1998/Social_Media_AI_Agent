@@ -1,0 +1,134 @@
+{
+  "id": "arcade-classics-that-changed-gaming",
+  "category": "gaming",
+  "order": 26,
+  "title": "6 Arcade Classics That Changed Gaming Forever | Pong, Space Invaders, Pac-Man, Donkey Kong, Tetris",
+  "description": "How six classic games built the video game industry: Pong (1972), Space Invaders (1978), Pac-Man (1980), Donkey Kong (1981), Tetris (1980s) and Street Fighter II (1991) - who made them, how they were made and the records they set.",
+  "hashtags": [
+    "ClassicGames",
+    "RetroGaming",
+    "Gaming"
+  ],
+  "tags": [
+    "classic games",
+    "arcade games history",
+    "Pong",
+    "Space Invaders",
+    "Pac-Man",
+    "Donkey Kong",
+    "Tetris",
+    "Street Fighter II",
+    "retro gaming"
+  ],
+  "thumbnail": {
+    "image": "wiki:Pac-Man",
+    "text": "GAMES THAT CHANGED EVERYTHING"
+  },
+  "sections": [
+    {
+      "heading": "Where it all began",
+      "script": "Every game you play today, from Palworld to Call of Duty, stands on the shoulders of a few legendary classics. In this video we go back in time to six games that changed gaming forever: Pong, Space Invaders, Pac-Man, Donkey Kong, Tetris and Street Fighter Two. For each one, we will look at who made it, how it was made, and the records it set. Some of these stories are wilder than you might expect, from a training exercise that started an industry, to a puzzle game made in the Soviet Union in someone's spare time. Let's go.",
+      "images": [
+        "wiki:Pong",
+        "wiki:Pac-Man",
+        "wiki:Space Invaders"
+      ]
+    },
+    {
+      "heading": "Pong: the game that started an industry",
+      "script": "Our story starts in nineteen seventy two with Pong, made by Atari. It was created by Allan Alcorn as a training exercise, given to him by Atari co founder Nolan Bushnell. Bushnell and the other co founder, Ted Dabney, were so impressed with the result that they decided to sell it. The idea was based on an electronic ping pong game on the Magnavox Odyssey, the first home video game console, and Magnavox later sued Atari over it. Pong became the first commercially successful video game, and together with the Odyssey it helped create the video game industry.",
+      "images": [
+        "wiki:Pong"
+      ]
+    },
+    {
+      "heading": "Pong goes home",
+      "script": "Pong was so popular that other companies quickly made copies of it. That pushed Atari to keep inventing new kinds of games, instead of only making more Pong. During the Christmas season of nineteen seventy five, Atari released a home version of Pong, sold through Sears stores, and it was also a big hit. Today Pong is seen as one of the most important games ever made, and it is even part of the permanent collection of the Smithsonian Institution in Washington. Not bad for a training exercise.",
+      "images": [
+        "wiki:Pong"
+      ]
+    },
+    {
+      "heading": "Space Invaders",
+      "script": "In nineteen seventy eight, Taito released Space Invaders in Japan, designed by Tomohiro Nishikado. It was the first video game with endless gameplay and the first fixed shooter, the template for a whole genre. Nishikado was inspired by games like Breakout, and by science fiction like The War of the Worlds and Star Wars, and he had to design custom hardware to make it work. By nineteen eighty two, Space Invaders had grossed three point eight billion dollars, making it the highest grossing entertainment product of its time. Its Atari two thousand six hundred port quadrupled that console's sales.",
+      "images": [
+        "wiki:Space Invaders"
+      ]
+    },
+    {
+      "heading": "Pac-Man",
+      "script": "In nineteen eighty, Namco released Pac-Man, first called Puck Man in Japan. Designer Toru Iwatani led a nine person team, and he wanted a game that would appeal to everyone, not just fans of war or sports themes, so he made the characters cute and colourful. The famous shape was inspired by a pizza with a slice missing. The name comes from the Japanese phrase paku paku, which means to gobble something up. Pac-Man became one of the highest grossing games ever, with more than fourteen billion dollars in revenue as of twenty sixteen.",
+      "images": [
+        "wiki:Pac-Man",
+        "wiki:Toru Iwatani"
+      ]
+    },
+    {
+      "heading": "Donkey Kong and the birth of Mario",
+      "script": "In nineteen eighty one, Nintendo had a problem: lots of unsold arcade cabinets from a failed game called Radar Scope. Nintendo's president gave the job of saving them to a first time game designer, Shigeru Miyamoto. The result was Donkey Kong. You played as Jumpman, the character who would become Mario, climbing a construction site to rescue Pauline from a giant gorilla. It was one of the first games with cutscenes telling a story, it pioneered the platform genre, and it was the first game to feature jumping. It became the highest grossing game of nineteen eighty two in the United States.",
+      "images": [
+        "wiki:Donkey Kong (1981 video game)",
+        "wiki:Shigeru Miyamoto"
+      ]
+    },
+    {
+      "heading": "Tetris: made in the Soviet Union",
+      "script": "In the mid nineteen eighties, a Soviet software engineer named Alexey Pajitnov created Tetris in his spare time at the Dorodnitsyn Computing Center in Moscow. He programmed the first version in about three weeks. Copies spread on floppy disks across Moscow and Eastern Europe, until a businessman saw it in Hungary and started a long chain of licensing deals. In nineteen eighty nine, Nintendo released Tetris on the Game Boy, and that version became the best selling Tetris ever, with over thirty five million sales. It helped make the Game Boy a huge success.",
+      "images": [
+        "wiki:Alexey Pajitnov",
+        "wiki:Game Boy"
+      ]
+    },
+    {
+      "heading": "Tetris everywhere",
+      "script": "Tetris never stopped spreading. Its simple gameplay, falling blocks called tetrominoes that you fit together to clear lines, has been used in around two hundred twenty versions on at least seventy platforms. In nineteen ninety five, the rights returned to Pajitnov, and The Tetris Company was set up to manage licensing. Electronic Arts held the mobile license from two thousand six to twenty twenty. Almost every phone, console and computer has had a version of Tetris at some point, which makes it one of the most widespread games in history.",
+      "images": [
+        "wiki:Alexey Pajitnov",
+        "wiki:Game Boy"
+      ]
+    },
+    {
+      "heading": "Street Fighter Two",
+      "script": "Our last classic is Street Fighter Two, released by Capcom in nineteen ninety one, designed by Yoshiki Okamoto and Akira Yasuda. It improved everything from the first game, with special command moves, a combo system, six buttons, and a big cast of characters with unique fighting styles. It became the best selling game since the golden age of arcades. More than two hundred thousand arcade cabinets and fifteen million copies of all versions were sold. It made competitive head to head play popular, which led to tournaments like the Evolution Championship Series, known as EVO.",
+      "images": [
+        "wiki:Street Fighter II"
+      ]
+    },
+    {
+      "heading": "The golden age of arcades",
+      "script": "Space Invaders started what is called the golden age of arcade video games, and Pac-Man and Donkey Kong pushed it even higher. Arcades were full of players lining up to beat high scores, and the games became pop culture. Space Invaders' pixel aliens became icons, Pac-Man even got a hit song called Pac-Man Fever, and he became the official mascot of Namco. Donkey Kong's port to the Nintendo Entertainment System helped introduce Japanese games to the West. These were the years when video games went from a curiosity to a giant industry.",
+      "images": [
+        "wiki:Space Invaders",
+        "wiki:Pac-Man",
+        "wiki:Donkey Kong (1981 video game)"
+      ]
+    },
+    {
+      "heading": "Inspired by everything",
+      "script": "What is amazing about these classics is where their ideas came from. Space Invaders mixed arcade shooting games with science fiction like The War of the Worlds and Star Wars. Pac-Man came from a pizza with a slice missing. Donkey Kong was inspired by Beauty and the Beast, Popeye and King Kong. And Tetris came from an engineer playing around with a computer in his free time. Great games often start with a simple, unusual idea, and these classics prove it better than anything else.",
+      "images": [
+        "wiki:Toru Iwatani",
+        "wiki:Shigeru Miyamoto",
+        "wiki:Alexey Pajitnov"
+      ]
+    },
+    {
+      "heading": "What they taught us",
+      "script": "Look at what these six games gave us. Pong proved games could be a business. Space Invaders gave us endless play and the shooter genre. Pac-Man showed games could be for everyone, and created gaming's first big mascot. Donkey Kong gave us platformers, jumping, story cutscenes and Mario himself. Tetris showed that a simple idea can spread to every device on the planet. And Street Fighter Two made competitive gaming a global phenomenon. Every modern game uses ideas that started with these classics.",
+      "images": [
+        "wiki:Pong",
+        "wiki:Space Invaders",
+        "wiki:Pac-Man",
+        "wiki:Street Fighter II"
+      ]
+    },
+    {
+      "heading": "Which one did you play",
+      "script": "So those are six arcade classics that changed gaming forever: Pong, Space Invaders, Pac-Man, Donkey Kong, Tetris and Street Fighter Two. Which of these have you played, and which one is your all time favourite? Have you ever played one of them on a real arcade machine, or only on a phone or console? Tell me in the comments, and tell me which classic game you want the full story of next. If this helped, hit like and subscribe to HarryBeast Gaming for more.",
+      "images": [
+        "wiki:Donkey Kong (1981 video game)",
+        "wiki:Pac-Man"
+      ]
+    }
+  ]
+}

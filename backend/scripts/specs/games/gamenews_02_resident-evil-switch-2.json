@@ -1,0 +1,43 @@
+{
+  "id": "gamenews-resident-evil-switch-2",
+  "slot": "gamenews",
+  "order": 2,
+  "headline": "Resident Evil 2, 3 and 4 are out on Switch 2",
+  "title": "Resident Evil 2, 3 and 4 Out Now on Switch 2 | Native Versions With DLC | Gaming News",
+  "video_script": "Resident Evil fans, this one's for you. Capcom's Resident Evil two, three and four remakes are out now on Nintendo Switch two, since October sixteenth. These are native versions, not cloud streaming like the older Switch releases. They're digital on the eShop and include all the released DLC, like Separate Ways for Resident Evil four. Physical editions follow on January twenty ninth, twenty twenty seven. Which one are you playing first? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Resident Evil 4 (2023 video game)",
+      "label": "Resident Evil on Switch 2"
+    },
+    {
+      "image": "wiki:Resident Evil 2 (2019 video game)",
+      "fact": "RE2, RE3, RE4",
+      "sub": "Out now on Switch 2"
+    },
+    {
+      "image": "wiki:Resident Evil 3 (2020 video game)",
+      "fact": "Native, not cloud",
+      "sub": "With all DLC included"
+    },
+    {
+      "image": "wiki:Resident Evil 4 (2023 video game)",
+      "fact": "Physical: Jan 29, 2027",
+      "sub": "Digital out now"
+    }
+  ],
+  "description": "Resident Evil 2, 3 and 4 remakes launched natively on Nintendo Switch 2 on October 16, 2026 via the eShop with all released DLC; physical editions follow on January 29, 2027.",
+  "hashtags": [
+    "ResidentEvil",
+    "NintendoSwitch2",
+    "Capcom"
+  ],
+  "tags": [
+    "Resident Evil Switch 2",
+    "Resident Evil 4 Switch 2",
+    "Resident Evil 2 remake",
+    "Capcom",
+    "Nintendo Switch 2 games",
+    "gaming news"
+  ]
+}

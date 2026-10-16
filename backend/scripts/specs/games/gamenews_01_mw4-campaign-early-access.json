@@ -1,0 +1,43 @@
+{
+  "id": "gamenews-mw4-campaign-early-access",
+  "slot": "gamenews",
+  "order": 1,
+  "headline": "Modern Warfare 4 campaign early access is live",
+  "title": "Modern Warfare 4 Campaign Early Access Is Live | Full Launch October 23 | Gaming News",
+  "video_script": "Call of Duty Modern Warfare four is here early! The campaign early access started on October sixteenth for players who pre ordered a digital copy. Physical pre orders don't count. Multiplayer and the returning DMZ mode stay locked until the full launch on October twenty third. It's on PlayStation five, Xbox Series, and PC through Battle dot net and Steam. Are you playing the campaign first or waiting for multiplayer? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Call of Duty: Modern Warfare 4",
+      "label": "MW4 Early Access"
+    },
+    {
+      "image": "wiki:Call of Duty: Modern Warfare 4",
+      "fact": "Campaign is live",
+      "sub": "For digital pre-orders"
+    },
+    {
+      "image": "wiki:Call of Duty: Modern Warfare 4",
+      "fact": "October 23",
+      "sub": "Multiplayer & DMZ launch"
+    },
+    {
+      "image": "wiki:Call of Duty: Modern Warfare 4",
+      "fact": "PS5, Xbox, PC",
+      "sub": "Battle.net & Steam"
+    }
+  ],
+  "description": "Call of Duty: Modern Warfare 4 campaign early access began October 16, 2026 for digital pre-orders; multiplayer and DMZ unlock at the full launch on October 23 (PS5, Xbox Series X|S, PC via Battle.net and Steam).",
+  "hashtags": [
+    "ModernWarfare4",
+    "CallOfDuty",
+    "GamingNews"
+  ],
+  "tags": [
+    "Modern Warfare 4",
+    "MW4 campaign early access",
+    "Call of Duty 2026",
+    "MW4 release date",
+    "DMZ",
+    "gaming news"
+  ]
+}

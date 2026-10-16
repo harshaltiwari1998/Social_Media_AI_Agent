@@ -1,0 +1,45 @@
+{
+  "id": "news-prahaar-day-1",
+  "slot": "movie_news",
+  "order": 9,
+  "category": "movies",
+  "expires": "2026-11-05",
+  "headline": "Prahaar की धीमी शुरुआत",
+  "title": "Prahaar Box Office Day 1 | Rajkummar Rao Film Ki Shuruaat | Movie Box Office Hindi",
+  "video_script": "Rajkummar Rao की Prahaar, The Untold Story of Ujjwal Nikam ने box office पर धीमी शुरुआत की है. Sacnilk के मुताबिक film ने पहले दिन India में करीब 2.35 करोड़ net कमाए. Release से पहले कुछ predictions 3.5 करोड़ की थीं, यानी film उम्मीद से थोड़ा पीछे रही. Reviews mixed से positive हैं, इसलिए अब weekend का word of mouth तय करेगा कि film आगे कैसा करती है. आपने Prahaar देखी? Comment करो!",
+  "scenes": [
+    {
+      "image": "yt:qGbvEhKhaWA:maxresdefault",
+      "label": "Prahaar Day 1"
+    },
+    {
+      "image": "yt:qGbvEhKhaWA:maxres1",
+      "fact": "~₹2.35 Cr",
+      "sub": "Day 1 India net"
+    },
+    {
+      "image": "yt:qGbvEhKhaWA:maxres2",
+      "fact": "Below predictions",
+      "sub": "~₹3.5 Cr was expected"
+    },
+    {
+      "image": "wiki:Rajkummar Rao",
+      "fact": "Weekend is key",
+      "sub": "Word of mouth will decide"
+    }
+  ],
+  "description": "Prahaar Day 1 (Sacnilk): करीब ₹2.35 करोड़ net, release से पहले की ₹3.5 करोड़ prediction (Variety India) से कम. Reviews mixed से positive.",
+  "hashtags": [
+    "BoxOffice",
+    "MovieNews",
+    "Bollywood"
+  ],
+  "tags": [
+    "box office collection",
+    "Jailer 2",
+    "Prahaar",
+    "Nayyi Navelli",
+    "Ranabaali",
+    "movie news Hindi"
+  ]
+}

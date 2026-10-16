@@ -1,0 +1,48 @@
+{
+  "id": "comedy-joke-one-percent-battery",
+  "slot": "comedy",
+  "order": 14,
+  "category": "movies",
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "1 percent battery",
+  "title": "1 Percent Battery | Phone Ki Aakhri Saans | Hindi Jokes",
+  "video_script": "Phone की battery 1 percent पर हो तो इंसान का behaviour बदल जाता है. Brightness सबसे कम, सारे apps बंद, और charger ऐसे ढूंढते हैं जैसे खज़ाना ढूंढ रहे हों. और कमाल की बात, 1 percent वाला phone पूरे आधे घंटे चल जाता है, लेकिन 100 percent वाला दो घंटे में खत्म! आपका phone अभी कितने percent पर है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wikifile:Smartphone with case cover on table.jpg",
+      "label": "1% Battery"
+    },
+    {
+      "image": "wikifile:Smartphone with case cover on table.jpg",
+      "fact": "Brightness कम",
+      "sub": "सारे apps बंद"
+    },
+    {
+      "image": "wikifile:Smartphone with case cover on table.jpg",
+      "fact": "Charger की खोज",
+      "sub": "जैसे खज़ाना हो"
+    },
+    {
+      "image": "wikifile:Smartphone with case cover on table.jpg",
+      "fact": "1% = आधा घंटा",
+      "sub": "100% = दो घंटे!"
+    }
+  ],
+  "description": "1 percent battery - original Hindi comedy.",
+  "hashtags": [
+    "HindiJokes",
+    "Comedy",
+    "FunnyReels"
+  ],
+  "tags": [
+    "Hindi jokes",
+    "funny Hindi reels",
+    "relatable comedy",
+    "comedy reels",
+    "family comedy",
+    "desi jokes"
+  ]
+}

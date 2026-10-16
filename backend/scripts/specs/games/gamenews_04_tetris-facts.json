@@ -1,0 +1,43 @@
+{
+  "id": "gamenews-tetris-facts",
+  "slot": "gamenews",
+  "order": 4,
+  "headline": "Tetris facts",
+  "title": "Tetris Facts | Made by a Soviet Engineer in 3 Weeks | Classic Games",
+  "video_script": "Did you know Tetris was made by a Soviet software engineer in his spare time? Alexey Pajitnov created it in the mid nineteen eighties and programmed the first version in about three weeks. Copies spread on floppy disks across Moscow and then Eastern Europe. The Game Boy version from nineteen eighty nine became the best selling Tetris ever, with over thirty five million sales. Today Tetris exists in around two hundred twenty versions on at least seventy platforms. What's your high score? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Alexey Pajitnov",
+      "label": "Tetris Facts"
+    },
+    {
+      "image": "wiki:Alexey Pajitnov",
+      "fact": "Alexey Pajitnov",
+      "sub": "Made it in his spare time"
+    },
+    {
+      "image": "wiki:Game Boy",
+      "fact": "35 million+",
+      "sub": "Game Boy Tetris sales"
+    },
+    {
+      "image": "wiki:Alexey Pajitnov",
+      "fact": "~220 versions",
+      "sub": "On 70+ platforms"
+    }
+  ],
+  "description": "Tetris was created by Soviet engineer Alexey Pajitnov in the mid-1980s (first version in about three weeks); the 1989 Game Boy version sold over 35 million copies, and Tetris has about 220 versions on 70+ platforms.",
+  "hashtags": [
+    "Tetris",
+    "ClassicGames",
+    "RetroGaming"
+  ],
+  "tags": [
+    "Tetris facts",
+    "Tetris history",
+    "Alexey Pajitnov",
+    "Game Boy Tetris",
+    "classic games",
+    "retro gaming"
+  ]
+}

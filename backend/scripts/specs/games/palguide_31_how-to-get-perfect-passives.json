@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-how-to-get-perfect-passives",
+  "slot": "palguide",
+  "order": 31,
+  "headline": "How to get perfect passives",
+  "title": "How to Get Perfect Passive Skills in Palworld | Breeding Method | Palworld Guide",
+  "video_script": "You can't add passive skills to a Pal after you catch it, but you can choose them through breeding. Children can inherit passives from their parents. So catch Pals that already have the passives you want, put them on a Breeding Farm with Cake, and keep the best child. Then breed that child with another Pal that carries more good passives. Repeat until one Pal has all four. Breeding the same species keeps the species while you improve the skills. Comment your dream build!",
+  "scenes": [
+    {
+      "image": "pal:Anubis",
+      "label": "Perfect Passives"
+    },
+    {
+      "image": "pal:Mozzarina",
+      "fact": "Children inherit",
+      "sub": "Passives come from the parents"
+    },
+    {
+      "image": "pal:Chikipi",
+      "fact": "Breed, keep the best",
+      "sub": "Then breed again"
+    },
+    {
+      "image": "pal:Anubis",
+      "fact": "Same species",
+      "sub": "Keeps the Pal, improves skills"
+    }
+  ],
+  "description": "How to get perfect passives in Palworld: passives are inherited through breeding - breed parents with the passives you want, keep the best child, and repeat; breed the same species to keep the Pal.",
+  "hashtags": [
+    "Palworld",
+    "PalworldBreeding",
+    "PalworldPassives"
+  ],
+  "tags": [
+    "Palworld passive breeding",
+    "Palworld perfect pal",
+    "Palworld passive skills",
+    "Palworld breeding guide",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld tips"
+  ]
+}

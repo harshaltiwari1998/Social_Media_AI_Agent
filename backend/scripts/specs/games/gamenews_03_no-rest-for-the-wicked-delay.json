@@ -1,0 +1,43 @@
+{
+  "id": "gamenews-no-rest-for-the-wicked-delay",
+  "slot": "gamenews",
+  "order": 3,
+  "headline": "No Rest for the Wicked 1.0 delayed",
+  "title": "No Rest for the Wicked Full Release Delayed to March 2027 | New Class System | Gaming News",
+  "video_script": "No Rest for the Wicked fans will have to wait a bit longer. Moon Studios has delayed the full one point zero release from October twenty twenty six to March twenty twenty seven on PC and PlayStation five. The studio says the extra time is to improve performance and tighten the new class system, which is inspired by Final Fantasy Tactics. Betas are planned before launch. Are you okay with the delay? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1371980:0",
+      "label": "No Rest for the Wicked"
+    },
+    {
+      "image": "steam:1371980:1",
+      "fact": "Delayed",
+      "sub": "Now March 2027"
+    },
+    {
+      "image": "steam:1371980:2",
+      "fact": "PC & PS5",
+      "sub": "Xbox & Switch 2 later"
+    },
+    {
+      "image": "steam:1371980:3",
+      "fact": "New class system",
+      "sub": "Inspired by Final Fantasy Tactics"
+    }
+  ],
+  "description": "Moon Studios delayed No Rest for the Wicked 1.0 from October 2026 to March 2027 on PC and PS5 to improve performance and the new Final Fantasy Tactics-inspired class system; betas come before launch.",
+  "hashtags": [
+    "NoRestForTheWicked",
+    "MoonStudios",
+    "GamingNews"
+  ],
+  "tags": [
+    "No Rest for the Wicked",
+    "No Rest for the Wicked 1.0",
+    "No Rest for the Wicked delay",
+    "Moon Studios",
+    "action RPG",
+    "gaming news"
+  ]
+}

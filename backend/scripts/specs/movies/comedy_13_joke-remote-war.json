@@ -1,0 +1,48 @@
+{
+  "id": "comedy-joke-remote-war",
+  "slot": "comedy",
+  "order": 13,
+  "category": "movies",
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Remote ki ladai",
+  "title": "Remote Ki Ladai | Ghar Ka Asli Boss | Hindi Jokes",
+  "video_script": "घर का असली boss कौन है? जिसके हाथ में TV का remote है. पापा को news देखनी है, बच्चों को cartoon, और दादी को serial. Remote के लिए रोज़ महायुद्ध होता है. और फिर mummy आती हैं, remote उठाती हैं, TV बंद करती हैं और बोलती हैं, सब पढ़ाई करो और खाना खाओ. Match खत्म, winner mummy! आपके घर में remote किसके पास रहता है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wikifile:Television remote control - black 01.jpg",
+      "label": "Remote Ki Ladai"
+    },
+    {
+      "image": "wikifile:Television remote control - black 01.jpg",
+      "fact": "News vs Cartoon",
+      "sub": "vs Serial"
+    },
+    {
+      "image": "wikifile:Television remote control - black 01.jpg",
+      "fact": "रोज़ महायुद्ध",
+      "sub": "Remote के लिए"
+    },
+    {
+      "image": "wikifile:Television remote control - black 01.jpg",
+      "fact": "Winner: Mummy!",
+      "sub": "TV बंद"
+    }
+  ],
+  "description": "Remote ki ladai - original Hindi comedy.",
+  "hashtags": [
+    "HindiJokes",
+    "Comedy",
+    "FunnyReels"
+  ],
+  "tags": [
+    "Hindi jokes",
+    "funny Hindi reels",
+    "relatable comedy",
+    "comedy reels",
+    "family comedy",
+    "desi jokes"
+  ]
+}

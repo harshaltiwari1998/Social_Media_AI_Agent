@@ -1,0 +1,43 @@
+{
+  "id": "gamenews-pac-man-facts",
+  "slot": "gamenews",
+  "order": 5,
+  "headline": "Pac-Man facts",
+  "title": "Pac-Man Facts | Inspired by a Pizza | Classic Games",
+  "video_script": "Pac-Man was inspired by a pizza with a slice missing! Namco released it in Japan in nineteen eighty, where it was first called Puck Man. Designer Toru Iwatani wanted a game that everyone would enjoy, not just war or sports fans, so he made the characters cute and colourful. The name comes from the Japanese phrase paku paku, which means to gobble something up. Pac-Man has made more than fourteen billion dollars in revenue. Who's your favourite ghost? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Pac-Man",
+      "label": "Pac-Man Facts"
+    },
+    {
+      "image": "wiki:Toru Iwatani",
+      "fact": "Toru Iwatani",
+      "sub": "Inspired by a pizza"
+    },
+    {
+      "image": "wiki:Pac-Man",
+      "fact": "Puck Man",
+      "sub": "Its original name in Japan"
+    },
+    {
+      "image": "wiki:Pac-Man",
+      "fact": "$14 billion+",
+      "sub": "Revenue as of 2016"
+    }
+  ],
+  "description": "Pac-Man (Namco, 1980), first called Puck Man, was designed by Toru Iwatani, inspired by a pizza with a slice missing; the name comes from 'paku paku' (to gobble). It made over $14 billion in revenue as of 2016.",
+  "hashtags": [
+    "PacMan",
+    "ClassicGames",
+    "RetroGaming"
+  ],
+  "tags": [
+    "Pac-Man facts",
+    "Pac-Man history",
+    "Toru Iwatani",
+    "Namco",
+    "classic games",
+    "retro gaming"
+  ]
+}

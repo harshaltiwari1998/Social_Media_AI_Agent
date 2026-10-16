@@ -1,0 +1,45 @@
+{
+  "id": "news-nayyi-navelli-day-1",
+  "slot": "movie_news",
+  "order": 10,
+  "category": "movies",
+  "expires": "2026-11-05",
+  "headline": "Nayyi Navelli ने Prahaar को पीछे छोड़ा",
+  "title": "Nayyi Navelli Box Office Day 1 | Yami Gautam Film Ki Opening | Movie Box Office Hindi",
+  "video_script": "Yami Gautam की Nayyi Navelli ने Friday के Hindi clash में बाज़ी मार ली. Sacnilk के मुताबिक film ने पहले दिन India में करीब 3.25 करोड़ net कमाए, जबकि Prahaar ने करीब 2.35 करोड़. Release से पहले Nayyi Navelli के लिए 2 करोड़ की prediction थी, यानी film ने उम्मीद से बेहतर शुरुआत की. आपको दुल्हन या डायन वाली ये कहानी कैसी लगी? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Nayyi Navelli",
+      "label": "Nayyi Navelli Day 1"
+    },
+    {
+      "image": "wiki:Yami Gautam",
+      "fact": "~₹3.25 Cr",
+      "sub": "Day 1 India net"
+    },
+    {
+      "image": "wiki:Nayyi Navelli",
+      "fact": "Beat Prahaar",
+      "sub": "₹3.25 Cr vs ₹2.35 Cr"
+    },
+    {
+      "image": "wiki:Nayyi Navelli",
+      "fact": "Above predictions",
+      "sub": "~₹2 Cr was expected"
+    }
+  ],
+  "description": "Nayyi Navelli Day 1 (Sacnilk): करीब ₹3.25 करोड़ net, Prahaar (करीब ₹2.35 करोड़) से आगे और ₹2 करोड़ prediction (Variety India) से बेहतर.",
+  "hashtags": [
+    "BoxOffice",
+    "MovieNews",
+    "Bollywood"
+  ],
+  "tags": [
+    "box office collection",
+    "Jailer 2",
+    "Prahaar",
+    "Nayyi Navelli",
+    "Ranabaali",
+    "movie news Hindi"
+  ]
+}

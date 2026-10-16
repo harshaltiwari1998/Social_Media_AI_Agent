@@ -1,0 +1,146 @@
+{
+  "id": "palworld-passive-skills-guide",
+  "category": "gaming",
+  "order": 25,
+  "title": "Palworld Passive Skills Guide | Best Passives for Fighters, Workers and How to Get Them | Palworld Guide",
+  "description": "Palworld 1.0 passive skills explained: the best combat passives (Legend, Demon God, Immortality, Lucky and the high-risk picks), the best worker passives (Serious, Work Slave, Artisan, Remarkable Craftsmanship, Insomnia), breeding passives, and how to breed a perfect Pal.",
+  "hashtags": [
+    "Palworld",
+    "PalworldPassives",
+    "Gaming"
+  ],
+  "tags": [
+    "Palworld passive skills",
+    "Palworld best passives",
+    "Palworld Legend",
+    "Palworld Demon God",
+    "Palworld Artisan",
+    "Palworld breeding passives",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld perfect pal"
+  ],
+  "thumbnail": {
+    "image": "pal:Jetragon",
+    "text": "BEST PASSIVE SKILLS"
+  },
+  "sections": [
+    {
+      "heading": "Why passives matter",
+      "script": "Two Pals of the same species can feel completely different, and the reason is passive skills. Every Pal can have up to four passives, and the right ones can make a fighter hit much harder, a worker finish jobs much faster, or a mount travel further. In this guide we will go through the best combat passives, the best worker passives, some useful special passives, and then the most important part, how to actually get a Pal with the perfect set. Everything here follows what up to date one point zero guides agree on. Let's build some perfect Pals.",
+      "images": [
+        "steam:1623730:0",
+        "pal:Jetragon",
+        "pal:Anubis"
+      ]
+    },
+    {
+      "heading": "Legend",
+      "script": "The first passive on almost every combat list is Legend. What makes it special is that it boosts several combat related stats at once, instead of just one. That makes it one of the most efficient passives for a fighter, because one slot gives you value in several areas. Guides list slightly different numbers for its bonuses, so check the exact values in game, but they all agree it belongs on a top tier fighter or mount. Legend is usually found on legendary Pals, which is part of why breeding it onto other Pals is so valuable.",
+      "images": [
+        "pal:Frostallion",
+        "pal:Jetragon",
+        "pal:Paladius"
+      ]
+    },
+    {
+      "heading": "Demon God and Immortality",
+      "script": "Demon God is the go to damage passive. It gives a big attack boost with almost no downside, which is rare, because many strong passives come with a penalty. If you only add one damage passive to your main fighter, this is a great choice. Immortality is the survival pick. It makes your Pal much harder to kill, which matters a lot in long boss fights and raids, where a fainted Pal can cost you the whole fight. A fighter with Demon God and Immortality hits hard and stays alive, and that combination is the base of many strong builds.",
+      "images": [
+        "pal:Blazamut Ryu",
+        "pal:Jormuntide Ignis",
+        "pal:Bellanoir Libero"
+      ]
+    },
+    {
+      "heading": "Lucky and the high risk passives",
+      "script": "Lucky is a flexible passive that boosts attack and work speed at the same time, so it is great for a Pal that both fights and works, and it is often used in builds that don't rely on legendary passives. Then there are the high risk options. Twin Edged Holy Blade is one of the strongest single damage passives, but it lowers defense. God of Destruction gives one of the biggest attack boosts of all, but with a large health penalty. These are amazing on a glass cannon fighter, but risky on a Pal that has to tank hits. Use them only when you know what you are doing.",
+      "images": [
+        "pal:Selyne",
+        "pal:Bellanoir Libero",
+        "pal:Blazamut Ryu"
+      ]
+    },
+    {
+      "heading": "Example combat builds",
+      "script": "Here are some example builds that guides recommend. For maximum endgame damage: Twin Edged Holy Blade, Demon God, Ferocious and Legend. For a balanced, tanky fighter: Immortality, Demon God, Serenity and Legend. And if you don't have legendary passives yet, an accessible build is Demon God, Ferocious, Serenity and Lucky. You don't need a perfect build right away. Start with one or two good passives on your main fighter and improve it over time as you breed better Pals.",
+      "images": [
+        "pal:Frostallion",
+        "pal:Jormuntide Ignis",
+        "steam:1623730:1"
+      ]
+    },
+    {
+      "heading": "Work speed passives",
+      "script": "For base workers, work speed is everything. Serious gives plus twenty percent work speed. Work Slave gives plus thirty percent, but lowers attack by thirty percent, which doesn't matter for a Pal that stays at home. Artisan gives plus fifty percent. Remarkable Craftsmanship gives plus seventy five percent. And Lucky adds work speed together with combat stats. A worker with three or four of these can finish jobs more than twice as fast as a normal Pal. Put these on your most important workers, like Anubis at the workbench or Knocklem in the mine.",
+      "images": [
+        "pal:Anubis",
+        "pal:Knocklem",
+        "steam:1623730:2"
+      ]
+    },
+    {
+      "heading": "Night workers and special passives",
+      "script": "Most Pals sleep at night, which slows down your base for half the day. Insomnia stops a Pal from sleeping, so it keeps working through the night. Vampiric also means the Pal does not sleep at night. Some passives raise a job directly. Farmhand gives plus one Farming and Ranch Master gives plus two Farming. And for breeding bases, Philanthropist doubles breeding speed at a Breeding Farm, while Babysitter speeds up egg production and incubation. These are worth it in a dedicated breeding base, but not on your fighters.",
+      "images": [
+        "pal:Renjishi",
+        "pal:Mozzarina",
+        "pal:Chikipi"
+      ]
+    },
+    {
+      "heading": "You can't add passives later",
+      "script": "Here is the most important thing to understand. You cannot add passive skills to a Pal after you catch it. A Pal is born with its passives. That means there are only two ways to get the passives you want: get lucky with a wild catch, or breed for them. Breeding is the reliable way, because children can inherit passive skills from their parents. So every Pal you catch with a good passive is valuable, even if the species itself is not strong, because it can pass that passive on.",
+      "images": [
+        "pal:Anubis",
+        "steam:1623730:3",
+        "steam:1623730:4"
+      ]
+    },
+    {
+      "heading": "How to breed a perfect Pal",
+      "script": "The method is simple, but it takes patience. First, collect Pals that already have the passives you want. Put two of them on a Breeding Farm with Cake, and collect the egg. Check the child's passives and keep the best one. Then breed that child with another Pal that carries more of the passives you want. Repeat until one Pal has all four. Breeding two Pals of the same species is the easiest way to keep the species while you improve the skills, because the child will be the same Pal. Keep plenty of Cake ready, because this takes many eggs.",
+      "images": [
+        "pal:Mozzarina",
+        "pal:Chikipi",
+        "pal:Beegarde",
+        "steam:1623730:5"
+      ]
+    },
+    {
+      "heading": "Tips to save time",
+      "script": "A few tips to make it faster. Build more than one Breeding Farm, so you can run several pairs at once. Automate Cake with Mozzarina, Chikipi and Beegarde on your Ranch, since each egg uses one Cake. Never release a Pal with a rare passive before checking if it is useful as a parent. And plan backwards: decide the four passives you want first, then collect parents that have them. Combine perfect passives with condensing to four stars, and your Pal will be as strong as it can be.",
+      "images": [
+        "pal:Beegarde",
+        "pal:Mozzarina",
+        "steam:1623730:6"
+      ]
+    },
+    {
+      "heading": "Choose passives by role",
+      "script": "The best passives always depend on the job. For a main fighter, stack damage and survival, like Demon God, Legend and Immortality. For a raid team, think about who takes hits and who deals damage, because a glass cannon with Twin Edged Holy Blade needs a tank beside it. For a crafter that never leaves the base, pure work speed is everything, so Artisan, Remarkable Craftsmanship, Serious and Work Slave are perfect. For a Pal that both fights and works, Lucky is great because it helps with both. And for mounts, movement speed passives make the biggest difference.",
+      "images": [
+        "pal:Jetragon",
+        "pal:Anubis",
+        "pal:Knocklem"
+      ]
+    },
+    {
+      "heading": "Common mistakes",
+      "script": "A few mistakes to avoid. Don't put Work Slave on a fighter, because it lowers attack. Don't spend hours breeding a perfect worker for a Pal you will replace soon, focus on your long term workers first. Don't ignore negative passives, because a single bad passive can cancel out a good one, so replace them through breeding. And don't release Pals with rare passives before checking if you need them as parents. Small decisions like these save a lot of time and Cake.",
+      "images": [
+        "pal:Anubis",
+        "steam:1623730:7",
+        "steam:1623730:8"
+      ]
+    },
+    {
+      "heading": "What's your build",
+      "script": "Those are the best passive skills in Palworld one point zero: Legend, Demon God, Immortality and Lucky for fighters, Serious, Work Slave, Artisan and Remarkable Craftsmanship for workers, Insomnia for night shifts, and breeding to put them all together. What's the best set of passives you have on one Pal? Tell me in the comments, and tell me which Pal you want a build guide for next. If this helped, hit like and subscribe to HarryBeast Gaming for more.",
+      "images": [
+        "pal:Jetragon",
+        "pal:Anubis"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "comedy-joke-red-light",
+  "slot": "comedy",
+  "order": 12,
+  "category": "movies",
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Red light wala gyaan",
+  "title": "Red Light Wala Gyaan | Traffic Comedy | Hindi Jokes",
+  "video_script": "Red light पर गाड़ी रुकी. पीछे से एक भाई साहब लगातार horn बजा रहे थे. Signal वाले uncle पास आए और बोले, भाई, light red है, horn बजाने से green नहीं होगी. भाई साहब बोले, uncle, मैं light को नहीं, अपने आगे वाले को बता रहा हूं कि light कभी तो green होगी, तैयार रहना! आपके शहर में ऐसे कितने हैं? Comment करो!",
+  "scenes": [
+    {
+      "image": "wikifile:UK Red Traffic Light Signal - geograph.org.uk - 5264304.jpg",
+      "label": "Red Light Wala Gyaan"
+    },
+    {
+      "image": "wikifile:UK Red Traffic Light Signal - geograph.org.uk - 5264304.jpg",
+      "fact": "Light red",
+      "sub": "पीछे से horn पर horn"
+    },
+    {
+      "image": "wikifile:UK Red Traffic Light Signal - geograph.org.uk - 5264304.jpg",
+      "fact": "Horn से green नहीं होगी",
+      "sub": "Uncle का gyaan"
+    },
+    {
+      "image": "wikifile:UK Red Traffic Light Signal - geograph.org.uk - 5264304.jpg",
+      "fact": "तैयार रहना!",
+      "sub": "आगे वाले के लिए"
+    }
+  ],
+  "description": "Red light wala gyaan - original Hindi comedy.",
+  "hashtags": [
+    "HindiJokes",
+    "Comedy",
+    "FunnyReels"
+  ],
+  "tags": [
+    "Hindi jokes",
+    "funny Hindi reels",
+    "relatable comedy",
+    "comedy reels",
+    "family comedy",
+    "desi jokes"
+  ]
+}

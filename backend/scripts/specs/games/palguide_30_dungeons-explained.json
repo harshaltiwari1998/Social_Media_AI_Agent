@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-dungeons-explained",
+  "slot": "palguide",
+  "order": 30,
+  "headline": "Palworld dungeons explained",
+  "title": "Palworld Dungeons Explained | Alpha Bosses, Loot and Timers | Palworld Guide",
+  "video_script": "Here's how dungeons work in Palworld one point zero. Dungeon entrances don't stay open forever. Each one stays open for about five hours, then closes and appears again later. Inside, you fight your way to a boss room with an Alpha Pal and a treasure chest at the end. Tip: try to capture the Alpha instead of defeating it, so you get a strong Pal too. The Feybreak caverns have some of the best loot in the game. What's the best thing you found in a dungeon? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:11",
+      "label": "Dungeons Explained"
+    },
+    {
+      "image": "steam:1623730:12",
+      "fact": "About 5 hours",
+      "sub": "Then the entrance closes"
+    },
+    {
+      "image": "pal:Penking",
+      "fact": "Alpha boss + chest",
+      "sub": "At the end of every dungeon"
+    },
+    {
+      "image": "steam:1623730:13",
+      "fact": "Feybreak caverns",
+      "sub": "Some of the best loot"
+    }
+  ],
+  "description": "Palworld 1.0 dungeons: entrances stay open for about five hours, each ends in a boss room with an Alpha Pal and a chest - capture the Alpha if you can. Feybreak caverns have some of the best loot.",
+  "hashtags": [
+    "Palworld",
+    "PalworldDungeon",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld dungeons",
+    "Palworld dungeon guide",
+    "Palworld alpha boss",
+    "Palworld Feybreak cavern",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld tips"
+  ]
+}

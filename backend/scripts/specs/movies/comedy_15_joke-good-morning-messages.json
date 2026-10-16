@@ -1,0 +1,48 @@
+{
+  "id": "comedy-joke-good-morning-messages",
+  "slot": "comedy",
+  "order": 15,
+  "category": "movies",
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Good morning messages",
+  "title": "Good Morning Messages | Family Group Comedy | Hindi Jokes",
+  "video_script": "हर family group में सुबह 6 बजे से good morning के फूल खिलने लगते हैं. Mama जी का गुलाब, बुआ जी का सूरज, और फूफा जी का चाय वाला photo. आप एक message पढ़ते हो, तब तक बीस और आ जाते हैं. और जिस दिन आप reply नहीं करते, उस दिन phone आता है, सब ठीक है ना बेटा? आपके family group में सबसे active कौन है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wikifile:Smartphone with case cover on table.jpg",
+      "label": "Good Morning Messages"
+    },
+    {
+      "image": "wikifile:Smartphone with case cover on table.jpg",
+      "fact": "सुबह 6 बजे",
+      "sub": "Good morning के फूल"
+    },
+    {
+      "image": "wikifile:Smartphone with case cover on table.jpg",
+      "fact": "एक पढ़ो, बीस आओ",
+      "sub": "Family group"
+    },
+    {
+      "image": "wikifile:Smartphone with case cover on table.jpg",
+      "fact": "Reply नहीं किया?",
+      "sub": "सब ठीक है ना बेटा?"
+    }
+  ],
+  "description": "Good morning messages - original Hindi comedy.",
+  "hashtags": [
+    "HindiJokes",
+    "Comedy",
+    "FunnyReels"
+  ],
+  "tags": [
+    "Hindi jokes",
+    "funny Hindi reels",
+    "relatable comedy",
+    "comedy reels",
+    "family comedy",
+    "desi jokes"
+  ]
+}

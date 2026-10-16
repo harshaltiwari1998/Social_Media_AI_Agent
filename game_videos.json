@@ -773,5 +773,19 @@
   "palworld-guide-tower-bosses-part-1": {
     "spec": "scripts/specs/games/palguide_03_tower-bosses-part-1.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-086e9443.mp4"
+  },
+  "call-of-duty-history": {
+    "spec": "scripts/specs/long/gaming_05_call-of-duty-history.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-f7f846c5.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-f7f846c5-thumb.jpg",
+    "chapters": "0:00 A shooter that took over\n0:37 Two thousand three: the original\n1:04 More World War II games\n1:28 Two thousand seven: Modern Warfare\n2:24 Two thousand ten: Black Ops\n3:12 Many studios, one series\n3:45 New settings: WWII and space\n4:37 Free to play: Mobile and Warzone\n5:12 Record-breaking sales\n5:40 The Microsoft deal\n6:33 Which one is your favourite"
+  },
+  "marvel-cinematic-universe-explained": {
+    "spec": "scripts/specs/long/movies_05_marvel-cinematic-universe-explained.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-ec0f3582.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-ec0f3582-thumb.jpg",
+    "chapters": "0:00 Marvel की दुनिया\n0:38 Iron Man - 2008\n1:09 Phase One\n1:43 The Avengers - 2012\n2:18 Disney ने खरीदा Marvel\n2:49 Infinity Saga\n3:28 Black Panther और Infinity War - 2018\n4:09 Endgame का रिकॉर्ड\n4:41 Multiverse Saga की शुरुआत\n5:31 Avengers: Doomsday - 18 December\n6:37 आपका favourite Avenger कौन"
   }
 }

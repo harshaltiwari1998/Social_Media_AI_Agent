@@ -749,5 +749,25 @@
   "news-jailer-2-opening-day": {
     "spec": "scripts/specs/movies/movie_news_01_jailer-2-opening-day.json",
     "video": "F:\\AI AGENT\\run_movnews\\videos\\short-0a5040e2.mp4"
+  },
+  "next-big-games": {
+    "spec": "scripts/specs/games/new_08_next-big-games.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-1f448085.mp4"
+  },
+  "prince-of-persia-1989": {
+    "spec": "scripts/specs/games/classic_09_prince-of-persia-1989.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-dceb19e4.mp4"
+  },
+  "udta-teer": {
+    "spec": "scripts/specs/movies/movie_new_09_udta-teer.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-68ec2d9d.mp4"
+  },
+  "digger-box-office-tom-cruise": {
+    "spec": "scripts/specs/movies/movie_review_08_digger-box-office-tom-cruise.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-6401065c.mp4"
+  },
+  "reel-pather-panchali-cannes": {
+    "spec": "scripts/specs/movies/reel_32_pather-panchali-cannes.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-9e314ec1.mp4"
   }
 }

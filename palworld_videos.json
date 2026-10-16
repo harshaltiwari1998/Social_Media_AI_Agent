@@ -1175,5 +1175,25 @@
       ],
       "unique": false
     }
+  },
+  "Gumoss": {
+    "spec": "scripts/specs/palworld_gumoss.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-255e1457.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Gumoss",
+      "caption": "Chikipi + Woolipop = Gumoss. A Palworld 1.0 breeding combo.",
+      "video_script": "Breeding tip for Palworld: Gumoss comes from Chikipi and Woolipop. Place them together on the Breeding Farm, feed it a cake, and you get a Gumoss egg. It works in Palworld one point zero. What is your favourite Pal? Comment below!",
+      "parents": [
+        "Chikipi",
+        "Woolipop"
+      ],
+      "child": "Gumoss",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
   }
 }

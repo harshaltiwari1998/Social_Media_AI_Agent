@@ -718,5 +718,36 @@
   "palworld-guide-frostallion-location": {
     "spec": "scripts/specs/games/palguide_11_frostallion-location.json",
     "video": "F:\\AI AGENT\\run_pg2\\videos\\short-062cdb72.mp4"
+  },
+  "is-hafte-ki-filmein-oct-2026": {
+    "spec": "scripts/specs/long/movies_14_is-hafte-ki-filmein-oct-2026.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_movnews\\videos\\long-1c8afe0c.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_movnews\\videos\\long-1c8afe0c-thumb.jpg",
+    "chapters": "0:00 इस हफ्ते क्या खास है\n0:37 Jailer 2: Rajinikanth का जलवा\n1:18 Jailer 2 के आंकड़े कितने पक्के हैं\n1:55 Prahaar: Ujjwal Nikam की कहानी\n2:35 Nayyi Navelli: दुल्हन या डायन\n3:14 Ranabaali: Vijay और Rashmika\n3:52 Om क्यों नहीं आई\n4:30 Koffee with Karan का आखिरी season\n5:10 Roadies Rebirth\n5:47 अगले हफ्ते क्या आ रहा है\n6:24 आपकी पसंद कौन सी"
+  },
+  "news-roadies-rebirth": {
+    "spec": "scripts/specs/movies/movie_news_06_roadies-rebirth.json",
+    "video": "F:\\AI AGENT\\run_movnews\\videos\\short-7e35761b.mp4"
+  },
+  "news-koffee-with-karan-9": {
+    "spec": "scripts/specs/movies/movie_news_05_koffee-with-karan-9.json",
+    "video": "F:\\AI AGENT\\run_movnews\\videos\\short-eb76b5aa.mp4"
+  },
+  "news-ranabaali-release": {
+    "spec": "scripts/specs/movies/movie_news_04_ranabaali-release.json",
+    "video": "F:\\AI AGENT\\run_movnews\\videos\\short-5278c3e6.mp4"
+  },
+  "news-nayyi-navelli-release": {
+    "spec": "scripts/specs/movies/movie_news_03_nayyi-navelli-release.json",
+    "video": "F:\\AI AGENT\\run_movnews\\videos\\short-d04832f6.mp4"
+  },
+  "news-prahaar-release-review": {
+    "spec": "scripts/specs/movies/movie_news_02_prahaar-release-review.json",
+    "video": "F:\\AI AGENT\\run_movnews\\videos\\short-65466ed7.mp4"
+  },
+  "news-jailer-2-opening-day": {
+    "spec": "scripts/specs/movies/movie_news_01_jailer-2-opening-day.json",
+    "video": "F:\\AI AGENT\\run_movnews\\videos\\short-0a5040e2.mp4"
   }
 }

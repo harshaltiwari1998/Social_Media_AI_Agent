@@ -769,5 +769,9 @@
   "reel-pather-panchali-cannes": {
     "spec": "scripts/specs/movies/reel_32_pather-panchali-cannes.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-9e314ec1.mp4"
+  },
+  "palworld-guide-tower-bosses-part-1": {
+    "spec": "scripts/specs/games/palguide_03_tower-bosses-part-1.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-086e9443.mp4"
   }
 }

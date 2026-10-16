@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-final-tower-auri-shaolong",
+  "slot": "palguide",
+  "order": 22,
+  "headline": "The final tower: Auri and Shaolong",
+  "title": "How to Beat the Final Tower in Palworld | Auri and Shaolong | Palworld Guide",
+  "video_script": "The last regular tower boss in Palworld one point zero is Auri and Shaolong, in Sunreach. But you can't just walk in. First, shut down all six barrier devices around Auri's tower. Then head inside for the fight. Shaolong is Water and Dragon, so Electric and Ice Pals work best. Beat this fight, and you've cleared every regular tower, which is your key to the World Tree endgame. Did you beat Auri yet? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Shaolong",
+      "label": "Final Tower"
+    },
+    {
+      "image": "steam:1623730:10",
+      "fact": "6 barrier devices",
+      "sub": "Shut them all down first"
+    },
+    {
+      "image": "pal:Shaolong",
+      "fact": "Shaolong",
+      "sub": "Use Electric or Ice"
+    },
+    {
+      "image": "steam:1623730:11",
+      "fact": "Next: the World Tree",
+      "sub": "The endgame unlocks"
+    }
+  ],
+  "description": "Palworld 1.0 final regular tower: shut down the six barrier devices around Auri's tower in Sunreach, then beat Auri and Shaolong (Water/Dragon - use Electric or Ice) to open the way to the World Tree.",
+  "hashtags": [
+    "Palworld",
+    "Shaolong",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Auri",
+    "Palworld Shaolong boss",
+    "Palworld final tower",
+    "Palworld Sunreach",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld boss guide"
+  ]
+}

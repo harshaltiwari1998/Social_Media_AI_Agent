@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-whats-new-in-1-0",
+  "slot": "palguide",
+  "order": 24,
+  "headline": "What's new in Palworld 1.0",
+  "title": "What's New in Palworld Full Release | Biggest Changes Explained | Palworld Guide",
+  "video_script": "Here are the biggest changes in Palworld one point zero. The level cap is now eighty. Every work suitability can now go up to level ten. Condensing a Pal to max now needs far fewer copies, forty eight in total. Tower boss fights now have a five minute timer. Two new endgame regions arrived, Sunreach and the World Tree. And legendaries got tougher, Jetragon moved to Sunreach at level seventy. Which change do you like most? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:14",
+      "label": "What's New in 1.0"
+    },
+    {
+      "image": "steam:1623730:15",
+      "fact": "Level cap 80",
+      "sub": "Work levels up to 10"
+    },
+    {
+      "image": "pal:Jetragon",
+      "fact": "New regions",
+      "sub": "Sunreach & the World Tree"
+    },
+    {
+      "image": "steam:1623730:16",
+      "fact": "5-minute tower fights",
+      "sub": "Condensing needs 48 Pals"
+    }
+  ],
+  "description": "Palworld 1.0 changes: level cap 80, work suitabilities up to level 10, condensing to max needs 48 Pals, 5-minute tower boss timer, new Sunreach and World Tree regions, and tougher legendaries (Jetragon now level 70 in Sunreach).",
+  "hashtags": [
+    "Palworld",
+    "Palworld10",
+    "PalworldUpdate"
+  ],
+  "tags": [
+    "Palworld 1.0 changes",
+    "Palworld full release",
+    "Palworld update",
+    "Palworld level cap 80",
+    "Palworld World Tree",
+    "Palworld guide",
+    "Palworld news"
+  ]
+}

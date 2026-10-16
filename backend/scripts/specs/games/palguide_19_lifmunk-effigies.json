@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-lifmunk-effigies",
+  "slot": "palguide",
+  "order": 19,
+  "headline": "Lifmunk Effigies explained",
+  "title": "Lifmunk Effigies Explained | Boost Your Capture Rate | Palworld Guide",
+  "video_script": "Keep missing your Pal Spheres? Collect Lifmunk Effigies! These small green statues are hidden all over the map, often on rooftops, cliffs and hard to reach spots. Bring them to a Statue of Power and offer them to raise your capture rate. Every level makes catching Pals easier, though the boost gets smaller at the higher levels. Grab every effigy you see while exploring. How many have you found? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Lifmunk",
+      "label": "Lifmunk Effigies"
+    },
+    {
+      "image": "steam:1623730:5",
+      "fact": "Hidden everywhere",
+      "sub": "Rooftops, cliffs, hard spots"
+    },
+    {
+      "image": "steam:1623730:6",
+      "fact": "Statue of Power",
+      "sub": "Offer effigies here"
+    },
+    {
+      "image": "pal:Lifmunk",
+      "fact": "Higher capture rate",
+      "sub": "Catch Pals more easily"
+    }
+  ],
+  "description": "Lifmunk Effigies in Palworld: collect them around the map and offer them at a Statue of Power to raise your capture rate. Each level helps, with smaller boosts at higher levels.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "Lifmunk"
+  ],
+  "tags": [
+    "Palworld Lifmunk Effigy",
+    "Palworld capture rate",
+    "Palworld Statue of Power",
+    "Palworld catching tips",
+    "Palworld guide",
+    "Palworld tips",
+    "Palworld 1.0"
+  ]
+}

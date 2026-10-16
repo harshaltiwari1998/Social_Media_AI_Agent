@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-how-to-unlock-world-tree",
+  "slot": "palguide",
+  "order": 23,
+  "headline": "How to unlock the World Tree",
+  "title": "How to Unlock the World Tree in Palworld | Panthalus Quest Explained | Palworld Guide",
+  "video_script": "Here's how to unlock the World Tree in Palworld one point zero. First, beat every tower boss in Palpagos, Feybreak and Sunreach. Then talk to the Ancient Civilization Researcher on the Deserted Islet, collect the Echobones from ancient whale remains, and craft the Echoing Flute. Use it to summon the legendary whale Pal Panthalus. Important: capture it, don't just defeat it! Then bring Panthalus to the World Tree terminal. Have you unlocked it? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Panthalus",
+      "label": "Unlock the World Tree"
+    },
+    {
+      "image": "steam:1623730:12",
+      "fact": "Beat every tower",
+      "sub": "Palpagos, Feybreak, Sunreach"
+    },
+    {
+      "image": "steam:1623730:13",
+      "fact": "Echobones + Echoing Flute",
+      "sub": "From the Ancient Civilization Researcher"
+    },
+    {
+      "image": "pal:Panthalus",
+      "fact": "Capture Panthalus",
+      "sub": "Don't just defeat it!"
+    }
+  ],
+  "description": "How to unlock the World Tree in Palworld 1.0: beat all tower bosses, talk to the Ancient Civilization Researcher on the Deserted Islet, collect Echobones, craft the Echoing Flute, summon and CAPTURE Panthalus, then bring it to the World Tree terminal.",
+  "hashtags": [
+    "Palworld",
+    "WorldTree",
+    "Panthalus"
+  ],
+  "tags": [
+    "Palworld World Tree",
+    "how to unlock World Tree",
+    "Palworld Panthalus",
+    "Palworld Echoing Flute",
+    "Palworld endgame",
+    "Palworld 1.0",
+    "Palworld guide"
+  ]
+}

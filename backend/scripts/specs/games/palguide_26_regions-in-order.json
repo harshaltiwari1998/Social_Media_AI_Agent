@@ -1,0 +1,49 @@
+{
+  "id": "palworld-guide-regions-in-order",
+  "slot": "palguide",
+  "order": 26,
+  "headline": "Palworld regions in order",
+  "title": "Palworld Regions in Order | Palpagos to the World Tree | Palworld Guide",
+  "video_script": "Here's the order of the big regions in Palworld one point zero. You start on the Palpagos Islands, where you'll beat your first tower bosses. Next is Feybreak, with the Bjorn and Bastigor tower. Beat it and take the portal to Sunreach, the sky islands, where you face Auri and Shaolong. Finally, after every tower is done, you unlock the World Tree, the endgame region with the strongest Pals. Where are you right now? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:0",
+      "label": "Regions in Order"
+    },
+    {
+      "image": "steam:1623730:1",
+      "fact": "1. Palpagos Islands",
+      "sub": "Your first tower bosses"
+    },
+    {
+      "image": "pal:Bastigor",
+      "fact": "2. Feybreak",
+      "sub": "Bjorn & Bastigor"
+    },
+    {
+      "image": "pal:Shaolong",
+      "fact": "3. Sunreach",
+      "sub": "Auri & Shaolong"
+    },
+    {
+      "image": "pal:Panthalus",
+      "fact": "4. The World Tree",
+      "sub": "The endgame"
+    }
+  ],
+  "description": "Palworld 1.0 regions in order: Palpagos Islands, Feybreak (Bjorn & Bastigor tower), Sunreach sky islands (Auri & Shaolong) and finally the World Tree endgame.",
+  "hashtags": [
+    "Palworld",
+    "PalworldGuide",
+    "WorldTree"
+  ],
+  "tags": [
+    "Palworld regions",
+    "Palworld map",
+    "Palworld Feybreak",
+    "Palworld Sunreach",
+    "Palworld World Tree",
+    "Palworld 1.0",
+    "Palworld progression"
+  ]
+}

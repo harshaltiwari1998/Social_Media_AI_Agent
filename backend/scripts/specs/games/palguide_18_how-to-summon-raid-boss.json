@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-how-to-summon-raid-boss",
+  "slot": "palguide",
+  "order": 18,
+  "headline": "How raids work in Palworld 1.0",
+  "title": "How to Summon a Raid Boss in Palworld | Summoning Altar and Slabs | Palworld Guide",
+  "video_script": "Want to fight a raid boss in Palworld? First, unlock and build the Summoning Altar from the Ancient Technology tree. It can only be built inside a base. Next, collect four slab fragments for the boss you want, from chests, expeditions and earlier raids, and craft them into that boss's slab. Place the slab on the altar and the fight begins, with a timer of about ten minutes. Bring your strongest team! Which raid boss is the hardest? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Bellanoir",
+      "label": "Raid Bosses"
+    },
+    {
+      "image": "steam:1623730:3",
+      "fact": "Summoning Altar",
+      "sub": "Ancient Technology, inside a base"
+    },
+    {
+      "image": "steam:1623730:4",
+      "fact": "4 slab fragments",
+      "sub": "Craft the boss slab"
+    },
+    {
+      "image": "pal:Blazamut Ryu",
+      "fact": "About 10 minutes",
+      "sub": "Beat the raid timer"
+    }
+  ],
+  "description": "How to summon a raid boss in Palworld 1.0: build the Summoning Altar (Ancient Technology, inside a base), craft the boss slab from four fragments, place it on the altar, and beat the boss within the roughly 10-minute timer.",
+  "hashtags": [
+    "Palworld",
+    "PalworldRaid",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld raid boss",
+    "Palworld summoning altar",
+    "Palworld slab",
+    "Palworld Bellanoir",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld tips"
+  ]
+}

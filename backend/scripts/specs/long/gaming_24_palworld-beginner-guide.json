@@ -1,0 +1,157 @@
+{
+  "id": "palworld-beginner-guide",
+  "category": "gaming",
+  "order": 24,
+  "title": "Palworld Beginner Guide | Everything I Wish I Knew Before Playing | Palworld Guide",
+  "description": "A complete Palworld 1.0 beginner guide: the best first Pals to catch, how to set up your first base and Ranch, capture tips and Lifmunk Effigies, how to level up fast, the first Alpha and tower bosses, and the order of the regions.",
+  "hashtags": [
+    "Palworld",
+    "PalworldBeginner",
+    "Gaming"
+  ],
+  "tags": [
+    "Palworld beginner guide",
+    "Palworld tips",
+    "Palworld for beginners",
+    "Palworld best early pals",
+    "Palworld first base",
+    "Palworld leveling",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld new player"
+  ],
+  "thumbnail": {
+    "image": "pal:Cattiva",
+    "text": "PALWORLD BEGINNER GUIDE"
+  },
+  "sections": [
+    {
+      "heading": "Welcome to Palworld",
+      "script": "Just starting Palworld? This guide is for you. Palworld one point zero is bigger than ever, with a level cap of eighty, new regions and a lot of systems to learn. In this video I will cover everything I wish I knew when I started: which Pals to catch first, how to set up your first base, how to catch Pals more easily, how to level up fast, which bosses to fight first, and where to go next. Follow these tips and your first hours will be much smoother. Let's jump in.",
+      "images": [
+        "steam:1623730:0",
+        "pal:Cattiva",
+        "steam:1623730:1"
+      ]
+    },
+    {
+      "heading": "Your first catches",
+      "script": "Your first Pals matter. Most guides agree that Cattiva is the best first catch. It helps around the base, and while it is in your party you can carry more, which is huge early on. Next, catch Foxparks. It is your first Kindling Pal for cooking and smelting, and a great little fighter that works like a portable flamethrower. Lifmunk is a good early worker for your first crafting bench, thanks to its Handiwork. Lamball gives you Wool on a Ranch. And Vixy digs up useful items like Pal Spheres and arrows by itself.",
+      "images": [
+        "pal:Cattiva",
+        "pal:Foxparks",
+        "pal:Lifmunk",
+        "pal:Vixy"
+      ]
+    },
+    {
+      "heading": "Your first base",
+      "script": "Place your first Palbox somewhere flat and safe, close to wood and stone. Assign your Pals to it, and they will start working on their own. Build a workbench for Lifmunk, a campfire or furnace for Foxparks, and some storage boxes so the items have somewhere to go. Keep everything close together with wide paths, so your Pals don't get stuck. Remember that your Pals need food, so build a Feed Box and keep it full. Your Base Level goes up as you complete the missions on your Palbox, and every level unlocks more workers.",
+      "images": [
+        "steam:1623730:2",
+        "pal:Lifmunk",
+        "pal:Foxparks"
+      ]
+    },
+    {
+      "heading": "Set up a Ranch early",
+      "script": "One of the best early upgrades is a Ranch. Farming Pals produce items when they are assigned to it. Lamball gives Wool, Chikipi gives Eggs, Mozzarina gives Milk and Beegarde gives Honey. Wool turns into cloth for early armor, and Eggs, Milk and Honey are ingredients for better food and for Cake, which you will need later for breeding. A small Ranch with a few of these Pals will keep your base supplied while you explore, and it costs almost nothing to set up.",
+      "images": [
+        "pal:Lamball",
+        "pal:Chikipi",
+        "pal:Mozzarina",
+        "pal:Beegarde"
+      ]
+    },
+    {
+      "heading": "How to catch Pals",
+      "script": "Catching is the heart of Palworld. Weaken a Pal before you throw a sphere, because the lower its health, the better your chance. Sneaking up and throwing from behind also helps. Better spheres give better odds, so craft stronger ones as soon as you can. And look for Lifmunk Effigies, the small green statues hidden on rooftops, cliffs and hard to reach places. Offer them at a Statue of Power to permanently raise your capture rate. It makes a big difference later when you hunt rare and legendary Pals.",
+      "images": [
+        "pal:Lifmunk",
+        "steam:1623730:3",
+        "steam:1623730:4"
+      ]
+    },
+    {
+      "heading": "Level up fast",
+      "script": "The level cap is now eighty, so leveling matters. The best tip is to catch new species. Your first catches of every Pal give big bonus experience, so catch everything you see, even common Pals. Fight Alpha Pals and tower bosses, because they give huge experience. Clear dungeons and enemy bases. And complete your missions, since they now give big experience rewards. As you level up, move into new areas where the Pals and rewards are stronger.",
+      "images": [
+        "steam:1623730:5",
+        "pal:Chillet",
+        "steam:1623730:6"
+      ]
+    },
+    {
+      "heading": "Your first Alpha",
+      "script": "Alpha Pals are bigger, stronger versions of normal Pals, and they make great early goals. An easy first Alpha is Chillet, a level eleven Alpha that spawns close to the starting area in the Windswept Hills. Catching it gives you an Ice and Dragon Pal with strong attack for the early game. Weaken it, throw your spheres from behind, and it is yours. Later, the Alpha Anubis, a level fifty five field boss in the desert, is a great target, because Anubis is one of the best base workers in the game.",
+      "images": [
+        "pal:Chillet",
+        "pal:Anubis",
+        "steam:1623730:7"
+      ]
+    },
+    {
+      "heading": "Your first tower bosses",
+      "script": "Towers are the big story fights. The first one is Zoe and Grizzbolt. Grizzbolt is Electric, so bring Ground Pals. Next is Lily and Lyleen. Lyleen is Grass, so bring Fire Pals like Foxparks or its stronger relatives. Then Axel and Orserk, where both Ground and Ice Pals work, and Marcus and Faleris, where Water Pals shine. Tower fights in one point zero have a five minute timer, so bring strong attackers and hit hard. Each tower you beat moves the story forward.",
+      "images": [
+        "pal:Grizzbolt",
+        "pal:Lyleen",
+        "pal:Orserk",
+        "pal:Faleris"
+      ]
+    },
+    {
+      "heading": "Where to go next",
+      "script": "Here is the big picture of the world. You start on the Palpagos Islands, where you beat your first towers. Next is Feybreak, with the Bjorn and Bastigor tower. Beat it and take the portal to Sunreach, the sky islands, where Auri and Shaolong wait. And after every tower is done, you unlock the World Tree, the endgame region with the strongest Pals. You don't need to rush. Take your time, build your base and your team, and move on when you feel ready.",
+      "images": [
+        "steam:1623730:8",
+        "pal:Bastigor",
+        "pal:Shaolong"
+      ]
+    },
+    {
+      "heading": "Your first flying mount",
+      "script": "Flying changes everything in Palworld. Once you can fly, you can reach high places, cross water and explore much faster. A great early upgrade is Helzephyr, which most guides recommend as one of the best easy flying mounts before the endgame. Later, Beakon is a strong mid game flyer. Remember, every mount needs its saddle, so check the technology tree and unlock the saddle as soon as you catch a new mount. Your first flying mount is one of the biggest upgrades you will ever get.",
+      "images": [
+        "pal:Helzephyr",
+        "pal:Beakon",
+        "steam:1623730:10"
+      ]
+    },
+    {
+      "heading": "Where to find ore, coal and sulfur",
+      "script": "As you progress you will need metal, and that means ore and coal. Many guides recommend the high ground near the Sealed Realm of the Guardian, at around one eighty, minus thirty nine, because ore and coal nodes are close enough to fit inside one base. Later you will need sulfur for gunpowder. You will find it around Mount Obsidian, the volcano area. It is hot there, so bring heat resistant gear and be ready for strong Fire Pals. Put Knocklem or Anubis at a mining base, because they are the best miners.",
+      "images": [
+        "steam:1623730:11",
+        "pal:Knocklem",
+        "steam:1623730:12"
+      ]
+    },
+    {
+      "heading": "Your first oil rig",
+      "script": "Crude oil is another resource you will need later, and it comes from oil rigs. The easiest one is the Barge Oil Rig, at around level thirty, in the lake north of the Sealed Realm of the Frozen Wings. It only has gun turrets and no anti air lasers, so you can fly straight in. The bigger Oil Rig stronghold is around level fifty five, southeast of Marsh Island, and it is much more dangerous, so save it for later. Bring strong Pals and plenty of healing.",
+      "images": [
+        "steam:1623730:13",
+        "pal:Beakon",
+        "steam:1623730:14"
+      ]
+    },
+    {
+      "heading": "Quick tips",
+      "script": "A few last tips. Condense your favorite Pals, because reaching four stars raises every work suitability by one. Mine with Anubis and Knocklem once you have them, they are the best workers before the endgame. Use the Monitoring Stand to keep your Pals focused on the right jobs. And every mount needs its saddle before you can ride it, so check the technology tree for saddles of your favorite Pals. Small habits like these will save you hours.",
+      "images": [
+        "pal:Anubis",
+        "pal:Knocklem",
+        "steam:1623730:9"
+      ]
+    },
+    {
+      "heading": "Have fun, Tamer",
+      "script": "That is everything you need to start strong in Palworld: your first catches, your first base and Ranch, catching and leveling tips, your first Alpha and towers, and where to go next. What was the first Pal you caught, and which tip helped you the most? Tell me in the comments, and let me know what you want the next guide to be about. If this helped, hit like and subscribe to HarryBeast Gaming for more Palworld guides.",
+      "images": [
+        "pal:Cattiva",
+        "pal:Foxparks"
+      ]
+    }
+  ]
+}

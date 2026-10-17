@@ -1027,5 +1027,12 @@
   "palworld-guide-tower-bosses-part-2": {
     "spec": "scripts/specs/games/palguide_04_tower-bosses-part-2.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-77926be8.mp4"
+  },
+  "ss-rajamouli-safar": {
+    "spec": "scripts/specs/long/movies_06_ss-rajamouli-safar.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-bbc8cd9c.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-bbc8cd9c-thumb.jpg",
+    "chapters": "0:00 भव्य कहानियों के जादूगर\n0:37 शुरुआती films\n1:19 Magadheera - 2009\n1:52 Eega - 2012\n2:33 Baahubali - The Beginning\n3:08 Baahubali 2 - 1000 करोड़\n3:42 Baahubali की विरासत\n4:14 RRR - 2022\n4:53 Hollywood की तारीफ़\n5:24 Naatu Naatu और Oscar\n5:58 सम्मान और पहचान\n6:34 आपकी favourite film कौन सी"
   }
 }

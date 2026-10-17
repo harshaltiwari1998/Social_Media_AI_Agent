@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-mossanda-lux-alpha",
+  "slot": "palguide",
+  "order": 38,
+  "headline": "Where to find Alpha Mossanda Lux",
+  "title": "Where to Find Mossanda Lux in Palworld | Alpha Location | Palworld Guide",
+  "video_script": "Want a powerful Electric mount early in Palworld? Go for the Alpha Mossanda Lux! You'll find it at around four four nine, minus one eight one on the map. Mossanda Lux is the electric version of Mossanda, a big strong Pal you can ride once you have its saddle. It hits hard, so bring Ground Pals, because Electric is weak to Ground. And like every Alpha, it's also a good source of Ancient Civilization Parts. Have you caught one? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Mossanda Lux",
+      "label": "Mossanda Lux"
+    },
+    {
+      "image": "pal:Mossanda Lux",
+      "fact": "Alpha",
+      "sub": "Around 449, -181"
+    },
+    {
+      "image": "pal:Mossanda Lux",
+      "fact": "Electric Pal",
+      "sub": "Rideable with its saddle"
+    },
+    {
+      "image": "pal:Dumud",
+      "fact": "Bring Ground Pals",
+      "sub": "Electric is weak to Ground"
+    }
+  ],
+  "description": "Palworld 1.0 Alpha Mossanda Lux location: around (449, -181). An Electric Pal you can ride with its saddle - bring Ground Pals.",
+  "hashtags": [
+    "Palworld",
+    "MossandaLux",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Mossanda Lux",
+    "Palworld alpha location",
+    "Palworld electric pal",
+    "Palworld mount",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld tips"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-necromus-vs-paladius",
+  "slot": "palguide",
+  "order": 41,
+  "headline": "Necromus vs Paladius",
+  "title": "Necromus vs Paladius in Palworld | Which Legendary to Catch First | Palworld Guide",
+  "video_script": "Necromus or Paladius, which should you catch first? Both are level sixty legendaries in Palworld one point zero, and they share the same arena in the desert, so you can only summon one at a time. Necromus is a Dark Pal and one of the fastest ground mounts, with a double jump. Paladius is Neutral and trades a little speed for a triple jump. Want raw speed? Pick Necromus. Want to climb high places? Pick Paladius. Which one did you pick? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Necromus",
+      "label": "Necromus vs Paladius"
+    },
+    {
+      "image": "pal:Necromus",
+      "fact": "Necromus",
+      "sub": "Dark, fast, double jump"
+    },
+    {
+      "image": "pal:Paladius",
+      "fact": "Paladius",
+      "sub": "Neutral, triple jump"
+    },
+    {
+      "image": "pal:Paladius",
+      "fact": "Same arena",
+      "sub": "Summon one at a time"
+    }
+  ],
+  "description": "Necromus vs Paladius in Palworld 1.0: both level 60 legendaries sharing one desert arena (one at a time). Necromus is Dark, fast, with a double jump; Paladius is Neutral with a triple jump.",
+  "hashtags": [
+    "Palworld",
+    "Necromus",
+    "Paladius"
+  ],
+  "tags": [
+    "Palworld Necromus",
+    "Palworld Paladius",
+    "Palworld legendary",
+    "Palworld mounts",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld tips"
+  ]
+}

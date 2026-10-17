@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-sweepa-early-alpha",
+  "slot": "palguide",
+  "order": 37,
+  "headline": "Easy early Alpha: Sweepa",
+  "title": "Easy Early Alpha in Palworld | Sweepa Location | Palworld Guide",
+  "video_script": "Looking for another easy early Alpha in Palworld? Try Sweepa! This level eleven Alpha is close to the start, west of the Plateau of Beginnings, at around minus two two seven, minus five nine three. It's a great target for your first Alpha hunts, and Alphas are also the best source of Ancient Civilization Parts. Weaken it, throw your spheres from behind, and catch it. Sweepa is an Ice Pal, so Fire Pals like Foxparks help a lot. Who was your first Alpha? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Sweepa",
+      "label": "Early Alpha: Sweepa"
+    },
+    {
+      "image": "pal:Sweepa",
+      "fact": "Alpha Lv 11",
+      "sub": "West of the Plateau of Beginnings"
+    },
+    {
+      "image": "steam:1623730:12",
+      "fact": "Around -227, -593",
+      "sub": "Close to the start"
+    },
+    {
+      "image": "pal:Foxparks",
+      "fact": "Ice type",
+      "sub": "Bring Fire Pals"
+    }
+  ],
+  "description": "Palworld 1.0 early Alpha: Sweepa, level 11, west of the Plateau of Beginnings around (-227, -593). An Ice Pal - bring Fire Pals.",
+  "hashtags": [
+    "Palworld",
+    "Sweepa",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Sweepa",
+    "Palworld alpha pals",
+    "Palworld early game",
+    "Palworld beginner",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld tips"
+  ]
+}

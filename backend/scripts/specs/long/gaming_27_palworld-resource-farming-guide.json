@@ -1,0 +1,148 @@
+{
+  "id": "palworld-resource-farming-guide",
+  "category": "gaming",
+  "order": 27,
+  "title": "Palworld Resource Farming Guide | Ore, Coal, Sulfur, Oil, Paldium and Ancient Parts | Palworld Guide",
+  "description": "Where and how to farm every key resource in Palworld 1.0: ore and coal, sulfur, crude oil from oil rigs, Paldium with the Crusher, Pal Metal Ingots, Ancient Civilization Parts from Alphas, and fishing.",
+  "hashtags": [
+    "Palworld",
+    "PalworldGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Palworld resource farming",
+    "Palworld ore",
+    "Palworld coal",
+    "Palworld sulfur",
+    "Palworld oil rig",
+    "Palworld Paldium",
+    "Palworld Ancient Civilization Parts",
+    "Palworld 1.0",
+    "Palworld guide"
+  ],
+  "thumbnail": {
+    "image": "pal:Knocklem",
+    "text": "FARM EVERY RESOURCE"
+  },
+  "sections": [
+    {
+      "heading": "Never run out again",
+      "script": "In Palworld, almost everything you build needs resources, and running out at the wrong moment is the worst. In this guide we cover where and how to farm every key resource in one point zero: ore and coal, sulfur, crude oil, Paldium Fragments, Pal Metal Ingots, Ancient Civilization Parts, and even what fishing adds. We will also look at the best Pals and base setups, so your base keeps producing while you explore. Everything here follows what up to date one point zero guides agree on, and where they disagree on exact spots, I will tell you the area instead. Let's fill those storage boxes.",
+      "images": [
+        "steam:1623730:0",
+        "pal:Knocklem",
+        "steam:1623730:1"
+      ]
+    },
+    {
+      "heading": "Ore and coal",
+      "script": "Ore and coal are the foundation of metal ingots, and the best way to get them is a dedicated mining base. Many one point zero guides recommend the high ground near the Sealed Realm of the Guardian, at around one eighty, minus thirty nine, because ore and coal nodes there fit inside one base radius. That means your miners can work on both without walking far. Put your furnaces right next to the nodes, and storage next to the furnaces, so every trip is short. A base built this way can supply your whole game with metal.",
+      "images": [
+        "steam:1623730:2",
+        "steam:1623730:3",
+        "pal:Anubis"
+      ]
+    },
+    {
+      "heading": "The best miners",
+      "script": "Who should work at a mining base? Before the endgame, Knocklem and Anubis are the best. Knocklem has strong Mining and strong Transporting, so it breaks ore and carries it to storage by itself. Anubis is a great all rounder with good Mining and Handiwork. Later, Aegidron becomes the best miner in the game, but it is story gated. Give your miners wide paths and keep everything on the same level, because big Pals like Knocklem can get stuck. Condensing your miners to four stars also raises every work level by one.",
+      "images": [
+        "pal:Knocklem",
+        "pal:Anubis",
+        "pal:Aegidron"
+      ]
+    },
+    {
+      "heading": "Sulfur",
+      "script": "Sulfur is needed for gunpowder, and you will find it around Mount Obsidian, the volcano area. The exact spots vary between guides, but sulfur nodes are around the volcano and its foot. It is very hot there, so wear heat resistant gear or bring a Pal that helps with the heat, and be ready for strong Fire Pals. Mine it yourself, or build a base nearby with Knocklem or Anubis so they mine it for you. Keep a good stock, because guns and ammo eat through gunpowder quickly.",
+      "images": [
+        "steam:1623730:4",
+        "steam:1623730:5",
+        "pal:Knocklem"
+      ]
+    },
+    {
+      "heading": "Crude oil",
+      "script": "Crude oil comes from oil rigs. The easiest one is the Barge Oil Rig, at around level thirty, in the lake north of the Sealed Realm of the Frozen Wings, at about one sixty, minus two eighty. It only has gun turrets and no anti air lasers, so you can fly straight in on a mount like Beakon. The big Oil Rig stronghold is around level fifty five, southeast of Marsh Island. There is no fast travel point on it, so warp to Marsh Island and fly or swim over. Save the big rig for when your team is strong.",
+      "images": [
+        "steam:1623730:6",
+        "pal:Beakon",
+        "steam:1623730:7"
+      ]
+    },
+    {
+      "heading": "Paldium Fragments",
+      "script": "Paldium Fragments are used in so many recipes that you need a steady supply. The easiest way is the Crusher. Build one and assign a Pal with Watering to power it, then put stone in, and it turns the stone into Paldium. Feed it automatically with a Stone Pit and a few mining Pals, and let transporting Pals carry the stone over. You can also mine the blue Paldium rocks you find in the wild for pure Paldium. Set this up early, and Paldium stops being a problem.",
+      "images": [
+        "steam:1623730:8",
+        "pal:Jormuntide",
+        "steam:1623730:9"
+      ]
+    },
+    {
+      "heading": "Pal Metal Ingots",
+      "script": "Pal Metal Ingots are needed for a lot of late game gear. The recipe is four Ore, two Paldium Fragments and one Pure Quartz, crafted at an Electric Furnace or a better furnace. The furnace needs electricity, so build a Power Generator and assign an Electric Pal to it. Orserk is the best electricity Pal in the game, but any Electric Pal works to start. Combine your ore base, your Paldium Crusher and a powered furnace, and your base will produce Pal Metal while you are out exploring.",
+      "images": [
+        "steam:1623730:10",
+        "pal:Orserk",
+        "steam:1623730:11"
+      ]
+    },
+    {
+      "heading": "Ancient Civilization Parts",
+      "script": "Ancient Civilization Parts are needed for Ancient Technology, and the main source is Alpha Pals. Field Alphas respawn, so you can farm them again and again. Pick a few easy Alphas close to fast travel points and run a loop. If your level is much higher than the Alpha, you can take it down very fast. Here is a pro tip that two guides agree on: capture the Alpha and butcher it for a second drop roll. Dungeon bosses drop parts too, but they take longer to reach.",
+      "images": [
+        "pal:Sweepa",
+        "pal:Mossanda Lux",
+        "steam:1623730:12"
+      ]
+    },
+    {
+      "heading": "Good Alphas for farming",
+      "script": "Which Alphas are good for a loop? Early on, Chillet is a level eleven Alpha near the start in the Windswept Hills, and Sweepa is a level eleven Alpha west of the Plateau of Beginnings. Mossanda Lux, an Electric Alpha at around four four nine, minus one eight one, is a strong mid game target and a great mount too. Later, the Alpha Anubis, a level fifty five boss south of the Anubis Dunes fast travel point, gives you one of the best base workers in the game.",
+      "images": [
+        "pal:Chillet",
+        "pal:Sweepa",
+        "pal:Mossanda Lux",
+        "pal:Anubis"
+      ]
+    },
+    {
+      "heading": "Fishing",
+      "script": "One point zero also added fishing, which is a relaxing way to collect extra items. Unlock the fishing set from around level fifteen in the Technology menu, craft a rod and bait, and cast near the fish shadows in the water. When a fish bites, keep it inside the moving green bar until the meter fills. Each cast uses one bait. Better rods and better bait unlock as you level up, and they make the minigame easier and the rewards better.",
+      "images": [
+        "steam:1623730:13",
+        "steam:1623730:14",
+        "steam:1623730:15"
+      ]
+    },
+    {
+      "heading": "Food from the Ranch",
+      "script": "Your workers need food, and the easiest way to keep the Feed Box full is a Ranch. Farming Pals drop items when they are assigned to it. Mozzarina gives Milk, Chikipi gives Eggs, Beegarde gives Honey, and Lamball gives Wool. Milk, Eggs and Honey also go into Cake, which you need for breeding, and Wool turns into cloth. Add crop fields with Planting and Watering Pals, and your base will feed itself while you are away. Hungry Pals work badly, so this is one of the most important resources of all.",
+      "images": [
+        "pal:Mozzarina",
+        "pal:Chikipi",
+        "pal:Beegarde",
+        "pal:Lamball"
+      ]
+    },
+    {
+      "heading": "Power and Cooling",
+      "script": "Two more things every advanced base needs are electricity and cooling. Electricity runs machines like the Electric Furnace, so put a strong Electric Pal on your Power Generator. Orserk is the best electricity Pal in the game. Cooling keeps your food fresh much longer in a Cooler Box or Refrigerator, so put an Ice Pal on it. Bastigor is the best Cooling Pal, and Frostallion is right behind it. One good Pal on each job is usually enough for a whole base.",
+      "images": [
+        "pal:Orserk",
+        "pal:Bastigor",
+        "pal:Frostallion"
+      ]
+    },
+    {
+      "heading": "Build a resource network",
+      "script": "The real secret is to stop farming by hand. Build specialized bases: a mining base for ore and coal, a crafting hub with powered furnaces, and a farm base for food. Staff them with the right Pals, keep paths short and wide, and use the Monitoring Stand to keep each Pal on its job. Then you only travel for the things bases can't make, like oil, sulfur and Alpha drops. Which resource do you always run out of, and how do you farm it? Tell me in the comments, and let me know which resource you want a full guide for next. If this helped, hit like and subscribe to HarryBeast Gaming for more Palworld guides.",
+      "images": [
+        "steam:1623730:16",
+        "pal:Knocklem",
+        "pal:Anubis"
+      ]
+    }
+  ]
+}

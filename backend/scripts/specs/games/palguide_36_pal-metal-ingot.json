@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-pal-metal-ingot",
+  "slot": "palguide",
+  "order": 36,
+  "headline": "How to make Pal Metal Ingots",
+  "title": "How to Make Pal Metal Ingots in Palworld | Recipe and Furnace | Palworld Guide",
+  "video_script": "Here's how to make Pal Metal Ingots in Palworld. The recipe is four Ore, two Paldium Fragments and one Pure Quartz. You craft them at an Electric Furnace or a better furnace. That furnace needs power, so build a Power Generator and assign an Electric Pal to it. Then keep the materials flowing with an Ore mining base and a Paldium Crusher. Pal Metal is used for a lot of late game gear, so start stockpiling early. What are you crafting with it? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:9",
+      "label": "Pal Metal Ingots"
+    },
+    {
+      "image": "steam:1623730:10",
+      "fact": "4 Ore + 2 Paldium",
+      "sub": "+ 1 Pure Quartz"
+    },
+    {
+      "image": "steam:1623730:11",
+      "fact": "Electric Furnace",
+      "sub": "Needs a Power Generator"
+    },
+    {
+      "image": "pal:Orserk",
+      "fact": "Electric Pal",
+      "sub": "Powers the generator"
+    }
+  ],
+  "description": "Pal Metal Ingot in Palworld: 4 Ore + 2 Paldium Fragments + 1 Pure Quartz at an Electric Furnace (or better), which needs a Power Generator run by an Electric Pal.",
+  "hashtags": [
+    "Palworld",
+    "PalworldCrafting",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Pal Metal Ingot",
+    "Palworld electric furnace",
+    "Palworld crafting",
+    "Palworld pure quartz",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld tips"
+  ]
+}

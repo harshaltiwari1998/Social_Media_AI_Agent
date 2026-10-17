@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-fishing-guide",
+  "slot": "palguide",
+  "order": 32,
+  "headline": "How to fish in Palworld 1.0",
+  "title": "How to Fish in Palworld | Rods, Bait and the Fishing Minigame | Palworld Guide",
+  "video_script": "Palworld one point zero added fishing! Here's how to start. Open your Technology menu and unlock the fishing set, which you can get from around level fifteen. Craft a fishing rod and some bait. Then look for fish shadows in the water and cast near them. When a fish bites, a minigame starts: move the green bar to keep the fish inside it until the meter fills. Each cast uses one bait, and better rods and bait unlock as you level up. Caught anything rare yet? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:0",
+      "label": "Fishing in Palworld"
+    },
+    {
+      "image": "steam:1623730:1",
+      "fact": "Unlock around Lv 15",
+      "sub": "Rod + bait from Technology"
+    },
+    {
+      "image": "steam:1623730:2",
+      "fact": "Cast near shadows",
+      "sub": "Fish shadows in the water"
+    },
+    {
+      "image": "steam:1623730:3",
+      "fact": "Keep the fish in the bar",
+      "sub": "Fill the meter to catch it"
+    }
+  ],
+  "description": "Palworld 1.0 fishing: unlock the fishing set from around level 15, craft a rod and bait, cast near fish shadows, and keep the fish inside the green bar to fill the catch meter. Each cast uses one bait.",
+  "hashtags": [
+    "Palworld",
+    "PalworldFishing",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld fishing",
+    "how to fish in Palworld",
+    "Palworld fishing rod",
+    "Palworld bait",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld tips"
+  ]
+}

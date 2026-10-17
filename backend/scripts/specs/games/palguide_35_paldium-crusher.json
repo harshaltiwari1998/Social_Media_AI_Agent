@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-paldium-crusher",
+  "slot": "palguide",
+  "order": 35,
+  "headline": "How to farm Paldium Fragments",
+  "title": "How to Farm Paldium Fragments in Palworld | Crusher Method | Palworld Guide",
+  "video_script": "Running out of Paldium Fragments in Palworld? Let your base make them. Build a Crusher and assign a Pal with Watering to power it. Put stone in, and the Crusher turns it into Paldium. To keep it running, build a Stone Pit with a few mining Pals, and let transporting Pals carry the stone to the Crusher. You can also mine the blue Paldium rocks you see in the wild for pure Paldium. Set it up once and never run out again. How much Paldium do you have? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:6",
+      "label": "Paldium Farming"
+    },
+    {
+      "image": "steam:1623730:7",
+      "fact": "Crusher",
+      "sub": "Powered by a Watering Pal"
+    },
+    {
+      "image": "pal:Knocklem",
+      "fact": "Stone Pit + miners",
+      "sub": "Keep the Crusher fed"
+    },
+    {
+      "image": "steam:1623730:8",
+      "fact": "Blue Paldium rocks",
+      "sub": "Mine them in the wild"
+    }
+  ],
+  "description": "Farm Paldium Fragments in Palworld: build a Crusher powered by a Watering Pal to turn stone into Paldium, feed it from a Stone Pit with mining and transporting Pals, and mine Paldium rocks in the wild.",
+  "hashtags": [
+    "Palworld",
+    "Paldium",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Paldium",
+    "Palworld Paldium farm",
+    "Palworld crusher",
+    "Palworld stone pit",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld tips"
+  ]
+}

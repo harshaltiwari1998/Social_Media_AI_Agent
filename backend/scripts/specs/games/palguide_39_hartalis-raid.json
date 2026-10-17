@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-hartalis-raid",
+  "slot": "palguide",
+  "order": 39,
+  "headline": "Hartalis: the raid boss mount",
+  "title": "How to Get Hartalis in Palworld | Raid Boss Ground Mount | Palworld Guide",
+  "video_script": "Hartalis is one of the fastest ground mounts in Palworld, but you won't find it walking around. It's a raid boss. To fight it, build a Summoning Altar at your base from the Ancient Technology tree, craft the Hartalis slab from its four fragments, and place it on the altar. The raid has a timer of about ten minutes, so bring your strongest team. Beat it, and you can add one of the best ground mounts to your Palbox. Ready for the raid? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Hartalis",
+      "label": "Hartalis"
+    },
+    {
+      "image": "pal:Hartalis",
+      "fact": "Raid boss",
+      "sub": "Not on the open map"
+    },
+    {
+      "image": "steam:1623730:13",
+      "fact": "Summoning Altar",
+      "sub": "Place the Hartalis slab"
+    },
+    {
+      "image": "pal:Hartalis",
+      "fact": "Fast ground mount",
+      "sub": "Beat it to catch it"
+    }
+  ],
+  "description": "Hartalis in Palworld 1.0 is a raid boss: build a Summoning Altar, craft its slab from four fragments, and beat it within about 10 minutes. It is one of the fastest ground mounts.",
+  "hashtags": [
+    "Palworld",
+    "Hartalis",
+    "PalworldRaid"
+  ],
+  "tags": [
+    "Palworld Hartalis",
+    "Palworld raid boss",
+    "Palworld ground mount",
+    "Palworld summoning altar",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld tips"
+  ]
+}

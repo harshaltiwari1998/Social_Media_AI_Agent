@@ -1,0 +1,234 @@
+"""Real AI-motion shorts with fal.ai: storyboard JSON -> scene images -> Kling 3.0 clips -> narrated 1080x1920 short.
+
+  python scripts/fal_video.py STORYBOARD.json OUT_DIR
+
+Storyboard format:
+{
+  "title": "...", "voice": "en-US-GuyNeural",
+  "narration": ["sentence or paragraph per clip", ...],      # one entry per clip, read over that clip
+  "clips": [
+    {"image": "path.jpg" | {"prompt": "text-to-image prompt"} | {"edit": "instruction", "from": "path or pal:Name"},
+     "shots": [["shot prompt", seconds], ...]}             # 1-6 shots, total <= 15 s (Kling multi-shot)
+  ]
+}
+Needs FAL_KEY in backend/.env. Every generated image/clip is cached in OUT_DIR, so re-runs only pay for what is missing.
+"""
+from __future__ import annotations
+
+import asyncio
+import base64
+import json
+import sys
+import time
+from pathlib import Path
+
+import httpx
+import numpy as np
+from PIL import Image
+
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+from scripts import lucario_stone_video as sv  # noqa: E402  (tts, captions, audio helpers)
+
+QUEUE = "https://queue.fal.run"
+VIDEO_MODEL = "fal-ai/kling-video/v3/turbo/standard/image-to-video"
+IMAGE_MODEL = "fal-ai/flux/schnell"
+EDIT_MODEL = "fal-ai/nano-banana/edit"
+W, H, FPS, SR = 1080, 1920, 30, 44100
+
+
+def _key() -> str:
+    for line in (ROOT / ".env").read_text(encoding="utf-8").splitlines():
+        if line.startswith("FAL_KEY="):
+            return line.split("=", 1)[1].strip()
+    raise SystemExit("FAL_KEY missing from backend/.env")
+
+
+def _data_uri(path: Path) -> str:
+    im = Image.open(path).convert("RGB")
+    im.thumbnail((1440, 1440))
+    import io
+
+    buf = io.BytesIO()
+    im.save(buf, "JPEG", quality=92)
+    return "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode()
+
+
+def fal_run(model: str, args: dict, timeout: int = 1800) -> dict:
+    """Submit to the fal queue and wait for the result."""
+    headers = {"Authorization": f"Key {_key()}", "Content-Type": "application/json"}
+    r = httpx.post(f"{QUEUE}/{model}", json=args, headers=headers, timeout=120)
+    if r.status_code >= 400:
+        raise RuntimeError(f"{model} submit HTTP {r.status_code}: {r.text[:300]}")
+    job = r.json()
+    status_url, response_url = job["status_url"], job["response_url"]
+    start = time.time()
+    while time.time() - start < timeout:
+        s = httpx.get(status_url, headers=headers, timeout=60).json()
+        if s.get("status") == "COMPLETED":
+            res = httpx.get(response_url, headers=headers, timeout=120)
+            if res.status_code >= 400:
+                raise RuntimeError(f"{model} result HTTP {res.status_code}: {res.text[:300]}")
+            return res.json()
+        if s.get("status") not in ("IN_QUEUE", "IN_PROGRESS"):
+            raise RuntimeError(f"{model} failed: {json.dumps(s)[:300]}")
+        time.sleep(8)
+    raise RuntimeError(f"{model} timed out")
+
+
+def _download(url: str, out: Path) -> Path:
+    with httpx.stream("GET", url, timeout=300, follow_redirects=True) as r:
+        r.raise_for_status()
+        with out.open("wb") as f:
+            for chunk in r.iter_bytes():
+                f.write(chunk)
+    return out
+
+
+def _resolve_source(src: str, work: Path) -> Path:
+    if src.startswith("pal:"):  # official Pal art on a plain backdrop
+        from scripts.game_videos import fetch_image
+
+        p = work / f"src_{src[4:].replace(' ', '_')}.jpg"
+        if not p.exists():
+            fetch_image(src).save(p, quality=95)
+        return p
+    return Path(src)
+
+
+def scene_image(spec, out: Path, work: Path) -> Path:
+    if out.exists():
+        return out
+    if isinstance(spec, str):
+        Image.open(spec).convert("RGB").save(out, quality=95)
+        return out
+    if "prompt" in spec:
+        res = fal_run(IMAGE_MODEL, {"prompt": spec["prompt"], "image_size": "portrait_16_9", "num_images": 1})
+    else:
+        ref = _resolve_source(spec["from"], work)
+        res = fal_run(EDIT_MODEL, {"prompt": spec["edit"] + " Vertical 9:16 composition.", "image_urls": [_data_uri(ref)],
+                                   "num_images": 1, "aspect_ratio": "9:16"})
+    _download(res["images"][0]["url"], out)
+    print("  image", out.name, flush=True)
+    return out
+
+
+def make_clip(image: Path, shots: list, out: Path) -> Path:
+    if out.exists():
+        return out
+    args = {"image_url": _data_uri(image)}
+    if len(shots) == 1:
+        args.update(prompt=shots[0][0], duration=str(int(shots[0][1])))
+    else:
+        args["multi_prompt"] = [{"prompt": p, "duration": str(int(d))} for p, d in shots]
+    res = fal_run(VIDEO_MODEL, args)
+    _download(res["video"]["url"], out)
+    print("  clip", out.name, flush=True)
+    return out
+
+
+def _clip_frames(path: Path, work: Path) -> np.memmap:
+    import subprocess
+
+    import imageio_ffmpeg
+
+    raw = work / (path.stem + ".rgb")
+    if not raw.exists():
+        with raw.open("wb") as f:
+            subprocess.run([imageio_ffmpeg.get_ffmpeg_exe(), "-v", "error", "-i", str(path), "-an", "-vf",
+                            f"fps={FPS},scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H}",
+                            "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], stdout=f, check=True)
+    n = raw.stat().st_size // (W * H * 3)
+    return np.memmap(raw, dtype=np.uint8, mode="r", shape=(n, H, W, 3))
+
+
+def build(storyboard: Path, out_dir: Path) -> Path:
+    from PIL import ImageDraw, ImageFont
+    from moviepy.audio.AudioClip import AudioArrayClip
+    from moviepy.editor import VideoClip
+
+    sb = json.loads(storyboard.read_text(encoding="utf-8"))
+    out_dir.mkdir(parents=True, exist_ok=True)
+    work = out_dir / ".work"
+    work.mkdir(exist_ok=True)
+    sv.VOICE = sb.get("voice", sv.VOICE)
+
+    clips = []
+    for i, c in enumerate(sb["clips"]):
+        img = scene_image(c["image"], out_dir / f"scene_{i:02d}.jpg", work)
+        clips.append(make_clip(img, c["shots"], out_dir / f"clip_{i:02d}.mp4"))
+
+    frames = [_clip_frames(c, work) for c in clips]
+    clip_audio = [sv._decode(c) if _has_audio(c) else None for c in clips]
+    durs = [len(f) / FPS for f in frames]
+    starts = np.cumsum([0] + durs[:-1])
+    total = float(sum(durs))
+
+    # narration: one block per clip, placed at the clip start (sped up slightly if it's longer than the clip)
+    chunks, mix = [], np.zeros((int(total * SR) + SR, 2), dtype=np.float32)
+    for i, text in enumerate(sb["narration"][: len(clips)]):
+        mp3 = work / f"vo_{i:02d}.mp3"
+        words = asyncio.run(sv._tts(text, mp3))
+        a = sv._decode(mp3)
+        st = int((starts[i] + 0.15) * SR)
+        mix[st:st + len(a)] += a[: len(mix) - st]
+        cur = []
+        for w in words:
+            cur.append(w)
+            if len(cur) == 3 or w[0].endswith((".", ",", "?", "!")):
+                chunks.append((starts[i] + 0.15 + cur[0][1], " ".join(x[0] for x in cur)))
+                cur = []
+        if cur:
+            chunks.append((starts[i] + 0.15 + cur[0][1], " ".join(x[0] for x in cur)))
+    for i, a in enumerate(clip_audio):
+        if a is not None:
+            st = int(starts[i] * SR)
+            mix[st:st + len(a)] += a[: len(mix) - st] * 0.35  # Kling's own sound effects under the narration
+    mix = np.clip(mix, -1, 1)[: int(total * SR)]
+    chunks = [(s, chunks[k + 1][0] if k + 1 < len(chunks) else total, t) for k, (s, t) in enumerate(chunks)]
+
+    font = ImageFont.truetype(sv.FONT, 80)
+    cache = {}
+
+    def caption(text):
+        if text not in cache:
+            layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+            d = ImageDraw.Draw(layer)
+            f = font
+            bw = d.textbbox((0, 0), text, font=f, stroke_width=7)
+            if bw[2] - bw[0] > W - 80:
+                f = ImageFont.truetype(sv.FONT, int(80 * (W - 80) / (bw[2] - bw[0])))
+                bw = d.textbbox((0, 0), text, font=f, stroke_width=7)
+            d.text(((W - (bw[2] - bw[0])) // 2, int(H * 0.80)), text, font=f, fill=sv.YELLOW, stroke_width=7, stroke_fill=(0, 0, 0))
+            cache[text] = layer
+        return cache[text]
+
+    def make_frame(t):
+        i = int(np.searchsorted(starts, t, side="right") - 1)
+        fr = frames[i]
+        im = Image.fromarray(np.asarray(fr[min(int((t - starts[i]) * FPS), len(fr) - 1)])).convert("RGBA")
+        for cs, ce, txt in chunks:
+            if cs <= t < ce:
+                im.alpha_composite(caption(txt))
+                break
+        return np.asarray(im.convert("RGB"))
+
+    out = out_dir / "final.mp4"
+    VideoClip(make_frame, duration=total).set_audio(AudioArrayClip(mix, fps=SR)).write_videofile(
+        str(out), fps=FPS, codec="libx264", audio_codec="aac", preset="medium", threads=4, logger=None,
+        temp_audiofile=str(work / "tmp_audio.m4a"))
+    print(f"wrote {out} ({total:.1f}s)")
+    return out
+
+
+def _has_audio(path: Path) -> bool:
+    import subprocess
+
+    import imageio_ffmpeg
+
+    r = subprocess.run([imageio_ffmpeg.get_ffmpeg_exe(), "-i", str(path)], capture_output=True, text=True)
+    return "Audio:" in r.stderr
+
+
+if __name__ == "__main__":
+    build(Path(sys.argv[1]), Path(sys.argv[2]))

@@ -98,7 +98,18 @@ def _resolve_source(src: str, work: Path) -> Path:
 
         p = work / f"ref_{hashlib.sha1(src.encode()).hexdigest()[:12]}.jpg"
         if not p.exists():
-            fetch_image(src).convert("RGB").save(p, quality=95)
+            im = fetch_image(src).convert("RGB")
+            if src.startswith("pal:"):  # Pal art comes on a 16:9 card; put it on a 9:16 canvas for vertical video
+                from scripts.palworld_breeding_videos import fetch_pal_art
+
+                art = fetch_pal_art(src[4:])
+                art = art.crop(art.getbbox() or (0, 0, art.width, art.height))
+                canvas = Image.new("RGB", (1080, 1920), (34, 30, 52))
+                scale = min(980 / art.width, 1300 / art.height)
+                art = art.resize((int(art.width * scale), int(art.height * scale)), Image.LANCZOS)
+                canvas.paste(art, ((1080 - art.width) // 2, (1920 - art.height) // 2 + 60), art)
+                im = canvas
+            im.save(p, quality=95)
         return p
     return Path(src)
 
@@ -198,6 +209,43 @@ class QuotaExhausted(RuntimeError):
     pass
 
 
+class ClipsMissing(RuntimeError):
+    """Flow backend: some clips still have to be made by hand in Google Flow (see the pack's FLOW_PROMPTS.md)."""
+
+
+def flow_prompt(shots: list) -> str:
+    """Veo makes one up-to-8 s clip per request, so the storyboard's shots become one flowing prompt."""
+    parts = [p for p, _ in shots]
+    return (parts[0] if len(parts) == 1 else parts[0] + ", then " + ", then ".join(parts[1:])) +         ". Cinematic, smooth realistic motion, vertical 9:16, no text."
+
+
+def write_flow_pack(sb: dict, out_dir: Path, work: Path, missing: list[int]) -> Path:
+    frames = out_dir / "start_frames"
+    frames.mkdir(exist_ok=True)
+    (out_dir / "clips").mkdir(exist_ok=True)
+    lines = [f"# {sb.get('title', out_dir.name)} - Google Flow clip list", "",
+             "For every clip below (Google Flow: https://labs.google/flow):",
+             "1. New project -> **Frames to Video**. Upload the **Start frame** image.",
+             "2. Paste the **Prompt**. Model: **Veo 3.1 - Fast** (20 credits) or **Lite** (10 credits). Aspect ratio **9:16 (portrait)**.",
+             "3. Generate, pick the best result, download it, and save it in this pack's `clips` folder with the exact file name shown.",
+             "", "When all clips are in `clips/`, the daily job (or Claude) builds the final video automatically.", ""]
+    for i in missing:
+        c = sb["clips"][i]
+        img = out_dir / f"scene_{i:02d}.jpg"
+        shutil_copy(img, frames / f"clip_{i:02d}.jpg")
+        lines += [f"## clip_{i:02d}", f"- Start frame: `start_frames/clip_{i:02d}.jpg`", f"- Save as: `clips/clip_{i:02d}.mp4`",
+                  "- Prompt:", "```", flow_prompt(c["shots"]), "```", ""]
+    pack = out_dir / "FLOW_PROMPTS.md"
+    pack.write_text(chr(10).join(lines), encoding="utf-8")
+    return pack
+
+
+def shutil_copy(src: Path, dst: Path) -> None:
+    import shutil
+
+    shutil.copy(src, dst)
+
+
 def _clip_frames(path: Path, work: Path) -> np.memmap:
     import subprocess
 
@@ -235,8 +283,15 @@ def build(storyboard: Path, out_dir: Path) -> Path:
                                     out_dir / f"clip_{i:02d}.mp4"))
             continue
         img = scene_image(c["image"], out_dir / f"scene_{i:02d}.jpg", work)
+        if backend == "flow":  # clips made by hand in Google Flow (Veo 3.1), dropped into out_dir/clips/
+            clips.append(out_dir / "clips" / f"clip_{i:02d}.mp4")
+            continue
         maker = make_clip_wan if backend == "wan" else make_clip
         clips.append(maker(img, c["shots"], out_dir / f"clip_{i:02d}.mp4"))
+    missing = [i for i, c in enumerate(clips) if not Path(c).exists()]
+    if missing:
+        pack = write_flow_pack(sb, out_dir, work, missing)
+        raise ClipsMissing(f"{len(missing)} of {len(clips)} clips still to make in Google Flow - see {pack}")
 
     frames = [_clip_frames(c, work) for c in clips]
     clip_audio = [sv._decode(c) if _has_audio(c) else None for c in clips]

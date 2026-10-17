@@ -25,18 +25,25 @@ def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s",
                         handlers=[logging.FileHandler(OUT / f"motion-{date.today()}.log", encoding="utf-8"), logging.StreamHandler()])
+    quota_out = False
     for board in sorted(QUEUE.glob("*.json")):
         dest = OUT / board.stem
         if (dest / "final.mp4").exists():
             continue
-        title = json.loads(board.read_text(encoding="utf-8")).get("title", board.stem)
+        sb = json.loads(board.read_text(encoding="utf-8"))
+        if quota_out and sb.get("backend") == "wan":
+            continue
+        title = sb.get("title", board.stem)
         log.info("== %s", title)
         try:
             fv.build(board, dest)
             log.info("   done: %s", dest / "final.mp4")
+        except fv.ClipsMissing as exc:
+            log.info("   waiting for Google Flow clips: %s", exc)
+            continue
         except fv.QuotaExhausted as exc:
             log.info("   free GPU quota used up for today - continuing next run (%s)", str(exc)[:120])
-            return
+            quota_out = True
         except Exception:
             log.exception("   failed - skipping to the next storyboard")
 

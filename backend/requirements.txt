@@ -29,3 +29,4 @@ google-auth-oauthlib==1.2.1
 google-auth-httplib2==0.2.0
 uharfbuzz==0.56.2
 freetype-py==2.5.1
+gradio_client==1.14.0

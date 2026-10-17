@@ -1023,5 +1023,9 @@
   "palworld-guide-best-combat-passives": {
     "spec": "scripts/specs/games/palguide_27_best-combat-passives.json",
     "video": "F:\\AI AGENT\\run_b5\\videos\\short-9f21202e.mp4"
+  },
+  "palworld-guide-tower-bosses-part-2": {
+    "spec": "scripts/specs/games/palguide_04_tower-bosses-part-2.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-77926be8.mp4"
   }
 }

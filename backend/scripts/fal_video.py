@@ -11,7 +11,8 @@ Storyboard format:
      "shots": [["shot prompt", seconds], ...]}             # 1-6 shots, total <= 15 s (Kling multi-shot)
   ]
 }
-Needs FAL_KEY in backend/.env. Every generated image/clip is cached in OUT_DIR, so re-runs only pay for what is missing.
+"backend": "kling" (fal.ai, needs FAL_KEY in backend/.env) or "wan" (free Hugging Face ZeroGPU Space, ~5 s per shot,
+480p, a few clips per day). Every generated image/clip is cached in OUT_DIR, so re-runs only pay for what is missing.
 """
 from __future__ import annotations
 
@@ -85,13 +86,19 @@ def _download(url: str, out: Path) -> Path:
     return out
 
 
+REF_PREFIXES = ("pal:", "steam:", "wiki:", "wikifile:", "yt:")
+
+
 def _resolve_source(src: str, work: Path) -> Path:
-    if src.startswith("pal:"):  # official Pal art on a plain backdrop
+    """A local path, or an image ref understood by game_videos.fetch_image (pal:Name, steam:appid:n, wiki:Article...)."""
+    if src.startswith(REF_PREFIXES):
+        import hashlib
+
         from scripts.game_videos import fetch_image
 
-        p = work / f"src_{src[4:].replace(' ', '_')}.jpg"
+        p = work / f"ref_{hashlib.sha1(src.encode()).hexdigest()[:12]}.jpg"
         if not p.exists():
-            fetch_image(src).save(p, quality=95)
+            fetch_image(src).convert("RGB").save(p, quality=95)
         return p
     return Path(src)
 
@@ -100,7 +107,7 @@ def scene_image(spec, out: Path, work: Path) -> Path:
     if out.exists():
         return out
     if isinstance(spec, str):
-        Image.open(spec).convert("RGB").save(out, quality=95)
+        Image.open(_resolve_source(spec, work)).convert("RGB").save(out, quality=95)
         return out
     if "prompt" in spec:
         res = fal_run(IMAGE_MODEL, {"prompt": spec["prompt"], "image_size": "portrait_16_9", "num_images": 1})
@@ -127,6 +134,70 @@ def make_clip(image: Path, shots: list, out: Path) -> Path:
     return out
 
 
+WAN_SPACE = "zerogpu-aoti/wan2-2-fp8da-aoti-faster"  # free Hugging Face ZeroGPU Space (Wan 2.2 image-to-video)
+
+
+def make_clip_wan(image: Path, shots: list, out: Path) -> Path:
+    """Free backend: one Wan 2.2 clip per shot (<= ~5 s each); every next shot starts from the previous clip's
+    last frame so the motion stays continuous. Clips are joined into `out`."""
+    if out.exists():
+        return out
+    import shutil
+    import subprocess
+
+    import imageio_ffmpeg
+    from gradio_client import Client, handle_file
+
+    ff = imageio_ffmpeg.get_ffmpeg_exe()
+    token = next((l.split("=", 1)[1].strip() for l in (ROOT / ".env").read_text(encoding="utf-8").splitlines()
+                  if l.startswith("HF_TOKEN=") and l.split("=", 1)[1].strip()), None)
+    client = Client(WAN_SPACE, hf_token=token, verbose=False)  # a (free) HF token gives a bigger daily GPU quota
+    parts, start = [], image
+    for k, (prompt, secs) in enumerate(shots):
+        part = out.with_name(f"{out.stem}_part{k}.mp4")
+        if not part.exists():
+            for attempt in range(3):
+                try:
+                    res = client.predict(handle_file(str(start)), prompt, 6, "", float(min(secs, 5)), 1, 1, 42, True,
+                                         api_name="/generate_video")
+                    break
+                except Exception as exc:  # ZeroGPU quota / queue errors
+                    print(f"  wan shot {k}: {str(exc)[:160]}", flush=True)
+                    if "quota" in str(exc).lower():
+                        raise QuotaExhausted(str(exc)) from exc
+                    if attempt == 2:
+                        raise
+                    time.sleep(30)
+            src = res[0]["video"] if isinstance(res[0], dict) else res[0]
+            shutil.copy(src, part)
+            shutil.rmtree(Path(src).parent, ignore_errors=True)
+            print("  wan", part.name, flush=True)
+        parts.append(part)
+        last = out.with_name(f"{out.stem}_last{k}.jpg")
+        subprocess.run([ff, "-v", "error", "-y", "-sseof", "-0.1", "-i", str(part), "-frames:v", "1", str(last)], check=True)
+        start = last
+    lst = out.with_name(out.stem + "_list.txt")
+    lst.write_text("".join(f"file '{p.as_posix()}'" + chr(10) for p in parts), encoding="utf-8")
+    subprocess.run([ff, "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", str(out)], check=True)
+    return out
+
+
+def still_clip(image: Path, seconds: float, zoom, flash: bool, out: Path) -> Path:
+    """Render a still image as a short zoom (and optional white flash) clip, using the same look as the AI clips."""
+    if out.exists():
+        return out
+    from moviepy.editor import VideoClip
+
+    shot = sv.Shot(sv._cover(image), seconds, zoom[0], zoom[1], flash=0.9 if flash else 0.0, shake=22 if flash else 0.0)
+    VideoClip(lambda t: np.asarray(shot.frame(t)), duration=seconds).write_videofile(
+        str(out), fps=FPS, codec="libx264", audio=False, preset="medium", logger=None)
+    return out
+
+
+class QuotaExhausted(RuntimeError):
+    pass
+
+
 def _clip_frames(path: Path, work: Path) -> np.memmap:
     import subprocess
 
@@ -136,7 +207,7 @@ def _clip_frames(path: Path, work: Path) -> np.memmap:
     if not raw.exists():
         with raw.open("wb") as f:
             subprocess.run([imageio_ffmpeg.get_ffmpeg_exe(), "-v", "error", "-i", str(path), "-an", "-vf",
-                            f"fps={FPS},scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H}",
+                            f"minterpolate=fps={FPS}:mi_mode=blend,scale={W}:{H}:force_original_aspect_ratio=increase:flags=lanczos,crop={W}:{H}",
                             "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], stdout=f, check=True)
     n = raw.stat().st_size // (W * H * 3)
     return np.memmap(raw, dtype=np.uint8, mode="r", shape=(n, H, W, 3))
@@ -154,9 +225,18 @@ def build(storyboard: Path, out_dir: Path) -> Path:
     sv.VOICE = sb.get("voice", sv.VOICE)
 
     clips = []
+    backend = sb.get("backend", "kling")
     for i, c in enumerate(sb["clips"]):
+        if "video" in c:  # an already generated clip
+            clips.append(Path(c["video"]))
+            continue
+        if "still" in c:  # hybrid mode: a still with a zoom instead of a paid/quota-limited AI clip
+            clips.append(still_clip(_resolve_source(c["still"], work), c.get("seconds", 3), c.get("zoom", [1.0, 1.12]), c.get("flash", False),
+                                    out_dir / f"clip_{i:02d}.mp4"))
+            continue
         img = scene_image(c["image"], out_dir / f"scene_{i:02d}.jpg", work)
-        clips.append(make_clip(img, c["shots"], out_dir / f"clip_{i:02d}.mp4"))
+        maker = make_clip_wan if backend == "wan" else make_clip
+        clips.append(maker(img, c["shots"], out_dir / f"clip_{i:02d}.mp4"))
 
     frames = [_clip_frames(c, work) for c in clips]
     clip_audio = [sv._decode(c) if _has_audio(c) else None for c in clips]

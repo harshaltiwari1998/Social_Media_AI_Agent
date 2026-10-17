@@ -969,5 +969,59 @@
   "comedy-joke-fridge-checkup": {
     "spec": "scripts/specs/movies/comedy_11_joke-fridge-checkup.json",
     "video": "F:\\AI AGENT\\run_b4\\videos\\short-e927ddfa.mp4"
+  },
+  "palworld-mounts-guide": {
+    "spec": "scripts/specs/long/gaming_28_palworld-mounts-guide.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_b5\\videos\\long-eae2ac25.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_b5\\videos\\long-eae2ac25-thumb.jpg",
+    "chapters": "0:00 Why mounts matter\n0:29 Your first ground mount\n0:55 Your first flying mounts\n1:25 Jetragon: the speed king\n1:54 Xenolord: built for long flights\n2:22 Necromus and Paladius\n2:54 Hartalis\n3:23 Frostallion and other legendaries\n3:54 Mounts and passives\n4:19 Saddles first\n4:47 Flying in Sunreach\n5:15 Mounts that also work\n5:40 How to catch your dream mount\n6:09 Which mount when\n6:36 What do you ride"
+  },
+  "palworld-resource-farming-guide": {
+    "spec": "scripts/specs/long/gaming_27_palworld-resource-farming-guide.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_b5\\videos\\long-ad9ef2a3.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_b5\\videos\\long-ad9ef2a3-thumb.jpg",
+    "chapters": "0:00 Never run out again\n0:35 Ore and coal\n1:05 The best miners\n1:39 Sulfur\n2:09 Crude oil\n2:40 Paldium Fragments\n3:11 Pal Metal Ingots\n3:41 Ancient Civilization Parts\n4:11 Good Alphas for farming\n4:39 Fishing\n5:06 Food from the Ranch\n5:38 Power and Cooling\n6:09 Build a resource network"
+  },
+  "palworld-guide-pal-metal-ingot": {
+    "spec": "scripts/specs/games/palguide_36_pal-metal-ingot.json",
+    "video": "F:\\AI AGENT\\run_b5\\videos\\short-6e546871.mp4"
+  },
+  "palworld-guide-paldium-crusher": {
+    "spec": "scripts/specs/games/palguide_35_paldium-crusher.json",
+    "video": "F:\\AI AGENT\\run_b5\\videos\\short-232961db.mp4"
+  },
+  "palworld-guide-best-ground-mounts": {
+    "spec": "scripts/specs/games/palguide_34_best-ground-mounts.json",
+    "video": "F:\\AI AGENT\\run_b5\\videos\\short-15adcb47.mp4"
+  },
+  "palworld-guide-ancient-civilization-parts": {
+    "spec": "scripts/specs/games/palguide_33_ancient-civilization-parts.json",
+    "video": "F:\\AI AGENT\\run_b5\\videos\\short-77dad65b.mp4"
+  },
+  "palworld-guide-fishing-guide": {
+    "spec": "scripts/specs/games/palguide_32_fishing-guide.json",
+    "video": "F:\\AI AGENT\\run_b5\\videos\\short-702b4725.mp4"
+  },
+  "palworld-guide-how-to-get-perfect-passives": {
+    "spec": "scripts/specs/games/palguide_31_how-to-get-perfect-passives.json",
+    "video": "F:\\AI AGENT\\run_b5\\videos\\short-a0224043.mp4"
+  },
+  "palworld-guide-dungeons-explained": {
+    "spec": "scripts/specs/games/palguide_30_dungeons-explained.json",
+    "video": "F:\\AI AGENT\\run_b5\\videos\\short-a9debc09.mp4"
+  },
+  "palworld-guide-how-to-get-xenolord": {
+    "spec": "scripts/specs/games/palguide_29_how-to-get-xenolord.json",
+    "video": "F:\\AI AGENT\\run_b5\\videos\\short-eeef8e0b.mp4"
+  },
+  "palworld-guide-best-worker-passives": {
+    "spec": "scripts/specs/games/palguide_28_best-worker-passives.json",
+    "video": "F:\\AI AGENT\\run_b5\\videos\\short-09042f2f.mp4"
+  },
+  "palworld-guide-best-combat-passives": {
+    "spec": "scripts/specs/games/palguide_27_best-combat-passives.json",
+    "video": "F:\\AI AGENT\\run_b5\\videos\\short-9f21202e.mp4"
   }
 }

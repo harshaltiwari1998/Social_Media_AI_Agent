@@ -1195,5 +1195,25 @@
       ],
       "unique": false
     }
+  },
+  "Gorirat": {
+    "spec": "scripts/specs/palworld_gorirat.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e0955e45.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Gorirat",
+      "caption": "Chikipi + Suzaku = Gorirat. A Palworld 1.0 breeding combo.",
+      "video_script": "Want Gorirat in Palworld without catching one? Breed Chikipi with Suzaku. Put them together on your Breeding Farm, add a cake, and the egg hatches into Gorirat. This pair is confirmed in the Palworld one point zero breeding data. Follow for more breeding combos!",
+      "parents": [
+        "Chikipi",
+        "Suzaku"
+      ],
+      "child": "Gorirat",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
   }
 }

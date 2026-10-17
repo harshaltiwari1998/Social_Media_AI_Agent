@@ -861,5 +861,113 @@
   "reel-hum-aapke-hain-koun-facts": {
     "spec": "scripts/specs/movies/reel_33_hum-aapke-hain-koun-facts.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b94141d1.mp4"
+  },
+  "arcade-classics-that-changed-gaming": {
+    "spec": "scripts/specs/long/gaming_26_arcade-classics-that-changed-gaming.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_b4\\videos\\long-88804791.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_b4\\videos\\long-88804791-thumb.jpg",
+    "chapters": "0:00 Where it all began\n0:32 Pong: the game that started an industry\n1:07 Pong goes home\n1:37 Space Invaders\n2:13 Pac-Man\n2:45 Donkey Kong and the birth of Mario\n3:21 Tetris: made in the Soviet Union\n3:55 Tetris everywhere\n4:28 Street Fighter Two\n5:03 The golden age of arcades\n5:36 Inspired by everything\n6:06 What they taught us\n6:41 Which one did you play"
+  },
+  "palworld-passive-skills-guide": {
+    "spec": "scripts/specs/long/gaming_25_palworld-passive-skills-guide.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_b4\\videos\\long-a64113af.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_b4\\videos\\long-a64113af-thumb.jpg",
+    "chapters": "0:00 Why passives matter\n0:32 Legend\n1:04 Demon God and Immortality\n1:38 Lucky and the high risk passives\n2:12 Example combat builds\n2:43 Work speed passives\n3:20 Night workers and special passives\n3:54 You can't add passives later\n4:25 How to breed a perfect Pal\n5:00 Tips to save time\n5:31 Choose passives by role\n6:07 Common mistakes\n6:36 What's your build"
+  },
+  "maddock-horror-comedy-universe-explained": {
+    "spec": "scripts/specs/long/movies_16_maddock-horror-comedy-universe-explained.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_b4\\videos\\long-012adf64.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_b4\\videos\\long-012adf64-thumb.jpg",
+    "chapters": "0:00 Bollywood का अपना universe\n0:36 Stree: जहां से सब शुरू हुआ\n1:18 Bhediya: universe बनना शुरू\n1:53 Munjya: sleeper hit\n2:33 Stree 2: सबसे बड़ा धमाका\n3:10 Thamma: सबको जोड़ने वाली film\n4:02 Awards और तारीफ\n4:43 Chanderi और लोक कथाएं\n5:23 MHCU नाम कैसे पड़ा\n5:55 ये universe इतना सफल क्यों\n6:28 आपकी favourite कौन सी"
+  },
+  "box-office-report-jailer-2-week-oct-2026": {
+    "spec": "scripts/specs/long/movies_15_box-office-report-jailer-2-week-oct-2026.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_b4\\videos\\long-8a0ac5b9.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_b4\\videos\\long-8a0ac5b9-thumb.jpg",
+    "chapters": "0:00 इस हफ्ते का box office\n0:43 Jailer 2: पहला दिन\n1:19 Jailer 2: दुनिया भर में\n1:56 Jailer 2: दूसरा दिन\n2:29 Ranabaali: मुश्किल timing\n3:06 Ranabaali कहां से कमा रही है\n3:48 Nayyi Navelli: Hindi का winner\n4:21 Prahaar: धीमी शुरुआत\n4:57 Shows और occupancy का खेल\n5:42 Language के हिसाब से Jailer 2\n6:17 आगे क्या\n6:46 आपकी राय"
+  },
+  "palworld-guide-necromus-vs-paladius": {
+    "spec": "scripts/specs/games/palguide_41_necromus-vs-paladius.json",
+    "video": "F:\\AI AGENT\\run_b4\\videos\\short-55ebf84f.mp4"
+  },
+  "palworld-guide-fastest-mount": {
+    "spec": "scripts/specs/games/palguide_40_fastest-mount.json",
+    "video": "F:\\AI AGENT\\run_b4\\videos\\short-d555f9d9.mp4"
+  },
+  "palworld-guide-hartalis-raid": {
+    "spec": "scripts/specs/games/palguide_39_hartalis-raid.json",
+    "video": "F:\\AI AGENT\\run_b4\\videos\\short-23ee400f.mp4"
+  },
+  "palworld-guide-mossanda-lux-alpha": {
+    "spec": "scripts/specs/games/palguide_38_mossanda-lux-alpha.json",
+    "video": "F:\\AI AGENT\\run_b4\\videos\\short-77b88561.mp4"
+  },
+  "palworld-guide-sweepa-early-alpha": {
+    "spec": "scripts/specs/games/palguide_37_sweepa-early-alpha.json",
+    "video": "F:\\AI AGENT\\run_b4\\videos\\short-6955daee.mp4"
+  },
+  "gamenews-pac-man-facts": {
+    "spec": "scripts/specs/games/gamenews_05_pac-man-facts.json",
+    "video": "F:\\AI AGENT\\run_b4\\videos\\short-265d3d16.mp4"
+  },
+  "gamenews-tetris-facts": {
+    "spec": "scripts/specs/games/gamenews_04_tetris-facts.json",
+    "video": "F:\\AI AGENT\\run_b4\\videos\\short-2fe064e0.mp4"
+  },
+  "gamenews-no-rest-for-the-wicked-delay": {
+    "spec": "scripts/specs/games/gamenews_03_no-rest-for-the-wicked-delay.json",
+    "video": "F:\\AI AGENT\\run_b4\\videos\\short-6a3639bd.mp4"
+  },
+  "gamenews-resident-evil-switch-2": {
+    "spec": "scripts/specs/games/gamenews_02_resident-evil-switch-2.json",
+    "video": "F:\\AI AGENT\\run_b4\\videos\\short-aff63379.mp4"
+  },
+  "gamenews-mw4-campaign-early-access": {
+    "spec": "scripts/specs/games/gamenews_01_mw4-campaign-early-access.json",
+    "video": "F:\\AI AGENT\\run_b4\\videos\\short-2708a528.mp4"
+  },
+  "news-ranabaali-day-1": {
+    "spec": "scripts/specs/movies/movie_news_11_ranabaali-day-1.json",
+    "video": "F:\\AI AGENT\\run_b4\\videos\\short-5755591c.mp4"
+  },
+  "news-nayyi-navelli-day-1": {
+    "spec": "scripts/specs/movies/movie_news_10_nayyi-navelli-day-1.json",
+    "video": "F:\\AI AGENT\\run_b4\\videos\\short-9a1c975c.mp4"
+  },
+  "news-prahaar-day-1": {
+    "spec": "scripts/specs/movies/movie_news_09_prahaar-day-1.json",
+    "video": "F:\\AI AGENT\\run_b4\\videos\\short-1c86d14b.mp4"
+  },
+  "news-jailer-2-worldwide-day-1": {
+    "spec": "scripts/specs/movies/movie_news_08_jailer-2-worldwide-day-1.json",
+    "video": "F:\\AI AGENT\\run_b4\\videos\\short-032be74e.mp4"
+  },
+  "news-jailer-2-day-2": {
+    "spec": "scripts/specs/movies/movie_news_07_jailer-2-day-2.json",
+    "video": "F:\\AI AGENT\\run_b4\\videos\\short-5183f7d0.mp4"
+  },
+  "comedy-joke-good-morning-messages": {
+    "spec": "scripts/specs/movies/comedy_15_joke-good-morning-messages.json",
+    "video": "F:\\AI AGENT\\run_b4\\videos\\short-9a5bc006.mp4"
+  },
+  "comedy-joke-one-percent-battery": {
+    "spec": "scripts/specs/movies/comedy_14_joke-one-percent-battery.json",
+    "video": "F:\\AI AGENT\\run_b4\\videos\\short-8b352851.mp4"
+  },
+  "comedy-joke-remote-war": {
+    "spec": "scripts/specs/movies/comedy_13_joke-remote-war.json",
+    "video": "F:\\AI AGENT\\run_b4\\videos\\short-0b2226c5.mp4"
+  },
+  "comedy-joke-red-light": {
+    "spec": "scripts/specs/movies/comedy_12_joke-red-light.json",
+    "video": "F:\\AI AGENT\\run_b4\\videos\\short-17e8a328.mp4"
+  },
+  "comedy-joke-fridge-checkup": {
+    "spec": "scripts/specs/movies/comedy_11_joke-fridge-checkup.json",
+    "video": "F:\\AI AGENT\\run_b4\\videos\\short-e927ddfa.mp4"
   }
 }

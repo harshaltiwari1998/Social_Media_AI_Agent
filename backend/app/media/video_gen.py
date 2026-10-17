@@ -128,6 +128,8 @@ def _render_scene(scene: _Scene, progress: float, card_mask) -> "Image.Image":  
 
     p = _ease(progress)
     zoom = 1.0 + 0.14 * p if scene.zoom_in else 1.14 - 0.14 * p
+    # A quick "punch-in" halfway through each scene, so a long scene still has a visual beat.
+    zoom *= 1.0 + 0.06 * math.exp(-(((progress - 0.5) / 0.05) ** 2))
     side = scene.src.width
     crop = side / zoom
     margin = (side - crop) / 2

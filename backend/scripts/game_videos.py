@@ -150,19 +150,28 @@ def image_card(img: Image.Image, label: str | None) -> Image.Image:
 
 def fact_card(img: Image.Image, fact: str, sub: str | None) -> Image.Image:
     canvas = _backdrop(img, 0.3)
-    thumb = _fit(img, 600, 340)
-    top = 150
+    # Big picture on top (most of the card), short text underneath - small thumbnails looked empty on phones.
+    thumb = _fit(img, 980, 560)
+    top = 120
     canvas.paste(thumb, ((_CARD - thumb.width) // 2, top))
-    big = _label(fact, 92, _YELLOW, max_lines=3)
+    big = _label(fact, 84, _YELLOW, max_lines=2)
     y = top + thumb.height + 36
     canvas.alpha_composite(big, ((_CARD - big.width) // 2, y))
     if sub:
-        small = _label(sub, 52, _WHITE, max_lines=3)
-        canvas.alpha_composite(small, ((_CARD - small.width) // 2, min(y + big.height + 16, _CARD - small.height - 150)))
+        small = _label(sub, 50, _WHITE, max_lines=2)
+        canvas.alpha_composite(small, ((_CARD - small.width) // 2, min(y + big.height + 12, _CARD - small.height - 40)))
     return canvas.convert("RGB")
 
 
-_BADGES = {"new": "NEW GAME", "classic": "CLASSIC GAME", "movie_new": "NEW MOVIE", "movie_review": "BOX OFFICE + REVIEW", "reel": "MOVIE NEWS", "tribute": "SHRADDHANJALI", "palguide": "BREEDING GUIDE", "palchain": "BREEDING CHAIN"}
+_BADGES = {"new": "NEW GAME", "classic": "CLASSIC GAME", "movie_new": "NEW MOVIE", "movie_review": "BOX OFFICE + REVIEW",
+           "reel": "MOVIE NEWS", "movie_news": "MOVIE NEWS", "comedy": "COMEDY", "tribute": "SHRADDHANJALI",
+           "palguide": "PALWORLD GUIDE", "palbase": "BASE GUIDE", "palchain": "BREEDING CHAIN", "gamenews": "GAMING NEWS",
+           "aniimo": "ANIIMO GUIDE", "gow": "GOD OF WAR", "gta6": "GTA 6"}
+
+
+def badge_for(spec: dict) -> str:
+    """A spec's own "badge", else its slot's, else a neutral one for its category (never "GAMING" on a movie)."""
+    return spec.get("badge") or _BADGES.get(spec.get("slot")) or ("MOVIE NEWS" if category_of(spec) == "movies" else "GAMING")
 _DEFAULT_HASHTAGS = {"gaming": ["Gaming", "GamingNews"], "movies": ["Movies", "MovieNews", "Bollywood"]}
 _DEFAULT_VOICE = settings.tts_voice  # TTS_VOICE as configured, before any per-video override
 _DEFAULT_RATE = settings.tts_rate
@@ -201,7 +210,7 @@ def build_video(spec_path: Path) -> dict:
         settings.gaming_tts_voice if category_of(spec) == "gaming" else _DEFAULT_VOICE
     )
     video = generate_video(
-        paths, spec["title"], spec["video_script"], headline=spec["headline"], badge=_BADGES.get(spec.get("slot"), "GAMING")
+        paths, spec["title"], spec["video_script"], headline=spec["headline"], badge=badge_for(spec)
     )
     return {"spec": spec_path.name, "images": paths, "video": video}
 

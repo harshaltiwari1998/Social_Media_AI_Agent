@@ -1,0 +1,48 @@
+{
+  "id": "comedy-joke-pani-puri",
+  "slot": "comedy",
+  "order": 20,
+  "category": "movies",
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Bhaiya, एक और",
+  "title": "Pani Puri Wale Bhaiya | Ek Sukhi Puri | Hindi Jokes",
+  "video_script": "Pani puri वाले भैया के सामने हम सब एक ही line में खड़े होते हैं, और सबकी नज़र भैया के हाथ पर होती है. मेरी बारी कब आएगी? फिर जब plate खत्म होती है, तो सबसे बड़ा हक़, भैया, एक सूखी पूरी. वो free वाली पूरी दुनिया की सबसे tasty पूरी है. आप कितनी pani puri खा लेते हो? Comment करो!",
+  "scenes": [
+    {
+      "image": "wikifile:Golgappe (Pani Puri).jpg",
+      "label": "Bhaiya, एक और"
+    },
+    {
+      "image": "wikifile:Golgappe (Pani Puri).jpg",
+      "fact": "एक ही line",
+      "sub": "सबकी नज़र भैया पर"
+    },
+    {
+      "image": "wikifile:Golgappe (Pani Puri).jpg",
+      "fact": "मेरी बारी कब?",
+      "sub": "हर बार skip"
+    },
+    {
+      "image": "wikifile:Golgappe (Pani Puri).jpg",
+      "fact": "सूखी पूरी",
+      "sub": "सबसे बड़ा हक़"
+    }
+  ],
+  "description": "Bhaiya, एक और - original Hindi comedy.",
+  "hashtags": [
+    "HindiJokes",
+    "Comedy",
+    "FunnyReels"
+  ],
+  "tags": [
+    "Hindi jokes",
+    "funny Hindi reels",
+    "relatable comedy",
+    "comedy reels",
+    "desi jokes",
+    "Indian comedy"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "reel-swades-facts",
+  "category": "movies",
+  "slot": "reel",
+  "order": 44,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Swades: NASA से गाँव तक",
+  "title": "Swades Facts | Shah Rukh Khan NASA Scientist | Ashutosh Gowariker | Bollywood Facts",
+  "video_script": "Swades 17 December 2004 को रिलीज़ हुई. इसे Ashutosh Gowariker ने निर्देशित किया. Shah Rukh Khan ने Mohan Bhargava का किरदार निभाया, जो NASA में scientist है और अपने गाँव लौटकर वहाँ बिजली लाता है. फिल्म का music A. R. Rahman ने दिया. Yeh Jo Des Hai Tera आज भी लोगों को रुला देता है. आपको Swades का कौन सा गाना पसंद है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Swades",
+      "label": "Swades (2004)"
+    },
+    {
+      "image": "wiki:Swades",
+      "fact": "17 December 2004",
+      "sub": "Release date"
+    },
+    {
+      "image": "wiki:Swades",
+      "fact": "Mohan Bhargava",
+      "sub": "NASA scientist"
+    },
+    {
+      "image": "wiki:Swades",
+      "fact": "A. R. Rahman",
+      "sub": "Music"
+    }
+  ],
+  "description": "Swades (17 December 2004): Ashutosh Gowariker की film; Shah Rukh Khan as NASA scientist Mohan Bhargava; music A. R. Rahman.",
+  "hashtags": [
+    "Swades",
+    "ShahRukhKhan",
+    "BollywoodFacts"
+  ],
+  "tags": [
+    "Swades",
+    "Shah Rukh Khan",
+    "Ashutosh Gowariker",
+    "A. R. Rahman",
+    "Bollywood facts"
+  ]
+}

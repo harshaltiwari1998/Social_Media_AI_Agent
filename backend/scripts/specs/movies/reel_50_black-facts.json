@@ -1,0 +1,48 @@
+{
+  "id": "reel-black-facts",
+  "category": "movies",
+  "slot": "reel",
+  "order": 50,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Black: Amitabh और Rani की अनोखी कहानी",
+  "title": "Black Movie Facts | Amitabh Bachchan Rani Mukerji | Sanjay Leela Bhansali | Bollywood Facts",
+  "video_script": "Black 4 February 2005 को रिलीज़ हुई. इसे Sanjay Leela Bhansali ने निर्देशित किया. Rani Mukerji ने Michelle का किरदार निभाया, जो न देख सकती है न सुन सकती है, और Amitabh Bachchan उसके teacher बने. कहानी Helen Keller की ज़िंदगी से inspired है. इस किरदार के लिए Amitabh को Best Actor का National Award मिला. क्या आपने ये फिल्म देखी है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Black (2005 film)",
+      "label": "Black (2005)"
+    },
+    {
+      "image": "wiki:Black (2005 film)",
+      "fact": "4 February 2005",
+      "sub": "Release date"
+    },
+    {
+      "image": "wiki:Black (2005 film)",
+      "fact": "Helen Keller",
+      "sub": "से inspired"
+    },
+    {
+      "image": "wiki:Black (2005 film)",
+      "fact": "National Award",
+      "sub": "Amitabh, Best Actor"
+    }
+  ],
+  "description": "Black (4 February 2005): Sanjay Leela Bhansali की film; Rani Mukerji as Michelle, Amitabh Bachchan as teacher; Helen Keller से inspired; Amitabh को Best Actor National Award.",
+  "hashtags": [
+    "Black",
+    "AmitabhBachchan",
+    "BollywoodFacts"
+  ],
+  "tags": [
+    "Black",
+    "Amitabh Bachchan",
+    "Rani Mukerji",
+    "Sanjay Leela Bhansali",
+    "Helen Keller",
+    "Bollywood facts"
+  ]
+}

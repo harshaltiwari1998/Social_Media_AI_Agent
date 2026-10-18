@@ -1,0 +1,47 @@
+{
+  "id": "reel-queen-facts",
+  "category": "movies",
+  "slot": "reel",
+  "order": 42,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Queen: अकेले honeymoon पर Rani",
+  "title": "Queen Movie Facts | Kangana Ranaut National Award | Bollywood Facts",
+  "video_script": "Queen 7 March 2014 को रिलीज़ हुई. इसे Vikas Bahl ने निर्देशित किया. Kangana Ranaut ने Rani का किरदार निभाया, जिसकी शादी टूट जाती है और वो अकेले ही अपने honeymoon पर Paris और Amsterdam निकल जाती है. इस किरदार के लिए Kangana को Best Actress का National Award मिला. आपको Rani का कौन सा scene सबसे अच्छा लगा? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Queen (2014 film)",
+      "label": "Queen (2014)"
+    },
+    {
+      "image": "wiki:Queen (2014 film)",
+      "fact": "7 March 2014",
+      "sub": "Release date"
+    },
+    {
+      "image": "wiki:Queen (2014 film)",
+      "fact": "Paris और Amsterdam",
+      "sub": "अकेले honeymoon"
+    },
+    {
+      "image": "wiki:Queen (2014 film)",
+      "fact": "National Award",
+      "sub": "Kangana Ranaut, Best Actress"
+    }
+  ],
+  "description": "Queen (7 March 2014): Vikas Bahl की film; Kangana Ranaut as Rani, अकेले honeymoon पर Paris और Amsterdam; Kangana को Best Actress National Award.",
+  "hashtags": [
+    "Queen",
+    "KanganaRanaut",
+    "BollywoodFacts"
+  ],
+  "tags": [
+    "Queen",
+    "Kangana Ranaut",
+    "Vikas Bahl",
+    "National Award",
+    "Bollywood facts"
+  ]
+}

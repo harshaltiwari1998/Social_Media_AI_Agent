@@ -1,0 +1,48 @@
+{
+  "id": "comedy-joke-baraat-late",
+  "slot": "comedy",
+  "order": 25,
+  "category": "movies",
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Baraat late है",
+  "title": "Baraat Hamesha Late | Shaadi Comedy | Hindi Jokes",
+  "video_script": "Card पर लिखा होता है, बारात सात बजे. बारात निकलती है नौ बजे. और फिर सौ मीटर की दूरी तय करने में दो घंटे लगते हैं, क्योंकि हर मोड़ पर नागिन dance ज़रूरी है. उधर लड़की वाले भूखे खड़े हैं, और इधर चाचा जी अभी भी नाच रहे हैं. आपकी family में सबसे अच्छा dancer कौन है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wikifile:Indian - A Wedding Procession - Walters W883.jpg",
+      "label": "Baraat late है"
+    },
+    {
+      "image": "wikifile:Indian - A Wedding Procession - Walters W883.jpg",
+      "fact": "सात बजे",
+      "sub": "Card पर"
+    },
+    {
+      "image": "wikifile:Indian - A Wedding Procession - Walters W883.jpg",
+      "fact": "नौ बजे",
+      "sub": "असली time"
+    },
+    {
+      "image": "wikifile:Indian - A Wedding Procession - Walters W883.jpg",
+      "fact": "नागिन dance",
+      "sub": "हर मोड़ पर"
+    }
+  ],
+  "description": "Baraat late है - original Hindi comedy.",
+  "hashtags": [
+    "HindiJokes",
+    "Comedy",
+    "FunnyReels"
+  ],
+  "tags": [
+    "Hindi jokes",
+    "funny Hindi reels",
+    "relatable comedy",
+    "comedy reels",
+    "desi jokes",
+    "Indian comedy"
+  ]
+}

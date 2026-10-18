@@ -1,0 +1,47 @@
+{
+  "id": "reel-jab-we-met-facts",
+  "category": "movies",
+  "slot": "reel",
+  "order": 48,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Jab We Met: Geet और Aditya की train",
+  "title": "Jab We Met Facts | Kareena Kapoor Geet | Imtiaz Ali | Bollywood Facts",
+  "video_script": "Jab We Met 26 October 2007 को रिलीज़ हुई. इसे Imtiaz Ali ने निर्देशित किया. कहानी एक train से शुरू होती है, जहाँ बातूनी Geet की मुलाकात उदास Aditya से होती है. Kareena Kapoor ने Geet और Shahid Kapoor ने Aditya का किरदार निभाया. Geet के लिए Kareena को Filmfare का Best Actress award मिला. आपका favourite Geet dialogue कौन सा है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Jab We Met",
+      "label": "Jab We Met (2007)"
+    },
+    {
+      "image": "wiki:Jab We Met",
+      "fact": "26 October 2007",
+      "sub": "Release date"
+    },
+    {
+      "image": "wiki:Jab We Met",
+      "fact": "Imtiaz Ali",
+      "sub": "Director"
+    },
+    {
+      "image": "wiki:Jab We Met",
+      "fact": "Filmfare",
+      "sub": "Kareena, Best Actress"
+    }
+  ],
+  "description": "Jab We Met (26 October 2007): Imtiaz Ali की film; Kareena Kapoor as Geet, Shahid Kapoor as Aditya; Kareena को Filmfare Best Actress.",
+  "hashtags": [
+    "JabWeMet",
+    "KareenaKapoor",
+    "BollywoodFacts"
+  ],
+  "tags": [
+    "Jab We Met",
+    "Kareena Kapoor",
+    "Shahid Kapoor",
+    "Imtiaz Ali",
+    "Bollywood facts"
+  ]
+}

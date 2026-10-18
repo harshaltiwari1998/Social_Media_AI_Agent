@@ -1,0 +1,48 @@
+{
+  "id": "comedy-joke-machhar",
+  "slot": "comedy",
+  "order": 18,
+  "category": "movies",
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "रात का मच्छर",
+  "title": "Raat Ka Machhar | Kaan Mein Gaana | Hindi Jokes",
+  "video_script": "रात के दो बजे, एक मच्छर आपके कान के पास आकर पूरा concert करता है. आप light जलाते हो, मच्छर गायब. Light बंद, concert फिर शुरू. आप अपने ही गाल पर तीन थप्पड़ मार चुके हो, मच्छर अभी भी ज़िंदा है. सुबह उठो तो हाथ पर पाँच निशान. आप मच्छर से कैसे लड़ते हो? Comment करो!",
+  "scenes": [
+    {
+      "image": "wikifile:Mosquito 2007-2.jpg",
+      "label": "रात का मच्छर"
+    },
+    {
+      "image": "wikifile:Mosquito 2007-2.jpg",
+      "fact": "रात के दो बजे",
+      "sub": "कान में concert"
+    },
+    {
+      "image": "wikifile:Mosquito 2007-2.jpg",
+      "fact": "Light जलाओ",
+      "sub": "मच्छर गायब"
+    },
+    {
+      "image": "wikifile:Mosquito 2007-2.jpg",
+      "fact": "तीन थप्पड़",
+      "sub": "अपने ही गाल पर"
+    }
+  ],
+  "description": "रात का मच्छर - original Hindi comedy.",
+  "hashtags": [
+    "HindiJokes",
+    "Comedy",
+    "FunnyReels"
+  ],
+  "tags": [
+    "Hindi jokes",
+    "funny Hindi reels",
+    "relatable comedy",
+    "comedy reels",
+    "desi jokes",
+    "Indian comedy"
+  ]
+}

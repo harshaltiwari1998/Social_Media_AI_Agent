@@ -1,0 +1,48 @@
+{
+  "id": "reel-barfi-facts",
+  "category": "movies",
+  "slot": "reel",
+  "order": 47,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Barfi: बिना बोले सबसे प्यारी कहानी",
+  "title": "Barfi Facts | Ranbir Kapoor Priyanka Chopra | Anurag Basu | Bollywood Facts",
+  "video_script": "Barfi 14 September 2012 को रिलीज़ हुई. इसे Anurag Basu ने निर्देशित किया. Ranbir Kapoor ने Barfi का किरदार निभाया, जो न सुन सकता है न बोल सकता है, फिर भी सबको हँसा देता है. Priyanka Chopra ने Jhilmil और Ileana D'Cruz ने Shruti का किरदार निभाया. ये फिल्म Oscar के लिए India की official entry बनी. आपको Barfi का कौन सा scene याद है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Barfi!",
+      "label": "Barfi! (2012)"
+    },
+    {
+      "image": "wiki:Barfi!",
+      "fact": "14 September 2012",
+      "sub": "Release date"
+    },
+    {
+      "image": "wiki:Barfi!",
+      "fact": "Anurag Basu",
+      "sub": "Director"
+    },
+    {
+      "image": "wiki:Barfi!",
+      "fact": "Oscar entry",
+      "sub": "India की official entry"
+    }
+  ],
+  "description": "Barfi! (14 September 2012): Anurag Basu की film; Ranbir Kapoor, Priyanka Chopra, Ileana D'Cruz; India की Oscar entry.",
+  "hashtags": [
+    "Barfi",
+    "RanbirKapoor",
+    "BollywoodFacts"
+  ],
+  "tags": [
+    "Barfi",
+    "Ranbir Kapoor",
+    "Priyanka Chopra",
+    "Ileana D'Cruz",
+    "Anurag Basu",
+    "Bollywood facts"
+  ]
+}

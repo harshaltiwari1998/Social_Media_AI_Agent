@@ -1,0 +1,48 @@
+{
+  "id": "comedy-joke-mute-button",
+  "slot": "comedy",
+  "order": 22,
+  "category": "movies",
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Mute भूल गए",
+  "title": "Work From Home | Mute Bhool Gaye | Hindi Jokes",
+  "video_script": "Work from home की सबसे बड़ी गलती, mute भूल जाना. Meeting में boss serious बात कर रहे हैं, और पीछे से mummy की आवाज़, बेटा, चाय ठंडी हो रही है. फिर सब लोग एक साथ बोलते हैं, you are not on mute. और जिस दिन आप सच में बोलना चाहते हो, उस दिन आप mute पर होते हो. आपके साथ ऐसा हुआ है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wikifile:Backlit keyboard.jpg",
+      "label": "Mute भूल गए"
+    },
+    {
+      "image": "wikifile:Backlit keyboard.jpg",
+      "fact": "Mute भूल गए",
+      "sub": "Mummy की आवाज़"
+    },
+    {
+      "image": "wikifile:Backlit keyboard.jpg",
+      "fact": "You are not on mute",
+      "sub": "पूरी meeting"
+    },
+    {
+      "image": "wikifile:Backlit keyboard.jpg",
+      "fact": "बोलना था",
+      "sub": "तब mute पर"
+    }
+  ],
+  "description": "Mute भूल गए - original Hindi comedy.",
+  "hashtags": [
+    "HindiJokes",
+    "Comedy",
+    "FunnyReels"
+  ],
+  "tags": [
+    "Hindi jokes",
+    "funny Hindi reels",
+    "relatable comedy",
+    "comedy reels",
+    "desi jokes",
+    "Indian comedy"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "comedy-joke-cylinder-khatam",
+  "slot": "comedy",
+  "order": 21,
+  "category": "movies",
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Cylinder खत्म",
+  "title": "Gas Cylinder Khatam | Hamesha Galat Time Pe | Hindi Jokes",
+  "video_script": "Gas cylinder कभी भी आराम से खत्म नहीं होता. वो खत्म होगा तभी, जब घर में मेहमान आए हों, या रात के दस बजे हों, या कूकर में दाल आधी पकी हो. फिर पापा cylinder को ऐसे हिलाते हैं जैसे उसमें से थोड़ी और gas निकल आएगी. आपके घर में cylinder कब खत्म हुआ था? Comment करो!",
+  "scenes": [
+    {
+      "image": "wikifile:LPG Cylinders.jpg",
+      "label": "Cylinder खत्म"
+    },
+    {
+      "image": "wikifile:LPG Cylinders.jpg",
+      "fact": "मेहमान आए",
+      "sub": "Cylinder खत्म"
+    },
+    {
+      "image": "wikifile:LPG Cylinders.jpg",
+      "fact": "आधी पकी दाल",
+      "sub": "Perfect timing"
+    },
+    {
+      "image": "wikifile:LPG Cylinders.jpg",
+      "fact": "Cylinder हिलाओ",
+      "sub": "Papa की technique"
+    }
+  ],
+  "description": "Cylinder खत्म - original Hindi comedy.",
+  "hashtags": [
+    "HindiJokes",
+    "Comedy",
+    "FunnyReels"
+  ],
+  "tags": [
+    "Hindi jokes",
+    "funny Hindi reels",
+    "relatable comedy",
+    "comedy reels",
+    "desi jokes",
+    "Indian comedy"
+  ]
+}

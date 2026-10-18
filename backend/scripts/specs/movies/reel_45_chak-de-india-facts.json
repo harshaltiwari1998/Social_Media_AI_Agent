@@ -1,0 +1,47 @@
+{
+  "id": "reel-chak-de-india-facts",
+  "category": "movies",
+  "slot": "reel",
+  "order": 45,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Chak De India: Kabir Khan के 70 minute",
+  "title": "Chak De India Facts | Shah Rukh Khan Kabir Khan | Women Hockey | Bollywood Facts",
+  "video_script": "Chak De India 10 August 2007 को रिलीज़ हुई. इसे Shimit Amin ने निर्देशित किया. Shah Rukh Khan ने hockey coach Kabir Khan का किरदार निभाया, जो India की women hockey team को World Cup जिताता है. सत्तर minute वाला speech आज भी सबसे famous dialogues में से एक है. आपकी favourite player कौन थी? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Chak De! India",
+      "label": "Chak De! India (2007)"
+    },
+    {
+      "image": "wiki:Chak De! India",
+      "fact": "10 August 2007",
+      "sub": "Release date"
+    },
+    {
+      "image": "wiki:Chak De! India",
+      "fact": "Kabir Khan",
+      "sub": "Hockey coach"
+    },
+    {
+      "image": "wiki:Chak De! India",
+      "fact": "70 minute",
+      "sub": "सबसे famous speech"
+    }
+  ],
+  "description": "Chak De! India (10 August 2007): Shimit Amin की film; Shah Rukh Khan as coach Kabir Khan, women hockey team.",
+  "hashtags": [
+    "ChakDeIndia",
+    "ShahRukhKhan",
+    "BollywoodFacts"
+  ],
+  "tags": [
+    "Chak De India",
+    "Shah Rukh Khan",
+    "Shimit Amin",
+    "hockey",
+    "Bollywood facts"
+  ]
+}

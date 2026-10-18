@@ -1,0 +1,48 @@
+{
+  "id": "comedy-joke-fan-speed",
+  "slot": "comedy",
+  "order": 16,
+  "category": "movies",
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Fan की speed",
+  "title": "Fan Ki Speed | Garmi vs Mummy | Hindi Jokes",
+  "video_script": "गर्मी में fan पाँच नंबर पर भी हवा नहीं देता. सर्दी में एक नंबर पर भी पूरा कमरा उड़ा देता है. और जैसे ही आप speed बढ़ाते हो, mummy की आवाज़ आती है, fan धीमा करो, सर्दी लग जाएगी. आपके घर में fan का control किसके हाथ में है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wikifile:Ceiling Fan Mid-Spin.jpg",
+      "label": "Fan की speed"
+    },
+    {
+      "image": "wikifile:Ceiling Fan Mid-Spin.jpg",
+      "fact": "पाँच नंबर",
+      "sub": "फिर भी गर्मी"
+    },
+    {
+      "image": "wikifile:Ceiling Fan Mid-Spin.jpg",
+      "fact": "एक नंबर",
+      "sub": "फिर भी तूफ़ान"
+    },
+    {
+      "image": "wikifile:Ceiling Fan Mid-Spin.jpg",
+      "fact": "Fan धीमा करो",
+      "sub": "Mummy का order"
+    }
+  ],
+  "description": "Fan की speed - original Hindi comedy.",
+  "hashtags": [
+    "HindiJokes",
+    "Comedy",
+    "FunnyReels"
+  ],
+  "tags": [
+    "Hindi jokes",
+    "funny Hindi reels",
+    "relatable comedy",
+    "comedy reels",
+    "desi jokes",
+    "Indian comedy"
+  ]
+}

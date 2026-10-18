@@ -1,0 +1,48 @@
+{
+  "id": "comedy-joke-traffic-maps",
+  "slot": "comedy",
+  "order": 23,
+  "category": "movies",
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "10 minute का रास्ता",
+  "title": "Google Maps 10 Minute | Traffic Jam | Hindi Jokes",
+  "video_script": "Google Maps बोलता है, सिर्फ दस minute. आप निकल जाते हो. पहले signal पर ही पता चलता है कि पूरा शहर आज इसी रास्ते पर है. दस minute बीस बन जाते हैं, बीस चालीस. और जब आप पहुँचते हो, तो Maps बोलता है, you have arrived. हाँ भाई, एक घंटे बाद. आपका सबसे लंबा traffic jam कितना था? Comment करो!",
+  "scenes": [
+    {
+      "image": "wikifile:Traffic Jam near Industrial estate A Reddy.jpg",
+      "label": "10 minute का रास्ता"
+    },
+    {
+      "image": "wikifile:Traffic Jam near Industrial estate A Reddy.jpg",
+      "fact": "सिर्फ 10 minute",
+      "sub": "Google Maps"
+    },
+    {
+      "image": "wikifile:Traffic Jam near Industrial estate A Reddy.jpg",
+      "fact": "पहला signal",
+      "sub": "पूरा शहर यहीं"
+    },
+    {
+      "image": "wikifile:Traffic Jam near Industrial estate A Reddy.jpg",
+      "fact": "You have arrived",
+      "sub": "एक घंटे बाद"
+    }
+  ],
+  "description": "10 minute का रास्ता - original Hindi comedy.",
+  "hashtags": [
+    "HindiJokes",
+    "Comedy",
+    "FunnyReels"
+  ],
+  "tags": [
+    "Hindi jokes",
+    "funny Hindi reels",
+    "relatable comedy",
+    "comedy reels",
+    "desi jokes",
+    "Indian comedy"
+  ]
+}

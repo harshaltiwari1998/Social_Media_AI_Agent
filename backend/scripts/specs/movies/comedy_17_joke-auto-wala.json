@@ -1,0 +1,48 @@
+{
+  "id": "comedy-joke-auto-wala",
+  "slot": "comedy",
+  "order": 17,
+  "category": "movies",
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Bhaiya, चलोगे?",
+  "title": "Auto Wale Bhaiya | Chaloge | Hindi Jokes",
+  "video_script": "Bhaiya, station चलोगे? Auto वाले भैया ऐसे देखते हैं जैसे आपने उनकी किडनी माँग ली हो. Meter से? नहीं, वापस खाली आना पड़ेगा. अच्छा कितना? दो सौ. दो किलोमीटर के दो सौ? फिर भैया चले जाते हैं, और अगले auto वाले बोलते हैं, ढाई सौ. आपका सबसे महँगा auto ride कितने का था? Comment करो!",
+  "scenes": [
+    {
+      "image": "wikifile:Auto-rickshaw in Mumbai 2009-09-26.jpg",
+      "label": "Bhaiya, चलोगे?"
+    },
+    {
+      "image": "wikifile:Auto-rickshaw in Mumbai 2009-09-26.jpg",
+      "fact": "Station चलोगे?",
+      "sub": "जैसे किडनी माँग ली"
+    },
+    {
+      "image": "wikifile:Auto-rickshaw in Mumbai 2009-09-26.jpg",
+      "fact": "Meter से?",
+      "sub": "वापस खाली आना पड़ेगा"
+    },
+    {
+      "image": "wikifile:Auto-rickshaw in Mumbai 2009-09-26.jpg",
+      "fact": "दो सौ",
+      "sub": "अगला बोलेगा ढाई सौ"
+    }
+  ],
+  "description": "Bhaiya, चलोगे? - original Hindi comedy.",
+  "hashtags": [
+    "HindiJokes",
+    "Comedy",
+    "FunnyReels"
+  ],
+  "tags": [
+    "Hindi jokes",
+    "funny Hindi reels",
+    "relatable comedy",
+    "comedy reels",
+    "desi jokes",
+    "Indian comedy"
+  ]
+}

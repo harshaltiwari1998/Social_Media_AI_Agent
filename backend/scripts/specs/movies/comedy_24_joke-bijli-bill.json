@@ -1,0 +1,48 @@
+{
+  "id": "comedy-joke-bijli-bill",
+  "slot": "comedy",
+  "order": 24,
+  "category": "movies",
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "बिजली का bill",
+  "title": "Bijli Ka Bill | AC Kisne Chalaya | Hindi Jokes",
+  "video_script": "जिस दिन बिजली का bill आता है, उस दिन घर में पूरी जाँच शुरू हो जाती है. AC किसने चलाया? Charger किसने लगा कर छोड़ा? Bathroom की light किसकी? फिर पापा पूरे घर की light बंद करके बोलते हैं, पैसे पेड़ पर नहीं उगते. और अगले दिन फिर सब वैसा ही. आपके घर में bill देख कर कौन गुस्सा होता है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wikifile:India - Kolkata electricity meters - 3832.jpg",
+      "label": "बिजली का bill"
+    },
+    {
+      "image": "wikifile:India - Kolkata electricity meters - 3832.jpg",
+      "fact": "Bill आया",
+      "sub": "जाँच शुरू"
+    },
+    {
+      "image": "wikifile:India - Kolkata electricity meters - 3832.jpg",
+      "fact": "AC किसने चलाया?",
+      "sub": "सबसे बड़ा सवाल"
+    },
+    {
+      "image": "wikifile:India - Kolkata electricity meters - 3832.jpg",
+      "fact": "पैसे पेड़ पर नहीं उगते",
+      "sub": "Papa का dialogue"
+    }
+  ],
+  "description": "बिजली का bill - original Hindi comedy.",
+  "hashtags": [
+    "HindiJokes",
+    "Comedy",
+    "FunnyReels"
+  ],
+  "tags": [
+    "Hindi jokes",
+    "funny Hindi reels",
+    "relatable comedy",
+    "comedy reels",
+    "desi jokes",
+    "Indian comedy"
+  ]
+}

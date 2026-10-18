@@ -1,0 +1,48 @@
+{
+  "id": "comedy-joke-shaadi-buffet",
+  "slot": "comedy",
+  "order": 19,
+  "category": "movies",
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "शादी का buffet",
+  "title": "Shaadi Ka Buffet | Plate Mein Sab Kuch | Hindi Jokes",
+  "video_script": "शादी के buffet में हर आदमी ऐसे plate भरता है जैसे कल से खाना बंद होने वाला है. Paneer, dal, chole, noodles, सब एक ही plate में. और gulab jamun का शीरा पहुँच जाता है दाल के अंदर. फिर बोलते हैं, खाना ठीक नहीं था. आप buffet में सबसे पहले क्या लेते हो? Comment करो!",
+  "scenes": [
+    {
+      "image": "wikifile:North Indian Vegetarian Thali-MB51.jpg",
+      "label": "शादी का buffet"
+    },
+    {
+      "image": "wikifile:North Indian Vegetarian Thali-MB51.jpg",
+      "fact": "एक ही plate",
+      "sub": "Paneer, dal, noodles"
+    },
+    {
+      "image": "wikifile:North Indian Vegetarian Thali-MB51.jpg",
+      "fact": "Gulab jamun",
+      "sub": "दाल के अंदर"
+    },
+    {
+      "image": "wikifile:North Indian Vegetarian Thali-MB51.jpg",
+      "fact": "खाना ठीक नहीं था",
+      "sub": "हर शादी का review"
+    }
+  ],
+  "description": "शादी का buffet - original Hindi comedy.",
+  "hashtags": [
+    "HindiJokes",
+    "Comedy",
+    "FunnyReels"
+  ],
+  "tags": [
+    "Hindi jokes",
+    "funny Hindi reels",
+    "relatable comedy",
+    "comedy reels",
+    "desi jokes",
+    "Indian comedy"
+  ]
+}

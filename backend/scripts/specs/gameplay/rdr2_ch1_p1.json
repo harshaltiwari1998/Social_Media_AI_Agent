@@ -1,0 +1,510 @@
+{
+ "name": "rdr2_ch1_p1",
+ "source": "F:/AI AGENT/VIDEOS GAMING\\Red Dead Redemption 2 Chapter 1 - Part 1   🤠 Arthur Morgan Begins His Journey   Live Stream.mp4",
+ "game": "Red Dead Redemption 2",
+ "tags": [
+  "RDR2",
+  "Red Dead Redemption 2",
+  "Arthur Morgan",
+  "RDR2 gameplay",
+  "Red Dead 2",
+  "Gaming",
+  "HarryBeast",
+  "Colter"
+ ],
+ "shorts": [
+  {
+   "start": 525,
+   "dur": 50,
+   "title": "The Saddest Opening in Gaming"
+  },
+  {
+   "start": 716,
+   "dur": 50,
+   "title": "Riding Into a Deadly Blizzard"
+  },
+  {
+   "start": 867,
+   "dur": 50,
+   "title": "Searching for Lost Gang Members in the Snow"
+  },
+  {
+   "start": 1076,
+   "dur": 50,
+   "title": "First Shootout at the O'Driscoll Cabin"
+  },
+  {
+   "start": 1330,
+   "dur": 50,
+   "title": "Arthur Morgan Brawls an O'Driscoll"
+  },
+  {
+   "start": 1600,
+   "dur": 50,
+   "title": "The O'Driscoll Shack Burns Down"
+  },
+  {
+   "start": 1761,
+   "dur": 50,
+   "title": "Riding Out to Find John Marston"
+  },
+  {
+   "start": 1913,
+   "dur": 50,
+   "title": "What Really Happened in Blackwater"
+  },
+  {
+   "start": 2170,
+   "dur": 50,
+   "title": "Climbing the Frozen Mountain Pass"
+  },
+  {
+   "start": 2321,
+   "dur": 50,
+   "title": "We Found John Marston"
+  },
+  {
+   "start": 2492,
+   "dur": 50,
+   "title": "Racing Back Through the Storm"
+  },
+  {
+   "start": 2978,
+   "dur": 50,
+   "title": "Dutch Wants to Rob a Train"
+  },
+  {
+   "start": 3282,
+   "dur": 50,
+   "title": "Arthur Gets His First Rifle"
+  },
+  {
+   "start": 3559,
+   "dur": 50,
+   "title": "Mining Camp Shootout in the Snow"
+  },
+  {
+   "start": 3716,
+   "dur": 50,
+   "title": "Dead Eye Unlocked - Clearing the O'Driscolls"
+  },
+  {
+   "start": 3867,
+   "dur": 50,
+   "title": "The Cornwall Train Job Is On"
+  },
+  {
+   "start": 4087,
+   "dur": 50,
+   "title": "Capturing an O'Driscoll Alive"
+  },
+  {
+   "start": 4238,
+   "dur": 50,
+   "title": "Dutch Questions the O'Driscoll Prisoner"
+  },
+  {
+   "start": 4486,
+   "dur": 50,
+   "title": "Hunting Trip with Charles"
+  },
+  {
+   "start": 4844,
+   "dur": 50,
+   "title": "My First Deer Hunt in RDR2"
+  },
+  {
+   "start": 5009,
+   "dur": 50,
+   "title": "Arthur Opens Up About Blackwater"
+  },
+  {
+   "start": 5441,
+   "dur": 50,
+   "title": "Feeding the Gang with Pearson"
+  },
+  {
+   "start": 5685,
+   "dur": 50,
+   "title": "Riding Out to Rob Cornwall"
+  },
+  {
+   "start": 6015,
+   "dur": 50,
+   "title": "The Gang Rides Out of the Mountains"
+  },
+  {
+   "start": 6184,
+   "dur": 50,
+   "title": "Waiting on the Train Tracks"
+  },
+  {
+   "start": 6358,
+   "dur": 50,
+   "title": "Jumping Onto a Moving Train"
+  },
+  {
+   "start": 6509,
+   "dur": 50,
+   "title": "Train Robbery Gunfight"
+  },
+  {
+   "start": 6700,
+   "dur": 50,
+   "title": "Looting Cornwall's Private Car"
+  },
+  {
+   "start": 6852,
+   "dur": 50,
+   "title": "Dutch Decides the Guards' Fate"
+  },
+  {
+   "start": 7170,
+   "dur": 50,
+   "title": "The Most Beautiful View in RDR2"
+  },
+  {
+   "start": 7402,
+   "dur": 50,
+   "title": "Leaving the Snow Behind"
+  },
+  {
+   "start": 7795,
+   "dur": 50,
+   "title": "Welcome to Horseshoe Overlook"
+  },
+  {
+   "start": 430,
+   "dur": 50,
+   "title": "Lost in the Snow After Blackwater"
+  },
+  {
+   "start": 647,
+   "dur": 50,
+   "title": "The Gang Finds Shelter in Colter"
+  },
+  {
+   "start": 786,
+   "dur": 50,
+   "title": "A Stranger Appears in the Blizzard"
+  },
+  {
+   "start": 946,
+   "dur": 50,
+   "title": "Following Dutch Through the Night Storm"
+  },
+  {
+   "start": 1131,
+   "dur": 50,
+   "title": "Raiding the O'Driscoll Hideout"
+  },
+  {
+   "start": 1507,
+   "dur": 50,
+   "title": "Rescuing Mrs Adler"
+  },
+  {
+   "start": 1655,
+   "dur": 50,
+   "title": "Back at Camp with the Gang"
+  },
+  {
+   "start": 1857,
+   "dur": 50,
+   "title": "Tracking John Through the Snow"
+  },
+  {
+   "start": 2014,
+   "dur": 50,
+   "title": "Riding Past Wolf Kills on the Mountain"
+  },
+  {
+   "start": 2225,
+   "dur": 50,
+   "title": "Climbing the Icy Cliff to Save John"
+  },
+  {
+   "start": 2392,
+   "dur": 50,
+   "title": "Fighting Off Wolves to Save John Marston"
+  },
+  {
+   "start": 2547,
+   "dur": 50,
+   "title": "Freezing, Bleeding, Starving - John Survives"
+  },
+  {
+   "start": 2628,
+   "dur": 50,
+   "title": "Arthur Gets Real About the West"
+  },
+  {
+   "start": 2894,
+   "dur": 50,
+   "title": "Dutch Wants Colm O'Driscoll Punched Hard"
+  },
+  {
+   "start": 3038,
+   "dur": 50,
+   "title": "Riding Out with Dutch to Hunt O'Driscolls"
+  },
+  {
+   "start": 3508,
+   "dur": 50,
+   "title": "Taking Out O'Driscolls at the Mine"
+  },
+  {
+   "start": 3665,
+   "dur": 50,
+   "title": "Picking Them Off as They Come Out the Trees"
+  },
+  {
+   "start": 4164,
+   "dur": 50,
+   "title": "Kieran Thinks He's Gonna Puke"
+  },
+  {
+   "start": 4541,
+   "dur": 50,
+   "title": "Charles Asks What Happened on That Boat"
+  },
+  {
+   "start": 4958,
+   "dur": 50,
+   "title": "It's Easier When They Ain't Shooting Back"
+  },
+  {
+   "start": 5064,
+   "dur": 50,
+   "title": "A Hungry Bear Nearby - Stay Back"
+  },
+  {
+   "start": 5253,
+   "dur": 50,
+   "title": "Why Arthur Sticks with Dutch"
+  },
+  {
+   "start": 5371,
+   "dur": 50,
+   "title": "Uncle Shows Up at Camp"
+  },
+  {
+   "start": 5556,
+   "dur": 50,
+   "title": "Dutch Plans the Train Heist"
+  },
+  {
+   "start": 5632,
+   "dur": 50,
+   "title": "Gentlemen, Time to Make Something of Ourselves"
+  },
+  {
+   "start": 5897,
+   "dur": 50,
+   "title": "Riding Down the Mountain to the Tracks"
+  },
+  {
+   "start": 6307,
+   "dur": 50,
+   "title": "Gentlemen, It's Time - The Heist Begins"
+  },
+  {
+   "start": 6431,
+   "dur": 50,
+   "title": "Climbing the Train to Stop It"
+  },
+  {
+   "start": 6595,
+   "dur": 50,
+   "title": "Opening Cornwall's Car"
+  },
+  {
+   "start": 7119,
+   "dur": 50,
+   "title": "We Just Robbed a Leviticus Cornwall Train"
+  },
+  {
+   "start": 7227,
+   "dur": 50,
+   "title": "Leaving the Mountains with the Wagons"
+  },
+  {
+   "start": 7516,
+   "dur": 50,
+   "title": "Heading West in Search of Fortune"
+  },
+  {
+   "start": 7727,
+   "dur": 50,
+   "title": "Dutch's Big Plan to Buy Some Land"
+  }
+ ],
+ "longs": [
+  {
+   "title": "RDR2 Chapter 1 - Every Big Moment in Colter (Highlights)",
+   "description": "The best moments from Red Dead Redemption 2 Chapter 1 - the blizzard, the O'Driscoll shootouts, finding John Marston and the mining camp fight. Cut from my Chapter 1 live stream.",
+   "thumb_at": 3730,
+   "thumb_text": "Colter Shootouts",
+   "segments": [
+    {
+     "start": 525,
+     "dur": 45,
+     "label": "The Saddest Opening in Gaming"
+    },
+    {
+     "start": 716,
+     "dur": 45,
+     "label": "Riding Into a Deadly Blizzard"
+    },
+    {
+     "start": 1076,
+     "dur": 45,
+     "label": "First Shootout at the O'Driscoll Cabin"
+    },
+    {
+     "start": 1330,
+     "dur": 45,
+     "label": "Arthur Morgan Brawls an O'Driscoll"
+    },
+    {
+     "start": 1600,
+     "dur": 45,
+     "label": "The O'Driscoll Shack Burns Down"
+    },
+    {
+     "start": 1761,
+     "dur": 45,
+     "label": "Riding Out to Find John Marston"
+    },
+    {
+     "start": 2170,
+     "dur": 45,
+     "label": "Climbing the Frozen Mountain Pass"
+    },
+    {
+     "start": 2321,
+     "dur": 45,
+     "label": "We Found John Marston"
+    },
+    {
+     "start": 2492,
+     "dur": 45,
+     "label": "Racing Back Through the Storm"
+    },
+    {
+     "start": 2978,
+     "dur": 45,
+     "label": "Dutch Wants to Rob a Train"
+    },
+    {
+     "start": 3282,
+     "dur": 45,
+     "label": "Arthur Gets His First Rifle"
+    },
+    {
+     "start": 3559,
+     "dur": 45,
+     "label": "Mining Camp Shootout in the Snow"
+    },
+    {
+     "start": 3716,
+     "dur": 45,
+     "label": "Dead Eye Unlocked - Clearing the O'Driscolls"
+    },
+    {
+     "start": 4087,
+     "dur": 45,
+     "label": "Capturing an O'Driscoll Alive"
+    },
+    {
+     "start": 4238,
+     "dur": 45,
+     "label": "Dutch Questions the O'Driscoll Prisoner"
+    }
+   ]
+  },
+  {
+   "title": "RDR2 - Hunting, Cornwall Train Robbery and the New Camp (Highlights)",
+   "description": "Red Dead Redemption 2 Chapter 1 highlights part 2 - hunting with Charles, the Cornwall train robbery and the move to Horseshoe Overlook. Cut from my live stream.",
+   "thumb_at": 6380,
+   "thumb_text": "Train Robbery",
+   "segments": [
+    {
+     "start": 3867,
+     "dur": 45,
+     "label": "The Cornwall Train Job Is On"
+    },
+    {
+     "start": 4486,
+     "dur": 45,
+     "label": "Hunting Trip with Charles"
+    },
+    {
+     "start": 4844,
+     "dur": 45,
+     "label": "My First Deer Hunt in RDR2"
+    },
+    {
+     "start": 5441,
+     "dur": 45,
+     "label": "Feeding the Gang with Pearson"
+    },
+    {
+     "start": 5685,
+     "dur": 45,
+     "label": "Riding Out to Rob Cornwall"
+    },
+    {
+     "start": 6015,
+     "dur": 45,
+     "label": "The Gang Rides Out of the Mountains"
+    },
+    {
+     "start": 6184,
+     "dur": 45,
+     "label": "Waiting on the Train Tracks"
+    },
+    {
+     "start": 6358,
+     "dur": 45,
+     "label": "Jumping Onto a Moving Train"
+    },
+    {
+     "start": 6509,
+     "dur": 45,
+     "label": "Train Robbery Gunfight"
+    },
+    {
+     "start": 6700,
+     "dur": 45,
+     "label": "Looting Cornwall's Private Car"
+    },
+    {
+     "start": 6852,
+     "dur": 45,
+     "label": "Dutch Decides the Guards' Fate"
+    },
+    {
+     "start": 7170,
+     "dur": 45,
+     "label": "The Most Beautiful View in RDR2"
+    },
+    {
+     "start": 7402,
+     "dur": 45,
+     "label": "Leaving the Snow Behind"
+    },
+    {
+     "start": 7610,
+     "dur": 45,
+     "label": "Picking Ginseng with Hosea"
+    },
+    {
+     "start": 7795,
+     "dur": 45,
+     "label": "Welcome to Horseshoe Overlook"
+    }
+   ]
+  }
+ ]
+}

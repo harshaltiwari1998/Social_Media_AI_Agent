@@ -1057,11 +1057,11 @@
   },
   "zelda-ocarina-of-time-switch-2": {
     "spec": "scripts/specs/games/new_10_zelda-ocarina-of-time-switch-2.json",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5318877a.mp4"
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-dbe8063d.mp4"
   },
   "tekken-3": {
     "spec": "scripts/specs/games/classic_11_tekken-3.json",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f5031599.mp4"
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b6782461.mp4"
   },
   "hexed": {
     "spec": "scripts/specs/movies/movie_new_11_hexed.json",
@@ -1074,5 +1074,9 @@
   "reel-kuch-kuch-hota-hai-facts": {
     "spec": "scripts/specs/movies/reel_34_kuch-kuch-hota-hai-facts.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ca60963e.mp4"
+  },
+  "palworld-guide-anubis-alpha-location": {
+    "spec": "scripts/specs/games/palguide_05_anubis-alpha-location.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-a34edcc8.mp4"
   }
 }

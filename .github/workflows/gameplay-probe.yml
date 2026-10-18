@@ -1,0 +1,30 @@
+name: Gameplay download probe
+
+# One-off check: can a GitHub runner download the channel's own live-stream recordings from YouTube?
+on:
+  workflow_dispatch:
+    inputs:
+      video_id:
+        description: "YouTube video id"
+        default: "txygTA8N8Dg"
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Install yt-dlp and ffmpeg
+        run: |
+          pip install -U yt-dlp
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Formats
+        run: yt-dlp -F "https://www.youtube.com/watch?v=${{ github.event.inputs.video_id }}" | tail -15
+      - name: Audio only
+        run: |
+          time yt-dlp -f bestaudio -o audio.%(ext)s "https://www.youtube.com/watch?v=${{ github.event.inputs.video_id }}"
+          ls -la audio.*
+      - name: 60s section at 1080p
+        run: |
+          time yt-dlp -f "bv*[height<=1080]+ba/b[height<=1080]" --download-sections "*600-660" -o sec.%(ext)s "https://www.youtube.com/watch?v=${{ github.event.inputs.video_id }}"
+          ls -la sec.*
+          ffprobe -v error -show_entries format=duration:stream=width,height,r_frame_rate sec.* | head

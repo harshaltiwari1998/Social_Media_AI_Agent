@@ -1092,5 +1092,65 @@
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-3c5da105.mp4",
     "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-3c5da105-thumb.jpg",
     "chapters": "0:00 Oscars और भारत\n0:30 Mother India\n1:03 Salaam Bombay और Lagaan\n1:55 Bhanu Athaiya - पहला Oscar\n2:35 Satyajit Ray का सम्मान\n3:08 Slumdog Millionaire - 2009\n3:43 Naatu Naatu - 2023\n4:20 The Elephant Whisperers\n4:59 Documentary की नई पहचान\n5:42 हाल के साल - Anuja और Homebound\n6:31 अगला Oscar कौन सा"
+  },
+  "reel-black-facts": {
+    "spec": "scripts/specs/movies/reel_50_black-facts.json",
+    "video": "F:\\AI AGENT\\run_fbig\\videos\\short-113e99e4.mp4"
+  },
+  "reel-gangs-of-wasseypur-facts": {
+    "spec": "scripts/specs/movies/reel_49_gangs-of-wasseypur-facts.json",
+    "video": "F:\\AI AGENT\\run_fbig\\videos\\short-9ef09136.mp4"
+  },
+  "reel-jab-we-met-facts": {
+    "spec": "scripts/specs/movies/reel_48_jab-we-met-facts.json",
+    "video": "F:\\AI AGENT\\run_fbig\\videos\\short-818e0d91.mp4"
+  },
+  "reel-barfi-facts": {
+    "spec": "scripts/specs/movies/reel_47_barfi-facts.json",
+    "video": "F:\\AI AGENT\\run_fbig\\videos\\short-9dcb1b65.mp4"
+  },
+  "reel-rang-de-basanti-facts": {
+    "spec": "scripts/specs/movies/reel_46_rang-de-basanti-facts.json",
+    "video": "F:\\AI AGENT\\run_fbig\\videos\\short-2d128da7.mp4"
+  },
+  "reel-chak-de-india-facts": {
+    "spec": "scripts/specs/movies/reel_45_chak-de-india-facts.json",
+    "video": "F:\\AI AGENT\\run_fbig\\videos\\short-129cbb3e.mp4"
+  },
+  "reel-swades-facts": {
+    "spec": "scripts/specs/movies/reel_44_swades-facts.json",
+    "video": "F:\\AI AGENT\\run_fbig\\videos\\short-7aa523d6.mp4"
+  },
+  "reel-andhadhun-facts": {
+    "spec": "scripts/specs/movies/reel_43_andhadhun-facts.json",
+    "video": "F:\\AI AGENT\\run_fbig\\videos\\short-0c313f53.mp4"
+  },
+  "reel-queen-facts": {
+    "spec": "scripts/specs/movies/reel_42_queen-facts.json",
+    "video": "F:\\AI AGENT\\run_fbig\\videos\\short-249ba10a.mp4"
+  },
+  "reel-gully-boy-facts": {
+    "spec": "scripts/specs/movies/reel_41_gully-boy-facts.json",
+    "video": "F:\\AI AGENT\\run_fbig\\videos\\short-ad399bb1.mp4"
+  },
+  "comedy-joke-baraat-late": {
+    "spec": "scripts/specs/movies/comedy_25_joke-baraat-late.json",
+    "video": "F:\\AI AGENT\\run_fbig\\videos\\short-8668330e.mp4"
+  },
+  "comedy-joke-bijli-bill": {
+    "spec": "scripts/specs/movies/comedy_24_joke-bijli-bill.json",
+    "video": "F:\\AI AGENT\\run_fbig\\videos\\short-eb80e512.mp4"
+  },
+  "comedy-joke-traffic-maps": {
+    "spec": "scripts/specs/movies/comedy_23_joke-traffic-maps.json",
+    "video": "F:\\AI AGENT\\run_fbig\\videos\\short-f575ca7b.mp4"
+  },
+  "comedy-joke-mute-button": {
+    "spec": "scripts/specs/movies/comedy_22_joke-mute-button.json",
+    "video": "F:\\AI AGENT\\run_fbig\\videos\\short-be12532a.mp4"
+  },
+  "comedy-joke-cylinder-khatam": {
+    "spec": "scripts/specs/movies/comedy_21_joke-cylinder-khatam.json",
+    "video": "F:\\AI AGENT\\run_fbig\\videos\\short-b42d7ab1.mp4"
   }
 }

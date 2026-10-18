@@ -1057,11 +1057,11 @@
   },
   "zelda-ocarina-of-time-switch-2": {
     "spec": "scripts/specs/games/new_10_zelda-ocarina-of-time-switch-2.json",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-dbe8063d.mp4"
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-487f2c59.mp4"
   },
   "tekken-3": {
     "spec": "scripts/specs/games/classic_11_tekken-3.json",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b6782461.mp4"
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-43083066.mp4"
   },
   "hexed": {
     "spec": "scripts/specs/movies/movie_new_11_hexed.json",
@@ -1077,6 +1077,20 @@
   },
   "palworld-guide-anubis-alpha-location": {
     "spec": "scripts/specs/games/palguide_05_anubis-alpha-location.json",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-a34edcc8.mp4"
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-0a7c2746.mp4"
+  },
+  "minecraft-explained": {
+    "spec": "scripts/specs/long/gaming_06_minecraft-explained.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-57131753.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-57131753-thumb.jpg",
+    "chapters": "0:00 The biggest sandbox ever\n0:42 How it began\n1:08 The full release\n1:35 What is the game about\n2:13 Survival and Creative\n2:41 The Nether and the End\n3:16 The creeper\n3:46 Microsoft buys Mojang\n4:15 One game on every device\n4:54 Sales, updates and community\n5:54 Music, school and Hollywood\n6:46 Tell us your world"
+  },
+  "indian-cinema-at-the-oscars": {
+    "spec": "scripts/specs/long/movies_07_indian-cinema-at-the-oscars.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-3c5da105.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-3c5da105-thumb.jpg",
+    "chapters": "0:00 Oscars और भारत\n0:30 Mother India\n1:03 Salaam Bombay और Lagaan\n1:55 Bhanu Athaiya - पहला Oscar\n2:35 Satyajit Ray का सम्मान\n3:08 Slumdog Millionaire - 2009\n3:43 Naatu Naatu - 2023\n4:20 The Elephant Whisperers\n4:59 Documentary की नई पहचान\n5:42 हाल के साल - Anuja और Homebound\n6:31 अगला Oscar कौन सा"
   }
 }

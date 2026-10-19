@@ -1057,11 +1057,11 @@
   },
   "zelda-ocarina-of-time-switch-2": {
     "spec": "scripts/specs/games/new_10_zelda-ocarina-of-time-switch-2.json",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-487f2c59.mp4"
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e3c37410.mp4"
   },
   "tekken-3": {
     "spec": "scripts/specs/games/classic_11_tekken-3.json",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-43083066.mp4"
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e5193bf1.mp4"
   },
   "hexed": {
     "spec": "scripts/specs/movies/movie_new_11_hexed.json",
@@ -1077,13 +1077,13 @@
   },
   "palworld-guide-anubis-alpha-location": {
     "spec": "scripts/specs/games/palguide_05_anubis-alpha-location.json",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-0a7c2746.mp4"
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-0c9aea06.mp4"
   },
   "minecraft-explained": {
     "spec": "scripts/specs/long/gaming_06_minecraft-explained.json",
     "kind": "long",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-57131753.mp4",
-    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-57131753-thumb.jpg",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-02742282.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-02742282-thumb.jpg",
     "chapters": "0:00 The biggest sandbox ever\n0:42 How it began\n1:08 The full release\n1:35 What is the game about\n2:13 Survival and Creative\n2:41 The Nether and the End\n3:16 The creeper\n3:46 Microsoft buys Mojang\n4:15 One game on every device\n4:54 Sales, updates and community\n5:54 Music, school and Hollywood\n6:46 Tell us your world"
   },
   "indian-cinema-at-the-oscars": {
@@ -1152,5 +1152,25 @@
   "comedy-joke-cylinder-khatam": {
     "spec": "scripts/specs/movies/comedy_21_joke-cylinder-khatam.json",
     "video": "F:\\AI AGENT\\run_fbig\\videos\\short-b42d7ab1.mp4"
+  },
+  "gta-6-confirmed-facts": {
+    "spec": "scripts/specs/games/new_11_gta-6-confirmed-facts.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-2210cb36.mp4"
+  },
+  "max-payne": {
+    "spec": "scripts/specs/games/classic_12_max-payne.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b6062868.mp4"
+  },
+  "king-shah-rukh-khan": {
+    "spec": "scripts/specs/movies/movie_new_12_king-shah-rukh-khan.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-7fe8e57c.mp4"
+  },
+  "awarapan-2-box-office": {
+    "spec": "scripts/specs/movies/movie_review_11_awarapan-2-box-office.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-60f9ff5f.mp4"
+  },
+  "reel-taare-zameen-par-facts": {
+    "spec": "scripts/specs/movies/reel_35_taare-zameen-par-facts.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-0db73829.mp4"
   }
 }

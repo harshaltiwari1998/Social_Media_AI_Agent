@@ -1235,5 +1235,25 @@
       ],
       "unique": false
     }
+  },
+  "Pyrin": {
+    "spec": "scripts/specs/palworld_pyrin.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-8d88c6e5.mp4",
+    "data": {
+      "headline": "Palworld Breeding: How to get Pyrin",
+      "caption": "Cattiva + Suzaku = Pyrin. A Palworld 1.0 breeding combo.",
+      "video_script": "Cattiva plus Suzaku equals Pyrin! That is a real Palworld one point zero breeding combo. Drop both Pals on your Breeding Farm, add a cake and wait for the egg to hatch. Save this video so you do not forget it. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Cattiva",
+        "Suzaku"
+      ],
+      "child": "Pyrin",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
   }
 }

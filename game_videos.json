@@ -1153,6 +1153,30 @@
     "spec": "scripts/specs/movies/comedy_21_joke-cylinder-khatam.json",
     "video": "F:\\AI AGENT\\run_fbig\\videos\\short-b42d7ab1.mp4"
   },
+  "comedy-joke-pani-puri": {
+    "spec": "scripts/specs/movies/comedy_20_joke-pani-puri.json",
+    "video": "F:\\AI AGENT\\run_fbig\\videos\\short-ad593e0e.mp4"
+  },
+  "comedy-joke-shaadi-buffet": {
+    "spec": "scripts/specs/movies/comedy_19_joke-shaadi-buffet.json",
+    "video": "F:\\AI AGENT\\run_fbig\\videos\\short-4049d9c3.mp4"
+  },
+  "comedy-joke-machhar": {
+    "spec": "scripts/specs/movies/comedy_18_joke-machhar.json",
+    "video": "F:\\AI AGENT\\run_fbig\\videos\\short-c106b2b1.mp4"
+  },
+  "reel-bhaag-milkha-bhaag-facts": {
+    "spec": "scripts/specs/movies/reel_54_bhaag-milkha-bhaag-facts.json",
+    "video": "F:\\AI AGENT\\run_fbig\\videos\\short-7b68421f.mp4"
+  },
+  "comedy-joke-auto-wala": {
+    "spec": "scripts/specs/movies/comedy_17_joke-auto-wala.json",
+    "video": "F:\\AI AGENT\\run_fbig\\videos\\short-dd0b8276.mp4"
+  },
+  "comedy-joke-fan-speed": {
+    "spec": "scripts/specs/movies/comedy_16_joke-fan-speed.json",
+    "video": "F:\\AI AGENT\\run_fbig\\videos\\short-1487b115.mp4"
+  },
   "gta-6-confirmed-facts": {
     "spec": "scripts/specs/games/new_11_gta-6-confirmed-facts.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-2210cb36.mp4"

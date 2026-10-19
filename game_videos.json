@@ -1204,5 +1204,17 @@
   "palworld-guide-kitsun-breeding": {
     "spec": "scripts/specs/games/palguide_42_kitsun-breeding.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-13c6134c.mp4"
+  },
+  "reel-dilip-joshi-jethalal-facts": {
+    "spec": "scripts/specs/movies/reel_58_dilip-joshi-jethalal-facts.json",
+    "video": "F:\\AI AGENT\\run_tmkoc\\videos\\short-c6626962.mp4"
+  },
+  "reel-asli-taarak-mehta-facts": {
+    "spec": "scripts/specs/movies/reel_57_asli-taarak-mehta-facts.json",
+    "video": "F:\\AI AGENT\\run_tmkoc\\videos\\short-41f0a53b.mp4"
+  },
+  "reel-tmkoc-shuruaat-facts": {
+    "spec": "scripts/specs/movies/reel_56_tmkoc-shuruaat-facts.json",
+    "video": "F:\\AI AGENT\\run_tmkoc\\videos\\short-b743eda8.mp4"
   }
 }

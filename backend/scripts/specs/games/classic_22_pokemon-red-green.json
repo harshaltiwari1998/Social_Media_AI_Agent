@@ -1,0 +1,45 @@
+{
+  "id": "pokemon-red-green",
+  "slot": "classic",
+  "order": 22,
+  "headline": "Pokemon Red and Green - where it all began",
+  "title": "Pokemon Red and Green 1996 | How It Began on Game Boy | Classic Games",
+  "video_script": "Pokemon began on the Game Boy. Pokemon Red and Green were developed by Game Freak, published by Nintendo, and released in Japan on February twenty seventh, nineteen ninety six. Players explored, caught and traded creatures, starting a franchise loved worldwide. Guinness World Records lists more than thirty one million copies sold for the Red, Green and Blue games. Which was your first Pokemon game? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Pokémon Red and Blue",
+      "label": "Pokemon Red and Green"
+    },
+    {
+      "image": "wiki:Pokémon Red and Blue",
+      "fact": "27 Feb 1996",
+      "sub": "Released in Japan"
+    },
+    {
+      "image": "wiki:Pokémon Red and Blue",
+      "fact": "Game Freak",
+      "sub": "Published by Nintendo, on Game Boy"
+    },
+    {
+      "image": "wiki:Pokémon Red and Blue",
+      "fact": "31 million+",
+      "sub": "Copies sold, Red, Green and Blue"
+    }
+  ],
+  "description": "Pokemon Red and Green launched on Game Boy in Japan on February 27, 1996, developed by Game Freak and published by Nintendo, and the original games sold over 31 million copies.",
+  "hashtags": [
+    "Pokemon",
+    "ClassicGames",
+    "GameBoy"
+  ],
+  "tags": [
+    "Pokemon Red",
+    "Pokemon Green",
+    "Game Freak",
+    "Nintendo",
+    "Game Boy",
+    "classic games",
+    "retro gaming",
+    "Pokemon history"
+  ]
+}

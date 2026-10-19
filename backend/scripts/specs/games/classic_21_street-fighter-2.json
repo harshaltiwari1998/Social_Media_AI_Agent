@@ -1,0 +1,45 @@
+{
+  "id": "street-fighter-2",
+  "slot": "classic",
+  "order": 21,
+  "headline": "Street Fighter II - the arcade fighter that changed gaming",
+  "title": "Street Fighter 2 | The Arcade Game That Started It All | Classic Games",
+  "video_script": "Street Fighter two came to arcades in nineteen ninety one from Capcom, and it shaped how fighting games are played. Players pick characters like Ryu, who throws the famous Hadouken fireball, and battle head to head. In the original, the four boss characters could not be played. That changed in nineteen ninety two with Champion Edition, which made the bosses playable. Who was your favourite fighter? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Street Fighter II",
+      "label": "Street Fighter II"
+    },
+    {
+      "image": "wiki:Street Fighter II",
+      "fact": "1991",
+      "sub": "Capcom arcade release"
+    },
+    {
+      "image": "wiki:Street Fighter II",
+      "fact": "Ryu's Hadouken",
+      "sub": "The iconic fireball"
+    },
+    {
+      "image": "wiki:Street Fighter II",
+      "fact": "Champion Edition",
+      "sub": "1992, bosses became playable"
+    }
+  ],
+  "description": "Street Fighter II arrived in arcades from Capcom in 1991, and the 1992 Champion Edition made the four boss characters playable.",
+  "hashtags": [
+    "StreetFighter",
+    "ClassicGames",
+    "RetroGaming"
+  ],
+  "tags": [
+    "Street Fighter II",
+    "Capcom",
+    "Ryu",
+    "Hadouken",
+    "Champion Edition",
+    "fighting games",
+    "classic games",
+    "arcade games"
+  ]
+}

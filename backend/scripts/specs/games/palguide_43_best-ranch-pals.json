@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-best-ranch-pals",
+  "slot": "palguide",
+  "order": 43,
+  "headline": "Best Ranch Pals in Palworld",
+  "title": "Best Ranch Pals and What They Make | Honey, Milk, Eggs | Palworld Guide",
+  "video_script": "Want free materials at your base? Build a Ranch in Palworld one point zero. It unlocks at technology level five and holds four Pals, and they need Farming work suitability. Beegarde makes Honey. Mozzarina makes Milk. Chikipi lays Eggs. Lamball, Cremis and Melpaca all give Wool. And Sibelyx makes High Quality Cloth, a big shortcut for crafting. Which Pal is working on your Ranch? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:1",
+      "label": "Best Ranch Pals"
+    },
+    {
+      "image": "pal:Beegarde",
+      "fact": "Beegarde = Honey",
+      "sub": "Ranch drop"
+    },
+    {
+      "image": "pal:Mozzarina",
+      "fact": "Mozzarina = Milk",
+      "sub": "Chikipi = Eggs"
+    },
+    {
+      "image": "pal:Sibelyx",
+      "fact": "Sibelyx",
+      "sub": "High Quality Cloth"
+    }
+  ],
+  "description": "Palworld 1.0 Ranch guide: unlocks at technology level 5, holds four Pals. Beegarde makes Honey, Mozzarina Milk, Chikipi Eggs, Lamball, Cremis and Melpaca Wool, Sibelyx High Quality Cloth.",
+  "hashtags": [
+    "Palworld",
+    "PalworldRanch",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld ranch",
+    "Palworld ranch pals",
+    "Palworld Sibelyx cloth",
+    "Palworld honey",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld base tips"
+  ]
+}

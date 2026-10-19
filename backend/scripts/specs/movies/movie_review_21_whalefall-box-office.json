@@ -1,0 +1,46 @@
+{
+  "id": "whalefall-box-office",
+  "category": "movies",
+  "slot": "movie_review",
+  "order": 21,
+  "expires": "2026-11-09",
+  "headline": "Whalefall: 60 million dollar budget par chhoti opening",
+  "title": "Whalefall Box Office | 60 Million Dollar Budget Par Chhoti Opening | Movie Box Office Hindi",
+  "video_script": "Survival thriller Whalefall को box office पर बड़ी शुरुआत नहीं मिली. US में पहले weekend की कमाई करीब 8 million dollar रही और worldwide लगभग 17.5 million dollar, जबकि film का reported net budget 60 million dollar है. Audience ने इसे B CinemaScore दिया. आपको ऐसी survival thriller पसंद आती हैं? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Whalefall (film)",
+      "label": "Whalefall - box office"
+    },
+    {
+      "image": "wiki:Whalefall (film)",
+      "fact": "8 million dollar",
+      "sub": "US opening weekend"
+    },
+    {
+      "image": "wiki:Whalefall (film)",
+      "fact": "17.5 million dollar",
+      "sub": "Worldwide opening"
+    },
+    {
+      "image": "wiki:Whalefall (film)",
+      "fact": "60 million dollar",
+      "sub": "Reported net budget - audience CinemaScore B"
+    }
+  ],
+  "description": "Whalefall (20th Century Studios) ne US mein ~8 million dollar aur worldwide ~17.5 million dollar ki opening li, reported net budget 60 million dollar. CinemaScore B.",
+  "hashtags": [
+    "Whalefall",
+    "BoxOffice",
+    "Hollywood"
+  ],
+  "tags": [
+    "Whalefall",
+    "Whalefall box office",
+    "Whalefall opening weekend",
+    "20th Century Studios",
+    "survival thriller",
+    "Hollywood box office",
+    "movie review Hindi"
+  ]
+}

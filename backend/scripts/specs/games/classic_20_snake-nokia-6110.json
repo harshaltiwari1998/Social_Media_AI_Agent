@@ -1,0 +1,45 @@
+{
+  "id": "snake-nokia-6110",
+  "slot": "classic",
+  "order": 20,
+  "headline": "Snake - the Nokia phone game everyone played",
+  "title": "Snake on Nokia 6110 | The Game On 350 Million Phones | Classic Games",
+  "video_script": "Snake is the game many of us first played on a phone. It debuted in nineteen ninety seven on the Nokia sixty one ten, created by Nokia design engineer Taneli Armanto. You steer a growing line around the screen, and every bite makes you longer and harder to control. Nokia's early versions are estimated to have shipped on around three hundred and fifty million devices. What was your high score? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Snake (video game genre)",
+      "label": "Snake on Nokia"
+    },
+    {
+      "image": "wiki:Snake (video game genre)",
+      "fact": "1997",
+      "sub": "Debuted on the Nokia 6110"
+    },
+    {
+      "image": "wiki:Snake (video game genre)",
+      "fact": "Taneli Armanto",
+      "sub": "Nokia design engineer"
+    },
+    {
+      "image": "wiki:Snake (video game genre)",
+      "fact": "350 million",
+      "sub": "Estimated devices"
+    }
+  ],
+  "description": "Snake debuted in 1997 on the Nokia 6110, created by Nokia design engineer Taneli Armanto, and early versions reached an estimated 350 million devices.",
+  "hashtags": [
+    "Snake",
+    "NokiaSnake",
+    "RetroGaming"
+  ],
+  "tags": [
+    "Snake game",
+    "Nokia 6110",
+    "Taneli Armanto",
+    "Nokia games",
+    "mobile games",
+    "classic games",
+    "retro gaming",
+    "phone games"
+  ]
+}

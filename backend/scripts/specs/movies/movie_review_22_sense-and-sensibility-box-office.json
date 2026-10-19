@@ -1,0 +1,47 @@
+{
+  "id": "sense-and-sensibility-box-office",
+  "category": "movies",
+  "slot": "movie_review",
+  "order": 22,
+  "expires": "2026-11-09",
+  "headline": "Sense and Sensibility: critics aur audience dono ko pasand",
+  "title": "Sense and Sensibility Review Aur Box Office | Daisy Edgar-Jones | Movie Review Hindi",
+  "video_script": "Jane Austen के classic novel पर बनी नई film Sense and Sensibility, 16 October को US में release हुई. Daisy Edgar-Jones की इस film ने पहले weekend में करीब 7 million dollar कमाए, जबकि इसका budget 25 million dollar है. Critics ने भी इसे पसंद किया: Rotten Tomatoes पर 76 percent positive reviews हैं, और audience score 90 percent है. Georgia Oakley ने इसे डायरेक्ट किया है. आपने देखी? कैसी लगी? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Sense and Sensibility (2026 film)",
+      "label": "Sense and Sensibility (2026)"
+    },
+    {
+      "image": "wiki:Sense and Sensibility (2026 film)",
+      "fact": "7 million dollar",
+      "sub": "US opening weekend - 2,545 theatres"
+    },
+    {
+      "image": "wiki:Sense and Sensibility (2026 film)",
+      "fact": "76%",
+      "sub": "Rotten Tomatoes critics score"
+    },
+    {
+      "image": "wiki:Sense and Sensibility (2026 film)",
+      "fact": "90%",
+      "sub": "Rotten Tomatoes audience score"
+    }
+  ],
+  "description": "Sense and Sensibility (2026), director Georgia Oakley, star Daisy Edgar-Jones: US opening ~7 million dollar, budget 25 million dollar, Rotten Tomatoes 76 percent critics aur 90 percent audience.",
+  "hashtags": [
+    "SenseAndSensibility",
+    "DaisyEdgarJones",
+    "BoxOffice"
+  ],
+  "tags": [
+    "Sense and Sensibility",
+    "Sense and Sensibility 2026",
+    "Daisy Edgar-Jones",
+    "Jane Austen",
+    "Georgia Oakley",
+    "Rotten Tomatoes",
+    "Hollywood box office",
+    "movie review Hindi"
+  ]
+}

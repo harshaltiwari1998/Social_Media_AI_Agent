@@ -1,0 +1,49 @@
+{
+  "id": "reel-anand-facts",
+  "category": "movies",
+  "slot": "reel",
+  "order": 52,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Anand: Rajesh Khanna और Amitabh की यादगार फिल्म",
+  "title": "Anand 1971 Facts | Rajesh Khanna Amitabh Bachchan | Hrishikesh Mukherjee | Bollywood Facts",
+  "video_script": "Anand 1971 की फिल्म है, जिसे Hrishikesh Mukherjee ने निर्देशित किया. इसमें Rajesh Khanna ने Anand का किरदार निभाया और Amitabh Bachchan ने Dr. Bhaskar Banerjee का. फिल्म के dialogues Gulzar ने लिखे. Filmfare में Anand ने Best Film जीती, Rajesh Khanna को Best Actor और Amitabh को Best Supporting Actor का award मिला. क्या आपने ये क्लासिक देखी है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Anand (1971 film)",
+      "label": "Anand (1971)"
+    },
+    {
+      "image": "wiki:Anand (1971 film)",
+      "fact": "1971",
+      "sub": "Hrishikesh Mukherjee"
+    },
+    {
+      "image": "wiki:Anand (1971 film)",
+      "fact": "Gulzar",
+      "sub": "Dialogues"
+    },
+    {
+      "image": "wiki:Anand (1971 film)",
+      "fact": "Filmfare",
+      "sub": "Best Film जीती"
+    }
+  ],
+  "description": "Anand (1971): Hrishikesh Mukherjee की film; Rajesh Khanna और Amitabh Bachchan; dialogues Gulzar के; Filmfare में Best Film, Best Actor और Best Supporting Actor.",
+  "hashtags": [
+    "Anand",
+    "RajeshKhanna",
+    "BollywoodFacts"
+  ],
+  "tags": [
+    "Anand",
+    "Rajesh Khanna",
+    "Amitabh Bachchan",
+    "Hrishikesh Mukherjee",
+    "Gulzar",
+    "Filmfare",
+    "Bollywood facts"
+  ]
+}

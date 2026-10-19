@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-coralum-ore-location",
+  "slot": "palguide",
+  "order": 48,
+  "headline": "Where to find Coralum Ore in Palworld",
+  "title": "Where to Find Coralum Ore in Palworld | Whalaska Farm | Palworld Guide",
+  "video_script": "Coralum Ore can't be mined from a node in Palworld one point zero. Instead, hunt Whalaska on the Isle of the Glacial Core, at around one thirty nine, six forty. Each one drops Coralum Ore. Or collect ocean salvage around Feybreak Island. For a steady supply, breed Whalaska at your base and butcher them with a Pal Disassembly Conveyor. You need the ingots for lots of late game builds. How do you get yours? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:1",
+      "label": "Coralum Ore Location"
+    },
+    {
+      "image": "pal:Whalaska",
+      "fact": "Whalaska",
+      "sub": "Isle of the Glacial Core"
+    },
+    {
+      "image": "steam:1623730:2",
+      "fact": "Around 139, 640",
+      "sub": "Hunt it for ore"
+    },
+    {
+      "image": "steam:1623730:3",
+      "fact": "Breed and butcher",
+      "sub": "Pal Disassembly Conveyor"
+    }
+  ],
+  "description": "Palworld 1.0 Coralum Ore: not mined. Hunt Whalaska on the Isle of the Glacial Core (around 139, 640), use Feybreak ocean salvage, or breed and butcher Whalaska at your base.",
+  "hashtags": [
+    "Palworld",
+    "CoralumOre",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Coralum Ore",
+    "Palworld Coralum location",
+    "Palworld Whalaska",
+    "Palworld resources",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld farming"
+  ]
+}

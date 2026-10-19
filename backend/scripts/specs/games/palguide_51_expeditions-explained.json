@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-expeditions-explained",
+  "slot": "palguide",
+  "order": 51,
+  "headline": "Palworld expeditions explained",
+  "title": "Expeditions Explained | Send Pals for Loot | Palworld Guide",
+  "video_script": "Expeditions let your Pals bring back loot while you play, in Palworld one point zero. Build the Pal Expedition Station and pick a destination. Each trip takes time, and the Pals you send can't work at the base meanwhile. Beat a tower boss to unlock its expedition, and clear Hard mode bosses for tougher ones. Match the recommended firepower, because sending ten times more gives the best rewards. Where do you send your Pals? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:11",
+      "label": "Expeditions"
+    },
+    {
+      "image": "pal:Anubis",
+      "fact": "Send Pals out",
+      "sub": "They can't work meanwhile"
+    },
+    {
+      "image": "pal:Lyleen",
+      "fact": "Beat a tower boss",
+      "sub": "Unlocks its expedition"
+    },
+    {
+      "image": "steam:1623730:1",
+      "fact": "10x firepower",
+      "sub": "Best rewards"
+    }
+  ],
+  "description": "Palworld 1.0 expeditions: send Pals on timed trips, unlock destinations by beating tower bosses, and reach 10x the recommended firepower for the best rewards.",
+  "hashtags": [
+    "Palworld",
+    "PalworldExpedition",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld expeditions",
+    "Palworld Expedition Station",
+    "Palworld firepower",
+    "Palworld tower bosses",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld tips"
+  ]
+}

@@ -502,5 +502,45 @@
     ],
     "child": "Beegarde",
     "unique": false
+  },
+  {
+    "parents": [
+      "Melpaca",
+      "Mozzarina"
+    ],
+    "child": "Cattiva",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Lifmunk",
+      "Mozzarina"
+    ],
+    "child": "Daedream",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Mozzarina",
+      "Tocotoco"
+    ],
+    "child": "Killamari",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Chikipi",
+      "Eikthyrdeer"
+    ],
+    "child": "Tanzee",
+    "unique": false
+  },
+  {
+    "parents": [
+      "Chillet",
+      "Lifmunk"
+    ],
+    "child": "Direhowl",
+    "unique": false
   }
 ]

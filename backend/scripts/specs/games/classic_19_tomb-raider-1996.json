@@ -1,0 +1,45 @@
+{
+  "id": "tomb-raider-1996",
+  "slot": "classic",
+  "order": 19,
+  "headline": "Tomb Raider - where Lara Croft began",
+  "title": "Tomb Raider 1996 | How Lara Croft Was Born | Classic Games",
+  "video_script": "Tomb Raider arrived in nineteen ninety six, developed by Core Design and published by Eidos Interactive. It starred archaeologist Lara Croft, created by artist Toby Gard, and sent her through ancient tombs in full polygonal three D, which was a big leap at the time. It first launched on the Sega Saturn, then reached PlayStation and PC. Lara became one of gaming's most recognisable icons. Did you play the original Tomb Raider? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Tomb Raider (1996 video game)",
+      "label": "Tomb Raider (1996)"
+    },
+    {
+      "image": "wiki:Tomb Raider (1996 video game)",
+      "fact": "Core Design",
+      "sub": "Published by Eidos Interactive"
+    },
+    {
+      "image": "wiki:Tomb Raider (1996 video game)",
+      "fact": "Lara Croft",
+      "sub": "Created by artist Toby Gard"
+    },
+    {
+      "image": "wiki:Tomb Raider (1996 video game)",
+      "fact": "Full 3D tombs",
+      "sub": "Saturn, PlayStation and PC"
+    }
+  ],
+  "description": "Tomb Raider launched in 1996, developed by Core Design and published by Eidos Interactive, introducing Lara Croft, created by Toby Gard, in full 3D adventures.",
+  "hashtags": [
+    "TombRaider",
+    "ClassicGames",
+    "RetroGaming"
+  ],
+  "tags": [
+    "Tomb Raider",
+    "Lara Croft",
+    "Core Design",
+    "Eidos Interactive",
+    "Toby Gard",
+    "PlayStation classic",
+    "classic games",
+    "retro gaming"
+  ]
+}

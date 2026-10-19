@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-keep-pals-sane",
+  "slot": "palguide",
+  "order": 49,
+  "headline": "How to keep Pal sanity high in Palworld",
+  "title": "Keep Your Pals Happy | SAN Guide | Palworld Guide",
+  "video_script": "Pals refusing to work in Palworld one point zero? Check their sanity. First, give every working Pal its own bed. Second, keep the Feed Box stocked, because food helps them recover. Third, build a Hot Spring, which guides call the key way to restore sanity. Also, don't leave the Monitoring Stand on super hard work all the time. Use it in short bursts. How do you keep your Pals happy? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:4",
+      "label": "Keep Pals Happy"
+    },
+    {
+      "image": "pal:Lamball",
+      "fact": "One bed each",
+      "sub": "For every worker"
+    },
+    {
+      "image": "steam:1623730:5",
+      "fact": "Stock the Feed Box",
+      "sub": "Food restores sanity"
+    },
+    {
+      "image": "steam:1623730:6",
+      "fact": "Build a Hot Spring",
+      "sub": "Best way to recover"
+    }
+  ],
+  "description": "Palworld 1.0 sanity guide: a bed for every working Pal, a stocked Feed Box, a Hot Spring, and no permanent super hard work mode.",
+  "hashtags": [
+    "Palworld",
+    "PalworldBase",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld sanity",
+    "Palworld SAN",
+    "Palworld hot spring",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld workers"
+  ]
+}

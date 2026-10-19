@@ -1,0 +1,46 @@
+{
+  "id": "rayman-legends-retold",
+  "slot": "new",
+  "order": 20,
+  "expires": "2026-12-10",
+  "headline": "Rayman Legends Retold delayed to December",
+  "title": "Rayman Legends Retold December 3 | Delayed From October | Gaming News",
+  "video_script": "Rayman Legends Retold now launches on December third, twenty twenty six. Ubisoft delayed it from its planned October first date, saying the game has already gone gold but the team wants extra time to polish every detail. It comes to PlayStation 5, Xbox Series X and S, Nintendo Switch 2, and PC. The classic platformer is getting a fresh retelling. Are you ready to run and jump again? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4084710:0",
+      "label": "Rayman Legends Retold"
+    },
+    {
+      "image": "steam:4084710:1",
+      "fact": "3 December 2026",
+      "sub": "New release date"
+    },
+    {
+      "image": "steam:4084710:2",
+      "fact": "Delayed from 1 October",
+      "sub": "Extra time for polish"
+    },
+    {
+      "image": "steam:4084710:0",
+      "fact": "PS5, Xbox, Switch 2, PC",
+      "sub": "Launch platforms"
+    }
+  ],
+  "description": "Rayman Legends Retold is delayed from October 1 to December 3, 2026, and launches on PS5, Xbox Series X|S, Switch 2 and PC.",
+  "hashtags": [
+    "Rayman",
+    "Ubisoft",
+    "GamingNews"
+  ],
+  "tags": [
+    "Rayman Legends Retold",
+    "Ubisoft",
+    "game delay",
+    "platformer",
+    "Switch 2",
+    "new games 2026",
+    "December 2026",
+    "gaming news"
+  ]
+}

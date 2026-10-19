@@ -1,0 +1,49 @@
+{
+  "id": "reel-devdas-facts",
+  "category": "movies",
+  "slot": "reel",
+  "order": 51,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Devdas: Cannes तक पहुंची Bhansali की फिल्म",
+  "title": "Devdas Facts | Shah Rukh Khan Aishwarya Madhuri | Cannes 2002 | Bollywood Facts",
+  "video_script": "Devdas को Sanjay Leela Bhansali ने बनाया. ये फिल्म Sarat Chandra Chattopadhyay के novel पर आधारित है. इसमें Shah Rukh Khan, Aishwarya Rai और Madhuri Dixit ने मुख्य किरदार निभाए. फिल्म 23 May 2002 को Cannes Film Festival में Out of Competition दिखाई गई, और 12 July 2002 को रिलीज़ हुई. Filmfare में इसे Best Film और Best Director समेत कई awards मिले. आपका favourite Devdas scene कौन सा है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Devdas (2002 Hindi film)",
+      "label": "Devdas (2002)"
+    },
+    {
+      "image": "wiki:Devdas (2002 Hindi film)",
+      "fact": "Cannes 2002",
+      "sub": "Out of Competition"
+    },
+    {
+      "image": "wiki:Devdas (2002 Hindi film)",
+      "fact": "12 July 2002",
+      "sub": "India release"
+    },
+    {
+      "image": "wiki:Devdas (2002 Hindi film)",
+      "fact": "Filmfare",
+      "sub": "Best Film, Best Director"
+    }
+  ],
+  "description": "Devdas (2002): Sanjay Leela Bhansali की film; Shah Rukh Khan, Aishwarya Rai, Madhuri Dixit; Cannes 2002 में Out of Competition; Filmfare Best Film और Best Director.",
+  "hashtags": [
+    "Devdas",
+    "ShahRukhKhan",
+    "BollywoodFacts"
+  ],
+  "tags": [
+    "Devdas",
+    "Shah Rukh Khan",
+    "Aishwarya Rai",
+    "Madhuri Dixit",
+    "Sanjay Leela Bhansali",
+    "Cannes",
+    "Bollywood facts"
+  ]
+}

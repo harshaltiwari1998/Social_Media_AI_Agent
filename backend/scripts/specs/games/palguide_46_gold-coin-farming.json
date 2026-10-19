@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-gold-coin-farming",
+  "slot": "palguide",
+  "order": 46,
+  "headline": "How to farm gold in Palworld",
+  "title": "How to Farm Gold in Palworld | Mau Ranch and Coin Press | Palworld Guide",
+  "video_script": "Need gold in Palworld one point zero? Early on, put a Mau on your Ranch. Its Gold Digger skill drops Gold Coins over time, and Mau Cryst does the same. Later, unlock the Gold Coin Assembly Line at technology level forty eight. It turns metal ingots into Gold Coins, about one hundred gold per ingot. Keep your workers rested, because that job drains their sanity. How do you make your gold? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:8",
+      "label": "Farm Gold Fast"
+    },
+    {
+      "image": "pal:Mau",
+      "fact": "Mau on a Ranch",
+      "sub": "Gold Digger skill"
+    },
+    {
+      "image": "pal:Mau Cryst",
+      "fact": "Mau Cryst",
+      "sub": "Also drops gold"
+    },
+    {
+      "image": "steam:1623730:9",
+      "fact": "Tech level 48",
+      "sub": "Gold Coin Assembly Line"
+    }
+  ],
+  "description": "Palworld 1.0 gold farming: Mau and Mau Cryst on a Ranch early, then the Gold Coin Assembly Line at technology level 48, about 100 gold per ingot.",
+  "hashtags": [
+    "Palworld",
+    "PalworldGold",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld gold farming",
+    "Palworld gold coins",
+    "Palworld Mau",
+    "Palworld Gold Coin Assembly Line",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld money"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "street-fighter-box-office",
+  "category": "movies",
+  "slot": "movie_review",
+  "order": 20,
+  "expires": "2026-11-09",
+  "headline": "Street Fighter: US box office par number one",
+  "title": "Street Fighter Box Office | 31 Million Dollar Opening Par B Minus CinemaScore | Movie Box Office Hindi",
+  "video_script": "Street Fighter ने US box office पर number one opening ली. पहले weekend में करीब 31 million dollar की कमाई हुई, और worldwide opening लगभग 51 million dollar रही. लेकिन audience ने इसे B minus CinemaScore दिया, यानी word of mouth पर सबकी नज़र रहेगी. India में इसमें Vidyut Jammwal, Dhalsim बने हैं. आपने देखी? कैसी लगी? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Street Fighter (2026 film)",
+      "label": "Street Fighter - box office"
+    },
+    {
+      "image": "wiki:Street Fighter (2026 film)",
+      "fact": "31 million dollar",
+      "sub": "US opening weekend - number one"
+    },
+    {
+      "image": "wiki:Street Fighter (2026 film)",
+      "fact": "51 million dollar",
+      "sub": "Worldwide opening"
+    },
+    {
+      "image": "wiki:Street Fighter (2026 film)",
+      "fact": "B-",
+      "sub": "CinemaScore - audience ka rating"
+    }
+  ],
+  "description": "Street Fighter (2026) ne US mein ~31 million dollar se number one opening li, worldwide ~51 million dollar. Audience CinemaScore B minus.",
+  "hashtags": [
+    "StreetFighter",
+    "BoxOffice",
+    "VidyutJammwal"
+  ],
+  "tags": [
+    "Street Fighter",
+    "Street Fighter box office",
+    "Street Fighter opening weekend",
+    "Street Fighter CinemaScore",
+    "Vidyut Jammwal",
+    "Hollywood box office",
+    "movie review Hindi"
+  ]
+}

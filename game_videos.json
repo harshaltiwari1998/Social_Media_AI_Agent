@@ -1216,5 +1216,19 @@
   "reel-tmkoc-shuruaat-facts": {
     "spec": "scripts/specs/movies/reel_56_tmkoc-shuruaat-facts.json",
     "video": "F:\\AI AGENT\\run_tmkoc\\videos\\short-b743eda8.mp4"
+  },
+  "zelda-franchise-history": {
+    "spec": "scripts/specs/long/gaming_07_zelda-franchise-history.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-f8f51974.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-f8f51974-thumb.jpg",
+    "chapters": "0:00 An adventure in Hyrule\n0:40 Nineteen eighty six: the original\n1:17 Super Nintendo and Game Boy\n1:56 The heart of the series\n2:30 Nineteen ninety eight: Ocarina of Time\n3:02 The 3D classics\n3:56 Twenty seventeen: Breath of the Wild\n4:26 Twenty twenty three: Tears of the Kingdom\n4:53 Zelda takes the lead\n5:36 A series with huge sales\n6:07 Your favourite Zelda"
+  },
+  "christopher-nolan-safar": {
+    "spec": "scripts/specs/long/movies_09_christopher-nolan-safar.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-d35542e7.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-d35542e7-thumb.jpg",
+    "chapters": "0:00 Nolan की दुनिया\n0:37 London से शुरुआत\n1:18 Memento और Insomnia\n2:16 Batman और जादूगरों की जंग\n3:03 The Dark Knight - 2008\n3:40 Inception और Interstellar\n4:18 Dunkirk और Tenet\n5:04 Oppenheimer और Oscar\n5:49 The Odyssey - 2026\n6:28 Nolan का सफर: एक नज़र\n7:23 आपकी राय"
   }
 }

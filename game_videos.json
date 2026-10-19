@@ -1200,5 +1200,9 @@
   "reel-taare-zameen-par-facts": {
     "spec": "scripts/specs/movies/reel_35_taare-zameen-par-facts.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-0db73829.mp4"
+  },
+  "palworld-guide-kitsun-breeding": {
+    "spec": "scripts/specs/games/palguide_42_kitsun-breeding.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-13c6134c.mp4"
   }
 }

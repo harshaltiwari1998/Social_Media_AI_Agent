@@ -1,0 +1,48 @@
+{
+  "id": "reel-asli-taarak-mehta-facts",
+  "category": "movies",
+  "slot": "reel",
+  "order": 57,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "असली Taarak Mehta कौन थे?",
+  "title": "Asli Taarak Mehta Kaun The | Duniya Ne Undha Chashma | TMKOC Facts",
+  "video_script": "क्या आप जानते हो, Taarak Mehta एक असली इंसान थे? Tarak Mehta एक Gujarati लेखक थे, जिनका हास्य column Duniya Ne Undha Chashma March 1971 से Chitralekha magazine में छपता था. उन्होंने 80 किताबें लिखीं, और 2015 में उन्हें Padma Shri मिला. 2008 में इसी column पर TMKOC बना. क्या आपको ये पता था? Comment करो!",
+  "scenes": [
+    {
+      "image": "wikifile:Tarak Mehta 01.jpg",
+      "label": "असली Taarak Mehta कौन थे?"
+    },
+    {
+      "image": "wikifile:Tarak Mehta 01.jpg",
+      "fact": "Tarak Mehta",
+      "sub": "Gujarati लेखक"
+    },
+    {
+      "image": "wikifile:Tarak Mehta 01.jpg",
+      "fact": "March 1971",
+      "sub": "Chitralekha में column"
+    },
+    {
+      "image": "wikifile:Tarak Mehta 01.jpg",
+      "fact": "Padma Shri",
+      "sub": "2015"
+    }
+  ],
+  "description": "Tarak Mehta: Gujarati लेखक, column Duniya Ne Undha Chashma (Chitralekha, March 1971 से), 80 किताबें, Padma Shri 2015; TMKOC इसी column पर बना.",
+  "hashtags": [
+    "TMKOC",
+    "TaarakMehtaKaOoltahChashmah",
+    "TVFacts"
+  ],
+  "tags": [
+    "Taarak Mehta Ka Ooltah Chashmah",
+    "TMKOC",
+    "Jethalal",
+    "Sony SAB",
+    "Gokuldham",
+    "TV facts"
+  ]
+}

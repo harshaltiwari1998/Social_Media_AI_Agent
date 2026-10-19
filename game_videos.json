@@ -1177,6 +1177,10 @@
     "spec": "scripts/specs/movies/comedy_16_joke-fan-speed.json",
     "video": "F:\\AI AGENT\\run_fbig\\videos\\short-1487b115.mp4"
   },
+  "reel-haunted-3d-facts": {
+    "spec": "scripts/specs/movies/reel_55_haunted-3d-facts.json",
+    "video": "F:\\AI AGENT\\run_fbig\\videos\\short-7808a970.mp4"
+  },
   "gta-6-confirmed-facts": {
     "spec": "scripts/specs/games/new_11_gta-6-confirmed-facts.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-2210cb36.mp4"

@@ -1260,11 +1260,11 @@
   },
   "final-fantasy-resonance": {
     "spec": "scripts/specs/games/new_12_final-fantasy-resonance.json",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-aea229da.mp4"
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-7c7bb76a.mp4"
   },
   "minecraft": {
     "spec": "scripts/specs/games/classic_13_minecraft.json",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-6b6a76ff.mp4"
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-fb5d308f.mp4"
   },
   "suriya-scene": {
     "spec": "scripts/specs/movies/movie_new_14_suriya-scene.json",
@@ -1277,5 +1277,9 @@
   "reel-munna-bhai-mbbs-facts": {
     "spec": "scripts/specs/movies/reel_36_munna-bhai-mbbs-facts.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-a5da6f7e.mp4"
+  },
+  "palworld-guide-best-ranch-pals": {
+    "spec": "scripts/specs/games/palguide_43_best-ranch-pals.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-09833dfe.mp4"
   }
 }

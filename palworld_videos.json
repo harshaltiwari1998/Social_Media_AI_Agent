@@ -1425,5 +1425,685 @@
       ],
       "unique": false
     }
+  },
+  "Jelliette": {
+    "spec": "scripts/specs/palworld_jelliette.json",
+    "video": "F:\\AI AGENT\\run_pal20\\videos\\short-69f88e94.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Jelliette",
+      "caption": "3 ways to breed Jelliette in Palworld 1.0: Arsox + Clovee, Bristla + Caprity, Celaray + Nitewing.",
+      "video_script": "Here are three ways to breed Jelliette in Palworld one point zero. Combo one: breed Arsox with Clovee on your Breeding Farm, then add a cake. Combo two: pair Bristla and Caprity together, and you get the same egg. Combo three: Celaray plus Nitewing works too, so use whichever Pals you have. Every egg hatches into Jelliette. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Arsox",
+        "Clovee"
+      ],
+      "combos": [
+        [
+          "Arsox",
+          "Clovee"
+        ],
+        [
+          "Bristla",
+          "Caprity"
+        ],
+        [
+          "Celaray",
+          "Nitewing"
+        ]
+      ],
+      "child": "Jelliette",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Souffline": {
+    "spec": "scripts/specs/palworld_souffline.json",
+    "video": "F:\\AI AGENT\\run_pal20\\videos\\short-ecb04d05.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Souffline",
+      "caption": "3 ways to breed Souffline in Palworld 1.0: Beegarde + Vanwyrm, Bushi + Surfent, Chillet + Kitsun.",
+      "video_script": "Here are three ways to breed Souffline in Palworld one point zero. Combo one: breed Beegarde with Vanwyrm on your Breeding Farm, then add a cake. Combo two: pair Bushi and Surfent together, and you get the same egg. Combo three: Chillet plus Kitsun works too, so use whichever Pals you have. Every egg hatches into Souffline. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Beegarde",
+        "Vanwyrm"
+      ],
+      "combos": [
+        [
+          "Beegarde",
+          "Vanwyrm"
+        ],
+        [
+          "Bushi",
+          "Surfent"
+        ],
+        [
+          "Chillet",
+          "Kitsun"
+        ]
+      ],
+      "child": "Souffline",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
+  },
+  "Valentail": {
+    "spec": "scripts/specs/palworld_valentail.json",
+    "video": "F:\\AI AGENT\\run_pal20\\videos\\short-b2d7acc7.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Valentail",
+      "caption": "3 ways to breed Valentail in Palworld 1.0: Arsox + Incineram, Dinossom + Vanwyrm, Grintale + Kitsun.",
+      "video_script": "Here are three ways to breed Valentail in Palworld one point zero. Combo one: breed Arsox with Incineram on your Breeding Farm, then add a cake. Combo two: pair Dinossom and Vanwyrm together, and you get the same egg. Combo three: Grintale plus Kitsun works too, so use whichever Pals you have. Every egg hatches into Valentail. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Arsox",
+        "Incineram"
+      ],
+      "combos": [
+        [
+          "Arsox",
+          "Incineram"
+        ],
+        [
+          "Dinossom",
+          "Vanwyrm"
+        ],
+        [
+          "Grintale",
+          "Kitsun"
+        ]
+      ],
+      "child": "Valentail",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
+  },
+  "Smokie": {
+    "spec": "scripts/specs/palworld_smokie.json",
+    "video": "F:\\AI AGENT\\run_pal20\\videos\\short-18b9bf60.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Smokie",
+      "caption": "3 ways to breed Smokie in Palworld 1.0: Bristla + Wumpo, Bushi + Fenglope, Dumud + Nitemary.",
+      "video_script": "Here are three ways to breed Smokie in Palworld one point zero. Combo one: breed Bristla with Wumpo on your Breeding Farm, then add a cake. Combo two: pair Bushi and Fenglope together, and you get the same egg. Combo three: Dumud plus Nitemary works too, so use whichever Pals you have. Every egg hatches into Smokie. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Bristla",
+        "Wumpo"
+      ],
+      "combos": [
+        [
+          "Bristla",
+          "Wumpo"
+        ],
+        [
+          "Bushi",
+          "Fenglope"
+        ],
+        [
+          "Dumud",
+          "Nitemary"
+        ]
+      ],
+      "child": "Smokie",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
+  },
+  "Polapup": {
+    "spec": "scripts/specs/palworld_polapup.json",
+    "video": "F:\\AI AGENT\\run_pal20\\videos\\short-829ffbde.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Polapup",
+      "caption": "3 ways to breed Polapup in Palworld 1.0: Kitsun + Vanwyrm, Lovander + Nitemary, Reptyro + Robinquill.",
+      "video_script": "Here are three ways to breed Polapup in Palworld one point zero. Combo one: breed Kitsun with Vanwyrm on your Breeding Farm, then add a cake. Combo two: pair Lovander and Nitemary together, and you get the same egg. Combo three: Reptyro plus Robinquill works too, so use whichever Pals you have. Every egg hatches into Polapup. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Kitsun",
+        "Vanwyrm"
+      ],
+      "combos": [
+        [
+          "Kitsun",
+          "Vanwyrm"
+        ],
+        [
+          "Lovander",
+          "Nitemary"
+        ],
+        [
+          "Reptyro",
+          "Robinquill"
+        ]
+      ],
+      "child": "Polapup",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Elgrove": {
+    "spec": "scripts/specs/palworld_elgrove.json",
+    "video": "F:\\AI AGENT\\run_pal20\\videos\\short-99b2eaae.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Elgrove",
+      "caption": "3 ways to breed Elgrove in Palworld 1.0: Galeclaw + Incineram, Arsox + Petallia, Blazehowl + Bristla.",
+      "video_script": "Here are three ways to breed Elgrove in Palworld one point zero. Combo one: breed Galeclaw with Incineram on your Breeding Farm, then add a cake. Combo two: pair Arsox and Petallia together, and you get the same egg. Combo three: Blazehowl plus Bristla works too, so use whichever Pals you have. Every egg hatches into Elgrove. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Galeclaw",
+        "Incineram"
+      ],
+      "combos": [
+        [
+          "Galeclaw",
+          "Incineram"
+        ],
+        [
+          "Arsox",
+          "Petallia"
+        ],
+        [
+          "Blazehowl",
+          "Bristla"
+        ]
+      ],
+      "child": "Elgrove",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Tarantriss": {
+    "spec": "scripts/specs/palworld_tarantriss.json",
+    "video": "F:\\AI AGENT\\run_pal20\\videos\\short-de3fec32.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Tarantriss",
+      "caption": "3 ways to breed Tarantriss in Palworld 1.0: Blazehowl + Dinossom, Elizabee + Kitsun, Sibelyx + Vanwyrm.",
+      "video_script": "Here are three ways to breed Tarantriss in Palworld one point zero. Combo one: breed Blazehowl with Dinossom on your Breeding Farm, then add a cake. Combo two: pair Elizabee and Kitsun together, and you get the same egg. Combo three: Sibelyx plus Vanwyrm works too, so use whichever Pals you have. Every egg hatches into Tarantriss. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Blazehowl",
+        "Dinossom"
+      ],
+      "combos": [
+        [
+          "Blazehowl",
+          "Dinossom"
+        ],
+        [
+          "Elizabee",
+          "Kitsun"
+        ],
+        [
+          "Sibelyx",
+          "Vanwyrm"
+        ]
+      ],
+      "child": "Tarantriss",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
+  },
+  "Petallia": {
+    "spec": "scripts/specs/palworld_petallia.json",
+    "video": "F:\\AI AGENT\\run_pal20\\videos\\short-686ca43e.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Petallia",
+      "caption": "3 ways to breed Petallia in Palworld 1.0: Arsox + Menasting, Caprity + Wumpo, Elizabee + Vanwyrm.",
+      "video_script": "Here are three ways to breed Petallia in Palworld one point zero. Combo one: breed Arsox with Menasting on your Breeding Farm, then add a cake. Combo two: pair Caprity and Wumpo together, and you get the same egg. Combo three: Elizabee plus Vanwyrm works too, so use whichever Pals you have. Every egg hatches into Petallia. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Arsox",
+        "Menasting"
+      ],
+      "combos": [
+        [
+          "Arsox",
+          "Menasting"
+        ],
+        [
+          "Caprity",
+          "Wumpo"
+        ],
+        [
+          "Elizabee",
+          "Vanwyrm"
+        ]
+      ],
+      "child": "Petallia",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
+  },
+  "Cawgnito": {
+    "spec": "scripts/specs/palworld_cawgnito.json",
+    "video": "F:\\AI AGENT\\run_pal20\\videos\\short-66dfcde0.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Cawgnito",
+      "caption": "3 ways to breed Cawgnito in Palworld 1.0: Chikipi + Kitsun, Flopie + Lovander, Azurobe + Daedream.",
+      "video_script": "Here are three ways to breed Cawgnito in Palworld one point zero. Combo one: breed Chikipi with Kitsun on your Breeding Farm, then add a cake. Combo two: pair Flopie and Lovander together, and you get the same egg. Combo three: Azurobe plus Daedream works too, so use whichever Pals you have. Every egg hatches into Cawgnito. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Chikipi",
+        "Kitsun"
+      ],
+      "combos": [
+        [
+          "Chikipi",
+          "Kitsun"
+        ],
+        [
+          "Flopie",
+          "Lovander"
+        ],
+        [
+          "Azurobe",
+          "Daedream"
+        ]
+      ],
+      "child": "Cawgnito",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
+  },
+  "Dazzi": {
+    "spec": "scripts/specs/palworld_dazzi.json",
+    "video": "F:\\AI AGENT\\run_pal20\\videos\\short-929303d1.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Dazzi",
+      "caption": "3 ways to breed Dazzi in Palworld 1.0: Dinossom + Flambelle, Direhowl + Grintale, Eikthyrdeer + Lovander.",
+      "video_script": "Here are three ways to breed Dazzi in Palworld one point zero. Combo one: breed Dinossom with Flambelle on your Breeding Farm, then add a cake. Combo two: pair Direhowl and Grintale together, and you get the same egg. Combo three: Eikthyrdeer plus Lovander works too, so use whichever Pals you have. Every egg hatches into Dazzi. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Dinossom",
+        "Flambelle"
+      ],
+      "combos": [
+        [
+          "Dinossom",
+          "Flambelle"
+        ],
+        [
+          "Direhowl",
+          "Grintale"
+        ],
+        [
+          "Eikthyrdeer",
+          "Lovander"
+        ]
+      ],
+      "child": "Dazzi",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Celaray": {
+    "spec": "scripts/specs/palworld_celaray.json",
+    "video": "F:\\AI AGENT\\run_pal20\\videos\\short-ba4966ba.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Celaray",
+      "caption": "3 ways to breed Celaray in Palworld 1.0: Bristla + Mozzarina, Caprity + Rushoar, Cattiva + Tocotoco.",
+      "video_script": "Here are three ways to breed Celaray in Palworld one point zero. Combo one: breed Bristla with Mozzarina on your Breeding Farm, then add a cake. Combo two: pair Caprity and Rushoar together, and you get the same egg. Combo three: Cattiva plus Tocotoco works too, so use whichever Pals you have. Every egg hatches into Celaray. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Bristla",
+        "Mozzarina"
+      ],
+      "combos": [
+        [
+          "Bristla",
+          "Mozzarina"
+        ],
+        [
+          "Caprity",
+          "Rushoar"
+        ],
+        [
+          "Cattiva",
+          "Tocotoco"
+        ]
+      ],
+      "child": "Celaray",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Flambelle": {
+    "spec": "scripts/specs/palworld_flambelle.json",
+    "video": "F:\\AI AGENT\\run_pal20\\videos\\short-542f9ee9.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Flambelle",
+      "caption": "3 ways to breed Flambelle in Palworld 1.0: Arsox + Chikipi, Bristla + Eikthyrdeer, Caprity + Fuddler.",
+      "video_script": "Here are three ways to breed Flambelle in Palworld one point zero. Combo one: breed Arsox with Chikipi on your Breeding Farm, then add a cake. Combo two: pair Bristla and Eikthyrdeer together, and you get the same egg. Combo three: Caprity plus Fuddler works too, so use whichever Pals you have. Every egg hatches into Flambelle. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Arsox",
+        "Chikipi"
+      ],
+      "combos": [
+        [
+          "Arsox",
+          "Chikipi"
+        ],
+        [
+          "Bristla",
+          "Eikthyrdeer"
+        ],
+        [
+          "Caprity",
+          "Fuddler"
+        ]
+      ],
+      "child": "Flambelle",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
+  },
+  "Bristla": {
+    "spec": "scripts/specs/palworld_bristla.json",
+    "video": "F:\\AI AGENT\\run_pal20\\videos\\short-c861cf5a.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Bristla",
+      "caption": "3 ways to breed Bristla in Palworld 1.0: Arsox + Vixy, Caprity + Killamari, Direhowl + Flambelle.",
+      "video_script": "Here are three ways to breed Bristla in Palworld one point zero. Combo one: breed Arsox with Vixy on your Breeding Farm, then add a cake. Combo two: pair Caprity and Killamari together, and you get the same egg. Combo three: Direhowl plus Flambelle works too, so use whichever Pals you have. Every egg hatches into Bristla. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Arsox",
+        "Vixy"
+      ],
+      "combos": [
+        [
+          "Arsox",
+          "Vixy"
+        ],
+        [
+          "Caprity",
+          "Killamari"
+        ],
+        [
+          "Direhowl",
+          "Flambelle"
+        ]
+      ],
+      "child": "Bristla",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
+  },
+  "Leezpunk": {
+    "spec": "scripts/specs/palworld_leezpunk.json",
+    "video": "F:\\AI AGENT\\run_pal20\\videos\\short-6272f627.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Leezpunk",
+      "caption": "3 ways to breed Leezpunk in Palworld 1.0: Arsox + Lifmunk, Caprity + Tocotoco, Chikipi + Robinquill.",
+      "video_script": "Here are three ways to breed Leezpunk in Palworld one point zero. Combo one: breed Arsox with Lifmunk on your Breeding Farm, then add a cake. Combo two: pair Caprity and Tocotoco together, and you get the same egg. Combo three: Chikipi plus Robinquill works too, so use whichever Pals you have. Every egg hatches into Leezpunk. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Arsox",
+        "Lifmunk"
+      ],
+      "combos": [
+        [
+          "Arsox",
+          "Lifmunk"
+        ],
+        [
+          "Caprity",
+          "Tocotoco"
+        ],
+        [
+          "Chikipi",
+          "Robinquill"
+        ]
+      ],
+      "child": "Leezpunk",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
+  },
+  "Flopie": {
+    "spec": "scripts/specs/palworld_flopie.json",
+    "video": "F:\\AI AGENT\\run_pal20\\videos\\short-f2c9e2c1.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Flopie",
+      "caption": "3 ways to breed Flopie in Palworld 1.0: Arsox + Depresso, Caprity + Eikthyrdeer, Cattiva + Nitewing.",
+      "video_script": "Here are three ways to breed Flopie in Palworld one point zero. Combo one: breed Arsox with Depresso on your Breeding Farm, then add a cake. Combo two: pair Caprity and Eikthyrdeer together, and you get the same egg. Combo three: Cattiva plus Nitewing works too, so use whichever Pals you have. Every egg hatches into Flopie. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Arsox",
+        "Depresso"
+      ],
+      "combos": [
+        [
+          "Arsox",
+          "Depresso"
+        ],
+        [
+          "Caprity",
+          "Eikthyrdeer"
+        ],
+        [
+          "Cattiva",
+          "Nitewing"
+        ]
+      ],
+      "child": "Flopie",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Gobfin": {
+    "spec": "scripts/specs/palworld_gobfin.json",
+    "video": "F:\\AI AGENT\\run_pal20\\videos\\short-b65b3710.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Gobfin",
+      "caption": "3 ways to breed Gobfin in Palworld 1.0: Arsox + Hangyu, Clovee + Grintale, Depresso + Dinossom.",
+      "video_script": "Here are three ways to breed Gobfin in Palworld one point zero. Combo one: breed Arsox with Hangyu on your Breeding Farm, then add a cake. Combo two: pair Clovee and Grintale together, and you get the same egg. Combo three: Depresso plus Dinossom works too, so use whichever Pals you have. Every egg hatches into Gobfin. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Arsox",
+        "Hangyu"
+      ],
+      "combos": [
+        [
+          "Arsox",
+          "Hangyu"
+        ],
+        [
+          "Clovee",
+          "Grintale"
+        ],
+        [
+          "Depresso",
+          "Dinossom"
+        ]
+      ],
+      "child": "Gobfin",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Surfent": {
+    "spec": "scripts/specs/palworld_surfent.json",
+    "video": "F:\\AI AGENT\\run_pal20\\videos\\short-c114a50d.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Surfent",
+      "caption": "3 ways to breed Surfent in Palworld 1.0: Arsox + Nitewing, Caprity + Robinquill, Cattiva + Grintale.",
+      "video_script": "Here are three ways to breed Surfent in Palworld one point zero. Combo one: breed Arsox with Nitewing on your Breeding Farm, then add a cake. Combo two: pair Caprity and Robinquill together, and you get the same egg. Combo three: Cattiva plus Grintale works too, so use whichever Pals you have. Every egg hatches into Surfent. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Arsox",
+        "Nitewing"
+      ],
+      "combos": [
+        [
+          "Arsox",
+          "Nitewing"
+        ],
+        [
+          "Caprity",
+          "Robinquill"
+        ],
+        [
+          "Cattiva",
+          "Grintale"
+        ]
+      ],
+      "child": "Surfent",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
+  },
+  "Univolt": {
+    "spec": "scripts/specs/palworld_univolt.json",
+    "video": "F:\\AI AGENT\\run_pal20\\videos\\short-2a51676c.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Univolt",
+      "caption": "3 ways to breed Univolt in Palworld 1.0: Bushi + Fuack, Cremis + Vanwyrm, Incineram + Teafant.",
+      "video_script": "Here are three ways to breed Univolt in Palworld one point zero. Combo one: breed Bushi with Fuack on your Breeding Farm, then add a cake. Combo two: pair Cremis and Vanwyrm together, and you get the same egg. Combo three: Incineram plus Teafant works too, so use whichever Pals you have. Every egg hatches into Univolt. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Bushi",
+        "Fuack"
+      ],
+      "combos": [
+        [
+          "Bushi",
+          "Fuack"
+        ],
+        [
+          "Cremis",
+          "Vanwyrm"
+        ],
+        [
+          "Incineram",
+          "Teafant"
+        ]
+      ],
+      "child": "Univolt",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
+  },
+  "Robinquill": {
+    "spec": "scripts/specs/palworld_robinquill.json",
+    "video": "F:\\AI AGENT\\run_pal20\\videos\\short-dca99874.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Robinquill",
+      "caption": "3 ways to breed Robinquill in Palworld 1.0: Bushi + Pengullet, Incineram + Lamball, Rooby + Vanwyrm.",
+      "video_script": "Here are three ways to breed Robinquill in Palworld one point zero. Combo one: breed Bushi with Pengullet on your Breeding Farm, then add a cake. Combo two: pair Incineram and Lamball together, and you get the same egg. Combo three: Rooby plus Vanwyrm works too, so use whichever Pals you have. Every egg hatches into Robinquill. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Bushi",
+        "Pengullet"
+      ],
+      "combos": [
+        [
+          "Bushi",
+          "Pengullet"
+        ],
+        [
+          "Incineram",
+          "Lamball"
+        ],
+        [
+          "Rooby",
+          "Vanwyrm"
+        ]
+      ],
+      "child": "Robinquill",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
+  },
+  "Arsox": {
+    "spec": "scripts/specs/palworld_arsox.json",
+    "video": "F:\\AI AGENT\\run_pal20\\videos\\short-5152c216.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Arsox",
+      "caption": "3 ways to breed Arsox in Palworld 1.0: Bushi + Chikipi, Clovee + Kitsun, Foxparks + Vanwyrm.",
+      "video_script": "Here are three ways to breed Arsox in Palworld one point zero. Combo one: breed Bushi with Chikipi on your Breeding Farm, then add a cake. Combo two: pair Clovee and Kitsun together, and you get the same egg. Combo three: Foxparks plus Vanwyrm works too, so use whichever Pals you have. Every egg hatches into Arsox. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Bushi",
+        "Chikipi"
+      ],
+      "combos": [
+        [
+          "Bushi",
+          "Chikipi"
+        ],
+        [
+          "Clovee",
+          "Kitsun"
+        ],
+        [
+          "Foxparks",
+          "Vanwyrm"
+        ]
+      ],
+      "child": "Arsox",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
   }
 }

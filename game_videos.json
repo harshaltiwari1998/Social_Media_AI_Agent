@@ -1250,5 +1250,12 @@
   "palworld-guide-pure-quartz-location": {
     "spec": "scripts/specs/games/palguide_45_pure-quartz-location.json",
     "video": "F:\\AI AGENT\\run_pal1020\\videos\\short-2facdabe.mp4"
+  },
+  "palworld-20-pals-3-combos-each": {
+    "spec": "scripts/specs/long/gaming_32_palworld-20-pals-3-combos-each.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_pal20\\videos\\long-8ddb484b.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_pal20\\videos\\long-8ddb484b-thumb.jpg",
+    "chapters": "0:00 Twenty Pals, three combos each\n0:49 Arsox and Robinquill\n1:37 Univolt and Surfent\n2:26 Gobfin and Flopie\n3:14 Leezpunk and Bristla\n4:03 Flambelle and Celaray\n4:51 Dazzi and Cawgnito\n5:40 Petallia and Tarantriss\n6:30 Elgrove and Polapup\n7:19 Smokie and Valentail\n8:08 Souffline and Jelliette\n8:56 Which Pal will you breed first"
   }
 }

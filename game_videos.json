@@ -1230,5 +1230,25 @@
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-d35542e7.mp4",
     "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-d35542e7-thumb.jpg",
     "chapters": "0:00 Nolan की दुनिया\n0:37 London से शुरुआत\n1:18 Memento और Insomnia\n2:16 Batman और जादूगरों की जंग\n3:03 The Dark Knight - 2008\n3:40 Inception और Interstellar\n4:18 Dunkirk और Tenet\n5:04 Oppenheimer और Oscar\n5:49 The Odyssey - 2026\n6:28 Nolan का सफर: एक नज़र\n7:23 आपकी राय"
+  },
+  "palworld-guide-expeditions-explained": {
+    "spec": "scripts/specs/games/palguide_51_expeditions-explained.json",
+    "video": "F:\\AI AGENT\\run_pal1020\\videos\\short-5f0ad50c.mp4"
+  },
+  "palworld-guide-keep-pals-sane": {
+    "spec": "scripts/specs/games/palguide_49_keep-pals-sane.json",
+    "video": "F:\\AI AGENT\\run_pal1020\\videos\\short-4bbd0dff.mp4"
+  },
+  "palworld-guide-coralum-ore-location": {
+    "spec": "scripts/specs/games/palguide_48_coralum-ore-location.json",
+    "video": "F:\\AI AGENT\\run_pal1020\\videos\\short-431a392e.mp4"
+  },
+  "palworld-guide-gold-coin-farming": {
+    "spec": "scripts/specs/games/palguide_46_gold-coin-farming.json",
+    "video": "F:\\AI AGENT\\run_pal1020\\videos\\short-e74a8e92.mp4"
+  },
+  "palworld-guide-pure-quartz-location": {
+    "spec": "scripts/specs/games/palguide_45_pure-quartz-location.json",
+    "video": "F:\\AI AGENT\\run_pal1020\\videos\\short-2facdabe.mp4"
   }
 }

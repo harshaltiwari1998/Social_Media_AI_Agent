@@ -1255,5 +1255,175 @@
       ],
       "unique": false
     }
+  },
+  "Direhowl": {
+    "spec": "scripts/specs/palworld_direhowl.json",
+    "video": "F:\\AI AGENT\\run_pal1020\\videos\\short-3e0f695b.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Direhowl",
+      "caption": "3 ways to breed Direhowl in Palworld 1.0: Arsox + Mau, Bristla + Leezpunk, Dumud + Teafant.",
+      "video_script": "Here are three ways to breed Direhowl in Palworld one point zero. Combo one: breed Arsox with Mau on your Breeding Farm, then add a cake. Combo two: pair Bristla and Leezpunk together, and you get the same egg. Combo three: Dumud plus Teafant works too, so use whichever Pals you have. Every egg hatches into Direhowl. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Arsox",
+        "Mau"
+      ],
+      "combos": [
+        [
+          "Arsox",
+          "Mau"
+        ],
+        [
+          "Bristla",
+          "Leezpunk"
+        ],
+        [
+          "Dumud",
+          "Teafant"
+        ]
+      ],
+      "child": "Direhowl",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Tanzee": {
+    "spec": "scripts/specs/palworld_tanzee.json",
+    "video": "F:\\AI AGENT\\run_pal1020\\videos\\short-ab7b0a6d.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Tanzee",
+      "caption": "3 ways to breed Tanzee in Palworld 1.0: Cattiva + Mau, Celaray + Vixy, Chikipi + Melpaca.",
+      "video_script": "Here are three ways to breed Tanzee in Palworld one point zero. Combo one: breed Cattiva with Mau on your Breeding Farm, then add a cake. Combo two: pair Celaray and Vixy together, and you get the same egg. Combo three: Chikipi plus Melpaca works too, so use whichever Pals you have. Every egg hatches into Tanzee. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Cattiva",
+        "Mau"
+      ],
+      "combos": [
+        [
+          "Cattiva",
+          "Mau"
+        ],
+        [
+          "Celaray",
+          "Vixy"
+        ],
+        [
+          "Chikipi",
+          "Melpaca"
+        ]
+      ],
+      "child": "Tanzee",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
+  },
+  "Killamari": {
+    "spec": "scripts/specs/palworld_killamari.json",
+    "video": "F:\\AI AGENT\\run_pal1020\\videos\\short-796225ae.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Killamari",
+      "caption": "3 ways to breed Killamari in Palworld 1.0: Cattiva + Hangyu, Celaray + Mozzarina, Clovee + Galeclaw.",
+      "video_script": "Here are three ways to breed Killamari in Palworld one point zero. Combo one: breed Cattiva with Hangyu on your Breeding Farm, then add a cake. Combo two: pair Celaray and Mozzarina together, and you get the same egg. Combo three: Clovee plus Galeclaw works too, so use whichever Pals you have. Every egg hatches into Killamari. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Cattiva",
+        "Hangyu"
+      ],
+      "combos": [
+        [
+          "Cattiva",
+          "Hangyu"
+        ],
+        [
+          "Celaray",
+          "Mozzarina"
+        ],
+        [
+          "Clovee",
+          "Galeclaw"
+        ]
+      ],
+      "child": "Killamari",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
+  },
+  "Daedream": {
+    "spec": "scripts/specs/palworld_daedream.json",
+    "video": "F:\\AI AGENT\\run_pal1020\\videos\\short-55613a7c.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Daedream",
+      "caption": "3 ways to breed Daedream in Palworld 1.0: Cattiva + Vixy, Celaray + Chikipi, Depresso + Woolipop.",
+      "video_script": "Here are three ways to breed Daedream in Palworld one point zero. Combo one: breed Cattiva with Vixy on your Breeding Farm, then add a cake. Combo two: pair Celaray and Chikipi together, and you get the same egg. Combo three: Depresso plus Woolipop works too, so use whichever Pals you have. Every egg hatches into Daedream. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Cattiva",
+        "Vixy"
+      ],
+      "combos": [
+        [
+          "Cattiva",
+          "Vixy"
+        ],
+        [
+          "Celaray",
+          "Chikipi"
+        ],
+        [
+          "Depresso",
+          "Woolipop"
+        ]
+      ],
+      "child": "Daedream",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
+  },
+  "Cattiva": {
+    "spec": "scripts/specs/palworld_cattiva.json",
+    "video": "F:\\AI AGENT\\run_pal1020\\videos\\short-eac64fac.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Cattiva",
+      "caption": "3 ways to breed Cattiva in Palworld 1.0: Bristla + Woolipop, Caprity + Tanzee, Celaray + Hangyu.",
+      "video_script": "Here are three ways to breed Cattiva in Palworld one point zero. Combo one: breed Bristla with Woolipop on your Breeding Farm, then add a cake. Combo two: pair Caprity and Tanzee together, and you get the same egg. Combo three: Celaray plus Hangyu works too, so use whichever Pals you have. Every egg hatches into Cattiva. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Bristla",
+        "Woolipop"
+      ],
+      "combos": [
+        [
+          "Bristla",
+          "Woolipop"
+        ],
+        [
+          "Caprity",
+          "Tanzee"
+        ],
+        [
+          "Celaray",
+          "Hangyu"
+        ]
+      ],
+      "child": "Cattiva",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
   }
 }

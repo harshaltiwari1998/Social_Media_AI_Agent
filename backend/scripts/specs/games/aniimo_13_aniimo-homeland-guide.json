@@ -1,0 +1,44 @@
+{
+  "id": "aniimo-homeland-guide",
+  "slot": "aniimo",
+  "order": 13,
+  "headline": "Aniimo Homeland Guide",
+  "title": "Aniimo Homeland Guide | Build Facilities and Assign Workers | Aniimo Guide",
+  "video_script": "Your Aniimo can work for you! In Aniimo, your Homeland opens through your RV. Place facilities on your plots from the Build menu, then check which abilities each facility needs and assign Aniimo workers that match. Put food in the shared Food tab and your workers eat automatically when their energy runs low. Bonus tip: a matching personality makes a worker even faster. What are you building first? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:11",
+      "label": "Aniimo Homeland Guide"
+    },
+    {
+      "image": "steam:4126040:12",
+      "fact": "Build Facilities",
+      "sub": "From the Build menu"
+    },
+    {
+      "image": "steam:4126040:13",
+      "fact": "Match Abilities",
+      "sub": "Assign the right workers"
+    },
+    {
+      "image": "steam:4126040:10",
+      "fact": "Shared Food",
+      "sub": "Workers eat on their own"
+    }
+  ],
+  "description": "Aniimo Homeland: opens through your RV; build facilities, assign Aniimo workers whose abilities match, share food in the Food tab, and use matching personalities for a bonus.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Aniimo Homeland Guide"
+  ]
+}

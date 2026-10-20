@@ -1,0 +1,44 @@
+{
+  "id": "aniimo-how-to-get-somniwing",
+  "slot": "aniimo",
+  "order": 16,
+  "headline": "How to Get Somniwing",
+  "title": "How to Get Somniwing in Aniimo | Elite Training Reward | Aniimo Guide",
+  "video_script": "Searching the map for Somniwing? Stop! Somniwing never appears in the wild, so you will not find it anywhere. It is a reward from Elite Training. Complete one hundred and eighty Elite Training objectives, then talk to Doctor Lewis at the Outpost to get it. Every Elite Training tab counts toward the same score, so just keep clearing objectives. Do you have Somniwing yet? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:7",
+      "label": "How to Get Somniwing"
+    },
+    {
+      "image": "steam:4126040:8",
+      "fact": "Not in the Wild",
+      "sub": "No spawn location"
+    },
+    {
+      "image": "steam:4126040:12",
+      "fact": "180 Objectives",
+      "sub": "Elite Training"
+    },
+    {
+      "image": "steam:4126040:11",
+      "fact": "Dr Lewis",
+      "sub": "At the Outpost"
+    }
+  ],
+  "description": "How to get Somniwing in Aniimo: it does not spawn in the wild - complete 180 Elite Training objectives and talk to Dr. Lewis at the Outpost.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "How to Get Somniwing"
+  ]
+}

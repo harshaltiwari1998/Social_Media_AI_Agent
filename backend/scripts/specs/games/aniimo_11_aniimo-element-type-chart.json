@@ -1,0 +1,44 @@
+{
+  "id": "aniimo-element-type-chart",
+  "slot": "aniimo",
+  "order": 11,
+  "headline": "Aniimo Element Chart",
+  "title": "Aniimo Element Chart Explained | Weakness Damage and Resistances | Aniimo Guide",
+  "video_script": "Want to win more fights in Aniimo? Learn the element chart. There are nine elements. Hit a weakness and you deal one point six times damage. Hit a resistance and it drops to about sixty percent. There are no immunities, so every attack still lands. Many Aniimo have two elements, which changes their weaknesses, so bring a mixed team and switch to the right type. Which element do you use most? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:0",
+      "label": "Aniimo Element Chart"
+    },
+    {
+      "image": "steam:4126040:1",
+      "fact": "9 Elements",
+      "sub": "Learn the matchups"
+    },
+    {
+      "image": "steam:4126040:5",
+      "fact": "1.6x Damage",
+      "sub": "Hit a weakness"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "No Immunities",
+      "sub": "Bring a mixed team"
+    }
+  ],
+  "description": "Aniimo element chart: nine elements, 1.6x damage on a weakness, about 0.6x on a resistance, no immunities; dual-element Aniimo change their weaknesses.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Aniimo Element Chart"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "aniimo-on-mobile",
+  "slot": "aniimo",
+  "order": 18,
+  "headline": "Aniimo Is on Mobile",
+  "title": "Aniimo Is Now on iOS and Android | Version 1.1 Update | Gaming News",
+  "video_script": "Aniimo is not just on PC and consoles anymore. The version one point one update in September brought Aniimo to iOS and Android phones. The same update added the legendary Irisalis, a weekly co-op mode called Holo-Battle Interlink, and a harder Chaos Mode for Egg Heist. And the game is still free to play. Are you playing on phone or PC? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:2",
+      "label": "Aniimo Is on Mobile"
+    },
+    {
+      "image": "steam:4126040:3",
+      "fact": "iOS + Android",
+      "sub": "Now on mobile"
+    },
+    {
+      "image": "steam:4126040:4",
+      "fact": "Version 1.1",
+      "sub": "Biggest update so far"
+    },
+    {
+      "image": "steam:4126040:6",
+      "fact": "Free to Play",
+      "sub": "On every platform"
+    }
+  ],
+  "description": "Aniimo version 1.1 (September 2026) brought the game to iOS and Android and added Irisalis, the weekly co-op Holo-Battle Interlink mode and a harder Egg Heist Chaos Mode.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Aniimo Is on Mobile"
+  ]
+}

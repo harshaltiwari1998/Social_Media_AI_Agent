@@ -28,6 +28,9 @@ on:
       reels:
         description: "Hindi movie reels (Facebook + Instagram only)"
         default: "1"
+      aniimo:
+        description: "Aniimo guide shorts (HarryBeast)"
+        default: "1"
 
 concurrency:
   group: daily-gaming
@@ -105,6 +108,7 @@ jobs:
           --new-movies "${{ github.event.inputs.new_movies || '1' }}"
           --movie-reviews "${{ github.event.inputs.movie_reviews || '1' }}"
           --extra-slot "reel:${{ github.event.inputs.reels || '1' }}"
+          --extra-slot "aniimo:${{ github.event.inputs.aniimo || '1' }}"
 
       - name: Save posting state
         if: always()

@@ -1,0 +1,44 @@
+{
+  "id": "aniimo-best-aniimo",
+  "slot": "aniimo",
+  "order": 14,
+  "headline": "Best Aniimo to Use",
+  "title": "Best Aniimo in the Game | Top DPS Healer and Regen Picks | Aniimo Guide",
+  "video_script": "Which Aniimo are the strongest right now? Tier lists keep naming the same few. Irisalis is ranked as the top damage dealer. Somniwing is called the best regen Aniimo for keeping your energy up. And for healing, Gracewing and Glacy sit at the top of the healer lists. Tier lists can change with updates, but these are a great place to start. Who is your strongest Aniimo? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:0",
+      "label": "Best Aniimo to Use"
+    },
+    {
+      "image": "steam:4126040:1",
+      "fact": "Irisalis",
+      "sub": "Top damage dealer"
+    },
+    {
+      "image": "steam:4126040:5",
+      "fact": "Somniwing",
+      "sub": "Best regen"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Gracewing + Glacy",
+      "sub": "Top healers"
+    }
+  ],
+  "description": "Best Aniimo picks from current tier lists: Irisalis for damage, Somniwing for regen, Gracewing and Glacy for healing. Tier lists may change with updates.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Best Aniimo to Use"
+  ]
+}

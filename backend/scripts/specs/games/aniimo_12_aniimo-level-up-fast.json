@@ -1,0 +1,44 @@
+{
+  "id": "aniimo-level-up-fast",
+  "slot": "aniimo",
+  "order": 12,
+  "headline": "Level Up Fast in Aniimo",
+  "title": "How to Level Up Fast in Aniimo | Easy EXP Tips | Aniimo Guide",
+  "video_script": "Leveling slowly in Aniimo? Try this. First, open your Elite Training, story quests and dailies and claim every finished reward, because players forget free EXP all the time. Second, stack your activities: explore, catch Aniimo you do not have yet, and do challenges in one trip. Third, remember your Aniimo cannot go above your own Pathfinder level, so if the bar stops, promote your title. What level are you? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:2",
+      "label": "Level Up Fast in Aniimo"
+    },
+    {
+      "image": "steam:4126040:3",
+      "fact": "Claim Rewards",
+      "sub": "Free EXP waiting"
+    },
+    {
+      "image": "steam:4126040:4",
+      "fact": "Stack Activities",
+      "sub": "Explore and catch together"
+    },
+    {
+      "image": "steam:4126040:6",
+      "fact": "Pathfinder Level",
+      "sub": "Caps your Aniimo"
+    }
+  ],
+  "description": "Aniimo leveling tips: claim finished Elite Training, story and daily rewards, stack exploring and catching new Aniimo, and promote your title when the Pathfinder level caps your Aniimo.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Level Up Fast in Aniimo"
+  ]
+}

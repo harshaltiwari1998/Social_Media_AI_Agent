@@ -1,0 +1,44 @@
+{
+  "id": "aniimo-team-roles",
+  "slot": "aniimo",
+  "order": 15,
+  "headline": "Aniimo Team Roles",
+  "title": "Aniimo Team Building | 5 Roles Every Team Needs | Aniimo Guide",
+  "video_script": "Building an Aniimo team? Think in roles, not just elements. There are five roles. DPS deals the main damage. Breaker drains the enemy stance bar to open a window. Support adds buffs and debuffs. Healer keeps you alive. And Regen restores energy for longer fights. A good plan: let your Breaker open, hit hard with your DPS, and keep a Healer or Regen behind them. What is your team? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:2",
+      "label": "Aniimo Team Roles"
+    },
+    {
+      "image": "steam:4126040:3",
+      "fact": "5 Roles",
+      "sub": "DPS, Breaker, Support, Healer, Regen"
+    },
+    {
+      "image": "steam:4126040:4",
+      "fact": "Breaker First",
+      "sub": "Open the window"
+    },
+    {
+      "image": "steam:4126040:6",
+      "fact": "Then DPS",
+      "sub": "Hit hard"
+    }
+  ],
+  "description": "Aniimo team building: five roles - DPS, Breaker, Support, Healer and Regen. Cover the roles first, open with a Breaker and follow up with your DPS.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Aniimo Team Roles"
+  ]
+}

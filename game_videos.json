@@ -1281,5 +1281,19 @@
   "palworld-guide-best-ranch-pals": {
     "spec": "scripts/specs/games/palguide_43_best-ranch-pals.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-09833dfe.mp4"
+  },
+  "resident-evil-franchise-history": {
+    "spec": "scripts/specs/long/gaming_10_resident-evil-franchise-history.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-bae74056.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-bae74056-thumb.jpg",
+    "chapters": "0:00 Thirty years of survival horror\n0:40 How it all started\n1:16 March nineteen ninety six\n1:57 Raccoon City and Code Veronica\n2:39 Resident Evil 4 changes everything\n3:13 Co-op and action\n3:49 Back to fear: RE7 and Village\n4:24 The remake era\n4:57 Resident Evil Requiem\n5:45 A series that keeps changing\n6:23 What comes next\n6:52 Your favourite Resident Evil"
+  },
+  "harry-potter-film-series-explained": {
+    "spec": "scripts/specs/long/movies_10_harry-potter-film-series-explained.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-1eefe245.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-1eefe245-thumb.jpg",
+    "chapters": "0:00 Hogwarts की दुनिया\n0:33 किताबों से शुरुआत\n1:09 पहली film - 2001\n1:58 तीनों मुख्य कलाकार\n2:41 बदलते directors\n3:24 बाद की films\n4:08 आखिरी किताब, दो films\n4:52 आठ films की सूची\n5:40 अब HBO की नई series\n6:30 नई टीम के बड़े नाम\n7:12 आपकी राय"
   }
 }

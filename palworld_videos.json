@@ -1632,7 +1632,7 @@
   },
   "Tarantriss": {
     "spec": "scripts/specs/palworld_tarantriss.json",
-    "video": "F:\\AI AGENT\\run_pal20\\videos\\short-de3fec32.mp4",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-05ecb1a9.mp4",
     "data": {
       "headline": "3 Ways to Breed Tarantriss",
       "caption": "3 ways to breed Tarantriss in Palworld 1.0: Blazehowl + Dinossom, Elizabee + Kitsun, Sibelyx + Vanwyrm.",
@@ -1734,7 +1734,7 @@
   },
   "Dazzi": {
     "spec": "scripts/specs/palworld_dazzi.json",
-    "video": "F:\\AI AGENT\\run_pal20\\videos\\short-929303d1.mp4",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5c9e5100.mp4",
     "data": {
       "headline": "3 Ways to Breed Dazzi",
       "caption": "3 ways to breed Dazzi in Palworld 1.0: Dinossom + Flambelle, Direhowl + Grintale, Eikthyrdeer + Lovander.",
@@ -1768,7 +1768,7 @@
   },
   "Celaray": {
     "spec": "scripts/specs/palworld_celaray.json",
-    "video": "F:\\AI AGENT\\run_pal20\\videos\\short-ba4966ba.mp4",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e393439f.mp4",
     "data": {
       "headline": "3 Ways to Breed Celaray",
       "caption": "3 ways to breed Celaray in Palworld 1.0: Bristla + Mozzarina, Caprity + Rushoar, Cattiva + Tocotoco.",
@@ -1802,7 +1802,7 @@
   },
   "Flambelle": {
     "spec": "scripts/specs/palworld_flambelle.json",
-    "video": "F:\\AI AGENT\\run_pal20\\videos\\short-542f9ee9.mp4",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-eec9dda7.mp4",
     "data": {
       "headline": "3 Ways to Breed Flambelle",
       "caption": "3 ways to breed Flambelle in Palworld 1.0: Arsox + Chikipi, Bristla + Eikthyrdeer, Caprity + Fuddler.",
@@ -1836,7 +1836,7 @@
   },
   "Bristla": {
     "spec": "scripts/specs/palworld_bristla.json",
-    "video": "F:\\AI AGENT\\run_pal20\\videos\\short-c861cf5a.mp4",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-80280965.mp4",
     "data": {
       "headline": "3 Ways to Breed Bristla",
       "caption": "3 ways to breed Bristla in Palworld 1.0: Arsox + Vixy, Caprity + Killamari, Direhowl + Flambelle.",
@@ -1904,7 +1904,7 @@
   },
   "Flopie": {
     "spec": "scripts/specs/palworld_flopie.json",
-    "video": "F:\\AI AGENT\\run_pal20\\videos\\short-f2c9e2c1.mp4",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-35e269fc.mp4",
     "data": {
       "headline": "3 Ways to Breed Flopie",
       "caption": "3 ways to breed Flopie in Palworld 1.0: Arsox + Depresso, Caprity + Eikthyrdeer, Cattiva + Nitewing.",
@@ -1938,7 +1938,7 @@
   },
   "Gobfin": {
     "spec": "scripts/specs/palworld_gobfin.json",
-    "video": "F:\\AI AGENT\\run_pal20\\videos\\short-b65b3710.mp4",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-bcd2e5af.mp4",
     "data": {
       "headline": "3 Ways to Breed Gobfin",
       "caption": "3 ways to breed Gobfin in Palworld 1.0: Arsox + Hangyu, Clovee + Grintale, Depresso + Dinossom.",
@@ -1972,7 +1972,7 @@
   },
   "Surfent": {
     "spec": "scripts/specs/palworld_surfent.json",
-    "video": "F:\\AI AGENT\\run_pal20\\videos\\short-c114a50d.mp4",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-bea46bc6.mp4",
     "data": {
       "headline": "3 Ways to Breed Surfent",
       "caption": "3 ways to breed Surfent in Palworld 1.0: Arsox + Nitewing, Caprity + Robinquill, Cattiva + Grintale.",
@@ -2006,7 +2006,7 @@
   },
   "Univolt": {
     "spec": "scripts/specs/palworld_univolt.json",
-    "video": "F:\\AI AGENT\\run_pal20\\videos\\short-2a51676c.mp4",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b68d18bb.mp4",
     "data": {
       "headline": "3 Ways to Breed Univolt",
       "caption": "3 ways to breed Univolt in Palworld 1.0: Bushi + Fuack, Cremis + Vanwyrm, Incineram + Teafant.",
@@ -2074,7 +2074,7 @@
   },
   "Arsox": {
     "spec": "scripts/specs/palworld_arsox.json",
-    "video": "F:\\AI AGENT\\run_pal20\\videos\\short-5152c216.mp4",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e8770786.mp4",
     "data": {
       "headline": "3 Ways to Breed Arsox",
       "caption": "3 ways to breed Arsox in Palworld 1.0: Bushi + Chikipi, Clovee + Kitsun, Foxparks + Vanwyrm.",
@@ -2101,6 +2101,40 @@
       "color": [
         240,
         190,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Nitewing": {
+    "spec": "scripts/specs/palworld_nitewing.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-a2111fcf.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Nitewing",
+      "caption": "3 ways to breed Nitewing in Palworld 1.0: Arsox + Mozzarina, Depresso + Grintale, Dinossom + Lifmunk.",
+      "video_script": "Here are three ways to breed Nitewing in Palworld one point zero. Combo one: breed Arsox with Mozzarina on your Breeding Farm, then add a cake. Combo two: pair Depresso and Grintale together, and you get the same egg. Combo three: Dinossom plus Lifmunk works too, so use whichever Pals you have. Every egg hatches into Nitewing. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Arsox",
+        "Mozzarina"
+      ],
+      "combos": [
+        [
+          "Arsox",
+          "Mozzarina"
+        ],
+        [
+          "Depresso",
+          "Grintale"
+        ],
+        [
+          "Dinossom",
+          "Lifmunk"
+        ]
+      ],
+      "child": "Nitewing",
+      "color": [
+        255,
+        120,
         40
       ],
       "unique": false

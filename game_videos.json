@@ -1257,5 +1257,25 @@
     "video": "F:\\AI AGENT\\run_pal20\\videos\\long-8ddb484b.mp4",
     "thumbnail": "F:\\AI AGENT\\run_pal20\\videos\\long-8ddb484b-thumb.jpg",
     "chapters": "0:00 Twenty Pals, three combos each\n0:49 Arsox and Robinquill\n1:37 Univolt and Surfent\n2:26 Gobfin and Flopie\n3:14 Leezpunk and Bristla\n4:03 Flambelle and Celaray\n4:51 Dazzi and Cawgnito\n5:40 Petallia and Tarantriss\n6:30 Elgrove and Polapup\n7:19 Smokie and Valentail\n8:08 Souffline and Jelliette\n8:56 Which Pal will you breed first"
+  },
+  "final-fantasy-resonance": {
+    "spec": "scripts/specs/games/new_12_final-fantasy-resonance.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-aea229da.mp4"
+  },
+  "minecraft": {
+    "spec": "scripts/specs/games/classic_13_minecraft.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-6b6a76ff.mp4"
+  },
+  "suriya-scene": {
+    "spec": "scripts/specs/movies/movie_new_14_suriya-scene.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-649e1e52.mp4"
+  },
+  "irumudi-box-office": {
+    "spec": "scripts/specs/movies/movie_review_12_irumudi-box-office.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-62024a84.mp4"
+  },
+  "reel-munna-bhai-mbbs-facts": {
+    "spec": "scripts/specs/movies/reel_36_munna-bhai-mbbs-facts.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-a5da6f7e.mp4"
   }
 }

@@ -204,7 +204,10 @@ def build(plan: dict, only: str | None = None) -> Path:
 
 
 # ---------- upload ----------
-def upload(plan: dict, limit: int | None = None) -> None:
+def upload(plan: dict, limit: int | None = None, long_limit: int | None = None,
+           short_limit: int | None = None) -> dict[str, int]:
+    """Post unposted clips (longs first); returns how many longs/shorts went up. The limits cap one run, so a
+    stream's clips spread over several days - a burst of dozens of uploads in one day gets far less reach."""
     from app.pipeline import store
     from app.pipeline.orchestrator import _POSTERS
 
@@ -212,11 +215,16 @@ def upload(plan: dict, limit: int | None = None) -> None:
     dest = OUT / plan["name"]
     tags = plan.get("tags", [])
     done = 0
+    posted = {"long": 0, "short": 0}
+    caps = {"long": long_limit, "short": short_limit}
+    tag = plan.get("title_tag", "")
     jobs = [("long", n, lv) for n, lv in enumerate(plan.get("longs", []), 1)]
     jobs += [("short", n, s) for n, s in enumerate(plan.get("shorts", []), 1)]
     for kind, n, item in jobs:
         if limit is not None and done >= limit:
             break
+        if caps[kind] is not None and posted[kind] >= caps[kind]:
+            continue
         trend_id = f"gameplay:{plan['name']}:{kind}{n:02d}"
         if store.already_posted(trend_id, "youtube"):
             continue
@@ -232,15 +240,17 @@ def upload(plan: dict, limit: int | None = None) -> None:
             chapters = (dest / f"long_{n}_chapters.txt").read_text(encoding="utf-8")
             desc = f"{item.get('description', '')}\n\nChapters:\n{chapters}\n\n" + " ".join(f"#{t.replace(' ', '')}" for t in tags[:8])
             thumb = dest / f"long_{n}_thumb.jpg"
-            result = yt.post_long_video(str(video), item["title"], desc, tags, str(thumb) if thumb.exists() else None)
+            result = yt.post_long_video(str(video), title, desc, tags, str(thumb) if thumb.exists() else None)
         store.record_post(trend_id, "youtube", result.post_id, result.dry_run)
         print(f"{kind} {n}: {'ok ' + (result.url or '') if result.success else 'FAILED ' + str(result.error)[:200]}", flush=True)
         if not result.success:
             if any(k in (result.error or "") for k in ("uploadLimitExceeded", "Quota exceeded", "rateLimitExceeded")):
                 print("YouTube daily upload limit reached - run upload again tomorrow")
-                return
+                return posted
             continue
         done += 1
+        posted[kind] += 1
+    return posted
 
 
 def main() -> None:

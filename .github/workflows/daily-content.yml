@@ -1,6 +1,6 @@
 name: Daily gaming and movie videos
 
-# Makes the day's shorts - gaming (1 new/upcoming game, 1 classic game, 1 Palworld breeding
+# Makes the day's shorts - gaming (1 new/upcoming game, 2 classic games (our best performers), 1 Palworld breeding
 # combo) -> HarryBeast Gaming YouTube only, and movies (1 new/upcoming movie, 1
 # review/box-office) -> Name Writer YouTube + Instagram + Facebook, 1 Hindi movie reel ->
 # Facebook + Instagram only - and retries uploads that
@@ -15,7 +15,7 @@ on:
         default: "1"
       classic_games:
         description: "Classic-game videos"
-        default: "1"
+        default: "2"
       new_palworld:
         description: "Palworld breeding videos"
         default: "1"
@@ -100,7 +100,7 @@ jobs:
         run: >-
           python scripts/daily_job.py --skip-trends
           --new-games "${{ github.event.inputs.new_games || '1' }}"
-          --classic-games "${{ github.event.inputs.classic_games || '1' }}"
+          --classic-games "${{ github.event.inputs.classic_games || '2' }}"
           --new-palworld "${{ github.event.inputs.new_palworld || '1' }}"
           --new-movies "${{ github.event.inputs.new_movies || '1' }}"
           --movie-reviews "${{ github.event.inputs.movie_reviews || '1' }}"

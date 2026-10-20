@@ -21,6 +21,8 @@ import gameplay_clips as gc  # noqa: E402
 from app.pipeline import store  # noqa: E402
 
 PLANS = ROOT / "scripts" / "specs" / "gameplay"
+# Per laptop-task run, across all plans: dozens of Shorts in one day each get far less reach than a steady few.
+DAILY_LONGS, DAILY_SHORTS = 1, 8
 log = logging.getLogger("gameplay_daily")
 
 
@@ -55,7 +57,10 @@ def _run_plans() -> None:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s",
                         handlers=[logging.FileHandler(gc.OUT / f"gameplay-{date.today()}.log", encoding="utf-8"),
                                   logging.StreamHandler()])
+    budget = {"long": DAILY_LONGS, "short": DAILY_SHORTS}
     for path in sorted(PLANS.glob("*.json")):
+        if not any(budget.values()):
+            break
         plan = json.loads(path.read_text(encoding="utf-8"))
         left = pending(plan)
         if not left:
@@ -66,7 +71,9 @@ def _run_plans() -> None:
         log.info("== %s: %d clips left - rendering what is missing", plan["name"], left)
         try:
             gc.build(plan)
-            gc.upload(plan)
+            posted = gc.upload(plan, long_limit=budget["long"], short_limit=budget["short"]) or {}
+            for kind in budget:
+                budget[kind] -= posted.get(kind, 0)
         except Exception:
             log.exception("%s failed - will retry next run", plan["name"])
 

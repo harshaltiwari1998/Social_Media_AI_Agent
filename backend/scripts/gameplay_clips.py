@@ -36,6 +36,13 @@ def _run(args: list[str]) -> None:
     subprocess.run([FF, "-v", "error", "-y", *args], check=True)
 
 
+def _encode(args: list[str], out: Path) -> None:
+    """Write to a temp name and rename when done, so an interrupted render never looks finished."""
+    tmp = out.with_name(out.stem + ".part" + out.suffix)
+    _run([*args, str(tmp)])
+    tmp.replace(out)
+
+
 # ---------- scan ----------
 def loudness(src: str) -> np.ndarray:
     raw = subprocess.run([FF, "-v", "error", "-i", src, "-vn", "-ac", "1", "-ar", "8000", "-f", "s16le", "-"],
@@ -140,16 +147,16 @@ def render_short(src: str, start: float, dur: float, overlay: Path, out: Path) -
           "[b]scale=-2:820,crop=1080:820[fg];"
           "[bg][fg]overlay=0:550[v1];[v1][1:v]overlay=0:0,"
           f"fade=t=in:st=0:d=0.3,fade=t=out:st={end}:d=0.6[v]")
-    _run(["-ss", str(start), "-t", str(dur), "-i", src, "-i", str(overlay), "-filter_complex", vf,
-          "-map", "[v]", "-map", "0:a", "-af", f"{AUDIO},afade=t=out:st={end}:d=0.6", *ENC, str(out)])
+    _encode(["-ss", str(start), "-t", str(dur), "-i", src, "-i", str(overlay), "-filter_complex", vf,
+          "-map", "[v]", "-map", "0:a", "-af", f"{AUDIO},afade=t=out:st={end}:d=0.6", *ENC], out)
 
 
 def render_segment(src: str, start: float, dur: float, overlay: Path, out: Path) -> None:
     end = dur - 0.5
     vf = (f"[0:v]fps=30,scale=1920:1080[g];[g][1:v]overlay=0:0:enable='lt(t,5)',"
           f"fade=t=in:st=0:d=0.5,fade=t=out:st={end}:d=0.5[v]")
-    _run(["-ss", str(start), "-t", str(dur), "-i", src, "-i", str(overlay), "-filter_complex", vf,
-          "-map", "[v]", "-map", "0:a", "-af", f"{AUDIO},afade=t=in:d=0.5,afade=t=out:st={end}:d=0.5", *ENC, str(out)])
+    _encode(["-ss", str(start), "-t", str(dur), "-i", src, "-i", str(overlay), "-filter_complex", vf,
+          "-map", "[v]", "-map", "0:a", "-af", f"{AUDIO},afade=t=in:d=0.5,afade=t=out:st={end}:d=0.5", *ENC], out)
 
 
 def _ts(sec: float) -> str:
@@ -189,7 +196,7 @@ def build(plan: dict, only: str | None = None) -> Path:
                 t += seg["dur"]
             listing = work / f"concat_{n}.txt"
             listing.write_text("".join(f"file '{p.as_posix()}'\n" for p in parts), encoding="utf-8")
-            _run(["-f", "concat", "-safe", "0", "-i", str(listing), "-c", "copy", "-movflags", "+faststart", str(out)])
+            _encode(["-f", "concat", "-safe", "0", "-i", str(listing), "-c", "copy", "-movflags", "+faststart"], out)
             (dest / f"long_{n}_chapters.txt").write_text("\n".join(chapters), encoding="utf-8")
             best = lv.get("thumb_at", lv["segments"][0]["start"] + 10)
             thumbnail(src, best, lv.get("thumb_text", lv["title"]), dest / f"long_{n}_thumb.jpg")

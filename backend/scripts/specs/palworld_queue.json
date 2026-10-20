@@ -209,11 +209,25 @@
   },
   {
     "parents": [
-      "Lamball",
-      "Penking"
+      "Arsox",
+      "Mozzarina"
     ],
     "child": "Nitewing",
-    "unique": false
+    "unique": false,
+    "combos": [
+      [
+        "Arsox",
+        "Mozzarina"
+      ],
+      [
+        "Depresso",
+        "Grintale"
+      ],
+      [
+        "Dinossom",
+        "Lifmunk"
+      ]
+    ]
   },
   {
     "parents": [
@@ -257,43 +271,113 @@
   },
   {
     "parents": [
-      "Chikipi",
-      "Gorirat"
+      "Arsox",
+      "Tanzee"
     ],
     "child": "Caprity",
-    "unique": false
+    "unique": false,
+    "combos": [
+      [
+        "Arsox",
+        "Tanzee"
+      ],
+      [
+        "Flopie",
+        "Nitewing"
+      ],
+      [
+        "Gobfin",
+        "Leezpunk"
+      ]
+    ]
   },
   {
     "parents": [
-      "Lamball",
-      "Turtacle"
+      "Bristla",
+      "Killamari"
     ],
     "child": "Tocotoco",
-    "unique": false
+    "unique": false,
+    "combos": [
+      [
+        "Bristla",
+        "Killamari"
+      ],
+      [
+        "Cattiva",
+        "Flambelle"
+      ],
+      [
+        "Celaray",
+        "Melpaca"
+      ]
+    ]
   },
   {
     "parents": [
-      "Chikipi",
-      "Swee"
+      "Clovee",
+      "Gumoss"
     ],
     "child": "Pengullet",
-    "unique": false
+    "unique": false,
+    "combos": [
+      [
+        "Clovee",
+        "Gumoss"
+      ],
+      [
+        "Cremis",
+        "Lifmunk"
+      ],
+      [
+        "Daedream",
+        "Sparkit"
+      ]
+    ]
   },
   {
     "parents": [
-      "Chikipi",
-      "Mossanda"
+      "Arsox",
+      "Woolipop"
     ],
     "child": "Galeclaw",
-    "unique": false
+    "unique": false,
+    "combos": [
+      [
+        "Arsox",
+        "Woolipop"
+      ],
+      [
+        "Cremis",
+        "Robinquill"
+      ],
+      [
+        "Dinossom",
+        "Mau"
+      ]
+    ]
   },
   {
     "parents": [
-      "Cattiva",
-      "Muffly"
+      "Arsox",
+      "Nox"
     ],
     "child": "Cinnamoth",
-    "unique": false
+    "unique": false,
+    "combos": [
+      [
+        "Arsox",
+        "Nox"
+      ],
+      [
+        "Bristla",
+        "Gobfin"
+      ],
+      [
+        "Direhowl",
+        "Nitewing"
+      ]
+    ]
   },
   {
     "parents": [
@@ -505,42 +589,112 @@
   },
   {
     "parents": [
-      "Melpaca",
-      "Mozzarina"
+      "Bristla",
+      "Woolipop"
     ],
     "child": "Cattiva",
-    "unique": false
+    "unique": false,
+    "combos": [
+      [
+        "Bristla",
+        "Woolipop"
+      ],
+      [
+        "Caprity",
+        "Tanzee"
+      ],
+      [
+        "Celaray",
+        "Hangyu"
+      ]
+    ]
   },
   {
     "parents": [
-      "Lifmunk",
-      "Mozzarina"
+      "Cattiva",
+      "Vixy"
     ],
     "child": "Daedream",
-    "unique": false
+    "unique": false,
+    "combos": [
+      [
+        "Cattiva",
+        "Vixy"
+      ],
+      [
+        "Celaray",
+        "Chikipi"
+      ],
+      [
+        "Depresso",
+        "Woolipop"
+      ]
+    ]
   },
   {
     "parents": [
-      "Mozzarina",
-      "Tocotoco"
+      "Cattiva",
+      "Hangyu"
     ],
     "child": "Killamari",
-    "unique": false
+    "unique": false,
+    "combos": [
+      [
+        "Cattiva",
+        "Hangyu"
+      ],
+      [
+        "Celaray",
+        "Mozzarina"
+      ],
+      [
+        "Clovee",
+        "Galeclaw"
+      ]
+    ]
   },
   {
     "parents": [
-      "Chikipi",
-      "Eikthyrdeer"
+      "Cattiva",
+      "Mau"
     ],
     "child": "Tanzee",
-    "unique": false
+    "unique": false,
+    "combos": [
+      [
+        "Cattiva",
+        "Mau"
+      ],
+      [
+        "Celaray",
+        "Vixy"
+      ],
+      [
+        "Chikipi",
+        "Melpaca"
+      ]
+    ]
   },
   {
     "parents": [
-      "Chillet",
-      "Lifmunk"
+      "Arsox",
+      "Mau"
     ],
     "child": "Direhowl",
-    "unique": false
+    "unique": false,
+    "combos": [
+      [
+        "Arsox",
+        "Mau"
+      ],
+      [
+        "Bristla",
+        "Leezpunk"
+      ],
+      [
+        "Dumud",
+        "Teafant"
+      ]
+    ]
   }
 ]

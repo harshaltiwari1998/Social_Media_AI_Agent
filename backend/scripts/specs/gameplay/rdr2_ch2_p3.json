@@ -1,0 +1,606 @@
+{
+ "name": "rdr2_ch2_p3",
+ "source": "F:/AI AGENT/VIDEOS GAMING\\Red Dead Redemption 2   Chapter 2  - Part 3   🤠 Arthur Morgan Journey Continues   Live Stream.mp4",
+ "game": "Red Dead Redemption 2",
+ "tags": [
+  "RDR2",
+  "Red Dead Redemption 2",
+  "Arthur Morgan",
+  "RDR2 gameplay",
+  "Red Dead 2",
+  "Gaming",
+  "HarryBeast",
+  "Strawberry"
+ ],
+ "shorts": [
+  {
+   "start": 374,
+   "dur": 50,
+   "title": "Riding Home with a Fresh Pelt"
+  },
+  {
+   "start": 542,
+   "dur": 50,
+   "title": "Strange Encounter on the Road"
+  },
+  {
+   "start": 805,
+   "dur": 50,
+   "title": "Selling a Cougar Fang at Camp"
+  },
+  {
+   "start": 901,
+   "dur": 50,
+   "title": "A Letter from Mary Linton"
+  },
+  {
+   "start": 1107,
+   "dur": 50,
+   "title": "Ambushed by the O'Driscolls"
+  },
+  {
+   "start": 1359,
+   "dur": 50,
+   "title": "Mary Asks Arthur for Help"
+  },
+  {
+   "start": 1649,
+   "dur": 50,
+   "title": "Wanted for Murder - Escaping the Law"
+  },
+  {
+   "start": 1831,
+   "dur": 50,
+   "title": "Hiding from the Law at Downes Ranch"
+  },
+  {
+   "start": 2118,
+   "dur": 50,
+   "title": "I'd Keep Low If I Was You"
+  },
+  {
+   "start": 2214,
+   "dur": 50,
+   "title": "Riding at Sunset Through the Forest"
+  },
+  {
+   "start": 2638,
+   "dur": 50,
+   "title": "Helping a Lost Stranger at Night"
+  },
+  {
+   "start": 2815,
+   "dur": 50,
+   "title": "Escorting a Stranger to Strawberry"
+  },
+  {
+   "start": 3036,
+   "dur": 50,
+   "title": "Breaking Micah Out of Strawberry Jail"
+  },
+  {
+   "start": 3138,
+   "dur": 50,
+   "title": "Strawberry Shootout - Wanted Dead or Alive"
+  },
+  {
+   "start": 3235,
+   "dur": 50,
+   "title": "Gunfight Across Strawberry at Night"
+  },
+  {
+   "start": 3332,
+   "dur": 50,
+   "title": "Keep Riding, Morgan"
+  },
+  {
+   "start": 3428,
+   "dur": 50,
+   "title": "Micah - You're a Funny Feller, Arthur"
+  },
+  {
+   "start": 3611,
+   "dur": 50,
+   "title": "Arthur at the Train Station"
+  },
+  {
+   "start": 3762,
+   "dur": 50,
+   "title": "Riding Through the Heartlands at Dawn"
+  },
+  {
+   "start": 3908,
+   "dur": 50,
+   "title": "Beautiful Ride Across New Hanover"
+  },
+  {
+   "start": 4020,
+   "dur": 50,
+   "title": "Hosea and Seamus Plan a Robbery"
+  },
+  {
+   "start": 4145,
+   "dur": 50,
+   "title": "Riding with Hosea to the Farm"
+  },
+  {
+   "start": 4310,
+   "dur": 50,
+   "title": "Hosea's Distraction Plan"
+  },
+  {
+   "start": 4427,
+   "dur": 50,
+   "title": "Sneaking Into the House to Rob It"
+  },
+  {
+   "start": 4526,
+   "dur": 50,
+   "title": "Robbing Bob Crawford's House"
+  },
+  {
+   "start": 4677,
+   "dur": 50,
+   "title": "Riding Back with Hosea at Night"
+  },
+  {
+   "start": 5382,
+   "dur": 50,
+   "title": "Riding Along the Railroad"
+  },
+  {
+   "start": 5937,
+   "dur": 50,
+   "title": "Retrieving Mason's Bag"
+  },
+  {
+   "start": 6190,
+   "dur": 50,
+   "title": "Riding Across the Plains"
+  },
+  {
+   "start": 6291,
+   "dur": 50,
+   "title": "Planning to Rob a Rich Town"
+  },
+  {
+   "start": 6505,
+   "dur": 50,
+   "title": "Riding Out with the Gang"
+  },
+  {
+   "start": 6803,
+   "dur": 50,
+   "title": "Taking Cover in the Canyon"
+  },
+  {
+   "start": 6949,
+   "dur": 50,
+   "title": "More Coming Down the Hill"
+  },
+  {
+   "start": 7046,
+   "dur": 50,
+   "title": "Sean Doesn't Believe a Word"
+  },
+  {
+   "start": 7184,
+   "dur": 50,
+   "title": "Looting the Bandit Camp"
+  },
+  {
+   "start": 7287,
+   "dur": 50,
+   "title": "Sneaking Through the Grass"
+  },
+  {
+   "start": 7383,
+   "dur": 50,
+   "title": "Riding to Find John Marston"
+  },
+  {
+   "start": 7631,
+   "dur": 50,
+   "title": "Finding a Wild Dutch Warmblood"
+  },
+  {
+   "start": 7749,
+   "dur": 50,
+   "title": "Hunting at Dusk"
+  },
+  {
+   "start": 7845,
+   "dur": 50,
+   "title": "Searching for the Tokushima Sapphire"
+  },
+  {
+   "start": 7941,
+   "dur": 50,
+   "title": "Night Hunt in the Grasslands"
+  },
+  {
+   "start": 8088,
+   "dur": 50,
+   "title": "Riding Through a Dark Storm"
+  },
+  {
+   "start": 8320,
+   "dur": 50,
+   "title": "Moonlight Ride in RDR2"
+  },
+  {
+   "start": 8500,
+   "dur": 50,
+   "title": "Campfire Singing with the Gang"
+  },
+  {
+   "start": 8788,
+   "dur": 50,
+   "title": "Uncle Needs a Hand at Night"
+  },
+  {
+   "start": 8997,
+   "dur": 50,
+   "title": "Bounty Poster - Benedict Allbright"
+  },
+  {
+   "start": 9101,
+   "dur": 50,
+   "title": "Hunting Down Benedict Allbright"
+  },
+  {
+   "start": 9228,
+   "dur": 50,
+   "title": "Game's Over, Mister"
+  },
+  {
+   "start": 9347,
+   "dur": 50,
+   "title": "Chasing the Bounty Across the River"
+  },
+  {
+   "start": 9472,
+   "dur": 50,
+   "title": "I'm Only In It for the Money"
+  },
+  {
+   "start": 9663,
+   "dur": 50,
+   "title": "Delivering the Bounty to Valentine"
+  },
+  {
+   "start": 9759,
+   "dur": 50,
+   "title": "Turning In Benedict Allbright"
+  },
+  {
+   "start": 9991,
+   "dur": 50,
+   "title": "Shopping at the Gunsmith"
+  },
+  {
+   "start": 10115,
+   "dur": 50,
+   "title": "Exploring Valentine"
+  },
+  {
+   "start": 10310,
+   "dur": 50,
+   "title": "Riding to Strawberry for a Bounty"
+  },
+  {
+   "start": 10605,
+   "dur": 50,
+   "title": "Hunting Trip on a New Horse"
+  },
+  {
+   "start": 10730,
+   "dur": 50,
+   "title": "Making Camp in the Wild"
+  },
+  {
+   "start": 10860,
+   "dur": 50,
+   "title": "Reverend Swanson Thinks He's Dying"
+  },
+  {
+   "start": 10958,
+   "dur": 50,
+   "title": "Sneaking Through the Woods"
+  },
+  {
+   "start": 11390,
+   "dur": 50,
+   "title": "Sneaking Up on the Farm Hideout"
+  },
+  {
+   "start": 11563,
+   "dur": 50,
+   "title": "Dead Eye at the Farm Shootout"
+  },
+  {
+   "start": 11723,
+   "dur": 50,
+   "title": "Farm Shootout - I'll Square You Up"
+  },
+  {
+   "start": 12017,
+   "dur": 50,
+   "title": "Searching the Farm Cabin"
+  }
+ ],
+ "longs": [
+  {
+   "title": "RDR2 Chapter 2 - Breaking Micah Out of Strawberry Jail (Highlights)",
+   "description": "Red Dead Redemption 2 Chapter 2 part 3 highlights - an O'Driscoll ambush, Mary Linton's letter, escaping the law and the Strawberry jailbreak with Micah. Cut from my live stream.",
+   "thumb_at": 3150,
+   "thumb_text": "Jailbreak",
+   "segments": [
+    {
+     "start": 1107,
+     "dur": 45,
+     "label": "Ambushed by the O'Driscolls"
+    },
+    {
+     "start": 1359,
+     "dur": 45,
+     "label": "Mary Asks Arthur for Help"
+    },
+    {
+     "start": 1649,
+     "dur": 45,
+     "label": "Wanted for Murder - Escaping the Law"
+    },
+    {
+     "start": 1831,
+     "dur": 45,
+     "label": "Hiding from the Law at Downes Ranch"
+    },
+    {
+     "start": 2118,
+     "dur": 45,
+     "label": "I'd Keep Low If I Was You"
+    },
+    {
+     "start": 2638,
+     "dur": 45,
+     "label": "Helping a Lost Stranger at Night"
+    },
+    {
+     "start": 2815,
+     "dur": 45,
+     "label": "Escorting a Stranger to Strawberry"
+    },
+    {
+     "start": 3036,
+     "dur": 45,
+     "label": "Breaking Micah Out of Strawberry Jail"
+    },
+    {
+     "start": 3138,
+     "dur": 45,
+     "label": "Strawberry Shootout - Wanted Dead or Alive"
+    },
+    {
+     "start": 3235,
+     "dur": 45,
+     "label": "Gunfight Across Strawberry at Night"
+    },
+    {
+     "start": 3332,
+     "dur": 45,
+     "label": "Keep Riding, Morgan"
+    },
+    {
+     "start": 3428,
+     "dur": 45,
+     "label": "Micah - You're a Funny Feller, Arthur"
+    }
+   ]
+  },
+  {
+   "title": "RDR2 - Robbing a House with Hosea and Riding Across New Hanover (Highlights)",
+   "description": "Red Dead Redemption 2 Chapter 2 highlights - Hosea's distraction plan, robbing Bob Crawford's house and long rides across New Hanover. Cut from my live stream.",
+   "thumb_at": 4440,
+   "thumb_text": "House Robbery",
+   "segments": [
+    {
+     "start": 3611,
+     "dur": 45,
+     "label": "Arthur at the Train Station"
+    },
+    {
+     "start": 3762,
+     "dur": 45,
+     "label": "Riding Through the Heartlands at Dawn"
+    },
+    {
+     "start": 3908,
+     "dur": 45,
+     "label": "Beautiful Ride Across New Hanover"
+    },
+    {
+     "start": 4020,
+     "dur": 45,
+     "label": "Hosea and Seamus Plan a Robbery"
+    },
+    {
+     "start": 4145,
+     "dur": 45,
+     "label": "Riding with Hosea to the Farm"
+    },
+    {
+     "start": 4310,
+     "dur": 45,
+     "label": "Hosea's Distraction Plan"
+    },
+    {
+     "start": 4427,
+     "dur": 45,
+     "label": "Sneaking Into the House to Rob It"
+    },
+    {
+     "start": 4526,
+     "dur": 45,
+     "label": "Robbing Bob Crawford's House"
+    },
+    {
+     "start": 4677,
+     "dur": 45,
+     "label": "Riding Back with Hosea at Night"
+    },
+    {
+     "start": 5382,
+     "dur": 45,
+     "label": "Riding Along the Railroad"
+    },
+    {
+     "start": 5937,
+     "dur": 45,
+     "label": "Retrieving Mason's Bag"
+    },
+    {
+     "start": 6291,
+     "dur": 45,
+     "label": "Planning to Rob a Rich Town"
+    }
+   ]
+  },
+  {
+   "title": "RDR2 - Gang Shootout, Hunting and a Campfire Night (Highlights)",
+   "description": "Red Dead Redemption 2 Chapter 2 highlights - a canyon shootout with Javier and Sean, a wild Dutch Warmblood, the Tokushima Sapphire stranger and singing at the campfire. Cut from my live stream.",
+   "thumb_at": 6960,
+   "thumb_text": "Shootout",
+   "segments": [
+    {
+     "start": 6505,
+     "dur": 45,
+     "label": "Riding Out with the Gang"
+    },
+    {
+     "start": 6803,
+     "dur": 45,
+     "label": "Taking Cover in the Canyon"
+    },
+    {
+     "start": 6949,
+     "dur": 45,
+     "label": "More Coming Down the Hill"
+    },
+    {
+     "start": 7046,
+     "dur": 45,
+     "label": "Sean Doesn't Believe a Word"
+    },
+    {
+     "start": 7184,
+     "dur": 45,
+     "label": "Looting the Bandit Camp"
+    },
+    {
+     "start": 7287,
+     "dur": 45,
+     "label": "Sneaking Through the Grass"
+    },
+    {
+     "start": 7631,
+     "dur": 45,
+     "label": "Finding a Wild Dutch Warmblood"
+    },
+    {
+     "start": 7845,
+     "dur": 45,
+     "label": "Searching for the Tokushima Sapphire"
+    },
+    {
+     "start": 7941,
+     "dur": 45,
+     "label": "Night Hunt in the Grasslands"
+    },
+    {
+     "start": 8320,
+     "dur": 45,
+     "label": "Moonlight Ride in RDR2"
+    },
+    {
+     "start": 8500,
+     "dur": 45,
+     "label": "Campfire Singing with the Gang"
+    },
+    {
+     "start": 8788,
+     "dur": 45,
+     "label": "Uncle Needs a Hand at Night"
+    }
+   ]
+  },
+  {
+   "title": "RDR2 - Bounty Hunting Benedict Allbright and a Farm Shootout (Highlights)",
+   "description": "Red Dead Redemption 2 Chapter 2 highlights - tracking down bounty Benedict Allbright, chasing him across the river, turning him in at Valentine and a shootout at a farm hideout. Cut from my live stream.",
+   "thumb_at": 9240,
+   "thumb_text": "Bounty Hunter",
+   "segments": [
+    {
+     "start": 8997,
+     "dur": 45,
+     "label": "Bounty Poster - Benedict Allbright"
+    },
+    {
+     "start": 9101,
+     "dur": 45,
+     "label": "Hunting Down Benedict Allbright"
+    },
+    {
+     "start": 9228,
+     "dur": 45,
+     "label": "Game's Over, Mister"
+    },
+    {
+     "start": 9347,
+     "dur": 45,
+     "label": "Chasing the Bounty Across the River"
+    },
+    {
+     "start": 9472,
+     "dur": 45,
+     "label": "I'm Only In It for the Money"
+    },
+    {
+     "start": 9663,
+     "dur": 45,
+     "label": "Delivering the Bounty to Valentine"
+    },
+    {
+     "start": 9759,
+     "dur": 45,
+     "label": "Turning In Benedict Allbright"
+    },
+    {
+     "start": 9991,
+     "dur": 45,
+     "label": "Shopping at the Gunsmith"
+    },
+    {
+     "start": 11390,
+     "dur": 45,
+     "label": "Sneaking Up on the Farm Hideout"
+    },
+    {
+     "start": 11563,
+     "dur": 45,
+     "label": "Dead Eye at the Farm Shootout"
+    },
+    {
+     "start": 11723,
+     "dur": 45,
+     "label": "Farm Shootout - I'll Square You Up"
+    },
+    {
+     "start": 12017,
+     "dur": 45,
+     "label": "Searching the Farm Cabin"
+    }
+   ]
+  }
+ ]
+}

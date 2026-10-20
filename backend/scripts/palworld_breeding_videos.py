@@ -103,8 +103,11 @@ def pal_card(name: str, color: tuple[int, int, int], tag: str) -> Image.Image:
     return canvas.convert("RGB")
 
 
-def combo_card(parent_a: str, parent_b: str, child: str, color: tuple[int, int, int]) -> Image.Image:
+def combo_card(parent_a: str, parent_b: str, child: str, color: tuple[int, int, int], tag: str = "") -> Image.Image:
     canvas = _background(color).convert("RGBA")
+    if tag:
+        tag_img = _label(tag, 54, _YELLOW)
+        canvas.alpha_composite(tag_img, ((_CARD - tag_img.width) // 2, _EDGE - 20))
     for name, cx in ((parent_a, 330), (parent_b, 750)):
         art = _fit(fetch_pal_art(name), 270)
         _paste_with_glow(canvas, art, (cx - art.width // 2, 150 + (270 - art.height) // 2))
@@ -128,12 +131,18 @@ def build_video(spec_path: Path) -> dict:
 
     out_dir = Path(settings.media_output_dir) / "images" / spec_path.stem
     out_dir.mkdir(parents=True, exist_ok=True)
-    cards = [
-        ("1_parent_a", pal_card(a, color, "PARENT 1")),
-        ("2_parent_b", pal_card(b, color, "PARENT 2")),
-        ("3_combo", combo_card(a, b, child, color)),
-        ("4_child", pal_card(child, color, "NEW PAL")),
-    ]
+    combos = spec.get("combos") or []
+    if len(combos) > 1:  # "3 ways to breed X": intro, one card per combo, the new Pal
+        cards = [("0_intro", pal_card(child, color, "HOW TO BREED"))]
+        cards += [(f"{n}_combo", combo_card(pa, pb, child, color, f"COMBO {n}")) for n, (pa, pb) in enumerate(combos, 1)]
+        cards.append((f"{len(combos) + 1}_child", pal_card(child, color, "NEW PAL")))
+    else:
+        cards = [
+            ("1_parent_a", pal_card(a, color, "PARENT 1")),
+            ("2_parent_b", pal_card(b, color, "PARENT 2")),
+            ("3_combo", combo_card(a, b, child, color)),
+            ("4_child", pal_card(child, color, "NEW PAL")),
+        ]
     paths = []
     for stem, img in cards:
         path = out_dir / f"{stem}.png"
@@ -193,8 +202,37 @@ _NORMAL_COLOR = [
 ]
 
 
-def spec_from_combo(a: str, b: str, child: str, index: int = 0, unique: bool = True) -> dict:
-    """Build an English video spec for a verified combo (unique variant combo or regular breeding)."""
+_ORDINALS = ("one", "two", "three", "four")
+
+
+def spec_from_combo(a: str, b: str, child: str, index: int = 0, unique: bool = True,
+                    combos: list[list[str]] | None = None) -> dict:
+    """Build an English video spec for a verified combo (unique variant combo or regular breeding).
+
+    With several verified ``combos`` for the same child the video shows every one of them."""
+    if combos and len(combos) > 1 and not unique:
+        color = _NORMAL_COLOR[index % len(_NORMAL_COLOR)]
+        # One sentence per card (intro, each combo, outro) so the narration stays on the card it describes.
+        lines = [
+            "Combo {n}: breed {pa} with {pb} on your Breeding Farm, then add a cake.",
+            "Combo {n}: pair {pa} and {pb} together, and you get the same egg.",
+            "Combo {n}: {pa} plus {pb} works too, so use whichever Pals you have.",
+            "Combo {n}: {pa} with {pb} is another easy option.",
+        ]
+        steps = " ".join(lines[n % len(lines)].format(n=_ORDINALS[n], pa=pa, pb=pb) for n, (pa, pb) in enumerate(combos))
+        script = (f"Here are {_ORDINALS[len(combos) - 1]} ways to breed {child} in Palworld one point zero. {steps} "
+                  f"Every egg hatches into {child}. Which Pal should I cover next? Comment below!")
+        return {
+            "headline": f"{len(combos)} Ways to Breed {child}",
+            "caption": f"{len(combos)} ways to breed {child} in Palworld 1.0: "
+                       + ", ".join(f"{pa} + {pb}" for pa, pb in combos) + ".",
+            "video_script": script,
+            "parents": list(combos[0]),
+            "combos": [list(c) for c in combos],
+            "child": child,
+            "color": color,
+            "unique": False,
+        }
     if unique:
         base, _, suffix = child.rpartition(" ")
         element, color = _VARIANTS.get(suffix, ("new", [120, 60, 200]))
@@ -224,6 +262,21 @@ def post_text_and_tags(spec: dict) -> tuple[str, list[str]]:
     """Title on the first line (YouTube's title - no "." or "?", it's cut there), description, hashtags."""
     (a, b), child = spec["parents"], spec["child"]
     element = _VARIANTS.get(child.rpartition(" ")[2], ("", None))[0]
+    combos = spec.get("combos") or []
+    if len(combos) > 1:
+        title = f"How to Breed {child} in Palworld | {len(combos)} Easy Combos | Palworld Breeding Guide"
+        lines = "\n".join(f"Combo {n}: {pa} + {pb} = {child}" for n, (pa, pb) in enumerate(combos, 1))
+        text = (
+            f"{title}\n\n{len(combos)} ways to breed {child} in Palworld - use whichever parents you already have. "
+            f"Put the two Pals on the Breeding Farm and add a Cake.\n\n{lines}\n\n"
+            f"Every combo checked on PalBreedCalc and with the Palworld 1.0 breeding formula. "
+            f"Comment which Pal you want next!\n\n"
+            f"#Palworld #PalworldBreeding #{child.replace(' ', '')} #Gaming #Shorts"
+        )
+        parents = sorted({p for c in combos for p in c})
+        tags = ["Palworld", "Palworld breeding", "Palworld breeding guide", "Palworld 1.0", child,
+                f"{child} breeding", f"how to breed {child}", *parents[:6], "Palworld breeding combos", "Palworld shorts"]
+        return text, tags
     title = f"How to Get {child} in Palworld | {a} + {b} | Palworld Breeding Guide"
     text = (
         f"{title}\n\n"

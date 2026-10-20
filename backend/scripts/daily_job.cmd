@@ -6,3 +6,5 @@ set PYTHONIOENCODING=utf-8
 ".venv\Scripts\python.exe" scripts\daily_job.py %*
 rem Free AI-motion videos (Hugging Face ZeroGPU quota) - see scripts/motion_daily.py
 ".venv\Scripts\python.exe" scripts\motion_daily.py
+rem Gameplay Shorts/highlights from recordings in VIDEOS GAMING - see scripts/gameplay_daily.py
+".venv\Scripts\python.exe" scripts\gameplay_daily.py

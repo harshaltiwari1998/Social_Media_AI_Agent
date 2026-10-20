@@ -696,5 +696,445 @@
         "Teafant"
       ]
     ]
+  },
+  {
+    "parents": [
+      "Bushi",
+      "Chikipi"
+    ],
+    "child": "Arsox",
+    "unique": false,
+    "combos": [
+      [
+        "Bushi",
+        "Chikipi"
+      ],
+      [
+        "Clovee",
+        "Kitsun"
+      ],
+      [
+        "Foxparks",
+        "Vanwyrm"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Bushi",
+      "Pengullet"
+    ],
+    "child": "Robinquill",
+    "unique": false,
+    "combos": [
+      [
+        "Bushi",
+        "Pengullet"
+      ],
+      [
+        "Incineram",
+        "Lamball"
+      ],
+      [
+        "Rooby",
+        "Vanwyrm"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Bushi",
+      "Fuack"
+    ],
+    "child": "Univolt",
+    "unique": false,
+    "combos": [
+      [
+        "Bushi",
+        "Fuack"
+      ],
+      [
+        "Cremis",
+        "Vanwyrm"
+      ],
+      [
+        "Incineram",
+        "Teafant"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Arsox",
+      "Nitewing"
+    ],
+    "child": "Surfent",
+    "unique": false,
+    "combos": [
+      [
+        "Arsox",
+        "Nitewing"
+      ],
+      [
+        "Caprity",
+        "Robinquill"
+      ],
+      [
+        "Cattiva",
+        "Grintale"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Arsox",
+      "Hangyu"
+    ],
+    "child": "Gobfin",
+    "unique": false,
+    "combos": [
+      [
+        "Arsox",
+        "Hangyu"
+      ],
+      [
+        "Clovee",
+        "Grintale"
+      ],
+      [
+        "Depresso",
+        "Dinossom"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Arsox",
+      "Depresso"
+    ],
+    "child": "Flopie",
+    "unique": false,
+    "combos": [
+      [
+        "Arsox",
+        "Depresso"
+      ],
+      [
+        "Caprity",
+        "Eikthyrdeer"
+      ],
+      [
+        "Cattiva",
+        "Nitewing"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Arsox",
+      "Lifmunk"
+    ],
+    "child": "Leezpunk",
+    "unique": false,
+    "combos": [
+      [
+        "Arsox",
+        "Lifmunk"
+      ],
+      [
+        "Caprity",
+        "Tocotoco"
+      ],
+      [
+        "Chikipi",
+        "Robinquill"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Arsox",
+      "Vixy"
+    ],
+    "child": "Bristla",
+    "unique": false,
+    "combos": [
+      [
+        "Arsox",
+        "Vixy"
+      ],
+      [
+        "Caprity",
+        "Killamari"
+      ],
+      [
+        "Direhowl",
+        "Flambelle"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Arsox",
+      "Chikipi"
+    ],
+    "child": "Flambelle",
+    "unique": false,
+    "combos": [
+      [
+        "Arsox",
+        "Chikipi"
+      ],
+      [
+        "Bristla",
+        "Eikthyrdeer"
+      ],
+      [
+        "Caprity",
+        "Fuddler"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Bristla",
+      "Mozzarina"
+    ],
+    "child": "Celaray",
+    "unique": false,
+    "combos": [
+      [
+        "Bristla",
+        "Mozzarina"
+      ],
+      [
+        "Caprity",
+        "Rushoar"
+      ],
+      [
+        "Cattiva",
+        "Tocotoco"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Dinossom",
+      "Flambelle"
+    ],
+    "child": "Dazzi",
+    "unique": false,
+    "combos": [
+      [
+        "Dinossom",
+        "Flambelle"
+      ],
+      [
+        "Direhowl",
+        "Grintale"
+      ],
+      [
+        "Eikthyrdeer",
+        "Lovander"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Chikipi",
+      "Kitsun"
+    ],
+    "child": "Cawgnito",
+    "unique": false,
+    "combos": [
+      [
+        "Chikipi",
+        "Kitsun"
+      ],
+      [
+        "Flopie",
+        "Lovander"
+      ],
+      [
+        "Azurobe",
+        "Daedream"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Arsox",
+      "Menasting"
+    ],
+    "child": "Petallia",
+    "unique": false,
+    "combos": [
+      [
+        "Arsox",
+        "Menasting"
+      ],
+      [
+        "Caprity",
+        "Wumpo"
+      ],
+      [
+        "Elizabee",
+        "Vanwyrm"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Blazehowl",
+      "Dinossom"
+    ],
+    "child": "Tarantriss",
+    "unique": false,
+    "combos": [
+      [
+        "Blazehowl",
+        "Dinossom"
+      ],
+      [
+        "Elizabee",
+        "Kitsun"
+      ],
+      [
+        "Sibelyx",
+        "Vanwyrm"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Galeclaw",
+      "Incineram"
+    ],
+    "child": "Elgrove",
+    "unique": false,
+    "combos": [
+      [
+        "Galeclaw",
+        "Incineram"
+      ],
+      [
+        "Arsox",
+        "Petallia"
+      ],
+      [
+        "Blazehowl",
+        "Bristla"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Kitsun",
+      "Vanwyrm"
+    ],
+    "child": "Polapup",
+    "unique": false,
+    "combos": [
+      [
+        "Kitsun",
+        "Vanwyrm"
+      ],
+      [
+        "Lovander",
+        "Nitemary"
+      ],
+      [
+        "Reptyro",
+        "Robinquill"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Bristla",
+      "Wumpo"
+    ],
+    "child": "Smokie",
+    "unique": false,
+    "combos": [
+      [
+        "Bristla",
+        "Wumpo"
+      ],
+      [
+        "Bushi",
+        "Fenglope"
+      ],
+      [
+        "Dumud",
+        "Nitemary"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Arsox",
+      "Incineram"
+    ],
+    "child": "Valentail",
+    "unique": false,
+    "combos": [
+      [
+        "Arsox",
+        "Incineram"
+      ],
+      [
+        "Dinossom",
+        "Vanwyrm"
+      ],
+      [
+        "Grintale",
+        "Kitsun"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Beegarde",
+      "Vanwyrm"
+    ],
+    "child": "Souffline",
+    "unique": false,
+    "combos": [
+      [
+        "Beegarde",
+        "Vanwyrm"
+      ],
+      [
+        "Bushi",
+        "Surfent"
+      ],
+      [
+        "Chillet",
+        "Kitsun"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Arsox",
+      "Clovee"
+    ],
+    "child": "Jelliette",
+    "unique": false,
+    "combos": [
+      [
+        "Arsox",
+        "Clovee"
+      ],
+      [
+        "Bristla",
+        "Caprity"
+      ],
+      [
+        "Celaray",
+        "Nitewing"
+      ]
+    ]
   }
 ]

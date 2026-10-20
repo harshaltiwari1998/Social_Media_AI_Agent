@@ -23,6 +23,47 @@ def _youtube_safe(text: str) -> str:
     """YouTube rejects titles/descriptions containing "<" or ">" (400 invalidDescription)."""
     return text.replace(">", "-").replace("<", "-")
 
+
+# YouTube allows 500 characters of tags in total; a tag with spaces counts its quotes too, plus a comma between tags.
+_TAG_BUDGET = 495
+_GAMING_TAGS = [
+    "gaming", "gameplay", "video games", "gamer", "HarryBeast Gaming", "gaming shorts", "game guide",
+    "tips and tricks", "gaming news", "walkthrough", "PC gaming", "PS5", "Xbox", "lets play", "best games",
+    "new games", "trending games", "gaming community", "game tips", "shorts", "gaming video", "game review",
+    "beginner guide", "pro tips", "gaming tips", "open world games", "action games", "boss fight", "game facts",
+    "gaming channel", "indian gamer", "HarryBeast", "game update", "gaming 2026",
+]
+_MOVIE_TAGS = [
+    "Bollywood", "Hindi movies", "movie news", "Bollywood news", "box office", "movie facts", "film facts",
+    "Indian cinema", "entertainment", "new movies", "movie review", "Bollywood facts", "Hindi", "cinema",
+    "films", "South movies", "celebrity news", "trending", "viral", "shorts", "Bollywood movies", "Hindi film",
+    "film news", "Hindi cinema", "movie trivia", "latest movies", "upcoming movies", "Indian movies", "OTT release",
+    "blockbuster", "superhit movies", "Bollywood actors", "Hindi reels", "Name Writer",
+]
+
+
+def _tag_cost(tags: list[str]) -> int:
+    return sum(len(t) + (2 if " " in t else 0) for t in tags) + max(len(tags) - 1, 0)
+
+
+def fill_tags(tags: list[str] | None, title: str = "", text: str = "", movies: bool = False) -> list[str]:
+    """The given tags first, then the title's parts, the text's hashtags and a topic pool, up to YouTube's 500 characters."""
+    candidates = list(tags or [])
+    candidates += [p.strip() for p in title.split("|")]
+    candidates += re.findall(r"#(\w+)", text)
+    candidates += _MOVIE_TAGS if movies else _GAMING_TAGS
+    out: list[str] = []
+    seen: set[str] = set()
+    for tag in candidates:
+        tag = re.sub(r"[<>,\"]", "", tag).strip()
+        if not tag or len(tag) > 60 or tag.lower() in seen:
+            continue
+        if _tag_cost(out + [tag]) > _TAG_BUDGET:
+            continue  # a shorter tag later in the list may still fit
+        out.append(tag)
+        seen.add(tag.lower())
+    return out
+
 class YouTubePoster(SocialPoster):
     """Uploads shorts to one YouTube channel via the Data API v3 (OAuth installed-app flow).
 
@@ -35,6 +76,9 @@ class YouTubePoster(SocialPoster):
         self.platform = platform
         self._token_file = token_file
         self._category_id = category_id
+
+    def _is_movies(self, snippet: dict) -> bool:
+        return self.platform == "youtube_movies" or str(snippet.get("categoryId")) == "24"
 
     def _token_path(self) -> Path:
         path = Path(self._token_file or settings.youtube_token_file)
@@ -108,8 +152,7 @@ class YouTubePoster(SocialPoster):
 
         # "#Shorts" in the description helps YouTube file vertical <60s videos under Shorts.
         snippet = {"title": title, "description": f"{caption}\n\n#Shorts", "categoryId": self._category_id or settings.youtube_category_id}
-        if tags:
-            snippet["tags"] = tags
+        snippet["tags"] = fill_tags(tags, title, caption, movies=self._is_movies(snippet))
 
         request = youtube.videos().insert(
             part="snippet,status",
@@ -145,8 +188,7 @@ class YouTubePoster(SocialPoster):
                 "description": _youtube_safe(description)[:4900],
                 "categoryId": self._category_id or settings.youtube_category_id,
             }
-            if tags:
-                snippet["tags"] = tags
+            snippet["tags"] = fill_tags(tags, title, description, movies=self._is_movies(snippet))
             response = youtube.videos().insert(
                 part="snippet,status",
                 body={"snippet": snippet, "status": {"privacyStatus": "public", "selfDeclaredMadeForKids": False}},

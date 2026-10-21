@@ -2139,5 +2139,39 @@
       ],
       "unique": false
     }
+  },
+  "Caprity": {
+    "spec": "scripts/specs/palworld_caprity.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-26808ab3.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Caprity",
+      "caption": "3 ways to breed Caprity in Palworld 1.0: Arsox + Tanzee, Flopie + Nitewing, Gobfin + Leezpunk.",
+      "video_script": "Here are three ways to breed Caprity in Palworld one point zero. Combo one: breed Arsox with Tanzee on your Breeding Farm, then add a cake. Combo two: pair Flopie and Nitewing together, and you get the same egg. Combo three: Gobfin plus Leezpunk works too, so use whichever Pals you have. Every egg hatches into Caprity. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Arsox",
+        "Tanzee"
+      ],
+      "combos": [
+        [
+          "Arsox",
+          "Tanzee"
+        ],
+        [
+          "Flopie",
+          "Nitewing"
+        ],
+        [
+          "Gobfin",
+          "Leezpunk"
+        ]
+      ],
+      "child": "Caprity",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
   }
 }

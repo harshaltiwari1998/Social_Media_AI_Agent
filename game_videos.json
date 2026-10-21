@@ -1295,5 +1295,33 @@
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-1eefe245.mp4",
     "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-1eefe245-thumb.jpg",
     "chapters": "0:00 Hogwarts की दुनिया\n0:33 किताबों से शुरुआत\n1:09 पहली film - 2001\n1:58 तीनों मुख्य कलाकार\n2:41 बदलते directors\n3:24 बाद की films\n4:08 आखिरी किताब, दो films\n4:52 आठ films की सूची\n5:40 अब HBO की नई series\n6:30 नई टीम के बड़े नाम\n7:12 आपकी राय"
+  },
+  "switch-sports-resort": {
+    "spec": "scripts/specs/games/new_13_switch-sports-resort.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-4a1e0046.mp4"
+  },
+  "age-of-empires-2-cheats": {
+    "spec": "scripts/specs/games/classic_15_age-of-empires-2-cheats.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ab72e96e.mp4"
+  },
+  "sonic-the-hedgehog": {
+    "spec": "scripts/specs/games/classic_16_sonic-the-hedgehog.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b943f90c.mp4"
+  },
+  "dhanush-om": {
+    "spec": "scripts/specs/movies/movie_new_15_dhanush-om.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f2180520.mp4"
+  },
+  "heart-of-the-beast-box-office": {
+    "spec": "scripts/specs/movies/movie_review_14_heart-of-the-beast-box-office.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-d25ecc89.mp4"
+  },
+  "reel-12th-fail-facts": {
+    "spec": "scripts/specs/movies/reel_37_12th-fail-facts.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-30c40b88.mp4"
+  },
+  "aniimo-element-type-chart": {
+    "spec": "scripts/specs/games/aniimo_11_aniimo-element-type-chart.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-7eba55b5.mp4"
   }
 }

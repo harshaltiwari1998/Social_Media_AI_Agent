@@ -1,7 +1,7 @@
 name: Daily long videos
 
-# Two long-form (16:9, ~6-10 min) videos a day: 1 gaming video in English -> HarryBeast
-# Gaming YouTube, and 1 movie video in Hindi -> Name Writer YouTube + Facebook. Specs live
+# Three long-form (16:9, ~6-10 min) videos a day: 2 gaming videos in English -> HarryBeast
+# Gaming YouTube + the gaming Facebook Page, and 1 movie video in Hindi -> Name Writer YouTube + Facebook. Specs live
 # in backend/scripts/specs/long/. Shares the "daily-gaming" concurrency group with the
 # shorts workflow so the two never write the gaming-state branch at the same time.
 on:
@@ -9,8 +9,11 @@ on:
     - cron: "30 12 * * *" # 18:00 IST
   workflow_dispatch:
     inputs:
-      per_category:
-        description: "Long videos per category (gaming, movies)"
+      gaming:
+        description: "Long gaming videos"
+        default: "2"
+      movies:
+        description: "Long movie videos"
         default: "1"
 
 concurrency:
@@ -23,7 +26,7 @@ permissions:
 jobs:
   long:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    timeout-minutes: 240
     defaults:
       run:
         working-directory: backend
@@ -81,10 +84,14 @@ jobs:
           YOUTUBE_CATEGORY_ID: "20"
           YOUTUBE_MOVIES_CATEGORY_ID: "24"
           PYTHONUNBUFFERED: "1"
-        run: >-
-          python scripts/daily_job.py --skip-trends
-          --new-games 0 --classic-games 0 --new-palworld 0 --new-movies 0 --movie-reviews 0
-          --long-videos "${{ github.event.inputs.per_category || '1' }}"
+        run: |
+          # Both runs always happen; the step fails if either one did (health check in daily_job.py).
+          status=0
+          python scripts/daily_job.py --skip-trends --new-games 0 --classic-games 0 --new-palworld 0 --new-movies 0 --movie-reviews 0 \
+            --long-videos "${{ github.event.inputs.gaming || '2' }}" --long-category gaming || status=1
+          python scripts/daily_job.py --skip-trends --new-games 0 --classic-games 0 --new-palworld 0 --new-movies 0 --movie-reviews 0 \
+            --long-videos "${{ github.event.inputs.movies || '1' }}" --long-category movies || status=1
+          exit $status
 
       - name: Save posting state
         if: always()

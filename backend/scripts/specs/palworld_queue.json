@@ -1136,5 +1136,445 @@
         "Nitewing"
       ]
     ]
+  },
+  {
+    "parents": [
+      "Chikipi",
+      "Lifmunk"
+    ],
+    "child": "Lamball",
+    "unique": false,
+    "combos": [
+      [
+        "Chikipi",
+        "Lifmunk"
+      ],
+      [
+        "Jolthog",
+        "Teafant"
+      ],
+      [
+        "Mau",
+        "Vixy"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Chikipi",
+      "Tanzee"
+    ],
+    "child": "Foxparks",
+    "unique": false,
+    "combos": [
+      [
+        "Chikipi",
+        "Tanzee"
+      ],
+      [
+        "Clovee",
+        "Sparkit"
+      ],
+      [
+        "Daedream",
+        "Teafant"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Chikipi",
+      "Depresso"
+    ],
+    "child": "Mau",
+    "unique": false,
+    "combos": [
+      [
+        "Chikipi",
+        "Depresso"
+      ],
+      [
+        "Jolthog",
+        "Lamball"
+      ],
+      [
+        "Lifmunk",
+        "Vixy"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Chikipi",
+      "Fuack"
+    ],
+    "child": "Jolthog",
+    "unique": false,
+    "combos": [
+      [
+        "Chikipi",
+        "Fuack"
+      ],
+      [
+        "Depresso",
+        "Vixy"
+      ],
+      [
+        "Foxparks",
+        "Teafant"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Chikipi",
+      "Mozzarina"
+    ],
+    "child": "Hoocrates",
+    "unique": false,
+    "combos": [
+      [
+        "Chikipi",
+        "Mozzarina"
+      ],
+      [
+        "Clovee",
+        "Daedream"
+      ],
+      [
+        "Cremis",
+        "Foxparks"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Cattiva",
+      "Lifmunk"
+    ],
+    "child": "Cremis",
+    "unique": false,
+    "combos": [
+      [
+        "Cattiva",
+        "Lifmunk"
+      ],
+      [
+        "Celaray",
+        "Mau"
+      ],
+      [
+        "Chikipi",
+        "Flambelle"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Cattiva",
+      "Chikipi"
+    ],
+    "child": "Nox",
+    "unique": false,
+    "combos": [
+      [
+        "Cattiva",
+        "Chikipi"
+      ],
+      [
+        "Clovee",
+        "Rooby"
+      ],
+      [
+        "Cremis",
+        "Gumoss"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Bristla",
+      "Foxparks"
+    ],
+    "child": "Swee",
+    "unique": false,
+    "combos": [
+      [
+        "Bristla",
+        "Foxparks"
+      ],
+      [
+        "Caprity",
+        "Teafant"
+      ],
+      [
+        "Cattiva",
+        "Daedream"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Bristla",
+      "Pengullet"
+    ],
+    "child": "Woolipop",
+    "unique": false,
+    "combos": [
+      [
+        "Bristla",
+        "Pengullet"
+      ],
+      [
+        "Caprity",
+        "Mau"
+      ],
+      [
+        "Cattiva",
+        "Rushoar"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Caprity",
+      "Sparkit"
+    ],
+    "child": "Kelpsea",
+    "unique": false,
+    "combos": [
+      [
+        "Caprity",
+        "Sparkit"
+      ],
+      [
+        "Cattiva",
+        "Ribbuny"
+      ],
+      [
+        "Celaray",
+        "Rushoar"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Bristla",
+      "Cremis"
+    ],
+    "child": "Fuddler",
+    "unique": false,
+    "combos": [
+      [
+        "Bristla",
+        "Cremis"
+      ],
+      [
+        "Caprity",
+        "Clovee"
+      ],
+      [
+        "Cattiva",
+        "Woolipop"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Chikipi",
+      "Ribbuny"
+    ],
+    "child": "Clovee",
+    "unique": false,
+    "combos": [
+      [
+        "Chikipi",
+        "Ribbuny"
+      ],
+      [
+        "Cremis",
+        "Lamball"
+      ],
+      [
+        "Daedream",
+        "Jolthog"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Arsox",
+      "Dumud"
+    ],
+    "child": "Kikit",
+    "unique": false,
+    "combos": [
+      [
+        "Arsox",
+        "Dumud"
+      ],
+      [
+        "Bushi",
+        "Lamball"
+      ],
+      [
+        "Clovee",
+        "Vanwyrm"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Bushi",
+      "Hoocrates"
+    ],
+    "child": "Wispaw",
+    "unique": false,
+    "combos": [
+      [
+        "Bushi",
+        "Hoocrates"
+      ],
+      [
+        "Incineram",
+        "Jolthog"
+      ],
+      [
+        "Kitsun",
+        "Woolipop"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Kitsun",
+      "Lamball"
+    ],
+    "child": "Puffolt",
+    "unique": false,
+    "combos": [
+      [
+        "Kitsun",
+        "Lamball"
+      ],
+      [
+        "Teafant",
+        "Vanwyrm"
+      ],
+      [
+        "Azurobe",
+        "Cremis"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Bushi",
+      "Pyrin"
+    ],
+    "child": "Hoodle",
+    "unique": false,
+    "combos": [
+      [
+        "Bushi",
+        "Pyrin"
+      ],
+      [
+        "Eikthyrdeer",
+        "Wumpo"
+      ],
+      [
+        "Incineram",
+        "Penking"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Broncherry",
+      "Kitsun"
+    ],
+    "child": "Shroomer",
+    "unique": false,
+    "combos": [
+      [
+        "Broncherry",
+        "Kitsun"
+      ],
+      [
+        "Bushi",
+        "Vaelet"
+      ],
+      [
+        "Felbat",
+        "Incineram"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Azurobe",
+      "Kitsun"
+    ],
+    "child": "Slowatt",
+    "unique": false,
+    "combos": [
+      [
+        "Azurobe",
+        "Kitsun"
+      ],
+      [
+        "Broncherry",
+        "Grintale"
+      ],
+      [
+        "Dumud",
+        "Quivern"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Bushi",
+      "Flambelle"
+    ],
+    "child": "Munchill",
+    "unique": false,
+    "combos": [
+      [
+        "Bushi",
+        "Flambelle"
+      ],
+      [
+        "Caprity",
+        "Vanwyrm"
+      ],
+      [
+        "Fuddler",
+        "Incineram"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Arsox",
+      "Lovander"
+    ],
+    "child": "Dazemu",
+    "unique": false,
+    "combos": [
+      [
+        "Arsox",
+        "Lovander"
+      ],
+      [
+        "Bushi",
+        "Kelpsea"
+      ],
+      [
+        "Cattiva",
+        "Vanwyrm"
+      ]
+    ]
   }
 ]

@@ -2173,5 +2173,685 @@
       ],
       "unique": false
     }
+  },
+  "Dazemu": {
+    "spec": "scripts/specs/palworld_dazemu.json",
+    "video": "F:\\AI AGENT\\run_pal1021\\videos\\short-52df0974.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Dazemu",
+      "caption": "3 ways to breed Dazemu in Palworld 1.0: Arsox + Lovander, Bushi + Kelpsea, Cattiva + Vanwyrm.",
+      "video_script": "Here are three ways to breed Dazemu in Palworld one point zero. Combo one: breed Arsox with Lovander on your Breeding Farm, then add a cake. Combo two: pair Bushi and Kelpsea together, and you get the same egg. Combo three: Cattiva plus Vanwyrm works too, so use whichever Pals you have. Every egg hatches into Dazemu. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Arsox",
+        "Lovander"
+      ],
+      "combos": [
+        [
+          "Arsox",
+          "Lovander"
+        ],
+        [
+          "Bushi",
+          "Kelpsea"
+        ],
+        [
+          "Cattiva",
+          "Vanwyrm"
+        ]
+      ],
+      "child": "Dazemu",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
+  },
+  "Munchill": {
+    "spec": "scripts/specs/palworld_munchill.json",
+    "video": "F:\\AI AGENT\\run_pal1021\\videos\\short-1d792daa.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Munchill",
+      "caption": "3 ways to breed Munchill in Palworld 1.0: Bushi + Flambelle, Caprity + Vanwyrm, Fuddler + Incineram.",
+      "video_script": "Here are three ways to breed Munchill in Palworld one point zero. Combo one: breed Bushi with Flambelle on your Breeding Farm, then add a cake. Combo two: pair Caprity and Vanwyrm together, and you get the same egg. Combo three: Fuddler plus Incineram works too, so use whichever Pals you have. Every egg hatches into Munchill. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Bushi",
+        "Flambelle"
+      ],
+      "combos": [
+        [
+          "Bushi",
+          "Flambelle"
+        ],
+        [
+          "Caprity",
+          "Vanwyrm"
+        ],
+        [
+          "Fuddler",
+          "Incineram"
+        ]
+      ],
+      "child": "Munchill",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
+  },
+  "Slowatt": {
+    "spec": "scripts/specs/palworld_slowatt.json",
+    "video": "F:\\AI AGENT\\run_pal1021\\videos\\short-d846cb71.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Slowatt",
+      "caption": "3 ways to breed Slowatt in Palworld 1.0: Azurobe + Kitsun, Broncherry + Grintale, Dumud + Quivern.",
+      "video_script": "Here are three ways to breed Slowatt in Palworld one point zero. Combo one: breed Azurobe with Kitsun on your Breeding Farm, then add a cake. Combo two: pair Broncherry and Grintale together, and you get the same egg. Combo three: Dumud plus Quivern works too, so use whichever Pals you have. Every egg hatches into Slowatt. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Azurobe",
+        "Kitsun"
+      ],
+      "combos": [
+        [
+          "Azurobe",
+          "Kitsun"
+        ],
+        [
+          "Broncherry",
+          "Grintale"
+        ],
+        [
+          "Dumud",
+          "Quivern"
+        ]
+      ],
+      "child": "Slowatt",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Shroomer": {
+    "spec": "scripts/specs/palworld_shroomer.json",
+    "video": "F:\\AI AGENT\\run_pal1021\\videos\\short-7e78fd59.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Shroomer",
+      "caption": "3 ways to breed Shroomer in Palworld 1.0: Broncherry + Kitsun, Bushi + Vaelet, Felbat + Incineram.",
+      "video_script": "Here are three ways to breed Shroomer in Palworld one point zero. Combo one: breed Broncherry with Kitsun on your Breeding Farm, then add a cake. Combo two: pair Bushi and Vaelet together, and you get the same egg. Combo three: Felbat plus Incineram works too, so use whichever Pals you have. Every egg hatches into Shroomer. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Broncherry",
+        "Kitsun"
+      ],
+      "combos": [
+        [
+          "Broncherry",
+          "Kitsun"
+        ],
+        [
+          "Bushi",
+          "Vaelet"
+        ],
+        [
+          "Felbat",
+          "Incineram"
+        ]
+      ],
+      "child": "Shroomer",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Hoodle": {
+    "spec": "scripts/specs/palworld_hoodle.json",
+    "video": "F:\\AI AGENT\\run_pal1021\\videos\\short-cc5c6b6b.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Hoodle",
+      "caption": "3 ways to breed Hoodle in Palworld 1.0: Bushi + Pyrin, Eikthyrdeer + Wumpo, Incineram + Penking.",
+      "video_script": "Here are three ways to breed Hoodle in Palworld one point zero. Combo one: breed Bushi with Pyrin on your Breeding Farm, then add a cake. Combo two: pair Eikthyrdeer and Wumpo together, and you get the same egg. Combo three: Incineram plus Penking works too, so use whichever Pals you have. Every egg hatches into Hoodle. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Bushi",
+        "Pyrin"
+      ],
+      "combos": [
+        [
+          "Bushi",
+          "Pyrin"
+        ],
+        [
+          "Eikthyrdeer",
+          "Wumpo"
+        ],
+        [
+          "Incineram",
+          "Penking"
+        ]
+      ],
+      "child": "Hoodle",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
+  },
+  "Puffolt": {
+    "spec": "scripts/specs/palworld_puffolt.json",
+    "video": "F:\\AI AGENT\\run_pal1021\\videos\\short-d20bcba8.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Puffolt",
+      "caption": "3 ways to breed Puffolt in Palworld 1.0: Kitsun + Lamball, Teafant + Vanwyrm, Azurobe + Cremis.",
+      "video_script": "Here are three ways to breed Puffolt in Palworld one point zero. Combo one: breed Kitsun with Lamball on your Breeding Farm, then add a cake. Combo two: pair Teafant and Vanwyrm together, and you get the same egg. Combo three: Azurobe plus Cremis works too, so use whichever Pals you have. Every egg hatches into Puffolt. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Kitsun",
+        "Lamball"
+      ],
+      "combos": [
+        [
+          "Kitsun",
+          "Lamball"
+        ],
+        [
+          "Teafant",
+          "Vanwyrm"
+        ],
+        [
+          "Azurobe",
+          "Cremis"
+        ]
+      ],
+      "child": "Puffolt",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
+  },
+  "Wispaw": {
+    "spec": "scripts/specs/palworld_wispaw.json",
+    "video": "F:\\AI AGENT\\run_pal1021\\videos\\short-2dd221bd.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Wispaw",
+      "caption": "3 ways to breed Wispaw in Palworld 1.0: Bushi + Hoocrates, Incineram + Jolthog, Kitsun + Woolipop.",
+      "video_script": "Here are three ways to breed Wispaw in Palworld one point zero. Combo one: breed Bushi with Hoocrates on your Breeding Farm, then add a cake. Combo two: pair Incineram and Jolthog together, and you get the same egg. Combo three: Kitsun plus Woolipop works too, so use whichever Pals you have. Every egg hatches into Wispaw. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Bushi",
+        "Hoocrates"
+      ],
+      "combos": [
+        [
+          "Bushi",
+          "Hoocrates"
+        ],
+        [
+          "Incineram",
+          "Jolthog"
+        ],
+        [
+          "Kitsun",
+          "Woolipop"
+        ]
+      ],
+      "child": "Wispaw",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
+  },
+  "Kikit": {
+    "spec": "scripts/specs/palworld_kikit.json",
+    "video": "F:\\AI AGENT\\run_pal1021\\videos\\short-9b461ea5.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Kikit",
+      "caption": "3 ways to breed Kikit in Palworld 1.0: Arsox + Dumud, Bushi + Lamball, Clovee + Vanwyrm.",
+      "video_script": "Here are three ways to breed Kikit in Palworld one point zero. Combo one: breed Arsox with Dumud on your Breeding Farm, then add a cake. Combo two: pair Bushi and Lamball together, and you get the same egg. Combo three: Clovee plus Vanwyrm works too, so use whichever Pals you have. Every egg hatches into Kikit. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Arsox",
+        "Dumud"
+      ],
+      "combos": [
+        [
+          "Arsox",
+          "Dumud"
+        ],
+        [
+          "Bushi",
+          "Lamball"
+        ],
+        [
+          "Clovee",
+          "Vanwyrm"
+        ]
+      ],
+      "child": "Kikit",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Clovee": {
+    "spec": "scripts/specs/palworld_clovee.json",
+    "video": "F:\\AI AGENT\\run_pal1021\\videos\\short-010d8502.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Clovee",
+      "caption": "3 ways to breed Clovee in Palworld 1.0: Chikipi + Ribbuny, Cremis + Lamball, Daedream + Jolthog.",
+      "video_script": "Here are three ways to breed Clovee in Palworld one point zero. Combo one: breed Chikipi with Ribbuny on your Breeding Farm, then add a cake. Combo two: pair Cremis and Lamball together, and you get the same egg. Combo three: Daedream plus Jolthog works too, so use whichever Pals you have. Every egg hatches into Clovee. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Chikipi",
+        "Ribbuny"
+      ],
+      "combos": [
+        [
+          "Chikipi",
+          "Ribbuny"
+        ],
+        [
+          "Cremis",
+          "Lamball"
+        ],
+        [
+          "Daedream",
+          "Jolthog"
+        ]
+      ],
+      "child": "Clovee",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Fuddler": {
+    "spec": "scripts/specs/palworld_fuddler.json",
+    "video": "F:\\AI AGENT\\run_pal1021\\videos\\short-549eeeb1.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Fuddler",
+      "caption": "3 ways to breed Fuddler in Palworld 1.0: Bristla + Cremis, Caprity + Clovee, Cattiva + Woolipop.",
+      "video_script": "Here are three ways to breed Fuddler in Palworld one point zero. Combo one: breed Bristla with Cremis on your Breeding Farm, then add a cake. Combo two: pair Caprity and Clovee together, and you get the same egg. Combo three: Cattiva plus Woolipop works too, so use whichever Pals you have. Every egg hatches into Fuddler. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Bristla",
+        "Cremis"
+      ],
+      "combos": [
+        [
+          "Bristla",
+          "Cremis"
+        ],
+        [
+          "Caprity",
+          "Clovee"
+        ],
+        [
+          "Cattiva",
+          "Woolipop"
+        ]
+      ],
+      "child": "Fuddler",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
+  },
+  "Kelpsea": {
+    "spec": "scripts/specs/palworld_kelpsea.json",
+    "video": "F:\\AI AGENT\\run_pal1021\\videos\\short-fb583897.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Kelpsea",
+      "caption": "3 ways to breed Kelpsea in Palworld 1.0: Caprity + Sparkit, Cattiva + Ribbuny, Celaray + Rushoar.",
+      "video_script": "Here are three ways to breed Kelpsea in Palworld one point zero. Combo one: breed Caprity with Sparkit on your Breeding Farm, then add a cake. Combo two: pair Cattiva and Ribbuny together, and you get the same egg. Combo three: Celaray plus Rushoar works too, so use whichever Pals you have. Every egg hatches into Kelpsea. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Caprity",
+        "Sparkit"
+      ],
+      "combos": [
+        [
+          "Caprity",
+          "Sparkit"
+        ],
+        [
+          "Cattiva",
+          "Ribbuny"
+        ],
+        [
+          "Celaray",
+          "Rushoar"
+        ]
+      ],
+      "child": "Kelpsea",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
+  },
+  "Woolipop": {
+    "spec": "scripts/specs/palworld_woolipop.json",
+    "video": "F:\\AI AGENT\\run_pal1021\\videos\\short-0f843e73.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Woolipop",
+      "caption": "3 ways to breed Woolipop in Palworld 1.0: Bristla + Pengullet, Caprity + Mau, Cattiva + Rushoar.",
+      "video_script": "Here are three ways to breed Woolipop in Palworld one point zero. Combo one: breed Bristla with Pengullet on your Breeding Farm, then add a cake. Combo two: pair Caprity and Mau together, and you get the same egg. Combo three: Cattiva plus Rushoar works too, so use whichever Pals you have. Every egg hatches into Woolipop. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Bristla",
+        "Pengullet"
+      ],
+      "combos": [
+        [
+          "Bristla",
+          "Pengullet"
+        ],
+        [
+          "Caprity",
+          "Mau"
+        ],
+        [
+          "Cattiva",
+          "Rushoar"
+        ]
+      ],
+      "child": "Woolipop",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
+  },
+  "Swee": {
+    "spec": "scripts/specs/palworld_swee.json",
+    "video": "F:\\AI AGENT\\run_pal1021\\videos\\short-c16b8654.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Swee",
+      "caption": "3 ways to breed Swee in Palworld 1.0: Bristla + Foxparks, Caprity + Teafant, Cattiva + Daedream.",
+      "video_script": "Here are three ways to breed Swee in Palworld one point zero. Combo one: breed Bristla with Foxparks on your Breeding Farm, then add a cake. Combo two: pair Caprity and Teafant together, and you get the same egg. Combo three: Cattiva plus Daedream works too, so use whichever Pals you have. Every egg hatches into Swee. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Bristla",
+        "Foxparks"
+      ],
+      "combos": [
+        [
+          "Bristla",
+          "Foxparks"
+        ],
+        [
+          "Caprity",
+          "Teafant"
+        ],
+        [
+          "Cattiva",
+          "Daedream"
+        ]
+      ],
+      "child": "Swee",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Nox": {
+    "spec": "scripts/specs/palworld_nox.json",
+    "video": "F:\\AI AGENT\\run_pal1021\\videos\\short-1c737413.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Nox",
+      "caption": "3 ways to breed Nox in Palworld 1.0: Cattiva + Chikipi, Clovee + Rooby, Cremis + Gumoss.",
+      "video_script": "Here are three ways to breed Nox in Palworld one point zero. Combo one: breed Cattiva with Chikipi on your Breeding Farm, then add a cake. Combo two: pair Clovee and Rooby together, and you get the same egg. Combo three: Cremis plus Gumoss works too, so use whichever Pals you have. Every egg hatches into Nox. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Cattiva",
+        "Chikipi"
+      ],
+      "combos": [
+        [
+          "Cattiva",
+          "Chikipi"
+        ],
+        [
+          "Clovee",
+          "Rooby"
+        ],
+        [
+          "Cremis",
+          "Gumoss"
+        ]
+      ],
+      "child": "Nox",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Cremis": {
+    "spec": "scripts/specs/palworld_cremis.json",
+    "video": "F:\\AI AGENT\\run_pal1021\\videos\\short-729d2a1a.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Cremis",
+      "caption": "3 ways to breed Cremis in Palworld 1.0: Cattiva + Lifmunk, Celaray + Mau, Chikipi + Flambelle.",
+      "video_script": "Here are three ways to breed Cremis in Palworld one point zero. Combo one: breed Cattiva with Lifmunk on your Breeding Farm, then add a cake. Combo two: pair Celaray and Mau together, and you get the same egg. Combo three: Chikipi plus Flambelle works too, so use whichever Pals you have. Every egg hatches into Cremis. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Cattiva",
+        "Lifmunk"
+      ],
+      "combos": [
+        [
+          "Cattiva",
+          "Lifmunk"
+        ],
+        [
+          "Celaray",
+          "Mau"
+        ],
+        [
+          "Chikipi",
+          "Flambelle"
+        ]
+      ],
+      "child": "Cremis",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
+  },
+  "Hoocrates": {
+    "spec": "scripts/specs/palworld_hoocrates.json",
+    "video": "F:\\AI AGENT\\run_pal1021\\videos\\short-d6ed59d3.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Hoocrates",
+      "caption": "3 ways to breed Hoocrates in Palworld 1.0: Chikipi + Mozzarina, Clovee + Daedream, Cremis + Foxparks.",
+      "video_script": "Here are three ways to breed Hoocrates in Palworld one point zero. Combo one: breed Chikipi with Mozzarina on your Breeding Farm, then add a cake. Combo two: pair Clovee and Daedream together, and you get the same egg. Combo three: Cremis plus Foxparks works too, so use whichever Pals you have. Every egg hatches into Hoocrates. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Chikipi",
+        "Mozzarina"
+      ],
+      "combos": [
+        [
+          "Chikipi",
+          "Mozzarina"
+        ],
+        [
+          "Clovee",
+          "Daedream"
+        ],
+        [
+          "Cremis",
+          "Foxparks"
+        ]
+      ],
+      "child": "Hoocrates",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
+  },
+  "Jolthog": {
+    "spec": "scripts/specs/palworld_jolthog.json",
+    "video": "F:\\AI AGENT\\run_pal1021\\videos\\short-3abdde3e.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Jolthog",
+      "caption": "3 ways to breed Jolthog in Palworld 1.0: Chikipi + Fuack, Depresso + Vixy, Foxparks + Teafant.",
+      "video_script": "Here are three ways to breed Jolthog in Palworld one point zero. Combo one: breed Chikipi with Fuack on your Breeding Farm, then add a cake. Combo two: pair Depresso and Vixy together, and you get the same egg. Combo three: Foxparks plus Teafant works too, so use whichever Pals you have. Every egg hatches into Jolthog. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Chikipi",
+        "Fuack"
+      ],
+      "combos": [
+        [
+          "Chikipi",
+          "Fuack"
+        ],
+        [
+          "Depresso",
+          "Vixy"
+        ],
+        [
+          "Foxparks",
+          "Teafant"
+        ]
+      ],
+      "child": "Jolthog",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
+  },
+  "Mau": {
+    "spec": "scripts/specs/palworld_mau.json",
+    "video": "F:\\AI AGENT\\run_pal1021\\videos\\short-a67f3bb8.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Mau",
+      "caption": "3 ways to breed Mau in Palworld 1.0: Chikipi + Depresso, Jolthog + Lamball, Lifmunk + Vixy.",
+      "video_script": "Here are three ways to breed Mau in Palworld one point zero. Combo one: breed Chikipi with Depresso on your Breeding Farm, then add a cake. Combo two: pair Jolthog and Lamball together, and you get the same egg. Combo three: Lifmunk plus Vixy works too, so use whichever Pals you have. Every egg hatches into Mau. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Chikipi",
+        "Depresso"
+      ],
+      "combos": [
+        [
+          "Chikipi",
+          "Depresso"
+        ],
+        [
+          "Jolthog",
+          "Lamball"
+        ],
+        [
+          "Lifmunk",
+          "Vixy"
+        ]
+      ],
+      "child": "Mau",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Foxparks": {
+    "spec": "scripts/specs/palworld_foxparks.json",
+    "video": "F:\\AI AGENT\\run_pal1021\\videos\\short-617398b5.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Foxparks",
+      "caption": "3 ways to breed Foxparks in Palworld 1.0: Chikipi + Tanzee, Clovee + Sparkit, Daedream + Teafant.",
+      "video_script": "Here are three ways to breed Foxparks in Palworld one point zero. Combo one: breed Chikipi with Tanzee on your Breeding Farm, then add a cake. Combo two: pair Clovee and Sparkit together, and you get the same egg. Combo three: Daedream plus Teafant works too, so use whichever Pals you have. Every egg hatches into Foxparks. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Chikipi",
+        "Tanzee"
+      ],
+      "combos": [
+        [
+          "Chikipi",
+          "Tanzee"
+        ],
+        [
+          "Clovee",
+          "Sparkit"
+        ],
+        [
+          "Daedream",
+          "Teafant"
+        ]
+      ],
+      "child": "Foxparks",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Lamball": {
+    "spec": "scripts/specs/palworld_lamball.json",
+    "video": "F:\\AI AGENT\\run_pal1021\\videos\\short-5e6a7b10.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Lamball",
+      "caption": "3 ways to breed Lamball in Palworld 1.0: Chikipi + Lifmunk, Jolthog + Teafant, Mau + Vixy.",
+      "video_script": "Here are three ways to breed Lamball in Palworld one point zero. Combo one: breed Chikipi with Lifmunk on your Breeding Farm, then add a cake. Combo two: pair Jolthog and Teafant together, and you get the same egg. Combo three: Mau plus Vixy works too, so use whichever Pals you have. Every egg hatches into Lamball. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Chikipi",
+        "Lifmunk"
+      ],
+      "combos": [
+        [
+          "Chikipi",
+          "Lifmunk"
+        ],
+        [
+          "Jolthog",
+          "Teafant"
+        ],
+        [
+          "Mau",
+          "Vixy"
+        ]
+      ],
+      "child": "Lamball",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
   }
 }

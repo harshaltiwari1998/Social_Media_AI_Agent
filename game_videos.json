@@ -1327,5 +1327,26 @@
   "palworld-guide-pal-sphere-unlock-levels": {
     "spec": "scripts/specs/games/palguide_44_pal-sphere-unlock-levels.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5c890b93.mp4"
+  },
+  "tekken-franchise-history": {
+    "spec": "scripts/specs/long/gaming_11_tekken-franchise-history.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-3aadd995.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-3aadd995-thumb.jpg",
+    "chapters": "0:00 The King of Iron Fist\n0:45 Nineteen ninety four: the first Tekken\n1:18 Tekken 2 and the family drama\n1:53 Tekken 3 changes everything\n2:41 The PlayStation 2 years\n3:19 Tekken 5 and Tekken 6\n3:57 Tag teams and free to play\n4:36 Tekken 7 and the guests\n5:15 Guinness World Records\n5:51 Tekken 8\n6:40 Your favourite fighter"
+  },
+  "street-fighter-franchise-history": {
+    "spec": "scripts/specs/long/gaming_12_street-fighter-franchise-history.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-761804f3.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-761804f3-thumb.jpg",
+    "chapters": "0:00 The world warriors\n0:42 Nineteen eighty seven: the first Street Fighter\n1:27 Between two games\n2:09 Nineteen ninety one: Street Fighter Two\n2:56 The Street Fighter Two family\n3:41 Alpha, Three and the nineties\n4:24 Evo Moment Thirty Seven\n5:10 Street Fighter Four returns\n5:51 Street Fighter Five\n6:33 Street Fighter Six\n7:16 Your main"
+  },
+  "aamir-khan-safar": {
+    "spec": "scripts/specs/long/movies_11_aamir-khan-safar.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-44c2f7dc.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-44c2f7dc-thumb.jpg",
+    "chapters": "0:00 Aamir Khan की कहानी\n0:41 बचपन और पहला कदम\n1:21 Qayamat Se Qayamat Tak - 1988\n2:02 Lagaan और Oscar\n2:48 सम्मान: Padma Shri और Padma Bhushan\n3:15 Taare Zameen Par - 2007\n3:50 3 Idiots और Satyamev Jayate\n4:51 Dangal - 2016\n5:25 Laal Singh Chaddha - 2022\n6:04 Sitaare Zameen Par - 2025\n6:36 आपकी राय"
   }
 }

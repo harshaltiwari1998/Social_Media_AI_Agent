@@ -1323,5 +1323,9 @@
   "aniimo-element-type-chart": {
     "spec": "scripts/specs/games/aniimo_11_aniimo-element-type-chart.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-7eba55b5.mp4"
+  },
+  "palworld-guide-pal-sphere-unlock-levels": {
+    "spec": "scripts/specs/games/palguide_44_pal-sphere-unlock-levels.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5c890b93.mp4"
   }
 }

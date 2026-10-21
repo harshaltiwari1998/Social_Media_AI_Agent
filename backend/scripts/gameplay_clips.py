@@ -204,20 +204,26 @@ def build(plan: dict, only: str | None = None) -> Path:
 
 
 # ---------- upload ----------
+# Shorts go to the gaming YouTube channel and the gaming Facebook Page + Instagram; long videos skip Instagram.
+TARGETS = {"short": ("youtube", "facebook_gaming", "instagram_gaming"), "long": ("youtube", "facebook_gaming")}
+_YT_LIMIT = ("uploadLimitExceeded", "Quota exceeded", "rateLimitExceeded")
+
+
 def upload(plan: dict, limit: int | None = None, long_limit: int | None = None,
            short_limit: int | None = None) -> dict[str, int]:
-    """Post unposted clips (longs first); returns how many longs/shorts went up. The limits cap one run, so a
-    stream's clips spread over several days - a burst of dozens of uploads in one day gets far less reach."""
+    """Post unposted clips (longs first); returns how many longs/shorts went up on YouTube. The limits cap one run,
+    so a stream's clips spread over several days - a burst of dozens of uploads in one day gets far less reach."""
     from app.pipeline import store
     from app.pipeline.orchestrator import _POSTERS
 
-    yt = _POSTERS["youtube"]
     dest = OUT / plan["name"]
     tags = plan.get("tags", [])
+    hashtags = " ".join(f"#{t.replace(' ', '')}" for t in tags[:6])
+    tag = plan.get("title_tag", "")
     done = 0
     posted = {"long": 0, "short": 0}
     caps = {"long": long_limit, "short": short_limit}
-    tag = plan.get("title_tag", "")
+    yt_blocked = False
     jobs = [("long", n, lv) for n, lv in enumerate(plan.get("longs", []), 1)]
     jobs += [("short", n, s) for n, s in enumerate(plan.get("shorts", []), 1)]
     for kind, n, item in jobs:
@@ -226,30 +232,45 @@ def upload(plan: dict, limit: int | None = None, long_limit: int | None = None,
         if caps[kind] is not None and posted[kind] >= caps[kind]:
             continue
         trend_id = f"gameplay:{plan['name']}:{kind}{n:02d}"
-        if store.already_posted(trend_id, "youtube"):
+        todo = [p for p in TARGETS[kind] if _POSTERS[p].is_configured() and not store.already_posted(trend_id, p)]
+        if not todo:
             continue
         video = dest / (f"short_{n:02d}.mp4" if kind == "short" else f"long_{n}.mp4")
         if not video.exists():
             print(f"missing {video} - run build first")
             continue
+        title = item["title"]
+        if tag and tag.lower() not in title.lower():
+            title = f"{title} | {tag}"  # the game's name in the title - it is what people search for
         if kind == "short":
-            text = (f"{item['title']}\n{plan['game']} gameplay from my live stream - full stream on the channel.\n"
-                    + " ".join(f"#{t.replace(' ', '')}" for t in tags[:6]))
-            result = yt.post_video(str(video), text, tags=tags)
+            text = f"{title}\n{plan['game']} gameplay from my live stream - full stream on the channel.\n{hashtags}"
         else:
             chapters = (dest / f"long_{n}_chapters.txt").read_text(encoding="utf-8")
-            desc = f"{item.get('description', '')}\n\nChapters:\n{chapters}\n\n" + " ".join(f"#{t.replace(' ', '')}" for t in tags[:8])
-            thumb = dest / f"long_{n}_thumb.jpg"
-            result = yt.post_long_video(str(video), title, desc, tags, str(thumb) if thumb.exists() else None)
-        store.record_post(trend_id, "youtube", result.post_id, result.dry_run)
-        print(f"{kind} {n}: {'ok ' + (result.url or '') if result.success else 'FAILED ' + str(result.error)[:200]}", flush=True)
-        if not result.success:
-            if any(k in (result.error or "") for k in ("uploadLimitExceeded", "Quota exceeded", "rateLimitExceeded")):
-                print("YouTube daily upload limit reached - run upload again tomorrow")
-                return posted
-            continue
-        done += 1
-        posted[kind] += 1
+            text = (f"{item.get('description', '')}\n\nChapters:\n{chapters}\n\n"
+                    + " ".join(f"#{t.replace(' ', '')}" for t in tags[:8]))
+        for platform in todo:
+            if platform == "youtube" and yt_blocked:
+                continue
+            poster = _POSTERS[platform]
+            if platform == "youtube" and kind == "long":
+                thumb = dest / f"long_{n}_thumb.jpg"
+                result = poster.post_long_video(str(video), title, text, tags, str(thumb) if thumb.exists() else None)
+            elif kind == "long":
+                result = poster.post_video(str(video), f"{title}\n\n{text}", tags=tags)
+            else:
+                result = poster.post_video(str(video), text, tags=tags)
+            store.record_post(trend_id, platform, result.post_id, result.dry_run)
+            print(f"{kind} {n} {platform}: {'ok ' + (result.url or result.post_id or '') if result.success else 'FAILED ' + str(result.error)[:200]}", flush=True)
+            if platform == "youtube":
+                if result.success:
+                    done += 1
+                    posted[kind] += 1
+                elif any(k in (result.error or "") for k in _YT_LIMIT):
+                    print("YouTube daily upload limit reached - the rest goes up next run")
+                    yt_blocked = True
+        if yt_blocked and all(store.already_posted(trend_id, p) for p in todo if p != "youtube"):
+            # YouTube is done for today; stop once the other platforms have caught up on this clip
+            break
     return posted
 
 

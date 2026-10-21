@@ -235,7 +235,7 @@ def post_id_for(spec: dict) -> str:
 
 
 def default_platforms(spec: dict) -> list[str]:
-    return spec.get("platforms") or (["youtube"] if spec.get("category", "gaming") == "gaming" else ["youtube_movies", "facebook"])
+    return spec.get("platforms") or (["youtube", "facebook_gaming"] if spec.get("category", "gaming") == "gaming" else ["youtube_movies", "facebook"])
 
 
 def description_for(spec: dict, chapters: str) -> str:

@@ -39,6 +39,10 @@ class Settings(BaseSettings):
     meta_page_id: str | None = Field(default=None, alias="META_PAGE_ID")
     meta_ig_user_id: str | None = Field(default=None, alias="META_IG_USER_ID")
     meta_access_token: str | None = Field(default=None, alias="META_ACCESS_TOKEN")
+    # Second Facebook Page + Instagram account for gaming (platforms "facebook_gaming" / "instagram_gaming").
+    meta_gaming_page_id: str | None = Field(default=None, alias="META_GAMING_PAGE_ID")
+    meta_gaming_ig_user_id: str | None = Field(default=None, alias="META_GAMING_IG_USER_ID")
+    meta_gaming_access_token: str | None = Field(default=None, alias="META_GAMING_ACCESS_TOKEN")
     twitter_api_key: str | None = Field(default=None, alias="TWITTER_API_KEY")
     twitter_api_secret: str | None = Field(default=None, alias="TWITTER_API_SECRET")
     twitter_access_token: str | None = Field(default=None, alias="TWITTER_ACCESS_TOKEN")

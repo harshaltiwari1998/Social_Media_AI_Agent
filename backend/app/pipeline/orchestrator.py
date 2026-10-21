@@ -61,6 +61,8 @@ def platforms_for(idea: dict[str, Any]) -> list[str]:
 _POSTERS: dict[str, SocialPoster] = {
     "facebook": FacebookPoster(),
     "instagram": InstagramPoster(),
+    "facebook_gaming": FacebookPoster("facebook_gaming", settings.meta_gaming_page_id, settings.meta_gaming_access_token),
+    "instagram_gaming": InstagramPoster("instagram_gaming", settings.meta_gaming_ig_user_id, settings.meta_gaming_access_token),
     "twitter": TwitterPoster(),
     "youtube": YouTubePoster(),  # gaming channel
     "youtube_movies": YouTubePoster(

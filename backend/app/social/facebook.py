@@ -11,16 +11,28 @@ _GRAPH_API = "https://graph.facebook.com/v19.0"
 class FacebookPoster(SocialPoster):
     """Posts to a Facebook Page via the Graph API (direct file upload, no public URL needed)."""
 
-    platform = "facebook"
+    def __init__(self, platform: str = "facebook", page_id: str | None = None, access_token: str | None = None) -> None:
+        # page_id / access_token pick a second Page (e.g. the gaming page); default is the main Page from settings.
+        self.platform = platform
+        self._page_id = page_id
+        self._token = access_token
+
+    @property
+    def page_id(self) -> str | None:
+        return self._page_id if self.platform != "facebook" else (self._page_id or settings.meta_page_id)
+
+    @property
+    def token(self) -> str | None:
+        return self._token if self.platform != "facebook" else (self._token or settings.meta_access_token)
 
     def is_configured(self) -> bool:
-        return bool(settings.meta_page_id and settings.meta_access_token)
+        return bool(self.page_id and self.token)
 
     def _post_image(self, image_path: str, caption: str, tags: list[str] | None = None) -> PostResult:
         with open(image_path, "rb") as f:
             response = httpx.post(
-                f"{_GRAPH_API}/{settings.meta_page_id}/photos",
-                data={"caption": caption, "access_token": settings.meta_access_token},
+                f"{_GRAPH_API}/{self.page_id}/photos",
+                data={"caption": caption, "access_token": self.token},
                 files={"source": f},
                 timeout=60.0,
             )
@@ -29,8 +41,8 @@ class FacebookPoster(SocialPoster):
     def _post_video(self, video_path: str, caption: str, tags: list[str] | None = None) -> PostResult:
         with open(video_path, "rb") as f:
             response = httpx.post(
-                f"{_GRAPH_API}/{settings.meta_page_id}/videos",
-                data={"description": caption, "access_token": settings.meta_access_token},
+                f"{_GRAPH_API}/{self.page_id}/videos",
+                data={"description": caption, "access_token": self.token},
                 files={"source": f},
                 timeout=1800.0,  # long-form videos can be a few hundred MB
             )
@@ -40,7 +52,7 @@ class FacebookPoster(SocialPoster):
         try:
             response = httpx.get(
                 f"{_GRAPH_API}/{post_id}",
-                params={"fields": "id", "access_token": settings.meta_access_token},
+                params={"fields": "id", "access_token": self.token},
                 timeout=30.0,
             )
             return response.is_success and "id" in response.json()

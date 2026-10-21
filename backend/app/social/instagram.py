@@ -24,10 +24,22 @@ class InstagramPoster(SocialPoster):
     quick tunnel that stays open until Instagram has fetched and published it.
     """
 
-    platform = "instagram"
+    def __init__(self, platform: str = "instagram", ig_user_id: str | None = None, access_token: str | None = None) -> None:
+        # ig_user_id / access_token pick a second account (e.g. the gaming one); default is the main account.
+        self.platform = platform
+        self._ig_user_id = ig_user_id
+        self._token = access_token
+
+    @property
+    def ig_user_id(self) -> str | None:
+        return self._ig_user_id if self.platform != "instagram" else (self._ig_user_id or settings.meta_ig_user_id)
+
+    @property
+    def token(self) -> str | None:
+        return self._token if self.platform != "instagram" else (self._token or settings.meta_access_token)
 
     def is_configured(self) -> bool:
-        return bool(settings.meta_ig_user_id and settings.meta_access_token)
+        return bool(self.ig_user_id and self.token)
 
     @contextmanager
     def _public_url(self, local_path: str) -> Iterator[str]:
@@ -47,8 +59,8 @@ class InstagramPoster(SocialPoster):
         try:
             with self._public_url(str(jpeg_path)) as image_url:
                 creation = httpx.post(
-                    f"{_GRAPH_API}/{settings.meta_ig_user_id}/media",
-                    data={"image_url": image_url, "caption": caption, "access_token": settings.meta_access_token},
+                    f"{_GRAPH_API}/{self.ig_user_id}/media",
+                    data={"image_url": image_url, "caption": caption, "access_token": self.token},
                     timeout=60.0,
                 ).json()
                 return self._publish_container(creation)
@@ -59,12 +71,12 @@ class InstagramPoster(SocialPoster):
         # The URL must stay reachable until processing finishes, so publish inside the block.
         with self._public_url(video_path) as video_url:
             creation = httpx.post(
-                f"{_GRAPH_API}/{settings.meta_ig_user_id}/media",
+                f"{_GRAPH_API}/{self.ig_user_id}/media",
                 data={
                     "media_type": "REELS",
                     "video_url": video_url,
                     "caption": caption,
-                    "access_token": settings.meta_access_token,
+                    "access_token": self.token,
                 },
                 timeout=60.0,
             ).json()
@@ -84,7 +96,7 @@ class InstagramPoster(SocialPoster):
         try:
             response = httpx.get(
                 f"{_GRAPH_API}/{post_id}",
-                params={"fields": "id", "access_token": settings.meta_access_token},
+                params={"fields": "id", "access_token": self.token},
                 timeout=30.0,
             )
             return response.is_success and "id" in response.json()
@@ -96,7 +108,7 @@ class InstagramPoster(SocialPoster):
         while time.monotonic() < deadline:
             status = httpx.get(
                 f"{_GRAPH_API}/{creation_id}",
-                params={"fields": "status_code", "access_token": settings.meta_access_token},
+                params={"fields": "status_code", "access_token": self.token},
                 timeout=30.0,
             ).json()
             if status.get("status_code") == "FINISHED":
@@ -109,8 +121,8 @@ class InstagramPoster(SocialPoster):
             error = creation.get("error", {}).get("message", str(creation))
             return PostResult(platform=self.platform, success=False, dry_run=False, error=error)
         publish = httpx.post(
-            f"{_GRAPH_API}/{settings.meta_ig_user_id}/media_publish",
-            data={"creation_id": creation["id"], "access_token": settings.meta_access_token},
+            f"{_GRAPH_API}/{self.ig_user_id}/media_publish",
+            data={"creation_id": creation["id"], "access_token": self.token},
             timeout=60.0,
         ).json()
         if "id" in publish:

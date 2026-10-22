@@ -1376,5 +1376,9 @@
   "aniimo-level-up-fast": {
     "spec": "scripts/specs/games/aniimo_12_aniimo-level-up-fast.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-fb744f9c.mp4"
+  },
+  "palworld-guide-soralite-location": {
+    "spec": "scripts/specs/games/palguide_52_soralite-location.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-4a7cc1ea.mp4"
   }
 }

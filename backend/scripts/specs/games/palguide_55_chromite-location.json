@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-chromite-location",
+  "slot": "palguide",
+  "order": 55,
+  "headline": "Where to find Chromite in Palworld",
+  "title": "Where to Find Chromite | Hidden Metal Guide | Palworld Guide",
+  "video_script": "Chromite is hidden metal that you mostly find on Feybreak Island in Palworld one point zero, inside caves, dungeons and boss arenas. You can't see it normally, so craft the Metal Detector and walk around until the nodes reveal themselves. Then mine them with a pickaxe. Bring a Smokie, because its skill boosts how much Chromite you get. Combine it with Hexolite Quartz to make Hexolite. Which Pal do you bring mining? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:13",
+      "label": "Chromite"
+    },
+    {
+      "image": "pal:Smokie",
+      "fact": "Bring a Smokie",
+      "sub": "Boosts Chromite mined"
+    },
+    {
+      "image": "steam:1623730:14",
+      "fact": "Metal Detector",
+      "sub": "Reveals hidden nodes"
+    },
+    {
+      "image": "pal:Silvegis",
+      "fact": "Feybreak caves",
+      "sub": "Dungeons and boss arenas"
+    }
+  ],
+  "description": "Palworld 1.0 Chromite guide: farm it on Feybreak with the Metal Detector, bring a Smokie for extra yield, and use it to make Hexolite.",
+  "hashtags": [
+    "Palworld",
+    "PalworldChromite",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Chromite",
+    "Palworld Metal Detector",
+    "Palworld Smokie",
+    "Palworld Feybreak",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld tips"
+  ]
+}

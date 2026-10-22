@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-technology-points",
+  "slot": "palguide",
+  "order": 60,
+  "headline": "Palworld technology points explained",
+  "title": "Technology Points vs Ancient Points | Palworld Guide",
+  "video_script": "Confused by two kinds of points in Palworld one point zero? Regular Technology Points unlock normal items and come from things like activating fast travel points. Ancient Technology Points unlock the powerful late game gear and mostly come from defeating bosses. They are scarce, and some of the best items cost several each, so do not waste them early. Plan your spending before you click. What will you unlock first? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:8",
+      "label": "Technology Points"
+    },
+    {
+      "image": "steam:1623730:10",
+      "fact": "Fast travel",
+      "sub": "Gives Technology Points"
+    },
+    {
+      "image": "pal:Lyleen",
+      "fact": "Boss fights",
+      "sub": "Give Ancient Points"
+    },
+    {
+      "image": "steam:1623730:12",
+      "fact": "Spend wisely",
+      "sub": "Ancient Points are scarce"
+    }
+  ],
+  "description": "Palworld 1.0 technology: regular Technology Points come from fast travel points, while scarce Ancient Technology Points come from bosses.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTechnology",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld technology points",
+    "Palworld ancient technology points",
+    "Palworld tech tree",
+    "Palworld bosses",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld tips"
+  ]
+}

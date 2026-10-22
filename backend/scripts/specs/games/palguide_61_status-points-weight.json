@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-status-points-weight",
+  "slot": "palguide",
+  "order": 61,
+  "headline": "Best Palworld status points",
+  "title": "Where to Put Status Points | Weight First | Palworld Guide",
+  "video_script": "Where should your status points go in Palworld one point zero? Many guides say put early points into Weight, not Attack. Each point adds fifty carrying capacity, and aiming for around six hundred to eight hundred means far fewer trips hauling loot. Attack adds only a little per point, and your Pals do most of the fighting anyway. Weight first, then rethink your build later. Where do you put your points? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:13",
+      "label": "Status Points"
+    },
+    {
+      "image": "pal:Mammorest",
+      "fact": "Weight first",
+      "sub": "Haul more loot"
+    },
+    {
+      "image": "steam:1623730:2",
+      "fact": "600 to 800",
+      "sub": "Good carry capacity"
+    },
+    {
+      "image": "pal:Lamball",
+      "fact": "Skip Attack early",
+      "sub": "Pals do the fighting"
+    }
+  ],
+  "description": "Palworld 1.0 status points: invest early points in Weight for around 600 to 800 carrying capacity instead of Attack.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld status points",
+    "Palworld weight",
+    "Palworld carry capacity",
+    "Palworld beginner tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld tips"
+  ]
+}

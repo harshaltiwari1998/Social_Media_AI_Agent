@@ -1,0 +1,44 @@
+{
+  "id": "cod4-modern-warfare",
+  "slot": "classic",
+  "order": 28,
+  "headline": "Call of Duty 4 - Modern Warfare",
+  "title": "Call of Duty 4 Modern Warfare 2007 | Series Turning Point | Classic Games",
+  "video_script": "Call of Duty four changed the series. Modern Warfare was developed by Infinity Ward and published by Activision, and it launched in North America on November fifth, two thousand seven. It broke away from World War Two and moved the series into a modern setting, starting the Modern Warfare line. Which mission still stays with you? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Call of Duty 4: Modern Warfare",
+      "label": "Call of Duty 4"
+    },
+    {
+      "image": "wiki:Call of Duty 4: Modern Warfare",
+      "fact": "5 Nov 2007",
+      "sub": "North America release"
+    },
+    {
+      "image": "wiki:Call of Duty 4: Modern Warfare",
+      "fact": "Infinity Ward",
+      "sub": "Published by Activision"
+    },
+    {
+      "image": "wiki:Call of Duty 4: Modern Warfare",
+      "fact": "Modern setting",
+      "sub": "Left World War II behind"
+    }
+  ],
+  "description": "Call of Duty 4: Modern Warfare was released in North America on November 5, 2007, developed by Infinity Ward and published by Activision, moving the series to a modern setting.",
+  "hashtags": [
+    "CallOfDuty",
+    "ClassicGames",
+    "ModernWarfare"
+  ],
+  "tags": [
+    "Call of Duty 4",
+    "Modern Warfare",
+    "Infinity Ward",
+    "Activision",
+    "classic games",
+    "FPS",
+    "CoD4"
+  ]
+}

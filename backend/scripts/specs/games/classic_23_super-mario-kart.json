@@ -1,0 +1,44 @@
+{
+  "id": "super-mario-kart",
+  "slot": "classic",
+  "order": 23,
+  "headline": "Super Mario Kart - the first Mario Kart",
+  "title": "Super Mario Kart 1992 | Where Mario Kart Began | Classic Games",
+  "video_script": "Mario Kart began on the Super Nintendo. Super Mario Kart was developed and published by Nintendo and released in Japan on August twenty seventh, nineteen ninety two. It was the very first game in the Mario Kart series, with two player racing, item boxes and shell battles that fans still love today. Which Mario Kart is your favourite? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Super Mario Kart",
+      "label": "Super Mario Kart"
+    },
+    {
+      "image": "wiki:Super Mario Kart",
+      "fact": "27 Aug 1992",
+      "sub": "Released in Japan"
+    },
+    {
+      "image": "wiki:Super Mario Kart",
+      "fact": "Nintendo",
+      "sub": "Developer and publisher"
+    },
+    {
+      "image": "wiki:Super Mario Kart",
+      "fact": "First Mario Kart",
+      "sub": "On the Super Nintendo"
+    }
+  ],
+  "description": "Super Mario Kart launched on the Super Nintendo in Japan on August 27, 1992, developed and published by Nintendo as the first game in the Mario Kart series.",
+  "hashtags": [
+    "MarioKart",
+    "ClassicGames",
+    "Nintendo"
+  ],
+  "tags": [
+    "Super Mario Kart",
+    "Mario Kart",
+    "Nintendo",
+    "SNES",
+    "classic games",
+    "retro gaming",
+    "Mario history"
+  ]
+}

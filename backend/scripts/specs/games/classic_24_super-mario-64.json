@@ -1,0 +1,44 @@
+{
+  "id": "super-mario-64",
+  "slot": "classic",
+  "order": 24,
+  "headline": "Super Mario 64 - Mario enters 3D",
+  "title": "Super Mario 64 1996 | Mario Goes 3D | Classic Games",
+  "video_script": "Mario stepped into a new dimension with Super Mario 64. Developed and published by Nintendo for the Nintendo sixty four, it was released in Japan on June twenty third, nineteen ninety six. It was the first Super Mario game with three D graphics, set in a big open world of paintings and Power Stars. Which course was your favourite? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Super Mario 64",
+      "label": "Super Mario 64"
+    },
+    {
+      "image": "wiki:Super Mario 64",
+      "fact": "23 Jun 1996",
+      "sub": "Released in Japan"
+    },
+    {
+      "image": "wiki:Super Mario 64",
+      "fact": "Nintendo 64",
+      "sub": "Developed by Nintendo"
+    },
+    {
+      "image": "wiki:Super Mario 64",
+      "fact": "First 3D Mario",
+      "sub": "Open world and Power Stars"
+    }
+  ],
+  "description": "Super Mario 64 launched in Japan on June 23, 1996 for the Nintendo 64, developed and published by Nintendo, and was the first Super Mario game with 3D graphics.",
+  "hashtags": [
+    "SuperMario64",
+    "ClassicGames",
+    "Nintendo64"
+  ],
+  "tags": [
+    "Super Mario 64",
+    "Nintendo 64",
+    "Mario",
+    "Nintendo",
+    "classic games",
+    "retro gaming",
+    "3D platformer"
+  ]
+}

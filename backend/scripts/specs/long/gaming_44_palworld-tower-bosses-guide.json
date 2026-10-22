@@ -1,0 +1,118 @@
+{
+  "id": "palworld-tower-bosses-guide",
+  "category": "gaming",
+  "order": 44,
+  "title": "Palworld Tower Bosses Guide | All Nine Fights, Levels and Weaknesses | Palworld Guide",
+  "description": "Every Palworld 1.0 tower boss from Zoe and Grizzbolt to Zenara and Astralym: levels, locations, armor, weaknesses, the five minute timer, the six defense modules and Hard Mode.",
+  "hashtags": [
+    "Palworld",
+    "PalworldGuide",
+    "TowerBoss"
+  ],
+  "tags": [
+    "Palworld tower bosses",
+    "Palworld 1.0",
+    "Palworld boss guide",
+    "Palworld Zenara",
+    "Palworld Auri Shaolong",
+    "Palworld Bastigor",
+    "Palworld Hard Mode",
+    "Palworld guide"
+  ],
+  "thumbnail": {
+    "image": "steam:1623730:1",
+    "text": "ALL 9 TOWER BOSSES"
+  },
+  "sections": [
+    {
+      "heading": "Nine towers, one goal",
+      "script": "Palworld one point zero has nine tower bosses, and they are the backbone of your progress. Each one is a trainer with a powerful Pal, a different element and a very different arena. Beat them in order and you walk a path from the starting grasslands all the way to the World Tree. In this guide we go through every fight with a new angle: the levels you can expect, the places you must travel to, the gear you need to survive the trip, and a few habits that make these fights easier. The guide is based on up to date one point zero sources. Where those sources disagree on a number, I will say roughly, so you are never misled. Let's climb the first tower.",
+      "images": [
+        "steam:1623730:1",
+        "pal:Grizzbolt",
+        "pal:Shaolong"
+      ]
+    },
+    {
+      "heading": "Rules every fight shares",
+      "script": "Before the first fight, learn the rules that every tower shares. Tower battles have a five minute time limit in one point zero, half of the ten minutes you got in early access. That makes every fight a damage check, so bring Pals that hit the boss's weakness. The arenas include pillars, and guides agree that standing behind a pillar can block big attacks like lightning and beams. Another handy habit is recalling your Pal back into its sphere when a huge attack is about to land, then sending it out again. Guides suggest following the towers in order, because the boss levels climb steadily and give you a natural path to follow. Use those levels as a guide to how strong your team should be. The first boss is level ten, and the last regular boss is level sixty eight.",
+      "images": [
+        "steam:1623730:2",
+        "steam:1623730:3",
+        "pal:Lyleen"
+      ]
+    },
+    {
+      "heading": "Zoe and Lily, levels ten and twenty",
+      "script": "Your first two fights are gentle. Zoe and Grizzbolt wait in a tower in the Windswept Hills, near the starting area. Grizzbolt is a level ten Electric boss, so bring Ground Pals, and use the arena pillars to block its lightning. Next comes Lily with Lyleen, a level twenty Grass boss, so bring Fire Pals. Lyleen can heal itself during the fight, and that matters with a five minute limit, so burst it down with burn damage instead of a slow fight. Guides agree that an early Fire Pal like Foxparks is enough to get started, as long as you have leveled it. These two fights teach the main idea of the towers: know the element, bring the counter and keep dodging.",
+      "images": [
+        "steam:1623730:4",
+        "pal:Grizzbolt",
+        "pal:Lyleen"
+      ]
+    },
+    {
+      "heading": "Axel and Marcus, levels thirty and forty",
+      "script": "Now the journey gets harder, because the towers are in harsh places. Axel and Orserk wait on Mount Obsidian, a volcano, where you want heat resistant armor for the climb. Orserk is a level thirty Electric and Dragon boss, and the guides recommend both Ground and Ice Pals. Then comes Marcus and Faleris in the Desiccated Desert, a level forty Fire boss, so bring Water Pals. Jormuntide is the most suggested counter, and Azurobe is another good one. Heat resistant gear helps during the day, but the desert gets cold at night, so either plan your trip or bring cold resistant gear too. Punish Orserk after its big attacks, and use a pillar against the fire tornadoes of Faleris.",
+      "images": [
+        "steam:1623730:5",
+        "pal:Orserk",
+        "pal:Faleris"
+      ]
+    },
+    {
+      "heading": "Victor and Saya, levels fifty and fifty five",
+      "script": "The next two bosses share a nice secret. Victor and Shadowbeak wait in the Astral Mountains, a snowy region where cold resistant armor is a must. Shadowbeak is a level fifty Dark boss with a large health pool, so strong Dragon Pals and a powerful ranged weapon help. Then comes Saya and Selyne, who wait at Sakurajima. Selyne is also a Dark Pal and also weak to Dragon, so the team you used on Victor can be reused straight away. Sources differ on its level, from about fifty five to sixty, so just make sure you are comfortable before you go. Watch for its long range beams and dodge behind a pillar when you see them coming.",
+      "images": [
+        "steam:1623730:6",
+        "pal:Shadowbeak",
+        "pal:Selyne"
+      ]
+    },
+    {
+      "heading": "Bjorn and Bastigor at Feybreak",
+      "script": "Bjorn and Bastigor wait at the Feybreak Tower in the Feybreak region, which you reach after the Palpagos towers. Most guides put Bastigor at about level sixty, although one lists seventy, so treat it as a level sixty to seventy fight. Bastigor is an Ice Pal, so Fire is the answer, and a full Fire team is wise because this boss has a very large health bar. Keep moving, because its heavy area attacks and freezing effects punish anyone who stands still, and avoid standing right in front of it. Guides also warn that the difficulty spikes here, so do not arrive under leveled. Beating Bjorn opens the way to the sky islands of Sunreach.",
+      "images": [
+        "steam:1623730:7",
+        "pal:Bastigor",
+        "steam:1623730:8"
+      ]
+    },
+    {
+      "heading": "Auri and Shaolong in Sunreach",
+      "script": "Sunreach is a group of sky islands, and Auri's tower is the most protected one. Auri and Shaolong sit at the level sixty eight fight, the last of the faction towers. Before you can reach Auri, you must disable the six defense modules scattered around Sunreach, which opens the path through the whirlwind around her tower. Shaolong is Water and Dragon, so the guides recommend Electric and Ice Pals. Bring a strong flying mount for the trip, because the islands are far apart. This is also the fight that makes the whole tower line complete. Defeat Auri and Shaolong and you will have cleared every regular faction tower, and the last big fight of the endgame, with the World Tree beyond it, comes into view. It is a proud moment for any trainer.",
+      "images": [
+        "steam:1623730:9",
+        "pal:Shaolong",
+        "steam:1623730:10"
+      ]
+    },
+    {
+      "heading": "Hard Mode",
+      "script": "Here is something many players miss. According to guides, defeating Auri and Shaolong unlocks Hard Mode for the tower fights. That means you can go back to earlier towers and fight tougher versions of the same bosses. It is a great way to test your improved team, and it gives you something to do after the main path is done. Do not rush into it, though. Expect them to demand strong Pals with good passive skills and strong gear. A good approach is to start with the easiest tower, learn how much your team can deal, and then climb the ladder again, using the same elemental counters that worked the first time.",
+      "images": [
+        "steam:1623730:11",
+        "pal:Grizzbolt",
+        "steam:1623730:12"
+      ]
+    },
+    {
+      "heading": "Zenara and Astralym, level eighty",
+      "script": "The final fight is Zenara and Astralym at the Sealed Sanctum of the World Tree, and it is a level eighty battle. Astralym is typeless, which means it has no element and no weakness at all. You cannot rely on a type counter, so you need raw power. Before you can fight, you need to clear all eight faction towers and move the main story forward. Guides say to bring your best Awakened Pals, the strongest weapons you can craft and full endgame armor. Because of the five minute timer, a team with high damage and good passive skills matters far more than the right type. Take your time, level up first, and treat this fight as a real exam.",
+      "images": [
+        "steam:1623730:5",
+        "pal:Astralym",
+        "steam:1623730:6"
+      ]
+    },
+    {
+      "heading": "Your tower plan",
+      "script": "Let's put it together. Bring Ground Pals for Grizzbolt, Fire for Lyleen, Ground and Ice for Orserk, Water for Faleris, Dragon for both Shadowbeak and Selyne, Fire for Bastigor, Electric and Ice for Shaolong, and raw power for Astralym. Pack heat armor for the volcano and the desert, cold armor for the snow, and remember the five minute timer. Use pillars and recall your Pal when a big attack comes. Now it is your turn. Which tower boss was the hardest for you, and did you find a team that beat it fast? Tell us in the comments. If this guide helped, like the video and subscribe for more Palworld guides. Good luck, trainer.",
+      "images": [
+        "steam:1623730:7",
+        "pal:Lyleen",
+        "pal:Shaolong"
+      ]
+    }
+  ]
+}

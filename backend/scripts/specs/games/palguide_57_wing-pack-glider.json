@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-wing-pack-glider",
+  "slot": "palguide",
+  "order": 57,
+  "headline": "Palworld Wing Pack glider",
+  "title": "Wing Pack Glider Explained | How to Unlock | Palworld Guide",
+  "video_script": "Want the new glider in Palworld one point zero? The Wing Pack unlocks at level eighty, the level cap. Open the Technology menu and unlock both the Wing Pack and the Wing Cell, because the cells fuel powered flight. You craft them at the Ancient Workbench. The hard part is Paloxite, which comes from the World Tree region, so unlock that area first. Spare cells let you boost across the map. Have you got your Wing Pack yet? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:2",
+      "label": "Wing Pack"
+    },
+    {
+      "image": "pal:Jetragon",
+      "fact": "Level eighty",
+      "sub": "Unlocks the Wing Pack"
+    },
+    {
+      "image": "steam:1623730:5",
+      "fact": "Wing Cells",
+      "sub": "Fuel for powered flight"
+    },
+    {
+      "image": "steam:1623730:7",
+      "fact": "Paloxite",
+      "sub": "Found at the World Tree"
+    }
+  ],
+  "description": "Palworld 1.0 Wing Pack glider: unlock at level 80, get the Wing Cell too, craft at the Ancient Workbench, and find Paloxite at the World Tree.",
+  "hashtags": [
+    "Palworld",
+    "PalworldGlider",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Wing Pack",
+    "Palworld glider",
+    "Palworld Wing Cell",
+    "Palworld Paloxite",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld tips"
+  ]
+}

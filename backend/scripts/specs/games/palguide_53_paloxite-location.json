@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-paloxite-location",
+  "slot": "palguide",
+  "order": 53,
+  "headline": "Where to find Paloxite in Palworld",
+  "title": "Where to Find Paloxite | World Tree Ore | Palworld Guide",
+  "video_script": "Paloxite is a pink glowing ore found in the World Tree in Palworld one point zero. The catch is that its nodes vanish when you walk up to them. Drink World Tree Holy Water first, and give some to your active Pal too, then mine fast with the Plasma Multicutter. One good trio of nodes sits near Dusty Ravine, around minus fifteen sixty, fifteen ten. Holy Water drops from World Tree Pals. Have you farmed Paloxite yet? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:9",
+      "label": "Paloxite"
+    },
+    {
+      "image": "pal:Aegidron",
+      "fact": "World Tree only",
+      "sub": "Pink glowing nodes"
+    },
+    {
+      "image": "steam:1623730:10",
+      "fact": "Holy Water",
+      "sub": "Stops nodes vanishing"
+    },
+    {
+      "image": "steam:1623730:12",
+      "fact": "Dusty Ravine",
+      "sub": "About -1560, 1510"
+    }
+  ],
+  "description": "Palworld 1.0 Paloxite guide: find it in the World Tree, use Holy Water so nodes stop vanishing, and mine with the Plasma Multicutter.",
+  "hashtags": [
+    "Palworld",
+    "PalworldPaloxite",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Paloxite",
+    "Palworld World Tree",
+    "Palworld Holy Water",
+    "Palworld ore locations",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld tips"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "gta-3",
+  "slot": "classic",
+  "order": 27,
+  "headline": "GTA 3 - the series goes 3D",
+  "title": "GTA 3 2001 | How Liberty City Changed Gaming | Classic Games",
+  "video_script": "GTA three changed open world games. Grand Theft Auto three was developed by DMA Design, now known as Rockstar North, and published by Rockstar Games. It arrived on PlayStation two in October two thousand one, and it was the first game in the series to move into a fully three D world. Which GTA three memory do you love most? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Grand Theft Auto III",
+      "label": "GTA 3"
+    },
+    {
+      "image": "wiki:Grand Theft Auto III",
+      "fact": "Oct 2001",
+      "sub": "PlayStation 2 release"
+    },
+    {
+      "image": "wiki:Grand Theft Auto III",
+      "fact": "Rockstar",
+      "sub": "Publisher, made by DMA Design"
+    },
+    {
+      "image": "wiki:Grand Theft Auto III",
+      "fact": "First 3D GTA",
+      "sub": "Liberty City open world"
+    }
+  ],
+  "description": "Grand Theft Auto III arrived on PlayStation 2 in October 2001, developed by DMA Design, now Rockstar North, and published by Rockstar Games.",
+  "hashtags": [
+    "GTA3",
+    "ClassicGames",
+    "PS2"
+  ],
+  "tags": [
+    "GTA 3",
+    "Grand Theft Auto III",
+    "Rockstar Games",
+    "PS2",
+    "classic games",
+    "retro gaming",
+    "DMA Design"
+  ]
+}

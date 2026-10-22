@@ -1,0 +1,44 @@
+{
+  "id": "half-life-1998",
+  "slot": "classic",
+  "order": 29,
+  "headline": "Half-Life - Valve's first game",
+  "title": "Half-Life 1998 | Valve Debut Facts | Classic Games",
+  "video_script": "Half-Life was the first game from Valve. It was released in nineteen ninety eight for Windows and published by Sierra. You play Gordon Freeman, a scientist trying to escape the Black Mesa Research Facility after an experiment goes wrong. By two thousand eight, it had sold more than nine million copies. Did you play Half-Life? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Half-Life (video game)",
+      "label": "Half-Life"
+    },
+    {
+      "image": "wiki:Half-Life (video game)",
+      "fact": "1998",
+      "sub": "Released for Windows"
+    },
+    {
+      "image": "wiki:Half-Life (video game)",
+      "fact": "Valve",
+      "sub": "Their first game, via Sierra"
+    },
+    {
+      "image": "wiki:Half-Life (video game)",
+      "fact": "9 million+",
+      "sub": "Copies sold by 2008"
+    }
+  ],
+  "description": "Half-Life was Valve's first game, released in 1998 for Windows and published by Sierra, and it had sold more than nine million copies by 2008.",
+  "hashtags": [
+    "HalfLife",
+    "ClassicGames",
+    "Valve"
+  ],
+  "tags": [
+    "Half-Life",
+    "Valve",
+    "Gordon Freeman",
+    "Black Mesa",
+    "classic games",
+    "PC gaming",
+    "Sierra"
+  ]
+}

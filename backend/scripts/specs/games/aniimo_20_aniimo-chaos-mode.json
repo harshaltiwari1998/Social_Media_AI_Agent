@@ -1,0 +1,44 @@
+{
+  "id": "aniimo-chaos-mode",
+  "slot": "aniimo",
+  "order": 20,
+  "headline": "Egg Heist Chaos Mode",
+  "title": "Aniimo Chaos Mode Explained | Hardest Egg Heist Tier | Aniimo Guide",
+  "video_script": "Want the toughest Egg Heist challenge in Aniimo? Chaos Mode arrived with version one point one. You need to reach Tier four of Elite Egg Seeker, and every run uses a Chaos Ticket. The risk is big, but so are the rewards, with higher drop rates for Prismana eggs and a chance at ultra rare secret collectibles. Teams are strongly recommended because the escape rules are strict. Would you brave Chaos Mode solo? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:13",
+      "label": "Egg Heist Chaos Mode"
+    },
+    {
+      "image": "steam:4126040:14",
+      "fact": "Tier IV",
+      "sub": "Elite Egg Seeker needed"
+    },
+    {
+      "image": "steam:4126040:15",
+      "fact": "Chaos Ticket",
+      "sub": "Used on every entry"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Prismana Eggs",
+      "sub": "Higher drop rates"
+    }
+  ],
+  "description": "Aniimo Chaos Mode, the hardest Operation: Egg Heist tier: needs Elite Egg Seeker Tier IV and a Chaos Ticket, with better Prismana egg drops.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Chaos Mode"
+  ]
+}

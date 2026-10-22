@@ -1,0 +1,52 @@
+{
+  "id": "comrade-kalyan-box-office",
+  "category": "movies",
+  "slot": "movie_review",
+  "order": 25,
+  "expires": "2026-11-12",
+  "headline": "Comrade Kalyan: Sree Vishnu ki comedy ka 12 din ka report",
+  "title": "Comrade Kalyan Box Office Day 12 | Sree Vishnu | Movie Review Hindi",
+  "video_script": "Sree Vishnu की Telugu comedy Comrade Kalyan, 9 October को release हुई. Sacnilk के मुताबिक 20 October यानी 12वें दिन तक India net collection करीब 13 करोड़ 82 लाख रुपये रहा, और worldwide gross 18 करोड़ 80 लाख. Koimoi ने भी 12 दिन में लगभग 13 करोड़ 73 लाख net बताया, और कहा कि दूसरे हफ्ते में film की रफ्तार धीमी हुई. Janakiram Marella ने इसे डायरेक्ट किया है. Reviews मिले-जुले हैं: comedy की तारीफ, दूसरे half पर सवाल. आपने देखी? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Comrade Kalyan",
+      "label": "Comrade Kalyan (2026)"
+    },
+    {
+      "image": "wiki:Comrade Kalyan",
+      "fact": "13.82 crore",
+      "sub": "India net, Day 12 - Sacnilk, 20 October"
+    },
+    {
+      "image": "wiki:Comrade Kalyan",
+      "fact": "13.73 crore",
+      "sub": "India net, 12 din - Koimoi, 21 October"
+    },
+    {
+      "image": "wiki:Comrade Kalyan",
+      "fact": "18.80 crore",
+      "sub": "Worldwide gross - Sacnilk"
+    },
+    {
+      "image": "wiki:Comrade Kalyan",
+      "fact": "Mili-juli reviews",
+      "sub": "Comedy hit, doosra half kamzor"
+    }
+  ],
+  "description": "Comrade Kalyan (Sree Vishnu, director Janakiram Marella) ka Day 12 report: Sacnilk India net 13.82 crore, Koimoi 13.73 crore. Reviews mili-juli, doosre hafte mein collection dheema.",
+  "hashtags": [
+    "ComradeKalyan",
+    "SreeVishnu",
+    "BoxOffice"
+  ],
+  "tags": [
+    "Comrade Kalyan",
+    "Comrade Kalyan box office",
+    "Sree Vishnu",
+    "Janakiram Marella",
+    "Telugu movie",
+    "Sacnilk",
+    "Koimoi",
+    "movie review Hindi"
+  ]
+}

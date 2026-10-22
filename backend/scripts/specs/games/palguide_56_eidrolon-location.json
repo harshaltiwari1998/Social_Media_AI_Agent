@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-eidrolon-location",
+  "slot": "palguide",
+  "order": 56,
+  "headline": "Where to find Eidrolon in Palworld",
+  "title": "Where to Find Eidrolon | Sunreach Flyer | Palworld Guide",
+  "video_script": "Eidrolon is a dragon and dark flying Pal that lives on the Sunreach floating islands in Palworld one point zero. Wild ones roam around level sixty five, and a tougher Alpha version flies nearby at about level sixty nine. Beat the Feybreak tower to unlock travel there, or fly up with a strong flyer. Bring strong attackers and attack boosting food, or weaken it and throw a high tier sphere. Will you ride one? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:2",
+      "label": "Eidrolon"
+    },
+    {
+      "image": "pal:Eidrolon",
+      "fact": "Sunreach islands",
+      "sub": "Wild level 65, Alpha 69"
+    },
+    {
+      "image": "steam:1623730:1",
+      "fact": "Unlock the trip",
+      "sub": "Beat the Feybreak tower"
+    },
+    {
+      "image": "steam:1623730:11",
+      "fact": "High tier spheres",
+      "sub": "Skip a long fight"
+    }
+  ],
+  "description": "Palworld 1.0 Eidrolon guide: it lives on the Sunreach islands, wild ones are around level 65 and the Alpha around 69.",
+  "hashtags": [
+    "Palworld",
+    "PalworldEidrolon",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Eidrolon",
+    "Palworld Sunreach",
+    "Palworld Alpha Pal",
+    "Palworld flying mount",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld tips"
+  ]
+}

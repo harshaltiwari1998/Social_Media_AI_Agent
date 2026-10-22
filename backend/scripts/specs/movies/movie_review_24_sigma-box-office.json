@@ -1,0 +1,52 @@
+{
+  "id": "sigma-box-office",
+  "category": "movies",
+  "slot": "movie_review",
+  "order": 24,
+  "expires": "2026-11-12",
+  "headline": "Sigma: Jason Sanjay ki debut film box office par kamzor",
+  "title": "Sigma Box Office Report | Jason Sanjay Ki Debut Film | Movie Review Hindi",
+  "video_script": "Jason Sanjay की बतौर director पहली film Sigma, 2 October को release हुई. Sacnilk के मुताबिक पहले दिन इसने करीब 2 करोड़ 70 लाख रुपये gross कमाए, और पहले 6 दिन में लगभग 8 करोड़ 65 लाख gross. Koimoi के अनुसार 10 दिन में net collection करीब 8 करोड़ 58 लाख रहा, और दूसरे weekend में सिर्फ 35 लाख आए. Film में Sundeep Kishan लीड रोल में हैं. Box office पर यह अच्छा नहीं कर पाई. आपने देखी? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Sigma (film)",
+      "label": "Sigma (2026)"
+    },
+    {
+      "image": "wiki:Sigma (film)",
+      "fact": "2.70 crore",
+      "sub": "Opening day India gross - Sacnilk"
+    },
+    {
+      "image": "wiki:Sigma (film)",
+      "fact": "8.65 crore",
+      "sub": "Pehle 6 din gross - Sacnilk, 9 October"
+    },
+    {
+      "image": "wiki:Sigma (film)",
+      "fact": "8.58 crore",
+      "sub": "10 din net - Koimoi, 12 October"
+    },
+    {
+      "image": "wiki:Sigma (film)",
+      "fact": "35 lakh",
+      "sub": "Doosre weekend ka total - Koimoi"
+    }
+  ],
+  "description": "Sigma (director Jason Sanjay, star Sundeep Kishan) 2 October ko release. Sacnilk: opening 2.70 crore gross; Koimoi: 10 din mein 8.58 crore net, doosre weekend mein 35 lakh.",
+  "hashtags": [
+    "Sigma",
+    "JasonSanjay",
+    "BoxOffice"
+  ],
+  "tags": [
+    "Sigma",
+    "Sigma box office",
+    "Jason Sanjay",
+    "Sundeep Kishan",
+    "Sacnilk",
+    "Koimoi",
+    "Tamil Telugu film",
+    "movie review Hindi"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-soralite-location",
+  "slot": "palguide",
+  "order": 52,
+  "headline": "Where to find Soralite in Palworld",
+  "title": "Where to Find Soralite | Sunreach Ore Guide | Palworld Guide",
+  "video_script": "Soralite is the blue late game ore in Palworld one point zero, and it only grows on the Sunreach floating islands. Normal pickaxes can't touch it, so unlock the Plasma Multicutter in the tech tree first. A great spot is east of the Farcry Marsh fast travel point, around minus three hundred, minus fourteen hundred, with several nodes close together. Later you can build a Soralite Quarry for steady supply. Do you farm it by hand or with a quarry? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:6",
+      "label": "Soralite"
+    },
+    {
+      "image": "pal:Jetragon",
+      "fact": "Sunreach only",
+      "sub": "Floating islands"
+    },
+    {
+      "image": "steam:1623730:8",
+      "fact": "Plasma Multicutter",
+      "sub": "Normal pickaxes fail"
+    },
+    {
+      "image": "steam:1623730:3",
+      "fact": "-300, -1400",
+      "sub": "East of Farcry Marsh"
+    }
+  ],
+  "description": "Palworld 1.0 Soralite guide: it grows only on the Sunreach islands, needs the Plasma Multicutter, and the best cluster sits east of Farcry Marsh.",
+  "hashtags": [
+    "Palworld",
+    "PalworldSoralite",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Soralite",
+    "Palworld Sunreach",
+    "Palworld Plasma Multicutter",
+    "Palworld ore locations",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld tips"
+  ]
+}

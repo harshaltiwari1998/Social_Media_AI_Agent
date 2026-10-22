@@ -1,0 +1,44 @@
+{
+  "id": "super-mario-world",
+  "slot": "classic",
+  "order": 25,
+  "headline": "Super Mario World - SNES classic",
+  "title": "Super Mario World 1990 | A Super Nintendo Classic | Classic Games",
+  "video_script": "Super Mario World was a star of the Super Nintendo. Developed and published by Nintendo, it was released in Japan in nineteen ninety, North America in nineteen ninety one and Europe in nineteen ninety two. Mario travels across Dinosaur Land to save Princess Peach from Bowser. Which secret level do you remember best? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Super Mario World",
+      "label": "Super Mario World"
+    },
+    {
+      "image": "wiki:Super Mario World",
+      "fact": "1990",
+      "sub": "Released in Japan"
+    },
+    {
+      "image": "wiki:Super Mario World",
+      "fact": "Nintendo",
+      "sub": "Developer and publisher"
+    },
+    {
+      "image": "wiki:Super Mario World",
+      "fact": "Dinosaur Land",
+      "sub": "Save Peach from Bowser"
+    }
+  ],
+  "description": "Super Mario World arrived in Japan in 1990 for the Super Nintendo, developed and published by Nintendo, followed by North America in 1991 and Europe in 1992.",
+  "hashtags": [
+    "SuperMarioWorld",
+    "ClassicGames",
+    "SNES"
+  ],
+  "tags": [
+    "Super Mario World",
+    "SNES",
+    "Mario",
+    "Nintendo",
+    "Dinosaur Land",
+    "classic games",
+    "retro gaming"
+  ]
+}

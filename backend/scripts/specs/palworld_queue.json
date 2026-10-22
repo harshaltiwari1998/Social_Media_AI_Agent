@@ -1576,5 +1576,137 @@
         "Vanwyrm"
       ]
     ]
+  },
+  {
+    "parents": [
+      "Anubis",
+      "Gorirat"
+    ],
+    "child": "Mammorest",
+    "unique": false,
+    "combos": [
+      [
+        "Anubis",
+        "Gorirat"
+      ],
+      [
+        "Digtoise",
+        "Relaxaurus"
+      ],
+      [
+        "Incineram",
+        "Suzaku"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Anubis",
+      "Penking"
+    ],
+    "child": "Warsect",
+    "unique": false,
+    "combos": [
+      [
+        "Anubis",
+        "Penking"
+      ],
+      [
+        "Jormuntide",
+        "Pyrin"
+      ],
+      [
+        "Broncherry",
+        "Suzaku"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Anubis",
+      "Suzaku"
+    ],
+    "child": "Wumpo",
+    "unique": false,
+    "combos": [
+      [
+        "Anubis",
+        "Suzaku"
+      ],
+      [
+        "Jormuntide",
+        "Relaxaurus"
+      ],
+      [
+        "Bushi",
+        "Orserk"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Anubis",
+      "Hoocrates"
+    ],
+    "child": "Maraith",
+    "unique": false,
+    "combos": [
+      [
+        "Anubis",
+        "Hoocrates"
+      ],
+      [
+        "Arsox",
+        "Relaxaurus"
+      ],
+      [
+        "Kingpaca",
+        "Suzaku"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Anubis",
+      "Incineram"
+    ],
+    "child": "Sootseer",
+    "unique": false,
+    "combos": [
+      [
+        "Anubis",
+        "Incineram"
+      ],
+      [
+        "Broncherry",
+        "Jormuntide"
+      ],
+      [
+        "Kitsun",
+        "Renjishi"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Anubis",
+      "Slowatt"
+    ],
+    "child": "Menasting",
+    "unique": false,
+    "combos": [
+      [
+        "Anubis",
+        "Slowatt"
+      ],
+      [
+        "Jormuntide",
+        "Vanwyrm"
+      ],
+      [
+        "Loupmoon",
+        "Orserk"
+      ]
+    ]
   }
 ]

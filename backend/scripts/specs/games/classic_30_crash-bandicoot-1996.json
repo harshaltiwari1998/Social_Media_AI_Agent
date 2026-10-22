@@ -1,0 +1,44 @@
+{
+  "id": "crash-bandicoot-1996",
+  "slot": "classic",
+  "order": 30,
+  "headline": "Crash Bandicoot - PlayStation mascot",
+  "title": "Crash Bandicoot 1996 | PS1 Classic Facts | Classic Games",
+  "video_script": "Crash Bandicoot became a PlayStation icon. The first game was developed by Naughty Dog and published by Sony Computer Entertainment, and it was released in Japan on August thirty first, nineteen ninety six. You spin, jump and run to stop Doctor Neo Cortex. Which Crash game was your favourite? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Crash Bandicoot (video game)",
+      "label": "Crash Bandicoot"
+    },
+    {
+      "image": "wiki:Crash Bandicoot (video game)",
+      "fact": "31 Aug 1996",
+      "sub": "Released in Japan"
+    },
+    {
+      "image": "wiki:Crash Bandicoot (video game)",
+      "fact": "Naughty Dog",
+      "sub": "Published by Sony"
+    },
+    {
+      "image": "wiki:Crash Bandicoot (video game)",
+      "fact": "PlayStation",
+      "sub": "Stop Doctor Neo Cortex"
+    }
+  ],
+  "description": "Crash Bandicoot launched on PlayStation in Japan on August 31, 1996, developed by Naughty Dog and published by Sony Computer Entertainment.",
+  "hashtags": [
+    "CrashBandicoot",
+    "ClassicGames",
+    "PlayStation"
+  ],
+  "tags": [
+    "Crash Bandicoot",
+    "Naughty Dog",
+    "PlayStation",
+    "PS1",
+    "classic games",
+    "retro gaming",
+    "Sony"
+  ]
+}

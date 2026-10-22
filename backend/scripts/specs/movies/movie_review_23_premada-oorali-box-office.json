@@ -1,0 +1,52 @@
+{
+  "id": "premada-oorali-box-office",
+  "category": "movies",
+  "slot": "movie_review",
+  "order": 23,
+  "expires": "2026-11-13",
+  "headline": "Premada Oorali: chhote budget ki Kannada film 100 crore ke paar",
+  "title": "Premada Oorali Box Office 100 Crore Paar | Kannada Sleeper Hit | Movie Review Hindi",
+  "video_script": "Kannada film Premada Oorali, 25 September को release हुई और इसने सबको चौंका दिया है. Sacnilk के मुताबिक 21 October तक इसका worldwide gross करीब 107 करोड़ रुपये पहुँच गया. Koimoi ने 18 October को, 23 दिन में, 87 करोड़ worldwide बताए थे. इसे Manoj Kumar ने डायरेक्ट किया है और Rangayana Raghu इसमें हैं. यह बहुत छोटे budget की film है और word of mouth से चली. Critics की राय मिली-जुली रही, comedy की तारीफ हुई, लेकिन writing पर सवाल उठे. आपने देखी? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Premada Oorali",
+      "label": "Premada Oorali (2026)"
+    },
+    {
+      "image": "wiki:Premada Oorali",
+      "fact": "107 crore",
+      "sub": "Worldwide gross - Sacnilk, 21 October"
+    },
+    {
+      "image": "wiki:Premada Oorali",
+      "fact": "87 crore",
+      "sub": "Worldwide in 23 days - Koimoi, 18 October"
+    },
+    {
+      "image": "wiki:Premada Oorali",
+      "fact": "25 September 2026",
+      "sub": "Kannada release - director Manoj Kumar"
+    },
+    {
+      "image": "wiki:Premada Oorali",
+      "fact": "Mili-juli reviews",
+      "sub": "Comedy ki tareef, writing par sawal"
+    }
+  ],
+  "description": "Premada Oorali (Kannada, director Manoj Kumar) ka worldwide gross Sacnilk ke mutabik 21 October tak 107 crore; Koimoi ne 18 October tak 87 crore bataya. Critics ki raay mili-juli.",
+  "hashtags": [
+    "PremadaOorali",
+    "Kannada",
+    "BoxOffice"
+  ],
+  "tags": [
+    "Premada Oorali",
+    "Premada Oorali box office",
+    "Kannada movie",
+    "Manoj Kumar",
+    "Rangayana Raghu",
+    "Sacnilk",
+    "Sandalwood",
+    "movie review Hindi"
+  ]
+}

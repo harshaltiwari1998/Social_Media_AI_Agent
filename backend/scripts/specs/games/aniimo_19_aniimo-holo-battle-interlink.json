@@ -1,0 +1,45 @@
+{
+  "id": "aniimo-holo-battle-interlink",
+  "slot": "aniimo",
+  "order": 19,
+  "headline": "Holo-Battle Interlink",
+  "title": "Aniimo Holo-Battle Interlink Explained | Weekly Alpha Boss Mode | Aniimo Guide",
+  "video_script": "Holo-Battle Interlink is Aniimo's weekly boss mode, added in version one point one. Each week offers three routes, and every route has its own Alpha boss. You can go in with a team of up to four players, and A I teammates fill empty slots. Before each fight you pick your buffs, and your stars decide your weekly rewards. It resets every week, so jump in often. Have you cleared all three routes yet? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:1",
+      "label": "Holo-Battle Interlink"
+    },
+    {
+      "image": "steam:4126040:5",
+      "fact": "3 Routes",
+      "sub": "One Alpha boss each"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Up to 4 Players",
+      "sub": "AI fills empty slots"
+    },
+    {
+      "image": "steam:4126040:10",
+      "fact": "Resets Weekly",
+      "sub": "Earn stars for rewards"
+    }
+  ],
+  "description": "Aniimo Holo-Battle Interlink explained: the weekly co-op Alpha boss mode with three routes, teams of up to four and weekly star rewards.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Holo-Battle Interlink"
+  ],
+  "expires": "2026-11-30"
+}

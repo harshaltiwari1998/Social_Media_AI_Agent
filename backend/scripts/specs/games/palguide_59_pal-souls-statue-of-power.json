@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-pal-souls-statue-of-power",
+  "slot": "palguide",
+  "order": 59,
+  "headline": "Palworld Pal Souls explained",
+  "title": "Pal Souls Explained | Statue of Power | Palworld Guide",
+  "video_script": "Want stronger Pals without breeding in Palworld? Use the Statue of Power. Feed it Pal Souls and each rank adds about three percent to one stat: health, attack, defense or work speed. Souls come in small, medium, large and giant sizes, and the bigger ones drop from tougher Pals and chests in higher level zones. You can build a statue yourself early in the game. Which stat do you boost first? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:4",
+      "label": "Pal Souls"
+    },
+    {
+      "image": "pal:Anubis",
+      "fact": "Statue of Power",
+      "sub": "Spend Pal Souls"
+    },
+    {
+      "image": "steam:1623730:6",
+      "fact": "Four stats",
+      "sub": "Health, attack, defense, work speed"
+    },
+    {
+      "image": "pal:Chillet",
+      "fact": "Small to giant",
+      "sub": "Bigger souls from tougher foes"
+    }
+  ],
+  "description": "Palworld Pal Souls: spend them at the Statue of Power for about 3% per rank on health, attack, defense or work speed.",
+  "hashtags": [
+    "Palworld",
+    "PalSouls",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Pal Souls",
+    "Palworld Statue of Power",
+    "Palworld Pal stats",
+    "Palworld work speed",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld tips"
+  ]
+}

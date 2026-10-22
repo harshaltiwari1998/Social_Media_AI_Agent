@@ -1,0 +1,50 @@
+{
+  "id": "reel-mr-india-facts",
+  "category": "movies",
+  "slot": "reel",
+  "order": 60,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Mr. India: Mogambo khush hua का किस्सा",
+  "title": "Mr India Facts | Mogambo Khush Hua | Movie News Hindi",
+  "video_script": "1987 की Mr. India आज भी Bollywood की सबसे मशहूर superhero film मानी जाती है. Director थे Shekhar Kapur और producer Boney Kapoor. Story और screenplay Salim-Javed की जोड़ी की आखिरी collaboration थी. Anil Kapoor अदृश्य हीरो बने, Sridevi journalist Seema और Amrish Puri ने Mogambo निभाया. उनका dialogue Mogambo khush hua आज भी हर किसी को याद है. आपको Mr. India का कौन सा scene पसंद है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Mr. India (1987 film)",
+      "label": "Mr. India (1987)"
+    },
+    {
+      "image": "wiki:Shekhar Kapur",
+      "fact": "Director",
+      "sub": "Shekhar Kapur"
+    },
+    {
+      "image": "wiki:Salim–Javed",
+      "fact": "Salim-Javed",
+      "sub": "आखिरी collaboration"
+    },
+    {
+      "image": "wiki:Amrish Puri",
+      "fact": "Mogambo khush hua",
+      "sub": "Amrish Puri का dialogue"
+    }
+  ],
+  "description": "Mr. India (1987): director Shekhar Kapur, producer Boney Kapoor, Salim-Javed की आखिरी collaboration; Anil Kapoor, Sridevi और Amrish Puri का Mogambo.",
+  "hashtags": [
+    "MrIndia",
+    "Mogambo",
+    "BollywoodFacts"
+  ],
+  "tags": [
+    "Mr India",
+    "Anil Kapoor",
+    "Sridevi",
+    "Amrish Puri",
+    "Mogambo",
+    "Shekhar Kapur",
+    "Bollywood facts",
+    "1987 Bollywood"
+  ]
+}

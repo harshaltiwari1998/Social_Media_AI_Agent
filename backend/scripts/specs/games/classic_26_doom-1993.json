@@ -1,0 +1,44 @@
+{
+  "id": "doom-1993",
+  "slot": "classic",
+  "order": 26,
+  "headline": "Doom - the shooter that changed PC gaming",
+  "title": "Doom 1993 | Release Facts | Classic Games",
+  "video_script": "Doom is a PC legend. Developed by id Software for MS-DOS, the first shareware version of Doom was released on December tenth, nineteen ninety three. You play a space marine fighting demons on the moons of Mars and in hell. Its fast first person action became a landmark in gaming history. Did you ever play Doom on an old PC? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Doom (1993 video game)",
+      "label": "Doom 1993"
+    },
+    {
+      "image": "wiki:Doom (1993 video game)",
+      "fact": "10 Dec 1993",
+      "sub": "First shareware release"
+    },
+    {
+      "image": "wiki:Doom (1993 video game)",
+      "fact": "id Software",
+      "sub": "Developer"
+    },
+    {
+      "image": "wiki:Doom (1993 video game)",
+      "fact": "MS-DOS",
+      "sub": "Space marine vs demons"
+    }
+  ],
+  "description": "Doom, developed by id Software for MS-DOS, had its first shareware release on December 10, 1993, sending players through Mars and hell as a space marine.",
+  "hashtags": [
+    "Doom",
+    "ClassicGames",
+    "PCGaming"
+  ],
+  "tags": [
+    "Doom",
+    "id Software",
+    "MS-DOS",
+    "FPS",
+    "classic games",
+    "retro gaming",
+    "PC gaming"
+  ]
+}

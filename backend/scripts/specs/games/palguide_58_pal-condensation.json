@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-pal-condensation",
+  "slot": "palguide",
+  "order": 58,
+  "headline": "Pal condensation explained",
+  "title": "Pal Condensation Explained | Star Up Your Pals | Palworld Guide",
+  "video_script": "Condensing makes a Pal stronger in Palworld one point zero. Build the Pal Essence Condenser, pick the Pal you want to upgrade, and feed it duplicates of the same species. Reaching four stars now takes roughly forty eight copies, much cheaper than before. Each star boosts its stats, and the top rank raises its work suitabilities. The fodder is consumed forever, so check the preview before you confirm. Which Pal are you condensing? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:3",
+      "label": "Pal Condensation"
+    },
+    {
+      "image": "pal:Lamball",
+      "fact": "Duplicate Pals",
+      "sub": "Same species only"
+    },
+    {
+      "image": "pal:Tanzee",
+      "fact": "About 48 copies",
+      "sub": "For four stars"
+    },
+    {
+      "image": "steam:1623730:9",
+      "fact": "Check the preview",
+      "sub": "Fodder is consumed"
+    }
+  ],
+  "description": "Palworld 1.0 condensation: use the Pal Essence Condenser, feed same-species duplicates, and reach four stars for roughly 48 copies.",
+  "hashtags": [
+    "Palworld",
+    "PalworldCondensation",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld condensation",
+    "Palworld Pal Essence Condenser",
+    "Palworld four stars",
+    "Palworld duplicates",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld tips"
+  ]
+}

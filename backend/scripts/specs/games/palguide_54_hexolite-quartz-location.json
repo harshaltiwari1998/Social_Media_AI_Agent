@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-hexolite-quartz-location",
+  "slot": "palguide",
+  "order": 54,
+  "headline": "Where to find Hexolite Quartz in Palworld",
+  "title": "Where to Find Hexolite Quartz | Feybreak Guide | Palworld Guide",
+  "video_script": "Hexolite Quartz only exists on Feybreak Island in Palworld one point zero, southwest of Mount Obsidian. The densest nodes are in the southwest corner, so set up there. Smelt it with Chromite to make Hexolite for late game gear. Your Pals need Mining level three to harvest it. Once you can, build the Hexolite Quartz Mine to produce it passively. Pair it with a strong miner like Astegon. Where is your Feybreak base? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:4",
+      "label": "Hexolite Quartz"
+    },
+    {
+      "image": "pal:Astegon",
+      "fact": "Feybreak only",
+      "sub": "Southwest corner is densest"
+    },
+    {
+      "image": "steam:1623730:5",
+      "fact": "Plus Chromite",
+      "sub": "Smelt into Hexolite"
+    },
+    {
+      "image": "steam:1623730:7",
+      "fact": "Quartz Mine",
+      "sub": "Passive supply"
+    }
+  ],
+  "description": "Palworld 1.0 Hexolite Quartz guide: it exists only on Feybreak, the southwest has the most nodes, and a Hexolite Quartz Mine can automate it.",
+  "hashtags": [
+    "Palworld",
+    "PalworldHexolite",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Hexolite Quartz",
+    "Palworld Feybreak",
+    "Palworld Hexolite",
+    "Palworld ore locations",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld tips"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "aniimo-evolution-guide",
+  "slot": "aniimo",
+  "order": 21,
+  "headline": "How Evolution Works",
+  "title": "Aniimo Evolution Explained | How to Evolve Your Aniimo | Aniimo Guide",
+  "video_script": "Evolution in Aniimo has no single level rule. Open Aniimo Management, pick your creature and tap the Evolve icon. The panel lists exactly what that evolution needs. It might be a level, a special item, a quest, a passive talent, or beating an Alpha or Omega boss. If Evolve is greyed out, check the panel instead of just grinding levels. Which Aniimo are you evolving first? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:10",
+      "label": "How Evolution Works"
+    },
+    {
+      "image": "steam:4126040:5",
+      "fact": "Aniimo Management",
+      "sub": "Tap the Evolve icon"
+    },
+    {
+      "image": "steam:4126040:14",
+      "fact": "No Single Rule",
+      "sub": "Level, item or quest"
+    },
+    {
+      "image": "steam:4126040:13",
+      "fact": "Check the Panel",
+      "sub": "Before you grind"
+    }
+  ],
+  "description": "How evolution works in Aniimo: open Aniimo Management, tap Evolve and check the panel, since each evolution has its own requirements.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Aniimo Evolution"
+  ]
+}

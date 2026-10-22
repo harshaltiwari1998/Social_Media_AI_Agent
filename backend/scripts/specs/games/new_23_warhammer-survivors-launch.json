@@ -1,0 +1,46 @@
+{
+  "id": "warhammer-survivors-launch",
+  "slot": "new",
+  "order": 23,
+  "expires": "2026-11-17",
+  "headline": "Warhammer Survivors launches November 10",
+  "title": "Warhammer Survivors November 10 | Launch Date | Gaming News",
+  "video_script": "Warhammer Survivors has a launch date. The survivor style action game from Auroch Digital arrives on November tenth, twenty twenty six. It comes to PC, PlayStation 5, Xbox Series X and S, Nintendo Switch 1 and 2, plus iOS and Android. It will also be on Xbox Game Pass at launch, and a free demo is on Steam now. Will you hold the line? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:3669620:1",
+      "label": "Warhammer Survivors"
+    },
+    {
+      "image": "steam:3669620:2",
+      "fact": "10 November 2026",
+      "sub": "Release date"
+    },
+    {
+      "image": "steam:3669620:3",
+      "fact": "PC, consoles and mobile",
+      "sub": "Also on Xbox Game Pass"
+    },
+    {
+      "image": "steam:3669620:1",
+      "fact": "Free demo",
+      "sub": "Available now on Steam"
+    }
+  ],
+  "description": "Warhammer Survivors launches on November 10, 2026 on PC, consoles, Switch 2 and mobile, and on Xbox Game Pass.",
+  "hashtags": [
+    "WarhammerSurvivors",
+    "GamePass",
+    "GamingNews"
+  ],
+  "tags": [
+    "Warhammer Survivors",
+    "Auroch Digital",
+    "Game Pass",
+    "Switch 2",
+    "roguelike",
+    "new games 2026",
+    "release date",
+    "gaming news"
+  ]
+}

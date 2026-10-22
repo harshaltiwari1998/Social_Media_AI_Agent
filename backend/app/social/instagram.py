@@ -75,6 +75,8 @@ class InstagramPoster(SocialPoster):
                 data={
                     "media_type": "REELS",
                     "video_url": video_url,
+                    # Cover frame in ms: the first frame is the black fade-in, which leaves a black tile in the grid.
+                    "thumb_offset": str(settings.instagram_thumb_offset_ms),
                     "caption": caption,
                     "access_token": self.token,
                 },

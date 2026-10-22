@@ -43,6 +43,8 @@ class Settings(BaseSettings):
     meta_gaming_page_id: str | None = Field(default=None, alias="META_GAMING_PAGE_ID")
     meta_gaming_ig_user_id: str | None = Field(default=None, alias="META_GAMING_IG_USER_ID")
     meta_gaming_access_token: str | None = Field(default=None, alias="META_GAMING_ACCESS_TOKEN")
+    # Frame (ms into the video) Instagram uses as the Reel cover; 0 would be the black fade-in.
+    instagram_thumb_offset_ms: int = Field(default=2000, alias="INSTAGRAM_THUMB_OFFSET_MS")
     twitter_api_key: str | None = Field(default=None, alias="TWITTER_API_KEY")
     twitter_api_secret: str | None = Field(default=None, alias="TWITTER_API_SECRET")
     twitter_access_token: str | None = Field(default=None, alias="TWITTER_ACCESS_TOKEN")

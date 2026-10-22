@@ -1380,5 +1380,45 @@
   "palworld-guide-soralite-location": {
     "spec": "scripts/specs/games/palguide_52_soralite-location.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-4a7cc1ea.mp4"
+  },
+  "donkey-kong-1981": {
+    "spec": "scripts/specs/games/classic_40_donkey-kong-1981.json",
+    "video": "F:\\AI AGENT\\run_g20\\videos\\short-fc976856.mp4"
+  },
+  "angry-birds-2009": {
+    "spec": "scripts/specs/games/classic_39_angry-birds-2009.json",
+    "video": "F:\\AI AGENT\\run_g20\\videos\\short-8718487f.mp4"
+  },
+  "mortal-kombat-1992": {
+    "spec": "scripts/specs/games/classic_38_mortal-kombat-1992.json",
+    "video": "F:\\AI AGENT\\run_g20\\videos\\short-f67d959e.mp4"
+  },
+  "duck-hunt-1984": {
+    "spec": "scripts/specs/games/classic_37_duck-hunt-1984.json",
+    "video": "F:\\AI AGENT\\run_g20\\videos\\short-fb820f7f.mp4"
+  },
+  "plants-vs-zombies-2009": {
+    "spec": "scripts/specs/games/classic_36_plants-vs-zombies-2009.json",
+    "video": "F:\\AI AGENT\\run_g20\\videos\\short-8dc57d4b.mp4"
+  },
+  "dangerous-dave-1988": {
+    "spec": "scripts/specs/games/classic_35_dangerous-dave-1988.json",
+    "video": "F:\\AI AGENT\\run_g20\\videos\\short-bfc8668a.mp4"
+  },
+  "halo-combat-evolved-2001": {
+    "spec": "scripts/specs/games/classic_34_halo-combat-evolved-2001.json",
+    "video": "F:\\AI AGENT\\run_g20\\videos\\short-79b1c80d.mp4"
+  },
+  "temple-run-2011": {
+    "spec": "scripts/specs/games/classic_33_temple-run-2011.json",
+    "video": "F:\\AI AGENT\\run_g20\\videos\\short-76fa5f6a.mp4"
+  },
+  "legend-of-zelda-1986": {
+    "spec": "scripts/specs/games/classic_32_legend-of-zelda-1986.json",
+    "video": "F:\\AI AGENT\\run_g20\\videos\\short-cb89c906.mp4"
+  },
+  "space-invaders-1978": {
+    "spec": "scripts/specs/games/classic_31_space-invaders-1978.json",
+    "video": "F:\\AI AGENT\\run_g20\\videos\\short-a4b30058.mp4"
   }
 }

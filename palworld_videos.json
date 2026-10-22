@@ -2887,5 +2887,345 @@
       ],
       "unique": false
     }
+  },
+  "Jellroy": {
+    "spec": "scripts/specs/palworld_jellroy.json",
+    "video": "F:\\AI AGENT\\run_g20\\videos\\short-089a750d.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Jellroy",
+      "caption": "3 ways to breed Jellroy in Palworld 1.0: Arsox + Ribbuny, Caprity + Nitewing, Chikipi + Lovander.",
+      "video_script": "Here are three ways to breed Jellroy in Palworld one point zero. Combo one: breed Arsox with Ribbuny on your Breeding Farm, then add a cake. Combo two: pair Caprity and Nitewing together, and you get the same egg. Combo three: Chikipi plus Lovander works too, so use whichever Pals you have. Every egg hatches into Jellroy. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Arsox",
+        "Ribbuny"
+      ],
+      "combos": [
+        [
+          "Arsox",
+          "Ribbuny"
+        ],
+        [
+          "Caprity",
+          "Nitewing"
+        ],
+        [
+          "Chikipi",
+          "Lovander"
+        ]
+      ],
+      "child": "Jellroy",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
+  },
+  "Gloopie": {
+    "spec": "scripts/specs/palworld_gloopie.json",
+    "video": "F:\\AI AGENT\\run_g20\\videos\\short-b96f531c.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Gloopie",
+      "caption": "3 ways to breed Gloopie in Palworld 1.0: Arsox + Celaray, Clovee + Lovander, Dinossom + Pengullet.",
+      "video_script": "Here are three ways to breed Gloopie in Palworld one point zero. Combo one: breed Arsox with Celaray on your Breeding Farm, then add a cake. Combo two: pair Clovee and Lovander together, and you get the same egg. Combo three: Dinossom plus Pengullet works too, so use whichever Pals you have. Every egg hatches into Gloopie. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Arsox",
+        "Celaray"
+      ],
+      "combos": [
+        [
+          "Arsox",
+          "Celaray"
+        ],
+        [
+          "Clovee",
+          "Lovander"
+        ],
+        [
+          "Dinossom",
+          "Pengullet"
+        ]
+      ],
+      "child": "Gloopie",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Amione": {
+    "spec": "scripts/specs/palworld_amione.json",
+    "video": "F:\\AI AGENT\\run_g20\\videos\\short-22fec48e.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Amione",
+      "caption": "3 ways to breed Amione in Palworld 1.0: Arsox + Melpaca, Cattiva + Robinquill, Celaray + Dumud.",
+      "video_script": "Here are three ways to breed Amione in Palworld one point zero. Combo one: breed Arsox with Melpaca on your Breeding Farm, then add a cake. Combo two: pair Cattiva and Robinquill together, and you get the same egg. Combo three: Celaray plus Dumud works too, so use whichever Pals you have. Every egg hatches into Amione. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Arsox",
+        "Melpaca"
+      ],
+      "combos": [
+        [
+          "Arsox",
+          "Melpaca"
+        ],
+        [
+          "Cattiva",
+          "Robinquill"
+        ],
+        [
+          "Celaray",
+          "Dumud"
+        ]
+      ],
+      "child": "Amione",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Muffly": {
+    "spec": "scripts/specs/palworld_muffly.json",
+    "video": "F:\\AI AGENT\\run_g20\\videos\\short-e2bb47b1.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Muffly",
+      "caption": "3 ways to breed Muffly in Palworld 1.0: Arsox + Leezpunk, Bristla + Robinquill, Cremis + Lovander.",
+      "video_script": "Here are three ways to breed Muffly in Palworld one point zero. Combo one: breed Arsox with Leezpunk on your Breeding Farm, then add a cake. Combo two: pair Bristla and Robinquill together, and you get the same egg. Combo three: Cremis plus Lovander works too, so use whichever Pals you have. Every egg hatches into Muffly. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Arsox",
+        "Leezpunk"
+      ],
+      "combos": [
+        [
+          "Arsox",
+          "Leezpunk"
+        ],
+        [
+          "Bristla",
+          "Robinquill"
+        ],
+        [
+          "Cremis",
+          "Lovander"
+        ]
+      ],
+      "child": "Muffly",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
+  },
+  "Finsider": {
+    "spec": "scripts/specs/palworld_finsider.json",
+    "video": "F:\\AI AGENT\\run_g20\\videos\\short-0e3c1115.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Finsider",
+      "caption": "3 ways to breed Finsider in Palworld 1.0: Caprity + Dumud, Dinossom + Mozzarina, Fuddler + Grintale.",
+      "video_script": "Here are three ways to breed Finsider in Palworld one point zero. Combo one: breed Caprity with Dumud on your Breeding Farm, then add a cake. Combo two: pair Dinossom and Mozzarina together, and you get the same egg. Combo three: Fuddler plus Grintale works too, so use whichever Pals you have. Every egg hatches into Finsider. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Caprity",
+        "Dumud"
+      ],
+      "combos": [
+        [
+          "Caprity",
+          "Dumud"
+        ],
+        [
+          "Dinossom",
+          "Mozzarina"
+        ],
+        [
+          "Fuddler",
+          "Grintale"
+        ]
+      ],
+      "child": "Finsider",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
+  },
+  "Needoll": {
+    "spec": "scripts/specs/palworld_needoll.json",
+    "video": "F:\\AI AGENT\\run_g20\\videos\\short-50df5e96.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Needoll",
+      "caption": "3 ways to breed Needoll in Palworld 1.0: Cattiva + Lovander, Celaray + Dinossom, Dumud + Gobfin.",
+      "video_script": "Here are three ways to breed Needoll in Palworld one point zero. Combo one: breed Cattiva with Lovander on your Breeding Farm, then add a cake. Combo two: pair Celaray and Dinossom together, and you get the same egg. Combo three: Dumud plus Gobfin works too, so use whichever Pals you have. Every egg hatches into Needoll. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Cattiva",
+        "Lovander"
+      ],
+      "combos": [
+        [
+          "Cattiva",
+          "Lovander"
+        ],
+        [
+          "Celaray",
+          "Dinossom"
+        ],
+        [
+          "Dumud",
+          "Gobfin"
+        ]
+      ],
+      "child": "Needoll",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
+  },
+  "Turtacle": {
+    "spec": "scripts/specs/palworld_turtacle.json",
+    "video": "F:\\AI AGENT\\run_g20\\videos\\short-65f91f93.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Turtacle",
+      "caption": "3 ways to breed Turtacle in Palworld 1.0: Dinossom + Melpaca, Flambelle + Grintale, Lovander + Tocotoco.",
+      "video_script": "Here are three ways to breed Turtacle in Palworld one point zero. Combo one: breed Dinossom with Melpaca on your Breeding Farm, then add a cake. Combo two: pair Flambelle and Grintale together, and you get the same egg. Combo three: Lovander plus Tocotoco works too, so use whichever Pals you have. Every egg hatches into Turtacle. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Dinossom",
+        "Melpaca"
+      ],
+      "combos": [
+        [
+          "Dinossom",
+          "Melpaca"
+        ],
+        [
+          "Flambelle",
+          "Grintale"
+        ],
+        [
+          "Lovander",
+          "Tocotoco"
+        ]
+      ],
+      "child": "Turtacle",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Snugloo": {
+    "spec": "scripts/specs/palworld_snugloo.json",
+    "video": "F:\\AI AGENT\\run_g20\\videos\\short-6b6fdb5e.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Snugloo",
+      "caption": "3 ways to breed Snugloo in Palworld 1.0: Bristla + Lovander, Dinossom + Leezpunk, Flopie + Grintale.",
+      "video_script": "Here are three ways to breed Snugloo in Palworld one point zero. Combo one: breed Bristla with Lovander on your Breeding Farm, then add a cake. Combo two: pair Dinossom and Leezpunk together, and you get the same egg. Combo three: Flopie plus Grintale works too, so use whichever Pals you have. Every egg hatches into Snugloo. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Bristla",
+        "Lovander"
+      ],
+      "combos": [
+        [
+          "Bristla",
+          "Lovander"
+        ],
+        [
+          "Dinossom",
+          "Leezpunk"
+        ],
+        [
+          "Flopie",
+          "Grintale"
+        ]
+      ],
+      "child": "Snugloo",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Yakumo": {
+    "spec": "scripts/specs/palworld_yakumo.json",
+    "video": "F:\\AI AGENT\\run_g20\\videos\\short-f2fe3504.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Yakumo",
+      "caption": "3 ways to breed Yakumo in Palworld 1.0: Bushi + Tanzee, Depresso + Incineram, Fuddler + Kitsun.",
+      "video_script": "Here are three ways to breed Yakumo in Palworld one point zero. Combo one: breed Bushi with Tanzee on your Breeding Farm, then add a cake. Combo two: pair Depresso and Incineram together, and you get the same egg. Combo three: Fuddler plus Kitsun works too, so use whichever Pals you have. Every egg hatches into Yakumo. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Bushi",
+        "Tanzee"
+      ],
+      "combos": [
+        [
+          "Bushi",
+          "Tanzee"
+        ],
+        [
+          "Depresso",
+          "Incineram"
+        ],
+        [
+          "Fuddler",
+          "Kitsun"
+        ]
+      ],
+      "child": "Yakumo",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
+  },
+  "Lullu": {
+    "spec": "scripts/specs/palworld_lullu.json",
+    "video": "F:\\AI AGENT\\run_g20\\videos\\short-2f2b64ef.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Lullu",
+      "caption": "3 ways to breed Lullu in Palworld 1.0: Beakon + Dumud, Chillet + Vanwyrm, Cremis + Relaxaurus.",
+      "video_script": "Here are three ways to breed Lullu in Palworld one point zero. Combo one: breed Beakon with Dumud on your Breeding Farm, then add a cake. Combo two: pair Chillet and Vanwyrm together, and you get the same egg. Combo three: Cremis plus Relaxaurus works too, so use whichever Pals you have. Every egg hatches into Lullu. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Beakon",
+        "Dumud"
+      ],
+      "combos": [
+        [
+          "Beakon",
+          "Dumud"
+        ],
+        [
+          "Chillet",
+          "Vanwyrm"
+        ],
+        [
+          "Cremis",
+          "Relaxaurus"
+        ]
+      ],
+      "child": "Lullu",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
   }
 }

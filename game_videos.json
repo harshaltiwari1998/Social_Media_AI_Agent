@@ -1348,5 +1348,33 @@
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-44c2f7dc.mp4",
     "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-44c2f7dc-thumb.jpg",
     "chapters": "0:00 Aamir Khan की कहानी\n0:41 बचपन और पहला कदम\n1:21 Qayamat Se Qayamat Tak - 1988\n2:02 Lagaan और Oscar\n2:48 सम्मान: Padma Shri और Padma Bhushan\n3:15 Taare Zameen Par - 2007\n3:50 3 Idiots और Satyamev Jayate\n4:51 Dangal - 2016\n5:25 Laal Singh Chaddha - 2022\n6:04 Sitaare Zameen Par - 2025\n6:36 आपकी राय"
+  },
+  "wolf-among-us-remastered": {
+    "spec": "scripts/specs/games/new_15_wolf-among-us-remastered.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b6905615.mp4"
+  },
+  "pac-man": {
+    "spec": "scripts/specs/games/classic_17_pac-man.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-8c72fd26.mp4"
+  },
+  "tetris": {
+    "spec": "scripts/specs/games/classic_18_tetris.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-165206b5.mp4"
+  },
+  "yeh-prem-mol-liya": {
+    "spec": "scripts/specs/movies/movie_new_20_yeh-prem-mol-liya.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-64ba9b9b.mp4"
+  },
+  "practical-magic-2-box-office": {
+    "spec": "scripts/specs/movies/movie_review_15_practical-magic-2-box-office.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-d1ca4f69.mp4"
+  },
+  "reel-bajrangi-bhaijaan-facts": {
+    "spec": "scripts/specs/movies/reel_38_bajrangi-bhaijaan-facts.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f5b79bd1.mp4"
+  },
+  "aniimo-level-up-fast": {
+    "spec": "scripts/specs/games/aniimo_12_aniimo-level-up-fast.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-fb744f9c.mp4"
   }
 }

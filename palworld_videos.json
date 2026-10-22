@@ -2853,5 +2853,39 @@
       ],
       "unique": false
     }
+  },
+  "Tocotoco": {
+    "spec": "scripts/specs/palworld_tocotoco.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-a111e300.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Tocotoco",
+      "caption": "3 ways to breed Tocotoco in Palworld 1.0: Bristla + Killamari, Cattiva + Flambelle, Celaray + Melpaca.",
+      "video_script": "Here are three ways to breed Tocotoco in Palworld one point zero. Combo one: breed Bristla with Killamari on your Breeding Farm, then add a cake. Combo two: pair Cattiva and Flambelle together, and you get the same egg. Combo three: Celaray plus Melpaca works too, so use whichever Pals you have. Every egg hatches into Tocotoco. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Bristla",
+        "Killamari"
+      ],
+      "combos": [
+        [
+          "Bristla",
+          "Killamari"
+        ],
+        [
+          "Cattiva",
+          "Flambelle"
+        ],
+        [
+          "Celaray",
+          "Melpaca"
+        ]
+      ],
+      "child": "Tocotoco",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
   }
 }

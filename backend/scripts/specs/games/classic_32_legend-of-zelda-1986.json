@@ -1,0 +1,43 @@
+{
+  "id": "legend-of-zelda-1986",
+  "slot": "classic",
+  "order": 32,
+  "headline": "The Legend of Zelda - where Link began",
+  "title": "The Legend of Zelda 1986 Facts | Link, Hyrule and the Triforce | Classic Games",
+  "video_script": "The Legend of Zelda came out in nineteen eighty six from Nintendo. It started one of the biggest series in gaming. You play as Link in the land of Hyrule, collecting the eight pieces of the Triforce of Wisdom to rescue Princess Zelda from Ganon. It was designed by Shigeru Miyamoto and Takashi Tezuka, and it was made at the same time as Super Mario Bros. Which Zelda is your favourite? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:The Legend of Zelda (video game)",
+      "label": "The Legend of Zelda"
+    },
+    {
+      "image": "wiki:The Legend of Zelda (video game)",
+      "fact": "1986",
+      "sub": "Nintendo"
+    },
+    {
+      "image": "wiki:The Legend of Zelda (video game)",
+      "fact": "8 Triforce pieces",
+      "sub": "Rescue Princess Zelda"
+    },
+    {
+      "image": "wiki:The Legend of Zelda (video game)",
+      "fact": "Shigeru Miyamoto",
+      "sub": "Made with Super Mario Bros"
+    }
+  ],
+  "description": "The Legend of Zelda (1986, Nintendo): Link collects the eight fragments of the Triforce of Wisdom to rescue Zelda from Ganon; designed by Shigeru Miyamoto and Takashi Tezuka.",
+  "hashtags": [
+    "Zelda",
+    "Nintendo",
+    "RetroGaming"
+  ],
+  "tags": [
+    "The Legend of Zelda",
+    "Zelda",
+    "Link",
+    "Nintendo",
+    "Shigeru Miyamoto",
+    "classic games"
+  ]
+}

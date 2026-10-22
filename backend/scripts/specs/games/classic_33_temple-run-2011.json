@@ -1,0 +1,43 @@
+{
+  "id": "temple-run-2011",
+  "slot": "classic",
+  "order": 33,
+  "headline": "Temple Run - run from the monkeys",
+  "title": "Temple Run Facts | The Endless Runner Everyone Played | Classic Games",
+  "video_script": "Remember Temple Run? It came out in two thousand eleven from Imangi Studios. You play an explorer who grabs an ancient relic and then runs for your life from demon monkeys. It launched on iPhone first in August twenty eleven, then came to Android in March twenty twelve, and it became one of the most famous endless runners ever. What was your high score? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Temple Run",
+      "label": "Temple Run"
+    },
+    {
+      "image": "wiki:Temple Run",
+      "fact": "2011",
+      "sub": "Imangi Studios"
+    },
+    {
+      "image": "wiki:Temple Run",
+      "fact": "Ancient relic",
+      "sub": "Run from demon monkeys"
+    },
+    {
+      "image": "wiki:Temple Run",
+      "fact": "iOS then Android",
+      "sub": "Aug 2011 / Mar 2012"
+    }
+  ],
+  "description": "Temple Run (2011, Imangi Studios): an endless runner where an explorer flees demonic monkeys after taking a relic; iOS August 2011, Android March 2012.",
+  "hashtags": [
+    "TempleRun",
+    "MobileGames",
+    "EndlessRunner"
+  ],
+  "tags": [
+    "Temple Run",
+    "Imangi Studios",
+    "endless runner",
+    "mobile games",
+    "classic games",
+    "Android games"
+  ]
+}

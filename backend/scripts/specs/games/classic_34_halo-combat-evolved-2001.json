@@ -1,0 +1,44 @@
+{
+  "id": "halo-combat-evolved-2001",
+  "slot": "classic",
+  "order": 34,
+  "headline": "Halo - the game that made Xbox",
+  "title": "Halo Combat Evolved Facts | Master Chief and Cortana | Classic Games",
+  "video_script": "Halo Combat Evolved came out on November fifteenth, two thousand one, for the first Xbox. It was made by Bungie. You play as Master Chief, a super soldier, with the AI Cortana at your side, fighting an alien alliance called the Covenant on a giant ring world called Halo. The PC version came in two thousand three. Did you play Halo? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Halo: Combat Evolved",
+      "label": "Halo: Combat Evolved"
+    },
+    {
+      "image": "wiki:Halo: Combat Evolved",
+      "fact": "15 Nov 2001",
+      "sub": "Xbox, by Bungie"
+    },
+    {
+      "image": "wiki:Halo: Combat Evolved",
+      "fact": "Master Chief",
+      "sub": "With Cortana"
+    },
+    {
+      "image": "wiki:Halo: Combat Evolved",
+      "fact": "A ring world",
+      "sub": "The Halo"
+    }
+  ],
+  "description": "Halo: Combat Evolved (November 15, 2001, Xbox; PC 2003) by Bungie: Master Chief and Cortana fight the Covenant on the ring world Halo.",
+  "hashtags": [
+    "Halo",
+    "MasterChief",
+    "Xbox"
+  ],
+  "tags": [
+    "Halo Combat Evolved",
+    "Halo",
+    "Master Chief",
+    "Cortana",
+    "Bungie",
+    "Xbox",
+    "classic games"
+  ]
+}

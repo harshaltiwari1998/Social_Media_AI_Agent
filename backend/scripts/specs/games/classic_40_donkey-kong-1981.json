@@ -1,0 +1,44 @@
+{
+  "id": "donkey-kong-1981",
+  "slot": "classic",
+  "order": 40,
+  "headline": "Donkey Kong - where Mario was born",
+  "title": "Donkey Kong 1981 Facts | Mario First Appearance | Classic Games",
+  "video_script": "Did you know Mario's very first game was not a Mario game? It was Donkey Kong, an arcade game from Nintendo in nineteen eighty one. Mario was the hero, back then sometimes called Jumpman, climbing up to save Pauline from a giant gorilla called Donkey Kong. It was designed by Shigeru Miyamoto, his first game as a designer. Did you play it? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Donkey Kong (1981 video game)",
+      "label": "Donkey Kong"
+    },
+    {
+      "image": "wiki:Donkey Kong (1981 video game)",
+      "fact": "1981",
+      "sub": "Nintendo arcade"
+    },
+    {
+      "image": "wiki:Donkey Kong (1981 video game)",
+      "fact": "Mario's debut",
+      "sub": "Called Jumpman back then"
+    },
+    {
+      "image": "wiki:Donkey Kong (1981 video game)",
+      "fact": "Shigeru Miyamoto",
+      "sub": "His first game as designer"
+    }
+  ],
+  "description": "Donkey Kong (1981, Nintendo arcade): Mario's first appearance in a video game, then sometimes called Jumpman, rescuing Pauline; designed by first-time designer Shigeru Miyamoto.",
+  "hashtags": [
+    "DonkeyKong",
+    "Mario",
+    "RetroGaming"
+  ],
+  "tags": [
+    "Donkey Kong",
+    "Mario",
+    "Jumpman",
+    "Nintendo",
+    "Shigeru Miyamoto",
+    "arcade games",
+    "classic games"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "duck-hunt-1984",
+  "slot": "classic",
+  "order": 37,
+  "headline": "Duck Hunt - the light gun classic",
+  "title": "Duck Hunt Facts | The NES Zapper Game | Classic Games",
+  "video_script": "Duck Hunt is a nineteen eighty four light gun game from Nintendo. You aim the Zapper gun at your TV and shoot the ducks, with three shots each round. It first came out in Japan, and then it was a launch game for the NES in North America in October nineteen eighty five. Did you ever own a Zapper? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Duck Hunt",
+      "label": "Duck Hunt"
+    },
+    {
+      "image": "wiki:Duck Hunt",
+      "fact": "1984",
+      "sub": "Nintendo"
+    },
+    {
+      "image": "wiki:Duck Hunt",
+      "fact": "NES Zapper",
+      "sub": "Shoot the TV screen"
+    },
+    {
+      "image": "wiki:Duck Hunt",
+      "fact": "3 shots a round",
+      "sub": "Ducks and clay pigeons"
+    }
+  ],
+  "description": "Duck Hunt (1984, Nintendo): a light gun shooter played with the NES Zapper, three shots per round; an NES launch game in North America in October 1985.",
+  "hashtags": [
+    "DuckHunt",
+    "Nintendo",
+    "RetroGaming"
+  ],
+  "tags": [
+    "Duck Hunt",
+    "Nintendo",
+    "NES",
+    "Zapper",
+    "light gun game",
+    "classic games"
+  ]
+}

@@ -1708,5 +1708,225 @@
         "Orserk"
       ]
     ]
+  },
+  {
+    "parents": [
+      "Beakon",
+      "Dumud"
+    ],
+    "child": "Lullu",
+    "unique": false,
+    "combos": [
+      [
+        "Beakon",
+        "Dumud"
+      ],
+      [
+        "Chillet",
+        "Vanwyrm"
+      ],
+      [
+        "Cremis",
+        "Relaxaurus"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Bushi",
+      "Tanzee"
+    ],
+    "child": "Yakumo",
+    "unique": false,
+    "combos": [
+      [
+        "Bushi",
+        "Tanzee"
+      ],
+      [
+        "Depresso",
+        "Incineram"
+      ],
+      [
+        "Fuddler",
+        "Kitsun"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Bristla",
+      "Lovander"
+    ],
+    "child": "Snugloo",
+    "unique": false,
+    "combos": [
+      [
+        "Bristla",
+        "Lovander"
+      ],
+      [
+        "Dinossom",
+        "Leezpunk"
+      ],
+      [
+        "Flopie",
+        "Grintale"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Dinossom",
+      "Melpaca"
+    ],
+    "child": "Turtacle",
+    "unique": false,
+    "combos": [
+      [
+        "Dinossom",
+        "Melpaca"
+      ],
+      [
+        "Flambelle",
+        "Grintale"
+      ],
+      [
+        "Lovander",
+        "Tocotoco"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Cattiva",
+      "Lovander"
+    ],
+    "child": "Needoll",
+    "unique": false,
+    "combos": [
+      [
+        "Cattiva",
+        "Lovander"
+      ],
+      [
+        "Celaray",
+        "Dinossom"
+      ],
+      [
+        "Dumud",
+        "Gobfin"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Caprity",
+      "Dumud"
+    ],
+    "child": "Finsider",
+    "unique": false,
+    "combos": [
+      [
+        "Caprity",
+        "Dumud"
+      ],
+      [
+        "Dinossom",
+        "Mozzarina"
+      ],
+      [
+        "Fuddler",
+        "Grintale"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Arsox",
+      "Leezpunk"
+    ],
+    "child": "Muffly",
+    "unique": false,
+    "combos": [
+      [
+        "Arsox",
+        "Leezpunk"
+      ],
+      [
+        "Bristla",
+        "Robinquill"
+      ],
+      [
+        "Cremis",
+        "Lovander"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Arsox",
+      "Melpaca"
+    ],
+    "child": "Amione",
+    "unique": false,
+    "combos": [
+      [
+        "Arsox",
+        "Melpaca"
+      ],
+      [
+        "Cattiva",
+        "Robinquill"
+      ],
+      [
+        "Celaray",
+        "Dumud"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Arsox",
+      "Celaray"
+    ],
+    "child": "Gloopie",
+    "unique": false,
+    "combos": [
+      [
+        "Arsox",
+        "Celaray"
+      ],
+      [
+        "Clovee",
+        "Lovander"
+      ],
+      [
+        "Dinossom",
+        "Pengullet"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Arsox",
+      "Ribbuny"
+    ],
+    "child": "Jellroy",
+    "unique": false,
+    "combos": [
+      [
+        "Arsox",
+        "Ribbuny"
+      ],
+      [
+        "Caprity",
+        "Nitewing"
+      ],
+      [
+        "Chikipi",
+        "Lovander"
+      ]
+    ]
   }
 ]

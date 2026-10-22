@@ -1,0 +1,43 @@
+{
+  "id": "space-invaders-1978",
+  "slot": "classic",
+  "order": 31,
+  "headline": "Space Invaders - the game that started it all",
+  "title": "Space Invaders Facts | First Endless Arcade Shooter | Classic Games",
+  "video_script": "Space Invaders came out in nineteen seventy eight, made by Taito for arcades. It was the first video game with endless gameplay, and the very first fixed shooter, so almost every space shooter after it copied its idea. You move a laser cannon left and right and blast waves of aliens before they reach the ground. Did you ever play it? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Space Invaders",
+      "label": "Space Invaders"
+    },
+    {
+      "image": "wiki:Space Invaders",
+      "fact": "1978",
+      "sub": "Taito, arcades"
+    },
+    {
+      "image": "wiki:Space Invaders",
+      "fact": "Endless gameplay",
+      "sub": "A first in gaming"
+    },
+    {
+      "image": "wiki:Space Invaders",
+      "fact": "First fixed shooter",
+      "sub": "Set the template"
+    }
+  ],
+  "description": "Space Invaders (1978, Taito): the first video game with endless gameplay and the first fixed shooter.",
+  "hashtags": [
+    "SpaceInvaders",
+    "RetroGaming",
+    "ArcadeGames"
+  ],
+  "tags": [
+    "Space Invaders",
+    "Taito",
+    "arcade games",
+    "retro games",
+    "classic games",
+    "fixed shooter"
+  ]
+}

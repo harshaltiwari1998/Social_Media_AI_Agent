@@ -1,0 +1,43 @@
+{
+  "id": "plants-vs-zombies-2009",
+  "slot": "classic",
+  "order": 36,
+  "headline": "Plants vs Zombies - plants that fight back",
+  "title": "Plants vs Zombies Facts | Sun, Peashooters and Zombies | Classic Games",
+  "video_script": "Plants versus Zombies came out in two thousand nine from PopCap Games. You defend your house from a zombie apocalypse by planting plants in the lanes of your garden. You collect sun to place them, and if one zombie reaches your house on any lane, you lose. It started on PC and Mac and then came to phones and consoles. Which plant was your favourite? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Plants vs. Zombies (video game)",
+      "label": "Plants vs. Zombies"
+    },
+    {
+      "image": "wiki:Plants vs. Zombies (video game)",
+      "fact": "2009",
+      "sub": "PopCap Games"
+    },
+    {
+      "image": "wiki:Plants vs. Zombies (video game)",
+      "fact": "Collect sun",
+      "sub": "Place your plants"
+    },
+    {
+      "image": "wiki:Plants vs. Zombies (video game)",
+      "fact": "One zombie gets in",
+      "sub": "You lose the level"
+    }
+  ],
+  "description": "Plants vs. Zombies (2009, PopCap Games): a tower defense game where you collect sun to place plants that stop zombies reaching your house.",
+  "hashtags": [
+    "PlantsVsZombies",
+    "PopCap",
+    "TowerDefense"
+  ],
+  "tags": [
+    "Plants vs Zombies",
+    "PopCap Games",
+    "tower defense",
+    "PC games",
+    "classic games",
+    "mobile games"
+  ]
+}

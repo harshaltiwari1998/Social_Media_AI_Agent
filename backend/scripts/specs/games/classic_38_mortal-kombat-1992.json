@@ -1,0 +1,44 @@
+{
+  "id": "mortal-kombat-1992",
+  "slot": "classic",
+  "order": 38,
+  "headline": "Mortal Kombat - the game that created ratings",
+  "title": "Mortal Kombat 1992 Facts | Fatalities and the ESRB | Classic Games",
+  "video_script": "Mortal Kombat hit arcades in nineteen ninety two, made by Midway, designed by Ed Boon and John Tobias. It used real digitized actors and had Fatalities, gruesome finishing moves on a beaten opponent. It was so controversial that, together with a couple of other games, it led to the creation of the ESRB, the age rating system for video games. Who was your main? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Mortal Kombat (1992 video game)",
+      "label": "Mortal Kombat"
+    },
+    {
+      "image": "wiki:Mortal Kombat (1992 video game)",
+      "fact": "1992",
+      "sub": "Midway, arcades"
+    },
+    {
+      "image": "wiki:Mortal Kombat (1992 video game)",
+      "fact": "Fatality",
+      "sub": "The famous finisher"
+    },
+    {
+      "image": "wiki:Mortal Kombat (1992 video game)",
+      "fact": "Led to the ESRB",
+      "sub": "Game age ratings"
+    }
+  ],
+  "description": "Mortal Kombat (1992, Midway; designed by Ed Boon and John Tobias): its Fatalities and digitized gore sparked the controversy that led to the ESRB.",
+  "hashtags": [
+    "MortalKombat",
+    "Fatality",
+    "RetroGaming"
+  ],
+  "tags": [
+    "Mortal Kombat",
+    "Midway",
+    "Ed Boon",
+    "Fatality",
+    "ESRB",
+    "fighting games",
+    "classic games"
+  ]
+}

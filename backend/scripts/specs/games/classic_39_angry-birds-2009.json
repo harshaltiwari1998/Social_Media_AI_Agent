@@ -1,0 +1,43 @@
+{
+  "id": "angry-birds-2009",
+  "slot": "classic",
+  "order": 39,
+  "headline": "Angry Birds - slingshot birds vs green pigs",
+  "title": "Angry Birds Facts | Slingshot Birds and Green Pigs | Classic Games",
+  "video_script": "Angry Birds launched worldwide on December eleventh, two thousand nine, from Rovio. You use a slingshot to launch birds at green pigs hiding in towers, and you try to destroy every pig before you run out of birds. It was downloaded over fifty million times by twenty ten, and the whole series later passed five billion downloads. Which bird was your favourite? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Angry Birds (video game)",
+      "label": "Angry Birds"
+    },
+    {
+      "image": "wiki:Angry Birds (video game)",
+      "fact": "11 Dec 2009",
+      "sub": "Rovio"
+    },
+    {
+      "image": "wiki:Angry Birds (video game)",
+      "fact": "Slingshot",
+      "sub": "Birds vs green pigs"
+    },
+    {
+      "image": "wiki:Angry Birds (video game)",
+      "fact": "5 billion+",
+      "sub": "Series downloads"
+    }
+  ],
+  "description": "Angry Birds (December 11, 2009, Rovio): slingshot birds against green pigs; over 50 million downloads by 2010 and over five billion for the series.",
+  "hashtags": [
+    "AngryBirds",
+    "Rovio",
+    "MobileGames"
+  ],
+  "tags": [
+    "Angry Birds",
+    "Rovio",
+    "mobile games",
+    "puzzle games",
+    "classic games",
+    "slingshot game"
+  ]
+}

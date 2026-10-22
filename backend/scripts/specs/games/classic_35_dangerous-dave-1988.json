@@ -1,0 +1,43 @@
+{
+  "id": "dangerous-dave-1988",
+  "slot": "classic",
+  "order": 35,
+  "headline": "Dangerous Dave - the game John Romero made",
+  "title": "Dangerous Dave Facts | The Classic Computer Lab Game | Classic Games",
+  "video_script": "Did you play Dangerous Dave in your school computer lab? It is a nineteen eighty eight platform game by John Romero, the same John Romero who later helped make Doom. He made it as an example game for an article in a disk magazine, and it ran on the Apple Two and MS-DOS. Did you play it? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Dangerous Dave",
+      "label": "Dangerous Dave"
+    },
+    {
+      "image": "wiki:Dangerous Dave",
+      "fact": "1988",
+      "sub": "By John Romero"
+    },
+    {
+      "image": "wiki:Dangerous Dave",
+      "fact": "Later made Doom",
+      "sub": "Same developer"
+    },
+    {
+      "image": "wiki:Dangerous Dave",
+      "fact": "Apple II + MS-DOS",
+      "sub": "Computer lab classic"
+    }
+  ],
+  "description": "Dangerous Dave (1988) by John Romero, made for the Apple II and MS-DOS as an example game for a disk-magazine article.",
+  "hashtags": [
+    "DangerousDave",
+    "RetroGaming",
+    "DOSGames"
+  ],
+  "tags": [
+    "Dangerous Dave",
+    "John Romero",
+    "DOS games",
+    "retro games",
+    "classic games",
+    "computer lab games"
+  ]
+}

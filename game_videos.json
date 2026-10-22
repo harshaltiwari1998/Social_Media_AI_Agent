@@ -1420,5 +1420,26 @@
   "space-invaders-1978": {
     "spec": "scripts/specs/games/classic_31_space-invaders-1978.json",
     "video": "F:\\AI AGENT\\run_g20\\videos\\short-a4b30058.mp4"
+  },
+  "counter-strike-franchise-history": {
+    "spec": "scripts/specs/long/gaming_17_counter-strike-franchise-history.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-6b6fa64f.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-6b6fa64f-thumb.jpg",
+    "chapters": "0:00 The game that changed shooters\n0:43 A mod for Half-Life\n1:24 Valve steps in\n2:06 How the game works\n2:55 Version one point six and Steam\n3:29 Condition Zero and Source\n4:10 Global Offensive arrives\n4:50 Skins and the esports boom\n5:31 Free to play\n5:59 Counter-Strike Two\n6:46 Your Counter-Strike story"
+  },
+  "assassins-creed-franchise-history": {
+    "spec": "scripts/specs/long/gaming_29_assassins-creed-franchise-history.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-eab9730b.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-eab9730b-thumb.jpg",
+    "chapters": "0:00 The creed that conquered history\n0:43 From Prince of Persia to Assassin's Creed\n1:32 The Ezio trilogy\n2:15 Revolution and the pirate years\n3:01 Unity, Rogue and Syndicate\n3:51 Origins and the RPG revolution\n4:39 Odyssey and Valhalla\n5:23 Mirage goes back to the roots\n6:05 Shadows arrives in Japan\n6:52 Black Flag comes back\n7:40 Which Assassin's Creed is your favorite"
+  },
+  "prabhas-safar": {
+    "spec": "scripts/specs/long/movies_12_prabhas-safar.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-e92aa63c.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-e92aa63c-thumb.jpg",
+    "chapters": "0:00 Prabhas की कहानी\n0:42 बचपन और परिवार\n1:24 पहली film और पहली पहचान\n2:03 Chatrapathi: Rajamouli से पहली मुलाकात\n2:44 Mirchi और Nandi Award\n3:22 Baahubali: The Beginning\n4:04 Baahubali 2 का इतिहास\n4:43 Saaho के बाद का दौर\n5:34 Salaar और Kalki 2898 AD\n6:24 आगे क्या: Fauzi\n7:09 आपका favourite Prabhas film?"
   }
 }

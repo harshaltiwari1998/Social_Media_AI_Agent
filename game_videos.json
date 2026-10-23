@@ -1431,8 +1431,8 @@
   "assassins-creed-franchise-history": {
     "spec": "scripts/specs/long/gaming_29_assassins-creed-franchise-history.json",
     "kind": "long",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-eab9730b.mp4",
-    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-eab9730b-thumb.jpg",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-88d50920.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-88d50920-thumb.jpg",
     "chapters": "0:00 The creed that conquered history\n0:43 From Prince of Persia to Assassin's Creed\n1:32 The Ezio trilogy\n2:15 Revolution and the pirate years\n3:01 Unity, Rogue and Syndicate\n3:51 Origins and the RPG revolution\n4:39 Odyssey and Valhalla\n5:23 Mirage goes back to the roots\n6:05 Shadows arrives in Japan\n6:52 Black Flag comes back\n7:40 Which Assassin's Creed is your favorite"
   },
   "prabhas-safar": {
@@ -1441,5 +1441,33 @@
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-e92aa63c.mp4",
     "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-e92aa63c-thumb.jpg",
     "chapters": "0:00 Prabhas की कहानी\n0:42 बचपन और परिवार\n1:24 पहली film और पहली पहचान\n2:03 Chatrapathi: Rajamouli से पहली मुलाकात\n2:44 Mirchi और Nandi Award\n3:22 Baahubali: The Beginning\n4:04 Baahubali 2 का इतिहास\n4:43 Saaho के बाद का दौर\n5:34 Salaar और Kalki 2898 AD\n6:24 आगे क्या: Fauzi\n7:09 आपका favourite Prabhas film?"
+  },
+  "pikmin-4-switch-2-edition": {
+    "spec": "scripts/specs/games/new_16_pikmin-4-switch-2-edition.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-28a710d4.mp4"
+  },
+  "tomb-raider-1996": {
+    "spec": "scripts/specs/games/classic_19_tomb-raider-1996.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-78a9d8ae.mp4"
+  },
+  "snake-nokia-6110": {
+    "spec": "scripts/specs/games/classic_20_snake-nokia-6110.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-be16b402.mp4"
+  },
+  "gunmaaster-g9": {
+    "spec": "scripts/specs/movies/movie_new_21_gunmaaster-g9.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-c55b229a.mp4"
+  },
+  "avengers-endgame-encore-box-office": {
+    "spec": "scripts/specs/movies/movie_review_16_avengers-endgame-encore-box-office.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-75054549.mp4"
+  },
+  "reel-dil-chahta-hai-facts": {
+    "spec": "scripts/specs/movies/reel_39_dil-chahta-hai-facts.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-9a01398e.mp4"
+  },
+  "aniimo-homeland-guide": {
+    "spec": "scripts/specs/games/aniimo_13_aniimo-homeland-guide.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ddcd2e53.mp4"
   }
 }

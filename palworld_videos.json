@@ -3227,5 +3227,39 @@
       ],
       "unique": false
     }
+  },
+  "Pengullet": {
+    "spec": "scripts/specs/palworld_pengullet.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ed95010b.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Pengullet",
+      "caption": "3 ways to breed Pengullet in Palworld 1.0: Clovee + Gumoss, Cremis + Lifmunk, Daedream + Sparkit.",
+      "video_script": "Here are three ways to breed Pengullet in Palworld one point zero. Combo one: breed Clovee with Gumoss on your Breeding Farm, then add a cake. Combo two: pair Cremis and Lifmunk together, and you get the same egg. Combo three: Daedream plus Sparkit works too, so use whichever Pals you have. Every egg hatches into Pengullet. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Clovee",
+        "Gumoss"
+      ],
+      "combos": [
+        [
+          "Clovee",
+          "Gumoss"
+        ],
+        [
+          "Cremis",
+          "Lifmunk"
+        ],
+        [
+          "Daedream",
+          "Sparkit"
+        ]
+      ],
+      "child": "Pengullet",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
   }
 }

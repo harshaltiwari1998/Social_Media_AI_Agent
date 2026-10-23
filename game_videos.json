@@ -1431,8 +1431,8 @@
   "assassins-creed-franchise-history": {
     "spec": "scripts/specs/long/gaming_29_assassins-creed-franchise-history.json",
     "kind": "long",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-88d50920.mp4",
-    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-88d50920-thumb.jpg",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-6bcbdd2a.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-6bcbdd2a-thumb.jpg",
     "chapters": "0:00 The creed that conquered history\n0:43 From Prince of Persia to Assassin's Creed\n1:32 The Ezio trilogy\n2:15 Revolution and the pirate years\n3:01 Unity, Rogue and Syndicate\n3:51 Origins and the RPG revolution\n4:39 Odyssey and Valhalla\n5:23 Mirage goes back to the roots\n6:05 Shadows arrives in Japan\n6:52 Black Flag comes back\n7:40 Which Assassin's Creed is your favorite"
   },
   "prabhas-safar": {
@@ -1469,5 +1469,9 @@
   "aniimo-homeland-guide": {
     "spec": "scripts/specs/games/aniimo_13_aniimo-homeland-guide.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ddcd2e53.mp4"
+  },
+  "palworld-guide-paloxite-location": {
+    "spec": "scripts/specs/games/palguide_53_paloxite-location.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b7e07fe6.mp4"
   }
 }

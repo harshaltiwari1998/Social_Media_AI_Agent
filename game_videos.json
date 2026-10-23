@@ -1431,8 +1431,8 @@
   "assassins-creed-franchise-history": {
     "spec": "scripts/specs/long/gaming_29_assassins-creed-franchise-history.json",
     "kind": "long",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-6bcbdd2a.mp4",
-    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-6bcbdd2a-thumb.jpg",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-0e7ff428.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-0e7ff428-thumb.jpg",
     "chapters": "0:00 The creed that conquered history\n0:43 From Prince of Persia to Assassin's Creed\n1:32 The Ezio trilogy\n2:15 Revolution and the pirate years\n3:01 Unity, Rogue and Syndicate\n3:51 Origins and the RPG revolution\n4:39 Odyssey and Valhalla\n5:23 Mirage goes back to the roots\n6:05 Shadows arrives in Japan\n6:52 Black Flag comes back\n7:40 Which Assassin's Creed is your favorite"
   },
   "prabhas-safar": {
@@ -1473,5 +1473,26 @@
   "palworld-guide-paloxite-location": {
     "spec": "scripts/specs/games/palguide_53_paloxite-location.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b7e07fe6.mp4"
+  },
+  "mortal-kombat-franchise-history": {
+    "spec": "scripts/specs/long/gaming_30_mortal-kombat-franchise-history.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-02d00c32.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-02d00c32-thumb.jpg",
+    "chapters": "0:00 Finish him\n0:41 Two creators and a deadline\n1:25 Mortal Monday and the controversy\n2:10 The arcade sequels\n2:52 A new dimension\n3:39 The twenty eleven reboot\n4:19 Mortal Kombat X and Mortal Kombat Eleven\n5:04 A new timeline with Mortal Kombat One\n5:48 Looking back with the Legacy Kollection\n6:31 Who is your favorite fighter"
+  },
+  "souls-franchise-history": {
+    "spec": "scripts/specs/long/gaming_31_souls-franchise-history.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-01708457.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-01708457-thumb.jpg",
+    "chapters": "0:00 Prepare to die\n0:42 Demon's Souls\n1:28 Dark Souls arrives\n2:11 Dark Souls Two and a new job for Miyazaki\n2:54 Dark Souls Three\n3:48 Sekiro takes the crown\n4:29 Elden Ring changes everything\n5:16 Shadow of the Erdtree\n5:56 Nightreign and the road ahead\n6:37 Which Souls game is your favorite"
+  },
+  "hrithik-roshan-safar": {
+    "spec": "scripts/specs/long/movies_13_hrithik-roshan-safar.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-8a87dbc3.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-8a87dbc3-thumb.jpg",
+    "chapters": "0:00 Hrithik Roshan की कहानी\n0:48 बचपन और फिल्मी परिवार\n1:32 Kaho Naa... Pyaar Hai: शानदार शुरुआत\n2:16 Fiza और Kabhi Khushi Kabhie Gham\n2:58 मुश्किल दौर और वापसी: Koi... Mil Gaya\n3:45 Krrish और Dhoom 2\n4:25 Jodhaa Akbar और Guzaarish\n5:06 Zindagi Na Milegi Dobara और Agneepath\n5:51 Krrish 3 से Fighter तक\n6:38 आपकी राय"
   }
 }

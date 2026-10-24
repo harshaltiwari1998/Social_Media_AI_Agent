@@ -1431,8 +1431,8 @@
   "assassins-creed-franchise-history": {
     "spec": "scripts/specs/long/gaming_29_assassins-creed-franchise-history.json",
     "kind": "long",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-1aff3d6a.mp4",
-    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-1aff3d6a-thumb.jpg",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-f808b56c.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-f808b56c-thumb.jpg",
     "chapters": "0:00 The creed that conquered history\n0:43 From Prince of Persia to Assassin's Creed\n1:32 The Ezio trilogy\n2:15 Revolution and the pirate years\n3:01 Unity, Rogue and Syndicate\n3:51 Origins and the RPG revolution\n4:39 Odyssey and Valhalla\n5:23 Mirage goes back to the roots\n6:05 Shadows arrives in Japan\n6:52 Black Flag comes back\n7:40 Which Assassin's Creed is your favorite"
   },
   "prabhas-safar": {
@@ -2428,5 +2428,26 @@
         }
       ]
     }
+  },
+  "final-fantasy-franchise-history": {
+    "spec": "scripts/specs/long/gaming_33_final-fantasy-franchise-history.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-05c9127d.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-05c9127d-thumb.jpg",
+    "chapters": "0:00 A fantasy that was supposed to be final\n0:41 The first Final Fantasy\n1:28 Final Fantasy VII changes everything\n2:12 Final Fantasy X and the PlayStation 2\n2:44 Going online and the Square Enix merger\n3:34 A Realm Reborn\n4:23 Pixel Remaster brings the classics back\n5:10 The Final Fantasy VII Remake trilogy\n5:49 Final Fantasy XVI and a new generation\n6:28 Two hundred million and your favorite"
+  },
+  "sonic-franchise-history": {
+    "spec": "scripts/specs/long/gaming_34_sonic-franchise-history.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-446f7573.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-446f7573-thumb.jpg",
+    "chapters": "0:00 Gotta go fast\n0:48 Sega needs a mascot\n1:36 Sonic 2sday\n2:18 The jump to three dimensions\n3:02 Sega leaves the console race\n3:44 Sonic Mania, a gift for fans\n4:22 Sonic hits the big screen\n5:11 Frontiers, Superstars and Shadow\n5:53 One and a half billion and counting\n6:36 Your favorite Sonic"
+  },
+  "akshay-kumar-safar": {
+    "spec": "scripts/specs/long/movies_17_akshay-kumar-safar.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-e34dee22.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-e34dee22-thumb.jpg",
+    "chapters": "0:00 Khiladi Kumar की कहानी\n0:37 बचपन और असली नाम\n1:12 Bangkok से modelling तक\n1:53 Saugandh और Khiladi\n2:29 Hera Pheri: असली turning point\n3:08 2007: सबसे बड़ा साल\n3:53 Stunts, Padma Shri और पहचान\n4:30 नई तरह की कहानियां: Rustom तक\n5:06 Thriller, courtroom और देशभक्ति\n5:49 Social films और बड़ी कहानियां\n6:29 आपकी राय"
   }
 }

@@ -1431,8 +1431,8 @@
   "assassins-creed-franchise-history": {
     "spec": "scripts/specs/long/gaming_29_assassins-creed-franchise-history.json",
     "kind": "long",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-174fc35d.mp4",
-    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-174fc35d-thumb.jpg",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-dffc3c3e.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-dffc3c3e-thumb.jpg",
     "chapters": "0:00 The creed that conquered history\n0:43 From Prince of Persia to Assassin's Creed\n1:32 The Ezio trilogy\n2:15 Revolution and the pirate years\n3:01 Unity, Rogue and Syndicate\n3:51 Origins and the RPG revolution\n4:39 Odyssey and Valhalla\n5:23 Mirage goes back to the roots\n6:05 Shadows arrives in Japan\n6:52 Black Flag comes back\n7:40 Which Assassin's Creed is your favorite"
   },
   "prabhas-safar": {
@@ -1582,5 +1582,40 @@
   "aniimo-best-aniimo": {
     "spec": "scripts/specs/games/aniimo_14_aniimo-best-aniimo.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-98e804b2.mp4"
+  },
+  "palworld-pal-spheres-catching-guide": {
+    "spec": "scripts/specs/long/gaming_48_palworld-pal-spheres-catching-guide.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-d8a0c131.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-d8a0c131-thumb.jpg",
+    "chapters": "0:00 Why spheres matter\n0:37 The six main tiers\n1:21 Crafting the early spheres\n2:03 Crafting the late spheres\n2:50 Match the sphere to the Pal\n3:30 Weaken before you throw\n4:08 Check the odds and aim for the back\n4:47 Lifmunk Effigies\n5:24 Alpha Pals and legendaries\n6:05 Your catching checklist"
+  },
+  "aniimo-team-roles": {
+    "spec": "scripts/specs/games/aniimo_15_aniimo-team-roles.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-dc7ed962.mp4"
+  },
+  "aniimo-how-to-get-somniwing": {
+    "spec": "scripts/specs/games/aniimo_16_aniimo-how-to-get-somniwing.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-d125b534.mp4"
+  },
+  "aniimo-irisalis-legendary-journey": {
+    "spec": "scripts/specs/games/aniimo_17_aniimo-irisalis-legendary-journey.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-be622378.mp4"
+  },
+  "aniimo-on-mobile": {
+    "spec": "scripts/specs/games/aniimo_18_aniimo-on-mobile.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5fee875e.mp4"
+  },
+  "aniimo-holo-battle-interlink": {
+    "spec": "scripts/specs/games/aniimo_19_aniimo-holo-battle-interlink.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e82b2fc7.mp4"
+  },
+  "palworld-guide-hexolite-quartz-location": {
+    "spec": "scripts/specs/games/palguide_54_hexolite-quartz-location.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f89caac4.mp4"
+  },
+  "palworld-guide-chromite-location": {
+    "spec": "scripts/specs/games/palguide_55_chromite-location.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-8b7626c8.mp4"
   }
 }

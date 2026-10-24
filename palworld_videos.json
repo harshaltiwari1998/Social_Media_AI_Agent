@@ -3465,5 +3465,107 @@
       ],
       "unique": false
     }
+  },
+  "Cinnamoth": {
+    "spec": "scripts/specs/palworld_cinnamoth.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-60818787.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Cinnamoth",
+      "caption": "3 ways to breed Cinnamoth in Palworld 1.0: Arsox + Nox, Bristla + Gobfin, Direhowl + Nitewing.",
+      "video_script": "Here are three ways to breed Cinnamoth in Palworld one point zero. Combo one: breed Arsox with Nox on your Breeding Farm, then add a cake. Combo two: pair Bristla and Gobfin together, and you get the same egg. Combo three: Direhowl plus Nitewing works too, so use whichever Pals you have. Every egg hatches into Cinnamoth. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Arsox",
+        "Nox"
+      ],
+      "combos": [
+        [
+          "Arsox",
+          "Nox"
+        ],
+        [
+          "Bristla",
+          "Gobfin"
+        ],
+        [
+          "Direhowl",
+          "Nitewing"
+        ]
+      ],
+      "child": "Cinnamoth",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Mammorest": {
+    "spec": "scripts/specs/palworld_mammorest.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-2c2e1a12.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Mammorest",
+      "caption": "3 ways to breed Mammorest in Palworld 1.0: Anubis + Gorirat, Digtoise + Relaxaurus, Incineram + Suzaku.",
+      "video_script": "Here are three ways to breed Mammorest in Palworld one point zero. Combo one: breed Anubis with Gorirat on your Breeding Farm, then add a cake. Combo two: pair Digtoise and Relaxaurus together, and you get the same egg. Combo three: Incineram plus Suzaku works too, so use whichever Pals you have. Every egg hatches into Mammorest. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Anubis",
+        "Gorirat"
+      ],
+      "combos": [
+        [
+          "Anubis",
+          "Gorirat"
+        ],
+        [
+          "Digtoise",
+          "Relaxaurus"
+        ],
+        [
+          "Incineram",
+          "Suzaku"
+        ]
+      ],
+      "child": "Mammorest",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
+  },
+  "Warsect": {
+    "spec": "scripts/specs/palworld_warsect.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ab45052c.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Warsect",
+      "caption": "3 ways to breed Warsect in Palworld 1.0: Anubis + Penking, Jormuntide + Pyrin, Broncherry + Suzaku.",
+      "video_script": "Here are three ways to breed Warsect in Palworld one point zero. Combo one: breed Anubis with Penking on your Breeding Farm, then add a cake. Combo two: pair Jormuntide and Pyrin together, and you get the same egg. Combo three: Broncherry plus Suzaku works too, so use whichever Pals you have. Every egg hatches into Warsect. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Anubis",
+        "Penking"
+      ],
+      "combos": [
+        [
+          "Anubis",
+          "Penking"
+        ],
+        [
+          "Jormuntide",
+          "Pyrin"
+        ],
+        [
+          "Broncherry",
+          "Suzaku"
+        ]
+      ],
+      "child": "Warsect",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
   }
 }

@@ -3567,5 +3567,73 @@
       ],
       "unique": false
     }
+  },
+  "Wumpo": {
+    "spec": "scripts/specs/palworld_wumpo.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-d85c22c9.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Wumpo",
+      "caption": "3 ways to breed Wumpo in Palworld 1.0: Anubis + Suzaku, Jormuntide + Relaxaurus, Bushi + Orserk.",
+      "video_script": "Here are three ways to breed Wumpo in Palworld one point zero. Combo one: breed Anubis with Suzaku on your Breeding Farm, then add a cake. Combo two: pair Jormuntide and Relaxaurus together, and you get the same egg. Combo three: Bushi plus Orserk works too, so use whichever Pals you have. Every egg hatches into Wumpo. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Anubis",
+        "Suzaku"
+      ],
+      "combos": [
+        [
+          "Anubis",
+          "Suzaku"
+        ],
+        [
+          "Jormuntide",
+          "Relaxaurus"
+        ],
+        [
+          "Bushi",
+          "Orserk"
+        ]
+      ],
+      "child": "Wumpo",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
+  },
+  "Maraith": {
+    "spec": "scripts/specs/palworld_maraith.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-7c4fc61d.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Maraith",
+      "caption": "3 ways to breed Maraith in Palworld 1.0: Anubis + Hoocrates, Arsox + Relaxaurus, Kingpaca + Suzaku.",
+      "video_script": "Here are three ways to breed Maraith in Palworld one point zero. Combo one: breed Anubis with Hoocrates on your Breeding Farm, then add a cake. Combo two: pair Arsox and Relaxaurus together, and you get the same egg. Combo three: Kingpaca plus Suzaku works too, so use whichever Pals you have. Every egg hatches into Maraith. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Anubis",
+        "Hoocrates"
+      ],
+      "combos": [
+        [
+          "Anubis",
+          "Hoocrates"
+        ],
+        [
+          "Arsox",
+          "Relaxaurus"
+        ],
+        [
+          "Kingpaca",
+          "Suzaku"
+        ]
+      ],
+      "child": "Maraith",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
   }
 }

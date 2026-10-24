@@ -1431,8 +1431,8 @@
   "assassins-creed-franchise-history": {
     "spec": "scripts/specs/long/gaming_29_assassins-creed-franchise-history.json",
     "kind": "long",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-f808b56c.mp4",
-    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-f808b56c-thumb.jpg",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-efb4dfaf.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-efb4dfaf-thumb.jpg",
     "chapters": "0:00 The creed that conquered history\n0:43 From Prince of Persia to Assassin's Creed\n1:32 The Ezio trilogy\n2:15 Revolution and the pirate years\n3:01 Unity, Rogue and Syndicate\n3:51 Origins and the RPG revolution\n4:39 Odyssey and Valhalla\n5:23 Mirage goes back to the roots\n6:05 Shadows arrives in Japan\n6:52 Black Flag comes back\n7:40 Which Assassin's Creed is your favorite"
   },
   "prabhas-safar": {
@@ -2449,5 +2449,44 @@
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-e34dee22.mp4",
     "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-e34dee22-thumb.jpg",
     "chapters": "0:00 Khiladi Kumar की कहानी\n0:37 बचपन और असली नाम\n1:12 Bangkok से modelling तक\n1:53 Saugandh और Khiladi\n2:29 Hera Pheri: असली turning point\n3:08 2007: सबसे बड़ा साल\n3:53 Stunts, Padma Shri और पहचान\n4:30 नई तरह की कहानियां: Rustom तक\n5:06 Thriller, courtroom और देशभक्ति\n5:49 Social films और बड़ी कहानियां\n6:29 आपकी राय"
+  },
+  "aniimo-top-10-strongest": {
+    "spec": "scripts/specs/long/gaming_45_aniimo-top-10-strongest.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-2cd0e0c3.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-2cd0e0c3-thumb.jpg",
+    "chapters": "0:00 Who is strongest in Idyll\n0:55 How to read a tier list\n1:49 Damage dealers: Irisalis\n2:34 Damage dealers: Fulmintis and Malevsera\n3:18 Breakers: Wavwal and Geoclaw\n4:05 Healers: Gracewing and Glacy\n4:50 Regen: Somniwing and Besauce\n5:33 Support: Tromber\n6:16 Why these ten\n6:55 Build around your own pick\n7:31 Who is on your team"
+  },
+  "aniimo-chaos-mode": {
+    "spec": "scripts/specs/games/aniimo_20_aniimo-chaos-mode.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-d0f1b04b.mp4"
+  },
+  "aniimo-evolution-guide": {
+    "spec": "scripts/specs/games/aniimo_21_aniimo-evolution-guide.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-71b6a292.mp4"
+  },
+  "aniimo-how-to-get-dreaple": {
+    "spec": "scripts/specs/games/aniimo_22_aniimo-how-to-get-dreaple.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-1224a7f3.mp4"
+  },
+  "aniimo-how-to-get-sheldon": {
+    "spec": "scripts/specs/games/aniimo_23_aniimo-how-to-get-sheldon.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-56f488ef.mp4"
+  },
+  "aniimo-how-to-get-leafy": {
+    "spec": "scripts/specs/games/aniimo_24_aniimo-how-to-get-leafy.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-86381f1d.mp4"
+  },
+  "palworld-guide-wing-pack-glider": {
+    "spec": "scripts/specs/games/palguide_57_wing-pack-glider.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-c45d7782.mp4"
+  },
+  "palworld-guide-pal-condensation": {
+    "spec": "scripts/specs/games/palguide_58_pal-condensation.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-0fb1158d.mp4"
+  },
+  "palworld-guide-pal-souls-statue-of-power": {
+    "spec": "scripts/specs/games/palguide_59_pal-souls-statue-of-power.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-9d7d8751.mp4"
   }
 }

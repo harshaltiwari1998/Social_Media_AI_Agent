@@ -5,7 +5,8 @@ narration, post text and 4 scenes ("category": "movies" for movie specs, else ga
 Each scene shows a real image - "steam:<appid>:<n>" (nth official Steam screenshot)
 or "wiki:<Wikipedia article>" (the article's infobox image, usually the cover art)
 or "wikifile:<File name>" (a specific Wikipedia/Commons file)
-or "yt:<video id>:<maxresdefault|maxres1-3>" (frames of an official YouTube trailer) -
+or "yt:<video id>:<maxresdefault|maxres1-3>" (frames of an official YouTube trailer)
+or "url:<https url>" (store art from the Epic/Steam APIs, used by store_deals.py) -
 either as an image card with a label, or as a "fact" card (big text over the image).
 Images are cached under media_output/game_art/.
 """
@@ -57,6 +58,8 @@ def _get_json(url: str, params: dict) -> dict:
 
 def _resolve_url(ref: str) -> str:
     kind, _, rest = ref.partition(":")
+    if kind == "url":  # url:https://... - store art the store API handed us (Epic key images, Steam capsules)
+        return rest
     if kind == "steam":
         appid, _, index = rest.partition(":")
         data = _get_json("https://store.steampowered.com/api/appdetails", {"appids": appid, "filters": "screenshots"})[appid]
@@ -85,7 +88,7 @@ def _resolve_url(ref: str) -> str:
             _WIKI_API, {"action": "query", "titles": f"File:{image}", "prop": "imageinfo", "iiprop": "url", "format": "json"}
         )["query"]["pages"]
         return next(iter(files.values()))["imageinfo"][0]["url"]
-    raise ValueError(f"unknown image ref {ref!r} (use steam:<appid>:<n>, wiki:<article>, wikifile:<file name> or yt:<id>:<frame>)")
+    raise ValueError(f"unknown image ref {ref!r} (use steam:<appid>:<n>, wiki:<article>, wikifile:<file name>, yt:<id>:<frame> or url:<https url>)")
 
 
 def _pal_image(name: str) -> Image.Image:
@@ -166,7 +169,7 @@ def fact_card(img: Image.Image, fact: str, sub: str | None) -> Image.Image:
 _BADGES = {"new": "NEW GAME", "classic": "CLASSIC GAME", "movie_new": "NEW MOVIE", "movie_review": "BOX OFFICE + REVIEW",
            "reel": "MOVIE NEWS", "movie_news": "MOVIE NEWS", "comedy": "COMEDY", "tribute": "SHRADDHANJALI",
            "palguide": "PALWORLD GUIDE", "palbase": "BASE GUIDE", "palchain": "BREEDING CHAIN", "gamenews": "GAMING NEWS",
-           "aniimo": "ANIIMO GUIDE", "gow": "GOD OF WAR", "gta6": "GTA 6"}
+           "aniimo": "ANIIMO GUIDE", "gow": "GOD OF WAR", "gta6": "GTA 6", "deals": "GAME DEALS"}
 
 
 def badge_for(spec: dict) -> str:

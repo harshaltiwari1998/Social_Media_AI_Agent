@@ -36,6 +36,7 @@ from app.pipeline.orchestrator import _POSTERS, platforms_for, run_pipeline  # n
 from scripts import game_videos as game  # noqa: E402
 from scripts import long_video as longv  # noqa: E402
 from scripts import palworld_breeding_videos as pal  # noqa: E402
+from scripts import store_deals as deals  # noqa: E402
 
 MANIFEST = ROOT / settings.media_output_dir / "palworld_videos.json"
 GAME_MANIFEST = ROOT / settings.media_output_dir / "game_videos.json"
@@ -123,6 +124,18 @@ def _build(builder, spec_path: Path) -> str | None:
     return video["data"]["path"]
 
 
+def _entry_spec(entry: dict) -> tuple[Path, dict]:
+    """A manifest entry's spec. Specs generated on GitHub Actions (store deals) aren't committed, so the
+    manifest keeps a copy ("data") and the file is rewritten from it when the runner doesn't have it."""
+    spec_path = ROOT / entry["spec"]
+    if "data" in entry:
+        if not spec_path.exists():
+            spec_path.parent.mkdir(parents=True, exist_ok=True)
+            spec_path.write_text(json.dumps(entry["data"], ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        return spec_path, entry["data"]
+    return spec_path, json.loads(spec_path.read_text(encoding="utf-8"))
+
+
 def retry_pending(poster: Poster) -> None:
     log.info("== Retry pending uploads")
     # Palworld: spec content is kept in the manifest because specs made on GitHub Actions
@@ -146,12 +159,12 @@ def retry_pending(poster: Poster) -> None:
     games = _load(GAME_MANIFEST)  # shorts built by game_videos.py, long videos by long_video.py
     for game_id, entry in games.items():
         if entry.get("kind") == "long":
-            spec = json.loads((ROOT / entry["spec"]).read_text(encoding="utf-8"))
+            spec_path, spec = _entry_spec(entry)
             if not poster.pending(longv.post_id_for(spec), platforms=longv.default_platforms(spec)):
                 continue
             log.info("%s (long)", game_id)
             if not Path(entry["video"]).exists():
-                result = longv.build_video(ROOT / entry["spec"])["video"]
+                result = longv.build_video(spec_path)["video"]
                 _record_build(result["success"])
                 if not result["success"]:
                     log.warning("  rebuild failed: %s", result["error"])
@@ -160,8 +173,7 @@ def retry_pending(poster: Poster) -> None:
                 _save(GAME_MANIFEST, games)
             post_long(poster, spec, entry)
             continue
-        spec_path = ROOT / entry["spec"]
-        spec = json.loads(spec_path.read_text(encoding="utf-8"))
+        spec_path, spec = _entry_spec(entry)
         category = game.category_of(spec)
         if not poster.pending(game.post_id_for(spec), category, spec.get("platforms")):
             continue
@@ -225,6 +237,47 @@ def make_new_games(poster: Poster, slot: str, count: int, spec_dir: Path = GAME_
         poster.post(
             game.post_id_for(spec), *game.post_text_and_tags(spec), video, game.category_of(spec), spec.get("platforms")
         )
+
+
+def make_store_deals(poster: Poster, shorts: int, longs: int) -> None:
+    """Free games + Steam/Epic deals, checked live on the stores every run (scripts/store_deals.py):
+    up to `shorts` one-game shorts not posted for that offer yet, and up to `longs` long roundups for today."""
+    log.info("== Store deals (up to %d shorts, %d long)", shorts, longs)
+    if shorts <= 0 and longs <= 0:
+        return
+    if not (data := deals.collect()):
+        log.warning("Neither Epic nor Steam answered - no deals videos today")
+        HEALTH["build_failed"] += 1
+        return
+    log.info("  Epic free %d, next %d | Steam free %d, deals %d | sales: %s, %d franchise",
+             len(data["epic_now"]), len(data["epic_next"]), len(data["steam_free"]), len(data["steam_deals"]),
+             ", ".join(data["events"]) or "-", data["franchise_sales"])
+    games = _load(GAME_MANIFEST)
+    todo = [s for s in deals.short_specs(data) if s["id"] not in games][:max(shorts, 0)]
+    if not todo and shorts > 0:
+        log.info("  no new free games or deals since the last run")
+    for spec in todo:
+        log.info("%s", spec["id"])
+        path = deals.write_spec(spec)
+        if not (video := _build(game.build_video, path)):
+            continue
+        games[spec["id"]] = {"spec": path.relative_to(ROOT).as_posix(), "video": video, "data": spec}
+        _save(GAME_MANIFEST, games)
+        poster.post(game.post_id_for(spec), *game.post_text_and_tags(spec), video, game.category_of(spec), spec.get("platforms"))
+    for spec in [s for s in deals.long_specs(data) if s["id"] not in games][:max(longs, 0)]:
+        log.info("%s (long, %d words)", spec["id"], longv.word_count(spec))
+        path = deals.write_spec(spec, "long")
+        result = longv.build_video(path)["video"]
+        _record_build(result["success"])
+        if not result["success"]:
+            log.warning("  build failed: %s", result["error"])
+            continue
+        entry = {"spec": path.relative_to(ROOT).as_posix(), "kind": "long", "video": result["data"]["path"],
+                 "thumbnail": result["data"]["thumbnail"], "chapters": result["data"]["chapters"], "data": spec}
+        games[spec["id"]] = entry
+        _save(GAME_MANIFEST, games)
+        log.info("  rendered %.0f s", result["data"]["duration_seconds"])
+        post_long(poster, spec, entry)
 
 
 def post_long(poster: Poster, spec: dict, entry: dict) -> None:
@@ -345,6 +398,8 @@ def main() -> None:
         "--extra-slot", action="append", default=[], metavar="SLOT:COUNT",
         help="also post a one-off spec slot from specs/games or specs/movies, e.g. gta6:10 or reel:10",
     )
+    parser.add_argument("--deals-shorts", type=int, default=0, help="free-game / store-deal shorts (Epic + Steam, live)")
+    parser.add_argument("--deals-long", type=int, default=0, help="free-game / store-deal long roundups (max 2)")
     parser.add_argument("--long-series", help="only long specs with this \"series\" (e.g. palworld, aniimo)")
     parser.add_argument("--skip-trends", action="store_true")
     parser.add_argument("--skip-gaming", action="store_true", help="gaming + movie videos run on GitHub Actions instead")
@@ -374,6 +429,7 @@ def main() -> None:
         lambda: make_new_palworld(poster, args.new_palworld),
         lambda: make_new_games(poster, "movie_new", args.new_movies, MOVIE_SPECS),
         lambda: make_new_games(poster, "movie_review", args.movie_reviews, MOVIE_SPECS),
+        lambda: make_store_deals(poster, args.deals_shorts, args.deals_long),
         lambda: make_long_videos(poster, args.long_videos, tuple(args.long_category or ("gaming", "movies")), args.long_series),
         *[
             (lambda slot, count: lambda: make_new_games(

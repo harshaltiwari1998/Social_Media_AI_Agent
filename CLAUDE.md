@@ -48,6 +48,11 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   Aniimo + Palworld workflow (`--long-series`); normal long runs skip series specs.
 - `backend/scripts/specs/palworld_queue.json` - Palworld breeding shorts. Each entry has 3 verified
   `"combos"` for the same child.
+- **Store deals have no hand-written specs**: `scripts/store_deals.py` checks Epic (free now / next week) and
+  Steam India (free-to-keep, Daily/Weekend/Midweek Deal, sale events, franchise sales, top discounted games)
+  live each run and generates one-game shorts (id = store + game + offer, so each offer posts once) and up to
+  2 long roundups (free + top deals; under Rs 500, else biggest discounts) into `specs/deals/` (gitignored);
+  the manifest keeps a `"data"` copy so retries work on CI. Images use `url:<https url>` refs.
 - `backend/scripts/specs/gameplay/<plan>.json` - cut plans for the owner's own stream recordings.
 - `daily_job.py` picks the lowest-`order` unposted, unexpired spec per slot (`--from-end` takes the
   highest, for manual batches that must not collide with scheduled runs).
@@ -55,7 +60,7 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
 ### Main scripts
 - `scripts/daily_job.py` - the one entry point: retries pending uploads, then builds + posts per
   slot (`--new-games`, `--classic-games`, `--new-palworld`, `--extra-slot slot:N`, `--long-videos`,
-  `--long-category`, `--long-series`, `--skip-trends`, `--from-end`). Exits 1 if every build or every
+  `--long-category`, `--long-series`, `--deals-shorts`, `--deals-long`, `--skip-trends`, `--from-end`). Exits 1 if every build or every
   upload failed (health check).
 - `scripts/game_videos.py` (shorts from specs), `scripts/long_video.py` (long videos),
   `scripts/palworld_breeding_videos.py` (breeding cards: intro + one card per combo + child).
@@ -76,6 +81,7 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
 | 10:00 | Laptop task `daily_job.cmd --skip-gaming` (trends) + `motion_daily.py` + `gameplay_daily.py` |
 | 13:45 | `daily-anipal.yml` 1st half - 5 Aniimo + 2 Palworld guide + 3 breeding + 1 long (palworld) |
 | 14:00 | `daily-palguide.yml` - 1 Palworld guide |
+| 16:00 | `daily-deals.yml` - up to 10 free-game / deal shorts + 2 long deal roundups (Epic + Steam, live) |
 | 18:00 | `daily-long.yml` - 2 long gaming + 1 long movie |
 | 21:00 | `daily-anipal.yml` 2nd half - 5 Aniimo + 3 Palworld guide + 2 breeding + 1 long (aniimo) |
 | Sun 19:30 | `weekly-report.yml` - stats issue |
@@ -85,6 +91,8 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
 ## Decisions and owner rules (do not break)
 
 - **Routing**: gaming never goes to the movie channel/page and vice versa. Gaming = English, movies = Hindi.
+- **Store deals**: the store APIs are the source (no two-source check), prices are Steam India INR, and
+  every description says when it was checked. Deals under 30% off are skipped unless the store features them.
 - **Copyright**: never clip third-party films, TV shows or other people's videos (refused: Haunted 3D, TMKOC).
   Offer Wikipedia-verified facts reels instead. Gameplay cuts only from the owner's own streams
   (check the title exists on HarryBeast first).
@@ -114,6 +122,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
 - Daily gaming + movie shorts, reels, long videos, Palworld guides, Aniimo, breeding (3-combo) - all
   on GitHub Actions, posting to YouTube (2 channels), 2 Facebook Pages, 2 Instagram accounts.
 - Daily Aniimo + Palworld pipeline (writer routine + `daily-anipal.yml`).
+- Daily free games + store deals (`daily-deals.yml`, `scripts/store_deals.py`) - 10 shorts + 2 long a day.
 - Weekly refill routine, login check, weekly stats report, health-check exit codes.
 - Gameplay clipper for own RDR2 streams (done: Ch1 P1, Ch2 P1-P3; ~220 clips posted).
 - Laptop trend pipeline (Ollama + SD) and free AI-motion queue (`motion_queue/` -> `motion_videos/`).
@@ -127,6 +136,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
 - Twitter trend source has no token (skipped).
 
 ## Change log
+- 2026-10-24 - Daily free games + Epic/Steam deals: `store_deals.py`, `daily-deals.yml`, `url:` image refs.
 - 2026-10-24 - CLAUDE.md created; Aniimo + Palworld daily pipeline (writer routine, `daily-anipal.yml`, `--long-series`).
 - 2026-10-22 - Instagram Reel cover offset; 10 classic + 10 breeding batch.
 - 2026-10-21 - Gaming Facebook Page + Instagram; daily long = 2 gaming + 1 movie; tags to 500 chars.

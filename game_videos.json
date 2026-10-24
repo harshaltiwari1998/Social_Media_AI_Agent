@@ -1431,8 +1431,8 @@
   "assassins-creed-franchise-history": {
     "spec": "scripts/specs/long/gaming_29_assassins-creed-franchise-history.json",
     "kind": "long",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-81304db4.mp4",
-    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-81304db4-thumb.jpg",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-1aff3d6a.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-1aff3d6a-thumb.jpg",
     "chapters": "0:00 The creed that conquered history\n0:43 From Prince of Persia to Assassin's Creed\n1:32 The Ezio trilogy\n2:15 Revolution and the pirate years\n3:01 Unity, Rogue and Syndicate\n3:51 Origins and the RPG revolution\n4:39 Odyssey and Valhalla\n5:23 Mirage goes back to the roots\n6:05 Shadows arrives in Japan\n6:52 Black Flag comes back\n7:40 Which Assassin's Creed is your favorite"
   },
   "prabhas-safar": {
@@ -1621,5 +1621,812 @@
   "palworld-guide-eidrolon-location": {
     "spec": "scripts/specs/games/palguide_56_eidrolon-location.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-49adfc28.mp4"
+  },
+  "deal-steam-deal-1250-90": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-1250-90.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-59ac31a0.mp4",
+    "data": {
+      "id": "deal-steam-deal-1250-90",
+      "slot": "deals",
+      "badge": "STEAM DAILY DEAL",
+      "headline": "Steam deal",
+      "title": "Killing Floor 90% OFF on Steam | Now Rs 56 | Steam Deal Oct 24",
+      "video_script": "Today's Steam Daily Deal is Killing Floor at 90 percent off, down from 565 rupees to just 56 rupees. 6-player co-op survival horror at its finest! Free updates, free special events and a ridiculous amount of fun! Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1250/header.jpg?t=1789667388",
+          "label": "Killing Floor"
+        },
+        {
+          "image": "steam:1250:0",
+          "fact": "-90%  Rs 56",
+          "sub": "was Rs 565"
+        },
+        {
+          "image": "steam:1250:1",
+          "fact": "Action",
+          "sub": "Tripwire Interactive"
+        },
+        {
+          "image": "steam:1250:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Daily Deal is Killing Floor at 90 percent off, down from 565 rupees to just 56 rupees.\nhttps://store.steampowered.com/app/1250\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 24 2026, 19:49 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Killing Floor",
+        "Killing Floor sale",
+        "Killing Floor price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-1091500-70": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-1091500-70.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-8681efd6.mp4",
+    "data": {
+      "id": "deal-steam-deal-1091500-70",
+      "slot": "deals",
+      "badge": "STEAM WEEKEND DEAL",
+      "headline": "Steam deal",
+      "title": "Cyberpunk 2077 70% OFF on Steam | Now Rs 899 | Steam Deal Oct 24",
+      "video_script": "Today's Steam Weekend Deal is Cyberpunk 2077 at 70 percent off, down from 2,999 rupees to just 899 rupees. The deal ends on October 26. Cyberpunk 2077 is an open-world, action-adventure RPG set in the dark future of Night City — a dangerous megalopolis obsessed with power, glamor, and ceaseless body modification. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/48a93d6445a67520ea49833c93dae8f2e68fc540/header_alt_assets_9.jpg?t=1792682505",
+          "label": "Cyberpunk 2077"
+        },
+        {
+          "image": "steam:1091500:0",
+          "fact": "-70%  Rs 899",
+          "sub": "was Rs 2,999"
+        },
+        {
+          "image": "steam:1091500:1",
+          "fact": "RPG",
+          "sub": "CD PROJEKT RED"
+        },
+        {
+          "image": "steam:1091500:2",
+          "fact": "Ends Oct 26",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Weekend Deal is Cyberpunk 2077 at 70 percent off, down from 2,999 rupees to just 899 rupees. The deal ends on October 26.\nhttps://store.steampowered.com/app/1091500\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 24 2026, 19:49 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Cyberpunk 2077",
+        "Cyberpunk 2077 sale",
+        "Cyberpunk 2077 price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-529340-70": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-529340-70.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-adf51a36.mp4",
+    "data": {
+      "id": "deal-steam-deal-529340-70",
+      "slot": "deals",
+      "badge": "STEAM WEEKEND DEAL",
+      "headline": "Steam deal",
+      "title": "Victoria 3 70% OFF on Steam | Now Rs 941 | Steam Deal Oct 24",
+      "video_script": "Today's Steam Weekend Deal is Victoria 3 at 70 percent off, down from 3,139 rupees to just 941 rupees. Paradox Development Studio invites you to build your ideal society in the tumult of the exciting and transformative 19th century. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/529340/header.jpg?t=1791467998",
+          "label": "Victoria 3"
+        },
+        {
+          "image": "steam:529340:0",
+          "fact": "-70%  Rs 941",
+          "sub": "was Rs 3,139"
+        },
+        {
+          "image": "steam:529340:1",
+          "fact": "Simulation + Strategy",
+          "sub": "Paradox Development Studio"
+        },
+        {
+          "image": "steam:529340:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Weekend Deal is Victoria 3 at 70 percent off, down from 3,139 rupees to just 941 rupees.\nhttps://store.steampowered.com/app/529340\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 24 2026, 19:49 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Victoria 3",
+        "Victoria 3 sale",
+        "Victoria 3 price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-2479810-35": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-2479810-35.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b536a860.mp4",
+    "data": {
+      "id": "deal-steam-deal-2479810-35",
+      "slot": "deals",
+      "badge": "STEAM WEEKEND DEAL",
+      "headline": "Steam deal",
+      "title": "Gray Zone Warfare 35% OFF on Steam | Now Rs 1,559 | Steam Deal Oct 24",
+      "video_script": "Today's Steam Weekend Deal is Gray Zone Warfare at 35 percent off, down from 2,399 rupees to just 1,559 rupees. Enter a high-stakes PvE-first open-world tactical shooter set on a quarantined Southeast Asian island torn apart by faction warfare. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2479810/cce8bf6b32325d29562a6c1dc24c8e705204ff6a/header_alt_assets_6.jpg?t=1792840152",
+          "label": "Gray Zone Warfare"
+        },
+        {
+          "image": "steam:2479810:0",
+          "fact": "-35%  Rs 1,559",
+          "sub": "was Rs 2,399"
+        },
+        {
+          "image": "steam:2479810:1",
+          "fact": "Action + Massively Multiplayer + Simulation",
+          "sub": "MADFINGER Games, a.s."
+        },
+        {
+          "image": "steam:2479810:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Weekend Deal is Gray Zone Warfare at 35 percent off, down from 2,399 rupees to just 1,559 rupees.\nhttps://store.steampowered.com/app/2479810\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 24 2026, 19:49 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Gray Zone Warfare",
+        "Gray Zone Warfare sale",
+        "Gray Zone Warfare price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-1449690-90": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-1449690-90.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-aa78f379.mp4",
+    "data": {
+      "id": "deal-steam-deal-1449690-90",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "The Walking Dead: The Telltale Definitive Series 90% OFF on Steam | Now Rs 200 | Steam Deal Oct 24",
+      "video_script": "The Walking Dead: The Telltale Definitive Series is on sale on Steam at 90 percent off, down from 2,000 rupees to just 200 rupees. The deal ends on November 5. The Walking Dead: The Telltale Definitive Series contains all 4 Seasons, 400 Days, and The Walking Dead: Michonne, which includes over 50 hours of gameplay across 23 unique episodes. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/header.jpg?t=1760651835",
+          "label": "The Walking Dead: The Telltale Definitive Series"
+        },
+        {
+          "image": "steam:1449690:0",
+          "fact": "-90%  Rs 200",
+          "sub": "was Rs 2,000"
+        },
+        {
+          "image": "steam:1449690:1",
+          "fact": "Adventure",
+          "sub": "Skybound Games"
+        },
+        {
+          "image": "steam:1449690:2",
+          "fact": "Ends Nov 5",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "The Walking Dead: The Telltale Definitive Series is on sale on Steam at 90 percent off, down from 2,000 rupees to just 200 rupees. The deal ends on November 5.\nhttps://store.steampowered.com/app/1449690\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 24 2026, 19:49 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "The Walking Dead: The Telltale Definitive Series",
+        "The Walking Dead: The Telltale Definitive Series sale",
+        "The Walking Dead: The Telltale Definitive Series price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-668580-80": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-668580-80.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-03558b71.mp4",
+    "data": {
+      "id": "deal-steam-deal-668580-80",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Atomic Heart 80% OFF on Steam | Now Rs 539 | Steam Deal Oct 24",
+      "video_script": "Atomic Heart is on sale on Steam at 80 percent off, down from 2,699 rupees to just 539 rupees. In a mad and sublime utopian world, take part in explosive encounters. Adapt your fighting style to each opponent, use your environment and upgrade your equipment to fulfill your mission. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/header.jpg?t=1786632138",
+          "label": "Atomic Heart"
+        },
+        {
+          "image": "steam:668580:0",
+          "fact": "-80%  Rs 539",
+          "sub": "was Rs 2,699"
+        },
+        {
+          "image": "steam:668580:1",
+          "fact": "Action + Adventure + RPG",
+          "sub": "Mundfish"
+        },
+        {
+          "image": "steam:668580:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Atomic Heart is on sale on Steam at 80 percent off, down from 2,699 rupees to just 539 rupees.\nhttps://store.steampowered.com/app/668580\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 24 2026, 19:49 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Atomic Heart",
+        "Atomic Heart sale",
+        "Atomic Heart price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-2183900-75": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-2183900-75.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-266f22cc.mp4",
+    "data": {
+      "id": "deal-steam-deal-2183900-75",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Warhammer 40,000: Space Marine 2 75% OFF on Steam | Now Rs 849 | Steam Deal Oct 24",
+      "video_script": "Warhammer 40,000: Space Marine 2 is on sale on Steam at 75 percent off, down from 3,399 rupees to just 849 rupees. The deal ends on October 24. Embody the superhuman skill and brutality of a Space Marine. Unleash deadly abilities and devastating weaponry to obliterate the relentless Tyranid swarms. Defend the Imperium in spectacular third-person action in solo or multiplayer modes. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/c0da5cad512f85a006abb9181cb3f45107fb0223/header_alt_assets_14.jpg?t=1790874369",
+          "label": "Warhammer 40,000: Space Marine 2"
+        },
+        {
+          "image": "steam:2183900:0",
+          "fact": "-75%  Rs 849",
+          "sub": "was Rs 3,399"
+        },
+        {
+          "image": "steam:2183900:1",
+          "fact": "Action + Adventure + RPG",
+          "sub": "Saber Interactive"
+        },
+        {
+          "image": "steam:2183900:2",
+          "fact": "Ends Oct 24",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Warhammer 40,000: Space Marine 2 is on sale on Steam at 75 percent off, down from 3,399 rupees to just 849 rupees. The deal ends on October 24.\nhttps://store.steampowered.com/app/2183900\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 24 2026, 19:49 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Warhammer 40,000: Space Marine 2",
+        "Warhammer 40,000: Space Marine 2 sale",
+        "Warhammer 40,000: Space Marine 2 price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-2050650-75": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-2050650-75.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f4f17c07.mp4",
+    "data": {
+      "id": "deal-steam-deal-2050650-75",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Resident Evil 4 75% OFF on Steam | Now Rs 624 | Steam Deal Oct 24",
+      "video_script": "Resident Evil 4 is on sale on Steam at 75 percent off, down from 2,497 rupees to just 624 rupees. The deal ends on November 3. Survival is just the beginning. Six years have passed since the biological disaster in Raccoon City. Leon S. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg?t=1772502922",
+          "label": "Resident Evil 4"
+        },
+        {
+          "image": "steam:2050650:0",
+          "fact": "-75%  Rs 624",
+          "sub": "was Rs 2,497"
+        },
+        {
+          "image": "steam:2050650:1",
+          "fact": "Action + Adventure",
+          "sub": "CAPCOM Co., Ltd."
+        },
+        {
+          "image": "steam:2050650:2",
+          "fact": "Ends Nov 3",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Resident Evil 4 is on sale on Steam at 75 percent off, down from 2,497 rupees to just 624 rupees. The deal ends on November 3.\nhttps://store.steampowered.com/app/2050650\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 24 2026, 19:49 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Resident Evil 4",
+        "Resident Evil 4 sale",
+        "Resident Evil 4 price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-322330-66": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-322330-66.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-24e5f2c4.mp4",
+    "data": {
+      "id": "deal-steam-deal-322330-66",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Don't Starve Together 66% OFF on Steam | Now Rs 156 | Steam Deal Oct 24",
+      "video_script": "Don't Starve Together is on sale on Steam at 66 percent off, down from 459 rupees to just 156 rupees. Fight, Farm, Build and Explore Together in the standalone multiplayer expansion to the uncompromising wilderness survival game, Don't Starve. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/050ea9c51a4e96f707309d33b7cdd38e0a6cbfff/header_alt_assets_51.jpg?t=1792687779",
+          "label": "Don't Starve Together"
+        },
+        {
+          "image": "steam:322330:0",
+          "fact": "-66%  Rs 156",
+          "sub": "was Rs 459"
+        },
+        {
+          "image": "steam:322330:1",
+          "fact": "Action + Adventure + Indie",
+          "sub": "Klei Entertainment"
+        },
+        {
+          "image": "steam:322330:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Don't Starve Together is on sale on Steam at 66 percent off, down from 459 rupees to just 156 rupees.\nhttps://store.steampowered.com/app/322330\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 24 2026, 19:49 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Don't Starve Together",
+        "Don't Starve Together sale",
+        "Don't Starve Together price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-381210-60": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-381210-60.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e9438405.mp4",
+    "data": {
+      "id": "deal-steam-deal-381210-60",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Dead by Daylight 60% OFF on Steam | Now Rs 463 | Steam Deal Oct 24",
+      "video_script": "Dead by Daylight is on sale on Steam at 60 percent off, down from 1,159 rupees to just 463 rupees. 10 years of horror. 10 years of jump scares and close calls. 10 years of brutal sacrifices and thrilling escapes. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/23fed9f741423413769ad1617e41519d1a466cdc/header_alt_assets_10.jpg?t=1791302579",
+          "label": "Dead by Daylight"
+        },
+        {
+          "image": "steam:381210:0",
+          "fact": "-60%  Rs 463",
+          "sub": "was Rs 1,159"
+        },
+        {
+          "image": "steam:381210:1",
+          "fact": "Action",
+          "sub": "Behaviour Interactive Inc."
+        },
+        {
+          "image": "steam:381210:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Dead by Daylight is on sale on Steam at 60 percent off, down from 1,159 rupees to just 463 rupees.\nhttps://store.steampowered.com/app/381210\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 24 2026, 19:49 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Dead by Daylight",
+        "Dead by Daylight sale",
+        "Dead by Daylight price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deals-roundup-2026-10-24": {
+    "spec": "scripts/specs/deals/long/deals-roundup-2026-10-24.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-d94a8ad4.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-d94a8ad4-thumb.jpg",
+    "chapters": "0:00 Today's deals\n0:13 Sales live on Steam\n0:24 Killing Floor - 90% off\n0:51 Cyberpunk 2077 - 70% off\n1:28 Victoria 3 - 70% off\n1:58 Gray Zone Warfare - 35% off\n2:29 The Walking Dead: The Telltale Definitive Series - 90% off\n3:03 Atomic Heart - 80% off\n3:40 Warhammer 40,000: Space Marine 2 - 75% off\n4:22 Resident Evil 4 - 75% off\n5:04 Don't Starve Together - 66% off\n5:33 Dead by Daylight - 60% off\n6:03 Which one are you grabbing",
+    "data": {
+      "id": "deals-roundup-2026-10-24",
+      "category": "gaming",
+      "title": "Free Games + Best Steam Deals Today | Killing Floor 90% OFF | Epic Games + Steam Oct 24",
+      "description": "Here are all the free games and the best game deals for October 24. We go through the 10 best Steam deals right now, with the India price in rupees for each one, what the game is, and what players think of it.\n\n- Killing Floor: -90% Rs 56 (was Rs 565) - https://store.steampowered.com/app/1250\n- Cyberpunk 2077: -70% Rs 899 (was Rs 2,999) - https://store.steampowered.com/app/1091500\n- Victoria 3: -70% Rs 941 (was Rs 3,139) - https://store.steampowered.com/app/529340\n- Gray Zone Warfare: -35% Rs 1,559 (was Rs 2,399) - https://store.steampowered.com/app/2479810\n- The Walking Dead: The Telltale Definitive Series: -90% Rs 200 (was Rs 2,000) - https://store.steampowered.com/app/1449690\n- Atomic Heart: -80% Rs 539 (was Rs 2,699) - https://store.steampowered.com/app/668580\n- Warhammer 40,000: Space Marine 2: -75% Rs 849 (was Rs 3,399) - https://store.steampowered.com/app/2183900\n- Resident Evil 4: -75% Rs 624 (was Rs 2,497) - https://store.steampowered.com/app/2050650\n- Don't Starve Together: -66% Rs 156 (was Rs 459) - https://store.steampowered.com/app/322330\n- Dead by Daylight: -60% Rs 463 (was Rs 1,159) - https://store.steampowered.com/app/381210\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 24 2026, 19:49 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "SteamSale",
+        "EpicGames",
+        "GameDeals"
+      ],
+      "tags": [
+        "Killing Floor",
+        "Cyberpunk 2077",
+        "Victoria 3",
+        "Gray Zone Warfare",
+        "The Walking Dead: The Telltale Definitive Series",
+        "Atomic Heart",
+        "Warhammer 40,000: Space Marine 2",
+        "Resident Evil 4",
+        "free games",
+        "steam sale",
+        "steam deals today",
+        "epic games free games",
+        "best game deals",
+        "steam sale india",
+        "cheap pc games",
+        "games under 500 rupees"
+      ],
+      "thumbnail": {
+        "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1250/header.jpg?t=1789667388",
+        "text": "FREE GAMES + DEALS"
+      },
+      "sections": [
+        {
+          "heading": "Today's deals",
+          "script": "Here are all the free games and the best game deals for October 24. We go through the 10 best Steam deals right now, with the India price in rupees for each one, what the game is, and what players think of it.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1250/header.jpg?t=1789667388",
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/48a93d6445a67520ea49833c93dae8f2e68fc540/header_alt_assets_9.jpg?t=1792682505",
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/529340/header.jpg?t=1791467998"
+          ]
+        },
+        {
+          "heading": "Sales live on Steam",
+          "script": "First, the sales that are live on Steam right now. There are also 3 franchise sales running, so if you follow a series, check the Steam front page for its bundle prices.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1250/header.jpg?t=1789667388"
+          ]
+        },
+        {
+          "heading": "Killing Floor - 90% off",
+          "script": "Today's Steam Daily Deal is Killing Floor at 90 percent off, down from 565 rupees to just 56 rupees. 6-player co-op survival horror at its finest! Free updates, free special events and a ridiculous amount of fun! Steam lists it as Action, made by Tripwire Interactive, released 14 May, 2009. That saves you 509 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1250/header.jpg?t=1789667388",
+            "steam:1250:0",
+            "steam:1250:1"
+          ]
+        },
+        {
+          "heading": "Cyberpunk 2077 - 70% off",
+          "script": "Today's Steam Weekend Deal is Cyberpunk 2077 at 70 percent off, down from 2,999 rupees to just 899 rupees. The deal ends on October 26. Cyberpunk 2077 is an open-world, action-adventure RPG set in the dark future of Night City — a dangerous megalopolis obsessed with power, glamor, and ceaseless body modification. Steam lists it as RPG, made by CD PROJEKT RED, released 9 Dec, 2020. That saves you 2,100 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/48a93d6445a67520ea49833c93dae8f2e68fc540/header_alt_assets_9.jpg?t=1792682505",
+            "steam:1091500:0",
+            "steam:1091500:1"
+          ]
+        },
+        {
+          "heading": "Victoria 3 - 70% off",
+          "script": "Today's Steam Weekend Deal is Victoria 3 at 70 percent off, down from 3,139 rupees to just 941 rupees. Paradox Development Studio invites you to build your ideal society in the tumult of the exciting and transformative 19th century. Steam lists it as Simulation and Strategy, made by Paradox Development Studio, released 25 Oct, 2022. That saves you 2,198 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/529340/header.jpg?t=1791467998",
+            "steam:529340:0",
+            "steam:529340:1"
+          ]
+        },
+        {
+          "heading": "Gray Zone Warfare - 35% off",
+          "script": "Today's Steam Weekend Deal is Gray Zone Warfare at 35 percent off, down from 2,399 rupees to just 1,559 rupees. Enter a high-stakes PvE-first open-world tactical shooter set on a quarantined Southeast Asian island torn apart by faction warfare. Steam lists it as Action and Massively Multiplayer and Simulation, made by MADFINGER Games, a.s., released 30 Apr, 2024. That saves you 840 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2479810/cce8bf6b32325d29562a6c1dc24c8e705204ff6a/header_alt_assets_6.jpg?t=1792840152",
+            "steam:2479810:0",
+            "steam:2479810:1"
+          ]
+        },
+        {
+          "heading": "The Walking Dead: The Telltale Definitive Series - 90% off",
+          "script": "The Walking Dead: The Telltale Definitive Series is on sale on Steam at 90 percent off, down from 2,000 rupees to just 200 rupees. The deal ends on November 5. The Walking Dead: The Telltale Definitive Series contains all 4 Seasons, 400 Days, and The Walking Dead: Michonne, which includes over 50 hours of gameplay across 23 unique episodes. Steam lists it as Adventure, made by Skybound Games, released 29 Oct, 2020. That saves you 1,800 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1449690/header.jpg?t=1760651835",
+            "steam:1449690:0",
+            "steam:1449690:1"
+          ]
+        },
+        {
+          "heading": "Atomic Heart - 80% off",
+          "script": "Atomic Heart is on sale on Steam at 80 percent off, down from 2,699 rupees to just 539 rupees. In a mad and sublime utopian world, take part in explosive encounters. Adapt your fighting style to each opponent, use your environment and upgrade your equipment to fulfill your mission. If you want to reach the truth, you'll have to pay in blood. Steam lists it as Action and Adventure and RPG, made by Mundfish, released 20 Feb, 2023. That saves you 2,160 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668580/header.jpg?t=1786632138",
+            "steam:668580:0",
+            "steam:668580:1"
+          ]
+        },
+        {
+          "heading": "Warhammer 40,000: Space Marine 2 - 75% off",
+          "script": "Warhammer 40,000: Space Marine 2 is on sale on Steam at 75 percent off, down from 3,399 rupees to just 849 rupees. The deal ends on October 24. Embody the superhuman skill and brutality of a Space Marine. Unleash deadly abilities and devastating weaponry to obliterate the relentless Tyranid swarms. Defend the Imperium in spectacular third-person action in solo or multiplayer modes. Steam lists it as Action and Adventure and RPG, made by Saber Interactive, released 9 Sep, 2024. That saves you 2,550 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2183900/c0da5cad512f85a006abb9181cb3f45107fb0223/header_alt_assets_14.jpg?t=1790874369",
+            "steam:2183900:0",
+            "steam:2183900:1"
+          ]
+        },
+        {
+          "heading": "Resident Evil 4 - 75% off",
+          "script": "Resident Evil 4 is on sale on Steam at 75 percent off, down from 2,497 rupees to just 624 rupees. The deal ends on November 3. Survival is just the beginning. Six years have passed since the biological disaster in Raccoon City. Leon S. Kennedy, one of the survivors, tracks the president's kidnapped daughter to a secluded European village, where there is something terribly wrong with the locals. Steam lists it as Action and Adventure, made by CAPCOM Co., Ltd., released 23 Mar, 2023. That saves you 1,873 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg?t=1772502922",
+            "steam:2050650:0",
+            "steam:2050650:1"
+          ]
+        },
+        {
+          "heading": "Don't Starve Together - 66% off",
+          "script": "Don't Starve Together is on sale on Steam at 66 percent off, down from 459 rupees to just 156 rupees. Fight, Farm, Build and Explore Together in the standalone multiplayer expansion to the uncompromising wilderness survival game, Don't Starve. Steam lists it as Action and Adventure and Indie, made by Klei Entertainment, released 21 Apr, 2016. That saves you 303 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/050ea9c51a4e96f707309d33b7cdd38e0a6cbfff/header_alt_assets_51.jpg?t=1792687779",
+            "steam:322330:0",
+            "steam:322330:1"
+          ]
+        },
+        {
+          "heading": "Dead by Daylight - 60% off",
+          "script": "Dead by Daylight is on sale on Steam at 60 percent off, down from 1,159 rupees to just 463 rupees. 10 years of horror. 10 years of jump scares and close calls. 10 years of brutal sacrifices and thrilling escapes. Steam lists it as Action, made by Behaviour Interactive Inc., released 14 Jun, 2016. That saves you 696 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/23fed9f741423413769ad1617e41519d1a466cdc/header_alt_assets_10.jpg?t=1791302579",
+            "steam:381210:0",
+            "steam:381210:1"
+          ]
+        },
+        {
+          "heading": "Which one are you grabbing",
+          "script": "That's the list for today. Prices on Steam are the India store prices in rupees, and they can change, so always check the store page before you buy. Every link is in the description. Tell me in the comments which game you are grabbing, and subscribe, because we check Epic and Steam every single day and post the free games and the best deals as soon as they go live.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1250/header.jpg?t=1789667388"
+          ]
+        }
+      ]
+    }
+  },
+  "deals-budget-2026-10-24": {
+    "spec": "scripts/specs/deals/long/deals-budget-2026-10-24.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-690faf67.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-690faf67-thumb.jpg",
+    "chapters": "0:00 Today's deals\n0:11 Foodland Puzzle - 40% off\n0:37 Puzzle Wild Cats - 40% off\n1:06 Puzzle Musical Instruments - 40% off\n1:36 Puzzle Nuts - 40% off\n2:05 Puzzle Penguins - 40% off\n2:34 Gamble With Your Friends - 38% off\n3:02 Wok King - 30% off\n3:29 Which one are you grabbing",
+    "data": {
+      "id": "deals-budget-2026-10-24",
+      "category": "gaming",
+      "title": "Best Steam Deals Under Rs 500 Today | Foodland Puzzle and More | Oct 24",
+      "description": "These are the best Steam deals under 500 rupees for October 24. 7 games, all on sale right now, with the price, what each game is, and its Steam reviews.\n\n- Foodland Puzzle: -40% Rs 43 (was Rs 72) - https://store.steampowered.com/app/5404950\n- Puzzle Wild Cats: -40% Rs 156 (was Rs 260) - https://store.steampowered.com/app/5061340\n- Puzzle Musical Instruments: -40% Rs 156 (was Rs 260) - https://store.steampowered.com/app/5232250\n- Puzzle Nuts: -40% Rs 156 (was Rs 260) - https://store.steampowered.com/app/5151450\n- Puzzle Penguins: -40% Rs 156 (was Rs 260) - https://store.steampowered.com/app/5232310\n- Gamble With Your Friends: -38% Rs 248 (was Rs 400) - https://store.steampowered.com/app/3892270\n- Wok King: -30% Rs 111 (was Rs 159) - https://store.steampowered.com/app/5295630\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 24 2026, 19:49 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "SteamSale",
+        "EpicGames",
+        "GameDeals"
+      ],
+      "tags": [
+        "Foodland Puzzle",
+        "Puzzle Wild Cats",
+        "Puzzle Musical Instruments",
+        "Puzzle Nuts",
+        "Puzzle Penguins",
+        "Gamble With Your Friends",
+        "Wok King",
+        "free games",
+        "steam sale",
+        "steam deals today",
+        "epic games free games",
+        "best game deals",
+        "steam sale india",
+        "cheap pc games",
+        "games under 500 rupees"
+      ],
+      "thumbnail": {
+        "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5404950/3b3d07bc6c3a9ffb0e3566021821733c1a55f0ee/header.jpg?t=1792825279",
+        "text": "UNDER RS 500"
+      },
+      "sections": [
+        {
+          "heading": "Today's deals",
+          "script": "These are the best Steam deals under 500 rupees for October 24. 7 games, all on sale right now, with the price, what each game is, and its Steam reviews.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5404950/3b3d07bc6c3a9ffb0e3566021821733c1a55f0ee/header.jpg?t=1792825279",
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5061340/9c47809452ef4b93382b5196f7ab49e3cd825bf4/header.jpg?t=1792824872",
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5232250/3a883161bc0eec482ca3776119f6dd736f2bc170/header.jpg?t=1792824169"
+          ]
+        },
+        {
+          "heading": "Foodland Puzzle - 40% off",
+          "script": "Foodland Puzzle is on sale on Steam at 40 percent off, down from 72 rupees to just 43 rupees. The deal ends on November 7. Foodland puzzle is simplictic jigsaw puzzle game with food themed images Steam lists it as Casual and Indie, made by Valkeala Software, released 24 Oct, 2026. That saves you 29 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5404950/3b3d07bc6c3a9ffb0e3566021821733c1a55f0ee/header.jpg?t=1792825279",
+            "steam:5404950:0",
+            "steam:5404950:1"
+          ]
+        },
+        {
+          "heading": "Puzzle Wild Cats - 40% off",
+          "script": "Puzzle Wild Cats is on sale on Steam at 40 percent off, down from 260 rupees to just 156 rupees. The deal ends on November 6. This game is a classic puzzle game with multiple levels and beautiful graphics. Enjoy! Steam lists it as Casual and Indie, made by IR Studio, released 23 Oct, 2026. That saves you 104 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5061340/9c47809452ef4b93382b5196f7ab49e3cd825bf4/header.jpg?t=1792824872",
+            "steam:5061340:0",
+            "steam:5061340:1"
+          ]
+        },
+        {
+          "heading": "Puzzle Musical Instruments - 40% off",
+          "script": "Puzzle Musical Instruments is on sale on Steam at 40 percent off, down from 260 rupees to just 156 rupees. The deal ends on November 6. This game is a classic puzzle game with multiple levels and beautiful graphics. Enjoy! Steam lists it as Casual and Indie, made by IR Studio, released 23 Oct, 2026. That saves you 104 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5232250/3a883161bc0eec482ca3776119f6dd736f2bc170/header.jpg?t=1792824169",
+            "steam:5232250:0",
+            "steam:5232250:1"
+          ]
+        },
+        {
+          "heading": "Puzzle Nuts - 40% off",
+          "script": "Puzzle Nuts is on sale on Steam at 40 percent off, down from 260 rupees to just 156 rupees. The deal ends on November 6. This game is a classic puzzle game with multiple levels and beautiful graphics. Enjoy! Steam lists it as Casual and Indie, made by IR Studio, released 23 Oct, 2026. That saves you 104 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5151450/b020404a69527cdce20eb79c3651b35fa228945a/header.jpg?t=1792824009",
+            "steam:5151450:0",
+            "steam:5151450:1"
+          ]
+        },
+        {
+          "heading": "Puzzle Penguins - 40% off",
+          "script": "Puzzle Penguins is on sale on Steam at 40 percent off, down from 260 rupees to just 156 rupees. The deal ends on November 6. This game is a classic puzzle game with multiple levels and beautiful graphics. Enjoy! Steam lists it as Casual and Indie, made by IR Studio, released 23 Oct, 2026. That saves you 104 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5232310/518b35836be7e9fd46d1a0ed081a0289478d8e04/header.jpg?t=1792822869",
+            "steam:5232310:0",
+            "steam:5232310:1"
+          ]
+        },
+        {
+          "heading": "Gamble With Your Friends - 38% off",
+          "script": "Gamble With Your Friends is on sale on Steam at 38 percent off, down from 400 rupees to just 248 rupees. An online 1-6 player co-op \"casino crawler\" where you and your friends share one bank account and one massive debt. Steam lists it as Adventure and Indie and Simulation, made by TEAM GWYF, released 1 May, 2026. That saves you 152 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3892270/395e6d7972474333a698b26f8aa5597bf38109a1/header.jpg?t=1792427976",
+            "steam:3892270:0",
+            "steam:3892270:1"
+          ]
+        },
+        {
+          "heading": "Wok King - 30% off",
+          "script": "Wok King is on sale on Steam at 30 percent off, down from 159 rupees to just 111 rupees. The deal ends on November 6. You and your friends run a Chinese restaurant in a cherry blossom town on an island. Steam lists it as Casual and Indie and Simulation, made by Dawang Games, released 23 Oct, 2026. That saves you 48 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5295630/ef9f14cdad5f5a7722451158b774af121aeb10c5/header.jpg?t=1792823543",
+            "steam:5295630:0",
+            "steam:5295630:1"
+          ]
+        },
+        {
+          "heading": "Which one are you grabbing",
+          "script": "That's the list for today. Prices on Steam are the India store prices in rupees, and they can change, so always check the store page before you buy. Every link is in the description. Tell me in the comments which game you are grabbing, and subscribe, because we check Epic and Steam every single day and post the free games and the best deals as soon as they go live.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5404950/3b3d07bc6c3a9ffb0e3566021821733c1a55f0ee/header.jpg?t=1792825279"
+          ]
+        }
+      ]
+    }
   }
 }

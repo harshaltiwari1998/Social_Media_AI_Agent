@@ -1494,5 +1494,65 @@
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-8a87dbc3.mp4",
     "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-8a87dbc3-thumb.jpg",
     "chapters": "0:00 Hrithik Roshan की कहानी\n0:48 बचपन और फिल्मी परिवार\n1:32 Kaho Naa... Pyaar Hai: शानदार शुरुआत\n2:16 Fiza और Kabhi Khushi Kabhie Gham\n2:58 मुश्किल दौर और वापसी: Koi... Mil Gaya\n3:45 Krrish और Dhoom 2\n4:25 Jodhaa Akbar और Guzaarish\n5:06 Zindagi Na Milegi Dobara और Agneepath\n5:51 Krrish 3 से Fighter तक\n6:38 आपकी राय"
+  },
+  "aniimo-how-to-get-besauce": {
+    "spec": "scripts/specs/games/aniimo_37_aniimo-how-to-get-besauce.json",
+    "video": "F:\\AI AGENT\\run_ap20\\videos\\short-d7f9bda4.mp4"
+  },
+  "aniimo-how-to-get-glacy": {
+    "spec": "scripts/specs/games/aniimo_36_aniimo-how-to-get-glacy.json",
+    "video": "F:\\AI AGENT\\run_ap20\\videos\\short-3501f068.mp4"
+  },
+  "aniimo-lumin-amber-infinite-stamina": {
+    "spec": "scripts/specs/games/aniimo_35_aniimo-lumin-amber-infinite-stamina.json",
+    "video": "F:\\AI AGENT\\run_ap20\\videos\\short-e4554043.mp4"
+  },
+  "aniimo-alpha-tubster-shield": {
+    "spec": "scripts/specs/games/aniimo_34_aniimo-alpha-tubster-shield.json",
+    "video": "F:\\AI AGENT\\run_ap20\\videos\\short-746fca19.mp4"
+  },
+  "aniimo-crafting-table-artisanship": {
+    "spec": "scripts/specs/games/aniimo_33_aniimo-crafting-table-artisanship.json",
+    "video": "F:\\AI AGENT\\run_ap20\\videos\\short-56c3fefe.mp4"
+  },
+  "aniimo-homeland-worker-abilities": {
+    "spec": "scripts/specs/games/aniimo_32_aniimo-homeland-worker-abilities.json",
+    "video": "F:\\AI AGENT\\run_ap20\\videos\\short-baa7a22b.mp4"
+  },
+  "aniimo-water-team-composition": {
+    "spec": "scripts/specs/games/aniimo_31_aniimo-water-team-composition.json",
+    "video": "F:\\AI AGENT\\run_ap20\\videos\\short-fff513e0.mp4"
+  },
+  "aniimo-fire-element-matchups": {
+    "spec": "scripts/specs/games/aniimo_30_aniimo-fire-element-matchups.json",
+    "video": "F:\\AI AGENT\\run_ap20\\videos\\short-3eeac5d1.mp4"
+  },
+  "aniimo-luminelle-best-build": {
+    "spec": "scripts/specs/games/aniimo_29_aniimo-luminelle-best-build.json",
+    "video": "F:\\AI AGENT\\run_ap20\\videos\\short-bd501860.mp4"
+  },
+  "aniimo-hexxin-best-build": {
+    "spec": "scripts/specs/games/aniimo_28_aniimo-hexxin-best-build.json",
+    "video": "F:\\AI AGENT\\run_ap20\\videos\\short-dc8be7a1.mp4"
+  },
+  "palworld-guide-celesdir-mount-feybreak": {
+    "spec": "scripts/specs/games/palguide_67_celesdir-mount-feybreak.json",
+    "video": "F:\\AI AGENT\\run_ap20\\videos\\short-ab043cdf.mp4"
+  },
+  "palworld-guide-renjishi-kindling": {
+    "spec": "scripts/specs/games/palguide_66_renjishi-kindling.json",
+    "video": "F:\\AI AGENT\\run_ap20\\videos\\short-433ae06b.mp4"
+  },
+  "palworld-guide-tetroise-mining-boost": {
+    "spec": "scripts/specs/games/palguide_65_tetroise-mining-boost.json",
+    "video": "F:\\AI AGENT\\run_ap20\\videos\\short-06916312.mp4"
+  },
+  "palworld-guide-dynamoff-flying-mount": {
+    "spec": "scripts/specs/games/palguide_64_dynamoff-flying-mount.json",
+    "video": "F:\\AI AGENT\\run_ap20\\videos\\short-28cd3cce.mp4"
+  },
+  "palworld-guide-aegidron-world-tree-miner": {
+    "spec": "scripts/specs/games/palguide_63_aegidron-world-tree-miner.json",
+    "video": "F:\\AI AGENT\\run_ap20\\videos\\short-fd189f5b.mp4"
   }
 }

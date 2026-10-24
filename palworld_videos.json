@@ -3261,5 +3261,175 @@
       ],
       "unique": false
     }
+  },
+  "Nitemary": {
+    "spec": "scripts/specs/palworld_nitemary.json",
+    "video": "F:\\AI AGENT\\run_ap20\\videos\\short-7bd7feb7.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Nitemary",
+      "caption": "3 ways to breed Nitemary in Palworld 1.0: Blazehowl + Relaxaurus, Mammorest + Menasting, Broncherry + Reptyro.",
+      "video_script": "Here are three ways to breed Nitemary in Palworld one point zero. Combo one: breed Blazehowl with Relaxaurus on your Breeding Farm, then add a cake. Combo two: pair Mammorest and Menasting together, and you get the same egg. Combo three: Broncherry plus Reptyro works too, so use whichever Pals you have. Every egg hatches into Nitemary. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Blazehowl",
+        "Relaxaurus"
+      ],
+      "combos": [
+        [
+          "Blazehowl",
+          "Relaxaurus"
+        ],
+        [
+          "Mammorest",
+          "Menasting"
+        ],
+        [
+          "Broncherry",
+          "Reptyro"
+        ]
+      ],
+      "child": "Nitemary",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Skutlass": {
+    "spec": "scripts/specs/palworld_skutlass.json",
+    "video": "F:\\AI AGENT\\run_ap20\\videos\\short-fb81ccbc.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Skutlass",
+      "caption": "3 ways to breed Skutlass in Palworld 1.0: Felbat + Warsect, Mammorest + Shroomer, Polapup + Suzaku.",
+      "video_script": "Here are three ways to breed Skutlass in Palworld one point zero. Combo one: breed Felbat with Warsect on your Breeding Farm, then add a cake. Combo two: pair Mammorest and Shroomer together, and you get the same egg. Combo three: Polapup plus Suzaku works too, so use whichever Pals you have. Every egg hatches into Skutlass. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Felbat",
+        "Warsect"
+      ],
+      "combos": [
+        [
+          "Felbat",
+          "Warsect"
+        ],
+        [
+          "Mammorest",
+          "Shroomer"
+        ],
+        [
+          "Polapup",
+          "Suzaku"
+        ]
+      ],
+      "child": "Skutlass",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Prixter": {
+    "spec": "scripts/specs/palworld_prixter.json",
+    "video": "F:\\AI AGENT\\run_ap20\\videos\\short-3f6be17c.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Prixter",
+      "caption": "3 ways to breed Prixter in Palworld 1.0: Mammorest + Polapup, Rayhound + Relaxaurus, Incineram + Shroomer.",
+      "video_script": "Here are three ways to breed Prixter in Palworld one point zero. Combo one: breed Mammorest with Polapup on your Breeding Farm, then add a cake. Combo two: pair Rayhound and Relaxaurus together, and you get the same egg. Combo three: Incineram plus Shroomer works too, so use whichever Pals you have. Every egg hatches into Prixter. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Mammorest",
+        "Polapup"
+      ],
+      "combos": [
+        [
+          "Mammorest",
+          "Polapup"
+        ],
+        [
+          "Rayhound",
+          "Relaxaurus"
+        ],
+        [
+          "Incineram",
+          "Shroomer"
+        ]
+      ],
+      "child": "Prixter",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
+  },
+  "Dogen": {
+    "spec": "scripts/specs/palworld_dogen.json",
+    "video": "F:\\AI AGENT\\run_ap20\\videos\\short-8270aa44.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Dogen",
+      "caption": "3 ways to breed Dogen in Palworld 1.0: Blazehowl + Bushi, Digtoise + Solmora, Felbat + Mammorest.",
+      "video_script": "Here are three ways to breed Dogen in Palworld one point zero. Combo one: breed Blazehowl with Bushi on your Breeding Farm, then add a cake. Combo two: pair Digtoise and Solmora together, and you get the same egg. Combo three: Felbat plus Mammorest works too, so use whichever Pals you have. Every egg hatches into Dogen. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Blazehowl",
+        "Bushi"
+      ],
+      "combos": [
+        [
+          "Blazehowl",
+          "Bushi"
+        ],
+        [
+          "Digtoise",
+          "Solmora"
+        ],
+        [
+          "Felbat",
+          "Mammorest"
+        ]
+      ],
+      "child": "Dogen",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
+  },
+  "Croajiro": {
+    "spec": "scripts/specs/palworld_croajiro.json",
+    "video": "F:\\AI AGENT\\run_ap20\\videos\\short-5aa3ef32.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Croajiro",
+      "caption": "3 ways to breed Croajiro in Palworld 1.0: Gorirat + Vixy, Hangyu + Turtacle, Celaray + Finsider.",
+      "video_script": "Here are three ways to breed Croajiro in Palworld one point zero. Combo one: breed Gorirat with Vixy on your Breeding Farm, then add a cake. Combo two: pair Hangyu and Turtacle together, and you get the same egg. Combo three: Celaray plus Finsider works too, so use whichever Pals you have. Every egg hatches into Croajiro. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Gorirat",
+        "Vixy"
+      ],
+      "combos": [
+        [
+          "Gorirat",
+          "Vixy"
+        ],
+        [
+          "Hangyu",
+          "Turtacle"
+        ],
+        [
+          "Celaray",
+          "Finsider"
+        ]
+      ],
+      "child": "Croajiro",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
   }
 }

@@ -1431,8 +1431,8 @@
   "assassins-creed-franchise-history": {
     "spec": "scripts/specs/long/gaming_29_assassins-creed-franchise-history.json",
     "kind": "long",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-0e7ff428.mp4",
-    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-0e7ff428-thumb.jpg",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-174fc35d.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-174fc35d-thumb.jpg",
     "chapters": "0:00 The creed that conquered history\n0:43 From Prince of Persia to Assassin's Creed\n1:32 The Ezio trilogy\n2:15 Revolution and the pirate years\n3:01 Unity, Rogue and Syndicate\n3:51 Origins and the RPG revolution\n4:39 Odyssey and Valhalla\n5:23 Mirage goes back to the roots\n6:05 Shadows arrives in Japan\n6:52 Black Flag comes back\n7:40 Which Assassin's Creed is your favorite"
   },
   "prabhas-safar": {
@@ -1554,5 +1554,33 @@
   "palworld-guide-aegidron-world-tree-miner": {
     "spec": "scripts/specs/games/palguide_63_aegidron-world-tree-miner.json",
     "video": "F:\\AI AGENT\\run_ap20\\videos\\short-fd189f5b.mp4"
+  },
+  "sonic-pico-park": {
+    "spec": "scripts/specs/games/new_17_sonic-pico-park.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-74611bb0.mp4"
+  },
+  "street-fighter-2": {
+    "spec": "scripts/specs/games/classic_21_street-fighter-2.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e79cc5d6.mp4"
+  },
+  "pokemon-red-green": {
+    "spec": "scripts/specs/games/classic_22_pokemon-red-green.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b622f3e1.mp4"
+  },
+  "eetha": {
+    "spec": "scripts/specs/movies/movie_new_22_eetha.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b607a832.mp4"
+  },
+  "the-vvaan-box-office": {
+    "spec": "scripts/specs/movies/movie_review_18_the-vvaan-box-office.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b9b9c6c3.mp4"
+  },
+  "reel-zindagi-na-milegi-dobara-facts": {
+    "spec": "scripts/specs/movies/reel_40_zindagi-na-milegi-dobara-facts.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-0f1c7d72.mp4"
+  },
+  "aniimo-best-aniimo": {
+    "spec": "scripts/specs/games/aniimo_14_aniimo-best-aniimo.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-98e804b2.mp4"
   }
 }

@@ -3431,5 +3431,39 @@
       ],
       "unique": false
     }
+  },
+  "Galeclaw": {
+    "spec": "scripts/specs/palworld_galeclaw.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b87a5ea4.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Galeclaw",
+      "caption": "3 ways to breed Galeclaw in Palworld 1.0: Arsox + Woolipop, Cremis + Robinquill, Dinossom + Mau.",
+      "video_script": "Here are three ways to breed Galeclaw in Palworld one point zero. Combo one: breed Arsox with Woolipop on your Breeding Farm, then add a cake. Combo two: pair Cremis and Robinquill together, and you get the same egg. Combo three: Dinossom plus Mau works too, so use whichever Pals you have. Every egg hatches into Galeclaw. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Arsox",
+        "Woolipop"
+      ],
+      "combos": [
+        [
+          "Arsox",
+          "Woolipop"
+        ],
+        [
+          "Cremis",
+          "Robinquill"
+        ],
+        [
+          "Dinossom",
+          "Mau"
+        ]
+      ],
+      "child": "Galeclaw",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
   }
 }

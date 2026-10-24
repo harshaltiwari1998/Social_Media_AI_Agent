@@ -248,8 +248,12 @@ def post_long(poster: Poster, spec: dict, entry: dict) -> None:
             poster.blocked.add(name)
 
 
-def make_long_videos(poster: Poster, per_category: int, categories: tuple[str, ...] = ("gaming", "movies")) -> None:
-    """Next unposted long spec(s) per category (gaming -> HarryBeast, movies -> Name Writer + Facebook)."""
+def make_long_videos(poster: Poster, per_category: int, categories: tuple[str, ...] = ("gaming", "movies"),
+                     series: str | None = None) -> None:
+    """Next unposted long spec(s) per category (gaming -> HarryBeast, movies -> Name Writer + Facebook).
+
+    Specs with a "series" (e.g. "palworld", "aniimo") belong to their own daily workflow: they are only picked
+    when that series is asked for, and a series run picks nothing else."""
     log.info("== Long videos (up to %d per category)", per_category)
     if per_category <= 0:
         return
@@ -260,6 +264,8 @@ def make_long_videos(poster: Poster, per_category: int, categories: tuple[str, .
         for path in sorted(LONG_SPECS.glob("*.json")):
             spec = json.loads(path.read_text(encoding="utf-8"))
             if spec.get("category", "gaming") != category or spec["id"] in games or spec.get("expires", "9999-12-31") < today:
+                continue
+            if spec.get("series") != series:
                 continue
             todo.append((spec.get("order", 0), path, spec))
         if not todo:
@@ -339,6 +345,7 @@ def main() -> None:
         "--extra-slot", action="append", default=[], metavar="SLOT:COUNT",
         help="also post a one-off spec slot from specs/games or specs/movies, e.g. gta6:10 or reel:10",
     )
+    parser.add_argument("--long-series", help="only long specs with this \"series\" (e.g. palworld, aniimo)")
     parser.add_argument("--skip-trends", action="store_true")
     parser.add_argument("--skip-gaming", action="store_true", help="gaming + movie videos run on GitHub Actions instead")
     parser.add_argument("--from-end", action="store_true", help="pick specs from the end of each queue (manual batches)")
@@ -367,7 +374,7 @@ def main() -> None:
         lambda: make_new_palworld(poster, args.new_palworld),
         lambda: make_new_games(poster, "movie_new", args.new_movies, MOVIE_SPECS),
         lambda: make_new_games(poster, "movie_review", args.movie_reviews, MOVIE_SPECS),
-        lambda: make_long_videos(poster, args.long_videos, tuple(args.long_category or ("gaming", "movies"))),
+        lambda: make_long_videos(poster, args.long_videos, tuple(args.long_category or ("gaming", "movies")), args.long_series),
         *[
             (lambda slot, count: lambda: make_new_games(
                 poster, slot, int(count), MOVIE_SPECS if any(MOVIE_SPECS.glob(f"{slot}_*.json")) else GAME_SPECS

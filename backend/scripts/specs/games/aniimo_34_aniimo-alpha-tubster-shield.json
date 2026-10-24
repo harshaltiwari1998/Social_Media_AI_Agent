@@ -1,0 +1,44 @@
+{
+  "id": "aniimo-alpha-tubster-shield",
+  "slot": "aniimo",
+  "order": 34,
+  "headline": "Alpha Tubster Tip",
+  "title": "Aniimo Alpha Tubster Boss Tip | Break the Storm Shield | Aniimo Guide",
+  "video_script": "Stuck on Alpha Tubster, the Wind boss at the Argent Strait? Watch for its charging attack, because a shield goes up. Hit that Storm Shield hard to break it. Breaking it interrupts the charge and leaves the boss Weakened, which is your window for big damage. Save your strongest skills for that moment instead of wasting them early. Did you beat Tubster yet? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:3",
+      "label": "Alpha Tubster Tip"
+    },
+    {
+      "image": "steam:4126040:4",
+      "fact": "Wind Boss",
+      "sub": "The Argent Strait"
+    },
+    {
+      "image": "steam:4126040:6",
+      "fact": "Break the Shield",
+      "sub": "Interrupts its charge"
+    },
+    {
+      "image": "steam:4126040:7",
+      "fact": "Weakened",
+      "sub": "Your damage window"
+    }
+  ],
+  "description": "How to beat Alpha Tubster in Aniimo by breaking its Storm Shield to interrupt the charge and leave it Weakened.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Alpha Tubster"
+  ]
+}

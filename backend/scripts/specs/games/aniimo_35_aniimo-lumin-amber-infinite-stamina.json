@@ -1,0 +1,44 @@
+{
+  "id": "aniimo-lumin-amber-infinite-stamina",
+  "slot": "aniimo",
+  "order": 35,
+  "headline": "Free Stamina Tip",
+  "title": "Aniimo Endgame Tip | Lumin Amber for Free Stamina | Aniimo Guide",
+  "video_script": "Here is the best early upgrade in Aniimo's open world. Collect Lumin Amber and feed it into the Branch in Breezy Plains. Guides say one hundred fifty Amber unlocks a perk that removes out-of-combat stamina costs in that region. It does not work in combat, but exploring gets much easier. How much Amber have you found? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:8",
+      "label": "Free Stamina Tip"
+    },
+    {
+      "image": "steam:4126040:11",
+      "fact": "Lumin Amber",
+      "sub": "Feed the Branch"
+    },
+    {
+      "image": "steam:4126040:12",
+      "fact": "150 Amber",
+      "sub": "Unlocks the perk"
+    },
+    {
+      "image": "steam:4126040:15",
+      "fact": "Breezy Plains",
+      "sub": "No stamina cost outside combat"
+    }
+  ],
+  "description": "Feeding 150 Lumin Amber into the Breezy Plains Branch removes out-of-combat stamina costs in that region.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Lumin Amber"
+  ]
+}

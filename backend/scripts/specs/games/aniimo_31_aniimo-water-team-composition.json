@@ -1,0 +1,44 @@
+{
+  "id": "aniimo-water-team-composition",
+  "slot": "aniimo",
+  "order": 31,
+  "headline": "Water Team Build",
+  "title": "Aniimo Water Team | Sherro Panpanta Piopiota and a Healer | Aniimo Guide",
+  "video_script": "Here is a strong Water team in Aniimo. Guides pair Sherro as your main damage dealer, Panpanta as the Break unit, and Piopiota as support. Add a healer like Glacy to keep everyone alive. Fill your damage and Break slots first, then worry about healing. Just watch for Grass, Lightning and Ice, which all hit Water hard. Would you run this squad? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:7",
+      "label": "Water Team Build"
+    },
+    {
+      "image": "steam:4126040:8",
+      "fact": "Sherro",
+      "sub": "Main damage dealer"
+    },
+    {
+      "image": "steam:4126040:11",
+      "fact": "Panpanta",
+      "sub": "Break unit"
+    },
+    {
+      "image": "steam:4126040:12",
+      "fact": "Piopiota + Healer",
+      "sub": "Support, plus Glacy"
+    }
+  ],
+  "description": "A balanced Aniimo Water team: Sherro for damage, Panpanta to Break, Piopiota for support and a healer such as Glacy.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Aniimo team"
+  ]
+}

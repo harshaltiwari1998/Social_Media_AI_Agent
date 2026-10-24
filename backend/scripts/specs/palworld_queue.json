@@ -1928,5 +1928,137 @@
         "Lovander"
       ]
     ]
+  },
+  {
+    "parents": [
+      "Ribbuny",
+      "Turtacle"
+    ],
+    "child": "Herbil",
+    "unique": false,
+    "combos": [
+      [
+        "Ribbuny",
+        "Turtacle"
+      ],
+      [
+        "Finsider",
+        "Kelpsea"
+      ],
+      [
+        "Caprity",
+        "Jelliette"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Gorirat",
+      "Vixy"
+    ],
+    "child": "Croajiro",
+    "unique": false,
+    "combos": [
+      [
+        "Gorirat",
+        "Vixy"
+      ],
+      [
+        "Hangyu",
+        "Turtacle"
+      ],
+      [
+        "Celaray",
+        "Finsider"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Blazehowl",
+      "Bushi"
+    ],
+    "child": "Dogen",
+    "unique": false,
+    "combos": [
+      [
+        "Blazehowl",
+        "Bushi"
+      ],
+      [
+        "Digtoise",
+        "Solmora"
+      ],
+      [
+        "Felbat",
+        "Mammorest"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Mammorest",
+      "Polapup"
+    ],
+    "child": "Prixter",
+    "unique": false,
+    "combos": [
+      [
+        "Mammorest",
+        "Polapup"
+      ],
+      [
+        "Rayhound",
+        "Relaxaurus"
+      ],
+      [
+        "Incineram",
+        "Shroomer"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Felbat",
+      "Warsect"
+    ],
+    "child": "Skutlass",
+    "unique": false,
+    "combos": [
+      [
+        "Felbat",
+        "Warsect"
+      ],
+      [
+        "Mammorest",
+        "Shroomer"
+      ],
+      [
+        "Polapup",
+        "Suzaku"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Blazehowl",
+      "Relaxaurus"
+    ],
+    "child": "Nitemary",
+    "unique": false,
+    "combos": [
+      [
+        "Blazehowl",
+        "Relaxaurus"
+      ],
+      [
+        "Mammorest",
+        "Menasting"
+      ],
+      [
+        "Broncherry",
+        "Reptyro"
+      ]
+    ]
   }
 ]

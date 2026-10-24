@@ -1,0 +1,44 @@
+{
+  "id": "aniimo-fire-element-matchups",
+  "slot": "aniimo",
+  "order": 30,
+  "headline": "Fire Element Matchups",
+  "title": "Aniimo Fire Element Explained | What Fire Beats and Fears | Aniimo Guide",
+  "video_script": "Fire is one of Aniimo's nine elements, and it loves burning plants and ice. A Fire attack that hits a Grass or Ice Aniimo deals one point six times damage. The danger is Water, which hits Fire for that same bonus. Resisted hits only do zero point six two five times damage, so matchups swing fights fast. Check the in-game Counter chart before a tough battle. Which Fire Aniimo is on your team? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:2",
+      "label": "Fire Element Matchups"
+    },
+    {
+      "image": "steam:4126040:3",
+      "fact": "Fire Beats",
+      "sub": "Grass and Ice"
+    },
+    {
+      "image": "steam:4126040:4",
+      "fact": "1.6x Damage",
+      "sub": "On a weakness hit"
+    },
+    {
+      "image": "steam:4126040:6",
+      "fact": "Fears Water",
+      "sub": "Water hits Fire hard"
+    }
+  ],
+  "description": "Aniimo's Fire element hits Grass and Ice for one point six times damage but is weak to Water.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Fire element"
+  ]
+}

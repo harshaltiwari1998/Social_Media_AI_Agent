@@ -1,0 +1,44 @@
+{
+  "id": "aniimo-crafting-table-artisanship",
+  "slot": "aniimo",
+  "order": 33,
+  "headline": "Crafting Table Tip",
+  "title": "Aniimo Crafting Table Tip | Use Artisanship Workers | Aniimo Guide",
+  "video_script": "Crafting in your Aniimo Homeland runs on workers, so pick the right ones. The Crafting Table uses the Artisanship ability, so assign an Aniimo with high Artisanship, not just any helper. Materials come from other facilities too. The Mine needs Earth workers, and the Well needs Water workers. Keep all three staffed and your crafting never stalls. What do you craft first? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:19",
+      "label": "Crafting Table Tip"
+    },
+    {
+      "image": "steam:4126040:20",
+      "fact": "Crafting Table",
+      "sub": "Needs Artisanship"
+    },
+    {
+      "image": "steam:4126040:0",
+      "fact": "Mine",
+      "sub": "Earth workers"
+    },
+    {
+      "image": "steam:4126040:2",
+      "fact": "Well",
+      "sub": "Water workers"
+    }
+  ],
+  "description": "In Aniimo Homeland the Crafting Table runs on Artisanship, while the Mine needs Earth workers and the Well needs Water workers.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Aniimo crafting"
+  ]
+}

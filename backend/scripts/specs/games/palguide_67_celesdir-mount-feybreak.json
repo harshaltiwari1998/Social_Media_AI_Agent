@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-celesdir-mount-feybreak",
+  "slot": "palguide",
+  "order": 67,
+  "headline": "Celesdir mount",
+  "title": "Celesdir | Feybreak Alpha and Ride | Palworld Guide",
+  "video_script": "Looking for a new ride in Palworld one point zero? Celesdir lives in the Feybreak region, and its alpha waits near the Crystalized Ancient Tree area. Expect a high level fight, somewhere in the fifties or sixties, so come prepared. Once you catch it and craft the saddle, you can ride it, and it is a top Lumbering worker too. Its partner skill even heals you. Will you ride it? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:8",
+      "label": "Celesdir"
+    },
+    {
+      "image": "pal:Celesdir",
+      "fact": "Feybreak Alpha",
+      "sub": "Crystalized Ancient Tree"
+    },
+    {
+      "image": "steam:1623730:12",
+      "fact": "Rideable",
+      "sub": "Craft its saddle"
+    },
+    {
+      "image": "pal:Celesdir",
+      "fact": "Top Lumbering",
+      "sub": "Partner skill heals"
+    }
+  ],
+  "description": "Celesdir in Palworld 1.0 is a high level Feybreak alpha that you can ride and use as a strong lumberer.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Celesdir",
+    "Celesdir location",
+    "Palworld Feybreak",
+    "Palworld mount",
+    "Palworld lumbering",
+    "Palworld 1.0",
+    "Palworld guide"
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "aniimo-beginner-to-endgame-roadmap",
+  "category": "gaming",
+  "order": 47,
+  "series": "aniimo",
+  "title": "Aniimo Roadmap | From Level One To Endgame Step By Step | Aniimo Guide",
+  "description": "A step by step Aniimo roadmap from your first hours to the endgame: level caps and promotions, Alpha and Omega bosses, Sanctums, the Aniilog, Holo-Battle Interlink and Chaos Mode.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoRoadmap",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo roadmap",
+    "Aniimo endgame",
+    "Aniimo level cap",
+    "Aniimo promotion",
+    "Aniimo Alpha Omega",
+    "Aniimo Holo-Battle Interlink",
+    "Aniimo Sanctums",
+    "Aniimo guide"
+  ],
+  "thumbnail": {
+    "image": "steam:4126040:12",
+    "text": "BEGINNER TO ENDGAME ROADMAP"
+  },
+  "sections": [
+    {
+      "heading": "The big picture",
+      "script": "Not sure what to do next in Aniimo? This video is a roadmap, step by step, from your first hours to the endgame. We will not repeat the basics you can find in our beginner guide, or the breeding and Homeland details from our other video. Instead, we focus on the order of things. Which goals come first, what blocks your progress, and when the real endgame begins. A quick warning. Guides disagree on exact level numbers, because the game changes between patches. So we will keep the numbers loose and show you where to check the details in game. Let us start climbing. Think of the game as seven phases. Each one prepares you for the next, and none of them needs a perfect team. If you skip ahead too fast, you will just meet walls that a promotion or a better team would remove.",
+      "images": [
+        "steam:4126040:12",
+        "steam:4126040:1",
+        "steam:4126040:2"
+      ]
+    },
+    {
+      "heading": "Phase one: story and the first cap",
+      "script": "In the first hours, follow the main story and the Elite Training course. Guides name Elite Training as one of the fastest sources of experience, and it also hands out rewards as you collect points. You will soon notice that your creatures stop leveling. That is not a bug. Your creatures cannot go above your own Pathfinder level, and your title limits how far that goes. Keep playing and clear your story goals while you wait. Your first target is simple. Reach the cap, then look for the promotion that raises it. Do not forget that events are time limited, so check the event list now and then. Main story quests stay available, but events do not, which means events should come first when both are open.",
+      "images": [
+        "steam:4126040:3",
+        "steam:4126040:4",
+        "steam:4126040:5"
+      ]
+    },
+    {
+      "heading": "Phase two: promotions",
+      "script": "Promotions are the backbone of the whole roadmap. Guides agree on the process. You reach your current cap, finish the required Core Courses in Elite Training, press the title promotion button, win an examiner's duel, and pass a short quiz with Dr. Lewis. The exact cap numbers differ between guides, so look at your Character screen to see yours. Do the promotion as soon as you qualify, because a higher cap lets your whole team grow again. If you are stuck, the usual cause is a missing Core Course objective. Open Elite Training, find what is unfinished, do it, and try the promotion again.",
+      "images": [
+        "steam:4126040:6",
+        "steam:4126040:7",
+        "steam:4126040:8"
+      ]
+    },
+    {
+      "heading": "Phase three: build a real team",
+      "script": "While you promote, build a real team. Your party has four slots and five roles. Bring a damage dealer, a Breaker, healing or energy regeneration, and support. Mix your elements so that one weakness cannot hurt everyone at once. Now is also the time to learn evolution. There is no single rule. Open Aniimo Management, choose a creature and tap the Evolve icon, and the panel lists what that creature needs. It might be a level, an evolution item, a quest, or defeating an Alpha or Omega boss. Do not just grind levels and hope. Read the panel, plan, and you will save hours. A simple test for your party is to ask four questions. Who deals damage, who breaks, who heals or restores energy, and who supports. If one answer is nobody, that is your next catch.",
+      "images": [
+        "steam:4126040:9",
+        "steam:4126040:10",
+        "steam:4126040:11"
+      ]
+    },
+    {
+      "heading": "Phase four: Alpha and Omega bosses",
+      "script": "Once your team is strong, start hunting the big field bosses. Guides count twenty of them, seventeen Alphas and three Omegas. The three Omegas are Tuckin, Sherro and Infergon, and each one only wakes up after you finish a specific journey quest, so do not be surprised if one does not appear. These fights cost a resource called Primegy, and winning gives experience, rare items and materials, and sometimes unlocks an evolution. Check each boss's element before you go, then bring a creature that can hit its weakness. If a fight is too hard, level up first and come back stronger. Take notes of bosses you skip. Coming back with a better team feels great, and it is much better than failing the same fight ten times in a row.",
+      "images": [
+        "steam:4126040:13",
+        "steam:4126040:14",
+        "steam:4126040:15"
+      ]
+    },
+    {
+      "heading": "Phase five: collect the world",
+      "script": "Alongside the bosses, work through the map. Seventeen Sanctums are spread around Idyll. Clearing one for the first time gives experience and a piece of Lumin Amber, a collectible that powers your Branch upgrades. You will also find Pathfinder Challenges, chests, puzzles and more. A good method is to clear one region at a time instead of jumping around. Keep an eye on your Aniilog too, the creature encyclopedia. Filling it is a long goal, and it also pushes you to hunt rare Prismana forms. None of this is a race. Treat the map like a checklist you tick off between bosses, and you will gain levels and rewards almost without noticing.",
+      "images": [
+        "steam:4126040:16",
+        "steam:4126040:17",
+        "steam:4126040:18"
+      ]
+    },
+    {
+      "heading": "Phase six: Holo-Battle Interlink",
+      "script": "Now the weekly content. Holo-Battle Interlink is a weekly boss mode that was added in version one point one. Guides say you unlock it by reaching Trailblazer one, and that each week offers three routes with a level sixty Alpha boss on each. You can go in alone or with up to four players, and artificial intelligence teammates fill empty slots. Before the fight you pick buffs, and your stars decide the weekly rewards. Community strategies suggest a team with a damage dealer, a Breaker, a regen creature and support. The mode resets weekly, so treat it as your regular endgame routine. Do not confuse it with the Holo-Battle Simulator, which is a separate mode. The Simulator is its own challenge, so check its unlock requirement in game.",
+      "images": [
+        "steam:4126040:19",
+        "steam:4126040:20",
+        "steam:4126040:1"
+      ]
+    },
+    {
+      "heading": "Phase seven: Egg Heist Chaos Mode",
+      "script": "If you want the hardest challenge, try Chaos Mode in Egg Heist. It also arrived with version one point one. Guides say you need the Elite Egg Seeker tier four rank, and each run uses a Chaos Ticket. It is a high risk mode, and the developers recommend playing with a group. In return, Chaos Mode raises the drop rate of Prismana eggs and gives a chance at rare secret collectibles. It is not for beginners, and it is not required. But if you love eggs and rare variants, it is the best long term goal in the game, once your team can handle it.",
+      "images": [
+        "steam:4126040:2",
+        "steam:4126040:3",
+        "steam:4126040:4"
+      ]
+    },
+    {
+      "heading": "Do not miss the Irisalis event",
+      "script": "One time sensitive goal deserves its own step. The Legendary Journey event lets you earn the legendary Irisalis, one of the top damage dealers on many tier lists. It runs until December tenth, twenty twenty six. You collect Iris Petals over time, then craft a special Aniipod and fight Irisalis in a Rift Space before you befriend it. Petals arrive on a schedule, so starting early matters, and you cannot rush it at the end. Check the in game event page for the exact steps, because details can change. Events come and go, so do these first.",
+      "images": [
+        "steam:4126040:5",
+        "steam:4126040:6",
+        "steam:4126040:7"
+      ]
+    },
+    {
+      "heading": "A weekly routine",
+      "script": "Here is a simple weekly routine for the endgame. Clear your Interlink routes early in the week. Spend a few sessions on bosses, Sanctums or the Aniilog, one region at a time. Run Homeland production in the background, since it keeps working while you play. Check events for time limited rewards before they end. And once in a while, try a harder challenge, like Chaos Mode, with a group. You do not have to do everything. Pick two or three goals you enjoy, and let the rest wait. Aniimo rewards steady progress more than a single long grind.",
+      "images": [
+        "steam:4126040:8",
+        "steam:4126040:9",
+        "steam:4126040:10"
+      ]
+    },
+    {
+      "heading": "Where are you on the roadmap",
+      "script": "That is the whole roadmap, from your first cap to the endgame. Where are you right now, and what is blocking you? Tell us in the comments, and we will try to help. If this guide saved you time, like the video and subscribe to HarryBeast Gaming for more Aniimo guides, tier lists and tips. Thanks for watching, and see you in Idyll, Pathfinder.",
+      "images": [
+        "steam:4126040:11",
+        "steam:4126040:12",
+        "steam:4126040:13"
+      ]
+    }
+  ]
+}

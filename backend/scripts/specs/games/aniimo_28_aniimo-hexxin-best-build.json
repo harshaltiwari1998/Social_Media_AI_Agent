@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-hexxin-best-build",
+  "slot": "aniimo",
+  "order": 28,
+  "headline": "Best Hexxin Build",
+  "title": "Best Hexxin Build | Regen Support Skills | Aniimo Guide",
+  "video_script": "Hexxin shines as a support. The two skills most guides pick are Euphoric Sonic Blast and Black Hole Domain. Sonic Blast restores energy for your team, and Black Hole Domain pulls enemies together. Put your points into Regen first, then health. Spirited Feather is the common held item, since it boosts Regen. Guides disagree on which skill to lead with, so test both. Do you run Hexxin? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:2",
+      "label": "Best Hexxin Build"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Sonic Blast",
+      "sub": "Restores team energy"
+    },
+    {
+      "image": "steam:4126040:15",
+      "fact": "Black Hole Domain",
+      "sub": "Pulls enemies in"
+    },
+    {
+      "image": "steam:4126040:18",
+      "fact": "Regen First",
+      "sub": "Spirited Feather item"
+    }
+  ],
+  "description": "Best Hexxin build in Aniimo: Euphoric Sonic Blast and Black Hole Domain, with Regen priority and a Spirited Feather.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Hexxin",
+    "Hexxin build",
+    "Support build"
+  ]
+}

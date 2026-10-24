@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-tetroise-mining-boost",
+  "slot": "palguide",
+  "order": 65,
+  "headline": "Tetroise mining boost",
+  "title": "Tetroise | Alpha Boss That Boosts Mining | Palworld Guide",
+  "video_script": "Here is an easy mining upgrade in Palworld one point zero. Tetroise is an alpha boss you can fight in the Desiccated Dunes, northeast of Duneshelter, with mid game gear. Catch it and it has Mining level four. Its partner skill adds plus one Mining suitability to every other Pal at your base. Grass Pals hit it hard. Will you catch one? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:4",
+      "label": "Tetroise Alpha"
+    },
+    {
+      "image": "pal:Tetroise",
+      "fact": "Desiccated Dunes",
+      "sub": "Northeast of Duneshelter"
+    },
+    {
+      "image": "steam:1623730:19",
+      "fact": "Mining 4",
+      "sub": "Ground type Pal"
+    },
+    {
+      "image": "pal:Tetroise",
+      "fact": "Plus 1 Mining",
+      "sub": "For all base Pals"
+    }
+  ],
+  "description": "Tetroise in Palworld 1.0 is a Desiccated Dunes alpha whose partner skill adds plus one Mining to your other base Pals.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Tetroise",
+    "Tetroise alpha",
+    "Palworld mining",
+    "Palworld base tips",
+    "Palworld partner skill",
+    "Palworld 1.0",
+    "Palworld guide"
+  ]
+}

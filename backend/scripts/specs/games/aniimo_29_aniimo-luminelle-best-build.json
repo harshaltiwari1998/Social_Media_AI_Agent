@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-luminelle-best-build",
+  "slot": "aniimo",
+  "order": 29,
+  "headline": "Best Luminelle Build",
+  "title": "Best Luminelle Build | Lightning Surge Support | Aniimo Guide",
+  "video_script": "Luminelle is a Lightning support, and the star skill is Lightning Surge. It boosts your lightning allies, so cast it as soon as the fight starts. Then swap to a break Aniimo, and after that to your damage dealer. Swift Retreat is a backward dash that slows enemies, good as a dodge. Put points into health, since the buffs scale with it. Do you play Luminelle? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:1",
+      "label": "Best Luminelle Build"
+    },
+    {
+      "image": "steam:4126040:4",
+      "fact": "Lightning Surge",
+      "sub": "Cast it first"
+    },
+    {
+      "image": "steam:4126040:20",
+      "fact": "Swift Retreat",
+      "sub": "Dash back and slow"
+    },
+    {
+      "image": "steam:4126040:17",
+      "fact": "Stack Health",
+      "sub": "Buffs scale with HP"
+    }
+  ],
+  "description": "Best Luminelle build in Aniimo: open with Lightning Surge, use Swift Retreat to dodge and prioritize health.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Luminelle",
+    "Luminelle build",
+    "Lightning support"
+  ]
+}

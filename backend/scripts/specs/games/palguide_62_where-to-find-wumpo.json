@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-where-to-find-wumpo",
+  "slot": "palguide",
+  "order": 62,
+  "headline": "Where to find Wumpo",
+  "title": "Where to Find Wumpo | Astral Mountains Hauler | Palworld Guide",
+  "video_script": "Need a heavy hauler in Palworld one point zero? Wumpo is a great pick. Look for it in the frozen Astral Mountains in the far north, usually around level forty and up, so bring cold resistant gear. Its Transporting suitability is level six, and it can be ridden too. Put one on your base conveyor duty and watch the loot move. Which Pal hauls for you? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:5",
+      "label": "Wumpo Location"
+    },
+    {
+      "image": "pal:Wumpo",
+      "fact": "Astral Mountains",
+      "sub": "Frozen far north"
+    },
+    {
+      "image": "steam:1623730:9",
+      "fact": "Level 40 plus",
+      "sub": "Bring cold gear"
+    },
+    {
+      "image": "pal:Wumpo",
+      "fact": "Transporting 6",
+      "sub": "Great base hauler"
+    }
+  ],
+  "description": "Wumpo in Palworld 1.0 lives in the frozen Astral Mountains and has Transporting level six for base hauling.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Wumpo",
+    "Wumpo location",
+    "Palworld Astral Mountains",
+    "Palworld transporting",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld tips"
+  ]
+}

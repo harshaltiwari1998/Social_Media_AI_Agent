@@ -1,0 +1,128 @@
+{
+  "id": "aniimo-every-element-explained",
+  "category": "gaming",
+  "order": 46,
+  "series": "aniimo",
+  "title": "Every Aniimo Element Explained | Type Chart, Weaknesses And Dual Types | Aniimo Guide",
+  "description": "All nine Aniimo elements explained: the damage multipliers, which matchups guides agree on, how dual types stack and how to build a team without a shared weakness.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoTypeChart",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo element chart",
+    "Aniimo type chart",
+    "Aniimo weaknesses",
+    "Aniimo dual type",
+    "Aniimo Prismana",
+    "Aniimo team building",
+    "Aniimo elements",
+    "Aniimo guide"
+  ],
+  "thumbnail": {
+    "image": "steam:4126040:9",
+    "text": "EVERY ELEMENT EXPLAINED"
+  },
+  "sections": [
+    {
+      "heading": "Why elements matter",
+      "script": "Are you losing fights in Aniimo that you should win? The reason might be elements. Every attack and every creature in Idyll belongs to an element, and hitting a weakness can turn a hard boss into an easy one, while hitting a resistance makes your best skill feel weak. In this video we explain all nine elements, the damage numbers behind them, the matchups that the guides agree on, and how creatures with two elements work. One note first. The chart is community sourced, and some guides disagree on a few matchups. So we will stick to the pairings that several sources confirm, and show you where to check the rest in the game. By the end you will be able to look at an enemy, name two or three elements that punish it, and pick your team before the fight begins.",
+      "images": [
+        "steam:4126040:9",
+        "steam:4126040:1",
+        "steam:4126040:2"
+      ]
+    },
+    {
+      "heading": "The nine elements",
+      "script": "There are nine elements in Aniimo. They are Fire, Water, Grass, Lightning, Ice, Earth, Wind, Light and Dark. Some sites use different names. You may see Electric instead of Lightning, Ground or Rock instead of Earth, and Holy instead of Light. They are the same idea, so do not let the names confuse you. Each element has a short list of targets it hits well, and a short list it hits poorly. Everything else is simply normal damage. The system is easy to learn once you see the pattern, and it is much simpler than the type charts in some other creature collecting games. A good habit is to learn the chart in small pieces. Start with the elements of the creatures you already own, then add the ones you meet in new areas.",
+      "images": [
+        "steam:4126040:3",
+        "steam:4126040:4",
+        "steam:4126040:5"
+      ]
+    },
+    {
+      "heading": "Three numbers and no immunities",
+      "script": "The system uses only three damage numbers. Hit a weakness and you deal one point six times damage. A neutral hit deals normal damage. Hit a resistance and the damage drops to about sixty two percent. Importantly, there are no immunities. Every attack always does something, so a bad matchup is a penalty, not a wall. Also note that the multiplier depends on the element of the skill you use, not only on the creature's own type. That means a creature can carry a skill from a different element and use it to cover a weakness. Always read the skill's element before you assume how much damage you will deal. The lack of immunities is good news for beginners. Even if you bring the wrong creature, you can still win, just more slowly and with more risk.",
+      "images": [
+        "steam:4126040:6",
+        "steam:4126040:7",
+        "steam:4126040:8"
+      ]
+    },
+    {
+      "heading": "The offense chart, part one",
+      "script": "Now the matchups the guides agree on. Fire hits Grass and Ice for extra damage. Water hits Fire and Earth. Grass hits Water and Earth. Lightning hits Water and Wind. Ice hits Water and Lightning. Notice that Water shows up as a target again and again, so Grass, Lightning and Ice are all good answers to a Water enemy. That also explains why a team of Water creatures can struggle against a common enemy mix. If a boss uses Water, you already know three elements that punish it. Keep this half of the chart in your head, and you will make good picks fast. Say it out loud once, and it sticks. Fire burns Grass and Ice, Water douses Fire and Earth, and Grass beats Water and Earth.",
+      "images": [
+        "steam:4126040:10",
+        "steam:4126040:11",
+        "steam:4126040:12"
+      ]
+    },
+    {
+      "heading": "The offense chart, part two",
+      "script": "The rest of the elements. Wind hits Grass and Dark. Light hits Wind and Dark. Dark hits Grass and Light. Earth is the one where sources slightly disagree, but they agree that it hits Ice, and most also say Fire. So Earth is a good answer to Ice enemies. A neat detail is that Light and Dark hit each other for extra damage, which makes that pair special. Dark also hits Grass, so a Dark creature is a solid answer to a Grass enemy. When you are unsure, open the in game counter chart.",
+      "images": [
+        "steam:4126040:13",
+        "steam:4126040:14",
+        "steam:4126040:15"
+      ]
+    },
+    {
+      "heading": "Resistances and the Dark exception",
+      "script": "Now the defensive side. Nearly every element resists itself, so Fire does poor damage to a Fire target, and Water does poor damage to a Water target. Dark is the exception. Dark is the one element that does not resist itself. That means two Dark creatures fighting each other deal normal damage. Resistances matter because a resisted hit is only about sixty two percent damage, and a stack of bad matchups slows a fight a lot. If a battle feels like it is dragging, check whether your main skill is the same element as the enemy. Swapping to a different element is often the fastest fix. It also helps to know what your own team resists, because enemy bosses often use a single element for most of their attacks.",
+      "images": [
+        "steam:4126040:16",
+        "steam:4126040:17",
+        "steam:4126040:18"
+      ]
+    },
+    {
+      "heading": "Dual elements stack",
+      "script": "Many Aniimo have two elements, and this is where the numbers get interesting. Guides agree that the two matchups are combined. If both elements are weak to an attack, the hit deals two point five six times damage. If one is weak and the other resists, the two cancel out, and you deal normal damage. A creature that resists on both sides takes even less. The same rule works for your own attacker choice. So a dual type enemy can have a huge weakness, or it can have no weakness at all. Before you commit to a boss, look at both of its elements and check the combined number, not just the first one. This also explains why some enemies feel strangely tough. If both of their elements resist your attack, the hit lands at a small fraction of normal damage.",
+      "images": [
+        "steam:4126040:19",
+        "steam:4126040:20",
+        "steam:4126040:1"
+      ]
+    },
+    {
+      "heading": "Prismana forms and changing types",
+      "script": "There is one more twist. Some creatures have Prismana forms, rare variants that can change a creature's element, or add a second one. One guide gives the example of Glacy, where a Holy sub type replaces Ice, and Grizbo, where a Dark sub type is added. That matters because the weaknesses you remember may no longer apply. When you catch a Prismana form or fight one, always check its element again before you plan your attack. A shiny new creature is exciting, but a wrong assumption about its type can cost you a boss fight. A quick look at the creature's page takes only a few seconds.",
+      "images": [
+        "steam:4126040:2",
+        "steam:4126040:3",
+        "steam:4126040:4"
+      ]
+    },
+    {
+      "heading": "Building a team without holes",
+      "script": "How do you use all this? Do not build a team of one element. A mixed party means that when one creature is weak to an attack, another resists it, and together you cover more targets. Guides call the danger a shared weakness, an element that two or more of your creatures fear while none can resist it. Open-world play favors mixed teams for exactly this reason. For your fourth slot, pick a creature that resists your worst problem and, if possible, also hits that element hard. Remember roles too, because you still want a damage dealer, a Breaker and healing or regen. A quick test is to list your four creatures and ask which element hurts the most of them. If the answer is two or more, swap one member.",
+      "images": [
+        "steam:4126040:5",
+        "steam:4126040:6",
+        "steam:4126040:7"
+      ]
+    },
+    {
+      "heading": "Check the in game chart",
+      "script": "One last tip. Because community charts can differ, use the one that never lies, the game itself. Open the menu, select the question mark icon, go to the Combat tab and choose Counter. From there you can open the chart in game. If a matchup behaves differently from what a guide says, trust the game. And keep an eye on updates, since a patch can change the numbers. Now you know the nine elements, the three multipliers, the dual type rule and the Prismana twist. That is everything you need to read almost any fight in Idyll before it even begins. Bookmark that screen mentally, and check it whenever a new area introduces creatures you have not seen before.",
+      "images": [
+        "steam:4126040:8",
+        "steam:4126040:9",
+        "steam:4126040:10"
+      ]
+    },
+    {
+      "heading": "Which element do you main",
+      "script": "That is every Aniimo element explained. Which element do you use the most, and which one gave you the biggest surprise in a fight? Tell us in the comments. If this guide helped, like the video and subscribe to HarryBeast Gaming for more Aniimo guides, tier lists and tips. We will keep this chart updated as the game changes. Thanks for watching, and good luck out there, Pathfinder.",
+      "images": [
+        "steam:4126040:11",
+        "steam:4126040:12",
+        "steam:4126040:13"
+      ]
+    }
+  ]
+}

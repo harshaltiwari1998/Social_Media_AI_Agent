@@ -1,0 +1,44 @@
+{
+  "id": "aniimo-homeland-worker-abilities",
+  "slot": "aniimo",
+  "order": 32,
+  "headline": "Homeland Workers",
+  "title": "Aniimo Homeland Workers Explained | Unlock Level and Abilities | Aniimo Guide",
+  "video_script": "Homeland opens at character level twenty, once you finish the Wondrous R V quest. Sell your first wheat harvest at the Co-op Store to earn Home Coins, which pay for upgrades. Then put your Aniimo to work. There are thirteen worker abilities, nine elemental and four general, and each facility needs a specific one. Which facility are you building first? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:15",
+      "label": "Homeland Workers"
+    },
+    {
+      "image": "steam:4126040:16",
+      "fact": "Level 20",
+      "sub": "Wondrous RV quest"
+    },
+    {
+      "image": "steam:4126040:17",
+      "fact": "Home Coins",
+      "sub": "Sell crops at the Co-op"
+    },
+    {
+      "image": "steam:4126040:18",
+      "fact": "13 Abilities",
+      "sub": "9 elemental, 4 general"
+    }
+  ],
+  "description": "How Aniimo Homeland unlocks at level 20 and how its 13 worker abilities and Home Coins work.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Aniimo Homeland"
+  ]
+}

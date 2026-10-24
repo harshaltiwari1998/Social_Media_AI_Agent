@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-lunara-best-build",
+  "slot": "aniimo",
+  "order": 27,
+  "headline": "Best Lunara Build",
+  "title": "Best Lunara Build | Moon Impact Light DPS | Aniimo Guide",
+  "video_script": "For a Lunara damage build, pick Lumin Bolts and Moon Impact. Open with Lumin Bolts, which puts a Fox Mark on the enemy and lowers its light resistance. Then follow up with Moon Impact for big area light damage, plus extra damage against marked targets. Put your stat points into Attack first, then Regen. Ferocious Fang is a popular held item. Is Lunara on your team? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:6",
+      "label": "Best Lunara Build"
+    },
+    {
+      "image": "steam:4126040:3",
+      "fact": "Lumin Bolts First",
+      "sub": "Applies Fox Mark"
+    },
+    {
+      "image": "steam:4126040:16",
+      "fact": "Then Moon Impact",
+      "sub": "Bonus on marked foes"
+    },
+    {
+      "image": "steam:4126040:19",
+      "fact": "Attack, Then Regen",
+      "sub": "Stat priority"
+    }
+  ],
+  "description": "Best Lunara build in Aniimo: Lumin Bolts to apply the Fox Mark, then Moon Impact, with Attack and Regen as stat priorities.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Lunara",
+    "Lunara build",
+    "Light DPS"
+  ]
+}

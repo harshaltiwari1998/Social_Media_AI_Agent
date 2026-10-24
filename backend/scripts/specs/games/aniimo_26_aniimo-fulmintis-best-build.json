@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-fulmintis-best-build",
+  "slot": "aniimo",
+  "order": 26,
+  "headline": "Best Fulmintis Build",
+  "title": "Best Fulmintis Build | Lightning Blade Storm DPS | Aniimo Guide",
+  "video_script": "Fulmintis is a crit focused Lightning damage dealer. Run two skills, Enhanced Lightning Blade and Lightning Blade Storm. Use Enhanced Lightning Blade right before the Storm. Its trait Electro Stash restores energy on every critical hit, which keeps the Storm spinning. Land three slashes in a row for a bonus on the finisher, so do not cut the channel short. Do you main Fulmintis? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:5",
+      "label": "Best Fulmintis Build"
+    },
+    {
+      "image": "steam:4126040:8",
+      "fact": "Lightning DPS",
+      "sub": "Crit focused"
+    },
+    {
+      "image": "steam:4126040:14",
+      "fact": "Blade, Then Storm",
+      "sub": "Enhanced Blade first"
+    },
+    {
+      "image": "steam:4126040:10",
+      "fact": "Electro Stash",
+      "sub": "Energy back on crits"
+    }
+  ],
+  "description": "Best Fulmintis build in Aniimo: Enhanced Lightning Blade into Lightning Blade Storm, powered by crits and its Electro Stash trait.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Fulmintis",
+    "Fulmintis build",
+    "Lightning DPS"
+  ]
+}

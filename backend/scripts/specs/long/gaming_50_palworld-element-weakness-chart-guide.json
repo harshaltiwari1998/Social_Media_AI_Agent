@@ -1,0 +1,121 @@
+{
+  "id": "palworld-element-weakness-chart-guide",
+  "category": "gaming",
+  "order": 50,
+  "series": "palworld",
+  "title": "Palworld Element Weakness Chart Explained | Dual Type Pals and Boss Counters | Palworld Guide",
+  "description": "A clear Palworld guide to the element chain: what each of the nine types is strong and weak against, how dual type Pals work, and which element to bring against the tower bosses.",
+  "hashtags": [
+    "Palworld",
+    "PalworldGuide",
+    "ElementChart"
+  ],
+  "tags": [
+    "Palworld weakness chart",
+    "Palworld element chart",
+    "Palworld type advantages",
+    "Palworld dual type Pals",
+    "Palworld tower boss weaknesses",
+    "Palworld Neutral Pals",
+    "Palworld damage guide",
+    "Palworld guide"
+  ],
+  "thumbnail": {
+    "image": "steam:1623730:2",
+    "text": "THE ELEMENT CHART"
+  },
+  "sections": [
+    {
+      "heading": "Why elements win fights",
+      "script": "In Palworld, the element of your attack can be the difference between a win and a wipe. Every Pal belongs to one or two of nine elements, and those elements form a chain of strengths and weaknesses. If you know the chain, you can walk into any fight and pick the right team within seconds. In this guide we go through the whole chart, how dual type Pals mix their matchups, and which element to bring against the tower bosses. The chain in this video is confirmed by several guides, including Destructoid and Twinfinite, as well as the community wiki. Let's learn the loop, trainer. There is no need to memorize a giant table. The whole chart is just two short chains, and once you see them, every matchup becomes obvious. I will also show you how to use it on real bosses, so the knowledge turns into wins instead of trivia.",
+      "images": [
+        "steam:1623730:2",
+        "pal:Foxparks",
+        "pal:Lamball"
+      ]
+    },
+    {
+      "heading": "The main loop",
+      "script": "Most of the chart is a loop that is easy to remember. Fire beats Grass. Grass beats Ground. Ground beats Electric. Electric beats Water. Water beats Fire. That is five elements in one circle. If you use an element that is strong against your enemy, you deal much more damage. If you use an element that the enemy is strong against, you deal much less. The wiki describes strong hits as roughly double damage and weak hits as roughly half, so the gap is huge. Learn this loop first, because it covers most of the Pals you meet in the early and middle game. A simple picture helps: imagine the five elements around a clock. Each one beats the next one and loses to the one before it. If you forget a matchup, rebuild it from the circle.",
+      "images": [
+        "steam:1623730:3",
+        "pal:Lyleen",
+        "pal:Grizzbolt"
+      ]
+    },
+    {
+      "heading": "The second chain",
+      "script": "The other four elements form a chain of their own. Fire also beats Ice, which makes Fire the only element that is strong against two others. Ice beats Dragon. Dragon beats Dark. And Dark beats Neutral. So the second chain runs Fire to Ice to Dragon to Dark to Neutral. That means that Neutral is weak to Dark, and that Neutral has no element it is strong against. Everything else is connected into one big web. Say it out loud a few times: Fire, Ice, Dragon, Dark, Neutral. Notice how the Fire link connects the two chains, because Fire beats both Grass and Ice. That is why a Fire Pal is useful in so many situations. Once that clicks, you can read the chart without ever looking at it again.",
+      "images": [
+        "steam:1623730:4",
+        "pal:Frostallion",
+        "pal:Shadowbeak"
+      ]
+    },
+    {
+      "heading": "Flip it to find weaknesses",
+      "script": "You can read the same chain backward to find weaknesses. Grass is weak to Fire. Ground is weak to Grass. Electric is weak to Ground. Water is weak to Electric. Fire is weak to Water. Ice is weak to Fire. Dragon is weak to Ice. Dark is weak to Dragon. Neutral is weak to Dark. Notice that every element has exactly one weakness, and Neutral is weak to Dark. Neutral is the only element with no strength of its own, so it relies on raw stats. This is the quickest way to pick a counter. Look at the enemy, find the element that beats it, and bring a Pal of that element. A good habit is to carry a Pal for each corner of the loop.",
+      "images": [
+        "steam:1623730:5",
+        "pal:Foxparks",
+        "pal:Anubis"
+      ]
+    },
+    {
+      "heading": "Dual type Pals",
+      "script": "Many strong Pals have two elements, and then both types count. The wiki explains that the strengths and weaknesses of both types combine. A good example is Orserk, a Dragon and Electric Pal. By the chart it is strong against Dark and Water, and it is weak to Ice and Ground. Jormuntide Ignis, a Dragon and Fire Pal, is strong against Dark, Grass and Ice, and weak to Ice and Water. The wiki also says that if one skill is both strong and weak against a dual Pal, the result is normal damage. So with dual types, always check both halves before choosing your counter. This is where players make mistakes, because they only look at the first element shown. A Pal that looks easy to counter can turn out to resist your favorite attack, so take two seconds to read both icons before you commit your team.",
+      "images": [
+        "pal:Orserk",
+        "pal:Jormuntide Ignis",
+        "steam:1623730:6"
+      ]
+    },
+    {
+      "heading": "Same element bonus",
+      "script": "There is one more rule that rewards smart team building. Pals that use a skill of their own element get a damage bonus. The wiki and other guides put this at twenty percent more damage. This bonus does not care about the chart, so it helps even when you are fighting a Pal that resists you. That is why partner skills that turn your attacks into one element are so valuable. A Pal that converts your mounted attacks to Ice, for example, adds that extra damage on top of any weakness. When you pick fighters, choose Pals whose best attacks match their element, and your damage rises quietly in every fight.",
+      "images": [
+        "pal:Frostallion",
+        "pal:Jormuntide Ignis",
+        "steam:1623730:7"
+      ]
+    },
+    {
+      "heading": "Early tower bosses",
+      "script": "Now let's use the chart on the first tower bosses. Zoe and Grizzbolt are Electric, so bring Ground Pals. Lily and Lyleen are Grass, so bring Fire Pals. Axel and Orserk are Electric and Dragon, so bring Ground and Ice Pals. Marcus and Faleris use Fire, so bring Water Pals. These matchups come from our tower boss guide, and they all follow the chart exactly. Notice how the right element makes a tough fight shorter. Since tower fights have a five minute timer in one point zero, the shorter the better.",
+      "images": [
+        "pal:Grizzbolt",
+        "pal:Lyleen",
+        "pal:Orserk",
+        "pal:Faleris"
+      ]
+    },
+    {
+      "heading": "Late tower bosses",
+      "script": "The later bosses follow the same logic. Victor and Shadowbeak are Dark, and Selyne is Dark too, so Dragon Pals handle both. Bjorn and Bastigor are Ice, so bring Fire Pals. Auri and Shaolong are Water and Dragon, so the guides recommend Electric and Ice Pals. And the final boss, Zenara and Astralym, is typeless, which means there is no weakness to exploit. For that fight you need raw power instead. If you can build one Pal for every main element, you will meet a good counter for every fight on the way, and you will save a lot of time and resources. It also lets you be creative. If a boss is weak to Ice, you can bring a Frostallion, or any other Ice Pal you have leveled, and enjoy a much shorter fight.",
+      "images": [
+        "pal:Shadowbeak",
+        "pal:Selyne",
+        "pal:Bastigor",
+        "pal:Shaolong"
+      ]
+    },
+    {
+      "heading": "Build a flexible team",
+      "script": "So how do you use all this? Do not build a team of one element. Instead, carry a mix that covers the main loop and the second chain. A Ground Pal like Anubis, a Fire Pal, a Water Pal, an Electric Pal, and a Dragon or Ice Pal will cover most fights. Before a boss, look it up, find its weakness, and swap in the right counter. Remember that the damage bonus is large, so a lower level Pal with the right element can beat a higher level Pal with the wrong one. Keep your spare Pals leveled and ready, because flexibility is the real secret of Palworld combat.",
+      "images": [
+        "pal:Anubis",
+        "pal:Jetragon",
+        "steam:1623730:8"
+      ]
+    },
+    {
+      "heading": "Test yourself",
+      "script": "Let's test what you learned. Fire beats Grass and Ice. Ice beats Dragon. Dragon beats Dark. Dark beats Neutral. Grass beats Ground, Ground beats Electric, Electric beats Water and Water beats Fire. If you remember those links, you can handle almost any fight. Now tell me in the comments: which element do you struggle with the most, and which Pal do you trust to counter it? If you want a full guide on the best fighters per element, check out our other video. If this one helped, like the video and subscribe to HarryBeast Gaming for more Palworld guides.",
+      "images": [
+        "steam:1623730:9",
+        "pal:Lifmunk",
+        "pal:Cattiva"
+      ]
+    }
+  ]
+}

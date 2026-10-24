@@ -1,0 +1,44 @@
+{
+  "id": "aniimo-how-to-get-besauce",
+  "slot": "aniimo",
+  "order": 37,
+  "headline": "How to Get Besauce",
+  "title": "How to Get Besauce in Aniimo | Pathfinder Fragments Trade | Aniimo Guide",
+  "video_script": "Besauce cannot be caught in the open world, but you can still get it. Beat NPC Pathfinder Challenges, since some of them reward Besauce Fragments. Collect forty fragments, then visit an Outpost shop and open Trade, then Item Exchange. Check each challenge's reward panel first, and plan your Pathfinder runs around those rewards. Have you got Besauce yet? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:20",
+      "label": "How to Get Besauce"
+    },
+    {
+      "image": "steam:4126040:0",
+      "fact": "Pathfinder Challenges",
+      "sub": "Win to earn fragments"
+    },
+    {
+      "image": "steam:4126040:2",
+      "fact": "40 Fragments",
+      "sub": "Needed for the trade"
+    },
+    {
+      "image": "steam:4126040:3",
+      "fact": "Outpost Shop",
+      "sub": "Item Exchange"
+    }
+  ],
+  "description": "Besauce in Aniimo is obtained by collecting 40 Besauce Fragments from Pathfinder Challenges and trading them at an Outpost shop.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "How to Get Besauce"
+  ]
+}

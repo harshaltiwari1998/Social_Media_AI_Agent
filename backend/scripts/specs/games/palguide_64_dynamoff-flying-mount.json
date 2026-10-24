@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-dynamoff-flying-mount",
+  "slot": "palguide",
+  "order": 64,
+  "headline": "Dynamoff flying mount",
+  "title": "Dynamoff | Flying Mount That Hatches Eggs Faster | Palworld Guide",
+  "video_script": "Did you know Dynamoff is a flying mount and a base helper in one? You find it on the Sunreach Islands. Craft its saddle and you can ride it through the skies. Left at your base, its partner skill cuts egg incubation time by twenty percent, and it also has Generating Electricity level six. Not bad for one Pal. Would you ride it? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:7",
+      "label": "Dynamoff"
+    },
+    {
+      "image": "pal:Dynamoff",
+      "fact": "Sunreach Islands",
+      "sub": "Electric flyer"
+    },
+    {
+      "image": "steam:1623730:17",
+      "fact": "Flying mount",
+      "sub": "Craft the saddle"
+    },
+    {
+      "image": "pal:Dynamoff",
+      "fact": "Eggs 20% faster",
+      "sub": "Base partner skill"
+    }
+  ],
+  "description": "Dynamoff in Palworld 1.0 is a Sunreach flying mount that also shortens egg incubation by twenty percent at your base.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Dynamoff",
+    "Dynamoff mount",
+    "Palworld Sunreach",
+    "Palworld egg incubation",
+    "Palworld flying mount",
+    "Palworld 1.0",
+    "Palworld guide"
+  ]
+}

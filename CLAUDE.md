@@ -1,0 +1,133 @@
+# CLAUDE.md - HarryBeast content pipeline
+
+> **Keep this file current.** After every feature, workflow, schedule or rule change, update the
+> matching section below (and "Change log" at the end) in the same commit.
+
+## What this project is
+
+An automated short- and long-video pipeline for the owner's social channels. It writes fact-checked
+scripts, renders videos (images + TTS narration + captions, or cuts of the owner's own gameplay
+streams) and uploads them on a schedule, mostly without the laptop being on.
+
+| Channel | Content | Language |
+|---|---|---|
+| **HarryBeast Gaming** - YouTube | Gaming shorts + long videos | English |
+| **Gaming Facebook Page** ("Harshal Tiwari") + **Instagram @harrybeastgaming** | Same gaming shorts (long videos: Facebook only) | English |
+| **Name Writer / CineAI Hindi** - YouTube | Movie shorts + long movie videos | Hindi |
+| **Main Facebook Page** ("AI Trend Poster") + its Instagram | Movie shorts, Hindi movie reels, Hindi comedy reels | Hindi |
+
+## Stack
+
+- **Python 3.12**, code in `backend/` (venv `backend/.venv` on F:). Original scaffold is a FastAPI
+  "universal agent" (`backend/app/main.py`, `app/api`, `app/agent`, `app/tools`) - the video pipeline
+  lives in `backend/scripts/` and `backend/app/{media,social,pipeline,trends,analysis}`.
+- **Video**: moviepy 1.0.3 + ffmpeg (imageio-ffmpeg), Pillow, numpy; Hindi text shaped with uharfbuzz
+  (`app/media/text_render.py`). Renderer: `app/media/video_gen.py`.
+- **Voice**: edge-tts 7.3.1 (`en-US-GuyNeural` gaming, `hi-IN-SwaraNeural` movies). 7.2.8 got 403s on CI.
+- **Images**: Wikipedia/Commons (`wiki:`, `wikifile:`), Steam screenshots (`steam:<appid>:<n>`), Palworld
+  wiki art (`pal:<Name>`), official YouTube frames (`yt:`). Local Stable Diffusion 1.5 + x4 upscaler
+  (`app/media/image_gen.py`, laptop only). Pollinations balance is empty; Gemini image/Veo need billing.
+- **LLM on laptop**: Ollama `gemma3:4b` (trend pipeline). Models live in `backend/.cache/ollama-models`.
+- **Upload APIs**: YouTube Data API v3 (`app/social/youtube.py`), Meta Graph API for Facebook/Instagram
+  (`app/social/facebook.py`, `instagram.py`; Instagram needs a public URL -> temporary cloudflared tunnel,
+  `app/social/public_tunnel.py`).
+- **Scheduling**: GitHub Actions (`.github/workflows/`), Claude Code cloud routines (content writers),
+  Windows scheduled task on the laptop (`backend/scripts/daily_job.cmd`).
+- **State**: posting history lives on the **`gaming-state`** branch (`pipeline_store.sqlite3`,
+  `game_videos.json`, `palworld_videos.json`). Every workflow restores it, runs, and pushes it back.
+
+## How it works
+
+### Specs (what to make)
+- `backend/scripts/specs/games/<slot>_NN_<id>.json` - gaming shorts. Slots: `new`, `classic`, `aniimo`,
+  `palguide`, `palbase`, `palchain`, `gamenews`, `gow`.
+- `backend/scripts/specs/movies/<slot>_NN_<id>.json` - movie shorts: `movie_new`, `movie_review`,
+  `reel` (Facebook + Instagram only via `"platforms"`), `comedy`, `movie_news`, `tribute`.
+- `backend/scripts/specs/long/{gaming,movies}_NN_<id>.json` - long videos (9-12 sections, >= 1200 words
+  English / >= 900 Hindi). Optional `"series": "palworld" | "aniimo"` reserves a spec for the
+  Aniimo + Palworld workflow (`--long-series`); normal long runs skip series specs.
+- `backend/scripts/specs/palworld_queue.json` - Palworld breeding shorts. Each entry has 3 verified
+  `"combos"` for the same child.
+- `backend/scripts/specs/gameplay/<plan>.json` - cut plans for the owner's own stream recordings.
+- `daily_job.py` picks the lowest-`order` unposted, unexpired spec per slot (`--from-end` takes the
+  highest, for manual batches that must not collide with scheduled runs).
+
+### Main scripts
+- `scripts/daily_job.py` - the one entry point: retries pending uploads, then builds + posts per
+  slot (`--new-games`, `--classic-games`, `--new-palworld`, `--extra-slot slot:N`, `--long-videos`,
+  `--long-category`, `--long-series`, `--skip-trends`, `--from-end`). Exits 1 if every build or every
+  upload failed (health check).
+- `scripts/game_videos.py` (shorts from specs), `scripts/long_video.py` (long videos),
+  `scripts/palworld_breeding_videos.py` (breeding cards: intro + one card per combo + child).
+- `scripts/gameplay_clips.py` (`scan` / `build` / `upload`) - cut Shorts (9:16) and highlight videos from
+  recordings in `F:/AI AGENT/VIDEOS GAMING`; `scripts/gameplay_daily.py` (laptop task) finishes pending
+  plans, max 1 long + 8 shorts per run, with a lock file.
+- `scripts/ops_report.py` - token check + weekly report. `scripts/meta_gaming_login.py` - sets up the
+  gaming page token. `scripts/youtube_login.py` - YouTube OAuth.
+- `scripts/fal_video.py`, `motion_daily.py`, `lucario_*.py` - AI-motion experiments (Wan/Kling/Flow).
+
+### Schedules (IST) - GitHub Actions run 0-5 h late in practice
+| When | What |
+|---|---|
+| 07:00 | Routine **Daily Aniimo + Palworld writer** (`trig_013wepkkQJoFvhUYENfH3qro`) writes specs |
+| 07:30 | `token-check.yml` - YouTube + Meta login check |
+| Mon/Thu 08:00 | Routine **Weekly content refill** (`trig_01LRixiDvLT8uP4GPUjYnDcy`) tops up all other queues |
+| 10:00 | `daily-content.yml` - 1 new game, 2 classic, 1 breeding, 1 Aniimo, 1 movie new, 1 review, 1 reel |
+| 10:00 | Laptop task `daily_job.cmd --skip-gaming` (trends) + `motion_daily.py` + `gameplay_daily.py` |
+| 13:45 | `daily-anipal.yml` 1st half - 5 Aniimo + 2 Palworld guide + 3 breeding + 1 long (palworld) |
+| 14:00 | `daily-palguide.yml` - 1 Palworld guide |
+| 18:00 | `daily-long.yml` - 2 long gaming + 1 long movie |
+| 21:00 | `daily-anipal.yml` 2nd half - 5 Aniimo + 3 Palworld guide + 2 breeding + 1 long (aniimo) |
+| Sun 19:30 | `weekly-report.yml` - stats issue |
+
+All gaming workflows share the `daily-gaming` concurrency group (never two writers of `gaming-state`).
+
+## Decisions and owner rules (do not break)
+
+- **Routing**: gaming never goes to the movie channel/page and vice versa. Gaming = English, movies = Hindi.
+- **Copyright**: never clip third-party films, TV shows or other people's videos (refused: Haunted 3D, TMKOC).
+  Offer Wikipedia-verified facts reels instead. Gameplay cuts only from the owner's own streams
+  (check the title exists on HarryBeast first).
+- **Fact-checking**: every fact needs two independent sources (or the subject's Wikipedia article for
+  evergreen facts). Palworld facts must be 1.0-specific. No politics, religion messaging, adult content.
+- **Palworld breeding**: every short shows **3 verified combos** for the same child (checked on
+  PalBreedCalc + pindrop / the breeding formula). Child must differ from all parents, no variants,
+  no legendary/crossover parents, no gender-dependent results.
+- **Tags**: YouTube tags are filled up to the 500-character limit (`fill_tags` in `app/social/youtube.py`).
+- **Instagram cover**: Reels use `thumb_offset` 2000 ms (`INSTAGRAM_THUMB_OFFSET_MS`) - frame 0 is the
+  black fade-in.
+- **Titles**: no `.` or `?` (YouTube title is cut there), no `<` or `>` anywhere (YouTube 400).
+- **Volume**: owner wants 20 Aniimo/Palworld shorts + 2 long a day on top of the regular schedule.
+  Reach data (Oct 2026): classic games ~207 avg views, Aniimo ~193, Palworld ~97, long videos 40-80;
+  a 60-upload day gave 2-5 views each, so gameplay uploads are capped per day.
+- **Gaming page back catalogue**: videos made before 2026-10-21 have `skip:before-gaming-page` markers
+  for `facebook_gaming`/`instagram_gaming` - do not remove them (would dump hundreds of old videos).
+- **Machine**: keep every install/cache on **F:** (C: is nearly full). `ollama.exe list` with no server
+  running starts the Ollama app on C: - start `ollama.exe serve` with `OLLAMA_MODELS` set instead.
+- **Secrets**: only in `backend/.env` (gitignored) and GitHub secrets. Never print or commit tokens.
+- **Process**: confirm before running tests; merge posting state with `merge_state.py` logic, never
+  copy a local state file over `gaming-state`.
+- **YouTube quota** resets at midnight Pacific (~12:30 IST); morning IST uploads count to the previous day.
+
+## What is built
+
+- Daily gaming + movie shorts, reels, long videos, Palworld guides, Aniimo, breeding (3-combo) - all
+  on GitHub Actions, posting to YouTube (2 channels), 2 Facebook Pages, 2 Instagram accounts.
+- Daily Aniimo + Palworld pipeline (writer routine + `daily-anipal.yml`).
+- Weekly refill routine, login check, weekly stats report, health-check exit codes.
+- Gameplay clipper for own RDR2 streams (done: Ch1 P1, Ch2 P1-P3; ~220 clips posted).
+- Laptop trend pipeline (Ollama + SD) and free AI-motion queue (`motion_queue/` -> `motion_videos/`).
+
+## Known limits / not done
+
+- Cloud cannot read the laptop's `VIDEOS GAMING` folder; YouTube blocks yt-dlp from GitHub runners.
+  A Google Drive route was offered and declined - gameplay clipping stays on the laptop.
+- No working paid image/video model (Pollinations empty, Gemini Veo/image need billing).
+- Instagram API cannot change the cover of already-posted Reels.
+- Twitter trend source has no token (skipped).
+
+## Change log
+- 2026-10-24 - CLAUDE.md created; Aniimo + Palworld daily pipeline (writer routine, `daily-anipal.yml`, `--long-series`).
+- 2026-10-22 - Instagram Reel cover offset; 10 classic + 10 breeding batch.
+- 2026-10-21 - Gaming Facebook Page + Instagram; daily long = 2 gaming + 1 movie; tags to 500 chars.
+- 2026-10-20 - Palworld breeding shows 3 combos; Aniimo back (1/day); classic 2/day; gameplay daily caps.

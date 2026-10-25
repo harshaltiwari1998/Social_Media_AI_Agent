@@ -1431,8 +1431,8 @@
   "assassins-creed-franchise-history": {
     "spec": "scripts/specs/long/gaming_29_assassins-creed-franchise-history.json",
     "kind": "long",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-4bf51528.mp4",
-    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-4bf51528-thumb.jpg",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-3fa75062.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-3fa75062-thumb.jpg",
     "chapters": "0:00 The creed that conquered history\n0:43 From Prince of Persia to Assassin's Creed\n1:32 The Ezio trilogy\n2:15 Revolution and the pirate years\n3:01 Unity, Rogue and Syndicate\n3:51 Origins and the RPG revolution\n4:39 Odyssey and Valhalla\n5:23 Mirage goes back to the roots\n6:05 Shadows arrives in Japan\n6:52 Black Flag comes back\n7:40 Which Assassin's Creed is your favorite"
   },
   "prabhas-safar": {
@@ -2728,8 +2728,8 @@
   "sanjay-leela-bhansali-safar": {
     "spec": "scripts/specs/long/movies_19_sanjay-leela-bhansali-safar.json",
     "kind": "long",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-51132bee.mp4",
-    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-51132bee-thumb.jpg",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-eee09444.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-eee09444-thumb.jpg",
     "chapters": "0:00 भव्य सिनेमा के जादूगर\n0:36 बचपन और परिवार\n1:11 Vidhu Vinod Chopra के साथ शुरुआत\n1:44 Khamoshi और Hum Dil De Chuke Sanam\n2:20 Devdas: भव्यता की नई मिसाल\n2:55 Black: एक अलग तरह की कहानी\n3:33 Producer के तौर पर और Ram-Leela\n4:15 Bajirao Mastani: सपने का पूरा होना\n5:02 Padmaavat से Gangubai Kathiawadi तक\n5:45 Heeramandi और Love & War\n6:25 आपकी राय"
   },
   "palworld-sealed-realms-guide": {
@@ -2827,5 +2827,525 @@
   "palworld-guide-where-to-find-wumpo": {
     "spec": "scripts/specs/games/palguide_62_where-to-find-wumpo.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-d7855702.mp4"
+  },
+  "deal-steam-deal-232090-90": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-232090-90.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-0a741c9e.mp4",
+    "data": {
+      "id": "deal-steam-deal-232090-90",
+      "slot": "deals",
+      "badge": "STEAM DAILY DEAL",
+      "headline": "Steam deal",
+      "title": "Killing Floor 2 90% OFF on Steam | Now Rs 72 | Steam Deal Oct 25",
+      "video_script": "Today's Steam Daily Deal is Killing Floor 2 at 90 percent off, down from 729 rupees to just 72 rupees. In KILLING FLOOR 2, players descend into continental Europe after it has been overrun by horrific, murderous clones called Zeds that were created by rogue elements of the Horzine Corporation. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/232090/header.jpg?t=1774538987",
+          "label": "Killing Floor 2"
+        },
+        {
+          "image": "steam:232090:0",
+          "fact": "-90%  Rs 72",
+          "sub": "was Rs 729"
+        },
+        {
+          "image": "steam:232090:1",
+          "fact": "Action",
+          "sub": "Tripwire Interactive"
+        },
+        {
+          "image": "steam:232090:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Daily Deal is Killing Floor 2 at 90 percent off, down from 729 rupees to just 72 rupees.\nhttps://store.steampowered.com/app/232090\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 25 2026, 20:41 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Killing Floor 2",
+        "Killing Floor 2 sale",
+        "Killing Floor 2 price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-3240220-50": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-3240220-50.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-45061ced.mp4",
+    "data": {
+      "id": "deal-steam-deal-3240220-50",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Grand Theft Auto V Enhanced 50% OFF on Steam | Now Rs 1,249 | Steam Deal Oct 25",
+      "video_script": "Grand Theft Auto V Enhanced is on sale on Steam at 50 percent off, down from 2,499 rupees to just 1,249 rupees. The deal ends on November 5. Experience entertainment blockbusters Grand Theft Auto V and Grand Theft Auto Online — now upgraded for a new generation with stunning visuals, faster loading, 3D audio, and more, plus exclusive content for GTA Online players. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg?t=1781187782",
+          "label": "Grand Theft Auto V Enhanced"
+        },
+        {
+          "image": "steam:3240220:0",
+          "fact": "-50%  Rs 1,249",
+          "sub": "was Rs 2,499"
+        },
+        {
+          "image": "steam:3240220:1",
+          "fact": "Action + Adventure + Racing",
+          "sub": "Rockstar North"
+        },
+        {
+          "image": "steam:3240220:2",
+          "fact": "Ends Nov 5",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Grand Theft Auto V Enhanced is on sale on Steam at 50 percent off, down from 2,499 rupees to just 1,249 rupees. The deal ends on November 5.\nhttps://store.steampowered.com/app/3240220\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 25 2026, 20:41 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Grand Theft Auto V Enhanced",
+        "Grand Theft Auto V Enhanced sale",
+        "Grand Theft Auto V Enhanced price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-2138330-40": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-2138330-40.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-c02ce46f.mp4",
+    "data": {
+      "id": "deal-steam-deal-2138330-40",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Cyberpunk 2077: Phantom Liberty 40% OFF on Steam | Now Rs 899 | Steam Deal Oct 25",
+      "video_script": "Cyberpunk 2077: Phantom Liberty is on sale on Steam, a DLC, at 40 percent off, down from 1,499 rupees to just 899 rupees. The deal ends on October 26. Phantom Liberty is a new spy-thriller expansion for the open-world action-adventure RPG Cyberpunk 2077. As cyber-enhanced mercenary V, join secret agent Solomon Reed to unravel a web of shattered loyalties and sinister political machinations. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2138330/bdbeea292270b8cd9dde1f2044a411624db58657/header.jpg?t=1784713876",
+          "label": "Cyberpunk 2077: Phantom Liberty"
+        },
+        {
+          "image": "steam:2138330:0",
+          "fact": "-40%  Rs 899",
+          "sub": "was Rs 1,499"
+        },
+        {
+          "image": "steam:2138330:1",
+          "fact": "RPG",
+          "sub": "CD PROJEKT RED"
+        },
+        {
+          "image": "steam:2138330:2",
+          "fact": "Ends Oct 26",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Cyberpunk 2077: Phantom Liberty is on sale on Steam, a DLC, at 40 percent off, down from 1,499 rupees to just 899 rupees. The deal ends on October 26.\nhttps://store.steampowered.com/app/2138330\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 25 2026, 20:41 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Cyberpunk 2077: Phantom Liberty",
+        "Cyberpunk 2077: Phantom Liberty sale",
+        "Cyberpunk 2077: Phantom Liberty price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-5358030-40": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-5358030-40.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-d0c4b165.mp4",
+    "data": {
+      "id": "deal-steam-deal-5358030-40",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Lumbrix 40% OFF on Steam | Now Rs 299 | Steam Deal Oct 25",
+      "video_script": "Lumbrix is on sale on Steam at 40 percent off, down from 499 rupees to just 299 rupees. The deal ends on November 7. Lumbrix is a survivors-like shooter where every segment of your growing worm is both a weapon and a life. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5358030/4391375f4d14c46e75de48000347490246c29913/header.jpg?t=1792882977",
+          "label": "Lumbrix"
+        },
+        {
+          "image": "steam:5358030:0",
+          "fact": "-40%  Rs 299",
+          "sub": "was Rs 499"
+        },
+        {
+          "image": "steam:5358030:1",
+          "fact": "Action + Casual + Indie",
+          "sub": "JSM games"
+        },
+        {
+          "image": "steam:5358030:2",
+          "fact": "Ends Nov 7",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Lumbrix is on sale on Steam at 40 percent off, down from 499 rupees to just 299 rupees. The deal ends on November 7.\nhttps://store.steampowered.com/app/5358030\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 25 2026, 20:41 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Lumbrix",
+        "Lumbrix sale",
+        "Lumbrix price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-3752410-40": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-3752410-40.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-56bf3526.mp4",
+    "data": {
+      "id": "deal-steam-deal-3752410-40",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Dispatch Control 40% OFF on Steam | Now Rs 65 | Steam Deal Oct 25",
+      "video_script": "Dispatch Control is on sale on Steam at 40 percent off, down from 109 rupees to just 65 rupees. The deal ends on November 7. Run a fire and ambulance dispatch center on real-world maps. Answer emergency calls, assess incidents and send the right crews while keeping units in reserve. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3752410/a8728050be2e15452baeeae35568c7111d9053c4/header.jpg?t=1792930412",
+          "label": "Dispatch Control"
+        },
+        {
+          "image": "steam:3752410:0",
+          "fact": "-40%  Rs 65",
+          "sub": "was Rs 109"
+        },
+        {
+          "image": "steam:3752410:1",
+          "fact": "Simulation + Strategy",
+          "sub": "Tom Holscher"
+        },
+        {
+          "image": "steam:3752410:2",
+          "fact": "Ends Nov 7",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Dispatch Control is on sale on Steam at 40 percent off, down from 109 rupees to just 65 rupees. The deal ends on November 7.\nhttps://store.steampowered.com/app/3752410\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 25 2026, 20:41 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Dispatch Control",
+        "Dispatch Control sale",
+        "Dispatch Control price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-3330380-40": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-3330380-40.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5bfca091.mp4",
+    "data": {
+      "id": "deal-steam-deal-3330380-40",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Ad Nauseam - The Wrong Side 40% OFF on Steam | Now Rs 329 | Steam Deal Oct 25",
+      "video_script": "Ad Nauseam - The Wrong Side is on sale on Steam at 40 percent off, down from 549 rupees to just 329 rupees. The deal ends on October 31. Ad Nauseam is a choice-heavy psych horror / thriller about trauma, identity, love, and sickness. It combines many staples of Adventure, VN, and RPG games with its own flair to create something entirely unique. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3330380/d965dd07008804cecdb355e88d471647e9c1f250/header.jpg?t=1792878250",
+          "label": "Ad Nauseam - The Wrong Side"
+        },
+        {
+          "image": "steam:3330380:0",
+          "fact": "-40%  Rs 329",
+          "sub": "was Rs 549"
+        },
+        {
+          "image": "steam:3330380:1",
+          "fact": "Adventure + Indie + RPG",
+          "sub": "throwpup"
+        },
+        {
+          "image": "steam:3330380:2",
+          "fact": "Ends Oct 31",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Ad Nauseam - The Wrong Side is on sale on Steam at 40 percent off, down from 549 rupees to just 329 rupees. The deal ends on October 31.\nhttps://store.steampowered.com/app/3330380\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 25 2026, 20:41 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Ad Nauseam - The Wrong Side",
+        "Ad Nauseam - The Wrong Side sale",
+        "Ad Nauseam - The Wrong Side price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-4924290-40": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-4924290-40.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-8917a587.mp4",
+    "data": {
+      "id": "deal-steam-deal-4924290-40",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Fire Bug 40% OFF on Steam | Now Rs 95 | Steam Deal Oct 25",
+      "video_script": "Fire Bug is on sale on Steam at 40 percent off, down from 159 rupees to just 95 rupees. The deal ends on October 31. Hold the sun in your hand in this fast-paced arcade game. Play as a magnifying glass and cook swarms of bugs before time runs out. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4924290/2a0db0d043d9bc8febc2b0974520791cef78ee0a/header.jpg?t=1792876542",
+          "label": "Fire Bug"
+        },
+        {
+          "image": "steam:4924290:0",
+          "fact": "-40%  Rs 95",
+          "sub": "was Rs 159"
+        },
+        {
+          "image": "steam:4924290:1",
+          "fact": "Action + Casual + Indie",
+          "sub": "Jesse Dale"
+        },
+        {
+          "image": "steam:4924290:2",
+          "fact": "Ends Oct 31",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Fire Bug is on sale on Steam at 40 percent off, down from 159 rupees to just 95 rupees. The deal ends on October 31.\nhttps://store.steampowered.com/app/4924290\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 25 2026, 20:41 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Fire Bug",
+        "Fire Bug sale",
+        "Fire Bug price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deals-budget-2026-10-25": {
+    "spec": "scripts/specs/deals/long/deals-budget-2026-10-25.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-857b3b87.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-857b3b87-thumb.jpg",
+    "chapters": "0:00 Today's deals\n0:11 Dispatch Control - 40% off\n0:43 Ad Nauseam - The Wrong Side - 40% off\n1:21 Fire Bug - 40% off\n1:52 Kiss Me on the Oligarch's Dime - 40% off\n2:31 PixelBoss: Shattered Depths - 40% off\n3:07 The Bots Want Your Gold! - 35% off\n3:46 Spin To Win - 30% off\n4:21 Ball Bugz - 30% off\n4:58 Last Fisherman - 30% off\n5:36 Panspermia - El eco de los antiguos - 30% off\n6:12 Which one are you grabbing",
+    "data": {
+      "id": "deals-budget-2026-10-25",
+      "category": "gaming",
+      "title": "Best Steam Deals Under Rs 500 Today | Dispatch Control and More | Oct 25",
+      "description": "These are the best Steam deals under 500 rupees for October 25. 10 games, all on sale right now, with the price, what each game is, and its Steam reviews.\n\n- Dispatch Control: -40% Rs 65 (was Rs 109) - https://store.steampowered.com/app/3752410\n- Ad Nauseam - The Wrong Side: -40% Rs 329 (was Rs 549) - https://store.steampowered.com/app/3330380\n- Fire Bug: -40% Rs 95 (was Rs 159) - https://store.steampowered.com/app/4924290\n- Kiss Me on the Oligarch's Dime: -40% Rs 215 (was Rs 359) - https://store.steampowered.com/app/5288620\n- PixelBoss: Shattered Depths: -40% Rs 161 (was Rs 269) - https://store.steampowered.com/app/4708610\n- The Bots Want Your Gold!: -35% Rs 168 (was Rs 259) - https://store.steampowered.com/app/5074200\n- Spin To Win: -30% Rs 195 (was Rs 279) - https://store.steampowered.com/app/5409020\n- Ball Bugz: -30% Rs 216 (was Rs 309) - https://store.steampowered.com/app/4461260\n- Last Fisherman: -30% Rs 181 (was Rs 259) - https://store.steampowered.com/app/4262030\n- Panspermia - El eco de los antiguos: -30% Rs 181 (was Rs 259) - https://store.steampowered.com/app/4720170\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 25 2026, 20:41 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "SteamSale",
+        "EpicGames",
+        "GameDeals"
+      ],
+      "tags": [
+        "Dispatch Control",
+        "Ad Nauseam - The Wrong Side",
+        "Fire Bug",
+        "Kiss Me on the Oligarch's Dime",
+        "PixelBoss: Shattered Depths",
+        "The Bots Want Your Gold!",
+        "Spin To Win",
+        "Ball Bugz",
+        "free games",
+        "steam sale",
+        "steam deals today",
+        "epic games free games",
+        "best game deals",
+        "steam sale india",
+        "cheap pc games",
+        "games under 500 rupees"
+      ],
+      "thumbnail": {
+        "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3752410/a8728050be2e15452baeeae35568c7111d9053c4/header.jpg?t=1792930412",
+        "text": "UNDER RS 500"
+      },
+      "sections": [
+        {
+          "heading": "Today's deals",
+          "script": "These are the best Steam deals under 500 rupees for October 25. 10 games, all on sale right now, with the price, what each game is, and its Steam reviews.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3752410/a8728050be2e15452baeeae35568c7111d9053c4/header.jpg?t=1792930412",
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3330380/d965dd07008804cecdb355e88d471647e9c1f250/header.jpg?t=1792878250",
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4924290/2a0db0d043d9bc8febc2b0974520791cef78ee0a/header.jpg?t=1792876542"
+          ]
+        },
+        {
+          "heading": "Dispatch Control - 40% off",
+          "script": "Dispatch Control is on sale on Steam at 40 percent off, down from 109 rupees to just 65 rupees. The deal ends on November 7. Run a fire and ambulance dispatch center on real-world maps. Answer emergency calls, assess incidents and send the right crews while keeping units in reserve. Steam lists it as Simulation and Strategy, made by Tom Holscher, released 24 Oct, 2026. That saves you 44 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3752410/a8728050be2e15452baeeae35568c7111d9053c4/header.jpg?t=1792930412",
+            "steam:3752410:0",
+            "steam:3752410:1"
+          ]
+        },
+        {
+          "heading": "Ad Nauseam - The Wrong Side - 40% off",
+          "script": "Ad Nauseam - The Wrong Side is on sale on Steam at 40 percent off, down from 549 rupees to just 329 rupees. The deal ends on October 31. Ad Nauseam is a choice-heavy psych horror / thriller about trauma, identity, love, and sickness. It combines many staples of Adventure, VN, and RPG games with its own flair to create something entirely unique. Steam lists it as Adventure and Indie and RPG, made by throwpup, released 24 Oct, 2026. That saves you 220 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3330380/d965dd07008804cecdb355e88d471647e9c1f250/header.jpg?t=1792878250",
+            "steam:3330380:0",
+            "steam:3330380:1"
+          ]
+        },
+        {
+          "heading": "Fire Bug - 40% off",
+          "script": "Fire Bug is on sale on Steam at 40 percent off, down from 159 rupees to just 95 rupees. The deal ends on October 31. Hold the sun in your hand in this fast-paced arcade game. Play as a magnifying glass and cook swarms of bugs before time runs out. Steam lists it as Action and Casual and Indie, made by Jesse Dale, released 24 Oct, 2026. That saves you 64 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4924290/2a0db0d043d9bc8febc2b0974520791cef78ee0a/header.jpg?t=1792876542",
+            "steam:4924290:0",
+            "steam:4924290:1"
+          ]
+        },
+        {
+          "heading": "Kiss Me on the Oligarch's Dime - 40% off",
+          "script": "Kiss Me on the Oligarch's Dime is on sale on Steam at 40 percent off, down from 359 rupees to just 215 rupees. The deal ends on November 7. Debt-ridden wedding producer Luka returns to the Adriatic town he fled to stage a secretive oligarch wedding. Over six closed days, choose one of three romance routes: a runaway pop-star bride, the dressmaker he abandoned, or a furious local organizer. Steam lists it as Adventure and Simulation, made by Creamhouse, released 24 Oct, 2026. That saves you 144 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5288620/8a244d13baa51ed2ce47c9389dd959669d54b80d/header.jpg?t=1792866884",
+            "steam:5288620:0",
+            "steam:5288620:1"
+          ]
+        },
+        {
+          "heading": "PixelBoss: Shattered Depths - 40% off",
+          "script": "PixelBoss: Shattered Depths is on sale on Steam at 40 percent off, down from 269 rupees to just 161 rupees. The deal ends on November 7. PixelBoss: Shattered Depths is a hardcore 2D pixel-art platformer where every mistake matters. Fight enemies, avoid deadly traps, and master precise movement to survive unforgiving levels. Steam lists it as Action and Adventure and Indie, made by Quacky Games, released 24 Oct, 2026. That saves you 108 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4708610/681f6047b37789247f2523882ffa9200eac419c0/header.jpg?t=1792865438",
+            "steam:4708610:0",
+            "steam:4708610:1"
+          ]
+        },
+        {
+          "heading": "The Bots Want Your Gold! - 35% off",
+          "script": "The Bots Want Your Gold! is on sale on Steam at 35 percent off, down from 259 rupees to just 168 rupees. The deal ends on November 8. Defend your base from the robotic horde! Mine ores and sell them to make quick cash. Use your hard-earned money to buy weapons, attachments, and equipment that will assist you in defeating the bots! How long can you hold off the horde? Steam lists it as Action, made by Dunking Bird, released 25 Oct, 2026. That saves you 91 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5074200/9a6d2a944c5445c92c6e7323a52a6a67ebce5246/header.jpg?t=1792925448",
+            "steam:5074200:0",
+            "steam:5074200:1"
+          ]
+        },
+        {
+          "heading": "Spin To Win - 30% off",
+          "script": "Spin To Win is on sale on Steam at 30 percent off, down from 279 rupees to just 195 rupees. The deal ends on November 1. Flick, brake and reverse your way from one tiny fidget spinner to a bustling pixel arcade. Restore machines, build gadget combinations, master mouse driven minigames and spend earned Tickets on chance games and cosmetics. Steam lists it as Action and Indie, made by Crush Bug Studios, released 25 Oct, 2026. That saves you 84 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5409020/bf4f11534b1e4f5fff6b8261f9dde8bdbf17dc42/header.jpg?t=1792923539",
+            "steam:5409020:0",
+            "steam:5409020:1"
+          ]
+        },
+        {
+          "heading": "Ball Bugz - 30% off",
+          "script": "Ball Bugz is on sale on Steam at 30 percent off, down from 309 rupees to just 216 rupees. The deal ends on November 1. Ball Bugs is an incremental defense game where you start with a single persistent ball and build up an arsenal of ball firing turrets, artillery and special ball types. Bounce, splat, upgrade and come back stronger until the bugs stop getting through. Steam lists it as Action and Casual and Indie, made by Crush Bug Studios, released 25 Oct, 2026. That saves you 93 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4461260/806b340f23d168ed8318c973af5122d2c452b77b/header.jpg?t=1792923461",
+            "steam:4461260:0",
+            "steam:4461260:1"
+          ]
+        },
+        {
+          "heading": "Last Fisherman - 30% off",
+          "script": "Last Fisherman is on sale on Steam at 30 percent off, down from 259 rupees to just 181 rupees. The deal ends on October 31. In abandoned biomes, forgotten cities, and lifeless waters, you cast your line — often without knowing whether it is still worth it. Rare fish, fragile systems, and a world without explanation create an atmosphere that observes rather than entertains. Steam lists it as Adventure and Indie and RPG, made by ZwiebelGames, released 24 Oct, 2026. That saves you 78 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4262030/086d1c597e2ea1b4918a6ad6163902bf8767bc48/header.jpg?t=1792887717",
+            "steam:4262030:0",
+            "steam:4262030:1"
+          ]
+        },
+        {
+          "heading": "Panspermia - El eco de los antiguos - 30% off",
+          "script": "Panspermia - El eco de los antiguos is on sale on Steam at 30 percent off, down from 259 rupees to just 181 rupees. The deal ends on November 7. A narrative adventure where your words matter. Explore, decide, and uncover the secrets of the Panspermia universe in an experience inspired by classic text parser adventures. Steam lists it as Adventure and Casual and Indie, made by Guillermo Gutiérrez Gómez, released 24 Oct, 2026. That saves you 78 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4720170/a0a02a3270f52b7e0d15526d200a407437fb5fe5/header.jpg?t=1792865547",
+            "steam:4720170:0",
+            "steam:4720170:1"
+          ]
+        },
+        {
+          "heading": "Which one are you grabbing",
+          "script": "That's the list for today. Prices on Steam are the India store prices in rupees, and they can change, so always check the store page before you buy. Every link is in the description. Tell me in the comments which game you are grabbing, and subscribe, because we check Epic and Steam every single day and post the free games and the best deals as soon as they go live.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3752410/a8728050be2e15452baeeae35568c7111d9053c4/header.jpg?t=1792930412"
+          ]
+        }
+      ]
+    }
   }
 }

@@ -1,0 +1,42 @@
+{
+  "id": "palworld-guide-nitewing",
+  "slot": "palguide",
+  "order": 77,
+  "headline": "Nitewing flying",
+  "title": "Nitewing | Early Flying Mount | Palworld Guide",
+  "video_script": "Want to fly early in Palworld one point zero? Nitewing is a flying mount you can ride, and its partner skill is called Travel Companion. It is Neutral type, so it is easy to fit into any team. It also works Gathering level two at your base. Would you fly with Nitewing? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:21",
+      "label": "Nitewing"
+    },
+    {
+      "image": "pal:Nitewing",
+      "fact": "Flying Mount",
+      "sub": "Flying mount"
+    },
+    {
+      "image": "steam:1623730:22",
+      "fact": "Travel Companion",
+      "sub": "Ride speed grows"
+    },
+    {
+      "image": "pal:Nitewing",
+      "fact": "Gathering Level 2",
+      "sub": "Base worker"
+    }
+  ],
+  "description": "Nitewing in Palworld 1.0 is an early Neutral flying mount that also gathers at your base.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Nitewing",
+    "Nitewing mount",
+    "Palworld flying mount",
+    "Palworld 1.0",
+    "Palworld guide"
+  ]
+}

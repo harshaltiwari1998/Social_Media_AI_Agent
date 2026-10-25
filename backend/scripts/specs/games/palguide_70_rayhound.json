@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-rayhound",
+  "slot": "palguide",
+  "order": 70,
+  "headline": "Rayhound mount",
+  "title": "Rayhound | Double Jump Electric Mount | Palworld Guide",
+  "video_script": "Rayhound is a fun early mount in Palworld one point zero. You can ride it, and it can double jump while mounted. Its partner skill adds five to twenty five percent movement speed for each other Electric Pal in your party. It also works as an Electricity level four generator at your base. Will you build an Electric team? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:4",
+      "label": "Rayhound"
+    },
+    {
+      "image": "pal:Rayhound",
+      "fact": "Double Jump",
+      "sub": "While mounted"
+    },
+    {
+      "image": "pal:Rayhound",
+      "fact": "Faster With Electric Pals",
+      "sub": "Party speed bonus"
+    },
+    {
+      "image": "steam:1623730:11",
+      "fact": "Electricity Level 4",
+      "sub": "Base generator"
+    }
+  ],
+  "description": "Rayhound in Palworld 1.0 is a rideable Electric Pal with a double jump and a speed bonus from Electric party mates.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Rayhound",
+    "Rayhound mount",
+    "Palworld electricity",
+    "Palworld double jump",
+    "Palworld 1.0",
+    "Palworld guide"
+  ]
+}

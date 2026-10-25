@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-eikthyrdeer",
+  "slot": "palguide",
+  "order": 72,
+  "headline": "Eikthyrdeer lumbering",
+  "title": "Eikthyrdeer | Ride and Chop Wood Faster | Palworld Guide",
+  "video_script": "Eikthyrdeer is a forest mount you can ride, and it can double jump while mounted. Its partner skill, Guardian of the Forest, boosts lumbering efficiency by two hundred twenty to five hundred percent when you use it. That makes wood runs very fast in Palworld one point zero. Will you ride Eikthyrdeer for wood? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:9",
+      "label": "Eikthyrdeer"
+    },
+    {
+      "image": "pal:Eikthyrdeer",
+      "fact": "Rideable",
+      "sub": "Double jump"
+    },
+    {
+      "image": "steam:1623730:13",
+      "fact": "Lumbering Boost",
+      "sub": "220 to 500 percent"
+    },
+    {
+      "image": "pal:Eikthyrdeer",
+      "fact": "Lumbering Level 2",
+      "sub": "Base worker"
+    }
+  ],
+  "description": "Eikthyrdeer in Palworld 1.0 is a rideable Pal whose partner skill hugely speeds up lumbering.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Eikthyrdeer",
+    "Eikthyrdeer mount",
+    "Palworld lumbering",
+    "Palworld wood",
+    "Palworld 1.0",
+    "Palworld guide"
+  ]
+}

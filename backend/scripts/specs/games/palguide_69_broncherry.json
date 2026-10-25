@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-broncherry",
+  "slot": "palguide",
+  "order": 69,
+  "headline": "Broncherry alpha eggs",
+  "title": "Broncherry | Alpha Egg Chance and Ride | Palworld Guide",
+  "video_script": "Want more alpha Pals? Broncherry is a rideable mount, and its partner skill, Love's First Blossom, gives picked up Pal eggs a thirty five to forty five percent chance of becoming alpha eggs while it is in your party. It also has Planting level five, so it works on your farm. Would you hatch alpha eggs? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:6",
+      "label": "Broncherry"
+    },
+    {
+      "image": "pal:Broncherry",
+      "fact": "Alpha Egg Chance",
+      "sub": "35 to 45 percent"
+    },
+    {
+      "image": "steam:1623730:10",
+      "fact": "Rideable",
+      "sub": "You can ride it"
+    },
+    {
+      "image": "pal:Broncherry",
+      "fact": "Planting Level 5",
+      "sub": "Farm worker"
+    }
+  ],
+  "description": "Broncherry in Palworld 1.0 is a rideable Pal that raises your chance of alpha eggs and plants crops at level five.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Broncherry",
+    "Broncherry alpha egg",
+    "Palworld mount",
+    "Palworld planting",
+    "Palworld 1.0",
+    "Palworld guide"
+  ]
+}

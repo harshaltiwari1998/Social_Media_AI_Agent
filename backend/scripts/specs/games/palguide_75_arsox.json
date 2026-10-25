@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-arsox",
+  "slot": "palguide",
+  "order": 75,
+  "headline": "Arsox mount",
+  "title": "Arsox | Fire Mount With Cold Resistance | Palworld Guide",
+  "video_script": "Need an early fire mount? Arsox can be ridden in Palworld one point zero. Its partner skill, Warm Body, gives you plus two cold resistance while it is in your party, which helps in snowy areas. At your base it works Kindling level three and Lumbering level two. Will you ride Arsox? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:17",
+      "label": "Arsox"
+    },
+    {
+      "image": "pal:Arsox",
+      "fact": "Rideable",
+      "sub": "Fire mount"
+    },
+    {
+      "image": "steam:1623730:18",
+      "fact": "Cold Resistance",
+      "sub": "Plus 2 in party"
+    },
+    {
+      "image": "pal:Arsox",
+      "fact": "Kindling Level 3",
+      "sub": "Lumbering Level 2"
+    }
+  ],
+  "description": "Arsox in Palworld 1.0 is a rideable Fire Pal that gives cold resistance and works at kindling level three.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Arsox",
+    "Arsox mount",
+    "Palworld kindling",
+    "Palworld cold resistance",
+    "Palworld 1.0",
+    "Palworld guide"
+  ]
+}

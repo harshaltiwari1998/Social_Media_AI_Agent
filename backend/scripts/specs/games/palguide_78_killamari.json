@@ -1,0 +1,42 @@
+{
+  "id": "palworld-guide-killamari",
+  "slot": "palguide",
+  "order": 78,
+  "headline": "Killamari glider",
+  "title": "Killamari | Glide Longer With Fried Squid | Palworld Guide",
+  "video_script": "Killamari has a funny partner skill in Palworld one point zero. It is called Fried Squid, and while Killamari is in your party, your equipped glider lets you float gently for much longer. It also works Transporting level two, with Watering and Gathering at level one. Do you glide a lot? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:23",
+      "label": "Killamari"
+    },
+    {
+      "image": "pal:Killamari",
+      "fact": "Fried Squid",
+      "sub": "Longer glider float"
+    },
+    {
+      "image": "steam:1623730:24",
+      "fact": "Transporting Level 2",
+      "sub": "Watering and Gathering 1"
+    },
+    {
+      "image": "pal:Killamari",
+      "fact": "Glide Further",
+      "sub": "Equip your glider"
+    }
+  ],
+  "description": "Killamari in Palworld 1.0 lets your glider float for longer through its Fried Squid partner skill.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Killamari",
+    "Killamari glider",
+    "Palworld partner skill",
+    "Palworld 1.0",
+    "Palworld guide"
+  ]
+}

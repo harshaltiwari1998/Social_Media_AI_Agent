@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-cryolinx",
+  "slot": "palguide",
+  "order": 71,
+  "headline": "Cryolinx worker",
+  "title": "Cryolinx | Four Jobs and Dragon Drops | Palworld Guide",
+  "video_script": "Cryolinx is a great base worker in Palworld one point zero. It has Cooling level four, Lumbering level four and Transporting level four, plus Handiwork level three. Its partner skill, Dragon Hunter, makes Dragon Pals drop forty to eighty percent more items when you defeat them. Would you use it on your farm team? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:2",
+      "label": "Cryolinx"
+    },
+    {
+      "image": "pal:Cryolinx",
+      "fact": "Cooling Level 4",
+      "sub": "Lumbering and Transport too"
+    },
+    {
+      "image": "steam:1623730:7",
+      "fact": "Dragon Hunter",
+      "sub": "More drops from Dragons"
+    },
+    {
+      "image": "pal:Cryolinx",
+      "fact": "Handiwork Level 3",
+      "sub": "Four jobs in one"
+    }
+  ],
+  "description": "Cryolinx in Palworld 1.0 is a flexible Ice worker with four work suitabilities and a Dragon drop boost.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Cryolinx",
+    "Cryolinx work suitability",
+    "Palworld cooling",
+    "Palworld base",
+    "Palworld 1.0",
+    "Palworld guide"
+  ]
+}

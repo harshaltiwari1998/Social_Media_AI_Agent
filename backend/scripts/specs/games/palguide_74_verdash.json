@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-verdash",
+  "slot": "palguide",
+  "order": 74,
+  "headline": "Verdash worker",
+  "title": "Verdash | Five Jobs Plus Extra Jump | Palworld Guide",
+  "video_script": "Verdash is a great all round worker in Palworld one point zero. It has Handiwork level five, Gathering level five and Planting level four, with Lumbering and Transporting at level three. Its partner skill gives you one extra jump and one extra mid air dash while it is in your party. Would you add it to your base? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:15",
+      "label": "Verdash"
+    },
+    {
+      "image": "pal:Verdash",
+      "fact": "Handiwork Level 5",
+      "sub": "Gathering Level 5"
+    },
+    {
+      "image": "steam:1623730:16",
+      "fact": "Planting Level 4",
+      "sub": "Lumbering and Transport 3"
+    },
+    {
+      "image": "pal:Verdash",
+      "fact": "Extra Jump and Dash",
+      "sub": "Partner skill"
+    }
+  ],
+  "description": "Verdash in Palworld 1.0 is a strong Grass worker with five work suitabilities and a mobility partner skill.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Verdash",
+    "Verdash work suitability",
+    "Palworld handiwork",
+    "Palworld base",
+    "Palworld 1.0",
+    "Palworld guide"
+  ]
+}

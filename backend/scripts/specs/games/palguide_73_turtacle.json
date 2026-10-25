@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-turtacle",
+  "slot": "palguide",
+  "order": 73,
+  "headline": "Turtacle ore weight",
+  "title": "Turtacle | Cut Ore Weight Almost To Zero | Palworld Guide",
+  "video_script": "Tired of being overweight from ore? Turtacle has a neat partner skill, Spikey Carrier. While it is in your party, the weight of ore drops by eighty to one hundred percent. It also has Watering level two, Mining level one and Transporting level one. Perfect for long mining trips in Palworld one point zero. Do you carry Turtacle? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:1",
+      "label": "Turtacle"
+    },
+    {
+      "image": "pal:Turtacle",
+      "fact": "Spikey Carrier",
+      "sub": "Ore weight down"
+    },
+    {
+      "image": "steam:1623730:14",
+      "fact": "80 to 100 percent",
+      "sub": "Lighter ore"
+    },
+    {
+      "image": "pal:Turtacle",
+      "fact": "Watering Level 2",
+      "sub": "Also mines and carries"
+    }
+  ],
+  "description": "Turtacle in Palworld 1.0 cuts ore weight by eighty to one hundred percent while it is in your party.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Turtacle",
+    "Turtacle partner skill",
+    "Palworld ore weight",
+    "Palworld mining",
+    "Palworld 1.0",
+    "Palworld guide"
+  ]
+}

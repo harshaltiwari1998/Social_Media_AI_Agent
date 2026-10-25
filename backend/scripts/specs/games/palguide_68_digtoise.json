@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-digtoise",
+  "slot": "palguide",
+  "order": 68,
+  "headline": "Digtoise mining",
+  "title": "Digtoise | Mining Boost Up To 2000 Percent | Palworld Guide",
+  "video_script": "Digtoise is one of the strongest miners in Palworld one point zero. It has Mining level four. Its partner skill, Drill Crusher, makes it spin and follow you, and mining efficiency jumps by eight hundred to two thousand percent. Put it in your party while you farm ore and watch the rocks melt. Do you farm ore with Digtoise yet? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:3",
+      "label": "Digtoise"
+    },
+    {
+      "image": "pal:Digtoise",
+      "fact": "Mining Level 4",
+      "sub": "Work suitability"
+    },
+    {
+      "image": "steam:1623730:5",
+      "fact": "Drill Crusher",
+      "sub": "Spins as you mine"
+    },
+    {
+      "image": "pal:Digtoise",
+      "fact": "Ore Boost",
+      "sub": "Up to 2000 percent"
+    }
+  ],
+  "description": "Digtoise gives a huge ore mining boost in Palworld 1.0 through its Drill Crusher partner skill.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Digtoise",
+    "Digtoise partner skill",
+    "Palworld mining",
+    "Palworld ore",
+    "Palworld 1.0",
+    "Palworld guide"
+  ]
+}

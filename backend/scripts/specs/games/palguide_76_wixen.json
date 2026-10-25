@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-wixen",
+  "slot": "palguide",
+  "order": 76,
+  "headline": "Wixen damage boost",
+  "title": "Wixen | Fire Attack Boost For You | Palworld Guide",
+  "video_script": "Want a cheap damage boost? Wixen has a partner skill called Lord Fox. When you activate it, your attacks gain the Fire element and attack goes up by thirty to fifty percent. At your base it also does Kindling level three and Handiwork level three. Will you try Wixen in your party? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:19",
+      "label": "Wixen"
+    },
+    {
+      "image": "pal:Wixen",
+      "fact": "Lord Fox",
+      "sub": "Fire element attacks"
+    },
+    {
+      "image": "steam:1623730:20",
+      "fact": "Attack Up",
+      "sub": "30 to 50 percent"
+    },
+    {
+      "image": "pal:Wixen",
+      "fact": "Kindling Level 3",
+      "sub": "Handiwork Level 3"
+    }
+  ],
+  "description": "Wixen in Palworld 1.0 boosts your attack by thirty to fifty percent and adds Fire to your attacks with its partner skill.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Wixen",
+    "Wixen partner skill",
+    "Palworld fire",
+    "Palworld kindling",
+    "Palworld 1.0",
+    "Palworld guide"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "aniimo-team-building-guide",
+  "category": "gaming",
+  "order": 51,
+  "series": "aniimo",
+  "title": "Aniimo Team Building Guide | Best Teams For Every Stage | Roles and Elements | Aniimo Guide",
+  "description": "How to build a strong Aniimo team of four: the five roles, the damage multipliers, and example teams for the early game, Dark, Lightning, Water, Grass and Fire, with their strengths and weak spots.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoTeams",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo team building",
+    "Aniimo best team",
+    "Aniimo roles",
+    "Aniimo Breaker",
+    "Aniimo healer",
+    "Aniimo Dark team",
+    "Aniimo Lightning team",
+    "Aniimo Water team",
+    "Aniimo guide"
+  ],
+  "thumbnail": {
+    "image": "steam:4126040:8",
+    "text": "BUILD THE BEST TEAM"
+  },
+  "sections": [
+    {
+      "heading": "Why your team matters",
+      "script": "You can own forty powerful Aniimo and still lose a boss fight, because Aniimo is not won by raw power alone. It is won by a team where every slot has a job. In this video we build teams from scratch. We look at the five roles, the damage multipliers, and then walk through example teams for the early game, and for Dark, Lightning, Water, Grass and Fire. We will not repeat our top ten list or our full element chart, so check those videos if you want the details. Here, the focus is simple. How do four creatures work together? A quick warning first. These team guides were written in September and October, and several of them are based on game data or early access. So treat every pick as a strong suggestion, not a law, and always check your own roster.",
+      "images": ["steam:4126040:8", "steam:4126040:1", "steam:4126040:2"]
+    },
+    {
+      "heading": "The five roles",
+      "script": "Every Aniimo has a role, and guides agree on five of them. The damage dealer is your main source of damage. The Breaker cracks the enemy's shield or break bar, which staggers it and opens a window for big hits. The Healer restores health when your team takes damage. The Support adds buffs, marks and other helpful effects, like lowering enemy resistance. And the Regen slowly restores health and energy over time, which keeps your skills flowing in long fights. The roles are easy to remember. Break the enemy, hit it hard while it is open, then heal, buff and recover so you can do it again. When you pick a new creature, ask one question first. Which job does it do for my team?",
+      "images": ["steam:4126040:3", "steam:4126040:4", "steam:4126040:5"]
+    },
+    {
+      "heading": "Four slots, five roles",
+      "script": "Your party holds up to four Aniimo, and you swap between them during battle. That means you will always leave one role out, so choose carefully. Guides give almost the same recipe. Pick a main damage dealer first, because it decides what you hit hard. Add a Breaker to create openings. Then add one sustain slot, either a Healer or a Regen. The fourth slot is your flex slot. Use it for whatever your team is missing, whether that is a Support, extra elemental coverage, or a second sustain. One guide also suggests you upgrade your main team first, instead of spreading your resources across every creature you own. That advice saves a lot of time and materials, and it is easy to forget.",
+      "images": ["steam:4126040:6", "steam:4126040:7", "steam:4126040:9"]
+    },
+    {
+      "heading": "Elements and shared weaknesses",
+      "script": "Elements matter just as much as roles. Aniimo has nine elements and only three damage multipliers. A weakness hits for one point six times, a neutral hit does normal damage, and a resisted hit deals only about sixty two percent. There are no immunities, so every attack still does something. Here is why this matters for teams. If all four of your creatures share one weakness, a single enemy element can punish the whole party. A mixed team covers its own holes, because a teammate that resists that element can take the hit. A mono element team is simpler to plan, and it can be great when you have already scouted the boss. But for open world play, mixed teams are the safer choice. Before a boss, check its element and bring attackers that hit it hard.",
+      "images": ["steam:4126040:10", "steam:4126040:11", "steam:4126040:12"]
+    },
+    {
+      "heading": "The early game team",
+      "script": "At the start, the easiest team is built around your starter. Two guides name Helion and Lunara as the damage options. Helion fights up close, and Lunara attacks from range, so pick whichever feels better. Glacy shows up as the healer in several guides, and it is one of the easiest ways to keep your party alive while you learn the game. Add Turbo as a Support and leave the last slot open. That flex slot is where you place whatever the quest or puzzle needs. It is a boring team on paper, but boring is good. It covers damage, healing and buffs, and it handles quests, captures and early challenges without much fuss. You can upgrade it later, once you know your favorite style of play.",
+      "images": ["steam:4126040:13", "steam:4126040:14", "steam:4126040:15"]
+    },
+    {
+      "heading": "The Dark team",
+      "script": "Dark is a favorite for burst damage. Three guides agree on the core of this team. Rookey is the Breaker that opens the fight. Fragrancier is the Support that raises your team's Dark damage. And Stellarys is the damage dealer that does the heavy hitting once the enemy is staggered. The fourth slot depends on the guide. Two of them pick Witchin, which provides Regen and helps the team last longer. Another picks Hexxin, who adds extra buffs. The plan is easy to follow. Break first, apply your buffs, then switch to Stellarys and deliver the damage. One guide calls Dark the element to bring against bosses, and another says you can build it early, because Fragrancier and Stellarys are available early in the game.",
+      "images": ["steam:4126040:16", "steam:4126040:17", "steam:4126040:18"]
+    },
+    {
+      "heading": "The Lightning team",
+      "script": "If you love speed, Lightning is for you. The core of this team is also confirmed by several guides. Blazen opens the fight by breaking the enemy. Luminelle follows up as a Support who boosts your damage. Then Fulmintis steps in as the main damage dealer and finishes the job during the break window. A fourth member, like Turbo, adds energy support. Here is the catch. This version has no dedicated healer, and two guides warn about it. If you cannot end the fight before your buffs run out, you are in trouble. A safer version replaces the fourth slot with Glacy for healing, or adds a Regen partner. So use the fast version for quick fights and the safer version when you want a longer, calmer battle.",
+      "images": ["steam:4126040:19", "steam:4126040:20", "steam:4126040:8"]
+    },
+    {
+      "heading": "The Water team",
+      "script": "For a balanced team in the later game, look at Water. Two guides agree on the core. Sherro is the damage dealer. Panpanta is the Breaker. And Piopiota is the Support. One thing to know is that the Popota you evolve decides whether it becomes Panpanta or Piopiota, so you will need to raise two of them. The fourth slot is where guides split a little. Some choose Erlath for Regen, and others choose Glacy for healing. Both are reasonable, so pick the one that matches your play style. Water teams are popular because they mix offense and defense, which makes them a safe pick when you are not sure what the next fight will bring. If the Lightning team feels risky, this one is the calm alternative.",
+      "images": ["steam:4126040:1", "steam:4126040:2", "steam:4126040:3"]
+    },
+    {
+      "heading": "The Grass and Fire teams",
+      "script": "Two more teams are worth a look. The Grass team is built around Thornblade, the main damage dealer. Melloblum supports it, and Somniwing provides Regen. For the healer, two guides pick different options, Glameep or Glacy, so choose either. It is a safe team for long fights. The Fire team uses Magmarex as the Breaker, and Infergon as the main damage dealer. Magmarex can even be picked as one of your free Prismana rewards. Glacy can heal, and guides add either Flamerion or Flameruff for support and energy. Here is the weakness. Fire is weak to Water and Earth, so a team full of Fire creatures can be shut down by those elements. If you bring a Fire team, scout the boss first.",
+      "images": ["steam:4126040:4", "steam:4126040:5", "steam:4126040:6"]
+    },
+    {
+      "heading": "Simple rules to remember",
+      "script": "Let us wrap up with a short checklist. First, choose your main damage dealer and build around it. Second, bring a Breaker, because a staggered enemy takes much more damage. Third, keep at least one sustain slot, a Healer or a Regen, unless you are sure you can win fast. Fourth, match your Support to your damage dealer, so its buffs actually help. Fifth, look at the enemy before every big fight and swap in creatures that hit its weakness. And finally, remember that your team can change. Many players keep two or three favorite teams and swap between them, depending on whether they are exploring, farming or facing a boss. You do not need the strongest creatures on every slot. You need a team that works together.",
+      "images": ["steam:4126040:7", "steam:4126040:9", "steam:4126040:10"]
+    },
+    {
+      "heading": "What is your dream team",
+      "script": "That is our guide to building a team in Aniimo. Remember the formula. Four slots, five roles, one main damage dealer, a Breaker, some sustain, and a flex slot that covers your weak spots. Then try a team from this video, like Dark, Lightning, Water, Grass or Fire, and adjust it to your own roster. Now it is your turn. Which four Aniimo are on your team right now, and which role are you still missing? Tell us in the comments, and your pick might help another trainer. If this video helped you, please like it and subscribe to HarryBeast Gaming for more Aniimo guides. See you in the next one.",
+      "images": ["steam:4126040:11", "steam:4126040:12", "steam:4126040:13"]
+    }
+  ]
+}

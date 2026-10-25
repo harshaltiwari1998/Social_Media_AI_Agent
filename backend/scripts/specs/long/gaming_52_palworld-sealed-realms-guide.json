@@ -1,0 +1,84 @@
+{
+  "id": "palworld-sealed-realms-guide",
+  "category": "gaming",
+  "order": 52,
+  "series": "palworld",
+  "title": "Palworld Sealed Realms Guide | Alpha Pal Boss Arenas From Level 15 To 66 | Palworld Guide",
+  "description": "A Palworld 1.0 guide to Sealed Realms: single room Alpha Pal arenas, boss levels from fifteen to sixty six, the one hour respawn, Pal Bounty Tokens and which bosses to fight first.",
+  "hashtags": [
+    "Palworld",
+    "PalworldGuide",
+    "SealedRealms"
+  ],
+  "tags": [
+    "Palworld Sealed Realms",
+    "Palworld 1.0",
+    "Palworld Alpha Pals",
+    "Palworld Bounty Token",
+    "Palworld Terraria",
+    "Palworld bosses",
+    "Palworld Lunaris",
+    "Palworld guide"
+  ],
+  "thumbnail": {
+    "image": "pal:Lunaris",
+    "text": "PALWORLD SEALED REALMS EXPLAINED"
+  },
+  "sections": [
+    {
+      "heading": "Secret boss arenas",
+      "script": "Palworld has boss fights that many players walk right past. They are called Sealed Realms, and each one is a hidden arena with one Alpha Pal waiting inside. Win, and you can try to catch the boss itself. In this guide we cover how Sealed Realms work, how they differ from tower bosses, the one hour respawn trick, the Pal Bounty Tokens, and a level by level look at the bosses you will meet. A quick note before we start. Realm names and counts differ between guides, and the game changed in version one point zero, so we will keep to the facts that several sources agree on. Check the in game map for the exact entrance. Ready? Let us open the first seal.",
+      "images": ["pal:Lunaris", "steam:1623730:1", "steam:1623730:2"]
+    },
+    {
+      "heading": "What a Sealed Realm is",
+      "script": "Sources describe a Sealed Realm as a special dungeon, usually one large room, that holds a single Alpha Pal. Each boss is fixed at the same level, and it does not scale to your own level. That is very different from the tower bosses, which are trainers fighting on a timer and guarding your story progress. It is also different from the Alpha Pals that stand in the open world with no entrance at all. Sealed Realms sit between those two ideas. They are optional, they are spread across the map, and the level of the boss is written into the realm. In version one point zero, the outside of a realm also changes with the strength of the boss inside, and two new looks were added. So a realm's appearance gives you a hint about how hard it will be.",
+      "images": ["steam:1623730:3", "pal:Penking", "pal:Smokie"]
+    },
+    {
+      "heading": "The one hour respawn",
+      "script": "Here is the part players love. After you defeat a Sealed Realm boss, it comes back after one hour. The wiki says sleeping can speed up that wait, and other guides say the same thing. That makes realms a very reliable place to farm a specific Alpha. A popular routine is to clear a realm, sleep in your bed, and clear it again. Two details to remember. One guide says the hour is for single player worlds, and that dedicated servers can take longer. And the respawn is per realm, so clearing one does not reset the others. Because the boss always has the same level, you also know exactly what you are walking into. That makes realms a good way to farm materials, experience and a Pal you want more than once.",
+      "images": ["steam:1623730:4", "steam:1623730:5", "pal:Verdash"]
+    },
+    {
+      "heading": "Pal Bounty Tokens",
+      "script": "Now for the gate. The wiki says some Sealed Realms cannot be entered until you hold certain Pal Bounty Tokens. A token is a key item. You get one the first time you defeat a specific Alpha Pal on the map, and only the first time. Guides also agree that each token gives your party a small permanent boost to one element. So hunting Alphas is useful twice. You unlock harder content, and your fighters hit a little harder too. The wiki does not list which token opens which realm, so I will not guess. The practical advice is simple. If a realm entrance is closed, go and defeat nearby Alpha Pals, then come back. The game uses these tokens to make sure you beat easier bosses before the harder ones.",
+      "images": ["steam:1623730:6", "pal:Foxparks Cryst", "pal:Nitemary"]
+    },
+    {
+      "heading": "The four level fifteen openers",
+      "script": "The easiest realms hold four level fifteen bosses. They are Penking, Arsox, Foxcicle and Foxparks Cryst, and the wiki, the interactive maps and the Pal databases all agree on those levels. Their names also hint at their elements. Arsox is a Fire Pal, so bring Water. Foxcicle and Foxparks Cryst are Ice, so bring Fire. Penking is Water and Ice, which means Fire or Electric Pals are the best counters. Level fifteen is gentle, so these are great trial runs. Guides pick them as the gentlest realms to start with. Bring a few spheres and weaken the boss before you throw, because catching an Alpha works like catching any other Pal, and its odds depend on your sphere and its remaining health.",
+      "images": ["pal:Penking", "pal:Arsox", "pal:Foxcicle"]
+    },
+    {
+      "heading": "Levels twenty three to thirty",
+      "script": "Next comes a cluster of mid level bosses. Caprity Noct waits at level twenty three, Bushi at twenty five, Vaelet at twenty seven, Wixen at twenty eight and Blazehowl at thirty. Do not trust the realm name to tell you what is inside. A few sources use different names for the same entrance, and many names say nothing about the species. Instead, read the boss on the map marker, then build your counter team. Check each boss's element before you go, and pack a team that hits it where it is weak. These fights give strong experience, and they are a good test of whether your team is ready for the harder tower bosses.",
+      "images": ["pal:Caprity Noct", "pal:Bushi", "pal:Blazehowl"]
+    },
+    {
+      "heading": "Lunaris, Verdash and Sibelyx",
+      "script": "Things get serious at level thirty five. Lunaris and Verdash both sit at level thirty five, and Sibelyx follows at level forty. Each of these realms gives you a repeatable way to meet its boss, which is handy when you want a second copy of a Pal. At this point, long fights can wear down your stamina and your supplies, so bring healing items and a team with several elements. Remember that the boss is an Alpha with bonus health, so a mismatched team can drag the fight out. If you find yourself losing, step back, level up, and return later. The boss will not scale up while you wait.",
+      "images": ["pal:Lunaris", "pal:Verdash", "pal:Sibelyx"]
+    },
+    {
+      "heading": "The Terraria realm",
+      "script": "One realm is a special case. The Sealed Realm of Terraria came with the crossover update, and the wiki describes it as an entire dungeon with Terraria themed Pals and items. Its boss is the Eye of Cthulhu, and the wiki and the maps list it at level forty five. Other guides mention weapons and schematics that you can earn from the dungeon, but they do not agree on every reward, so check the in game chests for yourself. What matters here is the structure. Most Sealed Realms are one room and one boss. Terraria is a full dungeon, so bring more supplies than you would for a normal realm. It is a fun detour if you have some free time, and it is also a good reminder that Palworld updates keep adding new places to explore.",
+      "images": ["steam:1623730:7", "steam:1623730:8", "steam:1623730:9"]
+    },
+    {
+      "heading": "The level sixty realms",
+      "script": "The final group is meant for the endgame. Several sources list Smokie, Nitemary and Neptilius at level sixty. Prunelia follows at level sixty three. And the highest boss that guides list is Wistella, at level sixty six. Many of these sit far from the starting area, and the exact count of realms differs between guides, anywhere from seventeen to nineteen, so use the in game map rather than a fixed list. At these levels, you want endgame gear, strong healing, and a team built around the boss's weakness. These bosses are tougher than most regular tower fights, since they are Alpha Pals with high health. But the reward is a rare catch and a long list of materials. Treat them as a late goal, not a first stop.",
+      "images": ["pal:Smokie", "pal:Neptilius", "pal:Prunelia"]
+    },
+    {
+      "heading": "Your realm checklist",
+      "script": "Here is a simple checklist for Sealed Realms. One, open the map and read the boss and level on the marker, not just the realm name. Two, start with the four level fifteen realms and work upward. Three, if an entrance is closed, hunt nearby Alpha Pals for their Bounty Tokens. Four, bring the counter element, healing items and a lot of spheres. Five, weaken before you throw, and aim for the boss when its health is low. Six, use the one hour respawn and a bed to farm what you need. And seven, do not rush the level sixty realms until your gear is ready. Follow those steps, and Sealed Realms become one of the best ways to grow your team in Palworld.",
+      "images": ["steam:1623730:10", "steam:1623730:11", "steam:1623730:12"]
+    },
+    {
+      "heading": "Which realm is your favorite",
+      "script": "That is our Palworld Sealed Realms guide, from the level fifteen openers to the level sixty six final boss. Remember the big ideas. One Alpha Pal in each realm, a fixed level, an hour of respawn, and Bounty Tokens that open the harder doors. Now we want to hear from you. Which Sealed Realm boss gave you the hardest fight, and which Pal did you finally manage to catch? Tell us in the comments. If this guide helped you, please like the video and subscribe to HarryBeast Gaming for more Palworld guides. Thanks for watching, and happy hunting.",
+      "images": ["steam:1623730:13", "steam:1623730:14", "pal:Wistella"]
+    }
+  ]
+}

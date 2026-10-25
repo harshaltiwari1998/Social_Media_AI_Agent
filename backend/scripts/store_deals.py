@@ -2,7 +2,7 @@
 
 Every run checks:
 - Epic Games Store (country IN): games free right now (and until when) + next week's free games
-  (store-site-backend-static.epicgames.com/freeGamesPromotions).
+  (store-site-backend-static-ipv4.ak.epicgames.com/freeGamesPromotions).
 - Steam India (INR): free-to-keep promos (100% off), the Daily Deal, Weekend / Midweek deals, live sale
   events + franchise sales (front-page spotlights), the front-page specials and the top-selling discounted
   games (store search). Every Steam price is re-read from appdetails/price_overview, and game facts (about
@@ -36,7 +36,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from scripts.game_videos import _get_json  # noqa: E402
 
-EPIC_API = "https://store-site-backend-static.epicgames.com/freeGamesPromotions"
+EPIC_API = "https://store-site-backend-static-ipv4.ak.epicgames.com/freeGamesPromotions"
 STEAM_FEATURED = "https://store.steampowered.com/api/featuredcategories"
 STEAM_SEARCH = "https://store.steampowered.com/search/results/"
 STEAM_DETAILS = "https://store.steampowered.com/api/appdetails"

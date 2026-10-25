@@ -1431,8 +1431,8 @@
   "assassins-creed-franchise-history": {
     "spec": "scripts/specs/long/gaming_29_assassins-creed-franchise-history.json",
     "kind": "long",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-efb4dfaf.mp4",
-    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-efb4dfaf-thumb.jpg",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-dc394bc1.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-dc394bc1-thumb.jpg",
     "chapters": "0:00 The creed that conquered history\n0:43 From Prince of Persia to Assassin's Creed\n1:32 The Ezio trilogy\n2:15 Revolution and the pirate years\n3:01 Unity, Rogue and Syndicate\n3:51 Origins and the RPG revolution\n4:39 Odyssey and Valhalla\n5:23 Mirage goes back to the roots\n6:05 Shadows arrives in Japan\n6:52 Black Flag comes back\n7:40 Which Assassin's Creed is your favorite"
   },
   "prabhas-safar": {
@@ -2567,7 +2567,7 @@
   },
   "professor-layton-new-world-of-steam": {
     "spec": "scripts/specs/games/new_21_professor-layton-new-world-of-steam.json",
-    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-b89ee82c.mp4"
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-eb43e6dd.mp4"
   },
   "rayman-legends-retold": {
     "spec": "scripts/specs/games/new_20_rayman-legends-retold.json",
@@ -2635,19 +2635,19 @@
   },
   "sigma-box-office": {
     "spec": "scripts/specs/movies/movie_review_24_sigma-box-office.json",
-    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-5aa0eccb.mp4"
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e0122065.mp4"
   },
   "sense-and-sensibility-box-office": {
     "spec": "scripts/specs/movies/movie_review_22_sense-and-sensibility-box-office.json",
-    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-dbff6ef4.mp4"
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-23b8c3b5.mp4"
   },
   "whalefall-box-office": {
     "spec": "scripts/specs/movies/movie_review_21_whalefall-box-office.json",
-    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-9388fd48.mp4"
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e269dab8.mp4"
   },
   "street-fighter-box-office": {
     "spec": "scripts/specs/movies/movie_review_20_street-fighter-box-office.json",
-    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-bed6f740.mp4"
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-404616a2.mp4"
   },
   "reel-nakhrewaalii-30-october": {
     "spec": "scripts/specs/movies/reel_62_nakhrewaalii-30-october.json",
@@ -2728,8 +2728,8 @@
   "sanjay-leela-bhansali-safar": {
     "spec": "scripts/specs/long/movies_19_sanjay-leela-bhansali-safar.json",
     "kind": "long",
-    "video": "F:\\AI AGENT\\run_pa20\\videos\\long-c3285689.mp4",
-    "thumbnail": "F:\\AI AGENT\\run_pa20\\videos\\long-c3285689-thumb.jpg",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-4753012b.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-4753012b-thumb.jpg",
     "chapters": "0:00 भव्य सिनेमा के जादूगर\n0:36 बचपन और परिवार\n1:11 Vidhu Vinod Chopra के साथ शुरुआत\n1:44 Khamoshi और Hum Dil De Chuke Sanam\n2:20 Devdas: भव्यता की नई मिसाल\n2:55 Black: एक अलग तरह की कहानी\n3:33 Producer के तौर पर और Ram-Leela\n4:15 Bajirao Mastani: सपने का पूरा होना\n5:02 Padmaavat से Gangubai Kathiawadi तक\n5:45 Heeramandi और Love & War\n6:25 आपकी राय"
   },
   "palworld-sealed-realms-guide": {
@@ -2788,5 +2788,40 @@
   "reel-premada-oorali-100-crore": {
     "spec": "scripts/specs/movies/reel_61_premada-oorali-100-crore.json",
     "video": "F:\\AI AGENT\\run_pa20\\videos\\short-6e8cb81e.mp4"
+  },
+  "palworld-best-combat-pals-by-element": {
+    "spec": "scripts/specs/long/gaming_49_palworld-best-combat-pals-by-element.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-56bf1b3c.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-56bf1b3c-thumb.jpg",
+    "chapters": "0:00 Fighters, not workers\n0:51 Fire: Jormuntide Ignis\n1:38 Water and Grass\n2:24 Electric: Orserk\n3:05 Ice: Frostallion\n3:51 Ground: Anubis\n4:36 Dark: Necromus and Shadowbeak\n5:11 Dragon: Jetragon\n5:48 Neutral: Paladius\n6:25 Build your team"
+  },
+  "aniimo-how-to-get-tuckin": {
+    "spec": "scripts/specs/games/aniimo_25_aniimo-how-to-get-tuckin.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-dc16e7e4.mp4"
+  },
+  "aniimo-fulmintis-best-build": {
+    "spec": "scripts/specs/games/aniimo_26_aniimo-fulmintis-best-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f315f6f1.mp4"
+  },
+  "aniimo-lunara-best-build": {
+    "spec": "scripts/specs/games/aniimo_27_aniimo-lunara-best-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-d554c77f.mp4"
+  },
+  "aniimo-how-to-get-ignitis": {
+    "spec": "scripts/specs/games/aniimo_38_aniimo-how-to-get-ignitis.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5bd2522e.mp4"
+  },
+  "aniimo-alpha-blazen-evolve-bolty": {
+    "spec": "scripts/specs/games/aniimo_39_aniimo-alpha-blazen-evolve-bolty.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-affbb0bf.mp4"
+  },
+  "palworld-guide-technology-points": {
+    "spec": "scripts/specs/games/palguide_60_technology-points.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-44479473.mp4"
+  },
+  "palworld-guide-status-points-weight": {
+    "spec": "scripts/specs/games/palguide_61_status-points-weight.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-4532dc1d.mp4"
   }
 }

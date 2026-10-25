@@ -2528,5 +2528,236 @@
   "aniimo-how-to-get-rookey": {
     "spec": "scripts/specs/games/aniimo_49_aniimo-how-to-get-rookey.json",
     "video": "F:\\AI AGENT\\run_pa20\\videos\\short-d29ee65b.mp4"
+  },
+  "crash-bandicoot-1996": {
+    "spec": "scripts/specs/games/classic_30_crash-bandicoot-1996.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-82bdf3e0.mp4"
+  },
+  "half-life-1998": {
+    "spec": "scripts/specs/games/classic_29_half-life-1998.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-21d5c948.mp4"
+  },
+  "cod4-modern-warfare": {
+    "spec": "scripts/specs/games/classic_28_cod4-modern-warfare.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-bfc67453.mp4"
+  },
+  "gta-3": {
+    "spec": "scripts/specs/games/classic_27_gta-3.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-6da6e62b.mp4"
+  },
+  "doom-1993": {
+    "spec": "scripts/specs/games/classic_26_doom-1993.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-9890a7ee.mp4"
+  },
+  "super-mario-world": {
+    "spec": "scripts/specs/games/classic_25_super-mario-world.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-6f6095c5.mp4"
+  },
+  "monster-hunter-wilds-switch-2": {
+    "spec": "scripts/specs/games/new_24_monster-hunter-wilds-switch-2.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-183f9130.mp4"
+  },
+  "warhammer-survivors-launch": {
+    "spec": "scripts/specs/games/new_23_warhammer-survivors-launch.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-39a90226.mp4"
+  },
+  "stellar-blade-switch-2": {
+    "spec": "scripts/specs/games/new_22_stellar-blade-switch-2.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-b542faf0.mp4"
+  },
+  "professor-layton-new-world-of-steam": {
+    "spec": "scripts/specs/games/new_21_professor-layton-new-world-of-steam.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-b89ee82c.mp4"
+  },
+  "rayman-legends-retold": {
+    "spec": "scripts/specs/games/new_20_rayman-legends-retold.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-ce1c7f41.mp4"
+  },
+  "dragon-quest-monsters-withered-world": {
+    "spec": "scripts/specs/games/new_19_dragon-quest-monsters-withered-world.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-1708e1c1.mp4"
+  },
+  "palworld-guide-killamari": {
+    "spec": "scripts/specs/games/palguide_78_killamari.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-bb192c3c.mp4"
+  },
+  "palworld-guide-nitewing": {
+    "spec": "scripts/specs/games/palguide_77_nitewing.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-6dc03b98.mp4"
+  },
+  "palworld-guide-wixen": {
+    "spec": "scripts/specs/games/palguide_76_wixen.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-56cbd1be.mp4"
+  },
+  "palworld-guide-arsox": {
+    "spec": "scripts/specs/games/palguide_75_arsox.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-d14f45eb.mp4"
+  },
+  "palworld-guide-verdash": {
+    "spec": "scripts/specs/games/palguide_74_verdash.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-05d88a30.mp4"
+  },
+  "palworld-guide-turtacle": {
+    "spec": "scripts/specs/games/palguide_73_turtacle.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-ce2f6148.mp4"
+  },
+  "palworld-guide-eikthyrdeer": {
+    "spec": "scripts/specs/games/palguide_72_eikthyrdeer.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-acd467ca.mp4"
+  },
+  "palworld-guide-cryolinx": {
+    "spec": "scripts/specs/games/palguide_71_cryolinx.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-1c9ff18b.mp4"
+  },
+  "ebenezer-johnny-depp": {
+    "spec": "scripts/specs/movies/movie_new_28_ebenezer-johnny-depp.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-abda6112.mp4"
+  },
+  "wicker-india-release": {
+    "spec": "scripts/specs/movies/movie_new_27_wicker-india-release.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-aceea40b.mp4"
+  },
+  "angry-birds-movie-3": {
+    "spec": "scripts/specs/movies/movie_new_26_angry-birds-movie-3.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-21094b5b.mp4"
+  },
+  "3-monkeys": {
+    "spec": "scripts/specs/movies/movie_new_25_3-monkeys.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-17b3ad10.mp4"
+  },
+  "aakasamlo-oka-tara": {
+    "spec": "scripts/specs/movies/movie_new_24_aakasamlo-oka-tara.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-b96b9202.mp4"
+  },
+  "comrade-kalyan-box-office": {
+    "spec": "scripts/specs/movies/movie_review_25_comrade-kalyan-box-office.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-23401029.mp4"
+  },
+  "sigma-box-office": {
+    "spec": "scripts/specs/movies/movie_review_24_sigma-box-office.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-5aa0eccb.mp4"
+  },
+  "sense-and-sensibility-box-office": {
+    "spec": "scripts/specs/movies/movie_review_22_sense-and-sensibility-box-office.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-dbff6ef4.mp4"
+  },
+  "whalefall-box-office": {
+    "spec": "scripts/specs/movies/movie_review_21_whalefall-box-office.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-9388fd48.mp4"
+  },
+  "street-fighter-box-office": {
+    "spec": "scripts/specs/movies/movie_review_20_street-fighter-box-office.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-bed6f740.mp4"
+  },
+  "reel-nakhrewaalii-30-october": {
+    "spec": "scripts/specs/movies/reel_62_nakhrewaalii-30-october.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-09934ffd.mp4"
+  },
+  "reel-mr-india-facts": {
+    "spec": "scripts/specs/movies/reel_60_mr-india-facts.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-84178fdb.mp4"
+  },
+  "reel-kaho-naa-pyaar-hai-facts": {
+    "spec": "scripts/specs/movies/reel_59_kaho-naa-pyaar-hai-facts.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-51568af7.mp4"
+  },
+  "reel-kabhi-khushi-kabhie-gham-facts": {
+    "spec": "scripts/specs/movies/reel_53_kabhi-khushi-kabhie-gham-facts.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-773db219.mp4"
+  },
+  "reel-anand-facts": {
+    "spec": "scripts/specs/movies/reel_52_anand-facts.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-f01ab359.mp4"
+  },
+  "palworld-tower-bosses-guide": {
+    "spec": "scripts/specs/long/gaming_44_palworld-tower-bosses-guide.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\long-64ce1cfd.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_pa20\\videos\\long-64ce1cfd-thumb.jpg",
+    "chapters": "0:00 Nine towers, one goal\n0:39 Rules every fight shares\n1:25 Zoe and Lily, levels ten and twenty\n2:05 Axel and Marcus, levels thirty and forty\n2:48 Victor and Saya, levels fifty and fifty five\n3:27 Bjorn and Bastigor at Feybreak\n4:05 Auri and Shaolong in Sunreach\n4:50 Hard Mode\n5:27 Zenara and Astralym, level eighty\n6:06 Your tower plan"
+  },
+  "fortnite-explained": {
+    "spec": "scripts/specs/long/gaming_43_fortnite-explained.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\long-c9ea9920.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_pa20\\videos\\long-c9ea9920-thumb.jpg",
+    "chapters": "0:00 What is Fortnite\n0:40 A zombie game that changed course\n1:18 The birth of Battle Royale\n1:53 An explosive start\n2:33 How a match works\n3:37 Chapters and seasons\n4:21 Concerts and crossovers\n5:05 Creative and a platform\n5:54 OG, Reload and the comeback modes\n6:35 Fortnite today and your turn"
+  },
+  "metal-gear-franchise-history": {
+    "spec": "scripts/specs/long/gaming_42_metal-gear-franchise-history.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\long-a2f5342a.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_pa20\\videos\\long-a2f5342a-thumb.jpg",
+    "chapters": "0:00 Tactical espionage action\n0:40 The first Metal Gear\n1:21 Metal Gear 2 Solid Snake\n2:04 Metal Gear Solid\n2:50 Sons of Liberty\n3:31 Snake Eater\n4:11 Peace Walker and Rising\n4:50 The Phantom Pain\n5:32 Collections and a return\n6:20 Legacy and your say"
+  },
+  "red-dead-redemption-franchise-history": {
+    "spec": "scripts/specs/long/gaming_41_red-dead-redemption-franchise-history.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\long-5e94b7fe.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_pa20\\videos\\long-5e94b7fe-thumb.jpg",
+    "chapters": "0:00 Welcome to the Wild West\n0:38 Red Dead Revolver\n1:25 Red Dead Redemption\n2:10 Undead Nightmare and the DLC\n2:53 The long wait\n3:39 Red Dead Redemption 2\n4:20 Record breaking sales\n4:59 Red Dead Online\n5:41 Ports and remasters\n6:29 Legacy and what comes next\n7:10 Your favorite rider"
+  },
+  "most-anticipated-games-of-2027": {
+    "spec": "scripts/specs/long/gaming_40_most-anticipated-games-of-2027.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\long-a446ea75.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_pa20\\videos\\long-a446ea75-thumb.jpg",
+    "chapters": "0:00 Twenty twenty seven is loaded\n0:34 January: Stranger Than Heaven and Until Dawn Two\n1:12 February fourth: Metro twenty thirty nine\n1:49 February sixteenth: God of War Laufey\n2:29 February eighteenth: Persona Four Revival\n3:13 February twenty third: Fable\n3:50 March fourth: Wo Long Two\n4:24 April seventh: Exodus\n4:57 April eighth: Final Fantasy Seven Revelation\n5:34 Big expansions with a twenty twenty seven year\n6:08 Which one is your day one"
+  },
+  "aniimo-breeding-and-homeland-guide": {
+    "spec": "scripts/specs/long/gaming_39_aniimo-breeding-and-homeland-guide.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\long-0e314808.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_pa20\\videos\\long-0e314808-thumb.jpg",
+    "chapters": "0:00 Two systems that power your whole team\n0:39 Breeding means eggs\n1:17 Where eggs come from\n1:57 The Hatchinator\n2:33 How to hatch an egg\n3:06 Potential and egg types\n3:47 Aniipods that really matter\n4:24 Unlocking your Homeland\n5:01 Facilities and workers\n5:41 Food, rest and friends\n6:18 What is your egg luck"
+  },
+  "fallout-franchise-history": {
+    "spec": "scripts/specs/long/gaming_38_fallout-franchise-history.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\long-e18830cd.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_pa20\\videos\\long-e18830cd-thumb.jpg",
+    "chapters": "0:00 War never changes\n0:40 Where it all began\n1:18 A new home at Bethesda\n1:57 Fallout Three\n2:43 New Vegas\n3:25 Fallout Four and Fallout Shelter\n4:06 Fallout Seventy Six\n4:47 Fallout on Amazon\n5:23 July twenty twenty six: big news\n6:00 Thirty years of Fallout\n6:34 Which Fallout is your favorite"
+  },
+  "the-witcher-franchise-history": {
+    "spec": "scripts/specs/long/gaming_37_the-witcher-franchise-history.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\long-69af16bb.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_pa20\\videos\\long-69af16bb-thumb.jpg",
+    "chapters": "0:00 A monster hunter with white hair\n0:39 It started with a short story\n1:21 The first game in two thousand seven\n1:56 Assassins of Kings\n2:34 Wild Hunt changes everything\n3:11 Awards and two big expansions\n3:49 Selling like never before\n4:25 Geralt on Netflix\n5:04 The remaster is here\n5:45 What comes next\n6:22 Which Witcher story is your favorite"
+  },
+  "sanjay-leela-bhansali-safar": {
+    "spec": "scripts/specs/long/movies_19_sanjay-leela-bhansali-safar.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\long-c3285689.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_pa20\\videos\\long-c3285689-thumb.jpg",
+    "chapters": "0:00 भव्य सिनेमा के जादूगर\n0:36 बचपन और परिवार\n1:11 Vidhu Vinod Chopra के साथ शुरुआत\n1:44 Khamoshi और Hum Dil De Chuke Sanam\n2:20 Devdas: भव्यता की नई मिसाल\n2:55 Black: एक अलग तरह की कहानी\n3:33 Producer के तौर पर और Ram-Leela\n4:15 Bajirao Mastani: सपने का पूरा होना\n5:02 Padmaavat से Gangubai Kathiawadi तक\n5:45 Heeramandi और Love & War\n6:25 आपकी राय"
+  },
+  "palworld-sealed-realms-guide": {
+    "spec": "scripts/specs/long/gaming_52_palworld-sealed-realms-guide.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\long-a9fa3e8b.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_pa20\\videos\\long-a9fa3e8b-thumb.jpg",
+    "chapters": "0:00 Secret boss arenas\n0:42 What a Sealed Realm is\n1:26 The one hour respawn\n2:12 Pal Bounty Tokens\n2:59 The four level fifteen openers\n3:46 Levels twenty three to thirty\n4:23 Lunaris, Verdash and Sibelyx\n5:00 The Terraria realm\n5:45 The level sixty realms\n6:31 Your realm checklist\n7:13 Which realm is your favorite"
+  },
+  "palworld-element-weakness-chart-guide": {
+    "spec": "scripts/specs/long/gaming_50_palworld-element-weakness-chart-guide.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\long-ee966050.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_pa20\\videos\\long-ee966050-thumb.jpg",
+    "chapters": "0:00 Why elements win fights\n0:49 The main loop\n1:41 The second chain\n2:30 Flip it to find weaknesses\n3:18 Dual type Pals\n4:08 Same element bonus\n4:45 Early tower bosses\n5:19 Late tower bosses\n6:05 Build a flexible team\n6:41 Test yourself"
+  },
+  "aniimo-team-building-guide": {
+    "spec": "scripts/specs/long/gaming_51_aniimo-team-building-guide.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\long-d4fbb462.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_pa20\\videos\\long-d4fbb462-thumb.jpg",
+    "chapters": "0:00 Why your team matters\n0:49 The five roles\n1:34 Four slots, five roles\n2:19 Elements and shared weaknesses\n3:08 The early game team\n3:52 The Dark team\n4:39 The Lightning team\n5:26 The Water team\n6:12 The Grass and Fire teams\n6:58 Simple rules to remember\n7:45 What is your dream team"
+  },
+  "aniimo-beginner-to-endgame-roadmap": {
+    "spec": "scripts/specs/long/gaming_47_aniimo-beginner-to-endgame-roadmap.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\long-6a9be098.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_pa20\\videos\\long-6a9be098-thumb.jpg",
+    "chapters": "0:00 The big picture\n0:51 Phase one: story and the first cap\n1:36 Phase two: promotions\n2:13 Phase three: build a real team\n3:06 Phase four: Alpha and Omega bosses\n3:51 Phase five: collect the world\n4:33 Phase six: Holo-Battle Interlink\n5:20 Phase seven: Egg Heist Chaos Mode\n5:54 Do not miss the Irisalis event\n6:30 A weekly routine\n7:07 Where are you on the roadmap"
   }
 }

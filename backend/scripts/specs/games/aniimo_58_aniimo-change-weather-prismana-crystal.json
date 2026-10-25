@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-change-weather-prismana-crystal",
+  "slot": "aniimo",
+  "order": 58,
+  "headline": "Change the Weather",
+  "title": "How to Change Weather in Aniimo | Prismana Crystal at the Branch | Aniimo Guide",
+  "video_script": "Need special weather for a rare Aniimo? Open the map and select the Breezy Plains Branch. Choose Infuse Energy, then Change Weather, and offer a Prismana Crystal to trigger a Prismana Flow. For now, only Prismana Flow can be picked, not rain or snow. Also, check each region's weather forecast on the map first. What Aniimo are you hunting? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:14",
+      "label": "Change the Weather"
+    },
+    {
+      "image": "steam:4126040:15",
+      "fact": "Breezy Plains Branch",
+      "sub": "Open it from the map"
+    },
+    {
+      "image": "steam:4126040:16",
+      "fact": "Infuse Energy",
+      "sub": "Then pick Change Weather"
+    },
+    {
+      "image": "steam:4126040:17",
+      "fact": "Prismana Crystal",
+      "sub": "Triggers Prismana Flow"
+    }
+  ],
+  "description": "In Aniimo you can change the weather at the Breezy Plains Branch using Infuse Energy, Change Weather and a Prismana Crystal; currently only Prismana Flow is selectable.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Aniimo weather",
+    "Prismana Flow",
+    "Prismana Crystal"
+  ]
+}

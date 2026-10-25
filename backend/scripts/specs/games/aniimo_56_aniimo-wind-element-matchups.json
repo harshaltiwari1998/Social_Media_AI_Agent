@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-wind-element-matchups",
+  "slot": "aniimo",
+  "order": 56,
+  "headline": "Wind Element Matchups",
+  "title": "Aniimo Wind Element Explained | What Wind Beats and Fears | Aniimo Guide",
+  "video_script": "Wind attacks deal super effective damage to Grass and Dark. Against Lightning and other Wind Aniimo, Wind attacks are resisted. In return, Lightning and Light hit Wind hard, so keep your Wind Aniimo away from them. A super effective hit does one point six times damage. Wind is great against Dark and Grass teams. Which Wind Aniimo is your favorite? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:1",
+      "label": "Aniimo Wind Element"
+    },
+    {
+      "image": "steam:4126040:6",
+      "fact": "Strong vs Grass",
+      "sub": "And Dark too"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Weak to Lightning",
+      "sub": "Light hits Wind hard too"
+    },
+    {
+      "image": "steam:4126040:12",
+      "fact": "Resisted by Wind",
+      "sub": "Lightning resists it too"
+    }
+  ],
+  "description": "Aniimo Wind element matchups: Wind is strong against Grass and Dark, resisted by Lightning and Wind, and takes extra damage from Lightning and Light.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Wind element",
+    "Aniimo element chart",
+    "Aniimo type chart"
+  ]
+}

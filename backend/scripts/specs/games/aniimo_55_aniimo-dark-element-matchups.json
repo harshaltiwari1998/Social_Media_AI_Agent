@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-dark-element-matchups",
+  "slot": "aniimo",
+  "order": 55,
+  "headline": "Dark Element Matchups",
+  "title": "Aniimo Dark Element Explained | What Dark Beats and Fears | Aniimo Guide",
+  "video_script": "Dark attacks hit Grass, Lightning and Light for super effective damage, which is one more target than most elements. Light and Wind hit Dark hard in return. Dark also deals reduced damage to Water and Wind. Super effective hits do one point six times damage, so pick your Dark target wisely. Bring Dark against Light teams and keep Water or Wind away. Do you run Dark? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:0",
+      "label": "Aniimo Dark Element"
+    },
+    {
+      "image": "steam:4126040:5",
+      "fact": "Strong vs Grass",
+      "sub": "Lightning and Light too"
+    },
+    {
+      "image": "steam:4126040:2",
+      "fact": "Weak to Light and Wind",
+      "sub": "They hit Dark hard"
+    },
+    {
+      "image": "steam:4126040:7",
+      "fact": "Resisted by Water",
+      "sub": "And by Wind"
+    }
+  ],
+  "description": "Aniimo Dark element matchups: Dark is strong against Grass, Lightning and Light, takes extra damage from Light and Wind, and is resisted by Water and Wind.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Dark element",
+    "Aniimo element chart",
+    "Aniimo type chart"
+  ]
+}

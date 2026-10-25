@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-ice-element-matchups",
+  "slot": "aniimo",
+  "order": 57,
+  "headline": "Ice Element Matchups",
+  "title": "Aniimo Ice Element Explained | What Ice Beats and Fears | Aniimo Guide",
+  "video_script": "Ice attacks deal super effective damage to Water and Lightning. Fire and Earth Aniimo hit Ice hard, so protect your Ice Aniimo from them. Ice is also resisted by other Ice Aniimo, and by Fire and Earth. A super effective hit does one point six times damage. Use Ice against Water teams and swap out before Fire arrives. Do you run an Ice team? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:3",
+      "label": "Aniimo Ice Element"
+    },
+    {
+      "image": "steam:4126040:10",
+      "fact": "Strong vs Water",
+      "sub": "And Lightning too"
+    },
+    {
+      "image": "steam:4126040:11",
+      "fact": "Weak to Fire",
+      "sub": "Earth hits Ice hard too"
+    },
+    {
+      "image": "steam:4126040:13",
+      "fact": "Swap Before Fire",
+      "sub": "Protect your Ice Aniimo"
+    }
+  ],
+  "description": "Aniimo Ice element matchups: Ice is strong against Water and Lightning and takes extra damage from Fire and Earth.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Ice element",
+    "Aniimo element chart",
+    "Aniimo type chart"
+  ]
+}

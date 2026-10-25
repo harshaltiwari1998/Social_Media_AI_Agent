@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-how-to-get-turbo",
+  "slot": "aniimo",
+  "order": 51,
+  "headline": "How to Get Turbo",
+  "title": "How to Get Turbo in Aniimo | Nimbi Level 21 and Alpha Turbo | Aniimo Guide",
+  "video_script": "Turbo is the final form of Nimbi, a Wind support Aniimo from Nimbus Fields. First, raise your Nimbi to level twenty one. Next, defeat an Alpha Turbo in Nimbus Fields, which only needs to be done once. Then evolve your Nimbi to unlock Turbo. A Rainstorm form of Turbo also appears in Nimbus Fields during rain or storms. Are you team Turbo? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:23",
+      "label": "How to Get Turbo"
+    },
+    {
+      "image": "steam:4126040:2",
+      "fact": "Nimbus Fields",
+      "sub": "Nimbi and Turbo habitat"
+    },
+    {
+      "image": "steam:4126040:7",
+      "fact": "Nimbi Level 21",
+      "sub": "Required to evolve"
+    },
+    {
+      "image": "steam:4126040:11",
+      "fact": "Defeat Alpha Turbo",
+      "sub": "Once unlocks the evolution"
+    }
+  ],
+  "description": "Turbo in Aniimo evolves from Nimbi at level 21 after you defeat an Alpha Turbo in Nimbus Fields.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Turbo",
+    "Nimbi",
+    "How to Get Turbo"
+  ]
+}

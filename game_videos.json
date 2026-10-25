@@ -2759,5 +2759,34 @@
     "video": "F:\\AI AGENT\\run_pa20\\videos\\long-6a9be098.mp4",
     "thumbnail": "F:\\AI AGENT\\run_pa20\\videos\\long-6a9be098-thumb.jpg",
     "chapters": "0:00 The big picture\n0:51 Phase one: story and the first cap\n1:36 Phase two: promotions\n2:13 Phase three: build a real team\n3:06 Phase four: Alpha and Omega bosses\n3:51 Phase five: collect the world\n4:33 Phase six: Holo-Battle Interlink\n5:20 Phase seven: Egg Heist Chaos Mode\n5:54 Do not miss the Irisalis event\n6:30 A weekly routine\n7:07 Where are you on the roadmap"
+  },
+  "ranbir-kapoor-safar": {
+    "spec": "scripts/specs/long/movies_20_ranbir-kapoor-safar.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\long-6693ffb3.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_pa20\\videos\\long-6693ffb3-thumb.jpg",
+    "chapters": "0:00 कपूर खानदान का सितारा\n0:37 जन्म और परिवार\n1:17 Assistant director से Saawariya तक\n1:54 Wake Up Sid और नई पहचान\n2:37 Rockstar और Barfi!\n3:16 Yeh Jawaani Hai Deewani\n3:51 Sanju: सबसे बड़ी चुनौती\n4:28 Brahmastra और Animal\n5:08 अब Ramayana का इंतज़ार\n5:47 Love & War और आगे\n6:20 आपकी राय"
+  },
+  "allu-arjun-safar": {
+    "spec": "scripts/specs/long/movies_21_allu-arjun-safar.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\long-0cd9c61b.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_pa20\\videos\\long-0cd9c61b-thumb.jpg",
+    "chapters": "0:00 Pushpa Raj का सफर\n0:44 परिवार और शुरुआत\n1:20 Gangotri से Arya तक\n1:57 Stylish Star का दौर\n2:32 Ala Vaikunthapurramuloo\n3:09 Pushpa: The Rise\n3:45 National Award की जीत\n4:21 Pushpa 2: The Rule\n5:02 पुरस्कार और सम्मान\n5:39 अगली बड़ी film\n6:20 आपकी राय"
+  },
+  "yash-safar": {
+    "spec": "scripts/specs/long/movies_22_yash-safar.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\long-1c89a651.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_pa20\\videos\\long-1c89a651-thumb.jpg",
+    "chapters": "0:00 Rocky Bhai की कहानी\n0:36 शुरुआती ज़िंदगी\n1:29 फिल्मों में पहला कदम\n2:04 Kannada सिनेमा के स्टार\n2:46 शादी और परिवार\n3:24 KGF Chapter 1\n4:10 KGF Chapter 2 का तूफान\n4:56 पुरस्कार और पहचान\n5:37 Ramayana में Ravana\n6:18 आपकी राय"
+  },
+  "premada-oorali-box-office": {
+    "spec": "scripts/specs/movies/movie_review_23_premada-oorali-box-office.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-5e72b971.mp4"
+  },
+  "reel-premada-oorali-100-crore": {
+    "spec": "scripts/specs/movies/reel_61_premada-oorali-100-crore.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-6e8cb81e.mp4"
   }
 }

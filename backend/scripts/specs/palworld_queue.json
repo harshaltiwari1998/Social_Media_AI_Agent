@@ -2060,5 +2060,247 @@
         "Reptyro"
       ]
     ]
+  },
+  {
+    "parents": [
+      "Digtoise",
+      "Prixter"
+    ],
+    "child": "Bakemi",
+    "unique": false,
+    "combos": [
+      [
+        "Digtoise",
+        "Prixter"
+      ],
+      [
+        "Blazehowl",
+        "Petallia"
+      ],
+      [
+        "Eikthyrdeer",
+        "Selyne"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Mammorest",
+      "Vaelet"
+    ],
+    "child": "Leafan",
+    "unique": false,
+    "combos": [
+      [
+        "Mammorest",
+        "Vaelet"
+      ],
+      [
+        "Pyrin",
+        "Wumpo"
+      ],
+      [
+        "Anubis",
+        "Tombat"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Anubis",
+      "Arsox"
+    ],
+    "child": "Dynamoff",
+    "unique": false,
+    "combos": [
+      [
+        "Anubis",
+        "Arsox"
+      ],
+      [
+        "Fenglope",
+        "Wumpo"
+      ],
+      [
+        "Selyne",
+        "Surfent"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Blazamut",
+      "Cawgnito"
+    ],
+    "child": "Prunelia",
+    "unique": false,
+    "combos": [
+      [
+        "Blazamut",
+        "Cawgnito"
+      ],
+      [
+        "Petallia",
+        "Reptyro"
+      ],
+      [
+        "Faleris",
+        "Univolt"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Petallia",
+      "Selyne"
+    ],
+    "child": "Cryolinx",
+    "unique": false,
+    "combos": [
+      [
+        "Petallia",
+        "Selyne"
+      ],
+      [
+        "Jormuntide",
+        "Vaelet"
+      ],
+      [
+        "Blazamut",
+        "Kitsun"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Menasting",
+      "Sootseer"
+    ],
+    "child": "Ragnahawk",
+    "unique": false,
+    "combos": [
+      [
+        "Menasting",
+        "Sootseer"
+      ],
+      [
+        "Beakon",
+        "Blazamut"
+      ],
+      [
+        "Jormuntide",
+        "Prixter"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Kitsun",
+      "Petallia"
+    ],
+    "child": "Carnibora",
+    "unique": false,
+    "combos": [
+      [
+        "Kitsun",
+        "Petallia"
+      ],
+      [
+        "Mau",
+        "Selyne"
+      ],
+      [
+        "Helzephyr",
+        "Univolt"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Broncherry",
+      "Pyrin"
+    ],
+    "child": "Lapiron",
+    "unique": false,
+    "combos": [
+      [
+        "Broncherry",
+        "Pyrin"
+      ],
+      [
+        "Depresso",
+        "Selyne"
+      ],
+      [
+        "Jormuntide",
+        "Killamari"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Blazamut",
+      "Broncherry"
+    ],
+    "child": "Loomen",
+    "unique": false,
+    "combos": [
+      [
+        "Blazamut",
+        "Broncherry"
+      ],
+      [
+        "Selyne",
+        "Vaelet"
+      ],
+      [
+        "Digtoise",
+        "Eidrolon"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Anubis",
+      "Digtoise"
+    ],
+    "child": "Majex",
+    "unique": false,
+    "combos": [
+      [
+        "Anubis",
+        "Digtoise"
+      ],
+      [
+        "Eidrolon",
+        "Petallia"
+      ],
+      [
+        "Kitsun",
+        "Selyne"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Astegon",
+      "Broncherry"
+    ],
+    "child": "Venusa",
+    "unique": false,
+    "combos": [
+      [
+        "Astegon",
+        "Broncherry"
+      ],
+      [
+        "Blazamut",
+        "Vaelet"
+      ],
+      [
+        "Digtoise",
+        "Selyne"
+      ]
+    ]
   }
 ]

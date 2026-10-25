@@ -1,0 +1,42 @@
+{
+  "id": "aion-2-steam-record",
+  "slot": "new",
+  "order": 29,
+  "headline": "Aion 2 broke its Steam record",
+  "title": "Aion 2 Hits 397,905 Players on Steam | Free to Play MMORPG | Gaming News",
+  "video_script": "Aion 2 just had a massive launch. The new MMORPG from NC went free to play worldwide on October fifth, and peaked at three hundred ninety seven thousand nine hundred and five players on Steam alone. That is more than Throne and Liberty's peak. Counting its own launcher, NC says it passed four hundred thousand players. Will you try it? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:3393110:0",
+      "label": "Aion 2"
+    },
+    {
+      "image": "steam:3393110:1",
+      "fact": "397,905 players",
+      "sub": "Steam peak - Oct 5"
+    },
+    {
+      "image": "steam:3393110:2",
+      "fact": "Free to play",
+      "sub": "Worldwide on PC"
+    },
+    {
+      "image": "wiki:Aion 2",
+      "fact": "400,000+",
+      "sub": "With NC's own launcher"
+    }
+  ],
+  "description": "Aion 2 (NC) launched free-to-play worldwide on October 5, 2026 and peaked at 397,905 concurrent players on Steam (SteamDB), above Throne and Liberty's 336,300; NC reports 400,000+ including its PURPLE launcher.",
+  "hashtags": [
+    "Aion2",
+    "MMORPG",
+    "Steam"
+  ],
+  "tags": [
+    "Aion 2",
+    "Aion 2 player count",
+    "Aion 2 Steam",
+    "Aion 2 free to play",
+    "new MMORPG 2026"
+  ]
+}

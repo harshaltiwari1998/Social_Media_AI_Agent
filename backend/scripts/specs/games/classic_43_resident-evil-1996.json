@@ -1,0 +1,43 @@
+{
+  "id": "resident-evil-1996",
+  "slot": "classic",
+  "order": 43,
+  "headline": "The original Resident Evil",
+  "title": "Resident Evil 1996 Facts | Chris, Jill and the Mansion | Classic Games",
+  "video_script": "The first Resident Evil came out in nineteen ninety six on the PlayStation, made by Capcom and directed by Shinji Mikami. You play as Chris Redfield or Jill Valentine from the S T A R S team, trapped in a mansion full of zombies. It almost became a first person game, but ended up in third person, and it set the rules for survival horror. Chris or Jill? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Resident Evil (1996 video game)",
+      "label": "Resident Evil (1996)"
+    },
+    {
+      "image": "wiki:Resident Evil (1996 video game)",
+      "fact": "Shinji Mikami",
+      "sub": "Capcom, PlayStation"
+    },
+    {
+      "image": "wiki:Resident Evil (1996 video game)",
+      "fact": "Chris + Jill",
+      "sub": "S.T.A.R.S. vs zombies"
+    },
+    {
+      "image": "wiki:Resident Evil (1996 video game)",
+      "fact": "Survival horror",
+      "sub": "It set the rules"
+    }
+  ],
+  "description": "Resident Evil (1996, Capcom, PlayStation), directed by Shinji Mikami; Chris Redfield and Jill Valentine of S.T.A.R.S. escape a zombie-infested mansion. Once planned as first-person.",
+  "hashtags": [
+    "ResidentEvil",
+    "SurvivalHorror",
+    "RetroGaming"
+  ],
+  "tags": [
+    "Resident Evil 1996",
+    "Resident Evil 1",
+    "Shinji Mikami",
+    "Capcom",
+    "classic games",
+    "survival horror"
+  ]
+}

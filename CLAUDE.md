@@ -77,7 +77,7 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
 | 07:00 | Routine **Daily Aniimo + Palworld writer** (`trig_013wepkkQJoFvhUYENfH3qro`) writes specs |
 | 07:30 | `token-check.yml` - YouTube + Meta login check |
 | Mon/Thu 08:00 | Routine **Weekly content refill** (`trig_01LRixiDvLT8uP4GPUjYnDcy`) tops up all other queues |
-| 10:00 | `daily-content.yml` - 1 new game, 2 classic, 1 breeding, 1 Aniimo, 1 movie new, 1 review, 1 reel |
+| 10:00 | `daily-content.yml` - 1 new game, 3 classic, 1 breeding, 1 Aniimo, 1 movie new, 1 review, 1 reel |
 | 10:00 | Laptop task `daily_job.cmd --skip-gaming` (trends) + `motion_daily.py` + `gameplay_daily.py` |
 | 13:45 | `daily-anipal.yml` 1st half - 5 Aniimo + 2 Palworld guide + 3 breeding + 1 long (palworld) |
 | 14:00 | `daily-palguide.yml` - 1 Palworld guide |
@@ -113,8 +113,10 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
 - **Machine**: keep every install/cache on **F:** (C: is nearly full). `ollama.exe list` with no server
   running starts the Ollama app on C: - start `ollama.exe serve` with `OLLAMA_MODELS` set instead.
 - **Secrets**: only in `backend/.env` (gitignored) and GitHub secrets. Never print or commit tokens.
-- **Process**: confirm before running tests; merge posting state with `merge_state.py` logic, never
-  copy a local state file over `gaming-state`.
+- **Process**: confirm before running tests. Posting state is only ever merged into the latest `gaming-state`
+  with `scripts/merge_state.py` (every workflow's save step does fetch + merge + retry; laptop batches too) -
+  never copy a state file over it: a copy + push from a stale base once lost a whole day's records.
+  Laptop batches use `--from-end` order so they don't pick the specs a scheduled run is about to take.
 - **YouTube quota** resets at midnight Pacific (~12:30 IST); morning IST uploads count to the previous day.
 
 ## What is built
@@ -136,6 +138,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
 - Twitter trend source has no token (skipped).
 
 ## Change log
+- 2026-10-25 - Workflows save state via `merge_state.py` (fetch + merge + retry); classic 3/day; MW4, Aion 2, GTA 6, Minecraft + 6 classic specs.
 - 2026-10-24 - Daily free games + Epic/Steam deals: `store_deals.py`, `daily-deals.yml`, `url:` image refs.
 - 2026-10-24 - CLAUDE.md created; Aniimo + Palworld daily pipeline (writer routine, `daily-anipal.yml`, `--long-series`).
 - 2026-10-22 - Instagram Reel cover offset; 10 classic + 10 breeding batch.

@@ -1,0 +1,43 @@
+{
+  "id": "the-sims-2000",
+  "slot": "classic",
+  "order": 41,
+  "headline": "The story of The Sims",
+  "title": "The Sims 2000 Facts | Will Wright's Biggest Hit | Classic Games",
+  "video_script": "The Sims came out in two thousand, made by Maxis and Will Wright, the creator of SimCity. There is no way to win. You just create people, build their homes and run their lives. By two thousand two it beat Myst to become the best-selling PC game at the time, and with its expansions it passed forty one million copies by two thousand four. Did you ever trap a Sim in a pool? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:The Sims (video game)",
+      "label": "The Sims (2000)"
+    },
+    {
+      "image": "wiki:The Sims (video game)",
+      "fact": "Will Wright",
+      "sub": "Creator of SimCity"
+    },
+    {
+      "image": "wiki:The Sims (video game)",
+      "fact": "No way to win",
+      "sub": "Just live"
+    },
+    {
+      "image": "wiki:The Sims (video game)",
+      "fact": "41 million+",
+      "sub": "With expansions, by 2004"
+    }
+  ],
+  "description": "The Sims (2000, Maxis/EA, designed by Will Wright). Passed Myst as the best-selling PC game in 2002; game + expansions passed 41 million units by September 2004.",
+  "hashtags": [
+    "TheSims",
+    "RetroGaming",
+    "PCGaming"
+  ],
+  "tags": [
+    "The Sims",
+    "The Sims 2000",
+    "Will Wright",
+    "Maxis",
+    "classic games",
+    "retro PC games"
+  ]
+}

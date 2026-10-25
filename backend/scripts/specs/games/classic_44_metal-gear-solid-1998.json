@@ -1,0 +1,43 @@
+{
+  "id": "metal-gear-solid-1998",
+  "slot": "classic",
+  "order": 44,
+  "headline": "Metal Gear Solid",
+  "title": "Metal Gear Solid 1998 Facts | Solid Snake at Shadow Moses | Classic Games",
+  "video_script": "Metal Gear Solid came out in nineteen ninety eight on the PlayStation, made by Konami and Hideo Kojima. Solid Snake sneaks into Shadow Moses, a nuclear base taken over by FOXHOUND and Liquid Snake, to stop the giant robot Metal Gear REX. Stealth was optional, but getting spotted set off the famous alert. Did the exclamation mark scare you too? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Metal Gear Solid (video game)",
+      "label": "Metal Gear Solid"
+    },
+    {
+      "image": "wiki:Metal Gear Solid (video game)",
+      "fact": "Hideo Kojima",
+      "sub": "Konami, 1998"
+    },
+    {
+      "image": "wiki:Metal Gear Solid (video game)",
+      "fact": "Shadow Moses",
+      "sub": "Snake vs Liquid Snake"
+    },
+    {
+      "image": "wiki:Metal Gear Solid (video game)",
+      "fact": "Metal Gear REX",
+      "sub": "Stop the nuke"
+    }
+  ],
+  "description": "Metal Gear Solid (1998, Konami, PlayStation), directed by Hideo Kojima. Solid Snake infiltrates Shadow Moses, held by FOXHOUND under Liquid Snake, to stop Metal Gear REX.",
+  "hashtags": [
+    "MetalGearSolid",
+    "Kojima",
+    "RetroGaming"
+  ],
+  "tags": [
+    "Metal Gear Solid",
+    "MGS1",
+    "Hideo Kojima",
+    "Solid Snake",
+    "classic games",
+    "PS1 games"
+  ]
+}

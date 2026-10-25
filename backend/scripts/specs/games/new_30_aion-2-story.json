@@ -1,0 +1,43 @@
+{
+  "id": "aion-2-story",
+  "slot": "new",
+  "order": 30,
+  "headline": "What is Aion 2",
+  "title": "What Is Aion 2 | Elyos vs Asmodians 200 Years Later | New MMORPG Explained",
+  "video_script": "What is Aion 2? It is a massive online RPG from NC, and the sequel to Aion. The story is set two hundred years after the first game, and the war between the Elyos and the Asmodians is still going. It came out in Korea and Taiwan first, and launched worldwide on PC on October fifth. Elyos or Asmodians? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Aion 2",
+      "label": "What is Aion 2"
+    },
+    {
+      "image": "steam:3393110:3",
+      "fact": "200 years later",
+      "sub": "Sequel to Aion"
+    },
+    {
+      "image": "steam:3393110:4",
+      "fact": "Elyos vs Asmodians",
+      "sub": "The war continues"
+    },
+    {
+      "image": "steam:3393110:5",
+      "fact": "Worldwide on PC",
+      "sub": "Since October 5"
+    }
+  ],
+  "description": "Aion 2 is NC's MMORPG sequel to Aion, set 200 years after the first game, continuing the Elyos-Asmodian conflict. Released in South Korea and Taiwan on November 19, 2025; global PC launch on October 5, 2026.",
+  "hashtags": [
+    "Aion2",
+    "MMORPG",
+    "Gaming"
+  ],
+  "tags": [
+    "Aion 2",
+    "what is Aion 2",
+    "Aion 2 story",
+    "Elyos",
+    "Asmodians",
+    "Aion 2 global"
+  ]
+}

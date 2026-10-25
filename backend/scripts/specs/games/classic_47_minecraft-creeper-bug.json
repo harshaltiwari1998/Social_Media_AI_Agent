@@ -1,0 +1,43 @@
+{
+  "id": "minecraft-creeper-bug",
+  "slot": "classic",
+  "order": 47,
+  "headline": "The Creeper was a bug",
+  "title": "The Minecraft Creeper Was a Pig Bug | Notch Kept the Mistake | Minecraft Facts",
+  "video_script": "The Creeper, Minecraft's most famous monster, started as a mistake. In two thousand nine, Notch was making the pig, but he swapped its length and height by accident. The result was tall, thin and creepy, so instead of deleting it, he kept it and turned it into the Creeper. How many times has a Creeper blown up your house? Comment below!",
+  "scenes": [
+    {
+      "image": "wikifile:Minecraft Creeper (Crop).png",
+      "label": "The Creeper"
+    },
+    {
+      "image": "wikifile:Minecraft Creeper (Crop).png",
+      "fact": "It was a bug",
+      "sub": "A broken pig model"
+    },
+    {
+      "image": "wikifile:Caves & Cliffs II - Alex & Steve I.png",
+      "fact": "Notch kept it",
+      "sub": "2009"
+    },
+    {
+      "image": "wikifile:Minecraft Creeper (Crop).png",
+      "fact": "Ssss... BOOM",
+      "sub": "Comment below"
+    }
+  ],
+  "description": "Minecraft's Creeper came from a 2009 bug while Notch was making the pig model (length and height swapped); he kept it as a creepy creature.",
+  "hashtags": [
+    "Minecraft",
+    "Creeper",
+    "GamingFacts"
+  ],
+  "tags": [
+    "Minecraft",
+    "Minecraft Creeper",
+    "Creeper origin",
+    "Minecraft facts",
+    "Notch",
+    "Minecraft history"
+  ]
+}

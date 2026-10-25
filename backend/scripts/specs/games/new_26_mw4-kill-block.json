@@ -1,0 +1,42 @@
+{
+  "id": "mw4-kill-block",
+  "slot": "new",
+  "order": 26,
+  "headline": "MW4 Kill Block: a map that keeps changing",
+  "title": "Modern Warfare 4 Kill Block | The Map With 500 Plus Layouts | Call of Duty News",
+  "video_script": "Modern Warfare four has a map unlike any other, called Kill Block. Its layout keeps changing as the match goes on, and it has more than five hundred possible configurations. It is set in a training facility, so no two fights feel the same. Have you played Kill Block yet? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4435490:1",
+      "label": "Kill Block"
+    },
+    {
+      "image": "steam:4435490:2",
+      "fact": "500+ layouts",
+      "sub": "The map keeps changing"
+    },
+    {
+      "image": "steam:4435490:3",
+      "fact": "Training facility",
+      "sub": "No two fights the same"
+    },
+    {
+      "image": "steam:4435490:0",
+      "fact": "Played it yet",
+      "sub": "Comment below"
+    }
+  ],
+  "description": "Kill Block in Call of Duty: Modern Warfare 4 is a training-facility map whose layout changes during the match, with more than 500 possible configurations.",
+  "hashtags": [
+    "ModernWarfare4",
+    "CallOfDuty",
+    "KillBlock"
+  ],
+  "tags": [
+    "MW4 Kill Block",
+    "Kill Block map",
+    "Modern Warfare 4",
+    "MW4 new map",
+    "Call of Duty 2026"
+  ]
+}

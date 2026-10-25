@@ -1,0 +1,43 @@
+{
+  "id": "minecraft-400-million",
+  "slot": "classic",
+  "order": 49,
+  "headline": "Minecraft: 400 million copies",
+  "title": "Minecraft Sold 400 Million Copies | Microsoft Bought It for Billions | Minecraft Facts",
+  "video_script": "Minecraft is now the best selling video game of all time, with more than four hundred million copies sold. In two thousand fourteen, Microsoft bought Mojang and Minecraft for two point five billion dollars. Notch created it, and after the full release Jens Bergensten, known as Jeb, took over development. Java or Bedrock? Comment below!",
+  "scenes": [
+    {
+      "image": "wikifile:Minecraft game logo 2023.png",
+      "label": "Minecraft"
+    },
+    {
+      "image": "wikifile:Caves & Cliffs II - Alex & Steve I.png",
+      "fact": "400 million+",
+      "sub": "Best-selling game ever"
+    },
+    {
+      "image": "wikifile:Minecraft Beta 1.8.1 – Crafting a Wooden Sword.png",
+      "fact": "$2.5 billion",
+      "sub": "Microsoft buys Mojang, 2014"
+    },
+    {
+      "image": "wikifile:Jeb at PAX Prime 2012 (cropped).jpg",
+      "fact": "Jeb took over",
+      "sub": "After Notch"
+    }
+  ],
+  "description": "Minecraft is the best-selling video game of all time with over 400 million copies sold. Microsoft bought Mojang and Minecraft in November 2014 for US$2.5 billion; Jens 'Jeb' Bergensten leads development.",
+  "hashtags": [
+    "Minecraft",
+    "Mojang",
+    "GamingFacts"
+  ],
+  "tags": [
+    "Minecraft",
+    "Minecraft sales",
+    "best selling game",
+    "Microsoft Mojang",
+    "Minecraft facts",
+    "Jeb"
+  ]
+}

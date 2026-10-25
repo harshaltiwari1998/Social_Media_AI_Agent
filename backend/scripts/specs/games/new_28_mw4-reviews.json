@@ -1,0 +1,42 @@
+{
+  "id": "mw4-reviews",
+  "slot": "new",
+  "order": 28,
+  "headline": "Modern Warfare 4 reviews are in",
+  "title": "Modern Warfare 4 Review Scores | GameSpot 8 out of 10 | Is MW4 Good | Call of Duty News",
+  "video_script": "The reviews for Call of Duty Modern Warfare four are in, and they are mostly positive. GameSpot gave it eight out of ten. Reviewers liked the multiplayer maps and the campaign, which closes out Infinity Ward's Modern Warfare story. Some said it feels like more of the same. What score would you give it? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4435490:0",
+      "label": "MW4 Reviews"
+    },
+    {
+      "image": "steam:4435490:1",
+      "fact": "GameSpot: 8/10",
+      "sub": "Mostly positive reviews"
+    },
+    {
+      "image": "steam:4435490:2",
+      "fact": "Maps + campaign",
+      "sub": "Most praised"
+    },
+    {
+      "image": "steam:4435490:3",
+      "fact": "Your score",
+      "sub": "Comment below"
+    }
+  ],
+  "description": "Call of Duty: Modern Warfare 4 reviews are mostly positive; GameSpot scored it 8/10 (Metacritic). Critics praised the multiplayer maps and campaign.",
+  "hashtags": [
+    "ModernWarfare4",
+    "CallOfDuty",
+    "GameReview"
+  ],
+  "tags": [
+    "Modern Warfare 4 review",
+    "MW4 review",
+    "is MW4 good",
+    "MW4 Metacritic",
+    "Call of Duty 2026 review"
+  ]
+}

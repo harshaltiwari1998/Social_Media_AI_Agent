@@ -1,0 +1,43 @@
+{
+  "id": "mw4-multiplayer-launch-maps",
+  "slot": "new",
+  "order": 25,
+  "headline": "MW4 multiplayer: all launch maps",
+  "title": "Modern Warfare 4 Multiplayer Maps | 12 Core 6v6 Maps + 4 Gunfight Maps | Call of Duty News",
+  "video_script": "Call of Duty Modern Warfare four multiplayer launched with twelve core six versus six maps. They are Cachette, Coal, Lithium, Lotus, Mumbai, Munition, Nautical, Reactor U92, Rooftops, Sentry, Silkworm and Transit 213. Gunfight gets four small maps: Cafe, Library, NYC and Smuggler. Which map is your favourite so far? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4435490:0",
+      "label": "MW4 Launch Maps"
+    },
+    {
+      "image": "steam:4435490:1",
+      "fact": "12 core maps",
+      "sub": "6v6 multiplayer"
+    },
+    {
+      "image": "steam:4435490:2",
+      "fact": "Mumbai, Rooftops, Transit 213",
+      "sub": "and 9 more"
+    },
+    {
+      "image": "steam:4435490:3",
+      "fact": "4 Gunfight maps",
+      "sub": "Cafe, Library, NYC, Smuggler"
+    }
+  ],
+  "description": "Call of Duty: Modern Warfare 4 multiplayer launch maps: 12 core 6v6 maps (Cachette, Coal, Lithium, Lotus, Mumbai, Munition, Nautical, Reactor U92, Rooftops, Sentry, Silkworm, Transit 213) and 4 Gunfight maps (Cafe, Library, NYC, Smuggler).",
+  "hashtags": [
+    "ModernWarfare4",
+    "CallOfDuty",
+    "MW4"
+  ],
+  "tags": [
+    "Modern Warfare 4 maps",
+    "MW4 maps",
+    "MW4 multiplayer",
+    "Call of Duty 2026",
+    "MW4 gunfight maps",
+    "Modern Warfare 4"
+  ]
+}

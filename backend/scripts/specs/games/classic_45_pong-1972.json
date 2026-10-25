@@ -1,0 +1,43 @@
+{
+  "id": "pong-1972",
+  "slot": "classic",
+  "order": 45,
+  "headline": "Pong, the game that started it all",
+  "title": "Pong 1972 Facts | The First Hit Video Game | Atari | Classic Games",
+  "video_script": "Pong came out in nineteen seventy two from Atari. Allan Alcorn made it as a training exercise, and the Atari founders liked it so much they decided to sell it. It was the first commercially successful video game, and it helped start the whole video game industry. Have you ever played Pong? Comment below!",
+  "scenes": [
+    {
+      "image": "wikifile:Signed Pong Cabinet.jpg",
+      "label": "Pong (1972)"
+    },
+    {
+      "image": "wikifile:Al Alcorn, Pong, CHM 2011 (cropped 2).jpg",
+      "fact": "Allan Alcorn",
+      "sub": "A training exercise"
+    },
+    {
+      "image": "wikifile:Pong prototype.jpg",
+      "fact": "First hit game",
+      "sub": "Atari, 1972"
+    },
+    {
+      "image": "wikifile:Signed Pong Cabinet.jpg",
+      "fact": "Started it all",
+      "sub": "The video game industry"
+    }
+  ],
+  "description": "Pong (1972, Atari) was created by Allan Alcorn as a training exercise; it was the first commercially successful video game and helped establish the industry.",
+  "hashtags": [
+    "Pong",
+    "Atari",
+    "RetroGaming"
+  ],
+  "tags": [
+    "Pong",
+    "Pong 1972",
+    "Atari",
+    "Allan Alcorn",
+    "first video game",
+    "classic games"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "herobrine-legend",
+  "slot": "classic",
+  "order": 48,
+  "headline": "Herobrine, Minecraft's ghost",
+  "title": "Herobrine Explained | Minecraft's Biggest Urban Legend | Minecraft Facts",
+  "video_script": "Herobrine is Minecraft's most famous urban legend. He looks like Steve, but with blank white eyes. The story started in two thousand ten, when an anonymous post on 4chan claimed a strange figure appeared in a player's single player world. Streamers made it famous, and Herobrine became a meme. Did you believe in Herobrine? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Herobrine",
+      "label": "Herobrine"
+    },
+    {
+      "image": "wiki:Herobrine",
+      "fact": "White eyes",
+      "sub": "Looks like Steve"
+    },
+    {
+      "image": "wiki:Herobrine",
+      "fact": "2010",
+      "sub": "An anonymous 4chan post"
+    },
+    {
+      "image": "wiki:Herobrine",
+      "fact": "An urban legend",
+      "sub": "Made famous by streamers"
+    }
+  ],
+  "description": "Herobrine is a Minecraft urban legend and creepypasta: a Steve-like figure with blank white eyes, from an anonymous 2010 4chan /v/ post, popularised by livestreamers.",
+  "hashtags": [
+    "Minecraft",
+    "Herobrine",
+    "GamingFacts"
+  ],
+  "tags": [
+    "Herobrine",
+    "Minecraft Herobrine",
+    "Minecraft urban legend",
+    "Minecraft facts",
+    "creepypasta"
+  ]
+}

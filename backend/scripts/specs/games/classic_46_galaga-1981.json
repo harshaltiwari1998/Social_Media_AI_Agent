@@ -1,0 +1,43 @@
+{
+  "id": "galaga-1981",
+  "slot": "classic",
+  "order": 46,
+  "headline": "Galaga",
+  "title": "Galaga 1981 Facts | The Dual Fighter Trick | Namco Arcade | Classic Games",
+  "video_script": "Galaga came out in nineteen eighty one from Namco, as the sequel to Galaxian. The Boss Galaga can grab your ship with a tractor beam. But if you rescue it, you get a dual fighter with double the firepower. The idea came from a movie the designer Shigeru Yokoyama had seen. Did you ever get the dual fighter? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Galaga",
+      "label": "Galaga (1981)"
+    },
+    {
+      "image": "wiki:Galaga",
+      "fact": "Namco",
+      "sub": "Sequel to Galaxian"
+    },
+    {
+      "image": "wiki:Galaga",
+      "fact": "Tractor beam",
+      "sub": "Boss Galaga steals your ship"
+    },
+    {
+      "image": "wiki:Galaga",
+      "fact": "Dual fighter",
+      "sub": "Double firepower"
+    }
+  ],
+  "description": "Galaga (1981, Namco), sequel to Galaxian. Boss Galaga can capture the player's ship with a tractor beam; rescuing it gives a dual fighter. Led by Shigeru Yokoyama.",
+  "hashtags": [
+    "Galaga",
+    "Arcade",
+    "RetroGaming"
+  ],
+  "tags": [
+    "Galaga",
+    "Galaga 1981",
+    "Namco",
+    "arcade games",
+    "classic games",
+    "retro games"
+  ]
+}

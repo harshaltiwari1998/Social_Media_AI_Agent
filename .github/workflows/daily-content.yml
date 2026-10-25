@@ -1,6 +1,6 @@
 name: Daily gaming and movie videos
 
-# Makes the day's shorts - gaming (1 new/upcoming game, 2 classic games (our best performers), 1 Palworld breeding
+# Makes the day's shorts - gaming (1 new/upcoming game, 3 classic games (our best performers), 1 Palworld breeding
 # combo) -> HarryBeast Gaming YouTube only, and movies (1 new/upcoming movie, 1
 # review/box-office) -> Name Writer YouTube + Instagram + Facebook, 1 Hindi movie reel ->
 # Facebook + Instagram only - and retries uploads that
@@ -15,7 +15,7 @@ on:
         default: "1"
       classic_games:
         description: "Classic-game videos"
-        default: "2"
+        default: "3"
       new_palworld:
         description: "Palworld breeding videos"
         default: "1"
@@ -106,7 +106,7 @@ jobs:
         run: >-
           python scripts/daily_job.py --skip-trends
           --new-games "${{ github.event.inputs.new_games || '1' }}"
-          --classic-games "${{ github.event.inputs.classic_games || '2' }}"
+          --classic-games "${{ github.event.inputs.classic_games || '3' }}"
           --new-palworld "${{ github.event.inputs.new_palworld || '1' }}"
           --new-movies "${{ github.event.inputs.new_movies || '1' }}"
           --movie-reviews "${{ github.event.inputs.movie_reviews || '1' }}"
@@ -116,18 +116,23 @@ jobs:
       - name: Save posting state
         if: always()
         run: |
-          set -e
-          state=$(mktemp -d)
-          git worktree add "$state" origin/gaming-state
-          for f in pipeline_store.sqlite3 palworld_videos.json game_videos.json; do
-            [ -f "media_output/$f" ] && cp "media_output/$f" "$state/"
+          # Merge into the LATEST gaming-state (never copy over it): another workflow or a laptop batch may
+          # have pushed since this run restored it. On a rejected push, fetch again and re-merge.
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3 4 5; do
+            git fetch --depth 1 origin gaming-state
+            state=$(mktemp -d)
+            git worktree add --detach "$state" FETCH_HEAD
+            python scripts/merge_state.py media_output "$state"
+            if (cd "$state" && git add -A && { git diff --cached --quiet || git commit -m "Update gaming posting state ($(date -u +%F))"; }                 && git push origin HEAD:gaming-state); then
+              exit 0
+            fi
+            git worktree remove --force "$state"
+            sleep $((attempt * 15))
           done
-          cd "$state"
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git diff --cached --quiet || git commit -m "Update gaming posting state ($(date -u +%F))"
-          git push origin HEAD:gaming-state
+          echo "::error::could not save posting state after 5 attempts"
+          exit 1
 
       - name: Upload log
         if: always()

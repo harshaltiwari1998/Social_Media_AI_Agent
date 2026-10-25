@@ -3368,5 +3368,29 @@
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-7cb85056.mp4",
     "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-7cb85056-thumb.jpg",
     "chapters": "0:00 Bollywood के Bhai की कहानी\n0:33 बचपन और फिल्मी परिवार\n1:10 Biwi Ho To Aisi से Maine Pyar Kiya तक\n1:51 Hum Aapke Hain Koun का दौर\n2:26 Sanjay Leela Bhansali और नई पहचान\n3:03 Wanted से वापसी\n3:38 Dabangg और Eid की परंपरा\n4:19 Bajrangi Bhaijaan: दिल जीतने वाली film\n5:03 उतार चढ़ाव और नया दौर\n5:46 Bigg Boss, Being Human और नई films\n6:30 आपकी राय"
+  },
+  "guardians-of-the-galaxy-encore-edition": {
+    "spec": "scripts/specs/games/new_18_guardians-of-the-galaxy-encore-edition.json",
+    "video": "lost-ci-run-2026-10-25"
+  },
+  "super-mario-kart": {
+    "spec": "scripts/specs/games/classic_23_super-mario-kart.json",
+    "video": "lost-ci-run-2026-10-25"
+  },
+  "super-mario-64": {
+    "spec": "scripts/specs/games/classic_24_super-mario-64.json",
+    "video": "lost-ci-run-2026-10-25"
+  },
+  "focker-in-law": {
+    "spec": "scripts/specs/movies/movie_new_23_focker-in-law.json",
+    "video": "lost-ci-run-2026-10-25"
+  },
+  "other-mommy-box-office": {
+    "spec": "scripts/specs/movies/movie_review_19_other-mommy-box-office.json",
+    "video": "lost-ci-run-2026-10-25"
+  },
+  "reel-devdas-facts": {
+    "spec": "scripts/specs/movies/reel_51_devdas-facts.json",
+    "video": "lost-ci-run-2026-10-25"
   }
 }

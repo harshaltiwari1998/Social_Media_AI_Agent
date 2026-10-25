@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-gracewing-healer-guide",
+  "slot": "aniimo",
+  "order": 40,
+  "headline": "Gracewing Healer",
+  "title": "Aniimo Gracewing Guide | Flutternym Evolves at Level 21 | Aniimo Guide",
+  "video_script": "Gracewing is the healer you want in Aniimo. Catch a Flutternym and raise it to level twenty one to evolve it. Gracewing is a Wind Aniimo with a team heal skill called Wind of Rejuvenation. Its trait Flutter Heal boosts healing when it fights, and it keeps helping from off the field. Pair it with a strong damage dealer. Who is your favorite healer? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:12",
+      "label": "Gracewing Healer"
+    },
+    {
+      "image": "steam:4126040:13",
+      "fact": "Flutternym",
+      "sub": "Evolves at level 21"
+    },
+    {
+      "image": "steam:4126040:14",
+      "fact": "Team Heal",
+      "sub": "Wind of Rejuvenation"
+    },
+    {
+      "image": "steam:4126040:16",
+      "fact": "Flutter Heal",
+      "sub": "Trait boosts healing"
+    }
+  ],
+  "description": "Gracewing is a Wind healer in Aniimo that evolves from Flutternym at level 21 and heals the whole team.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Gracewing",
+    "Flutternym",
+    "Aniimo healer"
+  ]
+}

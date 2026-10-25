@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-helmut-snowfield-form",
+  "slot": "aniimo",
+  "order": 46,
+  "headline": "Helmut Snowfield",
+  "title": "Aniimo Helmut Snowfield Form | Only Appears in Snow | Aniimo Guide",
+  "video_script": "Helmut is a Dark Aniimo, and its Snowfield form is a special find. It only appears while it is snowing in Russet Highlands. Look in the woods near the Rainbow Woods teleporter. If the weather is clear, you will not find it, so wait for snow before searching. Russet Highlands is a high level area, so bring a strong team. Did you find Snowfield Helmut? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:13",
+      "label": "Helmut Snowfield Form"
+    },
+    {
+      "image": "steam:4126040:14",
+      "fact": "Snow Only",
+      "sub": "Weather spawn condition"
+    },
+    {
+      "image": "steam:4126040:16",
+      "fact": "Russet Highlands",
+      "sub": "High level region"
+    },
+    {
+      "image": "steam:4126040:17",
+      "fact": "Rainbow Woods",
+      "sub": "Search near the teleporter"
+    }
+  ],
+  "description": "Helmut's Snowfield Form in Aniimo appears only in snowy weather in Russet Highlands, near the Rainbow Woods teleporter.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Helmut",
+    "Snowfield Form",
+    "Russet Highlands"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-alpha-blazen-evolve-bolty",
+  "slot": "aniimo",
+  "order": 39,
+  "headline": "Alpha Blazen Tips",
+  "title": "Aniimo Blazen Evolution | Beat Alpha Blazen for the Roar Stone | Aniimo Guide",
+  "video_script": "Blazen is a Lightning Aniimo, and you evolve it from Bolty. First, defeat the Alpha Blazen in Blitzwood. It waits on a high cliff in the south, and you reach it by solving the Gravity Pull puzzle. Bring Ice and Dark attackers, since it is weak to both. The fight rewards a Roar Stone, which you need for the evolution. Have you beaten Alpha Blazen yet? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:8",
+      "label": "Alpha Blazen Tips"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Blitzwood Cliff",
+      "sub": "Solve Gravity Pull to climb"
+    },
+    {
+      "image": "steam:4126040:10",
+      "fact": "Ice and Dark",
+      "sub": "Its two weaknesses"
+    },
+    {
+      "image": "steam:4126040:11",
+      "fact": "Roar Stone",
+      "sub": "Needed to evolve Bolty"
+    }
+  ],
+  "description": "Blazen evolves from Bolty after you defeat the Alpha Blazen in Blitzwood; bring Ice and Dark Aniimo and collect a Roar Stone.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Blazen",
+    "Alpha Blazen",
+    "Bolty evolution"
+  ]
+}

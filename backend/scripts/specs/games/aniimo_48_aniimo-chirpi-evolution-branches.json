@@ -1,0 +1,47 @@
+{
+  "id": "aniimo-chirpi-evolution-branches",
+  "slot": "aniimo",
+  "order": 48,
+  "headline": "Chirpi Evolution",
+  "title": "Aniimo Chirpi Evolution | Cornet Tromber or Tubster | Aniimo Guide",
+  "video_script": "Chirpi evolves at level eighteen, and it has three branches. Cornet needs nothing extra. Tromber needs the Magic Horn talent and an HP Potential of six or higher. Tubster needs you to defeat the Alpha Tubster and have a BREAK Potential of six or higher. Each Chirpi can only take one branch. You can catch Chirpi in Nimbus Fields. Which branch will you pick? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:22",
+      "label": "Chirpi Evolution"
+    },
+    {
+      "image": "steam:4126040:23",
+      "fact": "Cornet",
+      "sub": "Level 18, no extra rule"
+    },
+    {
+      "image": "steam:4126040:24",
+      "fact": "Tromber",
+      "sub": "Magic Horn and HP Potential 6"
+    },
+    {
+      "image": "steam:4126040:25",
+      "fact": "Tubster",
+      "sub": "Alpha Tubster and BREAK Potential 6"
+    }
+  ],
+  "description": "Chirpi evolves at level 18 into Cornet, Tromber or Tubster in Aniimo, with extra requirements for Tromber and Tubster.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Chirpi",
+    "Cornet",
+    "Tromber",
+    "Tubster"
+  ]
+}

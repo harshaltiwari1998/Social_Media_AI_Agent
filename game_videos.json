@@ -3392,5 +3392,73 @@
   "reel-devdas-facts": {
     "spec": "scripts/specs/movies/reel_51_devdas-facts.json",
     "video": "lost-ci-run-2026-10-25"
+  },
+  "aion-2-story": {
+    "spec": "scripts/specs/games/new_30_aion-2-story.json",
+    "video": "F:\\AI AGENT\\run_trend17\\videos\\short-b7adf293.mp4"
+  },
+  "aion-2-steam-record": {
+    "spec": "scripts/specs/games/new_29_aion-2-steam-record.json",
+    "video": "F:\\AI AGENT\\run_trend17\\videos\\short-6fcc912d.mp4"
+  },
+  "mw4-reviews": {
+    "spec": "scripts/specs/games/new_28_mw4-reviews.json",
+    "video": "F:\\AI AGENT\\run_trend17\\videos\\short-be32558c.mp4"
+  },
+  "mw4-dmz-hajin": {
+    "spec": "scripts/specs/games/new_27_mw4-dmz-hajin.json",
+    "video": "F:\\AI AGENT\\run_trend17\\videos\\short-b8a56e42.mp4"
+  },
+  "mw4-kill-block": {
+    "spec": "scripts/specs/games/new_26_mw4-kill-block.json",
+    "video": "F:\\AI AGENT\\run_trend17\\videos\\short-fd9785c5.mp4"
+  },
+  "mw4-multiplayer-launch-maps": {
+    "spec": "scripts/specs/games/new_25_mw4-multiplayer-launch-maps.json",
+    "video": "F:\\AI AGENT\\run_trend17\\videos\\short-c98ffb94.mp4"
+  },
+  "13-years-after-gta-5": {
+    "spec": "scripts/specs/games/gta6_12_13-years-after-gta-5.json",
+    "video": "F:\\AI AGENT\\run_trend17\\videos\\short-197d1417.mp4"
+  },
+  "pre-order-bonus": {
+    "spec": "scripts/specs/games/gta6_11_pre-order-bonus.json",
+    "video": "F:\\AI AGENT\\run_trend17\\videos\\short-4d92e071.mp4"
+  },
+  "minecraft-400-million": {
+    "spec": "scripts/specs/games/classic_49_minecraft-400-million.json",
+    "video": "F:\\AI AGENT\\run_trend17\\videos\\short-f6281d81.mp4"
+  },
+  "herobrine-legend": {
+    "spec": "scripts/specs/games/classic_48_herobrine-legend.json",
+    "video": "F:\\AI AGENT\\run_trend17\\videos\\short-51f452fa.mp4"
+  },
+  "minecraft-creeper-bug": {
+    "spec": "scripts/specs/games/classic_47_minecraft-creeper-bug.json",
+    "video": "F:\\AI AGENT\\run_trend17\\videos\\short-adee2139.mp4"
+  },
+  "galaga-1981": {
+    "spec": "scripts/specs/games/classic_46_galaga-1981.json",
+    "video": "F:\\AI AGENT\\run_trend17\\videos\\short-4d9a9bd5.mp4"
+  },
+  "pong-1972": {
+    "spec": "scripts/specs/games/classic_45_pong-1972.json",
+    "video": "F:\\AI AGENT\\run_trend17\\videos\\short-001037b6.mp4"
+  },
+  "metal-gear-solid-1998": {
+    "spec": "scripts/specs/games/classic_44_metal-gear-solid-1998.json",
+    "video": "F:\\AI AGENT\\run_trend17\\videos\\short-45b9c86a.mp4"
+  },
+  "resident-evil-1996": {
+    "spec": "scripts/specs/games/classic_43_resident-evil-1996.json",
+    "video": "F:\\AI AGENT\\run_trend17\\videos\\short-40581b95.mp4"
+  },
+  "nfs-underground-2": {
+    "spec": "scripts/specs/games/classic_42_nfs-underground-2.json",
+    "video": "F:\\AI AGENT\\run_trend17\\videos\\short-cb6873d9.mp4"
+  },
+  "the-sims-2000": {
+    "spec": "scripts/specs/games/classic_41_the-sims-2000.json",
+    "video": "F:\\AI AGENT\\run_trend17\\videos\\short-cd693ae4.mp4"
   }
 }

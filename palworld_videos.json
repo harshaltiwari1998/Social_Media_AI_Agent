@@ -3635,5 +3635,345 @@
       ],
       "unique": false
     }
+  },
+  "Venusa": {
+    "spec": "scripts/specs/palworld_venusa.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-5b7da389.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Venusa",
+      "caption": "3 ways to breed Venusa in Palworld 1.0: Astegon + Broncherry, Blazamut + Vaelet, Digtoise + Selyne.",
+      "video_script": "Here are three ways to breed Venusa in Palworld one point zero. Combo one: breed Astegon with Broncherry on your Breeding Farm, then add a cake. Combo two: pair Blazamut and Vaelet together, and you get the same egg. Combo three: Digtoise plus Selyne works too, so use whichever Pals you have. Every egg hatches into Venusa. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Astegon",
+        "Broncherry"
+      ],
+      "combos": [
+        [
+          "Astegon",
+          "Broncherry"
+        ],
+        [
+          "Blazamut",
+          "Vaelet"
+        ],
+        [
+          "Digtoise",
+          "Selyne"
+        ]
+      ],
+      "child": "Venusa",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Majex": {
+    "spec": "scripts/specs/palworld_majex.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-b49fb633.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Majex",
+      "caption": "3 ways to breed Majex in Palworld 1.0: Anubis + Digtoise, Eidrolon + Petallia, Kitsun + Selyne.",
+      "video_script": "Here are three ways to breed Majex in Palworld one point zero. Combo one: breed Anubis with Digtoise on your Breeding Farm, then add a cake. Combo two: pair Eidrolon and Petallia together, and you get the same egg. Combo three: Kitsun plus Selyne works too, so use whichever Pals you have. Every egg hatches into Majex. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Anubis",
+        "Digtoise"
+      ],
+      "combos": [
+        [
+          "Anubis",
+          "Digtoise"
+        ],
+        [
+          "Eidrolon",
+          "Petallia"
+        ],
+        [
+          "Kitsun",
+          "Selyne"
+        ]
+      ],
+      "child": "Majex",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
+  },
+  "Loomen": {
+    "spec": "scripts/specs/palworld_loomen.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-7bbea355.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Loomen",
+      "caption": "3 ways to breed Loomen in Palworld 1.0: Blazamut + Broncherry, Selyne + Vaelet, Digtoise + Eidrolon.",
+      "video_script": "Here are three ways to breed Loomen in Palworld one point zero. Combo one: breed Blazamut with Broncherry on your Breeding Farm, then add a cake. Combo two: pair Selyne and Vaelet together, and you get the same egg. Combo three: Digtoise plus Eidrolon works too, so use whichever Pals you have. Every egg hatches into Loomen. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Blazamut",
+        "Broncherry"
+      ],
+      "combos": [
+        [
+          "Blazamut",
+          "Broncherry"
+        ],
+        [
+          "Selyne",
+          "Vaelet"
+        ],
+        [
+          "Digtoise",
+          "Eidrolon"
+        ]
+      ],
+      "child": "Loomen",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
+  },
+  "Lapiron": {
+    "spec": "scripts/specs/palworld_lapiron.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-6f449110.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Lapiron",
+      "caption": "3 ways to breed Lapiron in Palworld 1.0: Broncherry + Pyrin, Depresso + Selyne, Jormuntide + Killamari.",
+      "video_script": "Here are three ways to breed Lapiron in Palworld one point zero. Combo one: breed Broncherry with Pyrin on your Breeding Farm, then add a cake. Combo two: pair Depresso and Selyne together, and you get the same egg. Combo three: Jormuntide plus Killamari works too, so use whichever Pals you have. Every egg hatches into Lapiron. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Broncherry",
+        "Pyrin"
+      ],
+      "combos": [
+        [
+          "Broncherry",
+          "Pyrin"
+        ],
+        [
+          "Depresso",
+          "Selyne"
+        ],
+        [
+          "Jormuntide",
+          "Killamari"
+        ]
+      ],
+      "child": "Lapiron",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
+  },
+  "Carnibora": {
+    "spec": "scripts/specs/palworld_carnibora.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-d0f2f8f0.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Carnibora",
+      "caption": "3 ways to breed Carnibora in Palworld 1.0: Kitsun + Petallia, Mau + Selyne, Helzephyr + Univolt.",
+      "video_script": "Here are three ways to breed Carnibora in Palworld one point zero. Combo one: breed Kitsun with Petallia on your Breeding Farm, then add a cake. Combo two: pair Mau and Selyne together, and you get the same egg. Combo three: Helzephyr plus Univolt works too, so use whichever Pals you have. Every egg hatches into Carnibora. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Kitsun",
+        "Petallia"
+      ],
+      "combos": [
+        [
+          "Kitsun",
+          "Petallia"
+        ],
+        [
+          "Mau",
+          "Selyne"
+        ],
+        [
+          "Helzephyr",
+          "Univolt"
+        ]
+      ],
+      "child": "Carnibora",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Ragnahawk": {
+    "spec": "scripts/specs/palworld_ragnahawk.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-cc952e16.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Ragnahawk",
+      "caption": "3 ways to breed Ragnahawk in Palworld 1.0: Menasting + Sootseer, Beakon + Blazamut, Jormuntide + Prixter.",
+      "video_script": "Here are three ways to breed Ragnahawk in Palworld one point zero. Combo one: breed Menasting with Sootseer on your Breeding Farm, then add a cake. Combo two: pair Beakon and Blazamut together, and you get the same egg. Combo three: Jormuntide plus Prixter works too, so use whichever Pals you have. Every egg hatches into Ragnahawk. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Menasting",
+        "Sootseer"
+      ],
+      "combos": [
+        [
+          "Menasting",
+          "Sootseer"
+        ],
+        [
+          "Beakon",
+          "Blazamut"
+        ],
+        [
+          "Jormuntide",
+          "Prixter"
+        ]
+      ],
+      "child": "Ragnahawk",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Cryolinx": {
+    "spec": "scripts/specs/palworld_cryolinx.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-8beb6013.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Cryolinx",
+      "caption": "3 ways to breed Cryolinx in Palworld 1.0: Petallia + Selyne, Jormuntide + Vaelet, Blazamut + Kitsun.",
+      "video_script": "Here are three ways to breed Cryolinx in Palworld one point zero. Combo one: breed Petallia with Selyne on your Breeding Farm, then add a cake. Combo two: pair Jormuntide and Vaelet together, and you get the same egg. Combo three: Blazamut plus Kitsun works too, so use whichever Pals you have. Every egg hatches into Cryolinx. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Petallia",
+        "Selyne"
+      ],
+      "combos": [
+        [
+          "Petallia",
+          "Selyne"
+        ],
+        [
+          "Jormuntide",
+          "Vaelet"
+        ],
+        [
+          "Blazamut",
+          "Kitsun"
+        ]
+      ],
+      "child": "Cryolinx",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
+  },
+  "Prunelia": {
+    "spec": "scripts/specs/palworld_prunelia.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-8b0d0b2e.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Prunelia",
+      "caption": "3 ways to breed Prunelia in Palworld 1.0: Blazamut + Cawgnito, Petallia + Reptyro, Faleris + Univolt.",
+      "video_script": "Here are three ways to breed Prunelia in Palworld one point zero. Combo one: breed Blazamut with Cawgnito on your Breeding Farm, then add a cake. Combo two: pair Petallia and Reptyro together, and you get the same egg. Combo three: Faleris plus Univolt works too, so use whichever Pals you have. Every egg hatches into Prunelia. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Blazamut",
+        "Cawgnito"
+      ],
+      "combos": [
+        [
+          "Blazamut",
+          "Cawgnito"
+        ],
+        [
+          "Petallia",
+          "Reptyro"
+        ],
+        [
+          "Faleris",
+          "Univolt"
+        ]
+      ],
+      "child": "Prunelia",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
+  },
+  "Dynamoff": {
+    "spec": "scripts/specs/palworld_dynamoff.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-61affbc5.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Dynamoff",
+      "caption": "3 ways to breed Dynamoff in Palworld 1.0: Anubis + Arsox, Fenglope + Wumpo, Selyne + Surfent.",
+      "video_script": "Here are three ways to breed Dynamoff in Palworld one point zero. Combo one: breed Anubis with Arsox on your Breeding Farm, then add a cake. Combo two: pair Fenglope and Wumpo together, and you get the same egg. Combo three: Selyne plus Surfent works too, so use whichever Pals you have. Every egg hatches into Dynamoff. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Anubis",
+        "Arsox"
+      ],
+      "combos": [
+        [
+          "Anubis",
+          "Arsox"
+        ],
+        [
+          "Fenglope",
+          "Wumpo"
+        ],
+        [
+          "Selyne",
+          "Surfent"
+        ]
+      ],
+      "child": "Dynamoff",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
+  },
+  "Leafan": {
+    "spec": "scripts/specs/palworld_leafan.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-eb8fffea.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Leafan",
+      "caption": "3 ways to breed Leafan in Palworld 1.0: Mammorest + Vaelet, Pyrin + Wumpo, Anubis + Tombat.",
+      "video_script": "Here are three ways to breed Leafan in Palworld one point zero. Combo one: breed Mammorest with Vaelet on your Breeding Farm, then add a cake. Combo two: pair Pyrin and Wumpo together, and you get the same egg. Combo three: Anubis plus Tombat works too, so use whichever Pals you have. Every egg hatches into Leafan. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Mammorest",
+        "Vaelet"
+      ],
+      "combos": [
+        [
+          "Mammorest",
+          "Vaelet"
+        ],
+        [
+          "Pyrin",
+          "Wumpo"
+        ],
+        [
+          "Anubis",
+          "Tombat"
+        ]
+      ],
+      "child": "Leafan",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
   }
 }

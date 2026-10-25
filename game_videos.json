@@ -2488,5 +2488,45 @@
   "palworld-guide-pal-souls-statue-of-power": {
     "spec": "scripts/specs/games/palguide_59_pal-souls-statue-of-power.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-9d7d8751.mp4"
+  },
+  "aniimo-change-weather-prismana-crystal": {
+    "spec": "scripts/specs/games/aniimo_58_aniimo-change-weather-prismana-crystal.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-af5d8779.mp4"
+  },
+  "aniimo-ice-element-matchups": {
+    "spec": "scripts/specs/games/aniimo_57_aniimo-ice-element-matchups.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-daf65099.mp4"
+  },
+  "aniimo-wind-element-matchups": {
+    "spec": "scripts/specs/games/aniimo_56_aniimo-wind-element-matchups.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-afeb0df0.mp4"
+  },
+  "aniimo-dark-element-matchups": {
+    "spec": "scripts/specs/games/aniimo_55_aniimo-dark-element-matchups.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-7034f306.mp4"
+  },
+  "aniimo-how-to-get-veilfloat": {
+    "spec": "scripts/specs/games/aniimo_54_aniimo-how-to-get-veilfloat.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-2462a64c.mp4"
+  },
+  "aniimo-how-to-get-magmarex": {
+    "spec": "scripts/specs/games/aniimo_53_aniimo-how-to-get-magmarex.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-a7bbb00a.mp4"
+  },
+  "aniimo-how-to-get-stellarys": {
+    "spec": "scripts/specs/games/aniimo_52_aniimo-how-to-get-stellarys.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-832b66a1.mp4"
+  },
+  "aniimo-how-to-get-turbo": {
+    "spec": "scripts/specs/games/aniimo_51_aniimo-how-to-get-turbo.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-e8f450b4.mp4"
+  },
+  "aniimo-how-to-get-scorchhowl": {
+    "spec": "scripts/specs/games/aniimo_50_aniimo-how-to-get-scorchhowl.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-6237cc6d.mp4"
+  },
+  "aniimo-how-to-get-rookey": {
+    "spec": "scripts/specs/games/aniimo_49_aniimo-how-to-get-rookey.json",
+    "video": "F:\\AI AGENT\\run_pa20\\videos\\short-d29ee65b.mp4"
   }
 }

@@ -1431,8 +1431,8 @@
   "assassins-creed-franchise-history": {
     "spec": "scripts/specs/long/gaming_29_assassins-creed-franchise-history.json",
     "kind": "long",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-dc394bc1.mp4",
-    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-dc394bc1-thumb.jpg",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-4bf51528.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-4bf51528-thumb.jpg",
     "chapters": "0:00 The creed that conquered history\n0:43 From Prince of Persia to Assassin's Creed\n1:32 The Ezio trilogy\n2:15 Revolution and the pirate years\n3:01 Unity, Rogue and Syndicate\n3:51 Origins and the RPG revolution\n4:39 Odyssey and Valhalla\n5:23 Mirage goes back to the roots\n6:05 Shadows arrives in Japan\n6:52 Black Flag comes back\n7:40 Which Assassin's Creed is your favorite"
   },
   "prabhas-safar": {
@@ -2728,8 +2728,8 @@
   "sanjay-leela-bhansali-safar": {
     "spec": "scripts/specs/long/movies_19_sanjay-leela-bhansali-safar.json",
     "kind": "long",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-4753012b.mp4",
-    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-4753012b-thumb.jpg",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-51132bee.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-51132bee-thumb.jpg",
     "chapters": "0:00 भव्य सिनेमा के जादूगर\n0:36 बचपन और परिवार\n1:11 Vidhu Vinod Chopra के साथ शुरुआत\n1:44 Khamoshi और Hum Dil De Chuke Sanam\n2:20 Devdas: भव्यता की नई मिसाल\n2:55 Black: एक अलग तरह की कहानी\n3:33 Producer के तौर पर और Ram-Leela\n4:15 Bajirao Mastani: सपने का पूरा होना\n5:02 Padmaavat से Gangubai Kathiawadi तक\n5:45 Heeramandi और Love & War\n6:25 आपकी राय"
   },
   "palworld-sealed-realms-guide": {
@@ -2823,5 +2823,9 @@
   "palworld-guide-status-points-weight": {
     "spec": "scripts/specs/games/palguide_61_status-points-weight.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-4532dc1d.mp4"
+  },
+  "palworld-guide-where-to-find-wumpo": {
+    "spec": "scripts/specs/games/palguide_62_where-to-find-wumpo.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-d7855702.mp4"
   }
 }

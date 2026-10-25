@@ -1431,8 +1431,8 @@
   "assassins-creed-franchise-history": {
     "spec": "scripts/specs/long/gaming_29_assassins-creed-franchise-history.json",
     "kind": "long",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-3fa75062.mp4",
-    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-3fa75062-thumb.jpg",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-2811494d.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-2811494d-thumb.jpg",
     "chapters": "0:00 The creed that conquered history\n0:43 From Prince of Persia to Assassin's Creed\n1:32 The Ezio trilogy\n2:15 Revolution and the pirate years\n3:01 Unity, Rogue and Syndicate\n3:51 Origins and the RPG revolution\n4:39 Odyssey and Valhalla\n5:23 Mirage goes back to the roots\n6:05 Shadows arrives in Japan\n6:52 Black Flag comes back\n7:40 Which Assassin's Creed is your favorite"
   },
   "prabhas-safar": {
@@ -2728,8 +2728,8 @@
   "sanjay-leela-bhansali-safar": {
     "spec": "scripts/specs/long/movies_19_sanjay-leela-bhansali-safar.json",
     "kind": "long",
-    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-eee09444.mp4",
-    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-eee09444-thumb.jpg",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-7597830d.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-7597830d-thumb.jpg",
     "chapters": "0:00 भव्य सिनेमा के जादूगर\n0:36 बचपन और परिवार\n1:11 Vidhu Vinod Chopra के साथ शुरुआत\n1:44 Khamoshi और Hum Dil De Chuke Sanam\n2:20 Devdas: भव्यता की नई मिसाल\n2:55 Black: एक अलग तरह की कहानी\n3:33 Producer के तौर पर और Ram-Leela\n4:15 Bajirao Mastani: सपने का पूरा होना\n5:02 Padmaavat से Gangubai Kathiawadi तक\n5:45 Heeramandi और Love & War\n6:25 आपकी राय"
   },
   "palworld-sealed-realms-guide": {
@@ -3347,5 +3347,26 @@
         }
       ]
     }
+  },
+  "halo-franchise-history": {
+    "spec": "scripts/specs/long/gaming_35_halo-franchise-history.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-8585fce9.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-8585fce9-thumb.jpg",
+    "chapters": "0:00 Finish the fight\n0:41 Bungie and the Xbox launch\n1:29 Halo 2 and online console gaming\n2:12 Halo 3 and the peak\n2:53 343 Industries takes over\n3:36 The Master Chief Collection\n4:25 Halo Infinite\n5:08 A franchise bigger than games\n5:50 Halo Studios and Unreal Engine\n6:27 Campaign Evolved and your Halo"
+  },
+  "aniimo-complete-beginner-guide": {
+    "spec": "scripts/specs/long/gaming_36_aniimo-complete-beginner-guide.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-01938372.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-01938372-thumb.jpg",
+    "chapters": "0:00 Welcome to Idyll\n0:39 Release, platforms and price\n1:23 Choose your starter\n2:03 Twining: the signature mechanic\n2:43 How to catch Aniimo\n3:20 Roles and elements in combat\n4:02 Eggs and the Hatchinator\n4:41 Your Homeland and your RV\n5:21 Branches, bosses and exploration\n6:00 Multiplayer and Egg Heist\n6:39 Ready to become a Pathfinder"
+  },
+  "salman-khan-safar": {
+    "spec": "scripts/specs/long/movies_18_salman-khan-safar.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-7cb85056.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-7cb85056-thumb.jpg",
+    "chapters": "0:00 Bollywood के Bhai की कहानी\n0:33 बचपन और फिल्मी परिवार\n1:10 Biwi Ho To Aisi से Maine Pyar Kiya तक\n1:51 Hum Aapke Hain Koun का दौर\n2:26 Sanjay Leela Bhansali और नई पहचान\n3:03 Wanted से वापसी\n3:38 Dabangg और Eid की परंपरा\n4:19 Bajrangi Bhaijaan: दिल जीतने वाली film\n5:03 उतार चढ़ाव और नया दौर\n5:46 Bigg Boss, Being Human और नई films\n6:30 आपकी राय"
   }
 }

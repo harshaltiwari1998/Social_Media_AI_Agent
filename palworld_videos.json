@@ -4077,5 +4077,39 @@
       ],
       "unique": false
     }
+  },
+  "Bakemi": {
+    "spec": "scripts/specs/palworld_bakemi.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-8738c7ea.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Bakemi",
+      "caption": "3 ways to breed Bakemi in Palworld 1.0: Digtoise + Prixter, Blazehowl + Petallia, Eikthyrdeer + Selyne.",
+      "video_script": "Here are three ways to breed Bakemi in Palworld one point zero. Combo one: breed Digtoise with Prixter on your Breeding Farm, then add a cake. Combo two: pair Blazehowl and Petallia together, and you get the same egg. Combo three: Eikthyrdeer plus Selyne works too, so use whichever Pals you have. Every egg hatches into Bakemi. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Digtoise",
+        "Prixter"
+      ],
+      "combos": [
+        [
+          "Digtoise",
+          "Prixter"
+        ],
+        [
+          "Blazehowl",
+          "Petallia"
+        ],
+        [
+          "Eikthyrdeer",
+          "Selyne"
+        ]
+      ],
+      "child": "Bakemi",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
   }
 }

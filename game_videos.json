@@ -3460,5 +3460,44 @@
   "the-sims-2000": {
     "spec": "scripts/specs/games/classic_41_the-sims-2000.json",
     "video": "F:\\AI AGENT\\run_trend17\\videos\\short-cd693ae4.mp4"
+  },
+  "aniimo-every-element-explained": {
+    "spec": "scripts/specs/long/gaming_46_aniimo-every-element-explained.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-a4a77776.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-a4a77776-thumb.jpg",
+    "chapters": "0:00 Why elements matter\n0:44 The nine elements\n1:31 Three numbers and no immunities\n2:20 The offense chart, part one\n3:07 The offense chart, part two\n3:41 Resistances and the Dark exception\n4:27 Dual elements stack\n5:16 Prismana forms and changing types\n5:53 Building a team without holes\n6:37 Check the in game chart\n7:20 Which element do you main"
+  },
+  "aniimo-gracewing-healer-guide": {
+    "spec": "scripts/specs/games/aniimo_40_aniimo-gracewing-healer-guide.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-850059c4.mp4"
+  },
+  "aniimo-how-to-get-flamerion": {
+    "spec": "scripts/specs/games/aniimo_41_aniimo-how-to-get-flamerion.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-3ad19091.mp4"
+  },
+  "aniimo-how-to-get-irisal": {
+    "spec": "scripts/specs/games/aniimo_42_aniimo-how-to-get-irisal.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b7896171.mp4"
+  },
+  "aniimo-helmut-snowfield-form": {
+    "spec": "scripts/specs/games/aniimo_46_aniimo-helmut-snowfield-form.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-9a50f664.mp4"
+  },
+  "aniimo-chirpi-evolution-branches": {
+    "spec": "scripts/specs/games/aniimo_48_aniimo-chirpi-evolution-branches.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-9a2df66d.mp4"
+  },
+  "palworld-guide-digtoise": {
+    "spec": "scripts/specs/games/palguide_68_digtoise.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-205460d8.mp4"
+  },
+  "palworld-guide-broncherry": {
+    "spec": "scripts/specs/games/palguide_69_broncherry.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-12ebaf7d.mp4"
+  },
+  "palworld-guide-rayhound": {
+    "spec": "scripts/specs/games/palguide_70_rayhound.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-55fdcd13.mp4"
   }
 }

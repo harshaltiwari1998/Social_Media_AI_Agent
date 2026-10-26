@@ -7,21 +7,21 @@
   "video_script": "Pokemon Go has a funny origin. On April first, twenty fourteen, Google Maps ran a prank called the Pokemon Challenge, where you could catch Pokemon on the map. Engineer Tatsuo Nomura led it, and later directed Pokemon Go at Niantic. The game launched on July sixth, twenty sixteen, and Guinness said it was the fastest mobile game to earn one hundred million dollars, in just twenty days. Did you catch them all? Comment below!",
   "scenes": [
     {
-      "image": "wiki:Pokémon Go",
+      "image": "wikifile:Nintendo-Niantic-Pokemon-Go-Plus-wStrap.jpg",
       "label": "Pokemon Go (2016)"
     },
     {
-      "image": "wiki:Niantic, Inc.",
+      "image": "wikifile:John Hanke by Gage Skidmore.jpg",
       "fact": "April Fools 2014",
       "sub": "Google Maps Pokemon Challenge"
     },
     {
-      "image": "wiki:Pokémon Go",
+      "image": "wikifile:Pokémon Go map.png",
       "fact": "July 6, 2016",
       "sub": "Launch day"
     },
     {
-      "image": "wiki:Pokémon Go",
+      "image": "wikifile:Pokemon go fest.jpg",
       "fact": "$100M in 20 days",
       "sub": "Guinness World Record"
     }

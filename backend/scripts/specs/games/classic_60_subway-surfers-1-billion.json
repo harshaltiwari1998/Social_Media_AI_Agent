@@ -7,21 +7,21 @@
   "video_script": "Subway Surfers launched on May twenty fourth, twenty twelve, built by Danish studios Kiloo and SYBO Games. You play Jake, a graffiti kid running from the Inspector and his dog. In March twenty eighteen it became the first game ever to pass one billion downloads on Google Play, and it hit two billion two months later. Which character did you pick? Comment below!",
   "scenes": [
     {
-      "image": "wiki:Subway Surfers",
+      "image": "wikifile:Subway Surfers gameplay.png",
       "label": "Subway Surfers (2012)"
     },
     {
-      "image": "wiki:Subway Surfers",
+      "image": "wikifile:Subway Surfers gameplay.png",
       "fact": "Kiloo and SYBO",
       "sub": "Danish studios, May 2012"
     },
     {
-      "image": "wiki:Subway Surfers",
+      "image": "wikifile:Subway Surfers gameplay.png",
       "fact": "Run, Jake!",
       "sub": "Escape the Inspector and his dog"
     },
     {
-      "image": "wiki:Subway Surfers",
+      "image": "wikifile:Subway Surfers gameplay.png",
       "fact": "1 billion",
       "sub": "First game on Google Play, March 2018"
     }

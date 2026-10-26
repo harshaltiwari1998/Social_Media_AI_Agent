@@ -48,7 +48,6 @@
       "script": "Next came the cartridge. The Atari 2600 was released around September nineteen seventy seven as the Atari Video Computer System. It popularised microprocessor based hardware and games stored on swappable ROM cartridges, a format first used by the Fairchild Channel F in nineteen seventy six. The system came with two joysticks and a game cartridge, and Atari renamed it the Atari 2600 in November nineteen eighty two. Swappable games changed everything. Instead of owning a machine that did one thing, you could buy a new game and have a whole new experience. That business model, selling the console and then selling the games, is still how the industry works, and Atari helped turn gaming into a mainstream family hobby.",
       "images": [
         "wiki:Atari 2600",
-        "wiki:Atari",
         "wiki:Magnavox Odyssey"
       ]
     },
@@ -65,9 +64,9 @@
       "heading": "PlayStation changes the game",
       "script": "In nineteen ninety four a new player entered the arena. The Sony PlayStation was released in Japan on December third, nineteen ninety four, then in North America on September ninth, nineteen ninety five, and in Europe on September twenty ninth that year. It competed with the Nintendo sixty four and the Sega Saturn. The PlayStation used discs instead of cartridges, which made games cheaper to produce and let developers add video and music. Nintendo's console arrived in Japan on June twenty third, nineteen ninety six, and in North America on September twenty ninth that year. Sega's Dreamcast came in Japan on November twenty seventh, nineteen ninety eight, as the last home console Sega ever made. The stage was set for Sony to become a giant.",
       "images": [
-        "wiki:PlayStation (console)",
-        "wiki:Nintendo 64",
-        "wiki:Dreamcast"
+        "wikifile:PSX-Console-wController.png",
+        "wikifile:N64-Console-Set.png",
+        "wikifile:Dreamcast-Console-Set.png"
       ]
     },
     {
@@ -76,7 +75,7 @@
       "images": [
         "wiki:PlayStation 2",
         "wiki:GameCube",
-        "wiki:Dreamcast"
+        "wikifile:Dreamcast-Console-Set.png"
       ]
     },
     {
@@ -84,7 +83,7 @@
       "script": "In November two thousand one, a software company decided to build a console. The original Xbox was released by Microsoft on November fifteenth, two thousand one in North America, then in Australia, Europe and Japan in two thousand two. It was the first major American made console since the Atari Jaguar in nineteen ninety three, and it competed with the PlayStation Two and the GameCube. The Xbox set Microsoft up for the next generation. That later generation included the Xbox three sixty, which Microsoft officially unveiled on May twelfth, two thousand five, in a special program called Xbox The Next Generation Revealed. From then on, the console market had three major players.",
       "images": [
         "wiki:Xbox (console)",
-        "wiki:Xbox 360",
+        "wikifile:Xbox-360-Pro-wController.jpg",
         "wiki:PlayStation 2"
       ]
     },
@@ -94,14 +93,14 @@
       "images": [
         "wiki:Wii",
         "wiki:Wii Sports",
-        "wiki:Xbox 360"
+        "wikifile:Xbox-360-Pro-wController.jpg"
       ]
     },
     {
       "heading": "The Nintendo Switch era",
       "script": "The Nintendo Switch launched worldwide on March third, two thousand seventeen. It is a hybrid, so you can play it on a television, as a tablet, or as a handheld. In early twenty twenty six, Nintendo reported that as of December thirty first, twenty twenty five, the Switch had sold one hundred fifty five point three seven million units, passing the Nintendo DS at one hundred fifty four point zero two million, to become the best selling Nintendo console ever, as reported by Game Informer and Nintendo Life. That still left it a few million units behind the PlayStation Two. The hybrid idea clearly struck a chord with players around the world.",
       "images": [
-        "wiki:Nintendo Switch",
+        "wikifile:Nintendo-Switch-Console-Docked-wJoyConRB.jpg",
         "wiki:Nintendo DS",
         "wiki:Wii"
       ]
@@ -111,8 +110,7 @@
       "script": "The current generation arrived in November two thousand twenty. The Xbox Series X and Series S were released on November tenth, and the PlayStation Five launched on November twelfth in several regions, and worldwide a week later. Both belong to the ninth generation of consoles. Then, on June fifth, two thousand twenty five, Nintendo launched the Switch Two, with a larger display, more storage and the new Joy Con Two controllers that can act like a mouse. Nintendo reported that the Switch Two had sold seventeen point three million units as of December thirty first, twenty twenty five, and forecast it would pass nineteen million by the end of its fiscal year. A new age of hybrid play is here.",
       "images": [
         "wiki:PlayStation 5",
-        "wiki:Xbox Series X and Series S",
-        "wiki:Nintendo Switch 2"
+        "wikifile:Nintendo Switch 2 20250605 HOF4745 RAW-Export (cropped).png"
       ]
     },
     {
@@ -121,7 +119,7 @@
       "images": [
         "wiki:Nintendo Entertainment System",
         "wiki:PlayStation 2",
-        "wiki:Nintendo Switch"
+        "wikifile:Nintendo-Switch-Console-Docked-wJoyConRB.jpg"
       ]
     }
   ]

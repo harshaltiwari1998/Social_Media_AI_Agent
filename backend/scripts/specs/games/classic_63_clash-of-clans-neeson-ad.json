@@ -7,16 +7,16 @@
   "video_script": "Clash of Clans comes from Supercell, a studio based in Helsinki, Finland. It came out on iOS on August second, twenty twelve, and on Android on October seventh, twenty thirteen. In February twenty fifteen, Supercell ran a Super Bowl ad where Liam Neeson parodies his Taken role, furious that his village got raided. YouTube viewers ranked it the second best ad of that Super Bowl. Which Town Hall are you? Comment below!",
   "scenes": [
     {
-      "image": "wiki:Clash of Clans",
+      "image": "wikifile:Clash of Clans gameplay.jpg",
       "label": "Clash of Clans"
     },
     {
-      "image": "wiki:Supercell (company)",
+      "image": "wikifile:Supercell Headquarters 4.jpg",
       "fact": "Supercell",
       "sub": "Helsinki, Finland"
     },
     {
-      "image": "wiki:Clash of Clans",
+      "image": "wikifile:Clash of Clans gameplay.jpg",
       "fact": "Aug 2, 2012",
       "sub": "iOS launch"
     },

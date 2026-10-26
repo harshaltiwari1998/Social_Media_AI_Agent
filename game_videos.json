@@ -3531,5 +3531,40 @@
   "aniimo-how-to-get-fenmane": {
     "spec": "scripts/specs/games/aniimo_59_aniimo-how-to-get-fenmane.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-4b60bfd0.mp4"
+  },
+  "palworld-best-mounts-guide": {
+    "spec": "scripts/specs/long/gaming_56_palworld-best-mounts-guide.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-6ae67f6a.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-6ae67f6a-thumb.jpg",
+    "chapters": "0:00 Why mounts matter\n0:49 How saddles work\n1:41 Your first ground mount\n2:12 Crossing the water\n2:57 First wings: Nitewing and Vanwyrm\n3:34 Mid game flyers\n4:09 Jetragon, the speed king\n4:41 Late game ground kings\n5:24 Speed passives that stack\n6:08 Your mount plan"
+  },
+  "aniimo-how-to-get-grizbo": {
+    "spec": "scripts/specs/games/aniimo_60_aniimo-how-to-get-grizbo.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e6091572.mp4"
+  },
+  "aniimo-how-to-get-nighttime-susuta": {
+    "spec": "scripts/specs/games/aniimo_61_aniimo-how-to-get-nighttime-susuta.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-6cf81ee4.mp4"
+  },
+  "aniimo-susuta-evolution-line": {
+    "spec": "scripts/specs/games/aniimo_62_aniimo-susuta-evolution-line.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-3b3030e6.mp4"
+  },
+  "aniimo-how-to-get-melloblum": {
+    "spec": "scripts/specs/games/aniimo_63_aniimo-how-to-get-melloblum.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-bd6723d8.mp4"
+  },
+  "aniimo-how-to-get-thornblade": {
+    "spec": "scripts/specs/games/aniimo_64_aniimo-how-to-get-thornblade.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-91954abd.mp4"
+  },
+  "palworld-guide-mossanda-verdant-brook": {
+    "spec": "scripts/specs/games/palguide_79_mossanda-verdant-brook.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5c2bb0c5.mp4"
+  },
+  "palworld-guide-robinquill-archer-worker": {
+    "spec": "scripts/specs/games/palguide_80_robinquill-archer-worker.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-cd5f765c.mp4"
   }
 }

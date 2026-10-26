@@ -4145,5 +4145,107 @@
       ],
       "unique": false
     }
+  },
+  "Braloha": {
+    "spec": "scripts/specs/palworld_braloha.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5e75857f.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Braloha",
+      "caption": "3 ways to breed Braloha in Palworld 1.0: Cryolinx + Majex, Quivern + Wumpo, Blazamut + Vanwyrm.",
+      "video_script": "Here are three ways to breed Braloha in Palworld one point zero. Combo one: breed Cryolinx with Majex on your Breeding Farm, then add a cake. Combo two: pair Quivern and Wumpo together, and you get the same egg. Combo three: Blazamut plus Vanwyrm works too, so use whichever Pals you have. Every egg hatches into Braloha. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Cryolinx",
+        "Majex"
+      ],
+      "combos": [
+        [
+          "Cryolinx",
+          "Majex"
+        ],
+        [
+          "Quivern",
+          "Wumpo"
+        ],
+        [
+          "Blazamut",
+          "Vanwyrm"
+        ]
+      ],
+      "child": "Braloha",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Lapure": {
+    "spec": "scripts/specs/palworld_lapure.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-58939a37.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Lapure",
+      "caption": "3 ways to breed Lapure in Palworld 1.0: Anubis + Menasting, Jormuntide + Majex, Dualith + Relaxaurus.",
+      "video_script": "Here are three ways to breed Lapure in Palworld one point zero. Combo one: breed Anubis with Menasting on your Breeding Farm, then add a cake. Combo two: pair Jormuntide and Majex together, and you get the same egg. Combo three: Dualith plus Relaxaurus works too, so use whichever Pals you have. Every egg hatches into Lapure. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Anubis",
+        "Menasting"
+      ],
+      "combos": [
+        [
+          "Anubis",
+          "Menasting"
+        ],
+        [
+          "Jormuntide",
+          "Majex"
+        ],
+        [
+          "Dualith",
+          "Relaxaurus"
+        ]
+      ],
+      "child": "Lapure",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
+  },
+  "Aegidron": {
+    "spec": "scripts/specs/palworld_aegidron.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-c360de8d.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Aegidron",
+      "caption": "3 ways to breed Aegidron in Palworld 1.0: Orserk + Shaolong, Dandilord + Panthalus, Hartalis + Silvance.",
+      "video_script": "Here are three ways to breed Aegidron in Palworld one point zero. Combo one: breed Orserk with Shaolong on your Breeding Farm, then add a cake. Combo two: pair Dandilord and Panthalus together, and you get the same egg. Combo three: Hartalis plus Silvance works too, so use whichever Pals you have. Every egg hatches into Aegidron. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Orserk",
+        "Shaolong"
+      ],
+      "combos": [
+        [
+          "Orserk",
+          "Shaolong"
+        ],
+        [
+          "Dandilord",
+          "Panthalus"
+        ],
+        [
+          "Hartalis",
+          "Silvance"
+        ]
+      ],
+      "child": "Aegidron",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
   }
 }

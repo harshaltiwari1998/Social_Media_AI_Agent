@@ -3566,5 +3566,9 @@
   "palworld-guide-robinquill-archer-worker": {
     "spec": "scripts/specs/games/palguide_80_robinquill-archer-worker.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-cd5f765c.mp4"
+  },
+  "palworld-guide-beegarde-verdant-brook-gatherer": {
+    "spec": "scripts/specs/games/palguide_81_beegarde-verdant-brook-gatherer.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-81a0d494.mp4"
   }
 }

@@ -3499,5 +3499,37 @@
   "palworld-guide-rayhound": {
     "spec": "scripts/specs/games/palguide_70_rayhound.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-55fdcd13.mp4"
+  },
+  "hela-of-mice-magic": {
+    "spec": "scripts/specs/games/new_31_hela-of-mice-magic.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-9d61b0b6.mp4"
+  },
+  "bomberman-1983": {
+    "spec": "scripts/specs/games/classic_50_bomberman-1983.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-18a1d962.mp4"
+  },
+  "prince-of-persia-sands-of-time-2003": {
+    "spec": "scripts/specs/games/classic_51_prince-of-persia-sands-of-time-2003.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-023acafb.mp4"
+  },
+  "pro-evolution-soccer-pes": {
+    "spec": "scripts/specs/games/classic_52_pro-evolution-soccer-pes.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-cd4081b2.mp4"
+  },
+  "mookuthi-amman-2": {
+    "spec": "scripts/specs/movies/movie_new_29_mookuthi-amman-2.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-cd4e189e.mp4"
+  },
+  "jailer-2-373-crore": {
+    "spec": "scripts/specs/movies/movie_review_26_jailer-2-373-crore.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5b75dec3.mp4"
+  },
+  "reel-raja-harishchandra-1913-facts": {
+    "spec": "scripts/specs/movies/reel_63_raja-harishchandra-1913-facts.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-cbf230f6.mp4"
+  },
+  "aniimo-how-to-get-fenmane": {
+    "spec": "scripts/specs/games/aniimo_59_aniimo-how-to-get-fenmane.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-4b60bfd0.mp4"
   }
 }

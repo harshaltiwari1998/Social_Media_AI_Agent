@@ -1,0 +1,45 @@
+{
+  "id": "subway-surfers-1-billion",
+  "slot": "classic",
+  "order": 60,
+  "headline": "Subway Surfers: first to 1 billion",
+  "title": "Subway Surfers Was the First Game With 1 Billion Google Play Downloads | Classic Games",
+  "video_script": "Subway Surfers launched on May twenty fourth, twenty twelve, built by Danish studios Kiloo and SYBO Games. You play Jake, a graffiti kid running from the Inspector and his dog. In March twenty eighteen it became the first game ever to pass one billion downloads on Google Play, and it hit two billion two months later. Which character did you pick? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Subway Surfers",
+      "label": "Subway Surfers (2012)"
+    },
+    {
+      "image": "wiki:Subway Surfers",
+      "fact": "Kiloo and SYBO",
+      "sub": "Danish studios, May 2012"
+    },
+    {
+      "image": "wiki:Subway Surfers",
+      "fact": "Run, Jake!",
+      "sub": "Escape the Inspector and his dog"
+    },
+    {
+      "image": "wiki:Subway Surfers",
+      "fact": "1 billion",
+      "sub": "First game on Google Play, March 2018"
+    }
+  ],
+  "description": "Subway Surfers (Kiloo and SYBO Games, released May 24, 2012) became the first game on Google Play to pass one billion downloads in March 2018 and reached two billion in May 2018.",
+  "hashtags": [
+    "SubwaySurfers",
+    "MobileGames",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Subway Surfers",
+    "SYBO Games",
+    "Kiloo",
+    "Google Play",
+    "mobile games",
+    "endless runner",
+    "gaming facts",
+    "classic games"
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "doom-franchise-history",
+  "category": "gaming",
+  "order": 60,
+  "title": "The History of Doom | From Shareware To The Dark Ages | Gaming History",
+  "description": "The full history of id Software's Doom series: the 1993 shareware release, Doom two, mods, Doom three, the 2016 comeback, Doom Eternal and Doom: The Dark Ages in 2025.",
+  "hashtags": [
+    "Doom",
+    "idSoftware",
+    "Gaming"
+  ],
+  "tags": [
+    "Doom history",
+    "Doom Eternal",
+    "Doom The Dark Ages",
+    "id Software",
+    "John Romero",
+    "John Carmack",
+    "Doom Slayer",
+    "franchise history"
+  ],
+  "thumbnail": {
+    "image": "steam:379720:1",
+    "text": "HISTORY OF DOOM"
+  },
+  "sections": [
+    {
+      "heading": "Rip and tear",
+      "script": "A lone space marine, a shotgun, and an entire army from hell. Doom is one of the most important games ever made, and it still feels fast and loud decades later. It popularized the first person shooter, put shareware on the map, and opened the door for modders around the world. Today, the series is still alive, with the Doom Slayer fighting demons on Mars, in hell, and even in a medieval inspired war. In this video we follow the full history of Doom, from the first shareware episode in nineteen ninety three, through the dark and scary Doom three, to the great comeback in twenty sixteen and the newest chapter, The Dark Ages, in twenty twenty five. Load your biggest gun, because we are going in.",
+      "images": [
+        "steam:2280:0",
+        "steam:2280:1",
+        "steam:2280:2"
+      ]
+    },
+    {
+      "heading": "Id Software and a new engine",
+      "script": "Doom was made by id Software, a small Texas studio led by programmers and designers including John Carmack, John Romero, Adrian Carmack, Kevin Cloud and Tom Hall. Development began in nineteen ninety two, while the team was finishing a prequel to their earlier hit Wolfenstein three D. John Carmack wrote a brand new engine that could draw rooms with different heights, shadows and dark corners. Romero and the others designed the levels, and the team made a moody, metal flavoured horror shooter that felt like nothing else on a personal computer. The idea was simple. You are a marine, the base on Mars has been overrun, and the only way out is through. It was exactly the kind of game that could show what a computer could do.",
+      "images": [
+        "steam:2280:1",
+        "steam:2280:2",
+        "steam:2280:0"
+      ]
+    },
+    {
+      "heading": "The shareware explosion",
+      "script": "On December tenth, nineteen ninety three, id uploaded the first episode of Doom to the internet as shareware. Anyone could copy it for free and share it with friends, and if they liked it, they could order the full game. The plan worked brilliantly. Offices and universities filled with people playing it, and the network multiplayer, which let friends fight each other over a connection, became a sensation. The first game offered eight weapons that all stayed useful, so players constantly switched between them. For years afterward, new games in the same style were not called first person shooters. They were called Doom clones. That tells you how big the impact was. Doom did not invent the genre, but it made the whole world notice it.",
+      "images": [
+        "steam:2280:0",
+        "steam:2280:1"
+      ]
+    },
+    {
+      "heading": "Doom two and the mod era",
+      "script": "Doom two, Hell on Earth, arrived in October nineteen ninety four. It kept the same engine but added new enemies, bigger levels, and the famous Super Shotgun, which many players still call the best weapon in the series. Another big idea was hidden in the game's files. Doom stored its levels, art and sounds in files called WADs, which was short for Where is All the Data. Because they were separate from the engine, fans could create their own levels and even whole new games. Level editors appeared in early nineteen ninety four, and thousands of WADs were made. Some fans who started by modding Doom later became professional designers, which is how the community helped build the games industry itself.",
+      "images": [
+        "steam:2280:2",
+        "steam:2300:0",
+        "steam:2300:1"
+      ]
+    },
+    {
+      "heading": "Doom three goes dark",
+      "script": "After the Quake games, id returned to Doom with a bold new vision. Doom three launched in August two thousand four, powered by the id Tech four engine. It was slower and spookier, with real time shadows, voice acting and a survival horror feel, set on a Mars research base. Players loved the visuals but argued about the flashlight, which could not be used at the same time as your weapons. An expansion called Resurrection of Evil followed in two thousand five, made by Nerve Software, and a BFG Edition collected everything in twenty twelve. Doom three showed that the series could be reinvented, even if some fans missed the speed of the old games. It also showed how far graphics had come since the shareware days.",
+      "images": [
+        "steam:208200:0",
+        "steam:208200:1",
+        "steam:208200:2"
+      ]
+    },
+    {
+      "heading": "The lost years",
+      "script": "The next big game was supposed to be Doom four. It was shown to fans in the late two thousands, but early looks were not warmly received, and some jokingly nicknamed it Call of Doom, because it seemed too close to modern military shooters. Bethesda's marketing chief later said that it was not Doom enough. The project was rebooted after another id game, Rage, did not sell as well as hoped, and the original Doom four was cancelled. In the meantime, a few smaller Doom spin offs appeared on phones, plus Doom Resurrection in two thousand nine. For many fans this was a worrying time, because the most famous shooter series ever seemed to have lost its way. Then, in twenty sixteen, the studio found it.",
+      "images": [
+        "steam:208200:0",
+        "steam:379720:0"
+      ]
+    },
+    {
+      "heading": "Doom roars back",
+      "script": "Doom, simply called Doom, came out on May thirteenth, twenty sixteen. It threw out the slow, cover hiding style of other shooters and brought back the fast and brutal feeling of the original. The Doom Slayer ran, jumped and used glory kills, close up finishing moves that dropped health and ammo, to keep you moving toward the enemy. A heavy metal soundtrack drove the pace. Critics were pleased, and fans felt that Doom had finally come home. After launch, extra multiplayer packs were made free in a big update in July twenty seventeen. The creative director was Hugo Martin, who became a key figure in the series. The game also included a virtual reality spin off, Doom VFR, in twenty seventeen.",
+      "images": [
+        "steam:379720:0",
+        "steam:379720:1",
+        "steam:379720:2"
+      ]
+    },
+    {
+      "heading": "Doom Eternal",
+      "script": "Doom Eternal arrived on March twentieth, twenty twenty, after a delay from the previous year. It asked players to be even better at the game, with a focus on resource juggling. You burned enemies to get armor, chainsawed them for ammo and used the flame belch, and all of this had to be done while jumping and dashing around large arenas. It also pushed the story further, describing the Slayer's long war against hell. The game used a new engine, id Tech seven, and later got a two part expansion called The Ancient Gods in October twenty twenty and March twenty twenty one. Doom Eternal sold very strongly, helped by the timing of its launch, when many people were at home and looking for something to play.",
+      "images": [
+        "steam:782330:0",
+        "steam:782330:1",
+        "steam:782330:2"
+      ]
+    },
+    {
+      "heading": "The Dark Ages",
+      "script": "Doom: The Dark Ages was released on May fifteenth, twenty twenty five. Instead of a space base, it throws the Doom Slayer into a larger, more medieval inspired war. It is a prequel style adventure with a heavier, more grounded combat style, centered on a shield you can use to block and throw. Bethesda said that the game passed three million players, the biggest launch in id Software's history. We need to be careful with that number, because it counts people who played through Game Pass subscriptions as well as buyers, and outside sales estimates were much lower. The Steam player count at launch was also smaller than the peak of Doom Eternal. Even so, it proves that the Slayer still has a loyal army of fans.",
+      "images": [
+        "steam:3017860:0",
+        "steam:3017860:1",
+        "steam:3017860:2"
+      ]
+    },
+    {
+      "heading": "Why Doom lasts",
+      "script": "So why does Doom continue to matter more than thirty years later? Because it is a perfect example of fast, readable design. The weapons are fun, the monsters are easy to understand, and every encounter says one thing: keep moving. Doom also trusted its fans, with mods and community levels that kept the original game alive for decades. It even became a favourite joke, as people tried to run the original game on every strange device they could find. Most importantly, each new Doom has reinvented itself instead of repeating the last one, from horror to speed to a shield and a medieval war. Now we want to hear from you. Which Doom is your favourite, and which weapon is your first choice? Tell us in the comments, and subscribe for more franchise histories.",
+      "images": [
+        "steam:379720:1",
+        "steam:782330:1",
+        "steam:2280:1"
+      ]
+    }
+  ]
+}

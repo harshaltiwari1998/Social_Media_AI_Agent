@@ -1,0 +1,43 @@
+{
+  "id": "diablo-1996",
+  "slot": "classic",
+  "order": 56,
+  "headline": "Diablo",
+  "title": "Diablo Facts | It Was Almost Turn Based | Classic Games",
+  "video_script": "Diablo shipped at the end of nineteen ninety six, made by Condor, later Blizzard North. It was first planned as a turn based game. The team voted for real time combat, and creator David Brevik built a working prototype fast. Multiplayer came late, when a team helped add Battle dot net. Brevik named it after Mount Diablo near his school in California. Warrior, rogue or sorcerer? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Diablo (video game)",
+      "label": "Diablo"
+    },
+    {
+      "image": "wiki:Diablo (video game)",
+      "fact": "1996",
+      "sub": "Condor, later Blizzard North"
+    },
+    {
+      "image": "wiki:Diablo (video game)",
+      "fact": "Turn Based",
+      "sub": "The original plan"
+    },
+    {
+      "image": "wiki:Diablo (video game)",
+      "fact": "Battle.net",
+      "sub": "Added late in development"
+    }
+  ],
+  "description": "Diablo (1996): originally turn based, switched to real time by David Brevik's team, Battle.net added late, named after Mount Diablo in California.",
+  "hashtags": [
+    "Diablo",
+    "Blizzard",
+    "RetroGaming"
+  ],
+  "tags": [
+    "Diablo",
+    "Blizzard North",
+    "David Brevik",
+    "Battle.net",
+    "classic games",
+    "action RPG"
+  ]
+}

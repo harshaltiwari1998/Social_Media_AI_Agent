@@ -1,0 +1,52 @@
+{
+  "id": "418-opening-day",
+  "category": "movies",
+  "slot": "movie_review",
+  "order": 31,
+  "expires": "2026-11-16",
+  "headline": "418: Prashanth Neel ki presented horror film ka opening day",
+  "title": "418 Box Office Day 1 | Telugu Horror | Movie Review Hindi",
+  "video_script": "Prashanth Neel की presentation वाली Telugu horror film 418, 23 October को release हुई. Sacnilk के मुताबिक पहले दिन India net collection 2 करोड़ 65 लाख रुपये रहा. Koimoi ने भी opening day पर 2 करोड़ 65 लाख net बताया. यह Kirtan Nadagouda की पहली film है, जिसे Mythri Movie Makers ने बनाया है, और यह Telugu के साथ Kannada, Tamil और Hindi में आई है. Koimoi के मुताबिक audience reaction mixed से positive रहा. आपने देखी? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:418 (film)",
+      "label": "418 (2026)"
+    },
+    {
+      "image": "wiki:418 (film)",
+      "fact": "2.65 crore",
+      "sub": "India net, Day 1 - Sacnilk, 23 October"
+    },
+    {
+      "image": "wiki:418 (film)",
+      "fact": "2.65 crore",
+      "sub": "India net, Day 1 - Koimoi"
+    },
+    {
+      "image": "wiki:418 (film)",
+      "fact": "Kirtan Nadagouda",
+      "sub": "Debut director, Mythri Movie Makers"
+    },
+    {
+      "image": "wiki:418 (film)",
+      "fact": "4 bhasha",
+      "sub": "Telugu, Kannada, Tamil, Hindi"
+    }
+  ],
+  "description": "418 (Telugu horror, presented by Prashanth Neel, director Kirtan Nadagouda) ka opening day report: Sacnilk aur Koimoi dono ke mutabiq India net 2.65 crore.",
+  "hashtags": [
+    "418Movie",
+    "TeluguHorror",
+    "BoxOffice"
+  ],
+  "tags": [
+    "418",
+    "418 box office",
+    "Prashanth Neel",
+    "Kirtan Nadagouda",
+    "Telugu horror",
+    "Mythri Movie Makers",
+    "Sacnilk",
+    "Koimoi"
+  ]
+}

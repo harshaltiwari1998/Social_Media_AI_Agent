@@ -1,0 +1,52 @@
+{
+  "id": "clayface-opening",
+  "category": "movies",
+  "slot": "movie_review",
+  "order": 34,
+  "expires": "2026-11-16",
+  "headline": "Clayface: DC ki horror film ka opening weekend",
+  "title": "Clayface Opening Weekend | DC Studios | Movie Review Hindi",
+  "video_script": "DC Studios की horror film Clayface, 23 October को release हुई. 25 October तक studio estimates के मुताबिक North America में पहले weekend की कमाई करीब 24 million dollar रही, और Hollywood Reporter और TheWrap के मुताबिक worldwide opening करीब 43 million dollar. James Watkins ने इसे डायरेक्ट किया है, और Tom Rhys Harries लीड रोल में हैं. Critics की राय अच्छी है: Rotten Tomatoes पर 75 प्रतिशत positive, और CinemaScore A minus. आपने देखी? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Clayface (film)",
+      "label": "Clayface (2026)"
+    },
+    {
+      "image": "wiki:Clayface (film)",
+      "fact": "24 million dollar",
+      "sub": "North America opening - 25 October estimates"
+    },
+    {
+      "image": "wiki:Clayface (film)",
+      "fact": "43 million dollar",
+      "sub": "Worldwide opening - TheWrap"
+    },
+    {
+      "image": "wiki:Clayface (film)",
+      "fact": "James Watkins",
+      "sub": "Director, Tom Rhys Harries lead"
+    },
+    {
+      "image": "wiki:Clayface (film)",
+      "fact": "75 percent",
+      "sub": "Rotten Tomatoes, CinemaScore A-"
+    }
+  ],
+  "description": "Clayface (DC Studios, director James Watkins) ka opening weekend: North America mein lagbhag 24 million dollar, worldwide 43 million dollar. Rotten Tomatoes par 75 percent positive.",
+  "hashtags": [
+    "Clayface",
+    "DCStudios",
+    "BoxOffice"
+  ],
+  "tags": [
+    "Clayface",
+    "Clayface box office",
+    "DC Studios",
+    "James Watkins",
+    "Tom Rhys Harries",
+    "Hollywood movie",
+    "opening weekend",
+    "movie review Hindi"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "reel-lata-mangeshkar-honours",
+  "category": "movies",
+  "slot": "reel",
+  "order": 69,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Lata Mangeshkar: Bharat Ratna तक का सफर",
+  "title": "Lata Mangeshkar Honours | Queen of Melody | Movie News Hindi",
+  "video_script": "Lata Mangeshkar को Queen of Melody कहा जाता है. उनका career आठ दशकों तक चला. 1989 में उन्हें Dadasaheb Phalke Award मिला, और 2001 में देश का सबसे बड़ा नागरिक सम्मान Bharat Ratna. वो ये सम्मान पाने वाली दूसरी singer थीं, पहली थीं M. S. Subbulakshmi. उनकी आवाज़ आज भी करोड़ों दिलों में बसती है. आपका favourite Lata जी का गाना कौन सा है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Lata Mangeshkar",
+      "label": "Lata Mangeshkar"
+    },
+    {
+      "image": "wiki:Lata Mangeshkar",
+      "fact": "8 दशक",
+      "sub": "का singing career"
+    },
+    {
+      "image": "wiki:Lata Mangeshkar",
+      "fact": "1989",
+      "sub": "Dadasaheb Phalke Award"
+    },
+    {
+      "image": "wiki:Lata Mangeshkar",
+      "fact": "2001",
+      "sub": "Bharat Ratna"
+    }
+  ],
+  "description": "Lata Mangeshkar: Queen of Melody, आठ दशक का career, 1989 में Dadasaheb Phalke Award और 2001 में Bharat Ratna.",
+  "hashtags": [
+    "LataMangeshkar",
+    "BharatRatna",
+    "QueenOfMelody"
+  ],
+  "tags": [
+    "Lata Mangeshkar",
+    "Queen of Melody",
+    "Bharat Ratna",
+    "Dadasaheb Phalke Award",
+    "playback singer",
+    "Bollywood music",
+    "Indian music legends"
+  ]
+}

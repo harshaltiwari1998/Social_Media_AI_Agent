@@ -1,0 +1,43 @@
+{
+  "id": "bomberman-1983",
+  "slot": "classic",
+  "order": 50,
+  "headline": "Bomberman",
+  "title": "Bomberman Facts | The Bomb Game With A Secret Name | Classic Games",
+  "video_script": "Bomberman started in Japan in July nineteen eighty three, made by Hudson Soft. When it came to Europe in nineteen eighty four, it was renamed Eric and the Floaters, to avoid any link to real bombings. Multiplayer arrived in nineteen ninety on the TurboGrafx sixteen with five players, and Saturn Bomberman later let ten friends blast each other. Did you play Bomberman with friends? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Bomberman",
+      "label": "Bomberman"
+    },
+    {
+      "image": "wiki:Bomberman",
+      "fact": "1983",
+      "sub": "Japan, Hudson Soft"
+    },
+    {
+      "image": "wiki:Bomberman",
+      "fact": "Eric and the Floaters",
+      "sub": "Europe's new name, 1984"
+    },
+    {
+      "image": "wiki:Bomberman",
+      "fact": "5 Players",
+      "sub": "TurboGrafx 16, 1990"
+    }
+  ],
+  "description": "Bomberman facts: first released in Japan in July 1983 by Hudson Soft, renamed Eric and the Floaters in Europe in 1984, five player multiplayer in 1990 and ten players in Saturn Bomberman.",
+  "hashtags": [
+    "Bomberman",
+    "HudsonSoft",
+    "RetroGaming"
+  ],
+  "tags": [
+    "Bomberman",
+    "Hudson Soft",
+    "Eric and the Floaters",
+    "classic games",
+    "retro gaming",
+    "Saturn Bomberman"
+  ]
+}

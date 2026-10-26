@@ -1,0 +1,52 @@
+{
+  "id": "cliff-booth-fincher",
+  "category": "movies",
+  "slot": "movie_new",
+  "order": 30,
+  "expires": "2026-11-27",
+  "headline": "Cliff Booth: Brad Pitt aur Fincher ki nayi film",
+  "title": "The Further Mis-Adventures Of Cliff Booth | Brad Pitt David Fincher | IMAX 25 November | Movie News Hindi",
+  "video_script": "Brad Pitt फिर से Cliff Booth बनकर लौट रहे हैं, फ़िल्म The Further Mis-Adventures of Cliff Booth में. इसे David Fincher डायरेक्ट कर रहे हैं और Quentin Tarantino ने स्क्रिप्ट लिखी है. Netflix के मुताबिक फ़िल्म 25 November 2026 से दो हफ़्ते के लिए IMAX थिएटर्स में लगेगी, और फिर 23 December को Netflix पर आएगी. कहानी 1977 की है, यानी Once Upon a Time in Hollywood के आठ साल बाद. आप यह film IMAX में देखेंगे या Netflix पर? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:The Further Mis-Adventures of Cliff Booth",
+      "label": "The Further Mis-Adventures of Cliff Booth"
+    },
+    {
+      "image": "wiki:The Further Mis-Adventures of Cliff Booth",
+      "fact": "25 November 2026",
+      "sub": "IMAX mein do hafte ka run"
+    },
+    {
+      "image": "wiki:The Further Mis-Adventures of Cliff Booth",
+      "fact": "23 December",
+      "sub": "Netflix par premiere"
+    },
+    {
+      "image": "wiki:The Further Mis-Adventures of Cliff Booth",
+      "fact": "Brad Pitt",
+      "sub": "Cliff Booth ke role mein"
+    },
+    {
+      "image": "wiki:The Further Mis-Adventures of Cliff Booth",
+      "fact": "Fincher aur Tarantino",
+      "sub": "Director aur screenplay writer"
+    }
+  ],
+  "description": "Brad Pitt ki The Further Mis-Adventures of Cliff Booth 25 November 2026 se do hafte IMAX mein, phir 23 December ko Netflix par. Director David Fincher, script Quentin Tarantino. Story 1977 ki hai.",
+  "hashtags": [
+    "CliffBooth",
+    "BradPitt",
+    "DavidFincher"
+  ],
+  "tags": [
+    "Cliff Booth",
+    "Brad Pitt",
+    "David Fincher",
+    "Quentin Tarantino",
+    "Netflix",
+    "IMAX",
+    "new movies November 2026",
+    "movie news Hindi"
+  ]
+}

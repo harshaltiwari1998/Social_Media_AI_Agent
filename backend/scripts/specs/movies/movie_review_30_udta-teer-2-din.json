@@ -1,0 +1,52 @@
+{
+  "id": "udta-teer-2-din",
+  "category": "movies",
+  "slot": "movie_review",
+  "order": 30,
+  "expires": "2026-11-16",
+  "headline": "Udta Teer: Ayushmann Khurrana ki spy comedy ka 2 din ka report",
+  "title": "Udta Teer Box Office Day 2 | Ayushmann Khurrana | Movie Review Hindi",
+  "video_script": "Ayushmann Khurrana और Sara Ali Khan की spy comedy Udta Teer, 23 October को release हुई. Sacnilk के मुताबिक 24 October यानी दो दिन में India net collection 11 करोड़ 35 लाख रुपये रहा, जिसमें शनिवार का हिस्सा 7 करोड़ 25 लाख था. Koimoi ने भी दो दिन में 11 करोड़ 35 लाख net बताया, और शनिवार को 77 प्रतिशत की छलांग. Aakash Kaushik की यह पहली film है. Reviews मिले-जुले हैं: Ayushmann की comedy की तारीफ, दूसरे half पर सवाल. आपने देखी? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Udta Teer",
+      "label": "Udta Teer (2026)"
+    },
+    {
+      "image": "wiki:Udta Teer",
+      "fact": "11.35 crore",
+      "sub": "India net, 2 din - Sacnilk, 24 October"
+    },
+    {
+      "image": "wiki:Udta Teer",
+      "fact": "11.35 crore",
+      "sub": "India net, 2 din - Koimoi"
+    },
+    {
+      "image": "wiki:Udta Teer",
+      "fact": "7.25 crore",
+      "sub": "Saturday, 77 percent jump - Koimoi"
+    },
+    {
+      "image": "wiki:Udta Teer",
+      "fact": "Mili-juli reviews",
+      "sub": "Comedy hit, doosra half kamzor"
+    }
+  ],
+  "description": "Udta Teer (Ayushmann Khurrana, Sara Ali Khan, director Aakash Kaushik) ka Day 2 report: Sacnilk aur Koimoi dono ke mutabiq India net 11.35 crore. Reviews mili-juli.",
+  "hashtags": [
+    "UdtaTeer",
+    "AyushmannKhurrana",
+    "BoxOffice"
+  ],
+  "tags": [
+    "Udta Teer",
+    "Udta Teer box office",
+    "Ayushmann Khurrana",
+    "Sara Ali Khan",
+    "Aakash Kaushik",
+    "Bollywood movie",
+    "Sacnilk",
+    "Koimoi"
+  ]
+}

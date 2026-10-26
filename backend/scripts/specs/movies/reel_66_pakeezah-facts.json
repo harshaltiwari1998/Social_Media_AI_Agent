@@ -1,0 +1,50 @@
+{
+  "id": "reel-pakeezah-facts",
+  "category": "movies",
+  "slot": "reel",
+  "order": 66,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Pakeezah: बनने में लगे करीब 15 साल",
+  "title": "Pakeezah Facts | Meena Kumari Ki Classic | Movie News Hindi",
+  "video_script": "Pakeezah 1972 में 4 February को release हुई. Director, writer और producer थे Kamal Amrohi, और lead role में Meena Kumari थीं. इस film को बनने में करीब पंद्रह साल लगे, shooting 1956 में शुरू हुई थी. Music Ghulam Mohammed ने बनाया और Naushad ने उसे पूरा किया, background score भी Naushad का था. आज भी इसके गाने याद किए जाते हैं. आपको कौन सा गाना पसंद है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Pakeezah",
+      "label": "Pakeezah (1972)"
+    },
+    {
+      "image": "wiki:Kamal Amrohi",
+      "fact": "Kamal Amrohi",
+      "sub": "Director, writer, producer"
+    },
+    {
+      "image": "wiki:Meena Kumari",
+      "fact": "Meena Kumari",
+      "sub": "Sahibjaan"
+    },
+    {
+      "image": "wiki:Naushad",
+      "fact": "Naushad",
+      "sub": "Ghulam Mohammed के साथ music"
+    }
+  ],
+  "description": "Pakeezah (1972): Kamal Amrohi की film, Meena Kumari lead में, करीब पंद्रह साल में बनी; music Ghulam Mohammed और Naushad.",
+  "hashtags": [
+    "Pakeezah",
+    "MeenaKumari",
+    "BollywoodFacts"
+  ],
+  "tags": [
+    "Pakeezah",
+    "Meena Kumari",
+    "Kamal Amrohi",
+    "Naushad",
+    "Ghulam Mohammed",
+    "1972 Bollywood",
+    "Bollywood classics",
+    "Bollywood facts"
+  ]
+}

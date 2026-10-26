@@ -1,0 +1,45 @@
+{
+  "id": "among-us-2018",
+  "slot": "classic",
+  "order": 58,
+  "headline": "Among Us: slow start, 2020 boom",
+  "title": "Among Us Came Out in 2018 | Streamers Made It Huge in 2020 | Classic Games",
+  "video_script": "Among Us feels like a 2020 game, but it actually came out in twenty eighteen. Innersloth released it on iOS and Android in June, and on Windows in November. It was inspired by the party game Mafia and the horror film The Thing. At first almost nobody noticed it, until Twitch streamers started playing it in twenty twenty. Were you an Impostor main? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Among Us",
+      "label": "Among Us (2018)"
+    },
+    {
+      "image": "wiki:Among Us",
+      "fact": "June 2018",
+      "sub": "Mobile release, by Innersloth"
+    },
+    {
+      "image": "wiki:The Thing (1982 film)",
+      "fact": "Inspired by The Thing",
+      "sub": "And the party game Mafia"
+    },
+    {
+      "image": "wiki:Among Us",
+      "fact": "2020 boom",
+      "sub": "Twitch streamers made it huge"
+    }
+  ],
+  "description": "Among Us was released by Innersloth in 2018 (mobile in June, Windows in November), inspired by Mafia and the film The Thing, and became hugely popular in 2020 thanks to streamers.",
+  "hashtags": [
+    "AmongUs",
+    "Innersloth",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Among Us",
+    "Innersloth",
+    "Among Us facts",
+    "social deduction",
+    "Twitch",
+    "Impostor",
+    "mobile games",
+    "classic games"
+  ]
+}

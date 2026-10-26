@@ -1,0 +1,129 @@
+{
+  "id": "best-selling-video-games-of-all-time",
+  "category": "gaming",
+  "order": 64,
+  "title": "Best Selling Video Games Of All Time | Tetris, Minecraft, GTA V And More | Gaming Explained",
+  "description": "The best selling video games ever, from the Tetris versus Minecraft debate to GTA V, Red Dead Redemption 2 and Wii Sports, using the Wikipedia list plus publisher reports.",
+  "hashtags": [
+    "Gaming",
+    "Minecraft",
+    "BestSelling"
+  ],
+  "tags": [
+    "best selling video games",
+    "best selling games of all time",
+    "Minecraft sales",
+    "Tetris sales",
+    "GTA V sales",
+    "Wii Sports",
+    "Red Dead Redemption 2",
+    "gaming explained"
+  ],
+  "thumbnail": {
+    "image": "wiki:Minecraft",
+    "text": "BEST SELLING GAMES EVER"
+  },
+  "expires": "2026-12-31",
+  "sections": [
+    {
+      "heading": "Which game has sold the most",
+      "script": "Which video game has sold the most copies of all time? It sounds like a simple question, but the answer starts an argument every time. In this video we count down the best selling video games ever made, using the Wikipedia list of best selling video games as our main guide and checking the biggest numbers against publisher reports and news coverage. We will meet a falling block puzzle, a world made of cubes, a crime epic, a living room sports game and more. A quick warning before we start. There is no official sales chart for video games like there is for movies, so every number you hear is an estimate or a company announcement. Ready? Let us start with the biggest debate in gaming.",
+      "images": [
+        "wiki:Tetris",
+        "wiki:Minecraft",
+        "steam:271590:0"
+      ]
+    },
+    {
+      "heading": "Tetris or Minecraft",
+      "script": "Reliable sources are split on who wears the crown. Wikipedia lists two games in the number one spot. The first is Tetris, the puzzle game created by Alexey Pajitnov in nineteen eighty eight, with about five hundred twenty million sales if you add up every version on every platform. The second is Minecraft from Mojang Studios, listed at over four hundred twenty five million copies in twenty twenty six. Britannica and Forbes treat Tetris as the winner. The BBC, GamesRadar and Guinness World Records treat Minecraft as the best selling single game, because they do not combine hundreds of different Tetris releases into one total. So the fair answer is this. Tetris wins if you count every version together, and Minecraft wins as a single game.",
+      "images": [
+        "wiki:Tetris",
+        "wiki:Minecraft",
+        "wiki:Mojang Studios"
+      ]
+    },
+    {
+      "heading": "Minecraft the block builder",
+      "script": "Minecraft deserves a closer look. It first became public in May two thousand nine as an early version made by Markus Persson, and it was fully released in November two thousand eleven. In October twenty twenty three, Mojang announced that Minecraft had passed three hundred million copies sold, and the BBC and GamesRadar reported it as the first video game to reach that mark. Microsoft had bought Mojang in twenty fourteen for two point five billion dollars. Why does it keep selling? It runs on almost everything, from computers to phones to consoles, and it has no single goal. You can build, explore, survive or just play with friends, and every new generation of kids seems to find it.",
+      "images": [
+        "wiki:Minecraft",
+        "wiki:Markus Persson",
+        "wiki:Mojang Studios"
+      ]
+    },
+    {
+      "heading": "Grand Theft Auto Five",
+      "script": "Now for the closest competitor. Grand Theft Auto Five from Rockstar North launched in twenty thirteen, and Take-Two Interactive reported in May twenty twenty six that it had passed roughly two hundred thirty million copies. That makes it number two on the Wikipedia list, and trade sites such as Game Developer reported the same milestone. Take-Two also says the game keeps selling around five million copies in a quarter, more than a decade after launch, and describes it as the best selling title of the past decade. Part of the secret is Grand Theft Auto Online, which keeps players coming back, and part is that the game has been released again on newer consoles. One note: these are sold in figures, meaning copies shipped to stores and digital shops.",
+      "images": [
+        "steam:271590:0",
+        "steam:271590:1",
+        "wiki:Grand Theft Auto V"
+      ]
+    },
+    {
+      "heading": "Red Dead Redemption Two",
+      "script": "Third place belongs to another Rockstar title. Red Dead Redemption Two arrived in twenty eighteen, and Take-Two reported in May twenty twenty six that it had passed eighty five million copies. Wikipedia lists it at eighty seven million, and Gamereactor reported that it had become the third best selling video game of all time, passing Wii Sports. That is remarkable for a slow, story heavy western that asks you to brush your horse and listen to campfire songs. The game has also had a strong recent year, which shows how long great games can keep selling. If you want the full story of the series, we have a separate video on the history of Red Dead Redemption on this channel.",
+      "images": [
+        "steam:1174180:0",
+        "steam:1174180:1",
+        "wiki:Red Dead Redemption 2"
+      ]
+    },
+    {
+      "heading": "Wii Sports and the single console record",
+      "script": "Next is a game many people forget is a giant. Wii Sports, made by Nintendo, sold nearly eighty three million copies, which is about eighty two point nine million, and it holds the record for the best selling game on a single platform. Most of those sales came because Nintendo bundled it with the Wii console in every region except Japan. Think about that. Millions of families bought a console and a free bowling game came inside the box. Wikipedia lists it fourth, and some sources now rank Red Dead Redemption Two above it. Mario Kart Eight and its Switch version, Mario Kart Eight Deluxe, follow with close to eighty million combined, and the Deluxe edition alone sold over seventy one million copies.",
+      "images": [
+        "wiki:Wii Sports",
+        "wiki:Wii",
+        "wiki:Mario Kart 8 Deluxe"
+      ]
+    },
+    {
+      "heading": "Battle royale, sandbox and big role playing games",
+      "script": "Further down the top ten you find some surprises. PUBG Battlegrounds from Krafton is listed at about seventy five million copies, which helped make the battle royale style a global trend. Terraria, the two dimensional sandbox from Re-Logic, is listed at seventy million, and in May twenty twenty six its developers announced that milestone for the fifteenth anniversary of the game. Then two giant role playing games share a tie at sixty five million each. They are The Elder Scrolls Five Skyrim from Bethesda and The Witcher Three Wild Hunt from CD Projekt Red. Skyrim came out in twenty eleven and Witcher Three in twenty fifteen, and both are still played today, proving that a deep world can sell for a decade.",
+      "images": [
+        "steam:578080:0",
+        "steam:105600:0",
+        "steam:72850:0"
+      ]
+    },
+    {
+      "heading": "The classics and the cozy hits",
+      "script": "The list also honours the old guard and some modern comfort games. Super Mario Bros from nineteen eighty five sits at around fifty eight million copies, tied with the physics puzzle game Human Fall Flat. Animal Crossing New Horizons for the Nintendo Switch sold over fifty million copies after its twenty twenty release. Then comes a three way tie at fifty million on the Wikipedia list between The Sims, Stardew Valley and Overwatch. For Stardew Valley, the developer ConcernedApe has officially announced more than forty million, so the fifty million figure is the one to treat with care. Also on the list are the Pokemon Red, Blue and Yellow games, at about forty seven million copies in total.",
+      "images": [
+        "wiki:Super Mario Bros.",
+        "wiki:Animal Crossing: New Horizons",
+        "steam:413150:0",
+        "wiki:The Sims (video game)"
+      ]
+    },
+    {
+      "heading": "What the list leaves out",
+      "script": "Some famous names are missing, and for good reasons. The mobile game Snake was preinstalled on Nokia phones and is estimated to have shipped on over four hundred million devices, but Wikipedia leaves it out because it was free and bundled, not bought. The list also combines remasters and standard re releases with the original game, but counts remakes as separate games, and it does not add expansions to base games. Free to play giants such as Fortnite do not appear either, because they count players, not sales. And the rankings are not exact, since there is no single tracking source. When two games are tied, the list uses a standard competition ranking, which is why you see ranks like eight and then ten.",
+      "images": [
+        "wiki:Tetris",
+        "wiki:Snake (1998 video game)",
+        "wiki:Fortnite"
+      ]
+    },
+    {
+      "heading": "What the numbers really tell us",
+      "script": "So what can we learn? First, the best sellers are not always the newest. Super Mario Bros and Tetris are decades old, while Terraria and Skyrim are still selling in the twenty twenties. Second, bundling and ports matter. Wii Sports was in the box with a console, and Minecraft is on nearly every device. Third, a game that keeps getting updates and online modes, like Grand Theft Auto Five and Minecraft, can keep selling long after launch. Finally, remember that numbers change. Publishers update them in earnings reports, so the order near the top and bottom may shift by the time you watch this. The big picture, though, stays the same.",
+      "images": [
+        "wiki:Super Mario Bros.",
+        "steam:105600:1",
+        "steam:271590:2"
+      ]
+    },
+    {
+      "heading": "Your pick",
+      "script": "That is our tour of the best selling video games of all time. Tetris and Minecraft share the top spot, Grand Theft Auto Five holds the clear second place, Red Dead Redemption Two and Wii Sports battle for third, and games like Terraria and Stardew Valley prove that a small team can reach a huge audience. Now we want to hear from you. Which game on this list have you played the most, and which game that is missing do you think deserves a place? Tell us in the comments. If you enjoyed this countdown, subscribe to the channel and turn on notifications, because more gaming explainers and history videos are coming every week.",
+      "images": [
+        "wiki:Minecraft",
+        "steam:1174180:2",
+        "wiki:Wii Sports"
+      ]
+    }
+  ]
+}

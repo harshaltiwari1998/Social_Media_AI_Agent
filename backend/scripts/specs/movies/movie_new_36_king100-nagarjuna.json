@@ -1,0 +1,52 @@
+{
+  "id": "king100-nagarjuna",
+  "category": "movies",
+  "slot": "movie_new",
+  "order": 36,
+  "expires": "2026-12-26",
+  "headline": "King100: Nagarjuna ki 100vi film",
+  "title": "King100 Release 24 December | Nagarjuna Ki 100th Film | Movie News Hindi",
+  "video_script": "Nagarjuna की 100वीं film का नाम है King100, और यह 24 December 2026 को worldwide थिएटर्स में आएगी. Title और release date उनके birthday, 29 August को announce हुई. Film को R A Karthik डायरेक्ट कर रहे हैं, जो इससे अपना Telugu directorial debut कर रहे हैं. Annapurna Studios इसे प्रोड्यूस कर रहा है, और Tabu लगभग 28 साल बाद Nagarjuna के साथ दिखेंगी. उसी दिन Shah Rukh Khan की King भी रिलीज़ हो रही है. आप किसे पहले देखेंगे? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Nagarjuna",
+      "label": "King100 (2026)"
+    },
+    {
+      "image": "wiki:Nagarjuna",
+      "fact": "24 December 2026",
+      "sub": "Worldwide release"
+    },
+    {
+      "image": "wiki:Nagarjuna",
+      "fact": "Nagarjuna",
+      "sub": "Unki 100vi film"
+    },
+    {
+      "image": "wiki:Nagarjuna",
+      "fact": "Tabu",
+      "sub": "28 saal baad saath mein"
+    },
+    {
+      "image": "wiki:Nagarjuna",
+      "fact": "Shah Rukh Khan ki King",
+      "sub": "Usi din clash"
+    }
+  ],
+  "description": "Nagarjuna ki 100vi film King100 24 December 2026 ko release hogi. Director R A Karthik, Tabu bhi cast mein. Usi din Shah Rukh Khan ki King se clash.",
+  "hashtags": [
+    "King100",
+    "Nagarjuna",
+    "Tabu"
+  ],
+  "tags": [
+    "King100",
+    "Nagarjuna",
+    "Tabu",
+    "100th film",
+    "Telugu movie",
+    "Annapurna Studios",
+    "new movies December 2026",
+    "movie news Hindi"
+  ]
+}

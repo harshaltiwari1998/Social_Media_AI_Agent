@@ -1,0 +1,48 @@
+{
+  "id": "reel-alam-ara-facts",
+  "category": "movies",
+  "slot": "reel",
+  "order": 64,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Alam Ara (1931): भारत की पहली बोलती film",
+  "title": "Alam Ara Facts | Pehli Bolti Film | Movie News Hindi",
+  "video_script": "1931 की Alam Ara भारत की पहली sound film मानी जाती है. Director और producer थे Ardeshir Irani. ये film 14 March 1931 को Mumbai के Majestic Cinema में release हुई. Dialogue Hindustani भाषा में थे, और भीड़ इतनी थी कि theatre में police बुलानी पड़ी. आज इस film का कोई print मौजूद नहीं है, इसे lost film माना जाता है. आप कौन सी पुरानी film देखना चाहोगे? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Alam Ara",
+      "label": "Alam Ara (1931)"
+    },
+    {
+      "image": "wiki:Ardeshir Irani",
+      "fact": "Ardeshir Irani",
+      "sub": "Director & producer"
+    },
+    {
+      "image": "wiki:Alam Ara",
+      "fact": "14 March 1931",
+      "sub": "Majestic Cinema, Mumbai"
+    },
+    {
+      "image": "wiki:Alam Ara",
+      "fact": "भारत की पहली",
+      "sub": "बोलती film"
+    }
+  ],
+  "description": "Alam Ara (1931): Ardeshir Irani की film, भारत की पहली sound film, 14 March 1931 को Majestic Cinema, Mumbai में release; आज print उपलब्ध नहीं.",
+  "hashtags": [
+    "AlamAra",
+    "ArdeshirIrani",
+    "IndianCinema"
+  ],
+  "tags": [
+    "Alam Ara",
+    "Ardeshir Irani",
+    "first Indian talkie",
+    "1931 film",
+    "Indian cinema history",
+    "Bollywood facts"
+  ]
+}

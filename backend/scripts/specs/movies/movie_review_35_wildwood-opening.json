@@ -1,0 +1,52 @@
+{
+  "id": "wildwood-opening",
+  "category": "movies",
+  "slot": "movie_review",
+  "order": 35,
+  "expires": "2026-11-16",
+  "headline": "Wildwood: Laika ki animated film ka opening weekend",
+  "title": "Wildwood Opening Weekend | Laika | Movie Review Hindi",
+  "video_script": "Laika की animated film Wildwood, 23 October को America में release हुई. 25 October तक studio estimates के मुताबिक North America में पहले weekend की कमाई करीब 11 million 60 लाख dollar रही, और यह box office पर तीसरे नंबर पर रही. Travis Knight ने इसे डायरेक्ट किया है. Reviews शानदार हैं: Rotten Tomatoes पर 100 प्रतिशत critics ने इसे पसंद किया. आपको animated films पसंद हैं? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Wildwood (film)",
+      "label": "Wildwood (2026)"
+    },
+    {
+      "image": "wiki:Wildwood (film)",
+      "fact": "11.6 million dollar",
+      "sub": "North America opening - 25 October estimates"
+    },
+    {
+      "image": "wiki:Wildwood (film)",
+      "fact": "Teesra number",
+      "sub": "Weekend box office chart"
+    },
+    {
+      "image": "wiki:Wildwood (film)",
+      "fact": "Travis Knight",
+      "sub": "Director, Laika studio"
+    },
+    {
+      "image": "wiki:Wildwood (film)",
+      "fact": "100 percent",
+      "sub": "Rotten Tomatoes critics"
+    }
+  ],
+  "description": "Wildwood (Laika, director Travis Knight) ka opening weekend: North America mein lagbhag 11.6 million dollar, weekend mein teesre number par. Rotten Tomatoes par 100 percent critics positive.",
+  "hashtags": [
+    "Wildwood",
+    "Laika",
+    "BoxOffice"
+  ],
+  "tags": [
+    "Wildwood",
+    "Wildwood box office",
+    "Laika",
+    "Travis Knight",
+    "animated movie",
+    "Hollywood movie",
+    "opening weekend",
+    "movie review Hindi"
+  ]
+}

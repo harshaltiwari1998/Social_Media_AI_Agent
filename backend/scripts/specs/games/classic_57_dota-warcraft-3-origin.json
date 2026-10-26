@@ -1,0 +1,45 @@
+{
+  "id": "dota-warcraft-3-origin",
+  "slot": "classic",
+  "order": 57,
+  "headline": "Dota: from a Warcraft 3 mod",
+  "title": "Dota Started as a Warcraft 3 Mod | Eul and IceFrog | Classic Games",
+  "video_script": "Dota did not start as a standalone game. In two thousand three, a modder called Eul released Defense of the Ancients as a custom map for Warcraft Three. It was inspired by an older StarCraft map called Aeon of Strife. Later, Valve hired the map's lead designer, IceFrog, and released Dota Two in July twenty thirteen. Did you play the original Dota? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Defense of the Ancients",
+      "label": "Dota: Defense of the Ancients"
+    },
+    {
+      "image": "wiki:Warcraft III: Reign of Chaos",
+      "fact": "A Warcraft 3 mod",
+      "sub": "Made by Eul, 2003"
+    },
+    {
+      "image": "wiki:Defense of the Ancients",
+      "fact": "Aeon of Strife",
+      "sub": "The StarCraft map that inspired it"
+    },
+    {
+      "image": "wiki:Dota 2",
+      "fact": "Dota 2",
+      "sub": "Valve, July 2013"
+    }
+  ],
+  "description": "Dota began as Defense of the Ancients, a custom map for Warcraft III made by Eul in 2003 and inspired by the StarCraft map Aeon of Strife. Valve later hired lead designer IceFrog and released Dota 2 in July 2013.",
+  "hashtags": [
+    "Dota",
+    "Warcraft3",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Dota",
+    "Dota 2",
+    "Warcraft 3",
+    "Defense of the Ancients",
+    "IceFrog",
+    "Valve",
+    "MOBA",
+    "classic games"
+  ]
+}

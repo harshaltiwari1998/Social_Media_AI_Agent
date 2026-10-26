@@ -1,0 +1,52 @@
+{
+  "id": "train-mysskin-vijay-sethupathi",
+  "category": "movies",
+  "slot": "movie_new",
+  "order": 32,
+  "expires": "2026-12-06",
+  "headline": "Train: Vijay Sethupathi aur Mysskin ki thriller",
+  "title": "Train Release 4 December | Vijay Sethupathi Mysskin Ki Action Thriller | Movie News Hindi",
+  "video_script": "Vijay Sethupathi और director Mysskin की action thriller Train आखिरकार 4 December 2026 को थिएटर्स में आ रही है. Producer Kalaippuli S Thanu ने यह date announce की है, और फ़िल्म को Censor Board से U/A certificate भी मिल चुका है. पहले इसकी release कई बार आगे खिसक चुकी है. Cast में Shruti Haasan, Nassar और Narain भी हैं. आप Vijay Sethupathi की इस film का wait कर रहे थे? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Train (2026 film)",
+      "label": "Train (2026)"
+    },
+    {
+      "image": "wiki:Train (2026 film)",
+      "fact": "4 December 2026",
+      "sub": "Tamil film ki release"
+    },
+    {
+      "image": "wiki:Train (2026 film)",
+      "fact": "Vijay Sethupathi",
+      "sub": "Film ke lead actor"
+    },
+    {
+      "image": "wiki:Train (2026 film)",
+      "fact": "Mysskin",
+      "sub": "Director aur music composer"
+    },
+    {
+      "image": "wiki:Train (2026 film)",
+      "fact": "U/A certificate",
+      "sub": "Censor Board se clear"
+    }
+  ],
+  "description": "Vijay Sethupathi aur Mysskin ki Train 4 December 2026 ko release hogi. Producer Kalaippuli S Thanu ne date announce ki, film ko U/A certificate mil chuka hai.",
+  "hashtags": [
+    "Train",
+    "VijaySethupathi",
+    "Mysskin"
+  ],
+  "tags": [
+    "Train 2026",
+    "Vijay Sethupathi",
+    "Mysskin",
+    "Tamil movie",
+    "action thriller",
+    "Kalaippuli S Thanu",
+    "new movies December 2026",
+    "movie news Hindi"
+  ]
+}

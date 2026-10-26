@@ -1,0 +1,45 @@
+{
+  "id": "candy-crush-king-sale",
+  "slot": "classic",
+  "order": 59,
+  "headline": "Candy Crush: 5.9 billion dollar deal",
+  "title": "Candy Crush Maker Sold for Nearly Six Billion Dollars | Candy Crush Facts | Classic Games",
+  "video_script": "Candy Crush looks simple, but it is a giant. Its maker King launched it in twenty twelve. In November twenty fifteen, Activision Blizzard announced it would buy King for five point nine billion dollars, and the deal closed in February twenty sixteen. King later said the Candy Crush franchise passed twenty billion dollars in lifetime revenue. Which level stopped you? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Candy Crush Saga",
+      "label": "Candy Crush Saga"
+    },
+    {
+      "image": "wiki:King (company)",
+      "fact": "Launched 2012",
+      "sub": "By King"
+    },
+    {
+      "image": "wiki:Candy Crush Saga",
+      "fact": "$5.9 billion",
+      "sub": "Activision Blizzard buys King, 2016"
+    },
+    {
+      "image": "wiki:Candy Crush Saga",
+      "fact": "$20 billion+",
+      "sub": "Franchise lifetime revenue"
+    }
+  ],
+  "description": "Candy Crush Saga launched in 2012. Activision Blizzard announced in November 2015 it would buy King for 5.9 billion dollars, closing in February 2016. King later reported the franchise passed 20 billion dollars in lifetime revenue (September 2023).",
+  "hashtags": [
+    "CandyCrush",
+    "King",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Candy Crush",
+    "Candy Crush Saga",
+    "King",
+    "Activision Blizzard",
+    "mobile games",
+    "gaming facts",
+    "match three",
+    "classic games"
+  ]
+}

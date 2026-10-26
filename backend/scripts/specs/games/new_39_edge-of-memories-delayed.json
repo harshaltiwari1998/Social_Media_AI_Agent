@@ -1,0 +1,43 @@
+{
+  "id": "edge-of-memories-delayed",
+  "slot": "new",
+  "order": 39,
+  "headline": "Edge of Memories December 3",
+  "title": "Edge of Memories Delayed to December 3 | Nacon Action RPG | Gaming News",
+  "video_script": "Edge of Memories has a new date. Nacon and Midgar Studio moved the action RPG from November fifth to December third, for PlayStation 5, Xbox Series and PC. An updated demo is coming to PC in early November. You travel across the continent of Avaris. Will you try the demo? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:2738170:0",
+      "label": "Edge of Memories"
+    },
+    {
+      "image": "steam:2738170:1",
+      "fact": "Delayed to December 3",
+      "sub": "From November 5"
+    },
+    {
+      "image": "steam:2738170:2",
+      "fact": "Updated PC demo",
+      "sub": "Early November"
+    },
+    {
+      "image": "steam:2738170:3",
+      "fact": "Continent of Avaris",
+      "sub": "Action RPG"
+    }
+  ],
+  "description": "Edge of Memories (Nacon / Midgar Studio) moved from November 5 to December 3, 2026 for PS5, Xbox Series and PC; updated PC demo in early November. Sources: Gematsu, Steam store page.",
+  "hashtags": [
+    "EdgeOfMemories",
+    "ActionRPG",
+    "Gaming"
+  ],
+  "tags": [
+    "Edge of Memories",
+    "Edge of Memories delay",
+    "Nacon",
+    "action RPG",
+    "December 2026 games"
+  ],
+  "expires": "2026-12-10"
+}

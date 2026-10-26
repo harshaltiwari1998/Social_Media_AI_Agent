@@ -1,0 +1,43 @@
+{
+  "id": "starcraft-1998",
+  "slot": "classic",
+  "order": 55,
+  "headline": "StarCraft",
+  "title": "StarCraft Facts | From Flop Demo to Korea's Game | Classic Games",
+  "video_script": "StarCraft launched in March nineteen ninety eight from Blizzard. Its first demo at E3 nineteen ninety six was mocked as Warcraft in space, so Blizzard redesigned it around three very different races. In South Korea, PC bang cafes grew from about one hundred in nineteen ninety seven to three thousand in nineteen ninety eight, and pro players became TV stars. Terran, Zerg or Protoss? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:StarCraft (video game)",
+      "label": "StarCraft"
+    },
+    {
+      "image": "wiki:StarCraft (video game)",
+      "fact": "March 1998",
+      "sub": "Blizzard"
+    },
+    {
+      "image": "wiki:StarCraft (video game)",
+      "fact": "Warcraft in Space",
+      "sub": "E3 1996 demo reaction"
+    },
+    {
+      "image": "wiki:StarCraft (video game)",
+      "fact": "3 Races",
+      "sub": "Terran, Zerg, Protoss"
+    }
+  ],
+  "description": "StarCraft (1998, Blizzard): mocked E3 1996 demo led to a redesign around three races; South Korea PC bangs and pro gaming made it a phenomenon.",
+  "hashtags": [
+    "StarCraft",
+    "Blizzard",
+    "Esports"
+  ],
+  "tags": [
+    "StarCraft",
+    "Blizzard",
+    "Terran Zerg Protoss",
+    "South Korea",
+    "classic games",
+    "RTS games"
+  ]
+}

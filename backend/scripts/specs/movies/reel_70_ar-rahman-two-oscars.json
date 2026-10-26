@@ -1,0 +1,49 @@
+{
+  "id": "reel-ar-rahman-two-oscars",
+  "category": "movies",
+  "slot": "reel",
+  "order": 70,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "A. R. Rahman: एक रात में दो Oscars",
+  "title": "A R Rahman Two Oscars | Jai Ho Slumdog Millionaire | Movie News Hindi",
+  "video_script": "फरवरी 2009 में 81st Academy Awards में A. R. Rahman ने एक ही रात में दो Oscars जीते, Slumdog Millionaire के लिए. एक Best Original Score का, और दूसरा Best Original Song का, गाना Jai Ho, जिसे उन्होंने lyricist Gulzar के साथ share किया. Slumdog Millionaire ने कुल आठ Oscars जीते. आपको Jai Ho कैसा लगा? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:A. R. Rahman",
+      "label": "A. R. Rahman"
+    },
+    {
+      "image": "wiki:A. R. Rahman",
+      "fact": "2 Oscars",
+      "sub": "81st Academy Awards, 2009"
+    },
+    {
+      "image": "wiki:Gulzar",
+      "fact": "Jai Ho",
+      "sub": "Gulzar के साथ Best Original Song"
+    },
+    {
+      "image": "wiki:Slumdog Millionaire",
+      "fact": "8 Oscars",
+      "sub": "Slumdog Millionaire"
+    }
+  ],
+  "description": "A. R. Rahman ने 81st Academy Awards (2009) में Slumdog Millionaire के लिए Best Original Score और Jai Ho (Gulzar के साथ) पर दो Oscars जीते.",
+  "hashtags": [
+    "ARRahman",
+    "JaiHo",
+    "Oscars"
+  ],
+  "tags": [
+    "A R Rahman",
+    "Oscar",
+    "Jai Ho",
+    "Slumdog Millionaire",
+    "Gulzar",
+    "81st Academy Awards",
+    "Indian music"
+  ]
+}

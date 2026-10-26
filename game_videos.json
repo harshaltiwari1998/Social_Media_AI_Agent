@@ -3570,5 +3570,73 @@
   "palworld-guide-beegarde-verdant-brook-gatherer": {
     "spec": "scripts/specs/games/palguide_81_beegarde-verdant-brook-gatherer.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-81a0d494.mp4"
+  },
+  "clash-of-clans-neeson-ad": {
+    "spec": "scripts/specs/games/classic_63_clash-of-clans-neeson-ad.json",
+    "video": "F:\\AI AGENT\\run_b20\\videos\\short-32aeef19.mp4"
+  },
+  "pokemon-go-april-fools": {
+    "spec": "scripts/specs/games/classic_62_pokemon-go-april-fools.json",
+    "video": "F:\\AI AGENT\\run_b20\\videos\\short-f2b0673b.mp4"
+  },
+  "fruit-ninja-1-billion": {
+    "spec": "scripts/specs/games/classic_61_fruit-ninja-1-billion.json",
+    "video": "F:\\AI AGENT\\run_b20\\videos\\short-6b1620d6.mp4"
+  },
+  "subway-surfers-1-billion": {
+    "spec": "scripts/specs/games/classic_60_subway-surfers-1-billion.json",
+    "video": "F:\\AI AGENT\\run_b20\\videos\\short-d33154b6.mp4"
+  },
+  "candy-crush-king-sale": {
+    "spec": "scripts/specs/games/classic_59_candy-crush-king-sale.json",
+    "video": "F:\\AI AGENT\\run_b20\\videos\\short-efb4ea55.mp4"
+  },
+  "among-us-2018": {
+    "spec": "scripts/specs/games/classic_58_among-us-2018.json",
+    "video": "F:\\AI AGENT\\run_b20\\videos\\short-d0c9a6cb.mp4"
+  },
+  "danganronpa-2x2": {
+    "spec": "scripts/specs/games/new_40_danganronpa-2x2.json",
+    "video": "F:\\AI AGENT\\run_b20\\videos\\short-ab8335b8.mp4"
+  },
+  "edge-of-memories-delayed": {
+    "spec": "scripts/specs/games/new_39_edge-of-memories-delayed.json",
+    "video": "F:\\AI AGENT\\run_b20\\videos\\short-73369703.mp4"
+  },
+  "armatus-january-7": {
+    "spec": "scripts/specs/games/new_38_armatus-january-7.json",
+    "video": "F:\\AI AGENT\\run_b20\\videos\\short-d4862462.mp4"
+  },
+  "xenoblade-chronicles-3-switch-2": {
+    "spec": "scripts/specs/games/new_37_xenoblade-chronicles-3-switch-2.json",
+    "video": "F:\\AI AGENT\\run_b20\\videos\\short-0add8b7f.mp4"
+  },
+  "aniimo-tumbler-aniipod": {
+    "spec": "scripts/specs/games/aniimo_82_aniimo-tumbler-aniipod.json",
+    "video": "F:\\AI AGENT\\run_b20\\videos\\short-e7430053.mp4"
+  },
+  "aniimo-homeland-personality-bonus": {
+    "spec": "scripts/specs/games/aniimo_81_aniimo-homeland-personality-bonus.json",
+    "video": "F:\\AI AGENT\\run_b20\\videos\\short-1a3ae3bf.mp4"
+  },
+  "aniimo-rv-level-two-upgrade": {
+    "spec": "scripts/specs/games/aniimo_80_aniimo-rv-level-two-upgrade.json",
+    "video": "F:\\AI AGENT\\run_b20\\videos\\short-e11552b4.mp4"
+  },
+  "aniimo-harvest-moon-festival-event": {
+    "spec": "scripts/specs/games/aniimo_79_aniimo-harvest-moon-festival-event.json",
+    "video": "F:\\AI AGENT\\run_b20\\videos\\short-f7546b80.mp4"
+  },
+  "aniimo-nurture-wild-surge-steps": {
+    "spec": "scripts/specs/games/aniimo_78_aniimo-nurture-wild-surge-steps.json",
+    "video": "F:\\AI AGENT\\run_b20\\videos\\short-97d33313.mp4"
+  },
+  "palworld-guide-moldron-cryst-mining-cooling": {
+    "spec": "scripts/specs/games/palguide_92_moldron-cryst-mining-cooling.json",
+    "video": "F:\\AI AGENT\\run_b20\\videos\\short-fefe978d.mp4"
+  },
+  "palworld-guide-snock-electricity-sunreach": {
+    "spec": "scripts/specs/games/palguide_91_snock-electricity-sunreach.json",
+    "video": "F:\\AI AGENT\\run_b20\\videos\\short-9d4bbb93.mp4"
   }
 }

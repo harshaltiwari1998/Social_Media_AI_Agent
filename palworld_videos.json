@@ -4247,5 +4247,107 @@
       ],
       "unique": false
     }
+  },
+  "Pierdon": {
+    "spec": "scripts/specs/palworld_pierdon.json",
+    "video": "F:\\AI AGENT\\run_b20\\videos\\short-b9738179.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Pierdon",
+      "caption": "3 ways to breed Pierdon in Palworld 1.0: Majex + Quivern, Ragnahawk + Verdash, Incineram + Moldron.",
+      "video_script": "Here are three ways to breed Pierdon in Palworld one point zero. Combo one: breed Majex with Quivern on your Breeding Farm, then add a cake. Combo two: pair Ragnahawk and Verdash together, and you get the same egg. Combo three: Incineram plus Moldron works too, so use whichever Pals you have. Every egg hatches into Pierdon. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Majex",
+        "Quivern"
+      ],
+      "combos": [
+        [
+          "Majex",
+          "Quivern"
+        ],
+        [
+          "Ragnahawk",
+          "Verdash"
+        ],
+        [
+          "Incineram",
+          "Moldron"
+        ]
+      ],
+      "child": "Pierdon",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Omascul": {
+    "spec": "scripts/specs/palworld_omascul.json",
+    "video": "F:\\AI AGENT\\run_b20\\videos\\short-55ff7d85.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Omascul",
+      "caption": "3 ways to breed Omascul in Palworld 1.0: Frostplume + Leafan, Icelyn + Majex, Gildra + Pierdon.",
+      "video_script": "Here are three ways to breed Omascul in Palworld one point zero. Combo one: breed Frostplume with Leafan on your Breeding Farm, then add a cake. Combo two: pair Icelyn and Majex together, and you get the same egg. Combo three: Gildra plus Pierdon works too, so use whichever Pals you have. Every egg hatches into Omascul. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Frostplume",
+        "Leafan"
+      ],
+      "combos": [
+        [
+          "Frostplume",
+          "Leafan"
+        ],
+        [
+          "Icelyn",
+          "Majex"
+        ],
+        [
+          "Gildra",
+          "Pierdon"
+        ]
+      ],
+      "child": "Omascul",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
+  },
+  "Palumba": {
+    "spec": "scripts/specs/palworld_palumba.json",
+    "video": "F:\\AI AGENT\\run_b20\\videos\\short-34523251.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Palumba",
+      "caption": "3 ways to breed Palumba in Palworld 1.0: Helzephyr + Mammorest, Ragnahawk + Skutlass, Incineram + Majex.",
+      "video_script": "Here are three ways to breed Palumba in Palworld one point zero. Combo one: breed Helzephyr with Mammorest on your Breeding Farm, then add a cake. Combo two: pair Ragnahawk and Skutlass together, and you get the same egg. Combo three: Incineram plus Majex works too, so use whichever Pals you have. Every egg hatches into Palumba. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Helzephyr",
+        "Mammorest"
+      ],
+      "combos": [
+        [
+          "Helzephyr",
+          "Mammorest"
+        ],
+        [
+          "Ragnahawk",
+          "Skutlass"
+        ],
+        [
+          "Incineram",
+          "Majex"
+        ]
+      ],
+      "child": "Palumba",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
   }
 }

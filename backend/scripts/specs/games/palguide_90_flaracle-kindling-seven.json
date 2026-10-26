@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-flaracle-kindling-seven",
+  "slot": "palguide",
+  "order": 90,
+  "headline": "Flaracle kindling",
+  "title": "Flaracle | Kindling Seven And Burning Explosions | Palworld Guide",
+  "video_script": "Flaracle is a Fire Pal added in Palworld one point zero, and it is a top base worker for cooking. It has Kindling level seven, Handiwork level six and Transporting level two. Its partner skill, Burning Future, makes enemies that are burning explode when you hit them, and the blast damages nearby foes. Water attacks are its weakness. Will you catch one? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:11",
+      "label": "Flaracle"
+    },
+    {
+      "image": "pal:Flaracle",
+      "fact": "Kindling 7",
+      "sub": "Handiwork 6"
+    },
+    {
+      "image": "steam:1623730:12",
+      "fact": "Burning Future",
+      "sub": "Burning enemies explode"
+    },
+    {
+      "image": "pal:Flaracle",
+      "fact": "Weak To Water",
+      "sub": "Fire type Pal"
+    }
+  ],
+  "description": "Flaracle in Palworld 1.0 has Kindling level seven and Handiwork level six, and its Burning Future makes burning enemies explode.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Flaracle",
+    "Flaracle alpha",
+    "Palworld kindling",
+    "Palworld base tips",
+    "Palworld partner skill",
+    "Palworld 1.0",
+    "Palworld guide"
+  ]
+}

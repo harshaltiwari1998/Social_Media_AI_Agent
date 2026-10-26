@@ -1,0 +1,119 @@
+{
+  "id": "palworld-fast-leveling-guide",
+  "category": "gaming",
+  "order": 57,
+  "series": "palworld",
+  "title": "Palworld Fast Leveling Guide | Reach Level 80 With Capture Bonus and Bosses | Palworld Guide",
+  "description": "A Palworld 1.0 leveling guide: the new level cap of eighty, the five catch Capture Bonus, dungeons, bosses, Training Manuals and how to level your Pals quickly.",
+  "hashtags": [
+    "Palworld",
+    "PalworldGuide",
+    "PalworldLeveling"
+  ],
+  "tags": [
+    "Palworld leveling",
+    "Palworld level 80",
+    "Palworld 1.0",
+    "Palworld XP",
+    "Palworld capture bonus",
+    "Palworld training manual",
+    "Palworld tips",
+    "Palworld guide"
+  ],
+  "thumbnail": {
+    "image": "pal:Lamball",
+    "text": "LEVEL UP FAST IN PALWORLD"
+  },
+  "sections": [
+    {
+      "heading": "The road to level eighty",
+      "script": "Palworld version one point zero raised the level cap, and that makes leveling a bigger project than before. In this guide we explain the new cap, why catching Pals is your best source of experience, how dungeons and bosses help, what Training Manuals do, and a simple route from the first level to the last. A quick warning first. The sources we checked agree on the big ideas, but exact experience numbers are not published in most guides, so we will not invent any. Let us start with the cap.",
+      "images": [
+        "pal:Lamball",
+        "steam:1623730:0",
+        "steam:1623730:1"
+      ]
+    },
+    {
+      "heading": "The new level cap",
+      "script": "In version one point zero, the maximum level is eighty for both your character and your Pals. Before that it was sixty five. Two guides confirm the change, and they add that existing saves keep their progress, so your player level will not drop. Your Pals also follow a rule that has been in the game for a long time. They cannot go above your own level. One older guide states that Pals in your party are capped at your current player level, and a newer guide repeats that Pals are capped at your character level. So to raise your team, you always have to raise yourself too. Version one point zero also adjusted the experience table so that lower level Pals gain experience faster.",
+      "images": [
+        "pal:Pengullet",
+        "steam:1623730:2",
+        "steam:1623730:3"
+      ]
+    },
+    {
+      "heading": "The Capture Bonus",
+      "script": "The strongest source of experience for most players is the Capture Bonus. Each time you catch a Pal of a new kind, you get bonus experience, and finishing a species gives a bigger reward. In version one point zero, the number of catches needed dropped from twelve to five, according to two guides. Older guides mention ten or twelve, so ignore those numbers. That makes chain catching very efficient. Pick one species, catch five, and move to the next. One guide adds that the payout is fixed and does not scale with the experience rate setting. This is why the early game feels fast when you simply catch everything you see.",
+      "images": [
+        "pal:Foxparks",
+        "pal:Lamball",
+        "steam:1623730:4"
+      ]
+    },
+    {
+      "heading": "Catch smarter",
+      "script": "To make catching faster, bring plenty of Pal Spheres. Weaken the target before you throw, because a Pal with low health is much easier to catch, and a status effect helps too. One guide suggests attacking from behind to avoid counter attacks, and finishing one species completely before moving on. Capturing is better than killing here, since the bonus only comes from a catch. We have a full guide on sphere tiers on this channel, so check that out if you want the details. Catch rates were also raised overall in version one point zero, one guide says, though without exact figures. The lesson is simple. A bag full of spheres is the cheapest experience you can buy.",
+      "images": [
+        "pal:Pengullet",
+        "pal:Foxparks",
+        "steam:1623730:5"
+      ]
+    },
+    {
+      "heading": "Dungeons and enemy bases",
+      "script": "The next source is exploration. Two guides report that clearing a dungeon or an enemy base now pays experience on completion, on top of everything inside. In a dungeon you can also earn capture bonus from the Pals in there, and boss experience from the guardian at the end. Our tip is to explore every branch, catch rather than kill, and then fight the boss. It is a good way to level at the same time as you collect loot. Missions are another steady source, since main and side missions give meaningful experience in version one point zero. One guide says progress on missions was reset on existing saves, so old players can earn them again at the new values.",
+      "images": [
+        "steam:1623730:6",
+        "pal:Chillet",
+        "steam:1623730:7"
+      ]
+    },
+    {
+      "heading": "Bosses give big experience",
+      "script": "Bosses are where the big numbers are. Guides agree that Alpha Pals, tower bosses and raid bosses give large experience, even if they do not publish exact amounts. Catching an Alpha pays its defeat experience plus the capture bonus, one guide says. Tower boss fights now have a five minute limit, down from ten, according to two guides, so they are quicker to farm. Alphas also respawn on a timer, so you can return later. A good rule is to fight bosses close to your level, since a strong party can handle an Alpha several levels higher, and an older guide agrees. Do not rush a boss far above you. Your Pals will do the work, but you still have to survive. Bring healing items, a good elemental counter and a few spare spheres, and you will get the most from each fight.",
+      "images": [
+        "pal:Anubis",
+        "pal:Shadowbeak",
+        "steam:1623730:8"
+      ]
+    },
+    {
+      "heading": "Training Manuals and low level Pals",
+      "script": "Version one point zero made it easier to level a Pal that lags behind. Lower level Pals gain experience faster, two guides say, so a new catch catches up quickly. A smart trick is to park the under leveled Pal in your party while you clear a boss or a dungeon with stronger Pals. It collects experience while the others do the fighting. Training Manuals are also useful. They are items that give a fixed amount of experience to the Pal you choose, which is handy for bringing a fresh catch up to your team, one guide explains, though the amount is not stated. Remember that a Pal still cannot pass your own level, so manuals have a limit. Spend them on a Pal you really plan to use in a fight, not on one you may swap out soon.",
+      "images": [
+        "pal:Chillet",
+        "pal:Foxparks",
+        "steam:1623730:9"
+      ]
+    },
+    {
+      "heading": "A simple route to level eighty",
+      "script": "Here is one route a guide suggests, and it matches how most players progress. From level one to fifteen, chain catch the starter species. From fifteen to thirty, clear dungeons and build land bases. From thirty to forty five, take on tower bosses and Alphas. From forty five to sixty five, explore Sakurajima and Feybreak. From sixty five to eighty, push into Sunreach and the World Tree. Treat these ranges as a rough guide, not a rule. Fast travel points are a small bonus too, since two guides note that unlocking one gives a technology point, which is worth doing as you explore. When the capture bonus runs out, tower bosses, raid bosses and new region species keep the experience coming.",
+      "images": [
+        "steam:1623730:10",
+        "steam:1623730:11",
+        "pal:Shaolong"
+      ]
+    },
+    {
+      "heading": "Do not forget the settings",
+      "script": "If you play on your own world or server, you can change the experience rate in the settings. One guide notes the slider goes up to twenty times, and suggests two or three times for a gentle boost. It affects standard experience such as combat, gathering and crafting, but not the Capture Bonus payouts. Another guide mentions raising the multiplier through server settings too. Use it if you want a relaxed run, or leave it alone for the normal challenge. Both are fine. The best way to level is the one you enjoy, and Palworld gives you plenty of ways to do it. If you like a challenge, keep the default rate and lean on the Capture Bonus and bosses. If you only have a little time each day, a higher rate lets you see more of the story. Neither choice is wrong, and you can change it later.",
+      "images": [
+        "steam:1623730:12",
+        "pal:Lamball",
+        "pal:Pengullet"
+      ]
+    },
+    {
+      "heading": "Your leveling checklist",
+      "script": "Let us recap. The cap is eighty. Pals cannot go above your level. The Capture Bonus needs only five catches. Dungeons, bases and missions pay experience. Bosses give the biggest rewards, and tower fights are shorter now. Use Training Manuals and keep a low level Pal in the party to catch up. Follow the route and adjust as you go. What level are you at right now, and what has been your best leveling trick? Tell us in the comments, and subscribe to HarryBeast Gaming for more Palworld guides every day.",
+      "images": [
+        "pal:Lamball",
+        "pal:Anubis",
+        "pal:Shaolong"
+      ]
+    }
+  ]
+}

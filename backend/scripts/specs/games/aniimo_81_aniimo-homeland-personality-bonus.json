@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-homeland-personality-bonus",
+  "slot": "aniimo",
+  "order": 81,
+  "headline": "Personality Bonus",
+  "title": "Homeland Personality Bonus | Twenty Percent Faster Work | Aniimo Guide",
+  "video_script": "Here is a Homeland trick that is easy to miss. Every facility lists a recommended personality, and an Aniimo that matches it works twenty percent faster there. There are eight personalities, built from four letter pairs. For example, Playful suits the Mine, and Tenacious suits the Carousel Mill. Level four workers are rare, so this bonus is an easy upgrade. Check each worker's personality before you assign it. Which facility needs help? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:5",
+      "label": "Personality Bonus"
+    },
+    {
+      "image": "steam:4126040:6",
+      "fact": "Plus twenty percent",
+      "sub": "When personality matches"
+    },
+    {
+      "image": "steam:4126040:7",
+      "fact": "Eight personalities",
+      "sub": "Four letter pairs"
+    },
+    {
+      "image": "steam:4126040:8",
+      "fact": "Playful: Mine",
+      "sub": "Tenacious: Carousel Mill"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Check before assigning",
+      "sub": "Match worker to facility"
+    }
+  ],
+  "description": "Aniimo Homeland tip: each facility has a recommended personality and a matching Aniimo works twenty percent faster there; there are eight personalities from four letter pairs.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo Homeland",
+    "Aniimo personality",
+    "Aniimo workers",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Aniimo farming"
+  ]
+}

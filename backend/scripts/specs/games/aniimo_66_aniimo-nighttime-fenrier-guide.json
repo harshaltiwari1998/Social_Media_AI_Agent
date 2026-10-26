@@ -1,0 +1,47 @@
+{
+  "id": "aniimo-nighttime-fenrier-guide",
+  "slot": "aniimo",
+  "order": 66,
+  "headline": "Nighttime Fenrier",
+  "title": "Nighttime Fenrier in Aniimo | Bonesky Level 24 at Night | Aniimo Guide",
+  "video_script": "Want the Dark and Ice Nighttime Fenrier? Start with a Nighttime Bonesky, which lives in Rosetower Woods at around level forty three to fifty. Raise it to level twenty four. Then the evolution must trigger at night, so check your clock first. Evolve in daytime and you get the normal ice Fenrier instead. Wild Nighttime Fenrier also roam Rosetower Woods. Did you evolve yours at night? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:22",
+      "label": "Nighttime Fenrier"
+    },
+    {
+      "image": "steam:4126040:23",
+      "fact": "Nighttime Bonesky",
+      "sub": "Found in Rosetower Woods"
+    },
+    {
+      "image": "steam:4126040:24",
+      "fact": "Level 24",
+      "sub": "Raise your Bonesky"
+    },
+    {
+      "image": "steam:4126040:0",
+      "fact": "Evolve at night",
+      "sub": "Daytime gives normal Fenrier"
+    }
+  ],
+  "description": "Nighttime Bonesky evolves into Nighttime Fenrier at level 24, and it must be nighttime; the night forms are found in Rosetower Woods.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Aniimo evolution",
+    "Fenrier",
+    "Nighttime Fenrier",
+    "Bonesky"
+  ]
+}

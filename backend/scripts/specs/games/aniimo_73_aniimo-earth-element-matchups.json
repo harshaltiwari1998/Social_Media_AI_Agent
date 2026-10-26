@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-earth-element-matchups",
+  "slot": "aniimo",
+  "order": 73,
+  "headline": "Earth Matchups",
+  "title": "Aniimo Earth Element Explained | What Earth Beats and Fears | Aniimo Guide",
+  "video_script": "Earth attacks hit Fire and Ice Aniimo for one point six times damage. Earth is tough, resisting Fire, Ice, Lightning and Earth. The weak spot is Water and Grass, which both deal that big bonus damage to Earth. So an Earth team can crush Fire and Ice, but should avoid Water and Grass fights. Check the in game Counter chart first. Do you run Earth? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:6",
+      "label": "Earth Matchups"
+    },
+    {
+      "image": "steam:4126040:10",
+      "fact": "Beats Fire and Ice",
+      "sub": "One point six times damage"
+    },
+    {
+      "image": "steam:4126040:11",
+      "fact": "Weak to Water and Grass",
+      "sub": "Avoid these fights"
+    },
+    {
+      "image": "steam:4126040:13",
+      "fact": "Resists Fire Ice Lightning Earth",
+      "sub": "Takes reduced damage"
+    }
+  ],
+  "description": "Aniimo Earth element: strong against Fire and Ice, weak to Water and Grass, and resists Fire, Ice, Lightning and Earth.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Earth element",
+    "Aniimo type chart",
+    "Element matchups"
+  ]
+}

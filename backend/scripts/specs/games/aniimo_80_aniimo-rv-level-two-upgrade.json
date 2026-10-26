@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-rv-level-two-upgrade",
+  "slot": "aniimo",
+  "order": 80,
+  "headline": "Upgrade Your RV",
+  "title": "RV Level 2 Upgrade | Do This After Day One | Aniimo Guide",
+  "video_script": "Your Homeland stalls until you upgrade the R V. To reach R V level two, finish the quest called The Wondrous R V and place four farmland plots in your Home. The upgrade gives you more room for Aniimo and more storage, so you can run more workers. It also runs on a countdown after you start it, so begin it before you log off. What is your R V level? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:0",
+      "label": "RV Level 2"
+    },
+    {
+      "image": "steam:4126040:1",
+      "fact": "Wondrous RV quest",
+      "sub": "Finish it first"
+    },
+    {
+      "image": "steam:4126040:2",
+      "fact": "Four farmland plots",
+      "sub": "Place them in your Home"
+    },
+    {
+      "image": "steam:4126040:3",
+      "fact": "More slots and storage",
+      "sub": "Room for more workers"
+    },
+    {
+      "image": "steam:4126040:4",
+      "fact": "Upgrade countdown",
+      "sub": "Start it before you log off"
+    }
+  ],
+  "description": "How to unlock RV Level 2 in Aniimo's Homeland: complete The Wondrous RV quest and place four farmland plots, unlocking more Aniimo slots and storage; the upgrade runs on a countdown.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo Homeland",
+    "Aniimo RV",
+    "Aniimo tips",
+    "Aniimo beginner",
+    "Pawprint Studio",
+    "Aniimo farming"
+  ]
+}

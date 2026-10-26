@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-water-element-matchups",
+  "slot": "aniimo",
+  "order": 71,
+  "headline": "Water Matchups",
+  "title": "Aniimo Water Element Explained | What Water Beats and Fears | Aniimo Guide",
+  "video_script": "Water attacks deal one point six times damage to Fire and Earth Aniimo. But Water takes extra damage from Grass, Lightning and Ice, so protect your Water team from those. Water also resists Fire, Water, Earth and Dark, which means hits from those elements only do zero point six two five times damage. Check the Counter chart first. Do you run Water? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:7",
+      "label": "Water Matchups"
+    },
+    {
+      "image": "steam:4126040:8",
+      "fact": "Beats Fire and Earth",
+      "sub": "One point six times damage"
+    },
+    {
+      "image": "steam:4126040:11",
+      "fact": "Weak to Grass Lightning Ice",
+      "sub": "Protect your Water team"
+    },
+    {
+      "image": "steam:4126040:12",
+      "fact": "Resists Fire Water Earth Dark",
+      "sub": "Takes reduced damage"
+    }
+  ],
+  "description": "Aniimo Water element: strong against Fire and Earth, weak to Grass, Lightning and Ice, and resists Fire, Water, Earth and Dark.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Water element",
+    "Aniimo type chart",
+    "Element matchups"
+  ]
+}

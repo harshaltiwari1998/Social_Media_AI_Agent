@@ -1,0 +1,129 @@
+{
+  "id": "aniimo-evolution-explained",
+  "category": "gaming",
+  "order": 53,
+  "series": "aniimo",
+  "title": "Aniimo Evolution Explained | Stages, Requirements And Real Examples | Aniimo Guide",
+  "description": "How evolution works in Aniimo: the Evolve icon, Lumin Gamma and Nova stages, every kind of requirement, and real examples with Nimbi, Wisptis and Hummin. Checked against several guides in October 2026.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoEvolution",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo evolution",
+    "how to evolve Aniimo",
+    "Aniimo Nimbi Turbo",
+    "Aniimo Fulmintis",
+    "Aniimo Tuckin",
+    "Aniimo Alpha materials",
+    "Aniimo guide",
+    "Aniimo requirements",
+    "Aniimo tips"
+  ],
+  "thumbnail": {
+    "image": "steam:4126040:13",
+    "text": "HOW TO EVOLVE ANIIMO"
+  },
+  "sections": [
+    {
+      "heading": "Why evolution matters",
+      "script": "In Aniimo, leveling a creature is only half of the story. The other half is evolution, and it works very differently from what many players expect. You do not just reach a level and watch it happen. Evolution is a choice you make yourself, and every creature has its own conditions. In this video we explain how to open the evolution screen, what the three evolution stages mean, what kinds of requirements the game can ask for, and we walk through two real examples, Nimbi into Turbo and Wisptis into Fulmintis. We will not repeat our beginner guide or our team building video, so here we focus only on evolution. A quick note first. These guides were written in September and October, and patches can change numbers, so always trust the requirements list on your own screen.",
+      "images": [
+        "steam:4126040:0",
+        "steam:4126040:1",
+        "steam:4126040:2"
+      ]
+    },
+    {
+      "heading": "How to open the evolution screen",
+      "script": "Let us start with the basics. Open the main menu and choose Aniimo Management. Pick the creature you want, then look near the Level Up button. Next to it you will find the Evolve icon, a small cat shaped symbol with arrows pointing up. Press it, and the evolution screen shows what this creature can become and what it still needs. Once every condition is done, you press the Evolve button to confirm. Guides also mention a quick evolve popup, which appears by itself when a creature meets its requirements. And here is a handy trick. Gold double arrows on a portrait mean the creature is ready to evolve, while gray arrows mean you have completed only some of the requirements. So you can scan your roster quickly instead of opening every single creature.",
+      "images": [
+        "steam:4126040:3",
+        "steam:4126040:4",
+        "steam:4126040:5"
+      ]
+    },
+    {
+      "heading": "Evolve is not Level Up",
+      "script": "This point confuses new players, so let us make it clear. Level Up raises the stats of the form you already have. Evolve changes the creature into a new form. They are separate buttons for a reason. Reaching the right level does not trigger evolution on its own, and the game will not do it for you in the background. Guides also warn that the Evolve button stays inactive until every listed requirement is complete. If it looks greyed out or missing, that is not a bug. It simply means something on the list is still unfinished. The best habit is to read the list first and then plan your grind. Otherwise you may spend hours leveling a creature that was actually waiting for a boss, a quest or an item.",
+      "images": [
+        "steam:4126040:6",
+        "steam:4126040:7",
+        "steam:4126040:8"
+      ]
+    },
+    {
+      "heading": "Lumin, Gamma and Nova",
+      "script": "Aniimo evolution runs through three stages. Lumin is the early or base stage, Gamma is the middle stage, and Nova is the advanced final stage. The important detail is that not every family uses all three. Some creatures have shorter paths, and some branch into different forms, so you can choose between two options. Do not confuse these stages with forms. Forms such as Prismana or Rainstorm are separate versions of a creature, and they have their own conditions. Forms follow their own rules and have their own conditions, which is a different system from evolving. So when a guide mentions a Basic form, a Nighttime form or a Prismana form, it is talking about variants, not about the Lumin, Gamma and Nova steps.",
+      "images": [
+        "steam:4126040:9",
+        "steam:4126040:10",
+        "steam:4126040:12"
+      ]
+    },
+    {
+      "heading": "The types of requirements",
+      "script": "What can the evolution screen ask for? Guides describe several kinds of conditions. The most common is a level, and it is different for every species. Another is a material, such as an elemental stone or a family specific item. Some evolutions need a mission, a quest or a challenge, for instance clearing a Sanctum. Some need you to defeat a particular Alpha or Omega boss. Others want a specific Passive Talent unlocked. And a few depend on time, weather or place. One guide gives the example of visiting Nimbus Fields during the daytime. Many creatures combine several of these at once, so check the whole list. The screen tells you exactly what is missing, which makes planning much easier than guessing.",
+      "images": [
+        "steam:4126040:13",
+        "steam:4126040:14",
+        "steam:4126040:15"
+      ]
+    },
+    {
+      "heading": "Example one: Nimbi into Turbo",
+      "script": "Now for a real example. Nimbi can evolve into Turbo. Guides agree that the Nimbi has to reach level twenty one, and that you must defeat Alpha Turbo first. You also need a Gust Stone. The sources disagree on how many Gust Stones the evolution costs, so check the number on your own screen before you go farming. Alpha Turbo lives in Nimbus Fields, near the First Spark Sanctum. This is a nice example because it mixes three types of requirement in one evolution: a level, a boss and a material. It also shows why reading the list matters. If you only leveled Nimbi, you would reach level twenty one and wait forever for an Evolve button that needs a boss defeat.",
+      "images": [
+        "steam:4126040:16",
+        "steam:4126040:17",
+        "steam:4126040:18"
+      ]
+    },
+    {
+      "heading": "Example two: Wisptis into Fulmintis",
+      "script": "Our second example is more unusual. Wisptis can evolve into Fulmintis at level twenty nine, but it also needs an item called the Fulminous Soul and some Roar Stones. Guides disagree on how many Roar Stones are required, so again, trust your screen. The special part is the Fulminous Soul. Several guides say it comes from the Season One Companion Handbook, the premium battle pass, and specifically from its Advanced Edition. It is not an open world drop. This example shows that some evolutions are tied to events or passes, so check early.",
+      "images": [
+        "steam:4126040:19",
+        "steam:4126040:20",
+        "steam:4126040:21"
+      ]
+    },
+    {
+      "heading": "Where evolution materials come from",
+      "script": "Most materials come from the big bosses. Guides say Alpha Aniimo are the main source of evolution materials. To see which boss drops what, there is a list inside the game. One guide points to the Alpha Trials section of the Aniilog. Another points to the Aniimo Challenge menu in the Institute Guide, on the Evolution Material tab. Since the guides disagree, look in both places. Challenging these bosses costs Primegy, the energy resource, and guides say the usual cost is thirty per try. Primegy comes back slowly, one point every six minutes, so you cannot farm forever. That is why planning matters. Before you start, write down the materials you need, pick the boss that drops them, and spend your Primegy on that fight.",
+      "images": [
+        "steam:4126040:22",
+        "steam:4126040:23",
+        "steam:4126040:24"
+      ]
+    },
+    {
+      "heading": "Planning your evolutions",
+      "script": "Evolution changes the creature's form, so plan it like part of your team building. The management page shows the whole evolution line of a creature, which helps you decide before you commit. Evolved forms can shift a creature's role or stat spread, so ask yourself what your team is missing first. An early game tip from one guide is to put your materials into one reliable fighter and one creature with exploration utility, then fill the gaps later. Another tip is to compare final stats, skills and utility across branches before choosing. If two paths exist, such as Turbo and Dreaple from Nimbi, read both requirement lists. Remember also that completed requirements may not carry over between individual creatures, so do the tasks on the exact one you want to evolve.",
+      "images": [
+        "steam:4126040:0",
+        "steam:4126040:1",
+        "steam:4126040:2"
+      ]
+    },
+    {
+      "heading": "A tricky example: Hummin into Tuckin",
+      "script": "Here is a final example that shows why reading carefully pays off. Base form Hummin can evolve into Tuckin at level eighteen. But the list has two more conditions. You must defeat Omega Tuckin in Mistwoods, and you must use the Dig In ability for twenty seconds at the entrance of the Sanctum called Twisted Roots. Guides say this applies to base form Hummin only, because the Mountain form uses a different route. Players also report that requirements must be done on the specific Hummin you plan to evolve. If a condition does not register, one player says taking the creature out of the party and putting it back helped, but that is only a community workaround, so treat it as a last resort.",
+      "images": [
+        "steam:4126040:3",
+        "steam:4126040:4",
+        "steam:4126040:5"
+      ]
+    },
+    {
+      "heading": "What will you evolve next",
+      "script": "That is our guide to evolution in Aniimo. Remember the basics. Open Aniimo Management, tap the Evolve icon, read the list, and complete every condition before you press the button. Look for gold arrows on a portrait, and do not confuse evolution stages with forms. Now we want to hear from you. Which Aniimo are you waiting to evolve, and which requirement is blocking you right now? Tell us in the comments, and we will try to help. If this video saved you some grinding, please like it and subscribe to HarryBeast Gaming for more Aniimo guides, tier lists and tips. See you in Idyll, Pathfinder.",
+      "images": [
+        "steam:4126040:6",
+        "steam:4126040:7",
+        "steam:4126040:8"
+      ]
+    }
+  ]
+}

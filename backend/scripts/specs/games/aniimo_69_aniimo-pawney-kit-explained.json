@@ -1,0 +1,47 @@
+{
+  "id": "aniimo-pawney-kit-explained",
+  "slot": "aniimo",
+  "order": 69,
+  "headline": "Pawney Kit",
+  "title": "Aniimo Pawney Skills | Pursuit and Weakening Slam | Aniimo Guide",
+  "video_script": "Pawney is a top damage dealer, and its kit rewards control. Its Pursuit trait adds extra damage against targets that are controlled or in a Break state. Weakening Slam allows up to three smashes in a row, and the third one stuns. Shadow Cut then spins Pawney as a blade ball for big damage. Its ultimate can be recast for Dragon Slayer Strike. Would you play Pawney? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:1",
+      "label": "Pawney Kit"
+    },
+    {
+      "image": "steam:4126040:4",
+      "fact": "Pursuit",
+      "sub": "More damage to controlled and Break targets"
+    },
+    {
+      "image": "steam:4126040:8",
+      "fact": "Weakening Slam",
+      "sub": "Third smash stuns"
+    },
+    {
+      "image": "steam:4126040:13",
+      "fact": "Shadow Cut",
+      "sub": "Spinning blade ball"
+    }
+  ],
+  "description": "Pawney in Aniimo is a damage dealer. Pursuit adds damage against controlled or Break targets, Weakening Slam stuns on the third smash, and the ultimate can be recast for Dragon Slayer Strike.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Pawney",
+    "Pawney build",
+    "Pursuit trait",
+    "Shadow Cut"
+  ]
+}

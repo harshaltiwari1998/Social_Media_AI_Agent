@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-tumbler-aniipod",
+  "slot": "aniimo",
+  "order": 82,
+  "headline": "Use the Tumbler",
+  "title": "Aniipod Tumbler | The Pod That Catches More | Aniimo Guide",
+  "video_script": "The Tumbler is an Aniipod that many players ignore. Its catch rate is double by default, and it gets stronger in special situations like Nurture surges. It rolls along the ground and can catch Aniimo it passes. You can find it as a quest reward, and some guides list Elite Training and the Nurture Branch too. Pair it with Wild Surges for rare spawns. Have you used a Tumbler yet? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:10",
+      "label": "Aniipod Tumbler"
+    },
+    {
+      "image": "steam:4126040:11",
+      "fact": "Double catch rate",
+      "sub": "By default"
+    },
+    {
+      "image": "steam:4126040:12",
+      "fact": "Rolls along the ground",
+      "sub": "Catches Aniimo it passes"
+    },
+    {
+      "image": "steam:4126040:13",
+      "fact": "Stronger in surges",
+      "sub": "Great with Nurture"
+    },
+    {
+      "image": "steam:4126040:14",
+      "fact": "Quest rewards",
+      "sub": "Also Elite Training"
+    }
+  ],
+  "description": "Aniimo's Tumbler Aniipod has a double catch rate by default that rises in special situations, rolls along the ground to catch Aniimo and is a quest reward; guides also list Elite Training and the Nurture Branch.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Aniipod Tumbler",
+    "Aniipod",
+    "Aniimo catching",
+    "Wild Surge",
+    "Pawprint Studio"
+  ]
+}

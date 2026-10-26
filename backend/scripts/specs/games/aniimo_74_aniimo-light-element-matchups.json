@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-light-element-matchups",
+  "slot": "aniimo",
+  "order": 74,
+  "headline": "Light Matchups",
+  "title": "Aniimo Light Element Explained | What Light Beats and Fears | Aniimo Guide",
+  "video_script": "Light has only one weakness, and that is Dark. Light attacks deal one point six times damage to Wind and Dark Aniimo. Light also resists Fire, Water, Grass and Light, so those hits only do zero point six two five times damage. That makes Light a sturdy pick, but keep an answer ready for Dark Aniimo. Do you run Light? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:12",
+      "label": "Light Matchups"
+    },
+    {
+      "image": "steam:4126040:13",
+      "fact": "Beats Wind and Dark",
+      "sub": "One point six times damage"
+    },
+    {
+      "image": "steam:4126040:15",
+      "fact": "Weak only to Dark",
+      "sub": "Keep an answer ready"
+    },
+    {
+      "image": "steam:4126040:16",
+      "fact": "Resists Fire Water Grass Light",
+      "sub": "Takes reduced damage"
+    }
+  ],
+  "description": "Aniimo Light element: strong against Wind and Dark, weak only to Dark, and resists Fire, Water, Grass and Light.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Light element",
+    "Aniimo type chart",
+    "Element matchups"
+  ]
+}

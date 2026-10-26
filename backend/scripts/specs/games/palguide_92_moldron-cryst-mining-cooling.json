@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-moldron-cryst-mining-cooling",
+  "slot": "palguide",
+  "order": 92,
+  "headline": "Moldron Cryst worker",
+  "title": "Moldron Cryst | Mining Five Cooling Five Mount | Palworld Guide",
+  "video_script": "Moldron Cryst is an Ice and Ground Pal in Palworld one point zero, and you can ride it with its own saddle. At your base it has Mining level five and Cooling level five. The alpha lives in the World Tree, so bring a strong team. Its partner skill, Ice Overload, boosts your Ice damage when you hit a weakness. It drops Ice Organ and Leather. Will you try it? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:16",
+      "label": "Moldron Cryst"
+    },
+    {
+      "image": "pal:Moldron Cryst",
+      "fact": "World Tree",
+      "sub": "Alpha boss location"
+    },
+    {
+      "image": "steam:1623730:17",
+      "fact": "Mining 5",
+      "sub": "Cooling 5"
+    },
+    {
+      "image": "pal:Moldron Cryst",
+      "fact": "Ice Overload",
+      "sub": "Boosts Ice weakness hits"
+    }
+  ],
+  "description": "Moldron Cryst in Palworld 1.0 is a rideable Ice and Ground alpha from the World Tree with Mining and Cooling level five.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Moldron Cryst",
+    "Moldron Cryst alpha",
+    "Palworld cooling",
+    "Palworld mining",
+    "Palworld mount",
+    "Palworld 1.0",
+    "Palworld guide"
+  ]
+}

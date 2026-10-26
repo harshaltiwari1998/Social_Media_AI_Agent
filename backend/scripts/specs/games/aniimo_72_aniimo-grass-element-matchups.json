@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-grass-element-matchups",
+  "slot": "aniimo",
+  "order": 72,
+  "headline": "Grass Matchups",
+  "title": "Aniimo Grass Element Explained | What Grass Beats and Fears | Aniimo Guide",
+  "video_script": "Grass attacks deal one point six times damage to Water and Earth Aniimo. The danger is Fire, Wind and Dark, which all hit Grass for that same bonus. Grass resists Water, Grass and Earth, so those hits only do zero point six two five times damage. Bring Grass into Water and Earth fights, and swap out when Fire shows up. Do you run Grass? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:4",
+      "label": "Grass Matchups"
+    },
+    {
+      "image": "steam:4126040:5",
+      "fact": "Beats Water and Earth",
+      "sub": "One point six times damage"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Weak to Fire Wind Dark",
+      "sub": "Swap out against them"
+    },
+    {
+      "image": "steam:4126040:13",
+      "fact": "Resists Water Grass Earth",
+      "sub": "Takes reduced damage"
+    }
+  ],
+  "description": "Aniimo Grass element: strong against Water and Earth, weak to Fire, Wind and Dark, and resists Water, Grass and Earth.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Grass element",
+    "Aniimo type chart",
+    "Element matchups"
+  ]
+}

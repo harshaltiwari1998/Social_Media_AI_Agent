@@ -1,0 +1,47 @@
+{
+  "id": "aniimo-how-to-get-pomawk",
+  "slot": "aniimo",
+  "order": 65,
+  "headline": "Get Pomawk",
+  "title": "How to Get Pomawk in Aniimo | Pomegg at Level 25 | Aniimo Guide",
+  "video_script": "Pomawk is easy to evolve in Aniimo. Pomegg only needs to reach level twenty five, and that is the only requirement the Aniimo wiki lists. You can also meet a wild Pomawk in Rosetower Woods. Be careful though, because Pomegg has a second path. Dazmand needs level twenty five plus a Roar Stone and special event quests. Pick your path before you evolve. Pomawk or Dazmand? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:18",
+      "label": "Get Pomawk"
+    },
+    {
+      "image": "steam:4126040:19",
+      "fact": "Level 25",
+      "sub": "Pomegg evolves into Pomawk"
+    },
+    {
+      "image": "steam:4126040:20",
+      "fact": "Rosetower Woods",
+      "sub": "Wild Pomawk spawn here"
+    },
+    {
+      "image": "steam:4126040:21",
+      "fact": "Dazmand needs more",
+      "sub": "Roar Stone and event quests"
+    }
+  ],
+  "description": "Pomegg evolves into Pomawk at level 25, and Pomawk can be found in Rosetower Woods; the Dazmand path needs a Roar Stone and event quests.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Aniimo evolution",
+    "Pomawk",
+    "Pomegg",
+    "Dazmand"
+  ]
+}

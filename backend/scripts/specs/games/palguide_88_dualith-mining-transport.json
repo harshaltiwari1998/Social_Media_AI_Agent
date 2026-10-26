@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-dualith-mining-transport",
+  "slot": "palguide",
+  "order": 88,
+  "headline": "Dualith base worker",
+  "title": "Dualith | Mining Six Transport Six And Rideable | Palworld Guide",
+  "video_script": "Dualith is a Ground and Grass Pal in Palworld one point zero, and it does more than one job. It has Mining level six and Transporting level six, plus Lumbering level five. You can also ride it with a Dualith Saddle, and its partner skill, Forest Laser, fires a Grass laser. An alpha waits on the Isle of Circular Ruins. Will you build a team? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:7",
+      "label": "Dualith"
+    },
+    {
+      "image": "pal:Dualith",
+      "fact": "Mining 6",
+      "sub": "Transporting 6"
+    },
+    {
+      "image": "steam:1623730:8",
+      "fact": "Circular Ruins",
+      "sub": "Alpha boss location"
+    },
+    {
+      "image": "pal:Dualith",
+      "fact": "Forest Laser",
+      "sub": "Ride it with a saddle"
+    }
+  ],
+  "description": "Dualith in Palworld 1.0 is a rideable Ground and Grass Pal with Mining level six and Transporting level six.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Dualith",
+    "Dualith alpha",
+    "Palworld mount",
+    "Palworld mining",
+    "Palworld transporting",
+    "Palworld 1.0",
+    "Palworld guide"
+  ]
+}

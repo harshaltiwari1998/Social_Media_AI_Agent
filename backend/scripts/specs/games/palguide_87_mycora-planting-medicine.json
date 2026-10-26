@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-mycora-planting-medicine",
+  "slot": "palguide",
+  "order": 87,
+  "headline": "Mycora worker",
+  "title": "Mycora | Planting Six And A Medicine Boost | Palworld Guide",
+  "video_script": "Mycora is a Grass Pal from the World Tree in Palworld one point zero, and it is a great farm worker. It has Planting level six and Medicine Production level six. Its partner skill, Charming Spore, gives every other Pal at your base plus one Medicine Production, though it does not stack. Fire attacks beat it. Do you run a medicine base? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:1",
+      "label": "Mycora"
+    },
+    {
+      "image": "pal:Mycora",
+      "fact": "World Tree",
+      "sub": "Wild spawns inside it"
+    },
+    {
+      "image": "steam:1623730:6",
+      "fact": "Planting 6",
+      "sub": "Medicine Production 6"
+    },
+    {
+      "image": "pal:Mycora",
+      "fact": "Charming Spore",
+      "sub": "Plus 1 Medicine for the base"
+    }
+  ],
+  "description": "Mycora in Palworld 1.0 has Planting and Medicine Production level six, and its Charming Spore adds plus one Medicine to other base Pals.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Mycora",
+    "Mycora partner skill",
+    "Palworld medicine",
+    "Palworld planting",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide"
+  ]
+}

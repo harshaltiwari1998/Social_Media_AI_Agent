@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-mossanda-verdant-brook",
+  "slot": "palguide",
+  "order": 79,
+  "headline": "Mossanda rides and works",
+  "title": "Mossanda | Ride The Grenade Panda | Palworld Guide",
+  "video_script": "Looking for a grenade launching ride? Mossanda lives around Verdant Brook in Palworld one point zero, roughly level thirty two to thirty six. Its partner skill, Grenadier Panda, lets you ride it and rapidly fire a grenade launcher. At your base it works Lumbering level four and Transporting level four. Will you ride Mossanda? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Mossanda",
+      "label": "Mossanda"
+    },
+    {
+      "image": "steam:1623730:2",
+      "fact": "Verdant Brook",
+      "sub": "Level 32 to 36"
+    },
+    {
+      "image": "pal:Mossanda",
+      "fact": "Grenadier Panda",
+      "sub": "Ride and fire grenades"
+    },
+    {
+      "image": "steam:1623730:4",
+      "fact": "Lumbering Level 4",
+      "sub": "Transporting Level 4"
+    }
+  ],
+  "description": "Where to find Mossanda in Palworld 1.0: Verdant Brook at about level 32 to 36, with a rideable grenade launcher and Lumbering 4.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Mossanda",
+    "Mossanda location",
+    "Palworld Verdant Brook",
+    "Palworld lumbering",
+    "Palworld 1.0",
+    "Palworld guide"
+  ]
+}

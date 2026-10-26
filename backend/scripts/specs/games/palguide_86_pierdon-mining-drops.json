@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-pierdon-mining-drops",
+  "slot": "palguide",
+  "order": 86,
+  "headline": "Pierdon mining",
+  "title": "Pierdon | Alpha That Drops Ore Coal And Sulfur | Palworld Guide",
+  "video_script": "Need ore, coal and sulfur in Palworld one point zero? Fight the alpha Pierdon on Flamepulse Islet. Pierdon is a Ground type with Mining level five, so it is a strong worker for a mining base too. Its partner skill, Power Stone, boosts damage against enemies hit with Muddy. Grass attacks hurt it most. Will you hunt it? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:0",
+      "label": "Pierdon Alpha"
+    },
+    {
+      "image": "pal:Pierdon",
+      "fact": "Flamepulse Islet",
+      "sub": "Alpha boss location"
+    },
+    {
+      "image": "steam:1623730:5",
+      "fact": "Ore Coal Sulfur",
+      "sub": "Four to five of each"
+    },
+    {
+      "image": "pal:Pierdon",
+      "fact": "Mining 5",
+      "sub": "Ground type worker"
+    }
+  ],
+  "description": "Pierdon in Palworld 1.0 is a Ground alpha on Flamepulse Islet that drops ore, coal and sulfur and works at Mining level five.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Pierdon",
+    "Pierdon alpha",
+    "Palworld ore",
+    "Palworld coal sulfur",
+    "Palworld mining",
+    "Palworld 1.0",
+    "Palworld guide"
+  ]
+}

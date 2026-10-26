@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-harvest-moon-festival-event",
+  "slot": "aniimo",
+  "order": 79,
+  "headline": "Harvest Moon Festival",
+  "title": "Harvest Moon Festival | Last Days to Join | Aniimo Guide",
+  "video_script": "The Harvest Moon Festival in Aniimo ends on October twenty eighth. It opens at R V level ten, so check your Home. Talk to Jojo in the limited time event zone to start. You earn Harvest Moon Points by placing event furniture, growing event crops and crafting. After the October fifteenth update, Moondew Radish and Waxing Moon Pepper mutate more often. Have you joined yet? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:1",
+      "label": "Harvest Moon Festival"
+    },
+    {
+      "image": "steam:4126040:2",
+      "fact": "Ends October 28",
+      "sub": "Do not miss it"
+    },
+    {
+      "image": "steam:4126040:22",
+      "fact": "RV level ten",
+      "sub": "Needed to unlock it"
+    },
+    {
+      "image": "steam:4126040:23",
+      "fact": "Harvest Moon Points",
+      "sub": "Furniture, crops and crafting"
+    },
+    {
+      "image": "steam:4126040:24",
+      "fact": "Boosted mutations",
+      "sub": "Moondew Radish and Moon Pepper"
+    }
+  ],
+  "description": "Aniimo's Harvest Moon Festival runs until 28 October 2026: unlock at RV level ten, talk to Jojo, earn Harvest Moon Points with furniture, crops and crafting; mutation rates were boosted in the 15 October update.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo event",
+    "Harvest Moon Festival",
+    "Aniimo Home Season",
+    "Aniimo guide",
+    "Pawprint Studio",
+    "Aniimo update",
+    "Moondew Radish"
+  ],
+  "expires": "2026-10-28"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-beegarde-verdant-brook-gatherer",
+  "slot": "palguide",
+  "order": 81,
+  "headline": "Beegarde gatherer",
+  "title": "Beegarde | Gathering And Farming Worker | Palworld Guide",
+  "video_script": "Need a good gatherer? Beegarde spawns around Verdant Brook in Palworld one point zero, roughly level twenty eight to thirty three. At your base it works Gathering level three and Farming level three, with Planting, Handiwork, Lumbering, Medicine and Transporting at level two. Its partner skill, Worker Bee, also boosts Elizabee's attack. Will you use Beegarde? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Beegarde",
+      "label": "Beegarde"
+    },
+    {
+      "image": "steam:1623730:12",
+      "fact": "Verdant Brook",
+      "sub": "Level 28 to 33"
+    },
+    {
+      "image": "pal:Beegarde",
+      "fact": "Gathering Level 3",
+      "sub": "Farming Level 3"
+    },
+    {
+      "image": "steam:1623730:13",
+      "fact": "Worker Bee",
+      "sub": "Boosts Elizabee attack"
+    }
+  ],
+  "description": "Beegarde in Palworld 1.0: found around Verdant Brook at about level 28 to 33, a strong Gathering 3 and Farming 3 base worker.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Beegarde",
+    "Beegarde location",
+    "Palworld gathering",
+    "Palworld farming",
+    "Palworld 1.0",
+    "Palworld guide"
+  ]
+}

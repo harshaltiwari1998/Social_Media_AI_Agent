@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-snock-electricity-sunreach",
+  "slot": "palguide",
+  "order": 91,
+  "headline": "Snock electricity",
+  "title": "Snock | A Sunreach Electricity Worker | Palworld Guide",
+  "video_script": "Want power for your base in Palworld one point zero? Snock is an Electric Pal found on the Sunreach islands, and it works at Generating Electricity level four. Its partner skill, Charging Shell, makes your attacks inflict Electrify while it is in your party. It drops Electric Organ and Aquatic Pal Fluids, and Ground attacks hurt it most. Do you need more power? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:13",
+      "label": "Snock"
+    },
+    {
+      "image": "pal:Snock",
+      "fact": "Sunreach",
+      "sub": "Where it lives"
+    },
+    {
+      "image": "steam:1623730:15",
+      "fact": "Electricity 4",
+      "sub": "Generating power"
+    },
+    {
+      "image": "pal:Snock",
+      "fact": "Electric Organ",
+      "sub": "And Aquatic Pal Fluids"
+    }
+  ],
+  "description": "Snock in Palworld 1.0 is a Sunreach Electric Pal with Generating Electricity level four that drops Electric Organ.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Snock",
+    "Snock alpha",
+    "Palworld electricity",
+    "Palworld Sunreach",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide"
+  ]
+}

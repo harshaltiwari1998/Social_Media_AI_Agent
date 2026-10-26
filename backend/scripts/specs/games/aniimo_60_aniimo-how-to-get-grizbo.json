@@ -1,0 +1,47 @@
+{
+  "id": "aniimo-how-to-get-grizbo",
+  "slot": "aniimo",
+  "order": 60,
+  "headline": "Get Grizbo",
+  "title": "How to Get Grizbo in Aniimo | Cubbo Level 47 and the Alpha | Aniimo Guide",
+  "video_script": "Grizbo is the final form of the Cubbo line in Aniimo. Find Cubbo in Rosetower Woods, in Breezy Plains. To evolve it, you need two things. First, defeat the Alpha Grizbo, which is a one time unlock for the species. Second, raise your Cubbo to level forty seven. Grizbo itself also lives in Rosetower Woods, so you can catch one there too. Which Cubbo are you raising? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:5",
+      "label": "Get Grizbo"
+    },
+    {
+      "image": "steam:4126040:8",
+      "fact": "Rosetower Woods",
+      "sub": "Cubbo and Grizbo live here"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Beat Alpha Grizbo",
+      "sub": "A one time unlock"
+    },
+    {
+      "image": "steam:4126040:10",
+      "fact": "Level 47",
+      "sub": "Cubbo evolves into Grizbo"
+    }
+  ],
+  "description": "Cubbo evolves into Grizbo at level 47 once you have defeated Alpha Grizbo; both are found in Rosetower Woods.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Aniimo evolution",
+    "Grizbo",
+    "Cubbo",
+    "Rosetower Woods"
+  ]
+}

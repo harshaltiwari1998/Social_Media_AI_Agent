@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-cattiva-carry-capacity",
+  "slot": "palguide",
+  "order": 84,
+  "headline": "Cattiva carry boost",
+  "title": "Cattiva | Carry More Weight Early | Palworld Guide",
+  "video_script": "Overweight early on? Cattiva fixes that. Its partner skill, Cat Helper, raises your max carrying capacity by one hundred to two hundred while it is in your party, and it does not stack. Find it at level one to three around the Sea Breeze Archipelago and the Isle of Silence. At base it has four jobs at level one. Will you catch Cattiva? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Cattiva",
+      "label": "Cattiva"
+    },
+    {
+      "image": "steam:1623730:18",
+      "fact": "Cat Helper",
+      "sub": "Carry plus 100 to 200"
+    },
+    {
+      "image": "pal:Cattiva",
+      "fact": "Level 1 to 3",
+      "sub": "Sea Breeze and Isle of Silence"
+    },
+    {
+      "image": "steam:1623730:19",
+      "fact": "Four Jobs",
+      "sub": "Handiwork Gathering Mining Transporting"
+    }
+  ],
+  "description": "Cattiva in Palworld 1.0: an early Pal whose Cat Helper partner skill raises your carry capacity by 100 to 200.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Cattiva",
+    "Cattiva carry weight",
+    "Palworld early game",
+    "Palworld partner skill",
+    "Palworld 1.0",
+    "Palworld guide"
+  ]
+}

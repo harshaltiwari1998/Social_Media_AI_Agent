@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-alpha-grizbo-boss-tips",
+  "slot": "aniimo",
+  "order": 75,
+  "headline": "Beat Alpha Grizbo",
+  "title": "Alpha Grizbo Boss Tips | Water and Grass Win the Fight | Aniimo Guide",
+  "video_script": "Alpha Grizbo hits hard, but it has a clear weakness. It is a Rock bear, so bring Water and Grass attackers. Its claw swipes come in a row, so back away and dodge. When it turns red and enraged, do not trade hits. Wait it out, because when the rage ends it is tired and its Break resistance drops. That is your window for big damage. Which Alpha is next on your list? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:3",
+      "label": "Alpha Grizbo"
+    },
+    {
+      "image": "steam:4126040:4",
+      "fact": "Rock bear",
+      "sub": "Weak to Water and Grass"
+    },
+    {
+      "image": "steam:4126040:5",
+      "fact": "Dodge the swipes",
+      "sub": "Back away from the combo"
+    },
+    {
+      "image": "steam:4126040:6",
+      "fact": "Wait out the rage",
+      "sub": "Then it is tired and open"
+    }
+  ],
+  "description": "Alpha Grizbo boss tips in Aniimo: it is a Rock element boss weak to Water and Grass; dodge its claw swipes, wait out the enraged state, then hit it while its Break resistance is lowered.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Alpha Grizbo",
+    "Aniimo boss",
+    "Aniimo Alpha",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay"
+  ]
+}

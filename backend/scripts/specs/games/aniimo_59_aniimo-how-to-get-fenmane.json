@@ -1,0 +1,52 @@
+{
+  "id": "aniimo-how-to-get-fenmane",
+  "slot": "aniimo",
+  "order": 59,
+  "headline": "Get Fenmane",
+  "title": "How to Get Fenmane in Aniimo | Evolve Fentuft at Level 42 | Aniimo Guide",
+  "video_script": "Want Fenmane in Aniimo? Catch a Fentuft in Driftwise Meadow, in the Breezy Plains region. Raise it to level forty two. Then you must complete one Aniimo exchange with a friend, a one time unlock that any trade counts for. Finally, spend one Roar Stone and evolve it from Aniimo Management. If the button is grey, a requirement is missing. Have you evolved your Fentuft yet? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:0",
+      "label": "Get Fenmane"
+    },
+    {
+      "image": "steam:4126040:1",
+      "fact": "Driftwise Meadow",
+      "sub": "Catch a Fentuft here"
+    },
+    {
+      "image": "steam:4126040:2",
+      "fact": "Level 42",
+      "sub": "Raise your Fentuft"
+    },
+    {
+      "image": "steam:4126040:3",
+      "fact": "Trade once",
+      "sub": "One exchange with a friend"
+    },
+    {
+      "image": "steam:4126040:4",
+      "fact": "One Roar Stone",
+      "sub": "Then evolve it"
+    }
+  ],
+  "description": "Fenmane evolves from Fentuft at level 42 after one Aniimo exchange with a friend and one Roar Stone; Fentuft is found in Driftwise Meadow, Breezy Plains.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Aniimo evolution",
+    "Fenmane",
+    "Fentuft",
+    "Roar Stone"
+  ]
+}

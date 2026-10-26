@@ -1,0 +1,47 @@
+{
+  "id": "aniimo-scorchhowl-burn-breaker-fire-kick",
+  "slot": "aniimo",
+  "order": 70,
+  "headline": "Scorchhowl Skills",
+  "title": "Aniimo Scorchhowl Skills | Burn Breaker and Fire Kick | Aniimo Guide",
+  "video_script": "Scorchhowl is a Fire damage dealer with two great skills. Burn Breaker is a charged blast, and at max charge it spends your remaining energy, adding more damage for every extra ten energy used. Fire Kick is a flaming dive that dodges an attack, and a successful dodge deals bonus damage. Save energy for a big Burn Breaker. Do you use Scorchhowl? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:2",
+      "label": "Scorchhowl Skills"
+    },
+    {
+      "image": "steam:4126040:6",
+      "fact": "Burn Breaker",
+      "sub": "Charge it for a huge blast"
+    },
+    {
+      "image": "steam:4126040:10",
+      "fact": "Spend extra energy",
+      "sub": "More damage per ten energy"
+    },
+    {
+      "image": "steam:4126040:14",
+      "fact": "Fire Kick",
+      "sub": "Dodge, then dive in flames"
+    }
+  ],
+  "description": "Scorchhowl is a Fire DPS in Aniimo. Burn Breaker charges into a blast that scales with leftover energy, and Fire Kick dodges then dives for bonus damage.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Scorchhowl",
+    "Burn Breaker",
+    "Fire Kick",
+    "Fire DPS"
+  ]
+}

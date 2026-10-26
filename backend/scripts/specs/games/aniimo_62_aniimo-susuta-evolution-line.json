@@ -1,0 +1,52 @@
+{
+  "id": "aniimo-susuta-evolution-line",
+  "slot": "aniimo",
+  "order": 62,
+  "headline": "Susuta Evolutions",
+  "title": "Susuta Evolution Line | Popota Panpanta or Piopiota | Aniimo Guide",
+  "video_script": "Here is the Susuta evolution line in Aniimo. Susuta becomes Popota at level twenty nine. At level thirty nine, Popota splits in two. To get Panpanta, defeat the Alpha Panpanta. To get Piopiota, have an opposite gender Susuta follow you, then open the evolution screen while it is active. Pick your path before you level up. Which one will you choose? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:21",
+      "label": "Susuta Evolutions"
+    },
+    {
+      "image": "steam:4126040:22",
+      "fact": "Level 29",
+      "sub": "Susuta becomes Popota"
+    },
+    {
+      "image": "steam:4126040:23",
+      "fact": "Level 39",
+      "sub": "Popota has two paths"
+    },
+    {
+      "image": "steam:4126040:24",
+      "fact": "Panpanta",
+      "sub": "Defeat the Alpha Panpanta"
+    },
+    {
+      "image": "steam:4126040:0",
+      "fact": "Piopiota",
+      "sub": "Opposite gender Susuta follows you"
+    }
+  ],
+  "description": "Susuta evolves into Popota at level 29; Popota evolves at level 39 into Panpanta (defeat Alpha Panpanta) or Piopiota (opposite gender Susuta following you).",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Aniimo evolution",
+    "Susuta",
+    "Popota",
+    "Piopiota"
+  ]
+}

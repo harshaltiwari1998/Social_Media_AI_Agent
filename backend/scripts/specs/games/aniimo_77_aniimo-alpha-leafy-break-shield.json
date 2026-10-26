@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-alpha-leafy-break-shield",
+  "slot": "aniimo",
+  "order": 77,
+  "headline": "Alpha Leafy Tips",
+  "title": "Alpha Leafy Tips | Break the Lotus and the Shield | Aniimo Guide",
+  "video_script": "Alpha Leafy is easy to lose to if you ignore its tricks. Bring Ice, Electric or Wind attackers, with Ice the safest pick. Break the Lotus Essence as soon as the warning appears, or your platform can vanish. Then break its healing shield fast, because emptying the gauge under its health bar stops the healing. Save your strongest attacks for the Break window, when it takes much more damage. Do you bring Ice? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:12",
+      "label": "Alpha Leafy"
+    },
+    {
+      "image": "steam:4126040:13",
+      "fact": "Ice Electric Wind",
+      "sub": "The best attacker types"
+    },
+    {
+      "image": "steam:4126040:14",
+      "fact": "Break the Lotus",
+      "sub": "Do it when the warning shows"
+    },
+    {
+      "image": "steam:4126040:15",
+      "fact": "Break the shield",
+      "sub": "Stop its healing quickly"
+    },
+    {
+      "image": "steam:4126040:16",
+      "fact": "Save big hits",
+      "sub": "Use them in the Break window"
+    }
+  ],
+  "description": "Alpha Leafy tips in Aniimo: use Ice, Electric or Wind attackers, break the Lotus Essence when warned, break its healing shield quickly and spend your strongest skills during the Break window.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Alpha Leafy",
+    "Aniimo boss",
+    "Aniimo Alpha",
+    "Break window",
+    "Pawprint Studio",
+    "Aniimo gameplay"
+  ]
+}

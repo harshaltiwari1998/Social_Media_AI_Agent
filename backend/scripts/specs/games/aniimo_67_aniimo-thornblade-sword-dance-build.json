@@ -1,0 +1,47 @@
+{
+  "id": "aniimo-thornblade-sword-dance-build",
+  "slot": "aniimo",
+  "order": 67,
+  "headline": "Thornblade Build",
+  "title": "Thornblade Build | Sword Dance Crit Damage | Aniimo Guide",
+  "video_script": "Thornblade is a Grass melee damage dealer built around its Sword Dance trait. Every skill you use adds a stack, up to four, and each basic attack spends one stack for one hundred eighty percent extra damage. Run Thorny Defense and Thorny Impact, both of which raise your crit rate. Put attack first in your stat priority. Do you main Thornblade? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:0",
+      "label": "Thornblade Build"
+    },
+    {
+      "image": "steam:4126040:5",
+      "fact": "Sword Dance",
+      "sub": "Four stacks, spend one per basic attack"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Thorny Defense and Impact",
+      "sub": "Both raise crit rate"
+    },
+    {
+      "image": "steam:4126040:12",
+      "fact": "Attack first",
+      "sub": "Then regen and break"
+    }
+  ],
+  "description": "Thornblade is a Grass melee DPS in Aniimo. Its Sword Dance trait stacks up to four times and each basic attack uses a stack for 180 percent extra damage; pair Thorny Defense and Thorny Impact and prioritise attack.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Thornblade",
+    "Thornblade build",
+    "Sword Dance",
+    "Grass DPS"
+  ]
+}

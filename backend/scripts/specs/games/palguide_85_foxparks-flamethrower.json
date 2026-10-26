@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-foxparks-flamethrower",
+  "slot": "palguide",
+  "order": 85,
+  "headline": "Foxparks flamethrower",
+  "title": "Foxparks | Your Early Flamethrower | Palworld Guide",
+  "video_script": "Want fire early? Foxparks is an early Fire Pal found around level five to seven in Palworld one point zero. Its partner skill, Huggy Fire, equips it to you as a flamethrower when activated. At your base it works Kindling level one, so it can light your first furnaces. Will you use Foxparks as a weapon? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Foxparks",
+      "label": "Foxparks"
+    },
+    {
+      "image": "steam:1623730:20",
+      "fact": "Huggy Fire",
+      "sub": "Becomes a flamethrower"
+    },
+    {
+      "image": "pal:Foxparks",
+      "fact": "Level 5 to 7",
+      "sub": "Early game"
+    },
+    {
+      "image": "steam:1623730:10",
+      "fact": "Kindling Level 1",
+      "sub": "Base worker"
+    }
+  ],
+  "description": "Foxparks in Palworld 1.0: an early Fire Pal around level 5 to 7 that becomes a flamethrower with its Huggy Fire partner skill.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Foxparks",
+    "Foxparks flamethrower",
+    "Palworld fire Pal",
+    "Palworld partner skill",
+    "Palworld 1.0",
+    "Palworld guide"
+  ]
+}

@@ -2302,5 +2302,313 @@
         "Selyne"
       ]
     ]
+  },
+  {
+    "parents": [
+      "Blazamut",
+      "Ragnahawk"
+    ],
+    "child": "Gildane",
+    "unique": false,
+    "combos": [
+      [
+        "Blazamut",
+        "Ragnahawk"
+      ],
+      [
+        "Azurmane",
+        "Cryolinx"
+      ],
+      [
+        "Flaracle",
+        "Reptyro"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Cryolinx",
+      "Majex"
+    ],
+    "child": "Braloha",
+    "unique": false,
+    "combos": [
+      [
+        "Cryolinx",
+        "Majex"
+      ],
+      [
+        "Quivern",
+        "Wumpo"
+      ],
+      [
+        "Blazamut",
+        "Vanwyrm"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Anubis",
+      "Menasting"
+    ],
+    "child": "Lapure",
+    "unique": false,
+    "combos": [
+      [
+        "Anubis",
+        "Menasting"
+      ],
+      [
+        "Jormuntide",
+        "Majex"
+      ],
+      [
+        "Dualith",
+        "Relaxaurus"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Orserk",
+      "Shaolong"
+    ],
+    "child": "Aegidron",
+    "unique": false,
+    "combos": [
+      [
+        "Orserk",
+        "Shaolong"
+      ],
+      [
+        "Dandilord",
+        "Panthalus"
+      ],
+      [
+        "Hartalis",
+        "Silvance"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Anubis",
+      "Dualith"
+    ],
+    "child": "Astegon",
+    "unique": false,
+    "combos": [
+      [
+        "Anubis",
+        "Dualith"
+      ],
+      [
+        "Blazamut",
+        "Silvegis"
+      ],
+      [
+        "Azurmane",
+        "Shadowbeak"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Dualith",
+      "Knocklem"
+    ],
+    "child": "Flaracle",
+    "unique": false,
+    "combos": [
+      [
+        "Dualith",
+        "Knocklem"
+      ],
+      [
+        "Dupin",
+        "Lyleen"
+      ],
+      [
+        "Ophydia",
+        "Shadowbeak"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Azurmane",
+      "Silvance"
+    ],
+    "child": "Knocklem",
+    "unique": false,
+    "combos": [
+      [
+        "Azurmane",
+        "Silvance"
+      ],
+      [
+        "Lyleen",
+        "Solenne"
+      ],
+      [
+        "Ophydia",
+        "Renjishi"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Penking",
+      "Vaelet"
+    ],
+    "child": "Snock",
+    "unique": false,
+    "combos": [
+      [
+        "Penking",
+        "Vaelet"
+      ],
+      [
+        "Leafan",
+        "Sweepa"
+      ],
+      [
+        "Munchill",
+        "Skutlass"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Bushi",
+      "Helzephyr"
+    ],
+    "child": "Tropicaw",
+    "unique": false,
+    "combos": [
+      [
+        "Bushi",
+        "Helzephyr"
+      ],
+      [
+        "Leafan",
+        "Warsect"
+      ],
+      [
+        "Ragnahawk",
+        "Vanwyrm"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Blazehowl",
+      "Helzephyr"
+    ],
+    "child": "Nyafia",
+    "unique": false,
+    "combos": [
+      [
+        "Blazehowl",
+        "Helzephyr"
+      ],
+      [
+        "Grizzbolt",
+        "Vaelet"
+      ],
+      [
+        "Broncherry",
+        "Menasting"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Grizzbolt",
+      "Warsect"
+    ],
+    "child": "Starryon",
+    "unique": false,
+    "combos": [
+      [
+        "Grizzbolt",
+        "Warsect"
+      ],
+      [
+        "Helzephyr",
+        "Verdash"
+      ],
+      [
+        "Leafan",
+        "Loomen"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Helzephyr",
+      "Mammorest"
+    ],
+    "child": "Palumba",
+    "unique": false,
+    "combos": [
+      [
+        "Helzephyr",
+        "Mammorest"
+      ],
+      [
+        "Ragnahawk",
+        "Skutlass"
+      ],
+      [
+        "Incineram",
+        "Majex"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Frostplume",
+      "Leafan"
+    ],
+    "child": "Omascul",
+    "unique": false,
+    "combos": [
+      [
+        "Frostplume",
+        "Leafan"
+      ],
+      [
+        "Icelyn",
+        "Majex"
+      ],
+      [
+        "Gildra",
+        "Pierdon"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Majex",
+      "Quivern"
+    ],
+    "child": "Pierdon",
+    "unique": false,
+    "combos": [
+      [
+        "Majex",
+        "Quivern"
+      ],
+      [
+        "Ragnahawk",
+        "Verdash"
+      ],
+      [
+        "Incineram",
+        "Moldron"
+      ]
+    ]
   }
 ]

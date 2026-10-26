@@ -1,0 +1,52 @@
+{
+  "id": "aniimo-grass-team-thornblade-melloblum",
+  "slot": "aniimo",
+  "order": 68,
+  "headline": "Grass Team",
+  "title": "Aniimo Grass Team | Thornblade and Melloblum | Aniimo Guide",
+  "video_script": "Want a Grass squad? Guides put Thornblade up front as your main damage dealer and pair it with Melloblum for support. Then add sustain, such as Somniwing or Leafy, so you can keep fighting. Watch out, because Grass takes extra damage from Fire, Wind and Dark. Swap in a teammate who resists those when you meet them. Which Grass Aniimo do you run? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:3",
+      "label": "Grass Team"
+    },
+    {
+      "image": "steam:4126040:5",
+      "fact": "Thornblade",
+      "sub": "Main damage dealer"
+    },
+    {
+      "image": "steam:4126040:7",
+      "fact": "Melloblum",
+      "sub": "Support for the team"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Somniwing or Leafy",
+      "sub": "Sustain for long fights"
+    },
+    {
+      "image": "steam:4126040:11",
+      "fact": "Weak to Fire Wind Dark",
+      "sub": "Swap in a resister"
+    }
+  ],
+  "description": "A Grass team in Aniimo: Thornblade as damage, Melloblum as support, and Somniwing or Leafy for sustain. Grass is weak to Fire, Wind and Dark.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Grass team",
+    "Thornblade",
+    "Melloblum",
+    "Aniimo team comp"
+  ]
+}

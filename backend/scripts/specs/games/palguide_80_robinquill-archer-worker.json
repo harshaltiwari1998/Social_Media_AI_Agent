@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-robinquill-archer-worker",
+  "slot": "palguide",
+  "order": 80,
+  "headline": "Robinquill archer worker",
+  "title": "Robinquill | Bow Damage And Handiwork | Palworld Guide",
+  "video_script": "Use a bow a lot? Robinquill is a Grass Pal found around level thirty to thirty four in Palworld one point zero. Its partner skill, Grounded Archer, raises your bow damage by ten to thirty five percent while it is in your party, and it does not stack. At your base it works Handiwork level three and Gathering level three. Will you bring Robinquill? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Robinquill",
+      "label": "Robinquill"
+    },
+    {
+      "image": "steam:1623730:7",
+      "fact": "Grounded Archer",
+      "sub": "Bow damage plus 10 to 35 percent"
+    },
+    {
+      "image": "pal:Robinquill",
+      "fact": "Level 30 to 34",
+      "sub": "Wild spawns"
+    },
+    {
+      "image": "steam:1623730:9",
+      "fact": "Handiwork Level 3",
+      "sub": "Gathering Level 3"
+    }
+  ],
+  "description": "Robinquill in Palworld 1.0: roughly level 30 to 34 in the wild, a bow damage partner skill and Handiwork 3 plus Gathering 3 at base.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Robinquill",
+    "Robinquill bow",
+    "Palworld partner skill",
+    "Palworld handiwork",
+    "Palworld 1.0",
+    "Palworld guide"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-fenglope-double-jump-mount",
+  "slot": "palguide",
+  "order": 82,
+  "headline": "Fenglope double jump",
+  "title": "Fenglope | A Mount With Double Jump | Palworld Guide",
+  "video_script": "Want a mount that double jumps? Fenglope can be ridden in Palworld one point zero, and its partner skill, Wind and Clouds, lets you double jump while mounted. Find it around the Number Three Wildlife Sanctuary at roughly level forty five to fifty. At your base it works Lumbering level three. Will you ride Fenglope? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Fenglope",
+      "label": "Fenglope"
+    },
+    {
+      "image": "steam:1623730:14",
+      "fact": "Wildlife Sanctuary",
+      "sub": "Level 45 to 50"
+    },
+    {
+      "image": "pal:Fenglope",
+      "fact": "Wind and Clouds",
+      "sub": "Double jump while mounted"
+    },
+    {
+      "image": "steam:1623730:15",
+      "fact": "Lumbering Level 3",
+      "sub": "Base worker"
+    }
+  ],
+  "description": "Fenglope in Palworld 1.0: a rideable Pal with a double jump partner skill, found at the No. 3 Wildlife Sanctuary around level 45 to 50.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Fenglope",
+    "Fenglope mount",
+    "Palworld double jump",
+    "Palworld lumbering",
+    "Palworld 1.0",
+    "Palworld guide"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-depresso-night-speed-boost",
+  "slot": "palguide",
+  "order": 83,
+  "headline": "Depresso night Pal",
+  "title": "Depresso | The Energy Drink Speed Boost | Palworld Guide",
+  "video_script": "Meet the sleepless Pal! Depresso mostly appears at night around the Bamboo Groves and the Eastern Wild Island in Palworld one point zero, starting from around level four. Its partner skill, Caffeine Inoculation, makes it chug an energy drink for a big boost to movement and work speed. At base it does Handiwork, Mining, Transporting and Farming at level one. Will you catch Depresso? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Depresso",
+      "label": "Depresso"
+    },
+    {
+      "image": "steam:1623730:16",
+      "fact": "Bamboo Groves",
+      "sub": "Mostly at night"
+    },
+    {
+      "image": "pal:Depresso",
+      "fact": "Caffeine Inoculation",
+      "sub": "Big speed boost"
+    },
+    {
+      "image": "steam:1623730:17",
+      "fact": "Four Jobs",
+      "sub": "All at Level 1"
+    }
+  ],
+  "description": "Depresso in Palworld 1.0: a low level night Pal around the Bamboo Groves whose Caffeine Inoculation boosts movement and work speed.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Depresso",
+    "Depresso location",
+    "Palworld partner skill",
+    "Palworld night Pals",
+    "Palworld 1.0",
+    "Palworld guide"
+  ]
+}

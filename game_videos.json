@@ -4127,5 +4127,44 @@
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-7c091578.mp4",
     "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-7c091578-thumb.jpg",
     "chapters": "0:00 उलगनायगन की कहानी\n0:40 बचपन और पहली film\n1:24 सहायक से नायक तक\n2:13 Hindi सिनेमा में कदम\n2:57 राष्ट्रीय पुरस्कार और Nayakan\n3:42 अलग अलग रूप\n4:27 लेखक और निर्देशक Kamal\n5:13 Dasavathaaram का कमाल\n5:57 Vikram और नई पारी\n6:41 सम्मान और विरासत\n7:25 आपकी राय"
+  },
+  "aniimo-evolution-explained": {
+    "spec": "scripts/specs/long/gaming_53_aniimo-evolution-explained.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-0a7ff157.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-0a7ff157-thumb.jpg",
+    "chapters": "0:00 Why evolution matters\n0:48 How to open the evolution screen\n1:35 Evolve is not Level Up\n2:20 Lumin, Gamma and Nova\n3:05 The types of requirements\n3:53 Example one: Nimbi into Turbo\n4:36 Example two: Wisptis into Fulmintis\n5:12 Where evolution materials come from\n6:00 Planning your evolutions\n6:47 A tricky example: Hummin into Tuckin\n7:28 What will you evolve next"
+  },
+  "aniimo-how-to-get-pomawk": {
+    "spec": "scripts/specs/games/aniimo_65_aniimo-how-to-get-pomawk.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-c0a4b7ad.mp4"
+  },
+  "aniimo-nighttime-fenrier-guide": {
+    "spec": "scripts/specs/games/aniimo_66_aniimo-nighttime-fenrier-guide.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f9bb4a6a.mp4"
+  },
+  "aniimo-thornblade-sword-dance-build": {
+    "spec": "scripts/specs/games/aniimo_67_aniimo-thornblade-sword-dance-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f96c0de2.mp4"
+  },
+  "aniimo-grass-team-thornblade-melloblum": {
+    "spec": "scripts/specs/games/aniimo_68_aniimo-grass-team-thornblade-melloblum.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-3927a056.mp4"
+  },
+  "aniimo-pawney-kit-explained": {
+    "spec": "scripts/specs/games/aniimo_69_aniimo-pawney-kit-explained.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-58dc3158.mp4"
+  },
+  "palworld-guide-fenglope-double-jump-mount": {
+    "spec": "scripts/specs/games/palguide_82_fenglope-double-jump-mount.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-cdc3537a.mp4"
+  },
+  "palworld-guide-depresso-night-speed-boost": {
+    "spec": "scripts/specs/games/palguide_83_depresso-night-speed-boost.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-6394bac2.mp4"
+  },
+  "palworld-guide-cattiva-carry-capacity": {
+    "spec": "scripts/specs/games/palguide_84_cattiva-carry-capacity.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-2b3d7bd2.mp4"
   }
 }

@@ -3638,5 +3638,487 @@
   "palworld-guide-snock-electricity-sunreach": {
     "spec": "scripts/specs/games/palguide_91_snock-electricity-sunreach.json",
     "video": "F:\\AI AGENT\\run_b20\\videos\\short-9d4bbb93.mp4"
+  },
+  "deal-steam-deal-867210-80": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-867210-80.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-22de99bf.mp4",
+    "data": {
+      "id": "deal-steam-deal-867210-80",
+      "slot": "deals",
+      "badge": "STEAM MIDWEEK DEAL",
+      "headline": "Steam deal",
+      "title": "Songs of Conquest 80% OFF on Steam | Now Rs 351 | Steam Deal Oct 26",
+      "video_script": "Today's Steam Midweek Deal is Songs of Conquest at 80 percent off, down from 1,759 rupees to just 351 rupees. Raise mighty armies, wield ancient magic and forge an empire. This turn-based strategy adventure game fuses strategic decision making, tactical combat and kingdom management. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/867210/1b5b1025d51c42b6d4bb955737068e513b45382d/header.jpg?t=1792995956",
+          "label": "Songs of Conquest"
+        },
+        {
+          "image": "steam:867210:0",
+          "fact": "-80%  Rs 351",
+          "sub": "was Rs 1,759"
+        },
+        {
+          "image": "steam:867210:1",
+          "fact": "Adventure + RPG + Strategy",
+          "sub": "Lavapotion"
+        },
+        {
+          "image": "steam:867210:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Midweek Deal is Songs of Conquest at 80 percent off, down from 1,759 rupees to just 351 rupees.\nhttps://store.steampowered.com/app/867210\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 26 2026, 22:41 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Songs of Conquest",
+        "Songs of Conquest sale",
+        "Songs of Conquest price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-1643310-50": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-1643310-50.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-3b7e06ef.mp4",
+    "data": {
+      "id": "deal-steam-deal-1643310-50",
+      "slot": "deals",
+      "badge": "STEAM DAILY DEAL",
+      "headline": "Steam deal",
+      "title": "Dungeons 4 50% OFF on Steam | Now Rs 1,499 | Steam Deal Oct 26",
+      "video_script": "Today's Steam Daily Deal is Dungeons 4 at 50 percent off, down from 2,999 rupees to just 1,499 rupees. The Absolute Evil and its trusted *cough* servant, the Dark Elf Thalya, return in Dungeons 4 after the events of its fabulous predecessor to bring about their triumph over the forces of good once more. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1643310/header.jpg?t=1786957609",
+          "label": "Dungeons 4"
+        },
+        {
+          "image": "steam:1643310:0",
+          "fact": "-50%  Rs 1,499",
+          "sub": "was Rs 2,999"
+        },
+        {
+          "image": "steam:1643310:1",
+          "fact": "Simulation + Strategy",
+          "sub": "Realmforge Studios"
+        },
+        {
+          "image": "steam:1643310:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Daily Deal is Dungeons 4 at 50 percent off, down from 2,999 rupees to just 1,499 rupees.\nhttps://store.steampowered.com/app/1643310\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 26 2026, 22:41 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Dungeons 4",
+        "Dungeons 4 sale",
+        "Dungeons 4 price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-2646460-40": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-2646460-40.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-256df5c1.mp4",
+    "data": {
+      "id": "deal-steam-deal-2646460-40",
+      "slot": "deals",
+      "badge": "STEAM MIDWEEK DEAL",
+      "headline": "Steam deal",
+      "title": "Soulmask 40% OFF on Steam | Now Rs 779 | Steam Deal Oct 26",
+      "video_script": "Today's Steam Midweek Deal is Soulmask at 40 percent off, down from 1,299 rupees to just 779 rupees. Don the Ancient Mask. Wield the power of gods. Possess any of your tribespeople, recruit followers, and build a thriving automated civilization. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2646460/8580b9d3a4f484c8e865a51c89c8307521716151/header_alt_assets_29.jpg?t=1792653046",
+          "label": "Soulmask"
+        },
+        {
+          "image": "steam:2646460:0",
+          "fact": "-40%  Rs 779",
+          "sub": "was Rs 1,299"
+        },
+        {
+          "image": "steam:2646460:1",
+          "fact": "Adventure + Indie + RPG",
+          "sub": "CampFire Studio"
+        },
+        {
+          "image": "steam:2646460:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Midweek Deal is Soulmask at 40 percent off, down from 1,299 rupees to just 779 rupees.\nhttps://store.steampowered.com/app/2646460\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 26 2026, 22:41 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Soulmask",
+        "Soulmask sale",
+        "Soulmask price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-1766060-40": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-1766060-40.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-33e86b80.mp4",
+    "data": {
+      "id": "deal-steam-deal-1766060-40",
+      "slot": "deals",
+      "badge": "STEAM MIDWEEK DEAL",
+      "headline": "Steam deal",
+      "title": "HumanitZ 40% OFF on Steam | Now Rs 528 | Steam Deal Oct 26",
+      "video_script": "Today's Steam Midweek Deal is HumanitZ at 40 percent off, down from 880 rupees to just 528 rupees. HumanitZ is an isometric, open-world sandbox survival game set in a world ended by a zombie outbreak. Survive alone or with friends by scavenging, crafting, building, and fighting to last as long as ‘humanly’ possible. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1766060/7fdc4417caf1f03cd228514380efa7fe0b75839e/header_alt_assets_12.jpg?t=1792525688",
+          "label": "HumanitZ"
+        },
+        {
+          "image": "steam:1766060:0",
+          "fact": "-40%  Rs 528",
+          "sub": "was Rs 880"
+        },
+        {
+          "image": "steam:1766060:1",
+          "fact": "Action + Adventure + RPG",
+          "sub": "Yodubzz Studios"
+        },
+        {
+          "image": "steam:1766060:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Midweek Deal is HumanitZ at 40 percent off, down from 880 rupees to just 528 rupees.\nhttps://store.steampowered.com/app/1766060\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 26 2026, 22:41 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "HumanitZ",
+        "HumanitZ sale",
+        "HumanitZ price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-4244510-30": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-4244510-30.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e277ee95.mp4",
+    "data": {
+      "id": "deal-steam-deal-4244510-30",
+      "slot": "deals",
+      "badge": "STEAM MIDWEEK DEAL",
+      "headline": "Steam deal",
+      "title": "Pratfall 30% OFF on Steam | Now Rs 251 | Steam Deal Oct 26",
+      "video_script": "Today's Steam Midweek Deal is Pratfall at 30 percent off, down from 359 rupees to just 251 rupees. A co-op game for 1-6+ players where you fall, dig, and explode your way down a dangerous cave system to find your lost dog. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4244510/aa5134d11626034935daa974478c834d03d73f54/header.jpg?t=1793009009",
+          "label": "Pratfall"
+        },
+        {
+          "image": "steam:4244510:0",
+          "fact": "-30%  Rs 251",
+          "sub": "was Rs 359"
+        },
+        {
+          "image": "steam:4244510:1",
+          "fact": "Action + Adventure + Indie",
+          "sub": "Quad Head"
+        },
+        {
+          "image": "steam:4244510:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Midweek Deal is Pratfall at 30 percent off, down from 359 rupees to just 251 rupees.\nhttps://store.steampowered.com/app/4244510\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 26 2026, 22:41 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Pratfall",
+        "Pratfall sale",
+        "Pratfall price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-2379780-20": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-2379780-20.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5af3133a.mp4",
+    "data": {
+      "id": "deal-steam-deal-2379780-20",
+      "slot": "deals",
+      "badge": "STEAM MIDWEEK DEAL",
+      "headline": "Steam deal",
+      "title": "Balatro 20% OFF on Steam | Now Rs 552 | Steam Deal Oct 26",
+      "video_script": "Today's Steam Midweek Deal is Balatro at 20 percent off, down from 690 rupees to just 552 rupees. The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2379780/7a85430784e4d613cdb0547414d8cf16ffa45747/header.jpg?t=1790693638",
+          "label": "Balatro"
+        },
+        {
+          "image": "steam:2379780:0",
+          "fact": "-20%  Rs 552",
+          "sub": "was Rs 690"
+        },
+        {
+          "image": "steam:2379780:1",
+          "fact": "Casual + Indie + Strategy",
+          "sub": "LocalThunk"
+        },
+        {
+          "image": "steam:2379780:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Midweek Deal is Balatro at 20 percent off, down from 690 rupees to just 552 rupees.\nhttps://store.steampowered.com/app/2379780\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 26 2026, 22:41 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Balatro",
+        "Balatro sale",
+        "Balatro price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-2399830-75": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-2399830-75.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-fd23197f.mp4",
+    "data": {
+      "id": "deal-steam-deal-2399830-75",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "ARK: Survival Ascended 75% OFF on Steam | Now Rs 925 | Steam Deal Oct 26",
+      "video_script": "ARK: Survival Ascended is on sale on Steam at 75 percent off, down from 3,700 rupees to just 925 rupees. ARK is reimagined from the ground-up into the next-generation of video game technology with Unreal Engine 5! Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2399830/d934813ca531af0fce69fe36bc972f1c90d1aa19/header.jpg?t=1779293241",
+          "label": "ARK: Survival Ascended"
+        },
+        {
+          "image": "steam:2399830:0",
+          "fact": "-75%  Rs 925",
+          "sub": "was Rs 3,700"
+        },
+        {
+          "image": "steam:2399830:1",
+          "fact": "Action + Adventure + Indie",
+          "sub": "Studio Wildcard, Grove Street Games"
+        },
+        {
+          "image": "steam:2399830:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "ARK: Survival Ascended is on sale on Steam at 75 percent off, down from 3,700 rupees to just 925 rupees.\nhttps://store.steampowered.com/app/2399830\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 26 2026, 22:41 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "ARK: Survival Ascended",
+        "ARK: Survival Ascended sale",
+        "ARK: Survival Ascended price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deals-budget-2026-10-26": {
+    "spec": "scripts/specs/deals/long/deals-budget-2026-10-26.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-ea17b8a8.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-ea17b8a8-thumb.jpg",
+    "chapters": "0:00 Today's deals\n0:11 Dead by Daylight - 60% off\n0:41 Leikkaus - 40% off\n1:14 Nitro Nonsense - 40% off\n1:51 Backwards - 30% off\n2:28 Giraffe Champion 3: Halloween Party & The Ghost Guitar - 30% off\n3:06 10 Hours Before Sunrise - 30% off\n3:44 Which one are you grabbing",
+    "data": {
+      "id": "deals-budget-2026-10-26",
+      "category": "gaming",
+      "title": "Best Steam Deals Under Rs 500 Today | Dead by Daylight and More | Oct 26",
+      "description": "These are the best Steam deals under 500 rupees for October 26. 6 games, all on sale right now, with the price, what each game is, and its Steam reviews.\n\n- Dead by Daylight: -60% Rs 463 (was Rs 1,159) - https://store.steampowered.com/app/381210\n- Leikkaus: -40% Rs 95 (was Rs 159) - https://store.steampowered.com/app/5299880\n- Nitro Nonsense: -40% Rs 191 (was Rs 319) - https://store.steampowered.com/app/5000550\n- Backwards: -30% Rs 349 (was Rs 499) - https://store.steampowered.com/app/5224910\n- Giraffe Champion 3: Halloween Party & The Ghost Guitar: -30% Rs 279 (was Rs 399) - https://store.steampowered.com/app/4742590\n- 10 Hours Before Sunrise: -30% Rs 181 (was Rs 259) - https://store.steampowered.com/app/4389980\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 26 2026, 22:41 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "SteamSale",
+        "EpicGames",
+        "GameDeals"
+      ],
+      "tags": [
+        "Dead by Daylight",
+        "Leikkaus",
+        "Nitro Nonsense",
+        "Backwards",
+        "Giraffe Champion 3: Halloween Party & The Ghost Guitar",
+        "10 Hours Before Sunrise",
+        "free games",
+        "steam sale",
+        "steam deals today",
+        "epic games free games",
+        "best game deals",
+        "steam sale india",
+        "cheap pc games",
+        "games under 500 rupees"
+      ],
+      "thumbnail": {
+        "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/23fed9f741423413769ad1617e41519d1a466cdc/header_alt_assets_10.jpg?t=1791302579",
+        "text": "UNDER RS 500"
+      },
+      "sections": [
+        {
+          "heading": "Today's deals",
+          "script": "These are the best Steam deals under 500 rupees for October 26. 6 games, all on sale right now, with the price, what each game is, and its Steam reviews.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/23fed9f741423413769ad1617e41519d1a466cdc/header_alt_assets_10.jpg?t=1791302579",
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5299880/28d72c9ee2cdcd88f36d66a9bcc5231e1e4f2af7/header.jpg?t=1793030472",
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5000550/0f79a4ddfa404701a8eabd9973f4037f3a9aee6c/header.jpg?t=1793026852"
+          ]
+        },
+        {
+          "heading": "Dead by Daylight - 60% off",
+          "script": "Dead by Daylight is on sale on Steam at 60 percent off, down from 1,159 rupees to just 463 rupees. 10 years of horror. 10 years of jump scares and close calls. 10 years of brutal sacrifices and thrilling escapes. Steam lists it as Action, made by Behaviour Interactive Inc., released 14 Jun, 2016. That saves you 696 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/23fed9f741423413769ad1617e41519d1a466cdc/header_alt_assets_10.jpg?t=1791302579",
+            "steam:381210:0",
+            "steam:381210:1"
+          ]
+        },
+        {
+          "heading": "Leikkaus - 40% off",
+          "script": "Leikkaus is on sale on Steam at 40 percent off, down from 159 rupees to just 95 rupees. The deal ends on November 9. One student, one abandoned university, and someone who is after their benefits... or more. Hide. Run. Don't get cut. Steam lists it as Adventure and Indie, made by Leikkaus Team, released 26 Oct, 2026. That saves you 64 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5299880/28d72c9ee2cdcd88f36d66a9bcc5231e1e4f2af7/header.jpg?t=1793030472",
+            "steam:5299880:0",
+            "steam:5299880:1"
+          ]
+        },
+        {
+          "heading": "Nitro Nonsense - 40% off",
+          "script": "Nitro Nonsense is on sale on Steam at 40 percent off, down from 319 rupees to just 191 rupees. The deal ends on November 2. A chaotic party racer for 1, 2, 4, 8, or up to 16 players, locally or online! Race in split-screen or share a top-down view, build custom tracks, and fill them with traps and obstacles when you win. Steam lists it as Casual and Indie and Racing, made by Laggy Lobster, released 26 Oct, 2026. That saves you 128 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5000550/0f79a4ddfa404701a8eabd9973f4037f3a9aee6c/header.jpg?t=1793026852",
+            "steam:5000550:0",
+            "steam:5000550:1"
+          ]
+        },
+        {
+          "heading": "Backwards - 30% off",
+          "script": "Backwards is on sale on Steam at 30 percent off, down from 499 rupees to just 349 rupees. The deal ends on November 3. Backwards is a first-person psychological horror game where survival depends on three rules: walk backward, turn when you’re being observed, and move forward only when danger leaves you no choice. Read the hallway, trust your senses, and don’t get comfortable. Steam lists it as Adventure and Indie, made by Still Mile Studios LLC, released 26 Oct, 2026. That saves you 150 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5224910/2f424b9d8194b642d342b85b87d43d94831996c2/header.jpg?t=1793030472",
+            "steam:5224910:0",
+            "steam:5224910:1"
+          ]
+        },
+        {
+          "heading": "Giraffe Champion 3: Halloween Party & The Ghost Guitar - 30% off",
+          "script": "Giraffe Champion 3: Halloween Party & The Ghost Guitar is on sale on Steam at 30 percent off, down from 399 rupees to just 279 rupees. The deal ends on November 5. Play rock and metal songs and compete against zombies, witches, ghosts in the guitar battle to get all your guitars back. You are going to perform at a Halloween party but zombies have stolen all your guitars. Steam lists it as Action and Casual and Indie, made by John Ramstedt, released 26 Oct, 2026. That saves you 120 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4742590/b90e353556938e51ce6684919e5681b6b5f8984a/header.jpg?t=1793022274",
+            "steam:4742590:0",
+            "steam:4742590:1"
+          ]
+        },
+        {
+          "heading": "10 Hours Before Sunrise - 30% off",
+          "script": "10 Hours Before Sunrise is on sale on Steam at 30 percent off, down from 259 rupees to just 181 rupees. The deal ends on November 2. A brutal 8-bit-style boomer shooter inspired by the best of ‘80s trash horror. You are Samuel Alvarez, a broken man who discovers a cabin worse than any nightmare. Survive the night and face the forces of Wendakor — or you won’t see the dawn. Steam lists it as Action and Indie, made by Goburin Studios, released 26 Oct, 2026. That saves you 78 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4389980/0c9fb8afea15c2b630aca96f3840e52a15bd2e2a/header.jpg?t=1793012488",
+            "steam:4389980:0",
+            "steam:4389980:1"
+          ]
+        },
+        {
+          "heading": "Which one are you grabbing",
+          "script": "That's the list for today. Prices on Steam are the India store prices in rupees, and they can change, so always check the store page before you buy. Every link is in the description. Tell me in the comments which game you are grabbing, and subscribe, because we check Epic and Steam every single day and post the free games and the best deals as soon as they go live.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/23fed9f741423413769ad1617e41519d1a466cdc/header_alt_assets_10.jpg?t=1791302579"
+          ]
+        }
+      ]
+    }
   }
 }

@@ -4120,5 +4120,12 @@
         }
       ]
     }
+  },
+  "kamal-haasan-safar": {
+    "spec": "scripts/specs/long/movies_23_kamal-haasan-safar.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-7c091578.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-7c091578-thumb.jpg",
+    "chapters": "0:00 उलगनायगन की कहानी\n0:40 बचपन और पहली film\n1:24 सहायक से नायक तक\n2:13 Hindi सिनेमा में कदम\n2:57 राष्ट्रीय पुरस्कार और Nayakan\n3:42 अलग अलग रूप\n4:27 लेखक और निर्देशक Kamal\n5:13 Dasavathaaram का कमाल\n5:57 Vikram और नई पारी\n6:41 सम्मान और विरासत\n7:25 आपकी राय"
   }
 }

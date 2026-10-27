@@ -4166,5 +4166,37 @@
   "palworld-guide-cattiva-carry-capacity": {
     "spec": "scripts/specs/games/palguide_84_cattiva-carry-capacity.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-2b3d7bd2.mp4"
+  },
+  "warhammer-40k-dawn-of-war-4": {
+    "spec": "scripts/specs/games/new_32_warhammer-40k-dawn-of-war-4.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-02eaf7d2.mp4"
+  },
+  "mafia-lost-heaven-2002": {
+    "spec": "scripts/specs/games/classic_53_mafia-lost-heaven-2002.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5a37fbde.mp4"
+  },
+  "commandos-behind-enemy-lines-1998": {
+    "spec": "scripts/specs/games/classic_54_commandos-behind-enemy-lines-1998.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ce9aed54.mp4"
+  },
+  "starcraft-1998": {
+    "spec": "scripts/specs/games/classic_55_starcraft-1998.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-c7127768.mp4"
+  },
+  "cliff-booth-fincher": {
+    "spec": "scripts/specs/movies/movie_new_30_cliff-booth-fincher.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-db12d355.mp4"
+  },
+  "ranabaali-50-crore": {
+    "spec": "scripts/specs/movies/movie_review_27_ranabaali-50-crore.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-2be571b3.mp4"
+  },
+  "reel-alam-ara-facts": {
+    "spec": "scripts/specs/movies/reel_64_alam-ara-facts.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f102e25e.mp4"
+  },
+  "aniimo-scorchhowl-burn-breaker-fire-kick": {
+    "spec": "scripts/specs/games/aniimo_70_aniimo-scorchhowl-burn-breaker-fire-kick.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-31182b5a.mp4"
   }
 }

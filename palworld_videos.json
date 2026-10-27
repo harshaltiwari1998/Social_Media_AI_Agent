@@ -4417,5 +4417,39 @@
       ],
       "unique": false
     }
+  },
+  "Knocklem": {
+    "spec": "scripts/specs/palworld_knocklem.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-435ca4c7.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Knocklem",
+      "caption": "3 ways to breed Knocklem in Palworld 1.0: Azurmane + Silvance, Lyleen + Solenne, Ophydia + Renjishi.",
+      "video_script": "Here are three ways to breed Knocklem in Palworld one point zero. Combo one: breed Azurmane with Silvance on your Breeding Farm, then add a cake. Combo two: pair Lyleen and Solenne together, and you get the same egg. Combo three: Ophydia plus Renjishi works too, so use whichever Pals you have. Every egg hatches into Knocklem. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Azurmane",
+        "Silvance"
+      ],
+      "combos": [
+        [
+          "Azurmane",
+          "Silvance"
+        ],
+        [
+          "Lyleen",
+          "Solenne"
+        ],
+        [
+          "Ophydia",
+          "Renjishi"
+        ]
+      ],
+      "child": "Knocklem",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
   }
 }

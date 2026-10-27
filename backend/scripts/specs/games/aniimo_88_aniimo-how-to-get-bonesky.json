@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-how-to-get-bonesky",
+  "slot": "aniimo",
+  "order": 88,
+  "headline": "Get Bonesky",
+  "title": "How to Get Bonesky | Ice Path to Glynsera | Aniimo Guide",
+  "video_script": "Bonesky is an Ice DPS Aniimo. You can find it in Beast Fang Ridge, near the Frozen Caverns, often roaming with Fenrier. It also lives in Driftwise Meadow and Echoback Landing. There is a Nighttime Form too, which adds the Dark element. Level it to twenty four for Fenrier, then to thirty four with a Freeze Stone for Glynsera. Which evolution do you want? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:6",
+      "label": "How to Get Bonesky"
+    },
+    {
+      "image": "steam:4126040:7",
+      "fact": "Ice DPS",
+      "sub": "Beast Fang Ridge"
+    },
+    {
+      "image": "steam:4126040:8",
+      "fact": "Near Frozen Caverns",
+      "sub": "Roams with Fenrier"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Level twenty four",
+      "sub": "Becomes Fenrier"
+    },
+    {
+      "image": "steam:4126040:15",
+      "fact": "Level thirty four",
+      "sub": "Freeze Stone, Glynsera"
+    }
+  ],
+  "description": "Aniimo's Bonesky is an Ice DPS Aniimo found in Beast Fang Ridge and other regions. It evolves into Fenrier at level 24, then into Glynsera at level 34 with a Freeze Stone.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Bonesky",
+    "Aniimo Bonesky",
+    "Fenrier",
+    "Glynsera",
+    "Pawprint Studio"
+  ]
+}

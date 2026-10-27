@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-flameruff-scorchhowl-or-inferlupa",
+  "slot": "aniimo",
+  "order": 90,
+  "headline": "Flameruff Branch",
+  "title": "Flameruff Evolution | Scorchhowl or Inferlupa | Aniimo Guide",
+  "video_script": "Flameruff comes from Emberpup at level twelve. At level twenty it splits into two paths. Scorchhowl needs you to defeat the Alpha Scorchhowl and a Blaze Stone. Inferlupa needs you to complete Journey Warrior, a Night Stone and six Unbroken Flameruff Spirits. Each Flameruff takes only one exit, so choose carefully. Scorchhowl is Fire, Inferlupa is Dark and Fire. Which will you pick? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:21",
+      "label": "Flameruff Evolution"
+    },
+    {
+      "image": "steam:4126040:22",
+      "fact": "Level twenty",
+      "sub": "Two paths"
+    },
+    {
+      "image": "steam:4126040:23",
+      "fact": "Scorchhowl",
+      "sub": "Alpha plus Blaze Stone"
+    },
+    {
+      "image": "steam:4126040:24",
+      "fact": "Inferlupa",
+      "sub": "Night Stone, six Spirits"
+    },
+    {
+      "image": "steam:4126040:25",
+      "fact": "Only one exit",
+      "sub": "Choose carefully"
+    }
+  ],
+  "description": "Aniimo's Flameruff evolves at level 20 into Scorchhowl (defeat the Alpha, Blaze Stone) or Inferlupa (Journey: Warrior, Night Stone, six Unbroken Flameruff Spirits). Only one path per Flameruff.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Flameruff",
+    "Aniimo Flameruff",
+    "Scorchhowl",
+    "Inferlupa",
+    "Pawprint Studio"
+  ]
+}

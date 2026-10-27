@@ -4651,5 +4651,29 @@
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-b7c36003.mp4",
     "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-b7c36003-thumb.jpg",
     "chapters": "0:00 Singham की कहानी\n0:41 फिल्मी परिवार का बेटा\n1:26 Phool Aur Kaante का धमाका\n2:12 Zakhm और पहला राष्ट्रीय पुरस्कार\n2:56 शादी और परिवार\n3:40 कठिन दौर और The Legend of Bhagat Singh\n4:25 Rohit Shetty के साथ जोड़ी\n5:16 निर्देशक और निर्माता\n6:02 Tanhaji और तीसरा राष्ट्रीय पुरस्कार\n6:51 हाल की फिल्में और सवाल"
+  },
+  "aniimo-how-to-get-sparki": {
+    "spec": "scripts/specs/games/aniimo_83_aniimo-how-to-get-sparki.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-a1a001df.mp4"
+  },
+  "aniimo-how-to-get-glynsera": {
+    "spec": "scripts/specs/games/aniimo_84_aniimo-how-to-get-glynsera.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-87a059de.mp4"
+  },
+  "aniimo-how-to-get-budclaw": {
+    "spec": "scripts/specs/games/aniimo_85_aniimo-how-to-get-budclaw.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-89094e00.mp4"
+  },
+  "palworld-guide-dualith-mining-transport": {
+    "spec": "scripts/specs/games/palguide_88_dualith-mining-transport.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-774ce574.mp4"
+  },
+  "palworld-guide-ophydia-planting-seven": {
+    "spec": "scripts/specs/games/palguide_89_ophydia-planting-seven.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e07bf463.mp4"
+  },
+  "palworld-guide-flaracle-kindling-seven": {
+    "spec": "scripts/specs/games/palguide_90_flaracle-kindling-seven.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-83b02e34.mp4"
   }
 }

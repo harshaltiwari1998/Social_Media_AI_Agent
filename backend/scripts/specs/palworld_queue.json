@@ -2610,5 +2610,203 @@
         "Moldron"
       ]
     ]
+  },
+  {
+    "parents": [
+      "Jormuntide",
+      "Moldron"
+    ],
+    "child": "Whalaska",
+    "unique": false,
+    "combos": [
+      [
+        "Jormuntide",
+        "Moldron"
+      ],
+      [
+        "Dualith",
+        "Ghangler"
+      ],
+      [
+        "Blazamut",
+        "Majex"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Ghangler",
+      "Wumpo"
+    ],
+    "child": "Frostplume",
+    "unique": false,
+    "combos": [
+      [
+        "Ghangler",
+        "Wumpo"
+      ],
+      [
+        "Blazamut",
+        "Warsect"
+      ],
+      [
+        "Dualith",
+        "Quivern"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Blazamut",
+      "Helzephyr"
+    ],
+    "child": "Splatterina",
+    "unique": false,
+    "combos": [
+      [
+        "Blazamut",
+        "Helzephyr"
+      ],
+      [
+        "Dualith",
+        "Ragnahawk"
+      ],
+      [
+        "Moldron",
+        "Tetroise"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Ghangler",
+      "Knocklem"
+    ],
+    "child": "Silvegis",
+    "unique": false,
+    "combos": [
+      [
+        "Ghangler",
+        "Knocklem"
+      ],
+      [
+        "Dualith",
+        "Jormuntide"
+      ],
+      [
+        "Blazamut",
+        "Whalaska"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Moldron",
+      "Wumpo"
+    ],
+    "child": "Tetroise",
+    "unique": false,
+    "combos": [
+      [
+        "Moldron",
+        "Wumpo"
+      ],
+      [
+        "Ghangler",
+        "Whalaska"
+      ],
+      [
+        "Jormuntide",
+        "Sootseer"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Blazamut",
+      "Knocklem"
+    ],
+    "child": "Eidrolon",
+    "unique": false,
+    "combos": [
+      [
+        "Blazamut",
+        "Knocklem"
+      ],
+      [
+        "Dualith",
+        "Orserk"
+      ],
+      [
+        "Azurmane",
+        "Ophydia"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Anubis",
+      "Blazamut"
+    ],
+    "child": "Azurmane",
+    "unique": false,
+    "combos": [
+      [
+        "Anubis",
+        "Blazamut"
+      ],
+      [
+        "Moldron",
+        "Orserk"
+      ],
+      [
+        "Celesdir",
+        "Knocklem"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Celesdir",
+      "Dualith"
+    ],
+    "child": "Roujay",
+    "unique": false,
+    "combos": [
+      [
+        "Celesdir",
+        "Dualith"
+      ],
+      [
+        "Knocklem",
+        "Tetroise"
+      ],
+      [
+        "Dupin",
+        "Silvegis"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Majex",
+      "Moldron"
+    ],
+    "child": "Ghangler",
+    "unique": false,
+    "combos": [
+      [
+        "Majex",
+        "Moldron"
+      ],
+      [
+        "Blazamut",
+        "Mammorest"
+      ],
+      [
+        "Dualith",
+        "Palumba"
+      ]
+    ]
   }
 ]

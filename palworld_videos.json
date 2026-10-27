@@ -4451,5 +4451,107 @@
       ],
       "unique": false
     }
+  },
+  "Snock": {
+    "spec": "scripts/specs/palworld_snock.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-245c4fb6.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Snock",
+      "caption": "3 ways to breed Snock in Palworld 1.0: Penking + Vaelet, Leafan + Sweepa, Munchill + Skutlass.",
+      "video_script": "Here are three ways to breed Snock in Palworld one point zero. Combo one: breed Penking with Vaelet on your Breeding Farm, then add a cake. Combo two: pair Leafan and Sweepa together, and you get the same egg. Combo three: Munchill plus Skutlass works too, so use whichever Pals you have. Every egg hatches into Snock. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Penking",
+        "Vaelet"
+      ],
+      "combos": [
+        [
+          "Penking",
+          "Vaelet"
+        ],
+        [
+          "Leafan",
+          "Sweepa"
+        ],
+        [
+          "Munchill",
+          "Skutlass"
+        ]
+      ],
+      "child": "Snock",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Tropicaw": {
+    "spec": "scripts/specs/palworld_tropicaw.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-9dcbdd71.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Tropicaw",
+      "caption": "3 ways to breed Tropicaw in Palworld 1.0: Bushi + Helzephyr, Leafan + Warsect, Ragnahawk + Vanwyrm.",
+      "video_script": "Here are three ways to breed Tropicaw in Palworld one point zero. Combo one: breed Bushi with Helzephyr on your Breeding Farm, then add a cake. Combo two: pair Leafan and Warsect together, and you get the same egg. Combo three: Ragnahawk plus Vanwyrm works too, so use whichever Pals you have. Every egg hatches into Tropicaw. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Bushi",
+        "Helzephyr"
+      ],
+      "combos": [
+        [
+          "Bushi",
+          "Helzephyr"
+        ],
+        [
+          "Leafan",
+          "Warsect"
+        ],
+        [
+          "Ragnahawk",
+          "Vanwyrm"
+        ]
+      ],
+      "child": "Tropicaw",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Nyafia": {
+    "spec": "scripts/specs/palworld_nyafia.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-0df64286.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Nyafia",
+      "caption": "3 ways to breed Nyafia in Palworld 1.0: Blazehowl + Helzephyr, Grizzbolt + Vaelet, Broncherry + Menasting.",
+      "video_script": "Here are three ways to breed Nyafia in Palworld one point zero. Combo one: breed Blazehowl with Helzephyr on your Breeding Farm, then add a cake. Combo two: pair Grizzbolt and Vaelet together, and you get the same egg. Combo three: Broncherry plus Menasting works too, so use whichever Pals you have. Every egg hatches into Nyafia. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Blazehowl",
+        "Helzephyr"
+      ],
+      "combos": [
+        [
+          "Blazehowl",
+          "Helzephyr"
+        ],
+        [
+          "Grizzbolt",
+          "Vaelet"
+        ],
+        [
+          "Broncherry",
+          "Menasting"
+        ]
+      ],
+      "child": "Nyafia",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
   }
 }

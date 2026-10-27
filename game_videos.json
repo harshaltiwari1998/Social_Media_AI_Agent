@@ -4198,5 +4198,40 @@
   "aniimo-scorchhowl-burn-breaker-fire-kick": {
     "spec": "scripts/specs/games/aniimo_70_aniimo-scorchhowl-burn-breaker-fire-kick.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-31182b5a.mp4"
+  },
+  "palworld-fast-leveling-guide": {
+    "spec": "scripts/specs/long/gaming_57_palworld-leveling-guide.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-e0af1ae2.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-e0af1ae2-thumb.jpg",
+    "chapters": "0:00 The road to level eighty\n0:30 The new level cap\n1:12 The Capture Bonus\n1:51 Catch smarter\n2:33 Dungeons and enemy bases\n3:14 Bosses give big experience\n4:02 Training Manuals and low level Pals\n4:46 A simple route to level eighty\n5:32 Do not forget the settings\n6:21 Your leveling checklist"
+  },
+  "aniimo-water-element-matchups": {
+    "spec": "scripts/specs/games/aniimo_71_aniimo-water-element-matchups.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-3ed65e0a.mp4"
+  },
+  "aniimo-grass-element-matchups": {
+    "spec": "scripts/specs/games/aniimo_72_aniimo-grass-element-matchups.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-09dbc04d.mp4"
+  },
+  "aniimo-earth-element-matchups": {
+    "spec": "scripts/specs/games/aniimo_73_aniimo-earth-element-matchups.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-40309e4a.mp4"
+  },
+  "aniimo-light-element-matchups": {
+    "spec": "scripts/specs/games/aniimo_74_aniimo-light-element-matchups.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5595ce10.mp4"
+  },
+  "aniimo-alpha-grizbo-boss-tips": {
+    "spec": "scripts/specs/games/aniimo_75_aniimo-alpha-grizbo-boss-tips.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-3a70b121.mp4"
+  },
+  "palworld-guide-foxparks-flamethrower": {
+    "spec": "scripts/specs/games/palguide_85_foxparks-flamethrower.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-4a6c75d8.mp4"
+  },
+  "palworld-guide-pierdon-mining-drops": {
+    "spec": "scripts/specs/games/palguide_86_pierdon-mining-drops.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-2e85b77e.mp4"
   }
 }

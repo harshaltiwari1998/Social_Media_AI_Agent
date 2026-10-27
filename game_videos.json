@@ -4237,5 +4237,338 @@
   "palworld-guide-mycora-planting-medicine": {
     "spec": "scripts/specs/games/palguide_87_mycora-planting-medicine.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-882c585f.mp4"
+  },
+  "deal-steam-deal-275850-60": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-275850-60.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-6b22de24.mp4",
+    "data": {
+      "id": "deal-steam-deal-275850-60",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "No Man's Sky 60% OFF on Steam | Now Rs 960 | Steam Deal Oct 27",
+      "video_script": "No Man's Sky is on sale on Steam at 60 percent off, down from 2,400 rupees to just 960 rupees. The deal ends on November 9. No Man's Sky is a game about exploration and survival in an infinite procedurally generated universe. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/84d0df065c36eb8ded7bdf0d8fccd19d43b6c005/header.jpg?t=1789479023",
+          "label": "No Man's Sky"
+        },
+        {
+          "image": "steam:275850:0",
+          "fact": "-60%  Rs 960",
+          "sub": "was Rs 2,400"
+        },
+        {
+          "image": "steam:275850:1",
+          "fact": "Action + Adventure",
+          "sub": "Hello Games"
+        },
+        {
+          "image": "steam:275850:2",
+          "fact": "Ends Nov 9",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "No Man's Sky is on sale on Steam at 60 percent off, down from 2,400 rupees to just 960 rupees. The deal ends on November 9.\nhttps://store.steampowered.com/app/275850\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 27 2026, 21:45 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "No Man's Sky",
+        "No Man's Sky sale",
+        "No Man's Sky price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-4356430-55": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-4356430-55.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-637d8473.mp4",
+    "data": {
+      "id": "deal-steam-deal-4356430-55",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "NBA 2K27 55% OFF on Steam | Now Rs 2,565 | Steam Deal Oct 27",
+      "video_script": "NBA 2K27 is on sale on Steam at 55 percent off, down from 5,699 rupees to just 2,565 rupees. The hustle doesn’t stop and the run never ends in NBA 2K27. Chase greatness around the clock in MyCAREER, MyTEAM, and MyNBA, and make your hoop dreams a reality. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4356430/9152438fde7de9f4c20b4fd9072ba69f844dacab/header.jpg?t=1792163139",
+          "label": "NBA 2K27"
+        },
+        {
+          "image": "steam:4356430:0",
+          "fact": "-55%  Rs 2,565",
+          "sub": "was Rs 5,699"
+        },
+        {
+          "image": "steam:4356430:1",
+          "fact": "Sports",
+          "sub": "Visual Concepts"
+        },
+        {
+          "image": "steam:4356430:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "NBA 2K27 is on sale on Steam at 55 percent off, down from 5,699 rupees to just 2,565 rupees.\nhttps://store.steampowered.com/app/4356430\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 27 2026, 21:45 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "NBA 2K27",
+        "NBA 2K27 sale",
+        "NBA 2K27 price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-252490-50": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-252490-50.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-9b2fc40c.mp4",
+    "data": {
+      "id": "deal-steam-deal-252490-50",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Rust 50% OFF on Steam | Now Rs 899 | Steam Deal Oct 27",
+      "video_script": "Rust is on sale on Steam at 50 percent off, down from 1,799 rupees to just 899 rupees. The deal ends on November 9. The only aim in Rust is to survive. Everything wants you to die - the island’s wildlife, other inhabitants, the environment, and other survivors. Do whatever it takes to last another night. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1781536981",
+          "label": "Rust"
+        },
+        {
+          "image": "steam:252490:0",
+          "fact": "-50%  Rs 899",
+          "sub": "was Rs 1,799"
+        },
+        {
+          "image": "steam:252490:1",
+          "fact": "Action + Adventure + Indie",
+          "sub": "Facepunch Studios"
+        },
+        {
+          "image": "steam:252490:2",
+          "fact": "Ends Nov 9",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Rust is on sale on Steam at 50 percent off, down from 1,799 rupees to just 899 rupees. The deal ends on November 9.\nhttps://store.steampowered.com/app/252490\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 27 2026, 21:45 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Rust",
+        "Rust sale",
+        "Rust price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-1336910-40": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-1336910-40.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b12d42a6.mp4",
+    "data": {
+      "id": "deal-steam-deal-1336910-40",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "ASTRODIGGER: SPACE SIM & ASTEROID DIGGING 40% OFF on Steam | Now Rs 65 | Steam Deal Oct 27",
+      "video_script": "ASTRODIGGER: SPACE SIM & ASTEROID DIGGING is on sale on Steam at 40 percent off, down from 109 rupees to just 65 rupees. The deal ends on November 10. Experience a space flight in first person perspective, without any loading screens. From your bedroom to space, land on asteroids, and do some voxel digging Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1336910/948b56b18f35f513e05ba7230b244c06cd2395f8/header.jpg?t=1793114421",
+          "label": "ASTRODIGGER: SPACE SIM & ASTEROID DIGGING"
+        },
+        {
+          "image": "steam:1336910:0",
+          "fact": "-40%  Rs 65",
+          "sub": "was Rs 109"
+        },
+        {
+          "image": "steam:1336910:1",
+          "fact": "Action + Simulation",
+          "sub": "The trampoline is working, Space Preppers United"
+        },
+        {
+          "image": "steam:1336910:2",
+          "fact": "Ends Nov 10",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "ASTRODIGGER: SPACE SIM & ASTEROID DIGGING is on sale on Steam at 40 percent off, down from 109 rupees to just 65 rupees. The deal ends on November 10.\nhttps://store.steampowered.com/app/1336910\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 27 2026, 21:45 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "ASTRODIGGER: SPACE SIM & ASTEROID DIGGING",
+        "ASTRODIGGER: SPACE SIM & ASTEROID DIGGING sale",
+        "ASTRODIGGER: SPACE SIM & ASTEROID DIGGING price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deals-biggest-2026-10-27": {
+    "spec": "scripts/specs/deals/long/deals-biggest-2026-10-27.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-465fe4dd.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-465fe4dd-thumb.jpg",
+    "chapters": "0:00 Today's deals\n0:10 No Man's Sky - 60% off\n0:39 Dead by Daylight - 60% off\n1:09 NBA 2K27 - 55% off\n1:43 Grand Theft Auto V Enhanced - 50% off\n2:21 Rust - 50% off\n2:57 ASTRODIGGER: SPACE SIM & ASTEROID DIGGING - 40% off\n3:30 BEAM Inc. - 30% off\n4:00 Which one are you grabbing",
+    "data": {
+      "id": "deals-biggest-2026-10-27",
+      "category": "gaming",
+      "title": "Biggest Steam Discounts Today | Up to 60% OFF | Oct 27",
+      "description": "These are the biggest discounts on Steam for October 27. 7 games, from 60 percent off down, with the India price for each.\n\n- No Man's Sky: -60% Rs 960 (was Rs 2,400) - https://store.steampowered.com/app/275850\n- Dead by Daylight: -60% Rs 463 (was Rs 1,159) - https://store.steampowered.com/app/381210\n- NBA 2K27: -55% Rs 2,565 (was Rs 5,699) - https://store.steampowered.com/app/4356430\n- Grand Theft Auto V Enhanced: -50% Rs 1,249 (was Rs 2,499) - https://store.steampowered.com/app/3240220\n- Rust: -50% Rs 899 (was Rs 1,799) - https://store.steampowered.com/app/252490\n- ASTRODIGGER: SPACE SIM & ASTEROID DIGGING: -40% Rs 65 (was Rs 109) - https://store.steampowered.com/app/1336910\n- BEAM Inc.: -30% Rs 290 (was Rs 415) - https://store.steampowered.com/app/5048900\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 27 2026, 21:45 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "SteamSale",
+        "EpicGames",
+        "GameDeals"
+      ],
+      "tags": [
+        "No Man's Sky",
+        "Dead by Daylight",
+        "NBA 2K27",
+        "Grand Theft Auto V Enhanced",
+        "Rust",
+        "ASTRODIGGER: SPACE SIM & ASTEROID DIGGING",
+        "BEAM Inc.",
+        "free games",
+        "steam sale",
+        "steam deals today",
+        "epic games free games",
+        "best game deals",
+        "steam sale india",
+        "cheap pc games",
+        "games under 500 rupees"
+      ],
+      "thumbnail": {
+        "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/84d0df065c36eb8ded7bdf0d8fccd19d43b6c005/header.jpg?t=1789479023",
+        "text": "UP TO 60% OFF"
+      },
+      "sections": [
+        {
+          "heading": "Today's deals",
+          "script": "These are the biggest discounts on Steam for October 27. 7 games, from 60 percent off down, with the India price for each.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/84d0df065c36eb8ded7bdf0d8fccd19d43b6c005/header.jpg?t=1789479023",
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/header.jpg?t=1793113581",
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4356430/9152438fde7de9f4c20b4fd9072ba69f844dacab/header.jpg?t=1792163139"
+          ]
+        },
+        {
+          "heading": "No Man's Sky - 60% off",
+          "script": "No Man's Sky is on sale on Steam at 60 percent off, down from 2,400 rupees to just 960 rupees. The deal ends on November 9. No Man's Sky is a game about exploration and survival in an infinite procedurally generated universe. Steam lists it as Action and Adventure, made by Hello Games, released 12 Aug, 2016. That saves you 1,440 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/84d0df065c36eb8ded7bdf0d8fccd19d43b6c005/header.jpg?t=1789479023",
+            "steam:275850:0",
+            "steam:275850:1"
+          ]
+        },
+        {
+          "heading": "Dead by Daylight - 60% off",
+          "script": "Dead by Daylight is on sale on Steam at 60 percent off, down from 1,159 rupees to just 463 rupees. 10 years of horror. 10 years of jump scares and close calls. 10 years of brutal sacrifices and thrilling escapes. Steam lists it as Action, made by Behaviour Interactive Inc., released 14 Jun, 2016. That saves you 696 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/header.jpg?t=1793113581",
+            "steam:381210:0",
+            "steam:381210:1"
+          ]
+        },
+        {
+          "heading": "NBA 2K27 - 55% off",
+          "script": "NBA 2K27 is on sale on Steam at 55 percent off, down from 5,699 rupees to just 2,565 rupees. The hustle doesn’t stop and the run never ends in NBA 2K27. Chase greatness around the clock in MyCAREER, MyTEAM, and MyNBA, and make your hoop dreams a reality. Steam lists it as Sports, made by Visual Concepts, released 3 Sep, 2026. That saves you 3,134 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4356430/9152438fde7de9f4c20b4fd9072ba69f844dacab/header.jpg?t=1792163139",
+            "steam:4356430:0",
+            "steam:4356430:1"
+          ]
+        },
+        {
+          "heading": "Grand Theft Auto V Enhanced - 50% off",
+          "script": "Grand Theft Auto V Enhanced is on sale on Steam at 50 percent off, down from 2,499 rupees to just 1,249 rupees. The deal ends on November 5. Experience entertainment blockbusters Grand Theft Auto V and Grand Theft Auto Online — now upgraded for a new generation with stunning visuals, faster loading, 3D audio, and more, plus exclusive content for GTA Online players. Steam lists it as Action and Adventure and Racing, made by Rockstar North, released 4 Mar, 2025. That saves you 1,250 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg?t=1781187782",
+            "steam:3240220:0",
+            "steam:3240220:1"
+          ]
+        },
+        {
+          "heading": "Rust - 50% off",
+          "script": "Rust is on sale on Steam at 50 percent off, down from 1,799 rupees to just 899 rupees. The deal ends on November 9. The only aim in Rust is to survive. Everything wants you to die - the island’s wildlife, other inhabitants, the environment, and other survivors. Do whatever it takes to last another night. Steam lists it as Action and Adventure and Indie, made by Facepunch Studios, released 8 Feb, 2018. That saves you 900 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1781536981",
+            "steam:252490:0",
+            "steam:252490:1"
+          ]
+        },
+        {
+          "heading": "ASTRODIGGER: SPACE SIM & ASTEROID DIGGING - 40% off",
+          "script": "ASTRODIGGER: SPACE SIM & ASTEROID DIGGING is on sale on Steam at 40 percent off, down from 109 rupees to just 65 rupees. The deal ends on November 10. Experience a space flight in first person perspective, without any loading screens. From your bedroom to space, land on asteroids, and do some voxel digging Steam lists it as Action and Simulation, made by The trampoline is working, Space Preppers United, released 27 Oct, 2026. That saves you 44 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1336910/948b56b18f35f513e05ba7230b244c06cd2395f8/header.jpg?t=1793114421",
+            "steam:1336910:0",
+            "steam:1336910:1"
+          ]
+        },
+        {
+          "heading": "BEAM Inc. - 30% off",
+          "script": "BEAM Inc. is on sale on Steam at 30 percent off, down from 415 rupees to just 290 rupees. The deal ends on November 10. A short active incremental where you neutralize unknown specimens in a sterile research facility. Steam lists it as Casual and Indie and Simulation, made by Imoyokan, released 27 Oct, 2026. That saves you 125 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5048900/37532b4e452d1de096f1ef1fc71f00af6af34f62/header.jpg?t=1793113306",
+            "steam:5048900:0",
+            "steam:5048900:1"
+          ]
+        },
+        {
+          "heading": "Which one are you grabbing",
+          "script": "That's the list for today. Prices on Steam are the India store prices in rupees, and they can change, so always check the store page before you buy. Every link is in the description. Tell me in the comments which game you are grabbing, and subscribe, because we check Epic and Steam every single day and post the free games and the best deals as soon as they go live.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/84d0df065c36eb8ded7bdf0d8fccd19d43b6c005/header.jpg?t=1789479023"
+          ]
+        }
+      ]
+    }
   }
 }

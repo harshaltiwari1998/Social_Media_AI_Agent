@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-surfent-water-mount-watering",
+  "slot": "palguide",
+  "order": 97,
+  "headline": "Surfent water mount",
+  "title": "Surfent | Ride The Water And Water Plants | Palworld Guide",
+  "video_script": "Want to cross water fast in Palworld one point zero? Surfent is a Water Pal, and its partner skill, Swift Swimmer, lets you ride it to travel on water. At your base it works Watering level three and Farming level two. When assigned to a ranch it can sometimes drop Leather. Would you build a Surfent farm? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:11",
+      "label": "Surfent"
+    },
+    {
+      "image": "pal:Surfent",
+      "fact": "Swift Swimmer",
+      "sub": "Ride on water"
+    },
+    {
+      "image": "steam:1623730:12",
+      "label": "Watering 3"
+    },
+    {
+      "image": "pal:Surfent",
+      "fact": "Leather",
+      "sub": "From the ranch"
+    }
+  ],
+  "description": "Surfent in Palworld 1.0 is a rideable Water Pal with Watering level three that can drop Leather at a ranch.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Surfent",
+    "Surfent work suitability",
+    "Palworld Pal guide",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld water mount",
+    "Palworld ranch"
+  ]
+}

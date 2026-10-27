@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-direhowl-early-mount",
+  "slot": "palguide",
+  "order": 94,
+  "headline": "Direhowl early mount",
+  "title": "Direhowl | A Fast Early Mount | Palworld Guide",
+  "video_script": "Need a mount early in Palworld one point zero? Direhowl is a small Neutral Pal, and its partner skill, Direhowl Rider, lets you ride it and move slightly faster than most mounts. It is a simple pick for your first ride. At your base it only has Gathering level one, so use it as transport for you, not as a worker. Will you ride one first? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:3",
+      "label": "Direhowl"
+    },
+    {
+      "image": "pal:Direhowl",
+      "fact": "Direhowl Rider",
+      "sub": "Ride it"
+    },
+    {
+      "image": "steam:1623730:6",
+      "label": "Gathering 1"
+    },
+    {
+      "image": "pal:Direhowl",
+      "fact": "Neutral",
+      "sub": "Small early mount"
+    }
+  ],
+  "description": "Direhowl in Palworld 1.0 is a small Neutral Pal you can ride, with Gathering level one.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Direhowl",
+    "Direhowl work suitability",
+    "Palworld Pal guide",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld mount",
+    "Palworld early game"
+  ]
+}

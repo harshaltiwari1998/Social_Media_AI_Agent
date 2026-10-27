@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-dazzi-lightning-electricity",
+  "slot": "palguide",
+  "order": 99,
+  "headline": "Dazzi lightning helper",
+  "title": "Dazzi | A Small Electricity Worker | Palworld Guide",
+  "video_script": "Looking for a cheap power worker in Palworld one point zero? Dazzi is a tiny Electric Pal that works Generating Electricity level three, with Handiwork level two and Transporting level two. Its partner skill, Lady of Lightning, makes it appear near you and strike enemies with lightning bolts while it is in your team. Will you start your power plant with Dazzi? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:15",
+      "label": "Dazzi"
+    },
+    {
+      "image": "pal:Dazzi",
+      "fact": "Lady of Lightning",
+      "sub": "Lightning helper"
+    },
+    {
+      "image": "steam:1623730:16",
+      "label": "Electricity 3"
+    },
+    {
+      "image": "pal:Dazzi",
+      "fact": "Electric Pal",
+      "sub": "Handiwork 2"
+    }
+  ],
+  "description": "Dazzi in Palworld 1.0 is a tiny Electric Pal with Generating Electricity level three and a lightning partner skill.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Dazzi",
+    "Dazzi work suitability",
+    "Palworld Pal guide",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld electricity",
+    "Palworld Electric Pal"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-vixy-dig-here-ranch",
+  "slot": "palguide",
+  "order": 100,
+  "headline": "Vixy digs items",
+  "title": "Vixy | Dig Up Items At Your Ranch | Palworld Guide",
+  "video_script": "Want free items in Palworld one point zero? Vixy is a tiny Neutral Pal, and its partner skill, Dig Here, sometimes digs up items from the ground when you assign it to a ranch. It has Gathering level one and Farming level one, so it is a cheap starter for your first ranch. Will you ranch a Vixy? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:17",
+      "label": "Vixy"
+    },
+    {
+      "image": "pal:Vixy",
+      "fact": "Dig Here",
+      "sub": "Items at the ranch"
+    },
+    {
+      "image": "steam:1623730:18",
+      "label": "Farming 1"
+    },
+    {
+      "image": "pal:Vixy",
+      "fact": "Gathering 1",
+      "sub": "Cheap starter"
+    }
+  ],
+  "description": "Vixy in Palworld 1.0 is a Neutral Pal that sometimes digs up items at a ranch, with Gathering and Farming level one.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Vixy",
+    "Vixy work suitability",
+    "Palworld Pal guide",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld ranch",
+    "Palworld items"
+  ]
+}

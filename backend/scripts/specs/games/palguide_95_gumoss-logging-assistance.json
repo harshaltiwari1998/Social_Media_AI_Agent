@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-gumoss-logging-assistance",
+  "slot": "palguide",
+  "order": 95,
+  "headline": "Gumoss logging boost",
+  "title": "Gumoss | Wood Weight Reduction Partner | Palworld Guide",
+  "video_script": "Tired of heavy wood in Palworld one point zero? Gumoss is a tiny Grass and Ground Pal with Planting level one. Keep it in your party and its partner skill, Logging Assistance, improves your logging efficiency by thirty to fifty percent and reduces the weight of all wood by forty to sixty percent. It does not stack, so one Gumoss is enough. Do you farm wood a lot? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:7",
+      "label": "Gumoss"
+    },
+    {
+      "image": "pal:Gumoss",
+      "fact": "Logging Assistance",
+      "sub": "Faster tree cutting"
+    },
+    {
+      "image": "steam:1623730:8",
+      "label": "Wood weight"
+    },
+    {
+      "image": "pal:Gumoss",
+      "fact": "Does not stack",
+      "sub": "One is enough"
+    }
+  ],
+  "description": "Gumoss in Palworld 1.0 is a Grass and Ground Pal whose partner skill improves logging and reduces wood weight.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Gumoss",
+    "Gumoss work suitability",
+    "Palworld Pal guide",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld logging",
+    "Palworld wood"
+  ]
+}

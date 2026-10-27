@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-lovander-heart-drain-medicine",
+  "slot": "palguide",
+  "order": 98,
+  "headline": "Lovander life steal",
+  "title": "Lovander | Heart Drain And Medicine Worker | Palworld Guide",
+  "video_script": "Need healing on the go in Palworld one point zero? Lovander is a large Dark Pal. Its partner skill, Heart Drain, gives you and Lovander a life steal effect while you fight together, restoring a small part of damage dealt as health. At your base it works Handiwork level three, Medicine Production level three, Mining level two and Transporting level two. Do you like life steal? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:13",
+      "label": "Lovander"
+    },
+    {
+      "image": "pal:Lovander",
+      "fact": "Heart Drain",
+      "sub": "Life steal in fights"
+    },
+    {
+      "image": "steam:1623730:14",
+      "label": "Medicine 3"
+    },
+    {
+      "image": "pal:Lovander",
+      "fact": "Handiwork 3",
+      "sub": "Mining 2"
+    }
+  ],
+  "description": "Lovander in Palworld 1.0 is a Dark Pal with a life steal partner skill and Medicine Production and Handiwork level three.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Lovander",
+    "Lovander work suitability",
+    "Palworld Pal guide",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld Dark Pal",
+    "Palworld medicine"
+  ]
+}

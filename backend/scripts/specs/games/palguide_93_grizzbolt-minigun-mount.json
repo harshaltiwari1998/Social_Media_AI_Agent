@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-grizzbolt-minigun-mount",
+  "slot": "palguide",
+  "order": 93,
+  "headline": "Grizzbolt minigun mount",
+  "title": "Grizzbolt | Minigun Mount And Power Worker | Palworld Guide",
+  "video_script": "Want a mount that shoots in Palworld one point zero? Grizzbolt is a big Electric Pal, and you can ride it. Its partner skill, Yellow Tank, lets you rapidly fire a minigun while mounted. At your base it works Generating Electricity level five, Transporting level five, Handiwork level four and Lumbering level three. That makes it a strong all round worker. Would you ride it? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:2",
+      "label": "Grizzbolt"
+    },
+    {
+      "image": "pal:Grizzbolt",
+      "fact": "Yellow Tank",
+      "sub": "Minigun while riding"
+    },
+    {
+      "image": "steam:1623730:5",
+      "label": "Electricity 5"
+    },
+    {
+      "image": "pal:Grizzbolt",
+      "fact": "Transporting 5",
+      "sub": "Handiwork 4"
+    }
+  ],
+  "description": "Grizzbolt in Palworld 1.0 is a rideable Electric Pal with a mounted minigun and Electricity level five and Transporting level five.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Grizzbolt",
+    "Grizzbolt work suitability",
+    "Palworld Pal guide",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld mount",
+    "Palworld electricity"
+  ]
+}

@@ -4553,5 +4553,175 @@
       ],
       "unique": false
     }
+  },
+  "Ghangler": {
+    "spec": "scripts/specs/palworld_ghangler.json",
+    "video": "F:\\AI AGENT\\run_ap22\\videos\\short-6b73d66b.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Ghangler",
+      "caption": "3 ways to breed Ghangler in Palworld 1.0: Majex + Moldron, Blazamut + Mammorest, Dualith + Palumba.",
+      "video_script": "Here are three ways to breed Ghangler in Palworld one point zero. Combo one: breed Majex with Moldron on your Breeding Farm, then add a cake. Combo two: pair Blazamut and Mammorest together, and you get the same egg. Combo three: Dualith plus Palumba works too, so use whichever Pals you have. Every egg hatches into Ghangler. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Majex",
+        "Moldron"
+      ],
+      "combos": [
+        [
+          "Majex",
+          "Moldron"
+        ],
+        [
+          "Blazamut",
+          "Mammorest"
+        ],
+        [
+          "Dualith",
+          "Palumba"
+        ]
+      ],
+      "child": "Ghangler",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
+  },
+  "Roujay": {
+    "spec": "scripts/specs/palworld_roujay.json",
+    "video": "F:\\AI AGENT\\run_ap22\\videos\\short-1a1ddb78.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Roujay",
+      "caption": "3 ways to breed Roujay in Palworld 1.0: Celesdir + Dualith, Knocklem + Tetroise, Dupin + Silvegis.",
+      "video_script": "Here are three ways to breed Roujay in Palworld one point zero. Combo one: breed Celesdir with Dualith on your Breeding Farm, then add a cake. Combo two: pair Knocklem and Tetroise together, and you get the same egg. Combo three: Dupin plus Silvegis works too, so use whichever Pals you have. Every egg hatches into Roujay. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Celesdir",
+        "Dualith"
+      ],
+      "combos": [
+        [
+          "Celesdir",
+          "Dualith"
+        ],
+        [
+          "Knocklem",
+          "Tetroise"
+        ],
+        [
+          "Dupin",
+          "Silvegis"
+        ]
+      ],
+      "child": "Roujay",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
+  },
+  "Azurmane": {
+    "spec": "scripts/specs/palworld_azurmane.json",
+    "video": "F:\\AI AGENT\\run_ap22\\videos\\short-6800e4ff.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Azurmane",
+      "caption": "3 ways to breed Azurmane in Palworld 1.0: Anubis + Blazamut, Moldron + Orserk, Celesdir + Knocklem.",
+      "video_script": "Here are three ways to breed Azurmane in Palworld one point zero. Combo one: breed Anubis with Blazamut on your Breeding Farm, then add a cake. Combo two: pair Moldron and Orserk together, and you get the same egg. Combo three: Celesdir plus Knocklem works too, so use whichever Pals you have. Every egg hatches into Azurmane. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Anubis",
+        "Blazamut"
+      ],
+      "combos": [
+        [
+          "Anubis",
+          "Blazamut"
+        ],
+        [
+          "Moldron",
+          "Orserk"
+        ],
+        [
+          "Celesdir",
+          "Knocklem"
+        ]
+      ],
+      "child": "Azurmane",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Eidrolon": {
+    "spec": "scripts/specs/palworld_eidrolon.json",
+    "video": "F:\\AI AGENT\\run_ap22\\videos\\short-e20f7302.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Eidrolon",
+      "caption": "3 ways to breed Eidrolon in Palworld 1.0: Blazamut + Knocklem, Dualith + Orserk, Azurmane + Ophydia.",
+      "video_script": "Here are three ways to breed Eidrolon in Palworld one point zero. Combo one: breed Blazamut with Knocklem on your Breeding Farm, then add a cake. Combo two: pair Dualith and Orserk together, and you get the same egg. Combo three: Azurmane plus Ophydia works too, so use whichever Pals you have. Every egg hatches into Eidrolon. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Blazamut",
+        "Knocklem"
+      ],
+      "combos": [
+        [
+          "Blazamut",
+          "Knocklem"
+        ],
+        [
+          "Dualith",
+          "Orserk"
+        ],
+        [
+          "Azurmane",
+          "Ophydia"
+        ]
+      ],
+      "child": "Eidrolon",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Tetroise": {
+    "spec": "scripts/specs/palworld_tetroise.json",
+    "video": "F:\\AI AGENT\\run_ap22\\videos\\short-d196641a.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Tetroise",
+      "caption": "3 ways to breed Tetroise in Palworld 1.0: Moldron + Wumpo, Ghangler + Whalaska, Jormuntide + Sootseer.",
+      "video_script": "Here are three ways to breed Tetroise in Palworld one point zero. Combo one: breed Moldron with Wumpo on your Breeding Farm, then add a cake. Combo two: pair Ghangler and Whalaska together, and you get the same egg. Combo three: Jormuntide plus Sootseer works too, so use whichever Pals you have. Every egg hatches into Tetroise. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Moldron",
+        "Wumpo"
+      ],
+      "combos": [
+        [
+          "Moldron",
+          "Wumpo"
+        ],
+        [
+          "Ghangler",
+          "Whalaska"
+        ],
+        [
+          "Jormuntide",
+          "Sootseer"
+        ]
+      ],
+      "child": "Tetroise",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
   }
 }

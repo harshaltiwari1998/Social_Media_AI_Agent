@@ -4570,5 +4570,79 @@
         }
       ]
     }
+  },
+  "aniimo-glamour-star-wave-three": {
+    "spec": "scripts/specs/games/aniimo_98_aniimo-glamour-star-wave-three.json",
+    "video": "F:\\AI AGENT\\run_ap22\\videos\\short-4a3d6a8c.mp4"
+  },
+  "aniimo-release-aniimo-farewell-gifts": {
+    "spec": "scripts/specs/games/aniimo_97_aniimo-release-aniimo-farewell-gifts.json",
+    "video": "F:\\AI AGENT\\run_ap22\\videos\\short-5a6227cd.mp4"
+  },
+  "aniimo-master-trainer-first-talent": {
+    "spec": "scripts/specs/games/aniimo_96_aniimo-master-trainer-first-talent.json",
+    "video": "F:\\AI AGENT\\run_ap22\\videos\\short-ba209b64.mp4"
+  },
+  "aniimo-pathfinder-promotion-level-cap": {
+    "spec": "scripts/specs/games/aniimo_95_aniimo-pathfinder-promotion-level-cap.json",
+    "video": "F:\\AI AGENT\\run_ap22\\videos\\short-f2c73560.mp4"
+  },
+  "aniimo-elite-training-badge-rewards": {
+    "spec": "scripts/specs/games/aniimo_94_aniimo-elite-training-badge-rewards.json",
+    "video": "F:\\AI AGENT\\run_ap22\\videos\\short-f7245fbe.mp4"
+  },
+  "aniimo-dark-alphas-wind-light-team": {
+    "spec": "scripts/specs/games/aniimo_93_aniimo-dark-alphas-wind-light-team.json",
+    "video": "F:\\AI AGENT\\run_ap22\\videos\\short-05a5d7cc.mp4"
+  },
+  "aniimo-alpha-irisal-beam-gaps-boss-tips": {
+    "spec": "scripts/specs/games/aniimo_92_aniimo-alpha-irisal-beam-gaps-boss-tips.json",
+    "video": "F:\\AI AGENT\\run_ap22\\videos\\short-99a6b9bd.mp4"
+  },
+  "aniimo-alpha-turbo-nimbi-boss-tips": {
+    "spec": "scripts/specs/games/aniimo_91_aniimo-alpha-turbo-nimbi-boss-tips.json",
+    "video": "F:\\AI AGENT\\run_ap22\\videos\\short-c142a620.mp4"
+  },
+  "aniimo-flameruff-scorchhowl-or-inferlupa": {
+    "spec": "scripts/specs/games/aniimo_90_aniimo-flameruff-scorchhowl-or-inferlupa.json",
+    "video": "F:\\AI AGENT\\run_ap22\\videos\\short-b2f68d62.mp4"
+  },
+  "aniimo-how-to-get-flutternym": {
+    "spec": "scripts/specs/games/aniimo_89_aniimo-how-to-get-flutternym.json",
+    "video": "F:\\AI AGENT\\run_ap22\\videos\\short-3d772b04.mp4"
+  },
+  "palworld-guide-vixy-dig-here-ranch": {
+    "spec": "scripts/specs/games/palguide_100_vixy-dig-here-ranch.json",
+    "video": "F:\\AI AGENT\\run_ap22\\videos\\short-6da67335.mp4"
+  },
+  "palworld-guide-dazzi-lightning-electricity": {
+    "spec": "scripts/specs/games/palguide_99_dazzi-lightning-electricity.json",
+    "video": "F:\\AI AGENT\\run_ap22\\videos\\short-c8b3e30c.mp4"
+  },
+  "palworld-guide-lovander-heart-drain-medicine": {
+    "spec": "scripts/specs/games/palguide_98_lovander-heart-drain-medicine.json",
+    "video": "F:\\AI AGENT\\run_ap22\\videos\\short-b5977bd3.mp4"
+  },
+  "palworld-guide-surfent-water-mount-watering": {
+    "spec": "scripts/specs/games/palguide_97_surfent-water-mount-watering.json",
+    "video": "F:\\AI AGENT\\run_ap22\\videos\\short-524ae2c1.mp4"
+  },
+  "palworld-guide-tanzee-cheery-rifle": {
+    "spec": "scripts/specs/games/palguide_96_tanzee-cheery-rifle.json",
+    "video": "F:\\AI AGENT\\run_ap22\\videos\\short-24b28024.mp4"
+  },
+  "palworld-raid-bosses-guide": {
+    "spec": "scripts/specs/long/gaming_69_palworld-raid-bosses-guide.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_ap22\\videos\\long-a4503155.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_ap22\\videos\\long-a4503155-thumb.jpg",
+    "chapters": "0:00 Raid bosses explained\n0:40 The Summoning Altar\n1:22 Slabs and slab fragments\n2:03 Bellanoir, the first raid boss\n2:45 Bellanoir Libero\n3:27 Blazamut Ryu\n4:10 Xenolord\n4:51 Hartalis and its barriers\n5:35 Moon Lord, the Terraria boss\n6:15 Ultra versions and preparation\n6:53 Your raid boss checklist\n7:40 Which raid boss is your favorite"
+  },
+  "aniimo-catching-and-aniipod-guide": {
+    "spec": "scripts/specs/long/gaming_70_aniimo-catching-and-aniipod-guide.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_ap22\\videos\\long-3534d31b.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_ap22\\videos\\long-3534d31b-thumb.jpg",
+    "chapters": "0:00 Why catching matters\n0:41 How a throw works\n1:26 Sneak and back attacks\n2:03 Weaken the target first\n2:41 The standard Aniipod line\n3:20 The Tumbler\n3:58 Ultra and Sparkling Cube\n4:39 Which pod for which target\n5:27 Finding your Aniimo\n6:00 Your catching checklist\n6:43 What is your best catch"
   }
 }

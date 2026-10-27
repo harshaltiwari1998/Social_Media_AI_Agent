@@ -1,0 +1,138 @@
+{
+  "id": "palworld-raid-bosses-guide",
+  "category": "gaming",
+  "order": 69,
+  "series": "palworld",
+  "title": "Palworld Raid Bosses Guide | Slabs, Altar And How To Beat Every Boss | Palworld Guide",
+  "description": "A full guide to Palworld 1.0 raid bosses: the Summoning Altar, slab fragments, and rough levels and weaknesses for Bellanoir, Bellanoir Libero, Blazamut Ryu, Xenolord, Hartalis and Moon Lord. Checked against several guides in October 2026; levels and health numbers differ slightly between guides, so use your in game boss info as the final word.",
+  "hashtags": [
+    "Palworld",
+    "PalworldRaids",
+    "Gaming"
+  ],
+  "tags": [
+    "Palworld raid bosses",
+    "Palworld Bellanoir",
+    "Palworld Xenolord",
+    "Palworld Hartalis",
+    "Palworld Blazamut Ryu",
+    "Palworld Summoning Altar",
+    "Palworld slab",
+    "Palworld 1.0",
+    "Palworld guide"
+  ],
+  "thumbnail": {
+    "image": "pal:Xenolord",
+    "text": "RAID BOSSES GUIDE"
+  },
+  "sections": [
+    {
+      "heading": "Raid bosses explained",
+      "script": "Palworld one point zero added raid bosses, giant fights that you start yourself, on your own schedule. You do not find them on the map. You summon them at an altar, and the fights are tougher than anything in the normal story. In this video we cover how the summoning works, how slabs are made, and then every raid boss one by one, with rough levels and the elements that hurt them. We will not repeat our tower boss video or our Sealed Realms video, because raid bosses are a separate system. One warning before we start. Different guides give slightly different levels and health numbers, so we keep the numbers rough, and the boss info screen in your own game is the final word.",
+      "images": [
+        "pal:Bellanoir",
+        "steam:1623730:0",
+        "steam:1623730:3"
+      ]
+    },
+    {
+      "heading": "The Summoning Altar",
+      "script": "Every raid starts with the Summoning Altar. Guides say it unlocks in the Ancient Technology column at technology level thirty three, and it is cheap to build from stone and Paldium Fragments. Here is the catch. The altar is a one time use structure, so it is used up every time you call a boss. You then place a slab on it, and the boss appears. Raid bosses cannot be caught like normal Pals. Instead, a win gives you an egg, and that egg hatches into the boss Pal, according to the guides we checked. So think of each summon as a ticket for one fight. Build the altar in an open flat area with plenty of room, because these bosses move around a lot.",
+      "images": [
+        "pal:Bellanoir",
+        "steam:1623730:6",
+        "steam:1623730:9"
+      ]
+    },
+    {
+      "heading": "Slabs and slab fragments",
+      "script": "The slab is the key that picks which boss you fight. Guides agree that each slab is crafted from four slab fragments at an Assembly Line, and the slab is also used up when you summon. Where do the fragments come from? Guides list treasure chests, high level dungeons and expeditions. So the loop is simple. Explore dungeons, collect fragments, craft a slab, build an altar and start the fight. Some guides also say that beating a standard boss can drop an Ultra Slab, which opens the much harder level eighty version of that boss. That makes a nice ladder. Win the normal fight first, and the Ultra version becomes your next goal.",
+      "images": [
+        "pal:Blazamut Ryu",
+        "steam:1623730:12",
+        "steam:1623730:15"
+      ]
+    },
+    {
+      "heading": "Bellanoir, the first raid boss",
+      "script": "Bellanoir is the dark element raid boss that most players meet first. Guides place it at around level thirty to thirty five, with roughly three hundred thousand health, which is the lowest of the group. The simple advice from several guides is that Dragon element attacks work very well against it. So bring strong Dragon Pals with good attack skills, add healers and keep your own team spread out. Rewards listed for Bellanoir include an egg, IV Fruits and training items. One guide even mentions training items tied only to Bellanoir. This is the best fight to learn raid basics, so do not skip it. If you can beat Bellanoir cleanly, you are ready to try the next bosses on this list.",
+      "images": [
+        "pal:Bellanoir",
+        "steam:1623730:18",
+        "steam:1623730:21"
+      ]
+    },
+    {
+      "heading": "Bellanoir Libero",
+      "script": "Bellanoir Libero is the upgraded form of the same boss, and it is a real step up. Guides put it at around level forty five to fifty, with health roughly four hundred thousand and up. The big trick is the late fight change. Near the end, Libero heals a chunk of its health and changes to the Ice element. Before that, Dragon Pals do well. After the change, guides suggest switching to Fire attackers, and warn that your Dragon Pals take extra damage from Ice. So keep a second team ready and swap in time. An Ultra version at level eighty also exists, with several million health, and it is only for well prepared players with strong passive skills and good gear.",
+      "images": [
+        "pal:Bellanoir Libero",
+        "steam:1623730:24",
+        "steam:1623730:3"
+      ]
+    },
+    {
+      "heading": "Blazamut Ryu",
+      "script": "Blazamut Ryu is a Dragon and Fire boss at around level fifty five. Guides give it roughly five hundred thousand health in the normal fight. Two phases matter here. In the first phase, guides say Water attacks work well, which makes sense against a fire creature. Near the end of the fight, it heals and switches to the Electric element with stronger defense. Then guides suggest Ground attackers, because Ground resists Electric damage and hits back hard. Bring a full Water team first, then a Ground team for the second part. The fight is long, so food buffs, healing Pals and good timing for your own dodges all matter. Winning also gives you an egg for this fire dragon.",
+      "images": [
+        "pal:Blazamut Ryu",
+        "steam:1623730:6",
+        "steam:1623730:12"
+      ]
+    },
+    {
+      "heading": "Xenolord",
+      "script": "Xenolord is the big one in the normal difficulty tier. Guides place it around level sixty five, and one guide lists roughly one point four million health, far above the earlier bosses. It is a Dark and Dragon boss, and guides agree that Ice and Dragon attacks are the best counters. Its attacks hit hard, so a team of tanky Pals and strong healers helps a lot. Do not rush this boss with your first team. Level your Pals, use good passive skills and bring food. Beating Xenolord also gives you a chance at an Ultra Slab, according to the guides, so it is a nice step towards the level eighty version. It is a great test of everything you have learned.",
+      "images": [
+        "pal:Xenolord",
+        "steam:1623730:15",
+        "steam:1623730:18"
+      ]
+    },
+    {
+      "heading": "Hartalis and its barriers",
+      "script": "Hartalis is the most unusual fight. Guides place it around level seventy, and it starts as a Water and Grass boss before turning neutral in a later phase. The special mechanic is the barrier. During the fight, shields appear, and you have only a short time to break each one. Guides say the right element does double damage to the barrier. Fire breaks the grass barrier, Electric breaks the water barrier, and Dark breaks the neutral barrier. So bring a Pal for each of those three jobs. Winning gives several ancient civilization cores and parts, plus an egg, and the Ultra version adds a special crown item. One warning from a guide is that the final phase ends with a huge attack, so finish quickly.",
+      "images": [
+        "pal:Hartalis",
+        "steam:1623730:21",
+        "steam:1623730:24"
+      ]
+    },
+    {
+      "heading": "Moon Lord, the Terraria boss",
+      "script": "Moon Lord is the odd one out, a crossover boss from Terraria. Guides place it around level fifty, and it is not a normal Pal with an element. Instead, you fight a giant body with separate parts. The key trick from guides is to destroy the eyes on both hands and the forehead first. Only then does the heart become exposed, and you can burst it for the big damage. Its slab setup is also different from the others, since one guide says it uses a special item instead of a normal slab. A harder Master version at level eighty also exists. Rewards differ between guides, so check the in game reward list before you start.",
+      "images": [
+        "pal:Anubis",
+        "steam:1623730:3",
+        "steam:1623730:9"
+      ]
+    },
+    {
+      "heading": "Ultra versions and preparation",
+      "script": "Once you win the normal fights, the level eighty Ultra versions become the real endgame. Guides say their health is in the millions, and they take much less damage from your attacks, so they last a long time. Preparation matters more than luck. Bring strong passive skills, food buffs, healers and at least two teams for the element changes. Spread out to avoid the big attacks, and learn the pattern before you waste a slab. Remember that the altar and slab are both used up, so every failed attempt costs you materials. Farm slab fragments in advance, keep a few spare slabs, and attack when you are fully ready, not before.",
+      "images": [
+        "pal:Jetragon",
+        "steam:1623730:12",
+        "steam:1623730:15"
+      ]
+    },
+    {
+      "heading": "Your raid boss checklist",
+      "script": "Here is your checklist. One, reach technology level thirty three and unlock the Summoning Altar. Two, collect slab fragments from chests, dungeons and expeditions. Three, craft slabs at the Assembly Line, four fragments each. Four, start with Bellanoir and bring Dragon Pals. Five, build separate teams for the late fight changes in Libero and Blazamut Ryu. Six, bring Ice and Dragon attackers for Xenolord. Seven, bring Fire, Electric and Dark answers for the Hartalis barriers. Eight, destroy the Moon Lord eyes before the heart. Finally, try the Ultra versions last. Take it one boss at a time, and you will have a collection of powerful boss Pals in no time.",
+      "images": [
+        "pal:Hartalis",
+        "steam:1623730:18",
+        "steam:1623730:0"
+      ]
+    },
+    {
+      "heading": "Which raid boss is your favorite",
+      "script": "That was our full guide to Palworld raid bosses. Bellanoir is the friendly starter, Libero and Blazamut Ryu change their element mid fight, Xenolord is the heavy hitter, Hartalis tests your barrier breakers, and Moon Lord brings Terraria into Palworld. Which raid boss did you beat first, and which one is giving you trouble right now? Tell us in the comments, because we read them all. If this guide helped, please subscribe to HarryBeast Gaming for more Palworld and gaming videos every day. Hit the like button, share the video with a friend who is stuck on a boss, and we will see you in the next one.",
+      "images": [
+        "pal:Xenolord",
+        "steam:1623730:21",
+        "steam:1623730:24"
+      ]
+    }
+  ]
+}

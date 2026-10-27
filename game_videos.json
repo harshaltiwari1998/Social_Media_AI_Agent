@@ -4233,5 +4233,9 @@
   "palworld-guide-pierdon-mining-drops": {
     "spec": "scripts/specs/games/palguide_86_pierdon-mining-drops.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-2e85b77e.mp4"
+  },
+  "palworld-guide-mycora-planting-medicine": {
+    "spec": "scripts/specs/games/palguide_87_mycora-planting-medicine.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-882c585f.mp4"
   }
 }

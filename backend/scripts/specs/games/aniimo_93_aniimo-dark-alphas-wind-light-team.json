@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-dark-alphas-wind-light-team",
+  "slot": "aniimo",
+  "order": 93,
+  "headline": "Dark Alphas Team",
+  "title": "One Team for Three Dark Alphas | Wind and Light | Aniimo Guide",
+  "video_script": "Here is one team that beats three Alphas. Alpha Stellarys, Alpha Ignitis and Alpha Rookey are all Dark bosses, and all three are weak to Wind and Light. Stellarys is in the Forest of Falling Stars, Ignitis in Berylline Vale, and Rookey in Russet Highlands. Bring a Wind Aniimo, a Light Aniimo, a Breaker and a healer, and you are ready for all of them. Which Alpha first? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:24",
+      "label": "One Team, Three Alphas"
+    },
+    {
+      "image": "steam:4126040:25",
+      "fact": "Stellarys",
+      "sub": "Forest of Falling Stars"
+    },
+    {
+      "image": "steam:4126040:26",
+      "fact": "Ignitis",
+      "sub": "Berylline Vale"
+    },
+    {
+      "image": "steam:4126040:27",
+      "fact": "Rookey",
+      "sub": "Russet Highlands"
+    },
+    {
+      "image": "steam:4126040:28",
+      "fact": "Wind and Light",
+      "sub": "Their shared weakness"
+    }
+  ],
+  "description": "One Aniimo team for three Dark Alphas: Stellarys, Ignitis and Rookey are all weak to Wind and Light. Bring Wind and Light damage dealers plus a Breaker and healer.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Alpha Stellarys",
+    "Alpha Ignitis",
+    "Alpha Rookey",
+    "Aniimo team",
+    "Dark Aniimo"
+  ]
+}

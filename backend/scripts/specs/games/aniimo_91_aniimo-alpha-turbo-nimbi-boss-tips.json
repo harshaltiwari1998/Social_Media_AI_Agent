@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-alpha-turbo-nimbi-boss-tips",
+  "slot": "aniimo",
+  "order": 91,
+  "headline": "Alpha Turbo Boss",
+  "title": "Alpha Turbo | Use Nimbi to Ground It | Aniimo Guide",
+  "video_script": "Alpha Turbo is a Wind boss, so bring Electric or Light Aniimo and avoid Wind. The trick is its flying phase. When it lifts off it is protected, so do not waste skills on it. Instead, lure it into the Nimbi. They stick to its wool, and once two are attached it gets overloaded and crashes down. That is your window to deal Break damage. Have you beaten Turbo yet? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:3",
+      "label": "Alpha Turbo Boss Tips"
+    },
+    {
+      "image": "steam:4126040:5",
+      "fact": "Wind boss",
+      "sub": "Bring Electric or Light"
+    },
+    {
+      "image": "steam:4126040:7",
+      "fact": "Flying phase",
+      "sub": "It is protected, hold your skills"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Two Nimbi stick",
+      "sub": "Turbo crashes down"
+    },
+    {
+      "image": "steam:4126040:12",
+      "fact": "Break window",
+      "sub": "Hit hard while grounded"
+    }
+  ],
+  "description": "Alpha Turbo boss tips in Aniimo: it is a Wind boss weak to Electric and Light. When it flies it is protected, so lure it into two Nimbi, which stick to its wool and make it crash down, then use the grounded window for Break damage.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Alpha Turbo",
+    "Aniimo boss",
+    "Aniimo Alpha",
+    "Chasing the Clouds"
+  ]
+}

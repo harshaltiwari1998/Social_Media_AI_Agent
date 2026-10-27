@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-elite-training-badge-rewards",
+  "slot": "aniimo",
+  "order": 94,
+  "headline": "Elite Training Rewards",
+  "title": "Elite Training Rewards | Free Somniwing | Aniimo Guide",
+  "video_script": "Elite Training is free rewards, so do not skip it. It has seven chapters, run by Dr. Lewis. Every task you finish earns badges, and badge totals unlock prizes. Ten badges give a Custom Egg Box, ninety give an Advanced Held Item Pack, and one hundred eighty unlock Somniwing. Remember to claim finished courses by hand in the menu. How many badges do you have? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:0",
+      "label": "Elite Training Rewards"
+    },
+    {
+      "image": "steam:4126040:2",
+      "fact": "Seven chapters",
+      "sub": "Run by Dr. Lewis"
+    },
+    {
+      "image": "steam:4126040:3",
+      "fact": "Ten badges",
+      "sub": "Custom Egg Box"
+    },
+    {
+      "image": "steam:4126040:5",
+      "fact": "Ninety badges",
+      "sub": "Advanced Held Item Pack"
+    },
+    {
+      "image": "steam:4126040:7",
+      "fact": "One hundred eighty",
+      "sub": "Somniwing unlocked"
+    }
+  ],
+  "description": "Aniimo Elite Training explained: seven chapters, badge milestones that unlock rewards such as a Custom Egg Box at 10, an Advanced Held Item Pack at 90 and Somniwing at 180. Claim finished courses manually in the Elite Training menu.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Elite Training",
+    "Somniwing",
+    "Dr Lewis",
+    "Aniimo rewards"
+  ]
+}

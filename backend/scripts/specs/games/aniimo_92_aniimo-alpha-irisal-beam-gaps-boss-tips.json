@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-alpha-irisal-beam-gaps-boss-tips",
+  "slot": "aniimo",
+  "order": 92,
+  "headline": "Alpha Irisal Boss",
+  "title": "Alpha Irisal | Stand in the Gaps | Aniimo Guide",
+  "video_script": "Alpha Irisal is a Grass boss in the Sea of Flowers, just south of the Bloom. It is weak to Fire, Wind and Dark, each doing one point six times damage. Its main attack is four rotating beams that hit very hard. The gaps between them are safe, so step into one and turn with the beams. When the attack ends it is stunned, so hit it then. Bring a Breaker and a healer too. Which Alpha is next? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:13",
+      "label": "Alpha Irisal Boss Tips"
+    },
+    {
+      "image": "steam:4126040:14",
+      "fact": "Grass boss",
+      "sub": "Sea of Flowers"
+    },
+    {
+      "image": "steam:4126040:15",
+      "fact": "Fire, Wind, Dark",
+      "sub": "One point six times damage"
+    },
+    {
+      "image": "steam:4126040:22",
+      "fact": "Four rotating beams",
+      "sub": "Stand in a safe gap"
+    },
+    {
+      "image": "steam:4126040:23",
+      "fact": "Stunned after",
+      "sub": "Your damage window"
+    }
+  ],
+  "description": "How to beat Alpha Irisal in Aniimo: a Grass boss south of the Sea of Flowers Bloom, weak to Fire, Wind and Dark. Stand in the gaps between its four rotating beams, then attack when it is stunned after the attack.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Alpha Irisal",
+    "Aniimo boss",
+    "Aniimo Alpha",
+    "Sea of Flowers"
+  ]
+}

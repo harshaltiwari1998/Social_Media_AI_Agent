@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-glamour-star-wave-three",
+  "slot": "aniimo",
+  "order": 98,
+  "headline": "Glamour Star Wave 3",
+  "title": "Glamour Star Wave 3 | Ends Oct 29 | Aniimo Guide",
+  "video_script": "Glamour Star wave three is live until October twenty nine. It is a dress up contest for your Aniimo. Open Events, pick the Glamour Star tab, tap Join and choose an Aniimo. The game scores your Aniimo first, then adds accessory points from what you dress it in. A better score earns more rewards, including cosmetics and Glimmer. Have you joined yet? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:26",
+      "label": "Glamour Star Wave 3"
+    },
+    {
+      "image": "steam:4126040:27",
+      "fact": "Events, Glamour Star",
+      "sub": "Tap Join"
+    },
+    {
+      "image": "steam:4126040:28",
+      "fact": "Pick your Aniimo",
+      "sub": "It is scored first"
+    },
+    {
+      "image": "steam:4126040:29",
+      "fact": "Add accessories",
+      "sub": "They add Starlight"
+    },
+    {
+      "image": "steam:4126040:30",
+      "fact": "Ends October twenty nine",
+      "sub": "Cosmetics and Glimmer"
+    }
+  ],
+  "description": "Aniimo Glamour Star wave 3 runs October 23 to 29 2026 (UTC+8). Join from Events, pick an Aniimo, dress it with accessories and aim for a high score for cosmetic rewards and Glimmer.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Glamour Star",
+    "Aniimo event",
+    "Aniimo cosmetics",
+    "Aniimo Glimmer"
+  ],
+  "expires": "2026-10-29"
+}

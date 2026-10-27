@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-release-aniimo-farewell-gifts",
+  "slot": "aniimo",
+  "order": 97,
+  "headline": "Release Aniimo",
+  "title": "Release Spare Aniimo | Farewell Gifts | Aniimo Guide",
+  "video_script": "Too many spare Aniimo? Release them for gifts. Open the menu, go to Aniimo Management, then Storage, and choose Manage. Pick the Aniimo, press Release, and confirm. You get Farewell Gifts, including Growth Buds worth one thousand experience each. But release is permanent, so check the list for rare ones first. It also counts toward an Elite Training task. Do you keep duplicates? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:20",
+      "label": "Release Spare Aniimo"
+    },
+    {
+      "image": "steam:4126040:22",
+      "fact": "Storage, then Manage",
+      "sub": "Pick the Aniimo"
+    },
+    {
+      "image": "steam:4126040:23",
+      "fact": "Press Release",
+      "sub": "Then confirm"
+    },
+    {
+      "image": "steam:4126040:24",
+      "fact": "Growth Bud",
+      "sub": "One thousand experience"
+    },
+    {
+      "image": "steam:4126040:25",
+      "fact": "Permanent",
+      "sub": "Check rare ones first"
+    }
+  ],
+  "description": "How to release Aniimo and get Farewell Gifts: open Aniimo Management, go to Storage, choose Manage, select Aniimo, press Release and confirm. Gifts include Growth Buds worth 1,000 EXP. Release is permanent, so check rare Aniimo before confirming.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Release Aniimo",
+    "Farewell Gifts",
+    "Growth Bud",
+    "Aniimo storage"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-pathfinder-promotion-level-cap",
+  "slot": "aniimo",
+  "order": 95,
+  "headline": "Level Cap Promotion",
+  "title": "Stuck at Level Cap | Pathfinder Promotion | Aniimo Guide",
+  "video_script": "Stuck at your level cap in Aniimo? You need a promotion. At level twenty five, finish the required Core Courses in your Elite Training chapter, then take the assessment, a duel followed by a theory quiz with Dr. Lewis. Pass it and the cap rises to thirty five. After that the caps climb to forty, forty five, fifty and beyond, one chapter at a time. What is your cap? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:8",
+      "label": "Stuck at the Level Cap?"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Level twenty five",
+      "sub": "First cap"
+    },
+    {
+      "image": "steam:4126040:10",
+      "fact": "Core Courses first",
+      "sub": "Finish the chapter tasks"
+    },
+    {
+      "image": "steam:4126040:12",
+      "fact": "Duel and quiz",
+      "sub": "With Dr. Lewis"
+    },
+    {
+      "image": "steam:4126040:14",
+      "fact": "Cap becomes thirty five",
+      "sub": "Then forty, forty five"
+    }
+  ],
+  "description": "How to raise your level cap in Aniimo: complete the required Core Courses in your Elite Training chapter, pass the Pathfinder promotion assessment (a duel and a theory quiz with Dr. Lewis) and the cap rises, for example from 25 to 35.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Level cap",
+    "Pathfinder promotion",
+    "Elite Training",
+    "Aniimo leveling"
+  ]
+}

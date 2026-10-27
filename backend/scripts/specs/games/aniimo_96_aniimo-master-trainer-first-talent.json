@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-master-trainer-first-talent",
+  "slot": "aniimo",
+  "order": 96,
+  "headline": "Master Trainer First",
+  "title": "Pick This Talent First | Master Trainer | Aniimo Guide",
+  "video_script": "Do not use Experience Gems yet. First pick the Master Trainer talent. It gives ten percent extra experience from catching and defeating Aniimo, and from using experience items. If you use a gem before you unlock it, you lose that ten percent for good. So grab Master Trainer first, then spend your gems. What talent did you pick first? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:15",
+      "label": "Pick This Talent First"
+    },
+    {
+      "image": "steam:4126040:16",
+      "fact": "Master Trainer",
+      "sub": "Plus ten percent experience"
+    },
+    {
+      "image": "steam:4126040:17",
+      "fact": "Catch and battle",
+      "sub": "Both give bonus experience"
+    },
+    {
+      "image": "steam:4126040:18",
+      "fact": "Gems before talent",
+      "sub": "You lose the bonus"
+    },
+    {
+      "image": "steam:4126040:19",
+      "fact": "Talent first",
+      "sub": "Then spend your gems"
+    }
+  ],
+  "description": "Aniimo beginner tip: unlock the Master Trainer talent before you use Experience Gems. It adds 10 percent experience from catching, battling and experience items, and gems used earlier miss that bonus.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Master Trainer",
+    "Aniimo talents",
+    "Experience Gem",
+    "Aniimo beginner"
+  ]
+}

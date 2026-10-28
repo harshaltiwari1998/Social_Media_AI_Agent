@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-elizabee-queen-bee-worker",
+  "slot": "palguide",
+  "order": 104,
+  "headline": "Elizabee queen worker",
+  "title": "Elizabee | Four Skill Queen Bee Worker | Palworld Guide",
+  "video_script": "Looking for a farm worker in Palworld one point zero? Elizabee is a Grass Pal with Planting level four, Handiwork level four, Gathering level four and Medicine Production level four, plus Lumbering level three. Its partner skill, Queen Bee Command, raises its own Attack by twelve to twenty four percent for each Beegarde in your party. Will you build a bee team? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:17",
+      "label": "Elizabee"
+    },
+    {
+      "image": "pal:Elizabee",
+      "fact": "Planting 4",
+      "sub": "Handiwork 4"
+    },
+    {
+      "image": "steam:1623730:8",
+      "fact": "Gathering 4",
+      "sub": "Medicine 4"
+    },
+    {
+      "image": "pal:Elizabee",
+      "fact": "Grass Pal",
+      "sub": "Palworld 1.0"
+    }
+  ],
+  "description": "Elizabee in Palworld 1.0 is a Grass worker with four suitabilities at level four.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Elizabee",
+    "Elizabee work suitability",
+    "Palworld Pal guide",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld partner skill",
+    "Palworld mounts"
+  ]
+}

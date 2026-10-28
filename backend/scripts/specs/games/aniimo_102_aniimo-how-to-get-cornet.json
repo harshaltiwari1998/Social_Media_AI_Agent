@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-how-to-get-cornet",
+  "slot": "aniimo",
+  "order": 102,
+  "headline": "Get Cornet",
+  "title": "How to Get Cornet | The Wind Attacker | Aniimo Guide",
+  "video_script": "Cornet is a Wind attacker from the Chirpi line. The basic form is in The Argent Strait, where one spot is a small island and you open the shells there to spawn it. A Chirpi becomes Cornet at level eighteen with nothing extra. A Prismana Cornet shows up in the Strait during Aurora. Weak to Lightning and Light. Do you want Cornet? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:17",
+      "label": "How to Get Cornet"
+    },
+    {
+      "image": "steam:4126040:18",
+      "fact": "Wind attacker",
+      "sub": "Chirpi line"
+    },
+    {
+      "image": "steam:4126040:19",
+      "fact": "The Argent Strait",
+      "sub": "Small island shells"
+    },
+    {
+      "image": "steam:4126040:20",
+      "fact": "Level eighteen",
+      "sub": "No extra needs"
+    },
+    {
+      "image": "steam:4126040:21",
+      "fact": "Prismana Cornet",
+      "sub": "Needs Aurora"
+    }
+  ],
+  "description": "Aniimo's Cornet is a Wind attacker found in The Argent Strait. A Chirpi evolves into it at level 18 with no extra requirement, and a Prismana form appears there during Aurora.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Cornet",
+    "Aniimo Cornet",
+    "Chirpi",
+    "AniimoHowToGet",
+    "Pawprint Studio"
+  ]
+}

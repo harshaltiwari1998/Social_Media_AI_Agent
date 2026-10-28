@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-endgame-alpha-hunt",
+  "slot": "aniimo",
+  "order": 117,
+  "headline": "Endgame Alpha Hunt",
+  "title": "Endgame | Hunt all 17 Alphas | Aniimo Guide",
+  "video_script": "Finished the story in Aniimo? Hunt the seventeen Alpha Aniimo. Each first clear pays Glimmer, Safaris experience, an Irisalis Petal and a Lumin Amber. The toughest are Alpha Luminelle at Tideblossom Coast and Alpha Magmarex at Zephyrus Landbridge. Magmarex drops sixty Dewdrop Crystals. Level up your team first, and bring the right elements. Which Alpha is your favorite? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:12",
+      "label": "Endgame Alpha hunt"
+    },
+    {
+      "image": "steam:4126040:14",
+      "fact": "Seventeen Alphas",
+      "sub": "First clears pay well"
+    },
+    {
+      "image": "steam:4126040:16",
+      "fact": "Alpha Luminelle",
+      "sub": "Tideblossom Coast"
+    },
+    {
+      "image": "steam:4126040:18",
+      "fact": "Alpha Magmarex",
+      "sub": "Zephyrus Landbridge"
+    },
+    {
+      "image": "steam:4126040:20",
+      "fact": "Bring the right elements",
+      "sub": "Level up first"
+    }
+  ],
+  "description": "Aniimo endgame: hunt all 17 Alpha Aniimo, including Luminelle at Tideblossom Coast and Magmarex at Zephyrus Landbridge, for first clear rewards.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Aniimo endgame",
+    "Aniimo Alpha",
+    "Aniimo boss",
+    "Aniimo Luminelle"
+  ]
+}

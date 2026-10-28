@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-primegy-cap-spend-it",
+  "slot": "aniimo",
+  "order": 112,
+  "headline": "Primegy Cap",
+  "title": "Primegy | Do not let it cap | Aniimo Guide",
+  "video_script": "Primegy in Aniimo caps at three hundred, or six hundred with the monthly pass. Once you hit the cap, regeneration stops and it is wasted. You get one point back about every six minutes. Spend it on Alpha challenges for upgrade materials. Spending sixty Primegy also gives two hundred Daily Activity points. So burn some before you log off. How much Primegy do you have right now? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:16",
+      "label": "Primegy"
+    },
+    {
+      "image": "steam:4126040:17",
+      "fact": "Cap: three hundred",
+      "sub": "Six hundred with monthly pass"
+    },
+    {
+      "image": "steam:4126040:18",
+      "fact": "One point per six minutes",
+      "sub": "Stops at the cap"
+    },
+    {
+      "image": "steam:4126040:19",
+      "fact": "Spend on Alpha challenges",
+      "sub": "Upgrade materials"
+    },
+    {
+      "image": "steam:4126040:20",
+      "fact": "Sixty Primegy",
+      "sub": "Two hundred activity points"
+    }
+  ],
+  "description": "Aniimo Primegy tips: it caps at 300 (600 with the monthly pass) and stops regenerating at the cap, so spend it on Alpha challenges and Daily Activity.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Aniimo Primegy",
+    "Aniimo daily",
+    "Aniimo Alpha",
+    "Aniimo energy"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-panpanta-best-build",
+  "slot": "aniimo",
+  "order": 106,
+  "headline": "Panpanta Build",
+  "title": "Panpanta Best Build | Water Cannon and Hydro Roll | Aniimo Guide",
+  "video_script": "Panpanta is a Water Breaker, so Break is the stat to stack. Water Cannon lobs a water ball that leaves a puddle, and Hydro Roll rams enemies and, near water, raises your Break efficiency. Its Appeal trait adds more Break if you bring an opposite gender Susuta family member. Hold a Gargantuan Horn. Do you run Panpanta? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:7",
+      "label": "Panpanta Best Build"
+    },
+    {
+      "image": "steam:4126040:8",
+      "fact": "Water Breaker",
+      "sub": "Break first"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Water Cannon",
+      "sub": "Leaves a puddle"
+    },
+    {
+      "image": "steam:4126040:10",
+      "fact": "Hydro Roll",
+      "sub": "Break boost near water"
+    },
+    {
+      "image": "steam:4126040:11",
+      "fact": "Appeal trait",
+      "sub": "Opposite gender Susuta"
+    }
+  ],
+  "description": "Aniimo's Panpanta is a Water Breaker. Run Water Cannon and Hydro Roll, bring an opposite gender Susuta family member for the Appeal trait and hold a Gargantuan Horn.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Panpanta",
+    "Aniimo Panpanta",
+    "Breaker",
+    "AniimoBuild",
+    "Pawprint Studio"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-piopiota-best-build",
+  "slot": "aniimo",
+  "order": 108,
+  "headline": "Piopiota Build",
+  "title": "Piopiota Best Build | Surf and Surge | Aniimo Guide",
+  "video_script": "Piopiota is a Water support. Run Surf, which rides a wave into the target and makes puddles, and Surge, a team heal that gets extra healing from nearby puddles. Fight on top of the puddles you make, and hold a Miraculous Fleece. To get one, evolve Popota at level thirty nine with an opposite gender Susuta following you. Do you run Piopiota? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:17",
+      "label": "Piopiota Best Build"
+    },
+    {
+      "image": "steam:4126040:18",
+      "fact": "Water support",
+      "sub": "Team healer"
+    },
+    {
+      "image": "steam:4126040:19",
+      "fact": "Surf",
+      "sub": "Makes puddles"
+    },
+    {
+      "image": "steam:4126040:20",
+      "fact": "Surge",
+      "sub": "Extra heal near puddles"
+    },
+    {
+      "image": "steam:4126040:21",
+      "fact": "Popota level thirty nine",
+      "sub": "Opposite gender Susuta"
+    }
+  ],
+  "description": "Aniimo's Piopiota is a Water support. Run Surf and Surge, heal on top of your own puddles, hold a Miraculous Fleece and evolve Popota at level 39 with an opposite gender Susuta following.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Piopiota",
+    "Aniimo Piopiota",
+    "Support",
+    "AniimoBuild",
+    "Pawprint Studio"
+  ]
+}

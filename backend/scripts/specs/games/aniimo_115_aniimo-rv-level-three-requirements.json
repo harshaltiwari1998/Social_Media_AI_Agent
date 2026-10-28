@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-rv-level-three-requirements",
+  "slot": "aniimo",
+  "order": 115,
+  "headline": "RV Level Three",
+  "title": "RV Level 3 | Eleven workers | Aniimo Guide",
+  "video_script": "RV level three is the next big Homeland step in Aniimo. It lifts your worker limit from eight to eleven. You need six farmland plots and three woodland plots, plus the Together with Aniimo quest. It also opens the Ecological Module, according to one guide. Build your woodlands early and assign workers to them. What RV level are you on? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:1",
+      "label": "RV Level 3"
+    },
+    {
+      "image": "steam:4126040:3",
+      "fact": "Eleven workers",
+      "sub": "Up from eight"
+    },
+    {
+      "image": "steam:4126040:5",
+      "fact": "Six farmland plots",
+      "sub": "Plus three woodland"
+    },
+    {
+      "image": "steam:4126040:7",
+      "fact": "Together with Aniimo",
+      "sub": "Quest required"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Ecological Module",
+      "sub": "Opens at this level"
+    }
+  ],
+  "description": "Aniimo RV level 3 requirements: six farmland plots, three woodland plots and the Together with Aniimo quest raise the worker limit to eleven.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Aniimo RV",
+    "Aniimo Homeland",
+    "Aniimo upgrade",
+    "Aniimo workers"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-prismana-pact-free-choice",
+  "slot": "aniimo",
+  "order": 116,
+  "headline": "Prismana Pact",
+  "title": "Prismana Pact | Free rare Aniimo | Aniimo Guide",
+  "video_script": "Aniimo gives you a free rare Prismana. Open the Events menu and find the Prismana Pact. You choose one of fourteen options, including Grizbo and Magmarex. Guides call Grizbo a safe all rounder and a rage based damage dealer. Other Prismana forms can still be found later, so the pact only picks your head start. Which Prismana would you choose? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:2",
+      "label": "Prismana Pact"
+    },
+    {
+      "image": "steam:4126040:4",
+      "fact": "Events, Prismana Pact",
+      "sub": "Free rare Aniimo"
+    },
+    {
+      "image": "steam:4126040:6",
+      "fact": "Fourteen choices",
+      "sub": "Grizbo, Magmarex"
+    },
+    {
+      "image": "steam:4126040:8",
+      "fact": "Grizbo is a safe pick",
+      "sub": "Rage damage dealer"
+    },
+    {
+      "image": "steam:4126040:10",
+      "fact": "Others come later",
+      "sub": "Pact is a head start"
+    }
+  ],
+  "description": "Aniimo Prismana Pact: open the Events menu and choose one of 14 free rare Prismana Aniimo, including Grizbo and Magmarex.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Prismana",
+    "Prismana Pact",
+    "Aniimo Grizbo",
+    "Aniimo free"
+  ]
+}

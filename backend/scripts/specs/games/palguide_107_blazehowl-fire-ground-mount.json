@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-blazehowl-fire-ground-mount",
+  "slot": "palguide",
+  "order": 107,
+  "headline": "Blazehowl fire mount",
+  "title": "Blazehowl | Fire Lion Mount For Kindling | Palworld Guide",
+  "video_script": "Need a fiery ground mount in Palworld one point zero? Blazehowl is a Fire Pal with Kindling level five and Lumbering level three. Its partner skill, Hellflame Lion, lets you ride it, and Grass Pals in your party drop forty to eighty percent more items when defeated. The bonus does not stack. Will you tame a Blazehowl? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:14",
+      "label": "Blazehowl"
+    },
+    {
+      "image": "pal:Blazehowl",
+      "fact": "Kindling 5",
+      "sub": "Rideable"
+    },
+    {
+      "image": "steam:1623730:2",
+      "fact": "Lumbering 3",
+      "sub": "Grass drops"
+    },
+    {
+      "image": "pal:Blazehowl",
+      "fact": "Fire Pal",
+      "sub": "Palworld 1.0"
+    }
+  ],
+  "description": "Blazehowl in Palworld 1.0 is a rideable Fire Pal with Kindling level five and a Grass drop bonus.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Blazehowl",
+    "Blazehowl work suitability",
+    "Palworld Pal guide",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld partner skill",
+    "Palworld mounts"
+  ]
+}

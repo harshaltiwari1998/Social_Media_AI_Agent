@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-katress-sphere-saver",
+  "slot": "palguide",
+  "order": 109,
+  "headline": "Katress saves spheres",
+  "title": "Katress | Save Pal Spheres While Catching | Palworld Guide",
+  "video_script": "Running out of Pal Spheres in Palworld one point zero? Katress is a Dark Pal whose partner skill, Mystical Black Magic, gives a ten to fifty percent chance to not use up a sphere when thrown. Neutral Pals in your party also drop forty to eighty percent more items. At base, it works Handiwork level three and Medicine Production level three. Will you catch more with Katress? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:19",
+      "label": "Katress"
+    },
+    {
+      "image": "pal:Katress",
+      "fact": "Save spheres",
+      "sub": "10 to 50 percent"
+    },
+    {
+      "image": "steam:1623730:10",
+      "fact": "Handiwork 3",
+      "sub": "Medicine 3"
+    },
+    {
+      "image": "pal:Katress",
+      "fact": "Dark Pal",
+      "sub": "Palworld 1.0"
+    }
+  ],
+  "description": "Katress in Palworld 1.0 is a Dark Pal that can save Pal Spheres when you throw them.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Katress",
+    "Katress work suitability",
+    "Palworld Pal guide",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld partner skill",
+    "Palworld mounts"
+  ]
+}

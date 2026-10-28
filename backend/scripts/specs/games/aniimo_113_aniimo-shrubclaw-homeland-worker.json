@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-shrubclaw-homeland-worker",
+  "slot": "aniimo",
+  "order": 113,
+  "headline": "Shrubclaw Worker",
+  "title": "Shrubclaw | Top early Homeland worker | Aniimo Guide",
+  "video_script": "Need an early Homeland worker in Aniimo? Shrubclaw is a standout. It has Earth three, Grass two and Hauling three, so one Aniimo covers mining, planting and carrying. It evolves from Budclaw, taking the Shrubclaw branch. Guides say a Playful personality speeds up mining by twenty percent. Put it on the mines. Remember a working Aniimo cannot join your battle team. Do you use Shrubclaw? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:21",
+      "label": "Shrubclaw"
+    },
+    {
+      "image": "steam:4126040:22",
+      "fact": "Earth 3, Grass 2",
+      "sub": "Hauling 3"
+    },
+    {
+      "image": "steam:4126040:23",
+      "fact": "Evolves from Budclaw",
+      "sub": "Pick the Shrubclaw branch"
+    },
+    {
+      "image": "steam:4126040:24",
+      "fact": "Playful personality",
+      "sub": "Faster mining"
+    },
+    {
+      "image": "steam:4126040:25",
+      "fact": "Put it on the mines",
+      "sub": "Workers skip battle"
+    }
+  ],
+  "description": "Aniimo Shrubclaw guide: Earth 3, Grass 2 and Hauling 3 make it a top early Homeland worker, evolved from Budclaw.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Shrubclaw",
+    "Aniimo Homeland",
+    "Aniimo workers",
+    "Aniimo Budclaw"
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "palworld-dungeons-guide",
+  "category": "gaming",
+  "order": 72,
+  "series": "palworld",
+  "title": "Palworld Dungeons Guide | Level Tiers, Alpha Bosses, Chests And Resets | Palworld Guide",
+  "description": "A Palworld 1.0 dungeon guide: how instanced caves work, level tiers from thirteen to the late game, the guaranteed Alpha boss, the two exit chests, rewards like skill fruits and schematics, and how long a dungeon stays open. Checked against the wiki and several guides in October 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldGuide",
+    "PalworldDungeons"
+  ],
+  "tags": [
+    "Palworld dungeons",
+    "Palworld dungeon guide",
+    "Palworld Alpha boss",
+    "Palworld skill fruit",
+    "Palworld schematics",
+    "Palworld 1.0",
+    "Palworld Ancient Ruins",
+    "Palworld guide",
+    "Palworld tips"
+  ],
+  "thumbnail": {
+    "image": "pal:Mau",
+    "text": "PALWORLD DUNGEONS EXPLAINED"
+  },
+  "sections": [
+    {
+      "heading": "Palworld dungeons explained",
+      "script": "Dungeons are one of the best ways to get skill fruits, schematics and strong Alpha Pals in Palworld, but they work differently from the rest of the map, and a lot of players walk past them. In this video we explain how dungeons work, how the level tiers line up from level thirteen up to the late game, what the boss and chests give you, how long a dungeon stays open, and some tips to survive. We checked this against the wiki and several guides after the one point zero update. Guides disagree on a few details, like timers and counts, and we will point those out. We will not repeat our sealed realms or raid boss videos.",
+      "images": [
+        "pal:Mau",
+        "steam:1623730:1",
+        "steam:1623730:2"
+      ]
+    },
+    {
+      "heading": "What a dungeon is",
+      "script": "A dungeon in Palworld is an instanced cave. You walk into an opening in a mountain or cliff wall, and the game loads a separate set of rooms and corridors. Layouts are built from premade pieces, so they feel similar but not identical. Guides agree there is no time limit once you are inside, and there is no minimap, so you need to rely on your eyes. Every dungeon ends with an Alpha Pal boss and a loot room. The tier of the dungeon depends on the area where the entrance appears, and that decides the enemy levels, the loot and the Pals you meet.",
+      "images": [
+        "pal:Killamari",
+        "steam:1623730:3",
+        "steam:1623730:4"
+      ]
+    },
+    {
+      "heading": "Finding entrances",
+      "script": "Only a limited number of dungeons are open at the same time. When one closes, another opens somewhere else on the map. So you cannot rely on one fixed cave forever. Look for cave openings in cliff faces while you travel, and one guide says that in one point zero, open entrances are shown more clearly. Guides also mention that the update added new random dungeon entrances on Feybreak, reworked layouts, and improved lighting. Counts of total entrances differ between guides, so we will not quote a number. The practical advice is simple. When you see a cave mouth on your route, take a look, because the rewards are worth the detour.",
+      "images": [
+        "pal:Leezpunk",
+        "steam:1623730:5",
+        "steam:1623730:6"
+      ]
+    },
+    {
+      "heading": "Early dungeon tiers",
+      "script": "Now the level tiers. The wiki and a second guide match closely. The earliest dungeons, Isolated Island Cavern and Hillside Cavern, sit around level thirteen. Ravine Grotto comes next at about level nineteen. Then Mountain Stream Grotto lands at about level twenty nine. These are the dungeons to visit while you are still building your first strong team. One guide gives a handy rule of thumb. Going in about five levels under the listed level is manageable, so you do not need to wait until you are fully ready. Treat the numbers as guides, and the real danger comes from the Alpha at the end.",
+      "images": [
+        "pal:Penking",
+        "pal:Lamball",
+        "steam:1623730:7"
+      ]
+    },
+    {
+      "heading": "Mid game dungeon tiers",
+      "script": "The middle of the list is where dungeons get dangerous. Volcanic Cavern is around level thirty eight, and it is tied to the fiery Mount Obsidian area. Cavern of the Dunes sits around level forty in the desert. Astral Mountains Cavern follows around level forty five in the snowy north. Guides say the theme of the area shapes the cave, so volcanic caves are fire and lava, snowy caves are ice, and desert caves are sand. That means you can plan your team before you walk in. Bring Pals with the element that counters the area, and your fights will be much easier.",
+      "images": [
+        "pal:Anubis",
+        "pal:Foxparks",
+        "steam:1623730:8"
+      ]
+    },
+    {
+      "heading": "Late game dungeon tiers",
+      "script": "At the top end, Cherry Blossom Cave on Sakurajima is listed around level fifty two, and Feybreak Cavern is around level fifty eight. The wiki also lists Sunreach Skies at about level sixty five, though that entry is newer and other guides do not cover it yet, so treat it as a rough number. These are the dungeons endgame players farm, and the wiki says end game dungeons are among the best places to farm legendary accessories. Because of that, bring strong Pals, healing food and plenty of Pal Spheres, because you will want to capture what you meet.",
+      "images": [
+        "pal:Jetragon",
+        "steam:1623730:9",
+        "steam:1623730:10"
+      ]
+    },
+    {
+      "heading": "The Alpha boss",
+      "script": "Every dungeon ends with at least one guaranteed Alpha Pal. Alphas are bigger and tougher than normal Pals, and defeating or capturing one gives much more experience than the normal version. The wiki says almost double. You can kill it or capture it with Pal Spheres, and weakening it first improves your chances. Some Pals can only be found in dungeons, so these fights are your only chance to add them. Here is a neat trick that two guides mention. If the boss is not the species you want, leave the boss room and come back, and the boss may reroll. The wiki calls it unintended and possibly changeable, so do not count on it forever.",
+      "images": [
+        "pal:Mau",
+        "pal:Killamari",
+        "steam:1623730:11"
+      ]
+    },
+    {
+      "heading": "Chests and rewards",
+      "script": "After the Alpha falls, the exit room opens, and it holds two guaranteed chests. The wiki says at least one always contains a remedy or elixir, and higher tiers offer stronger versions of them. Along the way you can find extra chests, some of which are locked and need keys. Guides list skill fruits, accessories, schematics, materials and technology manuals among the possible rewards, and higher tier dungeons drop rarer items. Since accessories are crafted from schematics in one point zero, dungeon chests matter more than before. You will also find lotuses, mushrooms, ore and Paldium inside, so bring a pickaxe and fill your bag.",
+      "images": [
+        "pal:Nitemary",
+        "steam:1623730:12",
+        "steam:1623730:13"
+      ]
+    },
+    {
+      "heading": "Timers and resets",
+      "script": "How long does a dungeon stay open? The wiki says dungeons despawn and move after about two hundred minutes, whether or not you finish them, and another guide gives about the same number, though one other guide cites a different figure. We suggest treating it as a few hours and trusting the timer you see at the entrance. Another guide says the countdown follows in game time, and on private servers, time speed settings can change it. It also adds that the boss and chests reset on the same timer. The lesson is simple. If a dungeon is open and you are nearby, go in now, because it will not wait for you.",
+      "images": [
+        "pal:Fenglope",
+        "steam:1623730:14",
+        "steam:1623730:15"
+      ]
+    },
+    {
+      "heading": "Survival tips",
+      "script": "A few tips make dungeon runs smoother. Leave a cheap item in cleared rooms as a marker, so you know where you have been. Bring a fast small mount, and the wiki mentions Fenglope as especially good for its double jump. Guides say flooded corridors and long passages often lead toward the boss, and enemy numbers rise as you get closer. If you die, you are removed from the dungeon and can pick up your dropped items at the entrance. Keep healing food, ailment cures and a full stack of spheres, and always check your party health before you open the final door.",
+      "images": [
+        "pal:Fenglope",
+        "pal:Leezpunk",
+        "steam:1623730:16"
+      ]
+    },
+    {
+      "heading": "Ancient Ruins and where to go next",
+      "script": "One more thing to know is that the one point zero update added Ancient Ruins. Guides describe them as separate exploration sites, with a quick challenge that rewards schematics, which makes them faster than a full dungeon run when you need accessories. So a good routine is to visit ruins and open caves as you travel, collect skill fruits and schematics, capture the Alphas you want, and move on. Do not forget to compare what you find with our other videos on sealed realms, raid bosses and tower bosses, since each one offers different rewards and works best at a different stage of the game.",
+      "images": [
+        "pal:Jetragon",
+        "steam:1623730:17",
+        "steam:1623730:18"
+      ]
+    },
+    {
+      "heading": "Which dungeon boss do you want",
+      "script": "That is the full dungeon guide for Palworld. Which dungeon Alpha are you hunting for right now, and did you ever get a lucky reroll? Tell us in the comments, because your stories help everyone. If this video helped you, please like it and subscribe to HarryBeast Gaming for more Palworld guides every day. Thanks for watching, and good luck out there.",
+      "images": [
+        "pal:Mau",
+        "pal:Killamari",
+        "steam:1623730:19"
+      ]
+    }
+  ]
+}

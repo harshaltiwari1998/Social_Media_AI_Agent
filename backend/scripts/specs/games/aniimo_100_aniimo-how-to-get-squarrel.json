@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-how-to-get-squarrel",
+  "slot": "aniimo",
+  "order": 100,
+  "headline": "Get Squarrel",
+  "title": "How to Get Squarrel | The Fire Breaker | Aniimo Guide",
+  "video_script": "Squarrel is a Fire Breaker that lives in Blitzwood. Its Pinecone Bomb throws a flaming pinecone that marks enemies, and Heavy Tail Strike eats the mark for extra damage and a stun. Its Raging Fire trait makes the basic attack after a skill hit much harder. At level forty seven it evolves into Squashel. Is Squarrel on your team? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:7",
+      "label": "How to Get Squarrel"
+    },
+    {
+      "image": "steam:4126040:8",
+      "fact": "Fire Breaker",
+      "sub": "Lives in Blitzwood"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Pinecone Bomb",
+      "sub": "Marks enemies"
+    },
+    {
+      "image": "steam:4126040:10",
+      "fact": "Heavy Tail Strike",
+      "sub": "Extra damage and stun"
+    },
+    {
+      "image": "steam:4126040:11",
+      "fact": "Level forty seven",
+      "sub": "Becomes Squashel"
+    }
+  ],
+  "description": "Aniimo's Squarrel is a Fire Breaker found in Blitzwood. Pinecone Bomb marks enemies, Heavy Tail Strike consumes the mark, and at level 47 it evolves into Squashel.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Squarrel",
+    "Aniimo Squarrel",
+    "Squashel",
+    "AniimoHowToGet",
+    "Pawprint Studio"
+  ]
+}

@@ -2808,5 +2808,247 @@
         "Palumba"
       ]
     ]
+  },
+  {
+    "parents": [
+      "Flaracle",
+      "Mammorest"
+    ],
+    "child": "Sekhmet",
+    "unique": false,
+    "combos": [
+      [
+        "Flaracle",
+        "Mammorest"
+      ],
+      [
+        "Frostplume",
+        "Ghangler"
+      ],
+      [
+        "Astegon",
+        "Palumba"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Knocklem",
+      "Penking"
+    ],
+    "child": "Gildra",
+    "unique": false,
+    "combos": [
+      [
+        "Knocklem",
+        "Penking"
+      ],
+      [
+        "Dogen",
+        "Ghangler"
+      ],
+      [
+        "Jormuntide",
+        "Slowatt"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Dinossom",
+      "Knocklem"
+    ],
+    "child": "Wistella",
+    "unique": false,
+    "combos": [
+      [
+        "Dinossom",
+        "Knocklem"
+      ],
+      [
+        "Fenglope",
+        "Flaracle"
+      ],
+      [
+        "Hoodle",
+        "Jormuntide"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Flaracle",
+      "Pyrin"
+    ],
+    "child": "Bulldosu",
+    "unique": false,
+    "combos": [
+      [
+        "Flaracle",
+        "Pyrin"
+      ],
+      [
+        "Eidrolon",
+        "Penking"
+      ],
+      [
+        "Elizabee",
+        "Jormuntide"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Anubis",
+      "Braloha"
+    ],
+    "child": "Mycora",
+    "unique": false,
+    "combos": [
+      [
+        "Anubis",
+        "Braloha"
+      ],
+      [
+        "Flaracle",
+        "Menasting"
+      ],
+      [
+        "Icelyn",
+        "Knocklem"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Anubis",
+      "Majex"
+    ],
+    "child": "Moldron",
+    "unique": false,
+    "combos": [
+      [
+        "Anubis",
+        "Majex"
+      ],
+      [
+        "Flaracle",
+        "Pierdon"
+      ],
+      [
+        "Jormuntide",
+        "Loomen"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Anubis",
+      "Silvegis"
+    ],
+    "child": "Dupin",
+    "unique": false,
+    "combos": [
+      [
+        "Anubis",
+        "Silvegis"
+      ],
+      [
+        "Knocklem",
+        "Splatterina"
+      ],
+      [
+        "Dualith",
+        "Roujay"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Anubis",
+      "Roujay"
+    ],
+    "child": "Dualith",
+    "unique": false,
+    "combos": [
+      [
+        "Anubis",
+        "Roujay"
+      ],
+      [
+        "Astegon",
+        "Dupin"
+      ],
+      [
+        "Eidrolon",
+        "Whalaska"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Eidrolon",
+      "Knocklem"
+    ],
+    "child": "Solenne",
+    "unique": false,
+    "combos": [
+      [
+        "Eidrolon",
+        "Knocklem"
+      ],
+      [
+        "Aegidron",
+        "Roujay"
+      ],
+      [
+        "Anubis",
+        "Silvance"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Anubis",
+      "Hartalis"
+    ],
+    "child": "Renjishi",
+    "unique": false,
+    "combos": [
+      [
+        "Anubis",
+        "Hartalis"
+      ],
+      [
+        "Astegon",
+        "Silvance"
+      ],
+      [
+        "Panthalus",
+        "Silvegis"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Knocklem",
+      "Panthalus"
+    ],
+    "child": "Ophydia",
+    "unique": false,
+    "combos": [
+      [
+        "Knocklem",
+        "Panthalus"
+      ],
+      [
+        "Azurmane",
+        "Shaolong"
+      ],
+      [
+        "Lyleen",
+        "Orserk"
+      ]
+    ]
   }
 ]

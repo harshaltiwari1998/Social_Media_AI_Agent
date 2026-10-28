@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-home-orders-co-op-coins",
+  "slot": "aniimo",
+  "order": 111,
+  "headline": "Home Coins Orders",
+  "title": "Home Coins | Orders and Annie | Aniimo Guide",
+  "video_script": "Short on Home Coins in Aniimo? Hand in orders to the order robot BINI. One turn in pays Home Coins, Credit Coins and Insight together, and higher star orders pay more. Then sell leftovers to Annie at the Co-op Store, but craft first, because finished goods earn more than raw crops. Offline totals in the Home Report are goods, not coins, until you sell them. How many Home Coins do you have? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:11",
+      "label": "Home Coins"
+    },
+    {
+      "image": "steam:4126040:12",
+      "fact": "Orders to BINI",
+      "sub": "Coins, Credits, Insight"
+    },
+    {
+      "image": "steam:4126040:13",
+      "fact": "More stars, more pay",
+      "sub": "Do high star orders first"
+    },
+    {
+      "image": "steam:4126040:14",
+      "fact": "Craft before selling",
+      "sub": "Finished goods pay more"
+    },
+    {
+      "image": "steam:4126040:15",
+      "fact": "Sell to Annie",
+      "sub": "Home Report is goods"
+    }
+  ],
+  "description": "Aniimo Home Coins guide: deliver Home Orders to BINI for Home Coins, Credit Coins and Insight, and sell crafted goods to Annie at the Co-op Store.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Home Coins",
+    "Aniimo Homeland",
+    "Aniimo orders",
+    "Aniimo Co-op Store"
+  ]
+}

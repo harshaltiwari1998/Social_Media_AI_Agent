@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-daily-activity-500-points",
+  "slot": "aniimo",
+  "order": 109,
+  "headline": "Daily Activity 500",
+  "title": "Daily Activity | Skip one task and still win | Aniimo Guide",
+  "video_script": "Aniimo Daily Activity has seven hundred points up for grabs, but you only need five hundred. At five hundred, all five reward packs unlock, including an Incredible Egg, Aniipod Hyper, Growth Fruits and Glimmer. Log in is worth one hundred. Spending sixty Primegy is worth two hundred. So you can skip one small task. It resets at four AM server time. Have you claimed yours today? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:1",
+      "label": "Daily Activity"
+    },
+    {
+      "image": "steam:4126040:2",
+      "fact": "Five hundred points",
+      "sub": "Of seven hundred"
+    },
+    {
+      "image": "steam:4126040:3",
+      "fact": "Five reward packs",
+      "sub": "Egg, Aniipods, Glimmer"
+    },
+    {
+      "image": "steam:4126040:4",
+      "fact": "Spend sixty Primegy",
+      "sub": "Worth two hundred"
+    },
+    {
+      "image": "steam:4126040:5",
+      "fact": "Resets at four AM",
+      "sub": "Server time"
+    }
+  ],
+  "description": "Aniimo Daily Activity guide: 500 of the 700 daily points unlock all five reward packs, including an Incredible Egg, Aniipod Hyper and Glimmer. Resets at 4 AM server time.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Daily Activity",
+    "Aniimo daily",
+    "Aniimo rewards",
+    "Aniimo Glimmer"
+  ]
+}

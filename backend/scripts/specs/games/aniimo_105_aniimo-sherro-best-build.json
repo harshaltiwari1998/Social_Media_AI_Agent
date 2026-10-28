@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-sherro-best-build",
+  "slot": "aniimo",
+  "order": 105,
+  "headline": "Sherro Build",
+  "title": "Sherro Best Build | Flowing Water Slash and Torrent Slam | Aniimo Guide",
+  "video_script": "Sherro is a Water attacker, and its skills love puddles. Run Flowing Water Slash, three quick slashes that turn into water blades near water, with Torrent Slam, a thrown shell that deals extra damage in puddles. Pair it with a Panpanta or Erlath to make puddles. Hold a Ferocious Fang. Beware Lightning, Grass and Ice. Do you run Sherro? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:2",
+      "label": "Sherro Best Build"
+    },
+    {
+      "image": "steam:4126040:3",
+      "fact": "Water attacker",
+      "sub": "Attack first"
+    },
+    {
+      "image": "steam:4126040:4",
+      "fact": "Flowing Water Slash",
+      "sub": "Water blades near water"
+    },
+    {
+      "image": "steam:4126040:5",
+      "fact": "Torrent Slam",
+      "sub": "Puddles add damage"
+    },
+    {
+      "image": "steam:4126040:6",
+      "fact": "Weak to",
+      "sub": "Lightning, Grass, Ice"
+    }
+  ],
+  "description": "Aniimo's Sherro is a Water attacker. Run Flowing Water Slash and Torrent Slam, make puddles with a Panpanta or Erlath, hold a Ferocious Fang and beware Lightning, Grass and Ice.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Sherro",
+    "Aniimo Sherro",
+    "Attacker",
+    "AniimoBuild",
+    "Pawprint Studio"
+  ]
+}

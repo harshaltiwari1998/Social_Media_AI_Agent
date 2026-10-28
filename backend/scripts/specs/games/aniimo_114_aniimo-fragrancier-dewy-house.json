@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-fragrancier-dewy-house",
+  "slot": "aniimo",
+  "order": 114,
+  "headline": "Fragrancier Dewy House",
+  "title": "Fragrancier | Needed for the Dewy House | Aniimo Guide",
+  "video_script": "The Dewy House in your Aniimo Homeland needs a Fragrancier. It has Dark three, Leisure three and Perfumery three, and Perfumery is a rare job. Fragrancier is the final form of Dewy, which you can find around the Sea of Flowers. The Dewy line evolves at around level twenty seven. Catch a Dewy early so you are ready. Do you have a Fragrancier yet? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:26",
+      "label": "Fragrancier"
+    },
+    {
+      "image": "steam:4126040:27",
+      "fact": "Dark 3, Leisure 3",
+      "sub": "Perfumery 3"
+    },
+    {
+      "image": "steam:4126040:28",
+      "fact": "Needed for Dewy House",
+      "sub": "Homeland facility"
+    },
+    {
+      "image": "steam:4126040:29",
+      "fact": "Final form of Dewy",
+      "sub": "Sea of Flowers"
+    },
+    {
+      "image": "steam:4126040:30",
+      "fact": "Evolves around level 27",
+      "sub": "Catch a Dewy early"
+    }
+  ],
+  "description": "Aniimo Fragrancier guide: this final form of Dewy has Dark 3, Leisure 3 and Perfumery 3 and is needed for the Homeland Dewy House.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Fragrancier",
+    "Aniimo Dewy",
+    "Aniimo Homeland",
+    "Aniimo Dewy House"
+  ]
+}

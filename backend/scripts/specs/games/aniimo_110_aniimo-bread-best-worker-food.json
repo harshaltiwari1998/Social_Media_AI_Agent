@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-bread-best-worker-food",
+  "slot": "aniimo",
+  "order": 110,
+  "headline": "Bread Worker Food",
+  "title": "Bread | Best Homeland worker food | Aniimo Guide",
+  "video_script": "Hungry workers stop producing in your Aniimo Homeland, so feed them well. Energy Bites give only one thousand energy. Wheatmeal gives nine thousand three hundred seventy. Bread gives twenty six thousand seven hundred forty. Cook Bread in the Claw Game Cooker from two Wheatmeal and five Well Water. Then put it in the Food tab so workers draw from it. What do you feed your workers? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:6",
+      "label": "Homeland worker food"
+    },
+    {
+      "image": "steam:4126040:7",
+      "fact": "Energy Bites: 1,000",
+      "sub": "Weakest option"
+    },
+    {
+      "image": "steam:4126040:8",
+      "fact": "Wheatmeal: 9,370",
+      "sub": "Carousel Mill"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Bread: 26,740",
+      "sub": "Claw Game Cooker"
+    },
+    {
+      "image": "steam:4126040:10",
+      "fact": "2 Wheatmeal + 5 Well Water",
+      "sub": "Put it in the Food tab"
+    }
+  ],
+  "description": "Aniimo Homeland food guide: Bread restores 26,740 energy versus 9,370 for Wheatmeal and 1,000 for Energy Bites. Recipe is 2 Wheatmeal and 5 Well Water at the Claw Game Cooker.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Aniimo Homeland",
+    "Aniimo Bread",
+    "Aniimo workers",
+    "Aniimo food"
+  ]
+}

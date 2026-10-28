@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-bristla-grass-attack-boost",
+  "slot": "palguide",
+  "order": 110,
+  "headline": "Bristla grass booster",
+  "title": "Bristla | Grass Attack Booster and Farm Worker | Palworld Guide",
+  "video_script": "Building a Grass team in Palworld one point zero? Bristla is a small Grass Pal with Planting level two, Handiwork level two, Gathering level two and Medicine Production level two. Its partner skill, Princess Gaze, increases the Attack of Grass Pals by fifteen to thirty percent while it is in your party, though the bonus does not stack. Will you bring Bristla? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:20",
+      "label": "Bristla"
+    },
+    {
+      "image": "pal:Bristla",
+      "fact": "Princess Gaze",
+      "sub": "Grass Attack up"
+    },
+    {
+      "image": "steam:1623730:21",
+      "fact": "Planting 2",
+      "sub": "Gathering 2"
+    },
+    {
+      "image": "pal:Bristla",
+      "fact": "Grass Pal",
+      "sub": "Palworld 1.0"
+    }
+  ],
+  "description": "Bristla in Palworld 1.0 is a small Grass Pal with a Grass attack boost and four suitabilities.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Bristla",
+    "Bristla work suitability",
+    "Palworld Pal guide",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld partner skill",
+    "Palworld mounts"
+  ]
+}

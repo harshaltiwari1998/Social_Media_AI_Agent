@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-how-to-get-skippy",
+  "slot": "aniimo",
+  "order": 99,
+  "headline": "Get Skippy",
+  "title": "How to Get Skippy | The Water Healer | Aniimo Guide",
+  "video_script": "Skippy is a Water healer and one of the easiest Aniimo to catch. Look for it in Nimbus Fields, along the river on the west side. It also lives in The Mistwoods and the Forest of Falling Stars. At level twelve it evolves into Pranky, and at level twenty Pranky becomes Glacy or Leafy. Its Water Spirit trait cuts skill energy cost in water. Do you keep a Skippy? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:2",
+      "label": "How to Get Skippy"
+    },
+    {
+      "image": "steam:4126040:3",
+      "fact": "Water healer",
+      "sub": "Easy to catch"
+    },
+    {
+      "image": "steam:4126040:4",
+      "fact": "Nimbus Fields",
+      "sub": "West side river"
+    },
+    {
+      "image": "steam:4126040:5",
+      "fact": "Level twelve",
+      "sub": "Evolves to Pranky"
+    },
+    {
+      "image": "steam:4126040:6",
+      "fact": "Level twenty",
+      "sub": "Glacy or Leafy"
+    }
+  ],
+  "description": "Aniimo's Skippy is a Water healer found in Nimbus Fields, The Mistwoods and the Forest of Falling Stars. It evolves into Pranky at level 12, then into Glacy or Leafy at level 20.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Skippy",
+    "Aniimo Skippy",
+    "Skippy",
+    "AniimoHowToGet",
+    "Pawprint Studio"
+  ]
+}

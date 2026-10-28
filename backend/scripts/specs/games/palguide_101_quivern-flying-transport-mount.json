@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-quivern-flying-transport-mount",
+  "slot": "palguide",
+  "order": 101,
+  "headline": "Quivern flying hauler",
+  "title": "Quivern | Flying Mount and Hauler | Palworld Guide",
+  "video_script": "Need an early flying mount in Palworld one point zero? Quivern is a Dragon Pal you can ride through the air. It works Transporting level five, Mining level four and Gathering level three. Its partner skill, Sky Dragon Affection, raises the Attack of all Dragon Pals in your party by fifteen to thirty percent. Great for hauling and exploring. Will you ride a Quivern? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:11",
+      "label": "Quivern"
+    },
+    {
+      "image": "pal:Quivern",
+      "fact": "Transporting 5",
+      "sub": "Sky mount"
+    },
+    {
+      "image": "steam:1623730:5",
+      "fact": "Mining 4",
+      "sub": "Gathering 3"
+    },
+    {
+      "image": "pal:Quivern",
+      "fact": "Dragon Pal",
+      "sub": "Palworld 1.0"
+    }
+  ],
+  "description": "Quivern in Palworld 1.0 is a Dragon flying mount with Transporting level five and a Dragon attack boost.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Quivern",
+    "Quivern work suitability",
+    "Palworld Pal guide",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld partner skill",
+    "Palworld mounts"
+  ]
+}

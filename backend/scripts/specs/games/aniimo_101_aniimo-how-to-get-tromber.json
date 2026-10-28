@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-how-to-get-tromber",
+  "slot": "aniimo",
+  "order": 101,
+  "headline": "Get Tromber",
+  "title": "How to Get Tromber | The Wind Support | Aniimo Guide",
+  "video_script": "Tromber is a Wind support from the Chirpi line. You can find the basic form in The Argent Strait. To get it, take a Chirpi to level eighteen with the Magic Horn talent and an HP Potential of six or higher. Its Waltz skill raises crit damage, and Spiral Blade lowers enemy Wind resistance. Watch out for Lightning and Light. Will you pick Tromber? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:12",
+      "label": "How to Get Tromber"
+    },
+    {
+      "image": "steam:4126040:13",
+      "fact": "Wind support",
+      "sub": "Chirpi line"
+    },
+    {
+      "image": "steam:4126040:14",
+      "fact": "The Argent Strait",
+      "sub": "Basic form"
+    },
+    {
+      "image": "steam:4126040:15",
+      "fact": "Magic Horn",
+      "sub": "Level eighteen, HP Potential six"
+    },
+    {
+      "image": "steam:4126040:16",
+      "fact": "Waltz",
+      "sub": "Raises crit damage"
+    }
+  ],
+  "description": "Aniimo's Tromber is a Wind support in The Argent Strait. A Chirpi evolves into it at level 18 with the Magic Horn talent and HP Potential of 6 or higher.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Tromber",
+    "Aniimo Tromber",
+    "Chirpi",
+    "AniimoHowToGet",
+    "Pawprint Studio"
+  ]
+}

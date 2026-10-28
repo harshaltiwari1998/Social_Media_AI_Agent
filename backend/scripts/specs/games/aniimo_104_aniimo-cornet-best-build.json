@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-cornet-best-build",
+  "slot": "aniimo",
+  "order": 104,
+  "headline": "Cornet Build",
+  "title": "Cornet Best Build | Wind Bomb Rush and Scream Splitter | Aniimo Guide",
+  "video_script": "Cornet is a Wind attacker, so put Attack first. Run Wind Bomb Rush, a rapid barrage of wind bombs, with Scream Splitter, which fires many projectiles and hits harder when several land on one target. Its Air Superiority trait raises crit rate while flying, and a Ferocious Fang fits well. Beware Lightning and Light. Do you use Cornet? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:27",
+      "label": "Cornet Best Build"
+    },
+    {
+      "image": "steam:4126040:28",
+      "fact": "Wind attacker",
+      "sub": "Attack first"
+    },
+    {
+      "image": "steam:4126040:29",
+      "fact": "Wind Bomb Rush",
+      "sub": "Bomb barrage"
+    },
+    {
+      "image": "steam:4126040:30",
+      "fact": "Scream Splitter",
+      "sub": "Multi-hit bonus"
+    },
+    {
+      "image": "steam:4126040:1",
+      "fact": "Air Superiority",
+      "sub": "Crit while flying"
+    }
+  ],
+  "description": "Aniimo's Cornet is a Wind attacker. Run Wind Bomb Rush and Scream Splitter, hold a Ferocious Fang and use its Air Superiority trait for crit rate while flying.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Cornet",
+    "Aniimo Cornet",
+    "Attacker",
+    "AniimoBuild",
+    "Pawprint Studio"
+  ]
+}

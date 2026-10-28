@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-tromber-best-build",
+  "slot": "aniimo",
+  "order": 103,
+  "headline": "Tromber Build",
+  "title": "Tromber Best Build | Waltz and Spiral Blade | Aniimo Guide",
+  "video_script": "Tromber is a Wind support, and the build is simple. Bring Waltz, which raises crit damage for twenty seconds, and Spiral Blade, a wind bomb with a delayed blast that lowers enemy Wind resistance. Zephyr's Breath boosts your whole party's Wind damage. Hold a Spirited Feather, and watch out for Lightning and Light. Do you run Tromber? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:22",
+      "label": "Tromber Best Build"
+    },
+    {
+      "image": "steam:4126040:23",
+      "fact": "Wind support",
+      "sub": "Chirpi line"
+    },
+    {
+      "image": "steam:4126040:24",
+      "fact": "Waltz",
+      "sub": "Crit damage up"
+    },
+    {
+      "image": "steam:4126040:25",
+      "fact": "Spiral Blade",
+      "sub": "Lowers Wind resistance"
+    },
+    {
+      "image": "steam:4126040:26",
+      "fact": "Zephyr's Breath",
+      "sub": "Party Wind boost"
+    }
+  ],
+  "description": "Aniimo's Tromber is a Wind support. Run Waltz and Spiral Blade, use Zephyr's Breath to boost party Wind damage, hold a Spirited Feather and beware Lightning and Light.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Tromber",
+    "Aniimo Tromber",
+    "Support",
+    "AniimoBuild",
+    "Pawprint Studio"
+  ]
+}

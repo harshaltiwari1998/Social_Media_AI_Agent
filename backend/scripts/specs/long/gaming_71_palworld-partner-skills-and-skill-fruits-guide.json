@@ -1,0 +1,138 @@
+{
+  "id": "palworld-partner-skills-and-skill-fruits-guide",
+  "category": "gaming",
+  "order": 71,
+  "series": "palworld",
+  "title": "Palworld Skills Explained | Partner Skills, Active Skills And Skill Fruits | Palworld Guide",
+  "description": "A Palworld 1.0 guide to skills: how partner skills work, the four partner skill types, ranking them up at the Pal Essence Condenser, the three active skill slots and how skill fruits teach new moves. Checked against the wiki and several guides in October 2026; numbers can change with patches.",
+  "hashtags": [
+    "Palworld",
+    "PalworldGuide",
+    "PalworldSkills"
+  ],
+  "tags": [
+    "Palworld partner skills",
+    "Palworld skill fruit",
+    "Palworld active skills",
+    "Palworld condensing",
+    "Palworld 1.0",
+    "Palworld Anubis",
+    "Palworld guide",
+    "Palworld tips",
+    "Palworld skills explained"
+  ],
+  "thumbnail": {
+    "image": "pal:Anubis",
+    "text": "PAL SKILLS EXPLAINED"
+  },
+  "sections": [
+    {
+      "heading": "Palworld skills explained",
+      "script": "Every Pal in Palworld fights and works with skills, but the game has more than one kind, and mixing them up is a very common beginner mistake. In this video we explain partner skills, active skills and skill fruits in plain language. You will learn what each kind does, which ones you can change and which ones you cannot, how condensing makes partner skills stronger, and how to teach your favorite Pal new attacks. We checked this against several guides and the wiki after the one point zero release, and we will say so when guides disagree. We will not repeat our passive skills video, because this one is about the other skills. Let us start with the big picture.",
+      "images": [
+        "pal:Anubis",
+        "steam:1623730:1",
+        "steam:1623730:2"
+      ]
+    },
+    {
+      "heading": "Three kinds of skills",
+      "script": "Think of a Pal as having three skill layers. First, the partner skill. Each species has one, and it cannot be changed. Second, active skills. These are the attacks you use in combat, and you can swap them. Third, passive skills, which are the random traits you see on a Pal, like faster working or stronger attack. Guides agree that Pals cannot learn new partner skills or new passives through the skill menus, but they can learn new active skills. That one fact clears up a lot of confusion. If you want a different partner skill, you need a different species. If you want better passives, that is a breeding topic we already covered in another video.",
+      "images": [
+        "pal:Lamball",
+        "steam:1623730:3",
+        "steam:1623730:4"
+      ]
+    },
+    {
+      "heading": "How partner skills work",
+      "script": "A partner skill is the special ability that belongs to a species. Some work automatically, and some work when you press the partner skill key. For active ones, you throw out the Pal, then press the key, and it does its thing. Some partner skills need a technology unlocked first, so if one looks greyed out, check your technology tree. Another handy detail is that many of them are marked as not stacking, which means a second Pal with the same skill adds nothing. So do not fill your party with five copies of the same helper. Bring variety, and you will get more out of every partner skill you own.",
+      "images": [
+        "pal:Foxparks",
+        "steam:1623730:5",
+        "steam:1623730:6"
+      ]
+    },
+    {
+      "heading": "Four kinds of partner skills",
+      "script": "The partner skills are grouped into four main types. Mount skills let you ride the Pal. Combat skills give you attacks or buffs in a fight. Utility skills help you gather, carry or heal. And farming skills work at a ranch, where a Pal slowly produces items for you. Some skills belong to more than one group. Lamball is a great example, because it is both a combat skill and a farming skill. This is why a Pal that looks weak in battle can still be a star in your base or on your back. Always read the partner skill description before you decide a Pal is useless.",
+      "images": [
+        "pal:Lamball",
+        "pal:Rushoar",
+        "steam:1623730:7"
+      ]
+    },
+    {
+      "heading": "Combat partner skills",
+      "script": "Let us look at three famous combat examples. Lamball turns into a fluffy shield that you hold, and at a ranch it can drop wool. Foxparks becomes a flamethrower in your hands, which makes it a classic early weapon. And Anubis changes your attack type to Ground and raises your attack by thirty percent when it is active, and guides say it also dodges attacks every now and then. One guide lists that attack bonus climbing to fifty percent at the top rank. Notice how these skills make you the fighter, with the Pal acting like equipment. That is a different style from simply letting your Pals battle for you.",
+      "images": [
+        "pal:Anubis",
+        "pal:Foxparks",
+        "steam:1623730:8"
+      ]
+    },
+    {
+      "heading": "Mount and utility skills",
+      "script": "Mount skills do more than carry you around. Rushoar is the standard example. While you ride it, it breaks stone far faster, and guides say that boost grows a lot as the skill rank goes up. Eikthyrdeer lets you double jump while riding and also helps with lumbering. On the utility side, Nitemary has a skill called Soul Collector, and while you fight together your Pals drop more Pal Souls, with a starting bonus of one hundred percent. So one Pal helps you break rocks, another cuts trees, another farms souls. Matching the right partner skill to the job in front of you saves a huge amount of time.",
+      "images": [
+        "pal:Rushoar",
+        "pal:Eikthyrdeer",
+        "pal:Nitemary"
+      ]
+    },
+    {
+      "heading": "Ranking up with condensing",
+      "script": "Here is how you make a partner skill stronger. You condense the Pal at the Pal Essence Condenser, using duplicates of the same species. Each rank raises the partner skill level, up to level five. After the one point zero update, the cost dropped. Guides say the full cost is now forty eight duplicates, split as four, then eight, then twelve, then twenty four for the last rank. The first Pal you pick is the one that is upgraded, and the others you choose are permanently consumed. Each rank can also raise one of the Pal's work suitability levels. The effect depends on the Pal, so condense the ones you actually use.",
+      "images": [
+        "pal:Anubis",
+        "steam:1623730:9",
+        "steam:1623730:10"
+      ]
+    },
+    {
+      "heading": "Active skills basics",
+      "script": "Now the attacks. Every Pal can have up to three active skills equipped at once. It can know more than that, but only three are ready in a fight, and you swap them in the party menu or the Palbox. Each Pal learns a set list of skills naturally as it levels up. A Pal can also learn a skill only once, so you cannot stack the same attack twice. Every skill has an element, a power and a cooldown. Element decides how well it hits an enemy, power is the damage, and cooldown is how long you wait before using it again. A good set uses all three smartly, not just the biggest number.",
+      "images": [
+        "pal:Foxparks",
+        "pal:Lamball",
+        "steam:1623730:11"
+      ]
+    },
+    {
+      "heading": "Skill fruits",
+      "script": "Skill fruits are the way to teach a Pal something new. You find them on special skill fruit trees spread around the islands, and dungeon chests are another common source. Guides say a tree gives around three fruits at a time. To use one, select it in your inventory and choose a Pal, and the skill is learned permanently. Hover over a fruit first, because it shows the skill and its power. If your Pal already has three skills equipped, you will be asked to replace one. Breeding is the other route, because baby Pals can inherit active skills from their parents, which gives them strong moves much earlier than normal leveling.",
+      "images": [
+        "pal:Eikthyrdeer",
+        "steam:1623730:12",
+        "steam:1623730:13"
+      ]
+    },
+    {
+      "heading": "Choosing the right moves",
+      "script": "Guides give a few rules for building a set. Match the element to your target when you can, because an attack that hits a weakness does much more damage. Teaching a Pal moves that match its own element is a good habit, though one guide says any fruit can go on any Pal, while another says a few Pals cannot learn a skill of their own fruit type. The honest answer is to check the screen before you spend a rare fruit. Also look at cooldown. Guides say short cooldown skills tend to give the best damage over time, while very long cast skills can leave you open. Mix one fast attack, one strong attack and one coverage attack.",
+      "images": [
+        "pal:Anubis",
+        "steam:1623730:14",
+        "steam:1623730:15"
+      ]
+    },
+    {
+      "heading": "Your skill checklist",
+      "script": "Let us wrap up with a quick checklist. One, partner skills are fixed per species, so choose Pals for what they do. Two, read the description and technology requirement before you give up on a Pal. Three, do not stack duplicates of the same helper skill. Four, condense your favorites at the Pal Essence Condenser to raise the partner skill rank. Five, equip three active skills and swap freely. Six, collect skill fruits from trees and dungeons, and check each fruit before using it. Seven, remember that exact numbers can shift in patches, so the in game screen is always the final word.",
+      "images": [
+        "pal:Nitemary",
+        "steam:1623730:16",
+        "steam:1623730:17"
+      ]
+    },
+    {
+      "heading": "Which partner skill is your favorite",
+      "script": "That is everything you need to know about Palworld skills. Which partner skill do you use the most, the Anubis attack boost, the Foxparks flamethrower, or something we did not mention? Tell us in the comments, because we read them all and love hearing your builds. If this guide helped you, hit like and subscribe to HarryBeast Gaming for more Palworld videos, and check the other videos on the channel for passives, bosses and breeding. Thanks for watching, and we will see you in the next one.",
+      "images": [
+        "pal:Anubis",
+        "pal:Foxparks",
+        "steam:1623730:18"
+      ]
+    }
+  ]
+}

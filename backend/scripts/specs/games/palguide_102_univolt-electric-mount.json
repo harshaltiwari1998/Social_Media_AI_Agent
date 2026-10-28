@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-univolt-electric-mount",
+  "slot": "palguide",
+  "order": 102,
+  "headline": "Univolt electric mount",
+  "title": "Univolt | Electric Mount and Power Worker | Palworld Guide",
+  "video_script": "Want a rideable power worker in Palworld one point zero? Univolt is an Electric Pal that works Generating Electricity level three. You can ride it, and its partner skill, Swift Deity, boosts damage from you and your Pals by twenty five to forty percent when an Electric attack hits an enemy weakness. Pack it against Water Pals. Will you ride Univolt? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:15",
+      "label": "Univolt"
+    },
+    {
+      "image": "pal:Univolt",
+      "fact": "Electricity 3",
+      "sub": "Rideable"
+    },
+    {
+      "image": "steam:1623730:6",
+      "fact": "Weakness hits",
+      "sub": "25 to 40 percent"
+    },
+    {
+      "image": "pal:Univolt",
+      "fact": "Electric Pal",
+      "sub": "Palworld 1.0"
+    }
+  ],
+  "description": "Univolt in Palworld 1.0 is an Electric rideable Pal with Generating Electricity level three.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Univolt",
+    "Univolt work suitability",
+    "Palworld Pal guide",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld partner skill",
+    "Palworld mounts"
+  ]
+}

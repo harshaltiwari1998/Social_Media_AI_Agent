@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-relaxaurus-missile-mount",
+  "slot": "palguide",
+  "order": 108,
+  "headline": "Relaxaurus missile mount",
+  "title": "Relaxaurus | Rideable Missile Launcher | Palworld Guide",
+  "video_script": "Want a mount with a missile launcher in Palworld one point zero? Relaxaurus is a Dragon and Water Pal. Its partner skill, Hungry Missile, lets you ride it and rapidly fire a missile launcher. At the base it works Watering level three and Transporting level three. It gets hungry faster, so keep food ready. Will you ride Relaxaurus? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:18",
+      "label": "Relaxaurus"
+    },
+    {
+      "image": "pal:Relaxaurus",
+      "fact": "Hungry Missile",
+      "sub": "Fire while riding"
+    },
+    {
+      "image": "steam:1623730:1",
+      "fact": "Watering 3",
+      "sub": "Transporting 3"
+    },
+    {
+      "image": "pal:Relaxaurus",
+      "fact": "Dragon and Water Pal",
+      "sub": "Palworld 1.0"
+    }
+  ],
+  "description": "Relaxaurus in Palworld 1.0 is a Dragon and Water mount with a rapid fire missile launcher.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Relaxaurus",
+    "Relaxaurus work suitability",
+    "Palworld Pal guide",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld partner skill",
+    "Palworld mounts"
+  ]
+}

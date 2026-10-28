@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-mammorest-logging-mining-mount",
+  "slot": "palguide",
+  "order": 103,
+  "headline": "Mammorest mining mount",
+  "title": "Mammorest | Giant Mount For Logging and Mining | Palworld Guide",
+  "video_script": "Want a mount that farms for you in Palworld one point zero? Mammorest is a huge Grass and Ground Pal. It works Planting level four, Lumbering level four and Mining level four. Its partner skill, Gaia Crusher, lets you ride it and boosts logging efficiency by two hundred twenty to five hundred percent, and mining efficiency by five hundred to two thousand percent. Will you ride Mammorest? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:16",
+      "label": "Mammorest"
+    },
+    {
+      "image": "pal:Mammorest",
+      "fact": "Gaia Crusher",
+      "sub": "Ride to harvest"
+    },
+    {
+      "image": "steam:1623730:7",
+      "fact": "Mining boost",
+      "sub": "Up to 2000 percent"
+    },
+    {
+      "image": "pal:Mammorest",
+      "fact": "Grass and Ground Pal",
+      "sub": "Palworld 1.0"
+    }
+  ],
+  "description": "Mammorest in Palworld 1.0 is a giant rideable Grass and Ground Pal that boosts logging and mining.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Mammorest",
+    "Mammorest work suitability",
+    "Palworld Pal guide",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld partner skill",
+    "Palworld mounts"
+  ]
+}

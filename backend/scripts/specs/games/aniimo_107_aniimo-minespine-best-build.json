@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-minespine-best-build",
+  "slot": "aniimo",
+  "order": 107,
+  "headline": "Minespine Build",
+  "title": "Minespine Best Build | Seismic Wave and Stone Shell | Aniimo Guide",
+  "video_script": "Minespine is an Earth Breaker, so go Break first. Run Seismic Wave, which deals damage every second, with Stone Shell, a quick stone shot. Its Earth Affinity trait lets it cast skills while tunneling and adds Break damage. Meteor Shower is the big finisher, and a Gargantuan Horn is the held item. Do you run Minespine? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:12",
+      "label": "Minespine Best Build"
+    },
+    {
+      "image": "steam:4126040:13",
+      "fact": "Earth Breaker",
+      "sub": "Break first"
+    },
+    {
+      "image": "steam:4126040:14",
+      "fact": "Seismic Wave",
+      "sub": "Damage every second"
+    },
+    {
+      "image": "steam:4126040:15",
+      "fact": "Stone Shell",
+      "sub": "Quick stone shot"
+    },
+    {
+      "image": "steam:4126040:16",
+      "fact": "Earth Affinity",
+      "sub": "Cast while tunneling"
+    }
+  ],
+  "description": "Aniimo's Minespine is an Earth Breaker. Run Seismic Wave and Stone Shell, use Earth Affinity to cast while tunneling and hold a Gargantuan Horn.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Minespine",
+    "Aniimo Minespine",
+    "Breaker",
+    "AniimoBuild",
+    "Pawprint Studio"
+  ]
+}

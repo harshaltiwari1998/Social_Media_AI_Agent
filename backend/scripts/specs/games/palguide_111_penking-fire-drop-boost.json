@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-penking-fire-drop-boost",
+  "slot": "palguide",
+  "order": 111,
+  "headline": "Penking item farmer",
+  "title": "Penking | Mining Worker With Fire Drop Boost | Palworld Guide",
+  "video_script": "Farming Fire Pals for drops in Palworld one point zero? Penking is a Water and Ice Pal whose partner skill, Brave Sailor, makes Fire Pals drop forty to eighty percent more items when defeated. At base it works Mining level three and Transporting level three, plus Watering, Handiwork and Cooling at level two. Will you use Penking? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:9",
+      "label": "Penking"
+    },
+    {
+      "image": "pal:Penking",
+      "fact": "Brave Sailor",
+      "sub": "Fire drops up"
+    },
+    {
+      "image": "steam:1623730:22",
+      "fact": "Mining 3",
+      "sub": "Transporting 3"
+    },
+    {
+      "image": "pal:Penking",
+      "fact": "Water and Ice Pal",
+      "sub": "Palworld 1.0"
+    }
+  ],
+  "description": "Penking in Palworld 1.0 is a Water and Ice Pal with Mining level three and a Fire drop bonus.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Penking",
+    "Penking work suitability",
+    "Palworld Pal guide",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld partner skill",
+    "Palworld mounts"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "unreal-engine-6-ai",
+  "slot": "gamenews",
+  "order": 8,
+  "expires": "2026-12-31",
+  "headline": "Unreal Engine 6 is built around AI",
+  "title": "Unreal Engine 6 Puts AI at the Center | Claude and Codex Inside | Gaming News",
+  "video_script": "Epic Games says AI will play a central role in Unreal Engine six. Epic's Marcus Wassmer said models and tools like Claude and Codex will be built in, using a standard called MCP, so developers can pick the AI they want instead of being locked to one. He also said Epic's own teams already use AI to write and check code. Is AI good for game development? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Epic Games",
+      "label": "Unreal Engine 6"
+    },
+    {
+      "image": "wiki:Epic Games",
+      "fact": "AI at the center",
+      "sub": "Claude, Codex and more"
+    },
+    {
+      "image": "wiki:Epic Games",
+      "fact": "Pick your own AI",
+      "sub": "Built on MCP"
+    },
+    {
+      "image": "wiki:Epic Games",
+      "fact": "Good or bad",
+      "sub": "Comment below"
+    }
+  ],
+  "description": "Epic's Marcus Wassmer said LLMs and tools like Claude and Codex will play a central role in Unreal Engine 6, exposed through MCP so developers can choose their models; Epic's teams already use AI code generation and analysis.",
+  "hashtags": [
+    "UnrealEngine",
+    "EpicGames",
+    "GameDev"
+  ],
+  "tags": [
+    "Unreal Engine 6",
+    "UE6",
+    "Epic Games AI",
+    "Unreal Engine AI",
+    "game development AI"
+  ]
+}

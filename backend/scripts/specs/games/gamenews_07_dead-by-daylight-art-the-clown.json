@@ -1,0 +1,43 @@
+{
+  "id": "dead-by-daylight-art-the-clown",
+  "slot": "gamenews",
+  "order": 7,
+  "expires": "2026-11-30",
+  "headline": "Art the Clown joins Dead by Daylight",
+  "title": "Art the Clown Joins Dead by Daylight | Terrifier Chapter in November | Gaming News",
+  "video_script": "Art the Clown from the Terrifier movies is coming to Dead by Daylight as the new Killer. The Terrifier chapter was revealed at the game's tenth anniversary show, where David Howard Thornton, the actor who plays Art, came on stage in full makeup. The public test build started on October twenty seventh, and the full chapter arrives in November. Would you play as Art? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Art the Clown",
+      "label": "Art the Clown"
+    },
+    {
+      "image": "steam:381210:0",
+      "fact": "New Killer",
+      "sub": "Dead by Daylight"
+    },
+    {
+      "image": "steam:381210:1",
+      "fact": "Test build live",
+      "sub": "Since October 27"
+    },
+    {
+      "image": "wiki:Dead by Daylight",
+      "fact": "Full chapter",
+      "sub": "November 2026"
+    }
+  ],
+  "description": "Terrifier's Art the Clown is the Killer of Dead by Daylight's Terrifier chapter, revealed at the 10th Anniversary Broadcast with actor David Howard Thornton on stage. Public test build from October 27, 2026; full release in November 2026.",
+  "hashtags": [
+    "DeadByDaylight",
+    "ArtTheClown",
+    "Terrifier"
+  ],
+  "tags": [
+    "Dead by Daylight Art the Clown",
+    "Terrifier chapter",
+    "DBD new killer",
+    "Art the Clown",
+    "Dead by Daylight November 2026"
+  ]
+}

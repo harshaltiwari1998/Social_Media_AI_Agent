@@ -1,0 +1,43 @@
+{
+  "id": "minecraft-switch-2",
+  "slot": "gamenews",
+  "order": 6,
+  "expires": "2026-11-30",
+  "headline": "Minecraft is out on Switch 2",
+  "title": "Minecraft Is Out on Nintendo Switch 2 | Free Upgrade for Digital Owners | Gaming News",
+  "video_script": "Minecraft is now out on Nintendo Switch two. The native version launched on October twenty seventh, with Vibrant Visuals turned on by default. If you already own Minecraft digitally on the first Switch, you can get the Switch two version for free in most regions until the end of January. Every version also comes with the Super Mario Mash-Up Pack. Are you upgrading? Comment below!",
+  "scenes": [
+    {
+      "image": "wikifile:Minecraft game logo 2023.png",
+      "label": "Minecraft on Switch 2"
+    },
+    {
+      "image": "wikifile:Caves & Cliffs II - Alex & Steve I.png",
+      "fact": "Out now",
+      "sub": "Since October 27"
+    },
+    {
+      "image": "wikifile:Minecraft Beta 1.8.1 – Crafting a Wooden Sword.png",
+      "fact": "Free upgrade",
+      "sub": "For digital Switch owners"
+    },
+    {
+      "image": "wikifile:Minecraft Creeper (Crop).png",
+      "fact": "Vibrant Visuals",
+      "sub": "On by default"
+    }
+  ],
+  "description": "Minecraft (Bedrock) launched natively on Nintendo Switch 2 on October 27, 2026 with Vibrant Visuals on by default. Digital owners on Switch can get the Switch 2 Standard Edition free in most regions until the end of January 2027. Includes the Super Mario Mash-Up Pack.",
+  "hashtags": [
+    "Minecraft",
+    "NintendoSwitch2",
+    "GamingNews"
+  ],
+  "tags": [
+    "Minecraft Switch 2",
+    "Minecraft Nintendo Switch 2",
+    "Minecraft free upgrade",
+    "Vibrant Visuals",
+    "Minecraft news"
+  ]
+}

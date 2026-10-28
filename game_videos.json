@@ -4703,5 +4703,13 @@
   "aniimo-alpha-geoclaw-ice-prison": {
     "spec": "scripts/specs/games/aniimo_76_aniimo-alpha-geoclaw-ice-prison.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-dbd41f47.mp4"
+  },
+  "aniimo-alpha-leafy-break-shield": {
+    "spec": "scripts/specs/games/aniimo_77_aniimo-alpha-leafy-break-shield.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-fecf434b.mp4"
+  },
+  "aniimo-inferlupa-best-build": {
+    "spec": "scripts/specs/games/aniimo_86_aniimo-inferlupa-best-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-112f5f9b.mp4"
   }
 }

@@ -4825,5 +4825,73 @@
       ],
       "unique": false
     }
+  },
+  "Splatterina": {
+    "spec": "scripts/specs/palworld_splatterina.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-1eee7f1d.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Splatterina",
+      "caption": "3 ways to breed Splatterina in Palworld 1.0: Blazamut + Helzephyr, Dualith + Ragnahawk, Moldron + Tetroise.",
+      "video_script": "Here are three ways to breed Splatterina in Palworld one point zero. Combo one: breed Blazamut with Helzephyr on your Breeding Farm, then add a cake. Combo two: pair Dualith and Ragnahawk together, and you get the same egg. Combo three: Moldron plus Tetroise works too, so use whichever Pals you have. Every egg hatches into Splatterina. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Blazamut",
+        "Helzephyr"
+      ],
+      "combos": [
+        [
+          "Blazamut",
+          "Helzephyr"
+        ],
+        [
+          "Dualith",
+          "Ragnahawk"
+        ],
+        [
+          "Moldron",
+          "Tetroise"
+        ]
+      ],
+      "child": "Splatterina",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Silvegis": {
+    "spec": "scripts/specs/palworld_silvegis.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-d2f105e5.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Silvegis",
+      "caption": "3 ways to breed Silvegis in Palworld 1.0: Ghangler + Knocklem, Dualith + Jormuntide, Blazamut + Whalaska.",
+      "video_script": "Here are three ways to breed Silvegis in Palworld one point zero. Combo one: breed Ghangler with Knocklem on your Breeding Farm, then add a cake. Combo two: pair Dualith and Jormuntide together, and you get the same egg. Combo three: Blazamut plus Whalaska works too, so use whichever Pals you have. Every egg hatches into Silvegis. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Ghangler",
+        "Knocklem"
+      ],
+      "combos": [
+        [
+          "Ghangler",
+          "Knocklem"
+        ],
+        [
+          "Dualith",
+          "Jormuntide"
+        ],
+        [
+          "Blazamut",
+          "Whalaska"
+        ]
+      ],
+      "child": "Silvegis",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
   }
 }

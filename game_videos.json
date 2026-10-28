@@ -4764,5 +4764,61 @@
         "epic games free games this week"
       ]
     }
+  },
+  "aniimo-endgame-alpha-hunt": {
+    "spec": "scripts/specs/games/aniimo_117_aniimo-endgame-alpha-hunt.json",
+    "video": "F:\\AI AGENT\\run_ap19\\videos\\short-f7671b5a.mp4"
+  },
+  "aniimo-prismana-pact-free-choice": {
+    "spec": "scripts/specs/games/aniimo_116_aniimo-prismana-pact-free-choice.json",
+    "video": "F:\\AI AGENT\\run_ap19\\videos\\short-3142bb3d.mp4"
+  },
+  "aniimo-rv-level-three-requirements": {
+    "spec": "scripts/specs/games/aniimo_115_aniimo-rv-level-three-requirements.json",
+    "video": "F:\\AI AGENT\\run_ap19\\videos\\short-77c70cf6.mp4"
+  },
+  "aniimo-fragrancier-dewy-house": {
+    "spec": "scripts/specs/games/aniimo_114_aniimo-fragrancier-dewy-house.json",
+    "video": "F:\\AI AGENT\\run_ap19\\videos\\short-f9f11a82.mp4"
+  },
+  "aniimo-shrubclaw-homeland-worker": {
+    "spec": "scripts/specs/games/aniimo_113_aniimo-shrubclaw-homeland-worker.json",
+    "video": "F:\\AI AGENT\\run_ap19\\videos\\short-fcf27448.mp4"
+  },
+  "aniimo-primegy-cap-spend-it": {
+    "spec": "scripts/specs/games/aniimo_112_aniimo-primegy-cap-spend-it.json",
+    "video": "F:\\AI AGENT\\run_ap19\\videos\\short-e316d4f7.mp4"
+  },
+  "aniimo-home-orders-co-op-coins": {
+    "spec": "scripts/specs/games/aniimo_111_aniimo-home-orders-co-op-coins.json",
+    "video": "F:\\AI AGENT\\run_ap19\\videos\\short-681bf17d.mp4"
+  },
+  "aniimo-bread-best-worker-food": {
+    "spec": "scripts/specs/games/aniimo_110_aniimo-bread-best-worker-food.json",
+    "video": "F:\\AI AGENT\\run_ap19\\videos\\short-0d376428.mp4"
+  },
+  "aniimo-daily-activity-500-points": {
+    "spec": "scripts/specs/games/aniimo_109_aniimo-daily-activity-500-points.json",
+    "video": "F:\\AI AGENT\\run_ap19\\videos\\short-b8b2c3bf.mp4"
+  },
+  "palworld-guide-penking-fire-drop-boost": {
+    "spec": "scripts/specs/games/palguide_111_penking-fire-drop-boost.json",
+    "video": "F:\\AI AGENT\\run_ap19\\videos\\short-1f33aeb1.mp4"
+  },
+  "palworld-guide-bristla-grass-attack-boost": {
+    "spec": "scripts/specs/games/palguide_110_bristla-grass-attack-boost.json",
+    "video": "F:\\AI AGENT\\run_ap19\\videos\\short-4b440376.mp4"
+  },
+  "palworld-guide-katress-sphere-saver": {
+    "spec": "scripts/specs/games/palguide_109_katress-sphere-saver.json",
+    "video": "F:\\AI AGENT\\run_ap19\\videos\\short-0a999096.mp4"
+  },
+  "palworld-guide-relaxaurus-missile-mount": {
+    "spec": "scripts/specs/games/palguide_108_relaxaurus-missile-mount.json",
+    "video": "F:\\AI AGENT\\run_ap19\\videos\\short-6126e7ba.mp4"
+  },
+  "palworld-guide-blazehowl-fire-ground-mount": {
+    "spec": "scripts/specs/games/palguide_107_blazehowl-fire-ground-mount.json",
+    "video": "F:\\AI AGENT\\run_ap19\\videos\\short-8daf1478.mp4"
   }
 }

@@ -4893,5 +4893,175 @@
       ],
       "unique": false
     }
+  },
+  "Ophydia": {
+    "spec": "scripts/specs/palworld_ophydia.json",
+    "video": "F:\\AI AGENT\\run_ap19\\videos\\short-2c4c2f5e.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Ophydia",
+      "caption": "3 ways to breed Ophydia in Palworld 1.0: Knocklem + Panthalus, Azurmane + Shaolong, Lyleen + Orserk.",
+      "video_script": "Here are three ways to breed Ophydia in Palworld one point zero. Combo one: breed Knocklem with Panthalus on your Breeding Farm, then add a cake. Combo two: pair Azurmane and Shaolong together, and you get the same egg. Combo three: Lyleen plus Orserk works too, so use whichever Pals you have. Every egg hatches into Ophydia. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Knocklem",
+        "Panthalus"
+      ],
+      "combos": [
+        [
+          "Knocklem",
+          "Panthalus"
+        ],
+        [
+          "Azurmane",
+          "Shaolong"
+        ],
+        [
+          "Lyleen",
+          "Orserk"
+        ]
+      ],
+      "child": "Ophydia",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
+  },
+  "Renjishi": {
+    "spec": "scripts/specs/palworld_renjishi.json",
+    "video": "F:\\AI AGENT\\run_ap19\\videos\\short-f1b593c6.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Renjishi",
+      "caption": "3 ways to breed Renjishi in Palworld 1.0: Anubis + Hartalis, Astegon + Silvance, Panthalus + Silvegis.",
+      "video_script": "Here are three ways to breed Renjishi in Palworld one point zero. Combo one: breed Anubis with Hartalis on your Breeding Farm, then add a cake. Combo two: pair Astegon and Silvance together, and you get the same egg. Combo three: Panthalus plus Silvegis works too, so use whichever Pals you have. Every egg hatches into Renjishi. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Anubis",
+        "Hartalis"
+      ],
+      "combos": [
+        [
+          "Anubis",
+          "Hartalis"
+        ],
+        [
+          "Astegon",
+          "Silvance"
+        ],
+        [
+          "Panthalus",
+          "Silvegis"
+        ]
+      ],
+      "child": "Renjishi",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
+  },
+  "Solenne": {
+    "spec": "scripts/specs/palworld_solenne.json",
+    "video": "F:\\AI AGENT\\run_ap19\\videos\\short-b9b881b3.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Solenne",
+      "caption": "3 ways to breed Solenne in Palworld 1.0: Eidrolon + Knocklem, Aegidron + Roujay, Anubis + Silvance.",
+      "video_script": "Here are three ways to breed Solenne in Palworld one point zero. Combo one: breed Eidrolon with Knocklem on your Breeding Farm, then add a cake. Combo two: pair Aegidron and Roujay together, and you get the same egg. Combo three: Anubis plus Silvance works too, so use whichever Pals you have. Every egg hatches into Solenne. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Eidrolon",
+        "Knocklem"
+      ],
+      "combos": [
+        [
+          "Eidrolon",
+          "Knocklem"
+        ],
+        [
+          "Aegidron",
+          "Roujay"
+        ],
+        [
+          "Anubis",
+          "Silvance"
+        ]
+      ],
+      "child": "Solenne",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Dualith": {
+    "spec": "scripts/specs/palworld_dualith.json",
+    "video": "F:\\AI AGENT\\run_ap19\\videos\\short-1c5a8681.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Dualith",
+      "caption": "3 ways to breed Dualith in Palworld 1.0: Anubis + Roujay, Astegon + Dupin, Eidrolon + Whalaska.",
+      "video_script": "Here are three ways to breed Dualith in Palworld one point zero. Combo one: breed Anubis with Roujay on your Breeding Farm, then add a cake. Combo two: pair Astegon and Dupin together, and you get the same egg. Combo three: Eidrolon plus Whalaska works too, so use whichever Pals you have. Every egg hatches into Dualith. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Anubis",
+        "Roujay"
+      ],
+      "combos": [
+        [
+          "Anubis",
+          "Roujay"
+        ],
+        [
+          "Astegon",
+          "Dupin"
+        ],
+        [
+          "Eidrolon",
+          "Whalaska"
+        ]
+      ],
+      "child": "Dualith",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Dupin": {
+    "spec": "scripts/specs/palworld_dupin.json",
+    "video": "F:\\AI AGENT\\run_ap19\\videos\\short-d1f24a4b.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Dupin",
+      "caption": "3 ways to breed Dupin in Palworld 1.0: Anubis + Silvegis, Knocklem + Splatterina, Dualith + Roujay.",
+      "video_script": "Here are three ways to breed Dupin in Palworld one point zero. Combo one: breed Anubis with Silvegis on your Breeding Farm, then add a cake. Combo two: pair Knocklem and Splatterina together, and you get the same egg. Combo three: Dualith plus Roujay works too, so use whichever Pals you have. Every egg hatches into Dupin. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Anubis",
+        "Silvegis"
+      ],
+      "combos": [
+        [
+          "Anubis",
+          "Silvegis"
+        ],
+        [
+          "Knocklem",
+          "Splatterina"
+        ],
+        [
+          "Dualith",
+          "Roujay"
+        ]
+      ],
+      "child": "Dupin",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
   }
 }

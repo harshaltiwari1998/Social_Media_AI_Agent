@@ -4675,5 +4675,33 @@
   "palworld-guide-flaracle-kindling-seven": {
     "spec": "scripts/specs/games/palguide_90_flaracle-kindling-seven.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-83b02e34.mp4"
+  },
+  "attack-on-titan-3": {
+    "spec": "scripts/specs/games/new_33_attack-on-titan-3.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5497e57e.mp4"
+  },
+  "diablo-1996": {
+    "spec": "scripts/specs/games/classic_56_diablo-1996.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-840520cf.mp4"
+  },
+  "dota-warcraft-3-origin": {
+    "spec": "scripts/specs/games/classic_57_dota-warcraft-3-origin.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f2b43890.mp4"
+  },
+  "mysaa-rashmika": {
+    "spec": "scripts/specs/movies/movie_new_31_mysaa-rashmika.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ca48a6be.mp4"
+  },
+  "nayyi-navelli-8-din": {
+    "spec": "scripts/specs/movies/movie_review_28_nayyi-navelli-8-din.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e4716f07.mp4"
+  },
+  "reel-guide-1965-facts": {
+    "spec": "scripts/specs/movies/reel_65_guide-1965-facts.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f5780e42.mp4"
+  },
+  "aniimo-alpha-geoclaw-ice-prison": {
+    "spec": "scripts/specs/games/aniimo_76_aniimo-alpha-geoclaw-ice-prison.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-dbd41f47.mp4"
   }
 }

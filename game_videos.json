@@ -4832,5 +4832,40 @@
   "minecraft-switch-2": {
     "spec": "scripts/specs/games/gamenews_06_minecraft-switch-2.json",
     "video": "F:\\AI AGENT\\run_ap19\\videos\\short-af32129e.mp4"
+  },
+  "aniimo-collection-badges-and-research": {
+    "spec": "scripts/specs/long/gaming_54_aniimo-collection-badges-and-research.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-cdfc1b39.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-cdfc1b39-thumb.jpg",
+    "chapters": "0:00 Two collection systems in one game\n0:45 What a Collection Badge is\n1:27 Bronze, Silver, Gold and Prismatic\n2:13 How to check what you need\n2:56 The Bronze badge in practice\n3:38 Catching tips for collection\n4:06 Badges and experience\n4:43 Aniilog research levels\n5:21 Using your new accessory slots\n5:58 A simple collecting plan\n6:39 Which badge are you chasing"
+  },
+  "aniimo-how-to-get-emberpup": {
+    "spec": "scripts/specs/games/aniimo_87_aniimo-how-to-get-emberpup.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-fb6525b9.mp4"
+  },
+  "aniimo-how-to-get-skippy": {
+    "spec": "scripts/specs/games/aniimo_99_aniimo-how-to-get-skippy.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-24e45ba2.mp4"
+  },
+  "aniimo-how-to-get-squarrel": {
+    "spec": "scripts/specs/games/aniimo_100_aniimo-how-to-get-squarrel.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-bc5d08cf.mp4"
+  },
+  "aniimo-how-to-get-tromber": {
+    "spec": "scripts/specs/games/aniimo_101_aniimo-how-to-get-tromber.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-791f527e.mp4"
+  },
+  "palworld-guide-grizzbolt-minigun-mount": {
+    "spec": "scripts/specs/games/palguide_93_grizzbolt-minigun-mount.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-94cfcb61.mp4"
+  },
+  "palworld-guide-direhowl-early-mount": {
+    "spec": "scripts/specs/games/palguide_94_direhowl-early-mount.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f13daca6.mp4"
+  },
+  "palworld-guide-gumoss-logging-assistance": {
+    "spec": "scripts/specs/games/palguide_95_gumoss-logging-assistance.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-3778bbb1.mp4"
   }
 }

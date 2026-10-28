@@ -4711,5 +4711,58 @@
   "aniimo-inferlupa-best-build": {
     "spec": "scripts/specs/games/aniimo_86_aniimo-inferlupa-best-build.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-112f5f9b.mp4"
+  },
+  "deal-steam-deal-1304930-70": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-1304930-70.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b8253eac.mp4",
+    "data": {
+      "id": "deal-steam-deal-1304930-70",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "The Outlast Trials 70% OFF on Steam | Now Rs 480 | Steam Deal Oct 28",
+      "video_script": "The Outlast Trials is on sale on Steam at 70 percent off, down from 1,600 rupees to just 480 rupees. The deal ends on November 2. Red Barrels invites you to experience mind-numbing terror, this time with friends. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1304930/e3b17cf268afa51334b63124a2fe0aef3f1d136b/header_alt_assets_4.jpg?t=1792554994",
+          "label": "The Outlast Trials"
+        },
+        {
+          "image": "steam:1304930:0",
+          "fact": "-70%  Rs 480",
+          "sub": "was Rs 1,600"
+        },
+        {
+          "image": "steam:1304930:1",
+          "fact": "Action + Adventure + Indie",
+          "sub": "Red Barrels"
+        },
+        {
+          "image": "steam:1304930:2",
+          "fact": "Ends Nov 2",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "The Outlast Trials is on sale on Steam at 70 percent off, down from 1,600 rupees to just 480 rupees. The deal ends on November 2.\nhttps://store.steampowered.com/app/1304930\n\nChecked on the Epic Games Store and Steam India (INR) on Oct 28 2026, 22:31 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "The Outlast Trials",
+        "The Outlast Trials sale",
+        "The Outlast Trials price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
   }
 }

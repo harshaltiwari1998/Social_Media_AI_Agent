@@ -4820,5 +4820,17 @@
   "palworld-guide-blazehowl-fire-ground-mount": {
     "spec": "scripts/specs/games/palguide_107_blazehowl-fire-ground-mount.json",
     "video": "F:\\AI AGENT\\run_ap19\\videos\\short-8daf1478.mp4"
+  },
+  "unreal-engine-6-ai": {
+    "spec": "scripts/specs/games/gamenews_08_unreal-engine-6-ai.json",
+    "video": "F:\\AI AGENT\\run_ap19\\videos\\short-c0f6864e.mp4"
+  },
+  "dead-by-daylight-art-the-clown": {
+    "spec": "scripts/specs/games/gamenews_07_dead-by-daylight-art-the-clown.json",
+    "video": "F:\\AI AGENT\\run_ap19\\videos\\short-78c31d3c.mp4"
+  },
+  "minecraft-switch-2": {
+    "spec": "scripts/specs/games/gamenews_06_minecraft-switch-2.json",
+    "video": "F:\\AI AGENT\\run_ap19\\videos\\short-af32129e.mp4"
   }
 }

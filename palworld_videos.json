@@ -5063,5 +5063,39 @@
       ],
       "unique": false
     }
+  },
+  "Moldron": {
+    "spec": "scripts/specs/palworld_moldron.json",
+    "video": "F:\\AI AGENT\\run_ap19\\videos\\short-897ee475.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Moldron",
+      "caption": "3 ways to breed Moldron in Palworld 1.0: Anubis + Majex, Flaracle + Pierdon, Jormuntide + Loomen.",
+      "video_script": "Here are three ways to breed Moldron in Palworld one point zero. Combo one: breed Anubis with Majex on your Breeding Farm, then add a cake. Combo two: pair Flaracle and Pierdon together, and you get the same egg. Combo three: Jormuntide plus Loomen works too, so use whichever Pals you have. Every egg hatches into Moldron. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Anubis",
+        "Majex"
+      ],
+      "combos": [
+        [
+          "Anubis",
+          "Majex"
+        ],
+        [
+          "Flaracle",
+          "Pierdon"
+        ],
+        [
+          "Jormuntide",
+          "Loomen"
+        ]
+      ],
+      "child": "Moldron",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
   }
 }

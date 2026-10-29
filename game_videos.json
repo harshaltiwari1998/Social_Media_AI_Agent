@@ -4899,5 +4899,17 @@
   "aniimo-how-to-get-bonesky": {
     "spec": "scripts/specs/games/aniimo_88_aniimo-how-to-get-bonesky.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-7ad3f8ee.mp4"
+  },
+  "aniimo-tromber-best-build": {
+    "spec": "scripts/specs/games/aniimo_103_aniimo-tromber-best-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5273b65c.mp4"
+  },
+  "aniimo-sherro-best-build": {
+    "spec": "scripts/specs/games/aniimo_105_aniimo-sherro-best-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e121a7ff.mp4"
+  },
+  "aniimo-panpanta-best-build": {
+    "spec": "scripts/specs/games/aniimo_106_aniimo-panpanta-best-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-3df5dff5.mp4"
   }
 }

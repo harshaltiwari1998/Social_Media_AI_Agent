@@ -5165,5 +5165,73 @@
       ],
       "unique": false
     }
+  },
+  "Wistella": {
+    "spec": "scripts/specs/palworld_wistella.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-694c1b86.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Wistella",
+      "caption": "3 ways to breed Wistella in Palworld 1.0: Dinossom + Knocklem, Fenglope + Flaracle, Hoodle + Jormuntide.",
+      "video_script": "Here are three ways to breed Wistella in Palworld one point zero. Combo one: breed Dinossom with Knocklem on your Breeding Farm, then add a cake. Combo two: pair Fenglope and Flaracle together, and you get the same egg. Combo three: Hoodle plus Jormuntide works too, so use whichever Pals you have. Every egg hatches into Wistella. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Dinossom",
+        "Knocklem"
+      ],
+      "combos": [
+        [
+          "Dinossom",
+          "Knocklem"
+        ],
+        [
+          "Fenglope",
+          "Flaracle"
+        ],
+        [
+          "Hoodle",
+          "Jormuntide"
+        ]
+      ],
+      "child": "Wistella",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Bulldosu": {
+    "spec": "scripts/specs/palworld_bulldosu.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-0dd48bc6.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Bulldosu",
+      "caption": "3 ways to breed Bulldosu in Palworld 1.0: Flaracle + Pyrin, Eidrolon + Penking, Elizabee + Jormuntide.",
+      "video_script": "Here are three ways to breed Bulldosu in Palworld one point zero. Combo one: breed Flaracle with Pyrin on your Breeding Farm, then add a cake. Combo two: pair Eidrolon and Penking together, and you get the same egg. Combo three: Elizabee plus Jormuntide works too, so use whichever Pals you have. Every egg hatches into Bulldosu. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Flaracle",
+        "Pyrin"
+      ],
+      "combos": [
+        [
+          "Flaracle",
+          "Pyrin"
+        ],
+        [
+          "Eidrolon",
+          "Penking"
+        ],
+        [
+          "Elizabee",
+          "Jormuntide"
+        ]
+      ],
+      "child": "Bulldosu",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false
+    }
   }
 }

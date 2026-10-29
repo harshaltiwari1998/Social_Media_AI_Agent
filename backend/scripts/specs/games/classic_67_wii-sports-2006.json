@@ -1,0 +1,43 @@
+{
+  "id": "wii-sports-2006",
+  "slot": "classic",
+  "order": 67,
+  "headline": "Wii Sports: 82 million copies",
+  "title": "Wii Sports Facts | Nintendo Best Seller | Classic Games",
+  "video_script": "Wii Sports came free with the Nintendo Wii console when it launched in November twenty oh six. It has five sports: tennis, baseball, bowling, golf and boxing, all played by swinging the Wii Remote. It sold eighty two million copies, making it the best selling Nintendo game ever and the best selling game exclusive to one console. Your player was your own Mii. Which sport was your best? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Wii Sports",
+      "label": "Wii Sports"
+    },
+    {
+      "image": "wiki:Wii Sports",
+      "fact": "5 sports",
+      "sub": "Tennis, baseball, bowling, golf, boxing"
+    },
+    {
+      "image": "wiki:Wii Sports",
+      "fact": "82 million",
+      "sub": "Copies sold"
+    },
+    {
+      "image": "wiki:Wii",
+      "fact": "Nov 2006",
+      "sub": "Launched with the Wii"
+    }
+  ],
+  "description": "Wii Sports (Nintendo, 2006) came bundled with the Wii, has five sports and sold 82 million copies, Nintendo's best selling game. Source: Wikipedia.",
+  "hashtags": [
+    "WiiSports",
+    "Nintendo",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Wii Sports",
+    "Nintendo Wii",
+    "Nintendo",
+    "best selling games",
+    "gaming facts",
+    "classic games"
+  ]
+}

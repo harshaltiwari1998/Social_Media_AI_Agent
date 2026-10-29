@@ -1,0 +1,43 @@
+{
+  "id": "hill-climb-racing-1-billion",
+  "slot": "classic",
+  "order": 76,
+  "headline": "Hill Climb Racing: Finland's 1 billion downloads",
+  "title": "Hill Climb Racing Facts | One Billion Downloads | Classic Games",
+  "video_script": "Hill Climb Racing is a two D physics racing game from the Finnish studio Fingersoft, released in twenty twelve. You drive Bill Newton up hills using just two buttons, gas and brake, collecting coins and fuel. The game ends if you run out of fuel or break the driver's neck. In twenty eighteen the franchise became the first Finnish mobile game franchise since Angry Birds to reach one billion downloads. Best vehicle? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Hill Climb Racing",
+      "label": "Hill Climb Racing"
+    },
+    {
+      "image": "wiki:Hill Climb Racing",
+      "fact": "Fingersoft",
+      "sub": "Finland, 2012"
+    },
+    {
+      "image": "wiki:Hill Climb Racing",
+      "fact": "2 buttons",
+      "sub": "Gas and brake"
+    },
+    {
+      "image": "wiki:Hill Climb Racing",
+      "fact": "1 billion",
+      "sub": "Downloads by 2018"
+    }
+  ],
+  "description": "Hill Climb Racing (Fingersoft, Finland, 2012) uses two buttons and its franchise reached 1 billion downloads in 2018, the first Finnish mobile franchise since Angry Birds. Source: Wikipedia.",
+  "hashtags": [
+    "HillClimbRacing",
+    "MobileGames",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Hill Climb Racing",
+    "Fingersoft",
+    "mobile games",
+    "Finland",
+    "gaming facts",
+    "classic games"
+  ]
+}

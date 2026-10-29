@@ -1,0 +1,43 @@
+{
+  "id": "stardew-valley-solo-dev",
+  "slot": "classic",
+  "order": 68,
+  "headline": "Stardew Valley: one developer, five years",
+  "title": "Stardew Valley Facts | One Person Made It | Classic Games",
+  "video_script": "Stardew Valley was made almost entirely by one person, Eric Barone, known as ConcernedApe. He worked on it alone for five years as an indie developer, inspired by Harvest Moon. It released on Windows in February twenty sixteen and went on to sell fifty million copies by February twenty twenty six. You inherit your grandfather's farm and can even marry one of twelve townspeople. Who would you marry? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Stardew Valley",
+      "label": "Stardew Valley"
+    },
+    {
+      "image": "wiki:Stardew Valley",
+      "fact": "1 developer",
+      "sub": "Eric Barone, ConcernedApe"
+    },
+    {
+      "image": "wiki:Stardew Valley",
+      "fact": "5 years",
+      "sub": "Of solo development"
+    },
+    {
+      "image": "wiki:Stardew Valley",
+      "fact": "50 million",
+      "sub": "Copies sold by Feb 2026"
+    }
+  ],
+  "description": "Stardew Valley by Eric Barone (ConcernedApe) took five years to build alone, launched on Windows in February 2016 and sold 50 million copies by February 2026. Source: Wikipedia.",
+  "hashtags": [
+    "StardewValley",
+    "IndieGames",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Stardew Valley",
+    "ConcernedApe",
+    "indie games",
+    "farming game",
+    "gaming facts",
+    "classic games"
+  ]
+}

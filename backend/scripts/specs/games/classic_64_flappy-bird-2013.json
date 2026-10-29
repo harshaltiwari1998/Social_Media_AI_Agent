@@ -1,0 +1,44 @@
+{
+  "id": "flappy-bird-2013",
+  "slot": "classic",
+  "order": 64,
+  "headline": "Flappy Bird: made in days, pulled in 2014",
+  "title": "Flappy Bird Facts | Built In Two To Three Days | Classic Games",
+  "video_script": "Flappy Bird was made by Dong Nguyen, a developer from Vietnam, in just two to three days. It came out in May twenty thirteen but exploded in early twenty fourteen, when it became the most downloaded free game on the iOS App Store. Nguyen said it was earning fifty thousand dollars a day from ads. Then, on February tenth, twenty fourteen, he pulled it from both app stores. How many pipes could you pass? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Flappy Bird",
+      "label": "Flappy Bird"
+    },
+    {
+      "image": "wiki:Flappy Bird",
+      "fact": "2 to 3 days",
+      "sub": "Time it took to build"
+    },
+    {
+      "image": "wiki:Flappy Bird",
+      "fact": "$50,000 a day",
+      "sub": "Ad earnings in early 2014"
+    },
+    {
+      "image": "wiki:Flappy Bird",
+      "fact": "Feb 10, 2014",
+      "sub": "Removed from app stores"
+    }
+  ],
+  "description": "Flappy Bird, created by Dong Nguyen of Vietnam, was released in May 2013, built in two to three days, hit number one on the iOS App Store in early 2014 and was removed by its creator on February 10, 2014. Source: Wikipedia.",
+  "hashtags": [
+    "FlappyBird",
+    "MobileGames",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Flappy Bird",
+    "Dong Nguyen",
+    "mobile games",
+    "gaming facts",
+    "Vietnam",
+    "classic games",
+    "viral game"
+  ]
+}

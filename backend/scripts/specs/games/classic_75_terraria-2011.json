@@ -1,0 +1,43 @@
+{
+  "id": "terraria-2011",
+  "slot": "classic",
+  "order": 75,
+  "headline": "Terraria: still updating after 15 years",
+  "title": "Terraria Facts | Made By Re-Logic | Classic Games",
+  "video_script": "Terraria is a two D sandbox game from Re-Logic that released on Steam in May twenty eleven. Development started in January twenty eleven and it was meant to end development in twenty twelve, but it resumed in twenty thirteen. It has no set goals: you explore, fight bosses, craft gear, and can play with friends. Re-Logic announced in twenty twenty that the fourth major update would be the last, yet it kept updating the game. Terraria or Minecraft? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Terraria",
+      "label": "Terraria"
+    },
+    {
+      "image": "wiki:Terraria",
+      "fact": "May 2011",
+      "sub": "Released on Steam"
+    },
+    {
+      "image": "wiki:Terraria",
+      "fact": "Re-Logic",
+      "sub": "Developer and publisher"
+    },
+    {
+      "image": "wiki:Terraria",
+      "fact": "Still updating",
+      "sub": "After 2020 'last' update"
+    }
+  ],
+  "description": "Terraria (Re-Logic) launched on Steam in May 2011, development resumed in 2013 and Re-Logic kept updating it after announcing in 2020 that its fourth major update would be the last. Source: Wikipedia.",
+  "hashtags": [
+    "Terraria",
+    "Sandbox",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Terraria",
+    "Re-Logic",
+    "sandbox game",
+    "Steam",
+    "gaming facts",
+    "classic games"
+  ]
+}

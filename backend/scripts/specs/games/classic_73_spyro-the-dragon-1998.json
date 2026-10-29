@@ -1,0 +1,43 @@
+{
+  "id": "spyro-the-dragon-1998",
+  "slot": "classic",
+  "order": 73,
+  "headline": "Spyro the Dragon: Police drummer wrote the music",
+  "title": "Spyro The Dragon Facts | Stewart Copeland Music | Classic Games",
+  "video_script": "Spyro the Dragon came out in nineteen ninety eight on the PlayStation, made by Insomniac Games. The music was composed by Stewart Copeland, the former drummer of The Police. Spyro was first planned as a dark, mature game inspired by the film Dragonheart, but the team switched to a light hearted tone. It sold nearly five million copies, one of the best selling PlayStation games. Spyro or Crash? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Spyro the Dragon",
+      "label": "Spyro the Dragon"
+    },
+    {
+      "image": "wiki:Spyro the Dragon",
+      "fact": "Insomniac Games",
+      "sub": "PlayStation, 1998"
+    },
+    {
+      "image": "wiki:Spyro the Dragon",
+      "fact": "Stewart Copeland",
+      "sub": "Drummer of The Police"
+    },
+    {
+      "image": "wiki:Spyro the Dragon",
+      "fact": "~5 million",
+      "sub": "Copies sold"
+    }
+  ],
+  "description": "Spyro the Dragon (Insomniac, 1998) has music by The Police drummer Stewart Copeland and sold nearly five million copies. Source: Wikipedia.",
+  "hashtags": [
+    "Spyro",
+    "PlayStation",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Spyro",
+    "Insomniac Games",
+    "PlayStation",
+    "Stewart Copeland",
+    "gaming facts",
+    "classic games"
+  ]
+}

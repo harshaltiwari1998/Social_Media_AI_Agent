@@ -1,0 +1,44 @@
+{
+  "id": "portal-2007",
+  "slot": "classic",
+  "order": 69,
+  "headline": "Portal: the cake is a lie",
+  "title": "Portal Facts | Portal Gun And GLaDOS | Classic Games",
+  "video_script": "Portal came out in two thousand seven from Valve inside The Orange Box. You play Chell, using a portal gun to create two linked portals, while the artificial intelligence GLaDOS promises cake when you finish. The idea grew from a student project called Narbacular Drop, and Valve hired the team behind it from DigiPen. The ending song Still Alive was written by Jonathan Coulton. Can you finish it fast? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Portal (video game)",
+      "label": "Portal"
+    },
+    {
+      "image": "wiki:Portal (video game)",
+      "fact": "2007",
+      "sub": "Valve, The Orange Box"
+    },
+    {
+      "image": "wiki:Portal (video game)",
+      "fact": "Portal gun",
+      "sub": "Two linked portals"
+    },
+    {
+      "image": "wiki:Portal (video game)",
+      "fact": "Still Alive",
+      "sub": "Song by Jonathan Coulton"
+    }
+  ],
+  "description": "Portal (Valve, 2007) was released in The Orange Box; it grew from the DigiPen student game Narbacular Drop and ends with Jonathan Coulton's song Still Alive. Source: Wikipedia.",
+  "hashtags": [
+    "Portal",
+    "Valve",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Portal",
+    "Valve",
+    "GLaDOS",
+    "portal gun",
+    "Orange Box",
+    "gaming facts",
+    "classic games"
+  ]
+}

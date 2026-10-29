@@ -1,0 +1,44 @@
+{
+  "id": "final-fantasy-7-1997",
+  "slot": "classic",
+  "order": 71,
+  "headline": "Final Fantasy 7: the game that sold PlayStations",
+  "title": "Final Fantasy 7 Facts | Cloud And Sephiroth | Classic Games",
+  "video_script": "Final Fantasy seven came out in nineteen ninety seven from Square for the PlayStation. It started development in nineteen ninety four for the Super Nintendo, but Square switched to PlayStation for the CD format. It was the first in the series with full motion video and three D graphics, and its budget with marketing was about eighty million dollars. It is credited with popularising Japanese role playing games worldwide. Cloud or Sephiroth? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Final Fantasy VII",
+      "label": "Final Fantasy 7"
+    },
+    {
+      "image": "wiki:Final Fantasy VII",
+      "fact": "1997",
+      "sub": "Square, PlayStation"
+    },
+    {
+      "image": "wiki:Final Fantasy VII",
+      "fact": "$80 million",
+      "sub": "Development and marketing"
+    },
+    {
+      "image": "wiki:Final Fantasy VII",
+      "fact": "Started on SNES",
+      "sub": "Moved to PlayStation CDs"
+    }
+  ],
+  "description": "Final Fantasy VII (Square, 1997) began development in 1994 for the SNES, moved to PlayStation, cost about $80 million with marketing and helped popularise JRPGs worldwide. Source: Wikipedia.",
+  "hashtags": [
+    "FinalFantasy7",
+    "Square",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Final Fantasy 7",
+    "Cloud Strife",
+    "Sephiroth",
+    "Square Enix",
+    "PlayStation",
+    "gaming facts",
+    "classic games"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "witcher-3-wild-hunt",
+  "slot": "classic",
+  "order": 70,
+  "headline": "The Witcher 3: three endings, 200 awards",
+  "title": "The Witcher 3 Facts | Over 200 Game Of The Year Awards | Classic Games",
+  "video_script": "The Witcher three: Wild Hunt came out in May twenty fifteen from the Polish studio CD Projekt. Development lasted three and a half years. You play the monster hunter Geralt of Rivia searching for his adopted daughter Ciri. The story has three possible endings. The game has won more than two hundred game of the year awards and sold over sixty five million copies as of May twenty twenty six. Which ending did you get? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:The Witcher 3: Wild Hunt",
+      "label": "The Witcher 3"
+    },
+    {
+      "image": "wiki:The Witcher 3: Wild Hunt",
+      "fact": "CD Projekt",
+      "sub": "Poland, May 2015"
+    },
+    {
+      "image": "wiki:The Witcher 3: Wild Hunt",
+      "fact": "200+ awards",
+      "sub": "Game of the year"
+    },
+    {
+      "image": "wiki:The Witcher 3: Wild Hunt",
+      "fact": "65 million",
+      "sub": "Copies sold by May 2026"
+    }
+  ],
+  "description": "The Witcher 3: Wild Hunt (CD Projekt, May 2015) has three endings, won over 200 game of the year awards and sold over 65 million copies as of May 2026. Source: Wikipedia.",
+  "hashtags": [
+    "Witcher3",
+    "CDProjekt",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Witcher 3",
+    "Geralt",
+    "CD Projekt Red",
+    "RPG",
+    "game of the year",
+    "gaming facts",
+    "classic games"
+  ]
+}

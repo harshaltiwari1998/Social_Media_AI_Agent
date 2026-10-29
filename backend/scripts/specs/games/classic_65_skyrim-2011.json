@@ -1,0 +1,44 @@
+{
+  "id": "skyrim-2011",
+  "slot": "classic",
+  "order": 65,
+  "headline": "Skyrim: 65 million copies sold",
+  "title": "Skyrim Facts | Over 65 Million Copies Sold | Classic Games",
+  "video_script": "The Elder Scrolls five, Skyrim, came out on November eleventh, twenty eleven from Bethesda. It shipped over seven million copies in its first week and over twenty million by June twenty thirteen. By July twenty twenty six, total sales reached sixty five million. The story follows the Dragonborn who must stop the dragon Alduin the World Eater. The game has been re-released again and again, even on Nintendo Switch and in virtual reality. Which version did you play? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:The Elder Scrolls V: Skyrim",
+      "label": "Skyrim"
+    },
+    {
+      "image": "wiki:The Elder Scrolls V: Skyrim",
+      "fact": "Nov 11, 2011",
+      "sub": "Bethesda Game Studios"
+    },
+    {
+      "image": "wiki:The Elder Scrolls V: Skyrim",
+      "fact": "7 million in a week",
+      "sub": "First week shipments"
+    },
+    {
+      "image": "wiki:The Elder Scrolls V: Skyrim",
+      "fact": "65 million",
+      "sub": "Copies sold by July 2026"
+    }
+  ],
+  "description": "Skyrim (Bethesda, November 11, 2011) shipped over 7 million copies in its first week and had reached 65 million by July 2026. Source: Wikipedia.",
+  "hashtags": [
+    "Skyrim",
+    "ElderScrolls",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Skyrim",
+    "Elder Scrolls",
+    "Bethesda",
+    "Dragonborn",
+    "best selling games",
+    "gaming facts",
+    "classic games"
+  ]
+}

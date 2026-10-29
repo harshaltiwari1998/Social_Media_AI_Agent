@@ -1,0 +1,44 @@
+{
+  "id": "gta-5-record-sales",
+  "slot": "classic",
+  "order": 66,
+  "headline": "GTA 5 earned a billion dollars in 3 days",
+  "title": "GTA 5 Facts | One Billion Dollars In Three Days | Classic Games",
+  "video_script": "Grand Theft Auto five, from Rockstar North, came out in September twenty thirteen. It earned eight hundred million dollars on its first day and one billion dollars in just three days, making it the fastest selling entertainment product in history at the time. You play three heroes, Michael, Franklin and Trevor, in the city of Los Santos. Today it has shipped over two hundred thirty million copies. Who is your favourite hero? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Grand Theft Auto V",
+      "label": "GTA 5"
+    },
+    {
+      "image": "wiki:Grand Theft Auto V",
+      "fact": "$800 million",
+      "sub": "First day"
+    },
+    {
+      "image": "wiki:Grand Theft Auto V",
+      "fact": "$1 billion",
+      "sub": "In three days"
+    },
+    {
+      "image": "wiki:Grand Theft Auto V",
+      "fact": "230 million",
+      "sub": "Copies shipped"
+    }
+  ],
+  "description": "Grand Theft Auto V (Rockstar North, September 2013) earned $800 million on day one and $1 billion in three days, and has shipped over 230 million copies. Source: Wikipedia.",
+  "hashtags": [
+    "GTA5",
+    "RockstarGames",
+    "ClassicGames"
+  ],
+  "tags": [
+    "GTA 5",
+    "Grand Theft Auto V",
+    "Rockstar",
+    "Michael Franklin Trevor",
+    "sales record",
+    "gaming facts",
+    "classic games"
+  ]
+}

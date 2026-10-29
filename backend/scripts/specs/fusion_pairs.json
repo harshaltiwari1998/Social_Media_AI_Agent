@@ -1,0 +1,157 @@
+[
+ {
+  "a": "articuno",
+  "b": "venusaur",
+  "name": "Artisaur"
+ },
+ {
+  "a": "charizard",
+  "b": "gyarados",
+  "name": "Charados"
+ },
+ {
+  "a": "pikachu",
+  "b": "lucario",
+  "name": "Pikario"
+ },
+ {
+  "a": "gengar",
+  "b": "mewtwo",
+  "name": "Gengtwo"
+ },
+ {
+  "a": "greninja",
+  "b": "blaziken",
+  "name": "Greniken"
+ },
+ {
+  "a": "garchomp",
+  "b": "charizard",
+  "name": "Garchizard"
+ },
+ {
+  "a": "umbreon",
+  "b": "absol",
+  "name": "Umbrasol"
+ },
+ {
+  "a": "dragonite",
+  "b": "snorlax",
+  "name": "Dragonlax"
+ },
+ {
+  "a": "rayquaza",
+  "b": "gyarados",
+  "name": "Rayados"
+ },
+ {
+  "a": "eevee",
+  "b": "ninetales",
+  "name": "Eeveetails"
+ },
+ {
+  "a": "blastoise",
+  "b": "tyranitar",
+  "name": "Blastitar"
+ },
+ {
+  "a": "arcanine",
+  "b": "luxray",
+  "name": "Arcaray"
+ },
+ {
+  "a": "mew",
+  "b": "togekiss",
+  "name": "Mewkiss"
+ },
+ {
+  "a": "sceptile",
+  "b": "salamence",
+  "name": "Sceptmence"
+ },
+ {
+  "a": "metagross",
+  "b": "scizor",
+  "name": "Metazor"
+ },
+ {
+  "a": "alakazam",
+  "b": "gardevoir",
+  "name": "Alakavoir"
+ },
+ {
+  "a": "machamp",
+  "b": "infernape",
+  "name": "Machnape"
+ },
+ {
+  "a": "lapras",
+  "b": "dragonite",
+  "name": "Laprite"
+ },
+ {
+  "a": "zapdos",
+  "b": "moltres",
+  "name": "Zaptres"
+ },
+ {
+  "a": "lucario",
+  "b": "zoroark",
+  "name": "Lucaroark"
+ },
+ {
+  "a": "squirtle",
+  "b": "bulbasaur",
+  "name": "Squirtsaur"
+ },
+ {
+  "a": "vaporeon",
+  "b": "jolteon",
+  "name": "Vaporjolt"
+ },
+ {
+  "a": "lugia",
+  "b": "ho-oh",
+  "name": "Lugi-Oh"
+ },
+ {
+  "a": "mimikyu",
+  "b": "pikachu",
+  "name": "Mimichu"
+ },
+ {
+  "a": "typhlosion",
+  "b": "feraligatr",
+  "name": "Typhligatr"
+ },
+ {
+  "a": "darkrai",
+  "b": "gengar",
+  "name": "Darkgar"
+ },
+ {
+  "a": "aggron",
+  "b": "rhydon",
+  "name": "Aggdon"
+ },
+ {
+  "a": "dragapult",
+  "b": "noivern",
+  "name": "Dragavern"
+ },
+ {
+  "a": "cinderace",
+  "b": "incineroar",
+  "name": "Cinderoar"
+ },
+ {
+  "a": "snorlax",
+  "b": "gengar",
+  "name": "Snorgar"
+ },
+ {
+  "a": "kyogre",
+  "b": "groudon",
+  "name": "Kyodon"
+ }
+]

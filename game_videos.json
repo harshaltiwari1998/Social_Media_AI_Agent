@@ -4915,5 +4915,17 @@
   "palworld-guide-quivern-flying-transport-mount": {
     "spec": "scripts/specs/games/palguide_101_quivern-flying-transport-mount.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-7026ed50.mp4"
+  },
+  "fusion-articuno+venusaur": {
+    "kind": "motion",
+    "spec": "inbox/articuno+venusaur.mp4",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/fusion/articuno+venusaur/final.mp4",
+    "data": {
+      "id": "articuno+venusaur",
+      "a": "Articuno",
+      "b": "Venusaur",
+      "name": "Artisaur",
+      "types": "Ice/Grass"
+    }
   }
 }

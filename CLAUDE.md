@@ -25,7 +25,8 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   (`app/media/text_render.py`). Renderer: `app/media/video_gen.py`.
 - **Voice**: edge-tts 7.3.1 (`en-US-GuyNeural` gaming, `hi-IN-SwaraNeural` movies). 7.2.8 got 403s on CI.
 - **Images**: Wikipedia/Commons (`wiki:`, `wikifile:`), Steam screenshots (`steam:<appid>:<n>`), Palworld
-  wiki art (`pal:<Name>`), official YouTube frames (`yt:`). Local Stable Diffusion 1.5 + x4 upscaler
+  wiki art (`pal:<Name>`), official YouTube frames (`yt:`), official Pokemon artwork on a
+  background photo for AI-motion storyboards (`{"poke": name, "background": ref}` in `fal_video.py`, PokeAPI). Local Stable Diffusion 1.5 + x4 upscaler
   (`app/media/image_gen.py`, laptop only). Pollinations balance is empty; Gemini image/Veo need billing.
 - **LLM on laptop**: Ollama `gemma3:4b` (trend pipeline). Models live in `backend/.cache/ollama-models`.
 - **Upload APIs**: YouTube Data API v3 (`app/social/youtube.py`), Meta Graph API for Facebook/Instagram
@@ -138,6 +139,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
 - Twitter trend source has no token (skipped).
 
 ## Change log
+- 2026-10-29 - `fal_video.py`: free Pokemon start frames (`poke`); first free Wan evolution short queued (Charmander line).
 - 2026-10-25 - Workflows save state via `merge_state.py` (fetch + merge + retry); classic 3/day; MW4, Aion 2, GTA 6, Minecraft + 6 classic specs.
 - 2026-10-24 - Daily free games + Epic/Steam deals: `store_deals.py`, `daily-deals.yml`, `url:` image refs.
 - 2026-10-24 - CLAUDE.md created; Aniimo + Palworld daily pipeline (writer routine, `daily-anipal.yml`, `--long-series`).

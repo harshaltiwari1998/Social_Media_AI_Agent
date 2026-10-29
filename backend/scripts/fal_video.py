@@ -7,7 +7,8 @@ Storyboard format:
   "title": "...", "voice": "en-US-GuyNeural",
   "narration": ["sentence or paragraph per clip", ...],      # one entry per clip, read over that clip
   "clips": [
-    {"image": "path.jpg" | {"prompt": "text-to-image prompt"} | {"edit": "instruction", "from": "path or pal:Name"},
+    {"image": "path.jpg" | {"prompt": "text-to-image prompt"} | {"edit": "instruction", "from": "path or pal:Name"}
+              | {"poke": "charmander", "background": "wiki:Lava"},   # free: official artwork on a background photo
      "shots": [["shot prompt", seconds], ...]}             # 1-6 shots, total <= 15 s (Kling multi-shot)
   ]
 }
@@ -114,11 +115,40 @@ def _resolve_source(src: str, work: Path) -> Path:
     return Path(src)
 
 
+def poke_scene(name: str, background: str | None, work: Path) -> Image.Image:
+    """Free start frame: the official Pokemon artwork (PokeAPI) on a blurred, darkened 9:16 background photo."""
+    import io
+
+    import httpx
+    from PIL import ImageEnhance, ImageFilter, ImageOps
+
+    art_path = work / f"poke_{name.lower()}.png"
+    if not art_path.exists():
+        data = httpx.get(f"https://pokeapi.co/api/v2/pokemon/{name.lower()}", timeout=30).raise_for_status().json()
+        url = data["sprites"]["other"]["official-artwork"]["front_default"]
+        art_path.write_bytes(httpx.get(url, timeout=60, follow_redirects=True).raise_for_status().content)
+    art = Image.open(art_path).convert("RGBA")
+    art = art.crop(art.getbbox() or (0, 0, art.width, art.height))
+    if background:
+        bg = Image.open(_resolve_source(background, work)).convert("RGB")
+        canvas = ImageOps.fit(bg, (1080, 1920), Image.LANCZOS).filter(ImageFilter.GaussianBlur(6))
+        canvas = ImageEnhance.Brightness(canvas).enhance(0.6)
+    else:
+        canvas = Image.new("RGB", (1080, 1920), (34, 30, 52))
+    scale = min(900 / art.width, 1100 / art.height)
+    art = art.resize((int(art.width * scale), int(art.height * scale)), Image.LANCZOS)
+    canvas.paste(art, ((1080 - art.width) // 2, 1920 - art.height - 380), art)  # standing in the lower half
+    return canvas
+
+
 def scene_image(spec, out: Path, work: Path) -> Path:
     if out.exists():
         return out
     if isinstance(spec, str):
         Image.open(_resolve_source(spec, work)).convert("RGB").save(out, quality=95)
+        return out
+    if "poke" in spec:  # {"poke": "charmander", "background": "wiki:Lava"} - free, no image model
+        poke_scene(spec["poke"], spec.get("background"), work).save(out, quality=95)
         return out
     if "prompt" in spec:
         res = fal_run(IMAGE_MODEL, {"prompt": spec["prompt"], "image_size": "portrait_16_9", "num_images": 1})

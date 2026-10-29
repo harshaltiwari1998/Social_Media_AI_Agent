@@ -4911,5 +4911,9 @@
   "aniimo-panpanta-best-build": {
     "spec": "scripts/specs/games/aniimo_106_aniimo-panpanta-best-build.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-3df5dff5.mp4"
+  },
+  "palworld-guide-quivern-flying-transport-mount": {
+    "spec": "scripts/specs/games/palguide_101_quivern-flying-transport-mount.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-7026ed50.mp4"
   }
 }

@@ -5131,5 +5131,39 @@
       ],
       "unique": false
     }
+  },
+  "Gildra": {
+    "spec": "scripts/specs/palworld_gildra.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-668fe567.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Gildra",
+      "caption": "3 ways to breed Gildra in Palworld 1.0: Knocklem + Penking, Dogen + Ghangler, Jormuntide + Slowatt.",
+      "video_script": "Here are three ways to breed Gildra in Palworld one point zero. Combo one: breed Knocklem with Penking on your Breeding Farm, then add a cake. Combo two: pair Dogen and Ghangler together, and you get the same egg. Combo three: Jormuntide plus Slowatt works too, so use whichever Pals you have. Every egg hatches into Gildra. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Knocklem",
+        "Penking"
+      ],
+      "combos": [
+        [
+          "Knocklem",
+          "Penking"
+        ],
+        [
+          "Dogen",
+          "Ghangler"
+        ],
+        [
+          "Jormuntide",
+          "Slowatt"
+        ]
+      ],
+      "child": "Gildra",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
   }
 }

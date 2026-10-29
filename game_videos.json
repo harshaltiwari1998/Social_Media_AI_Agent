@@ -4867,5 +4867,37 @@
   "palworld-guide-gumoss-logging-assistance": {
     "spec": "scripts/specs/games/palguide_95_gumoss-logging-assistance.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-3778bbb1.mp4"
+  },
+  "path-of-exile-2-1-0": {
+    "spec": "scripts/specs/games/new_34_path-of-exile-2-1-0.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-1707600a.mp4"
+  },
+  "flappy-bird-2013": {
+    "spec": "scripts/specs/games/classic_64_flappy-bird-2013.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-7f975b76.mp4"
+  },
+  "skyrim-2011": {
+    "spec": "scripts/specs/games/classic_65_skyrim-2011.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-14f7b393.mp4"
+  },
+  "gta-5-record-sales": {
+    "spec": "scripts/specs/games/classic_66_gta-5-record-sales.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-51070142.mp4"
+  },
+  "train-mysskin-vijay-sethupathi": {
+    "spec": "scripts/specs/movies/movie_new_32_train-mysskin-vijay-sethupathi.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-8d8ab8c3.mp4"
+  },
+  "prahaar-opening-weekend": {
+    "spec": "scripts/specs/movies/movie_review_29_prahaar-opening-weekend.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-c9c65caf.mp4"
+  },
+  "reel-pakeezah-facts": {
+    "spec": "scripts/specs/movies/reel_66_pakeezah-facts.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-11d8420b.mp4"
+  },
+  "aniimo-how-to-get-bonesky": {
+    "spec": "scripts/specs/games/aniimo_88_aniimo-how-to-get-bonesky.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-7ad3f8ee.mp4"
   }
 }

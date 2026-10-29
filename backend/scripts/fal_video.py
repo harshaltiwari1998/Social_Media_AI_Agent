@@ -20,6 +20,7 @@ from __future__ import annotations
 import asyncio
 import base64
 import json
+import os
 import sys
 import time
 from pathlib import Path
@@ -190,8 +191,10 @@ def make_clip_wan(image: Path, shots: list, out: Path) -> Path:
     from gradio_client import Client, handle_file
 
     ff = imageio_ffmpeg.get_ffmpeg_exe()
-    token = next((l.split("=", 1)[1].strip() for l in (ROOT / ".env").read_text(encoding="utf-8").splitlines()
-                  if l.startswith("HF_TOKEN=") and l.split("=", 1)[1].strip()), None)
+    env_file = ROOT / ".env"
+    token = os.environ.get("HF_TOKEN") or next(  # GitHub secret on CI, backend/.env on the laptop
+        (l.split("=", 1)[1].strip() for l in (env_file.read_text(encoding="utf-8").splitlines() if env_file.exists() else [])
+         if l.startswith("HF_TOKEN=") and l.split("=", 1)[1].strip()), None)
     client = Client(WAN_SPACE, hf_token=token, verbose=False)  # a (free) HF token gives a bigger daily GPU quota
     parts, start = [], image
     for k, (prompt, secs) in enumerate(shots):

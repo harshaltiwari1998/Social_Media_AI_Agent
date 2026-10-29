@@ -54,6 +54,8 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   live each run and generates one-game shorts (id = store + game + offer, so each offer posts once) and up to
   2 long roundups (free + top deals; under Rs 500, else biggest discounts) into `specs/deals/` (gitignored);
   the manifest keeps a `"data"` copy so retries work on CI. Images use `url:<https url>` refs.
+- `backend/scripts/specs/pokemon_queue.json` - Pokemon evolution lines (checked against PokeAPI evolution chains)
+  for `pokemon_daily.py`; storyboards are generated from them.
 - `backend/scripts/specs/gameplay/<plan>.json` - cut plans for the owner's own stream recordings.
 - `daily_job.py` picks the lowest-`order` unposted, unexpired spec per slot (`--from-end` takes the
   highest, for manual batches that must not collide with scheduled runs).
@@ -71,6 +73,10 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
 - `scripts/ops_report.py` - token check + weekly report. `scripts/meta_gaming_login.py` - sets up the
   gaming page token. `scripts/youtube_login.py` - YouTube OAuth.
 - `scripts/fal_video.py`, `motion_daily.py`, `lucario_*.py` - AI-motion experiments (Wan/Kling/Flow).
+- `scripts/pokemon_daily.py` - free Pokemon evolution shorts on CI: official artwork start frames + free Wan 2.2
+  (HF ZeroGPU, `HF_TOKEN` secret, ~2-3 clips/day, 4 clips per short). Clips persist on the **`motion-cache`**
+  branch between runs; finished shorts post to the gaming platforms (`kind: "motion"` in game_videos.json,
+  retried by pokemon_daily.py itself, not by daily_job).
 
 ### Schedules (IST) - GitHub Actions run 0-5 h late in practice
 | When | What |
@@ -80,6 +86,7 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
 | Mon/Thu 08:00 | Routine **Weekly content refill** (`trig_01LRixiDvLT8uP4GPUjYnDcy`) tops up all other queues |
 | 10:00 | `daily-content.yml` - 1 new game, 3 classic, 1 breeding, 1 Aniimo, 1 movie new, 1 review, 1 reel |
 | 10:00 | Laptop task `daily_job.cmd --skip-gaming` (trends) + `motion_daily.py` + `gameplay_daily.py` |
+| 11:15 | `daily-pokemon.yml` - free Pokemon evolution clips; posts a short whenever all 4 clips exist |
 | 13:45 | `daily-anipal.yml` 1st half - 5 Aniimo + 2 Palworld guide + 3 breeding + 1 long (palworld) |
 | 14:00 | `daily-palguide.yml` - 1 Palworld guide |
 | 16:00 | `daily-deals.yml` - up to 10 free-game / deal shorts + 2 long deal roundups (Epic + Steam, live) |
@@ -126,6 +133,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   on GitHub Actions, posting to YouTube (2 channels), 2 Facebook Pages, 2 Instagram accounts.
 - Daily Aniimo + Palworld pipeline (writer routine + `daily-anipal.yml`).
 - Daily free games + store deals (`daily-deals.yml`, `scripts/store_deals.py`) - 10 shorts + 2 long a day.
+- Free Pokemon evolution shorts (`daily-pokemon.yml`, `scripts/pokemon_daily.py`) - ~1 short every 1-2 days.
 - Weekly refill routine, login check, weekly stats report, health-check exit codes.
 - Gameplay clipper for own RDR2 streams (done: Ch1 P1, Ch2 P1-P3; ~220 clips posted).
 - Laptop trend pipeline (Ollama + SD) and free AI-motion queue (`motion_queue/` -> `motion_videos/`).
@@ -137,8 +145,11 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
 - No working paid image/video model (Pollinations empty, Gemini Veo/image need billing).
 - Instagram API cannot change the cover of already-posted Reels.
 - Twitter trend source has no token (skipped).
+- Pokemon shorts use official artwork (Nintendo / The Pokemon Company IP) - claim risk accepted by the owner.
+  Free Wan output is 480p (upscaled) and cannot morph one form into the next; evolution = glow shot + next form.
 
 ## Change log
+- 2026-10-29 - `daily-pokemon.yml` + `pokemon_daily.py`: free Pokemon evolution shorts posted from CI (motion-cache branch).
 - 2026-10-29 - `fal_video.py`: free Pokemon start frames (`poke`); first free Wan evolution short queued (Charmander line).
 - 2026-10-25 - Workflows save state via `merge_state.py` (fetch + merge + retry); classic 3/day; MW4, Aion 2, GTA 6, Minecraft + 6 classic specs.
 - 2026-10-24 - Daily free games + Epic/Steam deals: `store_deals.py`, `daily-deals.yml`, `url:` image refs.

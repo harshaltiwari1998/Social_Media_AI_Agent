@@ -26,7 +26,10 @@ W, H, FPS = 1080, 1920, 30
 VOICE = "en-US-GuyNeural"
 RATE = "+8%"
 YELLOW = (255, 226, 26)
-FONT = "C:/Windows/Fonts/arialbi.ttf"
+FONT = next((f for f in ("C:/Windows/Fonts/arialbi.ttf",  # laptop; GitHub runners (pokemon_daily) have DejaVu
+                          "/usr/share/fonts/truetype/dejavu/DejaVuSans-BoldOblique.ttf",
+                          "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf") if Path(f).exists()),
+            "C:/Windows/Fonts/arialbi.ttf")
 WATERMARK = "@HarryBeast Gaming"
 
 VO = {

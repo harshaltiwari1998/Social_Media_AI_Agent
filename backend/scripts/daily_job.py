@@ -158,6 +158,8 @@ def retry_pending(poster: Poster) -> None:
 
     games = _load(GAME_MANIFEST)  # shorts built by game_videos.py, long videos by long_video.py
     for game_id, entry in games.items():
+        if entry.get("kind") == "motion":  # Pokemon AI-motion shorts: pokemon_daily.py retries them from its clip cache
+            continue
         if entry.get("kind") == "long":
             spec_path, spec = _entry_spec(entry)
             if not poster.pending(longv.post_id_for(spec), platforms=longv.default_platforms(spec)):

@@ -1,0 +1,179 @@
+[
+ {
+  "id": "charmander",
+  "stages": [
+   "charmander",
+   "charmeleon",
+   "charizard"
+  ],
+  "type": "fire"
+ },
+ {
+  "id": "squirtle",
+  "stages": [
+   "squirtle",
+   "wartortle",
+   "blastoise"
+  ],
+  "type": "water"
+ },
+ {
+  "id": "gastly",
+  "stages": [
+   "gastly",
+   "haunter",
+   "gengar"
+  ],
+  "type": "ghost"
+ },
+ {
+  "id": "pichu",
+  "stages": [
+   "pichu",
+   "pikachu",
+   "raichu"
+  ],
+  "type": "electric"
+ },
+ {
+  "id": "bulbasaur",
+  "stages": [
+   "bulbasaur",
+   "ivysaur",
+   "venusaur"
+  ],
+  "type": "grass"
+ },
+ {
+  "id": "riolu",
+  "stages": [
+   "riolu",
+   "lucario"
+  ],
+  "type": "fighting"
+ },
+ {
+  "id": "dratini",
+  "stages": [
+   "dratini",
+   "dragonair",
+   "dragonite"
+  ],
+  "type": "dragon"
+ },
+ {
+  "id": "magikarp",
+  "stages": [
+   "magikarp",
+   "gyarados"
+  ],
+  "type": "water"
+ },
+ {
+  "id": "froakie",
+  "stages": [
+   "froakie",
+   "frogadier",
+   "greninja"
+  ],
+  "type": "water"
+ },
+ {
+  "id": "gible",
+  "stages": [
+   "gible",
+   "gabite",
+   "garchomp"
+  ],
+  "type": "dragon"
+ },
+ {
+  "id": "abra",
+  "stages": [
+   "abra",
+   "kadabra",
+   "alakazam"
+  ],
+  "type": "psychic"
+ },
+ {
+  "id": "torchic",
+  "stages": [
+   "torchic",
+   "combusken",
+   "blaziken"
+  ],
+  "type": "fire"
+ },
+ {
+  "id": "machop",
+  "stages": [
+   "machop",
+   "machoke",
+   "machamp"
+  ],
+  "type": "fighting"
+ },
+ {
+  "id": "treecko",
+  "stages": [
+   "treecko",
+   "grovyle",
+   "sceptile"
+  ],
+  "type": "grass"
+ },
+ {
+  "id": "larvitar",
+  "stages": [
+   "larvitar",
+   "pupitar",
+   "tyranitar"
+  ],
+  "type": "rock"
+ },
+ {
+  "id": "mudkip",
+  "stages": [
+   "mudkip",
+   "marshtomp",
+   "swampert"
+  ],
+  "type": "water"
+ },
+ {
+  "id": "chimchar",
+  "stages": [
+   "chimchar",
+   "monferno",
+   "infernape"
+  ],
+  "type": "fire"
+ },
+ {
+  "id": "phanpy",
+  "stages": [
+   "phanpy",
+   "donphan"
+  ],
+  "type": "ground"
+ },
+ {
+  "id": "geodude",
+  "stages": [
+   "geodude",
+   "graveler",
+   "golem"
+  ],
+  "type": "rock"
+ },
+ {
+  "id": "beldum",
+  "stages": [
+   "beldum",
+   "metang",
+   "metagross"
+  ],
+  "type": "steel"
+ }
+]

@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-lunaris-antigravity-carry-weight",
+  "slot": "palguide",
+  "order": 112,
+  "headline": "Lunaris carry boost",
+  "title": "Lunaris | Antigravity Adds Carry Weight | Palworld Guide",
+  "video_script": "Need more carrying capacity in Palworld one point zero? Lunaris is a Neutral Pal whose partner skill, Antigravity, makes Pal Spheres home in on Pals and raises your carrying capacity by three hundred to six hundred while it is in your party. At base it works Handiwork level four, plus Gathering and Transporting at level two. Will you carry Lunaris? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:12",
+      "label": "Lunaris"
+    },
+    {
+      "image": "pal:Lunaris",
+      "fact": "Antigravity",
+      "sub": "Carry weight up"
+    },
+    {
+      "image": "steam:1623730:19",
+      "fact": "Plus 300 to 600",
+      "sub": "Spheres home in on Pals"
+    },
+    {
+      "image": "pal:Lunaris",
+      "fact": "Handiwork 4",
+      "sub": "Palworld 1.0"
+    }
+  ],
+  "description": "Lunaris in Palworld 1.0 is a Neutral Pal with Handiwork level four and an Antigravity carry weight bonus.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Lunaris",
+    "Lunaris work suitability",
+    "Palworld Pal guide",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld partner skill",
+    "Palworld carry weight"
+  ]
+}

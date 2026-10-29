@@ -1,0 +1,49 @@
+{
+  "id": "aniimo-budsquire-best-build",
+  "slot": "aniimo",
+  "order": 124,
+  "headline": "Budsquire Best Build",
+  "title": "Budsquire Build | Thorny counter plan | Aniimo Guide",
+  "video_script": "Budsquire is a Grass melee Aniimo with only two skills, so use both. Thorny Defense puts it in a defensive stance that cuts damage and counters when hit. If you get attacked right as you cast it, your crit rate goes up. Thorny Impact thrusts forward and also raises crit rate on hit. Block first, then thrust while crit is high. Does Budsquire make your team? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:22",
+      "label": "Budsquire build"
+    },
+    {
+      "image": "steam:4126040:24",
+      "fact": "Thorny Defense",
+      "sub": "Cuts damage and counters"
+    },
+    {
+      "image": "steam:4126040:26",
+      "fact": "Perfect timing",
+      "sub": "Crit rate rises if hit on cast"
+    },
+    {
+      "image": "steam:4126040:28",
+      "fact": "Thorny Impact",
+      "sub": "Hit to raise crit rate"
+    },
+    {
+      "image": "steam:4126040:30",
+      "label": "Block, then thrust"
+    }
+  ],
+  "description": "Aniimo Budsquire build: Thorny Defense counters and boosts crit when timed well, then Thorny Impact keeps crit rate high.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Aniimo Budsquire",
+    "Aniimo build",
+    "Aniimo Grass",
+    "Aniimo best build"
+  ]
+}

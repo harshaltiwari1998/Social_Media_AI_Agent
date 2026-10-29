@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-celestis-best-build",
+  "slot": "aniimo",
+  "order": 125,
+  "headline": "Celestis Best Build",
+  "title": "Celestis Build | Star Glide EP trick | Aniimo Guide",
+  "video_script": "Celestis is a Dark ranged Aniimo with just two skills, and both matter. Star Glide flies overhead and drops stars. Hit the same target three times with it and Celestis recovers EP faster for a short time. Then use Shooting Stars to fire stars at your target. Open with Star Glide, then spam the stars. At level eighteen it can evolve into Stellarys. Do you run Celestis? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:1",
+      "label": "Celestis build"
+    },
+    {
+      "image": "steam:4126040:5",
+      "fact": "Star Glide",
+      "sub": "Drops stars from above"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Three hits on one target",
+      "sub": "Faster EP recovery"
+    },
+    {
+      "image": "steam:4126040:13",
+      "fact": "Shooting Stars",
+      "sub": "Ranged follow up"
+    },
+    {
+      "image": "steam:4126040:17",
+      "fact": "Level eighteen",
+      "sub": "Can evolve into Stellarys"
+    }
+  ],
+  "description": "Aniimo Celestis build: Star Glide hits three times for faster EP recovery, then Shooting Stars; evolves toward Stellarys at level 18.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Aniimo Celestis",
+    "Aniimo Stellarys",
+    "Aniimo build",
+    "Aniimo Dark"
+  ]
+}

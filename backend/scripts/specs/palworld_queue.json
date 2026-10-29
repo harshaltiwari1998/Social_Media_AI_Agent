@@ -3050,5 +3050,137 @@
         "Orserk"
       ]
     ]
+  },
+  {
+    "parents": [
+      "Dualith",
+      "Eidrolon"
+    ],
+    "child": "Blazamut",
+    "unique": false,
+    "combos": [
+      [
+        "Dualith",
+        "Eidrolon"
+      ],
+      [
+        "Dupin",
+        "Renjishi"
+      ],
+      [
+        "Roujay",
+        "Solenne"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Lamball",
+      "Mozzarina"
+    ],
+    "child": "Pupperai",
+    "unique": false,
+    "combos": [
+      [
+        "Lamball",
+        "Mozzarina"
+      ],
+      [
+        "Foxparks",
+        "Rooby"
+      ],
+      [
+        "Fuack",
+        "Rushoar"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Relaxaurus",
+      "Vanwyrm"
+    ],
+    "child": "Solmora",
+    "unique": false,
+    "combos": [
+      [
+        "Relaxaurus",
+        "Vanwyrm"
+      ],
+      [
+        "Beakon",
+        "Cryolinx"
+      ],
+      [
+        "Moldron",
+        "Pyrin"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Direhowl",
+      "Robinquill"
+    ],
+    "child": "Kelpsea Ignis",
+    "unique": false,
+    "combos": [
+      [
+        "Direhowl",
+        "Robinquill"
+      ],
+      [
+        "Chillet",
+        "Croajiro"
+      ],
+      [
+        "Grintale",
+        "Mozzarina"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Skutlass",
+      "Vaelet"
+    ],
+    "child": "Shroomer Noct",
+    "unique": false,
+    "combos": [
+      [
+        "Skutlass",
+        "Vaelet"
+      ],
+      [
+        "Palumba",
+        "Vanwyrm"
+      ],
+      [
+        "Incineram",
+        "Leafan"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Dupin",
+      "Moldron"
+    ],
+    "child": "Wumpo Botan",
+    "unique": false,
+    "combos": [
+      [
+        "Dupin",
+        "Moldron"
+      ],
+      [
+        "Azurmane",
+        "Tetroise"
+      ],
+      [
+        "Sekhmet",
+        "Flaracle"
+      ]
+    ]
   }
 ]

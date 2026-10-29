@@ -1,0 +1,49 @@
+{
+  "id": "aniimo-fentuft-best-build",
+  "slot": "aniimo",
+  "order": 123,
+  "headline": "Fentuft Best Build",
+  "title": "Fentuft Build | Thunder Field combo | Aniimo Guide",
+  "video_script": "Fentuft is a ranged Lightning Aniimo, and its build is easy. Cast Thunder Field on the target first. It follows the enemy for eight seconds, and any Lightning hit inside it triggers an extra Lightning attack and a Lightning debuff. Then fire Lightning Dart, which damages everything on its path and pulls targets closer. Field first, dart second. Do you use Fentuft? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:12",
+      "label": "Fentuft build"
+    },
+    {
+      "image": "steam:4126040:14",
+      "fact": "Thunder Field",
+      "sub": "Follows the target for eight seconds"
+    },
+    {
+      "image": "steam:4126040:16",
+      "fact": "Extra Lightning hits",
+      "sub": "Plus a Lightning debuff"
+    },
+    {
+      "image": "steam:4126040:18",
+      "fact": "Lightning Dart",
+      "sub": "Pulls targets closer"
+    },
+    {
+      "image": "steam:4126040:20",
+      "label": "Field first, dart second"
+    }
+  ],
+  "description": "Aniimo Fentuft build: Thunder Field for extra Lightning hits and a debuff, then Lightning Dart to pull enemies in.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Aniimo Fentuft",
+    "Aniimo build",
+    "Aniimo Lightning",
+    "Aniimo best build"
+  ]
+}

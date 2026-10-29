@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-sparkling-hue-swap-legendary-aniipod",
+  "slot": "aniimo",
+  "order": 127,
+  "headline": "Sparkling Hue Swap",
+  "title": "Sparkling Hue Swap | Legendary Aniipod on Sparkling Aniimo | Aniimo Guide",
+  "video_script": "Love your Sparkling Aniimo? The Sparkling Hue system just got an upgrade. Every hue you catch or roll is now unlocked for good, and Hue Swap lets you switch between them for Credits. Rerolling a hue you already own gives back two Sparkling Sigils. You can also use a Legendary Aniipod on a Sparkling Aniimo for its exclusive effect. Which hue is your favorite? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:8",
+      "label": "Sparkling Hue upgrade"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Hues unlock for good",
+      "sub": "Catch it or roll it"
+    },
+    {
+      "image": "steam:4126040:10",
+      "fact": "Hue Swap",
+      "sub": "Switch hues for Credits"
+    },
+    {
+      "image": "steam:4126040:11",
+      "fact": "Duplicate roll",
+      "sub": "Two Sparkling Sigils back"
+    },
+    {
+      "image": "steam:4126040:13",
+      "fact": "Legendary Aniipod",
+      "sub": "Works on Sparkling Aniimo"
+    }
+  ],
+  "description": "Aniimo Sparkling Hue update: unlocked hues are permanent, Hue Swap costs Credits, duplicate rerolls return 2 Sparkling Sigils, and Legendary Aniipods work on Sparkling Aniimo.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Aniimo Sparkling",
+    "Aniimo Aniipod",
+    "Aniimo Legendary Aniipod",
+    "Aniimo update"
+  ]
+}

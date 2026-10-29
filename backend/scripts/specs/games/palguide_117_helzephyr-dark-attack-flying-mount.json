@@ -1,0 +1,46 @@
+{
+  "id": "palworld-guide-helzephyr-dark-attack-flying-mount",
+  "slot": "palguide",
+  "order": 117,
+  "headline": "Helzephyr dark flyer",
+  "title": "Helzephyr | Flying Mount That Boosts Your Attack | Palworld Guide",
+  "video_script": "A flying mount that makes you hit harder in Palworld one point zero? Helzephyr is a Dark Pal, and its partner skill, Wings of Death, lets you ride it, changes your attack type to Dark and raises your Attack by five to twenty percent while mounted. At base it works Transporting level four. Will you fly Helzephyr? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:19",
+      "label": "Helzephyr"
+    },
+    {
+      "image": "pal:Helzephyr",
+      "fact": "Wings of Death",
+      "sub": "Dark attack mount"
+    },
+    {
+      "image": "steam:1623730:21",
+      "fact": "Attack 5 to 20 percent",
+      "sub": "While mounted"
+    },
+    {
+      "image": "pal:Helzephyr",
+      "fact": "Transporting 4",
+      "sub": "Dark Pal"
+    }
+  ],
+  "description": "Helzephyr in Palworld 1.0 is a Dark flying mount that boosts your Attack and works Transporting level four.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Helzephyr",
+    "Helzephyr work suitability",
+    "Palworld Pal guide",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld partner skill",
+    "Palworld mounts",
+    "Palworld flying mount"
+  ]
+}

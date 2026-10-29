@@ -1,0 +1,49 @@
+{
+  "id": "aniimo-cubbo-best-build",
+  "slot": "aniimo",
+  "order": 122,
+  "headline": "Cubbo Best Build",
+  "title": "Cubbo Build | Claw Mark and Earthquake | Aniimo Guide",
+  "video_script": "Cubbo is a sleepy Earth fighter in Aniimo with a simple combo. Use Fanatic Clawing, and the third hit doubles the Rage your next skill gains. Once Cubbo is Enraged, every hit adds Claw Marks, up to six. Then cast Earthquake. It clears every mark and deals extra damage for each one. So stack marks first, then stomp. Is Cubbo on your team? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:2",
+      "label": "Cubbo build"
+    },
+    {
+      "image": "steam:4126040:4",
+      "fact": "Fanatic Clawing",
+      "sub": "Third hit doubles Rage"
+    },
+    {
+      "image": "steam:4126040:6",
+      "fact": "Claw Marks",
+      "sub": "Up to six stacks"
+    },
+    {
+      "image": "steam:4126040:8",
+      "fact": "Earthquake",
+      "sub": "Extra damage per mark"
+    },
+    {
+      "image": "steam:4126040:10",
+      "label": "Stack, then stomp"
+    }
+  ],
+  "description": "Aniimo Cubbo build: Fanatic Clawing builds Rage and Claw Marks, then Earthquake cashes them in for extra damage.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Aniimo Cubbo",
+    "Aniimo build",
+    "Aniimo Earth",
+    "Aniimo best build"
+  ]
+}

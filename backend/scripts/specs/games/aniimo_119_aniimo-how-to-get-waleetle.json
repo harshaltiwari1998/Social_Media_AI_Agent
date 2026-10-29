@@ -1,0 +1,49 @@
+{
+  "id": "aniimo-how-to-get-waleetle",
+  "slot": "aniimo",
+  "order": 119,
+  "headline": "How To Get Waleetle",
+  "title": "Waleetle | Where to find it and evolve | Aniimo Guide",
+  "video_script": "Want Waleetle in Aniimo? Head to Berylline Vale. Waleetle stands a short walk south of the Mudstone Pass Bloom, close to Baleetle. They look alike from far away, so check the nameplate before you throw. You can also evolve a Baleetle. Raise it to level thirty nine, spend a Loam Stone, and meet the unlock shown in the evolution panel. Which Earth Aniimo do you use? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:2",
+      "label": "Waleetle location"
+    },
+    {
+      "image": "steam:4126040:4",
+      "fact": "Berylline Vale",
+      "sub": "South of Mudstone Pass Bloom"
+    },
+    {
+      "image": "steam:4126040:6",
+      "fact": "Check the nameplate",
+      "sub": "Baleetle looks the same"
+    },
+    {
+      "image": "steam:4126040:8",
+      "fact": "Baleetle to Waleetle",
+      "sub": "Level thirty nine"
+    },
+    {
+      "image": "steam:4126040:10",
+      "label": "Costs a Loam Stone"
+    }
+  ],
+  "description": "Aniimo: find Waleetle in Berylline Vale south of the Mudstone Pass Bloom, or evolve Baleetle at level 39 with a Loam Stone.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Aniimo Waleetle",
+    "Aniimo Baleetle",
+    "Aniimo location",
+    "Aniimo evolution"
+  ]
+}

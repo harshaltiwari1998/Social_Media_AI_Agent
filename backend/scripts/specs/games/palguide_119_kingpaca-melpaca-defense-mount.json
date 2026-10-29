@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-kingpaca-melpaca-defense-mount",
+  "slot": "palguide",
+  "order": 119,
+  "headline": "Kingpaca squad boost",
+  "title": "Kingpaca | Ride It and Stack Melpaca Bonuses | Palworld Guide",
+  "video_script": "Got spare Melpaca in Palworld one point zero? Kingpaca is a Neutral Pal you can ride, and its partner skill, King of Muscles, raises its Defense and movement speed by five to fourteen percent for each Melpaca in your party. At base it works Gathering level two. Will you build a Kingpaca squad? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:2",
+      "label": "Kingpaca"
+    },
+    {
+      "image": "pal:Kingpaca",
+      "fact": "King of Muscles",
+      "sub": "Melpaca stack bonus"
+    },
+    {
+      "image": "steam:1623730:20",
+      "fact": "5 to 14 percent",
+      "sub": "Defense and speed each"
+    },
+    {
+      "image": "pal:Kingpaca",
+      "fact": "Gathering 2",
+      "sub": "Rideable Neutral Pal"
+    }
+  ],
+  "description": "Kingpaca in Palworld 1.0 is a rideable Neutral Pal that gains Defense and speed from Melpaca in your party.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Kingpaca",
+    "Kingpaca work suitability",
+    "Palworld Pal guide",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld partner skill",
+    "Palworld mounts"
+  ]
+}

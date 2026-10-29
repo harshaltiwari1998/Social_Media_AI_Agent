@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-magical-wonder-night-home-season",
+  "slot": "aniimo",
+  "order": 131,
+  "headline": "Magical Wonder Night",
+  "title": "Magical Wonder Night | New Home season | Aniimo Guide",
+  "video_script": "Aniimo's new Home season, Magical Wonder Night, is live until December ninth. You need R V level ten and the Festivals of Astra tutorial quest. It brings the Wonder Night Set, the Batshadow Pumpkin R V skin and a new Magic Pumpkin crop. Your Harvest Moon currencies convert to Home Coins, and the Harvest Moon Set leaves the shop. Have you started yet? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:4",
+      "label": "Magical Wonder Night"
+    },
+    {
+      "image": "steam:4126040:6",
+      "fact": "Until December nine",
+      "sub": "New Home season"
+    },
+    {
+      "image": "steam:4126040:8",
+      "fact": "RV level ten",
+      "sub": "Plus Festivals of Astra quest"
+    },
+    {
+      "image": "steam:4126040:10",
+      "fact": "Magic Pumpkin",
+      "sub": "New mutating crop"
+    },
+    {
+      "image": "steam:4126040:13",
+      "fact": "Harvest Moon Set removed",
+      "sub": "Currencies convert to Home Coins"
+    }
+  ],
+  "description": "Aniimo Home season Magical Wonder Night runs until 9 December 2026: RV level 10, Wonder Night Set, Batshadow Pumpkin RV skin, Magic Pumpkin crop; Harvest Moon currencies convert to Home Coins.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Aniimo Homeland",
+    "Aniimo event",
+    "Magical Wonder Night",
+    "Aniimo Magic Pumpkin"
+  ],
+  "expires": "2026-12-09"
+}

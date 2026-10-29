@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-waleetle-best-build",
+  "slot": "aniimo",
+  "order": 121,
+  "headline": "Waleetle Best Build",
+  "title": "Waleetle Build | Sandstorm Spin setup | Aniimo Guide",
+  "video_script": "Waleetle is an Earth rolling attacker in Aniimo. Use Stone Ball Drift first, because every hit adds damage and it stacks up to four times. Then switch to Sandstorm Spin, which hits harder on Break targets and spins faster over time. It keeps draining EP while you spin, so bring a teammate who restores EP. Finish with Rock Ball Blast. Do you main Waleetle? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:21",
+      "label": "Waleetle build"
+    },
+    {
+      "image": "steam:4126040:23",
+      "fact": "Stone Ball Drift",
+      "sub": "Stacks up to four times"
+    },
+    {
+      "image": "steam:4126040:25",
+      "fact": "Sandstorm Spin",
+      "sub": "More damage on Break targets"
+    },
+    {
+      "image": "steam:4126040:27",
+      "fact": "Watch your EP",
+      "sub": "Spinning keeps draining it"
+    },
+    {
+      "image": "steam:4126040:29",
+      "fact": "Rock Ball Blast",
+      "sub": "Ultimate finisher"
+    }
+  ],
+  "description": "Aniimo Waleetle build: stack Stone Ball Drift, spin with Sandstorm Spin on Break targets, manage EP and finish with Rock Ball Blast.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Aniimo Waleetle",
+    "Aniimo build",
+    "Aniimo Earth",
+    "Aniimo best build"
+  ]
+}

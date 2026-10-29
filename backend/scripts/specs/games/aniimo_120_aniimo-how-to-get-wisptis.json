@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-how-to-get-wisptis",
+  "slot": "aniimo",
+  "order": 120,
+  "headline": "How To Get Wisptis",
+  "title": "Wisptis | Night spawn and evolution | Aniimo Guide",
+  "video_script": "Looking for Wisptis in Aniimo? It is a Dark Aniimo that only appears at night in Berylline Vale, in the forest beside the Bloom. If it is daytime, change the time from the functions menu. To evolve it, reach level twenty nine, then defeat three Wisptis of your own form in a row. Spend a Night Stone and you get Ignitis. Will you hunt Wisptis tonight? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:11",
+      "label": "Wisptis location"
+    },
+    {
+      "image": "steam:4126040:13",
+      "fact": "Berylline Vale",
+      "sub": "Forest beside the Bloom"
+    },
+    {
+      "image": "steam:4126040:15",
+      "fact": "Night only",
+      "sub": "Change time in the menu"
+    },
+    {
+      "image": "steam:4126040:17",
+      "fact": "Level twenty nine",
+      "sub": "Beat three Wisptis in a row"
+    },
+    {
+      "image": "steam:4126040:19",
+      "fact": "Night Stone",
+      "sub": "Evolves into Ignitis"
+    }
+  ],
+  "description": "Aniimo: Wisptis spawns at night in the Berylline Vale forest by the Bloom; reach level 29, beat three Wisptis in a row and use a Night Stone for Ignitis.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Aniimo Wisptis",
+    "Aniimo Ignitis",
+    "Aniimo location",
+    "Aniimo night"
+  ]
+}

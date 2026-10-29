@@ -1,0 +1,49 @@
+{
+  "id": "aniimo-helion-best-build",
+  "slot": "aniimo",
+  "order": 118,
+  "headline": "Helion Best Build",
+  "title": "Helion Build | Light Bombardment combo | Aniimo Guide",
+  "video_script": "Helion is the Light melee starter in Aniimo. Build it around two skills. Holy Roar raises your Light damage, stacking up to three times. Its ultimate, Helios Judgment, grants the Ring of the Golden Sun, and with that ring Light Bombardment hits thirty percent harder. So roar first, then dive in with Light Bombardment. Which starter did you pick, Helion or Lunara? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:1",
+      "label": "Helion build"
+    },
+    {
+      "image": "steam:4126040:3",
+      "fact": "Holy Roar",
+      "sub": "Light damage stacks three times"
+    },
+    {
+      "image": "steam:4126040:5",
+      "fact": "Helios Judgment",
+      "sub": "Grants Ring of the Golden Sun"
+    },
+    {
+      "image": "steam:4126040:7",
+      "fact": "Light Bombardment",
+      "sub": "Thirty percent more with the Ring"
+    },
+    {
+      "image": "steam:4126040:9",
+      "label": "Roar, then dive"
+    }
+  ],
+  "description": "Aniimo Helion best build: stack Holy Roar, use Helios Judgment for the Ring of the Golden Sun, then Light Bombardment.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Aniimo Helion",
+    "Aniimo build",
+    "Aniimo best build",
+    "Aniimo starter"
+  ]
+}

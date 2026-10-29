@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-lightning-element-matchups",
+  "slot": "aniimo",
+  "order": 126,
+  "headline": "Lightning Element Matchups",
+  "title": "Aniimo Lightning Element Explained | What Lightning Beats and Fears | Aniimo Guide",
+  "video_script": "Lightning is the electric element in Aniimo. A Lightning attack deals one point six times damage to Water and Wind Aniimo. But Earth, Ice and Lightning resist it, so those hits only do zero point six two five times damage. On defense, Lightning takes extra damage from Dark and Ice. Check the target before you fire. Which Lightning Aniimo is on your team? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:3",
+      "label": "Lightning element matchups"
+    },
+    {
+      "image": "steam:4126040:4",
+      "fact": "Beats Water and Wind",
+      "sub": "One point six times damage"
+    },
+    {
+      "image": "steam:4126040:5",
+      "fact": "Resisted by Earth, Ice, Lightning",
+      "sub": "Only zero point six two five times"
+    },
+    {
+      "image": "steam:4126040:6",
+      "fact": "Weak to Dark and Ice",
+      "sub": "Takes extra damage"
+    },
+    {
+      "image": "steam:4126040:7",
+      "fact": "Check the target first",
+      "sub": "Counter chart in battle"
+    }
+  ],
+  "description": "Aniimo Lightning element guide: Lightning hits Water and Wind for 1.6x, is resisted by Earth, Ice and Lightning, and takes extra damage from Dark and Ice.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Aniimo Lightning",
+    "Aniimo element chart",
+    "Aniimo type chart",
+    "Aniimo weakness"
+  ]
+}

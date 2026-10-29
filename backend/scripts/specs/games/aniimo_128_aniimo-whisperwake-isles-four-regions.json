@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-whisperwake-isles-four-regions",
+  "slot": "aniimo",
+  "order": 128,
+  "headline": "Whisperwake Isles",
+  "title": "Whisperwake Isles | Four new regions | Aniimo Guide",
+  "video_script": "Aniimo's Season One Part Two update adds a brand new map, the Whisperwake Isles. It has four regions: Crescent Bay, Rosy Mirelands, Wildwater Gorge and Cloudreach Falls. The update also brings fifty one new Aniimo to the Idyll Continent. Finish the prerequisite story quests and the island content unlocks on its own. Which region will you explore first? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:15",
+      "label": "Whisperwake Isles"
+    },
+    {
+      "image": "steam:4126040:17",
+      "fact": "Crescent Bay",
+      "sub": "Mirrorsea Village"
+    },
+    {
+      "image": "steam:4126040:19",
+      "fact": "Rosy Mirelands",
+      "sub": "Wetlands and woodlands"
+    },
+    {
+      "image": "steam:4126040:21",
+      "fact": "Wildwater Gorge",
+      "sub": "Rushing rapids"
+    },
+    {
+      "image": "steam:4126040:25",
+      "fact": "Cloudreach Falls",
+      "sub": "Fifty one new Aniimo"
+    }
+  ],
+  "description": "Aniimo Season 1 Part 2 adds the Whisperwake Isles map with Crescent Bay, Rosy Mirelands, Wildwater Gorge and Cloudreach Falls, plus 51 new Aniimo.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Whisperwake Isles",
+    "Aniimo new map",
+    "Aniimo Season 1",
+    "Aniimo update"
+  ]
+}

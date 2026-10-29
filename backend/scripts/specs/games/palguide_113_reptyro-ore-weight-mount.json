@@ -1,0 +1,46 @@
+{
+  "id": "palworld-guide-reptyro-ore-weight-mount",
+  "slot": "palguide",
+  "order": 113,
+  "headline": "Reptyro ore hauler",
+  "title": "Reptyro | Ride It and Cut Ore Weight | Palworld Guide",
+  "video_script": "Hauling too much ore in Palworld one point zero? Reptyro is a Fire and Ground Pal you can ride, and its partner skill, Ore Loving Beast, cuts the weight of all ore by thirty to sixty percent while it is in your party. At base it works Kindling level five and Mining level five. Will you use Reptyro? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:14",
+      "label": "Reptyro"
+    },
+    {
+      "image": "pal:Reptyro",
+      "fact": "Ore Loving Beast",
+      "sub": "Ore weight down"
+    },
+    {
+      "image": "steam:1623730:21",
+      "fact": "30 to 60 percent",
+      "sub": "Lighter ore"
+    },
+    {
+      "image": "pal:Reptyro",
+      "fact": "Kindling 5 Mining 5",
+      "sub": "Palworld 1.0"
+    }
+  ],
+  "description": "Reptyro in Palworld 1.0 is a rideable Fire and Ground Pal with Mining level five and an ore weight reduction.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Reptyro",
+    "Reptyro work suitability",
+    "Palworld Pal guide",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld partner skill",
+    "Palworld mounts",
+    "Palworld ore"
+  ]
+}

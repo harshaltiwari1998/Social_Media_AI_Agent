@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-gorirat-lumbering-attack-surge",
+  "slot": "palguide",
+  "order": 115,
+  "headline": "Gorirat power mode",
+  "title": "Gorirat | Wood Worker With a Power Surge | Palworld Guide",
+  "video_script": "Want a lumber Pal that also fights in Palworld one point zero? Gorirat is a Neutral Pal whose partner skill, Full Power Gorilla Mode, raises its own Attack by seventy five to three hundred percent for a limited time. At base it works Lumbering level three, Transporting level three and Handiwork level two. Will you take Gorirat? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:2",
+      "label": "Gorirat"
+    },
+    {
+      "image": "pal:Gorirat",
+      "fact": "Gorilla Mode",
+      "sub": "Attack surge"
+    },
+    {
+      "image": "steam:1623730:20",
+      "fact": "75 to 300 percent",
+      "sub": "For a limited time"
+    },
+    {
+      "image": "pal:Gorirat",
+      "fact": "Lumbering 3",
+      "sub": "Transporting 3"
+    }
+  ],
+  "description": "Gorirat in Palworld 1.0 is a Neutral Pal with Lumbering level three and an Attack boost partner skill.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Gorirat",
+    "Gorirat work suitability",
+    "Palworld Pal guide",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld partner skill",
+    "Palworld lumbering"
+  ]
+}

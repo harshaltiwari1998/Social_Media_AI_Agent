@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-homeland-three-story-rv-weather",
+  "slot": "aniimo",
+  "order": 132,
+  "headline": "Homeland Update",
+  "title": "Homeland Update | Three story RV and weather | Aniimo Guide",
+  "video_script": "Aniimo's Homeland got big upgrades this season. Your R V can now have three stories and a full skin replacement. Home also supports a weather system. You can apply a full blueprint plan and share blueprint codes with other players. Reach R V level twenty to claim the new Glow Scooter from the level reward. Which upgrade do you want most? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:15",
+      "label": "Homeland update"
+    },
+    {
+      "image": "steam:4126040:17",
+      "fact": "Three story RV",
+      "sub": "Plus full skin replacement"
+    },
+    {
+      "image": "steam:4126040:19",
+      "fact": "Weather in Home",
+      "sub": "New weather system"
+    },
+    {
+      "image": "steam:4126040:21",
+      "fact": "Blueprint codes",
+      "sub": "Apply plans and share them"
+    },
+    {
+      "image": "steam:4126040:25",
+      "fact": "Glow Scooter",
+      "sub": "Claim at RV level twenty"
+    }
+  ],
+  "description": "Aniimo Homeland update: three-story RV, full RV skin replacement, Home weather system, blueprint plans and shareable codes, and the Glow Scooter reward at RV level 20.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Aniimo Homeland",
+    "Aniimo RV",
+    "Aniimo blueprint",
+    "Aniimo update"
+  ]
+}

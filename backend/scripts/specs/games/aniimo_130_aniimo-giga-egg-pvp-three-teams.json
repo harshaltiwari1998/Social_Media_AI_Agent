@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-giga-egg-pvp-three-teams",
+  "slot": "aniimo",
+  "order": 130,
+  "headline": "Giga-Egg PvP",
+  "title": "Giga-Egg PvP | Three teams one egg | Aniimo Guide",
+  "video_script": "Operation Egg Heist now has a three team PvP mode. Teams fight over one Giga-Egg, and the team that keeps Twine with it fills its activation meter. Reach one hundred percent, or hold it when the match ends, and you win. You need character level fifty and the Rising Egg Scout rank. Every winner gets a Giga-Egg that guarantees an Umbral Egg. Will you try it? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:3",
+      "label": "Giga-Egg PvP"
+    },
+    {
+      "image": "steam:4126040:5",
+      "fact": "Three teams, one egg",
+      "sub": "Hold Twine to win"
+    },
+    {
+      "image": "steam:4126040:7",
+      "fact": "Level fifty needed",
+      "sub": "Rising Egg Scout rank"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Winners get a Giga-Egg",
+      "sub": "Guaranteed Umbral Egg"
+    },
+    {
+      "image": "steam:4126040:11",
+      "fact": "Currently in testing",
+      "sub": "Balance changes expected"
+    }
+  ],
+  "description": "Aniimo's new Operation Egg Heist PvP mode: three teams fight for the Giga-Egg, requires level 50 and Rising Egg Scout rank, winners get a Giga-Egg with a guaranteed Umbral Egg.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Aniimo Egg Heist",
+    "Aniimo PvP",
+    "Aniimo Giga-Egg",
+    "Aniimo update"
+  ]
+}

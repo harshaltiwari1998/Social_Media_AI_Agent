@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-new-level-caps-trailblazer",
+  "slot": "aniimo",
+  "order": 129,
+  "headline": "Trailblazer Level Caps",
+  "title": "Trailblazer II and III | Level cap 70 | Aniimo Guide",
+  "video_script": "Aniimo's new update raises your level caps. At level sixty, Dr. Lewis opens the Trailblazer two and Trailblazer three promotions. Trailblazer two lifts your Aniimo cap from sixty to sixty five. Trailblazer three lifts your own cap to seventy and your Aniimo cap to seventy. Past level sixty, Aniimo also need an Ascension item to keep leveling. Are you ready to promote? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:26",
+      "label": "New level caps"
+    },
+    {
+      "image": "steam:4126040:27",
+      "fact": "Level sixty",
+      "sub": "Dr. Lewis opens promotions"
+    },
+    {
+      "image": "steam:4126040:28",
+      "fact": "Trailblazer II",
+      "sub": "Aniimo cap sixty to sixty five"
+    },
+    {
+      "image": "steam:4126040:29",
+      "fact": "Trailblazer III",
+      "sub": "Cap seventy for you and Aniimo"
+    },
+    {
+      "image": "steam:4126040:30",
+      "fact": "Ascension past sixty",
+      "sub": "Needs an Evolution Item"
+    }
+  ],
+  "description": "Aniimo Season 1 Part 2 level caps: Trailblazer II raises the Aniimo cap from 60 to 65, Trailblazer III raises both caps to 70, and Aniimo past level 60 need an Ascension.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Aniimo level cap",
+    "Aniimo Trailblazer",
+    "Aniimo Ascension",
+    "Aniimo update"
+  ]
+}

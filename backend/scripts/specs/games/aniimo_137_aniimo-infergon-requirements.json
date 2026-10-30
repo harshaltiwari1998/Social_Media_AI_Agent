@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-infergon-requirements",
+  "slot": "aniimo",
+  "order": 137,
+  "headline": "Infergon unlock",
+  "title": "Infergon | Three Steps to Unlock It | Aniimo Guide",
+  "video_script": "Infergon cannot be caught in the wild, so you must evolve it from Helmwhelp. First, defeat the Omega Infergon boss in Russet Highlands. Second, your Helmwhelp needs Perfect potential. Third, raise it to level forty eight, then pick Infergon instead of Helgon on the evolution screen. It is a Fire DPS with huge attack. Is Infergon worth the grind? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:4",
+      "label": "Infergon Unlock"
+    },
+    {
+      "image": "steam:4126040:5",
+      "fact": "No wild spawn",
+      "sub": "Evolve from Helmwhelp"
+    },
+    {
+      "image": "steam:4126040:6",
+      "fact": "Omega Infergon",
+      "sub": "Russet Highlands boss"
+    },
+    {
+      "image": "steam:4126040:7",
+      "fact": "Perfect potential",
+      "sub": "Needed to evolve"
+    },
+    {
+      "image": "steam:4126040:8",
+      "fact": "Level forty eight",
+      "sub": "Choose Infergon"
+    }
+  ],
+  "description": "Aniimo's Infergon has no wild spawn. Defeat Omega Infergon in Russet Highlands, use a Helmwhelp with Perfect potential at level 48, and pick Infergon instead of Helgon.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Infergon",
+    "Aniimo Infergon",
+    "Helmwhelp",
+    "Aniimo evolution",
+    "Pawprint Studio"
+  ]
+}

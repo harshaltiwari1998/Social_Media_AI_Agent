@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-erlath-from-fahloo",
+  "slot": "aniimo",
+  "order": 135,
+  "headline": "Get Erlath",
+  "title": "How to Get Erlath | The Final Water Form | Aniimo Guide",
+  "video_script": "Erlath is a Water Aniimo you get by evolving Fahloo, and the line has no branches. Raise your Fahloo to level forty nine and it becomes Erlath. You can also catch Erlath in the wild on Tideblossom Coast, where it appears around levels fifty three to sixty. Erlath is the end of the line, so there is nothing further to unlock. Do you run Erlath on your team? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:7",
+      "label": "How to Get Erlath"
+    },
+    {
+      "image": "steam:4126040:8",
+      "fact": "Fahloo",
+      "sub": "Water Aniimo"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Level forty nine",
+      "sub": "Fahloo evolves"
+    },
+    {
+      "image": "steam:4126040:10",
+      "fact": "Tideblossom Coast",
+      "sub": "Wild levels fifty three to sixty"
+    },
+    {
+      "image": "steam:4126040:11",
+      "fact": "Final form",
+      "sub": "No branches"
+    }
+  ],
+  "description": "Aniimo's Erlath evolves from Fahloo at level 49 or can be caught in the wild on Tideblossom Coast at roughly levels 53 to 60. It is the final form of its line.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Erlath",
+    "Aniimo Erlath",
+    "Fahloo",
+    "Tideblossom Coast",
+    "Aniimo evolution",
+    "Pawprint Studio"
+  ]
+}

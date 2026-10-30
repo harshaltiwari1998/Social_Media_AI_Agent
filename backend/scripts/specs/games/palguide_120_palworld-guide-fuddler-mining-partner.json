@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-fuddler-mining-partner",
+  "slot": "palguide",
+  "order": 120,
+  "headline": "Fuddler mining helper",
+  "title": "Fuddler | A Cheap Mining Helper | Palworld Guide",
+  "video_script": "Need an early mining boost in Palworld one point zero? Fuddler is a small Ground Pal with Handiwork, Mining and Transporting all at level one. The real value is its partner skill, Mining Assistance. While it is in your party, your mining efficiency goes up by thirty to sixty percent and stone weight drops by eighty to one hundred percent. It does not stack with other mining Pals. Will you carry a Fuddler? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:10",
+      "label": "Fuddler"
+    },
+    {
+      "image": "pal:Fuddler",
+      "fact": "Mining Assistance",
+      "sub": "Partner skill"
+    },
+    {
+      "image": "steam:1623730:11",
+      "fact": "Mining up to sixty percent",
+      "sub": "Stone weight reduced"
+    },
+    {
+      "image": "pal:Fuddler",
+      "fact": "Ground Pal",
+      "sub": "Mining level one"
+    }
+  ],
+  "description": "Fuddler in Palworld 1.0 is a small Ground Pal whose partner skill Mining Assistance boosts your mining efficiency by 30 to 60 percent and cuts stone weight.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Fuddler",
+    "Fuddler partner skill",
+    "Palworld mining",
+    "Palworld Pal guide",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld base tips",
+    "Palworld Ground Pal"
+  ]
+}

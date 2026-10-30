@@ -4927,5 +4927,59 @@
       "name": "Artisaur",
       "types": "Ice/Grass"
     }
+  },
+  "dml-breed-bee": {
+    "spec": "scripts/specs/games/dml_01_bee.json",
+    "video": "F:\\AI AGENT\\run_dml\\videos\\short-fa641a20.mp4"
+  },
+  "dml-breed-smoke": {
+    "spec": "scripts/specs/games/dml_02_smoke.json",
+    "video": "F:\\AI AGENT\\run_dml\\videos\\short-3eca291e.mp4"
+  },
+  "dml-breed-ice": {
+    "spec": "scripts/specs/games/dml_03_ice.json",
+    "video": "F:\\AI AGENT\\run_dml\\videos\\short-935ec426.mp4"
+  },
+  "dml-breed-lava": {
+    "spec": "scripts/specs/games/dml_04_lava.json",
+    "video": "F:\\AI AGENT\\run_dml\\videos\\short-0eb23934.mp4"
+  },
+  "dml-breed-plasma": {
+    "spec": "scripts/specs/games/dml_05_plasma.json",
+    "video": "F:\\AI AGENT\\run_dml\\videos\\short-09de1e6d.mp4"
+  },
+  "dml-breed-lightning": {
+    "spec": "scripts/specs/games/dml_06_lightning.json",
+    "video": "F:\\AI AGENT\\run_dml\\videos\\short-f980c666.mp4"
+  },
+  "dml-breed-rain": {
+    "spec": "scripts/specs/games/dml_07_rain.json",
+    "video": "F:\\AI AGENT\\run_dml\\videos\\short-3a28f6a1.mp4"
+  },
+  "dml-breed-lumino": {
+    "spec": "scripts/specs/games/dml_08_lumino.json",
+    "video": "F:\\AI AGENT\\run_dml\\videos\\short-a413d899.mp4"
+  },
+  "dml-breed-toxic": {
+    "spec": "scripts/specs/games/dml_09_toxic.json",
+    "video": "F:\\AI AGENT\\run_dml\\videos\\short-f0825a3d.mp4"
+  },
+  "dml-breed-dracula": {
+    "spec": "scripts/specs/games/dml_10_dracula.json",
+    "video": "F:\\AI AGENT\\run_dml\\videos\\short-16a17cbd.mp4"
+  },
+  "dml-breeding-guide-beginners": {
+    "spec": "scripts/specs/long/gaming_75_dml-breeding-guide-beginners.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_dml\\videos\\long-64bb81ac.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_dml\\videos\\long-64bb81ac-thumb.jpg",
+    "chapters": "0:00 How breeding works\n0:47 No combination is guaranteed\n1:22 How to raise your odds\n1:52 Bee Dragon - Fire + Wind\n2:21 Smoke Dragon - Wind + Fire\n2:51 Ice Dragon - Wind + Water\n3:18 Lava Dragon - Earth + Fire\n3:42 Dust Dragon - Wind + Earth\n4:10 Snow Dragon - Water + Earth\n4:37 Tree Dragon - Earth + Plant\n5:04 Clownfish Dragon - Water + Earth + Wind\n5:34 Agave Dragon - Fire + Water + Plant\n6:03 Plan your parents\n6:44 When a different dragon hatches\n7:20 Your breeding checklist"
+  },
+  "dml-energy-void-metal-dragons": {
+    "spec": "scripts/specs/long/gaming_76_dml-energy-void-metal-dragons.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_dml\\videos\\long-31918804.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_dml\\videos\\long-31918804-thumb.jpg",
+    "chapters": "0:00 The advanced elements\n0:39 Before you start\n1:10 Plasma Dragon - Fire + Energy\n1:35 Meteor Dragon - Energy + Fire\n2:03 Eel Dragon - Water + Energy\n2:28 Lightning Dragon - Energy + Wind\n2:52 Razor Dragon - Metal + Wind\n3:14 Rain Dragon - Water + Void\n3:37 Lumino Dragon - Fire + Void\n4:01 Toxic Dragon - Plant + Energy + Void\n4:31 Dracula Dragon - Void + Metal + Wind\n4:57 Why three element dragons take longer\n5:33 Build a breeding plan\n6:11 Common mistakes\n6:44 Recap"
   }
 }

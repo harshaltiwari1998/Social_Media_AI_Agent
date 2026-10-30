@@ -41,11 +41,12 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
 
 ### Specs (what to make)
 - `backend/scripts/specs/games/<slot>_NN_<id>.json` - gaming shorts. Slots: `new`, `classic`, `aniimo`,
-  `palguide`, `palbase`, `palchain`, `gamenews`, `gow`.
+  `palguide`, `palbase`, `palchain`, `gamenews`, `gow`, `dml` (Dragon Mania Legends breeding, made on request -
+  not in any daily workflow; post with `--extra-slot dml:N`).
 - `backend/scripts/specs/movies/<slot>_NN_<id>.json` - movie shorts: `movie_new`, `movie_review`,
   `reel` (Facebook + Instagram only via `"platforms"`), `comedy`, `movie_news`, `tribute`.
 - `backend/scripts/specs/long/{gaming,movies}_NN_<id>.json` - long videos (9-12 sections, >= 1200 words
-  English / >= 900 Hindi). Optional `"series": "palworld" | "aniimo"` reserves a spec for the
+  English / >= 900 Hindi). Optional `"series": "palworld" | "aniimo" | "dml"` reserves a spec for the
   Aniimo + Palworld workflow (`--long-series`); normal long runs skip series specs.
 - `backend/scripts/specs/palworld_queue.json` - Palworld breeding shorts. Each entry has 3 verified
   `"combos"` for the same child.
@@ -112,6 +113,9 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   (check the title exists on HarryBeast first).
 - **Fact-checking**: every fact needs two independent sources (or the subject's Wikipedia article for
   evergreen facts). Palworld facts must be 1.0-specific. No politics, religion messaging, adult content.
+- **Dragon Mania Legends breeding**: no combination is guaranteed in DML, so shorts give the elements the parents
+  must carry together (checked on the DML wiki + TouchTapPlay; Cyberly copies TouchTapPlay and does not count).
+  Breeding times/prices are wiki-only and stay out. Both wikis sit behind Cloudflare - use web search snippets.
 - **Palworld breeding**: every short shows **3 verified combos** for the same child (checked on
   PalBreedCalc + pindrop / the breeding formula). Child must differ from all parents, no variants,
   no legendary/crossover parents, no gender-dependent results.
@@ -156,6 +160,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next; evolution = glow shot + next form.
 
 ## Change log
+- 2026-10-30 - Dragon Mania Legends breeding: 10 shorts (`dml` slot) + 2 long (`series: dml`), official Play Store art.
 - 2026-10-29 - `fusion-inbox.yml` + `fusion_inbox.py`: Gemini fusion clips in `inbox/` become posted 9:16 shorts.
 - 2026-10-29 - `daily-pokemon.yml` + `pokemon_daily.py`: free Pokemon evolution shorts posted from CI (motion-cache branch).
 - 2026-10-29 - `fal_video.py`: free Pokemon start frames (`poke`); first free Wan evolution short queued (Charmander line).

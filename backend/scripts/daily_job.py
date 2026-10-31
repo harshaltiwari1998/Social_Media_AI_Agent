@@ -194,6 +194,12 @@ def make_new_palworld(poster: Poster, count: int) -> None:
         return
     manifest = _load(MANIFEST)
     todo = [c for c in json.loads(QUEUE.read_text(encoding="utf-8")) if c["child"] not in manifest]
+    # Owner rule: no variants (two-word names like "Wumpo Botan") as child or parent.
+    variants = [c["child"] for c in todo if any(" " in n.strip() for combo in (c.get("combos") or [c["parents"]])
+                                                for n in (c["child"], *combo))]
+    if variants:
+        log.warning("Skipping variant Pals in the queue (owner rule): %s", ", ".join(variants))
+        todo = [c for c in todo if c["child"] not in variants]
     todo = (todo[::-1] if FROM_END else todo)[:count]
     if not todo:
         log.warning("Palworld queue is empty - add verified unique combos to %s", QUEUE.name)

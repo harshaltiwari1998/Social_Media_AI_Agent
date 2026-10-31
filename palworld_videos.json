@@ -5233,5 +5233,141 @@
       ],
       "unique": false
     }
+  },
+  "Solmora": {
+    "spec": "scripts/specs/palworld_solmora.json",
+    "video": "F:\\AI AGENT\\run_ap31\\videos\\short-330454db.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Solmora",
+      "caption": "3 ways to breed Solmora in Palworld 1.0: Relaxaurus + Vanwyrm, Beakon + Cryolinx, Moldron + Pyrin.",
+      "video_script": "Here are three ways to breed Solmora in Palworld one point zero. Combo one: breed Relaxaurus with Vanwyrm on your Breeding Farm, then add a cake. Combo two: pair Beakon and Cryolinx together, and you get the same egg. Combo three: Moldron plus Pyrin works too, so use whichever Pals you have. Every egg hatches into Solmora. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Relaxaurus",
+        "Vanwyrm"
+      ],
+      "combos": [
+        [
+          "Relaxaurus",
+          "Vanwyrm"
+        ],
+        [
+          "Beakon",
+          "Cryolinx"
+        ],
+        [
+          "Moldron",
+          "Pyrin"
+        ]
+      ],
+      "child": "Solmora",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false
+    }
+  },
+  "Pupperai": {
+    "spec": "scripts/specs/palworld_pupperai.json",
+    "video": "F:\\AI AGENT\\run_ap31\\videos\\short-3ad2b4e0.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Pupperai",
+      "caption": "3 ways to breed Pupperai in Palworld 1.0: Lamball + Mozzarina, Foxparks + Rooby, Fuack + Rushoar.",
+      "video_script": "Here are three ways to breed Pupperai in Palworld one point zero. Combo one: breed Lamball with Mozzarina on your Breeding Farm, then add a cake. Combo two: pair Foxparks and Rooby together, and you get the same egg. Combo three: Fuack plus Rushoar works too, so use whichever Pals you have. Every egg hatches into Pupperai. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Lamball",
+        "Mozzarina"
+      ],
+      "combos": [
+        [
+          "Lamball",
+          "Mozzarina"
+        ],
+        [
+          "Foxparks",
+          "Rooby"
+        ],
+        [
+          "Fuack",
+          "Rushoar"
+        ]
+      ],
+      "child": "Pupperai",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false
+    }
+  },
+  "Blazamut": {
+    "spec": "scripts/specs/palworld_blazamut.json",
+    "video": "F:\\AI AGENT\\run_ap31\\videos\\short-b2175c4a.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Blazamut",
+      "caption": "3 ways to breed Blazamut in Palworld 1.0: Dualith + Eidrolon, Dupin + Renjishi, Roujay + Solenne.",
+      "video_script": "Here are three ways to breed Blazamut in Palworld one point zero. Combo one: breed Dualith with Eidrolon on your Breeding Farm, then add a cake. Combo two: pair Dupin and Renjishi together, and you get the same egg. Combo three: Roujay plus Solenne works too, so use whichever Pals you have. Every egg hatches into Blazamut. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Dualith",
+        "Eidrolon"
+      ],
+      "combos": [
+        [
+          "Dualith",
+          "Eidrolon"
+        ],
+        [
+          "Dupin",
+          "Renjishi"
+        ],
+        [
+          "Roujay",
+          "Solenne"
+        ]
+      ],
+      "child": "Blazamut",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false
+    }
+  },
+  "Mycora": {
+    "spec": "scripts/specs/palworld_mycora.json",
+    "video": "F:\\AI AGENT\\run_ap31\\videos\\short-da9156f6.mp4",
+    "data": {
+      "headline": "3 Ways to Breed Mycora",
+      "caption": "3 ways to breed Mycora in Palworld 1.0: Anubis + Braloha, Flaracle + Menasting, Icelyn + Knocklem.",
+      "video_script": "Here are three ways to breed Mycora in Palworld one point zero. Combo one: breed Anubis with Braloha on your Breeding Farm, then add a cake. Combo two: pair Flaracle and Menasting together, and you get the same egg. Combo three: Icelyn plus Knocklem works too, so use whichever Pals you have. Every egg hatches into Mycora. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Anubis",
+        "Braloha"
+      ],
+      "combos": [
+        [
+          "Anubis",
+          "Braloha"
+        ],
+        [
+          "Flaracle",
+          "Menasting"
+        ],
+        [
+          "Icelyn",
+          "Knocklem"
+        ]
+      ],
+      "child": "Mycora",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false
+    }
   }
 }

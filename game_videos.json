@@ -4981,5 +4981,83 @@
     "video": "F:\\AI AGENT\\run_dml\\videos\\long-31918804.mp4",
     "thumbnail": "F:\\AI AGENT\\run_dml\\videos\\long-31918804-thumb.jpg",
     "chapters": "0:00 The advanced elements\n0:39 Before you start\n1:10 Plasma Dragon - Fire + Energy\n1:35 Meteor Dragon - Energy + Fire\n2:03 Eel Dragon - Water + Energy\n2:28 Lightning Dragon - Energy + Wind\n2:52 Razor Dragon - Metal + Wind\n3:14 Rain Dragon - Water + Void\n3:37 Lumino Dragon - Fire + Void\n4:01 Toxic Dragon - Plant + Energy + Void\n4:31 Dracula Dragon - Void + Metal + Wind\n4:57 Why three element dragons take longer\n5:33 Build a breeding plan\n6:11 Common mistakes\n6:44 Recap"
+  },
+  "aniimo-infergon-requirements": {
+    "spec": "scripts/specs/games/aniimo_137_aniimo-infergon-requirements.json",
+    "video": "F:\\AI AGENT\\run_ap31\\videos\\short-ad7ab9a1.mp4"
+  },
+  "aniimo-squashel-from-squarrel": {
+    "spec": "scripts/specs/games/aniimo_136_aniimo-squashel-from-squarrel.json",
+    "video": "F:\\AI AGENT\\run_ap31\\videos\\short-c4e17889.mp4"
+  },
+  "aniimo-erlath-from-fahloo": {
+    "spec": "scripts/specs/games/aniimo_135_aniimo-erlath-from-fahloo.json",
+    "video": "F:\\AI AGENT\\run_ap31\\videos\\short-c3bdd223.mp4"
+  },
+  "aniimo-pranky-glacy-or-leafy": {
+    "spec": "scripts/specs/games/aniimo_134_aniimo-pranky-glacy-or-leafy.json",
+    "video": "F:\\AI AGENT\\run_ap31\\videos\\short-f0e2b9f2.mp4"
+  },
+  "aniimo-holo-battle-sim-new-stages": {
+    "spec": "scripts/specs/games/aniimo_133_aniimo-holo-battle-sim-new-stages.json",
+    "video": "F:\\AI AGENT\\run_ap31\\videos\\short-fd236d6f.mp4"
+  },
+  "aniimo-homeland-three-story-rv-weather": {
+    "spec": "scripts/specs/games/aniimo_132_aniimo-homeland-three-story-rv-weather.json",
+    "video": "F:\\AI AGENT\\run_ap31\\videos\\short-fe103713.mp4"
+  },
+  "aniimo-magical-wonder-night-home-season": {
+    "spec": "scripts/specs/games/aniimo_131_aniimo-magical-wonder-night-home-season.json",
+    "video": "F:\\AI AGENT\\run_ap31\\videos\\short-bec6f661.mp4"
+  },
+  "aniimo-giga-egg-pvp-three-teams": {
+    "spec": "scripts/specs/games/aniimo_130_aniimo-giga-egg-pvp-three-teams.json",
+    "video": "F:\\AI AGENT\\run_ap31\\videos\\short-baf2cba2.mp4"
+  },
+  "aniimo-new-level-caps-trailblazer": {
+    "spec": "scripts/specs/games/aniimo_129_aniimo-new-level-caps-trailblazer.json",
+    "video": "F:\\AI AGENT\\run_ap31\\videos\\short-47ab5f6c.mp4"
+  },
+  "aniimo-whisperwake-isles-four-regions": {
+    "spec": "scripts/specs/games/aniimo_128_aniimo-whisperwake-isles-four-regions.json",
+    "video": "F:\\AI AGENT\\run_ap31\\videos\\short-c9c8cbf3.mp4"
+  },
+  "palworld-guide-fuddler-mining-partner": {
+    "spec": "scripts/specs/games/palguide_120_palworld-guide-fuddler-mining-partner.json",
+    "video": "F:\\AI AGENT\\run_ap31\\videos\\short-675a700e.mp4"
+  },
+  "palworld-guide-kingpaca-melpaca-defense-mount": {
+    "spec": "scripts/specs/games/palguide_119_kingpaca-melpaca-defense-mount.json",
+    "video": "F:\\AI AGENT\\run_ap31\\videos\\short-01ea1782.mp4"
+  },
+  "palworld-guide-elphidran-dark-drop-boost-flyer": {
+    "spec": "scripts/specs/games/palguide_118_elphidran-dark-drop-boost-flyer.json",
+    "video": "F:\\AI AGENT\\run_ap31\\videos\\short-ad5aa604.mp4"
+  },
+  "palworld-guide-helzephyr-dark-attack-flying-mount": {
+    "spec": "scripts/specs/games/palguide_117_helzephyr-dark-attack-flying-mount.json",
+    "video": "F:\\AI AGENT\\run_ap31\\videos\\short-c360203c.mp4"
+  },
+  "palworld-guide-astegon-flying-ore-mount": {
+    "spec": "scripts/specs/games/palguide_116_astegon-flying-ore-mount.json",
+    "video": "F:\\AI AGENT\\run_ap31\\videos\\short-d447da88.mp4"
+  },
+  "palworld-guide-gorirat-lumbering-attack-surge": {
+    "spec": "scripts/specs/games/palguide_115_gorirat-lumbering-attack-surge.json",
+    "video": "F:\\AI AGENT\\run_ap31\\videos\\short-1ab2d5dc.mp4"
+  },
+  "palworld-dungeons-guide": {
+    "spec": "scripts/specs/long/gaming_72_palworld-dungeons-guide.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_ap31\\videos\\long-3e0308bd.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_ap31\\videos\\long-3e0308bd-thumb.jpg",
+    "chapters": "0:00 Palworld dungeons explained\n0:35 What a dungeon is\n1:09 Finding entrances\n1:49 Early dungeon tiers\n2:28 Mid game dungeon tiers\n3:04 Late game dungeon tiers\n3:36 The Alpha boss\n4:16 Chests and rewards\n4:56 Timers and resets\n5:32 Survival tips\n6:06 Ancient Ruins and where to go next\n6:39 Which dungeon boss do you want"
+  },
+  "aniimo-homeland-work-abilities-and-best-workers-guide": {
+    "spec": "scripts/specs/long/gaming_74_aniimo-homeland-work-abilities-and-best-workers-guide.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_ap31\\videos\\long-4b67e031.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_ap31\\videos\\long-4b67e031-thumb.jpg",
+    "chapters": "0:00 Your Homeland needs a plan\n0:42 Getting into the Homeland\n1:23 How RV levels open more workers\n2:09 The thirteen work abilities\n3:02 Match the worker to the facility\n3:51 Best early workers\n4:36 Best long term workers\n5:26 Personalities give a twenty percent bonus\n6:20 Food, temperature and light\n7:10 Which job is your best worker doing"
   }
 }

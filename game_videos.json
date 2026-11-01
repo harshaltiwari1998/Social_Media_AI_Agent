@@ -5059,5 +5059,37 @@
     "video": "F:\\AI AGENT\\run_ap31\\videos\\long-4b67e031.mp4",
     "thumbnail": "F:\\AI AGENT\\run_ap31\\videos\\long-4b67e031-thumb.jpg",
     "chapters": "0:00 Your Homeland needs a plan\n0:42 Getting into the Homeland\n1:23 How RV levels open more workers\n2:09 The thirteen work abilities\n3:02 Match the worker to the facility\n3:51 Best early workers\n4:36 Best long term workers\n5:26 Personalities give a twenty percent bonus\n6:20 Food, temperature and light\n7:10 Which job is your best worker doing"
+  },
+  "forza-horizon-6-ps5": {
+    "spec": "scripts/specs/games/new_35_forza-horizon-6-ps5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-32948797.mp4"
+  },
+  "wii-sports-2006": {
+    "spec": "scripts/specs/games/classic_67_wii-sports-2006.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e500f6b5.mp4"
+  },
+  "stardew-valley-solo-dev": {
+    "spec": "scripts/specs/games/classic_68_stardew-valley-solo-dev.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e15261ec.mp4"
+  },
+  "portal-2007": {
+    "spec": "scripts/specs/games/classic_69_portal-2007.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ee30c728.mp4"
+  },
+  "violent-night-2": {
+    "spec": "scripts/specs/movies/movie_new_33_violent-night-2.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-0084d1ba.mp4"
+  },
+  "udta-teer-2-din": {
+    "spec": "scripts/specs/movies/movie_review_30_udta-teer-2-din.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ef47c3ef.mp4"
+  },
+  "reel-enthiran-robot-facts": {
+    "spec": "scripts/specs/movies/reel_67_enthiran-robot-facts.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-d74a3cc5.mp4"
+  },
+  "aniimo-how-to-get-cornet": {
+    "spec": "scripts/specs/games/aniimo_102_aniimo-how-to-get-cornet.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ab519d55.mp4"
   }
 }

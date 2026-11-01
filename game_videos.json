@@ -5623,5 +5623,44 @@
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-6ad18c12.mp4",
     "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-6ad18c12-thumb.jpg",
     "chapters": "0:00 Rip and tear\n0:41 Id Software and a new engine\n1:24 The shareware explosion\n2:10 Doom two and the mod era\n2:54 Doom three goes dark\n3:37 The lost years\n4:20 Doom roars back\n5:04 Doom Eternal\n5:45 The Dark Ages\n6:28 Why Doom lasts"
+  },
+  "aniimo-daily-activity-and-stamp-rush-guide": {
+    "spec": "scripts/specs/long/gaming_55_aniimo-daily-activity-and-stamp-rush-guide.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-a6bd72d5.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-a6bd72d5-thumb.jpg",
+    "chapters": "0:00 The daily habit that pays\n0:42 How to unlock it\n1:25 The five daily tasks\n2:12 The five reward packs\n3:00 The daily reset\n3:36 What Primegy is\n4:18 Smart ways to combine tasks\n5:01 Stamp Rush explained\n5:43 A ten minute routine\n6:26 What is your daily routine"
+  },
+  "aniimo-how-to-get-wisptis": {
+    "spec": "scripts/specs/games/aniimo_120_aniimo-how-to-get-wisptis.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-1c50592c.mp4"
+  },
+  "aniimo-waleetle-best-build": {
+    "spec": "scripts/specs/games/aniimo_121_aniimo-waleetle-best-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e5934e92.mp4"
+  },
+  "aniimo-cubbo-best-build": {
+    "spec": "scripts/specs/games/aniimo_122_aniimo-cubbo-best-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-eb969b4e.mp4"
+  },
+  "aniimo-fentuft-best-build": {
+    "spec": "scripts/specs/games/aniimo_123_aniimo-fentuft-best-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-32114a3e.mp4"
+  },
+  "aniimo-budsquire-best-build": {
+    "spec": "scripts/specs/games/aniimo_124_aniimo-budsquire-best-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b4ac4d1f.mp4"
+  },
+  "palworld-guide-lyleen-planting-seven-healer": {
+    "spec": "scripts/specs/games/palguide_105_lyleen-planting-seven-healer.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-90bf172b.mp4"
+  },
+  "palworld-guide-faleris-fire-flying-mount": {
+    "spec": "scripts/specs/games/palguide_106_faleris-fire-flying-mount.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f3d6837f.mp4"
+  },
+  "palworld-guide-lunaris-antigravity-carry-weight": {
+    "spec": "scripts/specs/games/palguide_112_lunaris-antigravity-carry-weight.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5e6c0836.mp4"
   }
 }

@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-how-to-get-baleetle-snowfield",
+  "slot": "aniimo",
+  "order": 138,
+  "headline": "Snowfield Baleetle",
+  "title": "Snowfield Baleetle | Only Spawns in Snow | Aniimo Guide",
+  "video_script": "Snowfield Baleetle is a special Ice and Earth form, and it only appears in Russet Highlands when the weather is snowy. If it is sunny, change the weather first, then search the snowy area. Once you catch it, raise Baleetle to level thirty nine to evolve it into Waleetle. Which snow form are you hunting first? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:9",
+      "label": "Snowfield Baleetle"
+    },
+    {
+      "image": "steam:4126040:10",
+      "fact": "Russet Highlands",
+      "sub": "Snowy weather only"
+    },
+    {
+      "image": "steam:4126040:11",
+      "fact": "Ice and Earth",
+      "sub": "Special regional form"
+    },
+    {
+      "image": "steam:4126040:12",
+      "fact": "Level thirty nine",
+      "sub": "Evolves into Waleetle"
+    }
+  ],
+  "description": "Aniimo's Snowfield Baleetle is an Ice and Earth form found in Russet Highlands, but only during snowy weather. Level it to 39 to evolve it into Waleetle.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Baleetle",
+    "Snowfield Baleetle",
+    "Waleetle",
+    "Russet Highlands",
+    "Aniimo snow weather",
+    "Pawprint Studio"
+  ]
+}

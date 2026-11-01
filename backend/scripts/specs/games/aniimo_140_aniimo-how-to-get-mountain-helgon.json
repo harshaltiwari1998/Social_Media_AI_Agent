@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-how-to-get-mountain-helgon",
+  "slot": "aniimo",
+  "order": 140,
+  "headline": "Mountain Helgon",
+  "title": "Mountain Helgon | Catch It or Evolve It | Aniimo Guide",
+  "video_script": "Mountain Helgon is a Wind form in Russet Highlands, found above the stone pillars at level forty five to fifty. The catch rate is only nineteen percent, so bring plenty of Anipods. You can also evolve it from Helmwhelp at level forty eight, but you must open thirty chests in the world first. Will you catch it or evolve it? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:17",
+      "label": "Mountain Helgon"
+    },
+    {
+      "image": "steam:4126040:18",
+      "fact": "Russet Highlands",
+      "sub": "Above the stone pillars"
+    },
+    {
+      "image": "steam:4126040:19",
+      "fact": "Nineteen percent",
+      "sub": "Base catch rate"
+    },
+    {
+      "image": "steam:4126040:20",
+      "fact": "Level forty eight",
+      "sub": "Plus thirty chests opened"
+    }
+  ],
+  "description": "Aniimo's Mountain Helgon is a Wind form in Russet Highlands at levels 45 to 50 with a 19 percent catch rate. Or evolve Helmwhelp at level 48 after opening 30 chests.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Helgon",
+    "Mountain Helgon",
+    "Helmwhelp",
+    "Aniimo catch rate",
+    "Russet Highlands",
+    "Pawprint Studio"
+  ]
+}

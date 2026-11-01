@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-how-to-get-mountain-hummin",
+  "slot": "aniimo",
+  "order": 141,
+  "headline": "Mountain Hummin",
+  "title": "Mountain Hummin | Skip the Basic Form | Aniimo Guide",
+  "video_script": "Mountain Hummin is a Grass form, and you find it in the Sea of Flowers or in Berylline Vale. Check the entry in your Aniilog, because the basic Hummin lives in other regions like Nimbus Fields and Blitzwood. At level eighteen, Hummin evolves into Hexxin or Tuckin. Which one would you pick? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:21",
+      "label": "Mountain Hummin"
+    },
+    {
+      "image": "steam:4126040:22",
+      "fact": "Sea of Flowers",
+      "sub": "Or Berylline Vale"
+    },
+    {
+      "image": "steam:4126040:23",
+      "fact": "Grass element",
+      "sub": "Mountain form"
+    },
+    {
+      "image": "steam:4126040:24",
+      "fact": "Level eighteen",
+      "sub": "Hexxin or Tuckin"
+    }
+  ],
+  "description": "Aniimo's Mountain Hummin is a Grass form found in the Sea of Flowers and Berylline Vale. At level 18 Hummin evolves into Hexxin or Tuckin.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Hummin",
+    "Mountain Hummin",
+    "Hexxin",
+    "Tuckin",
+    "Sea of Flowers",
+    "Pawprint Studio"
+  ]
+}

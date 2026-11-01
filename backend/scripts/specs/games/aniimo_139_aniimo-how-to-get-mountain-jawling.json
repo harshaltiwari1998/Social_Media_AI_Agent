@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-how-to-get-mountain-jawling",
+  "slot": "aniimo",
+  "order": 139,
+  "headline": "Mountain Jawling",
+  "title": "Mountain Jawling | Hidden in a Ruin | Aniimo Guide",
+  "video_script": "Mountain Jawling is a Wind form of Jawling, and you find it in Russet Highlands, not by roaming but by solving a puzzle in a hidden ruin. Catch it, then raise it to level thirty eight and it evolves into Helmwhelp. Helmwhelp can then reach Helgon at level forty eight. Have you solved the Jawling ruin yet? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:13",
+      "label": "Mountain Jawling"
+    },
+    {
+      "image": "steam:4126040:14",
+      "fact": "Russet Highlands",
+      "sub": "Hidden ruin puzzle"
+    },
+    {
+      "image": "steam:4126040:15",
+      "fact": "Wind element",
+      "sub": "Special mountain form"
+    },
+    {
+      "image": "steam:4126040:16",
+      "fact": "Level thirty eight",
+      "sub": "Evolves into Helmwhelp"
+    }
+  ],
+  "description": "Aniimo's Mountain Jawling is a Wind form from Russet Highlands, found by solving a puzzle in a hidden ruin. At level 38 it evolves into Helmwhelp, and later Helgon at level 48.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Jawling",
+    "Mountain Jawling",
+    "Helmwhelp",
+    "Helgon",
+    "Russet Highlands",
+    "Pawprint Studio"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "palworld-guide-incineram-flameclaw-kindling-mining",
+  "slot": "palguide",
+  "order": 122,
+  "headline": "Incineram fire worker",
+  "title": "Incineram | Fire Claw Fighter And Base Worker | Palworld Guide",
+  "video_script": "Need a fire worker for your Palworld one point zero base? Incineram spawns around the volcanic areas at about level thirty to forty. Its partner skill, Flameclaw Hunter, sends it at your target with Hellfire Claw, boosting that attack up to two point five times. At base it works Kindling level three and Mining level three. Is Incineram on your team? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:25",
+      "label": "Incineram"
+    },
+    {
+      "image": "pal:Incineram",
+      "fact": "Volcanic areas",
+      "sub": "About level 30 to 40"
+    },
+    {
+      "image": "steam:1623730:27",
+      "fact": "Flameclaw Hunter",
+      "sub": "Hellfire Claw up to 2.5x"
+    },
+    {
+      "image": "pal:Incineram",
+      "fact": "Kindling 3",
+      "sub": "Mining 3 too"
+    }
+  ],
+  "description": "Incineram in Palworld 1.0 is a volcanic Fire Pal that works Kindling and Mining at level three and attacks with Hellfire Claw.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Incineram",
+    "Incineram work suitability",
+    "Palworld Pal guide",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld partner skill",
+    "Palworld kindling",
+    "Palworld mining",
+    "Palworld fire Pals"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "palworld-guide-warsect-cast-iron-shell-transport",
+  "slot": "palguide",
+  "order": 123,
+  "headline": "Warsect transport king",
+  "title": "Warsect | Barrier Beetle And Transport Worker | Palworld Guide",
+  "video_script": "Looking for a tough transport Pal in Palworld one point zero? Warsect works Transporting level five and Lumbering level four, plus Planting and Handiwork at level three. Its partner skill, Cast-Iron Shell, gives you a protective barrier after you land five melee hits within five to nine seconds. Wild ones sit around level thirty four to thirty eight. Will you catch Warsect? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:30",
+      "label": "Warsect"
+    },
+    {
+      "image": "pal:Warsect",
+      "fact": "Transporting 5",
+      "sub": "Lumbering 4"
+    },
+    {
+      "image": "steam:1623730:32",
+      "fact": "Cast-Iron Shell",
+      "sub": "Barrier after 5 melee hits"
+    },
+    {
+      "image": "pal:Warsect",
+      "fact": "Level 34 to 38",
+      "sub": "Wild spawns"
+    }
+  ],
+  "description": "Warsect in Palworld 1.0 works Transporting level five and Lumbering level four and gives a barrier with Cast-Iron Shell.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Warsect",
+    "Warsect work suitability",
+    "Palworld Pal guide",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld partner skill",
+    "Palworld transporting",
+    "Palworld lumbering"
+  ]
+}

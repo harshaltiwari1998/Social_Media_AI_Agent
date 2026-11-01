@@ -1,0 +1,46 @@
+{
+  "id": "palworld-guide-menasting-steel-scorpion-mining",
+  "slot": "palguide",
+  "order": 125,
+  "headline": "Menasting mining drops",
+  "title": "Menasting | Desert Miner With Electric Drop Boost | Palworld Guide",
+  "video_script": "Farming Electric Pals in Palworld one point zero? Menasting roams the Twilight Dunes at about level thirty one to forty three. Its partner skill, Steel Scorpion, adds five to ten percent defense and makes defeated Electric Pals drop forty to eighty percent more items. At base it works Mining level five and Lumbering level three. Will you recruit Menasting? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:40",
+      "label": "Menasting"
+    },
+    {
+      "image": "pal:Menasting",
+      "fact": "Twilight Dunes",
+      "sub": "About level 31 to 43"
+    },
+    {
+      "image": "steam:1623730:42",
+      "fact": "40 to 80 percent",
+      "sub": "More drops from Electric Pals"
+    },
+    {
+      "image": "pal:Menasting",
+      "fact": "Mining 5",
+      "sub": "Lumbering 3"
+    }
+  ],
+  "description": "Menasting in Palworld 1.0 lives in the Twilight Dunes, boosts Electric Pal drops and works Mining level five.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Menasting",
+    "Menasting work suitability",
+    "Palworld Pal guide",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld partner skill",
+    "Palworld drops",
+    "Palworld mining"
+  ]
+}

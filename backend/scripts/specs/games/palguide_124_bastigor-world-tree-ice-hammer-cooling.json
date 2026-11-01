@@ -1,0 +1,47 @@
+{
+  "id": "palworld-guide-bastigor-world-tree-ice-hammer-cooling",
+  "slot": "palguide",
+  "order": 124,
+  "headline": "Bastigor ice mount",
+  "title": "Bastigor | Ice Hammer Mount And Cooling Worker | Palworld Guide",
+  "video_script": "Cooling your Palworld one point zero base? Bastigor is a World Tree Pal found at roughly level seventy five to eighty. You can ride it, and its partner skill, Blizzard Crash, delivers crushing blows with a hammer forged from ice. At base it works Cooling level eight, Lumbering level six and Mining level five. Do you want Bastigor? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:35",
+      "label": "Bastigor"
+    },
+    {
+      "image": "pal:Bastigor",
+      "fact": "World Tree",
+      "sub": "Level 75 to 80"
+    },
+    {
+      "image": "steam:1623730:37",
+      "fact": "Blizzard Crash",
+      "sub": "Ride it, swing an ice hammer"
+    },
+    {
+      "image": "pal:Bastigor",
+      "fact": "Cooling 8",
+      "sub": "Lumbering 6, Mining 5"
+    }
+  ],
+  "description": "Bastigor in Palworld 1.0 is a rideable World Tree Ice Pal with Cooling level eight, Lumbering six and Mining five.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Bastigor",
+    "Bastigor work suitability",
+    "Palworld Pal guide",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld partner skill",
+    "Palworld cooling",
+    "Palworld mounts",
+    "Palworld World Tree"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "palworld-guide-bushi-brandish-blade-lumbering",
+  "slot": "palguide",
+  "order": 126,
+  "headline": "Bushi blade lumberer",
+  "title": "Bushi | Sword Fighter That Chops Wood | Palworld Guide",
+  "video_script": "Want a swordsman on your Palworld one point zero team? Bushi spawns across the Palpagos Islands from about level twenty five. Its partner skill, Brandish Blade, sends it at your target with Iaigiri, boosting that attack from one point one up to two point five times. At base it works Lumbering level three, with Kindling, Handiwork and Transporting at level two. Is Bushi in your party? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:45",
+      "label": "Bushi"
+    },
+    {
+      "image": "pal:Bushi",
+      "fact": "Brandish Blade",
+      "sub": "Iaigiri up to 2.5x"
+    },
+    {
+      "image": "steam:1623730:47",
+      "fact": "Lumbering 3",
+      "sub": "Kindling, Handiwork, Transporting 2"
+    },
+    {
+      "image": "pal:Bushi",
+      "fact": "From level 25",
+      "sub": "Wild on Palpagos"
+    }
+  ],
+  "description": "Bushi in Palworld 1.0 is a sword Pal with Brandish Blade and Lumbering level three.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Bushi",
+    "Bushi work suitability",
+    "Palworld Pal guide",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld partner skill",
+    "Palworld lumbering",
+    "Palworld combat Pals"
+  ]
+}

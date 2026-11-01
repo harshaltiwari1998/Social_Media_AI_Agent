@@ -1,0 +1,46 @@
+{
+  "id": "palworld-guide-orserk-world-tree-thunder-dragon",
+  "slot": "palguide",
+  "order": 121,
+  "headline": "Orserk attack boost",
+  "title": "Orserk | Thunder Dragon That Buffs Your Pal | Palworld Guide",
+  "video_script": "Want a stronger team in Palworld one point zero? Orserk lives inside the World Tree at roughly level seventy four to eighty. Its partner skill, Ferocious Thunder Dragon, makes every bullet hit boost the attack and defense of the Pal fighting beside you by one to five percent, stacking up to thirty times. At base it hits Generating Electricity level eight. Will you hunt Orserk? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:20",
+      "label": "Orserk"
+    },
+    {
+      "image": "pal:Orserk",
+      "fact": "World Tree",
+      "sub": "Level 74 to 80"
+    },
+    {
+      "image": "steam:1623730:22",
+      "fact": "Stacks 30 times",
+      "sub": "Attack and defense boost"
+    },
+    {
+      "image": "pal:Orserk",
+      "fact": "Electricity 8",
+      "sub": "Top power generator"
+    }
+  ],
+  "description": "Orserk in Palworld 1.0 lives in the World Tree, buffs your fighting Pal with bullet hits and generates electricity at level eight.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Orserk",
+    "Orserk work suitability",
+    "Palworld Pal guide",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld partner skill",
+    "Palworld electricity",
+    "Palworld World Tree"
+  ]
+}

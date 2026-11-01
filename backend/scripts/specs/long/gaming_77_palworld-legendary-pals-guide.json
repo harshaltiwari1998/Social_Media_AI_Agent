@@ -1,0 +1,120 @@
+{
+  "id": "palworld-legendary-pals-guide",
+  "category": "gaming",
+  "order": 77,
+  "series": "palworld",
+  "title": "Palworld Legendary Pals Guide | All Six Legends, Locations and Counters | Palworld 1.0",
+  "description": "All six Palworld 1.0 legendary Pals: Jetragon, Frostallion, Frostallion Noct, Paladius, Necromus and Neptilius. Where to find them, the element to bring, armor tips and how to catch them.",
+  "hashtags": [
+    "Palworld",
+    "PalworldGuide",
+    "LegendaryPals"
+  ],
+  "tags": [
+    "Palworld legendary Pals",
+    "Palworld 1.0",
+    "Palworld Jetragon",
+    "Palworld Frostallion",
+    "Palworld Paladius",
+    "Palworld Necromus",
+    "Palworld Neptilius",
+    "Palworld guide"
+  ],
+  "thumbnail": {
+    "image": "pal:Jetragon",
+    "text": "ALL 6 LEGENDARY PALS"
+  },
+  "sections": [
+    {
+      "heading": "Six legends, one hunt",
+      "script": "Palworld one point zero has six legendary Pals, and every one of them is a boss fight before it is a catch. They are Jetragon, Frostallion, Frostallion Noct, Paladius, Necromus and Neptilius. Each one guards its own arena, hits very hard and has a very low capture rate, so you cannot just walk up and throw a sphere. In this guide we go through all six: where to find them, which element to bring, what gear to wear, and the tips that save you spheres. The sources I checked agree on the roster and the counters, but they disagree on a few numbers, so where that happens I will say roughly or leave it out. Legendary Pals are some of the strongest creatures in the game, so catching one is a real milestone for any trainer, whether you want a powerful fighter, a rare mount or just a full Paldeck. Take your time, build a proper team for each target, and enjoy the chase. Let's start with the preparation.",
+      "images": [
+        "steam:1623730:1",
+        "pal:Jetragon",
+        "pal:Frostallion"
+      ]
+    },
+    {
+      "heading": "Prepare before you go",
+      "script": "Legendary fights punish a weak team. Bring Pals near your top level, plus a few that hit the boss's weakness. Guides recommend Legendary Spheres at the very least, and Ultimate or Ancient Spheres if you have them, because lesser spheres waste attempts. Expect several sphere breaks per legendary, so pack far more than you think you need. Armor matters too. Many of these arenas are very hot or very cold, so bring heat resistant armor for the desert and the volcano, and cold resistant armor for the snow. A ranged weapon such as a rocket launcher or an assault rifle helps a lot. Bring plenty of healing food too, because these fights can last a long time and one mistake can cost you a full health bar. Craft your armor before you leave, and make sure your base is running smoothly, so you can focus on the fight. Preparation is half of every legendary fight.",
+      "images": [
+        "steam:1623730:2",
+        "pal:Orserk",
+        "pal:Blazamut"
+      ]
+    },
+    {
+      "heading": "How to catch a legendary",
+      "script": "The method is the same for all six. Lower the boss's health as far as you can before the first throw, ideally deep into the red. These bosses are Alpha Pals, and guides note that they are harder to catch when their health is high. Use two or three Pals that hit the weakness, so the fight stays short. Throw your sphere during the boss's recovery animation, not in the middle of an attack. If a sphere breaks, do not panic. Weaken the boss again and try the next one. Patience and a big stack of spheres beat clever tricks here. It also helps to save your game progress, rest and heal fully before each new attempt, so you start every fight with full health and a fresh team. Now let's meet the first legend, the one that lives in the sky.",
+      "images": [
+        "steam:1623730:3",
+        "pal:Jetragon",
+        "pal:Orserk"
+      ]
+    },
+    {
+      "heading": "Jetragon, the sky dragon",
+      "script": "Jetragon is a Dragon Pal, and in one point zero it is not where veterans remember it. It now lives in the Sunreach sky islands. To get there you must first defeat Bjorn and Bastigor at the Feybreak Tower, then use the altar on the south west side of the tower. A flying mount helps you hop between the floating islands. Two sources list Jetragon at roughly level seventy, the highest of the six. Its weakness is Ice, so a full Ice team works best, and Frostallion is the top pick. Jetragon uses fire attacks, so wear heat resistant armor. Use your best spheres, because its capture rate is very low.",
+      "images": [
+        "pal:Jetragon",
+        "steam:1623730:5",
+        "pal:Frostallion"
+      ]
+    },
+    {
+      "heading": "Frostallion, the ice horse",
+      "script": "Frostallion is an Ice Pal, and it is found west of the Astral Mountains in the freezing north west. One guide says its location is unchanged since before one point zero. The arena is bitterly cold, so bring cold resistant armor or you will lose health just standing there. Ice loses to Fire, so bring Fire Pals. The guides I read suggest Blazamut, Jormuntide Ignis and Wixen. It is also the best Pal to bring against Jetragon, so catching it early in your legendary run makes the sky dragon much easier.",
+      "images": [
+        "pal:Frostallion",
+        "steam:1623730:8",
+        "pal:Blazamut"
+      ]
+    },
+    {
+      "heading": "Paladius and Necromus",
+      "script": "These two share one arena at the far north edge of the Deep Sand Dunes, near the Desiccated Desert. Paladius is a Neutral Pal and Necromus is a Dark Pal. By default they fight you together, and that is the hardest part of the encounter. The trick is that Paladius falls asleep at night. Arrive after dark and you can fight Necromus alone, then come back for Paladius. Necromus is weak to Dragon, so bring Dragon Pals. Paladius is weak to Dark, so bring Dark Pals such as Shadowbeak. The desert is hot by day and cold at night, so swap your armor to match the time you arrive.",
+      "images": [
+        "pal:Paladius",
+        "pal:Necromus",
+        "pal:Shadowbeak"
+      ]
+    },
+    {
+      "heading": "Neptilius, the glacial water boss",
+      "script": "Neptilius is a Water Pal that lives on the Isle of the Glacial Core, a small island just west of the Deep Sand Dunes. Treat it as a dedicated boss trip, and bring a full stack of spheres. Its weakness is Electric, so bring a full Electric team. Orserk is the best overall pick, with Helzephyr Lux as one of the backups. Neptilius can use Ice moves now and then, so cold resistant armor is a smart choice. Two sources put it at roughly level sixty. An assault rifle works well, and it is one of the friendlier legendary fights.",
+      "images": [
+        "pal:Neptilius",
+        "steam:1623730:12",
+        "pal:Orserk"
+      ]
+    },
+    {
+      "heading": "Frostallion Noct, the dark twin",
+      "script": "Frostallion Noct is a Dark Pal, the shadowy version of Frostallion. Guides place its sanctuary in the north east of the map, across the Deep Sand Dunes. One guide even gives a different location from its own text, so check your in game map before you travel. Noct is weak to Dragon, so bring Dragon Pals. Jetragon is the best pick if you already caught it, with Chillet and Relaxaurus as other options. There is also a second route. Two sources say you can get Frostallion Noct through breeding, so you can skip the fight if you already own the right Pals. Levels are listed differently between sources, so expect roughly level sixty.",
+      "images": [
+        "pal:Frostallion Noct",
+        "steam:1623730:15",
+        "pal:Jetragon"
+      ]
+    },
+    {
+      "heading": "The best order to hunt them",
+      "script": "Here is a simple route. Start with Neptilius, because Electric Pals are easy to build and the fight is friendly. Next, take Frostallion with a Fire team, because you will need it later. Then go to the desert at night and handle Necromus first and Paladius second. Once you have Dragon Pals, go for Frostallion Noct. Finish with Jetragon, since it needs the Feybreak Tower to be cleared and a strong Ice team. Do not rush all six in one day. Heal, restock spheres and craft the right armor between every attempt. Each legendary you catch also makes the next fight easier, because you gain counters for the others.",
+      "images": [
+        "steam:1623730:20",
+        "pal:Paladius",
+        "pal:Neptilius"
+      ]
+    },
+    {
+      "heading": "Your legendary checklist",
+      "script": "Let's put it all together. Jetragon needs Ice and heat armor. Frostallion needs Fire and cold armor. Paladius needs Dark, Necromus needs Dragon, and both need night time patience. Neptilius needs Electric. Frostallion Noct needs Dragon, or a trip through breeding. Bring Legendary Spheres at the minimum, bring a lot of them, and always weaken the boss first. Now it is your turn. Which legendary Pal did you catch first, and which one broke the most spheres? Tell us in the comments. If this guide helped, like the video and subscribe to HarryBeast Gaming for more Palworld guides. Good luck, trainer.",
+      "images": [
+        "steam:1623730:1",
+        "pal:Jetragon",
+        "pal:Frostallion Noct",
+        "pal:Necromus"
+      ]
+    }
+  ]
+}

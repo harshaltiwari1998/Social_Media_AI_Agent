@@ -1,0 +1,61 @@
+{
+  "title": "Squirtle to Wartortle to Blastoise evolution",
+  "backend": "wan",
+  "voice": "en-US-GuyNeural",
+  "narration": [
+    "Squirtle is getting ready for something big.",
+    "Its body starts to glow. Squirtle is evolving!",
+    "Squirtle evolved into Wartortle, and the power keeps growing!",
+    "And now Wartortle becomes Blastoise! Who is your favourite Water-type Pokemon? Comment below!"
+  ],
+  "clips": [
+    {
+      "image": {
+        "poke": "squirtle",
+        "background": "wiki:Wind wave"
+      },
+      "shots": [
+        [
+          "the creature looks around determined, water and spray float around it, anime style, smooth animation, camera slowly pushes in",
+          5
+        ]
+      ]
+    },
+    {
+      "image": {
+        "poke": "squirtle",
+        "background": "wiki:Wind wave"
+      },
+      "shots": [
+        [
+          "the creature starts glowing bright white, swirling water and spray spins around its body, light beams shoot out, evolution transformation, anime style",
+          5
+        ]
+      ]
+    },
+    {
+      "image": {
+        "poke": "wartortle",
+        "background": "wiki:Wind wave"
+      },
+      "shots": [
+        [
+          "the creature starts glowing bright, swirling water and spray spins around its body, light beams shoot out, evolution transformation, anime style",
+          5
+        ]
+      ]
+    },
+    {
+      "image": {
+        "poke": "blastoise",
+        "background": "wiki:Wind wave"
+      },
+      "shots": [
+        [
+          "the creature roars and unleashes a powerful attack of water and spray, epic low angle camera, anime style, dynamic motion",
+          5
+        ]
+      ]
+    }
+  ]
+}

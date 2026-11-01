@@ -5609,5 +5609,19 @@
         }
       ]
     }
+  },
+  "elder-scrolls-franchise-history": {
+    "spec": "scripts/specs/long/gaming_59_elder-scrolls-franchise-history.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-97394fb0.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-97394fb0-thumb.jpg",
+    "chapters": "0:00 A world with no walls\n0:43 From sports games to Arena\n1:30 Daggerfall goes enormous\n2:18 Morrowind, the strange one\n3:03 Oblivion opens the gates\n3:49 Skyrim and the dragons\n4:33 Why Skyrim never dies\n5:15 The Elder Scrolls Online\n6:00 Oblivion returns\n6:44 The long wait for number six\n7:30 Which Elder Scrolls is yours"
+  },
+  "doom-franchise-history": {
+    "spec": "scripts/specs/long/gaming_60_doom-franchise-history.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-6ad18c12.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-6ad18c12-thumb.jpg",
+    "chapters": "0:00 Rip and tear\n0:41 Id Software and a new engine\n1:24 The shareware explosion\n2:10 Doom two and the mod era\n2:54 Doom three goes dark\n3:37 The lost years\n4:20 Doom roars back\n5:04 Doom Eternal\n5:45 The Dark Ages\n6:28 Why Doom lasts"
   }
 }

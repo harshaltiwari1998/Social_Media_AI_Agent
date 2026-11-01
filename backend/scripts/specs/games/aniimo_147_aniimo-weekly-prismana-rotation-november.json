@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-weekly-prismana-rotation-november",
+  "slot": "aniimo",
+  "order": 147,
+  "headline": "Weekly Prismana",
+  "title": "Weekly Prismana | November Schedule | Aniimo Guide",
+  "video_script": "Aniimo has a special Prismana each week in November. Pouchwisp runs from November second to eighth. Royalby follows from the ninth to the fifteenth. Then Jeburst runs the sixteenth to the twenty second, and Glameep the twenty third to the twenty ninth. They are tied to Vein Abundance events, so you can only catch them in their week. Which Prismana are you hunting? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:42",
+      "label": "Weekly Prismana"
+    },
+    {
+      "image": "steam:4126040:43",
+      "fact": "Pouchwisp",
+      "sub": "November 2 to 8"
+    },
+    {
+      "image": "steam:4126040:44",
+      "fact": "Royalby",
+      "sub": "November 9 to 15"
+    },
+    {
+      "image": "steam:4126040:45",
+      "fact": "Jeburst",
+      "sub": "November 16 to 22"
+    },
+    {
+      "image": "steam:4126040:46",
+      "fact": "Glameep",
+      "sub": "November 23 to 29"
+    }
+  ],
+  "description": "Aniimo's weekly special Prismana in November 2026: Pouchwisp (2 to 8), Royalby (9 to 15), Jeburst (16 to 22) and Glameep (23 to 29), tied to Vein Abundance events. Dates are listed without a time zone.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Aniimo Prismana",
+    "Prismana Pouchwisp",
+    "Aniimo event",
+    "Vein Abundance",
+    "Pawprint Studio"
+  ],
+  "expires": "2026-11-29"
+}

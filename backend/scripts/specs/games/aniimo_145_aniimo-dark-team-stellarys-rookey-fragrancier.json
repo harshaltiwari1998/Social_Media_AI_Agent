@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-dark-team-stellarys-rookey-fragrancier",
+  "slot": "aniimo",
+  "order": 145,
+  "headline": "Dark team",
+  "title": "Dark Team | Stellarys Rookey Fragrancier | Aniimo Guide",
+  "video_script": "Want a strong Dark team in Aniimo? Several guides agree on the same core. Stellarys is the damage dealer, Rookey adds Break, and Fragrancier supports the team with buffs. Teams hold four Aniimo, and the fourth slot is Hexxin or Dreaple depending on the guide. Dark teams are weak to Wind and Light, so keep a backup for those fights. Which fourth Aniimo would you pick? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:32",
+      "label": "Dark Team"
+    },
+    {
+      "image": "steam:4126040:33",
+      "fact": "Stellarys",
+      "sub": "DPS"
+    },
+    {
+      "image": "steam:4126040:34",
+      "fact": "Rookey",
+      "sub": "Break"
+    },
+    {
+      "image": "steam:4126040:35",
+      "fact": "Fragrancier",
+      "sub": "Support buffs"
+    },
+    {
+      "image": "steam:4126040:36",
+      "fact": "Weak to Wind and Light",
+      "sub": "Fourth slot varies"
+    }
+  ],
+  "description": "A Dark team for Aniimo: Stellarys as DPS, Rookey for Break and Fragrancier for support, with Hexxin or Dreaple as a fourth pick. Dark is weak to Wind and Light.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Aniimo best team",
+    "Aniimo Dark team",
+    "Stellarys",
+    "Rookey",
+    "Fragrancier",
+    "Pawprint Studio"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-aniipod-maker-rock-clay-shell",
+  "slot": "aniimo",
+  "order": 143,
+  "headline": "Aniipod Maker",
+  "title": "Aniipod Maker | Craft Your Own Aniipods | Aniimo Guide",
+  "video_script": "You can craft Aniipods at home. The Aniipod Maker is a Lightning facility with three recipes. Twelve Rock makes an Aniipod, ten Clay makes an Aniipod Pro, and six Shell makes an Aniipod Mega. The Mega needs a level three Maker and a level three Lightning worker. Rock, Clay and Shell all come from your Mine. Pro catches at one point five times, Mega at two times. Are you crafting your own Aniipods? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:22",
+      "label": "Aniipod Maker"
+    },
+    {
+      "image": "steam:4126040:23",
+      "fact": "Twelve Rock",
+      "sub": "Makes one Aniipod"
+    },
+    {
+      "image": "steam:4126040:24",
+      "fact": "Ten Clay",
+      "sub": "Makes an Aniipod Pro"
+    },
+    {
+      "image": "steam:4126040:25",
+      "fact": "Six Shell",
+      "sub": "Makes an Aniipod Mega"
+    },
+    {
+      "image": "steam:4126040:26",
+      "fact": "Level three Maker",
+      "sub": "Mega needs Lightning level three"
+    }
+  ],
+  "description": "Aniimo's Aniipod Maker turns 12 Rock into an Aniipod, 10 Clay into an Aniipod Pro and 6 Shell into an Aniipod Mega. The Mega needs a level 3 Maker and a Lightning level 3 worker; Rock, Clay and Shell come from the Mine.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Aniipod Maker",
+    "Aniipod Mega",
+    "Aniimo Homeland",
+    "Aniimo crafting",
+    "Pawprint Studio"
+  ]
+}

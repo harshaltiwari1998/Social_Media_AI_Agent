@@ -5105,5 +5105,33 @@
       ],
       "type": "fire"
     }
+  },
+  "aniimo-cornet-best-build": {
+    "spec": "scripts/specs/games/aniimo_104_aniimo-cornet-best-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f4cb73ee.mp4"
+  },
+  "aniimo-minespine-best-build": {
+    "spec": "scripts/specs/games/aniimo_107_aniimo-minespine-best-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-41ad9cd0.mp4"
+  },
+  "aniimo-piopiota-best-build": {
+    "spec": "scripts/specs/games/aniimo_108_aniimo-piopiota-best-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f356f98e.mp4"
+  },
+  "aniimo-helion-best-build": {
+    "spec": "scripts/specs/games/aniimo_118_aniimo-helion-best-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-680c7a3a.mp4"
+  },
+  "aniimo-how-to-get-waleetle": {
+    "spec": "scripts/specs/games/aniimo_119_aniimo-how-to-get-waleetle.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-1adf2fa7.mp4"
+  },
+  "palworld-guide-univolt-electric-mount": {
+    "spec": "scripts/specs/games/palguide_102_univolt-electric-mount.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-231f9918.mp4"
+  },
+  "palworld-guide-mammorest-logging-mining-mount": {
+    "spec": "scripts/specs/games/palguide_103_mammorest-logging-mining-mount.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-89139c63.mp4"
   }
 }

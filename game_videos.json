@@ -5133,5 +5133,9 @@
   "palworld-guide-mammorest-logging-mining-mount": {
     "spec": "scripts/specs/games/palguide_103_mammorest-logging-mining-mount.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-89139c63.mp4"
+  },
+  "palworld-guide-elizabee-queen-bee-worker": {
+    "spec": "scripts/specs/games/palguide_104_elizabee-queen-bee-worker.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-75ec4b87.mp4"
   }
 }

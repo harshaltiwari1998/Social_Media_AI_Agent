@@ -5091,5 +5091,19 @@
   "aniimo-how-to-get-cornet": {
     "spec": "scripts/specs/games/aniimo_102_aniimo-how-to-get-cornet.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ab519d55.mp4"
+  },
+  "poke-charmander": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/pokemon/charmander/final.mp4",
+    "data": {
+      "id": "charmander",
+      "stages": [
+        "charmander",
+        "charmeleon",
+        "charizard"
+      ],
+      "type": "fire"
+    }
   }
 }

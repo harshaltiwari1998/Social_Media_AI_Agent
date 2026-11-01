@@ -5137,5 +5137,477 @@
   "palworld-guide-elizabee-queen-bee-worker": {
     "spec": "scripts/specs/games/palguide_104_elizabee-queen-bee-worker.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-75ec4b87.mp4"
+  },
+  "deal-steam-deal-1989270-60": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-1989270-60.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-8d0bcd57.mp4",
+    "data": {
+      "id": "deal-steam-deal-1989270-60",
+      "slot": "deals",
+      "badge": "STEAM WEEKEND DEAL",
+      "headline": "Steam deal",
+      "title": "Slay the Princess — The Pristine Cut 60% OFF on Steam | Now Rs 323 | Steam Deal Nov 1",
+      "video_script": "Today's Steam Weekend Deal is Slay the Princess — The Pristine Cut at 60 percent off, down from 809 rupees to just 323 rupees. You're here to slay the princess. Don't believe her lies. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1989270/74a54248cfec29144de5e867a333c30e6d62801d/header.jpg?t=1791026492",
+          "label": "Slay the Princess — The Pristine Cut"
+        },
+        {
+          "image": "steam:1989270:0",
+          "fact": "-60%  Rs 323",
+          "sub": "was Rs 809"
+        },
+        {
+          "image": "steam:1989270:1",
+          "fact": "Adventure + Indie + RPG",
+          "sub": "Black Tabby Games"
+        },
+        {
+          "image": "steam:1989270:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Weekend Deal is Slay the Princess — The Pristine Cut at 60 percent off, down from 809 rupees to just 323 rupees.\nhttps://store.steampowered.com/app/1989270\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 1 2026, 22:33 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Slay the Princess — The Pristine Cut",
+        "Slay the Princess — The Pristine Cut sale",
+        "Slay the Princess — The Pristine Cut price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-335670-60": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-335670-60.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e60d9bd1.mp4",
+    "data": {
+      "id": "deal-steam-deal-335670-60",
+      "slot": "deals",
+      "badge": "STEAM DAILY DEAL",
+      "headline": "Steam deal",
+      "title": "LISA: The Painful 60% OFF on Steam | Now Rs 445 | Steam Deal Nov 1",
+      "video_script": "Today's Steam Daily Deal is LISA: The Painful at 60 percent off, down from 1,113 rupees to just 445 rupees. The miserable journey of a broken man... Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/335670/header.jpg?t=1756162720",
+          "label": "LISA: The Painful"
+        },
+        {
+          "image": "steam:335670:0",
+          "fact": "-60%  Rs 445",
+          "sub": "was Rs 1,113"
+        },
+        {
+          "image": "steam:335670:1",
+          "fact": "Adventure + Indie + RPG",
+          "sub": "Dingaling Productions"
+        },
+        {
+          "image": "steam:335670:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Daily Deal is LISA: The Painful at 60 percent off, down from 1,113 rupees to just 445 rupees.\nhttps://store.steampowered.com/app/335670\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 1 2026, 22:33 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "LISA: The Painful",
+        "LISA: The Painful sale",
+        "LISA: The Painful price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-648800-33": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-648800-33.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-099765b0.mp4",
+    "data": {
+      "id": "deal-steam-deal-648800-33",
+      "slot": "deals",
+      "badge": "STEAM WEEKEND DEAL",
+      "headline": "Steam deal",
+      "title": "Raft 33% OFF on Steam | Now Rs 613 | Steam Deal Nov 1",
+      "video_script": "Today's Steam Weekend Deal is Raft at 33 percent off, down from 915 rupees to just 613 rupees. The deal ends on November 5. Raft™ throws you and your friends into an epic oceanic adventure! Alone or together, players battle to survive a perilous voyage across a vast sea! Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/648800/header.jpg?t=1727184011",
+          "label": "Raft"
+        },
+        {
+          "image": "steam:648800:0",
+          "fact": "-33%  Rs 613",
+          "sub": "was Rs 915"
+        },
+        {
+          "image": "steam:648800:1",
+          "fact": "Adventure + Indie + Simulation",
+          "sub": "Redbeet Interactive"
+        },
+        {
+          "image": "steam:648800:2",
+          "fact": "Ends Nov 5",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Weekend Deal is Raft at 33 percent off, down from 915 rupees to just 613 rupees. The deal ends on November 5.\nhttps://store.steampowered.com/app/648800\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 1 2026, 22:33 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Raft",
+        "Raft sale",
+        "Raft price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-1588550-30": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-1588550-30.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-2a93e7c2.mp4",
+    "data": {
+      "id": "deal-steam-deal-1588550-30",
+      "slot": "deals",
+      "badge": "STEAM WEEKEND DEAL",
+      "headline": "Steam deal",
+      "title": "Cairn 30% OFF on Steam | Now Rs 910 | Steam Deal Nov 1",
+      "video_script": "Today's Steam Weekend Deal is Cairn at 30 percent off, down from 1,300 rupees to just 910 rupees. Reach a summit never climbed before in this survival-climber from the creators of Furi and Haven. Climb anywhere and plan your route carefully, managing pitons and resources to survive unforgiving Mount Kami. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1588550/71e5578eafba9258a4850146079e271366a7d99c/header_alt_assets_0.jpg?t=1793289602",
+          "label": "Cairn"
+        },
+        {
+          "image": "steam:1588550:0",
+          "fact": "-30%  Rs 910",
+          "sub": "was Rs 1,300"
+        },
+        {
+          "image": "steam:1588550:1",
+          "fact": "Action + Adventure + Indie",
+          "sub": "The Game Bakers"
+        },
+        {
+          "image": "steam:1588550:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Weekend Deal is Cairn at 30 percent off, down from 1,300 rupees to just 910 rupees.\nhttps://store.steampowered.com/app/1588550\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 1 2026, 22:33 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Cairn",
+        "Cairn sale",
+        "Cairn price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-1875580-20": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-1875580-20.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-7b999b3d.mp4",
+    "data": {
+      "id": "deal-steam-deal-1875580-20",
+      "slot": "deals",
+      "badge": "STEAM WEEKEND DEAL",
+      "headline": "Steam deal",
+      "title": "Mina the Hollower 20% OFF on Steam | Now Rs 600 | Steam Deal Nov 1",
+      "video_script": "Today's Steam Weekend Deal is Mina the Hollower at 20 percent off, down from 750 rupees to just 600 rupees. Take control of Mina, a renowned Hollower hurtled into a desperate mission to rescue a cursed island. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1875580/368fcff2cd8f5ef01c5a89060a49f9a333076a87/header.jpg?t=1793298887",
+          "label": "Mina the Hollower"
+        },
+        {
+          "image": "steam:1875580:0",
+          "fact": "-20%  Rs 600",
+          "sub": "was Rs 750"
+        },
+        {
+          "image": "steam:1875580:1",
+          "fact": "Action + Adventure",
+          "sub": "Yacht Club Games"
+        },
+        {
+          "image": "steam:1875580:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Weekend Deal is Mina the Hollower at 20 percent off, down from 750 rupees to just 600 rupees.\nhttps://store.steampowered.com/app/1875580\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 1 2026, 22:33 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Mina the Hollower",
+        "Mina the Hollower sale",
+        "Mina the Hollower price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-1943950-20": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-1943950-20.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-7994c67b.mp4",
+    "data": {
+      "id": "deal-steam-deal-1943950-20",
+      "slot": "deals",
+      "badge": "STEAM WEEKEND DEAL",
+      "headline": "Steam deal",
+      "title": "Escape the Backrooms 20% OFF on Steam | Now Rs 359 | Steam Deal Nov 1",
+      "video_script": "Today's Steam Weekend Deal is Escape the Backrooms at 20 percent off, down from 449 rupees to just 359 rupees. Escape the Backrooms is a 1-4 player co-op horror exploration game. Traverse 30+ eerie backrooms levels while avoiding entities and other dangers. Try to escape but be warned: survival isn't guaranteed. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/8feac86b42210aea2b466a130238dde80992b4f9/header_alt_assets_4.jpg?t=1793277465",
+          "label": "Escape the Backrooms"
+        },
+        {
+          "image": "steam:1943950:0",
+          "fact": "-20%  Rs 359",
+          "sub": "was Rs 449"
+        },
+        {
+          "image": "steam:1943950:1",
+          "fact": "Action + Indie",
+          "sub": "Fancy Games, Blackbird Interactive"
+        },
+        {
+          "image": "steam:1943950:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Weekend Deal is Escape the Backrooms at 20 percent off, down from 449 rupees to just 359 rupees.\nhttps://store.steampowered.com/app/1943950\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 1 2026, 22:33 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Escape the Backrooms",
+        "Escape the Backrooms sale",
+        "Escape the Backrooms price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-2527500-20": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-2527500-20.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5bf45868.mp4",
+    "data": {
+      "id": "deal-steam-deal-2527500-20",
+      "slot": "deals",
+      "badge": "STEAM WEEKEND DEAL",
+      "headline": "Steam deal",
+      "title": "MiSide 20% OFF on Steam | Now Rs 552 | Steam Deal Nov 1",
+      "video_script": "Today's Steam Weekend Deal is MiSide at 20 percent off, down from 690 rupees to just 552 rupees. Let's imagine that you have a game in which you care for a character. But could you imagine one day getting into that game yourself? Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2527500/header.jpg?t=1792668822",
+          "label": "MiSide"
+        },
+        {
+          "image": "steam:2527500:0",
+          "fact": "-20%  Rs 552",
+          "sub": "was Rs 690"
+        },
+        {
+          "image": "steam:2527500:1",
+          "fact": "Adventure + Indie + RPG",
+          "sub": "AIHASTO"
+        },
+        {
+          "image": "steam:2527500:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Weekend Deal is MiSide at 20 percent off, down from 690 rupees to just 552 rupees.\nhttps://store.steampowered.com/app/2527500\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 1 2026, 22:33 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "MiSide",
+        "MiSide sale",
+        "MiSide price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deals-budget-2026-11-01": {
+    "spec": "scripts/specs/deals/long/deals-budget-2026-11-01.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-1f7d6b72.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-1f7d6b72-thumb.jpg",
+    "chapters": "0:00 Today's deals\n0:11 DARK PGT 2: The Red Death - 40% off\n0:52 Moving Company Simulator - 40% off\n1:32 Undertaker - 40% off\n2:07 Northgate Dispatch - 40% off\n2:46 R.E.P.O. - 35% off\n3:20 Which one are you grabbing",
+    "data": {
+      "id": "deals-budget-2026-11-01",
+      "category": "gaming",
+      "title": "Best Steam Deals Under Rs 500 Today | DARK PGT 2: The Red Death and More | Nov 1",
+      "description": "These are the best Steam deals under 500 rupees for November 1. 5 games, all on sale right now, with the price, what each game is, and its Steam reviews.\n\n- DARK PGT 2: The Red Death: -40% Rs 245 (was Rs 409) - https://store.steampowered.com/app/4844820\n- Moving Company Simulator: -40% Rs 215 (was Rs 359) - https://store.steampowered.com/app/5050520\n- Undertaker: -40% Rs 270 (was Rs 450) - https://store.steampowered.com/app/3808500\n- Northgate Dispatch: -40% Rs 95 (was Rs 159) - https://store.steampowered.com/app/5301590\n- R.E.P.O.: -35% Rs 291 (was Rs 449) - https://store.steampowered.com/app/3241660\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 1 2026, 22:33 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "SteamSale",
+        "EpicGames",
+        "GameDeals"
+      ],
+      "tags": [
+        "DARK PGT 2: The Red Death",
+        "Moving Company Simulator",
+        "Undertaker",
+        "Northgate Dispatch",
+        "R.E.P.O.",
+        "free games",
+        "steam sale",
+        "steam deals today",
+        "epic games free games",
+        "best game deals",
+        "steam sale india",
+        "cheap pc games",
+        "games under 500 rupees"
+      ],
+      "thumbnail": {
+        "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4844820/2c6c3413549268a2cbe60ee4d4e665ec78eba8a0/header.jpg?t=1793540824",
+        "text": "UNDER RS 500"
+      },
+      "sections": [
+        {
+          "heading": "Today's deals",
+          "script": "These are the best Steam deals under 500 rupees for November 1. 5 games, all on sale right now, with the price, what each game is, and its Steam reviews.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4844820/2c6c3413549268a2cbe60ee4d4e665ec78eba8a0/header.jpg?t=1793540824",
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5050520/6b15909dd4b2870a7402ea47b73cef8c64200a5b/header.jpg?t=1793528437",
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3808500/b35656a9b06647d6a9885043074a72d49f0d4036/header.jpg?t=1793541898"
+          ]
+        },
+        {
+          "heading": "DARK PGT 2: The Red Death - 40% off",
+          "script": "DARK PGT 2: The Red Death is on sale on Steam at 40 percent off, down from 409 rupees to just 245 rupees. The deal ends on November 15. DARK PGT 2 is a dark post-Soviet action game with souls-like elements and black humor. Max Panin wakes up from a coma in a world of mutants, robots, and Soviet experiments. Survive, fight, and figure out who turned everything into this hellish mess. Steam lists it as Action and Adventure and Indie, made by ZERO5GAMES, released 1 Nov, 2026. That saves you 164 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4844820/2c6c3413549268a2cbe60ee4d4e665ec78eba8a0/header.jpg?t=1793540824",
+            "steam:4844820:0",
+            "steam:4844820:1"
+          ]
+        },
+        {
+          "heading": "Moving Company Simulator - 40% off",
+          "script": "Moving Company Simulator is on sale on Steam at 40 percent off, down from 359 rupees to just 215 rupees. The deal ends on November 15. Run your own moving company with friends! Pack fragile items, carry heavy furniture, load the truck, and deliver everything in one piece. Play solo or in 1–4 player co-op. Earn tips, build your reputation, and grow from a small crew into the city's top movers. Steam lists it as Casual and Indie and Simulation, made by Haldur Games, released 1 Nov, 2026. That saves you 144 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5050520/6b15909dd4b2870a7402ea47b73cef8c64200a5b/header.jpg?t=1793528437",
+            "steam:5050520:0",
+            "steam:5050520:1"
+          ]
+        },
+        {
+          "heading": "Undertaker - 40% off",
+          "script": "Undertaker is on sale on Steam at 40 percent off, down from 450 rupees to just 270 rupees. The deal ends on November 15. The veil between life and death is shattered. Corpses walk, the earth trembles, and chaos reigns. As the Undertaker, your duty is clear return the dead to the dead by any means necessary. Steam lists it as Action and Indie, made by Garangwootan, released 1 Nov, 2026. That saves you 180 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3808500/b35656a9b06647d6a9885043074a72d49f0d4036/header.jpg?t=1793541898",
+            "steam:3808500:0",
+            "steam:3808500:1"
+          ]
+        },
+        {
+          "heading": "Northgate Dispatch - 40% off",
+          "script": "Northgate Dispatch is on sale on Steam at 40 percent off, down from 159 rupees to just 95 rupees. The deal ends on November 8. You run the signal box on the night shift. Bring trains in, hold the late ones, and send them back out before the timetable buries you. Route one wrong and the line locks up. A keyboard-driven dispatch puzzle on an 80s green-CRT board. Steam lists it as Indie and Simulation and Strategy, made by Workstation4, released 1 Nov, 2026. That saves you 64 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5301590/ffd74bf981e2be0029992cd59707a686cc9b533a/header.jpg?t=1793518795",
+            "steam:5301590:0",
+            "steam:5301590:1"
+          ]
+        },
+        {
+          "heading": "R.E.P.O. - 35% off",
+          "script": "R.E.P.O. is on sale on Steam at 35 percent off, down from 449 rupees to just 291 rupees. The deal ends on November 9. An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires. Steam lists it as Action and Early Access, made by semiwork, released 26 Feb, 2025. That saves you 158 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/62177765c05399116f0453fe1177b00ceed698c4/header_alt_assets_3.jpg?t=1793278962",
+            "steam:3241660:0",
+            "steam:3241660:1"
+          ]
+        },
+        {
+          "heading": "Which one are you grabbing",
+          "script": "That's the list for today. Prices on Steam are the India store prices in rupees, and they can change, so always check the store page before you buy. Every link is in the description. Tell me in the comments which game you are grabbing, and subscribe, because we check Epic and Steam every single day and post the free games and the best deals as soon as they go live.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4844820/2c6c3413549268a2cbe60ee4d4e665ec78eba8a0/header.jpg?t=1793540824"
+          ]
+        }
+      ]
+    }
   }
 }

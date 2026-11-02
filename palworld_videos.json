@@ -5369,5 +5369,134 @@
       ],
       "unique": false
     }
+  },
+  "Helzephyr 5": {
+    "spec": "scripts/specs/palworld_helzephyr_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-66ebf503.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Helzephyr",
+      "caption": "5 ways to breed Helzephyr in Palworld 1.0: Nyafia + Majex, Prunelia + Sekhmet, Broncherry + Ghangler, Whalaska + Digtoise, Dupin + Mimog.",
+      "video_script": "Here are five ways to breed Helzephyr in Palworld one point zero. Combo one: breed Nyafia with Majex on your Breeding Farm, then add a cake. Combo two: pair Prunelia and Sekhmet together, and you get the same egg. Combo three: Broncherry plus Ghangler works too, so use whichever Pals you have. Combo four: Whalaska with Digtoise is another easy option. Combo five: breed Dupin with Mimog on your Breeding Farm, then add a cake. Every egg hatches into Helzephyr. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Nyafia",
+        "Majex"
+      ],
+      "combos": [
+        [
+          "Nyafia",
+          "Majex"
+        ],
+        [
+          "Prunelia",
+          "Sekhmet"
+        ],
+        [
+          "Broncherry",
+          "Ghangler"
+        ],
+        [
+          "Whalaska",
+          "Digtoise"
+        ],
+        [
+          "Dupin",
+          "Mimog"
+        ]
+      ],
+      "child": "Helzephyr",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false,
+      "key": "Helzephyr 5"
+    }
+  },
+  "Penking 5": {
+    "spec": "scripts/specs/palworld_penking_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-bdcb4ac2.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Penking",
+      "caption": "5 ways to breed Penking in Palworld 1.0: Mimog + Dazzi, Tarantriss + Turtacle, Nyafia + Cremis, Helzephyr + Sparkit, Flopie + Vaelet.",
+      "video_script": "Here are five ways to breed Penking in Palworld one point zero. Combo one: breed Mimog with Dazzi on your Breeding Farm, then add a cake. Combo two: pair Tarantriss and Turtacle together, and you get the same egg. Combo three: Nyafia plus Cremis works too, so use whichever Pals you have. Combo four: Helzephyr with Sparkit is another easy option. Combo five: breed Flopie with Vaelet on your Breeding Farm, then add a cake. Every egg hatches into Penking. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Mimog",
+        "Dazzi"
+      ],
+      "combos": [
+        [
+          "Mimog",
+          "Dazzi"
+        ],
+        [
+          "Tarantriss",
+          "Turtacle"
+        ],
+        [
+          "Nyafia",
+          "Cremis"
+        ],
+        [
+          "Helzephyr",
+          "Sparkit"
+        ],
+        [
+          "Flopie",
+          "Vaelet"
+        ]
+      ],
+      "child": "Penking",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false,
+      "key": "Penking 5"
+    }
+  },
+  "Jormuntide 5": {
+    "spec": "scripts/specs/palworld_jormuntide_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-bf0dfa20.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Jormuntide",
+      "caption": "5 ways to breed Jormuntide in Palworld 1.0: Eidrolon + Ghangler, Splatterina + Blazamut, Bastigor + Helzephyr, Orserk + Reptyro, Whalaska + Anubis.",
+      "video_script": "Here are five ways to breed Jormuntide in Palworld one point zero. Combo one: breed Eidrolon with Ghangler on your Breeding Farm, then add a cake. Combo two: pair Splatterina and Blazamut together, and you get the same egg. Combo three: Bastigor plus Helzephyr works too, so use whichever Pals you have. Combo four: Orserk with Reptyro is another easy option. Combo five: breed Whalaska with Anubis on your Breeding Farm, then add a cake. Every egg hatches into Jormuntide. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Eidrolon",
+        "Ghangler"
+      ],
+      "combos": [
+        [
+          "Eidrolon",
+          "Ghangler"
+        ],
+        [
+          "Splatterina",
+          "Blazamut"
+        ],
+        [
+          "Bastigor",
+          "Helzephyr"
+        ],
+        [
+          "Orserk",
+          "Reptyro"
+        ],
+        [
+          "Whalaska",
+          "Anubis"
+        ]
+      ],
+      "child": "Jormuntide",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false,
+      "key": "Jormuntide 5"
+    }
   }
 }

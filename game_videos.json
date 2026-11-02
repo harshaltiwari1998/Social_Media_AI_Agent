@@ -5802,5 +5802,40 @@
   "palworld-guide-incineram-flameclaw-kindling-mining": {
     "spec": "scripts/specs/games/palguide_122_incineram-flameclaw-kindling-mining.json",
     "video": "F:\\AI AGENT\\run_n02\\videos\\short-568333e5.mp4"
+  },
+  "palworld-regions-roadmap-guide": {
+    "spec": "scripts/specs/long/gaming_58_palworld-regions-roadmap.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-2f9ae675.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-2f9ae675-thumb.jpg",
+    "chapters": "0:00 The whole map in one trip\n0:42 Windswept Hills, the start\n1:33 The early wilds\n2:25 Volcano, desert and snow\n3:18 Sakurajima\n3:54 Feybreak, the gate\n4:42 Sunreach in the sky\n5:24 The World Tree\n5:54 Your progression tips"
+  },
+  "aniimo-lightning-element-matchups": {
+    "spec": "scripts/specs/games/aniimo_126_aniimo-lightning-element-matchups.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-0f2e62ac.mp4"
+  },
+  "aniimo-sparkling-hue-swap-legendary-aniipod": {
+    "spec": "scripts/specs/games/aniimo_127_aniimo-sparkling-hue-swap-legendary-aniipod.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-74f25448.mp4"
+  },
+  "aniimo-how-to-get-baleetle-snowfield": {
+    "spec": "scripts/specs/games/aniimo_138_aniimo-how-to-get-baleetle-snowfield.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-cfd1098c.mp4"
+  },
+  "aniimo-how-to-get-mountain-jawling": {
+    "spec": "scripts/specs/games/aniimo_139_aniimo-how-to-get-mountain-jawling.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-d13a3fbd.mp4"
+  },
+  "aniimo-how-to-get-mountain-helgon": {
+    "spec": "scripts/specs/games/aniimo_140_aniimo-how-to-get-mountain-helgon.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-15d44560.mp4"
+  },
+  "palworld-guide-reptyro-ore-weight-mount": {
+    "spec": "scripts/specs/games/palguide_113_reptyro-ore-weight-mount.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-356e7546.mp4"
+  },
+  "palworld-guide-rushoar-hard-head-stone-mount": {
+    "spec": "scripts/specs/games/palguide_114_rushoar-hard-head-stone-mount.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-6e0f3676.mp4"
   }
 }

@@ -49,7 +49,8 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   English / >= 900 Hindi). Optional `"series": "palworld" | "aniimo" | "dml"` reserves a spec for the
   Aniimo + Palworld workflow (`--long-series`); normal long runs skip series specs.
 - `backend/scripts/specs/palworld_queue.json` - Palworld breeding shorts. Each entry has 3 verified
-  `"combos"` for the same child.
+  `"combos"` for the same child; round 2 entries (`"key": "<Child> 5"`) bring a posted child back with 5 NEW combos
+  (picked from PalCalc's 1.0 game-file data, `tylercamp/palcalc` `breeding.json`, and re-checked with the formula).
 - **Store deals have no hand-written specs**: `scripts/store_deals.py` checks Epic (free now / next week) and
   Steam India (free-to-keep, Daily/Weekend/Midweek Deal, sale events, franchise sales, top discounted games)
   live each run and generates one-game shorts (id = store + game + offer, so each offer posts once) and up to
@@ -117,7 +118,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
 - **Dragon Mania Legends breeding**: no combination is guaranteed in DML, so shorts give the elements the parents
   must carry together (checked on the DML wiki + TouchTapPlay; Cyberly copies TouchTapPlay and does not count).
   Breeding times/prices are wiki-only and stay out. Both wikis sit behind Cloudflare - use web search snippets.
-- **Palworld breeding**: every short shows **3 verified combos** for the same child (checked on
+- **Palworld breeding**: every short shows **3 verified combos** (round 2: **5 new combos**) for the same child (checked on
   PalBreedCalc + pindrop / the breeding formula). Child must differ from all parents, no variants,
   no legendary/crossover parents, no gender-dependent results.
 - **Tags**: YouTube tags are filled up to the 500-character limit (`fill_tags` in `app/social/youtube.py`).
@@ -163,6 +164,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next; evolution = glow shot + next form.
 
 ## Change log
+- 2026-11-02 - Palworld breeding round 2: 168 children queued again with 5 new combos each (`key` in the queue); 10 Aniimo specs.
 - 2026-11-02 - Automatic Pokemon fusion shorts in `pokemon_daily.py` (FLUX.1 Kontext fused art + Wan), 2 a day, `look` per pair.
 - 2026-11-02 - HF PRO for Pokemon evolution shorts: max 3 a day (`--max-shorts`), queue 20 -> 50 lines (PokeAPI-checked).
 - 2026-10-30 - Dragon Mania Legends breeding: 10 shorts (`dml` slot) + 2 long (`series: dml`), official Play Store art.

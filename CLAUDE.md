@@ -150,7 +150,9 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Charmander evolution got strong views (Nov 2026) - owner bought HF PRO to scale it.
 - Pokemon fusion shorts from Gemini clips (`fusion-inbox.yml`, `scripts/fusion_inbox.py`) - the clip itself is made by hand.
 - Weekly refill routine, login check, weekly stats report, health-check exit codes.
-- Gameplay clipper for own RDR2 streams (done: Ch1 P1, Ch2 P1-P3; ~220 clips posted).
+- Gameplay clipper for own RDR2 streams (done: Ch1 P1, Ch2 P1-P3; ~220 clips posted; Ch2 P4 planned
+  2026-11-02 - 50 shorts + 3 long, posting 8 + 1 a day). Before planning a recording, match its duration to the stream on
+  HarryBeast - the owner once re-added an already-clipped part.
 - Laptop trend pipeline (Ollama + SD) and free AI-motion queue (`motion_queue/` -> `motion_videos/`).
 
 ## Known limits / not done

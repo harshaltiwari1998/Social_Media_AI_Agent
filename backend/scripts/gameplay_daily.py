@@ -18,6 +18,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "scripts"))
 import gameplay_clips as gc  # noqa: E402
+import gameplay_cloud  # noqa: E402
 from app.pipeline import store  # noqa: E402
 
 PLANS = ROOT / "scripts" / "specs" / "gameplay"
@@ -62,6 +63,8 @@ def _run_plans() -> None:
         if not any(budget.values()):
             break
         plan = json.loads(path.read_text(encoding="utf-8"))
+        if plan.get("cloud") and (gc.OUT / plan["name"] / ".pushed").exists():
+            continue  # on its clips/ branch - CI posts it from there
         left = pending(plan)
         if not left:
             continue
@@ -69,6 +72,13 @@ def _run_plans() -> None:
             log.warning("%s: %d clips left but the recording is gone (%s)", plan["name"], left, plan["source"])
             continue
         log.info("== %s: %d clips left - rendering what is missing", plan["name"], left)
+        if plan.get("cloud"):  # GitHub Actions (daily-gameplay.yml) posts it - the laptop only renders and pushes
+            try:
+                gc.build(plan)
+                gameplay_cloud.push(plan)
+            except Exception:
+                log.exception("%s: render/push failed - will retry next run", plan["name"])
+            continue
         try:
             gc.build(plan)
             posted = gc.upload(plan, long_limit=budget["long"], short_limit=budget["short"]) or {}

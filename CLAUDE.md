@@ -75,7 +75,10 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   `scripts/palworld_breeding_videos.py` (breeding cards: intro + one card per combo + child).
 - `scripts/gameplay_clips.py` (`scan` / `build` / `upload`) - cut Shorts (9:16) and highlight videos from
   recordings in `F:/AI AGENT/VIDEOS GAMING`; `scripts/gameplay_daily.py` (laptop task) finishes pending
-  plans, max 1 long + 8 shorts per run, with a lock file.
+  plans, max 1 long + 8 shorts per run, with a lock file. Plans with `"cloud": true` are only rendered there and
+  pushed by `scripts/gameplay_cloud.py push` to an orphan branch **`clips/<plan>`** (files > 45 MB split, plus
+  `posted.json` = what the laptop already posted); `daily-gameplay.yml` posts them (`gameplay_cloud.py post`) and
+  deletes the branch when the plan is done. `.pushed` in the plan's `gameplay_out` folder stops a re-push.
 - `scripts/ops_report.py` - token check + weekly report. `scripts/meta_gaming_login.py` - sets up the
   gaming page token. `scripts/youtube_login.py` - YouTube OAuth.
 - `scripts/fal_video.py`, `motion_daily.py`, `lucario_*.py` - AI-motion experiments (Wan/Kling/Flow).
@@ -100,6 +103,7 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
 | 14:00 | `daily-palguide.yml` - 1 Palworld guide |
 | 16:00 | `daily-deals.yml` - up to 10 free-game / deal shorts + 2 long deal roundups (Epic + Steam, live) |
 | 18:00 | `daily-long.yml` - 2 long gaming + 1 long movie |
+| 19:00 | `daily-gameplay.yml` - 1 long + 8 shorts of own-stream clips from `clips/*` branches (laptop renders + pushes) |
 | 21:00 | `daily-anipal.yml` 2nd half - 5 Aniimo + 3 Palworld guide + 2 breeding + 1 long (aniimo) |
 | Sun 19:30 | `weekly-report.yml` - stats issue |
 
@@ -150,15 +154,16 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Charmander evolution got strong views (Nov 2026) - owner bought HF PRO to scale it.
 - Pokemon fusion shorts from Gemini clips (`fusion-inbox.yml`, `scripts/fusion_inbox.py`) - the clip itself is made by hand.
 - Weekly refill routine, login check, weekly stats report, health-check exit codes.
-- Gameplay clipper for own RDR2 streams (done: Ch1 P1, Ch2 P1-P3; ~220 clips posted; Ch2 P4 planned
-  2026-11-02 - 50 shorts + 3 long, posting 8 + 1 a day). Before planning a recording, match its duration to the stream on
+- Gameplay clipper for own RDR2 streams (done: Ch1 P1, Ch2 P1-P3; ~220 clips posted; Ch2 P4
+  2026-11-02 - 50 shorts + 3 long, first plan posted from CI via `clips/rdr2_ch2_p4`). Before planning a recording, match its duration to the stream on
   HarryBeast - the owner once re-added an already-clipped part.
 - Laptop trend pipeline (Ollama + SD) and free AI-motion queue (`motion_queue/` -> `motion_videos/`).
 
 ## Known limits / not done
 
 - Cloud cannot read the laptop's `VIDEOS GAMING` folder; YouTube blocks yt-dlp from GitHub runners.
-  A Google Drive route was offered and declined - gameplay clipping stays on the laptop.
+  A Google Drive route was offered and declined - scanning, planning and rendering stay on the laptop; only the
+  posting of rendered clips moved to CI (`clips/*` branches).
 - No working paid image/video model (Pollinations empty, Gemini Veo/image need billing).
 - Instagram API cannot change the cover of already-posted Reels.
 - Twitter trend source has no token (skipped).
@@ -166,6 +171,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next; evolution = glow shot + next form.
 
 ## Change log
+- 2026-11-03 - `daily-gameplay.yml` + `gameplay_cloud.py`: rendered own-stream clips go to `clips/<plan>` branches and post from CI (8 + 1 a day).
 - 2026-11-02 - Palworld breeding round 2: 168 children queued again with 5 new combos each (`key` in the queue); 10 Aniimo specs.
 - 2026-11-02 - Automatic Pokemon fusion shorts in `pokemon_daily.py` (FLUX.1 Kontext fused art + Wan), 2 a day, `look` per pair.
 - 2026-11-02 - HF PRO for Pokemon evolution shorts: max 3 a day (`--max-shorts`), queue 20 -> 50 lines (PokeAPI-checked).

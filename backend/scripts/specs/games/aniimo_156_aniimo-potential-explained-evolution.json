@@ -1,0 +1,52 @@
+{
+  "id": "aniimo-potential-explained-evolution",
+  "slot": "aniimo",
+  "order": 156,
+  "headline": "Potential explained",
+  "title": "Aniimo Potential Explained | Why Evolutions Fail | Aniimo Guide",
+  "video_script": "Some Aniimo will not evolve even at the right level, and Potential is often why. Every Aniimo rolls HP, ATK and BREAK Potential when you catch it. Tromber needs HP Potential six or higher. Eklue needs ATK six or higher. Tubster needs BREAK six or higher. Infergon even needs a Perfect rating. Potential cannot be changed, so check it before you train. Which roll do you hunt for? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:12",
+      "label": "Potential Explained"
+    },
+    {
+      "image": "steam:4126040:13",
+      "fact": "Rolled at catch",
+      "sub": "HP, ATK, BREAK"
+    },
+    {
+      "image": "steam:4126040:14",
+      "fact": "Tromber",
+      "sub": "HP Potential 6+"
+    },
+    {
+      "image": "steam:4126040:15",
+      "fact": "Eklue and Tubster",
+      "sub": "ATK 6+ and BREAK 6+"
+    },
+    {
+      "image": "steam:4126040:16",
+      "fact": "Infergon",
+      "sub": "Perfect rating"
+    }
+  ],
+  "description": "Aniimo Potential (HP, ATK, BREAK) is rolled at catch and gates evolutions: Tromber HP 6+, Eklue ATK 6+, Tubster BREAK 6+, Infergon a Perfect rating.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Aniimo Potential",
+    "Aniimo evolution",
+    "Tromber",
+    "Eklue",
+    "Tubster",
+    "Infergon",
+    "Pawprint Studio"
+  ]
+}

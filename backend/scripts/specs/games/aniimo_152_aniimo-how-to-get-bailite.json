@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-how-to-get-bailite",
+  "slot": "aniimo",
+  "order": 152,
+  "headline": "Get Bailite",
+  "title": "How to Get Bailite | Evolve Cozite | Aniimo Guide",
+  "video_script": "Bailite is one of the late game Rock Aniimo. You get it from Cozite, which you can catch in Zephyrus Landbridge. Cozite evolves into Bailite at level fifty one, one of the highest evolution levels in the game. There is no quest, time of day or place to visit, you just need the level. Is Bailite on your team? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:27",
+      "label": "How to Get Bailite"
+    },
+    {
+      "image": "steam:4126040:28",
+      "fact": "Catch Cozite",
+      "sub": "Zephyrus Landbridge"
+    },
+    {
+      "image": "steam:4126040:29",
+      "fact": "Level fifty one",
+      "sub": "Evolves to Bailite"
+    },
+    {
+      "image": "steam:4126040:30",
+      "fact": "No extra steps",
+      "sub": "No quest or time"
+    },
+    {
+      "image": "steam:4126040:31",
+      "fact": "Late game",
+      "sub": "Rock Aniimo"
+    }
+  ],
+  "description": "Cozite lives in Zephyrus Landbridge and evolves into Bailite at level 51, with no quest, time or location condition.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Bailite",
+    "Cozite",
+    "Aniimo Bailite",
+    "Zephyrus Landbridge",
+    "Pawprint Studio"
+  ]
+}

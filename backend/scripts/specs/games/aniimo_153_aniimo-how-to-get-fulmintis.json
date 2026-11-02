@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-how-to-get-fulmintis",
+  "slot": "aniimo",
+  "order": 153,
+  "headline": "Get Fulmintis",
+  "title": "How to Get Fulmintis | Fulminous Soul | Aniimo Guide",
+  "video_script": "Fulmintis comes from Wisptis at level twenty nine, but it needs the Fulminous Soul. That item comes from the Season One Companion Handbook. You need the paid Advanced Edition and handbook level ten. In your bag it may show as Soul of Electric Shock. Without it, Wisptis can still become Ignitis. Will you get Fulmintis? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:32",
+      "label": "How to Get Fulmintis"
+    },
+    {
+      "image": "steam:4126040:33",
+      "fact": "Wisptis level 29",
+      "sub": "Plus Fulminous Soul"
+    },
+    {
+      "image": "steam:4126040:34",
+      "fact": "Companion Handbook",
+      "sub": "Advanced Edition"
+    },
+    {
+      "image": "steam:4126040:35",
+      "fact": "Handbook level ten",
+      "sub": "Soul of Electric Shock"
+    },
+    {
+      "image": "steam:4126040:36",
+      "fact": "No Soul",
+      "sub": "Ignitis instead"
+    }
+  ],
+  "description": "Wisptis evolves into Fulmintis at level 29 with the Fulminous Soul from the Season 1 Companion Handbook (Advanced Edition, level 10). Otherwise it can become Ignitis.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Fulmintis",
+    "Wisptis",
+    "Fulminous Soul",
+    "Aniimo Fulmintis",
+    "Companion Handbook",
+    "Pawprint Studio"
+  ]
+}

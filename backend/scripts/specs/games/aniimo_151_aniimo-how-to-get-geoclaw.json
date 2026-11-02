@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-how-to-get-geoclaw",
+  "slot": "aniimo",
+  "order": 151,
+  "headline": "Get Geoclaw",
+  "title": "How to Get Geoclaw | Budclaw Evolution | Aniimo Guide",
+  "video_script": "Budclaw evolves at level twenty one. The easy branch is Shrubclaw. Geoclaw is harder. First you must defeat the Alpha Geoclaw. Then your Budclaw needs the Tenacious personality, and you need a Freeze Stone. Miss the Tenacious personality and you only get the Shrubclaw option. Is your Budclaw Tenacious? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:22",
+      "label": "How to Get Geoclaw"
+    },
+    {
+      "image": "steam:4126040:23",
+      "fact": "Budclaw level 21",
+      "sub": "Two branches"
+    },
+    {
+      "image": "steam:4126040:24",
+      "fact": "Defeat Alpha Geoclaw",
+      "sub": "Unlocks the branch"
+    },
+    {
+      "image": "steam:4126040:25",
+      "fact": "Tenacious personality",
+      "sub": "Plus a Freeze Stone"
+    },
+    {
+      "image": "steam:4126040:26",
+      "fact": "No Tenacious",
+      "sub": "Shrubclaw only"
+    }
+  ],
+  "description": "Budclaw evolves at level 21: Shrubclaw normally, Geoclaw after beating the Alpha Geoclaw with a Tenacious personality and a Freeze Stone.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Geoclaw",
+    "Budclaw",
+    "Shrubclaw",
+    "Aniimo Geoclaw",
+    "Alpha Geoclaw",
+    "Pawprint Studio"
+  ]
+}

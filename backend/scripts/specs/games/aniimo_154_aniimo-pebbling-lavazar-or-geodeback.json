@@ -1,0 +1,52 @@
+{
+  "id": "aniimo-pebbling-lavazar-or-geodeback",
+  "slot": "aniimo",
+  "order": 154,
+  "headline": "Pebbling branch",
+  "title": "Pebbling Evolution | Lavazar or Geodeback | Aniimo Guide",
+  "video_script": "Pebbling has two paths at level thirty eight. Lavazar is the fiery one. At level forty eight, after a soak in a hot spring, it becomes Magmarex. Geodeback is the other path, and it becomes Minespine at level forty eight. A Pebbling can only take one path, so raise two if you want both. Magmarex or Minespine? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:2",
+      "label": "Pebbling Evolution"
+    },
+    {
+      "image": "steam:4126040:3",
+      "fact": "Level 38",
+      "sub": "Lavazar or Geodeback"
+    },
+    {
+      "image": "steam:4126040:4",
+      "fact": "Lavazar",
+      "sub": "Hot spring at 48"
+    },
+    {
+      "image": "steam:4126040:5",
+      "fact": "Magmarex",
+      "sub": "Final form"
+    },
+    {
+      "image": "steam:4126040:6",
+      "fact": "Geodeback",
+      "sub": "Minespine at 48"
+    }
+  ],
+  "description": "Pebbling evolves at level 38 into Lavazar or Geodeback. Lavazar becomes Magmarex at 48 after a hot spring soak; Geodeback becomes Minespine at 48.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pebbling",
+    "Lavazar",
+    "Geodeback",
+    "Magmarex",
+    "Minespine",
+    "Pebbling evolution",
+    "Pawprint Studio"
+  ]
+}

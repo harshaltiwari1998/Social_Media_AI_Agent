@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-how-to-get-dazmand",
+  "slot": "aniimo",
+  "order": 149,
+  "headline": "Get Dazmand",
+  "title": "How to Get Dazmand | Pomegg Second Branch | Aniimo Guide",
+  "video_script": "Pomegg has a secret second evolution. At level twenty five a normal Pomegg becomes Pomawk. But if you have a Roar Stone, it can become Dazmand instead. Each Pomegg can only take one branch, so a Pomegg that turns into Pomawk can never become Dazmand later. Raise two Pomegg if you want both. Pomawk or Dazmand? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:12",
+      "label": "How to Get Dazmand"
+    },
+    {
+      "image": "steam:4126040:13",
+      "fact": "Pomegg level 25",
+      "sub": "Two branches"
+    },
+    {
+      "image": "steam:4126040:14",
+      "fact": "Pomawk",
+      "sub": "Normal branch"
+    },
+    {
+      "image": "steam:4126040:15",
+      "fact": "Dazmand",
+      "sub": "Needs a Roar Stone"
+    },
+    {
+      "image": "steam:4126040:16",
+      "fact": "One branch only",
+      "sub": "Raise two Pomegg"
+    }
+  ],
+  "description": "Pomegg evolves at level 25: into Pomawk, or into Dazmand with a Roar Stone. Each Pomegg can only take one branch.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Dazmand",
+    "Pomegg",
+    "Pomawk",
+    "Aniimo Dazmand",
+    "Pomegg evolution",
+    "Pawprint Studio"
+  ]
+}

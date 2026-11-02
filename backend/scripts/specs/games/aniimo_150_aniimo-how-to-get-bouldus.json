@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-how-to-get-bouldus",
+  "slot": "aniimo",
+  "order": 150,
+  "headline": "Get Bouldus",
+  "title": "How to Get Bouldus | Baleetle Rock Branch | Aniimo Guide",
+  "video_script": "Baleetle evolves at level thirty nine, and it has two branches. Waleetle needs nothing extra. For Bouldus, your Baleetle must learn the passive talent Peculiar Rock Ball before it evolves. Bouldus is the last stage of the line, and in the wild it lives in Berylline Vale. Waleetle or Bouldus? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:17",
+      "label": "How to Get Bouldus"
+    },
+    {
+      "image": "steam:4126040:18",
+      "fact": "Baleetle level 39",
+      "sub": "Two branches"
+    },
+    {
+      "image": "steam:4126040:19",
+      "fact": "Waleetle",
+      "sub": "No extra step"
+    },
+    {
+      "image": "steam:4126040:20",
+      "fact": "Bouldus",
+      "sub": "Learn Peculiar Rock Ball"
+    },
+    {
+      "image": "steam:4126040:21",
+      "fact": "Final stage",
+      "sub": "Lives in Berylline Vale"
+    }
+  ],
+  "description": "Baleetle evolves at level 39 into Waleetle, or into Bouldus if it learned the passive talent Peculiar Rock Ball.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Bouldus",
+    "Baleetle",
+    "Waleetle",
+    "Aniimo Bouldus",
+    "Peculiar Rock Ball",
+    "Pawprint Studio"
+  ]
+}

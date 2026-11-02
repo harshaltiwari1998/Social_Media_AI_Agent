@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-how-to-get-eklue",
+  "slot": "aniimo",
+  "order": 148,
+  "headline": "Get Eklue",
+  "title": "How to Get Eklue | Evolve Eko | Aniimo Guide",
+  "video_script": "Want Eklue? You have to evolve Eko, but there is a catch. Eko must reach level twenty five, and its ATK Potential must be six or higher. In game that shows as Incredible ATK Potential. Potential is rolled when you catch it and cannot be changed, so a low roll Eko will never evolve. Catch a few and keep the best one. Did your Eko pass the check? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:7",
+      "label": "How to Get Eklue"
+    },
+    {
+      "image": "steam:4126040:8",
+      "fact": "Evolve Eko",
+      "sub": "At level twenty five"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "ATK Potential 6+",
+      "sub": "Shows as Incredible"
+    },
+    {
+      "image": "steam:4126040:10",
+      "fact": "Rolled at catch",
+      "sub": "Cannot be changed"
+    },
+    {
+      "image": "steam:4126040:11",
+      "fact": "Catch a few",
+      "sub": "Keep the best one"
+    }
+  ],
+  "description": "Eko evolves into Eklue at level 25, but only if its ATK Potential is 6 or higher (Incredible). Potential is set when you catch it.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Eklue",
+    "Eko",
+    "Aniimo Eklue",
+    "Eklue evolution",
+    "Pawprint Studio"
+  ]
+}

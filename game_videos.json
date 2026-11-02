@@ -5694,5 +5694,19 @@
   "aniimo-celestis-best-build": {
     "spec": "scripts/specs/games/aniimo_125_aniimo-celestis-best-build.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-2bb2b687.mp4"
+  },
+  "poke-squirtle": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/pokemon/squirtle/final.mp4",
+    "data": {
+      "id": "squirtle",
+      "stages": [
+        "squirtle",
+        "wartortle",
+        "blastoise"
+      ],
+      "type": "water"
+    }
   }
 }

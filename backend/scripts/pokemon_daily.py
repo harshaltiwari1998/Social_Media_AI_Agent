@@ -3,7 +3,7 @@
 Works through scripts/specs/pokemon_queue.json (evolution lines checked against PokeAPI's evolution chains).
 Each line becomes a 4-clip, ~20 s storyboard for fal_video.py: start frames are the official artwork on a
 background photo, motion comes from the free Wan 2.2 Hugging Face ZeroGPU Space (HF_TOKEN secret - about 2-3
-clips a day). Finished clips are cached under media_output/pokemon/<id>/ and kept between runs on the
+clips a day; HF PRO ~8x). Finished clips are cached under media_output/pokemon/<id>/ and kept between runs on the
 `motion-cache` branch, so a short builds up over a couple of days; when all clips exist it is rendered and
 posted to the gaming platforms (YouTube HarryBeast + gaming Facebook Page + Instagram).
 
@@ -106,6 +106,7 @@ def post_text(entry: dict) -> tuple[str, list[str]]:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--plan", metavar="ID")
+    parser.add_argument("--max-shorts", type=int, default=3, help="new shorts per run (owner: 3 a day)")
     args = parser.parse_args()
     queue = json.loads(QUEUE.read_text(encoding="utf-8"))
     if args.plan:
@@ -133,6 +134,9 @@ def main() -> None:
         key = f"poke-{entry['id']}"
         if key in games:
             continue
+        if dj.HEALTH["built"] >= args.max_shorts:
+            log.info("   %d new shorts this run - the rest waits for the next run", args.max_shorts)
+            break
         log.info("== %s", " -> ".join(entry["stages"]))
         out = CACHE / entry["id"]
         try:

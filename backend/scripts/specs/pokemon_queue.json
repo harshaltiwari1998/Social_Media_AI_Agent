@@ -175,5 +175,269 @@
    "metagross"
   ],
   "type": "steel"
+ },
+ {
+  "id": "eevee-vaporeon",
+  "stages": [
+   "eevee",
+   "vaporeon"
+  ],
+  "type": "water"
+ },
+ {
+  "id": "eevee-umbreon",
+  "stages": [
+   "eevee",
+   "umbreon"
+  ],
+  "type": "dark"
+ },
+ {
+  "id": "eevee-sylveon",
+  "stages": [
+   "eevee",
+   "sylveon"
+  ],
+  "type": "fairy"
+ },
+ {
+  "id": "ralts",
+  "stages": [
+   "ralts",
+   "kirlia",
+   "gardevoir"
+  ],
+  "type": "psychic"
+ },
+ {
+  "id": "axew",
+  "stages": [
+   "axew",
+   "fraxure",
+   "haxorus"
+  ],
+  "type": "dragon"
+ },
+ {
+  "id": "deino",
+  "stages": [
+   "deino",
+   "zweilous",
+   "hydreigon"
+  ],
+  "type": "dark"
+ },
+ {
+  "id": "bagon",
+  "stages": [
+   "bagon",
+   "shelgon",
+   "salamence"
+  ],
+  "type": "dragon"
+ },
+ {
+  "id": "trapinch",
+  "stages": [
+   "trapinch",
+   "vibrava",
+   "flygon"
+  ],
+  "type": "ground"
+ },
+ {
+  "id": "totodile",
+  "stages": [
+   "totodile",
+   "croconaw",
+   "feraligatr"
+  ],
+  "type": "water"
+ },
+ {
+  "id": "cyndaquil",
+  "stages": [
+   "cyndaquil",
+   "quilava",
+   "typhlosion"
+  ],
+  "type": "fire"
+ },
+ {
+  "id": "chikorita",
+  "stages": [
+   "chikorita",
+   "bayleef",
+   "meganium"
+  ],
+  "type": "grass"
+ },
+ {
+  "id": "piplup",
+  "stages": [
+   "piplup",
+   "prinplup",
+   "empoleon"
+  ],
+  "type": "water"
+ },
+ {
+  "id": "turtwig",
+  "stages": [
+   "turtwig",
+   "grotle",
+   "torterra"
+  ],
+  "type": "grass"
+ },
+ {
+  "id": "rowlet",
+  "stages": [
+   "rowlet",
+   "dartrix",
+   "decidueye"
+  ],
+  "type": "grass"
+ },
+ {
+  "id": "litten",
+  "stages": [
+   "litten",
+   "torracat",
+   "incineroar"
+  ],
+  "type": "fire"
+ },
+ {
+  "id": "popplio",
+  "stages": [
+   "popplio",
+   "brionne",
+   "primarina"
+  ],
+  "type": "water"
+ },
+ {
+  "id": "sprigatito",
+  "stages": [
+   "sprigatito",
+   "floragato",
+   "meowscarada"
+  ],
+  "type": "grass"
+ },
+ {
+  "id": "fuecoco",
+  "stages": [
+   "fuecoco",
+   "crocalor",
+   "skeledirge"
+  ],
+  "type": "fire"
+ },
+ {
+  "id": "quaxly",
+  "stages": [
+   "quaxly",
+   "quaxwell",
+   "quaquaval"
+  ],
+  "type": "water"
+ },
+ {
+  "id": "growlithe",
+  "stages": [
+   "growlithe",
+   "arcanine"
+  ],
+  "type": "fire"
+ },
+ {
+  "id": "vulpix",
+  "stages": [
+   "vulpix",
+   "ninetales"
+  ],
+  "type": "fire"
+ },
+ {
+  "id": "zubat",
+  "stages": [
+   "zubat",
+   "golbat",
+   "crobat"
+  ],
+  "type": "poison"
+ },
+ {
+  "id": "scyther",
+  "stages": [
+   "scyther",
+   "scizor"
+  ],
+  "type": "bug"
+ },
+ {
+  "id": "snivy",
+  "stages": [
+   "snivy",
+   "servine",
+   "serperior"
+  ],
+  "type": "grass"
+ },
+ {
+  "id": "tepig",
+  "stages": [
+   "tepig",
+   "pignite",
+   "emboar"
+  ],
+  "type": "fire"
+ },
+ {
+  "id": "oshawott",
+  "stages": [
+   "oshawott",
+   "dewott",
+   "samurott"
+  ],
+  "type": "water"
+ },
+ {
+  "id": "fennekin",
+  "stages": [
+   "fennekin",
+   "braixen",
+   "delphox"
+  ],
+  "type": "fire"
+ },
+ {
+  "id": "chespin",
+  "stages": [
+   "chespin",
+   "quilladin",
+   "chesnaught"
+  ],
+  "type": "grass"
+ },
+ {
+  "id": "goomy",
+  "stages": [
+   "goomy",
+   "sliggoo",
+   "goodra"
+  ],
+  "type": "dragon"
+ },
+ {
+  "id": "jangmo-o",
+  "stages": [
+   "jangmo-o",
+   "hakamo-o",
+   "kommo-o"
+  ],
+  "type": "dragon"
  }
 ]

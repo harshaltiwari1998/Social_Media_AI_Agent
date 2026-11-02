@@ -80,7 +80,7 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
 - `scripts/fusion_inbox.py` - inbox clip -> 9:16 short (blurred fill, names, fusion name + PokeAPI type, outro),
   posts to the gaming platforms, lists fully posted clips so `fusion-inbox.yml` deletes them from `inbox/`.
 - `scripts/pokemon_daily.py` - free Pokemon evolution shorts on CI: official artwork start frames + free Wan 2.2
-  (HF ZeroGPU, `HF_TOKEN` secret, ~2-3 clips/day, 4 clips per short). Clips persist on the **`motion-cache`**
+  (HF ZeroGPU on an HF PRO account, `HF_TOKEN` secret, 4 clips per short, max 3 new shorts a run - `--max-shorts`). Clips persist on the **`motion-cache`**
   branch between runs; finished shorts post to the gaming platforms (`kind: "motion"` in game_videos.json,
   retried by pokemon_daily.py itself, not by daily_job).
 
@@ -92,7 +92,7 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
 | Mon/Thu 08:00 | Routine **Weekly content refill** (`trig_01LRixiDvLT8uP4GPUjYnDcy`) tops up all other queues |
 | 10:00 | `daily-content.yml` - 1 new game, 3 classic, 1 breeding, 1 Aniimo, 1 movie new, 1 review, 1 reel |
 | 10:00 | Laptop task `daily_job.cmd --skip-gaming` (trends) + `motion_daily.py` + `gameplay_daily.py` |
-| 11:15 | `daily-pokemon.yml` - free Pokemon evolution clips; posts a short whenever all 4 clips exist |
+| 11:15 | `daily-pokemon.yml` - Pokemon evolution shorts (Wan 2.2, HF PRO), up to 3 a day |
 | on push + 12:15 | `fusion-inbox.yml` - fusion clips uploaded to `inbox/` (daily run = retries) |
 | 13:45 | `daily-anipal.yml` 1st half - 5 Aniimo + 2 Palworld guide + 3 breeding + 1 long (palworld) |
 | 14:00 | `daily-palguide.yml` - 1 Palworld guide |
@@ -143,7 +143,8 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   on GitHub Actions, posting to YouTube (2 channels), 2 Facebook Pages, 2 Instagram accounts.
 - Daily Aniimo + Palworld pipeline (writer routine + `daily-anipal.yml`).
 - Daily free games + store deals (`daily-deals.yml`, `scripts/store_deals.py`) - 10 shorts + 2 long a day.
-- Free Pokemon evolution shorts (`daily-pokemon.yml`, `scripts/pokemon_daily.py`) - ~1 short every 1-2 days.
+- Pokemon evolution shorts (`daily-pokemon.yml`, `scripts/pokemon_daily.py`) - up to 3 a day (HF PRO), 50 lines queued.
+  Charmander evolution got strong views (Nov 2026) - owner bought HF PRO to scale it.
 - Pokemon fusion shorts from Gemini clips (`fusion-inbox.yml`, `scripts/fusion_inbox.py`) - the clip itself is made by hand.
 - Weekly refill routine, login check, weekly stats report, health-check exit codes.
 - Gameplay clipper for own RDR2 streams (done: Ch1 P1, Ch2 P1-P3; ~220 clips posted).
@@ -160,6 +161,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next; evolution = glow shot + next form.
 
 ## Change log
+- 2026-11-02 - HF PRO for Pokemon evolution shorts: max 3 a day (`--max-shorts`), queue 20 -> 50 lines (PokeAPI-checked).
 - 2026-10-30 - Dragon Mania Legends breeding: 10 shorts (`dml` slot) + 2 long (`series: dml`), official Play Store art.
 - 2026-10-29 - `fusion-inbox.yml` + `fusion_inbox.py`: Gemini fusion clips in `inbox/` become posted 9:16 shorts.
 - 2026-10-29 - `daily-pokemon.yml` + `pokemon_daily.py`: free Pokemon evolution shorts posted from CI (motion-cache branch).

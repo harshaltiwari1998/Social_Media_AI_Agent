@@ -3116,5 +3116,5213 @@
         "Pyrin"
       ]
     ]
+  },
+  {
+    "parents": [
+      "Nyafia",
+      "Majex"
+    ],
+    "child": "Helzephyr",
+    "unique": false,
+    "combos": [
+      [
+        "Nyafia",
+        "Majex"
+      ],
+      [
+        "Prunelia",
+        "Sekhmet"
+      ],
+      [
+        "Broncherry",
+        "Ghangler"
+      ],
+      [
+        "Whalaska",
+        "Digtoise"
+      ],
+      [
+        "Dupin",
+        "Mimog"
+      ]
+    ],
+    "key": "Helzephyr 5"
+  },
+  {
+    "parents": [
+      "Mimog",
+      "Dazzi"
+    ],
+    "child": "Penking",
+    "unique": false,
+    "combos": [
+      [
+        "Mimog",
+        "Dazzi"
+      ],
+      [
+        "Tarantriss",
+        "Turtacle"
+      ],
+      [
+        "Nyafia",
+        "Cremis"
+      ],
+      [
+        "Helzephyr",
+        "Sparkit"
+      ],
+      [
+        "Flopie",
+        "Vaelet"
+      ]
+    ],
+    "key": "Penking 5"
+  },
+  {
+    "parents": [
+      "Eidrolon",
+      "Ghangler"
+    ],
+    "child": "Jormuntide",
+    "unique": false,
+    "combos": [
+      [
+        "Eidrolon",
+        "Ghangler"
+      ],
+      [
+        "Splatterina",
+        "Blazamut"
+      ],
+      [
+        "Bastigor",
+        "Helzephyr"
+      ],
+      [
+        "Orserk",
+        "Reptyro"
+      ],
+      [
+        "Whalaska",
+        "Anubis"
+      ]
+    ],
+    "key": "Jormuntide 5"
+  },
+  {
+    "parents": [
+      "Frostplume",
+      "Muffly"
+    ],
+    "child": "Kitsun",
+    "unique": false,
+    "combos": [
+      [
+        "Frostplume",
+        "Muffly"
+      ],
+      [
+        "Dumud",
+        "Ragnahawk"
+      ],
+      [
+        "Grizzbolt",
+        "Arsox"
+      ],
+      [
+        "Majex",
+        "Chillet"
+      ],
+      [
+        "Celesdir",
+        "Killamari"
+      ]
+    ],
+    "key": "Kitsun 5"
+  },
+  {
+    "parents": [
+      "Nyafia",
+      "Munchill"
+    ],
+    "child": "Beakon",
+    "unique": false,
+    "combos": [
+      [
+        "Nyafia",
+        "Munchill"
+      ],
+      [
+        "Frostplume",
+        "Amione"
+      ],
+      [
+        "Tarantriss",
+        "Vanwyrm"
+      ],
+      [
+        "Moldron",
+        "Herbil"
+      ],
+      [
+        "Reptyro",
+        "Arsox"
+      ]
+    ],
+    "key": "Beakon 5"
+  },
+  {
+    "parents": [
+      "Shroomer",
+      "Ghangler"
+    ],
+    "child": "Suzaku",
+    "unique": false,
+    "combos": [
+      [
+        "Shroomer",
+        "Ghangler"
+      ],
+      [
+        "Moldron",
+        "Vanwyrm"
+      ],
+      [
+        "Prunelia",
+        "Majex"
+      ],
+      [
+        "Nyafia",
+        "Starryon"
+      ],
+      [
+        "Wumpo",
+        "Felbat"
+      ]
+    ],
+    "key": "Suzaku 5"
+  },
+  {
+    "parents": [
+      "Sekhmet",
+      "Digtoise"
+    ],
+    "child": "Quivern",
+    "unique": false,
+    "combos": [
+      [
+        "Sekhmet",
+        "Digtoise"
+      ],
+      [
+        "Nyafia",
+        "Gildra"
+      ],
+      [
+        "Frostplume",
+        "Bushi"
+      ],
+      [
+        "Majex",
+        "Leafan"
+      ],
+      [
+        "Prunelia",
+        "Braloha"
+      ]
+    ],
+    "key": "Quivern 5"
+  },
+  {
+    "parents": [
+      "Finsider",
+      "Loupmoon"
+    ],
+    "child": "Elphidran",
+    "unique": false,
+    "combos": [
+      [
+        "Finsider",
+        "Loupmoon"
+      ],
+      [
+        "Digtoise",
+        "Sparkit"
+      ],
+      [
+        "Vanwyrm",
+        "Daedream"
+      ],
+      [
+        "Smokie",
+        "Mozzarina"
+      ],
+      [
+        "Dumud",
+        "Univolt"
+      ]
+    ],
+    "key": "Elphidran 5"
+  },
+  {
+    "parents": [
+      "Splatterina",
+      "Arsox"
+    ],
+    "child": "Digtoise",
+    "unique": false,
+    "combos": [
+      [
+        "Splatterina",
+        "Arsox"
+      ],
+      [
+        "Blazamut",
+        "Bristla"
+      ],
+      [
+        "Foxcicle",
+        "Helzephyr"
+      ],
+      [
+        "Mimog",
+        "Blazehowl"
+      ],
+      [
+        "Knocklem",
+        "Swee"
+      ]
+    ],
+    "key": "Digtoise 5"
+  },
+  {
+    "parents": [
+      "Pengullet",
+      "Chikipi"
+    ],
+    "child": "Lifmunk",
+    "unique": false,
+    "combos": [
+      [
+        "Pengullet",
+        "Chikipi"
+      ],
+      [
+        "Sparkit",
+        "Jolthog"
+      ],
+      [
+        "Mau",
+        "Depresso"
+      ],
+      [
+        "Clovee",
+        "Teafant"
+      ],
+      [
+        "Vixy",
+        "Fuack"
+      ]
+    ],
+    "key": "Lifmunk 5"
+  },
+  {
+    "parents": [
+      "Gumoss",
+      "Teafant"
+    ],
+    "child": "Sparkit",
+    "unique": false,
+    "combos": [
+      [
+        "Gumoss",
+        "Teafant"
+      ],
+      [
+        "Depresso",
+        "Lifmunk"
+      ],
+      [
+        "Hoocrates",
+        "Chikipi"
+      ],
+      [
+        "Pengullet",
+        "Vixy"
+      ],
+      [
+        "Clovee",
+        "Lamball"
+      ]
+    ],
+    "key": "Sparkit 5"
+  },
+  {
+    "parents": [
+      "Swee",
+      "Cattiva"
+    ],
+    "child": "Mozzarina",
+    "unique": false,
+    "combos": [
+      [
+        "Swee",
+        "Cattiva"
+      ],
+      [
+        "Bristla",
+        "Daedream"
+      ],
+      [
+        "Flopie",
+        "Hoocrates"
+      ],
+      [
+        "Kelpsea",
+        "Fuddler"
+      ],
+      [
+        "Tocotoco",
+        "Rooby"
+      ]
+    ],
+    "key": "Mozzarina 5"
+  },
+  {
+    "parents": [
+      "Bristla",
+      "Lamball"
+    ],
+    "child": "Rooby",
+    "unique": false,
+    "combos": [
+      [
+        "Bristla",
+        "Lamball"
+      ],
+      [
+        "Tocotoco",
+        "Sparkit"
+      ],
+      [
+        "Fuddler",
+        "Gumoss"
+      ],
+      [
+        "Swee",
+        "Tanzee"
+      ],
+      [
+        "Mau",
+        "Flambelle"
+      ]
+    ],
+    "key": "Rooby 5"
+  },
+  {
+    "parents": [
+      "Bristla",
+      "Teafant"
+    ],
+    "child": "Rushoar",
+    "unique": false,
+    "combos": [
+      [
+        "Bristla",
+        "Teafant"
+      ],
+      [
+        "Ribbuny",
+        "Tanzee"
+      ],
+      [
+        "Tocotoco",
+        "Jolthog"
+      ],
+      [
+        "Flambelle",
+        "Vixy"
+      ],
+      [
+        "Fuddler",
+        "Clovee"
+      ]
+    ],
+    "key": "Rushoar 5"
+  },
+  {
+    "parents": [
+      "Flambelle",
+      "Lifmunk"
+    ],
+    "child": "Ribbuny",
+    "unique": false,
+    "combos": [
+      [
+        "Flambelle",
+        "Lifmunk"
+      ],
+      [
+        "Bristla",
+        "Jolthog"
+      ],
+      [
+        "Swee",
+        "Rushoar"
+      ],
+      [
+        "Tocotoco",
+        "Foxparks"
+      ],
+      [
+        "Flopie",
+        "Vixy"
+      ]
+    ],
+    "key": "Ribbuny 5"
+  },
+  {
+    "parents": [
+      "Flopie",
+      "Hangyu"
+    ],
+    "child": "Melpaca",
+    "unique": false,
+    "combos": [
+      [
+        "Flopie",
+        "Hangyu"
+      ],
+      [
+        "Dazzi",
+        "Mau"
+      ],
+      [
+        "Flambelle",
+        "Celaray"
+      ],
+      [
+        "Finsider",
+        "Foxparks"
+      ],
+      [
+        "Jelliette",
+        "Fuddler"
+      ]
+    ],
+    "key": "Melpaca 5"
+  },
+  {
+    "parents": [
+      "Prunelia",
+      "Tocotoco"
+    ],
+    "child": "Mossanda",
+    "unique": false,
+    "combos": [
+      [
+        "Prunelia",
+        "Tocotoco"
+      ],
+      [
+        "Skutlass",
+        "Flambelle"
+      ],
+      [
+        "Digtoise",
+        "Galeclaw"
+      ],
+      [
+        "Nyafia",
+        "Rooby"
+      ],
+      [
+        "Smokie",
+        "Puffolt"
+      ]
+    ],
+    "key": "Mossanda 5"
+  },
+  {
+    "parents": [
+      "Gumoss",
+      "Lamball"
+    ],
+    "child": "Depresso",
+    "unique": false,
+    "combos": [
+      [
+        "Gumoss",
+        "Lamball"
+      ],
+      [
+        "Fuack",
+        "Lifmunk"
+      ],
+      [
+        "Pupperai",
+        "Teafant"
+      ],
+      [
+        "Hoocrates",
+        "Vixy"
+      ],
+      [
+        "Jolthog",
+        "Clovee"
+      ]
+    ],
+    "key": "Depresso 5"
+  },
+  {
+    "parents": [
+      "Bristla",
+      "Tocotoco"
+    ],
+    "child": "Eikthyrdeer",
+    "unique": false,
+    "combos": [
+      [
+        "Bristla",
+        "Tocotoco"
+      ],
+      [
+        "Flopie",
+        "Cattiva"
+      ],
+      [
+        "Dazzi",
+        "Lifmunk"
+      ],
+      [
+        "Fuddler",
+        "Herbil"
+      ],
+      [
+        "Flambelle",
+        "Melpaca"
+      ]
+    ],
+    "key": "Eikthyrdeer 5"
+  },
+  {
+    "parents": [
+      "Sparkit",
+      "Gumoss"
+    ],
+    "child": "Fuack",
+    "unique": false,
+    "combos": [
+      [
+        "Sparkit",
+        "Gumoss"
+      ],
+      [
+        "Teafant",
+        "Cremis"
+      ],
+      [
+        "Daedream",
+        "Lamball"
+      ],
+      [
+        "Hoocrates",
+        "Lifmunk"
+      ],
+      [
+        "Pengullet",
+        "Depresso"
+      ]
+    ],
+    "key": "Fuack 5"
+  },
+  {
+    "parents": [
+      "Sparkit",
+      "Cremis"
+    ],
+    "child": "Gumoss",
+    "unique": false,
+    "combos": [
+      [
+        "Sparkit",
+        "Cremis"
+      ],
+      [
+        "Hoocrates",
+        "Pengullet"
+      ],
+      [
+        "Ribbuny",
+        "Mau"
+      ],
+      [
+        "Rushoar",
+        "Lifmunk"
+      ],
+      [
+        "Swee",
+        "Vixy"
+      ]
+    ],
+    "key": "Gumoss 5"
+  },
+  {
+    "parents": [
+      "Digtoise",
+      "Tocotoco"
+    ],
+    "child": "Gorirat",
+    "unique": false,
+    "combos": [
+      [
+        "Digtoise",
+        "Tocotoco"
+      ],
+      [
+        "Shroomer",
+        "Cattiva"
+      ],
+      [
+        "Nyafia",
+        "Jolthog"
+      ],
+      [
+        "Smokie",
+        "Amione"
+      ],
+      [
+        "Tarantriss",
+        "Gobfin"
+      ]
+    ],
+    "key": "Gorirat 5"
+  },
+  {
+    "parents": [
+      "Ribbuny",
+      "Flambelle"
+    ],
+    "child": "Hangyu",
+    "unique": false,
+    "combos": [
+      [
+        "Ribbuny",
+        "Flambelle"
+      ],
+      [
+        "Flopie",
+        "Tanzee"
+      ],
+      [
+        "Fuddler",
+        "Killamari"
+      ],
+      [
+        "Bristla",
+        "Rooby"
+      ],
+      [
+        "Direhowl",
+        "Rushoar"
+      ]
+    ],
+    "key": "Hangyu 5"
+  },
+  {
+    "parents": [
+      "Ghangler",
+      "Chikipi"
+    ],
+    "child": "Pyrin",
+    "unique": false,
+    "combos": [
+      [
+        "Ghangler",
+        "Chikipi"
+      ],
+      [
+        "Majex",
+        "Gumoss"
+      ],
+      [
+        "Gildra",
+        "Fuddler"
+      ],
+      [
+        "Dazzi",
+        "Bushi"
+      ],
+      [
+        "Reptyro",
+        "Tanzee"
+      ]
+    ],
+    "key": "Pyrin 5"
+  },
+  {
+    "parents": [
+      "Dazzi",
+      "Melpaca"
+    ],
+    "child": "Nitewing",
+    "unique": false,
+    "combos": [
+      [
+        "Dazzi",
+        "Melpaca"
+      ],
+      [
+        "Puffolt",
+        "Cattiva"
+      ],
+      [
+        "Loupmoon",
+        "Sparkit"
+      ],
+      [
+        "Munchill",
+        "Foxparks"
+      ],
+      [
+        "Chillet",
+        "Fuddler"
+      ]
+    ],
+    "key": "Nitewing 5"
+  },
+  {
+    "parents": [
+      "Nyafia",
+      "Swee"
+    ],
+    "child": "Katress",
+    "unique": false,
+    "combos": [
+      [
+        "Nyafia",
+        "Swee"
+      ],
+      [
+        "Prunelia",
+        "Bristla"
+      ],
+      [
+        "Skutlass",
+        "Flopie"
+      ],
+      [
+        "Smokie",
+        "Arsox"
+      ],
+      [
+        "Tarantriss",
+        "Puffolt"
+      ]
+    ],
+    "key": "Katress 5"
+  },
+  {
+    "parents": [
+      "Gildra",
+      "Majex"
+    ],
+    "child": "Relaxaurus",
+    "unique": false,
+    "combos": [
+      [
+        "Gildra",
+        "Majex"
+      ],
+      [
+        "Reptyro",
+        "Helzephyr"
+      ],
+      [
+        "Azurmane",
+        "Smokie"
+      ],
+      [
+        "Whalaska",
+        "Incineram"
+      ],
+      [
+        "Splatterina",
+        "Leafan"
+      ]
+    ],
+    "key": "Relaxaurus 5"
+  },
+  {
+    "parents": [
+      "Nyafia",
+      "Incineram"
+    ],
+    "child": "Blazehowl",
+    "unique": false,
+    "combos": [
+      [
+        "Nyafia",
+        "Incineram"
+      ],
+      [
+        "Gildra",
+        "Digtoise"
+      ],
+      [
+        "Moldron",
+        "Foxcicle"
+      ],
+      [
+        "Jormuntide",
+        "Munchill"
+      ],
+      [
+        "Mimog",
+        "Sootseer"
+      ]
+    ],
+    "key": "Blazehowl 5"
+  },
+  {
+    "parents": [
+      "Ghangler",
+      "Tocotoco"
+    ],
+    "child": "Sibelyx",
+    "unique": false,
+    "combos": [
+      [
+        "Ghangler",
+        "Tocotoco"
+      ],
+      [
+        "Frostplume",
+        "Cattiva"
+      ],
+      [
+        "Moldron",
+        "Ribbuny"
+      ],
+      [
+        "Nyafia",
+        "Puffolt"
+      ],
+      [
+        "Splatterina",
+        "Swee"
+      ]
+    ],
+    "key": "Sibelyx 5"
+  },
+  {
+    "parents": [
+      "Dumud",
+      "Tarantriss"
+    ],
+    "child": "Lunaris",
+    "unique": false,
+    "combos": [
+      [
+        "Dumud",
+        "Tarantriss"
+      ],
+      [
+        "Nyafia",
+        "Killamari"
+      ],
+      [
+        "Helzephyr",
+        "Cremis"
+      ],
+      [
+        "Finsider",
+        "Felbat"
+      ],
+      [
+        "Majex",
+        "Sparkit"
+      ]
+    ],
+    "key": "Lunaris 5"
+  },
+  {
+    "parents": [
+      "Amione",
+      "Flambelle"
+    ],
+    "child": "Caprity",
+    "unique": false,
+    "combos": [
+      [
+        "Amione",
+        "Flambelle"
+      ],
+      [
+        "Finsider",
+        "Killamari"
+      ],
+      [
+        "Dumud",
+        "Pupperai"
+      ],
+      [
+        "Kelpsea",
+        "Turtacle"
+      ],
+      [
+        "Puffolt",
+        "Ribbuny"
+      ]
+    ],
+    "key": "Caprity 5"
+  },
+  {
+    "parents": [
+      "Dazzi",
+      "Vixy"
+    ],
+    "child": "Tocotoco",
+    "unique": false,
+    "combos": [
+      [
+        "Dazzi",
+        "Vixy"
+      ],
+      [
+        "Finsider",
+        "Sparkit"
+      ],
+      [
+        "Flopie",
+        "Mozzarina"
+      ],
+      [
+        "Turtacle",
+        "Lamball"
+      ],
+      [
+        "Galeclaw",
+        "Cremis"
+      ]
+    ],
+    "key": "Tocotoco 5"
+  },
+  {
+    "parents": [
+      "Swee",
+      "Chikipi"
+    ],
+    "child": "Pengullet",
+    "unique": false,
+    "combos": [
+      [
+        "Swee",
+        "Chikipi"
+      ],
+      [
+        "Jolthog",
+        "Cremis"
+      ],
+      [
+        "Tanzee",
+        "Lifmunk"
+      ],
+      [
+        "Ribbuny",
+        "Vixy"
+      ],
+      [
+        "Hoocrates",
+        "Fuack"
+      ]
+    ],
+    "key": "Pengullet 5"
+  },
+  {
+    "parents": [
+      "Finsider",
+      "Bristla"
+    ],
+    "child": "Galeclaw",
+    "unique": false,
+    "combos": [
+      [
+        "Finsider",
+        "Bristla"
+      ],
+      [
+        "Tocotoco",
+        "Turtacle"
+      ],
+      [
+        "Dumud",
+        "Ribbuny"
+      ],
+      [
+        "Dazzi",
+        "Celaray"
+      ],
+      [
+        "Flopie",
+        "Muffly"
+      ]
+    ],
+    "key": "Galeclaw 5"
+  },
+  {
+    "parents": [
+      "Dazzi",
+      "Swee"
+    ],
+    "child": "Cinnamoth",
+    "unique": false,
+    "combos": [
+      [
+        "Dazzi",
+        "Swee"
+      ],
+      [
+        "Finsider",
+        "Fuddler"
+      ],
+      [
+        "Dumud",
+        "Gumoss"
+      ],
+      [
+        "Muffly",
+        "Cattiva"
+      ],
+      [
+        "Caprity",
+        "Herbil"
+      ]
+    ],
+    "key": "Cinnamoth 5"
+  },
+  {
+    "parents": [
+      "Nyafia",
+      "Ghangler"
+    ],
+    "child": "Reptyro",
+    "unique": false,
+    "combos": [
+      [
+        "Nyafia",
+        "Ghangler"
+      ],
+      [
+        "Celesdir",
+        "Digtoise"
+      ],
+      [
+        "Broncherry",
+        "Moldron"
+      ],
+      [
+        "Pierdon",
+        "Majex"
+      ],
+      [
+        "Flaracle",
+        "Tarantriss"
+      ]
+    ],
+    "key": "Reptyro 5"
+  },
+  {
+    "parents": [
+      "Moldron",
+      "Felbat"
+    ],
+    "child": "Verdash",
+    "unique": false,
+    "combos": [
+      [
+        "Moldron",
+        "Felbat"
+      ],
+      [
+        "Jormuntide",
+        "Tarantriss"
+      ],
+      [
+        "Bulldosu",
+        "Helzephyr"
+      ],
+      [
+        "Silvegis",
+        "Smokie"
+      ],
+      [
+        "Aegidron",
+        "Dumud"
+      ]
+    ],
+    "key": "Verdash 5"
+  },
+  {
+    "parents": [
+      "Ghangler",
+      "Vanwyrm"
+    ],
+    "child": "Icelyn",
+    "unique": false,
+    "combos": [
+      [
+        "Ghangler",
+        "Vanwyrm"
+      ],
+      [
+        "Shroomer",
+        "Majex"
+      ],
+      [
+        "Splatterina",
+        "Mimog"
+      ],
+      [
+        "Prunelia",
+        "Helzephyr"
+      ],
+      [
+        "Reptyro",
+        "Incineram"
+      ]
+    ],
+    "key": "Icelyn 5"
+  },
+  {
+    "parents": [
+      "Braloha",
+      "Tarantriss"
+    ],
+    "child": "Broncherry",
+    "unique": false,
+    "combos": [
+      [
+        "Braloha",
+        "Tarantriss"
+      ],
+      [
+        "Grizzbolt",
+        "Mimog"
+      ],
+      [
+        "Shroomer",
+        "Palumba"
+      ],
+      [
+        "Pierdon",
+        "Vanwyrm"
+      ],
+      [
+        "Quivern",
+        "Digtoise"
+      ]
+    ],
+    "key": "Broncherry 5"
+  },
+  {
+    "parents": [
+      "Prunelia",
+      "Digtoise"
+    ],
+    "child": "Incineram",
+    "unique": false,
+    "combos": [
+      [
+        "Prunelia",
+        "Digtoise"
+      ],
+      [
+        "Skutlass",
+        "Shroomer"
+      ],
+      [
+        "Wumpo",
+        "Loupmoon"
+      ],
+      [
+        "Sekhmet",
+        "Penking"
+      ],
+      [
+        "Frostplume",
+        "Wixen"
+      ]
+    ],
+    "key": "Incineram 5"
+  },
+  {
+    "parents": [
+      "Nyafia",
+      "Tarantriss"
+    ],
+    "child": "Vaelet",
+    "unique": false,
+    "combos": [
+      [
+        "Nyafia",
+        "Tarantriss"
+      ],
+      [
+        "Frostplume",
+        "Loupmoon"
+      ],
+      [
+        "Celesdir",
+        "Dazzi"
+      ],
+      [
+        "Ghangler",
+        "Dinossom"
+      ],
+      [
+        "Skutlass",
+        "Digtoise"
+      ]
+    ],
+    "key": "Vaelet 5"
+  },
+  {
+    "parents": [
+      "Majex",
+      "Loupmoon"
+    ],
+    "child": "Bushi",
+    "unique": false,
+    "combos": [
+      [
+        "Majex",
+        "Loupmoon"
+      ],
+      [
+        "Prunelia",
+        "Tarantriss"
+      ],
+      [
+        "Digtoise",
+        "Felbat"
+      ],
+      [
+        "Moldron",
+        "Cawgnito"
+      ],
+      [
+        "Azurmane",
+        "Flambelle"
+      ]
+    ],
+    "key": "Bushi 5"
+  },
+  {
+    "parents": [
+      "Moldron",
+      "Dazzi"
+    ],
+    "child": "Felbat",
+    "unique": false,
+    "combos": [
+      [
+        "Moldron",
+        "Dazzi"
+      ],
+      [
+        "Frostplume",
+        "Dumud"
+      ],
+      [
+        "Majex",
+        "Munchill"
+      ],
+      [
+        "Skutlass",
+        "Tarantriss"
+      ],
+      [
+        "Ghangler",
+        "Univolt"
+      ]
+    ],
+    "key": "Felbat 5"
+  },
+  {
+    "parents": [
+      "Majex",
+      "Dumud"
+    ],
+    "child": "Vanwyrm",
+    "unique": false,
+    "combos": [
+      [
+        "Majex",
+        "Dumud"
+      ],
+      [
+        "Tarantriss",
+        "Felbat"
+      ],
+      [
+        "Gildra",
+        "Munchill"
+      ],
+      [
+        "Celesdir",
+        "Tocotoco"
+      ],
+      [
+        "Frostplume",
+        "Surfent"
+      ]
+    ],
+    "key": "Vanwyrm 5"
+  },
+  {
+    "parents": [
+      "Ghangler",
+      "Flambelle"
+    ],
+    "child": "Elizabee",
+    "unique": false,
+    "combos": [
+      [
+        "Ghangler",
+        "Flambelle"
+      ],
+      [
+        "Frostplume",
+        "Tocotoco"
+      ],
+      [
+        "Moldron",
+        "Swee"
+      ],
+      [
+        "Finsider",
+        "Helzephyr"
+      ],
+      [
+        "Incineram",
+        "Loupmoon"
+      ]
+    ],
+    "key": "Elizabee 5"
+  },
+  {
+    "parents": [
+      "Ghangler",
+      "Fuddler"
+    ],
+    "child": "Azurobe",
+    "unique": false,
+    "combos": [
+      [
+        "Ghangler",
+        "Fuddler"
+      ],
+      [
+        "Nyafia",
+        "Dazzi"
+      ],
+      [
+        "Majex",
+        "Flopie"
+      ],
+      [
+        "Digtoise",
+        "Loupmoon"
+      ],
+      [
+        "Frostplume",
+        "Kelpsea"
+      ]
+    ],
+    "key": "Azurobe 5"
+  },
+  {
+    "parents": [
+      "Nyafia",
+      "Bristla"
+    ],
+    "child": "Foxcicle",
+    "unique": false,
+    "combos": [
+      [
+        "Nyafia",
+        "Bristla"
+      ],
+      [
+        "Frostplume",
+        "Chikipi"
+      ],
+      [
+        "Dumud",
+        "Vanwyrm"
+      ],
+      [
+        "Ghangler",
+        "Vixy"
+      ],
+      [
+        "Palumba",
+        "Flambelle"
+      ]
+    ],
+    "key": "Foxcicle 5"
+  },
+  {
+    "parents": [
+      "Smokie",
+      "Dazzi"
+    ],
+    "child": "Wixen",
+    "unique": false,
+    "combos": [
+      [
+        "Smokie",
+        "Dazzi"
+      ],
+      [
+        "Nyafia",
+        "Daedream"
+      ],
+      [
+        "Digtoise",
+        "Caprity"
+      ],
+      [
+        "Prunelia",
+        "Killamari"
+      ],
+      [
+        "Helzephyr",
+        "Jolthog"
+      ]
+    ],
+    "key": "Wixen 5"
+  },
+  {
+    "parents": [
+      "Finsider",
+      "Tarantriss"
+    ],
+    "child": "Lovander",
+    "unique": false,
+    "combos": [
+      [
+        "Finsider",
+        "Tarantriss"
+      ],
+      [
+        "Shroomer",
+        "Flopie"
+      ],
+      [
+        "Digtoise",
+        "Herbil"
+      ],
+      [
+        "Prunelia",
+        "Fuddler"
+      ],
+      [
+        "Skutlass",
+        "Cattiva"
+      ]
+    ],
+    "key": "Lovander 5"
+  },
+  {
+    "parents": [
+      "Digtoise",
+      "Bristla"
+    ],
+    "child": "Grintale",
+    "unique": false,
+    "combos": [
+      [
+        "Digtoise",
+        "Bristla"
+      ],
+      [
+        "Munchill",
+        "Loupmoon"
+      ],
+      [
+        "Incineram",
+        "Killamari"
+      ],
+      [
+        "Nyafia",
+        "Foxparks"
+      ],
+      [
+        "Smokie",
+        "Muffly"
+      ]
+    ],
+    "key": "Grintale 5"
+  },
+  {
+    "parents": [
+      "Digtoise",
+      "Cattiva"
+    ],
+    "child": "Sweepa",
+    "unique": false,
+    "combos": [
+      [
+        "Digtoise",
+        "Cattiva"
+      ],
+      [
+        "Flopie",
+        "Vanwyrm"
+      ],
+      [
+        "Felbat",
+        "Tocotoco"
+      ],
+      [
+        "Incineram",
+        "Ribbuny"
+      ],
+      [
+        "Nyafia",
+        "Chikipi"
+      ]
+    ],
+    "key": "Sweepa 5"
+  },
+  {
+    "parents": [
+      "Mimog",
+      "Flambelle"
+    ],
+    "child": "Kingpaca",
+    "unique": false,
+    "combos": [
+      [
+        "Mimog",
+        "Flambelle"
+      ],
+      [
+        "Digtoise",
+        "Cremis"
+      ],
+      [
+        "Vanwyrm",
+        "Fuddler"
+      ],
+      [
+        "Smokie",
+        "Direhowl"
+      ],
+      [
+        "Chillet",
+        "Loupmoon"
+      ]
+    ],
+    "key": "Kingpaca 5"
+  },
+  {
+    "parents": [
+      "Fenglope",
+      "Flambelle"
+    ],
+    "child": "Chillet",
+    "unique": false,
+    "combos": [
+      [
+        "Fenglope",
+        "Flambelle"
+      ],
+      [
+        "Foxcicle",
+        "Bristla"
+      ],
+      [
+        "Tarantriss",
+        "Pupperai"
+      ],
+      [
+        "Smokie",
+        "Tanzee"
+      ],
+      [
+        "Dumud",
+        "Cawgnito"
+      ]
+    ],
+    "key": "Chillet 5"
+  },
+  {
+    "parents": [
+      "Shroomer",
+      "Flambelle"
+    ],
+    "child": "Loupmoon",
+    "unique": false,
+    "combos": [
+      [
+        "Shroomer",
+        "Flambelle"
+      ],
+      [
+        "Nyafia",
+        "Clovee"
+      ],
+      [
+        "Mimog",
+        "Muffly"
+      ],
+      [
+        "Bushi",
+        "Flopie"
+      ],
+      [
+        "Vanwyrm",
+        "Galeclaw"
+      ]
+    ],
+    "key": "Loupmoon 5"
+  },
+  {
+    "parents": [
+      "Finsider",
+      "Munchill"
+    ],
+    "child": "Dumud",
+    "unique": false,
+    "combos": [
+      [
+        "Finsider",
+        "Munchill"
+      ],
+      [
+        "Mimog",
+        "Swee"
+      ],
+      [
+        "Digtoise",
+        "Jolthog"
+      ],
+      [
+        "Rayhound",
+        "Flopie"
+      ],
+      [
+        "Felbat",
+        "Sparkit"
+      ]
+    ],
+    "key": "Dumud 5"
+  },
+  {
+    "parents": [
+      "Shroomer",
+      "Dazzi"
+    ],
+    "child": "Fenglope",
+    "unique": false,
+    "combos": [
+      [
+        "Shroomer",
+        "Dazzi"
+      ],
+      [
+        "Ghangler",
+        "Mau"
+      ],
+      [
+        "Helzephyr",
+        "Fuddler"
+      ],
+      [
+        "Incineram",
+        "Finsider"
+      ],
+      [
+        "Sekhmet",
+        "Lamball"
+      ]
+    ],
+    "key": "Fenglope 5"
+  },
+  {
+    "parents": [
+      "Munchill",
+      "Tarantriss"
+    ],
+    "child": "Reindrix",
+    "unique": false,
+    "combos": [
+      [
+        "Munchill",
+        "Tarantriss"
+      ],
+      [
+        "Dazzi",
+        "Incineram"
+      ],
+      [
+        "Digtoise",
+        "Arsox"
+      ],
+      [
+        "Frostplume",
+        "Sparkit"
+      ],
+      [
+        "Ghangler",
+        "Foxparks"
+      ]
+    ],
+    "key": "Reindrix 5"
+  },
+  {
+    "parents": [
+      "Ghangler",
+      "Pengullet"
+    ],
+    "child": "Rayhound",
+    "unique": false,
+    "combos": [
+      [
+        "Ghangler",
+        "Pengullet"
+      ],
+      [
+        "Dumud",
+        "Digtoise"
+      ],
+      [
+        "Tarantriss",
+        "Loupmoon"
+      ],
+      [
+        "Frostplume",
+        "Fuack"
+      ],
+      [
+        "Prunelia",
+        "Finsider"
+      ]
+    ],
+    "key": "Rayhound 5"
+  },
+  {
+    "parents": [
+      "Incineram",
+      "Tocotoco"
+    ],
+    "child": "Dinossom",
+    "unique": false,
+    "combos": [
+      [
+        "Incineram",
+        "Tocotoco"
+      ],
+      [
+        "Nyafia",
+        "Gumoss"
+      ],
+      [
+        "Digtoise",
+        "Jelliette"
+      ],
+      [
+        "Felbat",
+        "Herbil"
+      ],
+      [
+        "Helzephyr",
+        "Teafant"
+      ]
+    ],
+    "key": "Dinossom 5"
+  },
+  {
+    "parents": [
+      "Tarantriss",
+      "Gumoss"
+    ],
+    "child": "Tombat",
+    "unique": false,
+    "combos": [
+      [
+        "Tarantriss",
+        "Gumoss"
+      ],
+      [
+        "Mimog",
+        "Hoocrates"
+      ],
+      [
+        "Munchill",
+        "Gobfin"
+      ],
+      [
+        "Puffolt",
+        "Arsox"
+      ],
+      [
+        "Loupmoon",
+        "Galeclaw"
+      ]
+    ],
+    "key": "Tombat 5"
+  },
+  {
+    "parents": [
+      "Dumud",
+      "Turtacle"
+    ],
+    "child": "Beegarde",
+    "unique": false,
+    "combos": [
+      [
+        "Dumud",
+        "Turtacle"
+      ],
+      [
+        "Foxcicle",
+        "Tocotoco"
+      ],
+      [
+        "Mimog",
+        "Pengullet"
+      ],
+      [
+        "Munchill",
+        "Galeclaw"
+      ],
+      [
+        "Tarantriss",
+        "Clovee"
+      ]
+    ],
+    "key": "Beegarde 5"
+  },
+  {
+    "parents": [
+      "Flopie",
+      "Ribbuny"
+    ],
+    "child": "Cattiva",
+    "unique": false,
+    "combos": [
+      [
+        "Flopie",
+        "Ribbuny"
+      ],
+      [
+        "Tocotoco",
+        "Fuddler"
+      ],
+      [
+        "Herbil",
+        "Cremis"
+      ],
+      [
+        "Swee",
+        "Direhowl"
+      ],
+      [
+        "Finsider",
+        "Teafant"
+      ]
+    ],
+    "key": "Cattiva 5"
+  },
+  {
+    "parents": [
+      "Ribbuny",
+      "Pengullet"
+    ],
+    "child": "Daedream",
+    "unique": false,
+    "combos": [
+      [
+        "Ribbuny",
+        "Pengullet"
+      ],
+      [
+        "Fuddler",
+        "Jolthog"
+      ],
+      [
+        "Killamari",
+        "Lamball"
+      ],
+      [
+        "Swee",
+        "Fuack"
+      ],
+      [
+        "Pupperai",
+        "Cremis"
+      ]
+    ],
+    "key": "Daedream 5"
+  },
+  {
+    "parents": [
+      "Swee",
+      "Flambelle"
+    ],
+    "child": "Killamari",
+    "unique": false,
+    "combos": [
+      [
+        "Swee",
+        "Flambelle"
+      ],
+      [
+        "Flopie",
+        "Rushoar"
+      ],
+      [
+        "Tocotoco",
+        "Kelpsea"
+      ],
+      [
+        "Ribbuny",
+        "Direhowl"
+      ],
+      [
+        "Amione",
+        "Lifmunk"
+      ]
+    ],
+    "key": "Killamari 5"
+  },
+  {
+    "parents": [
+      "Sparkit",
+      "Fuddler"
+    ],
+    "child": "Tanzee",
+    "unique": false,
+    "combos": [
+      [
+        "Sparkit",
+        "Fuddler"
+      ],
+      [
+        "Swee",
+        "Pengullet"
+      ],
+      [
+        "Tocotoco",
+        "Teafant"
+      ],
+      [
+        "Daedream",
+        "Cremis"
+      ],
+      [
+        "Ribbuny",
+        "Hoocrates"
+      ]
+    ],
+    "key": "Tanzee 5"
+  },
+  {
+    "parents": [
+      "Flopie",
+      "Flambelle"
+    ],
+    "child": "Direhowl",
+    "unique": false,
+    "combos": [
+      [
+        "Flopie",
+        "Flambelle"
+      ],
+      [
+        "Dazzi",
+        "Pengullet"
+      ],
+      [
+        "Tocotoco",
+        "Herbil"
+      ],
+      [
+        "Amione",
+        "Swee"
+      ],
+      [
+        "Finsider",
+        "Daedream"
+      ]
+    ],
+    "key": "Direhowl 5"
+  },
+  {
+    "parents": [
+      "Tarantriss",
+      "Daedream"
+    ],
+    "child": "Arsox",
+    "unique": false,
+    "combos": [
+      [
+        "Tarantriss",
+        "Daedream"
+      ],
+      [
+        "Mimog",
+        "Tanzee"
+      ],
+      [
+        "Smokie",
+        "Rushoar"
+      ],
+      [
+        "Fenglope",
+        "Direhowl"
+      ],
+      [
+        "Felbat",
+        "Teafant"
+      ]
+    ],
+    "key": "Arsox 5"
+  },
+  {
+    "parents": [
+      "Tarantriss",
+      "Fuddler"
+    ],
+    "child": "Robinquill",
+    "unique": false,
+    "combos": [
+      [
+        "Tarantriss",
+        "Fuddler"
+      ],
+      [
+        "Smokie",
+        "Cattiva"
+      ],
+      [
+        "Loupmoon",
+        "Turtacle"
+      ],
+      [
+        "Mimog",
+        "Hangyu"
+      ],
+      [
+        "Digtoise",
+        "Clovee"
+      ]
+    ],
+    "key": "Robinquill 5"
+  },
+  {
+    "parents": [
+      "Munchill",
+      "Turtacle"
+    ],
+    "child": "Univolt",
+    "unique": false,
+    "combos": [
+      [
+        "Munchill",
+        "Turtacle"
+      ],
+      [
+        "Tarantriss",
+        "Kelpsea"
+      ],
+      [
+        "Digtoise",
+        "Foxparks"
+      ],
+      [
+        "Smokie",
+        "Hangyu"
+      ],
+      [
+        "Shroomer",
+        "Lifmunk"
+      ]
+    ],
+    "key": "Univolt 5"
+  },
+  {
+    "parents": [
+      "Dazzi",
+      "Muffly"
+    ],
+    "child": "Surfent",
+    "unique": false,
+    "combos": [
+      [
+        "Dazzi",
+        "Muffly"
+      ],
+      [
+        "Loupmoon",
+        "Killamari"
+      ],
+      [
+        "Puffolt",
+        "Amione"
+      ],
+      [
+        "Tocotoco",
+        "Sweepa"
+      ],
+      [
+        "Foxcicle",
+        "Daedream"
+      ]
+    ],
+    "key": "Surfent 5"
+  },
+  {
+    "parents": [
+      "Dazzi",
+      "Flambelle"
+    ],
+    "child": "Gobfin",
+    "unique": false,
+    "combos": [
+      [
+        "Dazzi",
+        "Flambelle"
+      ],
+      [
+        "Bristla",
+        "Turtacle"
+      ],
+      [
+        "Cawgnito",
+        "Tocotoco"
+      ],
+      [
+        "Dumud",
+        "Kelpsea"
+      ],
+      [
+        "Finsider",
+        "Jelliette"
+      ]
+    ],
+    "key": "Gobfin 5"
+  },
+  {
+    "parents": [
+      "Bristla",
+      "Herbil"
+    ],
+    "child": "Flopie",
+    "unique": false,
+    "combos": [
+      [
+        "Bristla",
+        "Herbil"
+      ],
+      [
+        "Turtacle",
+        "Daedream"
+      ],
+      [
+        "Dumud",
+        "Jolthog"
+      ],
+      [
+        "Finsider",
+        "Rooby"
+      ],
+      [
+        "Muffly",
+        "Swee"
+      ]
+    ],
+    "key": "Flopie 5"
+  },
+  {
+    "parents": [
+      "Dazzi",
+      "Hoocrates"
+    ],
+    "child": "Leezpunk",
+    "unique": false,
+    "combos": [
+      [
+        "Dazzi",
+        "Hoocrates"
+      ],
+      [
+        "Finsider",
+        "Cremis"
+      ],
+      [
+        "Flopie",
+        "Direhowl"
+      ],
+      [
+        "Bristla",
+        "Jelliette"
+      ],
+      [
+        "Dumud",
+        "Lamball"
+      ]
+    ],
+    "key": "Leezpunk 5"
+  },
+  {
+    "parents": [
+      "Dazzi",
+      "Fuack"
+    ],
+    "child": "Bristla",
+    "unique": false,
+    "combos": [
+      [
+        "Dazzi",
+        "Fuack"
+      ],
+      [
+        "Amione",
+        "Ribbuny"
+      ],
+      [
+        "Flopie",
+        "Melpaca"
+      ],
+      [
+        "Tocotoco",
+        "Jelliette"
+      ],
+      [
+        "Finsider",
+        "Pupperai"
+      ]
+    ],
+    "key": "Bristla 5"
+  },
+  {
+    "parents": [
+      "Dazzi",
+      "Depresso"
+    ],
+    "child": "Flambelle",
+    "unique": false,
+    "combos": [
+      [
+        "Dazzi",
+        "Depresso"
+      ],
+      [
+        "Finsider",
+        "Gumoss"
+      ],
+      [
+        "Flopie",
+        "Celaray"
+      ],
+      [
+        "Killamari",
+        "Herbil"
+      ],
+      [
+        "Amione",
+        "Rushoar"
+      ]
+    ],
+    "key": "Flambelle 5"
+  },
+  {
+    "parents": [
+      "Bristla",
+      "Fuddler"
+    ],
+    "child": "Celaray",
+    "unique": false,
+    "combos": [
+      [
+        "Bristla",
+        "Fuddler"
+      ],
+      [
+        "Dazzi",
+        "Chikipi"
+      ],
+      [
+        "Hangyu",
+        "Flambelle"
+      ],
+      [
+        "Ribbuny",
+        "Herbil"
+      ],
+      [
+        "Amione",
+        "Pengullet"
+      ]
+    ],
+    "key": "Celaray 5"
+  },
+  {
+    "parents": [
+      "Bristla",
+      "Loupmoon"
+    ],
+    "child": "Dazzi",
+    "unique": false,
+    "combos": [
+      [
+        "Bristla",
+        "Loupmoon"
+      ],
+      [
+        "Tarantriss",
+        "Teafant"
+      ],
+      [
+        "Fenglope",
+        "Swee"
+      ],
+      [
+        "Muffly",
+        "Arsox"
+      ],
+      [
+        "Smokie",
+        "Mau"
+      ]
+    ],
+    "key": "Dazzi 5"
+  },
+  {
+    "parents": [
+      "Dumud",
+      "Finsider"
+    ],
+    "child": "Cawgnito",
+    "unique": false,
+    "combos": [
+      [
+        "Dumud",
+        "Finsider"
+      ],
+      [
+        "Tarantriss",
+        "Sparkit"
+      ],
+      [
+        "Loupmoon",
+        "Herbil"
+      ],
+      [
+        "Dazzi",
+        "Tombat"
+      ],
+      [
+        "Munchill",
+        "Caprity"
+      ]
+    ],
+    "key": "Cawgnito 5"
+  },
+  {
+    "parents": [
+      "Moldron",
+      "Bristla"
+    ],
+    "child": "Petallia",
+    "unique": false,
+    "combos": [
+      [
+        "Moldron",
+        "Bristla"
+      ],
+      [
+        "Splatterina",
+        "Flopie"
+      ],
+      [
+        "Ghangler",
+        "Nitewing"
+      ],
+      [
+        "Sekhmet",
+        "Galeclaw"
+      ],
+      [
+        "Cryolinx",
+        "Dazzi"
+      ]
+    ],
+    "key": "Petallia 5"
+  },
+  {
+    "parents": [
+      "Majex",
+      "Finsider"
+    ],
+    "child": "Tarantriss",
+    "unique": false,
+    "combos": [
+      [
+        "Majex",
+        "Finsider"
+      ],
+      [
+        "Reptyro",
+        "Dazzi"
+      ],
+      [
+        "Splatterina",
+        "Bristla"
+      ],
+      [
+        "Frostplume",
+        "Caprity"
+      ],
+      [
+        "Ghangler",
+        "Jellroy"
+      ]
+    ],
+    "key": "Tarantriss 5"
+  },
+  {
+    "parents": [
+      "Dazzi",
+      "Vanwyrm"
+    ],
+    "child": "Elgrove",
+    "unique": false,
+    "combos": [
+      [
+        "Dazzi",
+        "Vanwyrm"
+      ],
+      [
+        "Nyafia",
+        "Fuddler"
+      ],
+      [
+        "Tarantriss",
+        "Arsox"
+      ],
+      [
+        "Prunelia",
+        "Flopie"
+      ],
+      [
+        "Smokie",
+        "Dumud"
+      ]
+    ],
+    "key": "Elgrove 5"
+  },
+  {
+    "parents": [
+      "Sekhmet",
+      "Finsider"
+    ],
+    "child": "Polapup",
+    "unique": false,
+    "combos": [
+      [
+        "Sekhmet",
+        "Finsider"
+      ],
+      [
+        "Ghangler",
+        "Surfent"
+      ],
+      [
+        "Moldron",
+        "Galeclaw"
+      ],
+      [
+        "Braloha",
+        "Dumud"
+      ],
+      [
+        "Nyafia",
+        "Penking"
+      ]
+    ],
+    "key": "Polapup 5"
+  },
+  {
+    "parents": [
+      "Frostplume",
+      "Flopie"
+    ],
+    "child": "Smokie",
+    "unique": false,
+    "combos": [
+      [
+        "Frostplume",
+        "Flopie"
+      ],
+      [
+        "Moldron",
+        "Killamari"
+      ],
+      [
+        "Prunelia",
+        "Munchill"
+      ],
+      [
+        "Digtoise",
+        "Foxcicle"
+      ],
+      [
+        "Sekhmet",
+        "Jelliette"
+      ]
+    ],
+    "key": "Smokie 5"
+  },
+  {
+    "parents": [
+      "Frostplume",
+      "Gumoss"
+    ],
+    "child": "Valentail",
+    "unique": false,
+    "combos": [
+      [
+        "Frostplume",
+        "Gumoss"
+      ],
+      [
+        "Majex",
+        "Fuddler"
+      ],
+      [
+        "Ghangler",
+        "Pupperai"
+      ],
+      [
+        "Sekhmet",
+        "Hoocrates"
+      ],
+      [
+        "Shroomer",
+        "Dumud"
+      ]
+    ],
+    "key": "Valentail 5"
+  },
+  {
+    "parents": [
+      "Digtoise",
+      "Finsider"
+    ],
+    "child": "Souffline",
+    "unique": false,
+    "combos": [
+      [
+        "Digtoise",
+        "Finsider"
+      ],
+      [
+        "Palumba",
+        "Cattiva"
+      ],
+      [
+        "Majex",
+        "Foxparks"
+      ],
+      [
+        "Mammorest",
+        "Flopie"
+      ],
+      [
+        "Helzephyr",
+        "Rooby"
+      ]
+    ],
+    "key": "Souffline 5"
+  },
+  {
+    "parents": [
+      "Dazzi",
+      "Tanzee"
+    ],
+    "child": "Jelliette",
+    "unique": false,
+    "combos": [
+      [
+        "Dazzi",
+        "Tanzee"
+      ],
+      [
+        "Turtacle",
+        "Cremis"
+      ],
+      [
+        "Dumud",
+        "Sparkit"
+      ],
+      [
+        "Tocotoco",
+        "Galeclaw"
+      ],
+      [
+        "Flambelle",
+        "Croajiro"
+      ]
+    ],
+    "key": "Jelliette 5"
+  },
+  {
+    "parents": [
+      "Pengullet",
+      "Lifmunk"
+    ],
+    "child": "Foxparks",
+    "unique": false,
+    "combos": [
+      [
+        "Pengullet",
+        "Lifmunk"
+      ],
+      [
+        "Jolthog",
+        "Gumoss"
+      ],
+      [
+        "Pupperai",
+        "Lamball"
+      ],
+      [
+        "Mau",
+        "Hoocrates"
+      ],
+      [
+        "Depresso",
+        "Fuack"
+      ]
+    ],
+    "key": "Foxparks 5"
+  },
+  {
+    "parents": [
+      "Ribbuny",
+      "Lifmunk"
+    ],
+    "child": "Hoocrates",
+    "unique": false,
+    "combos": [
+      [
+        "Ribbuny",
+        "Lifmunk"
+      ],
+      [
+        "Swee",
+        "Mau"
+      ],
+      [
+        "Pupperai",
+        "Gumoss"
+      ],
+      [
+        "Rushoar",
+        "Depresso"
+      ],
+      [
+        "Sparkit",
+        "Rooby"
+      ]
+    ],
+    "key": "Hoocrates 5"
+  },
+  {
+    "parents": [
+      "Tocotoco",
+      "Lamball"
+    ],
+    "child": "Cremis",
+    "unique": false,
+    "combos": [
+      [
+        "Tocotoco",
+        "Lamball"
+      ],
+      [
+        "Swee",
+        "Hoocrates"
+      ],
+      [
+        "Fuddler",
+        "Foxparks"
+      ],
+      [
+        "Sparkit",
+        "Killamari"
+      ],
+      [
+        "Rushoar",
+        "Tanzee"
+      ]
+    ],
+    "key": "Cremis 5"
+  },
+  {
+    "parents": [
+      "Fuddler",
+      "Lamball"
+    ],
+    "child": "Nox",
+    "unique": false,
+    "combos": [
+      [
+        "Fuddler",
+        "Lamball"
+      ],
+      [
+        "Swee",
+        "Depresso"
+      ],
+      [
+        "Rushoar",
+        "Pengullet"
+      ],
+      [
+        "Killamari",
+        "Teafant"
+      ],
+      [
+        "Ribbuny",
+        "Fuack"
+      ]
+    ],
+    "key": "Nox 5"
+  },
+  {
+    "parents": [
+      "Flopie",
+      "Lifmunk"
+    ],
+    "child": "Swee",
+    "unique": false,
+    "combos": [
+      [
+        "Flopie",
+        "Lifmunk"
+      ],
+      [
+        "Fuddler",
+        "Cremis"
+      ],
+      [
+        "Tocotoco",
+        "Pengullet"
+      ],
+      [
+        "Bristla",
+        "Depresso"
+      ],
+      [
+        "Foxparks",
+        "Flambelle"
+      ]
+    ],
+    "key": "Swee 5"
+  },
+  {
+    "parents": [
+      "Cremis",
+      "Cattiva"
+    ],
+    "child": "Woolipop",
+    "unique": false,
+    "combos": [
+      [
+        "Cremis",
+        "Cattiva"
+      ],
+      [
+        "Ribbuny",
+        "Fuddler"
+      ],
+      [
+        "Bristla",
+        "Gumoss"
+      ],
+      [
+        "Flambelle",
+        "Hoocrates"
+      ],
+      [
+        "Tocotoco",
+        "Daedream"
+      ]
+    ],
+    "key": "Woolipop 5"
+  },
+  {
+    "parents": [
+      "Flopie",
+      "Pengullet"
+    ],
+    "child": "Kelpsea",
+    "unique": false,
+    "combos": [
+      [
+        "Flopie",
+        "Pengullet"
+      ],
+      [
+        "Tocotoco",
+        "Cremis"
+      ],
+      [
+        "Bristla",
+        "Pupperai"
+      ],
+      [
+        "Direhowl",
+        "Hoocrates"
+      ],
+      [
+        "Foxparks",
+        "Herbil"
+      ]
+    ],
+    "key": "Kelpsea 5"
+  },
+  {
+    "parents": [
+      "Rushoar",
+      "Flambelle"
+    ],
+    "child": "Fuddler",
+    "unique": false,
+    "combos": [
+      [
+        "Rushoar",
+        "Flambelle"
+      ],
+      [
+        "Gumoss",
+        "Herbil"
+      ],
+      [
+        "Swee",
+        "Celaray"
+      ],
+      [
+        "Kelpsea",
+        "Killamari"
+      ],
+      [
+        "Direhowl",
+        "Tanzee"
+      ]
+    ],
+    "key": "Fuddler 5"
+  },
+  {
+    "parents": [
+      "Foxparks",
+      "Gumoss"
+    ],
+    "child": "Clovee",
+    "unique": false,
+    "combos": [
+      [
+        "Foxparks",
+        "Gumoss"
+      ],
+      [
+        "Pengullet",
+        "Fuack"
+      ],
+      [
+        "Hoocrates",
+        "Depresso"
+      ],
+      [
+        "Sparkit",
+        "Pupperai"
+      ],
+      [
+        "Mau",
+        "Tanzee"
+      ]
+    ],
+    "key": "Clovee 5"
+  },
+  {
+    "parents": [
+      "Tarantriss",
+      "Cremis"
+    ],
+    "child": "Kikit",
+    "unique": false,
+    "combos": [
+      [
+        "Tarantriss",
+        "Cremis"
+      ],
+      [
+        "Fenglope",
+        "Flopie"
+      ],
+      [
+        "Smokie",
+        "Ribbuny"
+      ],
+      [
+        "Digtoise",
+        "Teafant"
+      ],
+      [
+        "Mimog",
+        "Rushoar"
+      ]
+    ],
+    "key": "Kikit 5"
+  },
+  {
+    "parents": [
+      "Tarantriss",
+      "Killamari"
+    ],
+    "child": "Wispaw",
+    "unique": false,
+    "combos": [
+      [
+        "Tarantriss",
+        "Killamari"
+      ],
+      [
+        "Mimog",
+        "Cattiva"
+      ],
+      [
+        "Digtoise",
+        "Gumoss"
+      ],
+      [
+        "Dazzi",
+        "Dinossom"
+      ],
+      [
+        "Munchill",
+        "Cawgnito"
+      ]
+    ],
+    "key": "Wispaw 5"
+  },
+  {
+    "parents": [
+      "Dazzi",
+      "Arsox"
+    ],
+    "child": "Puffolt",
+    "unique": false,
+    "combos": [
+      [
+        "Dazzi",
+        "Arsox"
+      ],
+      [
+        "Tarantriss",
+        "Foxparks"
+      ],
+      [
+        "Fenglope",
+        "Cattiva"
+      ],
+      [
+        "Smokie",
+        "Pengullet"
+      ],
+      [
+        "Loupmoon",
+        "Caprity"
+      ]
+    ],
+    "key": "Puffolt 5"
+  },
+  {
+    "parents": [
+      "Ghangler",
+      "Flopie"
+    ],
+    "child": "Hoodle",
+    "unique": false,
+    "combos": [
+      [
+        "Ghangler",
+        "Flopie"
+      ],
+      [
+        "Nyafia",
+        "Dumud"
+      ],
+      [
+        "Moldron",
+        "Fuddler"
+      ],
+      [
+        "Frostplume",
+        "Direhowl"
+      ],
+      [
+        "Splatterina",
+        "Cattiva"
+      ]
+    ],
+    "key": "Hoodle 5"
+  },
+  {
+    "parents": [
+      "Dumud",
+      "Moldron"
+    ],
+    "child": "Shroomer",
+    "unique": false,
+    "combos": [
+      [
+        "Dumud",
+        "Moldron"
+      ],
+      [
+        "Prunelia",
+        "Vanwyrm"
+      ],
+      [
+        "Rayhound",
+        "Helzephyr"
+      ],
+      [
+        "Flaracle",
+        "Flopie"
+      ],
+      [
+        "Knocklem",
+        "Fuddler"
+      ]
+    ],
+    "key": "Shroomer 5"
+  },
+  {
+    "parents": [
+      "Frostplume",
+      "Herbil"
+    ],
+    "child": "Slowatt",
+    "unique": false,
+    "combos": [
+      [
+        "Frostplume",
+        "Herbil"
+      ],
+      [
+        "Smokie",
+        "Tarantriss"
+      ],
+      [
+        "Ghangler",
+        "Caprity"
+      ],
+      [
+        "Relaxaurus",
+        "Dazzi"
+      ],
+      [
+        "Ragnahawk",
+        "Finsider"
+      ]
+    ],
+    "key": "Slowatt 5"
+  },
+  {
+    "parents": [
+      "Felbat",
+      "Bristla"
+    ],
+    "child": "Munchill",
+    "unique": false,
+    "combos": [
+      [
+        "Felbat",
+        "Bristla"
+      ],
+      [
+        "Nyafia",
+        "Sparkit"
+      ],
+      [
+        "Mimog",
+        "Amione"
+      ],
+      [
+        "Dumud",
+        "Foxcicle"
+      ],
+      [
+        "Skutlass",
+        "Swee"
+      ]
+    ],
+    "key": "Munchill 5"
+  },
+  {
+    "parents": [
+      "Flopie",
+      "Tarantriss"
+    ],
+    "child": "Dazemu",
+    "unique": false,
+    "combos": [
+      [
+        "Flopie",
+        "Tarantriss"
+      ],
+      [
+        "Dumud",
+        "Munchill"
+      ],
+      [
+        "Digtoise",
+        "Ribbuny"
+      ],
+      [
+        "Foxcicle",
+        "Dazzi"
+      ],
+      [
+        "Vanwyrm",
+        "Tocotoco"
+      ]
+    ],
+    "key": "Dazemu 5"
+  },
+  {
+    "parents": [
+      "Digtoise",
+      "Helzephyr"
+    ],
+    "child": "Mammorest",
+    "unique": false,
+    "combos": [
+      [
+        "Digtoise",
+        "Helzephyr"
+      ],
+      [
+        "Celesdir",
+        "Loupmoon"
+      ],
+      [
+        "Braloha",
+        "Vanwyrm"
+      ],
+      [
+        "Moldron",
+        "Reindrix"
+      ],
+      [
+        "Flaracle",
+        "Dumud"
+      ]
+    ],
+    "key": "Mammorest 5"
+  },
+  {
+    "parents": [
+      "Majex",
+      "Digtoise"
+    ],
+    "child": "Warsect",
+    "unique": false,
+    "combos": [
+      [
+        "Majex",
+        "Digtoise"
+      ],
+      [
+        "Wumpo",
+        "Tarantriss"
+      ],
+      [
+        "Ghangler",
+        "Beakon"
+      ],
+      [
+        "Shroomer",
+        "Ragnahawk"
+      ],
+      [
+        "Prunelia",
+        "Gildra"
+      ]
+    ],
+    "key": "Warsect 5"
+  },
+  {
+    "parents": [
+      "Splatterina",
+      "Ghangler"
+    ],
+    "child": "Wumpo",
+    "unique": false,
+    "combos": [
+      [
+        "Splatterina",
+        "Ghangler"
+      ],
+      [
+        "Nyafia",
+        "Blazamut"
+      ],
+      [
+        "Lapure",
+        "Frostplume"
+      ],
+      [
+        "Tetroise",
+        "Sekhmet"
+      ],
+      [
+        "Azurmane",
+        "Palumba"
+      ]
+    ],
+    "key": "Wumpo 5"
+  },
+  {
+    "parents": [
+      "Dumud",
+      "Helzephyr"
+    ],
+    "child": "Maraith",
+    "unique": false,
+    "combos": [
+      [
+        "Dumud",
+        "Helzephyr"
+      ],
+      [
+        "Majex",
+        "Turtacle"
+      ],
+      [
+        "Grizzbolt",
+        "Dazzi"
+      ],
+      [
+        "Frostplume",
+        "Nitewing"
+      ],
+      [
+        "Sekhmet",
+        "Gobfin"
+      ]
+    ],
+    "key": "Maraith 5"
+  },
+  {
+    "parents": [
+      "Ghangler",
+      "Relaxaurus"
+    ],
+    "child": "Sootseer",
+    "unique": false,
+    "combos": [
+      [
+        "Ghangler",
+        "Relaxaurus"
+      ],
+      [
+        "Pierdon",
+        "Frostplume"
+      ],
+      [
+        "Whalaska",
+        "Nyafia"
+      ],
+      [
+        "Blazamut",
+        "Digtoise"
+      ],
+      [
+        "Dualith",
+        "Incineram"
+      ]
+    ],
+    "key": "Sootseer 5"
+  },
+  {
+    "parents": [
+      "Blazehowl",
+      "Ghangler"
+    ],
+    "child": "Menasting",
+    "unique": false,
+    "combos": [
+      [
+        "Blazehowl",
+        "Ghangler"
+      ],
+      [
+        "Dualith",
+        "Tarantriss"
+      ],
+      [
+        "Frostplume",
+        "Broncherry"
+      ],
+      [
+        "Pierdon",
+        "Helzephyr"
+      ],
+      [
+        "Bulldosu",
+        "Ragnahawk"
+      ]
+    ],
+    "key": "Menasting 5"
+  },
+  {
+    "parents": [
+      "Nyafia",
+      "Tocotoco"
+    ],
+    "child": "Lullu",
+    "unique": false,
+    "combos": [
+      [
+        "Nyafia",
+        "Tocotoco"
+      ],
+      [
+        "Felbat",
+        "Turtacle"
+      ],
+      [
+        "Tarantriss",
+        "Wispaw"
+      ],
+      [
+        "Majex",
+        "Clovee"
+      ],
+      [
+        "Grizzbolt",
+        "Pengullet"
+      ]
+    ],
+    "key": "Lullu 5"
+  },
+  {
+    "parents": [
+      "Tarantriss",
+      "Tocotoco"
+    ],
+    "child": "Yakumo",
+    "unique": false,
+    "combos": [
+      [
+        "Tarantriss",
+        "Tocotoco"
+      ],
+      [
+        "Smokie",
+        "Flambelle"
+      ],
+      [
+        "Digtoise",
+        "Daedream"
+      ],
+      [
+        "Chillet",
+        "Munchill"
+      ],
+      [
+        "Felbat",
+        "Cremis"
+      ]
+    ],
+    "key": "Yakumo 5"
+  },
+  {
+    "parents": [
+      "Tarantriss",
+      "Lamball"
+    ],
+    "child": "Snugloo",
+    "unique": false,
+    "combos": [
+      [
+        "Tarantriss",
+        "Lamball"
+      ],
+      [
+        "Munchill",
+        "Jelliette"
+      ],
+      [
+        "Smokie",
+        "Lifmunk"
+      ],
+      [
+        "Chillet",
+        "Finsider"
+      ],
+      [
+        "Cawgnito",
+        "Turtacle"
+      ]
+    ],
+    "key": "Snugloo 5"
+  },
+  {
+    "parents": [
+      "Munchill",
+      "Bristla"
+    ],
+    "child": "Turtacle",
+    "unique": false,
+    "combos": [
+      [
+        "Munchill",
+        "Bristla"
+      ],
+      [
+        "Finsider",
+        "Cawgnito"
+      ],
+      [
+        "Fenglope",
+        "Ribbuny"
+      ],
+      [
+        "Mimog",
+        "Chikipi"
+      ],
+      [
+        "Smokie",
+        "Vixy"
+      ]
+    ],
+    "key": "Turtacle 5"
+  },
+  {
+    "parents": [
+      "Dazzi",
+      "Finsider"
+    ],
+    "child": "Needoll",
+    "unique": false,
+    "combos": [
+      [
+        "Dazzi",
+        "Finsider"
+      ],
+      [
+        "Loupmoon",
+        "Tocotoco"
+      ],
+      [
+        "Arsox",
+        "Amione"
+      ],
+      [
+        "Munchill",
+        "Melpaca"
+      ],
+      [
+        "Fenglope",
+        "Cremis"
+      ]
+    ],
+    "key": "Needoll 5"
+  },
+  {
+    "parents": [
+      "Loupmoon",
+      "Fuddler"
+    ],
+    "child": "Finsider",
+    "unique": false,
+    "combos": [
+      [
+        "Loupmoon",
+        "Fuddler"
+      ],
+      [
+        "Munchill",
+        "Killamari"
+      ],
+      [
+        "Flopie",
+        "Wispaw"
+      ],
+      [
+        "Fenglope",
+        "Gumoss"
+      ],
+      [
+        "Sweepa",
+        "Cattiva"
+      ]
+    ],
+    "key": "Finsider 5"
+  },
+  {
+    "parents": [
+      "Dazzi",
+      "Nitewing"
+    ],
+    "child": "Muffly",
+    "unique": false,
+    "combos": [
+      [
+        "Dazzi",
+        "Nitewing"
+      ],
+      [
+        "Gobfin",
+        "Turtacle"
+      ],
+      [
+        "Bristla",
+        "Univolt"
+      ],
+      [
+        "Dinossom",
+        "Ribbuny"
+      ],
+      [
+        "Chillet",
+        "Herbil"
+      ]
+    ],
+    "key": "Muffly 5"
+  },
+  {
+    "parents": [
+      "Munchill",
+      "Daedream"
+    ],
+    "child": "Amione",
+    "unique": false,
+    "combos": [
+      [
+        "Munchill",
+        "Daedream"
+      ],
+      [
+        "Turtacle",
+        "Herbil"
+      ],
+      [
+        "Loupmoon",
+        "Pupperai"
+      ],
+      [
+        "Tombat",
+        "Flambelle"
+      ],
+      [
+        "Wispaw",
+        "Fuddler"
+      ]
+    ],
+    "key": "Amione 5"
+  },
+  {
+    "parents": [
+      "Dazzi",
+      "Flopie"
+    ],
+    "child": "Gloopie",
+    "unique": false,
+    "combos": [
+      [
+        "Dazzi",
+        "Flopie"
+      ],
+      [
+        "Dumud",
+        "Killamari"
+      ],
+      [
+        "Puffolt",
+        "Flambelle"
+      ],
+      [
+        "Bristla",
+        "Cawgnito"
+      ],
+      [
+        "Loupmoon",
+        "Gumoss"
+      ]
+    ],
+    "key": "Gloopie 5"
+  },
+  {
+    "parents": [
+      "Finsider",
+      "Tocotoco"
+    ],
+    "child": "Jellroy",
+    "unique": false,
+    "combos": [
+      [
+        "Finsider",
+        "Tocotoco"
+      ],
+      [
+        "Dazzi",
+        "Hangyu"
+      ],
+      [
+        "Flopie",
+        "Amione"
+      ],
+      [
+        "Dumud",
+        "Cremis"
+      ],
+      [
+        "Turtacle",
+        "Killamari"
+      ]
+    ],
+    "key": "Jellroy 5"
+  },
+  {
+    "parents": [
+      "Dazzi",
+      "Ribbuny"
+    ],
+    "child": "Herbil",
+    "unique": false,
+    "combos": [
+      [
+        "Dazzi",
+        "Ribbuny"
+      ],
+      [
+        "Bristla",
+        "Galeclaw"
+      ],
+      [
+        "Flopie",
+        "Caprity"
+      ],
+      [
+        "Arsox",
+        "Gumoss"
+      ],
+      [
+        "Muffly",
+        "Fuddler"
+      ]
+    ],
+    "key": "Herbil 5"
+  },
+  {
+    "parents": [
+      "Turtacle",
+      "Fuddler"
+    ],
+    "child": "Croajiro",
+    "unique": false,
+    "combos": [
+      [
+        "Turtacle",
+        "Fuddler"
+      ],
+      [
+        "Dazzi",
+        "Mozzarina"
+      ],
+      [
+        "Dumud",
+        "Daedream"
+      ],
+      [
+        "Arsox",
+        "Rushoar"
+      ],
+      [
+        "Munchill",
+        "Teafant"
+      ]
+    ],
+    "key": "Croajiro 5"
+  },
+  {
+    "parents": [
+      "Dupin",
+      "Dazzi"
+    ],
+    "child": "Dogen",
+    "unique": false,
+    "combos": [
+      [
+        "Dupin",
+        "Dazzi"
+      ],
+      [
+        "Ghangler",
+        "Katress"
+      ],
+      [
+        "Dualith",
+        "Turtacle"
+      ],
+      [
+        "Knocklem",
+        "Flopie"
+      ],
+      [
+        "Bulldosu",
+        "Tarantriss"
+      ]
+    ],
+    "key": "Dogen 5"
+  },
+  {
+    "parents": [
+      "Digtoise",
+      "Incineram"
+    ],
+    "child": "Prixter",
+    "unique": false,
+    "combos": [
+      [
+        "Digtoise",
+        "Incineram"
+      ],
+      [
+        "Celesdir",
+        "Finsider"
+      ],
+      [
+        "Ghangler",
+        "Gorirat"
+      ],
+      [
+        "Sekhmet",
+        "Sweepa"
+      ],
+      [
+        "Knocklem",
+        "Cattiva"
+      ]
+    ],
+    "key": "Prixter 5"
+  },
+  {
+    "parents": [
+      "Ghangler",
+      "Fenglope"
+    ],
+    "child": "Skutlass",
+    "unique": false,
+    "combos": [
+      [
+        "Ghangler",
+        "Fenglope"
+      ],
+      [
+        "Sekhmet",
+        "Foxcicle"
+      ],
+      [
+        "Moldron",
+        "Dinossom"
+      ],
+      [
+        "Pierdon",
+        "Tarantriss"
+      ],
+      [
+        "Whalaska",
+        "Munchill"
+      ]
+    ],
+    "key": "Skutlass 5"
+  },
+  {
+    "parents": [
+      "Nyafia",
+      "Quivern"
+    ],
+    "child": "Nitemary",
+    "unique": false,
+    "combos": [
+      [
+        "Nyafia",
+        "Quivern"
+      ],
+      [
+        "Gildane",
+        "Tarantriss"
+      ],
+      [
+        "Lapure",
+        "Vanwyrm"
+      ],
+      [
+        "Ragnahawk",
+        "Leafan"
+      ],
+      [
+        "Cryolinx",
+        "Skutlass"
+      ]
+    ],
+    "key": "Nitemary 5"
+  },
+  {
+    "parents": [
+      "Azurmane",
+      "Flopie"
+    ],
+    "child": "Bakemi",
+    "unique": false,
+    "combos": [
+      [
+        "Azurmane",
+        "Flopie"
+      ],
+      [
+        "Moldron",
+        "Chillet"
+      ],
+      [
+        "Majex",
+        "Penking"
+      ],
+      [
+        "Flaracle",
+        "Bristla"
+      ],
+      [
+        "Mimog",
+        "Mammorest"
+      ]
+    ],
+    "key": "Bakemi 5"
+  },
+  {
+    "parents": [
+      "Frostplume",
+      "Fenglope"
+    ],
+    "child": "Leafan",
+    "unique": false,
+    "combos": [
+      [
+        "Frostplume",
+        "Fenglope"
+      ],
+      [
+        "Nyafia",
+        "Felbat"
+      ],
+      [
+        "Azurmane",
+        "Dazzi"
+      ],
+      [
+        "Relaxaurus",
+        "Tarantriss"
+      ],
+      [
+        "Smokie",
+        "Reptyro"
+      ]
+    ],
+    "key": "Leafan 5"
+  },
+  {
+    "parents": [
+      "Nyafia",
+      "Digtoise"
+    ],
+    "child": "Dynamoff",
+    "unique": false,
+    "combos": [
+      [
+        "Nyafia",
+        "Digtoise"
+      ],
+      [
+        "Rayhound",
+        "Ghangler"
+      ],
+      [
+        "Mimog",
+        "Reptyro"
+      ],
+      [
+        "Dualith",
+        "Dumud"
+      ],
+      [
+        "Sekhmet",
+        "Reindrix"
+      ]
+    ],
+    "key": "Dynamoff 5"
+  },
+  {
+    "parents": [
+      "Ragnahawk",
+      "Tarantriss"
+    ],
+    "child": "Prunelia",
+    "unique": false,
+    "combos": [
+      [
+        "Ragnahawk",
+        "Tarantriss"
+      ],
+      [
+        "Frostplume",
+        "Rayhound"
+      ],
+      [
+        "Helzephyr",
+        "Vanwyrm"
+      ],
+      [
+        "Grizzbolt",
+        "Smokie"
+      ],
+      [
+        "Mimog",
+        "Cryolinx"
+      ]
+    ],
+    "key": "Prunelia 5"
+  },
+  {
+    "parents": [
+      "Nyafia",
+      "Wumpo"
+    ],
+    "child": "Cryolinx",
+    "unique": false,
+    "combos": [
+      [
+        "Nyafia",
+        "Wumpo"
+      ],
+      [
+        "Suzaku",
+        "Ghangler"
+      ],
+      [
+        "Dualith",
+        "Felbat"
+      ],
+      [
+        "Grizzbolt",
+        "Reptyro"
+      ],
+      [
+        "Sekhmet",
+        "Quivern"
+      ]
+    ],
+    "key": "Cryolinx 5"
+  },
+  {
+    "parents": [
+      "Frostplume",
+      "Palumba"
+    ],
+    "child": "Ragnahawk",
+    "unique": false,
+    "combos": [
+      [
+        "Frostplume",
+        "Palumba"
+      ],
+      [
+        "Majex",
+        "Relaxaurus"
+      ],
+      [
+        "Whalaska",
+        "Prunelia"
+      ],
+      [
+        "Nitemary",
+        "Sekhmet"
+      ],
+      [
+        "Cryolinx",
+        "Reptyro"
+      ]
+    ],
+    "key": "Ragnahawk 5"
+  },
+  {
+    "parents": [
+      "Ghangler",
+      "Amione"
+    ],
+    "child": "Carnibora",
+    "unique": false,
+    "combos": [
+      [
+        "Ghangler",
+        "Amione"
+      ],
+      [
+        "Moldron",
+        "Jelliette"
+      ],
+      [
+        "Whalaska",
+        "Bristla"
+      ],
+      [
+        "Nyafia",
+        "Sweepa"
+      ],
+      [
+        "Dualith",
+        "Cremis"
+      ]
+    ],
+    "key": "Carnibora 5"
+  },
+  {
+    "parents": [
+      "Nyafia",
+      "Loupmoon"
+    ],
+    "child": "Lapiron",
+    "unique": false,
+    "combos": [
+      [
+        "Nyafia",
+        "Loupmoon"
+      ],
+      [
+        "Ghangler",
+        "Muffly"
+      ],
+      [
+        "Moldron",
+        "Caprity"
+      ],
+      [
+        "Celesdir",
+        "Fuddler"
+      ],
+      [
+        "Prunelia",
+        "Foxcicle"
+      ]
+    ],
+    "key": "Lapiron 5"
+  },
+  {
+    "parents": [
+      "Splatterina",
+      "Majex"
+    ],
+    "child": "Loomen",
+    "unique": false,
+    "combos": [
+      [
+        "Splatterina",
+        "Majex"
+      ],
+      [
+        "Braloha",
+        "Moldron"
+      ],
+      [
+        "Lyleen",
+        "Digtoise"
+      ],
+      [
+        "Roujay",
+        "Nyafia"
+      ],
+      [
+        "Bastigor",
+        "Tarantriss"
+      ]
+    ],
+    "key": "Loomen 5"
+  },
+  {
+    "parents": [
+      "Splatterina",
+      "Nyafia"
+    ],
+    "child": "Majex",
+    "unique": false,
+    "combos": [
+      [
+        "Splatterina",
+        "Nyafia"
+      ],
+      [
+        "Gildra",
+        "Frostplume"
+      ],
+      [
+        "Omascul",
+        "Ghangler"
+      ],
+      [
+        "Eidrolon",
+        "Tarantriss"
+      ],
+      [
+        "Dualith",
+        "Shroomer"
+      ]
+    ],
+    "key": "Majex 5"
+  },
+  {
+    "parents": [
+      "Reptyro",
+      "Ghangler"
+    ],
+    "child": "Venusa",
+    "unique": false,
+    "combos": [
+      [
+        "Reptyro",
+        "Ghangler"
+      ],
+      [
+        "Bulldosu",
+        "Moldron"
+      ],
+      [
+        "Azurmane",
+        "Shroomer"
+      ],
+      [
+        "Flaracle",
+        "Digtoise"
+      ],
+      [
+        "Lapure",
+        "Helzephyr"
+      ]
+    ],
+    "key": "Venusa 5"
+  },
+  {
+    "parents": [
+      "Whalaska",
+      "Moldron"
+    ],
+    "child": "Gildane",
+    "unique": false,
+    "combos": [
+      [
+        "Whalaska",
+        "Moldron"
+      ],
+      [
+        "Jormuntide",
+        "Ghangler"
+      ],
+      [
+        "Blazamut",
+        "Reptyro"
+      ],
+      [
+        "Azurmane",
+        "Ragnahawk"
+      ],
+      [
+        "Eidrolon",
+        "Gildra"
+      ]
+    ],
+    "key": "Gildane 5"
+  },
+  {
+    "parents": [
+      "Gildra",
+      "Ghangler"
+    ],
+    "child": "Braloha",
+    "unique": false,
+    "combos": [
+      [
+        "Gildra",
+        "Ghangler"
+      ],
+      [
+        "Majex",
+        "Ragnahawk"
+      ],
+      [
+        "Dualith",
+        "Digtoise"
+      ],
+      [
+        "Bulldosu",
+        "Frostplume"
+      ],
+      [
+        "Lapure",
+        "Nyafia"
+      ]
+    ],
+    "key": "Braloha 5"
+  },
+  {
+    "parents": [
+      "Moldron",
+      "Ghangler"
+    ],
+    "child": "Lapure",
+    "unique": false,
+    "combos": [
+      [
+        "Moldron",
+        "Ghangler"
+      ],
+      [
+        "Celesdir",
+        "Reptyro"
+      ],
+      [
+        "Dualith",
+        "Pierdon"
+      ],
+      [
+        "Lyleen",
+        "Prunelia"
+      ],
+      [
+        "Astegon",
+        "Helzephyr"
+      ]
+    ],
+    "key": "Lapure 5"
+  },
+  {
+    "parents": [
+      "Lyleen",
+      "Moldron"
+    ],
+    "child": "Astegon",
+    "unique": false,
+    "combos": [
+      [
+        "Lyleen",
+        "Moldron"
+      ],
+      [
+        "Celesdir",
+        "Blazamut"
+      ],
+      [
+        "Orserk",
+        "Frostplume"
+      ],
+      [
+        "Azurmane",
+        "Silvegis"
+      ],
+      [
+        "Knocklem",
+        "Gildane"
+      ]
+    ],
+    "key": "Astegon 5"
+  },
+  {
+    "parents": [
+      "Aegidron",
+      "Moldron"
+    ],
+    "child": "Flaracle",
+    "unique": false,
+    "combos": [
+      [
+        "Aegidron",
+        "Moldron"
+      ],
+      [
+        "Dupin",
+        "Knocklem"
+      ],
+      [
+        "Solenne",
+        "Dualith"
+      ],
+      [
+        "Eidrolon",
+        "Astegon"
+      ],
+      [
+        "Bastigor",
+        "Gildane"
+      ]
+    ],
+    "key": "Flaracle 5"
+  },
+  {
+    "parents": [
+      "Orserk",
+      "Blazamut"
+    ],
+    "child": "Knocklem",
+    "unique": false,
+    "combos": [
+      [
+        "Orserk",
+        "Blazamut"
+      ],
+      [
+        "Ophydia",
+        "Eidrolon"
+      ],
+      [
+        "Lyleen",
+        "Renjishi"
+      ],
+      [
+        "Aegidron",
+        "Astegon"
+      ],
+      [
+        "Bastigor",
+        "Anubis"
+      ]
+    ],
+    "key": "Knocklem 5"
+  },
+  {
+    "parents": [
+      "Frostplume",
+      "Flambelle"
+    ],
+    "child": "Snock",
+    "unique": false,
+    "combos": [
+      [
+        "Frostplume",
+        "Flambelle"
+      ],
+      [
+        "Sekhmet",
+        "Bristla"
+      ],
+      [
+        "Ghangler",
+        "Direhowl"
+      ],
+      [
+        "Moldron",
+        "Kelpsea"
+      ],
+      [
+        "Palumba",
+        "Arsox"
+      ]
+    ],
+    "key": "Snock 5"
+  },
+  {
+    "parents": [
+      "Celesdir",
+      "Munchill"
+    ],
+    "child": "Tropicaw",
+    "unique": false,
+    "combos": [
+      [
+        "Celesdir",
+        "Munchill"
+      ],
+      [
+        "Helzephyr",
+        "Felbat"
+      ],
+      [
+        "Eidrolon",
+        "Dazzi"
+      ],
+      [
+        "Blazamut",
+        "Dumud"
+      ],
+      [
+        "Splatterina",
+        "Rayhound"
+      ]
+    ],
+    "key": "Tropicaw 5"
+  },
+  {
+    "parents": [
+      "Braloha",
+      "Incineram"
+    ],
+    "child": "Nyafia",
+    "unique": false,
+    "combos": [
+      [
+        "Braloha",
+        "Incineram"
+      ],
+      [
+        "Prunelia",
+        "Pierdon"
+      ],
+      [
+        "Flaracle",
+        "Loupmoon"
+      ],
+      [
+        "Sootseer",
+        "Shroomer"
+      ],
+      [
+        "Bastigor",
+        "Finsider"
+      ]
+    ],
+    "key": "Nyafia 5"
+  },
+  {
+    "parents": [
+      "Digtoise",
+      "Moldron"
+    ],
+    "child": "Starryon",
+    "unique": false,
+    "combos": [
+      [
+        "Digtoise",
+        "Moldron"
+      ],
+      [
+        "Skutlass",
+        "Ghangler"
+      ],
+      [
+        "Nyafia",
+        "Ragnahawk"
+      ],
+      [
+        "Celesdir",
+        "Tarantriss"
+      ],
+      [
+        "Splatterina",
+        "Shroomer"
+      ]
+    ],
+    "key": "Starryon 5"
+  },
+  {
+    "parents": [
+      "Moldron",
+      "Tarantriss"
+    ],
+    "child": "Palumba",
+    "unique": false,
+    "combos": [
+      [
+        "Moldron",
+        "Tarantriss"
+      ],
+      [
+        "Reptyro",
+        "Skutlass"
+      ],
+      [
+        "Wumpo",
+        "Vanwyrm"
+      ],
+      [
+        "Prunelia",
+        "Relaxaurus"
+      ],
+      [
+        "Dualith",
+        "Foxcicle"
+      ]
+    ],
+    "key": "Palumba 5"
+  },
+  {
+    "parents": [
+      "Skutlass",
+      "Frostplume"
+    ],
+    "child": "Omascul",
+    "unique": false,
+    "combos": [
+      [
+        "Skutlass",
+        "Frostplume"
+      ],
+      [
+        "Nyafia",
+        "Braloha"
+      ],
+      [
+        "Sekhmet",
+        "Leafan"
+      ],
+      [
+        "Dupin",
+        "Smokie"
+      ],
+      [
+        "Whalaska",
+        "Felbat"
+      ]
+    ],
+    "key": "Omascul 5"
+  },
+  {
+    "parents": [
+      "Ghangler",
+      "Mammorest"
+    ],
+    "child": "Pierdon",
+    "unique": false,
+    "combos": [
+      [
+        "Ghangler",
+        "Mammorest"
+      ],
+      [
+        "Frostplume",
+        "Blazehowl"
+      ],
+      [
+        "Celesdir",
+        "Vanwyrm"
+      ],
+      [
+        "Relaxaurus",
+        "Helzephyr"
+      ],
+      [
+        "Gildra",
+        "Ragnahawk"
+      ]
+    ],
+    "key": "Pierdon 5"
+  },
+  {
+    "parents": [
+      "Celesdir",
+      "Frostplume"
+    ],
+    "child": "Whalaska",
+    "unique": false,
+    "combos": [
+      [
+        "Celesdir",
+        "Frostplume"
+      ],
+      [
+        "Dupin",
+        "Ghangler"
+      ],
+      [
+        "Sekhmet",
+        "Dualith"
+      ],
+      [
+        "Azurmane",
+        "Majex"
+      ],
+      [
+        "Eidrolon",
+        "Helzephyr"
+      ]
+    ],
+    "key": "Whalaska 5"
+  },
+  {
+    "parents": [
+      "Whalaska",
+      "Majex"
+    ],
+    "child": "Frostplume",
+    "unique": false,
+    "combos": [
+      [
+        "Whalaska",
+        "Majex"
+      ],
+      [
+        "Jormuntide",
+        "Helzephyr"
+      ],
+      [
+        "Eidrolon",
+        "Skutlass"
+      ],
+      [
+        "Lyleen",
+        "Vaelet"
+      ],
+      [
+        "Anubis",
+        "Palumba"
+      ]
+    ],
+    "key": "Frostplume 5"
+  },
+  {
+    "parents": [
+      "Lapure",
+      "Moldron"
+    ],
+    "child": "Splatterina",
+    "unique": false,
+    "combos": [
+      [
+        "Lapure",
+        "Moldron"
+      ],
+      [
+        "Azurmane",
+        "Omascul"
+      ],
+      [
+        "Flaracle",
+        "Gildra"
+      ],
+      [
+        "Dupin",
+        "Cryolinx"
+      ],
+      [
+        "Blazamut",
+        "Starryon"
+      ]
+    ],
+    "key": "Splatterina 5"
+  },
+  {
+    "parents": [
+      "Lyleen",
+      "Ghangler"
+    ],
+    "child": "Silvegis",
+    "unique": false,
+    "combos": [
+      [
+        "Lyleen",
+        "Ghangler"
+      ],
+      [
+        "Knocklem",
+        "Frostplume"
+      ],
+      [
+        "Azurmane",
+        "Whalaska"
+      ],
+      [
+        "Eidrolon",
+        "Wumpo"
+      ],
+      [
+        "Orserk",
+        "Majex"
+      ]
+    ],
+    "key": "Silvegis 5"
+  },
+  {
+    "parents": [
+      "Celesdir",
+      "Majex"
+    ],
+    "child": "Tetroise",
+    "unique": false,
+    "combos": [
+      [
+        "Celesdir",
+        "Majex"
+      ],
+      [
+        "Whalaska",
+        "Sekhmet"
+      ],
+      [
+        "Gildane",
+        "Frostplume"
+      ],
+      [
+        "Blazamut",
+        "Gildra"
+      ],
+      [
+        "Dupin",
+        "Reptyro"
+      ]
+    ],
+    "key": "Tetroise 5"
+  },
+  {
+    "parents": [
+      "Lyleen",
+      "Blazamut"
+    ],
+    "child": "Eidrolon",
+    "unique": false,
+    "combos": [
+      [
+        "Lyleen",
+        "Blazamut"
+      ],
+      [
+        "Bastigor",
+        "Celesdir"
+      ],
+      [
+        "Flaracle",
+        "Knocklem"
+      ],
+      [
+        "Orserk",
+        "Dupin"
+      ],
+      [
+        "Aegidron",
+        "Jormuntide"
+      ]
+    ],
+    "key": "Eidrolon 5"
+  },
+  {
+    "parents": [
+      "Knocklem",
+      "Jormuntide"
+    ],
+    "child": "Azurmane",
+    "unique": false,
+    "combos": [
+      [
+        "Knocklem",
+        "Jormuntide"
+      ],
+      [
+        "Solenne",
+        "Celesdir"
+      ],
+      [
+        "Bastigor",
+        "Tetroise"
+      ],
+      [
+        "Aegidron",
+        "Lapure"
+      ],
+      [
+        "Orserk",
+        "Gildane"
+      ]
+    ],
+    "key": "Azurmane 5"
+  },
+  {
+    "parents": [
+      "Bastigor",
+      "Majex"
+    ],
+    "child": "Roujay",
+    "unique": false,
+    "combos": [
+      [
+        "Bastigor",
+        "Majex"
+      ],
+      [
+        "Lyleen",
+        "Wumpo"
+      ],
+      [
+        "Solenne",
+        "Splatterina"
+      ],
+      [
+        "Astegon",
+        "Celesdir"
+      ],
+      [
+        "Lapure",
+        "Knocklem"
+      ]
+    ],
+    "key": "Roujay 5"
+  },
+  {
+    "parents": [
+      "Nyafia",
+      "Dualith"
+    ],
+    "child": "Ghangler",
+    "unique": false,
+    "combos": [
+      [
+        "Nyafia",
+        "Dualith"
+      ],
+      [
+        "Whalaska",
+        "Ragnahawk"
+      ],
+      [
+        "Dupin",
+        "Palumba"
+      ],
+      [
+        "Splatterina",
+        "Sootseer"
+      ],
+      [
+        "Lyleen",
+        "Shroomer"
+      ]
+    ],
+    "key": "Ghangler 5"
+  },
+  {
+    "parents": [
+      "Celesdir",
+      "Gildra"
+    ],
+    "child": "Sekhmet",
+    "unique": false,
+    "combos": [
+      [
+        "Celesdir",
+        "Gildra"
+      ],
+      [
+        "Astegon",
+        "Nyafia"
+      ],
+      [
+        "Gildane",
+        "Majex"
+      ],
+      [
+        "Whalaska",
+        "Braloha"
+      ],
+      [
+        "Knocklem",
+        "Vaelet"
+      ]
+    ],
+    "key": "Sekhmet 5"
+  },
+  {
+    "parents": [
+      "Sekhmet",
+      "Incineram"
+    ],
+    "child": "Gildra",
+    "unique": false,
+    "combos": [
+      [
+        "Sekhmet",
+        "Incineram"
+      ],
+      [
+        "Frostplume",
+        "Vaelet"
+      ],
+      [
+        "Nyafia",
+        "Relaxaurus"
+      ],
+      [
+        "Tetroise",
+        "Digtoise"
+      ],
+      [
+        "Splatterina",
+        "Bushi"
+      ]
+    ],
+    "key": "Gildra 5"
+  },
+  {
+    "parents": [
+      "Ghangler",
+      "Vaelet"
+    ],
+    "child": "Wistella",
+    "unique": false,
+    "combos": [
+      [
+        "Ghangler",
+        "Vaelet"
+      ],
+      [
+        "Nyafia",
+        "Pierdon"
+      ],
+      [
+        "Lapure",
+        "Digtoise"
+      ],
+      [
+        "Whalaska",
+        "Vanwyrm"
+      ],
+      [
+        "Grizzbolt",
+        "Mammorest"
+      ]
+    ],
+    "key": "Wistella 5"
+  },
+  {
+    "parents": [
+      "Nyafia",
+      "Helzephyr"
+    ],
+    "child": "Bulldosu",
+    "unique": false,
+    "combos": [
+      [
+        "Nyafia",
+        "Helzephyr"
+      ],
+      [
+        "Shroomer",
+        "Frostplume"
+      ],
+      [
+        "Wumpo",
+        "Digtoise"
+      ],
+      [
+        "Blazamut",
+        "Foxcicle"
+      ],
+      [
+        "Omascul",
+        "Palumba"
+      ]
+    ],
+    "key": "Bulldosu 5"
+  },
+  {
+    "parents": [
+      "Splatterina",
+      "Moldron"
+    ],
+    "child": "Mycora",
+    "unique": false,
+    "combos": [
+      [
+        "Splatterina",
+        "Moldron"
+      ],
+      [
+        "Dualith",
+        "Majex"
+      ],
+      [
+        "Flaracle",
+        "Helzephyr"
+      ],
+      [
+        "Solenne",
+        "Nyafia"
+      ],
+      [
+        "Blazamut",
+        "Pierdon"
+      ]
+    ],
+    "key": "Mycora 5"
+  },
+  {
+    "parents": [
+      "Astegon",
+      "Majex"
+    ],
+    "child": "Moldron",
+    "unique": false,
+    "combos": [
+      [
+        "Astegon",
+        "Majex"
+      ],
+      [
+        "Blazamut",
+        "Relaxaurus"
+      ],
+      [
+        "Knocklem",
+        "Palumba"
+      ],
+      [
+        "Aegidron",
+        "Incineram"
+      ],
+      [
+        "Dupin",
+        "Sootseer"
+      ]
+    ],
+    "key": "Moldron 5"
+  },
+  {
+    "parents": [
+      "Knocklem",
+      "Moldron"
+    ],
+    "child": "Dualith",
+    "unique": false,
+    "combos": [
+      [
+        "Knocklem",
+        "Moldron"
+      ],
+      [
+        "Lyleen",
+        "Splatterina"
+      ],
+      [
+        "Azurmane",
+        "Jormuntide"
+      ],
+      [
+        "Aegidron",
+        "Sootseer"
+      ],
+      [
+        "Roujay",
+        "Astegon"
+      ]
+    ],
+    "key": "Dualith 5"
+  },
+  {
+    "parents": [
+      "Lyleen",
+      "Celesdir"
+    ],
+    "child": "Blazamut",
+    "unique": false,
+    "combos": [
+      [
+        "Lyleen",
+        "Celesdir"
+      ],
+      [
+        "Dupin",
+        "Eidrolon"
+      ],
+      [
+        "Aegidron",
+        "Splatterina"
+      ],
+      [
+        "Flaracle",
+        "Azurmane"
+      ],
+      [
+        "Silvegis",
+        "Knocklem"
+      ]
+    ],
+    "key": "Blazamut 5"
+  },
+  {
+    "parents": [
+      "Swee",
+      "Lifmunk"
+    ],
+    "child": "Pupperai",
+    "unique": false,
+    "combos": [
+      [
+        "Swee",
+        "Lifmunk"
+      ],
+      [
+        "Fuddler",
+        "Teafant"
+      ],
+      [
+        "Ribbuny",
+        "Depresso"
+      ],
+      [
+        "Tanzee",
+        "Pengullet"
+      ],
+      [
+        "Daedream",
+        "Gumoss"
+      ]
+    ],
+    "key": "Pupperai 5"
+  },
+  {
+    "parents": [
+      "Majex",
+      "Tarantriss"
+    ],
+    "child": "Solmora",
+    "unique": false,
+    "combos": [
+      [
+        "Majex",
+        "Tarantriss"
+      ],
+      [
+        "Splatterina",
+        "Fenglope"
+      ],
+      [
+        "Azurmane",
+        "Arsox"
+      ],
+      [
+        "Gildra",
+        "Felbat"
+      ],
+      [
+        "Bulldosu",
+        "Digtoise"
+      ]
+    ],
+    "key": "Solmora 5"
   }
 ]

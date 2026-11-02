@@ -202,11 +202,11 @@ _NORMAL_COLOR = [
 ]
 
 
-_ORDINALS = ("one", "two", "three", "four")
+_ORDINALS = ("one", "two", "three", "four", "five")
 
 
 def spec_from_combo(a: str, b: str, child: str, index: int = 0, unique: bool = True,
-                    combos: list[list[str]] | None = None) -> dict:
+                    combos: list[list[str]] | None = None, key: str | None = None) -> dict:
     """Build an English video spec for a verified combo (unique variant combo or regular breeding).
 
     With several verified ``combos`` for the same child the video shows every one of them."""
@@ -232,6 +232,7 @@ def spec_from_combo(a: str, b: str, child: str, index: int = 0, unique: bool = T
             "child": child,
             "color": color,
             "unique": False,
+            **({"key": key} if key else {}),
         }
     if unique:
         base, _, suffix = child.rpartition(" ")
@@ -254,8 +255,8 @@ def spec_from_combo(a: str, b: str, child: str, index: int = 0, unique: bool = T
 
 
 def post_id_for(spec: dict) -> str:
-    """Dedup key for the pipeline store - one per child Pal."""
-    return "custom:palworld-breeding-" + spec["child"].lower().replace(" ", "-")
+    """Dedup key for the pipeline store - one per child Pal (per queue "key" for a second video of the same child)."""
+    return "custom:palworld-breeding-" + spec.get("key", spec["child"]).lower().replace(" ", "-")
 
 
 def post_text_and_tags(spec: dict) -> tuple[str, list[str]]:
@@ -269,7 +270,7 @@ def post_text_and_tags(spec: dict) -> tuple[str, list[str]]:
         text = (
             f"{title}\n\n{len(combos)} ways to breed {child} in Palworld - use whichever parents you already have. "
             f"Put the two Pals on the Breeding Farm and add a Cake.\n\n{lines}\n\n"
-            f"Every combo checked on PalBreedCalc and with the Palworld 1.0 breeding formula. "
+            f"Every combo checked with Palworld 1.0 breeding calculator data and the breeding formula. "
             f"Comment which Pal you want next!\n\n"
             f"#Palworld #PalworldBreeding #{child.replace(' ', '')} #Gaming #Shorts"
         )

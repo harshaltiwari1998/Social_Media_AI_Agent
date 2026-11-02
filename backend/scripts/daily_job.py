@@ -193,7 +193,8 @@ def make_new_palworld(poster: Poster, count: int) -> None:
     if count <= 0:
         return
     manifest = _load(MANIFEST)
-    todo = [c for c in json.loads(QUEUE.read_text(encoding="utf-8")) if c["child"] not in manifest]
+    # "key" (e.g. "Solmora 5") lets a child come back with new combos; it defaults to the child's name.
+    todo = [c for c in json.loads(QUEUE.read_text(encoding="utf-8")) if c.get("key", c["child"]) not in manifest]
     # Owner rule: no variants (two-word names like "Wumpo Botan") as child or parent.
     variants = [c["child"] for c in todo if any(" " in n.strip() for combo in (c.get("combos") or [c["parents"]])
                                                 for n in (c["child"], *combo))]
@@ -207,14 +208,16 @@ def make_new_palworld(poster: Poster, count: int) -> None:
     for combo in todo:
         a, b = combo["parents"]
         spec = pal.spec_from_combo(
-            a, b, combo["child"], index=len(manifest), unique=combo.get("unique", True), combos=combo.get("combos")
+            a, b, combo["child"], index=len(manifest), unique=combo.get("unique", True), combos=combo.get("combos"),
+            key=combo.get("key"),
         )
-        spec_path = ROOT / "scripts" / "specs" / f"palworld_{combo['child'].lower().replace(' ', '_')}.json"
+        key = combo.get("key", combo["child"])
+        spec_path = ROOT / "scripts" / "specs" / f"palworld_{key.lower().replace(' ', '_')}.json"
         spec_path.write_text(json.dumps(spec, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         log.info("%s = %s", combo["child"], " | ".join(" + ".join(c) for c in combo.get("combos") or [[a, b]]))
         if not (video := _build(pal.build_video, spec_path)):
             continue
-        manifest[combo["child"]] = {"spec": spec_path.relative_to(ROOT).as_posix(), "video": video, "data": spec}
+        manifest[key] = {"spec": spec_path.relative_to(ROOT).as_posix(), "video": video, "data": spec}
         _save(MANIFEST, manifest)
         poster.post(pal.post_id_for(spec), *pal.post_text_and_tags(spec), video)
 

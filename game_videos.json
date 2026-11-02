@@ -5837,5 +5837,9 @@
   "palworld-guide-rushoar-hard-head-stone-mount": {
     "spec": "scripts/specs/games/palguide_114_rushoar-hard-head-stone-mount.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-6e0f3676.mp4"
+  },
+  "palworld-guide-orserk-world-tree-thunder-dragon": {
+    "spec": "scripts/specs/games/palguide_121_orserk-world-tree-thunder-dragon.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-a43e371f.mp4"
   }
 }

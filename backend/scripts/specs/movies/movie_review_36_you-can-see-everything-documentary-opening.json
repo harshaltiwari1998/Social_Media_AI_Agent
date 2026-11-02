@@ -1,0 +1,51 @@
+{
+  "id": "you-can-see-everything-doc-opening",
+  "category": "movies",
+  "slot": "movie_review",
+  "order": 36,
+  "expires": "2026-11-23",
+  "headline": "You Can See Everything: documentary ka record opening",
+  "title": "You Can See Everything Box Office | Documentary Record | Movie Review Hindi",
+  "video_script": "A24 की documentary You Can See Everything ने North America में करीब 15 million dollar से opening ली, जो 13 साल में किसी documentary की सबसे बड़ी opening है. ये film Elizabeth Holmes की कहानी पर है और इसे Nathan Fielder और Lance Oppenheim ने डायरेक्ट किया है. दूसरे weekend में कमाई बढ़कर 19.5 million dollar हुई और ये Clayface के बाद दूसरे नंबर पर रही. आपको documentaries पसंद हैं? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:You Can See Everything",
+      "label": "You Can See Everything"
+    },
+    {
+      "image": "wiki:You Can See Everything",
+      "fact": "15 million dollar",
+      "sub": "North America opening"
+    },
+    {
+      "image": "wiki:You Can See Everything",
+      "fact": "13 saal ka record",
+      "sub": "Sabse badi documentary opening"
+    },
+    {
+      "image": "wiki:You Can See Everything",
+      "fact": "19.5 million dollar",
+      "sub": "Doosre weekend ki kamai"
+    },
+    {
+      "image": "wiki:Nathan Fielder",
+      "fact": "Nathan Fielder",
+      "sub": "Co-director, Lance Oppenheim ke saath"
+    }
+  ],
+  "description": "A24 ki documentary You Can See Everything ne North America mein lagbhag 15 million dollar ki opening li, 13 saal mein documentary ki sabse badi, aur doosre weekend mein 19.5 million dollar kamaye. Sources: TheWrap, The Daily Beast, AP.",
+  "hashtags": [
+    "YouCanSeeEverything",
+    "A24",
+    "BoxOffice"
+  ],
+  "tags": [
+    "You Can See Everything",
+    "A24",
+    "documentary box office",
+    "Nathan Fielder",
+    "Lance Oppenheim",
+    "Hollywood box office",
+    "movie review Hindi"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "resident-evil-4-2005",
+  "slot": "classic",
+  "order": 78,
+  "headline": "Resident Evil 4: the Devil May Cry secret",
+  "title": "Resident Evil 4 Facts | Devil May Cry Origin | Classic Games",
+  "video_script": "Resident Evil four launched in two thousand five on the Nintendo GameCube. You play Leon Kennedy, sent to Spain to rescue the president's daughter, Ashley. Here is the twist. An early version of the game, directed by Hideki Kamiya, felt too different from Resident Evil, so it became a new game, Devil May Cry. Resident Evil four had sold fifteen point two million copies by March twenty twenty five. Best boss fight? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Resident Evil 4",
+      "label": "Resident Evil 4"
+    },
+    {
+      "image": "wiki:Resident Evil 4",
+      "fact": "Leon Kennedy",
+      "sub": "Rescues Ashley in Spain"
+    },
+    {
+      "image": "wiki:Resident Evil 4",
+      "fact": "Devil May Cry",
+      "sub": "Born from an early RE4 version"
+    },
+    {
+      "image": "wiki:Resident Evil 4",
+      "fact": "15.2 million",
+      "sub": "Sold by March 2025"
+    }
+  ],
+  "description": "Resident Evil 4 (Capcom, 2005): an early version directed by Hideki Kamiya became Devil May Cry; 15.2 million copies sold by March 2025. Source: Wikipedia.",
+  "hashtags": [
+    "ResidentEvil4",
+    "Capcom",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Resident Evil 4",
+    "Capcom",
+    "Leon Kennedy",
+    "Devil May Cry",
+    "GameCube",
+    "gaming facts",
+    "classic games"
+  ]
+}

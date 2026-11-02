@@ -1,0 +1,44 @@
+{
+  "id": "half-life-2-2004",
+  "slot": "classic",
+  "order": 80,
+  "headline": "Half-Life 2: five years and forty million",
+  "title": "Half-Life 2 Facts | Valve Classic | Classic Games",
+  "video_script": "Half-Life two launched on November sixteenth, two thousand four, on Valve's Steam. It took five years and about forty million dollars to make, with the new Source engine and Havok physics, for physics-based gameplay. Valve first promised a September twenty oh three release and missed it, and an unfinished version leaked online. It still won thirty nine Game of the Year awards and sold twelve million copies by twenty eleven. Best weapon? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Half-Life 2",
+      "label": "Half-Life 2"
+    },
+    {
+      "image": "wiki:Half-Life 2",
+      "fact": "5 years",
+      "sub": "About 40 million dollars"
+    },
+    {
+      "image": "wiki:Half-Life 2",
+      "fact": "Source + Havok",
+      "sub": "Physics-based gameplay"
+    },
+    {
+      "image": "wiki:Half-Life 2",
+      "fact": "39 awards",
+      "sub": "Game of the Year wins"
+    }
+  ],
+  "description": "Half-Life 2 (Valve, Nov 16, 2004): five years of development, Source engine and Havok physics, 39 Game of the Year awards, 12 million sold by 2011. Source: Wikipedia.",
+  "hashtags": [
+    "HalfLife2",
+    "Valve",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Half-Life 2",
+    "Valve",
+    "Gordon Freeman",
+    "Source engine",
+    "Steam",
+    "gaming facts",
+    "classic games"
+  ]
+}

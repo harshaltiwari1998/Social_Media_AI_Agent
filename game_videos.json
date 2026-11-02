@@ -5841,5 +5841,477 @@
   "palworld-guide-orserk-world-tree-thunder-dragon": {
     "spec": "scripts/specs/games/palguide_121_orserk-world-tree-thunder-dragon.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-a43e371f.mp4"
+  },
+  "deal-steam-deal-1967630-65": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-1967630-65.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-4566ffc0.mp4",
+    "data": {
+      "id": "deal-steam-deal-1967630-65",
+      "slot": "deals",
+      "badge": "STEAM DAILY DEAL",
+      "headline": "Steam deal",
+      "title": "Survival: Fountain of Youth 65% OFF on Steam | Now Rs 424 | Steam Deal Nov 3",
+      "video_script": "Today's Steam Daily Deal is Survival: Fountain of Youth at 65 percent off, down from 1,213 rupees to just 424 rupees. Survival: Fountain of Youth is a challenging 1-4 players open-world adventure game set on the Caribbean islands. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1967630/94d9339bad3fa78e43853dffa04f18e859142dbd/header_alt_assets_9.jpg?t=1793634882",
+          "label": "Survival: Fountain of Youth"
+        },
+        {
+          "image": "steam:1967630:0",
+          "fact": "-65%  Rs 424",
+          "sub": "was Rs 1,213"
+        },
+        {
+          "image": "steam:1967630:1",
+          "fact": "Action + Adventure + Indie",
+          "sub": "Odinsoft Inc."
+        },
+        {
+          "image": "steam:1967630:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Daily Deal is Survival: Fountain of Youth at 65 percent off, down from 1,213 rupees to just 424 rupees.\nhttps://store.steampowered.com/app/1967630\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 3 2026, 02:31 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Survival: Fountain of Youth",
+        "Survival: Fountain of Youth sale",
+        "Survival: Fountain of Youth price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-3981100-50": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-3981100-50.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-8ec41eac.mp4",
+    "data": {
+      "id": "deal-steam-deal-3981100-50",
+      "slot": "deals",
+      "badge": "STEAM MIDWEEK DEAL",
+      "headline": "Steam deal",
+      "title": "Leaf it Alone 50% OFF on Steam | Now Rs 150 | Steam Deal Nov 3",
+      "video_script": "Today's Steam Midweek Deal is Leaf it Alone at 50 percent off, down from 300 rupees to just 150 rupees. Finally, it's that time of the year to clean up this leafy mess. It's been a while since the last time you've done it, so don't waste any second and derust your raking skills! Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3981100/94390c667f6fd8448b843bf6021deb9a622bdf2c/header_alt_assets_0.jpg?t=1793379850",
+          "label": "Leaf it Alone"
+        },
+        {
+          "image": "steam:3981100:0",
+          "fact": "-50%  Rs 150",
+          "sub": "was Rs 300"
+        },
+        {
+          "image": "steam:3981100:1",
+          "fact": "Casual + Indie + Simulation",
+          "sub": "Eternity"
+        },
+        {
+          "image": "steam:3981100:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Midweek Deal is Leaf it Alone at 50 percent off, down from 300 rupees to just 150 rupees.\nhttps://store.steampowered.com/app/3981100\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 3 2026, 02:31 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Leaf it Alone",
+        "Leaf it Alone sale",
+        "Leaf it Alone price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-1942280-50": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-1942280-50.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-651bd914.mp4",
+    "data": {
+      "id": "deal-steam-deal-1942280-50",
+      "slot": "deals",
+      "badge": "STEAM MIDWEEK DEAL",
+      "headline": "Steam deal",
+      "title": "Brotato 50% OFF on Steam | Now Rs 125 | Steam Deal Nov 3",
+      "video_script": "Today's Steam Midweek Deal is Brotato at 50 percent off, down from 250 rupees to just 125 rupees. Brotato is a top-down arena shooter roguelite where you play a potato wielding up to 6 weapons at a time to fight off hordes of aliens. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/bf970261a3a42f346624ae9c48b5b317fc724857/header_alt_assets_4.jpg?t=1793641955",
+          "label": "Brotato"
+        },
+        {
+          "image": "steam:1942280:0",
+          "fact": "-50%  Rs 125",
+          "sub": "was Rs 250"
+        },
+        {
+          "image": "steam:1942280:1",
+          "fact": "Action + Casual + Indie",
+          "sub": "Blobfish"
+        },
+        {
+          "image": "steam:1942280:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Midweek Deal is Brotato at 50 percent off, down from 250 rupees to just 125 rupees.\nhttps://store.steampowered.com/app/1942280\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 3 2026, 02:31 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Brotato",
+        "Brotato sale",
+        "Brotato price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-2060160-30": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-2060160-30.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f3423c20.mp4",
+    "data": {
+      "id": "deal-steam-deal-2060160-30",
+      "slot": "deals",
+      "badge": "STEAM MIDWEEK DEAL",
+      "headline": "Steam deal",
+      "title": "The Farmer Was Replaced 30% OFF on Steam | Now Rs 336 | Steam Deal Nov 3",
+      "video_script": "Today's Steam Midweek Deal is The Farmer Was Replaced at 30 percent off, down from 480 rupees to just 336 rupees. Program and optimize a drone to automate a farm and watch it do the work for you. Collect resources to unlock better technology and become the most efficient farmer in the world. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2060160/ac43238b310211b52d11438edab9ba4cd6affced/header_alt_assets_2.jpg?t=1793643705",
+          "label": "The Farmer Was Replaced"
+        },
+        {
+          "image": "steam:2060160:0",
+          "fact": "-30%  Rs 336",
+          "sub": "was Rs 480"
+        },
+        {
+          "image": "steam:2060160:1",
+          "fact": "Casual + Indie + Simulation",
+          "sub": "Timon Herzog"
+        },
+        {
+          "image": "steam:2060160:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Midweek Deal is The Farmer Was Replaced at 30 percent off, down from 480 rupees to just 336 rupees.\nhttps://store.steampowered.com/app/2060160\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 3 2026, 02:31 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "The Farmer Was Replaced",
+        "The Farmer Was Replaced sale",
+        "The Farmer Was Replaced price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-3159330-60": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-3159330-60.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-24ad0537.mp4",
+    "data": {
+      "id": "deal-steam-deal-3159330-60",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Assassin’s Creed Shadows 60% OFF on Steam | Now Rs 1,959 | Steam Deal Nov 3",
+      "video_script": "Assassin’s Creed Shadows is on sale on Steam at 60 percent off, down from 4,899 rupees to just 1,959 rupees. Experience an epic action-adventure story set in feudal Japan! Become a lethal shinobi assassin and powerful legendary samurai as you explore a beautiful open world in a time of chaos. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3159330/header.jpg?t=1792778493",
+          "label": "Assassin’s Creed Shadows"
+        },
+        {
+          "image": "steam:3159330:0",
+          "fact": "-60%  Rs 1,959",
+          "sub": "was Rs 4,899"
+        },
+        {
+          "image": "steam:3159330:1",
+          "fact": "Action + Adventure + RPG",
+          "sub": "Ubisoft Quebec, Ubisoft Belgrade"
+        },
+        {
+          "image": "steam:3159330:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Assassin’s Creed Shadows is on sale on Steam at 60 percent off, down from 4,899 rupees to just 1,959 rupees.\nhttps://store.steampowered.com/app/3159330\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 3 2026, 02:31 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Assassin’s Creed Shadows",
+        "Assassin’s Creed Shadows sale",
+        "Assassin’s Creed Shadows price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-1285190-50": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-1285190-50.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-1e0ab973.mp4",
+    "data": {
+      "id": "deal-steam-deal-1285190-50",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Borderlands 4 50% OFF on Steam | Now Rs 1,999 | Steam Deal Nov 3",
+      "video_script": "Borderlands 4 is on sale on Steam at 50 percent off, down from 3,999 rupees to just 1,999 rupees. Borderlands 4 is a mayhem-fueled looter shooter, jam-packed with billions of weapons, deadly enemies, and intense co-op action. Break free from a dangerous hidden planet as one of four new badass Vault Hunters. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1285190/986a88d1b0e1420b00183def2a7034508353afa3/header.jpg?t=1793396913",
+          "label": "Borderlands 4"
+        },
+        {
+          "image": "steam:1285190:0",
+          "fact": "-50%  Rs 1,999",
+          "sub": "was Rs 3,999"
+        },
+        {
+          "image": "steam:1285190:1",
+          "fact": "Action + Adventure + RPG",
+          "sub": "Gearbox Software"
+        },
+        {
+          "image": "steam:1285190:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Borderlands 4 is on sale on Steam at 50 percent off, down from 3,999 rupees to just 1,999 rupees.\nhttps://store.steampowered.com/app/1285190\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 3 2026, 02:31 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Borderlands 4",
+        "Borderlands 4 sale",
+        "Borderlands 4 price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-4974130-40": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-4974130-40.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b44febcb.mp4",
+    "data": {
+      "id": "deal-steam-deal-4974130-40",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Prison Anomaly 40% OFF on Steam | Now Rs 205 | Steam Deal Nov 3",
+      "video_script": "Prison Anomaly is on sale on Steam at 40 percent off, down from 342 rupees to just 205 rupees. The deal ends on November 16. Trapped in a loop in a high-security prison. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4974130/7b71d6a5c92d8e5d91d1e7459c170868300fffb4/header.jpg?t=1793652189",
+          "label": "Prison Anomaly"
+        },
+        {
+          "image": "steam:4974130:0",
+          "fact": "-40%  Rs 205",
+          "sub": "was Rs 342"
+        },
+        {
+          "image": "steam:4974130:1",
+          "fact": "Adventure + Simulation",
+          "sub": "Morla Games"
+        },
+        {
+          "image": "steam:4974130:2",
+          "fact": "Ends Nov 16",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Prison Anomaly is on sale on Steam at 40 percent off, down from 342 rupees to just 205 rupees. The deal ends on November 16.\nhttps://store.steampowered.com/app/4974130\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 3 2026, 02:31 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Prison Anomaly",
+        "Prison Anomaly sale",
+        "Prison Anomaly price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deals-budget-2026-11-03": {
+    "spec": "scripts/specs/deals/long/deals-budget-2026-11-03.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-818ab851.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-818ab851-thumb.jpg",
+    "chapters": "0:00 Today's deals\n0:11 Prison Anomaly - 40% off\n0:46 The Curse of Ooty - 40% off\n1:22 R.E.P.O. - 35% off\n1:56 Fishcremental - 35% off\n2:30 Drum Incremental - 33% off\n3:08 Which one are you grabbing",
+    "data": {
+      "id": "deals-budget-2026-11-03",
+      "category": "gaming",
+      "title": "Best Steam Deals Under Rs 500 Today | Prison Anomaly and More | Nov 3",
+      "description": "These are the best Steam deals under 500 rupees for November 3. 5 games, all on sale right now, with the price, what each game is, and its Steam reviews.\n\n- Prison Anomaly: -40% Rs 205 (was Rs 342) - https://store.steampowered.com/app/4974130\n- The Curse of Ooty: -40% Rs 167 (was Rs 279) - https://store.steampowered.com/app/3811500\n- R.E.P.O.: -35% Rs 291 (was Rs 449) - https://store.steampowered.com/app/3241660\n- Fishcremental: -35% Rs 233 (was Rs 359) - https://store.steampowered.com/app/5170650\n- Drum Incremental: -33% Rs 280 (was Rs 419) - https://store.steampowered.com/app/4656440\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 3 2026, 02:31 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "SteamSale",
+        "EpicGames",
+        "GameDeals"
+      ],
+      "tags": [
+        "Prison Anomaly",
+        "The Curse of Ooty",
+        "R.E.P.O.",
+        "Fishcremental",
+        "Drum Incremental",
+        "free games",
+        "steam sale",
+        "steam deals today",
+        "epic games free games",
+        "best game deals",
+        "steam sale india",
+        "cheap pc games",
+        "games under 500 rupees"
+      ],
+      "thumbnail": {
+        "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4974130/7b71d6a5c92d8e5d91d1e7459c170868300fffb4/header.jpg?t=1793652189",
+        "text": "UNDER RS 500"
+      },
+      "sections": [
+        {
+          "heading": "Today's deals",
+          "script": "These are the best Steam deals under 500 rupees for November 3. 5 games, all on sale right now, with the price, what each game is, and its Steam reviews.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4974130/7b71d6a5c92d8e5d91d1e7459c170868300fffb4/header.jpg?t=1793652189",
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3811500/999cbc2be0310755d8cb01641f143abc0ec8b841/header.jpg?t=1793640506",
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/62177765c05399116f0453fe1177b00ceed698c4/header_alt_assets_3.jpg?t=1793278962"
+          ]
+        },
+        {
+          "heading": "Prison Anomaly - 40% off",
+          "script": "Prison Anomaly is on sale on Steam at 40 percent off, down from 342 rupees to just 205 rupees. The deal ends on November 16. Trapped in a loop in a high-security prison. Inspect cells and surroundings for anomalies, avoid monsters, and press the correct button at the end of the corridor to submit your report and make it to Block A10. Steam lists it as Adventure and Simulation, made by Morla Games, released 2 Nov, 2026. That saves you 137 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4974130/7b71d6a5c92d8e5d91d1e7459c170868300fffb4/header.jpg?t=1793652189",
+            "steam:4974130:0",
+            "steam:4974130:1"
+          ]
+        },
+        {
+          "heading": "The Curse of Ooty - 40% off",
+          "script": "The Curse of Ooty is on sale on Steam at 40 percent off, down from 279 rupees to just 167 rupees. The deal ends on November 12. You drove her from the city to Ooty. Something followed her into the car. Now she is possessed, and an aghori in the hills will only help if you bring him what he asks for. First-person Indian folk horror. Steam lists it as Indie, made by Abhay, released 2 Nov, 2026. That saves you 112 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3811500/999cbc2be0310755d8cb01641f143abc0ec8b841/header.jpg?t=1793640506",
+            "steam:3811500:0",
+            "steam:3811500:1"
+          ]
+        },
+        {
+          "heading": "R.E.P.O. - 35% off",
+          "script": "R.E.P.O. is on sale on Steam at 35 percent off, down from 449 rupees to just 291 rupees. The deal ends on November 9. An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires. Steam lists it as Action and Early Access, made by semiwork, released 26 Feb, 2025. That saves you 158 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/62177765c05399116f0453fe1177b00ceed698c4/header_alt_assets_3.jpg?t=1793278962",
+            "steam:3241660:0",
+            "steam:3241660:1"
+          ]
+        },
+        {
+          "heading": "Fishcremental - 35% off",
+          "script": "Fishcremental is on sale on Steam at 35 percent off, down from 359 rupees to just 233 rupees. The deal ends on November 16. Fishcremental is a ridiculously cozy underwater adventure where you catch super cute fish, discover game-changing upgrades, and fill the whole sea with satisfying firework glory. Steam lists it as Casual and Indie and Simulation, made by Kyenia, released 2 Nov, 2026. That saves you 126 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5170650/bd83f9c161b48763f45600f97ebd8e964aa9dfee/header.jpg?t=1793650540",
+            "steam:5170650:0",
+            "steam:5170650:1"
+          ]
+        },
+        {
+          "heading": "Drum Incremental - 33% off",
+          "script": "Drum Incremental is on sale on Steam at 33 percent off, down from 419 rupees to just 280 rupees. The deal ends on November 16. A satisfying incremental game where every click has rhythm. Tap patterns, earn Rhythm Points, unlock new techniques, and build your ultimate setup. No music experience needed — just the urge to keep going. Steam lists it as Casual and Indie and Strategy, made by Samuel Ruiz, released 2 Nov, 2026. That saves you 139 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656440/fb94ab4be0b66f9677110449ae8a40f5a4a33724/header.jpg?t=1793643062",
+            "steam:4656440:0",
+            "steam:4656440:1"
+          ]
+        },
+        {
+          "heading": "Which one are you grabbing",
+          "script": "That's the list for today. Prices on Steam are the India store prices in rupees, and they can change, so always check the store page before you buy. Every link is in the description. Tell me in the comments which game you are grabbing, and subscribe, because we check Epic and Steam every single day and post the free games and the best deals as soon as they go live.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4974130/7b71d6a5c92d8e5d91d1e7459c170868300fffb4/header.jpg?t=1793652189"
+          ]
+        }
+      ]
+    }
   }
 }

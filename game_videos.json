@@ -5662,5 +5662,37 @@
   "palworld-guide-lunaris-antigravity-carry-weight": {
     "spec": "scripts/specs/games/palguide_112_lunaris-antigravity-carry-weight.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5e6c0836.mp4"
+  },
+  "god-of-war-laufey": {
+    "spec": "scripts/specs/games/new_36_god-of-war-laufey.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-dd69b25e.mp4"
+  },
+  "witcher-3-wild-hunt": {
+    "spec": "scripts/specs/games/classic_70_witcher-3-wild-hunt.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-9ebd686b.mp4"
+  },
+  "final-fantasy-7-1997": {
+    "spec": "scripts/specs/games/classic_71_final-fantasy-7-1997.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-c1ed5afe.mp4"
+  },
+  "tony-hawks-pro-skater-1999": {
+    "spec": "scripts/specs/games/classic_72_tony-hawks-pro-skater-1999.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-7e503549.mp4"
+  },
+  "behemoth-pedro-pascal": {
+    "spec": "scripts/specs/movies/movie_new_34_behemoth-pedro-pascal.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b53d768c.mp4"
+  },
+  "418-opening-day": {
+    "spec": "scripts/specs/movies/movie_review_31_418-opening-day.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b9cff724.mp4"
+  },
+  "reel-om-shanti-om-facts": {
+    "spec": "scripts/specs/movies/reel_68_om-shanti-om-facts.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-19cb41c2.mp4"
+  },
+  "aniimo-celestis-best-build": {
+    "spec": "scripts/specs/games/aniimo_125_aniimo-celestis-best-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-2bb2b687.mp4"
   }
 }

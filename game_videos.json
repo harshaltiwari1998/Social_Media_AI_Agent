@@ -6313,5 +6313,19 @@
         }
       ]
     }
+  },
+  "tomb-raider-franchise-history": {
+    "spec": "scripts/specs/long/gaming_61_tomb-raider-franchise-history.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-ea2648e5.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-ea2648e5-thumb.jpg",
+    "chapters": "0:00 Lara Croft arrives\n0:42 Core Design and the first game\n1:23 One game every year\n2:05 The Angel of Darkness stumbles\n2:49 Legend, Anniversary and Underworld\n3:35 A younger Lara\n4:15 Rise and Shadow\n4:58 Films, shows and remasters\n5:44 What comes next\n6:26 Your favourite Lara"
+  },
+  "batman-arkham-franchise-history": {
+    "spec": "scripts/specs/long/gaming_62_batman-arkham-franchise-history.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-2ac8df83.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-2ac8df83-thumb.jpg",
+    "chapters": "0:00 The Dark Knight finally gets a great game\n0:42 Arkham Asylum\n1:29 Arkham City opens the doors\n2:18 Arkham Origins takes a turn\n3:03 Arkham Knight and the Batmobile\n3:51 Remasters, VR and side stories\n4:37 Losing the voice of Batman\n5:17 Suicide Squad and Gotham Knights\n6:03 Arkham Shadow\n6:49 The legacy of the Arkhamverse"
   }
 }

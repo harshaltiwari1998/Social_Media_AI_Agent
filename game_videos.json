@@ -5708,5 +5708,99 @@
       ],
       "type": "water"
     }
+  },
+  "aniimo-evolutions-that-need-a-place": {
+    "spec": "scripts/specs/games/aniimo_157_aniimo-evolutions-that-need-a-place.json",
+    "video": "F:\\AI AGENT\\run_n02\\videos\\short-659ef3a6.mp4"
+  },
+  "aniimo-potential-explained-evolution": {
+    "spec": "scripts/specs/games/aniimo_156_aniimo-potential-explained-evolution.json",
+    "video": "F:\\AI AGENT\\run_n02\\videos\\short-7debfa85.mp4"
+  },
+  "aniimo-season-one-part-two-15-million": {
+    "spec": "scripts/specs/games/aniimo_155_aniimo-season-one-part-two-15-million.json",
+    "video": "F:\\AI AGENT\\run_n02\\videos\\short-ba819a0a.mp4"
+  },
+  "aniimo-pebbling-lavazar-or-geodeback": {
+    "spec": "scripts/specs/games/aniimo_154_aniimo-pebbling-lavazar-or-geodeback.json",
+    "video": "F:\\AI AGENT\\run_n02\\videos\\short-99ee7bec.mp4"
+  },
+  "aniimo-how-to-get-fulmintis": {
+    "spec": "scripts/specs/games/aniimo_153_aniimo-how-to-get-fulmintis.json",
+    "video": "F:\\AI AGENT\\run_n02\\videos\\short-4f264944.mp4"
+  },
+  "aniimo-how-to-get-bailite": {
+    "spec": "scripts/specs/games/aniimo_152_aniimo-how-to-get-bailite.json",
+    "video": "F:\\AI AGENT\\run_n02\\videos\\short-b5fb4102.mp4"
+  },
+  "aniimo-how-to-get-geoclaw": {
+    "spec": "scripts/specs/games/aniimo_151_aniimo-how-to-get-geoclaw.json",
+    "video": "F:\\AI AGENT\\run_n02\\videos\\short-5bc5aab5.mp4"
+  },
+  "aniimo-how-to-get-bouldus": {
+    "spec": "scripts/specs/games/aniimo_150_aniimo-how-to-get-bouldus.json",
+    "video": "F:\\AI AGENT\\run_n02\\videos\\short-fc3d9914.mp4"
+  },
+  "aniimo-how-to-get-dazmand": {
+    "spec": "scripts/specs/games/aniimo_149_aniimo-how-to-get-dazmand.json",
+    "video": "F:\\AI AGENT\\run_n02\\videos\\short-c40061fc.mp4"
+  },
+  "aniimo-how-to-get-eklue": {
+    "spec": "scripts/specs/games/aniimo_148_aniimo-how-to-get-eklue.json",
+    "video": "F:\\AI AGENT\\run_n02\\videos\\short-8e17429f.mp4"
+  },
+  "palworld-legendary-pals-guide": {
+    "spec": "scripts/specs/long/gaming_77_palworld-legendary-pals-guide.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_n02\\videos\\long-2a1f1717.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_n02\\videos\\long-2a1f1717-thumb.jpg",
+    "chapters": "0:00 Six legends, one hunt\n0:53 Prepare before you go\n1:46 How to catch a legendary\n2:33 Jetragon, the sky dragon\n3:12 Frostallion, the ice horse\n3:45 Paladius and Necromus\n4:23 Neptilius, the glacial water boss\n4:58 Frostallion Noct, the dark twin\n5:38 The best order to hunt them\n6:19 Your legendary checklist"
+  },
+  "aniimo-whisperwake-isles-update-guide": {
+    "spec": "scripts/specs/long/gaming_78_aniimo-whisperwake-isles-update-guide.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_n02\\videos\\long-b0e07de2.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_n02\\videos\\long-b0e07de2-thumb.jpg",
+    "chapters": "0:00 The biggest Aniimo update so far\n0:40 What the update adds\n1:18 How to unlock the Whisperwake Isles\n1:59 The four areas\n2:41 Trailblazer titles and level caps\n3:28 New Prismana Aniimo\n4:18 Weekly Vein Abundance rotation\n4:56 Egg Heist and Spar PvP\n5:41 Holo-Battle Sim and Interlink\n6:22 Events and Home season\n7:03 What should you do first"
+  },
+  "palworld-guide-hoocrates-dark-knowledge-attack": {
+    "spec": "scripts/specs/games/palguide_131_palworld-guide-hoocrates-dark-knowledge-attack.json",
+    "video": "F:\\AI AGENT\\run_n02\\videos\\short-60a7b30f.mp4"
+  },
+  "palworld-guide-pengullet-launcher-cooling-watering": {
+    "spec": "scripts/specs/games/palguide_130_palworld-guide-pengullet-launcher-cooling-watering.json",
+    "video": "F:\\AI AGENT\\run_n02\\videos\\short-7227321a.mp4"
+  },
+  "palworld-guide-jolthog-jolt-bomb-electricity": {
+    "spec": "scripts/specs/games/palguide_129_palworld-guide-jolthog-jolt-bomb-electricity.json",
+    "video": "F:\\AI AGENT\\run_n02\\videos\\short-ba659dbb.mp4"
+  },
+  "palworld-guide-cremis-fluffy-wool-neutral-attack": {
+    "spec": "scripts/specs/games/palguide_128_palworld-guide-cremis-fluffy-wool-neutral-attack.json",
+    "video": "F:\\AI AGENT\\run_n02\\videos\\short-3e621703.mp4"
+  },
+  "palworld-guide-lamball-fluffy-shield-wool-ranch": {
+    "spec": "scripts/specs/games/palguide_127_palworld-guide-lamball-fluffy-shield-wool-ranch.json",
+    "video": "F:\\AI AGENT\\run_n02\\videos\\short-f5dfe71f.mp4"
+  },
+  "palworld-guide-bushi-brandish-blade-lumbering": {
+    "spec": "scripts/specs/games/palguide_126_bushi-brandish-blade-lumbering.json",
+    "video": "F:\\AI AGENT\\run_n02\\videos\\short-175885b9.mp4"
+  },
+  "palworld-guide-menasting-steel-scorpion-mining": {
+    "spec": "scripts/specs/games/palguide_125_menasting-steel-scorpion-mining.json",
+    "video": "F:\\AI AGENT\\run_n02\\videos\\short-79e7703d.mp4"
+  },
+  "palworld-guide-bastigor-world-tree-ice-hammer-cooling": {
+    "spec": "scripts/specs/games/palguide_124_bastigor-world-tree-ice-hammer-cooling.json",
+    "video": "F:\\AI AGENT\\run_n02\\videos\\short-d50243da.mp4"
+  },
+  "palworld-guide-warsect-cast-iron-shell-transport": {
+    "spec": "scripts/specs/games/palguide_123_warsect-cast-iron-shell-transport.json",
+    "video": "F:\\AI AGENT\\run_n02\\videos\\short-6e8d0437.mp4"
+  },
+  "palworld-guide-incineram-flameclaw-kindling-mining": {
+    "spec": "scripts/specs/games/palguide_122_incineram-flameclaw-kindling-mining.json",
+    "video": "F:\\AI AGENT\\run_n02\\videos\\short-568333e5.mp4"
   }
 }

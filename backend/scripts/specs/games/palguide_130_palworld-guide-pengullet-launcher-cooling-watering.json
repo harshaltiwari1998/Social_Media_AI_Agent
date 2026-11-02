@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-pengullet-launcher-cooling-watering",
+  "slot": "palguide",
+  "order": 130,
+  "headline": "Pengullet Launcher",
+  "title": "Pengullet | Living Rocket Launcher | Palworld Guide",
+  "video_script": "Pengullet is ammunition. Its partner skill, Pengullet Launcher, gives you a rocket launcher that fires Pengullet at enemies, and it explodes on impact. The launcher unlocks at technology level seventeen. At base this Water and Ice Pal works Watering, Handiwork, Cooling and Transporting, all at level one. Would you fire a Pengullet? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Pengullet",
+      "label": "Pengullet"
+    },
+    {
+      "image": "pal:Pengullet",
+      "fact": "Pengullet Launcher",
+      "sub": "Fires Pengullet as ammo"
+    },
+    {
+      "image": "steam:1623730:5",
+      "fact": "Tech level 17",
+      "sub": "Unlocks the launcher"
+    },
+    {
+      "image": "pal:Pengullet",
+      "fact": "Four jobs",
+      "sub": "Watering, Handiwork, Cooling, Transporting"
+    }
+  ],
+  "description": "Pengullet in Palworld 1.0: the Pengullet Launcher partner skill, technology level 17, and four level one work suitabilities.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Pengullet",
+    "Pengullet Launcher",
+    "Palworld rocket launcher",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld base tips",
+    "Palworld Pal guide"
+  ]
+}

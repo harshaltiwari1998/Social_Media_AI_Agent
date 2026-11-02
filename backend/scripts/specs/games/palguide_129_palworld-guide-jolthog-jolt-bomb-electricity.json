@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-jolthog-jolt-bomb-electricity",
+  "slot": "palguide",
+  "order": 129,
+  "headline": "Jolthog Jolt Bomb",
+  "title": "Jolthog | Throwable Electric Bomb Pal | Palworld Guide",
+  "video_script": "Need an early electricity worker? Meet Jolthog. Its partner skill, Jolt Bomb, lets you throw it at an enemy and it causes an Electric explosion on impact. At base it handles Generating Electricity at level one, so it can power your first generators. Do you throw Jolthog or keep it at base? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Jolthog",
+      "label": "Jolthog"
+    },
+    {
+      "image": "pal:Jolthog",
+      "fact": "Jolt Bomb",
+      "sub": "Electric explosion"
+    },
+    {
+      "image": "steam:1623730:8",
+      "fact": "Electricity 1",
+      "sub": "Powers early generators"
+    },
+    {
+      "image": "pal:Jolthog",
+      "fact": "Electric Pal",
+      "sub": "Early game helper"
+    }
+  ],
+  "description": "Jolthog in Palworld 1.0: the Jolt Bomb partner skill and Generating Electricity level one.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Jolthog",
+    "Jolthog Jolt Bomb",
+    "Palworld electricity Pal",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld base tips",
+    "Palworld Pal guide"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-lamball-fluffy-shield-wool-ranch",
+  "slot": "palguide",
+  "order": 127,
+  "headline": "Lamball Fluffy Shield",
+  "title": "Lamball | Your First Shield Pal | Palworld Guide",
+  "video_script": "Is Lamball useless? Not quite. Its partner skill, Fluffy Shield, turns it into a shield you carry. It also sometimes drops Wool when you put it on a Ranch. At base, Lamball works Handiwork, Transporting and Farming, all at level one. It is the very first Pal in the Paldeck, so you will meet it early. Do you keep a Lamball on your ranch? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Lamball",
+      "label": "Lamball"
+    },
+    {
+      "image": "steam:1623730:5",
+      "fact": "Fluffy Shield",
+      "sub": "Becomes a shield"
+    },
+    {
+      "image": "pal:Lamball",
+      "fact": "Ranch Wool",
+      "sub": "Sometimes drops Wool"
+    },
+    {
+      "image": "steam:1623730:8",
+      "fact": "Handiwork 1",
+      "sub": "Transporting 1, Farming 1"
+    }
+  ],
+  "description": "Lamball in Palworld 1.0: Fluffy Shield partner skill, Wool at the Ranch, and Handiwork, Transporting and Farming level one.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Lamball",
+    "Lamball Fluffy Shield",
+    "Palworld wool ranch",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld base tips",
+    "Palworld Pal guide"
+  ]
+}

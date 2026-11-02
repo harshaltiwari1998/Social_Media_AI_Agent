@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-hoocrates-dark-knowledge-attack",
+  "slot": "palguide",
+  "order": 131,
+  "headline": "Hoocrates Dark Knowledge",
+  "title": "Hoocrates | Attack Boost For Dark Pals | Palworld Guide",
+  "video_script": "Running Dark Pals? Bring Hoocrates. Its partner skill, Dark Knowledge, raises the Attack of Dark Pals in your party by fifteen to thirty percent, and it does not stack. At base it works Gathering at level one. It is a Dark type from the early Paldeck, so it is easy to add to a team. Which Dark Pal leads your team? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Hoocrates",
+      "label": "Hoocrates"
+    },
+    {
+      "image": "pal:Hoocrates",
+      "fact": "Dark Knowledge",
+      "sub": "Dark Pals Attack up"
+    },
+    {
+      "image": "steam:1623730:12",
+      "fact": "15 to 30 percent",
+      "sub": "Does not stack"
+    },
+    {
+      "image": "pal:Hoocrates",
+      "fact": "Gathering 1",
+      "sub": "Base worker"
+    }
+  ],
+  "description": "Hoocrates in Palworld 1.0: Dark Knowledge boosts Dark Pal attack by 15 to 30 percent, plus Gathering level one.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Hoocrates",
+    "Hoocrates Dark Knowledge",
+    "Palworld Dark Pals",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld base tips",
+    "Palworld Pal guide"
+  ]
+}

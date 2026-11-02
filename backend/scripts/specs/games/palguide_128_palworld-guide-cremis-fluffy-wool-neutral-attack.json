@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-cremis-fluffy-wool-neutral-attack",
+  "slot": "palguide",
+  "order": 128,
+  "headline": "Cremis Fluffy Wool",
+  "title": "Cremis | Free Attack Boost For Neutral Pals | Palworld Guide",
+  "video_script": "Want a free damage buff? Put Cremis in your party. Its partner skill, Fluffy Wool, raises the Attack of Neutral Pals by fifteen to thirty percent, and it does not stack. Put it on a Ranch and it also drops Wool. At base it works Gathering at level one and Farming at level two. Which neutral Pals do you run? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Cremis",
+      "label": "Cremis"
+    },
+    {
+      "image": "pal:Cremis",
+      "fact": "Fluffy Wool",
+      "sub": "Neutral Pals Attack up"
+    },
+    {
+      "image": "steam:1623730:12",
+      "fact": "15 to 30 percent",
+      "sub": "Does not stack"
+    },
+    {
+      "image": "pal:Cremis",
+      "fact": "Farming 2",
+      "sub": "Gathering 1"
+    }
+  ],
+  "description": "Cremis in Palworld 1.0: Fluffy Wool boosts Neutral Pal attack by 15 to 30 percent, plus Farming level two and Wool at the Ranch.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Cremis",
+    "Cremis Fluffy Wool",
+    "Palworld neutral Pals",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld base tips",
+    "Palworld Pal guide"
+  ]
+}

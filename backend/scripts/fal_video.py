@@ -123,7 +123,7 @@ def poke_scene(name: str, background: str | None, work: Path) -> Image.Image:
     import httpx
     from PIL import ImageEnhance, ImageFilter, ImageOps
 
-    art_path = work / f"poke_{name.lower()}.png"
+    art_path = Path(name) if name.endswith(".png") else work / f"poke_{name.lower()}.png"  # .png = local art (a fusion)
     if not art_path.exists():
         data = httpx.get(f"https://pokeapi.co/api/v2/pokemon/{name.lower()}", timeout=30).raise_for_status().json()
         url = data["sprites"]["other"]["official-artwork"]["front_default"]
@@ -179,6 +179,14 @@ def make_clip(image: Path, shots: list, out: Path) -> Path:
 WAN_SPACE = "zerogpu-aoti/wan2-2-fp8da-aoti-faster"  # free Hugging Face ZeroGPU Space (Wan 2.2 image-to-video)
 
 
+def hf_token() -> str | None:
+    """HF_TOKEN: GitHub secret on CI, backend/.env on the laptop."""
+    env_file = ROOT / ".env"
+    return os.environ.get("HF_TOKEN") or next(
+        (l.split("=", 1)[1].strip() for l in (env_file.read_text(encoding="utf-8").splitlines() if env_file.exists() else [])
+         if l.startswith("HF_TOKEN=") and l.split("=", 1)[1].strip()), None)
+
+
 def make_clip_wan(image: Path, shots: list, out: Path) -> Path:
     """Free backend: one Wan 2.2 clip per shot (<= ~5 s each); every next shot starts from the previous clip's
     last frame so the motion stays continuous. Clips are joined into `out`."""
@@ -191,11 +199,7 @@ def make_clip_wan(image: Path, shots: list, out: Path) -> Path:
     from gradio_client import Client, handle_file
 
     ff = imageio_ffmpeg.get_ffmpeg_exe()
-    env_file = ROOT / ".env"
-    token = os.environ.get("HF_TOKEN") or next(  # GitHub secret on CI, backend/.env on the laptop
-        (l.split("=", 1)[1].strip() for l in (env_file.read_text(encoding="utf-8").splitlines() if env_file.exists() else [])
-         if l.startswith("HF_TOKEN=") and l.split("=", 1)[1].strip()), None)
-    client = Client(WAN_SPACE, hf_token=token, verbose=False)  # a (free) HF token gives a bigger daily GPU quota
+    client = Client(WAN_SPACE, hf_token=hf_token(), verbose=False)  # an HF token (PRO) gives a bigger daily GPU quota
     parts, start = [], image
     for k, (prompt, secs) in enumerate(shots):
         part = out.with_name(f"{out.stem}_part{k}.mp4")

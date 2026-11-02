@@ -1,7 +1,7 @@
 name: Daily free Pokemon evolution shorts
 
 # scripts/pokemon_daily.py: free AI-motion Pokemon evolution shorts (official artwork + free Wan 2.2 on a Hugging
-# Face ZeroGPU Space, HF_TOKEN secret on an HF PRO account, max 3 new shorts a day). A short needs 4 clips; clips
+# Face ZeroGPU Space, HF_TOKEN secret on an HF PRO account, max 3 evolution + 2 fusion shorts a day; fusion art from the FLUX.1 Kontext Space). A short needs 4 clips; clips
 # are kept on the motion-cache branch between runs; a finished short is posted to HarryBeast YouTube + the
 # gaming Facebook Page + Instagram. No laptop needed.
 on:

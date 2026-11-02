@@ -2,156 +2,187 @@
  {
   "a": "articuno",
   "b": "venusaur",
-  "name": "Artisaur"
+  "name": "Artisaur",
+  "look": "Articuno's bird body and long flowing tail, recolored in Venusaur's teal green with dark spots, a large pink flower and green leaves blooming on its back"
  },
  {
   "a": "charizard",
   "b": "gyarados",
-  "name": "Charados"
+  "name": "Charados",
+  "look": "Charizard's body and wings but Gyarados's blue color scheme, Gyarados's head with whiskers, white fin crest and open jaws, and a long blue serpent tail with Gyarados's tail fin"
  },
  {
   "a": "pikachu",
   "b": "lucario",
-  "name": "Pikario"
+  "name": "Pikario",
+  "look": "Pikachu's small round body and lightning-bolt tail, recolored in Lucario's blue and black, with Lucario's black face mask, four dangling aura appendages on the head and white chest spikes"
  },
  {
   "a": "gengar",
   "b": "mewtwo",
-  "name": "Gengtwo"
+  "name": "Gengtwo",
+  "look": "Gengar's round spiky body and wide grin, recolored in Mewtwo's pale lavender and purple, with Mewtwo's head horns and its long purple tail"
  },
  {
   "a": "greninja",
   "b": "blaziken",
-  "name": "Greniken"
+  "name": "Greniken",
+  "look": "Greninja's slim ninja frog body and long tongue scarf, recolored in Blaziken's red, yellow and cream, with Blaziken's cream head feathers and flames on its wrists"
  },
  {
   "a": "garchomp",
   "b": "charizard",
-  "name": "Garchizard"
+  "name": "Garchizard",
+  "look": "Garchomp's shark-dragon body and fin arms, recolored in Charizard's orange and cream, with Charizard's big teal wings and a flame burning on its tail tip"
  },
  {
   "a": "umbreon",
   "b": "absol",
-  "name": "Umbrasol"
+  "name": "Umbrasol",
+  "look": "Umbreon's sleek black fox body with glowing yellow rings, with Absol's white fur mane, its curved scythe horn on the head and red eyes"
  },
  {
   "a": "dragonite",
   "b": "snorlax",
-  "name": "Dragonlax"
+  "name": "Dragonlax",
+  "look": "Snorlax's huge round sleepy body and cream belly, recolored in Dragonite's orange, with Dragonite's antennae, small wings and friendly face"
  },
  {
   "a": "rayquaza",
   "b": "gyarados",
-  "name": "Rayados"
+  "name": "Rayados",
+  "look": "Rayquaza's long serpent dragon body with yellow ring markings, recolored in Gyarados's blue, with Gyarados's head, whiskers, white fin crest and open jaws"
  },
  {
   "a": "eevee",
   "b": "ninetales",
-  "name": "Eeveetails"
+  "name": "Eeveetails",
+  "look": "Eevee's small fox body and fluffy neck ruff, recolored in Ninetales's cream gold, with nine flowing tails with orange tips and red eyes"
  },
  {
   "a": "blastoise",
   "b": "tyranitar",
-  "name": "Blastitar"
+  "name": "Blastitar",
+  "look": "Blastoise's turtle body with two water cannons on its shell, recolored in Tyranitar's green armor with blue diamond plates, with Tyranitar's horned head and spiky tail"
  },
  {
   "a": "arcanine",
   "b": "luxray",
-  "name": "Arcaray"
+  "name": "Arcaray",
+  "look": "Arcanine's big dog body with fluffy mane, recolored in Luxray's dark blue and black, with Luxray's yellow ring markings, star-tipped tail and glowing gold eyes"
  },
  {
   "a": "mew",
   "b": "togekiss",
-  "name": "Mewkiss"
+  "name": "Mewkiss",
+  "look": "Mew's small floating pink body and long tail, with Togekiss's white feathery wings, its red and blue triangle markings and its crown of head feathers"
  },
  {
   "a": "sceptile",
   "b": "salamence",
-  "name": "Sceptmence"
+  "name": "Sceptmence",
+  "look": "Sceptile's lean green body with yellow seed pods and leaf arm blades, with Salamence's big red wings and its blue head with sharp crest"
  },
  {
   "a": "metagross",
   "b": "scizor",
-  "name": "Metazor"
+  "name": "Metazor",
+  "look": "Metagross's four-legged steel body with the X-shaped face plate, recolored in Scizor's bright red metal, with Scizor's big pincer claws on its front legs"
  },
  {
   "a": "alakazam",
   "b": "gardevoir",
-  "name": "Alakavoir"
+  "name": "Alakavoir",
+  "look": "Gardevoir's elegant body with flowing white gown, recolored in Alakazam's yellow and brown, with Alakazam's mustache, pointed ears and two silver spoons"
  },
  {
   "a": "machamp",
   "b": "infernape",
-  "name": "Machnape"
+  "name": "Machnape",
+  "look": "Machamp's four-armed muscular body and belt, recolored in Infernape's orange and cream with gold markings, with Infernape's monkey face and a fire crown on its head"
  },
  {
   "a": "lapras",
   "b": "dragonite",
-  "name": "Laprite"
+  "name": "Laprite",
+  "look": "Lapras's long-necked sea creature body with a spiked grey shell, recolored in Dragonite's orange, with Dragonite's antennae and small wings"
  },
  {
   "a": "zapdos",
   "b": "moltres",
-  "name": "Zaptres"
+  "name": "Zaptres",
+  "look": "Zapdos's spiky bird body, with half of its feathers bright yellow and half burning orange flames like Moltres, and a crest of fire on its head"
  },
  {
   "a": "lucario",
   "b": "zoroark",
-  "name": "Lucaroark"
+  "name": "Lucaroark",
+  "look": "Lucario's jackal body and aura appendages, recolored in Zoroark's dark grey and black, with Zoroark's huge red mane and red claws"
  },
  {
   "a": "squirtle",
   "b": "bulbasaur",
-  "name": "Squirtsaur"
+  "name": "Squirtsaur",
+  "look": "Squirtle's small turtle body with brown shell, recolored in Bulbasaur's teal with dark green spots, and a green plant bulb growing on its shell"
  },
  {
   "a": "vaporeon",
   "b": "jolteon",
-  "name": "Vaporjolt"
+  "name": "Vaporjolt",
+  "look": "Vaporeon's aquatic fox body with mermaid fin tail and head frill, recolored in Jolteon's yellow, with Jolteon's spiky white neck fur"
  },
  {
   "a": "lugia",
   "b": "ho-oh",
-  "name": "Lugi-Oh"
+  "name": "Lugi-Oh",
+  "look": "Lugia's big silver bird body with blue belly plates, with Ho-Oh's rainbow red and gold feathers on its wings and tail and Ho-Oh's crest"
  },
  {
   "a": "mimikyu",
   "b": "pikachu",
-  "name": "Mimichu"
+  "name": "Mimichu",
+  "look": "Mimikyu's ghostly cloth disguise body, but the cloth looks like a real Pikachu with bright yellow fur, black ear tips, red cheeks and a lightning tail"
  },
  {
   "a": "typhlosion",
   "b": "feraligatr",
-  "name": "Typhligatr"
+  "name": "Typhligatr",
+  "look": "Typhlosion's body with a collar of fire on its neck, recolored in Feraligatr's blue with cream belly, with Feraligatr's big crocodile jaws and red back spikes"
  },
  {
   "a": "darkrai",
   "b": "gengar",
-  "name": "Darkgar"
+  "name": "Darkgar",
+  "look": "Darkrai's tall shadowy body with white smoke hair and red neck collar, recolored in Gengar's purple, with Gengar's spiky ears, red eyes and wide grin"
  },
  {
   "a": "aggron",
   "b": "rhydon",
-  "name": "Aggdon"
+  "name": "Aggdon",
+  "look": "Aggron's heavy steel armored body and big horns, recolored in Rhydon's grey stone, with Rhydon's drill horn on its snout"
  },
  {
   "a": "dragapult",
   "b": "noivern",
-  "name": "Dragavern"
+  "name": "Dragavern",
+  "look": "Dragapult's sleek stealth dragon body, recolored in Noivern's black and purple, with Noivern's big bat wings and huge speaker ears"
  },
  {
   "a": "cinderace",
   "b": "incineroar",
-  "name": "Cinderoar"
+  "name": "Cinderoar",
+  "look": "Cinderace's athletic rabbit body and long ears, recolored in Incineroar's black and red, with Incineroar's fire belt around its waist and wrestler face"
  },
  {
   "a": "snorlax",
   "b": "gengar",
-  "name": "Snorgar"
+  "name": "Snorgar",
+  "look": "Snorlax's huge round body, recolored in Gengar's purple, with Gengar's spiky back and ears, red eyes and a wide mischievous grin"
  },
  {
   "a": "kyogre",
   "b": "groudon",
-  "name": "Kyodon"
+  "name": "Kyodon",
+  "look": "Kyogre's whale body and big fins, with the left half blue like Kyogre and the right half red like Groudon, with Groudon's rocky spikes and glowing yellow lines"
  }
 ]

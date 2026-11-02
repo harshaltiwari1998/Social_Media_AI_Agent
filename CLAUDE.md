@@ -59,7 +59,8 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   for `pokemon_daily.py`; storyboards are generated from them.
 - `inbox/<pokemon1>+<pokemon2>[=<name>].mp4` - Pokemon fusion reveal clips the owner makes in the Gemini app
   (prompts: `F:/AI AGENT/pokemon_fusion_prompts.md`) and uploads on the GitHub website; names from
-  `backend/scripts/specs/fusion_pairs.json`.
+  `backend/scripts/specs/fusion_pairs.json`. The same pairs (with a `"look"` per pair) are also made automatically by
+  `pokemon_daily.py`: FLUX.1 Kontext ZeroGPU Space draws the fused creature, Wan animates it (shared `fusion-<a>+<b>` record).
 - `backend/scripts/specs/gameplay/<plan>.json` - cut plans for the owner's own stream recordings.
 - `daily_job.py` picks the lowest-`order` unposted, unexpired spec per slot (`--from-end` takes the
   highest, for manual batches that must not collide with scheduled runs).
@@ -92,7 +93,7 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
 | Mon/Thu 08:00 | Routine **Weekly content refill** (`trig_01LRixiDvLT8uP4GPUjYnDcy`) tops up all other queues |
 | 10:00 | `daily-content.yml` - 1 new game, 3 classic, 1 breeding, 1 Aniimo, 1 movie new, 1 review, 1 reel |
 | 10:00 | Laptop task `daily_job.cmd --skip-gaming` (trends) + `motion_daily.py` + `gameplay_daily.py` |
-| 11:15 | `daily-pokemon.yml` - Pokemon evolution shorts (Wan 2.2, HF PRO), up to 3 a day |
+| 11:15 | `daily-pokemon.yml` - Pokemon shorts (HF PRO): up to 3 evolution + 2 fusion a day, taking turns |
 | on push + 12:15 | `fusion-inbox.yml` - fusion clips uploaded to `inbox/` (daily run = retries) |
 | 13:45 | `daily-anipal.yml` 1st half - 5 Aniimo + 2 Palworld guide + 3 breeding + 1 long (palworld) |
 | 14:00 | `daily-palguide.yml` - 1 Palworld guide |
@@ -143,7 +144,8 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   on GitHub Actions, posting to YouTube (2 channels), 2 Facebook Pages, 2 Instagram accounts.
 - Daily Aniimo + Palworld pipeline (writer routine + `daily-anipal.yml`).
 - Daily free games + store deals (`daily-deals.yml`, `scripts/store_deals.py`) - 10 shorts + 2 long a day.
-- Pokemon evolution shorts (`daily-pokemon.yml`, `scripts/pokemon_daily.py`) - up to 3 a day (HF PRO), 50 lines queued.
+- Pokemon evolution shorts (`daily-pokemon.yml`, `scripts/pokemon_daily.py`) - up to 3 a day (HF PRO), 50 lines queued;
+  plus up to 2 automatic fusion shorts a day (`--max-fusions`, FLUX.1 Kontext + Wan).
   Charmander evolution got strong views (Nov 2026) - owner bought HF PRO to scale it.
 - Pokemon fusion shorts from Gemini clips (`fusion-inbox.yml`, `scripts/fusion_inbox.py`) - the clip itself is made by hand.
 - Weekly refill routine, login check, weekly stats report, health-check exit codes.
@@ -161,6 +163,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next; evolution = glow shot + next form.
 
 ## Change log
+- 2026-11-02 - Automatic Pokemon fusion shorts in `pokemon_daily.py` (FLUX.1 Kontext fused art + Wan), 2 a day, `look` per pair.
 - 2026-11-02 - HF PRO for Pokemon evolution shorts: max 3 a day (`--max-shorts`), queue 20 -> 50 lines (PokeAPI-checked).
 - 2026-10-30 - Dragon Mania Legends breeding: 10 shorts (`dml` slot) + 2 long (`series: dml`), official Play Store art.
 - 2026-10-29 - `fusion-inbox.yml` + `fusion_inbox.py`: Gemini fusion clips in `inbox/` become posted 9:16 shorts.

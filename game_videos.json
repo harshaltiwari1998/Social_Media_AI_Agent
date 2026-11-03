@@ -6434,5 +6434,33 @@
       "name": "Pikario",
       "types": "Electric/Fighting"
     }
+  },
+  "aniimo-weekly-prismana-rotation-november": {
+    "spec": "scripts/specs/games/aniimo_147_aniimo-weekly-prismana-rotation-november.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-74879aca.mp4"
+  },
+  "aniimo-how-to-get-pomegg": {
+    "spec": "scripts/specs/games/aniimo_158_aniimo-how-to-get-pomegg.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b83e895a.mp4"
+  },
+  "aniimo-how-to-get-panpanta-from-popota": {
+    "spec": "scripts/specs/games/aniimo_159_aniimo-how-to-get-panpanta-from-popota.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b66f5277.mp4"
+  },
+  "aniimo-how-to-get-sherro": {
+    "spec": "scripts/specs/games/aniimo_160_aniimo-how-to-get-sherro.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-1da32c58.mp4"
+  },
+  "aniimo-how-to-get-minespine": {
+    "spec": "scripts/specs/games/aniimo_161_aniimo-how-to-get-minespine.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e5770518.mp4"
+  },
+  "palworld-guide-chikipi-egg-layer-ranch": {
+    "spec": "scripts/specs/games/palguide_132_palworld-guide-chikipi-egg-layer-ranch.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-8eb0f955.mp4"
+  },
+  "palworld-guide-mozzarina-milk-maker-ranch": {
+    "spec": "scripts/specs/games/palguide_133_palworld-guide-mozzarina-milk-maker-ranch.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ce80c5d1.mp4"
   }
 }

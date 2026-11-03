@@ -5627,5 +5627,48 @@
       "unique": false,
       "key": "Suzaku 5"
     }
+  },
+  "Digtoise 5": {
+    "spec": "scripts/specs/palworld_digtoise_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-a61a4c80.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Digtoise",
+      "caption": "5 ways to breed Digtoise in Palworld 1.0: Splatterina + Arsox, Blazamut + Bristla, Foxcicle + Helzephyr, Mimog + Blazehowl, Knocklem + Swee.",
+      "video_script": "Here are five ways to breed Digtoise in Palworld one point zero. Combo one: breed Splatterina with Arsox on your Breeding Farm, then add a cake. Combo two: pair Blazamut and Bristla together, and you get the same egg. Combo three: Foxcicle plus Helzephyr works too, so use whichever Pals you have. Combo four: Mimog with Blazehowl is another easy option. Combo five: breed Knocklem with Swee on your Breeding Farm, then add a cake. Every egg hatches into Digtoise. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Splatterina",
+        "Arsox"
+      ],
+      "combos": [
+        [
+          "Splatterina",
+          "Arsox"
+        ],
+        [
+          "Blazamut",
+          "Bristla"
+        ],
+        [
+          "Foxcicle",
+          "Helzephyr"
+        ],
+        [
+          "Mimog",
+          "Blazehowl"
+        ],
+        [
+          "Knocklem",
+          "Swee"
+        ]
+      ],
+      "child": "Digtoise",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false,
+      "key": "Digtoise 5"
+    }
   }
 }

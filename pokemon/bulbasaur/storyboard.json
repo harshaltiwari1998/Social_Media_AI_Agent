@@ -1,0 +1,61 @@
+{
+  "title": "Bulbasaur to Ivysaur to Venusaur evolution",
+  "backend": "wan",
+  "voice": "en-US-GuyNeural",
+  "narration": [
+    "Bulbasaur is getting ready for something big.",
+    "Its body starts to glow. Bulbasaur is evolving!",
+    "Bulbasaur evolved into Ivysaur, and the power keeps growing!",
+    "And now Ivysaur becomes Venusaur! Who is your favourite Grass-type Pokemon? Comment below!"
+  ],
+  "clips": [
+    {
+      "image": {
+        "poke": "bulbasaur",
+        "background": "wiki:Forest"
+      },
+      "shots": [
+        [
+          "the creature looks around determined, leaves and green light float around it, anime style, smooth animation, camera slowly pushes in",
+          5
+        ]
+      ]
+    },
+    {
+      "image": {
+        "poke": "bulbasaur",
+        "background": "wiki:Forest"
+      },
+      "shots": [
+        [
+          "the creature starts glowing bright white, swirling leaves and green light spins around its body, light beams shoot out, evolution transformation, anime style",
+          5
+        ]
+      ]
+    },
+    {
+      "image": {
+        "poke": "ivysaur",
+        "background": "wiki:Forest"
+      },
+      "shots": [
+        [
+          "the creature starts glowing bright, swirling leaves and green light spins around its body, light beams shoot out, evolution transformation, anime style",
+          5
+        ]
+      ]
+    },
+    {
+      "image": {
+        "poke": "venusaur",
+        "background": "wiki:Forest"
+      },
+      "shots": [
+        [
+          "the creature roars and unleashes a powerful attack of leaves and green light, epic low angle camera, anime style, dynamic motion",
+          5
+        ]
+      ]
+    }
+  ]
+}

@@ -5670,5 +5670,91 @@
       "unique": false,
       "key": "Digtoise 5"
     }
+  },
+  "Quivern 5": {
+    "spec": "scripts/specs/palworld_quivern_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ef61e420.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Quivern",
+      "caption": "5 ways to breed Quivern in Palworld 1.0: Sekhmet + Digtoise, Nyafia + Gildra, Frostplume + Bushi, Majex + Leafan, Prunelia + Braloha.",
+      "video_script": "Here are five ways to breed Quivern in Palworld one point zero. Combo one: breed Sekhmet with Digtoise on your Breeding Farm, then add a cake. Combo two: pair Nyafia and Gildra together, and you get the same egg. Combo three: Frostplume plus Bushi works too, so use whichever Pals you have. Combo four: Majex with Leafan is another easy option. Combo five: breed Prunelia with Braloha on your Breeding Farm, then add a cake. Every egg hatches into Quivern. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Sekhmet",
+        "Digtoise"
+      ],
+      "combos": [
+        [
+          "Sekhmet",
+          "Digtoise"
+        ],
+        [
+          "Nyafia",
+          "Gildra"
+        ],
+        [
+          "Frostplume",
+          "Bushi"
+        ],
+        [
+          "Majex",
+          "Leafan"
+        ],
+        [
+          "Prunelia",
+          "Braloha"
+        ]
+      ],
+      "child": "Quivern",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false,
+      "key": "Quivern 5"
+    }
+  },
+  "Elphidran 5": {
+    "spec": "scripts/specs/palworld_elphidran_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-bb186a89.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Elphidran",
+      "caption": "5 ways to breed Elphidran in Palworld 1.0: Finsider + Loupmoon, Digtoise + Sparkit, Vanwyrm + Daedream, Smokie + Mozzarina, Dumud + Univolt.",
+      "video_script": "Here are five ways to breed Elphidran in Palworld one point zero. Combo one: breed Finsider with Loupmoon on your Breeding Farm, then add a cake. Combo two: pair Digtoise and Sparkit together, and you get the same egg. Combo three: Vanwyrm plus Daedream works too, so use whichever Pals you have. Combo four: Smokie with Mozzarina is another easy option. Combo five: breed Dumud with Univolt on your Breeding Farm, then add a cake. Every egg hatches into Elphidran. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Finsider",
+        "Loupmoon"
+      ],
+      "combos": [
+        [
+          "Finsider",
+          "Loupmoon"
+        ],
+        [
+          "Digtoise",
+          "Sparkit"
+        ],
+        [
+          "Vanwyrm",
+          "Daedream"
+        ],
+        [
+          "Smokie",
+          "Mozzarina"
+        ],
+        [
+          "Dumud",
+          "Univolt"
+        ]
+      ],
+      "child": "Elphidran",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false,
+      "key": "Elphidran 5"
+    }
   }
 }

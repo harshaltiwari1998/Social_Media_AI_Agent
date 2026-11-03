@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-homeland-production-stalled-fix",
+  "slot": "aniimo",
+  "order": 176,
+  "headline": "Stalled Homeland",
+  "title": "Homeland Stalled | 3 Fixes For Idle Facilities | Aniimo Guide",
+  "video_script": "Is your Homeland production stuck? Check three things. One, materials: facilities draw from the Home Warehouse, so stock it before starting a recipe. Two, hauling: Aniimo with the Hauling ability carry goods into the Storage Unit, which unlocks at R V level two, or output piles up at the facility. Three, food: workers stop when hungry, and the Kitchen Module feeds them. What stalled yours? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:1",
+      "label": "Homeland Stalled?"
+    },
+    {
+      "image": "steam:4126040:2",
+      "fact": "Stock the Warehouse",
+      "sub": "Materials first"
+    },
+    {
+      "image": "steam:4126040:3",
+      "fact": "Hauling worker",
+      "sub": "Storage Unit at RV 2"
+    },
+    {
+      "image": "steam:4126040:4",
+      "fact": "Feed the workers",
+      "sub": "Kitchen Module"
+    },
+    {
+      "image": "steam:4126040:5",
+      "label": "Check all three"
+    }
+  ],
+  "description": "Aniimo Homeland fixes: stock the Home Warehouse, add a Hauling worker and Storage Unit (RV 2), and keep the Kitchen Module food supplied. Checked Nov 2026.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Aniimo homeland",
+    "Homeland tips",
+    "Storage Unit",
+    "Kitchen Module",
+    "Hauling"
+  ]
+}

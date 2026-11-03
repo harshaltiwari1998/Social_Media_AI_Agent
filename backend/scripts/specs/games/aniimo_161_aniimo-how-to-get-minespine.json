@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-how-to-get-minespine",
+  "slot": "aniimo",
+  "order": 161,
+  "headline": "Get Minespine",
+  "title": "How to Get Minespine | Geodeback Path | Aniimo Guide",
+  "video_script": "Minespine is the final form of the Pebbling line. Pebbling becomes Geodeback at level thirty eight, and that choice locks out Lavazar. Then raise Geodeback to level forty eight and defeat the Alpha Minespine, hiding in the Forgotten Mine in Beast Fang Ridge. Bring an Aniimo that can tunnel to squeeze in. Water and Grass hit this Earth boss hard. Are you going for Minespine? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:30",
+      "label": "How to Get Minespine"
+    },
+    {
+      "image": "steam:4126040:1",
+      "fact": "Pebbling",
+      "sub": "Level 38 to Geodeback"
+    },
+    {
+      "image": "steam:4126040:5",
+      "fact": "Geodeback",
+      "sub": "Level 48 to Minespine"
+    },
+    {
+      "image": "steam:4126040:8",
+      "fact": "Alpha Minespine",
+      "sub": "Forgotten Mine"
+    },
+    {
+      "image": "steam:4126040:12",
+      "fact": "Weak spot",
+      "sub": "Water and Grass"
+    }
+  ],
+  "description": "Minespine: Pebbling to Geodeback at level 38, then level 48 and defeating the Alpha Minespine in the Forgotten Mine, Beast Fang Ridge.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Minespine",
+    "Geodeback",
+    "Pebbling",
+    "Aniimo Minespine",
+    "Alpha Minespine",
+    "Pawprint Studio"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-mau-gold-digger-ranch",
+  "slot": "palguide",
+  "order": 144,
+  "headline": "Mau Gold Digger",
+  "title": "Mau | Free Gold Coins From The Ranch | Palworld Guide",
+  "video_script": "Gold coins for free? Put Mau on your Ranch. Its partner skill, Gold Digger, sometimes digs up Gold Coins while it is assigned there. Mau is a Dark Pal with Farming and Gathering at level one, so it is a cheap, steady way to earn extra money on the side. Do you run a Mau ranch for gold? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Mau",
+      "label": "Mau"
+    },
+    {
+      "image": "pal:Mau",
+      "fact": "Gold Digger",
+      "sub": "Digs up Gold Coins"
+    },
+    {
+      "image": "steam:1623730:21",
+      "fact": "Ranch Pal",
+      "sub": "Assign it to the Ranch"
+    },
+    {
+      "image": "pal:Mau",
+      "fact": "Farming 1",
+      "sub": "Gathering 1"
+    }
+  ],
+  "description": "Mau in Palworld 1.0: Gold Digger sometimes digs up Gold Coins at your Ranch, with Farming and Gathering at level one.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Mau",
+    "Mau Gold Digger",
+    "Palworld gold coins",
+    "Palworld ranch",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld money"
+  ]
+}

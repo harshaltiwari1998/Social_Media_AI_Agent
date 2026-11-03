@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-kelpsea-aqua-spout-watering",
+  "slot": "palguide",
+  "order": 135,
+  "headline": "Kelpsea Aqua Spout",
+  "title": "Kelpsea | Attack Boost For Water Pals | Palworld Guide",
+  "video_script": "Building a Water team? Kelpsea helps. Its partner skill, Aqua Spout, raises the Attack of Water Pals in your party, and it does not stack. At base it works Watering at level one, and it sometimes drops Aquatic Pal Fluids at the Ranch. It is a Water Pal from the early Paldeck, so it is easy to add. Which Water Pal is your favorite? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Kelpsea",
+      "label": "Kelpsea"
+    },
+    {
+      "image": "pal:Kelpsea",
+      "fact": "Aqua Spout",
+      "sub": "Water Pals Attack up"
+    },
+    {
+      "image": "steam:1623730:9",
+      "fact": "Watering 1",
+      "sub": "Base worker"
+    },
+    {
+      "image": "pal:Kelpsea",
+      "fact": "Aquatic Pal Fluids",
+      "sub": "Ranch drop"
+    }
+  ],
+  "description": "Kelpsea in Palworld 1.0: Aqua Spout boosts Water Pal attack, plus Watering level one and a Ranch drop.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Kelpsea",
+    "Kelpsea Aqua Spout",
+    "Palworld Kelpsea guide",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld base tips",
+    "Palworld Pal guide"
+  ]
+}

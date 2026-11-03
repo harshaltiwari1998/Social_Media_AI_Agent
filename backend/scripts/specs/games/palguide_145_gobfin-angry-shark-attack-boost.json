@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-gobfin-angry-shark-attack-boost",
+  "slot": "palguide",
+  "order": 145,
+  "headline": "Gobfin Angry Shark",
+  "title": "Gobfin | Aqua Gun And Attack Boost | Palworld Guide",
+  "video_script": "Small Pal, real bite. Gobfin's partner skill, Angry Shark, fires an Aqua Gun at your target, and while it is in your party it also raises your own Attack. At base it works Watering and Handiwork at level two, plus Transporting at level one. It is a Water Pal that is easy to put to work. Does Gobfin make your team? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Gobfin",
+      "label": "Gobfin"
+    },
+    {
+      "image": "pal:Gobfin",
+      "fact": "Angry Shark",
+      "sub": "Fires an Aqua Gun"
+    },
+    {
+      "image": "steam:1623730:24",
+      "fact": "Player Attack up",
+      "sub": "While in your party"
+    },
+    {
+      "image": "pal:Gobfin",
+      "fact": "Level 2 worker",
+      "sub": "Watering and Handiwork"
+    }
+  ],
+  "description": "Gobfin in Palworld 1.0: Angry Shark fires an Aqua Gun and boosts your Attack, with Watering and Handiwork at level two.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Gobfin",
+    "Gobfin Angry Shark",
+    "Palworld Water Pals",
+    "Palworld attack boost",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld base tips"
+  ]
+}

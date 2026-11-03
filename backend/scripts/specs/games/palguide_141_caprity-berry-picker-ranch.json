@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-caprity-berry-picker-ranch",
+  "slot": "palguide",
+  "order": 141,
+  "headline": "Caprity Berry Picker",
+  "title": "Caprity | Berries And Hunger Help | Palworld Guide",
+  "video_script": "Want free berries? Try Caprity. Its partner skill, Berry Picker, sometimes drops Red Berries from its back when it is assigned to a Ranch. In your party, the same skill also feeds the Pal with the lowest hunger every five minutes, and it does not stack. At base it works Planting at level two and Farming at level one. How do you use Caprity? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Caprity",
+      "label": "Caprity"
+    },
+    {
+      "image": "pal:Caprity",
+      "fact": "Berry Picker",
+      "sub": "Red Berries at the Ranch"
+    },
+    {
+      "image": "steam:1623730:9",
+      "fact": "Party feeding",
+      "sub": "Lowest hunger Pal"
+    },
+    {
+      "image": "pal:Caprity",
+      "fact": "Planting 2",
+      "sub": "Farming 1"
+    }
+  ],
+  "description": "Caprity in Palworld 1.0: Berry Picker drops Red Berries at the Ranch and restores hunger in your party, plus Planting two and Farming one.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Caprity",
+    "Caprity Berry Picker",
+    "Palworld red berries",
+    "Palworld ranch",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld base tips"
+  ]
+}

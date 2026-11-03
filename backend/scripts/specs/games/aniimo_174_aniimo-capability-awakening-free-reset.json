@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-capability-awakening-free-reset",
+  "slot": "aniimo",
+  "order": 174,
+  "headline": "Free reset",
+  "title": "Capability Awakening | Reset It For Free Items Back | Aniimo Guide",
+  "video_script": "Scared to spend Awakening materials in Aniimo? Do not be. Capability Awakening can be reset at any time for Aniimo below level sixty, and your training items are returned. It spends Star Dust first, then moves up to Star Sand and Star Essence. When a stat reaches its cap, a crown appears next to it, so send materials elsewhere. A wrong choice costs time, not materials. Have you reset yet? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:15",
+      "label": "Capability Awakening"
+    },
+    {
+      "image": "steam:4126040:16",
+      "fact": "Reset Anytime",
+      "sub": "Below level 60"
+    },
+    {
+      "image": "steam:4126040:17",
+      "fact": "Items Returned",
+      "sub": "Nothing lost"
+    },
+    {
+      "image": "steam:4126040:18",
+      "fact": "Star Dust first",
+      "sub": "Then Sand and Essence"
+    },
+    {
+      "image": "steam:4126040:19",
+      "fact": "Crown Marker",
+      "sub": "Stat is capped"
+    }
+  ],
+  "description": "Capability Awakening in Aniimo: reset it for Aniimo below level 60 with training items returned; materials go Star Dust, Star Sand, Star Essence; a crown marks a capped stat. Checked Nov 2026.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Capability Awakening",
+    "Aniimo potential",
+    "Star Dust",
+    "Aniimo endgame",
+    "Aniimo training"
+  ]
+}

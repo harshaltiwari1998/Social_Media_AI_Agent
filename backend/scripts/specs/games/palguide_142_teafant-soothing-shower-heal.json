@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-teafant-soothing-shower-heal",
+  "slot": "palguide",
+  "order": 142,
+  "headline": "Teafant Soothing Shower",
+  "title": "Teafant | Emergency Healing Partner | Palworld Guide",
+  "video_script": "Low on health in a fight? Teafant can save you. Its partner skill, Soothing Shower, heals you when your health drops below thirty percent, and it needs a two minute cooldown before it works again. It does not stack. It is a Water Pal that also works Watering at level one on your base. Would you bring Teafant on a boss run? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Teafant",
+      "label": "Teafant"
+    },
+    {
+      "image": "pal:Teafant",
+      "fact": "Soothing Shower",
+      "sub": "Heals you when low"
+    },
+    {
+      "image": "steam:1623730:15",
+      "fact": "Below 30 percent",
+      "sub": "Two minute cooldown"
+    },
+    {
+      "image": "pal:Teafant",
+      "fact": "Watering 1",
+      "sub": "Base worker"
+    }
+  ],
+  "description": "Teafant in Palworld 1.0: Soothing Shower heals you when your health falls below thirty percent, plus Watering level one.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Teafant",
+    "Teafant Soothing Shower",
+    "Palworld healing Pal",
+    "Palworld boss tips",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld Water Pals"
+  ]
+}

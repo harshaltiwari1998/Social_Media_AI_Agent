@@ -1,0 +1,52 @@
+{
+  "id": "aniimo-prismana-hypnyto-ekrim-until-december",
+  "slot": "aniimo",
+  "order": 173,
+  "headline": "Season exclusives",
+  "title": "Prismana Hypnyto and Ekrim | Gone December Ninth | Aniimo News",
+  "video_script": "Two season exclusive Prismana Aniimo leave on December ninth. Prismana Hypnyto comes from the Companion Handbook. Prismana Ekrim comes from a Season Achievement. Both are available from October twenty ninth until December ninth, so you have about five weeks left. Plan your handbook progress and achievements now, because season exclusives do not wait. Which one do you want more? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:2",
+      "label": "Season Exclusives"
+    },
+    {
+      "image": "steam:4126040:7",
+      "fact": "Prismana Hypnyto",
+      "sub": "Companion Handbook"
+    },
+    {
+      "image": "steam:4126040:8",
+      "fact": "Prismana Ekrim",
+      "sub": "Season Achievement"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Ends Dec 9",
+      "sub": "Oct 29 to Dec 9"
+    },
+    {
+      "image": "steam:4126040:10",
+      "fact": "Plan Ahead",
+      "sub": "Do not miss out"
+    }
+  ],
+  "description": "Season 1 Part 2 exclusives: Prismana Hypnyto (Companion Handbook) and Prismana Ekrim (Season Achievement), both available Oct 29 to Dec 9. Checked Nov 2026.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Prismana Hypnyto",
+    "Prismana Ekrim",
+    "Companion Handbook",
+    "Aniimo events",
+    "Prismana Aniimo"
+  ],
+  "expires": "2026-12-09"
+}

@@ -1,0 +1,138 @@
+{
+  "id": "palworld-egg-incubator-and-ranch-guide",
+  "category": "gaming",
+  "order": 82,
+  "series": "palworld",
+  "title": "Palworld Eggs And Incubators Guide | Sizes, Hatch Times, Temperature And Breeding Farm | Palworld Guide",
+  "description": "A Palworld 1.0 egg guide: egg colours and sizes, why Alpha eggs are always Huge, how hatch times and temperature work, the four incubators, and how the Breeding Farm and cake feed them. Checked against a game database and several guides in November 2026. No breeding combos here.",
+  "hashtags": [
+    "Palworld",
+    "PalworldGuide",
+    "PalworldEggs"
+  ],
+  "tags": [
+    "Palworld eggs",
+    "Palworld egg incubator",
+    "Palworld hatch time",
+    "Palworld Huge Egg",
+    "Palworld Breeding Farm",
+    "Palworld cake",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld tips"
+  ],
+  "thumbnail": {
+    "image": "pal:Lamball",
+    "text": "PALWORLD EGGS EXPLAINED"
+  },
+  "sections": [
+    {
+      "heading": "Palworld eggs explained",
+      "script": "Eggs are one of the easiest ways to get strong Pals in Palworld, and also one of the most confusing. Why does one egg hatch in a few hours while another takes days? What does Huge actually mean? And which incubator is worth building? In this video we go through egg colours and sizes, where wild eggs come from, how temperature changes hatch time, what the one point zero update changed, the four incubators, and how the Breeding Farm and cake fit in. We checked this against a game database and several current guides in November twenty twenty six, and where guides disagree we will say so. We will not cover breeding combinations in this one.",
+      "images": [
+        "pal:Lamball",
+        "steam:1623730:1",
+        "steam:1623730:2"
+      ]
+    },
+    {
+      "heading": "Egg colours and sizes",
+      "script": "Every egg has a colour that follows the element of the Pal inside. Guides list around nine or ten colours, including Common, Verdant, Scorching, Damp, Electric, Frozen, Rocky, Dark and Dragon. Sources differ slightly on the exact count because a rare Ominous egg exists in some lists. On top of colour, every egg comes in three sizes: normal, Large and Huge. Size tells you about the prize. Normal eggs hold the common, cheap Pals of that element. Large eggs lean toward uncommon ones. Huge eggs are where the rare and powerful Pals live, and they take by far the longest to hatch.",
+      "images": [
+        "pal:Chikipi",
+        "steam:1623730:3",
+        "steam:1623730:4"
+      ]
+    },
+    {
+      "heading": "Alpha eggs are always Huge",
+      "script": "Here is a rule worth remembering. Whenever a wild egg is going to hatch an Alpha Pal, it always shows up as a Huge egg. So a Huge egg from the wild has a small chance of being a boss sized version of whatever is inside. Guides do not publish exact odds, and one source puts the Alpha entries at only a fraction of a percent each in the wild tables, so do not count on it. The size rule itself holds every time though. If you see a Normal or Large egg, it is never an Alpha, and that saves you from waiting for nothing.",
+      "images": [
+        "pal:Jetragon",
+        "steam:1623730:5",
+        "steam:1623730:6"
+      ]
+    },
+    {
+      "heading": "Where wild eggs come from",
+      "script": "Wild eggs sit in nests scattered across the islands, on cliffs, in ruins and out in the open biomes. A flying mount helps a lot, because many nests are on ledges and peaks you cannot reach on foot. Climate is a useful hint. Volcanic areas lean toward Scorching, Rocky and Dragon eggs, while frozen highlands and lakeshores lean toward Frozen, Damp and Dark. Once you take an egg, the nest does not stay empty forever. The database lists a respawn time of one hundred and eighty minutes, which is three hours. That makes a looping route of nests a good use of a mount.",
+      "images": [
+        "pal:Foxparks",
+        "steam:1623730:7",
+        "steam:1623730:8"
+      ]
+    },
+    {
+      "heading": "Building the Egg Incubator",
+      "script": "The basic Egg Incubator is the first one you need. According to the database and guides, it unlocks at technology level ten and uses one Ancient technology point. It costs ten Paldium Fragments, five Cloth, thirty Stone and two Ancient Civilization Parts. Those parts are the real early gate, because they come from Alpha Pals and bosses instead of mining. The basic incubator holds one egg and needs no power. You open it, put an egg in, and it hatches on its own. The new Pal goes to your party if there is room, or to the Palbox if not.",
+      "images": [
+        "pal:Anubis",
+        "steam:1623730:9",
+        "steam:1623730:10"
+      ]
+    },
+    {
+      "heading": "Temperature and comfort",
+      "script": "Temperature is what really controls speed. Each egg colour prefers a climate. Damp, Frozen and Dark eggs like the cold. Common, Verdant and Electric eggs are happy in the middle. Scorching, Rocky and Dragon eggs like heat. The incubator tells you how comfortable the egg feels, and there are three levels. Uncomfortable gives no bonus, a little comfortable gives fifty percent more speed, and very comfortable gives one hundred percent more speed. A Campfire or Heater warms the area and a Cooler cools it. Read the incubator message instead of guessing, because it tells you which way to push.",
+      "images": [
+        "pal:Penking",
+        "steam:1623730:11",
+        "steam:1623730:12"
+      ]
+    },
+    {
+      "heading": "Hatch times by size",
+      "script": "Now the numbers. The standard base times, with no comfort bonus, are six hours for a normal egg, thirty six hours for a Large egg and seventy two hours for a Huge egg. With perfect comfort, those times are cut in half, so three hours, eighteen hours and thirty six hours. Two guides give this same table. A Huge egg is twelve times longer than a normal one, so it is a real decision. Placing a cooler or heater correctly can save you a full day and a half. Also remember that timers run in real time, not game time, so a Huge egg keeps cooking while you are logged off.",
+      "images": [
+        "pal:Mossanda",
+        "steam:1623730:1",
+        "steam:1623730:3"
+      ]
+    },
+    {
+      "heading": "What changed in one point zero",
+      "script": "Many hatch times online do not match each other, and there is a reason. Guides report that the one point zero changelog halved egg incubation time in newly created Normal and Hard difficulty worlds. The word newly matters. If you carried over an older save, you may not have that change. Hatch speed is also a world setting, so custom worlds and servers can set their own value. That is why two players can talk about the same Huge egg and see very different timers. Treat the hours we gave as ratios, and trust the number your own incubator shows.",
+      "images": [
+        "pal:Astegon",
+        "steam:1623730:5",
+        "steam:1623730:7"
+      ]
+    },
+    {
+      "heading": "The four incubators",
+      "script": "There are four incubators. The basic one holds one egg and you manage the temperature yourself. The Electric Egg Incubator unlocks around the mid thirties, needs power, and keeps the temperature right by itself, but still holds one egg. The Large Incubator unlocks in the high forties and holds up to ten eggs, though you manage temperature by hand. The Large Scale Electric Egg Incubator comes at level sixty, holds ten eggs and runs them all at ideal comfort automatically. Guides say the exact levels can shift between patches, so check your own tech tree before you plan.",
+      "images": [
+        "pal:Dynamoff",
+        "steam:1623730:9",
+        "steam:1623730:11"
+      ]
+    },
+    {
+      "heading": "Breeding Farm and cake",
+      "script": "Eggs also come from the Breeding Farm, which unlocks around level nineteen. It holds exactly one male and one female Pal, so more farms means more pairs. Put a cake in the box beside it and the pair starts producing an egg. Guides agree that cake does not spoil in the box, and that a cycle already in progress finishes even if you take the cake out. But an empty box stops the next cycle from starting. Version one point zero also added special cakes, with effects on stats and mutations, and the bonus egg cakes are worth checking in your own crafting menu.",
+      "images": [
+        "pal:Braloha",
+        "steam:1623730:2",
+        "steam:1623730:4"
+      ]
+    },
+    {
+      "heading": "Speed tips and common mistakes",
+      "script": "A few practical tips. Braloha has a partner skill that speeds up egg production at the Breeding Farm, and its bonus grows with its Condensing rank, from about twenty percent up to fifty percent, according to the database and a farm guide. The biggest mistake is building one incubator and stopping. Three Breeding Farms will bury a single basic incubator, so a Large Incubator is the better pairing. The second mistake is ignoring temperature, which can cost you a full thirty six hours on a Huge egg. Pick the incubator site for climate first, and looks second.",
+      "images": [
+        "pal:Grintale",
+        "steam:1623730:6",
+        "steam:1623730:8"
+      ]
+    },
+    {
+      "heading": "Final thoughts",
+      "script": "That is the full egg guide for Palworld. To sum up, colour follows element, size follows rarity, Alpha eggs are always Huge, temperature can double your speed, and one point zero may have halved your timers in a new world. Build a Large Incubator when you can and keep your cake box full. Which Pal are you hoping to hatch from a Huge egg, and how long did you wait for it? Tell us in the comments. If this video helped you, please like it and subscribe to HarryBeast Gaming for more Palworld guides every day. Thanks for watching.",
+      "images": [
+        "pal:Broncherry",
+        "steam:1623730:10",
+        "steam:1623730:12"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-how-to-get-sherro",
+  "slot": "aniimo",
+  "order": 160,
+  "headline": "Get Sherro",
+  "title": "How to Get Sherro | Two Ways Explained | Aniimo Guide",
+  "video_script": "There are two ways to get Sherro. Evolve it: Shelly becomes Sheldon at level twenty nine, then Sheldon becomes Sherro at level thirty nine after you defeat the Omega Sherro. Or catch the Thunderstorm form in Echoback Landing, around levels thirty six to forty, but only while thunder weather is active. It is a hard catch, so bring plenty of pods. Which way will you pick? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:24",
+      "label": "How to Get Sherro"
+    },
+    {
+      "image": "steam:4126040:26",
+      "fact": "Shelly",
+      "sub": "Level 29 to Sheldon"
+    },
+    {
+      "image": "steam:4126040:28",
+      "fact": "Sheldon",
+      "sub": "Level 39 to Sherro"
+    },
+    {
+      "image": "steam:4126040:30",
+      "fact": "Omega Sherro",
+      "sub": "Defeat it to unlock"
+    },
+    {
+      "image": "steam:4126040:1",
+      "fact": "Thunderstorm form",
+      "sub": "Echoback Landing in thunder"
+    }
+  ],
+  "description": "Sherro: Shelly evolves to Sheldon at level 29, Sheldon to Sherro at level 39 after defeating the Omega Sherro. The Thunderstorm form spawns in Echoback Landing (levels 36-40) in thunder weather.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Sherro",
+    "Sheldon",
+    "Shelly",
+    "Aniimo Sherro",
+    "Omega Sherro",
+    "Pawprint Studio"
+  ]
+}

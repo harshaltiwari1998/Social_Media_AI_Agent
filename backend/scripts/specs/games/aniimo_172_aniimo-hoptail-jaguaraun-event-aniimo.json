@@ -1,0 +1,52 @@
+{
+  "id": "aniimo-hoptail-jaguaraun-event-aniimo",
+  "slot": "aniimo",
+  "order": 172,
+  "headline": "Event Aniimo",
+  "title": "Hoptail and Jaguaraun | Two Event Aniimo Before December | Aniimo News",
+  "video_script": "Two limited Aniimo are coming this season. Hoptail is available from November sixth to November nineteenth through Aniimo Discovery. Then Jaguaraun arrives from November twentieth to December ninth through Resonance Fantasia. Jaguaraun was designed by a player, the winner of the Strongest Bond Award in the first Aniimo Co-Dev Contest. Miss the window and you wait. Which one are you chasing? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:3",
+      "label": "Two Event Aniimo"
+    },
+    {
+      "image": "steam:4126040:4",
+      "fact": "Hoptail",
+      "sub": "Nov 6 to Nov 19"
+    },
+    {
+      "image": "steam:4126040:6",
+      "fact": "Aniimo Discovery",
+      "sub": "Hoptail method"
+    },
+    {
+      "image": "steam:4126040:13",
+      "fact": "Jaguaraun",
+      "sub": "Nov 20 to Dec 9"
+    },
+    {
+      "image": "steam:4126040:14",
+      "fact": "Co-Dev Contest",
+      "sub": "Player designed"
+    }
+  ],
+  "description": "Limited Aniimo in Season 1 Part 2: Hoptail (Nov 6 to 19, Aniimo Discovery) and Jaguaraun (Nov 20 to Dec 9, Resonance Fantasia), a player-designed Aniimo from the first Co-Dev Contest. Checked Nov 2026; dates may shift by time zone.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Hoptail",
+    "Jaguaraun",
+    "Aniimo events",
+    "Aniimo Co-Dev Contest",
+    "Aniimo Season 1 Part 2"
+  ],
+  "expires": "2026-12-09"
+}

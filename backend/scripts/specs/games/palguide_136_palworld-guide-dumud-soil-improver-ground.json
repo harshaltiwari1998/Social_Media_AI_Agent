@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-dumud-soil-improver-ground",
+  "slot": "palguide",
+  "order": 136,
+  "headline": "Dumud Soil Improver",
+  "title": "Dumud | Attack Boost For Ground Pals | Palworld Guide",
+  "video_script": "Ground Pals hit harder with Dumud around. Its partner skill, Soil Improver, raises the Attack of Ground Pals in your party, and it does not stack. At base it works Watering and Mining, both at level two, and it sometimes drops High Quality Pal Oil at the Ranch. Do you use Dumud for mining or for the boost? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Dumud",
+      "label": "Dumud"
+    },
+    {
+      "image": "pal:Dumud",
+      "fact": "Soil Improver",
+      "sub": "Ground Pals Attack up"
+    },
+    {
+      "image": "steam:1623730:11",
+      "fact": "Mining 2",
+      "sub": "Watering 2 too"
+    },
+    {
+      "image": "pal:Dumud",
+      "fact": "High Quality Pal Oil",
+      "sub": "Ranch drop"
+    }
+  ],
+  "description": "Dumud in Palworld 1.0: Soil Improver boosts Ground Pal attack, plus Watering level two and Mining level two.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Dumud",
+    "Dumud Soil Improver",
+    "Palworld Dumud guide",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld base tips",
+    "Palworld Pal guide"
+  ]
+}

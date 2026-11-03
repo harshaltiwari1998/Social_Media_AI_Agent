@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-how-to-get-tubster",
+  "slot": "aniimo",
+  "order": 163,
+  "headline": "Get Tubster",
+  "title": "How to Get Tubster | Chirpi Final Form | Aniimo Guide",
+  "video_script": "Tubster is the final form of the Chirpi line. A wild Tubster can also be found in the Argent Strait, around levels twenty eight to thirty two, but evolving is the reliable route. Your Chirpi needs level eighteen, an acquired break potential of six or higher, and you must defeat the Alpha Tubster in the Argent Strait. Check the stone cost in the evolve menu. Ready for the Alpha? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:22",
+      "label": "How to Get Tubster"
+    },
+    {
+      "image": "steam:4126040:24",
+      "fact": "Chirpi",
+      "sub": "Level 18"
+    },
+    {
+      "image": "steam:4126040:26",
+      "fact": "BREAK Potential 6+",
+      "sub": "Check before you evolve"
+    },
+    {
+      "image": "steam:4126040:28",
+      "fact": "Alpha Tubster",
+      "sub": "Argent Strait boss"
+    },
+    {
+      "image": "steam:4126040:30",
+      "fact": "Tubster",
+      "sub": "Final form of the line"
+    }
+  ],
+  "description": "Tubster: Chirpi at level 18 with BREAK Potential 6 or higher, after defeating the Alpha Tubster in the Argent Strait.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Tubster",
+    "Chirpi",
+    "Aniimo Tubster",
+    "Alpha Tubster",
+    "Argent Strait",
+    "Pawprint Studio"
+  ]
+}

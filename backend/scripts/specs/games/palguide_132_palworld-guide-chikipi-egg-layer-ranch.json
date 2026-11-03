@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-chikipi-egg-layer-ranch",
+  "slot": "palguide",
+  "order": 132,
+  "headline": "Chikipi Egg Layer",
+  "title": "Chikipi | Free Eggs From Your Ranch | Palworld Guide",
+  "video_script": "Need eggs for your cooking? Chikipi has you covered. Its partner skill, Egg Layer, makes it sometimes lay an Egg when you assign it to the Ranch. At base it also handles Gathering and Farming, both at level one. It is a Neutral Pal from the very start of the Paldeck, so it is cheap and easy to catch early. Do you keep Chikipi on your ranch? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Chikipi",
+      "label": "Chikipi"
+    },
+    {
+      "image": "pal:Chikipi",
+      "fact": "Egg Layer",
+      "sub": "Eggs at the Ranch"
+    },
+    {
+      "image": "steam:1623730:3",
+      "fact": "Gathering 1",
+      "sub": "Farming 1 too"
+    },
+    {
+      "image": "pal:Chikipi",
+      "fact": "Neutral",
+      "sub": "Early Paldeck Pal"
+    }
+  ],
+  "description": "Chikipi in Palworld 1.0: Egg Layer drops Eggs at the Ranch, plus Gathering level one and Farming level one.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Chikipi",
+    "Chikipi Egg Layer",
+    "Palworld Chikipi guide",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld base tips",
+    "Palworld Pal guide"
+  ]
+}

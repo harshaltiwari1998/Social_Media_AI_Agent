@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-flopie-helper-bunny-planting",
+  "slot": "palguide",
+  "order": 140,
+  "headline": "Flopie Helper Bunny",
+  "title": "Flopie | Auto Item Pickup Partner | Palworld Guide",
+  "video_script": "Tired of picking up every drop? Bring Flopie. Its partner skill, Helper Bunny, makes it follow you and automatically collect nearby items while it is in your party. At base it is a strong early worker, with Planting, Handiwork and Gathering all at level two. It is a Grass Pal, so it fits farm bases well. Is Flopie on your team? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Flopie",
+      "label": "Flopie"
+    },
+    {
+      "image": "pal:Flopie",
+      "fact": "Helper Bunny",
+      "sub": "Picks up nearby items"
+    },
+    {
+      "image": "steam:1623730:6",
+      "fact": "Level 2 worker",
+      "sub": "Planting, Handiwork, Gathering"
+    },
+    {
+      "image": "pal:Flopie",
+      "fact": "Grass Pal",
+      "sub": "Great for farms"
+    }
+  ],
+  "description": "Flopie in Palworld 1.0: Helper Bunny auto-collects nearby items, and it works Planting, Handiwork and Gathering at level two.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Flopie",
+    "Flopie Helper Bunny",
+    "Palworld item pickup",
+    "Palworld planting",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld base tips"
+  ]
+}

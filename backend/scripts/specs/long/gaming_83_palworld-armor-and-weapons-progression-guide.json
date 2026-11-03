@@ -1,0 +1,129 @@
+{
+  "id": "palworld-armor-and-weapons-progression-guide",
+  "category": "gaming",
+  "order": 83,
+  "series": "palworld",
+  "title": "Palworld Armor And Weapons Progression | Cloth To Ancient Armor, Mechanical Bow To Beam Launcher | Palworld Guide",
+  "description": "A Palworld 1.0 gear guide: the armor ladder from Cloth Outfit to Lightweight Ancient Armor with unlock levels and defense, the Soralite and Paloxite ore chain, and the new endgame weapons from Mechanical Bow to Beam Launcher. Checked against a game database and several guides in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldGuide",
+    "PalworldWeapons"
+  ],
+  "tags": [
+    "Palworld armor",
+    "Palworld weapons",
+    "Palworld Mechanical Bow",
+    "Palworld Ancient Armor",
+    "Palworld Beam Launcher",
+    "Palworld Soralite",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld tips"
+  ],
+  "thumbnail": {
+    "image": "pal:Anubis",
+    "text": "PALWORLD GEAR PROGRESSION"
+  },
+  "sections": [
+    {
+      "heading": "Palworld gear progression",
+      "script": "Good gear is the difference between struggling and steamrolling in Palworld, but the one point zero update changed the whole ladder. In this video we walk through the armor you can craft from your first night to the endgame, with unlock levels and defense numbers, then the ore chain behind the new gear, and finally the new endgame weapons. We checked this against a game database and several current guides in November twenty twenty six. Tier lists disagree a lot, so instead of ranking everything, we focus on what the numbers and sources agree on. We will not cover Pal breeding in this one.",
+      "images": [
+        "pal:Anubis",
+        "steam:1623730:1",
+        "steam:1623730:2"
+      ]
+    },
+    {
+      "heading": "Level eighty and the new ladder",
+      "script": "The full one point zero release raised the level cap to eighty. That means the gear ladder runs much deeper than the early access game, where metal armor was considered endgame. Armor and weapons each unlock at a technology level, and you need to reach that level before you can spend points on the schematic. Guides say any tier list that calls Metal Armor endgame is describing the old build. So do not trust old videos on this. Let us start at the bottom and climb. One more thing before we start. Every set below also comes in higher rarities, and crafting a higher rarity schematic of the same set raises its defense further, so the numbers we quote are the baseline floor, not the ceiling.",
+      "images": [
+        "pal:Mossanda",
+        "steam:1623730:3",
+        "steam:1623730:4"
+      ]
+    },
+    {
+      "heading": "Early armor",
+      "script": "The first armor is the Cloth Outfit at level four, with fifteen defense and cold resistance. Pelt Armor comes at level twelve with thirty five defense. Metal Armor arrives at level twenty three with seventy defense and adds heat resistance. Refined Metal Armor is level thirty seven and gives one hundred and fifty defense. Pal Metal Armor, at level forty six, reaches two hundred and twenty defense. These numbers come from the database and are matched by an armor guide updated for the current version. They are the base Common rarity values, and higher rarity schematics raise them further.",
+      "images": [
+        "pal:Foxparks",
+        "steam:1623730:5",
+        "steam:1623730:6"
+      ]
+    },
+    {
+      "heading": "Mid game armor",
+      "script": "After Pal Metal Armor come the Plasteel and Hexolite lines. Plasteel Armor has three hundred and eighty five defense, and Hexolite Armor has five hundred and eighty defense, with the Hexolite set also raising cold and heat resistance to level two. Their exact unlock levels sit between level forty six and sixty eight, and one armor guide warns that the exact levels are not clearly published on wiki item pages. So check the schematic in your own tech tree before you plan materials. Both lines also have lightweight and resistant variants that trade a little for comfort in harsh biomes. Because the gaps between these tiers are large, you will feel each upgrade right away, especially against Alpha Pals and boss fights, where incoming damage matters most.",
+      "images": [
+        "pal:Penking",
+        "steam:1623730:7",
+        "steam:1623730:8"
+      ]
+    },
+    {
+      "heading": "Ancient armor",
+      "script": "The next big jump is Ancient Armor at level sixty eight. It is forged from Soralite Ingots and gives eight hundred defense, with cold and heat resistance at level two. That is more than eleven times the defense of the Metal Armor old guides called endgame. At level seventy nine you can unlock Lightweight Ancient Armor, with eight hundred and forty defense, the same level two resistances, and extra carrying capacity so you can haul more loot. Both the database and an armor guide agree that it beats the plain Ancient set on every stat. For most players, it is the last armor you craft.",
+      "images": [
+        "pal:Jetragon",
+        "steam:1623730:9",
+        "steam:1623730:10"
+      ]
+    },
+    {
+      "heading": "Soralite and Paloxite",
+      "script": "The best new gear is built on two new materials. Soralite is found in Sunreach, and Paloxite is found in the World Tree. Guides say both ores need the Plasma Multicutter to mine. Paloxite nodes also vanish as you approach, so you need World Tree Holy Water, or a Pal with a World Tree trait in your party, to keep them. You cannot make Soralite Ingots until you can reach Sunreach, and you cannot touch Paloxite until the World Tree is open. So the ore chain, not the schematic, is usually the real gate for your gear.",
+      "images": [
+        "pal:Shadowbeak",
+        "steam:1623730:11",
+        "steam:1623730:12"
+      ]
+    },
+    {
+      "heading": "Mechanical Bow",
+      "script": "The weapon most guides call the first endgame pick is the Mechanical Bow, unlocked at level sixty seven. The database lists its attack at twenty thousand, and one guide lists it even higher, so numbers differ a little. What matters is that it is the highest single shot damage of the new weapons, and its arrows are made from Soralite Ingots, which is cheaper than feeding a firearm with Paloxite ammo. The bow itself needs forty Soralite Ingots, twenty Carbon Fiber, two hundred Paldium Fragments and three AI Cores. It is a strong boss killer for players who have only reached Sunreach.",
+      "images": [
+        "pal:Astegon",
+        "steam:1623730:1",
+        "steam:1623730:5"
+      ]
+    },
+    {
+      "heading": "Soralite firearms and melee",
+      "script": "Next come the Soralite weapons. The Prototype Shotgun unlocks at level sixty nine and the Heavy Assault Rifle at level seventy. Guides say the shotgun is gentle on ammo while hitting hard up close, and the rifle is a dependable all round firearm that needs one hundred Soralite Ingots to craft. The Laser Sword unlocks at level seventy three, with two thousand attack in the database, for players who prefer melee. Tier lists disagree on how to rank these three, so choose by playstyle and by which materials you can actually farm right now. Keep in mind that the Heavy Assault Rifle is the heaviest mid tier investment, so build it only when your Soralite supply is steady.",
+      "images": [
+        "pal:Orserk",
+        "steam:1623730:2",
+        "steam:1623730:6"
+      ]
+    },
+    {
+      "heading": "Paloxite weapons",
+      "script": "At the very top are the Paloxite weapons. The Drone Launcher unlocks at level seventy seven and sends out up to nine autonomous drones. The Plasma Rifle comes at level seventy eight, and its shots release an electrical discharge that chains between enemies. The Beam Launcher is at level eighty, and the database lists a recipe of one hundred Paloxite Ingots plus Bio Batteries, AI Cores and Ancient Civilization Cores, so it is a serious investment. Guides recommend saving these for when the World Tree is a routine farm. A blueprint you cannot feed is wasted technology points. That is why many guides say to craft the Paloxite weapons last, after your Soralite gear is already working well for you.",
+      "images": [
+        "pal:Frostallion",
+        "steam:1623730:3",
+        "steam:1623730:7"
+      ]
+    },
+    {
+      "heading": "How to compare weapons",
+      "script": "One warning about attack numbers. The Mechanical Bow shows twenty thousand attack, while the Plasma Rifle shows about eighteen hundred, yet guides still rank both near the top. A bow fires one huge arrow, while the rifle fires a rapid stream that chains between enemies. So only compare weapons inside the same class, and also think about ammo cost and fire rate. That is also why rankings disagree. One list puts the Beam Launcher at the top, while another puts it near the bottom because Paloxite is expensive. Pick for the fight in front of you.",
+      "images": [
+        "pal:Dynamoff",
+        "steam:1623730:8",
+        "steam:1623730:9"
+      ]
+    },
+    {
+      "heading": "Your upgrade path",
+      "script": "So here is a simple path. Climb the armor ladder as your level rises, from Cloth to Pelt, then Metal, Refined Metal and Pal Metal. Reach Sunreach for Soralite, and craft Ancient Armor at level sixty eight and the Mechanical Bow at level sixty seven. Add a Soralite firearm for close fights. Then open the World Tree for Paloxite and finish with Lightweight Ancient Armor and the Paloxite weapons. Always check the schematic cost in your own tech tree, because patches can shift values. Which weapon are you building first, and what armor are you wearing right now? Tell us in the comments. If this guide helped, please like it and subscribe to HarryBeast Gaming for more Palworld guides every day. Thanks for watching.",
+      "images": [
+        "pal:Grintale",
+        "steam:1623730:10",
+        "steam:1623730:12"
+      ]
+    }
+  ]
+}

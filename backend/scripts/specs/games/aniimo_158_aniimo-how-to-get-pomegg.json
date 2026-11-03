@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-how-to-get-pomegg",
+  "slot": "aniimo",
+  "order": 158,
+  "headline": "Get Pomegg",
+  "title": "How to Get Pomegg | Rosetower Woods Fork | Aniimo Guide",
+  "video_script": "Want a Pomegg in Aniimo? The basic form lives in Rosetower Woods, at levels forty three to fifty. Raise it to level twenty five and it forks. Spend a Sprout Stone for Pomawk, or complete the Discovery event quests and use a Roar Stone for Dazmand. Each Pomegg takes only one branch, so choose carefully. Pomawk or Dazmand? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:1",
+      "label": "How to Get Pomegg"
+    },
+    {
+      "image": "steam:4126040:5",
+      "fact": "Rosetower Woods",
+      "sub": "Levels 43 to 50"
+    },
+    {
+      "image": "steam:4126040:8",
+      "fact": "Level 25",
+      "sub": "Evolves in two ways"
+    },
+    {
+      "image": "steam:4126040:12",
+      "fact": "Pomawk",
+      "sub": "Sprout Stone"
+    },
+    {
+      "image": "steam:4126040:16",
+      "fact": "Dazmand",
+      "sub": "Roar Stone and event quests"
+    }
+  ],
+  "description": "Pomegg spawns in Rosetower Woods (levels 43-50) and evolves at level 25 into Pomawk (Sprout Stone) or Dazmand (Roar Stone plus Aniimo Discovery event quests).",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pomegg",
+    "Pomawk",
+    "Dazmand",
+    "Aniimo Pomegg",
+    "Rosetower Woods",
+    "Pawprint Studio"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-mozzarina-milk-maker-ranch",
+  "slot": "palguide",
+  "order": 133,
+  "headline": "Mozzarina Milk Maker",
+  "title": "Mozzarina | Milk For Your Kitchen | Palworld Guide",
+  "video_script": "Want milk without hunting for it? Bring Mozzarina to the Ranch. Its partner skill, Milk Maker, sometimes drops Milk while it is assigned there, and Milk is a handy cooking ingredient. It is a Neutral Pal whose base work is Farming. It is a calm, cow-like Pal that is easy to keep at base for a steady supply. Do you run a milk ranch? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Mozzarina",
+      "label": "Mozzarina"
+    },
+    {
+      "image": "pal:Mozzarina",
+      "fact": "Milk Maker",
+      "sub": "Milk at the Ranch"
+    },
+    {
+      "image": "steam:1623730:5",
+      "fact": "Farming",
+      "sub": "Base work"
+    },
+    {
+      "image": "pal:Mozzarina",
+      "fact": "Neutral",
+      "sub": "Cooking ingredient"
+    }
+  ],
+  "description": "Mozzarina in Palworld 1.0: Milk Maker drops Milk at the Ranch, and Farming is its base work.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Mozzarina",
+    "Mozzarina Milk Maker",
+    "Palworld Mozzarina guide",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld base tips",
+    "Palworld Pal guide"
+  ]
+}

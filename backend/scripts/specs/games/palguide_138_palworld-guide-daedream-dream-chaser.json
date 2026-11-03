@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-daedream-dream-chaser",
+  "slot": "palguide",
+  "order": 138,
+  "headline": "Daedream Dream Chaser",
+  "title": "Daedream | Dark Bullets Follow Your Fight | Palworld Guide",
+  "video_script": "Daedream fights beside you without being summoned. Its partner skill, Dream Chaser, keeps it near the player while in your party, and it shoots Dark magic bullets at hostile enemies. These bullets will not take a target below one health. At base it works Handiwork, Gathering and Transporting, all at level one. Do you take Daedream along? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Daedream",
+      "label": "Daedream"
+    },
+    {
+      "image": "pal:Daedream",
+      "fact": "Dream Chaser",
+      "sub": "Dark magic bullets"
+    },
+    {
+      "image": "steam:1623730:15",
+      "fact": "Never below 1 HP",
+      "sub": "Good for catching"
+    },
+    {
+      "image": "pal:Daedream",
+      "fact": "Handiwork 1",
+      "sub": "Gathering and Transporting 1"
+    }
+  ],
+  "description": "Daedream in Palworld 1.0: Dream Chaser fires Dark bullets that never drop a target under one health.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Daedream",
+    "Daedream Dream Chaser",
+    "Palworld Daedream guide",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld base tips",
+    "Palworld Pal guide"
+  ]
+}

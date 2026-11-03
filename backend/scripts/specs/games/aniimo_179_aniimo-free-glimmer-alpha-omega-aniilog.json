@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-free-glimmer-alpha-omega-aniilog",
+  "slot": "aniimo",
+  "order": 179,
+  "headline": "Free Glimmer",
+  "title": "Free Glimmer | Alphas Omegas And Aniilog | Aniimo Guide",
+  "video_script": "Want free Glimmer in Aniimo? Defeat an Alpha for the first time and you get fifty Glimmer. The first Omega takedown pays one hundred. Every Aniilog Research Level you gain also pays one hundred, so catch new Aniimo, finish their Research Goals and report to an Outpost. Elite Training and Daily Activity pay too. Two hundred Glimmer buys an Aniipod Ultra. What will you buy? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:5",
+      "label": "Free Glimmer"
+    },
+    {
+      "image": "steam:4126040:6",
+      "fact": "Alpha first clear",
+      "sub": "50 Glimmer"
+    },
+    {
+      "image": "steam:4126040:7",
+      "fact": "Omega first clear",
+      "sub": "100 Glimmer"
+    },
+    {
+      "image": "steam:4126040:8",
+      "fact": "Aniilog Level",
+      "sub": "100 Glimmer each"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Daily Activity",
+      "sub": "Repeats every day"
+    }
+  ],
+  "description": "Free Glimmer sources in Aniimo: first Alpha clear (50), first Omega clear (100), Aniilog Research Level (100 per level), plus Elite Training and Daily Activity. Checked Nov 2026.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Aniimo Glimmer",
+    "free Glimmer",
+    "Aniilog",
+    "Aniimo Alpha",
+    "Aniimo Omega"
+  ]
+}

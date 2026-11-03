@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-omega-infergon-boss-tips",
+  "slot": "aniimo",
+  "order": 177,
+  "headline": "Omega Infergon",
+  "title": "Omega Infergon | Break It To Win | Aniimo Boss Guide",
+  "video_script": "Omega Infergon in Russet Highlands is a Fire boss, and Water is the best counter. First finish the Warrior Journey quest to unlock it. Then shatter its Fire crystals before they explode, because they release a shock wave. Its Ultimate shows a casting warning, so push it into Break before the attack finishes. Once it is broken it takes much more damage. Did you beat it? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:25",
+      "label": "Omega Infergon"
+    },
+    {
+      "image": "steam:4126040:26",
+      "fact": "Water counter",
+      "sub": "Fire boss weakness"
+    },
+    {
+      "image": "steam:4126040:27",
+      "fact": "Shatter Crystals",
+      "sub": "Before they blow"
+    },
+    {
+      "image": "steam:4126040:28",
+      "fact": "Break the Ultimate",
+      "sub": "Interrupt the cast"
+    },
+    {
+      "image": "steam:4126040:29",
+      "fact": "Unlock first",
+      "sub": "Warrior Journey quest"
+    }
+  ],
+  "description": "Omega Infergon boss tips: Russet Highlands, Fire boss countered by Water, shatter fire crystallites, Break it to interrupt its Ultimate. Checked Nov 2026.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Omega Infergon",
+    "Aniimo boss",
+    "Aniimo Omega",
+    "Russet Highlands",
+    "Aniimo boss guide"
+  ]
+}

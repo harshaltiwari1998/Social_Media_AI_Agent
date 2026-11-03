@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-hangyu-flying-trapeze-glider",
+  "slot": "palguide",
+  "order": 137,
+  "headline": "Hangyu Flying Trapeze",
+  "title": "Hangyu | Float Up While Gliding | Palworld Guide",
+  "video_script": "Want to glide upward instead of falling? Bring Hangyu. Its partner skill, Flying Trapeze, boosts your equipped glider so you slowly rise while gliding. At base it works Transporting at level two, plus Handiwork and Gathering at level one. It is a small Ground Pal that is easy to carry around. Do you glide with Hangyu? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Hangyu",
+      "label": "Hangyu"
+    },
+    {
+      "image": "pal:Hangyu",
+      "fact": "Flying Trapeze",
+      "sub": "Slow ascent while gliding"
+    },
+    {
+      "image": "steam:1623730:13",
+      "fact": "Transporting 2",
+      "sub": "Handiwork and Gathering 1"
+    },
+    {
+      "image": "pal:Hangyu",
+      "fact": "Ground",
+      "sub": "Small Pal"
+    }
+  ],
+  "description": "Hangyu in Palworld 1.0: Flying Trapeze lets you rise while gliding, plus Transporting level two.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Hangyu",
+    "Hangyu Flying Trapeze",
+    "Palworld Hangyu guide",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld base tips",
+    "Palworld Pal guide"
+  ]
+}

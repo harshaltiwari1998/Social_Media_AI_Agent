@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-how-to-get-celestis-stellarys",
+  "slot": "aniimo",
+  "order": 164,
+  "headline": "Celestis",
+  "title": "How to Get Celestis and Stellarys | Aniimo Guide",
+  "video_script": "Celestis is easy to find. It roams widely across the Forest of Falling Stars, and you can also meet it in Nimbus Fields, the Argent Strait and Echoback Landing. Stellarys is the harder one. The basic Stellarys does not spawn in the wild. Raise a Celestis to level eighteen, then defeat the Alpha Stellarys to unlock the evolution. Have you beaten it? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:28",
+      "label": "Celestis and Stellarys"
+    },
+    {
+      "image": "steam:4126040:30",
+      "fact": "Celestis",
+      "sub": "Widespread in the Forest of Falling Stars"
+    },
+    {
+      "image": "steam:4126040:1",
+      "fact": "Four regions",
+      "sub": "Nimbus, Forest, Argent, Echoback"
+    },
+    {
+      "image": "steam:4126040:5",
+      "fact": "Level 18",
+      "sub": "Celestis evolves to Stellarys"
+    },
+    {
+      "image": "steam:4126040:8",
+      "fact": "Alpha Stellarys",
+      "sub": "Defeat it to unlock"
+    }
+  ],
+  "description": "Celestis spawns across several regions and evolves into Stellarys at level 18 after you defeat the Alpha Stellarys.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Celestis",
+    "Stellarys",
+    "Aniimo Celestis",
+    "Alpha Stellarys",
+    "Forest of Falling Stars",
+    "Pawprint Studio"
+  ]
+}

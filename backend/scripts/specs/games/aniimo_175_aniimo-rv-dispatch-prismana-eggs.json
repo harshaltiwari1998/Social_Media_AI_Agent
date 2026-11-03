@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-rv-dispatch-prismana-eggs",
+  "slot": "aniimo",
+  "order": 175,
+  "headline": "RV dispatch",
+  "title": "RV Dispatch | Send Aniimo Away For Prismana Eggs | Aniimo Guide",
+  "video_script": "Your Aniimo can bring you eggs while you are away. Since the latest update, RV dispatches have a chance to return Aniimo eggs with the Prismana trait. Each trip returns at most one egg, and a longer trip raises your chance of getting one, though it is never guaranteed. Send your Aniimo out before you log off and check the RV when you return. Have you tried dispatch yet? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:20",
+      "label": "RV Dispatch"
+    },
+    {
+      "image": "steam:4126040:21",
+      "fact": "Prismana Eggs",
+      "sub": "Chance on every trip"
+    },
+    {
+      "image": "steam:4126040:22",
+      "fact": "One egg max",
+      "sub": "Per trip"
+    },
+    {
+      "image": "steam:4126040:23",
+      "fact": "Longer trips",
+      "sub": "Better egg chance"
+    },
+    {
+      "image": "steam:4126040:24",
+      "label": "Send before logging off"
+    }
+  ],
+  "description": "Aniimo RV dispatches can return eggs with the Prismana trait (dev team update notes). One egg per trip at most; longer trips raise the chance. Checked Nov 2026.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "RV dispatch",
+    "Prismana egg",
+    "Aniimo eggs",
+    "Aniimo RV",
+    "Aniimo homeland"
+  ]
+}

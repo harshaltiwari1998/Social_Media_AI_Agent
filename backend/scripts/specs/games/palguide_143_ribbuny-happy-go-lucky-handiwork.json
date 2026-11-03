@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-ribbuny-happy-go-lucky-handiwork",
+  "slot": "palguide",
+  "order": 143,
+  "headline": "Ribbuny Handiwork Boost",
+  "title": "Ribbuny | Handiwork Boost For Your Base | Palworld Guide",
+  "video_script": "Ribbuny is a hidden base booster. Its partner skill, Happy-Go-Lucky Bunny, adds plus one Handiwork level to all other Pals at your base, and it does not stack. In your party, it also raises the Attack of Neutral Pals by fifteen to thirty percent. Ribbuny itself works Handiwork, Gathering and Transporting at level one. Is Ribbuny at your base? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Ribbuny",
+      "label": "Ribbuny"
+    },
+    {
+      "image": "pal:Ribbuny",
+      "fact": "Handiwork plus 1",
+      "sub": "All other base Pals"
+    },
+    {
+      "image": "steam:1623730:18",
+      "fact": "Neutral attack up",
+      "sub": "15 to 30 percent in party"
+    },
+    {
+      "image": "pal:Ribbuny",
+      "fact": "Level 1 worker",
+      "sub": "Handiwork, Gathering, Transport"
+    }
+  ],
+  "description": "Ribbuny in Palworld 1.0: Happy-Go-Lucky Bunny adds one Handiwork level to other base Pals and boosts Neutral Pal attack in your party.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Ribbuny",
+    "Ribbuny Happy-Go-Lucky Bunny",
+    "Palworld handiwork",
+    "Palworld base Pals",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld base tips"
+  ]
+}

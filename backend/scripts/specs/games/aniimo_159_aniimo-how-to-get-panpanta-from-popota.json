@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-how-to-get-panpanta-from-popota",
+  "slot": "aniimo",
+  "order": 159,
+  "headline": "Get Panpanta",
+  "title": "How to Get Panpanta | Beat the Alpha First | Aniimo Guide",
+  "video_script": "Panpanta does not spawn in the wild, so you must evolve it. Catch a Popota in Echoback Landing, where wild ones are around levels thirty six to forty. Raise it to level thirty nine. Then defeat the Alpha Panpanta, the boss on the Echoback Landing shore, and open Aniimo Management to evolve. Check the stone cost on the screen first. Have you beaten the Alpha yet? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:12",
+      "label": "How to Get Panpanta"
+    },
+    {
+      "image": "steam:4126040:16",
+      "fact": "Popota",
+      "sub": "Echoback Landing"
+    },
+    {
+      "image": "steam:4126040:22",
+      "fact": "Level 39",
+      "sub": "Evolution level"
+    },
+    {
+      "image": "steam:4126040:24",
+      "fact": "Alpha Panpanta",
+      "sub": "Defeat it first"
+    },
+    {
+      "image": "steam:4126040:26",
+      "fact": "Evolve",
+      "sub": "Check the cost in the menu"
+    }
+  ],
+  "description": "Panpanta comes from Popota: reach level 39 and defeat the Alpha Panpanta in Echoback Landing. Wild Popota are found in Echoback Landing around levels 36-40.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Panpanta",
+    "Popota",
+    "Aniimo Panpanta",
+    "Alpha Panpanta",
+    "Echoback Landing",
+    "Pawprint Studio"
+  ]
+}

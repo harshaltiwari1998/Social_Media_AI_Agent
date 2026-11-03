@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-sparkit-static-electricity",
+  "slot": "palguide",
+  "order": 134,
+  "headline": "Sparkit Static Electricity",
+  "title": "Sparkit | Attack Boost For Electric Pals | Palworld Guide",
+  "video_script": "Running Electric Pals? Add Sparkit. Its partner skill, Static Electricity, raises the Attack of Electric Pals in your party. At base it works Generating Electricity at level one, and it also helps with Handiwork and Transporting. It sometimes drops an Electric Organ at the Ranch too. It is an early Electric Pal that is easy to catch. Which Electric Pal do you run? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Sparkit",
+      "label": "Sparkit"
+    },
+    {
+      "image": "pal:Sparkit",
+      "fact": "Static Electricity",
+      "sub": "Electric Pals Attack up"
+    },
+    {
+      "image": "steam:1623730:7",
+      "fact": "Generating Electricity 1",
+      "sub": "Handiwork and Transporting"
+    },
+    {
+      "image": "pal:Sparkit",
+      "fact": "Electric Organ",
+      "sub": "Ranch drop"
+    }
+  ],
+  "description": "Sparkit in Palworld 1.0: Static Electricity boosts Electric Pal attack, plus Generating Electricity level one.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Sparkit",
+    "Sparkit Static Electricity",
+    "Palworld Sparkit guide",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld base tips",
+    "Palworld Pal guide"
+  ]
+}

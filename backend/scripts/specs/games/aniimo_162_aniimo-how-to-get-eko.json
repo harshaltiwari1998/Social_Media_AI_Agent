@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-how-to-get-eko",
+  "slot": "aniimo",
+  "order": 162,
+  "headline": "Get Eko",
+  "title": "How to Get Eko | Forest of Falling Stars | Aniimo Guide",
+  "video_script": "Eko is a small Wind Aniimo you find in the Forest of Falling Stars, mostly in the north under stone outcroppings, at levels twenty to twenty five. To evolve it into Eklue you need two things. Reach level twenty five, and make sure its acquired attack potential is six or higher. Potential cannot be changed, so catch a few Eko and compare. Did you roll a good one? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:8",
+      "label": "How to Get Eko"
+    },
+    {
+      "image": "steam:4126040:12",
+      "fact": "Forest of Falling Stars",
+      "sub": "Levels 20 to 25"
+    },
+    {
+      "image": "steam:4126040:16",
+      "fact": "North side",
+      "sub": "Under stone outcroppings"
+    },
+    {
+      "image": "steam:4126040:22",
+      "fact": "Eklue",
+      "sub": "Level 25 to evolve"
+    },
+    {
+      "image": "steam:4126040:24",
+      "fact": "ATK Potential 6+",
+      "sub": "Catch a few and compare"
+    }
+  ],
+  "description": "Eko lives in the Forest of Falling Stars (levels 20-25) and evolves into Eklue at level 25 with acquired ATK Potential of 6 or higher.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Eko",
+    "Eklue",
+    "Aniimo Eko",
+    "Wind Aniimo",
+    "Forest of Falling Stars",
+    "Pawprint Studio"
+  ]
+}

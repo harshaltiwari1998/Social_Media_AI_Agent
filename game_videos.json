@@ -6354,5 +6354,33 @@
   "aniimo-dark-team-stellarys-rookey-fragrancier": {
     "spec": "scripts/specs/games/aniimo_145_aniimo-dark-team-stellarys-rookey-fragrancier.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f8be0394.mp4"
+  },
+  "spyro-the-dragon-1998": {
+    "spec": "scripts/specs/games/classic_73_spyro-the-dragon-1998.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f602b9e5.mp4"
+  },
+  "red-dead-redemption-2-launch": {
+    "spec": "scripts/specs/games/classic_74_red-dead-redemption-2-launch.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b20cef9c.mp4"
+  },
+  "terraria-2011": {
+    "spec": "scripts/specs/games/classic_75_terraria-2011.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ccfa53b0.mp4"
+  },
+  "wimpy-kid-christmas-getaway": {
+    "spec": "scripts/specs/movies/movie_new_35_wimpy-kid-christmas-getaway.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-25b139d1.mp4"
+  },
+  "pehla-pyaar-doosri-baar": {
+    "spec": "scripts/specs/movies/movie_review_32_pehla-pyaar-doosri-baar.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-a1c97576.mp4"
+  },
+  "reel-lata-mangeshkar-honours": {
+    "spec": "scripts/specs/movies/reel_69_lata-mangeshkar-honours.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-dcbd9071.mp4"
+  },
+  "aniimo-lightning-burst-team-fulmintis": {
+    "spec": "scripts/specs/games/aniimo_146_aniimo-lightning-burst-team-fulmintis.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-86e1b3e2.mp4"
   }
 }

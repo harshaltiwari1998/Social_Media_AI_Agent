@@ -5584,5 +5584,48 @@
       "unique": false,
       "key": "Beakon 5"
     }
+  },
+  "Suzaku 5": {
+    "spec": "scripts/specs/palworld_suzaku_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-c8552104.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Suzaku",
+      "caption": "5 ways to breed Suzaku in Palworld 1.0: Shroomer + Ghangler, Moldron + Vanwyrm, Prunelia + Majex, Nyafia + Starryon, Wumpo + Felbat.",
+      "video_script": "Here are five ways to breed Suzaku in Palworld one point zero. Combo one: breed Shroomer with Ghangler on your Breeding Farm, then add a cake. Combo two: pair Moldron and Vanwyrm together, and you get the same egg. Combo three: Prunelia plus Majex works too, so use whichever Pals you have. Combo four: Nyafia with Starryon is another easy option. Combo five: breed Wumpo with Felbat on your Breeding Farm, then add a cake. Every egg hatches into Suzaku. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Shroomer",
+        "Ghangler"
+      ],
+      "combos": [
+        [
+          "Shroomer",
+          "Ghangler"
+        ],
+        [
+          "Moldron",
+          "Vanwyrm"
+        ],
+        [
+          "Prunelia",
+          "Majex"
+        ],
+        [
+          "Nyafia",
+          "Starryon"
+        ],
+        [
+          "Wumpo",
+          "Felbat"
+        ]
+      ],
+      "child": "Suzaku",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false,
+      "key": "Suzaku 5"
+    }
   }
 }

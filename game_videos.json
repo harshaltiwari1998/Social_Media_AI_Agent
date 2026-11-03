@@ -6382,5 +6382,57 @@
   "aniimo-lightning-burst-team-fulmintis": {
     "spec": "scripts/specs/games/aniimo_146_aniimo-lightning-burst-team-fulmintis.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-86e1b3e2.mp4"
+  },
+  "poke-gastly": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/pokemon/gastly/final.mp4",
+    "data": {
+      "id": "gastly",
+      "stages": [
+        "gastly",
+        "haunter",
+        "gengar"
+      ],
+      "type": "ghost"
+    }
+  },
+  "fusion-charizard+gyarados": {
+    "kind": "motion",
+    "spec": "scripts/specs/fusion_pairs.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/pokemon/fusion-charizard+gyarados/final.mp4",
+    "data": {
+      "id": "charizard+gyarados",
+      "a": "Charizard",
+      "b": "Gyarados",
+      "name": "Charados",
+      "types": "Fire/Water"
+    }
+  },
+  "poke-pichu": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/pokemon/pichu/final.mp4",
+    "data": {
+      "id": "pichu",
+      "stages": [
+        "pichu",
+        "pikachu",
+        "raichu"
+      ],
+      "type": "electric"
+    }
+  },
+  "fusion-pikachu+lucario": {
+    "kind": "motion",
+    "spec": "scripts/specs/fusion_pairs.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/pokemon/fusion-pikachu+lucario/final.mp4",
+    "data": {
+      "id": "pikachu+lucario",
+      "a": "Pikachu",
+      "b": "Lucario",
+      "name": "Pikario",
+      "types": "Electric/Fighting"
+    }
   }
 }

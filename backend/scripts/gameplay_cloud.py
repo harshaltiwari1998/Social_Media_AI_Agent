@@ -30,6 +30,7 @@ REPO = ROOT.parent
 PLANS = ROOT / "scripts" / "specs" / "gameplay"
 PART = 45 * 1024 * 1024
 DAILY_LONGS, DAILY_SHORTS = 1, 8
+MAX_ON_CLOUD = 2  # each plan is 2-3 GB of clips; a few at a time keeps the repo small (branches go once posted)
 
 
 def branch(name: str) -> str:
@@ -72,7 +73,11 @@ def push(plan: dict) -> bool:
     # Clips already posted everywhere stay on the laptop.
     todo = [f for kind, n, fs in longs + shorts
             if not all(store.already_posted(trend_id(plan, kind, n), p) for p in gc.TARGETS[kind]) for f in fs if f.exists()]
-    remote = _git("ls-remote", "--heads", "origin", branch(name), capture=True).strip()
+    on_cloud = _git("ls-remote", "--heads", "origin", "clips/*", capture=True).split()[1::2]
+    remote = f"refs/heads/{branch(name)}" in on_cloud
+    if not remote and len(on_cloud) >= MAX_ON_CLOUD:
+        print(f"{name}: {len(on_cloud)} plans already on GitHub - pushing it when one of them is done")
+        return False
     with tempfile.TemporaryDirectory(dir=gc.OUT) as tmp:
         wt = Path(tmp) / "wt"
         if remote:

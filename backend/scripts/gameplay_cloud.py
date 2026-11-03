@@ -55,42 +55,61 @@ def fully_posted(plan: dict) -> bool:
 
 
 def push(plan: dict) -> bool:
-    """Laptop side. Returns True once the branch exists on GitHub."""
+    """Laptop side. Pushes in ~300 MB steps (one big push gets HTTP 500 from GitHub) and resumes a half-pushed
+    branch; posted.json goes last, so CI only takes a branch once it is complete. Returns True when complete."""
     name = plan["name"]
     src = gc.OUT / name
     marker = src / ".pushed"  # CI deletes the branch once everything is posted - never push it again after that
-    if marker.exists() or _git("ls-remote", "--heads", "origin", branch(name), capture=True).strip():
-        marker.parent.mkdir(parents=True, exist_ok=True)
-        marker.touch()
+    if marker.exists():
         return True
-    files = [src / f"long_{n}{s}" for n in range(1, len(plan.get("longs", [])) + 1)
-             for s in (".mp4", "_thumb.jpg", "_chapters.txt")]
-    files += [src / f"short_{n:02d}.mp4" for n in range(1, len(plan.get("shorts", [])) + 1)]
-    missing = [f.name for f in files if not f.exists() and not f.name.endswith("_thumb.jpg")]
+    longs = [("long", n, [src / f"long_{n}{s}" for s in (".mp4", "_thumb.jpg", "_chapters.txt")])
+             for n in range(1, len(plan.get("longs", [])) + 1)]
+    shorts = [("short", n, [src / f"short_{n:02d}.mp4"]) for n in range(1, len(plan.get("shorts", [])) + 1)]
+    missing = [f.name for _, _, fs in longs + shorts for f in fs if not f.exists() and not f.name.endswith("_thumb.jpg")]
     if missing:
         print(f"{name}: not fully rendered yet ({len(missing)} files missing) - not pushing")
         return False
+    # Clips already posted everywhere stay on the laptop.
+    todo = [f for kind, n, fs in longs + shorts
+            if not all(store.already_posted(trend_id(plan, kind, n), p) for p in gc.TARGETS[kind]) for f in fs if f.exists()]
+    remote = _git("ls-remote", "--heads", "origin", branch(name), capture=True).strip()
     with tempfile.TemporaryDirectory(dir=gc.OUT) as tmp:
         wt = Path(tmp) / "wt"
-        _git("worktree", "add", "--orphan", "-b", branch(name), str(wt))
+        if remote:
+            _git("fetch", "-q", "origin", branch(name))
+            _git("worktree", "add", "-b", branch(name), str(wt), "FETCH_HEAD")
+        else:
+            _git("worktree", "add", "--orphan", "-b", branch(name), str(wt))
         try:
-            for f in files:
-                if not f.exists():
-                    continue
+            if (wt / "posted.json").exists():
+                marker.touch()
+                return True
+            pending = 0
+
+            def flush(msg: str) -> None:
+                _git("add", "-A", cwd=wt)
+                _git("commit", "-qm", msg, cwd=wt)
+                _git("push", "-q", "origin", f"HEAD:refs/heads/{branch(name)}", cwd=wt)
+
+            for f in todo:
+                if (wt / f.name).exists() or (wt / f"{f.name}.part00").exists():
+                    continue  # pushed on an earlier, interrupted run
                 if f.stat().st_size <= PART:
                     shutil.copy2(f, wt / f.name)
-                    continue
-                with f.open("rb") as fh:  # byte split; post() joins the parts back in order
-                    k = 0
-                    while chunk := fh.read(PART):
-                        (wt / f"{f.name}.part{k:02d}").write_bytes(chunk)
-                        k += 1
+                else:
+                    with f.open("rb") as fh:  # byte split; post() joins the parts back in order
+                        k = 0
+                        while chunk := fh.read(PART):
+                            (wt / f"{f.name}.part{k:02d}").write_bytes(chunk)
+                            k += 1
+                pending += f.stat().st_size
+                if pending >= 300 * 1024 * 1024:
+                    flush(f"Rendered clips for {name} (up to {f.name})")
+                    pending = 0
             rows = [{"trend_id": trend_id(plan, k, n), "platform": p}
                     for k, n, targets in items(plan) for p in targets if store.already_posted(trend_id(plan, k, n), p)]
             (wt / "posted.json").write_text(json.dumps(rows, indent=1) + "\n", encoding="utf-8")
-            _git("add", "-A", cwd=wt)
-            _git("commit", "-qm", f"Rendered clips for {name}", cwd=wt)
-            _git("push", "-q", "origin", f"HEAD:refs/heads/{branch(name)}", cwd=wt)
+            flush(f"Rendered clips for {name} - complete")
         finally:
             _git("worktree", "remove", "--force", str(wt))
             _git("branch", "-D", branch(name))
@@ -126,6 +145,10 @@ def post() -> None:
             continue
         plan = json.loads(path.read_text(encoding="utf-8"))
         _restore(name, work / name)
+        if not (work / name / "posted.json").exists():
+            print(f"{name}: the laptop is still pushing this branch - skipping")
+            shutil.rmtree(work / name, ignore_errors=True)
+            continue
         for row in json.loads((work / name / "posted.json").read_text(encoding="utf-8")):
             if not store.already_posted(row["trend_id"], row["platform"]):
                 store.record_post(row["trend_id"], row["platform"], "laptop", False)  # posted by gameplay_daily

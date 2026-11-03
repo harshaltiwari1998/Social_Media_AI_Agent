@@ -6466,5 +6466,376 @@
   "palworld-guide-sparkit-static-electricity": {
     "spec": "scripts/specs/games/palguide_134_palworld-guide-sparkit-static-electricity.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e5c41b56.mp4"
+  },
+  "deal-steam-deal-569480-66": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-569480-66.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-9460eef6.mp4",
+    "data": {
+      "id": "deal-steam-deal-569480-66",
+      "slot": "deals",
+      "badge": "STEAM DAILY DEAL",
+      "headline": "Steam deal",
+      "title": "Kingdoms and Castles 66% OFF on Steam | Now Rs 311 | Steam Deal Nov 4",
+      "video_script": "Today's Steam Daily Deal is Kingdoms and Castles at 66 percent off, down from 915 rupees to just 311 rupees. Kingdoms and Castles is a city-building simulation game about growing a kingdom from a tiny hamlet to a sprawling city and imposing castle. Make trade agreements, alliance, and war with neighboring AI controlled kingdoms. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/569480/8d81f621d1d7a7ec4ca34e21d658f89bad8b2929/header.jpg?t=1793662091",
+          "label": "Kingdoms and Castles"
+        },
+        {
+          "image": "steam:569480:0",
+          "fact": "-66%  Rs 311",
+          "sub": "was Rs 915"
+        },
+        {
+          "image": "steam:569480:1",
+          "fact": "Indie + Simulation + Strategy",
+          "sub": "Lion Shield, LLC"
+        },
+        {
+          "image": "steam:569480:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Daily Deal is Kingdoms and Castles at 66 percent off, down from 915 rupees to just 311 rupees.\nhttps://store.steampowered.com/app/569480\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 4 2026, 00:04 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Kingdoms and Castles",
+        "Kingdoms and Castles sale",
+        "Kingdoms and Castles price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-3768760-40": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-3768760-40.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-acab3cbf.mp4",
+    "data": {
+      "id": "deal-steam-deal-3768760-40",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "007 First Light 40% OFF on Steam | Now Rs 2,400 | Steam Deal Nov 4",
+      "video_script": "007 First Light is on sale on Steam at 40 percent off, down from 4,000 rupees to just 2,400 rupees. The deal ends on November 9. Earn the Number. 007 First Light is a thrilling espionage action-adventure game from IO Interactive. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/c5b553fd05ba41aefa6daeddac95849a10c93022/header_alt_assets_4.jpg?t=1791886607",
+          "label": "007 First Light"
+        },
+        {
+          "image": "steam:3768760:0",
+          "fact": "-40%  Rs 2,400",
+          "sub": "was Rs 4,000"
+        },
+        {
+          "image": "steam:3768760:1",
+          "fact": "Action + Adventure",
+          "sub": "IO Interactive A/S"
+        },
+        {
+          "image": "steam:3768760:2",
+          "fact": "Ends Nov 9",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "007 First Light is on sale on Steam at 40 percent off, down from 4,000 rupees to just 2,400 rupees. The deal ends on November 9.\nhttps://store.steampowered.com/app/3768760\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 4 2026, 00:04 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "007 First Light",
+        "007 First Light sale",
+        "007 First Light price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-4635950-40": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-4635950-40.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-acf3f92c.mp4",
+    "data": {
+      "id": "deal-steam-deal-4635950-40",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Turbo Turkey: Feathered Frenzy! 40% OFF on Steam | Now Rs 155 | Steam Deal Nov 4",
+      "video_script": "Turbo Turkey: Feathered Frenzy! is on sale on Steam at 40 percent off, down from 259 rupees to just 155 rupees. The deal ends on November 15. Thanksgiving is coming and you're on the menu. Run, jump, and shoot your way through 16 levels of Turkeyland in this collectathon platformer inspired by Banjo Kazooie, Donkey Kong Country and Crash Bandicoot. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4635950/8bf9ac859611c13bb5063c2d34c57a620ec11753/header.jpg?t=1793728941",
+          "label": "Turbo Turkey: Feathered Frenzy!"
+        },
+        {
+          "image": "steam:4635950:0",
+          "fact": "-40%  Rs 155",
+          "sub": "was Rs 259"
+        },
+        {
+          "image": "steam:4635950:1",
+          "fact": "Action + Adventure + Indie",
+          "sub": "Granut Games"
+        },
+        {
+          "image": "steam:4635950:2",
+          "fact": "Ends Nov 15",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Turbo Turkey: Feathered Frenzy! is on sale on Steam at 40 percent off, down from 259 rupees to just 155 rupees. The deal ends on November 15.\nhttps://store.steampowered.com/app/4635950\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 4 2026, 00:04 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Turbo Turkey: Feathered Frenzy!",
+        "Turbo Turkey: Feathered Frenzy! sale",
+        "Turbo Turkey: Feathered Frenzy! price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-4773050-40": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-4773050-40.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-03aae970.mp4",
+    "data": {
+      "id": "deal-steam-deal-4773050-40",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Bullet Rift 40% OFF on Steam | Now Rs 329 | Steam Deal Nov 4",
+      "video_script": "Bullet Rift is on sale on Steam at 40 percent off, down from 549 rupees to just 329 rupees. The deal ends on November 10. Bullet Rift is a top-down shooter ARPG packed with loot, builds, dungeons, rifts, crafting, bosses, and deep character progression. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4773050/d7f5775a43533480cc0ec4658b2863cbda468435/header.jpg?t=1793728766",
+          "label": "Bullet Rift"
+        },
+        {
+          "image": "steam:4773050:0",
+          "fact": "-40%  Rs 329",
+          "sub": "was Rs 549"
+        },
+        {
+          "image": "steam:4773050:1",
+          "fact": "Action + Adventure + RPG",
+          "sub": "BulletRiftDev"
+        },
+        {
+          "image": "steam:4773050:2",
+          "fact": "Ends Nov 10",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Bullet Rift is on sale on Steam at 40 percent off, down from 549 rupees to just 329 rupees. The deal ends on November 10.\nhttps://store.steampowered.com/app/4773050\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 4 2026, 00:04 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Bullet Rift",
+        "Bullet Rift sale",
+        "Bullet Rift price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-4641930-40": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-4641930-40.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-0cbc98e0.mp4",
+    "data": {
+      "id": "deal-steam-deal-4641930-40",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "DeadWeight: A Lullaby 40% OFF on Steam | Now Rs 95 | Steam Deal Nov 4",
+      "video_script": "DeadWeight: A Lullaby is on sale on Steam at 40 percent off, down from 159 rupees to just 95 rupees. The deal ends on November 15. A baby fell. You jumped after it. God didn't like that. DeadWeight: A Lullaby is a psychological narrative experience about guilt, judgment, and the weight of human intent. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4641930/f12e1310cc69a7677575a724533ab0d5ab85200e/header.jpg?t=1793728296",
+          "label": "DeadWeight: A Lullaby"
+        },
+        {
+          "image": "steam:4641930:0",
+          "fact": "-40%  Rs 95",
+          "sub": "was Rs 159"
+        },
+        {
+          "image": "steam:4641930:1",
+          "fact": "Indie",
+          "sub": "Kaira Studio"
+        },
+        {
+          "image": "steam:4641930:2",
+          "fact": "Ends Nov 15",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "DeadWeight: A Lullaby is on sale on Steam at 40 percent off, down from 159 rupees to just 95 rupees. The deal ends on November 15.\nhttps://store.steampowered.com/app/4641930\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 4 2026, 00:04 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "DeadWeight: A Lullaby",
+        "DeadWeight: A Lullaby sale",
+        "DeadWeight: A Lullaby price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-4508290-38": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-4508290-38.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-68784715.mp4",
+    "data": {
+      "id": "deal-steam-deal-4508290-38",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Lucky Punk: a push your luck Deckbuilder 38% OFF on Steam | Now Rs 257 | Steam Deal Nov 4",
+      "video_script": "Lucky Punk: a push your luck Deckbuilder is on sale on Steam at 38 percent off, down from 415 rupees to just 257 rupees. The deal ends on November 10. Push your luck and beat the odds in this roguelike deckbuilder that always shows your chances of failing. How much are you willing to risk? Survive and thrive in a vibrant eco-dystopia … or don’t. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4508290/e794cbe408663e87ec39e2b1b19a55fe86378bf1/header.jpg?t=1793725301",
+          "label": "Lucky Punk: a push your luck Deckbuilder"
+        },
+        {
+          "image": "steam:4508290:0",
+          "fact": "-38%  Rs 257",
+          "sub": "was Rs 415"
+        },
+        {
+          "image": "steam:4508290:1",
+          "fact": "Adventure + Casual + Indie",
+          "sub": "Green Parrot Games"
+        },
+        {
+          "image": "steam:4508290:2",
+          "fact": "Ends Nov 10",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Lucky Punk: a push your luck Deckbuilder is on sale on Steam at 38 percent off, down from 415 rupees to just 257 rupees. The deal ends on November 10.\nhttps://store.steampowered.com/app/4508290\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 4 2026, 00:04 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Lucky Punk: a push your luck Deckbuilder",
+        "Lucky Punk: a push your luck Deckbuilder sale",
+        "Lucky Punk: a push your luck Deckbuilder price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-3241660-35": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-3241660-35.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-09bc55ed.mp4",
+    "data": {
+      "id": "deal-steam-deal-3241660-35",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "REPO 35% OFF on Steam | Now Rs 291 | Steam Deal Nov 4",
+      "video_script": "R.E.P.O. is on sale on Steam at 35 percent off, down from 449 rupees to just 291 rupees. The deal ends on November 9. An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/62177765c05399116f0453fe1177b00ceed698c4/header_alt_assets_3.jpg?t=1793278962",
+          "label": "R.E.P.O."
+        },
+        {
+          "image": "steam:3241660:0",
+          "fact": "-35%  Rs 291",
+          "sub": "was Rs 449"
+        },
+        {
+          "image": "steam:3241660:1",
+          "fact": "Action + Early Access",
+          "sub": "semiwork"
+        },
+        {
+          "image": "steam:3241660:2",
+          "fact": "Ends Nov 9",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "R.E.P.O. is on sale on Steam at 35 percent off, down from 449 rupees to just 291 rupees. The deal ends on November 9.\nhttps://store.steampowered.com/app/3241660\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 4 2026, 00:04 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "R.E.P.O.",
+        "R.E.P.O. sale",
+        "R.E.P.O. price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
   }
 }

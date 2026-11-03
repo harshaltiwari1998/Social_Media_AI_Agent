@@ -6837,5 +6837,19 @@
         "epic games free games this week"
       ]
     }
+  },
+  "diablo-franchise-history": {
+    "spec": "scripts/specs/long/gaming_63_diablo-franchise-history.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-cf52c4a8.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-cf52c4a8-thumb.jpg",
+    "chapters": "0:00 Welcome to Sanctuary\n0:40 Condor and Blizzard North\n1:24 The first Diablo\n2:05 Diablo II\n2:48 The long road to number three\n3:29 Diablo III breaks records\n4:16 Resurrected and Immortal\n4:56 Diablo IV\n5:34 Vessel of Hatred and Lord of Hatred\n6:16 The legacy of Diablo"
+  },
+  "best-selling-video-games-of-all-time": {
+    "spec": "scripts/specs/long/gaming_64_best-selling-video-games-of-all-time.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-57a9a4c0.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-57a9a4c0-thumb.jpg",
+    "chapters": "0:00 Which game has sold the most\n0:42 Tetris or Minecraft\n1:29 Minecraft the block builder\n2:11 Grand Theft Auto Five\n2:54 Red Dead Redemption Two\n3:34 Wii Sports and the single console record\n4:17 Battle royale, sandbox and big role playing games\n4:59 The classics and the cozy hits\n5:41 What the list leaves out\n6:22 What the numbers really tell us\n7:04 Your pick"
   }
 }

@@ -6327,5 +6327,32 @@
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-2ac8df83.mp4",
     "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-2ac8df83-thumb.jpg",
     "chapters": "0:00 The Dark Knight finally gets a great game\n0:42 Arkham Asylum\n1:29 Arkham City opens the doors\n2:18 Arkham Origins takes a turn\n3:03 Arkham Knight and the Batmobile\n3:51 Remasters, VR and side stories\n4:37 Losing the voice of Batman\n5:17 Suicide Squad and Gotham Knights\n6:03 Arkham Shadow\n6:49 The legacy of the Arkhamverse"
+  },
+  "aniimo-alpha-bosses-guide": {
+    "spec": "scripts/specs/long/gaming_73_aniimo-alpha-bosses-guide.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-fd1b5c88.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-fd1b5c88-thumb.jpg",
+    "chapters": "0:00 Meet the Alphas\n0:37 What is an Alpha\n1:19 The early Alphas\n2:03 Tricks for Turbo, Tubster and Leafy\n2:39 The middle Alphas\n3:25 The Dark Alphas\n4:02 The hidden and late Alphas\n4:42 Build the right team\n5:30 Rewards and the Alpha catch\n6:18 Which Alpha is your favourite"
+  },
+  "aniimo-how-to-get-mountain-hummin": {
+    "spec": "scripts/specs/games/aniimo_141_aniimo-how-to-get-mountain-hummin.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-87c0d12d.mp4"
+  },
+  "aniimo-how-to-get-mountain-woods-gracewing": {
+    "spec": "scripts/specs/games/aniimo_142_aniimo-how-to-get-mountain-woods-gracewing.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-6649f3c2.mp4"
+  },
+  "aniimo-aniipod-maker-rock-clay-shell": {
+    "spec": "scripts/specs/games/aniimo_143_aniimo-aniipod-maker-rock-clay-shell.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-51486f03.mp4"
+  },
+  "aniimo-growth-fruit-dance-pad-polisher": {
+    "spec": "scripts/specs/games/aniimo_144_aniimo-growth-fruit-dance-pad-polisher.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-c32031c3.mp4"
+  },
+  "aniimo-dark-team-stellarys-rookey-fragrancier": {
+    "spec": "scripts/specs/games/aniimo_145_aniimo-dark-team-stellarys-rookey-fragrancier.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f8be0394.mp4"
   }
 }

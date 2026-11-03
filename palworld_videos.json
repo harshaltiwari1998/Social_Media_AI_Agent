@@ -5498,5 +5498,91 @@
       "unique": false,
       "key": "Jormuntide 5"
     }
+  },
+  "Kitsun 5": {
+    "spec": "scripts/specs/palworld_kitsun_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b595c165.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Kitsun",
+      "caption": "5 ways to breed Kitsun in Palworld 1.0: Frostplume + Muffly, Dumud + Ragnahawk, Grizzbolt + Arsox, Majex + Chillet, Celesdir + Killamari.",
+      "video_script": "Here are five ways to breed Kitsun in Palworld one point zero. Combo one: breed Frostplume with Muffly on your Breeding Farm, then add a cake. Combo two: pair Dumud and Ragnahawk together, and you get the same egg. Combo three: Grizzbolt plus Arsox works too, so use whichever Pals you have. Combo four: Majex with Chillet is another easy option. Combo five: breed Celesdir with Killamari on your Breeding Farm, then add a cake. Every egg hatches into Kitsun. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Frostplume",
+        "Muffly"
+      ],
+      "combos": [
+        [
+          "Frostplume",
+          "Muffly"
+        ],
+        [
+          "Dumud",
+          "Ragnahawk"
+        ],
+        [
+          "Grizzbolt",
+          "Arsox"
+        ],
+        [
+          "Majex",
+          "Chillet"
+        ],
+        [
+          "Celesdir",
+          "Killamari"
+        ]
+      ],
+      "child": "Kitsun",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false,
+      "key": "Kitsun 5"
+    }
+  },
+  "Beakon 5": {
+    "spec": "scripts/specs/palworld_beakon_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-6460c34e.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Beakon",
+      "caption": "5 ways to breed Beakon in Palworld 1.0: Nyafia + Munchill, Frostplume + Amione, Tarantriss + Vanwyrm, Moldron + Herbil, Reptyro + Arsox.",
+      "video_script": "Here are five ways to breed Beakon in Palworld one point zero. Combo one: breed Nyafia with Munchill on your Breeding Farm, then add a cake. Combo two: pair Frostplume and Amione together, and you get the same egg. Combo three: Tarantriss plus Vanwyrm works too, so use whichever Pals you have. Combo four: Moldron with Herbil is another easy option. Combo five: breed Reptyro with Arsox on your Breeding Farm, then add a cake. Every egg hatches into Beakon. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Nyafia",
+        "Munchill"
+      ],
+      "combos": [
+        [
+          "Nyafia",
+          "Munchill"
+        ],
+        [
+          "Frostplume",
+          "Amione"
+        ],
+        [
+          "Tarantriss",
+          "Vanwyrm"
+        ],
+        [
+          "Moldron",
+          "Herbil"
+        ],
+        [
+          "Reptyro",
+          "Arsox"
+        ]
+      ],
+      "child": "Beakon",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false,
+      "key": "Beakon 5"
+    }
   }
 }

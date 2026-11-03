@@ -79,6 +79,8 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   pushed by `scripts/gameplay_cloud.py push` to an orphan branch **`clips/<plan>`** (files > 45 MB split, plus
   `posted.json` = what the laptop already posted); `daily-gameplay.yml` posts them (`gameplay_cloud.py post`) and
   deletes the branch when the plan is done. `.pushed` in the plan's `gameplay_out` folder stops a re-push.
+  Pushes go in ~300 MB steps (one 2 GB push got HTTP 500), `posted.json` last (CI skips a branch without it), and
+  at most `MAX_ON_CLOUD` = 2 plans sit on GitHub at once (2-3 GB each) - the laptop task pushes the next later.
 - `scripts/ops_report.py` - token check + weekly report. `scripts/meta_gaming_login.py` - sets up the
   gaming page token. `scripts/youtube_login.py` - YouTube OAuth.
 - `scripts/fal_video.py`, `motion_daily.py`, `lucario_*.py` - AI-motion experiments (Wan/Kling/Flow).
@@ -156,7 +158,10 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
 - Weekly refill routine, login check, weekly stats report, health-check exit codes.
 - Gameplay clipper for own RDR2 streams (done: Ch1 P1, Ch2 P1-P3; ~220 clips posted; Ch2 P4
   2026-11-02 - 50 shorts + 3 long, first plan posted from CI via `clips/rdr2_ch2_p4`). Before planning a recording, match its duration to the stream on
-  HarryBeast - the owner once re-added an already-clipped part.
+  HarryBeast - the owner once re-added an already-clipped part. Plans written 2026-11-03: Ch2 P5, Ch3 P1-P3.
+  The owner asked for the remaining streams to be fetched by hand: yt-dlp (in the venv, laptop only) downloads
+  their own HarryBeast streams (1080p60, `-f 299+140`, ffmpeg from imageio-ffmpeg) into `VIDEOS GAMING`; left after
+  Ch3 P4: Ch4 P1-P3, Ch5 P1, Ch6 P1-P4 + P6.
 - Laptop trend pipeline (Ollama + SD) and free AI-motion queue (`motion_queue/` -> `motion_videos/`).
 
 ## Known limits / not done

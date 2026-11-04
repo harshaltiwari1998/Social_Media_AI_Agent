@@ -2,11 +2,15 @@
   "title": "Bulbasaur to Ivysaur to Venusaur evolution",
   "backend": "wan",
   "voice": "en-US-GuyNeural",
+  "style": 2,
   "narration": [
     "Bulbasaur is getting ready for something big.",
-    "Its body starts to glow. Bulbasaur is evolving!",
-    "Bulbasaur evolved into Ivysaur, and the power keeps growing!",
-    "And now Ivysaur becomes Venusaur! Who is your favourite Grass-type Pokemon? Comment below!"
+    "Oh? Bulbasaur is evolving!",
+    "Bulbasaur evolved into Ivysaur!",
+    "Oh? Ivysaur is evolving!",
+    "Ivysaur evolved into Venusaur! But it is not over yet.",
+    "Venusaur reacts to its Mega Stone. Mega Evolution!",
+    "Mega Venusaur, a Grass and Poison type! Who is your favourite Grass-type Pokemon? Comment below!"
   ],
   "clips": [
     {
@@ -22,16 +26,13 @@
       ]
     },
     {
-      "image": {
-        "poke": "bulbasaur",
-        "background": "wiki:Forest"
-      },
-      "shots": [
-        [
-          "the creature starts glowing bright white, swirling leaves and green light spins around its body, light beams shoot out, evolution transformation, anime style",
-          5
-        ]
-      ]
+      "evolve": [
+        "bulbasaur",
+        "ivysaur"
+      ],
+      "background": "wiki:Forest",
+      "seconds": 3.2,
+      "mega": false
     },
     {
       "image": {
@@ -40,10 +41,20 @@
       },
       "shots": [
         [
-          "the creature starts glowing bright, swirling leaves and green light spins around its body, light beams shoot out, evolution transformation, anime style",
+          "the creature appears in a burst of white light and looks around proudly, leaves and green light swirl around it, anime style, smooth animation",
           5
         ]
-      ]
+      ],
+      "white_in": 0.6
+    },
+    {
+      "evolve": [
+        "ivysaur",
+        "venusaur"
+      ],
+      "background": "wiki:Forest",
+      "seconds": 3.2,
+      "mega": false
     },
     {
       "image": {
@@ -52,10 +63,33 @@
       },
       "shots": [
         [
-          "the creature roars and unleashes a powerful attack of leaves and green light, epic low angle camera, anime style, dynamic motion",
+          "the creature appears in a burst of white light and looks around proudly, leaves and green light swirl around it, anime style, smooth animation",
           5
         ]
-      ]
+      ],
+      "white_in": 0.6
+    },
+    {
+      "evolve": [
+        "venusaur",
+        "venusaur-mega"
+      ],
+      "background": "wiki:Forest",
+      "seconds": 3.2,
+      "mega": true
+    },
+    {
+      "image": {
+        "poke": "venusaur-mega",
+        "background": "wiki:Forest"
+      },
+      "shots": [
+        [
+          "the creature roars with overwhelming power, purple poison mist and rainbow energy explode around it, epic low angle camera, anime style, dynamic motion",
+          5
+        ]
+      ],
+      "white_in": 0.6
     }
   ]
 }

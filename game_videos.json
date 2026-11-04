@@ -6952,5 +6952,9 @@
   "aniimo-free-glimmer-alpha-omega-aniilog": {
     "spec": "scripts/specs/games/aniimo_179_aniimo-free-glimmer-alpha-omega-aniilog.json",
     "video": "F:\\AI AGENT\\run_f04\\videos\\short-c7c94fa5.mp4"
+  },
+  "palworld-guide-gobfin-angry-shark-attack-boost": {
+    "spec": "scripts/specs/games/palguide_145_gobfin-angry-shark-attack-boost.json",
+    "video": "F:\\AI AGENT\\run_f04\\videos\\short-be157d84.mp4"
   }
 }

@@ -7154,5 +7154,33 @@
         "epic games free games this week"
       ]
     }
+  },
+  "aniimo-prismana-hypnyto-ekrim-until-december": {
+    "spec": "scripts/specs/games/aniimo_173_aniimo-prismana-hypnyto-ekrim-until-december.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-49fb2c7d.mp4"
+  },
+  "aniimo-capability-awakening-free-reset": {
+    "spec": "scripts/specs/games/aniimo_174_aniimo-capability-awakening-free-reset.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-cb132072.mp4"
+  },
+  "aniimo-rv-dispatch-prismana-eggs": {
+    "spec": "scripts/specs/games/aniimo_175_aniimo-rv-dispatch-prismana-eggs.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-fc1b7b60.mp4"
+  },
+  "aniimo-homeland-production-stalled-fix": {
+    "spec": "scripts/specs/games/aniimo_176_aniimo-homeland-production-stalled-fix.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-edf5f78f.mp4"
+  },
+  "palworld-guide-caprity-berry-picker-ranch": {
+    "spec": "scripts/specs/games/palguide_141_caprity-berry-picker-ranch.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-15383ec4.mp4"
+  },
+  "palworld-guide-teafant-soothing-shower-heal": {
+    "spec": "scripts/specs/games/palguide_142_teafant-soothing-shower-heal.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-3d8a28e9.mp4"
+  },
+  "palworld-guide-ribbuny-happy-go-lucky-handiwork": {
+    "spec": "scripts/specs/games/palguide_143_ribbuny-happy-go-lucky-handiwork.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-86e28d92.mp4"
   }
 }

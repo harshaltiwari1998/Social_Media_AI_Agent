@@ -5971,5 +5971,91 @@
       "unique": false,
       "key": "Solmora 5"
     }
+  },
+  "Rushoar 5": {
+    "spec": "scripts/specs/palworld_rushoar_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b5254320.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Rushoar",
+      "caption": "5 ways to breed Rushoar in Palworld 1.0: Bristla + Teafant, Ribbuny + Tanzee, Tocotoco + Jolthog, Flambelle + Vixy, Fuddler + Clovee.",
+      "video_script": "Here are five ways to breed Rushoar in Palworld one point zero. Combo one: breed Bristla with Teafant on your Breeding Farm, then add a cake. Combo two: pair Ribbuny and Tanzee together, and you get the same egg. Combo three: Tocotoco plus Jolthog works too, so use whichever Pals you have. Combo four: Flambelle with Vixy is another easy option. Combo five: breed Fuddler with Clovee on your Breeding Farm, then add a cake. Every egg hatches into Rushoar. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Bristla",
+        "Teafant"
+      ],
+      "combos": [
+        [
+          "Bristla",
+          "Teafant"
+        ],
+        [
+          "Ribbuny",
+          "Tanzee"
+        ],
+        [
+          "Tocotoco",
+          "Jolthog"
+        ],
+        [
+          "Flambelle",
+          "Vixy"
+        ],
+        [
+          "Fuddler",
+          "Clovee"
+        ]
+      ],
+      "child": "Rushoar",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false,
+      "key": "Rushoar 5"
+    }
+  },
+  "Ribbuny 5": {
+    "spec": "scripts/specs/palworld_ribbuny_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-43bba8b4.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Ribbuny",
+      "caption": "5 ways to breed Ribbuny in Palworld 1.0: Flambelle + Lifmunk, Bristla + Jolthog, Swee + Rushoar, Tocotoco + Foxparks, Flopie + Vixy.",
+      "video_script": "Here are five ways to breed Ribbuny in Palworld one point zero. Combo one: breed Flambelle with Lifmunk on your Breeding Farm, then add a cake. Combo two: pair Bristla and Jolthog together, and you get the same egg. Combo three: Swee plus Rushoar works too, so use whichever Pals you have. Combo four: Tocotoco with Foxparks is another easy option. Combo five: breed Flopie with Vixy on your Breeding Farm, then add a cake. Every egg hatches into Ribbuny. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Flambelle",
+        "Lifmunk"
+      ],
+      "combos": [
+        [
+          "Flambelle",
+          "Lifmunk"
+        ],
+        [
+          "Bristla",
+          "Jolthog"
+        ],
+        [
+          "Swee",
+          "Rushoar"
+        ],
+        [
+          "Tocotoco",
+          "Foxparks"
+        ],
+        [
+          "Flopie",
+          "Vixy"
+        ]
+      ],
+      "child": "Ribbuny",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false,
+      "key": "Ribbuny 5"
+    }
   }
 }

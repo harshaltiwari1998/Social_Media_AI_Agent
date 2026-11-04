@@ -77,7 +77,10 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   upload failed (health check).
 - `scripts/game_videos.py` (shorts from specs; scenes with a `steam:` image play the game's official Steam trailer
   footage in the picture area - silent, 720p, cached in `game_art/trailers/` and in the workflows' actions/cache;
-  owner found still-image shorts cheap, Nov 2026; `"footage": false` opts a spec out), `scripts/long_video.py` (long videos),
+  owner found still-image shorts cheap, Nov 2026; `"footage": false` opts a spec out). Palworld slots never get
+  trailer footage (it showed other Pals): their `pal:` scenes - and `steam:` scenes, with the spec's first Pal - play
+  that Pal's art animated by Wan (`pal_motion`, HF_TOKEN, 5 s forward + back, cached per Pal in `game_art/pal_motion/`;
+  quota used up -> still), `scripts/long_video.py` (long videos),
   `scripts/palworld_breeding_videos.py` (breeding cards: intro + one card per combo + child).
 - `scripts/gameplay_clips.py` (`scan` / `build` / `upload`) - cut Shorts (9:16) and highlight videos from
   recordings in `F:/AI AGENT/VIDEOS GAMING`; `scripts/gameplay_daily.py` (laptop task) finishes pending
@@ -182,6 +185,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-04 - Palworld shorts: the short's own Pal animated by Wan (cached per Pal) instead of generic trailer footage.
 - 2026-11-04 - Shorts play official Steam trailer footage instead of still screenshots (Aniimo, Palworld guide, new games).
 - 2026-11-04 - Pokemon evolution style 2: game-style evolve transitions + white flash, Mega Evolutions; Charmander -> Mega Charizard X/Y first.
 - 2026-11-03 - `daily-gameplay.yml` + `gameplay_cloud.py`: rendered own-stream clips go to `clips/<plan>` branches and post from CI (8 + 1 a day).

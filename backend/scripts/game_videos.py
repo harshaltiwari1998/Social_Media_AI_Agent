@@ -253,6 +253,47 @@ def trailer(appid: str, movie: dict) -> Path | None:
     return None
 
 
+_PAL_SLOTS = ("palguide", "palbase", "palchain")
+_PAL_MOTION_PROMPT = ("the creature comes alive, breathes, looks around and moves energetically, then strikes a "
+                      "battle pose, 3D game character animation, smooth motion, plain dark background, static camera")
+_wan_quota_left = True
+
+
+def pal_motion(name: str) -> Path | None:
+    """The Pal's official art brought to life by the free Wan 2.2 ZeroGPU Space (HF_TOKEN), 5 s played forward and
+    back (10 s), cached per Pal in game_art/pal_motion/ - so each Pal costs GPU quota once. None when the quota is
+    used up (the scene stays a still)."""
+    import subprocess
+
+    global _wan_quota_left
+    folder = _art_dir() / "pal_motion"
+    folder.mkdir(exist_ok=True)
+    slug = name.lower().replace(" ", "_")
+    out = folder / f"{slug}.mp4"
+    if out.exists() or not _wan_quota_left:
+        return out if out.exists() else None
+    from scripts import fal_video as fv
+
+    still = folder / f"{slug}.png"
+    _pal_image(name).save(still)
+    raw = folder / f"{slug}_wan.mp4"
+    try:
+        fv.make_clip_wan(still, [[_PAL_MOTION_PROMPT, 5]], raw)
+    except fv.QuotaExhausted:
+        _wan_quota_left = False
+        print(f"  {name}: free GPU quota used up - still image for now")
+        return None
+    except Exception as exc:
+        print(f"  {name}: Wan animation failed ({str(exc)[:150]}) - still image")
+        return None
+    subprocess.run([_ffmpeg(), "-v", "error", "-y", "-i", str(raw), "-filter_complex",
+                    "[0:v]split[a][b];[b]reverse[r];[a][r]concat=n=2:v=1:a=0,fps=30[v]", "-map", "[v]", "-an",
+                    "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", str(out)], check=True)
+    for f in folder.glob(f"{slug}_wan*"):
+        f.unlink(missing_ok=True)
+    return out
+
+
 def footage_scene(card_png: Path, rect: list, trailer: Path, start: float, out: Path) -> Path:
     """The card with gameplay footage playing where its picture was (silent, card-sized mp4)."""
     import subprocess
@@ -276,6 +317,7 @@ def build_video(spec_path: Path) -> dict:
     # game's official trailer footage there instead (silent; the narration stays). "footage": false opts out.
     seed = int(hashlib.sha1(spec["id"].encode()).hexdigest()[:8], 16)
     footage: dict[str, list[dict]] = {}
+    main_pal = next((s["image"][4:] for s in spec["scenes"] if s.get("image", "").startswith("pal:")), None)
     paths = []
     for i, scene in enumerate(spec["scenes"], 1):
         rect: list = []
@@ -289,7 +331,14 @@ def build_video(spec_path: Path) -> dict:
         card.save(path)
         entry: str | dict = str(path.resolve())
         ref = scene.get("image", "")
-        if rect and ref.startswith("steam:") and spec.get("footage", True):
+        pal = ref[4:] if ref.startswith("pal:") else main_pal if ref.startswith("steam:") else None
+        if rect and pal and spec.get("footage", True):
+            # Palworld (owner, Nov 2026): the trailer showed other Pals - the short's own Pal moves instead.
+            motion = pal_motion(pal)
+            if motion:
+                clip = footage_scene(path, rect, motion, 0, out_dir / f"{i}_footage.mp4")
+                entry = {"image": str(path.resolve()), "video": str(clip.resolve())}
+        elif rect and ref.startswith("steam:") and spec.get("footage", True) and spec.get("slot") not in _PAL_SLOTS:
             appid = ref.split(":")[1]
             try:
                 if appid not in footage:

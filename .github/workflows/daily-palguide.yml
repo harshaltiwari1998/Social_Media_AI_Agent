@@ -44,8 +44,10 @@ jobs:
       - name: Restore trailer cache
         uses: actions/cache@v4
         with:
-          # Official Steam trailers played inside the shorts (game_videos.trailer) - downloading one takes minutes.
-          path: backend/media_output/game_art/trailers
+          # Steam trailers (minutes to download) and Wan-animated Pals (GPU quota) played inside the shorts.
+          path: |
+            backend/media_output/game_art/trailers
+            backend/media_output/game_art/pal_motion
           key: trailers-${{ github.run_id }}
           restore-keys: trailers-
 
@@ -85,6 +87,7 @@ jobs:
           META_GAMING_PAGE_ID: ${{ secrets.META_GAMING_PAGE_ID }}
           META_GAMING_IG_USER_ID: ${{ secrets.META_GAMING_IG_USER_ID }}
           META_GAMING_ACCESS_TOKEN: ${{ secrets.META_GAMING_ACCESS_TOKEN }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}  # Wan animation of Pal art (game_videos.pal_motion)
           YOUTUBE_CLIENT_SECRET_FILE: .cache/youtube_client_secret.json
           GAMING_PLATFORMS: '["youtube","facebook_gaming","instagram_gaming"]'
           MOVIE_PLATFORMS: '["youtube_movies","instagram","facebook"]'

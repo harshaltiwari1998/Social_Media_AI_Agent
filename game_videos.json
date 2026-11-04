@@ -6995,5 +6995,164 @@
   "palworld-guide-flopie-helper-bunny-planting": {
     "spec": "scripts/specs/games/palguide_140_flopie-helper-bunny-planting.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-000041d7.mp4"
+  },
+  "deal-steam-deal-675260-50": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-675260-50.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-7d76853f.mp4",
+    "data": {
+      "id": "deal-steam-deal-675260-50",
+      "slot": "deals",
+      "badge": "STEAM DAILY DEAL",
+      "headline": "Steam deal",
+      "title": "Batman: The Enemy Within - The Telltale Series 50% OFF on Steam | Now Rs 260 | Steam Deal Nov 5",
+      "video_script": "Today's Steam Daily Deal is Batman: The Enemy Within - The Telltale Series at 50 percent off, down from 520 rupees to just 260 rupees. In this latest chapter from the award-winning studio behind Batman - The Telltale Series, both Bruce Wayne and Batman will be forced into precarious new roles. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/675260/header.jpg?t=1734105400",
+          "label": "Batman: The Enemy Within - The Telltale Series"
+        },
+        {
+          "image": "steam:675260:0",
+          "fact": "-50%  Rs 260",
+          "sub": "was Rs 520"
+        },
+        {
+          "image": "steam:675260:1",
+          "fact": "Adventure",
+          "sub": "Telltale"
+        },
+        {
+          "image": "steam:675260:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Daily Deal is Batman: The Enemy Within - The Telltale Series at 50 percent off, down from 520 rupees to just 260 rupees.\nhttps://store.steampowered.com/app/675260\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 5 2026, 00:14 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Batman: The Enemy Within - The Telltale Series",
+        "Batman: The Enemy Within - The Telltale Series sale",
+        "Batman: The Enemy Within - The Telltale Series price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-1669000-60": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-1669000-60.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-47a1e8df.mp4",
+    "data": {
+      "id": "deal-steam-deal-1669000-60",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Age of Wonders 4 60% OFF on Steam | Now Rs 1,255 | Steam Deal Nov 5",
+      "video_script": "Age of Wonders 4 is on sale on Steam at 60 percent off, down from 3,139 rupees to just 1,255 rupees. Rule a fantasy realm of your own design! Explore new magical realms in Age of Wonders’ signature blend of 4X strategy and turn-based tactical combat. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1669000/d484eb89eb2bc85871a31f24e9f1c64b85416b48/header_alt_assets_14.jpg?t=1793788177",
+          "label": "Age of Wonders 4"
+        },
+        {
+          "image": "steam:1669000:0",
+          "fact": "-60%  Rs 1,255",
+          "sub": "was Rs 3,139"
+        },
+        {
+          "image": "steam:1669000:1",
+          "fact": "RPG + Strategy",
+          "sub": "Triumph Studios"
+        },
+        {
+          "image": "steam:1669000:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Age of Wonders 4 is on sale on Steam at 60 percent off, down from 3,139 rupees to just 1,255 rupees.\nhttps://store.steampowered.com/app/1669000\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 5 2026, 00:14 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Age of Wonders 4",
+        "Age of Wonders 4 sale",
+        "Age of Wonders 4 price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-5139380-30": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-5139380-30.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-89f91dd4.mp4",
+    "data": {
+      "id": "deal-steam-deal-5139380-30",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Marble Stars 30% OFF on Steam | Now Rs 385 | Steam Deal Nov 5",
+      "video_script": "Marble Stars is on sale on Steam at 30 percent off, down from 550 rupees to just 385 rupees. The deal ends on November 18. Marble Stars is a challenging platformer made by one person. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5139380/c22ea60fdd65ea2e168b044ddb335d558faf9241/header.jpg?t=1793815713",
+          "label": "Marble Stars"
+        },
+        {
+          "image": "steam:5139380:0",
+          "fact": "-30%  Rs 385",
+          "sub": "was Rs 550"
+        },
+        {
+          "image": "steam:5139380:1",
+          "fact": "Action + Casual + Indie",
+          "sub": "Scratch"
+        },
+        {
+          "image": "steam:5139380:2",
+          "fact": "Ends Nov 18",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Marble Stars is on sale on Steam at 30 percent off, down from 550 rupees to just 385 rupees. The deal ends on November 18.\nhttps://store.steampowered.com/app/5139380\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 5 2026, 00:14 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Marble Stars",
+        "Marble Stars sale",
+        "Marble Stars price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
   }
 }

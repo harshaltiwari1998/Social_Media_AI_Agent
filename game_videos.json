@@ -6960,5 +6960,36 @@
   "palworld-guide-mau-gold-digger-ranch": {
     "spec": "scripts/specs/games/palguide_144_mau-gold-digger-ranch.json",
     "video": "F:\\AI AGENT\\run_f04\\videos\\short-c3716608.mp4"
+  },
+  "palworld-partner-skills-and-skill-fruits-guide": {
+    "spec": "scripts/specs/long/gaming_71_palworld-partner-skills-and-skill-fruits-guide.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-b5ecdee7.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-b5ecdee7-thumb.jpg",
+    "chapters": "0:00 Palworld skills explained\n0:38 Three kinds of skills\n1:22 How partner skills work\n1:59 Four kinds of partner skills\n2:37 Combat partner skills\n3:14 Mount and utility skills\n3:51 Ranking up with condensing\n4:31 Active skills basics\n5:10 Skill fruits\n5:48 Choosing the right moves\n6:25 Your skill checklist\n7:04 Which partner skill is your favorite"
+  },
+  "aniimo-somniwing-best-build": {
+    "spec": "scripts/specs/games/aniimo_167_aniimo-somniwing-best-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-9ea1c386.mp4"
+  },
+  "aniimo-rookey-best-build": {
+    "spec": "scripts/specs/games/aniimo_168_aniimo-rookey-best-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-8b53dd7f.mp4"
+  },
+  "aniimo-blazen-best-build": {
+    "spec": "scripts/specs/games/aniimo_169_aniimo-blazen-best-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5af0c9d2.mp4"
+  },
+  "aniimo-water-endgame-team-sherro-panpanta": {
+    "spec": "scripts/specs/games/aniimo_170_aniimo-water-endgame-team-sherro-panpanta.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-69170828.mp4"
+  },
+  "aniimo-lightning-mid-team-fenmane-besauce": {
+    "spec": "scripts/specs/games/aniimo_171_aniimo-lightning-mid-team-fenmane-besauce.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-922a6430.mp4"
+  },
+  "palworld-guide-daedream-dream-chaser": {
+    "spec": "scripts/specs/games/palguide_138_palworld-guide-daedream-dream-chaser.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-24855b48.mp4"
   }
 }

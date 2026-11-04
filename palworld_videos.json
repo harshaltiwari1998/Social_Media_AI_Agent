@@ -5799,5 +5799,134 @@
       "unique": false,
       "key": "Lifmunk 5"
     }
+  },
+  "Sparkit 5": {
+    "spec": "scripts/specs/palworld_sparkit_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-7721553e.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Sparkit",
+      "caption": "5 ways to breed Sparkit in Palworld 1.0: Gumoss + Teafant, Depresso + Lifmunk, Hoocrates + Chikipi, Pengullet + Vixy, Clovee + Lamball.",
+      "video_script": "Here are five ways to breed Sparkit in Palworld one point zero. Combo one: breed Gumoss with Teafant on your Breeding Farm, then add a cake. Combo two: pair Depresso and Lifmunk together, and you get the same egg. Combo three: Hoocrates plus Chikipi works too, so use whichever Pals you have. Combo four: Pengullet with Vixy is another easy option. Combo five: breed Clovee with Lamball on your Breeding Farm, then add a cake. Every egg hatches into Sparkit. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Gumoss",
+        "Teafant"
+      ],
+      "combos": [
+        [
+          "Gumoss",
+          "Teafant"
+        ],
+        [
+          "Depresso",
+          "Lifmunk"
+        ],
+        [
+          "Hoocrates",
+          "Chikipi"
+        ],
+        [
+          "Pengullet",
+          "Vixy"
+        ],
+        [
+          "Clovee",
+          "Lamball"
+        ]
+      ],
+      "child": "Sparkit",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false,
+      "key": "Sparkit 5"
+    }
+  },
+  "Mozzarina 5": {
+    "spec": "scripts/specs/palworld_mozzarina_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-6e97f2e3.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Mozzarina",
+      "caption": "5 ways to breed Mozzarina in Palworld 1.0: Swee + Cattiva, Bristla + Daedream, Flopie + Hoocrates, Kelpsea + Fuddler, Tocotoco + Rooby.",
+      "video_script": "Here are five ways to breed Mozzarina in Palworld one point zero. Combo one: breed Swee with Cattiva on your Breeding Farm, then add a cake. Combo two: pair Bristla and Daedream together, and you get the same egg. Combo three: Flopie plus Hoocrates works too, so use whichever Pals you have. Combo four: Kelpsea with Fuddler is another easy option. Combo five: breed Tocotoco with Rooby on your Breeding Farm, then add a cake. Every egg hatches into Mozzarina. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Swee",
+        "Cattiva"
+      ],
+      "combos": [
+        [
+          "Swee",
+          "Cattiva"
+        ],
+        [
+          "Bristla",
+          "Daedream"
+        ],
+        [
+          "Flopie",
+          "Hoocrates"
+        ],
+        [
+          "Kelpsea",
+          "Fuddler"
+        ],
+        [
+          "Tocotoco",
+          "Rooby"
+        ]
+      ],
+      "child": "Mozzarina",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false,
+      "key": "Mozzarina 5"
+    }
+  },
+  "Rooby 5": {
+    "spec": "scripts/specs/palworld_rooby_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-721984f4.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Rooby",
+      "caption": "5 ways to breed Rooby in Palworld 1.0: Bristla + Lamball, Tocotoco + Sparkit, Fuddler + Gumoss, Swee + Tanzee, Mau + Flambelle.",
+      "video_script": "Here are five ways to breed Rooby in Palworld one point zero. Combo one: breed Bristla with Lamball on your Breeding Farm, then add a cake. Combo two: pair Tocotoco and Sparkit together, and you get the same egg. Combo three: Fuddler plus Gumoss works too, so use whichever Pals you have. Combo four: Swee with Tanzee is another easy option. Combo five: breed Mau with Flambelle on your Breeding Farm, then add a cake. Every egg hatches into Rooby. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Bristla",
+        "Lamball"
+      ],
+      "combos": [
+        [
+          "Bristla",
+          "Lamball"
+        ],
+        [
+          "Tocotoco",
+          "Sparkit"
+        ],
+        [
+          "Fuddler",
+          "Gumoss"
+        ],
+        [
+          "Swee",
+          "Tanzee"
+        ],
+        [
+          "Mau",
+          "Flambelle"
+        ]
+      ],
+      "child": "Rooby",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false,
+      "key": "Rooby 5"
+    }
   }
 }

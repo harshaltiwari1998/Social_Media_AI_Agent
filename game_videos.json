@@ -6956,5 +6956,9 @@
   "palworld-guide-gobfin-angry-shark-attack-boost": {
     "spec": "scripts/specs/games/palguide_145_gobfin-angry-shark-attack-boost.json",
     "video": "F:\\AI AGENT\\run_f04\\videos\\short-be157d84.mp4"
+  },
+  "palworld-guide-mau-gold-digger-ranch": {
+    "spec": "scripts/specs/games/palguide_144_mau-gold-digger-ranch.json",
+    "video": "F:\\AI AGENT\\run_f04\\videos\\short-c3716608.mp4"
   }
 }

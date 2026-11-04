@@ -6886,5 +6886,37 @@
   "palworld-guide-hangyu-flying-trapeze-glider": {
     "spec": "scripts/specs/games/palguide_137_palworld-guide-hangyu-flying-trapeze-glider.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-4b401b23.mp4"
+  },
+  "fable-february-23": {
+    "spec": "scripts/specs/games/new_41_fable-february-23.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-66048b04.mp4"
+  },
+  "hill-climb-racing-1-billion": {
+    "spec": "scripts/specs/games/classic_76_hill-climb-racing-1-billion.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-3404bbb9.mp4"
+  },
+  "bully-2006": {
+    "spec": "scripts/specs/games/classic_77_bully-2006.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-1c7292ab.mp4"
+  },
+  "resident-evil-4-2005": {
+    "spec": "scripts/specs/games/classic_78_resident-evil-4-2005.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-157bcc4f.mp4"
+  },
+  "king100-nagarjuna": {
+    "spec": "scripts/specs/movies/movie_new_36_king100-nagarjuna.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b1f85608.mp4"
+  },
+  "titans-malayalam": {
+    "spec": "scripts/specs/movies/movie_review_33_titans-malayalam.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-753b7fed.mp4"
+  },
+  "reel-ar-rahman-two-oscars": {
+    "spec": "scripts/specs/movies/reel_70_ar-rahman-two-oscars.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-785bae5a.mp4"
+  },
+  "aniimo-how-to-get-eko": {
+    "spec": "scripts/specs/games/aniimo_162_aniimo-how-to-get-eko.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-6edc4a6e.mp4"
   }
 }

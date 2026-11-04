@@ -5756,5 +5756,48 @@
       "unique": false,
       "key": "Elphidran 5"
     }
+  },
+  "Lifmunk 5": {
+    "spec": "scripts/specs/palworld_lifmunk_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-23dc4f3d.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Lifmunk",
+      "caption": "5 ways to breed Lifmunk in Palworld 1.0: Pengullet + Chikipi, Sparkit + Jolthog, Mau + Depresso, Clovee + Teafant, Vixy + Fuack.",
+      "video_script": "Here are five ways to breed Lifmunk in Palworld one point zero. Combo one: breed Pengullet with Chikipi on your Breeding Farm, then add a cake. Combo two: pair Sparkit and Jolthog together, and you get the same egg. Combo three: Mau plus Depresso works too, so use whichever Pals you have. Combo four: Clovee with Teafant is another easy option. Combo five: breed Vixy with Fuack on your Breeding Farm, then add a cake. Every egg hatches into Lifmunk. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Pengullet",
+        "Chikipi"
+      ],
+      "combos": [
+        [
+          "Pengullet",
+          "Chikipi"
+        ],
+        [
+          "Sparkit",
+          "Jolthog"
+        ],
+        [
+          "Mau",
+          "Depresso"
+        ],
+        [
+          "Clovee",
+          "Teafant"
+        ],
+        [
+          "Vixy",
+          "Fuack"
+        ]
+      ],
+      "child": "Lifmunk",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false,
+      "key": "Lifmunk 5"
+    }
   }
 }

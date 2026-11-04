@@ -57,7 +57,11 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   2 long roundups (free + top deals; under Rs 500, else biggest discounts) into `specs/deals/` (gitignored);
   the manifest keeps a `"data"` copy so retries work on CI. Images use `url:<https url>` refs.
 - `backend/scripts/specs/pokemon_queue.json` - Pokemon evolution lines (checked against PokeAPI evolution chains)
-  for `pokemon_daily.py`; storyboards are generated from them.
+  for `pokemon_daily.py`; storyboards are generated from them. Style 2 (owner request 2026-11-04): a Wan clip per
+  form joined by a locally drawn game-style evolution (`fal_video.evolve_clip`: glow, swapping white silhouettes,
+  white screen; next clip fades in via `white_in`), then the line's Mega Evolutions (PokeAPI species varieties with
+  `-mega`, or `"megas"` in the entry) with a rainbow aura. Lines cached in the old 4-clip style finish in that style.
+  `charmander-mega` (Charmander -> Mega Charizard X and Y) was queued first on request.
 - `inbox/<pokemon1>+<pokemon2>[=<name>].mp4` - Pokemon fusion reveal clips the owner makes in the Gemini app
   (prompts: `F:/AI AGENT/pokemon_fusion_prompts.md`) and uploads on the GitHub website; names from
   `backend/scripts/specs/fusion_pairs.json`. The same pairs (with a `"look"` per pair) are also made automatically by
@@ -173,9 +177,10 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
 - Instagram API cannot change the cover of already-posted Reels.
 - Twitter trend source has no token (skipped).
 - Pokemon shorts use official artwork (Nintendo / The Pokemon Company IP) - claim risk accepted by the owner.
-  Free Wan output is 480p (upscaled) and cannot morph one form into the next; evolution = glow shot + next form.
+  Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-04 - Pokemon evolution style 2: game-style evolve transitions + white flash, Mega Evolutions; Charmander -> Mega Charizard X/Y first.
 - 2026-11-03 - `daily-gameplay.yml` + `gameplay_cloud.py`: rendered own-stream clips go to `clips/<plan>` branches and post from CI (8 + 1 a day).
 - 2026-11-02 - Palworld breeding round 2: 168 children queued again with 5 new combos each (`key` in the queue); 10 Aniimo specs.
 - 2026-11-02 - Automatic Pokemon fusion shorts in `pokemon_daily.py` (FLUX.1 Kontext fused art + Wan), 2 a day, `look` per pair.

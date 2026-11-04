@@ -1,5 +1,18 @@
 [
  {
+  "id": "charmander-mega",
+  "stages": [
+   "charmander",
+   "charmeleon",
+   "charizard"
+  ],
+  "type": "fire",
+  "megas": [
+   "charizard-mega-x",
+   "charizard-mega-y"
+  ]
+ },
+ {
   "id": "charmander",
   "stages": [
    "charmander",

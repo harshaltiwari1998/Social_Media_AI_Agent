@@ -73,7 +73,73 @@ def check_chain(stages: list[str]) -> None:
         node = nxt[0] if nxt else node
 
 
+def megas_of(final: str) -> list[str]:
+    """Mega Evolutions of the last stage, from PokeAPI's species varieties (only forms with official artwork)."""
+    species = httpx.get(f"https://pokeapi.co/api/v2/pokemon-species/{final}", timeout=30).raise_for_status().json()
+    out = []
+    for v in species["varieties"]:
+        name = v["pokemon"]["name"]
+        if "-mega" in name:
+            data = httpx.get(f"https://pokeapi.co/api/v2/pokemon/{name}", timeout=30).raise_for_status().json()
+            if data["sprites"]["other"]["official-artwork"]["front_default"]:
+                out.append(name)
+    return out
+
+
+def _types(slug: str) -> list[str]:
+    data = httpx.get(f"https://pokeapi.co/api/v2/pokemon/{slug}", timeout=30).raise_for_status().json()
+    return [t["type"]["name"] for t in data["types"]]
+
+
+def mega_name(slug: str) -> str:
+    """charizard-mega-x -> Mega Charizard X, blastoise-mega -> Mega Blastoise"""
+    base, _, rest = slug.partition("-mega")
+    return " ".join(["Mega", _name(base), *rest.strip("-").upper().split("-")]).strip()
+
+
 def storyboard(entry: dict) -> dict:
+    """Game-style evolution: a Wan clip of each form, joined by locally drawn evolution sequences (glow, swapping
+    silhouettes, white screen); the next form fades in from white. Mega Evolutions (entry["megas"]) come last."""
+    s, t, megas = entry["stages"], entry["type"], entry.get("megas", [])
+    names = [_name(x) for x in s]
+    bg, fx = BACKGROUND.get(t, "wiki:Meadow"), ENERGY.get(t, "white energy")
+    idle = f"the creature looks around determined, {fx} float around it, anime style, smooth animation, camera slowly pushes in"
+    reveal = (f"the creature appears in a burst of white light and looks around proudly, {fx} swirl around it, "
+              "anime style, smooth animation")
+    finale = f"the creature roars and unleashes a powerful attack of {fx}, epic low angle camera, anime style, dynamic motion"
+    wan = lambda who, prompt, fade=0.0: {"image": {"poke": who, "background": bg}, "shots": [[prompt, 5]],  # noqa: E731
+                                         **({"white_in": fade} if fade else {})}
+    evolve = lambda a, b, mega=False: {"evolve": [a, b], "background": bg, "seconds": 3.2, "mega": mega}  # noqa: E731
+    outro = f"Who is your favourite {t.title()}-type Pokemon? Comment below!"
+    clips, narration = [wan(s[0], idle)], [f"{names[0]} is getting ready for something big."]
+    for k in range(1, len(s)):
+        last = k == len(s) - 1
+        clips += [evolve(s[k - 1], s[k]), wan(s[k], finale if last and not megas else reveal, 0.6)]
+        narration += [f"Oh? {names[k - 1]} is evolving!",
+                      f"{names[k - 1]} evolved into {names[k]}!" + ("" if not last else
+                                                                    " But it is not over yet." if megas else f" {outro}")]
+    for k, m in enumerate(megas):
+        mtypes = _types(m)
+        mfx = ENERGY.get(mtypes[-1], fx)
+        clips += [evolve(s[-1], m, mega=True),
+                  wan(m, f"the creature roars with overwhelming power, {mfx} and rainbow energy explode around it, "
+                         "epic low angle camera, anime style, dynamic motion", 0.6)]
+        narration.append(f"{names[-1]} reacts to its Mega Stone. Mega Evolution!" if k == 0
+                         else f"But {names[-1]} has a second Mega Evolution!")
+        typed = f"{mega_name(m)}, a {' and '.join(x.title() for x in mtypes)} type!"
+        if k < len(megas) - 1:
+            narration.append(typed)
+        elif len(megas) > 1:
+            narration.append(f"{typed} {' or '.join(mega_name(x).split()[-1] for x in megas)}, which one do you like more? "
+                             "Comment below!")
+        else:
+            narration.append(f"{typed} {outro}")
+    return {"title": f"{' to '.join(names)} evolution", "backend": "wan", "voice": "en-US-GuyNeural", "style": 2,
+            "narration": narration, "clips": clips}
+
+
+def storyboard_v1(entry: dict) -> dict:
+    """The first style (4 Wan clips, no transitions) - only to finish lines whose clips were cached before style 2."""
     s, t = entry["stages"], entry["type"]
     names = [_name(x) for x in s]
     bg, fx = BACKGROUND.get(t, "wiki:Meadow"), ENERGY.get(t, "white energy")
@@ -186,7 +252,15 @@ def make_evolution(entry: dict, poster, games: dict) -> None:
     check_chain(entry["stages"])
     board = out / "storyboard.json"
     out.mkdir(parents=True, exist_ok=True)
-    board.write_text(json.dumps(storyboard(entry), indent=2) + "\n", encoding="utf-8")
+    old = json.loads(board.read_text(encoding="utf-8")) if board.exists() else None
+    if old is not None and old.get("style") != 2 and any(out.glob("clip_*.mp4")):
+        entry = {**entry, "megas": []}  # clips cached in the first style - finish it that way
+        sb = storyboard_v1(entry)
+    else:
+        if "megas" not in entry:
+            entry = {**entry, "megas": megas_of(entry["stages"][-1])}
+        sb = storyboard(entry)
+    board.write_text(json.dumps(sb, indent=2) + "\n", encoding="utf-8")
     video = fv.build(board, out)
     games[f"poke-{entry['id']}"] = {"kind": "motion", "spec": QUEUE.relative_to(ROOT).as_posix(), "video": str(video), "data": entry}
     dj._save(dj.GAME_MANIFEST, games)
@@ -199,12 +273,18 @@ def post_id(entry: dict) -> str:
 
 def post_text(entry: dict) -> tuple[str, list[str]]:
     names = [_name(x) for x in entry["stages"]]
-    title = (f"{names[0]} Evolves Into {names[1]}" + (f" and {names[2]}" if len(names) == 3 else "")
-             + " | Pokemon Evolution Animation")
-    desc = (f"{' to '.join(names)} - a Pokemon evolution animation, made with AI from the official artwork. "
+    megas = [mega_name(m) for m in entry.get("megas", [])]
+    if len(megas) > 1:  # Mega Charizard X and Y
+        mega = " ".join(megas[0].split()[:-1]) + " " + " and ".join(m.split()[-1] for m in megas)
+    else:
+        mega = megas[0] if megas else ""
+    later = names[1:] + ([mega] if mega else [])
+    title = f"{names[0]} Evolves Into " + (", ".join(later[:-1]) + " and " + later[-1] if len(later) > 1 else later[0])
+    title += " | Pokemon Evolution Animation" if len(title) <= 66 else " | Pokemon Evolution"
+    desc = (f"{' to '.join(names + megas)} - a Pokemon evolution animation, made with AI from the official artwork. "
             f"Who is your favourite {entry['type'].title()}-type Pokemon? Comment below!")
-    tags = [*names, f"{names[0]} evolution", "Pokemon evolution", "Pokemon animation", "Pokemon", f"{entry['type']} type Pokemon",
-            "evolution animation", "Pokemon shorts"]
+    tags = [*names, *megas, f"{names[0]} evolution", "Pokemon evolution", "Pokemon animation", "Pokemon",
+            *(["Mega Evolution"] if megas else []), f"{entry['type']} type Pokemon", "evolution animation", "Pokemon shorts"]
     hashtags = " ".join(f"#{h}" for h in ["Pokemon", "PokemonEvolution", names[-1].replace(" ", ""), "Gaming", "Shorts"])
     return f"{title}\n\n{desc}\n\n{hashtags}", tags
 
@@ -239,7 +319,7 @@ def main() -> None:
         if key in games and poster.pending(post_id(entry)):
             if video.exists():
                 log.info("retry %s", key)
-                poster.post(post_id(entry), *post_text(entry), str(video))
+                poster.post(post_id(entry), *post_text(games[key].get("data", entry)), str(video))  # data has the megas
             else:
                 log.warning("%s still pending but its video is gone from the cache", key)
 

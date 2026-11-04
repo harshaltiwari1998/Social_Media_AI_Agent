@@ -116,12 +116,9 @@ def _resolve_source(src: str, work: Path) -> Path:
     return Path(src)
 
 
-def poke_scene(name: str, background: str | None, work: Path) -> Image.Image:
-    """Free start frame: the official Pokemon artwork (PokeAPI) on a blurred, darkened 9:16 background photo."""
-    import io
-
+def _poke_art(name: str, work: Path) -> tuple[Image.Image, tuple[int, int]]:
+    """Official artwork (PokeAPI, or a local .png such as a fusion) scaled and placed in the lower half of 1080x1920."""
     import httpx
-    from PIL import ImageEnhance, ImageFilter, ImageOps
 
     art_path = Path(name) if name.endswith(".png") else work / f"poke_{name.lower()}.png"  # .png = local art (a fusion)
     if not art_path.exists():
@@ -130,16 +127,90 @@ def poke_scene(name: str, background: str | None, work: Path) -> Image.Image:
         art_path.write_bytes(httpx.get(url, timeout=60, follow_redirects=True).raise_for_status().content)
     art = Image.open(art_path).convert("RGBA")
     art = art.crop(art.getbbox() or (0, 0, art.width, art.height))
-    if background:
-        bg = Image.open(_resolve_source(background, work)).convert("RGB")
-        canvas = ImageOps.fit(bg, (1080, 1920), Image.LANCZOS).filter(ImageFilter.GaussianBlur(6))
-        canvas = ImageEnhance.Brightness(canvas).enhance(0.6)
-    else:
-        canvas = Image.new("RGB", (1080, 1920), (34, 30, 52))
     scale = min(900 / art.width, 1100 / art.height)
     art = art.resize((int(art.width * scale), int(art.height * scale)), Image.LANCZOS)
-    canvas.paste(art, ((1080 - art.width) // 2, 1920 - art.height - 380), art)  # standing in the lower half
+    return art, ((1080 - art.width) // 2, 1920 - art.height - 380)  # standing in the lower half
+
+
+def _poke_background(background: str | None, work: Path) -> Image.Image:
+    from PIL import ImageEnhance, ImageFilter, ImageOps
+
+    if not background:
+        return Image.new("RGB", (1080, 1920), (34, 30, 52))
+    bg = Image.open(_resolve_source(background, work)).convert("RGB")
+    canvas = ImageOps.fit(bg, (1080, 1920), Image.LANCZOS).filter(ImageFilter.GaussianBlur(6))
+    return ImageEnhance.Brightness(canvas).enhance(0.6)
+
+
+def poke_scene(name: str, background: str | None, work: Path) -> Image.Image:
+    """Free start frame: the official Pokemon artwork (PokeAPI) on a blurred, darkened 9:16 background photo."""
+    canvas = _poke_background(background, work)
+    art, pos = _poke_art(name, work)
+    canvas.paste(art, pos, art)
     return canvas
+
+
+def evolve_clip(spec: dict, work: Path, out: Path) -> Path:
+    """The games' evolution sequence, drawn locally (no GPU quota): the old form lights up, white silhouettes of the
+    old and new form swap faster and faster inside a glow, then the screen burns to white. The next clip fades in
+    from white ("white_in"). {"evolve": [from, to], "background": ref, "seconds": 3.2, "mega": bool} - a Mega
+    Evolution gets a rainbow aura."""
+    if out.exists():
+        return out
+    import colorsys
+
+    from moviepy.editor import VideoClip
+    from PIL import ImageFilter
+
+    seconds = float(spec.get("seconds", 3.2))
+    base = _poke_background(spec.get("background"), work)
+    forms = [_poke_art(n, work) for n in spec["evolve"]]
+    white = Image.new("RGB", (1080, 1920), (255, 255, 255))
+
+    def silhouette(k: int, color: tuple[int, int, int]) -> tuple[Image.Image, Image.Image, Image.Image]:
+        art, pos = forms[k]
+        mask = Image.new("L", (1080, 1920), 0)
+        mask.paste(art.getchannel("A"), pos)
+        glow = mask.filter(ImageFilter.GaussianBlur(40))
+        return Image.new("RGB", (1080, 1920), color), mask, glow
+
+    cache: dict = {}
+
+    def layer(k: int, hue: float | None):
+        key = (k, None if hue is None else round(hue, 2))
+        if key not in cache:
+            col = (255, 255, 255) if hue is None else tuple(int(c * 255) for c in colorsys.hsv_to_rgb(hue, 0.55, 1.0))
+            cache[key] = silhouette(k, col)
+        return cache[key]
+
+    lit, swap_end = 0.7, seconds - 0.55
+
+    def frame(t: float) -> np.ndarray:
+        im = base.copy()
+        if t < lit:  # the old form starts to shine
+            art, pos = forms[0]
+            im.paste(art, pos, art)
+            fill, mask, glow = layer(0, None)
+            k = t / lit
+            im = Image.composite(Image.blend(im, fill, 0.9 * k), im, mask)
+            im = Image.composite(fill, im, glow.point(lambda v: int(v * k)))
+            return np.asarray(im)
+        # swapping silhouettes: the interval shrinks from 0.32 s to 0.04 s
+        p = min(1.0, (t - lit) / max(0.1, swap_end - lit))
+        interval = 0.32 * (1 - p) + 0.04 * p
+        k = int((t - lit) / interval) % 2 if p < 0.85 else 1  # settle on the new form before the white
+        hue = ((t * 0.9) % 1.0) if spec.get("mega") else None
+        fill, mask, glow = layer(k, hue)
+        im = Image.composite(fill, im, glow)
+        im = Image.composite(Image.new("RGB", im.size, (255, 255, 255)), im, mask)
+        if t > swap_end:  # burn to white
+            im = Image.blend(im, white, min(1.0, (t - swap_end) / 0.45))
+        return np.asarray(im)
+
+    VideoClip(frame, duration=seconds).write_videofile(str(out), fps=FPS, codec="libx264", audio=False, preset="medium",
+                                                      logger=None)
+    print("  evolve", out.name, flush=True)
+    return out
 
 
 def scene_image(spec, out: Path, work: Path) -> Path:
@@ -315,6 +386,9 @@ def build(storyboard: Path, out_dir: Path) -> Path:
         if "video" in c:  # an already generated clip
             clips.append(Path(c["video"]))
             continue
+        if "evolve" in c:  # game-style evolution transition, drawn locally
+            clips.append(evolve_clip(c, work, out_dir / f"clip_{i:02d}.mp4"))
+            continue
         if "still" in c:  # hybrid mode: a still with a zoom instead of a paid/quota-limited AI clip
             clips.append(still_clip(_resolve_source(c["still"], work), c.get("seconds", 3), c.get("zoom", [1.0, 1.12]), c.get("flash", False),
                                     out_dir / f"clip_{i:02d}.mp4"))
@@ -379,6 +453,9 @@ def build(storyboard: Path, out_dir: Path) -> Path:
         i = int(np.searchsorted(starts, t, side="right") - 1)
         fr = frames[i]
         im = Image.fromarray(np.asarray(fr[min(int((t - starts[i]) * FPS), len(fr) - 1)])).convert("RGBA")
+        fade = sb["clips"][i].get("white_in", 0)
+        if fade and t - starts[i] < fade:  # comes out of an evolution's white screen
+            im = Image.blend(im, Image.new("RGBA", im.size, (255, 255, 255, 255)), 1 - (t - starts[i]) / fade)
         for cs, ce, txt in chunks:
             if cs <= t < ce:
                 im.alpha_composite(caption(txt))

@@ -6918,5 +6918,35 @@
   "aniimo-how-to-get-eko": {
     "spec": "scripts/specs/games/aniimo_162_aniimo-how-to-get-eko.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-6edc4a6e.mp4"
+  },
+  "poke-charmander-mega": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/pokemon/charmander-mega/final.mp4",
+    "data": {
+      "id": "charmander-mega",
+      "stages": [
+        "charmander",
+        "charmeleon",
+        "charizard"
+      ],
+      "type": "fire",
+      "megas": [
+        "charizard-mega-x",
+        "charizard-mega-y"
+      ]
+    }
+  },
+  "fusion-gengar+mewtwo": {
+    "kind": "motion",
+    "spec": "scripts/specs/fusion_pairs.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/pokemon/fusion-gengar+mewtwo/final.mp4",
+    "data": {
+      "id": "gengar+mewtwo",
+      "a": "Gengar",
+      "b": "Mewtwo",
+      "name": "Gengtwo",
+      "types": "Ghost/Psychic"
+    }
   }
 }

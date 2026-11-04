@@ -6991,5 +6991,9 @@
   "palworld-guide-daedream-dream-chaser": {
     "spec": "scripts/specs/games/palguide_138_palworld-guide-daedream-dream-chaser.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-24855b48.mp4"
+  },
+  "palworld-guide-flopie-helper-bunny-planting": {
+    "spec": "scripts/specs/games/palguide_140_flopie-helper-bunny-planting.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-000041d7.mp4"
   }
 }

@@ -5928,5 +5928,48 @@
       "unique": false,
       "key": "Rooby 5"
     }
+  },
+  "Solmora 5": {
+    "spec": "scripts/specs/palworld_solmora_5.json",
+    "video": "F:\\AI AGENT\\run_f04\\videos\\short-6b5ba885.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Solmora",
+      "caption": "5 ways to breed Solmora in Palworld 1.0: Majex + Tarantriss, Splatterina + Fenglope, Azurmane + Arsox, Gildra + Felbat, Bulldosu + Digtoise.",
+      "video_script": "Here are five ways to breed Solmora in Palworld one point zero. Combo one: breed Majex with Tarantriss on your Breeding Farm, then add a cake. Combo two: pair Splatterina and Fenglope together, and you get the same egg. Combo three: Azurmane plus Arsox works too, so use whichever Pals you have. Combo four: Gildra with Felbat is another easy option. Combo five: breed Bulldosu with Digtoise on your Breeding Farm, then add a cake. Every egg hatches into Solmora. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Majex",
+        "Tarantriss"
+      ],
+      "combos": [
+        [
+          "Majex",
+          "Tarantriss"
+        ],
+        [
+          "Splatterina",
+          "Fenglope"
+        ],
+        [
+          "Azurmane",
+          "Arsox"
+        ],
+        [
+          "Gildra",
+          "Felbat"
+        ],
+        [
+          "Bulldosu",
+          "Digtoise"
+        ]
+      ],
+      "child": "Solmora",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false,
+      "key": "Solmora 5"
+    }
   }
 }

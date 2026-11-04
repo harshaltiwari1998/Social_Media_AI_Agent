@@ -40,6 +40,7 @@ class _Scene:
     src: "Image.Image"  # noqa: F821 - square source image for the Ken Burns card
     zoom_in: bool
     pan: tuple[float, float]
+    video: Any = None  # moviepy clip of a moving card (gameplay footage) - played instead of the Ken Burns still
 
 
 def _ease(p: float) -> float:
@@ -100,9 +101,17 @@ def _rounded_mask(size: int, radius: int) -> "Image.Image":  # noqa: F821
     return mask
 
 
-def _prepare_scene(image_path: str, index: int) -> _Scene:
+def _prepare_scene(image_path: str | dict, index: int) -> _Scene:
+    """image_path: a still card, or {"image": still card, "video": card-sized mp4} for a scene with moving footage
+    (the still is used for the blurred background)."""
     from PIL import Image, ImageEnhance, ImageFilter, ImageOps
 
+    video = None
+    if isinstance(image_path, dict):
+        from moviepy.editor import VideoFileClip
+
+        video = VideoFileClip(image_path["video"], audio=False)
+        image_path = image_path["image"]
     src = Image.open(image_path).convert("RGB")
     side = min(src.size)
     src = ImageOps.fit(src, (side, side), Image.LANCZOS)
@@ -120,7 +129,19 @@ def _prepare_scene(image_path: str, index: int) -> _Scene:
 
     # Alternate zoom direction and pan so consecutive scenes don't move identically.
     pans = [(1, 0), (-1, 0.5), (0, -1), (0.6, 1)]
-    return _Scene(bg=bg, src=src, zoom_in=index % 2 == 0, pan=pans[index % len(pans)])
+    return _Scene(bg=bg, src=src, zoom_in=index % 2 == 0, pan=pans[index % len(pans)], video=video)
+
+
+def _render_video_scene(scene: _Scene, seconds: float, card_mask) -> "Image.Image":  # noqa: F821
+    from PIL import Image
+
+    t = min(max(seconds, 0.0), scene.video.duration - 0.05)
+    card = Image.fromarray(scene.video.get_frame(t)).convert("RGB")
+    if card.size != (_CARD_SIZE, _CARD_SIZE):
+        card = card.resize((_CARD_SIZE, _CARD_SIZE), Image.BILINEAR)
+    frame = scene.bg.copy()
+    frame.paste(card, _CARD_POS, card_mask)
+    return frame
 
 
 def _render_scene(scene: _Scene, progress: float, card_mask) -> "Image.Image":  # noqa: F821
@@ -186,6 +207,8 @@ class _FrameRenderer:
 
     def _scene_at(self, t: float, index: int):
         start = index * self.segment
+        if self.scenes[index].video is not None:
+            return _render_video_scene(self.scenes[index], t - start + _CROSSFADE, self.card_mask)
         progress = (t - start) / (self.segment + _CROSSFADE)
         return _render_scene(self.scenes[index], progress, self.card_mask)
 
@@ -275,7 +298,7 @@ def _build_audio(narration_path: Path, duration: float):
 
 
 def generate_video(
-    image_paths: list[str],
+    image_paths: list[str | dict],
     caption: str,
     narration_script: str,
     headline: str | None = None,

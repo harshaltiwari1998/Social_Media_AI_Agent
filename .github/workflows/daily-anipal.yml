@@ -45,6 +45,14 @@ jobs:
             git show "origin/gaming-state:$f" > "media_output/$f" 2>/dev/null || rm -f "media_output/$f"
           done
 
+      - name: Restore trailer cache
+        uses: actions/cache@v4
+        with:
+          # Official Steam trailers played inside the shorts (game_videos.trailer) - downloading one takes minutes.
+          path: backend/media_output/game_art/trailers
+          key: trailers-${{ github.run_id }}
+          restore-keys: trailers-
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"

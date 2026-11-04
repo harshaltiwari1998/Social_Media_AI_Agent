@@ -136,27 +136,33 @@ def _label(text: str, size: int, color=_WHITE, max_width: int = _SAFE_W, max_lin
     return render_block(font, lines, color=color, stroke=6, shadow=8)
 
 
-def image_card(img: Image.Image, label: str | None) -> Image.Image:
+def image_card(img: Image.Image, label: str | None, rect: list | None = None) -> Image.Image:
     canvas = _backdrop(img)
     if not label:
         pic = _fit(img, 1000, 900)
         canvas.paste(pic, ((_CARD - pic.width) // 2, (_CARD - pic.height) // 2))
+        if rect is not None:
+            rect[:] = [(_CARD - pic.width) // 2, (_CARD - pic.height) // 2, pic.width, pic.height]
         return canvas.convert("RGB")
     # Label goes under the picture, both inside the area the Ken Burns crop never reaches.
     lbl = _label(label, 64, _YELLOW)
     pic = _fit(img, 1000, _CARD - 300 - lbl.height - 30)
     top = 150 + (_CARD - 300 - (pic.height + 30 + lbl.height)) // 2
     canvas.paste(pic, ((_CARD - pic.width) // 2, top))
+    if rect is not None:
+        rect[:] = [(_CARD - pic.width) // 2, top, pic.width, pic.height]
     canvas.alpha_composite(lbl, ((_CARD - lbl.width) // 2, top + pic.height + 30))
     return canvas.convert("RGB")
 
 
-def fact_card(img: Image.Image, fact: str, sub: str | None) -> Image.Image:
+def fact_card(img: Image.Image, fact: str, sub: str | None, rect: list | None = None) -> Image.Image:
     canvas = _backdrop(img, 0.3)
     # Big picture on top (most of the card), short text underneath - small thumbnails looked empty on phones.
     thumb = _fit(img, 980, 560)
     top = 120
     canvas.paste(thumb, ((_CARD - thumb.width) // 2, top))
+    if rect is not None:  # where the picture sits, so gameplay footage can play there instead
+        rect[:] = [(_CARD - thumb.width) // 2, top, thumb.width, thumb.height]
     big = _label(fact, 84, _YELLOW, max_lines=2)
     y = top + thumb.height + 36
     canvas.alpha_composite(big, ((_CARD - big.width) // 2, y))
@@ -193,20 +199,112 @@ def _combo_scene(combo: list[str], step: str | None, index: int) -> Image.Image:
     return card.convert("RGB")
 
 
+_FOOTAGE_SECONDS = 10.0  # per scene - longer than any scene of a short
+
+
+def _ffmpeg() -> str:
+    import imageio_ffmpeg
+
+    return imageio_ffmpeg.get_ffmpeg_exe()
+
+
+def _duration(path: Path) -> float:
+    import re
+    import subprocess
+
+    err = subprocess.run([_ffmpeg(), "-hide_banner", "-i", str(path)], capture_output=True, text=True, errors="replace").stderr
+    m = re.search(r"Duration: (\d+):(\d+):([\d.]+)", err)
+    return int(m[1]) * 3600 + int(m[2]) * 60 + float(m[3]) if m else 0.0
+
+
+def trailer_list(appid: str) -> list[dict]:
+    """The game's official Steam trailers, gameplay ones first (at most 3). Cinematic-only trailers come last -
+    they show no actual game."""
+    data = _get_json("https://store.steampowered.com/api/appdetails", {"appids": appid, "filters": "movies"})[appid]
+    movies = [m for m in (data.get("data") or {}).get("movies") or [] if m.get("hls_h264")]
+    rank = lambda m: (0 if any(k in m["name"].lower() for k in ("gameplay", "in-game", "recorded", "preview")) else  # noqa: E731
+                      2 if "cinematic" in m["name"].lower() else 1)
+    return sorted(movies, key=rank)[:3]
+
+
+def trailer(appid: str, movie: dict) -> Path | None:
+    """One trailer as a silent 720p mp4 (first 3 minutes), cached in game_art/trailers/."""
+    import re
+    import subprocess
+
+    folder = _art_dir() / "trailers"
+    folder.mkdir(exist_ok=True)
+    path = folder / f"{appid}_{movie['id']}.mp4"
+    if path.exists():
+        return path
+    master = movie["hls_h264"]
+    playlist = httpx.get(master, headers=_HEADERS, timeout=30, follow_redirects=True).raise_for_status().text
+    variants = re.findall(r"#EXT-X-STREAM-INF:[^\n]*RESOLUTION=\d+x(\d+)[^\n]*\n([^\n#][^\n]*)", playlist)
+    fitting = [(int(h), uri.strip()) for h, uri in variants if int(h) <= 720] or [(int(h), uri.strip()) for h, uri in variants]
+    url = httpx.URL(master).join(max(fitting)[1]) if fitting else master
+    tmp = path.with_suffix(".part.mp4")
+    r = subprocess.run([_ffmpeg(), "-v", "error", "-y", "-i", str(url), "-an", "-c:v", "copy", "-t", "180", str(tmp)],
+                       capture_output=True, text=True)
+    if r.returncode == 0 and tmp.exists() and tmp.stat().st_size > 500_000:
+        tmp.replace(path)
+        return path
+    tmp.unlink(missing_ok=True)
+    print(f"  trailer {movie['name']!r} of app {appid} could not be downloaded: {r.stderr[-200:]}")
+    return None
+
+
+def footage_scene(card_png: Path, rect: list, trailer: Path, start: float, out: Path) -> Path:
+    """The card with gameplay footage playing where its picture was (silent, card-sized mp4)."""
+    import subprocess
+
+    x, y, w, h = rect
+    w, h = w - w % 2, h - h % 2
+    graph = (f"[1:v]scale={w}:{h}:force_original_aspect_ratio=increase,crop={w}:{h},fps=30,setsar=1[v];"
+             f"[0:v][v]overlay={x}:{y}:eof_action=repeat,format=yuv420p[out]")
+    subprocess.run([_ffmpeg(), "-v", "error", "-y", "-loop", "1", "-t", str(_FOOTAGE_SECONDS), "-i", str(card_png),
+                    "-ss", f"{start:.2f}", "-t", str(_FOOTAGE_SECONDS), "-i", str(trailer), "-filter_complex", graph,
+                    "-map", "[out]", "-t", str(_FOOTAGE_SECONDS), "-r", "30", "-c:v", "libx264", "-preset", "veryfast",
+                    "-crf", "21", "-an", str(out)], check=True)
+    return out
+
+
 def build_video(spec_path: Path) -> dict:
     spec = json.loads(spec_path.read_text(encoding="utf-8"))
     out_dir = Path(settings.media_output_dir) / "images" / f"game_{spec['id']}"
     out_dir.mkdir(parents=True, exist_ok=True)
+    # Owner (Nov 2026): shorts made only of still images looked cheap - scenes showing a Steam screenshot play the
+    # game's official trailer footage there instead (silent; the narration stays). "footage": false opts out.
+    seed = int(hashlib.sha1(spec["id"].encode()).hexdigest()[:8], 16)
+    footage: dict[str, list[dict]] = {}
     paths = []
     for i, scene in enumerate(spec["scenes"], 1):
+        rect: list = []
         if "combo" in scene:  # Palworld "A + B = C" card with official Pal art
             card = _combo_scene(scene["combo"], scene.get("step"), i)
         else:
             img = fetch_image(scene["image"])
-            card = fact_card(img, scene["fact"], scene.get("sub")) if "fact" in scene else image_card(img, scene.get("label"))
+            card = (fact_card(img, scene["fact"], scene.get("sub"), rect) if "fact" in scene
+                    else image_card(img, scene.get("label"), rect))
         path = out_dir / f"{i}.png"
         card.save(path)
-        paths.append(str(path.resolve()))
+        entry: str | dict = str(path.resolve())
+        ref = scene.get("image", "")
+        if rect and ref.startswith("steam:") and spec.get("footage", True):
+            appid = ref.split(":")[1]
+            try:
+                if appid not in footage:
+                    footage[appid] = trailer_list(appid)
+                if footage[appid]:  # one trailer per short (seeded by its id), a different stretch per scene
+                    movie = trailer(appid, footage[appid][seed % len(footage[appid])])
+                    if movie:
+                        length = _duration(movie)
+                        usable = max(1.0, length * 0.8 - _FOOTAGE_SECONDS)
+                        start = length * 0.1 + ((seed // 7 + i * 0.29) % 1.0) * usable  # skip logos at start and end
+                        clip = footage_scene(path, rect, movie, start, out_dir / f"{i}_footage.mp4")
+                        entry = {"image": str(path.resolve()), "video": str(clip.resolve())}
+            except Exception as exc:  # a still is still a video - never fail the short over footage
+                print(f"  scene {i}: no trailer footage ({exc}) - using the still")
+        paths.append(entry)
     # Gaming videos are English (voice, text and post copy); movie videos stay Hindi.
     settings.tts_rate = spec.get("tts_rate") or _DEFAULT_RATE
     settings.tts_voice = spec.get("tts_voice") or (

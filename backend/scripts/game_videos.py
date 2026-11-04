@@ -254,35 +254,46 @@ def trailer(appid: str, movie: dict) -> Path | None:
 
 
 _PAL_SLOTS = ("palguide", "palbase", "palchain")
-_PAL_MOTION_PROMPT = ("the creature comes alive, breathes, looks around and moves energetically, then strikes a "
-                      "battle pose, 3D game character animation, smooth motion, plain dark background, static camera")
+# Three moves per Pal, so a short never shows the same clip twice in a row (owner: "ek hi scene 4 baar dikha").
+_PAL_MOTION_PROMPTS = [
+    "the creature comes alive, breathes, looks around and moves energetically, then strikes a battle pose, "
+    "3D game character animation, smooth motion, plain dark background, static camera",
+    "the creature attacks with a powerful special move, dynamic action, energy bursts, 3D game character animation, "
+    "smooth motion, plain dark background, static camera",
+    "the creature jumps happily, bounces and waves at the camera, cheerful, 3D game character animation, "
+    "smooth motion, plain dark background, static camera",
+]
 _wan_quota_left = True
 
 
-def pal_motion(name: str) -> Path | None:
+def pal_motion(name: str, variant: int = 0) -> Path | None:
     """The Pal's official art brought to life by the free Wan 2.2 ZeroGPU Space (HF_TOKEN), 5 s played forward and
-    back (10 s), cached per Pal in game_art/pal_motion/ - so each Pal costs GPU quota once. None when the quota is
-    used up (the scene stays a still)."""
+    back (10 s), cached per Pal and move in game_art/pal_motion/ - so each costs GPU quota once. Falls back to a move
+    that already exists, None when there is none and the quota is used up (the scene stays a still)."""
     import subprocess
 
     global _wan_quota_left
     folder = _art_dir() / "pal_motion"
     folder.mkdir(exist_ok=True)
     slug = name.lower().replace(" ", "_")
-    out = folder / f"{slug}.mp4"
-    if out.exists() or not _wan_quota_left:
-        return out if out.exists() else None
+    variant %= len(_PAL_MOTION_PROMPTS)
+    out = folder / (f"{slug}.mp4" if variant == 0 else f"{slug}_v{variant}.mp4")
+    if out.exists():
+        return out
+    if not _wan_quota_left:
+        have = sorted(folder.glob(f"{slug}.mp4")) + sorted(folder.glob(f"{slug}_v[0-9].mp4"))
+        return have[0] if have else None
     from scripts import fal_video as fv
 
     still = folder / f"{slug}.png"
     _pal_image(name).save(still)
-    raw = folder / f"{slug}_wan.mp4"
+    raw = folder / f"{slug}_wan{variant}.mp4"
     try:
-        fv.make_clip_wan(still, [[_PAL_MOTION_PROMPT, 5]], raw)
+        fv.make_clip_wan(still, [[_PAL_MOTION_PROMPTS[variant], 5]], raw)
     except fv.QuotaExhausted:
         _wan_quota_left = False
-        print(f"  {name}: free GPU quota used up - still image for now")
-        return None
+        print(f"  {name}: free GPU quota used up - using what is cached")
+        return pal_motion(name, variant)
     except Exception as exc:
         print(f"  {name}: Wan animation failed ({str(exc)[:150]}) - still image")
         return None
@@ -294,18 +305,52 @@ def pal_motion(name: str) -> Path | None:
     return out
 
 
-def footage_scene(card_png: Path, rect: list, trailer: Path, start: float, out: Path) -> Path:
-    """The card with gameplay footage playing where its picture was (silent, card-sized mp4)."""
+def footage_scene(card_png: Path, rect: list, trailer: Path, start: float, out: Path, zoom: float = 1.0) -> Path:
+    """The card with gameplay footage playing where its picture was (silent, card-sized mp4). zoom > 1 = close-up."""
     import subprocess
 
     x, y, w, h = rect
     w, h = w - w % 2, h - h % 2
-    graph = (f"[1:v]scale={w}:{h}:force_original_aspect_ratio=increase,crop={w}:{h},fps=30,setsar=1[v];"
+    zw, zh = int(w * zoom) // 2 * 2, int(h * zoom) // 2 * 2
+    graph = (f"[1:v]scale={zw}:{zh}:force_original_aspect_ratio=increase,crop={w}:{h},fps=30,setsar=1[v];"
              f"[0:v][v]overlay={x}:{y}:eof_action=repeat,format=yuv420p[out]")
     subprocess.run([_ffmpeg(), "-v", "error", "-y", "-loop", "1", "-t", str(_FOOTAGE_SECONDS), "-i", str(card_png),
-                    "-ss", f"{start:.2f}", "-t", str(_FOOTAGE_SECONDS), "-i", str(trailer), "-filter_complex", graph,
+                    "-stream_loop", "-1", "-ss", f"{start:.2f}", "-t", str(_FOOTAGE_SECONDS), "-i", str(trailer),
+                    "-filter_complex", graph,
                     "-map", "[out]", "-t", str(_FOOTAGE_SECONDS), "-r", "30", "-c:v", "libx264", "-preset", "veryfast",
                     "-crf", "21", "-an", str(out)], check=True)
+    return out
+
+
+def spotlight_card(base_png: Path, top_png: Path, layers: list[tuple[Path, tuple[int, int, int, int], float]],
+                   out: Path) -> Path:
+    """A card with animated Pals in soft-edged oval spotlights: base_png (background + anything under the Pals),
+    then each (motion clip, (centre x, centre y, w, h), start s), then top_png (transparent text layer) on top."""
+    import subprocess
+
+    from PIL import ImageDraw
+
+    args = [_ffmpeg(), "-v", "error", "-y", "-loop", "1", "-t", str(_FOOTAGE_SECONDS), "-i", str(base_png),
+            "-loop", "1", "-t", str(_FOOTAGE_SECONDS), "-i", str(top_png)]
+    graph, last = [], "0:v"
+    for k, (clip, (cx, cy, w, h), start) in enumerate(layers):
+        w, h = w // 2 * 2, h // 2 * 2
+        mask = out.with_name(f"{out.stem}_mask{k}.png")
+        m = Image.new("L", (w, h), 0)
+        ImageDraw.Draw(m).ellipse((w * 0.08, h * 0.08, w * 0.92, h * 0.92), fill=255)
+        m.filter(ImageFilter.GaussianBlur(min(w, h) * 0.07)).save(mask)
+        args += ["-stream_loop", "-1", "-ss", f"{start:.2f}", "-t", str(_FOOTAGE_SECONDS), "-i", str(clip),
+                 "-loop", "1", "-t", str(_FOOTAGE_SECONDS), "-i", str(mask)]
+        vi, mi = 2 + 2 * k, 3 + 2 * k
+        graph.append(f"[{vi}:v]scale={w}:{h}:force_original_aspect_ratio=decrease,pad={w}:{h}:(ow-iw)/2:(oh-ih)/2:"
+                     f"color=0x1c1630,fps=30,setsar=1,format=rgba[c{k}];[{mi}:v]format=gray[m{k}];"
+                     f"[c{k}][m{k}]alphamerge[a{k}];[{last}][a{k}]overlay={cx - w // 2}:{cy - h // 2}[o{k}]")
+        last = f"o{k}"
+    graph.append(f"[{last}][1:v]overlay=0:0,format=yuv420p[out]")
+    subprocess.run(args + ["-filter_complex", ";".join(graph), "-map", "[out]", "-t", str(_FOOTAGE_SECONDS), "-r", "30",
+                           "-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-an", str(out)], check=True)
+    for f in out.parent.glob(f"{out.stem}_mask*.png"):
+        f.unlink(missing_ok=True)
     return out
 
 
@@ -334,9 +379,10 @@ def build_video(spec_path: Path) -> dict:
         pal = ref[4:] if ref.startswith("pal:") else main_pal if ref.startswith("steam:") else None
         if rect and pal and spec.get("footage", True):
             # Palworld (owner, Nov 2026): the trailer showed other Pals - the short's own Pal moves instead.
-            motion = pal_motion(pal)
+            motion = pal_motion(pal, i - 1)  # a different move per scene, every other one a close-up
             if motion:
-                clip = footage_scene(path, rect, motion, 0, out_dir / f"{i}_footage.mp4")
+                clip = footage_scene(path, rect, motion, (seed + i * 3) % 5, out_dir / f"{i}_footage.mp4",
+                                     zoom=1.35 if i % 2 == 0 else 1.0)
                 entry = {"image": str(path.resolve()), "video": str(clip.resolve())}
         elif rect and ref.startswith("steam:") and spec.get("footage", True) and spec.get("slot") not in _PAL_SLOTS:
             appid = ref.split(":")[1]

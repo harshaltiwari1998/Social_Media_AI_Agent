@@ -92,36 +92,50 @@ def _label(text: str, size: int, color=_WHITE) -> Image.Image:
 _EDGE = 140
 
 
-def pal_card(name: str, color: tuple[int, int, int], tag: str) -> Image.Image:
-    canvas = _background(color).convert("RGBA")
+# Where each Pal sits on a card - (centre x, centre y, w, h) - for the animated Pals (game_videos.spotlight_card).
+PAL_CARD_SLOT = (540, 515, 820, 660)
+COMBO_SLOTS = ((330, 285, 400, 330), (750, 285, 400, 330), (540, 730, 400, 300))  # parent A, parent B, child
+
+
+def _canvas(color, text_only: bool) -> Image.Image:
+    return Image.new("RGBA", (_CARD, _CARD), (0, 0, 0, 0)) if text_only else _background(color).convert("RGBA")
+
+
+def pal_card(name: str, color: tuple[int, int, int], tag: str, skip: bool = False, text_only: bool = False) -> Image.Image:
+    """skip = leave the Pal out (it is animated in later); text_only = just the text on a transparent card."""
+    canvas = _canvas(color, text_only)
     tag_img = _label(tag, 54, _YELLOW)
     canvas.alpha_composite(tag_img, ((_CARD - tag_img.width) // 2, _EDGE))
-    art = _fit(fetch_pal_art(name), 600)
-    _paste_with_glow(canvas, art, ((_CARD - art.width) // 2, 215 + (600 - art.height) // 2))
+    if not (skip or text_only):
+        art = _fit(fetch_pal_art(name), 600)
+        _paste_with_glow(canvas, art, ((_CARD - art.width) // 2, 215 + (600 - art.height) // 2))
     name_img = _label(name, 88)
     canvas.alpha_composite(name_img, ((_CARD - name_img.width) // 2, _CARD - name_img.height - _EDGE))
-    return canvas.convert("RGB")
+    return canvas if text_only else canvas.convert("RGB")
 
 
-def combo_card(parent_a: str, parent_b: str, child: str, color: tuple[int, int, int], tag: str = "") -> Image.Image:
-    canvas = _background(color).convert("RGBA")
+def combo_card(parent_a: str, parent_b: str, child: str, color: tuple[int, int, int], tag: str = "",
+               skip: tuple[str, ...] = (), text_only: bool = False) -> Image.Image:
+    canvas = _canvas(color, text_only)
     if tag:
         tag_img = _label(tag, 54, _YELLOW)
         canvas.alpha_composite(tag_img, ((_CARD - tag_img.width) // 2, _EDGE - 20))
-    for name, cx in ((parent_a, 330), (parent_b, 750)):
-        art = _fit(fetch_pal_art(name), 270)
-        _paste_with_glow(canvas, art, (cx - art.width // 2, 150 + (270 - art.height) // 2))
+    for k, (name, cx) in enumerate(((parent_a, 330), (parent_b, 750))):
+        if not (text_only or ("a", "b")[k] in skip):
+            art = _fit(fetch_pal_art(name), 270)
+            _paste_with_glow(canvas, art, (cx - art.width // 2, 150 + (270 - art.height) // 2))
         lbl = _label(name, 44)
         canvas.alpha_composite(lbl, (cx - lbl.width // 2, 435))
     plus = _label("+", 120, _YELLOW)
     canvas.alpha_composite(plus, ((_CARD - plus.width) // 2, 215))
     eq = _label("=", 100, _YELLOW)
     canvas.alpha_composite(eq, ((_CARD - eq.width) // 2, 500))
-    art = _fit(fetch_pal_art(child), 230)
-    _paste_with_glow(canvas, art, ((_CARD - art.width) // 2, 615 + (230 - art.height) // 2))
+    if not (text_only or "child" in skip):
+        art = _fit(fetch_pal_art(child), 230)
+        _paste_with_glow(canvas, art, ((_CARD - art.width) // 2, 615 + (230 - art.height) // 2))
     lbl = _label(child, 58, _YELLOW)
     canvas.alpha_composite(lbl, ((_CARD - lbl.width) // 2, _CARD - lbl.height - _EDGE))
-    return canvas.convert("RGB")
+    return canvas if text_only else canvas.convert("RGB")
 
 
 def build_video(spec_path: Path) -> dict:
@@ -148,12 +162,57 @@ def build_video(spec_path: Path) -> dict:
         path = out_dir / f"{stem}.png"
         img.save(path)
         paths.append(str(path.resolve()))
+    paths = _animate(paths, cards, a, b, child, combos, color, out_dir)
 
     settings.tts_voice = spec.get("tts_voice") or settings.gaming_tts_voice  # Palworld is gaming -> English
     video = generate_video(
         paths, spec["caption"], spec["video_script"], headline=spec.get("headline"), badge="BREEDING GUIDE"
     )
     return {"spec": spec_path.name, "images": paths, "video": video}
+
+
+def _animate(paths: list[str], cards: list, a: str, b: str, child: str, combos: list, color, out_dir: Path) -> list:
+    """Owner (Nov 2026): the Pals should move. Each card gets its Pals animated by Wan (game_videos.pal_motion,
+    cached per Pal and move) in soft oval spotlights, the text on top; a Pal with no clip (quota used up) stays a
+    still. Any failure keeps the still card."""
+    from scripts import game_videos as gv
+
+    out, move = [], 0
+    for path, (stem, _) in zip(paths, cards):
+        try:
+            if stem.endswith("_combo"):
+                n = int(stem.split("_")[0])
+                pa, pb = (combos[n - 1] if combos else (a, b))
+                pals, slots = [("a", pa), ("b", pb), ("child", child)], COMBO_SLOTS
+            else:
+                name = {"0_intro": child, "1_parent_a": a, "2_parent_b": b}.get(stem, child)
+                pals, slots = [("pal", name)], (PAL_CARD_SLOT,)
+            layers, skip = [], []
+            for (key, pal), slot in zip(pals, slots):
+                clip = gv.pal_motion(pal, move)
+                move += 1
+                if clip:
+                    layers.append((clip, slot, (move * 1.7) % 5))
+                    skip.append(key)
+            if not layers:
+                out.append(path)
+                continue
+            if stem.endswith("_combo"):
+                base = combo_card(pa, pb, child, color, f"COMBO {n}" if combos else "", skip=tuple(skip))
+                top = combo_card(pa, pb, child, color, f"COMBO {n}" if combos else "", text_only=True)
+            else:
+                label = {"0_intro": "HOW TO BREED", "1_parent_a": "PARENT 1", "2_parent_b": "PARENT 2"}.get(stem, "NEW PAL")
+                base = pal_card(name, color, label, skip=True)
+                top = pal_card(name, color, label, text_only=True)
+            bp, tp = out_dir / f"{stem}_base.png", out_dir / f"{stem}_top.png"
+            base.save(bp)
+            top.save(tp)
+            clip = gv.spotlight_card(bp, tp, layers, out_dir / f"{stem}_motion.mp4")
+            out.append({"image": path, "video": str(clip.resolve())})
+        except Exception as exc:
+            print(f"  {stem}: animation skipped ({str(exc)[:150]}) - still card")
+            out.append(path)
+    return out
 
 
 # Variant suffix -> (element for narration and tags, card colour).

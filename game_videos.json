@@ -6948,5 +6948,9 @@
       "name": "Gengtwo",
       "types": "Ghost/Psychic"
     }
+  },
+  "aniimo-free-glimmer-alpha-omega-aniilog": {
+    "spec": "scripts/specs/games/aniimo_179_aniimo-free-glimmer-alpha-omega-aniilog.json",
+    "video": "F:\\AI AGENT\\run_f04\\videos\\short-c7c94fa5.mp4"
   }
 }

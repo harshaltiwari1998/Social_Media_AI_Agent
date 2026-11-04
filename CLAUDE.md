@@ -81,7 +81,8 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   trailer footage (it showed other Pals): their `pal:` scenes - and `steam:` scenes, with the spec's first Pal - play
   that Pal's art animated by Wan (`pal_motion`, HF_TOKEN, 5 s forward + back, cached per Pal in `game_art/pal_motion/`;
   quota used up -> still), `scripts/long_video.py` (long videos),
-  `scripts/palworld_breeding_videos.py` (breeding cards: intro + one card per combo + child).
+  `scripts/palworld_breeding_videos.py` (breeding cards: intro + one card per combo + child; every Pal on a card is
+  animated by Wan in a soft oval spotlight under the text layer - `game_videos.spotlight_card`, up to 3 cached moves per Pal).
 - `scripts/gameplay_clips.py` (`scan` / `build` / `upload`) - cut Shorts (9:16) and highlight videos from
   recordings in `F:/AI AGENT/VIDEOS GAMING`; `scripts/gameplay_daily.py` (laptop task) finishes pending
   plans, max 1 long + 8 shorts per run, with a lock file. Plans with `"cloud": true` are only rendered there and
@@ -185,6 +186,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-04 - Breeding cards with animated Pals (oval spotlights); 3 Wan moves per Pal so scenes do not repeat.
 - 2026-11-04 - Palworld shorts: the short's own Pal animated by Wan (cached per Pal) instead of generic trailer footage.
 - 2026-11-04 - Shorts play official Steam trailer footage instead of still screenshots (Aniimo, Palworld guide, new games).
 - 2026-11-04 - Pokemon evolution style 2: game-style evolve transitions + white flash, Mega Evolutions; Charmander -> Mega Charizard X/Y first.

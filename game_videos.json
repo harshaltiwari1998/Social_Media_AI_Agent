@@ -7214,5 +7214,32 @@
   "aniimo-hoptail-jaguaraun-event-aniimo": {
     "spec": "scripts/specs/games/aniimo_172_aniimo-hoptail-jaguaraun-event-aniimo.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-cb4ca787.mp4"
+  },
+  "palworld-egg-incubator-and-ranch-guide": {
+    "spec": "scripts/specs/long/gaming_82_palworld-egg-incubator-and-ranch-guide.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-c25bba7a.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-c25bba7a-thumb.jpg",
+    "chapters": "0:00 Palworld eggs explained\n0:38 Egg colours and sizes\n1:18 Alpha eggs are always Huge\n1:50 Where wild eggs come from\n2:26 Building the Egg Incubator\n3:03 Temperature and comfort\n3:42 Hatch times by size\n4:19 What changed in one point zero\n4:54 The four incubators\n5:29 Breeding Farm and cake\n6:04 Speed tips and common mistakes\n6:40 Final thoughts"
+  },
+  "aniimo-omega-infergon-boss-tips": {
+    "spec": "scripts/specs/games/aniimo_177_aniimo-omega-infergon-boss-tips.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-698869db.mp4"
+  },
+  "aniimo-aniipod-ultra-free-routes": {
+    "spec": "scripts/specs/games/aniimo_178_aniimo-aniipod-ultra-free-routes.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-d958ad86.mp4"
+  },
+  "aniimo-prismana-snapshots-event-november": {
+    "spec": "scripts/specs/games/aniimo_180_aniimo-prismana-snapshots-event-november.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-08764f2f.mp4"
+  },
+  "palworld-guide-rooby-tiny-spark-fire-defense": {
+    "spec": "scripts/specs/games/palguide_146_palworld-guide-rooby-tiny-spark-fire-defense.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-d5d6fca9.mp4"
+  },
+  "palworld-guide-pyrin-red-hare-fire-mount": {
+    "spec": "scripts/specs/games/palguide_147_palworld-guide-pyrin-red-hare-fire-mount.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-784dde24.mp4"
   }
 }

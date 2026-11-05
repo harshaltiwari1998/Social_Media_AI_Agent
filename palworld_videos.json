@@ -6100,5 +6100,134 @@
       "unique": false,
       "key": "Melpaca 5"
     }
+  },
+  "Mossanda 5": {
+    "spec": "scripts/specs/palworld_mossanda_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f6c2e35a.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Mossanda",
+      "caption": "5 ways to breed Mossanda in Palworld 1.0: Prunelia + Tocotoco, Skutlass + Flambelle, Digtoise + Galeclaw, Nyafia + Rooby, Smokie + Puffolt.",
+      "video_script": "Here are five ways to breed Mossanda in Palworld one point zero. Combo one: breed Prunelia with Tocotoco on your Breeding Farm, then add a cake. Combo two: pair Skutlass and Flambelle together, and you get the same egg. Combo three: Digtoise plus Galeclaw works too, so use whichever Pals you have. Combo four: Nyafia with Rooby is another easy option. Combo five: breed Smokie with Puffolt on your Breeding Farm, then add a cake. Every egg hatches into Mossanda. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Prunelia",
+        "Tocotoco"
+      ],
+      "combos": [
+        [
+          "Prunelia",
+          "Tocotoco"
+        ],
+        [
+          "Skutlass",
+          "Flambelle"
+        ],
+        [
+          "Digtoise",
+          "Galeclaw"
+        ],
+        [
+          "Nyafia",
+          "Rooby"
+        ],
+        [
+          "Smokie",
+          "Puffolt"
+        ]
+      ],
+      "child": "Mossanda",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false,
+      "key": "Mossanda 5"
+    }
+  },
+  "Depresso 5": {
+    "spec": "scripts/specs/palworld_depresso_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-36558ce6.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Depresso",
+      "caption": "5 ways to breed Depresso in Palworld 1.0: Gumoss + Lamball, Fuack + Lifmunk, Pupperai + Teafant, Hoocrates + Vixy, Jolthog + Clovee.",
+      "video_script": "Here are five ways to breed Depresso in Palworld one point zero. Combo one: breed Gumoss with Lamball on your Breeding Farm, then add a cake. Combo two: pair Fuack and Lifmunk together, and you get the same egg. Combo three: Pupperai plus Teafant works too, so use whichever Pals you have. Combo four: Hoocrates with Vixy is another easy option. Combo five: breed Jolthog with Clovee on your Breeding Farm, then add a cake. Every egg hatches into Depresso. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Gumoss",
+        "Lamball"
+      ],
+      "combos": [
+        [
+          "Gumoss",
+          "Lamball"
+        ],
+        [
+          "Fuack",
+          "Lifmunk"
+        ],
+        [
+          "Pupperai",
+          "Teafant"
+        ],
+        [
+          "Hoocrates",
+          "Vixy"
+        ],
+        [
+          "Jolthog",
+          "Clovee"
+        ]
+      ],
+      "child": "Depresso",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false,
+      "key": "Depresso 5"
+    }
+  },
+  "Eikthyrdeer 5": {
+    "spec": "scripts/specs/palworld_eikthyrdeer_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-c34eae96.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Eikthyrdeer",
+      "caption": "5 ways to breed Eikthyrdeer in Palworld 1.0: Bristla + Tocotoco, Flopie + Cattiva, Dazzi + Lifmunk, Fuddler + Herbil, Flambelle + Melpaca.",
+      "video_script": "Here are five ways to breed Eikthyrdeer in Palworld one point zero. Combo one: breed Bristla with Tocotoco on your Breeding Farm, then add a cake. Combo two: pair Flopie and Cattiva together, and you get the same egg. Combo three: Dazzi plus Lifmunk works too, so use whichever Pals you have. Combo four: Fuddler with Herbil is another easy option. Combo five: breed Flambelle with Melpaca on your Breeding Farm, then add a cake. Every egg hatches into Eikthyrdeer. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Bristla",
+        "Tocotoco"
+      ],
+      "combos": [
+        [
+          "Bristla",
+          "Tocotoco"
+        ],
+        [
+          "Flopie",
+          "Cattiva"
+        ],
+        [
+          "Dazzi",
+          "Lifmunk"
+        ],
+        [
+          "Fuddler",
+          "Herbil"
+        ],
+        [
+          "Flambelle",
+          "Melpaca"
+        ]
+      ],
+      "child": "Eikthyrdeer",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false,
+      "key": "Eikthyrdeer 5"
+    }
   }
 }

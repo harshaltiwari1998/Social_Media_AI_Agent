@@ -7241,5 +7241,304 @@
   "palworld-guide-pyrin-red-hare-fire-mount": {
     "spec": "scripts/specs/games/palguide_147_palworld-guide-pyrin-red-hare-fire-mount.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-784dde24.mp4"
+  },
+  "deal-steam-deal-527230-90": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-527230-90.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-491249ce.mp4",
+    "data": {
+      "id": "deal-steam-deal-527230-90",
+      "slot": "deals",
+      "badge": "STEAM DAILY DEAL",
+      "headline": "Steam deal",
+      "title": "For The King 90% OFF on Steam | Now Rs 52 | Steam Deal Nov 6",
+      "video_script": "Today's Steam Daily Deal is For The King at 90 percent off, down from 529 rupees to just 52 rupees. For The King is a strategic RPG that blends tabletop and roguelike elements in a challenging adventure that spans the realms. Set off on a single player experience or play cooperatively both online and locally. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/527230/166aff558fda0f7e13df1970c7e825805c6e52b0/header_alt_assets_14.jpg?t=1792601077",
+          "label": "For The King"
+        },
+        {
+          "image": "steam:527230:0",
+          "fact": "-90%  Rs 52",
+          "sub": "was Rs 529"
+        },
+        {
+          "image": "steam:527230:1",
+          "fact": "Adventure + Indie + RPG",
+          "sub": "IronOak Games"
+        },
+        {
+          "image": "steam:527230:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Daily Deal is For The King at 90 percent off, down from 529 rupees to just 52 rupees.\nhttps://store.steampowered.com/app/527230\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 6 2026, 00:17 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "For The King",
+        "For The King sale",
+        "For The King price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-3067090-50": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-3067090-50.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-04f88f80.mp4",
+    "data": {
+      "id": "deal-steam-deal-3067090-50",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Wing Commander™: Academy 50% OFF on Steam | Now Rs 149 | Steam Deal Nov 6",
+      "video_script": "Wing Commander™: Academy is on sale on Steam at 50 percent off, down from 299 rupees to just 149 rupees. The deal ends on November 19. As a student at the TCSN Academy, you custom-design and fly unique missions from the CyberSchool’s holographic simulator. Wing Commander Academy is not another cinematic extravaganza - it’s an intense dogfighting marathon. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3067090/eb7efd1d18a9779472b86a76f36e42808e092331/header.jpg?t=1793901376",
+          "label": "Wing Commander™: Academy"
+        },
+        {
+          "image": "steam:3067090:0",
+          "fact": "-50%  Rs 149",
+          "sub": "was Rs 299"
+        },
+        {
+          "image": "steam:3067090:1",
+          "fact": "Action + Simulation",
+          "sub": "Origin Systems"
+        },
+        {
+          "image": "steam:3067090:2",
+          "fact": "Ends Nov 19",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Wing Commander™: Academy is on sale on Steam at 50 percent off, down from 299 rupees to just 149 rupees. The deal ends on November 19.\nhttps://store.steampowered.com/app/3067090\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 6 2026, 00:17 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Wing Commander™: Academy",
+        "Wing Commander™: Academy sale",
+        "Wing Commander™: Academy price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-2008750-50": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-2008750-50.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-49832a1e.mp4",
+    "data": {
+      "id": "deal-steam-deal-2008750-50",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Wing Commander™ IV: The Price of Freedom: 30th Anniversary Edition 50% OFF on Steam | Now Rs 299 | S",
+      "video_script": "Wing Commander™ IV: The Price of Freedom: 30th Anniversary Edition is on sale on Steam at 50 percent off, down from 599 rupees to just 299 rupees. The deal ends on November 19. Wing Commander IV: The Price of Freedom is one of the most iconic games of the 1990s. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2008750/be2fb13c2a9d9c7c67d4e8feb204b699f91bedb3/header.jpg?t=1793901373",
+          "label": "Wing Commander™ IV: The Price of Freedom: 30th Anniversary Edition"
+        },
+        {
+          "image": "steam:2008750:0",
+          "fact": "-50%  Rs 299",
+          "sub": "was Rs 599"
+        },
+        {
+          "image": "steam:2008750:1",
+          "fact": "Action + Simulation",
+          "sub": "Origin Systems"
+        },
+        {
+          "image": "steam:2008750:2",
+          "fact": "Ends Nov 19",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Wing Commander™ IV: The Price of Freedom: 30th Anniversary Edition is on sale on Steam at 50 percent off, down from 599 rupees to just 299 rupees. The deal ends on November 19.\nhttps://store.steampowered.com/app/2008750\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 6 2026, 00:17 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Wing Commander™ IV: The Price of Freedom: 30th Anniversary Edition",
+        "Wing Commander™ IV: The Price of Freedom: 30th Anniversary Edition sale",
+        "Wing Commander™ IV: The Price of Freedom: 30th Anniversary Edition price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deals-budget-2026-11-06": {
+    "spec": "scripts/specs/deals/long/deals-budget-2026-11-06.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-62a5e11e.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-62a5e11e-thumb.jpg",
+    "chapters": "0:00 Today's deals\n0:11 Ultima™ VI: The False Prophet - 50% off\n0:41 Wing Commander™: 35th Anniversary Edition - 50% off\n1:20 Ultima™ V: Warriors of Destiny - 50% off\n1:51 Ultima™ Underworld II - 50% off\n2:26 Crusader: No Regret™ - 50% off\n3:02 Ultima™ Underworld 1 - 50% off\n3:39 Crusader: No Remorse™ - 50% off\n4:12 Privateer 2: The Darkening: 30th Anniversary Edition - 50% off\n4:52 R.E.P.O. - 35% off\n5:26 Which one are you grabbing",
+    "data": {
+      "id": "deals-budget-2026-11-06",
+      "category": "gaming",
+      "title": "Best Steam Deals Under Rs 500 Today | Ultima™ VI: The False Prophet and More | Nov 6",
+      "description": "These are the best Steam deals under 500 rupees for November 6. 9 games, all on sale right now, with the price, what each game is, and its Steam reviews.\n\n- Ultima™ VI: The False Prophet: -50% Rs 149 (was Rs 299) - https://store.steampowered.com/app/3067530\n- Wing Commander™: 35th Anniversary Edition: -50% Rs 299 (was Rs 599) - https://store.steampowered.com/app/1996640\n- Ultima™ V: Warriors of Destiny: -50% Rs 149 (was Rs 299) - https://store.steampowered.com/app/3067520\n- Ultima™ Underworld II: -50% Rs 149 (was Rs 299) - https://store.steampowered.com/app/3067590\n- Crusader: No Regret™: -50% Rs 149 (was Rs 299) - https://store.steampowered.com/app/3066900\n- Ultima™ Underworld 1: -50% Rs 149 (was Rs 299) - https://store.steampowered.com/app/3067580\n- Crusader: No Remorse™: -50% Rs 149 (was Rs 299) - https://store.steampowered.com/app/3066890\n- Privateer 2: The Darkening: 30th Anniversary Edition: -50% Rs 299 (was Rs 599) - https://store.steampowered.com/app/3067130\n- R.E.P.O.: -35% Rs 291 (was Rs 449) - https://store.steampowered.com/app/3241660\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 6 2026, 00:17 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "SteamSale",
+        "EpicGames",
+        "GameDeals"
+      ],
+      "tags": [
+        "Ultima™ VI: The False Prophet",
+        "Wing Commander™: 35th Anniversary Edition",
+        "Ultima™ V: Warriors of Destiny",
+        "Ultima™ Underworld II",
+        "Crusader: No Regret™",
+        "Ultima™ Underworld 1",
+        "Crusader: No Remorse™",
+        "Privateer 2: The Darkening: 30th Anniversary Edition",
+        "free games",
+        "steam sale",
+        "steam deals today",
+        "epic games free games",
+        "best game deals",
+        "steam sale india",
+        "cheap pc games",
+        "games under 500 rupees"
+      ],
+      "thumbnail": {
+        "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3067530/e85cb17042ce8b992679ef6f619259dc570f91e9/header.jpg?t=1793901360",
+        "text": "UNDER RS 500"
+      },
+      "sections": [
+        {
+          "heading": "Today's deals",
+          "script": "These are the best Steam deals under 500 rupees for November 6. 9 games, all on sale right now, with the price, what each game is, and its Steam reviews.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3067530/e85cb17042ce8b992679ef6f619259dc570f91e9/header.jpg?t=1793901360",
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1996640/274747b0cf752ca9c519252bb805c7b915074538/header.jpg?t=1793901350",
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3067520/5cc92ccb11276291e4b2e6706d89564db0f33e0b/header.jpg?t=1793901350"
+          ]
+        },
+        {
+          "heading": "Ultima™ VI: The False Prophet - 50% off",
+          "script": "Ultima™ VI: The False Prophet is on sale on Steam at 50 percent off, down from 299 rupees to just 149 rupees. The deal ends on November 19. Uncover the mystery of the Gargoyles in this exciting sixth episode of the award-winning Ultima saga. Steam lists it as Adventure and RPG, made by Origin Systems, released 5 Nov, 2026. That saves you 150 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3067530/e85cb17042ce8b992679ef6f619259dc570f91e9/header.jpg?t=1793901360",
+            "steam:3067530:0",
+            "steam:3067530:1"
+          ]
+        },
+        {
+          "heading": "Wing Commander™: 35th Anniversary Edition - 50% off",
+          "script": "Wing Commander™: 35th Anniversary Edition is on sale on Steam at 50 percent off, down from 599 rupees to just 299 rupees. The deal ends on November 19. Wing Commander defined the space combat genre upon its release in 1990. Now celebrated in this special 35th Anniversary Edition, the game has been restored in collaboration with the dedicated Wing Commander community. Steam lists it as Action and Simulation, made by Origin Systems, released 5 Nov, 2026. That saves you 300 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1996640/274747b0cf752ca9c519252bb805c7b915074538/header.jpg?t=1793901350",
+            "steam:1996640:0",
+            "steam:1996640:1"
+          ]
+        },
+        {
+          "heading": "Ultima™ V: Warriors of Destiny - 50% off",
+          "script": "Ultima™ V: Warriors of Destiny is on sale on Steam at 50 percent off, down from 299 rupees to just 149 rupees. The deal ends on November 19. Now, Britannia’s destiny depends on your ability to discover the fate of Lord British and unseat the merciless Blackthorn. Steam lists it as Adventure and RPG, made by Origin Systems, released 5 Nov, 2026. That saves you 150 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3067520/5cc92ccb11276291e4b2e6706d89564db0f33e0b/header.jpg?t=1793901350",
+            "steam:3067520:0",
+            "steam:3067520:1"
+          ]
+        },
+        {
+          "heading": "Ultima™ Underworld II - 50% off",
+          "script": "Ultima™ Underworld II is on sale on Steam at 50 percent off, down from 299 rupees to just 149 rupees. The deal ends on November 19. Time is running out, food and water are running low, and an agent of the Guardian is killing off the imprisoned heroes one by one. You hold Britannia’s fate in your hands once again. Steam lists it as Adventure and RPG, made by Origin Systems, released 5 Nov, 2026. That saves you 150 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3067590/a7b9e9fa83d4dafe17553d75aca623366d4334f2/header.jpg?t=1793901344",
+            "steam:3067590:0",
+            "steam:3067590:1"
+          ]
+        },
+        {
+          "heading": "Crusader: No Regret™ - 50% off",
+          "script": "Crusader: No Regret™ is on sale on Steam at 50 percent off, down from 299 rupees to just 149 rupees. The deal ends on November 19. You’re a renegade Silencer out to settle a score with the powerful World Economic Consortium. Only your instincts, agility and firepower can get you in one piece to the ultimate confrontation with your greatest enemy. Steam lists it as Action and Adventure, made by Origin Systems, released 5 Nov, 2026. That saves you 150 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3066900/7b194fe523547187c93bd8550c27be1d520aae9e/header.jpg?t=1793901339",
+            "steam:3066900:0",
+            "steam:3066900:1"
+          ]
+        },
+        {
+          "heading": "Ultima™ Underworld 1 - 50% off",
+          "script": "Ultima™ Underworld 1 is on sale on Steam at 50 percent off, down from 299 rupees to just 149 rupees. The deal ends on November 19. You are the Avatar, noblest of heroes. You have beheld many wonders and proved yourself master of many dungeons. But nothing in your experience prepared you for this - the terror-filled passages of Britannia’s underworld. Steam lists it as Adventure and RPG, made by Origin Systems, released 5 Nov, 2026. That saves you 150 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3067580/a9a3c0fdcb4f84d37f808e012905bedeea671984/header.jpg?t=1793901338",
+            "steam:3067580:0",
+            "steam:3067580:1"
+          ]
+        },
+        {
+          "heading": "Crusader: No Remorse™ - 50% off",
+          "script": "Crusader: No Remorse™ is on sale on Steam at 50 percent off, down from 299 rupees to just 149 rupees. The deal ends on November 19. If you don't have a bad attitude... you don't have a chance. No pity... No mercy... No Remorse. Steam lists it as Action and Adventure, made by Origin Systems, released 5 Nov, 2026. That saves you 150 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3066890/6d7b7343494fbecf4522f4f5576eb5d555abed28/header.jpg?t=1793901335",
+            "steam:3066890:0",
+            "steam:3066890:1"
+          ]
+        },
+        {
+          "heading": "Privateer 2: The Darkening: 30th Anniversary Edition - 50% off",
+          "script": "Privateer 2: The Darkening: 30th Anniversary Edition is on sale on Steam at 50 percent off, down from 599 rupees to just 299 rupees. The deal ends on November 19. Privateer 2: The Darkening is a definitive example of PC gaming expression during the mid-1990s. Now celebrated in this special 30th Anniversary Edition, the game has been restored in collaboration with the dedicated community. Steam lists it as RPG and Simulation, made by Origin Systems, released 5 Nov, 2026. That saves you 300 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3067130/e7c070d26cc151e405cc125fd9737c31e2be5822/header.jpg?t=1793901334",
+            "steam:3067130:0",
+            "steam:3067130:1"
+          ]
+        },
+        {
+          "heading": "R.E.P.O. - 35% off",
+          "script": "R.E.P.O. is on sale on Steam at 35 percent off, down from 449 rupees to just 291 rupees. The deal ends on November 9. An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires. Steam lists it as Action and Early Access, made by semiwork, released 26 Feb, 2025. That saves you 158 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/62177765c05399116f0453fe1177b00ceed698c4/header_alt_assets_3.jpg?t=1793278962",
+            "steam:3241660:0",
+            "steam:3241660:1"
+          ]
+        },
+        {
+          "heading": "Which one are you grabbing",
+          "script": "That's the list for today. Prices on Steam are the India store prices in rupees, and they can change, so always check the store page before you buy. Every link is in the description. Tell me in the comments which game you are grabbing, and subscribe, because we check Epic and Steam every single day and post the free games and the best deals as soon as they go live.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3067530/e85cb17042ce8b992679ef6f619259dc570f91e9/header.jpg?t=1793901360"
+          ]
+        }
+      ]
+    }
   }
 }

@@ -6229,5 +6229,91 @@
       "unique": false,
       "key": "Eikthyrdeer 5"
     }
+  },
+  "Fuack 5": {
+    "spec": "scripts/specs/palworld_fuack_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e69b6b2b.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Fuack",
+      "caption": "5 ways to breed Fuack in Palworld 1.0: Sparkit + Gumoss, Teafant + Cremis, Daedream + Lamball, Hoocrates + Lifmunk, Pengullet + Depresso.",
+      "video_script": "Here are five ways to breed Fuack in Palworld one point zero. Combo one: breed Sparkit with Gumoss on your Breeding Farm, then add a cake. Combo two: pair Teafant and Cremis together, and you get the same egg. Combo three: Daedream plus Lamball works too, so use whichever Pals you have. Combo four: Hoocrates with Lifmunk is another easy option. Combo five: breed Pengullet with Depresso on your Breeding Farm, then add a cake. Every egg hatches into Fuack. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Sparkit",
+        "Gumoss"
+      ],
+      "combos": [
+        [
+          "Sparkit",
+          "Gumoss"
+        ],
+        [
+          "Teafant",
+          "Cremis"
+        ],
+        [
+          "Daedream",
+          "Lamball"
+        ],
+        [
+          "Hoocrates",
+          "Lifmunk"
+        ],
+        [
+          "Pengullet",
+          "Depresso"
+        ]
+      ],
+      "child": "Fuack",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false,
+      "key": "Fuack 5"
+    }
+  },
+  "Gumoss 5": {
+    "spec": "scripts/specs/palworld_gumoss_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-6676a935.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Gumoss",
+      "caption": "5 ways to breed Gumoss in Palworld 1.0: Sparkit + Cremis, Hoocrates + Pengullet, Ribbuny + Mau, Rushoar + Lifmunk, Swee + Vixy.",
+      "video_script": "Here are five ways to breed Gumoss in Palworld one point zero. Combo one: breed Sparkit with Cremis on your Breeding Farm, then add a cake. Combo two: pair Hoocrates and Pengullet together, and you get the same egg. Combo three: Ribbuny plus Mau works too, so use whichever Pals you have. Combo four: Rushoar with Lifmunk is another easy option. Combo five: breed Swee with Vixy on your Breeding Farm, then add a cake. Every egg hatches into Gumoss. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Sparkit",
+        "Cremis"
+      ],
+      "combos": [
+        [
+          "Sparkit",
+          "Cremis"
+        ],
+        [
+          "Hoocrates",
+          "Pengullet"
+        ],
+        [
+          "Ribbuny",
+          "Mau"
+        ],
+        [
+          "Rushoar",
+          "Lifmunk"
+        ],
+        [
+          "Swee",
+          "Vixy"
+        ]
+      ],
+      "child": "Gumoss",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false,
+      "key": "Gumoss 5"
+    }
   }
 }

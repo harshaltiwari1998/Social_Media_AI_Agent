@@ -7547,5 +7547,24 @@
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-b3ab92d6.mp4",
     "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-b3ab92d6-thumb.jpg",
     "chapters": "0:00 From a box with dots to your living room\n0:44 The Magnavox Odyssey in nineteen seventy two\n1:21 Atari and the age of cartridges\n2:06 Nintendo and Sega fight in the eighties\n2:53 PlayStation changes the game\n3:39 PlayStation Two the all time champion\n4:20 Microsoft joins with Xbox\n5:02 The Wii and the casual boom\n5:44 The Nintendo Switch era\n6:23 PlayStation Five, Xbox Series and Switch Two\n7:04 Which console was yours"
+  },
+  "aniimo-currencies-and-glimmer-economy-guide": {
+    "spec": "scripts/specs/long/gaming_80_aniimo-currencies-and-glimmer-economy-guide.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-c299d5c5.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-c299d5c5-thumb.jpg",
+    "chapters": "0:00 Understanding the Aniimo economy\n0:59 The four currencies that matter\n1:40 Credits: the easy money\n2:28 Free Glimmer: the big milestones\n3:26 Free Glimmer: daily and story sources\n4:07 What to buy first: Primegy refills\n4:54 Capafruit and Sparkling Cubes\n5:34 What to avoid\n6:15 A simple weekly plan\n7:05 Your turn"
+  },
+  "palworld-guide-galeclaw-glider-high-speed-gliding": {
+    "spec": "scripts/specs/games/palguide_148_palworld-guide-galeclaw-glider-high-speed-gliding.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-184ee20f.mp4"
+  },
+  "palworld-guide-cinnamoth-mysterious-scales-farming-boost": {
+    "spec": "scripts/specs/games/palguide_149_palworld-guide-cinnamoth-mysterious-scales-farming-boost.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-49a085a5.mp4"
+  },
+  "palworld-guide-vaelet-purification-of-gaia-ground-drops": {
+    "spec": "scripts/specs/games/palguide_150_palworld-guide-vaelet-purification-of-gaia-ground-drops.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-085c4c84.mp4"
   }
 }

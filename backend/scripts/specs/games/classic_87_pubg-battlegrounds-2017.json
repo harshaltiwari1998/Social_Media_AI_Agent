@@ -1,0 +1,44 @@
+{
+  "id": "pubg-battlegrounds-2017",
+  "slot": "classic",
+  "order": 87,
+  "headline": "PUBG: How the battle royale began",
+  "title": "PUBG Facts | Brendan Greene Story | Classic Games",
+  "video_script": "PUBG, now called PUBG Battlegrounds, launched in twenty seventeen and is published by Krafton. It was inspired by the Japanese film Battle Royale from the year two thousand. Its creator Brendan Greene, known as PlayerUnknown, first worked on battle royale mods, including one for Arma two. Players parachute onto an island and the safe zone keeps shrinking. Solo, duo or squad? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:PUBG: Battlegrounds",
+      "label": "PUBG Battlegrounds"
+    },
+    {
+      "image": "wiki:PUBG: Battlegrounds",
+      "fact": "Launched 2017",
+      "sub": "Published by Krafton"
+    },
+    {
+      "image": "wiki:PUBG: Battlegrounds",
+      "fact": "Battle Royale film",
+      "sub": "The inspiration"
+    },
+    {
+      "image": "wiki:PUBG: Battlegrounds",
+      "fact": "Brendan Greene",
+      "sub": "Known as PlayerUnknown"
+    }
+  ],
+  "description": "PUBG: Battlegrounds (2017, Krafton): inspired by the film Battle Royale, created by Brendan Greene (PlayerUnknown) after his Arma 2 mods. Sources: Wikipedia, PC Gamer.",
+  "hashtags": [
+    "PUBG",
+    "BattleRoyale",
+    "ClassicGames"
+  ],
+  "tags": [
+    "PUBG",
+    "Battlegrounds",
+    "Brendan Greene",
+    "PlayerUnknown",
+    "Krafton",
+    "gaming facts",
+    "classic games"
+  ]
+}

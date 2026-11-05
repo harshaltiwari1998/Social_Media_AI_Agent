@@ -1,0 +1,43 @@
+{
+  "id": "resident-evil-2-1998",
+  "slot": "classic",
+  "order": 86,
+  "headline": "Resident Evil 2: Leon and Claire",
+  "title": "Resident Evil 2 Facts | Raccoon City 1998 | Classic Games",
+  "video_script": "Resident Evil two is a survival horror game from Capcom, released for the PlayStation in nineteen ninety eight. You play rookie cop Leon Kennedy or Claire Redfield, who is Chris Redfield's sister, escaping Raccoon City after its people were turned into zombies. Each hero has a different scenario, with different partners and obstacles. A full remake arrived in January twenty nineteen. Leon or Claire? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Resident Evil 2",
+      "label": "Resident Evil 2"
+    },
+    {
+      "image": "wiki:Resident Evil 2",
+      "fact": "Leon + Claire",
+      "sub": "Two playable heroes"
+    },
+    {
+      "image": "wiki:Resident Evil 2",
+      "fact": "Two scenarios",
+      "sub": "Different partners and obstacles"
+    },
+    {
+      "image": "wiki:Resident Evil 2",
+      "fact": "Remake 2019",
+      "sub": "January release"
+    }
+  ],
+  "description": "Resident Evil 2 (Capcom, 1998, PlayStation): play Leon Kennedy or Claire Redfield in Raccoon City; a remake came in January 2019. Sources: Wikipedia, StrategyWiki.",
+  "hashtags": [
+    "ResidentEvil",
+    "Capcom",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Resident Evil 2",
+    "Leon Kennedy",
+    "Claire Redfield",
+    "Capcom",
+    "gaming facts",
+    "classic games"
+  ]
+}

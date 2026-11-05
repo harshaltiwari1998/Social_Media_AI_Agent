@@ -1,0 +1,43 @@
+{
+  "id": "bioshock-2007",
+  "slot": "classic",
+  "order": 89,
+  "headline": "BioShock: Welcome to Rapture",
+  "title": "BioShock Facts | Rapture Underwater City | Classic Games",
+  "video_script": "BioShock is a first person shooter released in August two thousand seven, developed by 2K Boston and published by 2K. You play Jack, who finds the underwater city of Rapture, built by Andrew Ryan as an isolated utopia. A substance called ADAM gave people superhuman powers through plasmids, and the city fell apart. Would you kindly play it again? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:BioShock",
+      "label": "BioShock"
+    },
+    {
+      "image": "wiki:BioShock",
+      "fact": "August 2007",
+      "sub": "2K Boston"
+    },
+    {
+      "image": "wiki:BioShock",
+      "fact": "Rapture",
+      "sub": "Underwater city"
+    },
+    {
+      "image": "wiki:BioShock",
+      "fact": "ADAM + plasmids",
+      "sub": "Superhuman powers"
+    }
+  ],
+  "description": "BioShock (2K Boston, August 2007): explore the underwater city of Rapture, built by Andrew Ryan; plasmids grant powers. Sources: Wikipedia, press retrospectives.",
+  "hashtags": [
+    "BioShock",
+    "2K",
+    "ClassicGames"
+  ],
+  "tags": [
+    "BioShock",
+    "Rapture",
+    "Andrew Ryan",
+    "plasmids",
+    "gaming facts",
+    "classic games"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "zelda-ocarina-of-time-1998",
+  "slot": "classic",
+  "order": 84,
+  "headline": "Ocarina of Time: The first 3D Zelda",
+  "title": "Zelda Ocarina of Time Facts | First 3D Zelda | Classic Games",
+  "video_script": "The Legend of Zelda, Ocarina of Time launched in November nineteen ninety eight, developed and published by Nintendo for the Nintendo sixty four. It was the first Zelda game with three D graphics, and the fifth in the series. Its target lock system and context sensitive buttons later became common in three D adventure games. Nintendo released an enhanced version, Ocarina of Time three D, on the three D S in twenty eleven. Best Zelda ever? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:The Legend of Zelda: Ocarina of Time",
+      "label": "Zelda: Ocarina of Time"
+    },
+    {
+      "image": "wiki:The Legend of Zelda: Ocarina of Time",
+      "fact": "November 1998",
+      "sub": "Nintendo 64 release"
+    },
+    {
+      "image": "wiki:The Legend of Zelda: Ocarina of Time",
+      "fact": "First 3D Zelda",
+      "sub": "Fifth game in the series"
+    },
+    {
+      "image": "wiki:The Legend of Zelda: Ocarina of Time",
+      "fact": "Target lock",
+      "sub": "Became a 3D genre standard"
+    }
+  ],
+  "description": "The Legend of Zelda: Ocarina of Time (Nintendo, November 1998, Nintendo 64): the first 3D Zelda game and fifth in the series, with a 3DS version in 2011. Sources: Wikipedia, Giant Bomb.",
+  "hashtags": [
+    "Zelda",
+    "Nintendo",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Ocarina of Time",
+    "Zelda",
+    "Nintendo 64",
+    "first 3D Zelda",
+    "gaming facts",
+    "classic games"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "fallout-3-2008",
+  "slot": "classic",
+  "order": 88,
+  "headline": "Fallout 3: The Capital Wasteland",
+  "title": "Fallout 3 Facts | Vault 101 Story | Classic Games",
+  "video_script": "Fallout three is a two thousand eight action role playing game from Bethesda Game Studios, released on Windows, PlayStation three and Xbox 360. It is set in the Washington D C area, two hundred years after a devastating nuclear war. You start in Vault one oh one and leave it to search for your missing father. Favourite Fallout game? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Fallout 3",
+      "label": "Fallout 3"
+    },
+    {
+      "image": "wiki:Fallout 3",
+      "fact": "200 years later",
+      "sub": "After a nuclear war"
+    },
+    {
+      "image": "wiki:Fallout 3",
+      "fact": "Vault 101",
+      "sub": "Where you start"
+    },
+    {
+      "image": "wiki:Fallout 3",
+      "fact": "Find your father",
+      "sub": "The main quest"
+    }
+  ],
+  "description": "Fallout 3 (Bethesda Game Studios, 2008): set around Washington D.C. two hundred years after a nuclear war; you leave Vault 101 to find your father. Sources: Wikipedia, press reviews.",
+  "hashtags": [
+    "Fallout",
+    "Bethesda",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Fallout 3",
+    "Bethesda",
+    "Vault 101",
+    "Capital Wasteland",
+    "gaming facts",
+    "classic games"
+  ]
+}

@@ -7540,5 +7540,12 @@
         }
       ]
     }
+  },
+  "history-of-video-game-consoles-explained": {
+    "spec": "scripts/specs/long/gaming_65_history-of-video-game-consoles-explained.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-b3ab92d6.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-b3ab92d6-thumb.jpg",
+    "chapters": "0:00 From a box with dots to your living room\n0:44 The Magnavox Odyssey in nineteen seventy two\n1:21 Atari and the age of cartridges\n2:06 Nintendo and Sega fight in the eighties\n2:53 PlayStation changes the game\n3:39 PlayStation Two the all time champion\n4:20 Microsoft joins with Xbox\n5:02 The Wii and the casual boom\n5:44 The Nintendo Switch era\n6:23 PlayStation Five, Xbox Series and Switch Two\n7:04 Which console was yours"
   }
 }

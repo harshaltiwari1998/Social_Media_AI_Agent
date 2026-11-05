@@ -6057,5 +6057,48 @@
       "unique": false,
       "key": "Ribbuny 5"
     }
+  },
+  "Melpaca 5": {
+    "spec": "scripts/specs/palworld_melpaca_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-70dfd837.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Melpaca",
+      "caption": "5 ways to breed Melpaca in Palworld 1.0: Flopie + Hangyu, Dazzi + Mau, Flambelle + Celaray, Finsider + Foxparks, Jelliette + Fuddler.",
+      "video_script": "Here are five ways to breed Melpaca in Palworld one point zero. Combo one: breed Flopie with Hangyu on your Breeding Farm, then add a cake. Combo two: pair Dazzi and Mau together, and you get the same egg. Combo three: Flambelle plus Celaray works too, so use whichever Pals you have. Combo four: Finsider with Foxparks is another easy option. Combo five: breed Jelliette with Fuddler on your Breeding Farm, then add a cake. Every egg hatches into Melpaca. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Flopie",
+        "Hangyu"
+      ],
+      "combos": [
+        [
+          "Flopie",
+          "Hangyu"
+        ],
+        [
+          "Dazzi",
+          "Mau"
+        ],
+        [
+          "Flambelle",
+          "Celaray"
+        ],
+        [
+          "Finsider",
+          "Foxparks"
+        ],
+        [
+          "Jelliette",
+          "Fuddler"
+        ]
+      ],
+      "child": "Melpaca",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false,
+      "key": "Melpaca 5"
+    }
   }
 }

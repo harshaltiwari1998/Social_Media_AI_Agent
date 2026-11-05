@@ -7182,5 +7182,37 @@
   "palworld-guide-ribbuny-happy-go-lucky-handiwork": {
     "spec": "scripts/specs/games/palguide_143_ribbuny-happy-go-lucky-handiwork.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-86e28d92.mp4"
+  },
+  "persona-4-revival-february-18": {
+    "spec": "scripts/specs/games/new_42_persona-4-revival-february-18.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-6027b02e.mp4"
+  },
+  "god-of-war-2005": {
+    "spec": "scripts/specs/games/classic_79_god-of-war-2005.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-6cf6217c.mp4"
+  },
+  "half-life-2-2004": {
+    "spec": "scripts/specs/games/classic_80_half-life-2-2004.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-671bc619.mp4"
+  },
+  "gta-4-liberty-city-2008": {
+    "spec": "scripts/specs/games/classic_81_gta-4-liberty-city-2008.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f929a0cb.mp4"
+  },
+  "dada-balakrishna": {
+    "spec": "scripts/specs/movies/movie_new_37_dada-balakrishna.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-25ff66df.mp4"
+  },
+  "clayface-opening": {
+    "spec": "scripts/specs/movies/movie_review_34_clayface-opening.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-c814c13a.mp4"
+  },
+  "reel-kahaani-2012-facts": {
+    "spec": "scripts/specs/movies/reel_71_kahaani-2012-facts.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ac52b3eb.mp4"
+  },
+  "aniimo-hoptail-jaguaraun-event-aniimo": {
+    "spec": "scripts/specs/games/aniimo_172_aniimo-hoptail-jaguaraun-event-aniimo.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-cb4ca787.mp4"
   }
 }

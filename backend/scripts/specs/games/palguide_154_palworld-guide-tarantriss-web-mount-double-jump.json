@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-tarantriss-web-mount-double-jump",
+  "slot": "palguide",
+  "order": 154,
+  "headline": "Tarantriss Tarantriss Web",
+  "title": "Tarantriss | Tarantriss Web Mount With Web Grapple | Palworld Guide",
+  "video_script": "Want to swing like a spider? Ride Tarantriss. Its partner skill, Tarantriss Web, makes it a mount with a double jump, and you can shoot spider web to grapple and move at high speed. At base it works Handiwork and Gathering at level three. It is a Dark Pal that does both jobs well. Do you grapple with Tarantriss? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Tarantriss",
+      "label": "Tarantriss"
+    },
+    {
+      "image": "pal:Tarantriss",
+      "fact": "Rideable mount",
+      "sub": "Double jump while mounted"
+    },
+    {
+      "image": "steam:1623730:14",
+      "fact": "Web grapple",
+      "sub": "Move at high speed"
+    },
+    {
+      "image": "pal:Tarantriss",
+      "fact": "Handiwork and Gathering",
+      "sub": "Both level 3"
+    }
+  ],
+  "description": "Tarantriss in Palworld 1.0: a mount with double jump and a web grapple, plus Handiwork and Gathering at level three.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Tarantriss",
+    "Tarantriss Web",
+    "Palworld Dark Pals",
+    "Palworld mounts",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld grapple"
+  ]
+}

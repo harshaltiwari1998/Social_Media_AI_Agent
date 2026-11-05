@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-vaelet-purification-of-gaia-ground-drops",
+  "slot": "palguide",
+  "order": 150,
+  "headline": "Vaelet Purification of Gaia",
+  "title": "Vaelet | Purification of Gaia More Drops From Ground Pals | Palworld Guide",
+  "video_script": "Farming Ground Pals for loot? Bring Vaelet. Its partner skill, Purification of Gaia, makes Ground Pals drop forty to eighty percent more items when you defeat them, and it does not stack. At base it is a six job worker, with Planting, Handiwork, Gathering and Medicine Production all at level three. Does Vaelet work at your base? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Vaelet",
+      "label": "Vaelet"
+    },
+    {
+      "image": "pal:Vaelet",
+      "fact": "Purification of Gaia",
+      "sub": "Ground Pals drop more"
+    },
+    {
+      "image": "steam:1623730:10",
+      "fact": "Forty to eighty percent",
+      "sub": "More items, no stacking"
+    },
+    {
+      "image": "pal:Vaelet",
+      "fact": "Four jobs at level 3",
+      "sub": "Planting Handiwork Gathering Medicine"
+    }
+  ],
+  "description": "Vaelet in Palworld 1.0: Purification of Gaia boosts drops from Ground Pals by 40 to 80 percent, and it works four jobs at level three.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Vaelet",
+    "Vaelet Purification of Gaia",
+    "Palworld drops",
+    "Palworld Grass Pals",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld farming tips"
+  ]
+}

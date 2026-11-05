@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-tombat-ultrasonic-sensor-detect-dungeons",
+  "slot": "palguide",
+  "order": 157,
+  "headline": "Tombat Ultrasonic Sensor",
+  "title": "Tombat | Ultrasonic Sensor Find Dungeons And Chests | Palworld Guide",
+  "video_script": "Can't find a dungeon? Use Tombat. Its partner skill, Ultrasonic Sensor, uses ultrasonic waves to detect nearby dungeons, treasure chests and scrap. It is a handy scout for explorers. At base it works Mining at level three, with Gathering and Transporting at level two. How many chests has Tombat found for you? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Tombat",
+      "label": "Tombat"
+    },
+    {
+      "image": "pal:Tombat",
+      "fact": "Ultrasonic Sensor",
+      "sub": "Detects dungeons"
+    },
+    {
+      "image": "steam:1623730:18",
+      "fact": "Chests and scrap",
+      "sub": "Shown nearby"
+    },
+    {
+      "image": "pal:Tombat",
+      "fact": "Mining level 3",
+      "sub": "Gathering and Transporting 2"
+    }
+  ],
+  "description": "Tombat in Palworld 1.0: Ultrasonic Sensor detects nearby dungeons, treasure chests and scrap, and it works Mining at level three.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Tombat",
+    "Tombat Ultrasonic Sensor",
+    "Palworld Dark Pals",
+    "Palworld dungeons",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld exploration"
+  ]
+}

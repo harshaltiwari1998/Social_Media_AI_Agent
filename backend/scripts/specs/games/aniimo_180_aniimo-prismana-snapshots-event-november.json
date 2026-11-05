@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-prismana-snapshots-event-november",
+  "slot": "aniimo",
+  "order": 180,
+  "headline": "Prismana Snapshots",
+  "title": "Prismana Snapshots | Photo Event Until November 29 | Aniimo Guide",
+  "video_script": "A new photo event is coming to Aniimo. Prismana Snapshots runs from November twelfth to November twenty ninth, and the goal is to capture pictures of Prismana Aniimo. Prismana forms are special rare versions with a second element and their own attacks. So keep your camera ready and learn where they appear. Which Prismana will you snap first? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:11",
+      "label": "Prismana Snapshots"
+    },
+    {
+      "image": "steam:4126040:12",
+      "fact": "Nov 12 to Nov 29",
+      "sub": "Limited time event"
+    },
+    {
+      "image": "steam:4126040:13",
+      "fact": "Photo Event",
+      "sub": "Capture Prismana Aniimo"
+    },
+    {
+      "image": "steam:4126040:14",
+      "fact": "Prismana Forms",
+      "sub": "Second element and new attacks"
+    },
+    {
+      "image": "steam:4126040:15",
+      "label": "Ready your camera"
+    }
+  ],
+  "description": "Aniimo Prismana Snapshots event: November 12 to November 29, capture pictures of Prismana Aniimo. Checked on Game8 and AllThings.How, Nov 2026.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo event",
+    "Aniimo Prismana",
+    "Prismana Snapshots",
+    "Aniimo Pawprint Studio",
+    "Aniimo update",
+    "Aniimo photo event"
+  ],
+  "expires": "2026-11-29"
+}

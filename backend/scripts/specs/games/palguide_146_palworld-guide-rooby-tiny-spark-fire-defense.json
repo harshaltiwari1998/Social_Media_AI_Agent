@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-rooby-tiny-spark-fire-defense",
+  "slot": "palguide",
+  "order": 146,
+  "headline": "Rooby Tiny Spark",
+  "title": "Rooby | Tiny Spark Fire Defense Boost | Palworld Guide",
+  "video_script": "Fire team on a budget? Rooby is a cheap helper. Its partner skill, Tiny Spark, raises the Defense of Fire Pals by fifteen to thirty percent while it is in your party, and it does not stack. At base it works Kindling and Farming at level one, and it sometimes drops a Flame Organ on a Ranch. Is Rooby in your party? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Rooby",
+      "label": "Rooby"
+    },
+    {
+      "image": "pal:Rooby",
+      "fact": "Tiny Spark",
+      "sub": "Fire Pal Defense up"
+    },
+    {
+      "image": "steam:1623730:3",
+      "fact": "Kindling and Farming",
+      "sub": "Both level 1"
+    },
+    {
+      "image": "pal:Rooby",
+      "fact": "Flame Organ",
+      "sub": "Sometimes drops on Ranch"
+    }
+  ],
+  "description": "Rooby in Palworld 1.0: Tiny Spark boosts Fire Pal Defense, Kindling and Farming at level one, Flame Organ on a Ranch. Checked on two Pal databases Nov 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Rooby",
+    "Rooby Tiny Spark",
+    "Palworld Fire Pals",
+    "Palworld defense boost",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld base tips"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-pyrin-red-hare-fire-mount",
+  "slot": "palguide",
+  "order": 147,
+  "headline": "Pyrin Red Hare",
+  "title": "Pyrin | Red Hare Fire Mount | Palworld Guide",
+  "video_script": "Want a Fire mount? Meet Pyrin. Its partner skill, Red Hare, lets you ride it, and while mounted your attack type becomes Fire with five to twenty percent more Attack. At base it is a serious Kindling worker at level four, plus Lumbering at level two. That makes it a strong cooker and a decent lumberjack. Would you ride Pyrin? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Pyrin",
+      "label": "Pyrin"
+    },
+    {
+      "image": "pal:Pyrin",
+      "fact": "Red Hare",
+      "sub": "Rideable Fire mount"
+    },
+    {
+      "image": "steam:1623730:6",
+      "fact": "Attack up",
+      "sub": "Five to twenty percent"
+    },
+    {
+      "image": "pal:Pyrin",
+      "fact": "Kindling level 4",
+      "sub": "Plus Lumbering level 2"
+    }
+  ],
+  "description": "Pyrin in Palworld 1.0: Red Hare makes it a Fire mount with a 5 to 20 percent Attack boost, Kindling level 4 and Lumbering level 2.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Pyrin",
+    "Pyrin Red Hare",
+    "Palworld Fire mount",
+    "Palworld mounts",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld kindling"
+  ]
+}

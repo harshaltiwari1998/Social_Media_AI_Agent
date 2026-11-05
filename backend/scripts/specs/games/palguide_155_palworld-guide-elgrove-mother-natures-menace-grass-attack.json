@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-elgrove-mother-natures-menace-grass-attack",
+  "slot": "palguide",
+  "order": 155,
+  "headline": "Elgrove Mother Nature Menace",
+  "title": "Elgrove | Mother Nature Menace Grass Attack Boost | Palworld Guide",
+  "video_script": "Elgrove turns you into a Grass fighter. Its partner skill, Mother Nature's Menace, changes your attack type to Grass and raises your Attack by thirty to fifty percent. At base it is a flexible worker, with Planting, Lumbering and Transporting all at level three. Mining and Gathering come at level two. Is Elgrove your Grass pick? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Elgrove",
+      "label": "Elgrove"
+    },
+    {
+      "image": "pal:Elgrove",
+      "fact": "Mother Nature's Menace",
+      "sub": "Grass attack type"
+    },
+    {
+      "image": "steam:1623730:15",
+      "fact": "Attack up",
+      "sub": "Thirty to fifty percent"
+    },
+    {
+      "image": "pal:Elgrove",
+      "fact": "Three jobs at level 3",
+      "sub": "Planting Lumbering Transporting"
+    }
+  ],
+  "description": "Elgrove in Palworld 1.0: Mother Nature's Menace switches your attack to Grass with a 30 to 50 percent boost, and it works Planting, Lumbering and Transporting at level three.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Elgrove",
+    "Elgrove Mother Nature's Menace",
+    "Palworld Grass Pals",
+    "Palworld attack boost",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld base worker"
+  ]
+}

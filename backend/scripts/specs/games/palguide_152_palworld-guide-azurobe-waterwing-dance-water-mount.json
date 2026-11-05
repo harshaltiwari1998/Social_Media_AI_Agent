@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-azurobe-waterwing-dance-water-mount",
+  "slot": "palguide",
+  "order": 152,
+  "headline": "Azurobe Waterwing Dance",
+  "title": "Azurobe | Waterwing Dance Ride On Water | Palworld Guide",
+  "video_script": "Cross the water in style with Azurobe. Its partner skill, Waterwing Dance, lets you ride it across water, and while mounted your attack type becomes Water with five to twenty percent more Attack. At base it is a top Watering worker at level four. Great for lakes and coasts. Do you ride Azurobe? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Azurobe",
+      "label": "Azurobe"
+    },
+    {
+      "image": "pal:Azurobe",
+      "fact": "Waterwing Dance",
+      "sub": "Ride across water"
+    },
+    {
+      "image": "steam:1623730:12",
+      "fact": "Water attacks",
+      "sub": "Five to twenty percent more Attack"
+    },
+    {
+      "image": "pal:Azurobe",
+      "fact": "Watering level 4",
+      "sub": "Top water worker"
+    }
+  ],
+  "description": "Azurobe in Palworld 1.0: Waterwing Dance lets you ride across water with a Water attack boost, and it works Watering at level four.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Azurobe",
+    "Azurobe Waterwing Dance",
+    "Palworld Water Pals",
+    "Palworld water mount",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld mounts"
+  ]
+}

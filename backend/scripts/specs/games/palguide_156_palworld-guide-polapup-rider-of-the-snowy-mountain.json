@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-polapup-rider-of-the-snowy-mountain",
+  "slot": "palguide",
+  "order": 156,
+  "headline": "Polapup Rider of the Snowy Mountain",
+  "title": "Polapup | Rider of the Snowy Mountain Fast Snow Mount | Palworld Guide",
+  "video_script": "Snow travel is easy with Polapup. Its partner skill, Rider of the Snowy Mountain, lets you ride it, with eighty to one hundred sixty percent more movement speed on snow, and you can slide quickly down slopes. At base it works Watering at level three and Cooling at level four. Do you ride Polapup in the snow? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Polapup",
+      "label": "Polapup"
+    },
+    {
+      "image": "pal:Polapup",
+      "fact": "Snowy Mountain Rider",
+      "sub": "Rideable Ice mount"
+    },
+    {
+      "image": "steam:1623730:16",
+      "fact": "Speed up on snow",
+      "sub": "Eighty to one hundred sixty percent"
+    },
+    {
+      "image": "pal:Polapup",
+      "fact": "Cooling level 4",
+      "sub": "Watering level 3"
+    }
+  ],
+  "description": "Polapup in Palworld 1.0: Rider of the Snowy Mountain gives 80 to 160 percent more speed on snow and fast slope sliding, plus Cooling at level four.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Polapup",
+    "Polapup snow mount",
+    "Palworld Ice Pals",
+    "Palworld mounts",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld cooling"
+  ]
+}

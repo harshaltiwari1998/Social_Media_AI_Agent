@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-felbat-life-steal-medicine",
+  "slot": "palguide",
+  "order": 151,
+  "headline": "Felbat Life Steal",
+  "title": "Felbat | Life Steal Heal While You Fight | Palworld Guide",
+  "video_script": "Need healing in a long fight? Felbat steals it back. Its partner skill, Life Steal, gives you and Felbat a life steal effect that restores five to nine percent of the damage you deal as health. At base it works Medicine Production at level three, so it brews healing items too. Do you fight with Felbat? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Felbat",
+      "label": "Felbat"
+    },
+    {
+      "image": "pal:Felbat",
+      "fact": "Life Steal",
+      "sub": "You and Felbat both heal"
+    },
+    {
+      "image": "steam:1623730:11",
+      "fact": "Five to nine percent",
+      "sub": "Of damage dealt"
+    },
+    {
+      "image": "pal:Felbat",
+      "fact": "Medicine level 3",
+      "sub": "Brews at your base"
+    }
+  ],
+  "description": "Felbat in Palworld 1.0: Life Steal restores 5 to 9 percent of damage dealt as health, and it works Medicine Production at level three.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Felbat",
+    "Felbat Life Steal",
+    "Palworld Dark Pals",
+    "Palworld healing",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld medicine"
+  ]
+}

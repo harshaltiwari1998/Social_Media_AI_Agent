@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-foxcicle-aurora-guide-ice-attack",
+  "slot": "palguide",
+  "order": 158,
+  "headline": "Foxcicle Aurora Guide",
+  "title": "Foxcicle | Aurora Guide Ice Pal Attack Boost | Palworld Guide",
+  "video_script": "Running an Ice team? Add Foxcicle. Its partner skill, Aurora Guide, raises the Attack of Ice Pals by fifteen to thirty percent while it is in your party, and it does not stack. At base it is a top Cooling worker at level four, with Farming at level three. It sometimes drops Ice Organs on a Ranch. Is Foxcicle on your Ice team? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Foxcicle",
+      "label": "Foxcicle"
+    },
+    {
+      "image": "pal:Foxcicle",
+      "fact": "Aurora Guide",
+      "sub": "Ice Pal Attack up"
+    },
+    {
+      "image": "steam:1623730:19",
+      "fact": "Fifteen to thirty percent",
+      "sub": "While in your party"
+    },
+    {
+      "image": "pal:Foxcicle",
+      "fact": "Cooling level 4",
+      "sub": "Farming level 3"
+    }
+  ],
+  "description": "Foxcicle in Palworld 1.0: Aurora Guide boosts Ice Pal Attack by 15 to 30 percent, with Cooling at level four and Farming at level three.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Foxcicle",
+    "Foxcicle Aurora Guide",
+    "Palworld Ice Pals",
+    "Palworld attack boost",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld cooling"
+  ]
+}

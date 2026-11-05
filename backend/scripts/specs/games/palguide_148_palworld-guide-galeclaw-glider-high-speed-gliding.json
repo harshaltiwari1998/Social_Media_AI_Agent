@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-galeclaw-glider-high-speed-gliding",
+  "slot": "palguide",
+  "order": 148,
+  "headline": "Galeclaw Galeclaw Glider",
+  "title": "Galeclaw | Galeclaw Glider Better Gliding | Palworld Guide",
+  "video_script": "Gliding is slow until you bring Galeclaw. Its partner skill, Galeclaw Glider, changes how your equipped glider works. You get high speed gliding, and you can even shoot with your right hand while you glide. At base it works Gathering at level two. It is a Neutral Pal built for travel. Do you glide with Galeclaw? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Galeclaw",
+      "label": "Galeclaw"
+    },
+    {
+      "image": "pal:Galeclaw",
+      "fact": "Galeclaw Glider",
+      "sub": "Upgrades your glider"
+    },
+    {
+      "image": "steam:1623730:8",
+      "fact": "High speed gliding",
+      "sub": "While in your party"
+    },
+    {
+      "image": "pal:Galeclaw",
+      "fact": "Gathering level 2",
+      "sub": "At your base"
+    }
+  ],
+  "description": "Galeclaw in Palworld 1.0: its Glider partner skill gives high speed gliding and right-hand shooting in the air, plus Gathering at level two.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Galeclaw",
+    "Galeclaw Glider",
+    "Palworld glider",
+    "Palworld partner skill",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld travel tips",
+    "Palworld gathering"
+  ]
+}

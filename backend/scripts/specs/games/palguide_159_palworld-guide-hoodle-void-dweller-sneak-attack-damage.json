@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-hoodle-void-dweller-sneak-attack-damage",
+  "slot": "palguide",
+  "order": 159,
+  "headline": "Hoodle Void-Dweller",
+  "title": "Hoodle | Void-Dweller Sneak Attack Damage | Palworld Guide",
+  "video_script": "Love sneak attacks? Bring Hoodle. Its partner skill, Void-Dweller, raises the damage you deal to enemies that are not in combat by fifty to one hundred percent, and it does not stack. At base it is an easy starter worker, with Handiwork and Transporting at level one. Perfect for opening a fight with a big hit. Do you open with Hoodle? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Hoodle",
+      "label": "Hoodle"
+    },
+    {
+      "image": "pal:Hoodle",
+      "fact": "Void-Dweller",
+      "sub": "Sneak attack damage up"
+    },
+    {
+      "image": "steam:1623730:20",
+      "fact": "Fifty to one hundred percent",
+      "sub": "Against idle enemies"
+    },
+    {
+      "image": "pal:Hoodle",
+      "fact": "Handiwork and Transporting",
+      "sub": "Both level 1"
+    }
+  ],
+  "description": "Hoodle in Palworld 1.0: Void-Dweller adds 50 to 100 percent damage against enemies that are not in combat, with Handiwork and Transporting at level one.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Hoodle",
+    "Hoodle Void-Dweller",
+    "Palworld Dark Pals",
+    "Palworld sneak attack",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld base tips"
+  ]
+}

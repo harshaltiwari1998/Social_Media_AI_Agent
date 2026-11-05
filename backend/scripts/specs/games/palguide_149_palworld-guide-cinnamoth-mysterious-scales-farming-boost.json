@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-cinnamoth-mysterious-scales-farming-boost",
+  "slot": "palguide",
+  "order": 149,
+  "headline": "Cinnamoth Mysterious Scales",
+  "title": "Cinnamoth | Mysterious Scales Farming Boost | Palworld Guide",
+  "video_script": "Cinnamoth is a quiet base booster. Its partner skill, Mysterious Scales, attacks with Poison Fog when you use it. While it lives at your base, every other base Pal gets plus one Farming level, and it does not stack. It also works Planting, Gathering and Medicine Production at level two. Do you farm with Cinnamoth? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Cinnamoth",
+      "label": "Cinnamoth"
+    },
+    {
+      "image": "pal:Cinnamoth",
+      "fact": "Mysterious Scales",
+      "sub": "Poison Fog attack"
+    },
+    {
+      "image": "steam:1623730:9",
+      "fact": "Farming plus 1",
+      "sub": "For all other base Pals"
+    },
+    {
+      "image": "pal:Cinnamoth",
+      "fact": "Three jobs at level 2",
+      "sub": "Planting Gathering Medicine"
+    }
+  ],
+  "description": "Cinnamoth in Palworld 1.0: Mysterious Scales adds one Farming level to other base Pals, with Planting, Gathering and Medicine Production at level two.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Cinnamoth",
+    "Cinnamoth Mysterious Scales",
+    "Palworld Grass Pals",
+    "Palworld farming",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld base tips"
+  ]
+}

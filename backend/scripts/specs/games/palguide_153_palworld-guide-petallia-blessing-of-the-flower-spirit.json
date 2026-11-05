@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-petallia-blessing-of-the-flower-spirit",
+  "slot": "palguide",
+  "order": 153,
+  "headline": "Petallia Blessing of the Flower Spirit",
+  "title": "Petallia | Blessing of the Flower Spirit Heal And Plant Boost | Palworld Guide",
+  "video_script": "Petallia is a healer and a farmer in one. Its partner skill, Blessing of the Flower Spirit, restores seventy five to eighty five percent of your health when you use it. At your base it adds plus one Planting level to every other base Pal, and it does not stack. It also works Planting and Medicine Production at level four. Is Petallia your farm boss? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Petallia",
+      "label": "Petallia"
+    },
+    {
+      "image": "pal:Petallia",
+      "fact": "Flower Spirit",
+      "sub": "Heals seventy five to eighty five percent"
+    },
+    {
+      "image": "steam:1623730:13",
+      "fact": "Planting plus 1",
+      "sub": "For other base Pals"
+    },
+    {
+      "image": "pal:Petallia",
+      "fact": "Level 4 worker",
+      "sub": "Planting and Medicine Production"
+    }
+  ],
+  "description": "Petallia in Palworld 1.0: Blessing of the Flower Spirit heals you 75 to 85 percent and boosts base Planting, with Planting and Medicine at level four.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Petallia",
+    "Petallia Flower Spirit",
+    "Palworld Grass Pals",
+    "Palworld healing",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld partner skill",
+    "Palworld planting"
+  ]
+}

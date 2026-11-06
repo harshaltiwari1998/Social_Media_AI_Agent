@@ -6358,5 +6358,134 @@
       "unique": false,
       "key": "Gorirat 5"
     }
+  },
+  "Hangyu 5": {
+    "spec": "scripts/specs/palworld_hangyu_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-9af420e4.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Hangyu",
+      "caption": "5 ways to breed Hangyu in Palworld 1.0: Ribbuny + Flambelle, Flopie + Tanzee, Fuddler + Killamari, Bristla + Rooby, Direhowl + Rushoar.",
+      "video_script": "Here are five ways to breed Hangyu in Palworld one point zero. Combo one: breed Ribbuny with Flambelle on your Breeding Farm, then add a cake. Combo two: pair Flopie and Tanzee together, and you get the same egg. Combo three: Fuddler plus Killamari works too, so use whichever Pals you have. Combo four: Bristla with Rooby is another easy option. Combo five: breed Direhowl with Rushoar on your Breeding Farm, then add a cake. Every egg hatches into Hangyu. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Ribbuny",
+        "Flambelle"
+      ],
+      "combos": [
+        [
+          "Ribbuny",
+          "Flambelle"
+        ],
+        [
+          "Flopie",
+          "Tanzee"
+        ],
+        [
+          "Fuddler",
+          "Killamari"
+        ],
+        [
+          "Bristla",
+          "Rooby"
+        ],
+        [
+          "Direhowl",
+          "Rushoar"
+        ]
+      ],
+      "child": "Hangyu",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false,
+      "key": "Hangyu 5"
+    }
+  },
+  "Pyrin 5": {
+    "spec": "scripts/specs/palworld_pyrin_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-cc732566.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Pyrin",
+      "caption": "5 ways to breed Pyrin in Palworld 1.0: Ghangler + Chikipi, Majex + Gumoss, Gildra + Fuddler, Dazzi + Bushi, Reptyro + Tanzee.",
+      "video_script": "Here are five ways to breed Pyrin in Palworld one point zero. Combo one: breed Ghangler with Chikipi on your Breeding Farm, then add a cake. Combo two: pair Majex and Gumoss together, and you get the same egg. Combo three: Gildra plus Fuddler works too, so use whichever Pals you have. Combo four: Dazzi with Bushi is another easy option. Combo five: breed Reptyro with Tanzee on your Breeding Farm, then add a cake. Every egg hatches into Pyrin. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Ghangler",
+        "Chikipi"
+      ],
+      "combos": [
+        [
+          "Ghangler",
+          "Chikipi"
+        ],
+        [
+          "Majex",
+          "Gumoss"
+        ],
+        [
+          "Gildra",
+          "Fuddler"
+        ],
+        [
+          "Dazzi",
+          "Bushi"
+        ],
+        [
+          "Reptyro",
+          "Tanzee"
+        ]
+      ],
+      "child": "Pyrin",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false,
+      "key": "Pyrin 5"
+    }
+  },
+  "Nitewing 5": {
+    "spec": "scripts/specs/palworld_nitewing_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-65083da4.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Nitewing",
+      "caption": "5 ways to breed Nitewing in Palworld 1.0: Dazzi + Melpaca, Puffolt + Cattiva, Loupmoon + Sparkit, Munchill + Foxparks, Chillet + Fuddler.",
+      "video_script": "Here are five ways to breed Nitewing in Palworld one point zero. Combo one: breed Dazzi with Melpaca on your Breeding Farm, then add a cake. Combo two: pair Puffolt and Cattiva together, and you get the same egg. Combo three: Loupmoon plus Sparkit works too, so use whichever Pals you have. Combo four: Munchill with Foxparks is another easy option. Combo five: breed Chillet with Fuddler on your Breeding Farm, then add a cake. Every egg hatches into Nitewing. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Dazzi",
+        "Melpaca"
+      ],
+      "combos": [
+        [
+          "Dazzi",
+          "Melpaca"
+        ],
+        [
+          "Puffolt",
+          "Cattiva"
+        ],
+        [
+          "Loupmoon",
+          "Sparkit"
+        ],
+        [
+          "Munchill",
+          "Foxparks"
+        ],
+        [
+          "Chillet",
+          "Fuddler"
+        ]
+      ],
+      "child": "Nitewing",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false,
+      "key": "Nitewing 5"
+    }
   }
 }

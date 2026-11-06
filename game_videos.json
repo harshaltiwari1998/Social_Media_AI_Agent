@@ -7618,5 +7618,33 @@
       "name": "Garchizard",
       "types": "Dragon/Fire"
     }
+  },
+  "aniimo-how-to-get-helmwhelp": {
+    "spec": "scripts/specs/games/aniimo_182_aniimo-how-to-get-helmwhelp.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-bbdc350a.mp4"
+  },
+  "aniimo-where-to-find-chirpi-forms": {
+    "spec": "scripts/specs/games/aniimo_183_aniimo-where-to-find-chirpi-forms.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b55275a2.mp4"
+  },
+  "aniimo-how-to-get-bolty-blitzwood": {
+    "spec": "scripts/specs/games/aniimo_184_aniimo-how-to-get-bolty-blitzwood.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-2a64a6f0.mp4"
+  },
+  "aniimo-geoclaw-best-build": {
+    "spec": "scripts/specs/games/aniimo_185_aniimo-geoclaw-best-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-77699bad.mp4"
+  },
+  "aniimo-dazmand-best-build": {
+    "spec": "scripts/specs/games/aniimo_186_aniimo-dazmand-best-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-d44ccd78.mp4"
+  },
+  "palworld-guide-felbat-life-steal-medicine": {
+    "spec": "scripts/specs/games/palguide_151_palworld-guide-felbat-life-steal-medicine.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-2568035a.mp4"
+  },
+  "palworld-guide-azurobe-waterwing-dance-water-mount": {
+    "spec": "scripts/specs/games/palguide_152_palworld-guide-azurobe-waterwing-dance-water-mount.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-955ff198.mp4"
   }
 }

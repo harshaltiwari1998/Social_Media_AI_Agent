@@ -7594,5 +7594,29 @@
   "aniimo-how-to-get-bulbly": {
     "spec": "scripts/specs/games/aniimo_181_aniimo-how-to-get-bulbly.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ccdf9560.mp4"
+  },
+  "fusion-greninja+blaziken": {
+    "kind": "motion",
+    "spec": "scripts/specs/fusion_pairs.json",
+    "video": "F:\\AI AGENT\\run_fus\\pokemon\\fusion-greninja+blaziken\\final.mp4",
+    "data": {
+      "id": "greninja+blaziken",
+      "a": "Greninja",
+      "b": "Blaziken",
+      "name": "Greniken",
+      "types": "Water/Fire"
+    }
+  },
+  "fusion-garchomp+charizard": {
+    "kind": "motion",
+    "spec": "scripts/specs/fusion_pairs.json",
+    "video": "F:\\AI AGENT\\run_fus\\pokemon\\fusion-garchomp+charizard\\final.mp4",
+    "data": {
+      "id": "garchomp+charizard",
+      "a": "Garchomp",
+      "b": "Charizard",
+      "name": "Garchizard",
+      "types": "Dragon/Fire"
+    }
   }
 }

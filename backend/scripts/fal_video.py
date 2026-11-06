@@ -213,6 +213,74 @@ def evolve_clip(spec: dict, work: Path, out: Path) -> Path:
     return out
 
 
+def fuse_clip(spec: dict, work: Path, out: Path) -> Path:
+    """A fusion drawn locally (no GPU quota), in the style of evolve_clip: both parents stand side by side and light
+    up, their white silhouettes slide together into one, the merged shape and the fused creature swap faster and
+    faster, then the screen burns to white. {"fuse": [a, b, fused_png], "background": ref, "seconds": 3.8}"""
+    if out.exists():
+        return out
+    from moviepy.editor import VideoClip
+    from PIL import ImageFilter
+
+    seconds = float(spec.get("seconds", 3.8))
+    base = _poke_background(spec.get("background"), work)
+    white = Image.new("RGB", (1080, 1920), (255, 255, 255))
+    parents = []
+    for name in spec["fuse"][:2]:
+        art, (x, y) = _poke_art(name, work)
+        small = art.resize((int(art.width * 0.6), int(art.height * 0.6)), Image.LANCZOS)
+        parents.append((small, y + art.height))  # keep the feet on the same line
+    fused, fpos = _poke_art(spec["fuse"][2], work)
+
+    def mask_at(art: Image.Image, cx: float, bottom: int) -> Image.Image:
+        m = Image.new("L", (1080, 1920), 0)
+        m.paste(art.getchannel("A"), (int(cx - art.width / 2), bottom - art.height))
+        return m
+
+    fused_mask = Image.new("L", (1080, 1920), 0)
+    fused_mask.paste(fused.getchannel("A"), fpos)
+    fused_layer = (fused_mask, fused_mask.filter(ImageFilter.GaussianBlur(40)))
+    lit, meet, swap_end = 0.8, 1.9, seconds - 0.55
+    merged_cache: dict = {}
+
+    def parents_at(gap: float):
+        key = round(gap)
+        if key not in merged_cache:
+            m = Image.new("L", (1080, 1920), 0)
+            for (art, bottom), cx in zip(parents, (540 - gap, 540 + gap)):
+                m = Image.composite(Image.new("L", m.size, 255), m, mask_at(art, cx, bottom))
+            merged_cache[key] = (m, m.filter(ImageFilter.GaussianBlur(40)))
+        return merged_cache[key]
+
+    def frame(t: float) -> np.ndarray:
+        im = base.copy()
+        if t < lit:  # both parents start to shine
+            for (art, bottom), cx in zip(parents, (290, 790)):
+                im.paste(art, (int(cx - art.width / 2), bottom - art.height), art)
+            mask, glow = parents_at(250)
+            k = t / lit
+            im = Image.composite(Image.blend(im, white, 0.9 * k), im, mask)
+            return np.asarray(Image.composite(white, im, glow.point(lambda v: int(v * k))))
+        if t < meet:  # the white shapes slide together
+            p = (t - lit) / (meet - lit)
+            mask, glow = parents_at(250 * (1 - p * p * (3 - 2 * p)))
+        else:  # merged shape <-> fused creature, faster and faster; settle on the fusion before the white
+            p = min(1.0, (t - meet) / max(0.1, swap_end - meet))
+            interval = 0.3 * (1 - p) + 0.04 * p
+            k = int((t - meet) / interval) % 2 if p < 0.85 else 1
+            mask, glow = fused_layer if k else parents_at(0)
+        im = Image.composite(white, im, glow)
+        im = Image.composite(white, im, mask)
+        if t > swap_end:
+            im = Image.blend(im, white, min(1.0, (t - swap_end) / 0.45))
+        return np.asarray(im)
+
+    VideoClip(frame, duration=seconds).write_videofile(str(out), fps=FPS, codec="libx264", audio=False, preset="medium",
+                                                      logger=None)
+    print("  fuse", out.name, flush=True)
+    return out
+
+
 def scene_image(spec, out: Path, work: Path) -> Path:
     if out.exists():
         return out
@@ -388,6 +456,9 @@ def build(storyboard: Path, out_dir: Path) -> Path:
             continue
         if "evolve" in c:  # game-style evolution transition, drawn locally
             clips.append(evolve_clip(c, work, out_dir / f"clip_{i:02d}.mp4"))
+            continue
+        if "fuse" in c:  # fusion transition, drawn locally
+            clips.append(fuse_clip(c, work, out_dir / f"clip_{i:02d}.mp4"))
             continue
         if "still" in c:  # hybrid mode: a still with a zoom instead of a paid/quota-limited AI clip
             clips.append(still_clip(_resolve_source(c["still"], work), c.get("seconds", 3), c.get("zoom", [1.0, 1.12]), c.get("flash", False),

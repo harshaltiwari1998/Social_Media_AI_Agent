@@ -65,7 +65,11 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
 - `inbox/<pokemon1>+<pokemon2>[=<name>].mp4` - Pokemon fusion reveal clips the owner makes in the Gemini app
   (prompts: `F:/AI AGENT/pokemon_fusion_prompts.md`) and uploads on the GitHub website; names from
   `backend/scripts/specs/fusion_pairs.json`. The same pairs (with a `"look"` per pair) are also made automatically by
-  `pokemon_daily.py`: FLUX.1 Kontext ZeroGPU Space draws the fused creature, Wan animates it (shared `fusion-<a>+<b>` record).
+  `pokemon_daily.py`: FLUX.1 Kontext ZeroGPU Space edits the parent whose body the `look` keeps (the other parent is
+  NOT named in the prompt - naming it made Kontext just redraw that Pokemon), Wan animates it with body-motion prompts
+  (big flash/explosion prompts melted the creature), and the fusion itself is drawn locally (`fal_video.fuse_clip`:
+  both parents' white silhouettes slide together, swap with the fused form, white screen). Style 2 since 2026-11-06;
+  style-1 leftovers in a pair's cache are thrown away (shared `fusion-<a>+<b>` record).
 - `backend/scripts/specs/gameplay/<plan>.json` - cut plans for the owner's own stream recordings.
 - `daily_job.py` picks the lowest-`order` unposted, unexpired spec per slot (`--from-end` takes the
   highest, for manual batches that must not collide with scheduled runs).
@@ -192,6 +196,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-06 - Fusion style 2: one-parent Kontext edit, locally drawn fusion transition, body-motion Wan prompts (owner: animation looked bad).
 - 2026-11-06 - `daily-rashifal.yml`: 12 rashifal shorts every day on the AI Trend Poster FB Page, scheduled for 06:00 IST.
 - 2026-11-06 - `rashifal.py`: 12 Hindi rashifal shorts (Dhanteras, 6 Nov) posted to the AI Trend Poster Facebook Page.
 - 2026-11-04 - Breeding cards with animated Pals (oval spotlights); 3 Wan moves per Pal so scenes do not repeat.

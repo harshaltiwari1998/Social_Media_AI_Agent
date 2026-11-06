@@ -25,6 +25,7 @@ import argparse
 import io
 import json
 import logging
+import re
 import shutil
 import sys
 from datetime import date
@@ -181,16 +182,21 @@ def fusion_image(pair: dict, out: Path) -> Path:
     from PIL import Image, ImageDraw
 
     out.parent.mkdir(parents=True, exist_ok=True)
+    # Kontext edits ONE creature well; given both side by side it mostly kept one parent unchanged (Garchizard came
+    # out as a plain Charizard). So edit the parent whose body the "look" keeps and paint the other one's parts on.
+    base, other = fusion_base(pair)
     sheet = Image.new("RGB", (1024, 1024), (255, 255, 255))
-    for k, slug in enumerate((pair["a"], pair["b"])):
-        art = _art(slug)
-        scale = min(480 / art.width, 900 / art.height)
-        art = art.resize((int(art.width * scale), int(art.height * scale)), Image.LANCZOS)
-        sheet.paste(art, (16 + k * 512 + (480 - art.width) // 2, (1024 - art.height) // 2), art)
-    src = out.with_name("pair.png")
+    art = _art(base)
+    scale = min(860 / art.width, 900 / art.height)
+    art = art.resize((int(art.width * scale), int(art.height * scale)), Image.LANCZOS)
+    sheet.paste(art, ((1024 - art.width) // 2, (1024 - art.height) // 2), art)
+    src = out.with_name("base.png")
     sheet.save(src)
-    prompt = (f"Pokemon fusion of {_name(pair['a'])} and {_name(pair['b'])}: a single creature with {pair['look']}. "
-              "One creature only, centered, full body, plain white background, official Pokemon art style")
+    # naming the other Pokemon made Kontext redraw it (Garchomp + Charizard -> a plain Charizard): describe its parts only
+    look = re.sub(rf"(?i)\b(like )?{re.escape(_name(other))}(?:'s)?\s*", "", pair["look"])
+    look = re.sub(rf"(?i)\b{re.escape(_name(base))}'s\s*", "its ", look)
+    prompt = (f"Edit this creature: {look}. Keep its own head, face, body shape and pose exactly, only change the colors "
+              "and add the new parts. One creature only, full body, plain white background, official Pokemon art style")
     client = Client(KONTEXT_SPACE, hf_token=fv.hf_token(), verbose=False)
     try:
         res = client.predict(handle_file(str(src)), prompt, 7, False, 3.0, 28, api_name="/infer")
@@ -212,24 +218,42 @@ def fusion_image(pair: dict, out: Path) -> Path:
     return out
 
 
+def fusion_base(pair: dict) -> tuple[str, str]:
+    """(base, other): the parent whose body the pair's "look" keeps ("Snorlax's huge round body ...") comes first."""
+    look = pair["look"].lower()
+    pos = {s: look.find(_name(s).lower()) for s in (pair["a"], pair["b"])}
+    a, b = pair["a"], pair["b"]
+    return (b, a) if 0 <= pos[b] < pos[a] or pos[a] < 0 <= pos[b] else (a, b)
+
+
+# Wan keeps a character when the prompt asks for body motion; big "white flash" / "explosion" prompts made it melt
+# the creature into a different one (Garchizard turned into a blue ghost dragon), and heavy effects hid it.
+_KEEP = "the character keeps exactly the same design, shape and colors, anime style, smooth natural motion"
+
+
 def fusion_storyboard(pair: dict, meta: dict, fused: Path) -> dict:
+    """Parent A moves, parent B moves, a locally drawn fusion (silhouettes slide together, swap, white screen), then
+    the fused creature fades in from white, looks around and attacks. Style 2 (owner, 2026-11-06: style 1 looked bad)."""
     a, b, name = meta["a"], meta["b"], meta["name"]
     ta, tb = (t.lower() for t in (meta["types"].split("/") * 2)[:2])
     fx, fx_b = ENERGY.get(ta, "white energy"), ENERGY.get(tb, "white energy")
     bg_a, bg_b = BACKGROUND.get(ta, "wiki:Meadow"), BACKGROUND.get(tb, "wiki:Meadow")
-    clips = [({"poke": pair["a"], "background": bg_a},
-              f"the creature looks around determined, {fx} float around it, anime style, smooth animation, camera slowly pushes in"),
-             ({"poke": pair["b"], "background": bg_b},
-              f"the creature roars and starts glowing bright white, swirling {fx_b} spins around it, fusion energy, anime style"),
-             ({"poke": str(fused), "background": bg_a},
-              f"a blinding white flash fades away revealing the creature, swirling {fx} and light beams around it, epic reveal, anime style"),
-             ({"poke": str(fused), "background": bg_a},
-              f"the creature roars and unleashes a powerful attack of {fx}, epic low angle camera, anime style, dynamic motion")]
-    narration = [f"What happens when {a} fuses with {b}?", f"{b} joins the fusion. The energy is going wild!",
+    wan = lambda who, bg, prompt, fade=0.0: {"image": {"poke": who, "background": bg}, "shots": [[prompt, 5]],  # noqa: E731
+                                             **({"white_in": fade} if fade else {})}
+    clips = [wan(pair["a"], bg_a, f"the creature shifts its weight, turns its head and raises its arms into a battle stance, "
+                                  f"breathing, a few {fx} drift in the air, static camera, {_KEEP}"),
+             wan(pair["b"], bg_b, f"the creature steps forward, turns its head and clenches its fists, breathing, "
+                                  f"a few {fx_b} drift in the air, static camera, {_KEEP}"),
+             {"fuse": [pair["a"], pair["b"], str(fused)], "background": bg_a, "seconds": 3.8},
+             wan(str(fused), bg_a, f"the creature opens its eyes, looks around proudly and flexes its body, breathing, "
+                                   f"small sparkles of light fade around it, static camera, {_KEEP}", 0.6),
+             wan(str(fused), bg_a, f"the creature roars and swings forward in an attack, a small burst of {fx} from its body, "
+                                   f"the creature stays clearly visible in the center, slow camera push in, {_KEEP}")]
+    narration = [f"What happens when {a} fuses with {b}?", f"And here comes {b}!", f"{a} and {b} are fusing!",
                  f"Fusion complete! Meet {name}!",
                  f"{name}, a {meta['types']} fusion. Which two Pokemon should fuse next? Comment below!"]
-    return {"title": f"{a} + {b} fusion", "backend": "wan", "voice": "en-US-GuyNeural", "narration": narration,
-            "clips": [{"image": img, "shots": [[prompt, 5]]} for img, prompt in clips]}
+    return {"title": f"{a} + {b} fusion", "backend": "wan", "voice": "en-US-GuyNeural", "style": 2,
+            "narration": narration, "clips": clips}
 
 
 def make_fusion(pair: dict, poster, games: dict) -> None:
@@ -237,8 +261,12 @@ def make_fusion(pair: dict, poster, games: dict) -> None:
             "types": "/".join(dict.fromkeys([fi.primary_type(pair["a"]), fi.primary_type(pair["b"])]))}
     log.info("== fusion %s + %s = %s (%s)", meta["a"], meta["b"], meta["name"], meta["types"])
     out = CACHE / f"fusion-{meta['id']}"
-    fused = fusion_image(pair, out / "fused.png")
     board = out / "storyboard.json"
+    if board.exists() and json.loads(board.read_text(encoding="utf-8")).get("style") != 2:
+        # style-1 leftovers (two-parent Kontext art, clips in the old order) would be mixed in - start over
+        for f in [*out.glob("clip_*.mp4"), *out.glob("scene_*.jpg"), out / "fused.png", board]:
+            f.unlink(missing_ok=True)
+    fused = fusion_image(pair, out / "fused.png")
     board.write_text(json.dumps(fusion_storyboard(pair, meta, fused), indent=2) + "\n", encoding="utf-8")
     video = fv.build(board, out)
     games[f"fusion-{meta['id']}"] = {"kind": "motion", "spec": PAIRS.relative_to(ROOT).as_posix(), "video": str(video), "data": meta}

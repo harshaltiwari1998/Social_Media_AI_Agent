@@ -7650,5 +7650,376 @@
   "palworld-guide-petallia-blessing-of-the-flower-spirit": {
     "spec": "scripts/specs/games/palguide_153_palworld-guide-petallia-blessing-of-the-flower-spirit.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-a0fda751.mp4"
+  },
+  "deal-steam-deal-584980-76": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-584980-76.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5c494548.mp4",
+    "data": {
+      "id": "deal-steam-deal-584980-76",
+      "slot": "deals",
+      "badge": "STEAM DAILY DEAL",
+      "headline": "Steam deal",
+      "title": "Late Shift 76% OFF on Steam | Now Rs 165 | Steam Deal Nov 6",
+      "video_script": "Today's Steam Daily Deal is Late Shift at 76 percent off, down from 690 rupees to just 165 rupees. Late Shift is a high stakes FMV crime thriller. Forced into a brutal London heist, your choices matter in this interactive cinematic experience with adaptable storylines that lead to one of seven conclusions. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/584980/header.jpg?t=1727963993",
+          "label": "Late Shift"
+        },
+        {
+          "image": "steam:584980:0",
+          "fact": "-76%  Rs 165",
+          "sub": "was Rs 690"
+        },
+        {
+          "image": "steam:584980:1",
+          "fact": "Adventure + Indie",
+          "sub": "CtrlMovie"
+        },
+        {
+          "image": "steam:584980:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Daily Deal is Late Shift at 76 percent off, down from 690 rupees to just 165 rupees.\nhttps://store.steampowered.com/app/584980\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 6 2026, 23:50 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Late Shift",
+        "Late Shift sale",
+        "Late Shift price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-2904040-30": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-2904040-30.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f65b7c48.mp4",
+    "data": {
+      "id": "deal-steam-deal-2904040-30",
+      "slot": "deals",
+      "badge": "STEAM WEEKEND DEAL",
+      "headline": "Steam deal",
+      "title": "Cheap Car Repair 30% OFF on Steam | Now Rs 608 | Steam Deal Nov 6",
+      "video_script": "Today's Steam Weekend Deal is Cheap Car Repair at 30 percent off, down from 869 rupees to just 608 rupees. Cheap Car Repair - go back in time to Poland of the 90's. Run your own Cheap Car Repair shop. Look for savings wherever you can. Make lots of money and avoid angry customers! Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2904040/dbcdc51dbc0aa6ef105eb6fef5f1f7f63aa17fa1/header.jpg?t=1793899848",
+          "label": "Cheap Car Repair"
+        },
+        {
+          "image": "steam:2904040:0",
+          "fact": "-30%  Rs 608",
+          "sub": "was Rs 869"
+        },
+        {
+          "image": "steam:2904040:1",
+          "fact": "Adventure + Indie + Simulation",
+          "sub": "Little Dog Games"
+        },
+        {
+          "image": "steam:2904040:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Weekend Deal is Cheap Car Repair at 30 percent off, down from 869 rupees to just 608 rupees.\nhttps://store.steampowered.com/app/2904040\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 6 2026, 23:50 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Cheap Car Repair",
+        "Cheap Car Repair sale",
+        "Cheap Car Repair price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-3552140-30": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-3552140-30.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f1ce8c3f.mp4",
+    "data": {
+      "id": "deal-steam-deal-3552140-30",
+      "slot": "deals",
+      "badge": "STEAM WEEKEND DEAL",
+      "headline": "Steam deal",
+      "title": "Retro Rewind - Video Store Simulator 30% OFF on Steam | Now Rs 623 | Steam Deal Nov 6",
+      "video_script": "Today's Steam Weekend Deal is Retro Rewind - Video Store Simulator at 30 percent off, down from 890 rupees to just 623 rupees. Manage your very own video store in the early 90s! Rent, sell, decorate and expand your business from the ground up and relive the golden ages of movie and video game rentals! Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3552140/a37a3b1c921e27ee498414e109b06ff29ae2add5/header_alt_assets_0.jpg?t=1793898735",
+          "label": "Retro Rewind - Video Store Simulator"
+        },
+        {
+          "image": "steam:3552140:0",
+          "fact": "-30%  Rs 623",
+          "sub": "was Rs 890"
+        },
+        {
+          "image": "steam:3552140:1",
+          "fact": "Casual + Indie + Simulation",
+          "sub": "Blood Pact Studios"
+        },
+        {
+          "image": "steam:3552140:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Weekend Deal is Retro Rewind - Video Store Simulator at 30 percent off, down from 890 rupees to just 623 rupees.\nhttps://store.steampowered.com/app/3552140\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 6 2026, 23:50 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Retro Rewind - Video Store Simulator",
+        "Retro Rewind - Video Store Simulator sale",
+        "Retro Rewind - Video Store Simulator price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-2448570-50": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-2448570-50.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-8a66ec5f.mp4",
+    "data": {
+      "id": "deal-steam-deal-2448570-50",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Road Rash™: 30th Anniversary Edition 50% OFF on Steam | Now Rs 299 | Steam Deal Nov 6",
+      "video_script": "Road Rash™: 30th Anniversary Edition is on sale on Steam at 50 percent off, down from 599 rupees to just 299 rupees. The deal ends on November 19. Road Rash, the franchise which defined the combat racing genre, returns in the first ever digital version of the game. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2448570/a12ed683c51938590f28400c89cd8c8204e1e8db/header.jpg?t=1793986604",
+          "label": "Road Rash™: 30th Anniversary Edition"
+        },
+        {
+          "image": "steam:2448570:0",
+          "fact": "-50%  Rs 299",
+          "sub": "was Rs 599"
+        },
+        {
+          "image": "steam:2448570:1",
+          "fact": "Action + Racing",
+          "sub": "Electronic Arts"
+        },
+        {
+          "image": "steam:2448570:2",
+          "fact": "Ends Nov 19",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Road Rash™: 30th Anniversary Edition is on sale on Steam at 50 percent off, down from 599 rupees to just 299 rupees. The deal ends on November 19.\nhttps://store.steampowered.com/app/2448570\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 6 2026, 23:50 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Road Rash™: 30th Anniversary Edition",
+        "Road Rash™: 30th Anniversary Edition sale",
+        "Road Rash™: 30th Anniversary Edition price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-5438400-40": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-5438400-40.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-87df2de4.mp4",
+    "data": {
+      "id": "deal-steam-deal-5438400-40",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Alien Prospectors 40% OFF on Steam | Now Rs 467 | Steam Deal Nov 6",
+      "video_script": "Alien Prospectors is on sale on Steam at 40 percent off, down from 779 rupees to just 467 rupees. The deal ends on November 20. Head out onto an alien planet with a drill, a scanner and a limited supply of air. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5438400/8124ca3249d9e9f96672f515bbc95b5e0c236477/header.jpg?t=1793985040",
+          "label": "Alien Prospectors"
+        },
+        {
+          "image": "steam:5438400:0",
+          "fact": "-40%  Rs 467",
+          "sub": "was Rs 779"
+        },
+        {
+          "image": "steam:5438400:1",
+          "fact": "Casual + Indie + Simulation",
+          "sub": "BefuddleBug"
+        },
+        {
+          "image": "steam:5438400:2",
+          "fact": "Ends Nov 20",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Alien Prospectors is on sale on Steam at 40 percent off, down from 779 rupees to just 467 rupees. The deal ends on November 20.\nhttps://store.steampowered.com/app/5438400\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 6 2026, 23:50 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Alien Prospectors",
+        "Alien Prospectors sale",
+        "Alien Prospectors price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-3274580-40": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-3274580-40.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-2211eb4f.mp4",
+    "data": {
+      "id": "deal-steam-deal-3274580-40",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Anno 117: Pax Romana 40% OFF on Steam | Now Rs 2,519 | Steam Deal Nov 6",
+      "video_script": "Anno 117: Pax Romana is on sale on Steam at 40 percent off, down from 4,199 rupees to just 2,519 rupees. In Anno 117: Pax Romana, the genre-defining builder franchise returns with its most ambitious installment yet. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3274580/038d88b3917b4f1c6919c8120adabf86a6702085/header_alt_assets_5.jpg?t=1793873126",
+          "label": "Anno 117: Pax Romana"
+        },
+        {
+          "image": "steam:3274580:0",
+          "fact": "-40%  Rs 2,519",
+          "sub": "was Rs 4,199"
+        },
+        {
+          "image": "steam:3274580:1",
+          "fact": "Simulation + Strategy",
+          "sub": "Ubisoft Mainz"
+        },
+        {
+          "image": "steam:3274580:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Anno 117: Pax Romana is on sale on Steam at 40 percent off, down from 4,199 rupees to just 2,519 rupees.\nhttps://store.steampowered.com/app/3274580\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 6 2026, 23:50 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Anno 117: Pax Romana",
+        "Anno 117: Pax Romana sale",
+        "Anno 117: Pax Romana price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-4880410-35": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-4880410-35.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-244a23f5.mp4",
+    "data": {
+      "id": "deal-steam-deal-4880410-35",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Tenebrarium 35% OFF on Steam | Now Rs 81 | Steam Deal Nov 6",
+      "video_script": "Tenebrarium is on sale on Steam at 35 percent off, down from 125 rupees to just 81 rupees. The deal ends on November 13. An idle-like alien colony simulator. Study an alien species and expand the colony to discover all their peculiar behaviours. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4880410/dc3c21c98a996b698ab4d133e6711ea9b9e44c8e/header.jpg?t=1793983958",
+          "label": "Tenebrarium"
+        },
+        {
+          "image": "steam:4880410:0",
+          "fact": "-35%  Rs 81",
+          "sub": "was Rs 125"
+        },
+        {
+          "image": "steam:4880410:1",
+          "fact": "Casual + Indie + Simulation",
+          "sub": "Whatdog"
+        },
+        {
+          "image": "steam:4880410:2",
+          "fact": "Ends Nov 13",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Tenebrarium is on sale on Steam at 35 percent off, down from 125 rupees to just 81 rupees. The deal ends on November 13.\nhttps://store.steampowered.com/app/4880410\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 6 2026, 23:50 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Tenebrarium",
+        "Tenebrarium sale",
+        "Tenebrarium price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
   }
 }

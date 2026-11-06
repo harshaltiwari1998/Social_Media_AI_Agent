@@ -6487,5 +6487,91 @@
       "unique": false,
       "key": "Nitewing 5"
     }
+  },
+  "Katress 5": {
+    "spec": "scripts/specs/palworld_katress_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-911bf826.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Katress",
+      "caption": "5 ways to breed Katress in Palworld 1.0: Nyafia + Swee, Prunelia + Bristla, Skutlass + Flopie, Smokie + Arsox, Tarantriss + Puffolt.",
+      "video_script": "Here are five ways to breed Katress in Palworld one point zero. Combo one: breed Nyafia with Swee on your Breeding Farm, then add a cake. Combo two: pair Prunelia and Bristla together, and you get the same egg. Combo three: Skutlass plus Flopie works too, so use whichever Pals you have. Combo four: Smokie with Arsox is another easy option. Combo five: breed Tarantriss with Puffolt on your Breeding Farm, then add a cake. Every egg hatches into Katress. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Nyafia",
+        "Swee"
+      ],
+      "combos": [
+        [
+          "Nyafia",
+          "Swee"
+        ],
+        [
+          "Prunelia",
+          "Bristla"
+        ],
+        [
+          "Skutlass",
+          "Flopie"
+        ],
+        [
+          "Smokie",
+          "Arsox"
+        ],
+        [
+          "Tarantriss",
+          "Puffolt"
+        ]
+      ],
+      "child": "Katress",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false,
+      "key": "Katress 5"
+    }
+  },
+  "Relaxaurus 5": {
+    "spec": "scripts/specs/palworld_relaxaurus_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-bd800b97.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Relaxaurus",
+      "caption": "5 ways to breed Relaxaurus in Palworld 1.0: Gildra + Majex, Reptyro + Helzephyr, Azurmane + Smokie, Whalaska + Incineram, Splatterina + Leafan.",
+      "video_script": "Here are five ways to breed Relaxaurus in Palworld one point zero. Combo one: breed Gildra with Majex on your Breeding Farm, then add a cake. Combo two: pair Reptyro and Helzephyr together, and you get the same egg. Combo three: Azurmane plus Smokie works too, so use whichever Pals you have. Combo four: Whalaska with Incineram is another easy option. Combo five: breed Splatterina with Leafan on your Breeding Farm, then add a cake. Every egg hatches into Relaxaurus. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Gildra",
+        "Majex"
+      ],
+      "combos": [
+        [
+          "Gildra",
+          "Majex"
+        ],
+        [
+          "Reptyro",
+          "Helzephyr"
+        ],
+        [
+          "Azurmane",
+          "Smokie"
+        ],
+        [
+          "Whalaska",
+          "Incineram"
+        ],
+        [
+          "Splatterina",
+          "Leafan"
+        ]
+      ],
+      "child": "Relaxaurus",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false,
+      "key": "Relaxaurus 5"
+    }
   }
 }

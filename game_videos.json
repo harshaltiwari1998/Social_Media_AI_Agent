@@ -8035,5 +8035,44 @@
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-e5cbc635.mp4",
     "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-e5cbc635-thumb.jpg",
     "chapters": "0:00 India the huge gaming nation\n0:41 From arcades to smartphones\n1:37 PUBG Mobile and the rise of BGMI\n2:21 The break and the return\n3:03 Free Fire in India\n3:39 The Asian Games and Indian esports\n4:26 Big tournaments in twenty twenty six\n5:19 A law that recognises esports\n6:06 How to follow the scene safely\n6:49 Where do you think Indian esports goes next"
+  },
+  "aniimo-prismana-guide-how-to-get-prismana-aniimo": {
+    "spec": "scripts/specs/long/gaming_81_aniimo-prismana-guide-how-to-get-prismana-aniimo.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-457b85e4.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-457b85e4-thumb.jpg",
+    "chapters": "0:00 What is a Prismana Aniimo\n0:48 The free Prismana Pact\n1:28 How many Prismana forms exist\n2:05 Unlocking nurturing with a badge\n2:46 The nurture loop step by step\n3:33 Lucky catches and the energy meter\n4:11 Free charges and Vein Essence\n4:50 The weather route\n5:28 Catching tips and common mistakes\n6:05 Your Prismana plan\n6:55 Which Prismana do you want"
+  },
+  "aniimo-besauce-best-build": {
+    "spec": "scripts/specs/games/aniimo_187_aniimo-besauce-best-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b04f56bf.mp4"
+  },
+  "aniimo-eko-best-build": {
+    "spec": "scripts/specs/games/aniimo_188_aniimo-eko-best-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-26c6bf4e.mp4"
+  },
+  "aniimo-how-to-get-iris": {
+    "spec": "scripts/specs/games/aniimo_189_aniimo-how-to-get-iris.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-8c043210.mp4"
+  },
+  "aniimo-iris-best-build": {
+    "spec": "scripts/specs/games/aniimo_190_aniimo-iris-best-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-1a59fbfb.mp4"
+  },
+  "aniimo-how-to-get-jawling": {
+    "spec": "scripts/specs/games/aniimo_191_aniimo-how-to-get-jawling.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-212245b6.mp4"
+  },
+  "palworld-guide-tarantriss-web-mount-double-jump": {
+    "spec": "scripts/specs/games/palguide_154_palworld-guide-tarantriss-web-mount-double-jump.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-79765f24.mp4"
+  },
+  "palworld-guide-elgrove-mother-natures-menace-grass-attack": {
+    "spec": "scripts/specs/games/palguide_155_palworld-guide-elgrove-mother-natures-menace-grass-attack.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-8b7dc9b1.mp4"
+  },
+  "palworld-guide-polapup-rider-of-the-snowy-mountain": {
+    "spec": "scripts/specs/games/palguide_156_palworld-guide-polapup-rider-of-the-snowy-mountain.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e0d7f4d5.mp4"
   }
 }

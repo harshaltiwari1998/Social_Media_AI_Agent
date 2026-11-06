@@ -6315,5 +6315,48 @@
       "unique": false,
       "key": "Gumoss 5"
     }
+  },
+  "Gorirat 5": {
+    "spec": "scripts/specs/palworld_gorirat_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-8fba32c6.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Gorirat",
+      "caption": "5 ways to breed Gorirat in Palworld 1.0: Digtoise + Tocotoco, Shroomer + Cattiva, Nyafia + Jolthog, Smokie + Amione, Tarantriss + Gobfin.",
+      "video_script": "Here are five ways to breed Gorirat in Palworld one point zero. Combo one: breed Digtoise with Tocotoco on your Breeding Farm, then add a cake. Combo two: pair Shroomer and Cattiva together, and you get the same egg. Combo three: Nyafia plus Jolthog works too, so use whichever Pals you have. Combo four: Smokie with Amione is another easy option. Combo five: breed Tarantriss with Gobfin on your Breeding Farm, then add a cake. Every egg hatches into Gorirat. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Digtoise",
+        "Tocotoco"
+      ],
+      "combos": [
+        [
+          "Digtoise",
+          "Tocotoco"
+        ],
+        [
+          "Shroomer",
+          "Cattiva"
+        ],
+        [
+          "Nyafia",
+          "Jolthog"
+        ],
+        [
+          "Smokie",
+          "Amione"
+        ],
+        [
+          "Tarantriss",
+          "Gobfin"
+        ]
+      ],
+      "child": "Gorirat",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false,
+      "key": "Gorirat 5"
+    }
   }
 }

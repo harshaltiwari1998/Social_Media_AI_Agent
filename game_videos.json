@@ -7566,5 +7566,33 @@
   "palworld-guide-vaelet-purification-of-gaia-ground-drops": {
     "spec": "scripts/specs/games/palguide_150_palworld-guide-vaelet-purification-of-gaia-ground-drops.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-085c4c84.mp4"
+  },
+  "tomb-raider-legacy-of-atlantis-february-12": {
+    "spec": "scripts/specs/games/new_43_tomb-raider-legacy-of-atlantis-february-12.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-9db44451.mp4"
+  },
+  "assassins-creed-2-2009": {
+    "spec": "scripts/specs/games/classic_83_assassins-creed-2-2009.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-9889e9eb.mp4"
+  },
+  "zelda-ocarina-of-time-1998": {
+    "spec": "scripts/specs/games/classic_84_zelda-ocarina-of-time-1998.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-cdb7be08.mp4"
+  },
+  "werwulf-robert-eggers": {
+    "spec": "scripts/specs/movies/movie_new_38_werwulf-robert-eggers.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-50c40f44.mp4"
+  },
+  "wildwood-opening": {
+    "spec": "scripts/specs/movies/movie_review_35_wildwood-opening.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-6f555496.mp4"
+  },
+  "reel-padosan-1968-facts": {
+    "spec": "scripts/specs/movies/reel_72_padosan-1968-facts.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f4d7390f.mp4"
+  },
+  "aniimo-how-to-get-bulbly": {
+    "spec": "scripts/specs/games/aniimo_181_aniimo-how-to-get-bulbly.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ccdf9560.mp4"
   }
 }

@@ -20,3 +20,4 @@ google-auth==2.58.0
 google-auth-oauthlib==1.2.1
 google-auth-httplib2==0.2.0
 gradio_client==1.14.0
+skyfield==1.55

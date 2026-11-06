@@ -7,6 +7,7 @@ change every ~2.5 days with the Moon. Lucky colour / number come from the rashi'
 Every short says it is for entertainment, avoids fear, health and money advice, and carries no religious messaging.
 
     python scripts/rashifal.py --date 2026-11-06 [--festival "धनतेरस"]   # renders 12 shorts into MEDIA_OUTPUT_DIR/videos
+    python scripts/rashifal.py --date tomorrow --post                   # daily-rashifal.yml: render + schedule 06:00 IST
 """
 from __future__ import annotations
 
@@ -50,6 +51,8 @@ NAKSHATRAS = ["अश्विनी", "भरणी", "कृत्तिका
 TITHIS = ["प्रतिपदा", "द्वितीया", "तृतीया", "चतुर्थी", "पंचमी", "षष्ठी", "सप्तमी", "अष्टमी", "नवमी", "दशमी",
           "एकादशी", "द्वादशी", "त्रयोदशी", "चतुर्दशी"]
 MONTHS = ["जनवरी", "फरवरी", "मार्च", "अप्रैल", "मई", "जून", "जुलाई", "अगस्त", "सितंबर", "अक्टूबर", "नवंबर", "दिसंबर"]
+# Festival on the card and in the greeting - only dates confirmed by several panchang sources.
+FESTIVALS = {"2026-11-06": "धनतेरस", "2026-11-07": "छोटी दिवाली", "2026-11-08": "दिवाली", "2026-11-10": "भाई दूज"}
 ORD = ["पहले", "दूसरे", "तीसरे", "चौथे", "पांचवें", "छठे", "सातवें", "आठवें", "नौवें", "दसवें", "ग्यारहवें", "बारहवें"]
 
 # Traditional Chandra gochar by house from the rashi: (headline, sub, reading, tip). Calm wording, no fear, no
@@ -189,12 +192,44 @@ def post_text(r: int, day: date, festival: str | None) -> tuple[str, list[str]]:
     return f"{title}\n\n{desc}", tags
 
 
+def post(made: list[dict], day: date) -> int:
+    """Upload to the main Facebook Page (AI Trend Poster), scheduled 06:00 IST on the day and then every 5 minutes
+    (published at once when that time is under 15 minutes away). Recorded in the pipeline store, so a rerun skips
+    what is already up. Returns how many failed."""
+    import httpx
+
+    from app.pipeline import store
+    from app.pipeline.orchestrator import _POSTERS
+    from app.social.facebook import _GRAPH_API
+
+    fb, failed = _POSTERS["facebook"], 0
+    start = datetime(day.year, day.month, day.day, 6, 0, tzinfo=IST)
+    for k, item in enumerate(made):
+        trend = f"custom:rashifal-{day.isoformat()}-{item['rashi']:02d}"
+        if not item["video"] or store.already_posted(trend, "facebook"):
+            continue
+        when = start + timedelta(minutes=5 * k)
+        data = {"description": item["text"][0], "access_token": fb.token}
+        if when.timestamp() > datetime.now(timezone.utc).timestamp() + 900:  # Facebook wants >= 10 min ahead
+            data |= {"published": "false", "scheduled_publish_time": str(int(when.timestamp()))}
+        with open(item["video"], "rb") as f:
+            r = httpx.post(f"{_GRAPH_API}/{fb.page_id}/videos", data=data, files={"source": f}, timeout=1800.0)
+        pid = r.json().get("id") if r.status_code == 200 else None
+        store.record_post(trend, "facebook", pid, False)
+        failed += pid is None
+        print(item["text"][0].splitlines()[0], "->", f"{'scheduled ' + when.strftime('%d %b %H:%M') if 'published' in data else 'posted'}"
+              f" {pid}" if pid else f"FAILED {r.text[:200]}", flush=True)
+    return failed
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    ap.add_argument("--date", required=True)
+    ap.add_argument("--date", required=True, help="YYYY-MM-DD or 'tomorrow' (IST)")
     ap.add_argument("--festival")
+    ap.add_argument("--post", action="store_true", help="schedule them on the AI Trend Poster Facebook Page")
     args = ap.parse_args()
-    day = date.fromisoformat(args.date)
+    day = (datetime.now(IST).date() + timedelta(days=1) if args.date == "tomorrow" else date.fromisoformat(args.date))
+    args.festival = args.festival or FESTIVALS.get(day.isoformat())
     sk = sky(day)
     print("sky:", json.dumps(sk, ensure_ascii=False))
     settings.tts_voice = "hi-IN-SwaraNeural"
@@ -208,6 +243,8 @@ def main() -> None:
         print(name, path or res.get("error"))
         made.append({"rashi": r, "video": path, "text": post_text(r, day, args.festival)})
     (out / "made.json").write_text(json.dumps(made, ensure_ascii=False, indent=1), encoding="utf-8")
+    if args.post and (post(made, day) == len(made) or not any(m["video"] for m in made)):
+        sys.exit(1)  # health check: nothing went up
 
 
 if __name__ == "__main__":

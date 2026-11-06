@@ -1,0 +1,93 @@
+name: Daily rashifal shorts
+
+# scripts/rashifal.py: tomorrow's 12 Hindi rashifal shorts (one per rashi; Moon position from skyfield + JPL DE421,
+# traditional Chandra gochar reading) -> the main Facebook Page "AI Trend Poster" only, scheduled for 06:00-06:55
+# IST the next morning. Runs the evening before, so even a run hours late is ready in time. No laptop needed.
+on:
+  schedule:
+    - cron: "30 14 * * *" # 20:00 IST
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Day to make (YYYY-MM-DD or tomorrow)"
+        default: "tomorrow"
+      festival:
+        description: "Festival name in Hindi for the cards (optional, e.g. दिवाली)"
+        default: ""
+
+concurrency:
+  group: daily-gaming
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  rashifal:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Restore posting state
+        run: |
+          mkdir -p media_output
+          if ! git fetch --depth 1 origin gaming-state; then
+            echo "::error::gaming-state branch missing - refusing to run without the posted-videos record"
+            exit 1
+          fi
+          for f in pipeline_store.sqlite3 palworld_videos.json game_videos.json; do
+            git show "origin/gaming-state:$f" > "media_output/$f" 2>/dev/null || rm -f "media_output/$f"
+          done
+
+      - name: Restore ephemeris cache
+        uses: actions/cache@v4
+        with:
+          path: backend/.cache/skyfield
+          key: skyfield-de421
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: backend/requirements-ci.txt
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements-ci.txt
+          sudo apt-get install -y -q fonts-dejavu-core  # zodiac glyphs
+
+      - name: Make and schedule tomorrow's rashifal
+        env:
+          DRY_RUN: "false"
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+          PYTHONUNBUFFERED: "1"
+        run: |
+          day="${{ github.event.inputs.date || 'tomorrow' }}"
+          fest="${{ github.event.inputs.festival }}"
+          python scripts/rashifal.py --date "$day" --post ${fest:+--festival "$fest"}
+
+      - name: Save posting state
+        if: always()
+        run: |
+          # Merge into the LATEST gaming-state (never copy over it), retry on a rejected push.
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3 4 5; do
+            git fetch --depth 1 origin gaming-state
+            state=$(mktemp -d)
+            git worktree add --detach "$state" FETCH_HEAD
+            python scripts/merge_state.py media_output "$state"
+            if (cd "$state" && git add -A && { git diff --cached --quiet || git commit -m "Update rashifal posting state ($(date -u +%F))"; } \
+                && git push origin HEAD:gaming-state); then
+              exit 0
+            fi
+            git worktree remove --force "$state"
+            sleep $((attempt * 15))
+          done
+          echo "::error::could not save posting state after 5 attempts"
+          exit 1

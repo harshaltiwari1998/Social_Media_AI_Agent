@@ -94,7 +94,8 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
 - `scripts/rashifal.py` - Hindi daily rashifal shorts, one per rashi (owner request Nov 2026; main FB Page "AI Trend
   Poster" only, no new channel). Moon rashi/nakshatra/tithi computed with skyfield + JPL DE421 (`.cache/skyfield`,
   Lahiri ayanamsa); reading = traditional Chandra gochar house from each rashi; says "for entertainment", no fear,
-  health, money advice or religious messaging. Laptop only so far (`skyfield` not in requirements-ci).
+  health, money advice or religious messaging. `daily-rashifal.yml` (20:00 IST) makes the next day's 12 and
+  schedules them 06:00-06:55 IST; `FESTIVALS` = only panchang-confirmed dates.
 - `scripts/ops_report.py` - token check + weekly report. `scripts/meta_gaming_login.py` - sets up the
   gaming page token. `scripts/youtube_login.py` - YouTube OAuth.
 - `scripts/fal_video.py`, `motion_daily.py`, `lucario_*.py` - AI-motion experiments (Wan/Kling/Flow).
@@ -120,6 +121,7 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
 | 16:00 | `daily-deals.yml` - up to 10 free-game / deal shorts + 2 long deal roundups (Epic + Steam, live) |
 | 18:00 | `daily-long.yml` - 2 long gaming + 1 long movie |
 | 19:00 | `daily-gameplay.yml` - 1 long + 8 shorts of own-stream clips from `clips/*` branches (laptop renders + pushes) |
+| 20:00 | `daily-rashifal.yml` - next day's 12 Hindi rashifal shorts, scheduled 06:00-06:55 IST on the AI Trend Poster FB Page |
 | 21:00 | `daily-anipal.yml` 2nd half - 5 Aniimo + 3 Palworld guide + 2 breeding + 1 long (aniimo) |
 | Sun 19:30 | `weekly-report.yml` - stats issue |
 
@@ -190,6 +192,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-06 - `daily-rashifal.yml`: 12 rashifal shorts every day on the AI Trend Poster FB Page, scheduled for 06:00 IST.
 - 2026-11-06 - `rashifal.py`: 12 Hindi rashifal shorts (Dhanteras, 6 Nov) posted to the AI Trend Poster Facebook Page.
 - 2026-11-04 - Breeding cards with animated Pals (oval spotlights); 3 Wan moves per Pal so scenes do not repeat.
 - 2026-11-04 - Palworld shorts: the short's own Pal animated by Wan (cached per Pal) instead of generic trailer footage.

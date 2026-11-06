@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-iris-best-build",
+  "slot": "aniimo",
+  "order": 190,
+  "headline": "Iris Build",
+  "title": "Iris Build | Vortex of Petals and Disco | Aniimo Guide",
+  "video_script": "Want a cheap Grass damage dealer? Build Iris around Vortex of Petals, its strongest skill at sixty power and twenty energy. Floral Storm is weaker at thirty power, but it sends out up to three homing petals while you move. Every skill hit adds Dance Power, and at twenty four your next skill is free. Iris is weak to Fire, Wind and Dark. Will you try it? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:12",
+      "label": "Iris Best Build"
+    },
+    {
+      "image": "steam:4126040:13",
+      "fact": "Vortex of Petals",
+      "sub": "Sixty power"
+    },
+    {
+      "image": "steam:4126040:14",
+      "fact": "Floral Storm",
+      "sub": "Three homing petals"
+    },
+    {
+      "image": "steam:4126040:15",
+      "fact": "Disco Aniimo",
+      "sub": "Twenty four Dance Power"
+    },
+    {
+      "image": "steam:4126040:16",
+      "fact": "Weak to",
+      "sub": "Fire, Wind and Dark"
+    }
+  ],
+  "description": "Aniimo Iris build: lead with Vortex of Petals (60 power, 20 EP), use Floral Storm for homing petals and the Disco Aniimo trait for a free skill at 24 Dance Power. Weak to Fire, Wind and Dark.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Iris",
+    "Aniimo Iris",
+    "Pawprint Studio",
+    "Aniimo Season 1",
+    "Iris build"
+  ]
+}

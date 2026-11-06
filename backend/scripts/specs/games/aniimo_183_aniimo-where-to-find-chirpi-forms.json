@@ -1,0 +1,52 @@
+{
+  "id": "aniimo-where-to-find-chirpi-forms",
+  "slot": "aniimo",
+  "order": 183,
+  "headline": "Find Chirpi",
+  "title": "Where to Find Chirpi | Basic and Beach Forms | Aniimo Guide",
+  "video_script": "Chirpi is a small Wind support Aniimo that can fly, and you can find it in many regions. The basic form lives in Nimbus Fields, The Argent Strait, Beast Fang Ridge and Blitzwood. The Beach form appears at Echoback Landing. Beginners should start in Nimbus Fields, where wild levels stay low. Later it can evolve at level eighteen. Which Chirpi form do you want? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:17",
+      "label": "Where to Find Chirpi"
+    },
+    {
+      "image": "steam:4126040:18",
+      "fact": "Nimbus Fields",
+      "sub": "Best early spot"
+    },
+    {
+      "image": "steam:4126040:19",
+      "fact": "The Argent Strait",
+      "sub": "Also Beast Fang Ridge"
+    },
+    {
+      "image": "steam:4126040:20",
+      "fact": "Echoback Landing",
+      "sub": "Beach form"
+    },
+    {
+      "image": "steam:4126040:21",
+      "fact": "Wind support",
+      "sub": "Can fly"
+    }
+  ],
+  "description": "Aniimo's Chirpi is a flying Wind support found in Nimbus Fields, The Argent Strait, Beast Fang Ridge and Blitzwood. The Beach form lives at Echoback Landing.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Chirpi",
+    "Aniimo Chirpi",
+    "Beach Form",
+    "Nimbus Fields",
+    "Wind Aniimo",
+    "AniimoHowToGet"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-popapus-rigged-odds-build",
+  "slot": "aniimo",
+  "order": 194,
+  "headline": "Popapus Build",
+  "title": "Popapus Build | Rigged Odds Jackpot | Aniimo Guide",
+  "video_script": "Popapus is a gambler, and you can rig the odds. Rigged Odds eats the least common bubble color, then the next basic attack is guaranteed to fire the most common color. That pushes you toward five matching bubbles and the Jackpot. Clearance Sale keeps spitting bubbles for five seconds while you move. In Jackpot, basic attacks hit sixty percent harder. Do you trust luck? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:32",
+      "label": "Popapus Best Build"
+    },
+    {
+      "image": "steam:4126040:33",
+      "fact": "Rigged Odds",
+      "sub": "Fix the next bubble"
+    },
+    {
+      "image": "steam:4126040:34",
+      "fact": "Clearance Sale",
+      "sub": "Five seconds of bubbles"
+    },
+    {
+      "image": "steam:4126040:35",
+      "fact": "Jackpot",
+      "sub": "Ten seconds"
+    },
+    {
+      "image": "steam:4126040:36",
+      "fact": "Basic attacks",
+      "sub": "Sixty percent stronger"
+    }
+  ],
+  "description": "Aniimo Popapus build: use Rigged Odds to guarantee the most common bubble color and chase five matching bubbles. Jackpot lasts 10 seconds and boosts basic attack damage by 60%.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Popapus",
+    "Aniimo Popapus",
+    "Pawprint Studio",
+    "Aniimo Season 1",
+    "Popapus build"
+  ]
+}

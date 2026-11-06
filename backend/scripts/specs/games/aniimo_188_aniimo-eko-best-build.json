@@ -1,0 +1,52 @@
+{
+  "id": "aniimo-eko-best-build",
+  "slot": "aniimo",
+  "order": 188,
+  "headline": "Eko Build",
+  "title": "Eko Build | Mark Then Stun | Aniimo Guide",
+  "video_script": "Eko is a Wind Aniimo whose job is setting up debuffs. Sonar Attack hits ten times in a cone, and its last hit applies Weakness Mark, which cuts crit resistance. Then Arc Strike stuns enemies that carry the mark. Its trait Judgment Storm gives your whole team a Wind damage boost when it applies a debuff. Pair it with Wind attackers. Do you run Eko? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:42",
+      "label": "Eko Best Build"
+    },
+    {
+      "image": "steam:4126040:43",
+      "fact": "Sonar Attack",
+      "sub": "Applies Weakness Mark"
+    },
+    {
+      "image": "steam:4126040:44",
+      "fact": "Arc Strike",
+      "sub": "Stuns marked enemies"
+    },
+    {
+      "image": "steam:4126040:45",
+      "fact": "Judgment Storm",
+      "sub": "Team Wind damage boost"
+    },
+    {
+      "image": "steam:4126040:46",
+      "fact": "Weak to Lightning, Light",
+      "sub": "Keep it away"
+    }
+  ],
+  "description": "Aniimo's Eko is a Wind debuff support. Mark enemies with Sonar Attack, stun them with Arc Strike and let Judgment Storm boost your team's Wind damage.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Eko",
+    "Aniimo Eko",
+    "Eko build",
+    "Wind Aniimo",
+    "Judgment Storm",
+    "AniimoBuild"
+  ]
+}

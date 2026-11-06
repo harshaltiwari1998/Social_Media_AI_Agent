@@ -1,0 +1,52 @@
+{
+  "id": "aniimo-geoclaw-best-build",
+  "slot": "aniimo",
+  "order": 185,
+  "headline": "Geoclaw Build",
+  "title": "Geoclaw Build | Ice Break Tank Setup | Aniimo Guide",
+  "video_script": "Geoclaw is an Ice Break tank, so build it to crack defenses. Its physical defense of one hundred thirteen and Break of one hundred three are its best stats. Its basic attacks apply Ice Debuff, and its trait Frostbite Sunder adds extra Break once a target has more than five stacks. Use Ice Spikes to freeze, then Frost Slam. Watch out for Fire and Earth. Do you run Geoclaw? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:27",
+      "label": "Geoclaw Best Build"
+    },
+    {
+      "image": "steam:4126040:28",
+      "fact": "Break 103",
+      "sub": "Physical defense 113"
+    },
+    {
+      "image": "steam:4126040:29",
+      "fact": "Frostbite Sunder",
+      "sub": "Extra Break at 5 stacks"
+    },
+    {
+      "image": "steam:4126040:30",
+      "fact": "Ice Spikes",
+      "sub": "Freezes the target"
+    },
+    {
+      "image": "steam:4126040:31",
+      "fact": "Weak to Fire, Earth",
+      "sub": "Keep it away"
+    }
+  ],
+  "description": "Aniimo's Geoclaw is an Ice Break tank. Stack Ice Debuff with basic attacks, freeze with Ice Spikes and use Frost Slam, but avoid Fire and Earth enemies.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Geoclaw",
+    "Aniimo Geoclaw",
+    "Geoclaw build",
+    "Ice Aniimo",
+    "Frostbite Sunder",
+    "AniimoBuild"
+  ]
+}

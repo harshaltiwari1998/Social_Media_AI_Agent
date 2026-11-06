@@ -1,0 +1,43 @@
+{
+  "id": "grintale-glaring-cats-eye-extra-eggs",
+  "slot": "palguide",
+  "order": 162,
+  "headline": "Grintale extra eggs",
+  "title": "Grintale | Extra Egg Chance Location | Palworld Guide",
+  "video_script": "Grintale is a big Neutral cat Pal in Palworld one point zero, and you can ride it. Its partner skill, Glaring Cat's Eye, gives you a chance to receive one extra egg when you pick up a Pal Egg while it is in your party. At base it works Gathering level three. Look for it in the Verdant Brook area at roughly level twenty five to thirty five. Do you want more eggs from your ranch? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Grintale",
+      "label": "Grintale"
+    },
+    {
+      "image": "steam:1623730:7",
+      "label": "Verdant Brook"
+    },
+    {
+      "image": "pal:Grintale",
+      "fact": "Glaring Cat's Eye",
+      "sub": "Extra egg chance"
+    },
+    {
+      "image": "steam:1623730:8",
+      "label": "Gathering 3"
+    }
+  ],
+  "description": "Grintale in Palworld 1.0: Neutral rideable Pal with an extra Pal Egg partner skill and Gathering 3, found around Verdant Brook. Checked on the Palworld wiki, palworld.gg and Pindrop in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Grintale",
+    "Grintale location",
+    "Palworld eggs",
+    "Grintale partner skill",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld Pal guide",
+    "Palworld tips"
+  ]
+}

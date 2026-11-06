@@ -1,0 +1,49 @@
+{
+  "id": "aniimo-how-to-get-prawnch",
+  "slot": "aniimo",
+  "order": 196,
+  "headline": "Get Prawnch",
+  "title": "How to Get Prawnch | Evolve to Jabster | Aniimo Guide",
+  "video_script": "Prawnch is a Breaker from Season one Part two, found on the Whisperwake Isles map. It needs no special catch trick. To evolve it into Jabster you need one Freeze Stone, and Alpha Aniimo drop those. Jabster is the end of the line, and its Knuckle Burst trait builds Strike Points from skill hits. Have you farmed a Freeze Stone yet? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:42",
+      "label": "How to Get Prawnch"
+    },
+    {
+      "image": "steam:4126040:43",
+      "fact": "Season one Part two",
+      "sub": "Whisperwake Isles"
+    },
+    {
+      "image": "steam:4126040:44",
+      "fact": "Freeze Stone",
+      "sub": "Needed to evolve"
+    },
+    {
+      "image": "steam:4126040:45",
+      "fact": "Alpha Aniimo",
+      "sub": "Drop the stone"
+    },
+    {
+      "image": "steam:4126040:46",
+      "fact": "Jabster",
+      "sub": "Final form"
+    }
+  ],
+  "description": "Aniimo's Prawnch is a Breaker from the Whisperwake Isles. Evolving it into Jabster costs one Freeze Stone, dropped by Alpha Aniimo. Jabster is the end of its line.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Prawnch",
+    "Aniimo Prawnch",
+    "Pawprint Studio",
+    "Aniimo Season 1"
+  ]
+}

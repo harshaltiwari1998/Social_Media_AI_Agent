@@ -1,0 +1,52 @@
+{
+  "id": "aniimo-besauce-best-build",
+  "slot": "aniimo",
+  "order": 187,
+  "headline": "Besauce Build",
+  "title": "Besauce Build | The Energy Machine | Aniimo Guide",
+  "video_script": "Besauce is a Lightning Regen Aniimo, and its base Regen of one hundred eighteen is its best stat. Charged Geyser restores energy right away and keeps restoring it over time. Electric Dance Frenzy lowers enemy Lightning resistance for your team. Its trait Power Surge restores energy when you cast with less than twenty energy. Keep it away from Dark and Ice. Do you run Besauce? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:37",
+      "label": "Besauce Best Build"
+    },
+    {
+      "image": "steam:4126040:38",
+      "fact": "Regen 118",
+      "sub": "Its best stat"
+    },
+    {
+      "image": "steam:4126040:39",
+      "fact": "Charged Geyser",
+      "sub": "Restores energy"
+    },
+    {
+      "image": "steam:4126040:40",
+      "fact": "Electric Dance Frenzy",
+      "sub": "Lowers Lightning resistance"
+    },
+    {
+      "image": "steam:4126040:41",
+      "fact": "Power Surge",
+      "sub": "Energy back under 20 EP"
+    }
+  ],
+  "description": "Aniimo's Besauce is a Lightning Regen Aniimo with base Regen 118. Use Charged Geyser for energy and Electric Dance Frenzy to lower enemy Lightning resistance.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Besauce",
+    "Aniimo Besauce",
+    "Besauce build",
+    "Lightning Aniimo",
+    "Power Surge",
+    "AniimoBuild"
+  ]
+}

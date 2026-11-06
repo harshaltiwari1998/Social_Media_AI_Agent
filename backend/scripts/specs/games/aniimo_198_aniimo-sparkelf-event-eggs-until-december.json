@@ -1,0 +1,53 @@
+{
+  "id": "aniimo-sparkelf-event-eggs-until-december",
+  "slot": "aniimo",
+  "order": 198,
+  "headline": "Get Sparkelf",
+  "title": "Sparkelf Event | Free Fire Support Egg | Aniimo Guide",
+  "video_script": "Sparkelf is a Fire support Aniimo you can get in the Sparkelf X Aniimo event, running from September sixteen to December nine. Clear the Setting Out Again story chapter first. Earn Spark Points from daily tasks and social play. At two hundred points, claim the Incredible Sparkelf Egg, which hatches at least Elite potential. At five hundred, the Prismana Sparkelf Egg gives perfect potential. Have you claimed yours? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:12",
+      "label": "Sparkelf Event Eggs"
+    },
+    {
+      "image": "steam:4126040:13",
+      "fact": "Fire support",
+      "sub": "Sparkelf X Aniimo event"
+    },
+    {
+      "image": "steam:4126040:14",
+      "fact": "Until December nine",
+      "sub": "Event ends"
+    },
+    {
+      "image": "steam:4126040:15",
+      "fact": "200 Spark Points",
+      "sub": "Incredible Sparkelf Egg"
+    },
+    {
+      "image": "steam:4126040:16",
+      "fact": "500 Spark Points",
+      "sub": "Prismana Sparkelf Egg"
+    }
+  ],
+  "description": "The Sparkelf X Aniimo event runs from September 16 to December 9, 2026. 200 personal Spark Points unlock the Incredible Sparkelf Egg (at least Elite potential) and 500 unlock the Prismana Sparkelf Egg (Perfect potential).",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Sparkelf",
+    "Aniimo Sparkelf",
+    "Sparkelf event",
+    "Prismana Sparkelf",
+    "Aniimo event",
+    "Fire Aniimo",
+    "Spark Points"
+  ],
+  "expires": "2026-12-09"
+}

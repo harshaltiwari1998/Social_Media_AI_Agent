@@ -1,0 +1,49 @@
+{
+  "id": "aniimo-how-to-get-iris",
+  "slot": "aniimo",
+  "order": 189,
+  "headline": "Get Iris",
+  "title": "How to Get Iris | The Petal Dancer | Aniimo Guide",
+  "video_script": "Iris is a Grass damage dealer and an easy catch. Young ones live in Nimbus Fields, around levels five to fifteen. The basic form roams the Sea of Flowers at levels nineteen to twenty eight. At level eighteen it evolves into Irisal. Its Disco Aniimo trait makes a skill cost no energy after twenty four Dance Power. Have you caught an Iris yet? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:7",
+      "label": "How to Get Iris"
+    },
+    {
+      "image": "steam:4126040:8",
+      "fact": "Grass damage dealer",
+      "sub": "Easy catch"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Nimbus Fields",
+      "sub": "Levels five to fifteen"
+    },
+    {
+      "image": "steam:4126040:10",
+      "fact": "Sea of Flowers",
+      "sub": "Basic form"
+    },
+    {
+      "image": "steam:4126040:11",
+      "fact": "Level eighteen",
+      "sub": "Evolves to Irisal"
+    }
+  ],
+  "description": "Aniimo's Iris is a Grass damage dealer found in Nimbus Fields (levels 5-15) and the Sea of Flowers (basic form, levels 19-28). It evolves into Irisal at level 18.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Iris",
+    "Aniimo Iris",
+    "Pawprint Studio",
+    "Aniimo Season 1"
+  ]
+}

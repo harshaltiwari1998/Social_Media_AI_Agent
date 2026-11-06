@@ -1,0 +1,43 @@
+{
+  "id": "gildane-sandstorms-blessing-feybreak-ground-mount",
+  "slot": "palguide",
+  "order": 164,
+  "headline": "Gildane Feybreak mount",
+  "title": "Gildane | Feybreak Ground Mount | Palworld Guide",
+  "video_script": "Gildane is a large Ground Pal that lives on Feybreak, and it is one of the tougher catches in Palworld one point zero. Normal spawns sit around level fifty three to sixty six, and there is also an Alpha near level sixty three. Its partner skill, Sandstorm's Blessing, lets you ride it and turns your attack type to Ground. At base it works Gathering level five. Will you hunt Gildane? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Gildane",
+      "label": "Gildane"
+    },
+    {
+      "image": "steam:1623730:11",
+      "label": "Feybreak"
+    },
+    {
+      "image": "pal:Gildane",
+      "fact": "Sandstorm's Blessing",
+      "sub": "Ground attack mount"
+    },
+    {
+      "image": "steam:1623730:12",
+      "label": "Gathering 5"
+    }
+  ],
+  "description": "Gildane in Palworld 1.0: Feybreak Ground Pal you can ride, with Gathering 5 and a Ground attack mount skill. Checked on the Palworld wiki, palworld.gg and Pindrop in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Gildane",
+    "Gildane location",
+    "Feybreak Pals",
+    "Palworld ground mount",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld Pal guide",
+    "Palworld tips"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "ragnahawk-flame-wing-mount-mount-obsidian",
+  "slot": "palguide",
+  "order": 161,
+  "headline": "Ragnahawk fire flyer",
+  "title": "Ragnahawk | Mount Obsidian Fire Flyer | Palworld Guide",
+  "video_script": "Where do you find Ragnahawk in Palworld one point zero? Look around Mount Obsidian, where it spawns at roughly level thirty two to thirty eight, and be ready because it attacks on sight. Its partner skill, Flame Wing, lets you ride it as a flying mount and changes your attack type to Fire. At base it works Kindling level four and Transporting level five. Will you fly on a Ragnahawk? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Ragnahawk",
+      "label": "Ragnahawk"
+    },
+    {
+      "image": "steam:1623730:5",
+      "label": "Mount Obsidian"
+    },
+    {
+      "image": "pal:Ragnahawk",
+      "fact": "Flame Wing",
+      "sub": "Fire flying mount"
+    },
+    {
+      "image": "steam:1623730:6",
+      "label": "Kindling 4, Transporting 5"
+    }
+  ],
+  "description": "Ragnahawk in Palworld 1.0: where to find it on Mount Obsidian, its Flame Wing flying mount skill and its Kindling 4 and Transporting 5 work suitability. Checked on the Palworld wiki, palworld.gg and Pindrop in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Ragnahawk",
+    "Ragnahawk location",
+    "Mount Obsidian Pals",
+    "Palworld fire mount",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld Pal guide",
+    "Palworld tips"
+  ]
+}

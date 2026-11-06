@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-jawling-counter-strike-build",
+  "slot": "aniimo",
+  "order": 192,
+  "headline": "Jawling Build",
+  "title": "Jawling Build | Counter Strike Breaker | Aniimo Guide",
+  "video_script": "Jawling turns damage into Break. Its Counter Strike trait raises Break efficiency by twenty five percent for ten seconds after it is attacked. Lead with Overcharged Claw Strike, sixty eight power for twenty energy. Wind Tackle is cheaper at forty five power and fifteen energy, and it cuts the damage Jawling takes for a while. Lightning and Light hit it hard. Is Jawling in your team? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:22",
+      "label": "Jawling Best Build"
+    },
+    {
+      "image": "steam:4126040:23",
+      "fact": "Counter Strike",
+      "sub": "Break up after a hit"
+    },
+    {
+      "image": "steam:4126040:24",
+      "fact": "Claw Strike",
+      "sub": "Sixty eight power"
+    },
+    {
+      "image": "steam:4126040:25",
+      "fact": "Wind Tackle",
+      "sub": "Forty five power"
+    },
+    {
+      "image": "steam:4126040:26",
+      "fact": "Weak to",
+      "sub": "Lightning and Light"
+    }
+  ],
+  "description": "Aniimo Jawling build: Counter Strike boosts Break efficiency by 25% for 10 seconds after being attacked. Lead with Overcharged Claw Strike (68 power, 20 EP) and use Wind Tackle (45 power, 15 EP).",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Jawling",
+    "Aniimo Jawling",
+    "Pawprint Studio",
+    "Aniimo Season 1",
+    "Jawling build"
+  ]
+}

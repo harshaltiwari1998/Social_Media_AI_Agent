@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-how-to-get-thunderstorm-sherro",
+  "slot": "aniimo",
+  "order": 204,
+  "headline": "Thunderstorm Sherro",
+  "title": "How to Get Thunderstorm Sherro | Storm Only | Aniimo Guide",
+  "video_script": "Thunderstorm Sherro is a Water and Lightning form found only in Echoback Landing, and only during thunderstorms. You cannot evolve into it, so catching it wild is the only way. Wild ones are around level thirty six to forty. Only one is active at a time, so check the weather before you go. Throw an Aniipod when it spawns. Did you get yours? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:42",
+      "label": "Thunderstorm Sherro"
+    },
+    {
+      "image": "steam:4126040:43",
+      "fact": "Water and Lightning",
+      "sub": "Weather form"
+    },
+    {
+      "image": "steam:4126040:44",
+      "fact": "Echoback Landing",
+      "sub": "Thunderstorms only"
+    },
+    {
+      "image": "steam:4126040:45",
+      "fact": "Catch only",
+      "sub": "Cannot be evolved into"
+    },
+    {
+      "image": "steam:4126040:46",
+      "fact": "Levels 36 to 40",
+      "sub": "Wild level range"
+    }
+  ],
+  "description": "How to get Thunderstorm Sherro in Aniimo: it spawns in Echoback Landing during thunderstorms, wild levels about 36-40, and can only be caught, not evolved into.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Thunderstorm Sherro",
+    "Sherro",
+    "Aniimo Sherro",
+    "AniimoHowToGet",
+    "Aniimo weather",
+    "Echoback Landing"
+  ]
+}

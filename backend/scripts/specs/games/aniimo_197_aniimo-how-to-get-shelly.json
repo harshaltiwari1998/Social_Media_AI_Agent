@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-how-to-get-shelly",
+  "slot": "aniimo",
+  "order": 197,
+  "headline": "Get Shelly",
+  "title": "How to Get Shelly | The Beach Shell Water Attacker | Aniimo Guide",
+  "video_script": "Shelly is a Water damage dealer that hides among beach shells. Find it at Echoback Landing, where wild Shellys are around level forty. Walk up to one on the shoreline and throw an Aniipod. At level twenty nine it evolves into Sheldon with no extra requirement. Its Hydro Roll skill rolls forward and restores stamina, and its Tidal Heart trait boosts Water damage in water. Will you catch a Shelly? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:7",
+      "label": "How to Get Shelly"
+    },
+    {
+      "image": "steam:4126040:8",
+      "fact": "Water attacker",
+      "sub": "Hides among beach shells"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Echoback Landing",
+      "sub": "Wild level around forty"
+    },
+    {
+      "image": "steam:4126040:10",
+      "fact": "Level twenty nine",
+      "sub": "Evolves to Sheldon"
+    },
+    {
+      "image": "steam:4126040:11",
+      "fact": "Tidal Heart",
+      "sub": "Boosts Water damage in water"
+    }
+  ],
+  "description": "Aniimo's Shelly is a Water damage dealer found at Echoback Landing (wild level around 40). It evolves into Sheldon at level 29 with no extra requirement. Skills: Hydro Roll and Torrent Slam; trait Tidal Heart.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Shelly",
+    "Aniimo Shelly",
+    "AniimoHowToGet",
+    "Sheldon",
+    "Echoback Landing",
+    "Water Aniimo"
+  ]
+}

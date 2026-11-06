@@ -1,0 +1,52 @@
+{
+  "id": "aniimo-dazmand-best-build",
+  "slot": "aniimo",
+  "order": 186,
+  "headline": "Dazmand Build",
+  "title": "Dazmand Build | Free First Skill Support | Aniimo Guide",
+  "video_script": "Dazmand is a Lightning support that also hits hard. Its trait Spotlight Moment makes the first skill it casts after entering battle cost no energy. Start with Thunder Sweep, which pulls enemies in and raises your team's Lightning crit rate. Then Electricity Shock stacks Lightning Debuff and can paralyze. Keep it away from Dark and Ice, since both hit it hard. Do you use Dazmand? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:32",
+      "label": "Dazmand Best Build"
+    },
+    {
+      "image": "steam:4126040:33",
+      "fact": "Spotlight Moment",
+      "sub": "First skill is free"
+    },
+    {
+      "image": "steam:4126040:34",
+      "fact": "Thunder Sweep",
+      "sub": "Team Lightning crit rate"
+    },
+    {
+      "image": "steam:4126040:35",
+      "fact": "Electricity Shock",
+      "sub": "Can paralyze"
+    },
+    {
+      "image": "steam:4126040:36",
+      "fact": "Weak to Dark, Ice",
+      "sub": "Keep it away"
+    }
+  ],
+  "description": "Aniimo's Dazmand is a Lightning support. Open with a free skill from Spotlight Moment, use Thunder Sweep for team crit, then Electricity Shock to stack Lightning Debuff.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Dazmand",
+    "Aniimo Dazmand",
+    "Dazmand build",
+    "Lightning Aniimo",
+    "Spotlight Moment",
+    "AniimoBuild"
+  ]
+}

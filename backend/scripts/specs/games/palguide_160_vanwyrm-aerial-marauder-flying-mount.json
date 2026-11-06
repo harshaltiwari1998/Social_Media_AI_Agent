@@ -1,0 +1,43 @@
+{
+  "id": "vanwyrm-aerial-marauder-flying-mount",
+  "slot": "palguide",
+  "order": 160,
+  "headline": "Vanwyrm flying mount",
+  "title": "Vanwyrm | Fire Dragon Flyer Location | Palworld Guide",
+  "video_script": "Want a fire breathing flying mount in Palworld one point zero? Vanwyrm is a Fire and Dark Pal you can ride through the air. Its partner skill, Aerial Marauder, boosts the damage you deal to enemy weak points. At base it works Kindling level two and Transporting level three. You can find it on Feybreak around Scorched Ashland at roughly level fifty seven to sixty three. Will you tame a Vanwyrm? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Vanwyrm",
+      "label": "Vanwyrm"
+    },
+    {
+      "image": "steam:1623730:3",
+      "label": "Feybreak"
+    },
+    {
+      "image": "pal:Vanwyrm",
+      "fact": "Aerial Marauder",
+      "sub": "Weak point damage"
+    },
+    {
+      "image": "steam:1623730:4",
+      "label": "Kindling 2, Transporting 3"
+    }
+  ],
+  "description": "Vanwyrm in Palworld 1.0: Fire and Dark flying mount with a weak point damage partner skill, Kindling 2 and Transporting 3, found on Feybreak. Checked on the Palworld wiki and palworld.gg and Pindrop in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Vanwyrm",
+    "Vanwyrm location",
+    "Vanwyrm work suitability",
+    "Palworld flying mount",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld Pal guide",
+    "Palworld tips"
+  ]
+}

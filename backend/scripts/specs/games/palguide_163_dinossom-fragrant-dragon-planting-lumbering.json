@@ -1,0 +1,43 @@
+{
+  "id": "dinossom-fragrant-dragon-planting-lumbering",
+  "slot": "palguide",
+  "order": 163,
+  "headline": "Dinossom garden dragon",
+  "title": "Dinossom | Planting And Lumbering Dragon | Palworld Guide",
+  "video_script": "Need a Grass Pal that plants and chops wood in Palworld one point zero? Dinossom is a Grass and Dragon Pal with Planting level three and Lumbering level three, and it can be ridden too. You can find it on low level islands such as the Eastern Wild Island, at roughly level twenty five. Its partner skill is called Fragrant Dragon. Will Dinossom join your farm crew? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Dinossom",
+      "label": "Dinossom"
+    },
+    {
+      "image": "steam:1623730:9",
+      "label": "Eastern Wild Island"
+    },
+    {
+      "image": "pal:Dinossom",
+      "fact": "Planting 3",
+      "sub": "Lumbering 3"
+    },
+    {
+      "image": "steam:1623730:10",
+      "label": "Rideable Grass Dragon"
+    }
+  ],
+  "description": "Dinossom in Palworld 1.0: Grass and Dragon Pal with Planting 3 and Lumbering 3, rideable, found on the Eastern Wild Island. Checked on the Palworld wiki, palworld.gg and Pindrop in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Dinossom",
+    "Dinossom location",
+    "Palworld planting Pal",
+    "Palworld lumbering Pal",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld Pal guide",
+    "Palworld tips"
+  ]
+}

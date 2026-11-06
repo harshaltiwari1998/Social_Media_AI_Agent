@@ -1,0 +1,49 @@
+{
+  "id": "aniimo-how-to-get-jawling",
+  "slot": "aniimo",
+  "order": 191,
+  "headline": "Get Jawling",
+  "title": "How to Get Jawling | The Wind Breaker | Aniimo Guide",
+  "video_script": "Jawling is a Wind Breaker that bites whatever it finds. Hunt it in Russet Highlands, where wild ones are around levels forty five to fifty, so bring a strong team. It is weak to Lightning and Light. At level thirty eight it evolves into Helmwhelp, which later leads to Helgon or Infergon. Its Counter Strike trait rewards getting hit. Which branch will you pick? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:17",
+      "label": "How to Get Jawling"
+    },
+    {
+      "image": "steam:4126040:18",
+      "fact": "Wind Breaker",
+      "sub": "Bites everything"
+    },
+    {
+      "image": "steam:4126040:19",
+      "fact": "Russet Highlands",
+      "sub": "Levels forty five to fifty"
+    },
+    {
+      "image": "steam:4126040:20",
+      "fact": "Level thirty eight",
+      "sub": "Evolves to Helmwhelp"
+    },
+    {
+      "image": "steam:4126040:21",
+      "fact": "Weak to",
+      "sub": "Lightning and Light"
+    }
+  ],
+  "description": "Aniimo's Jawling is a Wind Breaker found in Russet Highlands at levels 45-50. It evolves into Helmwhelp at level 38, which leads to Helgon or Infergon.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Jawling",
+    "Aniimo Jawling",
+    "Pawprint Studio",
+    "Aniimo Season 1"
+  ]
+}

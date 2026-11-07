@@ -1,0 +1,45 @@
+{
+  "id": "aniimo-gachapus-gacha-bubbles-guide",
+  "slot": "aniimo",
+  "order": 212,
+  "headline": "Gachapus",
+  "title": "Gachapus | Gacha Bubble Water Aniimo | Aniimo Guide",
+  "video_script": "Gachapus is a stage three Water Aniimo from the Popapus line, found in the Whisperwake Isles around Crescent Bay. Every attack fires a random coloured capsule bubble into its gacha slots. Bubble Barrage spits bubbles for five seconds, and Rigged Draw uses your least common colour to guarantee the most common one on the next attack. Feeling lucky? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:1",
+      "label": "Gachapus"
+    },
+    {
+      "image": "steam:4126040:2",
+      "fact": "Gacha bubbles",
+      "sub": "Random colours on every attack"
+    },
+    {
+      "image": "steam:4126040:3",
+      "fact": "Bubble Barrage",
+      "sub": "Spits bubbles for five seconds"
+    },
+    {
+      "image": "steam:4126040:4",
+      "fact": "Rigged Draw",
+      "sub": "Guarantees the common colour"
+    }
+  ],
+  "description": "Aniimo Gachapus guide: stage 3 Water Aniimo of the Popapus line in the Whisperwake Isles, with gacha capsule bubbles, Bubble Barrage and Rigged Draw. Checked on aniimo.gg and Aniimo Wiki.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Gachapus",
+    "Aniimo Gachapus",
+    "Popapus",
+    "Gacha bubbles",
+    "Aniimo Water",
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips"
+  ]
+}

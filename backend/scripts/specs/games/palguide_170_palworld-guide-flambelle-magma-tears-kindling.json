@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-flambelle-magma-tears-kindling",
+  "slot": "palguide",
+  "order": 170,
+  "headline": "Flambelle",
+  "title": "Flambelle | Magma Tears Fire Pal | Palworld Guide",
+  "video_script": "Flambelle is a small Fire Pal found mostly around Mount Obsidian and the volcano areas. Its partner skill, Magma Tears, heals you and your party Pals a little every second while you are out of combat. At base it does Kindling, Handiwork, Transporting and Farming, all at level one. The more it cries, the hotter it gets. Will you keep a Flambelle? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Flambelle",
+      "label": "Flambelle"
+    },
+    {
+      "image": "steam:1623730:13",
+      "label": "Mount Obsidian area"
+    },
+    {
+      "image": "pal:Flambelle",
+      "fact": "Magma Tears",
+      "sub": "Heals the party out of combat"
+    },
+    {
+      "image": "steam:1623730:14",
+      "label": "Kindling level one"
+    }
+  ],
+  "description": "Flambelle in Palworld 1.0: Fire Pal found around Mount Obsidian with the Magma Tears healing partner skill and four level 1 work suitabilities. Checked on Pindrop and palworld.gg in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Flambelle",
+    "Flambelle location",
+    "Magma Tears",
+    "Palworld fire pal",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld Pal guide",
+    "Palworld tips"
+  ]
+}

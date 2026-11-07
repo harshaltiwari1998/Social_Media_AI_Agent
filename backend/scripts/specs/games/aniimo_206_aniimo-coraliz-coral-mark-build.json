@@ -1,0 +1,45 @@
+{
+  "id": "aniimo-coraliz-coral-mark-build",
+  "slot": "aniimo",
+  "order": 206,
+  "headline": "Coraliz build",
+  "title": "Coraliz | Coral Mark Rock and Water Build | Aniimo Guide",
+  "video_script": "Coraliz is a stage three Rock and Water Aniimo from the Whisperwake Isles, with an Alpha form to hunt. Its Coral Impact applies a Coral Mark for six seconds. When the mark ends, the target takes extra damage equal to three Might for every hit of Earth damage it took, and Coraliz regains energy. Pair it with other Earth attackers to stack that bonus. Will you build Coraliz? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:9",
+      "label": "Coraliz Build"
+    },
+    {
+      "image": "steam:4126040:10",
+      "fact": "Coral Mark",
+      "sub": "Lasts six seconds"
+    },
+    {
+      "image": "steam:4126040:11",
+      "fact": "Three Might",
+      "sub": "Extra damage per Earth hit"
+    },
+    {
+      "image": "steam:4126040:12",
+      "fact": "Pair with Earth",
+      "sub": "Stack the mark bonus"
+    }
+  ],
+  "description": "Aniimo Coraliz build: Coral Impact applies Coral Mark for 6 seconds, then deals bonus damage equal to 3 Might per Earth hit taken and restores energy. Checked on aniimo.gg and Aniimo Wiki.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Coraliz",
+    "Coraliz build",
+    "Aniimo Coraliz",
+    "Coral Mark",
+    "Aniimo Earth",
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips"
+  ]
+}

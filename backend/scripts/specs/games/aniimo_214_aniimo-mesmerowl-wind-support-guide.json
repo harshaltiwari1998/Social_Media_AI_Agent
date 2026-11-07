@@ -1,0 +1,45 @@
+{
+  "id": "aniimo-mesmerowl-wind-support-guide",
+  "slot": "aniimo",
+  "order": 214,
+  "headline": "Mesmerowl",
+  "title": "Mesmerowl | Wind Healer and Energy Support | Aniimo Guide",
+  "video_script": "Mesmerowl is a stage three Wind Aniimo from the Whisperwake Isles that can fly and glide. Mesmerwave Recharge speeds up your team's energy recovery. Wind Blade Strikes fires four extra blades after charging, and each hit cuts the target's energy recovery. Wind Bomb Therapy bounces back to heal the whole team. An Alpha Mesmerowl exists too. Will you add it? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:14",
+      "label": "Mesmerowl"
+    },
+    {
+      "image": "steam:4126040:20",
+      "fact": "Mesmerwave Recharge",
+      "sub": "Team energy recovery"
+    },
+    {
+      "image": "steam:4126040:24",
+      "fact": "Wind Blade Strikes",
+      "sub": "Four extra blades after charging"
+    },
+    {
+      "image": "steam:4126040:28",
+      "fact": "Wind Bomb Therapy",
+      "sub": "Bounces back to heal the team"
+    }
+  ],
+  "description": "Aniimo Mesmerowl guide: stage 3 Wind Aniimo that flies and glides, with team energy recovery, Wind Blade Strikes and Wind Bomb Therapy healing. Checked on aniimo.gg and in-game skill text.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Mesmerowl",
+    "Aniimo Mesmerowl",
+    "Aniimo Wind",
+    "Aniimo support",
+    "Wind Bomb Therapy",
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips"
+  ]
+}

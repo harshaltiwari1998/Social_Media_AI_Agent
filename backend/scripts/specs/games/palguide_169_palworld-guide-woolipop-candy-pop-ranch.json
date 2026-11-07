@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-woolipop-candy-pop-ranch",
+  "slot": "palguide",
+  "order": 169,
+  "headline": "Woolipop",
+  "title": "Woolipop | Cotton Candy Ranch Pal | Palworld Guide",
+  "video_script": "Woolipop is a Neutral Pal covered in cotton candy. You can find it in the early game around the Sea Breeze Archipelago. Assign it to a ranch and it sometimes drops Cotton Candy. Its partner skill, Candy Pop, also lowers how fast your base Pals get hungry, and it does not stack. Woolipop works Farming at level one. Is it on your ranch? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Woolipop",
+      "label": "Woolipop"
+    },
+    {
+      "image": "steam:1623730:9",
+      "label": "Sea Breeze Archipelago"
+    },
+    {
+      "image": "pal:Woolipop",
+      "fact": "Candy Pop",
+      "sub": "Drops Cotton Candy at ranch"
+    },
+    {
+      "image": "steam:1623730:10",
+      "label": "Farming level one"
+    }
+  ],
+  "description": "Woolipop in Palworld 1.0: Neutral ranch Pal that drops Cotton Candy, with the Candy Pop partner skill reducing base Pal hunger. Checked on Pindrop and palworld.gg in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Woolipop",
+    "Woolipop location",
+    "Cotton Candy",
+    "Palworld ranch pal",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld Pal guide",
+    "Palworld tips"
+  ]
+}

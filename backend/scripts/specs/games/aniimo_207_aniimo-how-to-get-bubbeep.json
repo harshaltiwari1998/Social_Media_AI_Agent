@@ -1,0 +1,45 @@
+{
+  "id": "aniimo-how-to-get-bubbeep",
+  "slot": "aniimo",
+  "order": 207,
+  "headline": "Bubbeep",
+  "title": "Bubbeep | Grass and Water Healer | Aniimo Guide",
+  "video_script": "Bubbeep is a Grass and Water support Aniimo found around Crescent Bay in the Whisperwake Isles. It turns algae into floating bubbles, and it can swim. Baa Bubble Wave shields allies along its path, while Ripples of Floating Duckweed heals your team in a moving area. Bubbeep evolves into Glameep, a stage three healer. Want a healer for your team? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:13",
+      "label": "Bubbeep"
+    },
+    {
+      "image": "steam:4126040:14",
+      "fact": "Grass and Water",
+      "sub": "Crescent Bay, Whisperwake Isles"
+    },
+    {
+      "image": "steam:4126040:15",
+      "fact": "Baa Bubble Wave",
+      "sub": "Shields allies on its path"
+    },
+    {
+      "image": "steam:4126040:16",
+      "fact": "Evolves into Glameep",
+      "sub": "Stage three healer"
+    }
+  ],
+  "description": "How to get Bubbeep in Aniimo: a Grass and Water healer found around Crescent Bay in the Whisperwake Isles. It shields and heals allies and evolves into Glameep. Checked on aniimo.gg and Aniimo Wiki.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Bubbeep",
+    "Aniimo Bubbeep",
+    "Aniimo healer",
+    "Glameep",
+    "Whisperwake Isles",
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips"
+  ]
+}

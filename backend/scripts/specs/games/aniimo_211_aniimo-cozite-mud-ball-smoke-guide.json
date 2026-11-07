@@ -1,0 +1,45 @@
+{
+  "id": "aniimo-cozite-mud-ball-smoke-guide",
+  "slot": "aniimo",
+  "order": 211,
+  "headline": "Cozite",
+  "title": "Cozite | Rock Mud Ball Starter | Aniimo Guide",
+  "video_script": "Cozite is a stage one Rock Aniimo that can fly and glide, and it evolves into Bailite. It kicks a Rolling Mud Ball that deals area damage at power thirty one for twenty energy. Its Shielding Smoke costs ten energy and blocks enemies from aiming through the cloud. Homeland work is Hauling level one and Earth level one. Have you caught a Cozite? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:29",
+      "label": "Cozite"
+    },
+    {
+      "image": "steam:4126040:30",
+      "fact": "Rolling Mud Ball",
+      "sub": "Power thirty one, twenty energy"
+    },
+    {
+      "image": "steam:4126040:31",
+      "fact": "Shielding Smoke",
+      "sub": "Blocks aiming, ten energy"
+    },
+    {
+      "image": "steam:4126040:36",
+      "fact": "Evolves into Bailite",
+      "sub": "Rock Aniimo line"
+    }
+  ],
+  "description": "Aniimo Cozite guide: a stage 1 Rock Aniimo that can fly and glide, with Rolling Mud Ball (power 31), Shielding Smoke and Hauling Homeland work. Evolves into Bailite. Checked on aniimo.gg and Aniimo Wiki.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Cozite",
+    "Aniimo Cozite",
+    "Bailite",
+    "Aniimo Rock",
+    "Rolling Mud Ball",
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips"
+  ]
+}

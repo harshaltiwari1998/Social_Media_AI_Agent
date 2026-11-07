@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-cawgnito-night-vision-lumbering",
+  "slot": "palguide",
+  "order": 167,
+  "headline": "Cawgnito",
+  "title": "Cawgnito | Night Vision and Lumbering | Palworld Guide",
+  "video_script": "Cawgnito is a Dark Pal that comes out at night, with plenty of spawns in the Twilight Dunes. Its partner skill, Eerie Nightstreaker, gives you night vision and sometimes digs up Bone while it works with you. At base it does Lumbering level two and Farming level one. It drops Bone and Venom Gland. Is Cawgnito on your lumber team? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Cawgnito",
+      "label": "Cawgnito"
+    },
+    {
+      "image": "steam:1623730:5",
+      "label": "Twilight Dunes at night"
+    },
+    {
+      "image": "pal:Cawgnito",
+      "fact": "Eerie Nightstreaker",
+      "sub": "Night vision, sometimes digs Bone"
+    },
+    {
+      "image": "steam:1623730:6",
+      "label": "Lumbering level two"
+    }
+  ],
+  "description": "Cawgnito in Palworld 1.0: Dark Pal that spawns at night, with the Eerie Nightstreaker night vision partner skill and Lumbering 2. Checked on Pindrop and palworld.gg in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Cawgnito",
+    "Cawgnito location",
+    "Palworld lumbering pal",
+    "Eerie Nightstreaker",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld Pal guide",
+    "Palworld tips"
+  ]
+}

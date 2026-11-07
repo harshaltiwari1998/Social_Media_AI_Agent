@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-loupmoon-dark-gleam-strike",
+  "slot": "palguide",
+  "order": 168,
+  "headline": "Loupmoon",
+  "title": "Loupmoon | Jumping Claw Dark Pal | Palworld Guide",
+  "video_script": "Loupmoon is a Dark wolf Pal that spawns almost only at night. You can find it around the Verdant Brook region and the bamboo groves. Its partner skill, Dark Gleam Strike, makes it attack your target with Jumping Claw, and the damage multiplier grows up to two point five times. At base it works Handiwork level two. Have you caught Loupmoon yet? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Loupmoon",
+      "label": "Loupmoon"
+    },
+    {
+      "image": "steam:1623730:7",
+      "label": "Night spawns"
+    },
+    {
+      "image": "pal:Loupmoon",
+      "fact": "Dark Gleam Strike",
+      "sub": "Jumping Claw up to two point five times"
+    },
+    {
+      "image": "steam:1623730:8",
+      "label": "Handiwork level two"
+    }
+  ],
+  "description": "Loupmoon in Palworld 1.0: Dark Pal that spawns at night, with the Dark Gleam Strike partner skill (Jumping Claw, up to x2.5 damage) and Handiwork 2. Checked on Pindrop and palworld.gg in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Loupmoon",
+    "Loupmoon location",
+    "Dark Gleam Strike",
+    "Palworld dark pal",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld Pal guide",
+    "Palworld tips"
+  ]
+}

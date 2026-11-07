@@ -1,0 +1,45 @@
+{
+  "id": "aniimo-pouchwisp-coin-mark-build",
+  "slot": "aniimo",
+  "order": 215,
+  "headline": "Pouchwisp",
+  "title": "Pouchwisp | Dark Coin Mark Build | Aniimo Guide",
+  "video_script": "Pouchwisp is a stage three Dark Aniimo from the Whisperwake Isles, shaped like a giant coin pouch full of Pennywisps. Coin Boost puts a Pennywisp Mark on a target that jumps to another enemy when the first is broken or defeated, and it restores energy. Showhand deals more damage the lower the target's health is. It has an Alpha form too. Will you gamble on it? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:34",
+      "label": "Pouchwisp"
+    },
+    {
+      "image": "steam:4126040:35",
+      "fact": "Coin Boost",
+      "sub": "Mark jumps to another target"
+    },
+    {
+      "image": "steam:4126040:32",
+      "fact": "Showhand",
+      "sub": "More damage on low health targets"
+    },
+    {
+      "image": "steam:4126040:33",
+      "fact": "Alpha Pouchwisp",
+      "sub": "Boss form to hunt"
+    }
+  ],
+  "description": "Aniimo Pouchwisp build: stage 3 Dark Aniimo with Coin Boost (a Pennywisp Mark that transfers) and Showhand, which deals more damage to low health targets. Checked on aniimo.gg and in-game skill text.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Pouchwisp",
+    "Aniimo Pouchwisp",
+    "Aniimo Dark",
+    "Pennywisp",
+    "Coin Boost",
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips"
+  ]
+}

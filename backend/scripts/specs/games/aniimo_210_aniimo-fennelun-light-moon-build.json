@@ -1,0 +1,45 @@
+{
+  "id": "aniimo-fennelun-light-moon-build",
+  "slot": "aniimo",
+  "order": 210,
+  "headline": "Fennelun",
+  "title": "Fennelun | Moon Light Build | Aniimo Guide",
+  "video_script": "Fennelun is a stage three Light Aniimo with a moonlit fox look, and it even has an Alpha boss form. Lumin Bolts fires three Light missiles and applies a Fox Mark that lowers Light resistance. Moon Impact drops a full moon for power forty five, and hits harder against marked targets. Lunar Eclipse adds heavy extra Break damage. Ready to try it? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:25",
+      "label": "Fennelun"
+    },
+    {
+      "image": "steam:4126040:26",
+      "fact": "Lumin Bolts",
+      "sub": "Three Light missiles, Fox Mark"
+    },
+    {
+      "image": "steam:4126040:27",
+      "fact": "Moon Impact",
+      "sub": "Power forty five, bonus on Fox Mark"
+    },
+    {
+      "image": "steam:4126040:28",
+      "fact": "Lunar Eclipse",
+      "sub": "Heavy extra Break damage"
+    }
+  ],
+  "description": "Aniimo Fennelun build: a stage 3 Light Aniimo. Lumin Bolts applies Fox Mark, Moon Impact (power 45) hits marked targets harder and Lunar Eclipse adds heavy Break damage. Checked on aniimo.gg and Aniimo Wiki.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Fennelun",
+    "Aniimo Fennelun",
+    "Aniimo Light",
+    "Fox Mark",
+    "Moon Impact",
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips"
+  ]
+}

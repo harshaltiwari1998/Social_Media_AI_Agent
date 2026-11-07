@@ -1,0 +1,45 @@
+{
+  "id": "aniimo-dewple-tide-resonance-build",
+  "slot": "aniimo",
+  "order": 213,
+  "headline": "Dewple",
+  "title": "Dewple | Water Team Booster | Aniimo Guide",
+  "video_script": "Dewple is a stage three Water Aniimo from the Whisperwake Isles, made of several Dewlops that move in sync. Tide Resonance gives your whole team a Water damage boost. Whirlpool Dewdrop pulls enemies into the centre once, and Current Jet can spend two Water Debuff stacks for extra damage equal to fifty percent of Might. There is an Alpha Dewple too. Water team ready? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:37",
+      "label": "Dewple"
+    },
+    {
+      "image": "steam:4126040:38",
+      "fact": "Tide Resonance",
+      "sub": "Team Water damage boost"
+    },
+    {
+      "image": "steam:4126040:39",
+      "fact": "Whirlpool Dewdrop",
+      "sub": "Pulls enemies to the centre"
+    },
+    {
+      "image": "steam:4126040:40",
+      "fact": "Current Jet",
+      "sub": "Spend two stacks, fifty percent Might"
+    }
+  ],
+  "description": "Aniimo Dewple build: stage 3 Water Aniimo from the Whisperwake Isles with Tide Resonance team boost, Whirlpool Dewdrop and Current Jet. Checked on aniimo.gg and in-game skill text.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Dewple",
+    "Aniimo Dewple",
+    "Tide Resonance",
+    "Aniimo Water team",
+    "Dewlop",
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips"
+  ]
+}

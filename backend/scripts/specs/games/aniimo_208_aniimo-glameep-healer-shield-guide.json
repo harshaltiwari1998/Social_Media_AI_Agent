@@ -1,0 +1,45 @@
+{
+  "id": "aniimo-glameep-healer-shield-guide",
+  "slot": "aniimo",
+  "order": 208,
+  "headline": "Glameep healer",
+  "title": "Glameep | Grass and Water Healer | Aniimo Guide",
+  "video_script": "Glameep is the stage three form of Bubbeep, a Grass and Water healer from the Whisperwake Isles. Its Ripples of Floating Duckweed heal allies inside a moving area, and Baa Bubble Wave shields everyone along its path. It also has a Prismana form, and an Omega boss version to challenge. Healing and shields in one slot is rare. Will you use Glameep? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:17",
+      "label": "Glameep"
+    },
+    {
+      "image": "steam:4126040:18",
+      "fact": "Healing area",
+      "sub": "Ripples of Floating Duckweed"
+    },
+    {
+      "image": "steam:4126040:19",
+      "fact": "Bubble shields",
+      "sub": "Baa Bubble Wave"
+    },
+    {
+      "image": "steam:4126040:20",
+      "fact": "Omega Glameep",
+      "sub": "Boss form to challenge"
+    }
+  ],
+  "description": "Aniimo Glameep guide: Bubbeep's stage 3 Grass and Water healer with a moving heal area, bubble shields, a Prismana form and an Omega boss form. Checked on aniimo.gg and Aniimo Wiki.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Glameep",
+    "Aniimo Glameep",
+    "Aniimo healer",
+    "Bubbeep",
+    "Omega Glameep",
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips"
+  ]
+}

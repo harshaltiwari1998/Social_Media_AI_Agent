@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-fuack-surfing-slam-watering",
+  "slot": "palguide",
+  "order": 165,
+  "headline": "Fuack",
+  "title": "Fuack | Surfing Slam Water Pal | Palworld Guide",
+  "video_script": "Fuack is a tiny Water Pal with Watering, Handiwork and Transporting all at level one. Its partner skill, Surfing Slam, makes it body surf into an enemy and slam them. You can find it in the early game, with most spawns in the Verdant Brook area. Fuack drops Leather and Aquatic Pal Fluids every time. Do you run a Fuack at base? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Fuack",
+      "label": "Fuack"
+    },
+    {
+      "image": "steam:1623730:1",
+      "label": "Early game spawns"
+    },
+    {
+      "image": "pal:Fuack",
+      "fact": "Surfing Slam",
+      "sub": "Body surf into enemies"
+    },
+    {
+      "image": "steam:1623730:2",
+      "label": "Watering level one"
+    }
+  ],
+  "description": "Fuack in Palworld 1.0: early game Water Pal with Watering, Handiwork and Transporting level 1 and the Surfing Slam partner skill. Checked on Pindrop and palworld.gg in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Fuack",
+    "Fuack location",
+    "Surfing Slam",
+    "Palworld water pal",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld Pal guide",
+    "Palworld tips"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-leezpunk-too-cool-to-be-seen",
+  "slot": "palguide",
+  "order": 166,
+  "headline": "Leezpunk",
+  "title": "Leezpunk | Invisibility Partner Skill | Palworld Guide",
+  "video_script": "Leezpunk is a Dark Pal that only spawns in big numbers at night, mostly around the Twilight Dunes. Its partner skill, Too Cool to Be Seen, turns you and Leezpunk invisible so enemies cannot detect you. At base it does Handiwork level two, plus Gathering and Transporting at level one. It also drops a Copper Key sometimes. Will you sneak with Leezpunk? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Leezpunk",
+      "label": "Leezpunk"
+    },
+    {
+      "image": "steam:1623730:3",
+      "label": "Night spawns"
+    },
+    {
+      "image": "pal:Leezpunk",
+      "fact": "Too Cool to Be Seen",
+      "sub": "You and Leezpunk turn invisible"
+    },
+    {
+      "image": "steam:1623730:4",
+      "label": "Handiwork level two"
+    }
+  ],
+  "description": "Leezpunk in Palworld 1.0: Dark Pal found mostly at night around the Twilight Dunes. Partner skill Too Cool to Be Seen makes you invisible; Handiwork 2 at base. Checked on Pindrop and palworld.gg in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Leezpunk",
+    "Leezpunk location",
+    "Palworld dark pal",
+    "Too Cool to Be Seen",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld Pal guide",
+    "Palworld tips"
+  ]
+}

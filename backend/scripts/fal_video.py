@@ -461,7 +461,10 @@ def build(storyboard: Path, out_dir: Path) -> Path:
             clips.append(fuse_clip(c, work, out_dir / f"clip_{i:02d}.mp4"))
             continue
         if "still" in c:  # hybrid mode: a still with a zoom instead of a paid/quota-limited AI clip
-            clips.append(still_clip(_resolve_source(c["still"], work), c.get("seconds", 3), c.get("zoom", [1.0, 1.12]), c.get("flash", False),
+            # "still" is an image ref/path, or an image spec ({"poke": ..., "background": ...}) drawn to scene_NN.jpg
+            src = (scene_image(c["still"], out_dir / f"scene_{i:02d}.jpg", work) if isinstance(c["still"], dict)
+                   else _resolve_source(c["still"], work))
+            clips.append(still_clip(src, c.get("seconds", 3), c.get("zoom", [1.0, 1.12]), c.get("flash", False),
                                     out_dir / f"clip_{i:02d}.mp4"))
             continue
         img = scene_image(c["image"], out_dir / f"scene_{i:02d}.jpg", work)

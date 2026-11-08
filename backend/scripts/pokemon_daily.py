@@ -240,30 +240,29 @@ def fusion_base(pair: dict) -> tuple[str, str]:
 _KEEP = "the character keeps exactly the same design, shape and colors, anime style, smooth natural motion"
 
 
+FUSION_STYLE = 3
+
+
 def fusion_storyboard(pair: dict, meta: dict, fused: Path) -> dict:
-    """Parent A moves, parent B moves, a locally drawn fusion (silhouettes slide together, swap, white screen), then
-    the fused creature fades in from white, looks around and attacks. Style 2 (owner, 2026-11-06: style 1 looked bad)."""
+    """Style 3 (owner 2026-11-08: "pokemon ka animation mat dalo"): no Wan motion at all - parent A's art, parent B's
+    art, the locally drawn fusion (silhouettes slide together, swap, white screen), then the fused creature fades in
+    from white. Only the fused art itself uses the GPU (Kontext). Stills get a slow zoom so the frame is not frozen."""
     a, b, name = meta["a"], meta["b"], meta["name"]
     ta, tb = (t.lower() for t in (meta["types"].split("/") * 2)[:2])
-    fx, fx_b = ENERGY.get(ta, "white energy"), ENERGY.get(tb, "white energy")
     bg_a, bg_b = BACKGROUND.get(ta, "wiki:Meadow"), BACKGROUND.get(tb, "wiki:Meadow")
-    wan = lambda who, bg, prompt, fade=0.0: {"image": {"poke": who, "background": bg}, "shots": [[prompt, 5]],  # noqa: E731
-                                             **({"white_in": fade} if fade else {})}
-    clips = [wan(pair["a"], bg_a, f"the creature shifts its weight, turns its head and raises its arms into a battle stance, "
-                                  f"breathing, a few {fx} drift in the air, static camera, {_KEEP}"),
-             wan(pair["b"], bg_b, f"the creature steps forward, turns its head and clenches its fists, breathing, "
-                                  f"a few {fx_b} drift in the air, static camera, {_KEEP}"),
+    still = lambda who, bg, secs, zoom, fade=0.0: {"still": {"poke": who, "background": bg}, "seconds": secs,  # noqa: E731
+                                                   "zoom": zoom, **({"white_in": fade} if fade else {})}
+    fused_scene = str(fused.parent / "scene_03.jpg")  # drawn by clip 3, reused by the joke + closing clips
+    clips = [still(pair["a"], bg_a, 4.0, [1.0, 1.12]),
+             still(pair["b"], bg_b, 3.5, [1.0, 1.12]),
              {"fuse": [pair["a"], pair["b"], str(fused)], "background": bg_a, "seconds": 3.8},
-             wan(str(fused), bg_a, f"the creature opens its eyes, looks around proudly and flexes its body, breathing, "
-                                   f"small sparkles of light fade around it, static camera, {_KEEP}", 0.6),
-             wan(str(fused), bg_a, f"the creature roars and swings forward in an attack, a small burst of {fx} from its body, "
-                                   f"the creature stays clearly visible in the center, slow camera push in, {_KEEP}")]
-    # owner 2026-11-08: one on-topic joke per video; it rides the attack clip, the CTA gets a free still at the end
-    clips.append({"still": str(fused.parent / "scene_04.jpg"), "seconds": 5, "zoom": [1.05, 1.15]})
+             still(str(fused), bg_a, 4.0, [1.15, 1.02], 0.6),
+             {"still": fused_scene, "seconds": 5, "zoom": [1.02, 1.12]},   # one on-topic joke (owner 2026-11-08)
+             {"still": fused_scene, "seconds": 5.5, "zoom": [1.12, 1.2]}]  # closing question
     narration = [f"What happens when {a} fuses with {b}?", f"And here comes {b}!", f"{a} and {b} are fusing!",
                  f"Fusion complete! Meet {name}!", humor.pick("fusion", meta["id"]),
                  f"{name}, a {meta['types']} fusion. Which two Pokemon should fuse next? Comment below!"]
-    return {"title": f"{a} + {b} fusion", "backend": "wan", "voice": "en-US-GuyNeural", "style": 2,
+    return {"title": f"{a} + {b} fusion", "backend": "wan", "voice": "en-US-GuyNeural", "style": FUSION_STYLE,
             "narration": narration, "clips": clips}
 
 
@@ -273,9 +272,10 @@ def make_fusion(pair: dict, poster, games: dict) -> None:
     log.info("== fusion %s + %s = %s (%s)", meta["a"], meta["b"], meta["name"], meta["types"])
     out = CACHE / f"fusion-{meta['id']}"
     board = out / "storyboard.json"
-    if board.exists() and json.loads(board.read_text(encoding="utf-8")).get("style") != 2:
-        # style-1 leftovers (two-parent Kontext art, clips in the old order) would be mixed in - start over
-        for f in [*out.glob("clip_*.mp4"), *out.glob("scene_*.jpg"), out / "fused.png", board]:
+    old_style = json.loads(board.read_text(encoding="utf-8")).get("style") if board.exists() else FUSION_STYLE
+    if old_style != FUSION_STYLE:
+        # clips of an older style (Wan motion) would be mixed in - redraw them; style-2 fused art is still good
+        for f in [*out.glob("clip_*"), *out.glob("scene_*.jpg"), board, *([out / "fused.png"] if old_style != 2 else [])]:
             f.unlink(missing_ok=True)
     fused = fusion_image(pair, out / "fused.png")
     board.write_text(json.dumps(fusion_storyboard(pair, meta, fused), indent=2) + "\n", encoding="utf-8")

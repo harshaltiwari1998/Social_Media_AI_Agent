@@ -67,10 +67,12 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   `backend/scripts/specs/fusion_pairs.json`. The same pairs (with a `"look"` per pair) are also made automatically by
   `pokemon_daily.py`: FLUX.1 Kontext ZeroGPU Space edits the parent whose body the `look` keeps, on a chroma-key green background (magenta for green Pokemon; a white
   one was flood-filled and punched holes in white faces) (the other parent is
-  NOT named in the prompt - naming it made Kontext just redraw that Pokemon), Wan animates it with body-motion prompts
-  (big flash/explosion prompts melted the creature), and the fusion itself is drawn locally (`fal_video.fuse_clip`:
-  both parents' white silhouettes slide together, swap with the fused form, white screen). Style 2 since 2026-11-06;
-  style-1 leftovers in a pair's cache are thrown away (shared `fusion-<a>+<b>` record).
+  NOT named in the prompt - naming it made Kontext just redraw that Pokemon), and the fusion itself is drawn locally
+  (`fal_video.fuse_clip`: both parents' white silhouettes slide together, swap with the fused form, white screen).
+  Style 3 since 2026-11-08 (owner: "pokemon ka animation mat dalo"): NO Wan motion - parent A still, parent B still
+  (official art on a background, slow zoom), the drawn fusion, then the fused creature fading in from white; only
+  Kontext uses the GPU. Older-style clips in a pair's cache are thrown away (style-2 fused art is kept;
+  shared `fusion-<a>+<b>` record).
 - `backend/scripts/specs/gameplay/<plan>.json` - cut plans for the owner's own stream recordings.
 - `daily_job.py` picks the lowest-`order` unposted, unexpired spec per slot (`--from-end` takes the
   highest, for manual batches that must not collide with scheduled runs).
@@ -180,7 +182,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
 - Daily Aniimo + Palworld pipeline (writer routine + `daily-anipal.yml`).
 - Daily free games + store deals (`daily-deals.yml`, `scripts/store_deals.py`) - 10 shorts + 2 long a day.
 - Pokemon evolution shorts (`daily-pokemon.yml`, `scripts/pokemon_daily.py`) - up to 3 a day (HF PRO), 50 lines queued;
-  plus up to 2 automatic fusion shorts a day (`--max-fusions`, FLUX.1 Kontext + Wan).
+  plus up to 2 automatic fusion shorts a day (`--max-fusions`, FLUX.1 Kontext art, stills + drawn fusion, no Wan).
   Charmander evolution got strong views (Nov 2026) - owner bought HF PRO to scale it.
 - Pokemon fusion shorts from Gemini clips (`fusion-inbox.yml`, `scripts/fusion_inbox.py`) - the clip itself is made by hand.
 - Weekly refill routine, login check, weekly stats report, health-check exit codes.
@@ -205,6 +207,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-08 - Fusion style 3: no Wan animation - the two parents as stills, drawn fusion, fused Pokemon (owner request).
 - 2026-11-08 - RDR2 plans for all remaining streams (Ch3 P4 - Ch6 P6, 400 shorts + 25 long), rendering on the laptop.
 - 2026-11-08 - Humour: one on-topic joke per video (`humor.py`, spec `"joke"` field, slot pools); Dialkia + Lucarace fusions.
 - 2026-11-06 - Fusion style 2: one-parent Kontext edit, locally drawn fusion transition, body-motion Wan prompts (owner: animation looked bad).

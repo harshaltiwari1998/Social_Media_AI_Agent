@@ -174,18 +174,22 @@ def _art(slug: str):
 
 
 def fusion_image(pair: dict, out: Path) -> Path:
-    """The fused creature as a transparent PNG: both official artworks side by side -> FLUX.1 Kontext with the
-    pair's "look" -> white background flood-filled away from the corners (white fins inside the body stay)."""
+    """The fused creature as a transparent PNG: the base parent's official artwork on a chroma-key background ->
+    FLUX.1 Kontext with the pair's "look" -> key colour keyed out (soft edge, despill)."""
     if out.exists():
         return out
+    import numpy as np
     from gradio_client import Client, handle_file
-    from PIL import Image, ImageDraw
+    from PIL import Image
 
     out.parent.mkdir(parents=True, exist_ok=True)
     # Kontext edits ONE creature well; given both side by side it mostly kept one parent unchanged (Garchizard came
     # out as a plain Charizard). So edit the parent whose body the "look" keeps and paint the other one's parts on.
     base, other = fusion_base(pair)
-    sheet = Image.new("RGB", (1024, 1024), (255, 255, 255))
+    # chroma-key background: a white one had to be flood-filled, which also punched holes in white faces (Lucarace)
+    green = any(w in pair["look"].lower() for w in ("green", "teal", "leaf"))
+    key, key_name = ((255, 0, 255), "magenta") if green else ((0, 255, 0), "green")
+    sheet = Image.new("RGB", (1024, 1024), key)
     art = _art(base)
     scale = min(860 / art.width, 900 / art.height)
     art = art.resize((int(art.width * scale), int(art.height * scale)), Image.LANCZOS)
@@ -196,7 +200,8 @@ def fusion_image(pair: dict, out: Path) -> Path:
     look = re.sub(rf"(?i)\b(like )?{re.escape(_name(other))}(?:'s)?\s*", "", pair["look"])
     look = re.sub(rf"(?i)\b{re.escape(_name(base))}'s\s*", "its ", look)
     prompt = (f"Edit this creature: {look}. Keep its own head, face, body shape and pose exactly, only change the colors "
-              "and add the new parts. One creature only, full body, plain white background, official Pokemon art style")
+              f"and add the new parts. One creature only, full body, flat solid pure {key_name} background, "
+              "official Pokemon art style")
     client = Client(KONTEXT_SPACE, hf_token=fv.hf_token(), verbose=False)
     try:
         res = client.predict(handle_file(str(src)), prompt, 7, False, 3.0, 28, api_name="/infer")
@@ -204,17 +209,18 @@ def fusion_image(pair: dict, out: Path) -> Path:
         if "quota" in str(exc).lower():
             raise fv.QuotaExhausted(str(exc)) from exc
         raise
-    im = Image.open(res[0]["path"] if isinstance(res[0], dict) else res[0]).convert("RGB")
-    key = (255, 0, 255)
-    for xy in ((0, 0), (im.width - 1, 0), (0, im.height - 1), (im.width - 1, im.height - 1)):
-        ImageDraw.floodfill(im, xy, key, thresh=40)
-    for y in range(0, im.height, 48):  # enclosed gaps (between tail and body) are pure white too; fins are greyer
-        for x in range(0, im.width, 48):
-            if min(im.getpixel((x, y))) >= 248:
-                ImageDraw.floodfill(im, (x, y), key, thresh=8)
-    rgba = im.convert("RGBA")
-    rgba.putdata([(0, 0, 0, 0) if px[:3] == key else px for px in rgba.getdata()])
-    rgba.save(out)
+    im = np.asarray(Image.open(res[0]["path"] if isinstance(res[0], dict) else res[0]).convert("RGB")).astype(np.float32)
+    # every key-coloured pixel goes, enclosed gaps (between tail and body) included; soft edge + despill
+    r, g, b = im[..., 0], im[..., 1], im[..., 2]
+    spill = g - np.maximum(r, b) if key == (0, 255, 0) else np.minimum(r, b) - g
+    alpha = np.clip((140 - spill) / 80, 0, 1)
+    cut = np.maximum(spill, 0)  # remove the key's tint from edge pixels only
+    if key == (0, 255, 0):
+        im[..., 1] = g - cut
+    else:
+        im[..., 0], im[..., 2] = r - cut, b - cut
+    rgba = np.dstack([im, alpha * 255]).astype(np.uint8)
+    Image.fromarray(rgba, "RGBA").save(out)
     return out
 
 

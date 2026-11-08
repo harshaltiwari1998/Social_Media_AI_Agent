@@ -65,7 +65,8 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
 - `inbox/<pokemon1>+<pokemon2>[=<name>].mp4` - Pokemon fusion reveal clips the owner makes in the Gemini app
   (prompts: `F:/AI AGENT/pokemon_fusion_prompts.md`) and uploads on the GitHub website; names from
   `backend/scripts/specs/fusion_pairs.json`. The same pairs (with a `"look"` per pair) are also made automatically by
-  `pokemon_daily.py`: FLUX.1 Kontext ZeroGPU Space edits the parent whose body the `look` keeps (the other parent is
+  `pokemon_daily.py`: FLUX.1 Kontext ZeroGPU Space edits the parent whose body the `look` keeps, on a chroma-key green background (magenta for green Pokemon; a white
+  one was flood-filled and punched holes in white faces) (the other parent is
   NOT named in the prompt - naming it made Kontext just redraw that Pokemon), Wan animates it with body-motion prompts
   (big flash/explosion prompts melted the creature), and the fusion itself is drawn locally (`fal_video.fuse_clip`:
   both parents' white silhouettes slide together, swap with the fused form, white screen). Style 2 since 2026-11-06;

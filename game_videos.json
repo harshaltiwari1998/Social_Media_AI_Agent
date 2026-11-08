@@ -8098,5 +8098,29 @@
       "name": "Dialkia",
       "types": "Steel/Water"
     }
+  },
+  "fusion-kyogre+groudon": {
+    "kind": "motion",
+    "spec": "scripts/specs/fusion_pairs.json",
+    "video": "F:\\AI AGENT\\run_fe\\pokemon\\fusion-kyogre+groudon\\final.mp4",
+    "data": {
+      "id": "kyogre+groudon",
+      "a": "Kyogre",
+      "b": "Groudon",
+      "name": "Kyodon",
+      "types": "Water/Ground"
+    }
+  },
+  "fusion-snorlax+gengar": {
+    "kind": "motion",
+    "spec": "scripts/specs/fusion_pairs.json",
+    "video": "F:\\AI AGENT\\run_fe\\pokemon\\fusion-snorlax+gengar\\final.mp4",
+    "data": {
+      "id": "snorlax+gengar",
+      "a": "Snorlax",
+      "b": "Gengar",
+      "name": "Snorgar",
+      "types": "Normal/Ghost"
+    }
   }
 }

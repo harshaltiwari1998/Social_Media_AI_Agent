@@ -73,6 +73,15 @@ jobs:
           PYTHONUNBUFFERED: "1"
         run: python scripts/gameplay_cloud.py post
 
+      - name: Sort new uploads into YouTube playlists
+        if: always()
+        continue-on-error: true
+        env:
+          YOUTUBE_CLIENT_SECRET_FILE: .cache/youtube_client_secret.json
+          YOUTUBE_NONINTERACTIVE: "1"
+          PYTHONUNBUFFERED: "1"
+        run: python scripts/youtube_playlists.py --channel youtube
+
       - name: Save posting state
         if: always()
         run: |

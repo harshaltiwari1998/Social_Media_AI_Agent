@@ -93,6 +93,15 @@ jobs:
             --long-videos "${{ github.event.inputs.movies || '1' }}" --long-category movies || status=1
           exit $status
 
+      - name: Sort new uploads into YouTube playlists
+        if: always()
+        continue-on-error: true
+        env:
+          YOUTUBE_CLIENT_SECRET_FILE: .cache/youtube_client_secret.json
+          YOUTUBE_NONINTERACTIVE: "1"
+          PYTHONUNBUFFERED: "1"
+        run: python scripts/youtube_playlists.py
+
       - name: Save posting state
         if: always()
         run: |

@@ -11,6 +11,7 @@ from app.social.base import PostResult, SocialPoster
 _SCOPES = [
     "https://www.googleapis.com/auth/youtube.upload",
     "https://www.googleapis.com/auth/youtube.readonly",
+    "https://www.googleapis.com/auth/youtube",  # playlists (scripts/youtube_playlists.py), added 2026-11-08
 ]
 
 
@@ -96,7 +97,9 @@ class YouTubePoster(SocialPoster):
         token_path = self._token_path()
         creds = None
         if token_path.exists():
-            creds = Credentials.from_authorized_user_file(str(token_path), _SCOPES)
+            # the token's OWN scopes: asking a refresh for scopes it was never granted (an older upload-only
+            # token vs. the playlist scope) fails with invalid_scope and would stop every upload
+            creds = Credentials.from_authorized_user_file(str(token_path))
 
         if not creds or not creds.valid:
             if creds and creds.expired and creds.refresh_token:

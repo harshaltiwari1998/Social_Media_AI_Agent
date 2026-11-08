@@ -100,6 +100,15 @@ jobs:
           --new-games 0 --classic-games 0 --new-palworld 0 --new-movies 0 --movie-reviews 0
           --extra-slot "palguide:${{ github.event.inputs.guides || '1' }}"
 
+      - name: Sort new uploads into YouTube playlists
+        if: always()
+        continue-on-error: true
+        env:
+          YOUTUBE_CLIENT_SECRET_FILE: .cache/youtube_client_secret.json
+          YOUTUBE_NONINTERACTIVE: "1"
+          PYTHONUNBUFFERED: "1"
+        run: python scripts/youtube_playlists.py --channel youtube
+
       - name: Save posting state
         if: always()
         run: |

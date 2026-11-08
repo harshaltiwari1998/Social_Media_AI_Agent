@@ -109,6 +109,13 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   Lahiri ayanamsa); reading = traditional Chandra gochar house from each rashi; says "for entertainment", no fear,
   health, money advice or religious messaging. `daily-rashifal.yml` (20:00 IST) makes the next day's 12 and
   schedules them 06:00-06:55 IST; `FESTIVALS` = only panchang-confirmed dates.
+- `scripts/youtube_playlists.py` - puts every upload made BY THIS PIPELINE (a record in the posting store) into its
+  category playlist on both channels (Pokemon Fusions, Pokemon Evolutions, RDR2 Shorts / Story Highlights, Palworld
+  Breeding / Guides, Aniimo, Deals, DML, Classic, New Games, Gaming History; movie slots + Safar / Explained on the
+  Hindi channel), creating missing playlists, newest on top. The owner's own older uploads and streams (no record)
+  are never touched (owner rule 2026-11-08). Every posting workflow runs it after its uploads (`continue-on-error`).
+  Needs the full `youtube` scope - `youtube_login.py <channel> --force` once, then update the GitHub token secret.
+  Early RDR2 clips are only in the laptop's store: backfill with `--extra-store media_output/pipeline_store.sqlite3`.
 - `scripts/ops_report.py` - token check + weekly report. `scripts/meta_gaming_login.py` - sets up the
   gaming page token. `scripts/youtube_login.py` - YouTube OAuth.
 - `scripts/fal_video.py`, `motion_daily.py`, `lucario_*.py` - AI-motion experiments (Wan/Kling/Flow).
@@ -213,6 +220,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-08 - YouTube playlists per category (`youtube_playlists.py`, run by every posting workflow); `youtube` OAuth scope added.
 - 2026-11-08 - Fusion art from Qwen-Image-Edit-2509 with both parents + part-by-part `fuse` text (23 pairs); livelier Wan prompts; auto fusions paused until approved.
 - 2026-11-08 - Fusion style 4: the two parents as stills, drawn fusion, only the fused Pokemon animated by Wan (owner request).
 - 2026-11-08 - RDR2 plans for all remaining streams (Ch3 P4 - Ch6 P6, 400 shorts + 25 long), rendering on the laptop.

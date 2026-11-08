@@ -8074,5 +8074,17 @@
   "palworld-guide-polapup-rider-of-the-snowy-mountain": {
     "spec": "scripts/specs/games/palguide_156_palworld-guide-polapup-rider-of-the-snowy-mountain.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e0d7f4d5.mp4"
+  },
+  "fusion-lucario+cinderace": {
+    "kind": "motion",
+    "spec": "scripts/specs/fusion_pairs.json",
+    "video": "F:\\AI AGENT\\run_lc\\pokemon\\fusion-lucario+cinderace\\final.mp4",
+    "data": {
+      "id": "lucario+cinderace",
+      "a": "Lucario",
+      "b": "Cinderace",
+      "name": "Lucarace",
+      "types": "Fighting/Fire"
+    }
   }
 }

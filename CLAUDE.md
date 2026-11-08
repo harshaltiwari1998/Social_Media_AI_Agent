@@ -186,10 +186,11 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
 - Weekly refill routine, login check, weekly stats report, health-check exit codes.
 - Gameplay clipper for own RDR2 streams (done: Ch1 P1, Ch2 P1-P3; ~220 clips posted; Ch2 P4
   2026-11-02 - 50 shorts + 3 long, first plan posted from CI via `clips/rdr2_ch2_p4`). Before planning a recording, match its duration to the stream on
-  HarryBeast - the owner once re-added an already-clipped part. Plans written 2026-11-03: Ch2 P5, Ch3 P1-P3.
-  The owner asked for the remaining streams to be fetched by hand: yt-dlp (in the venv, laptop only) downloads
-  their own HarryBeast streams (1080p60, `-f 299+140`, ffmpeg from imageio-ffmpeg) into `VIDEOS GAMING`; left after
-  Ch3 P4: Ch4 P1-P3, Ch5 P1, Ch6 P1-P4 + P6.
+  HarryBeast - the owner once re-added an already-clipped part. Plans written 2026-11-03: Ch2 P5, Ch3 P1-P3;
+  2026-11-08: Ch3 P4, Ch4 P1-P3, Ch5 P1, Ch6 P1-P4 + P6 (400 shorts, 25 long; every stream downloaded is now planned).
+  Titles come from the scan grids (`gameplay_out/<plan>/scan/grid*.jpg`); scenes with hate-group imagery and slur or
+  profanity quotes are left out of titles/clips. Streams were fetched with yt-dlp (in the venv, laptop only, their own
+  HarryBeast streams, 1080p60, `-f 299+140`, ffmpeg from imageio-ffmpeg) into `VIDEOS GAMING`.
 - Laptop trend pipeline (Ollama + SD) and free AI-motion queue (`motion_queue/` -> `motion_videos/`).
 
 ## Known limits / not done
@@ -204,6 +205,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-08 - RDR2 plans for all remaining streams (Ch3 P4 - Ch6 P6, 400 shorts + 25 long), rendering on the laptop.
 - 2026-11-08 - Humour: one on-topic joke per video (`humor.py`, spec `"joke"` field, slot pools); Dialkia + Lucarace fusions.
 - 2026-11-06 - Fusion style 2: one-parent Kontext edit, locally drawn fusion transition, body-motion Wan prompts (owner: animation looked bad).
 - 2026-11-06 - `daily-rashifal.yml`: 12 rashifal shorts every day on the AI Trend Poster FB Page, scheduled for 06:00 IST.

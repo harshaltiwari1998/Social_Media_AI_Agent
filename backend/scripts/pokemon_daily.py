@@ -43,6 +43,9 @@ from scripts import humor  # noqa: E402
 QUEUE = ROOT / "scripts" / "specs" / "pokemon_queue.json"
 PAIRS = fi.PAIRS
 KONTEXT_SPACE = "black-forest-labs/FLUX.1-Kontext-Dev"  # free Hugging Face ZeroGPU Space (image editing)
+# multi-image editing: sees BOTH parents, so the fusion can mix parts of each (owner's reference, 2026-11-08: a real
+# Lucario + Cinderace mix - body, mask and aura appendages of one, ears, fur collar, flame legs of the other)
+QWEN_SPACE = "Qwen/Qwen-Image-Edit-2509"
 CACHE = ROOT / dj.settings.media_output_dir / "pokemon"
 log = logging.getLogger("pokemon_daily")
 
@@ -177,21 +180,28 @@ def _art(slug: str):
 
 
 def fusion_image(pair: dict, out: Path) -> Path:
-    """The fused creature as a transparent PNG: the base parent's official artwork on a chroma-key background ->
-    FLUX.1 Kontext with the pair's "look" -> key colour keyed out (soft edge, despill)."""
+    """The fused creature as a transparent PNG on a chroma-key background, keyed out (soft edge, despill).
+    Pairs with a part-by-part "fuse" text: Qwen sees both parents and mixes them. Otherwise (or if Qwen fails):
+    FLUX.1 Kontext edits the base parent's official artwork with the pair's "look"."""
     if out.exists():
         return out
-    import numpy as np
     from gradio_client import Client, handle_file
     from PIL import Image
 
     out.parent.mkdir(parents=True, exist_ok=True)
+    green = any(w in (pair["look"] + pair.get("fuse", "")).lower() for w in ("green", "teal", "leaf"))
+    key, key_name = ((255, 0, 255), "magenta") if green else ((0, 255, 0), "green")
+    if pair.get("fuse"):  # detailed part-by-part mix of both parents -> Qwen with both images
+        try:
+            return _key_out(_qwen_fusion(pair, key_name, out), key, out)
+        except fv.QuotaExhausted:
+            raise
+        except Exception as exc:
+            log.warning("   Qwen fusion failed (%s) - falling back to Kontext", str(exc)[:160])
     # Kontext edits ONE creature well; given both side by side it mostly kept one parent unchanged (Garchizard came
     # out as a plain Charizard). So edit the parent whose body the "look" keeps and paint the other one's parts on.
     base, other = fusion_base(pair)
     # chroma-key background: a white one had to be flood-filled, which also punched holes in white faces (Lucarace)
-    green = any(w in pair["look"].lower() for w in ("green", "teal", "leaf"))
-    key, key_name = ((255, 0, 255), "magenta") if green else ((0, 255, 0), "green")
     sheet = Image.new("RGB", (1024, 1024), key)
     art = _art(base)
     scale = min(860 / art.width, 900 / art.height)
@@ -212,7 +222,44 @@ def fusion_image(pair: dict, out: Path) -> Path:
         if "quota" in str(exc).lower():
             raise fv.QuotaExhausted(str(exc)) from exc
         raise
-    im = np.asarray(Image.open(res[0]["path"] if isinstance(res[0], dict) else res[0]).convert("RGB")).astype(np.float32)
+    return _key_out(Path(res[0]["path"] if isinstance(res[0], dict) else res[0]), key, out)
+
+
+def _qwen_fusion(pair: dict, key_name: str, out: Path) -> Path:
+    """Both parents' official art (white sheets) -> Qwen-Image-Edit-2509 with the pair's part-by-part "fuse" text."""
+    from gradio_client import Client, handle_file
+    from PIL import Image
+
+    srcs = []
+    for slug in (pair["a"], pair["b"]):
+        art = _art(slug)
+        scale = min(900 / art.width, 900 / art.height)
+        art = art.resize((int(art.width * scale), int(art.height * scale)), Image.LANCZOS)
+        sheet = Image.new("RGB", (1024, 1024), (255, 255, 255))
+        sheet.paste(art, ((1024 - art.width) // 2, (1024 - art.height) // 2), art)
+        src = out.with_name(f"parent_{slug}.png")
+        sheet.save(src)
+        srcs.append(src)
+    prompt = (f"Fuse {_name(pair['a'])} from image 1 and {_name(pair['b'])} from image 2 into ONE new Pokemon that "
+              f"clearly mixes both of them: {pair['fuse']}. One creature only, full body, standing, front view, "
+              f"official Pokemon Sugimori art style, clean line art, flat solid pure {key_name} background")
+    client = Client(QWEN_SPACE, hf_token=fv.hf_token(), verbose=False)
+    try:  # the Space casts the seed to float and then crashes on it - let it pick a random one; 256x256 = input size
+        res, _seed = client.predict([{"image": handle_file(str(s)), "caption": None} for s in srcs], prompt, 0, True,
+                                    4.0, 30, 256, 256, False, api_name="/infer")
+    except Exception as exc:
+        if "quota" in str(exc).lower():
+            raise fv.QuotaExhausted(str(exc)) from exc
+        raise
+    img = res[0]["image"]
+    return Path(img if isinstance(img, str) else img["path"])
+
+
+def _key_out(src: Path, key: tuple, out: Path) -> Path:
+    import numpy as np
+    from PIL import Image
+
+    im = np.asarray(Image.open(src).convert("RGB")).astype(np.float32)
     # every key-coloured pixel goes, enclosed gaps (between tail and body) included; soft edge + despill
     r, g, b = im[..., 0], im[..., 1], im[..., 2]
     spill = g - np.maximum(r, b) if key == (0, 255, 0) else np.minimum(r, b) - g
@@ -257,10 +304,12 @@ def fusion_storyboard(pair: dict, meta: dict, fused: Path) -> dict:
     clips = [still(pair["a"], bg_a, 4.0),
              still(pair["b"], bg_b, 3.5),
              {"fuse": [pair["a"], pair["b"], str(fused)], "background": bg_a, "seconds": 3.8},
-             wan(f"the creature opens its eyes, looks around proudly and flexes its body, breathing, "
-                 f"small sparkles of light fade around it, static camera, {_KEEP}", 0.6),
-             wan(f"the creature roars and swings forward in an attack, a small burst of {fx} from its body, "  # + joke
-                 f"the creature stays clearly visible in the center, slow camera push in, {_KEEP}"),
+             # owner: the fused one must visibly move - soft "breathing" prompts gave a frozen-looking clip; a
+             # "lunge + lightning" attack bent it out of shape at the end, a jump / spin keeps the design
+             wan(f"the creature jumps up high with joy, lands, then waves both arms and swishes its tail energetically, "
+                 f"big lively full-body movement, the camera stays still, cartoon animation, {_KEEP}", 0.6),
+             wan(f"the creature spins around once, then strikes a cool battle pose and roars, a few {fx} swirl around "  # + joke
+                 f"it, big lively full-body movement, the creature stays in the center, {_KEEP}"),
              {"still": str(fused.parent / "scene_03.jpg"), "seconds": 5.5, "zoom": [1.05, 1.15]}]  # closing question
     narration = [f"What happens when {a} fuses with {b}?", f"And here comes {b}!", f"{a} and {b} are fusing!",
                  f"Fusion complete! Meet {name}!", humor.pick("fusion", meta["id"]),
@@ -335,7 +384,8 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--plan", metavar="ID")
     parser.add_argument("--max-shorts", type=int, default=3, help="new evolution shorts per run (owner: 3 a day)")
-    parser.add_argument("--max-fusions", type=int, default=2, help="new fusion shorts per run")
+    parser.add_argument("--max-fusions", type=int, default=0,  # paused 2026-11-08 until the owner approves the Qwen art
+                        help="new fusion shorts per run")
     parser.add_argument("--fusion-image", metavar="A+B")
     args = parser.parse_args()
     queue = json.loads(QUEUE.read_text(encoding="utf-8"))

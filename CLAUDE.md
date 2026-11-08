@@ -65,13 +65,19 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
 - `inbox/<pokemon1>+<pokemon2>[=<name>].mp4` - Pokemon fusion reveal clips the owner makes in the Gemini app
   (prompts: `F:/AI AGENT/pokemon_fusion_prompts.md`) and uploads on the GitHub website; names from
   `backend/scripts/specs/fusion_pairs.json`. The same pairs (with a `"look"` per pair) are also made automatically by
-  `pokemon_daily.py`: FLUX.1 Kontext ZeroGPU Space edits the parent whose body the `look` keeps, on a chroma-key green background (magenta for green Pokemon; a white
+  `pokemon_daily.py`. Fused art (owner 2026-11-08, after a bad Lucarace: must mix BOTH parents part by part like the
+  owner's reference - body/mask/appendages of one, ears/fur collar/flame legs of the other): pairs with a `"fuse"`
+  text (part-by-part list, both names) go to Qwen-Image-Edit-2509 with both parents' art (the Space casts the seed to
+  float and crashes - send randomize_seed; it reserves ~600 s of ZeroGPU). Fallback / pairs without `fuse`:
+  FLUX.1 Kontext ZeroGPU Space edits the parent whose body the `look` keeps, on a chroma-key green background (magenta for green Pokemon; a white
   one was flood-filled and punched holes in white faces) (the other parent is
   NOT named in the prompt - naming it made Kontext just redraw that Pokemon), and the fusion itself is drawn locally
   (`fal_video.fuse_clip`: both parents' white silhouettes slide together, swap with the fused form, white screen).
   Style 4 since 2026-11-08 (owner: no animation on the parents, only the fused Pokemon): parent A still, parent B
   still (official art on a background, slow zoom), the drawn fusion, then the fused creature fades in from white and
-  moves (2 Wan clips, body-motion prompts) + a closing still. Older-style clips in a pair's cache are thrown away
+  moves (2 Wan clips: jump + wave, spin + pose - soft "breathing" prompts looked frozen, a lunge attack bent the
+  creature) + a closing still. **Automatic fusions are paused** (`--max-fusions` default 0) until the owner approves
+  the Qwen art; one-off fusions on request still work. Older-style clips in a pair's cache are thrown away
   (style-2/3 fused art is kept; shared `fusion-<a>+<b>` record).
 - `backend/scripts/specs/gameplay/<plan>.json` - cut plans for the owner's own stream recordings.
 - `daily_job.py` picks the lowest-`order` unposted, unexpired spec per slot (`--from-end` takes the
@@ -121,7 +127,7 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
 | Mon/Thu 08:00 | Routine **Weekly content refill** (`trig_01LRixiDvLT8uP4GPUjYnDcy`) tops up all other queues |
 | 10:00 | `daily-content.yml` - 1 new game, 3 classic, 1 breeding, 1 Aniimo, 1 movie new, 1 review, 1 reel |
 | 10:00 | Laptop task `daily_job.cmd --skip-gaming` (trends) + `motion_daily.py` + `gameplay_daily.py` |
-| 11:15 | `daily-pokemon.yml` - Pokemon shorts (HF PRO): up to 3 evolution + 2 fusion a day, taking turns |
+| 11:15 | `daily-pokemon.yml` - Pokemon shorts (HF PRO): up to 3 evolution a day (+ 2 fusion when `--max-fusions` 2; paused 2026-11-08) |
 | on push + 12:15 | `fusion-inbox.yml` - fusion clips uploaded to `inbox/` (daily run = retries) |
 | 13:45 | `daily-anipal.yml` 1st half - 5 Aniimo + 2 Palworld guide + 3 breeding + 1 long (palworld) |
 | 14:00 | `daily-palguide.yml` - 1 Palworld guide |
@@ -207,6 +213,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-08 - Fusion art from Qwen-Image-Edit-2509 with both parents + part-by-part `fuse` text (23 pairs); livelier Wan prompts; auto fusions paused until approved.
 - 2026-11-08 - Fusion style 4: the two parents as stills, drawn fusion, only the fused Pokemon animated by Wan (owner request).
 - 2026-11-08 - RDR2 plans for all remaining streams (Ch3 P4 - Ch6 P6, 400 shorts + 25 long), rendering on the laptop.
 - 2026-11-08 - Humour: one on-topic joke per video (`humor.py`, spec `"joke"` field, slot pools); Dialkia + Lucarace fusions.

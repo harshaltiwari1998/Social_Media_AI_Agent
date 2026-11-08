@@ -12,7 +12,9 @@ Every workflow runs this after its uploads, so a new video lands in its playlist
 
 Needs the full `youtube` OAuth scope - tokens made before 2026-11-08 only had upload + readonly; then this logs a
 warning and does nothing (run scripts/youtube_login.py <channel> --force once, then update the GitHub secret).
-Quota: listing is ~1 unit per 50 videos, each added item 50 units; a quotaExceeded stops the run quietly.
+Quota: the Google project has ~10,000 units a day (resets 13:30 IST) shared with every upload. Listing is ~1 unit per
+50 videos, each added item 50 units, so a run adds only --max-adds 8 (newest first); 2026-11-08 a 160-item backfill
+used up the whole day and blocked the uploads. A quotaExceeded stops the run quietly.
 """
 from __future__ import annotations
 
@@ -186,10 +188,13 @@ def sync(channel: str, max_adds: int, dry_run: bool, state: Path | None = None, 
             log.info("%s: would create playlist %r", channel, title)
             ids[key] = None
         else:
-            ids[key] = _call(yt.playlists().insert(part="snippet,status", body={
-                "snippet": {"title": title, "description": desc, "defaultLanguage": "hi" if channel == "youtube_movies" else "en"},
-                "status": {"privacyStatus": "public"}}))["id"]
-            log.info("%s: created playlist %r", channel, title)
+            try:
+                ids[key] = _call(yt.playlists().insert(part="snippet,status", body={
+                    "snippet": {"title": title, "description": desc, "defaultLanguage": "hi" if channel == "youtube_movies" else "en"},
+                    "status": {"privacyStatus": "public"}}), tries=2)["id"]
+                log.info("%s: created playlist %r", channel, title)
+            except Exception as exc:  # YouTube caps new playlists per channel per day (the 12th on 2026-11-08 got 429)
+                log.warning("%s: could not create %r yet (%s) - next run", channel, title, str(exc)[:120])
 
     todo = [(vid, key) for vid, _t, _p in uploads if (key := wanted.get(vid)) in ids and vid not in members]
     log.info("%s: %d uploads, %d already in playlists, %d to add (max %d this run)",
@@ -217,7 +222,8 @@ def sync(channel: str, max_adds: int, dry_run: bool, state: Path | None = None, 
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--channel", choices=["youtube", "youtube_movies"], action="append")
-    parser.add_argument("--max-adds", type=int, default=60, help="playlist items to add per channel this run (50 units each)")
+    parser.add_argument("--max-adds", type=int, default=8,  # the project quota is ~10k units/day and uploads need most
+                        help="playlist items to add per channel this run (50 units each, newest first)")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--extra-store", type=Path, action="append", default=[], help="another pipeline_store.sqlite3 to read")
     parser.add_argument("--state", type=Path, help="folder with pipeline_store.sqlite3 + game_videos.json (default media_output)")

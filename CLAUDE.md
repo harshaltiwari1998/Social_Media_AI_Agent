@@ -116,6 +116,9 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   are never touched (owner rule 2026-11-08). Every posting workflow runs it after its uploads (`continue-on-error`).
   Needs the full `youtube` scope - `youtube_login.py <channel> --force` once, then update the GitHub token secret.
   Early RDR2 clips are only in the laptop's store: backfill with `--extra-store media_output/pipeline_store.sqlite3`.
+  **Quota**: the Google project has only ~10,000 units/day (resets 13:30 IST) for BOTH channels and all uploads; a
+  playlist item costs 50, so each run adds max 8 (newest first). Never backfill in bulk - 160 adds on 2026-11-08
+  used the whole day and the day's YouTube uploads failed (retried next day). Daily playlist creation is capped too.
 - `scripts/ops_report.py` - token check + weekly report. `scripts/meta_gaming_login.py` - sets up the
   gaming page token. `scripts/youtube_login.py` - YouTube OAuth.
 - `scripts/fal_video.py`, `motion_daily.py`, `lucario_*.py` - AI-motion experiments (Wan/Kling/Flow).

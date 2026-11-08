@@ -8086,5 +8086,17 @@
       "name": "Lucarace",
       "types": "Fighting/Fire"
     }
+  },
+  "fusion-dialga+palkia": {
+    "kind": "motion",
+    "spec": "scripts/specs/fusion_pairs.json",
+    "video": "F:\\AI AGENT\\run_pd\\pokemon\\fusion-dialga+palkia\\final.mp4",
+    "data": {
+      "id": "dialga+palkia",
+      "a": "Dialga",
+      "b": "Palkia",
+      "name": "Dialkia",
+      "types": "Steel/Water"
+    }
   }
 }

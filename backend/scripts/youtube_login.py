@@ -20,6 +20,7 @@ from googleapiclient.discovery import build  # noqa: E402
 from app.pipeline.orchestrator import _POSTERS  # noqa: E402
 
 if __name__ == "__main__":
+    sys.stdout.reconfigure(encoding="utf-8")  # channel names can hold emoji (cp1252 console crashed on one)
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     platform = args[0] if args else "youtube"
     poster = _POSTERS[platform]

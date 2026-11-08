@@ -119,6 +119,26 @@ def _paged(call, **kw):
             return
 
 
+def _call(request, tries: int = 6):
+    """execute() with a pause between writes: YouTube answers a quick run of inserts with 429 RATE_LIMIT_EXCEEDED
+    (11 playlists in 10 s did it) - that is a speed limit, not the daily quota, so wait and try again."""
+    import time
+
+    from googleapiclient.errors import HttpError
+
+    for attempt in range(tries):
+        try:
+            res = request.execute()
+            time.sleep(1.0)
+            return res
+        except HttpError as exc:
+            if exc.resp.status == 429 or "RATE_LIMIT_EXCEEDED" in str(exc) or "rateLimitExceeded" in str(exc):
+                if attempt < tries - 1:
+                    time.sleep(10 * (attempt + 1))
+                    continue
+            raise
+
+
 def sync(channel: str, max_adds: int, dry_run: bool, state: Path | None = None, extra_stores: list[Path] = ()) -> int:
     from googleapiclient.discovery import build
     from googleapiclient.errors import HttpError
@@ -166,9 +186,9 @@ def sync(channel: str, max_adds: int, dry_run: bool, state: Path | None = None, 
             log.info("%s: would create playlist %r", channel, title)
             ids[key] = None
         else:
-            ids[key] = yt.playlists().insert(part="snippet,status", body={
+            ids[key] = _call(yt.playlists().insert(part="snippet,status", body={
                 "snippet": {"title": title, "description": desc, "defaultLanguage": "hi" if channel == "youtube_movies" else "en"},
-                "status": {"privacyStatus": "public"}}).execute()["id"]
+                "status": {"privacyStatus": "public"}}))["id"]
             log.info("%s: created playlist %r", channel, title)
 
     todo = [(vid, key) for vid, _t, _p in uploads if (key := wanted.get(vid)) in ids and vid not in members]
@@ -181,8 +201,8 @@ def sync(channel: str, max_adds: int, dry_run: bool, state: Path | None = None, 
             added += 1
             continue
         try:
-            yt.playlistItems().insert(part="snippet", body={"snippet": {
-                "playlistId": ids[key], "position": 0, "resourceId": {"kind": "youtube#video", "videoId": vid}}}).execute()
+            _call(yt.playlistItems().insert(part="snippet", body={"snippet": {
+                "playlistId": ids[key], "position": 0, "resourceId": {"kind": "youtube#video", "videoId": vid}}}))
         except HttpError as exc:
             if "quotaExceeded" in str(exc):
                 log.warning("%s: API quota used up after %d adds - the rest go in next run", channel, added)

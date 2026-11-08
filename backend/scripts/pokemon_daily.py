@@ -240,25 +240,28 @@ def fusion_base(pair: dict) -> tuple[str, str]:
 _KEEP = "the character keeps exactly the same design, shape and colors, anime style, smooth natural motion"
 
 
-FUSION_STYLE = 3
+FUSION_STYLE = 4
 
 
 def fusion_storyboard(pair: dict, meta: dict, fused: Path) -> dict:
-    """Style 3 (owner 2026-11-08: "pokemon ka animation mat dalo"): no Wan motion at all - parent A's art, parent B's
-    art, the locally drawn fusion (silhouettes slide together, swap, white screen), then the fused creature fades in
-    from white. Only the fused art itself uses the GPU (Kontext). Stills get a slow zoom so the frame is not frozen."""
+    """Style 4 (owner 2026-11-08: no animation on the two parents, only the fused Pokemon at the end): parent A's art,
+    parent B's art (stills with a slow zoom), the locally drawn fusion (silhouettes slide together, swap, white
+    screen), then the fused creature fades in from white and moves (Wan, body-motion prompts) and a closing still."""
     a, b, name = meta["a"], meta["b"], meta["name"]
     ta, tb = (t.lower() for t in (meta["types"].split("/") * 2)[:2])
+    fx = ENERGY.get(ta, "white energy")
     bg_a, bg_b = BACKGROUND.get(ta, "wiki:Meadow"), BACKGROUND.get(tb, "wiki:Meadow")
-    still = lambda who, bg, secs, zoom, fade=0.0: {"still": {"poke": who, "background": bg}, "seconds": secs,  # noqa: E731
-                                                   "zoom": zoom, **({"white_in": fade} if fade else {})}
-    fused_scene = str(fused.parent / "scene_03.jpg")  # drawn by clip 3, reused by the joke + closing clips
-    clips = [still(pair["a"], bg_a, 4.0, [1.0, 1.12]),
-             still(pair["b"], bg_b, 3.5, [1.0, 1.12]),
+    still = lambda who, bg, secs: {"still": {"poke": who, "background": bg}, "seconds": secs, "zoom": [1.0, 1.12]}  # noqa: E731
+    wan = lambda prompt, fade=0.0: {"image": {"poke": str(fused), "background": bg_a}, "shots": [[prompt, 5]],  # noqa: E731
+                                    **({"white_in": fade} if fade else {})}
+    clips = [still(pair["a"], bg_a, 4.0),
+             still(pair["b"], bg_b, 3.5),
              {"fuse": [pair["a"], pair["b"], str(fused)], "background": bg_a, "seconds": 3.8},
-             still(str(fused), bg_a, 4.0, [1.15, 1.02], 0.6),
-             {"still": fused_scene, "seconds": 5, "zoom": [1.02, 1.12]},   # one on-topic joke (owner 2026-11-08)
-             {"still": fused_scene, "seconds": 5.5, "zoom": [1.12, 1.2]}]  # closing question
+             wan(f"the creature opens its eyes, looks around proudly and flexes its body, breathing, "
+                 f"small sparkles of light fade around it, static camera, {_KEEP}", 0.6),
+             wan(f"the creature roars and swings forward in an attack, a small burst of {fx} from its body, "  # + joke
+                 f"the creature stays clearly visible in the center, slow camera push in, {_KEEP}"),
+             {"still": str(fused.parent / "scene_03.jpg"), "seconds": 5.5, "zoom": [1.05, 1.15]}]  # closing question
     narration = [f"What happens when {a} fuses with {b}?", f"And here comes {b}!", f"{a} and {b} are fusing!",
                  f"Fusion complete! Meet {name}!", humor.pick("fusion", meta["id"]),
                  f"{name}, a {meta['types']} fusion. Which two Pokemon should fuse next? Comment below!"]
@@ -275,7 +278,7 @@ def make_fusion(pair: dict, poster, games: dict) -> None:
     old_style = json.loads(board.read_text(encoding="utf-8")).get("style") if board.exists() else FUSION_STYLE
     if old_style != FUSION_STYLE:
         # clips of an older style (Wan motion) would be mixed in - redraw them; style-2 fused art is still good
-        for f in [*out.glob("clip_*"), *out.glob("scene_*.jpg"), board, *([out / "fused.png"] if old_style != 2 else [])]:
+        for f in [*out.glob("clip_*"), *out.glob("scene_*.jpg"), board, *([out / "fused.png"] if old_style not in (2, 3) else [])]:
             f.unlink(missing_ok=True)
     fused = fusion_image(pair, out / "fused.png")
     board.write_text(json.dumps(fusion_storyboard(pair, meta, fused), indent=2) + "\n", encoding="utf-8")

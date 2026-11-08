@@ -24,6 +24,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from app.config import settings  # noqa: E402
 from app.media.text_render import get_font, render_block, render_runs, wrap  # noqa: E402
 from app.media.video_gen import _ease, _even_word_timings, _synthesize_narration  # noqa: E402
+from scripts import humor  # noqa: E402
 from scripts.game_videos import fetch_image  # noqa: E402
 
 W, H = 1920, 1080
@@ -187,7 +188,12 @@ def build_video(spec_path: Path) -> dict:
     work = uuid.uuid4().hex[:8]
     try:
         sections, audios, starts, t0 = [], [], [], 0.0
+        pool = "movies_hi" if spec.get("category") == "movies" else {"palworld": "palworld", "aniimo": "aniimo",
+                                                                      "dml": "dml"}.get(spec.get("series"), "games")
+        joke = humor.for_spec(spec, pool)
         for n, sec in enumerate(spec["sections"]):
+            if n == len(spec["sections"]) - 1 and joke:
+                sec = {**sec, "script": humor.insert(sec["script"], joke)}
             mp3 = out_dir / f"long-{work}-{n}.mp3"
             words = asyncio.run(_synthesize_narration(sec["script"], mp3))
             clip = AudioFileClip(str(mp3))

@@ -28,6 +28,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from app.config import settings  # noqa: E402
 from app.media.text_render import get_font, render_block, render_runs, wrap  # noqa: E402
 from app.media.video_gen import generate_video  # noqa: E402
+from scripts import humor  # noqa: E402
 
 # Wikimedia asks for a descriptive User-Agent with contact info.
 _HEADERS = {"User-Agent": "AITrendPoster/1.0 (https://harshaltiwari1998.github.io/; namewriter20081998@gmail.com)"}
@@ -405,9 +406,8 @@ def build_video(spec_path: Path) -> dict:
     settings.tts_voice = spec.get("tts_voice") or (
         settings.gaming_tts_voice if category_of(spec) == "gaming" else _DEFAULT_VOICE
     )
-    video = generate_video(
-        paths, spec["title"], spec["video_script"], headline=spec["headline"], badge=badge_for(spec)
-    )
+    script = humor.insert(spec["video_script"], humor.for_spec(spec))  # one on-topic joke before the CTA
+    video = generate_video(paths, spec["title"], script, headline=spec["headline"], badge=badge_for(spec))
     return {"spec": spec_path.name, "images": paths, "video": video}
 
 

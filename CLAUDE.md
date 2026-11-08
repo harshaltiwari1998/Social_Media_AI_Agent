@@ -148,6 +148,13 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
 - **Palworld breeding**: every short shows **3 verified combos** (round 2: **5 new combos**) for the same child (checked on
   PalBreedCalc + pindrop / the breeding formula). Child must differ from all parents, no variants,
   no legendary/crossover parents, no gender-dependent results.
+- **Humour** (owner request 2026-11-08): every video has ONE light, on-topic joke (`scripts/humor.py`). Spec writers
+  add a `"joke"` field to each new short / long spec: one short sentence in the video's language about its own topic
+  (the game, the Pal, the deal, the movie-going experience), never about a real person, group, body, religion or
+  politics, nothing adult, no insults, no fear/money/health advice, never a fact claim. `"joke": ""` = none. Specs
+  without one get a line from the slot's pool; tributes and `movie_news` get none. The joke goes just before the
+  closing question (`humor.insert`); fusion/evolution shorts say it over the last clip / a free closing still,
+  rashifal after the tip, long videos in the last section.
 - **Tags**: YouTube tags are filled up to the 500-character limit (`fill_tags` in `app/social/youtube.py`).
 - **Instagram cover**: Reels use `thumb_offset` 2000 ms (`INSTAGRAM_THUMB_OFFSET_MS`) - frame 0 is the
   black fade-in.
@@ -197,6 +204,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-08 - Humour: one on-topic joke per video (`humor.py`, spec `"joke"` field, slot pools); Dialkia + Lucarace fusions.
 - 2026-11-06 - Fusion style 2: one-parent Kontext edit, locally drawn fusion transition, body-motion Wan prompts (owner: animation looked bad).
 - 2026-11-06 - `daily-rashifal.yml`: 12 rashifal shorts every day on the AI Trend Poster FB Page, scheduled for 06:00 IST.
 - 2026-11-06 - `rashifal.py`: 12 Hindi rashifal shorts (Dhanteras, 6 Nov) posted to the AI Trend Poster Facebook Page.

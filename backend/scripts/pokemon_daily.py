@@ -38,6 +38,7 @@ sys.path.insert(0, str(ROOT))
 from scripts import daily_job as dj  # noqa: E402  (chdirs to backend; Poster, manifests, store)
 from scripts import fal_video as fv  # noqa: E402
 from scripts import fusion_inbox as fi  # noqa: E402  (fusion post text + record shared with the inbox flow)
+from scripts import humor  # noqa: E402
 
 QUEUE = ROOT / "scripts" / "specs" / "pokemon_queue.json"
 PAIRS = fi.PAIRS
@@ -135,6 +136,8 @@ def storyboard(entry: dict) -> dict:
                              "Comment below!")
         else:
             narration.append(f"{typed} {outro}")
+    clips.append({"still": str(CACHE / entry["id"] / f"scene_{len(clips) - 1:02d}.jpg"), "seconds": 4, "zoom": [1.05, 1.15]})
+    narration.append(humor.pick("evolution", entry["id"]))
     return {"title": f"{' to '.join(names)} evolution", "backend": "wan", "voice": "en-US-GuyNeural", "style": 2,
             "narration": narration, "clips": clips}
 
@@ -255,8 +258,10 @@ def fusion_storyboard(pair: dict, meta: dict, fused: Path) -> dict:
                                    f"small sparkles of light fade around it, static camera, {_KEEP}", 0.6),
              wan(str(fused), bg_a, f"the creature roars and swings forward in an attack, a small burst of {fx} from its body, "
                                    f"the creature stays clearly visible in the center, slow camera push in, {_KEEP}")]
+    # owner 2026-11-08: one on-topic joke per video; it rides the attack clip, the CTA gets a free still at the end
+    clips.append({"still": str(fused.parent / "scene_04.jpg"), "seconds": 5, "zoom": [1.05, 1.15]})
     narration = [f"What happens when {a} fuses with {b}?", f"And here comes {b}!", f"{a} and {b} are fusing!",
-                 f"Fusion complete! Meet {name}!",
+                 f"Fusion complete! Meet {name}!", humor.pick("fusion", meta["id"]),
                  f"{name}, a {meta['types']} fusion. Which two Pokemon should fuse next? Comment below!"]
     return {"title": f"{a} + {b} fusion", "backend": "wan", "voice": "en-US-GuyNeural", "style": 2,
             "narration": narration, "clips": clips}

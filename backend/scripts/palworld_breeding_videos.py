@@ -21,6 +21,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from app.config import settings  # noqa: E402
 from app.media.text_render import get_font, render_runs  # noqa: E402
 from app.media.video_gen import generate_video  # noqa: E402
+from scripts import humor  # noqa: E402
 
 _WIKI_API = "https://palworld.fandom.com/api.php"
 _HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
@@ -165,9 +166,11 @@ def build_video(spec_path: Path) -> dict:
     paths = _animate(paths, cards, a, b, child, combos, color, out_dir)
 
     settings.tts_voice = spec.get("tts_voice") or settings.gaming_tts_voice  # Palworld is gaming -> English
-    video = generate_video(
-        paths, spec["caption"], spec["video_script"], headline=spec.get("headline"), badge="BREEDING GUIDE"
-    )
+    joke = humor.for_spec(spec, "breeding") if "joke" in spec else humor.pick("breeding", spec.get("key") or child)
+    script = humor.insert(spec["video_script"], joke)
+    if script != spec["video_script"]:
+        paths = paths[:-1] + [paths[-1], paths[-1]]
+    video = generate_video(paths, spec["caption"], script, headline=spec.get("headline"), badge="BREEDING GUIDE")
     return {"spec": spec_path.name, "images": paths, "video": video}
 
 

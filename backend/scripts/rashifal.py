@@ -25,6 +25,7 @@ sys.path.insert(0, str(ROOT))
 from app.config import settings  # noqa: E402
 from app.media.text_render import get_font, render_block, wrap  # noqa: E402
 from app.media.video_gen import generate_video  # noqa: E402
+from scripts import humor  # noqa: E402
 
 IST = timezone(timedelta(hours=5, minutes=30))
 CARD = 1080
@@ -177,7 +178,7 @@ def script(r: int, day: date, sk: dict, festival: str | None) -> str:
     hello = f"{festival} की शुभकामनाएं! " if festival else ""
     return (f"{hello}{name} राशि वालों, आज का राशिफल। आज चंद्रमा {RASHIS[sk['moon_rashi']][0]} राशि में है, जो आपकी "
             f"राशि से {ORD[house - 1]} भाव में है। {reading} आपका शुभ रंग {colour} और शुभ अंक {num} है। "
-            f"सलाह: {tip}। यह राशिफल चंद्रमा की चाल और ज्योतिष परंपरा पर आधारित है, सिर्फ मनोरंजन के लिए। "
+            f"सलाह: {tip}। {humor.pick('rashifal_hi', f'{day}-{r}')} यह राशिफल चंद्रमा की चाल और ज्योतिष परंपरा पर आधारित है, सिर्फ मनोरंजन के लिए। "
             f"अपनी राशि कमेंट में लिखें!")
 
 

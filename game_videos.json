@@ -8337,5 +8337,18 @@
       "name": "Gokieza",
       "types": "Fusion Dance"
     }
+  },
+  "fusion-rayquaza+gyarados": {
+    "kind": "motion",
+    "spec": "scripts/specs/fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\fusion-rayquaza+gyarados\\final.mp4",
+    "data": {
+      "id": "rayquaza+gyarados",
+      "family": "pokemon",
+      "a": "Rayquaza",
+      "b": "Gyarados",
+      "name": "Rayados",
+      "types": "Dragon/Water"
+    }
   }
 }

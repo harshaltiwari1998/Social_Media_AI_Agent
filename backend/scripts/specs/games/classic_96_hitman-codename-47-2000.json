@@ -1,0 +1,44 @@
+{
+  "id": "hitman-codename-47-2000",
+  "slot": "classic",
+  "order": 96,
+  "headline": "Hitman: Codename 47",
+  "title": "Hitman Codename 47 Facts | Agent 47 Begins | Classic Games",
+  "video_script": "Hitman: Codename 47 was released in November two thousand, developed by Danish studio IO Interactive and published by Eidos Interactive for Windows. You play Agent 47, a genetically engineered assassin. It was the first game to use the Glacier engine, which IO Interactive still builds on, and it was an early game with ragdoll physics. Silent or loud? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Hitman: Codename 47",
+      "label": "Hitman: Codename 47"
+    },
+    {
+      "image": "wiki:Hitman: Codename 47",
+      "fact": "Nov 2000",
+      "sub": "Windows release"
+    },
+    {
+      "image": "wiki:Hitman: Codename 47",
+      "fact": "IO Interactive",
+      "sub": "Danish studio"
+    },
+    {
+      "image": "wiki:Hitman: Codename 47",
+      "fact": "Glacier engine",
+      "sub": "First used here"
+    }
+  ],
+  "description": "Hitman Codename 47 released November 2000 by IO Interactive and Eidos. Sources: Wikipedia, IO Interactive, Metacritic.",
+  "hashtags": [
+    "Hitman",
+    "Agent47",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Hitman",
+    "Codename 47",
+    "Agent 47",
+    "IO Interactive",
+    "gaming facts",
+    "classic games"
+  ],
+  "joke": "Agent 47 always has the best disguise, even at the worst parties."
+}

@@ -1,0 +1,44 @@
+{
+  "id": "fortnite-battle-royale-2017",
+  "slot": "classic",
+  "order": 93,
+  "headline": "Fortnite Battle Royale",
+  "title": "Fortnite Facts | Free Mode Built in Two Months | Classic Games",
+  "video_script": "Fortnite began as a paid early access game called Save the World in July twenty seventeen. After Battlegrounds took off, Epic Games built Battle Royale on top of it in about two months and released it free on September twenty sixth, twenty seventeen. It reached ten million players in two weeks. Did you play from season one? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Fortnite",
+      "label": "Fortnite"
+    },
+    {
+      "image": "wiki:Fortnite",
+      "fact": "July 2017",
+      "sub": "Save the World"
+    },
+    {
+      "image": "wiki:Fortnite",
+      "fact": "Sept 26, 2017",
+      "sub": "Free Battle Royale"
+    },
+    {
+      "image": "wiki:Fortnite",
+      "fact": "10 million",
+      "sub": "Players in two weeks"
+    }
+  ],
+  "description": "Fortnite Battle Royale launched free September 26, 2017. Sources: Wikipedia, Shacknews.",
+  "hashtags": [
+    "Fortnite",
+    "EpicGames",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Fortnite",
+    "Epic Games",
+    "Battle Royale",
+    "Fortnite history",
+    "gaming facts",
+    "classic games"
+  ],
+  "joke": "Everyone lands on Tilted Towers and nobody knows why."
+}

@@ -1,0 +1,44 @@
+{
+  "id": "far-cry-3-vaas-2012",
+  "slot": "classic",
+  "order": 95,
+  "headline": "Far Cry 3 and Vaas",
+  "title": "Far Cry 3 Facts | Vaas and the Rook Islands | Classic Games",
+  "video_script": "Far Cry 3 was made by Ubisoft Montreal and released in twenty twelve. You play Jason Brody on the fictional Rook Islands in the Pacific, where pirate lord Vaas Montenegro, played by Michael Mando, kidnaps you. Vaas became one of the most praised villains in games. A standalone expansion, Blood Dragon, followed in twenty thirteen. Remember his speech? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Far Cry 3",
+      "label": "Far Cry 3"
+    },
+    {
+      "image": "wiki:Far Cry 3",
+      "fact": "Rook Islands",
+      "sub": "Fictional Pacific setting"
+    },
+    {
+      "image": "wiki:Far Cry 3",
+      "fact": "Michael Mando",
+      "sub": "Voice of Vaas"
+    },
+    {
+      "image": "wiki:Far Cry 3",
+      "fact": "Blood Dragon",
+      "sub": "Standalone, 2013"
+    }
+  ],
+  "description": "Far Cry 3 by Ubisoft Montreal, 2012, with Vaas voiced by Michael Mando. Sources: Wikipedia, Empire, Kotaku.",
+  "hashtags": [
+    "FarCry3",
+    "Vaas",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Far Cry 3",
+    "Vaas",
+    "Ubisoft",
+    "Michael Mando",
+    "gaming facts",
+    "classic games"
+  ],
+  "joke": "Never ask a pirate if the island has good wifi."
+}

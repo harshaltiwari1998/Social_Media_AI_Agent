@@ -1,0 +1,44 @@
+{
+  "id": "clash-royale-2016",
+  "slot": "classic",
+  "order": 97,
+  "headline": "Clash Royale",
+  "title": "Clash Royale Facts | Supercell Card Battles | Classic Games",
+  "video_script": "Clash Royale is a mobile game from Supercell, the makers of Clash of Clans. It soft launched in January twenty sixteen and launched worldwide on March second, twenty sixteen. Matches last three minutes, and you destroy enemy towers using a deck of cards and an energy system. It became the top downloaded app on the US iOS store. Who is your best card? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Clash Royale",
+      "label": "Clash Royale"
+    },
+    {
+      "image": "wiki:Clash Royale",
+      "fact": "Mar 2, 2016",
+      "sub": "Worldwide launch"
+    },
+    {
+      "image": "wiki:Clash Royale",
+      "fact": "3 minutes",
+      "sub": "Per match"
+    },
+    {
+      "image": "wiki:Clash Royale",
+      "fact": "Supercell",
+      "sub": "Clash of Clans makers"
+    }
+  ],
+  "description": "Clash Royale launched worldwide March 2, 2016 by Supercell. Sources: Wikipedia, Android Police.",
+  "hashtags": [
+    "ClashRoyale",
+    "Supercell",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Clash Royale",
+    "Supercell",
+    "Clash of Clans",
+    "mobile games",
+    "gaming facts",
+    "classic games"
+  ],
+  "joke": "Three minutes is all it takes to lose your whole trophy road."
+}

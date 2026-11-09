@@ -1,0 +1,44 @@
+{
+  "id": "zelda-breath-of-the-wild-2017",
+  "slot": "classic",
+  "order": 92,
+  "headline": "Zelda: Breath of the Wild",
+  "title": "Zelda Breath of the Wild Facts | Game of the Year 2017 | Classic Games",
+  "video_script": "The Legend of Zelda: Breath of the Wild came out in March twenty seventeen for Wii U and Nintendo Switch, developed and published by Nintendo. It won Game of the Year at The Game Awards twenty seventeen, along with Best Game Direction and Best Action Adventure Game. Hidemaro Fujibayashi directed it. Did you climb everything? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:The Legend of Zelda: Breath of the Wild",
+      "label": "Breath of the Wild"
+    },
+    {
+      "image": "wiki:The Legend of Zelda: Breath of the Wild",
+      "fact": "March 2017",
+      "sub": "Wii U and Switch"
+    },
+    {
+      "image": "wiki:The Legend of Zelda: Breath of the Wild",
+      "fact": "Game of the Year",
+      "sub": "The Game Awards 2017"
+    },
+    {
+      "image": "wiki:The Legend of Zelda: Breath of the Wild",
+      "fact": "Fujibayashi",
+      "sub": "Director"
+    }
+  ],
+  "description": "Breath of the Wild released March 2017 and won Game of the Year at The Game Awards 2017. Sources: Wikipedia, GamesRadar, Nintendo.",
+  "hashtags": [
+    "Zelda",
+    "BreathOfTheWild",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Breath of the Wild",
+    "Zelda",
+    "Nintendo Switch",
+    "Game of the Year",
+    "gaming facts",
+    "classic games"
+  ],
+  "joke": "Link can climb a mountain but still cannot carry more than a few weapons."
+}

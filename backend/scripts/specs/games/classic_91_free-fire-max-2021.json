@@ -1,0 +1,44 @@
+{
+  "id": "free-fire-max-2021",
+  "slot": "classic",
+  "order": 91,
+  "headline": "Free Fire and Free Fire MAX",
+  "title": "Free Fire Facts | One Billion Downloads | Classic Games",
+  "video_script": "Free Fire is a battle royale game by Garena that became the first battle royale to pass one billion downloads on Google Play. In September twenty twenty one, Garena launched Free Fire MAX worldwide with better graphics, and players on both versions can play in the same matches. Which one do you play? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Garena Free Fire",
+      "label": "Free Fire"
+    },
+    {
+      "image": "wiki:Garena Free Fire",
+      "fact": "1 billion+",
+      "sub": "Google Play downloads"
+    },
+    {
+      "image": "wiki:Garena Free Fire",
+      "fact": "Sept 2021",
+      "sub": "Free Fire MAX launch"
+    },
+    {
+      "image": "wiki:Garena Free Fire",
+      "fact": "Garena",
+      "sub": "Cross-play with MAX"
+    }
+  ],
+  "description": "Free Fire by Garena passed one billion Google Play downloads; Free Fire MAX launched September 28, 2021. Sources: Wikipedia, Garena press release, PocketGamer.biz.",
+  "hashtags": [
+    "FreeFire",
+    "Garena",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Free Fire",
+    "Free Fire MAX",
+    "Garena",
+    "battle royale",
+    "gaming facts",
+    "classic games"
+  ],
+  "joke": "Nobody ever lands quietly, not even the parachute."
+}

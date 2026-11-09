@@ -1,0 +1,44 @@
+{
+  "id": "elden-ring-2022",
+  "slot": "classic",
+  "order": 94,
+  "headline": "Elden Ring",
+  "title": "Elden Ring Facts | George R R Martin Worldbuilding | Classic Games",
+  "video_script": "Elden Ring, from FromSoftware and published by Bandai Namco, came out in twenty twenty two. Author George R. R. Martin worked on the worldbuilding and backstory, while Hidetaka Miyazaki remained lead writer of the main story. It won Game of the Year at The Game Awards twenty twenty two. Which boss made you quit first? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Elden Ring",
+      "label": "Elden Ring"
+    },
+    {
+      "image": "wiki:Elden Ring",
+      "fact": "FromSoftware",
+      "sub": "Developer"
+    },
+    {
+      "image": "wiki:Elden Ring",
+      "fact": "G. R. R. Martin",
+      "sub": "Worldbuilding"
+    },
+    {
+      "image": "wiki:Elden Ring",
+      "fact": "Game of the Year",
+      "sub": "The Game Awards 2022"
+    }
+  ],
+  "description": "Elden Ring by FromSoftware won Game of the Year at The Game Awards 2022; George R. R. Martin did worldbuilding. Sources: Wikipedia, PC Gamer, GamesRadar.",
+  "hashtags": [
+    "EldenRing",
+    "FromSoftware",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Elden Ring",
+    "FromSoftware",
+    "George R. R. Martin",
+    "Miyazaki",
+    "gaming facts",
+    "classic games"
+  ],
+  "joke": "The tutorial is just you dying politely to the first knight."
+}

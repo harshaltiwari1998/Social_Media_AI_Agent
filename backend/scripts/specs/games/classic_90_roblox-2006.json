@@ -1,0 +1,44 @@
+{
+  "id": "roblox-2006",
+  "slot": "classic",
+  "order": 90,
+  "headline": "Roblox: the 2006 story",
+  "title": "Roblox Facts | From DynaBlocks to Billions | Classic Games",
+  "video_script": "Roblox was created by David Baszucki and Erik Cassel, and was released to the public on September first, two thousand six. Early versions were tested under the name DynaBlocks. Players use the virtual currency Robux, and games are built with a version of the Lua language called Luau. Did you play Roblox as a kid? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Roblox",
+      "label": "Roblox"
+    },
+    {
+      "image": "wiki:Roblox",
+      "fact": "Sept 1, 2006",
+      "sub": "Public release"
+    },
+    {
+      "image": "wiki:Roblox",
+      "fact": "DynaBlocks",
+      "sub": "Early name"
+    },
+    {
+      "image": "wiki:Roblox",
+      "fact": "Robux",
+      "sub": "Virtual currency"
+    }
+  ],
+  "description": "Roblox released September 1, 2006 by David Baszucki and Erik Cassel. Sources: Wikipedia, ExitLag history.",
+  "hashtags": [
+    "Roblox",
+    "GamingFacts",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Roblox",
+    "Roblox history",
+    "DynaBlocks",
+    "Robux",
+    "gaming facts",
+    "classic games"
+  ],
+  "joke": "My Robux balance and I have a very short relationship."
+}

@@ -1,0 +1,67 @@
+{
+  "id": "half-life-franchise-history",
+  "category": "gaming",
+  "order": 89,
+  "title": "The History of Half-Life | From Black Mesa To Alyx And Beyond | Gaming History",
+  "description": "The full history of Half-Life: Valve's first game in 1998, Half-Life 2 and Steam, the Episodes, The Orange Box, the Black Mesa remake and the VR game Half-Life: Alyx in 2020.",
+  "hashtags": ["HalfLife", "Valve", "Gaming"],
+  "tags": ["Half-Life history", "Half-Life 2", "Half-Life Alyx", "Valve", "Gordon Freeman", "Black Mesa", "Portal", "Gabe Newell", "franchise history"],
+  "thumbnail": {"image": "steam:220:1", "text": "HISTORY OF HALF-LIFE"},
+  "sections": [
+    {
+      "heading": "The game that changed shooters",
+      "script": "Welcome back to the channel. Today we are going through the history of Half-Life, one of the most important shooter series ever made. It is the story of a silent scientist with a crowbar, a studio that started with this single game, and a fanbase that has waited years for the next chapter. We will go from the original release in nineteen ninety eight, to Half-Life Two and the birth of Steam, to the Episodes, the Orange Box, a famous fan remake, and the virtual reality game Half-Life Alyx in twenty twenty. Every date you hear comes from Wikipedia and from news coverage of each release. Let us begin at the very start, in a company that did not yet have a hit.",
+      "images": ["steam:70:0", "steam:70:1", "steam:70:2"]
+    },
+    {
+      "heading": "Valve is born",
+      "script": "Valve was founded in nineteen ninety six in Kirkland, Washington, by two former Microsoft employees, Gabe Newell and Mike Harrington. Their first product was Half-Life. For its engine, the team licensed the Quake engine from id Software, and then rebuilt large parts of it for their own ideas. The goal was a shooter that felt like a real place, where the story was told while you were still playing instead of in separate cut scenes. You never leave the first person view, even when something terrifying happens right in front of you. That design choice sounds simple today, but in the late nineties it felt like a different kind of game.",
+      "images": ["steam:70:0", "steam:70:1", "steam:220:2"]
+    },
+    {
+      "heading": "Half-Life, 1998",
+      "script": "Half-Life was released on the nineteenth of November, nineteen ninety eight, for Windows, published by Sierra On-Line. You play Gordon Freeman, a theoretical physicist working at the Black Mesa Research Facility. An experiment goes wrong, alien creatures from another world spill into the facility, and soldiers are sent in. You fight your way through it with a crowbar and a growing pile of weapons. The game opens with a slow tram ride through the complex, with no menu and no cut scene, and many players still remember it as one of the great openings. According to Wikipedia, Half-Life collected more than fifty Game of the Year awards, which helped turn a first game from a new studio into a legend.",
+      "images": ["steam:70:0", "steam:70:1", "steam:70:2"]
+    },
+    {
+      "heading": "Expansions by Gearbox",
+      "script": "After the success of the original, Valve let another studio, Gearbox Software, make new chapters. Opposing Force arrived in nineteen ninety nine, and you play a soldier, Adrian Shephard, instead of Gordon Freeman. Blue Shift followed in two thousand one, and it follows a Black Mesa security guard named Barney Calhoun. These games showed the same disaster from a different point of view, which made the world feel bigger. Wikipedia also records a third Gearbox expansion, Decay, which came out in two thousand one for the PlayStation Two only. Opposing Force even won a Computer Game of the Year award in two thousand from the Academy of Interactive Arts and Sciences.",
+      "images": ["steam:70:0", "steam:70:1", "steam:70:2"]
+    },
+    {
+      "heading": "Half-Life 2 and the birth of Steam",
+      "script": "Then came the big one. Half-Life Two was released on the sixteenth of November, two thousand four. It ran on Valve's new Source engine, which included heavily modified physics technology, so objects in the world behaved in ways that players had not seen before. The gravity gun let you pick up almost anything and throw it. The game takes place in City Seventeen, a city controlled by an alien alliance called the Combine, and you fight alongside Alyx Vance and her father. Half-Life Two was also the first game to require the Steam platform. Many players were annoyed at the time, but Steam went on to become the biggest store for PC games in the world, so this release changed the industry as much as the game itself.",
+      "images": ["steam:220:0", "steam:220:1", "steam:220:2"]
+    },
+    {
+      "heading": "Episode One and Episode Two",
+      "script": "Instead of a long wait for Half-Life Three, Valve chose to release the story in shorter chapters, which it called Episodes. Episode One came out on the first of June, two thousand six. Episode Two followed on the tenth of October, two thousand seven, as part of a bundle called The Orange Box, on Windows, Xbox three sixty and PlayStation Three. The Orange Box also included the brand new game Portal, which came out on the same day, and Team Fortress Two. Episode Two ends on a famous cliffhanger. Wikipedia notes that a third episode was planned and later cancelled, and that Gabe Newell said in two thousand six that the Episodes were meant to be a replacement for a Half-Life Three.",
+      "images": ["steam:220:0", "steam:220:1", "steam:400:0"]
+    },
+    {
+      "heading": "Portal grows from the same world",
+      "script": "Portal is not a Half-Life game, but it lives in the same universe, and it became a series of its own. In Portal you use a gun that creates two linked openings in walls, and you solve puzzles while a cold computer voice, GLaDOS, talks to you. Portal Two was released on the nineteenth of April, two thousand eleven, and it added co operative play and a much larger story. Both games were developed by Valve. The Portal games show something important about the whole company. Valve has often turned small ideas into big hits, and Half-Life has been the core of that culture since nineteen ninety eight.",
+      "images": ["steam:400:0", "steam:400:1", "steam:400:2"]
+    },
+    {
+      "heading": "Black Mesa, the fan made remake",
+      "script": "One of the best stories around Half-Life comes from its fans. A group called Crowbar Collective rebuilt the entire first game on the Source engine. The project started in two thousand twelve as a free mod. Valve approved it for a commercial release, and the full version came out for Windows and Linux on the sixth of March, two thousand twenty. According to Wikipedia, critics were very positive, and the review aggregator OpenCritic lists an average score of eighty seven out of one hundred. Black Mesa is proof that people loved this world so much that they were willing to spend years of their free time rebuilding it.",
+      "images": ["steam:70:0", "steam:70:1", "steam:220:0"]
+    },
+    {
+      "heading": "Half-Life: Alyx, 2020",
+      "script": "In March twenty twenty, Valve finally released a brand new Half-Life game. Half-Life Alyx is a virtual reality game for PC headsets. It is set five years before Half-Life Two, and you play Alyx Vance as she fights the Combine in City Seventeen. It was built on Source Two, and Valve says it entered production in twenty sixteen. Reviewers described it as the killer app that virtual reality had been waiting for, and several outlets, including Tom's Hardware and Video Games Chronicle, used those words. Because it needs a headset, not everyone could play it. However, it proved that Valve could still surprise people after more than a decade of silence.",
+      "images": ["steam:546050:0", "steam:546050:1", "steam:546050:0"]
+    },
+    {
+      "heading": "What about Half-Life 3",
+      "script": "That brings us to the question every fan asks. Will there be a Half-Life Three? Valve has not announced one, and we will not guess or repeat rumours. What is confirmed is the cancelled Episode Three, the statement from Gabe Newell about the Episodes, and the release of Alyx. If a new game is ever announced, it will come from Valve itself. For now, the series gives you a lot to play. You can start with the original game or the Black Mesa remake, move on to Half-Life Two and the two Episodes, and then try Alyx if you own a headset. After nearly three decades, this series still defines what a story driven shooter can be.",
+      "images": ["steam:220:0", "steam:546050:0", "steam:70:0"]
+    },
+    {
+      "heading": "Your turn",
+      "script": "Let us finish with a joke. Gordon Freeman has never said a single word in his entire career, yet he has still won more arguments than most of us. Now it is your turn. Which Half-Life game is your favourite, and which moment do you remember best, the tram ride, the gravity gun, or the end of Episode Two? Tell us in the comments. If you enjoyed this history, subscribe to the channel for more franchise histories and game guides, and we will see you in the next one.",
+      "images": ["steam:220:1", "steam:546050:1", "steam:70:1"]
+    }
+  ]
+}

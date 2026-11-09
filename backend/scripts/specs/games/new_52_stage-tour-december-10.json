@@ -1,0 +1,45 @@
+{
+  "id": "stage-tour-december-10",
+  "slot": "new",
+  "order": 52,
+  "headline": "Stage Tour December 10",
+  "title": "Stage Tour Release Date December 10 | New Guitar Hero Style Game | Gaming News",
+  "video_script": "Stage Tour, a new rhythm game from RedOctane Games, launches December tenth, twenty twenty six. The date was shown at Gamescom Opening Night Live, and the team includes people who worked on the original Guitar Hero games. Forty five songs have been revealed so far, with more coming. It is planned for PlayStation five, Xbox Series, Switch two and PC. Ready to rock? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4452700:1",
+      "label": "Stage Tour December 10"
+    },
+    {
+      "image": "steam:4452700:1",
+      "fact": "Dec 10, 2026",
+      "sub": "Release date"
+    },
+    {
+      "image": "steam:4452700:1",
+      "fact": "RedOctane Games",
+      "sub": "Guitar Hero veterans"
+    },
+    {
+      "image": "steam:4452700:1",
+      "fact": "45 songs",
+      "sub": "Revealed so far"
+    }
+  ],
+  "description": "Stage Tour by RedOctane Games launches December 10, 2026, with 45 songs revealed so far. Sources: Gematsu, Video Games Chronicle.",
+  "hashtags": [
+    "StageTour",
+    "RhythmGames",
+    "Gaming"
+  ],
+  "tags": [
+    "Stage Tour",
+    "RedOctane",
+    "Guitar Hero",
+    "rhythm game",
+    "Gaming news",
+    "Gamescom 2026"
+  ],
+  "expires": "2026-12-11",
+  "joke": "Air guitar is still allowed, but the plastic guitar scores better."
+}

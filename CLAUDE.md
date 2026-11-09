@@ -270,6 +270,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-09 - `fal_video.build` deletes its raw RGB frame caches (~1 GB a clip) after writing final.mp4 - 42 fusion folders had filled F: (204 GB).
 - 2026-11-09 - GTA 6 countdown shorts (10, dated with `post_on`, daily-content posts 1 a day).
 - 2026-11-09 - Fusion style 8: two type/character-based moves per fusion (10 local moves); DBZ fan fusions; Gogeta posted.
 - 2026-11-09 - rembg isnet-anime cutout for fused art; Gogeta drawn via HF Inference Providers (credits); jump height capped for tall characters.

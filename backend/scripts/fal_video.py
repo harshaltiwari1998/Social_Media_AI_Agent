@@ -928,6 +928,18 @@ def build(storyboard: Path, out_dir: Path) -> Path:
         str(out), fps=FPS, codec="libx264", audio_codec="aac", preset="medium", threads=4, logger=None,
         temp_audiofile=str(work / "tmp_audio.m4a"))
     print(f"wrote {out} ({total:.1f}s)")
+    # the raw RGB frame caches are ~1 GB per clip: 42 fusion folders kept 204 GB and filled F: (2026-11-09). Drop the
+    # memmaps first - Windows cannot delete a file that is still mapped - then the .rgb files (rebuilt if ever needed).
+    import gc
+
+    for i in range(len(frames)):
+        frames[i] = None
+    gc.collect()
+    for raw in work.glob("*.rgb"):
+        try:
+            raw.unlink()
+        except OSError:
+            pass
     return out
 
 

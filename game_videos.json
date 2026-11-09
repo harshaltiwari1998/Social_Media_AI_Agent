@@ -8435,5 +8435,18 @@
       "name": "Eeveetails",
       "types": "Normal/Fire"
     }
+  },
+  "fusion-blastoise+tyranitar": {
+    "kind": "motion",
+    "spec": "scripts/specs/fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\fusion-blastoise+tyranitar\\final.mp4",
+    "data": {
+      "id": "blastoise+tyranitar",
+      "family": "pokemon",
+      "a": "Blastoise",
+      "b": "Tyranitar",
+      "name": "Blastitar",
+      "types": "Water/Rock"
+    }
   }
 }

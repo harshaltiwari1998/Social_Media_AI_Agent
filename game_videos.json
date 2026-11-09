@@ -8122,5 +8122,18 @@
       "name": "Snorgar",
       "types": "Normal/Ghost"
     }
+  },
+  "fusion-darkrai+arceus": {
+    "kind": "motion",
+    "spec": "scripts/specs/fusion_pairs.json",
+    "video": "F:\\AI AGENT\\run_darkceus\\pokemon\\fusion-darkrai+arceus\\final.mp4",
+    "data": {
+      "id": "darkrai+arceus",
+      "family": "pokemon",
+      "a": "Darkrai",
+      "b": "Arceus",
+      "name": "Darkceus",
+      "types": "Dark/Normal"
+    }
   }
 }

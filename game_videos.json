@@ -8422,5 +8422,18 @@
       "name": "Pichan",
       "types": "Fusion Dance"
     }
+  },
+  "fusion-eevee+ninetales": {
+    "kind": "motion",
+    "spec": "scripts/specs/fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\fusion-eevee+ninetales\\final.mp4",
+    "data": {
+      "id": "eevee+ninetales",
+      "family": "pokemon",
+      "a": "Eevee",
+      "b": "Ninetales",
+      "name": "Eeveetails",
+      "types": "Normal/Fire"
+    }
   }
 }

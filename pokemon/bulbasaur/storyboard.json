@@ -10,7 +10,8 @@
     "Oh? Ivysaur is evolving!",
     "Ivysaur evolved into Venusaur! But it is not over yet.",
     "Venusaur reacts to its Mega Stone. Mega Evolution!",
-    "Mega Venusaur, a Grass and Poison type! Who is your favourite Grass-type Pokemon? Comment below!"
+    "Mega Venusaur, a Grass and Poison type! Who is your favourite Grass-type Pokemon? Comment below!",
+    "Its old Poke Ball suddenly feels a little too small. Awkward."
   ],
   "clips": [
     {
@@ -90,6 +91,14 @@
         ]
       ],
       "white_in": 0.6
+    },
+    {
+      "still": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/pokemon/bulbasaur/scene_06.jpg",
+      "seconds": 4,
+      "zoom": [
+        1.05,
+        1.15
+      ]
     }
   ]
 }

@@ -8500,5 +8500,19 @@
       "name": "Vegito",
       "types": "Potara Fusion"
     }
+  },
+  "dbzfusion-Gokiren": {
+    "kind": "motion",
+    "spec": "scripts/specs/dbz_fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\dbzfusion-Gokiren\\final.mp4",
+    "data": {
+      "id": "Gokiren",
+      "family": "dbz",
+      "fan": true,
+      "a": "Goku",
+      "b": "Jiren",
+      "name": "Gokiren",
+      "types": "Fusion Dance"
+    }
   }
 }

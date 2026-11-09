@@ -357,11 +357,18 @@ def _provider_draw(prompt: str) -> Path:
     only for characters the model knows by name (Dragon Ball). ~$0.03 an image."""
     import tempfile
 
-    r = httpx.post("https://router.huggingface.co/fal-ai/fal-ai/qwen-image",
-                   headers={"Authorization": f"Bearer {fv.hf_token()}"},
-                   json={"prompt": prompt + " ONLY ONE figure, front view, the whole figure fits inside the picture with "
-                                            "empty space above the head and below the feet, nothing cut off.",
-                         "image_size": "portrait_16_9", "num_inference_steps": 30}, timeout=300)
+    import time
+
+    for attempt in range(3):  # fal answered one Piccorus call with a 422 that worked on the next try
+        r = httpx.post("https://router.huggingface.co/fal-ai/fal-ai/qwen-image",
+                       headers={"Authorization": f"Bearer {fv.hf_token()}"},
+                       json={"prompt": prompt + " ONLY ONE figure, front view, the whole figure fits inside the picture "
+                                                "with empty space above the head and below the feet, nothing cut off.",
+                             "image_size": "portrait_16_9", "num_inference_steps": 30}, timeout=300)
+        if r.status_code < 400 or attempt == 2:
+            break
+        log.warning("   Inference Providers %s - retrying: %s", r.status_code, r.text[:150])
+        time.sleep(10)
     r.raise_for_status()
     out = Path(tempfile.mkdtemp()) / "provider.png"
     out.write_bytes(httpx.get(r.json()["images"][0]["url"], timeout=120, follow_redirects=True).raise_for_status().content)

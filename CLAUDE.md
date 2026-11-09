@@ -185,6 +185,11 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
 - **Machine**: keep every install/cache on **F:** (C: is nearly full). `ollama.exe list` with no server
   running starts the Ollama app on C: - start `ollama.exe serve` with `OLLAMA_MODELS` set instead.
 - **Secrets**: only in `backend/.env` (gitignored) and GitHub secrets. Never print or commit tokens.
+- **The repo is PUBLIC** (since 2026-11-09): as a private repo it used up the 2,000 free GitHub Actions minutes a
+  month and every run failed in 3 s from 2026-11-07 ("recent account payments have failed or your spending limit
+  needs to be increased") - public repos get Actions free. History was scanned clean before. So: code, specs,
+  `gaming-state`, `clips/*` and Actions logs are world-readable - never commit a token, cookie or private file,
+  and never add a `pull_request`/`pull_request_target` trigger (outsiders could run workflows).
 - **Process**: confirm before running tests. Posting state is only ever merged into the latest `gaming-state`
   with `scripts/merge_state.py` (every workflow's save step does fetch + merge + retry; laptop batches too) -
   never copy a state file over it: a copy + push from a stale base once lost a whole day's records.
@@ -223,6 +228,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-09 - Repo made public: private Actions minutes ran out on 2026-11-07 (no CI run worked 7-8 Nov).
 - 2026-11-08 - YouTube playlists per category (`youtube_playlists.py`, run by every posting workflow); `youtube` OAuth scope added.
 - 2026-11-08 - Fusion art from Qwen-Image-Edit-2509 with both parents + part-by-part `fuse` text (23 pairs); livelier Wan prompts; auto fusions paused until approved.
 - 2026-11-08 - Fusion style 4: the two parents as stills, drawn fusion, only the fused Pokemon animated by Wan (owner request).

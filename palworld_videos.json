@@ -6573,5 +6573,48 @@
       "unique": false,
       "key": "Relaxaurus 5"
     }
+  },
+  "Blazehowl 5": {
+    "spec": "scripts/specs/palworld_blazehowl_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-9443e168.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Blazehowl",
+      "caption": "5 ways to breed Blazehowl in Palworld 1.0: Nyafia + Incineram, Gildra + Digtoise, Moldron + Foxcicle, Jormuntide + Munchill, Mimog + Sootseer.",
+      "video_script": "Here are five ways to breed Blazehowl in Palworld one point zero. Combo one: breed Nyafia with Incineram on your Breeding Farm, then add a cake. Combo two: pair Gildra and Digtoise together, and you get the same egg. Combo three: Moldron plus Foxcicle works too, so use whichever Pals you have. Combo four: Jormuntide with Munchill is another easy option. Combo five: breed Mimog with Sootseer on your Breeding Farm, then add a cake. Every egg hatches into Blazehowl. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Nyafia",
+        "Incineram"
+      ],
+      "combos": [
+        [
+          "Nyafia",
+          "Incineram"
+        ],
+        [
+          "Gildra",
+          "Digtoise"
+        ],
+        [
+          "Moldron",
+          "Foxcicle"
+        ],
+        [
+          "Jormuntide",
+          "Munchill"
+        ],
+        [
+          "Mimog",
+          "Sootseer"
+        ]
+      ],
+      "child": "Blazehowl",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false,
+      "key": "Blazehowl 5"
+    }
   }
 }

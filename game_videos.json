@@ -8135,5 +8135,33 @@
       "name": "Darkceus",
       "types": "Dark/Normal"
     }
+  },
+  "stranger-than-heaven-january-15": {
+    "spec": "scripts/specs/games/new_44_stranger-than-heaven-january-15.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-50a1682c.mp4"
+  },
+  "cod-modern-warfare-2-2009": {
+    "spec": "scripts/specs/games/classic_85_cod-modern-warfare-2-2009.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-cd8bcd9c.mp4"
+  },
+  "resident-evil-2-1998": {
+    "spec": "scripts/specs/games/classic_86_resident-evil-2-1998.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-c1bd660c.mp4"
+  },
+  "eetha-shraddha-kapoor": {
+    "spec": "scripts/specs/movies/movie_new_40_eetha-shraddha-kapoor.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-3ce7e1d6.mp4"
+  },
+  "you-can-see-everything-doc-opening": {
+    "spec": "scripts/specs/movies/movie_review_36_you-can-see-everything-documentary-opening.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-bab0f51c.mp4"
+  },
+  "reel-deewaar-1975-facts": {
+    "spec": "scripts/specs/movies/reel_73_deewaar-1975-facts.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e44d1e5b.mp4"
+  },
+  "aniimo-jawling-counter-strike-build": {
+    "spec": "scripts/specs/games/aniimo_192_aniimo-jawling-counter-strike-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-15278432.mp4"
   }
 }

@@ -8395,5 +8395,18 @@
       "name": "Direkitsun",
       "types": "Neutral/Fire"
     }
+  },
+  "fusion-sceptile+salamence": {
+    "kind": "motion",
+    "spec": "scripts/specs/fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\fusion-sceptile+salamence\\final.mp4",
+    "data": {
+      "id": "sceptile+salamence",
+      "family": "pokemon",
+      "a": "Sceptile",
+      "b": "Salamence",
+      "name": "Sceptmence",
+      "types": "Grass/Dragon"
+    }
   }
 }

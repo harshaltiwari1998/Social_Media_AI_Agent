@@ -330,7 +330,9 @@ def _qwen_fusion(pair: dict, key_name: str, out: Path) -> Path:
 
     fam = FAMILIES[pair.get("family", "pokemon")]
     srcs = []
-    for slug in (pair["a"], pair["b"]):
+    # "base_only": only the parent whose body the fusion keeps goes in as a reference - with both images the model
+    # sometimes drew the two creatures side by side (Univolt + Pyrin, 2026-11-09)
+    for slug in ([pair[pair["base_only"]]] if pair.get("base_only") else (pair["a"], pair["b"])):
         art = _art(art_ref(pair.get("family", "pokemon"), slug))
         scale = min(900 / art.width, 900 / art.height)
         art = art.resize((int(art.width * scale), int(art.height * scale)), Image.LANCZOS)

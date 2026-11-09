@@ -88,6 +88,7 @@
   "b": "Pyrin",
   "name": "Pyrivolt",
   "types": "Electric/Fire",
-  "fuse": "Pyrin's sleek dark navy horse body, burning orange-yellow flame mane and flame tail and flaming hooves as the base shape, with Univolt's jagged bright yellow electric spikes along its back and shoulders, Univolt's single long black horn on the forehead and Univolt's teal-and-yellow markings on the legs; sparks crackle in the flames - ONE horse, not two"
+  "fuse": "keep this horse's dark navy body, burning orange-yellow flame mane, flame tail and flaming hooves, and add Univolt's parts: jagged bright yellow lightning-shaped spikes along its back and shoulders, a single long black horn on the forehead and teal-and-yellow electric markings on the legs - ONE horse only",
+  "base_only": "b"
  }
 ]

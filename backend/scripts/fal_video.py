@@ -213,6 +213,72 @@ def evolve_clip(spec: dict, work: Path, out: Path) -> Path:
     return out
 
 
+def idle_clip(spec: dict, work: Path, out: Path) -> Path:
+    """The fused creature brought to life locally (no GPU, the design can never change - owner 2026-11-09: Wan turned
+    Darkceus into a different character and broke its eyes). The art breathes, floats and sways in front of a pulsing
+    aura in its type colour while energy particles rise; "mode": "power" makes the aura swell and the camera shake.
+    {"idle": art_png_or_slug, "background": ref, "seconds": 5, "mode": "idle" | "power", "color": [r, g, b]}"""
+    if out.exists():
+        return out
+    from moviepy.editor import VideoClip
+    from PIL import ImageDraw, ImageFilter
+
+    secs = float(spec.get("seconds", 5))
+    power = spec.get("mode") == "power"
+    col = tuple(spec.get("color", (140, 190, 255)))
+    base = _poke_background(spec.get("background"), work).convert("RGBA")
+    art, (px, py) = _poke_art(spec["idle"], work)
+    cx, cy = px + art.width / 2, py + art.height / 2
+    pad = 160
+    tint = Image.new("RGBA", art.size, col + (255,))
+    tint.putalpha(art.getchannel("A"))
+    aura = Image.new("RGBA", (art.width + 2 * pad, art.height + 2 * pad), (0, 0, 0, 0))
+    aura.alpha_composite(tint, (pad, pad))
+    aura = aura.filter(ImageFilter.GaussianBlur(45))
+    rng = np.random.default_rng(7)
+    parts = rng.random((70, 4))  # x offset, phase, speed, size
+
+    def frame(t):
+        grow = min(1.0, t / (secs * 0.7)) if power else 0.0
+        canvas = base.copy()
+        # aura: pulses gently, swells while powering up
+        s = (1.0 + 0.05 * np.sin(2 * np.pi * t / 1.4)) * (1.0 + 0.35 * grow)
+        a = aura.resize((int(aura.width * s), int(aura.height * s)), Image.BILINEAR)
+        strength = (0.55 + 0.2 * np.sin(2 * np.pi * t / 1.4)) * (1.0 + 0.6 * grow)
+        a.putalpha(a.getchannel("A").point(lambda v: min(255, int(v * strength))))
+        canvas.alpha_composite(a, (int(cx - a.width / 2), int(cy - a.height / 2)))
+        # rising energy particles in the type colour
+        d = ImageDraw.Draw(canvas)
+        speed_up = 1.0 + 2.0 * grow
+        for x0, ph, sp, sz in parts:
+            p = (ph + t * (0.12 + 0.25 * sp) * speed_up) % 1.0
+            x = cx + (x0 - 0.5) * art.width * 1.3
+            y = py + art.height + 60 - p * (art.height + 300)
+            r = 5 + sz * 10
+            alpha = int(220 * np.sin(np.pi * p))
+            d.ellipse([x - r, y - r, x + r, y + r], fill=col + (alpha,))
+            d.ellipse([x - r / 2.5, y - r / 2.5, x + r / 2.5, y + r / 2.5], fill=(255, 255, 255, alpha))
+        # the creature: breathes (stretches up a little), floats and sways
+        br = 0.018 * np.sin(2 * np.pi * t / 1.6)
+        w2, h2 = int(art.width * (1 - br / 2)), int(art.height * (1 + br))
+        body = art.resize((w2, h2), Image.BICUBIC).rotate(1.8 * np.sin(2 * np.pi * t / 3.2), Image.BICUBIC, expand=True)
+        bob = -20 * np.sin(2 * np.pi * t / 2.3)
+        shake = (8 * grow * np.sin(t * 57), 6 * grow * np.cos(t * 43)) if power else (0, 0)
+        canvas.alpha_composite(body, (int(cx - body.width / 2 + shake[0]), int(py + art.height - body.height + bob + shake[1])))
+        # slow camera push in
+        z = 1.0 + 0.06 * (t / secs)
+        cw, ch = int(W / z), int(H / z)
+        img = canvas.crop(((W - cw) // 2, (H - ch) // 2, (W + cw) // 2, (H + ch) // 2)).resize((W, H), Image.BILINEAR)
+        if power and t > secs - 0.5:  # a short flash as the power peaks
+            k = (t - (secs - 0.5)) / 0.5
+            img = Image.blend(img, Image.new("RGBA", (W, H), (255, 255, 255, 255)), 0.55 * np.sin(np.pi * k))
+        return np.asarray(img.convert("RGB"))
+
+    VideoClip(frame, duration=secs).write_videofile(str(out), fps=FPS, codec="libx264", audio=False, preset="medium", logger=None)
+    print("  idle", out.name, flush=True)
+    return out
+
+
 def fuse_clip(spec: dict, work: Path, out: Path) -> Path:
     """A fusion drawn locally (no GPU quota), in the style of evolve_clip: both parents stand side by side and light
     up, their white silhouettes slide together into one, the merged shape and the fused creature swap faster and
@@ -459,6 +525,9 @@ def build(storyboard: Path, out_dir: Path) -> Path:
             continue
         if "fuse" in c:  # fusion transition, drawn locally
             clips.append(fuse_clip(c, work, out_dir / f"clip_{i:02d}.mp4"))
+            continue
+        if "idle" in c:  # the fused creature animated locally (breathing, aura, particles)
+            clips.append(idle_clip(c, work, out_dir / f"clip_{i:02d}.mp4"))
             continue
         if "still" in c:  # hybrid mode: a still with a zoom instead of a paid/quota-limited AI clip
             # "still" is an image ref/path, or an image spec ({"poke": ..., "background": ...}) drawn to scene_NN.jpg

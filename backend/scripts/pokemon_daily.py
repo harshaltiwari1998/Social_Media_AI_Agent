@@ -388,34 +388,39 @@ def fusion_base(pair: dict) -> tuple[str, str]:
 _KEEP = "the character keeps exactly the same design, shape and colors, anime style, smooth natural motion"
 
 
-FUSION_STYLE = 4
+FUSION_STYLE = 6
+# aura / particle colour of the fused creature's first type (fal_video.idle_clip)
+TYPE_COLOR = {"fire": (255, 120, 40), "water": (60, 150, 255), "grass": (90, 210, 90), "electric": (255, 220, 50),
+              "ghost": (150, 90, 230), "dragon": (90, 110, 255), "psychic": (255, 100, 200), "fighting": (230, 110, 50),
+              "rock": (200, 170, 110), "ground": (220, 180, 100), "steel": (190, 200, 220), "ice": (140, 230, 255),
+              "normal": (240, 230, 200), "poison": (180, 80, 220), "dark": (150, 90, 230), "fairy": (255, 150, 220),
+              "bug": (160, 210, 60), "flying": (170, 200, 255)}
 
 
 def fusion_storyboard(pair: dict, meta: dict, fused: Path) -> dict:
-    """Style 4 (owner 2026-11-08: no animation on the two parents, only the fused Pokemon at the end): parent A's art,
-    parent B's art (stills with a slow zoom), the locally drawn fusion (silhouettes slide together, swap, white
-    screen), then the fused creature fades in from white and moves (Wan, body-motion prompts) and a closing still."""
+    """Style 6: parent A's art, parent B's art (stills with a slow zoom - owner 2026-11-08: no animation on the
+    parents), the locally drawn fusion (silhouettes slide together, swap, white screen), the fused creature fades in
+    from white and holds still for 2 s (owner 2026-11-09: let people see it first), then comes alive LOCALLY
+    (fal_video.idle_clip: breathing, floating, aura + particles, then a power-up) and a closing still. No Wan here:
+    on 2026-11-09 it turned Darkceus into a bearded armoured character and broke its eyes - complex fused designs do
+    not survive it, and the local animation can never change the design."""
     a, b, name = meta["a"], meta["b"], meta["name"]
     fam = pair.get("family", "pokemon")
     ta, tb = (TYPE_ALIAS.get(t.lower(), t.lower()) for t in (meta["types"].split("/") * 2)[:2])
-    fx = ENERGY.get(ta, "white energy")
     bg_a, bg_b = BACKGROUND.get(ta, "wiki:Meadow"), BACKGROUND.get(tb, "wiki:Meadow")
     still = lambda who, bg, secs: {"still": {"poke": who, "background": bg}, "seconds": secs, "zoom": [1.0, 1.12]}  # noqa: E731
-    wan = lambda prompt, fade=0.0: {"image": {"poke": str(fused), "background": bg_a}, "shots": [[prompt, 5]],  # noqa: E731
-                                    **({"white_in": fade} if fade else {})}
+    color = list(TYPE_COLOR.get(ta, (140, 190, 255)))
+    alive = lambda mode, secs: {"idle": str(fused), "background": bg_a, "seconds": secs, "mode": mode, "color": color}  # noqa: E731
     ra, rb = art_ref(fam, pair["a"]), art_ref(fam, pair["b"])
     clips = [still(ra, bg_a, 4.0),
              still(rb, bg_b, 3.5),
              {"fuse": [ra, rb, str(fused)], "background": bg_a, "seconds": 3.8},
-             # owner: the fused one must visibly move - soft "breathing" prompts gave a frozen-looking clip; a
-             # "lunge + lightning" attack bent it out of shape at the end, a jump / spin keeps the design
-             wan(f"the creature jumps up high with joy, lands, then waves both arms and swishes its tail energetically, "
-                 f"big lively full-body movement, the camera stays still, cartoon animation, {_KEEP}", 0.6),
-             wan(f"the creature spins around once, then strikes a cool battle pose and roars, a few {fx} swirl around "  # + joke
-                 f"it, big lively full-body movement, the creature stays in the center, {_KEEP}"),
+             {"still": {"poke": str(fused), "background": bg_a}, "seconds": 2.0, "zoom": [1.0, 1.0], "white_in": 0.6},
+             alive("idle", 4.5),
+             alive("power", 5.0),  # + joke
              {"still": str(fused.parent / "scene_03.jpg"), "seconds": 5.5, "zoom": [1.05, 1.15]}]  # closing question
     narration = [f"What happens when {a} fuses with {b}?", f"And here comes {b}!", f"{a} and {b} are fusing!",
-                 f"Fusion complete! Meet {name}!", humor.pick({"pokemon": "fusion", "pal": "palfusion"}[fam], meta["id"]),
+                 "Fusion complete!", f"Meet {name}!", humor.pick({"pokemon": "fusion", "pal": "palfusion"}[fam], meta["id"]),
                  f"{name}, a {meta['types']} fusion. Which two {FAMILIES[fam]['plural']} should fuse next? Comment below!"]
     return {"title": f"{a} + {b} fusion", "backend": "wan", "voice": "en-US-GuyNeural", "style": FUSION_STYLE,
             "narration": narration, "clips": clips}
@@ -429,8 +434,10 @@ def make_fusion(pair: dict, poster, games: dict) -> None:
     board = out / "storyboard.json"
     old_style = json.loads(board.read_text(encoding="utf-8")).get("style") if board.exists() else FUSION_STYLE
     if old_style != FUSION_STYLE:
-        # clips of an older style (Wan motion) would be mixed in - redraw them; style-2 fused art is still good
-        for f in [*out.glob("clip_*"), *out.glob("scene_*.jpg"), board, *([out / "fused.png"] if old_style not in (2, 3) else [])]:
+        # clips of an older style would be mixed in - redraw them. Fused art: kept for old `look` pairs (Kontext style 2/3),
+        # always redrawn for `fuse` pairs (it may be a Kontext fallback from before 2026-11-09; Qwen takes ~25 s)
+        keep_art = old_style in (2, 3) and not pair.get("fuse")
+        for f in [*out.glob("clip_*"), *out.glob("scene_*.jpg"), board, *([] if keep_art else [out / "fused.png"])]:
             f.unlink(missing_ok=True)
     fused = fusion_image(pair, out / "fused.png")
     board.write_text(json.dumps(fusion_storyboard(pair, meta, fused), indent=2) + "\n", encoding="utf-8")

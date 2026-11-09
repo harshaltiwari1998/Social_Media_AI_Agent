@@ -76,10 +76,11 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   one was flood-filled and punched holes in white faces) (the other parent is
   NOT named in the prompt - naming it made Kontext just redraw that Pokemon), and the fusion itself is drawn locally
   (`fal_video.fuse_clip`: both parents' white silhouettes slide together, swap with the fused form, white screen).
-  Style 4 since 2026-11-08 (owner: no animation on the parents, only the fused Pokemon): parent A still, parent B
-  still (official art on a background, slow zoom), the drawn fusion, then the fused creature fades in from white and
-  moves (2 Wan clips: jump + wave, spin + pose - soft "breathing" prompts looked frozen, a lunge attack bent the
-  creature) + a closing still. **Automatic fusions are paused** (`--max-fusions` default 0) until the owner approves
+  Style 6 since 2026-11-09: parent A still, parent B still (official art on a background, slow zoom), the drawn
+  fusion, the fused creature fades in from white and holds still 2 s (owner: let people see it), then comes alive
+  LOCALLY (`fal_video.idle_clip`: breathing, floating, sway, type-coloured aura + rising particles, then a power-up
+  with camera shake and flash) + a closing still. **No Wan on fusions**: it turned Darkceus into a different
+  bearded character and broke its eyes (owner: "bakwas") - complex fused designs do not survive it. **Automatic fusions are paused** (`--max-fusions` default 0) until the owner approves
   the Qwen art; one-off fusions on request still work. Older-style clips in a pair's cache are thrown away
   (style-2/3 fused art is kept; shared `fusion-<a>+<b>` record).
 - `backend/scripts/specs/pal_fusion_pairs.json` - Palworld Pal fusions (owner request 2026-11-09, 1 a day once the
@@ -212,7 +213,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
 - Daily Aniimo + Palworld pipeline (writer routine + `daily-anipal.yml`).
 - Daily free games + store deals (`daily-deals.yml`, `scripts/store_deals.py`) - 10 shorts + 2 long a day.
 - Pokemon evolution shorts (`daily-pokemon.yml`, `scripts/pokemon_daily.py`) - up to 3 a day (HF PRO), 50 lines queued;
-  plus up to 2 automatic fusion shorts a day (`--max-fusions`, FLUX.1 Kontext art, parent stills + drawn fusion, fused Pokemon animated by Wan).
+  plus up to 2 automatic fusion shorts a day (`--max-fusions`, Qwen Super-Fusion art, parent stills + drawn fusion, fused creature animated locally).
   Charmander evolution got strong views (Nov 2026) - owner bought HF PRO to scale it.
 - Pokemon fusion shorts from Gemini clips (`fusion-inbox.yml`, `scripts/fusion_inbox.py`) - the clip itself is made by hand.
 - Weekly refill routine, login check, weekly stats report, health-check exit codes.
@@ -237,6 +238,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-09 - Fusion style 6: 2 s still of the fused creature, then local idle/power-up animation (no Wan).
 - 2026-11-09 - Fused art from the Qwen Super-Fusion LoRA Space + flat-background cutout; no Kontext fallback for `fuse` pairs.
 - 2026-11-09 - Palworld fusion shorts (12 pairs, official Pal art), generic fusion families in `pokemon_daily.py` (Aniimo dropped).
 - 2026-11-09 - Repo made public: private Actions minutes ran out on 2026-11-07 (no CI run worked 7-8 Nov).

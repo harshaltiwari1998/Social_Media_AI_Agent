@@ -8283,5 +8283,19 @@
       "name": "Falezaku",
       "types": "Fire"
     }
+  },
+  "dbzfusion-Brogeta": {
+    "kind": "motion",
+    "spec": "scripts/specs/dbz_fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\dbzfusion-Brogeta\\final.mp4",
+    "data": {
+      "id": "Brogeta",
+      "family": "dbz",
+      "fan": true,
+      "a": "Vegeta",
+      "b": "Broly",
+      "name": "Brogeta",
+      "types": "Fusion Dance"
+    }
   }
 }

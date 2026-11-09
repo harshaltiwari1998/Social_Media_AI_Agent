@@ -39,6 +39,8 @@ FULL_SCOPE = "https://www.googleapis.com/auth/youtube"
 PLAYLISTS = {
     "youtube": {
         "fusion": ("Pokemon Fusions", "Two Pokemon fuse into one brand new Pokemon - fan-made fusion animations."),
+        "pal_fusion": ("Palworld Fusions", "Two Pals fuse into one brand new Pal - fan-made fusion animations."),
+        "aniimo_fusion": ("Aniimo Fusions", "Two Aniimo fuse into one brand new Aniimo - fan-made fusion animations."),
         "evolution": ("Pokemon Evolutions", "Pokemon evolution lines animated from start to final form, Mega Evolutions included."),
         "rdr2_shorts": ("Red Dead Redemption 2 - Best Moments (Shorts)", "Short clips from my own Red Dead Redemption 2 story playthrough."),
         "rdr2_long": ("Red Dead Redemption 2 - Story Highlights", "Longer highlight videos from my own Red Dead Redemption 2 playthrough."),
@@ -83,6 +85,10 @@ def classify(channel: str, trend_id: str | None, title: str, games: dict) -> str
         if t.startswith("custom:movie-"):
             return _MOVIE_SLOT.get(_slot(games, t[len("custom:movie-"):]), "movie_new")
         return None
+    if t.startswith("custom:palfusion-"):
+        return "pal_fusion"
+    if t.startswith("custom:aniimofusion-"):
+        return "aniimo_fusion"
     if t.startswith("custom:fusion-") or t.startswith("custom:motion-fusion"):
         return "fusion"
     if t.startswith("custom:motion-poke-"):

@@ -23,6 +23,20 @@ POOLS: dict[str, list[str]] = {
         "Two trainers, one Poke Ball, and a very long argument about who keeps it.",
         "It still can't decide which parent's attack to use first, so it uses both.",
     ],
+    "palfusion": [
+        "Good news, it works twice as hard at the base. Bad news, it eats twice as much.",
+        "Somewhere in Palpagos, a Pal Sphere just gave up.",
+        "It still can't decide which base job it wants, so it does all of them.",
+        "Two Pals, one body, and zero days off. Classic Palworld.",
+        "Your Breeding Farm is officially confused.",
+    ],
+    "aniimofusion": [
+        "Somewhere, the Aniilog just needed a brand new page.",
+        "Twice the fluff, twice the power, and twice the snacks.",
+        "It can't decide which trainer to follow, so it follows both.",
+        "Two Aniimo walked into one body. Neither wants to leave.",
+        "Cute? Yes. Strong? Also yes. Fair? Not at all.",
+    ],
     "evolution": [
         "And somewhere, a trainer is pressing B right now. Don't be that trainer.",
         "Same Pokemon, new look, way more attitude.",

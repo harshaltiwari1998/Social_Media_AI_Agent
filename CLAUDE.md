@@ -79,6 +79,14 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   creature) + a closing still. **Automatic fusions are paused** (`--max-fusions` default 0) until the owner approves
   the Qwen art; one-off fusions on request still work. Older-style clips in a pair's cache are thrown away
   (style-2/3 fused art is kept; shared `fusion-<a>+<b>` record).
+- `backend/scripts/specs/pal_fusion_pairs.json` + `aniimo_fusion_pairs.json` - Palworld and Aniimo fusions (owner
+  request 2026-11-09, 1 + 1 a day once the first samples are approved; `--max-pal-fusions` / `--max-aniimo-fusions`,
+  default 0). Same pipeline as Pokemon fusions (`FAMILIES` in `pokemon_daily.py`): each pair has a part-by-part
+  `fuse` text (checked against the art) and `types` = the parents' elements. Art: Pal wiki art (`fetch_pal_art`) and
+  the official Aniimo wiki (`specs/aniimo_catalog.json`, 118 basic forms parsed from wiki.aniimo.com's
+  `__NUXT_DATA__`), cached as `media_output/pokemon/art/<family>_<name>.png`. Records/post ids
+  `palfusion-<a>+<b>` / `aniimofusion-<a>+<b>`, playlists "Palworld Fusions" / "Aniimo Fusions", own joke pools.
+  Dragon Ball Z fusions were declined by the owner (Toei claims risk).
 - `backend/scripts/specs/gameplay/<plan>.json` - cut plans for the owner's own stream recordings.
 - `daily_job.py` picks the lowest-`order` unposted, unexpired spec per slot (`--from-end` takes the
   highest, for manual batches that must not collide with scheduled runs).
@@ -228,6 +236,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-09 - Palworld + Aniimo fusion shorts (12 + 12 pairs, official art), generic fusion families in `pokemon_daily.py`.
 - 2026-11-09 - Repo made public: private Actions minutes ran out on 2026-11-07 (no CI run worked 7-8 Nov).
 - 2026-11-08 - YouTube playlists per category (`youtube_playlists.py`, run by every posting workflow); `youtube` OAuth scope added.
 - 2026-11-08 - Fusion art from Qwen-Image-Edit-2509 with both parents + part-by-part `fuse` text (23 pairs); livelier Wan prompts; auto fusions paused until approved.

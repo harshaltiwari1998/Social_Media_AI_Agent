@@ -1,0 +1,965 @@
+{
+ "source": "https://wiki.aniimo.com/ (official Aniimo wiki, __NUXT_DATA__ header-aniimo-list-en), 2026-11-09",
+ "aniimo": [
+  {
+   "name": "Lunara",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10371.png",
+   "element": [
+    "holy"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Helion",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10361.png",
+   "element": [
+    "holy"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Dazmand",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10474.png",
+   "element": [
+    "electric"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Fulmintis",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10033.png",
+   "element": [
+    "electric"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Hoptail",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10223.png",
+   "element": [
+    "wind",
+    "electric"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Hypnyto",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10574.png",
+   "element": [
+    "wind"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Jaguaraun",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10713.png",
+   "element": [
+    "electric"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Sparkelf",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_69993.png",
+   "element": [
+    "fire"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Emberpup",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10051.png",
+   "element": [
+    "fire"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Flameruff",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10052.png",
+   "element": [
+    "fire"
+   ],
+   "stage": "2"
+  },
+  {
+   "name": "Scorchhowl",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10053.png",
+   "element": [
+    "fire"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Inferlupa",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10055.png",
+   "element": [
+    "fire",
+    "dark"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Celestis",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10011.png",
+   "element": [
+    "dark"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Stellarys",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10012.png",
+   "element": [
+    "dark"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Chirpi",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10181.png",
+   "element": [
+    "wind"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Tromber",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10184.png",
+   "element": [
+    "wind"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Cornet",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10185.png",
+   "element": [
+    "wind"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Tubster",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10187.png",
+   "element": [
+    "wind"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Iris",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10211.png",
+   "element": [
+    "grass"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Irisal",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10212.png",
+   "element": [
+    "grass"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Skippy",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10041.png",
+   "element": [
+    "water"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Pranky",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10042.png",
+   "element": [
+    "water"
+   ],
+   "stage": "2"
+  },
+  {
+   "name": "Glacy",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10043.png",
+   "element": [
+    "water",
+    "ice"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Leafy",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10045.png",
+   "element": [
+    "grass",
+    "water"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Nimbi",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10261.png",
+   "element": [
+    "wind"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Turbo",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10262.png",
+   "element": [
+    "wind"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Dreaple",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10263.png",
+   "element": [
+    "dark"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Hummin",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10201.png",
+   "element": [
+    "grass"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Hexxin",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10203.png",
+   "element": [
+    "dark",
+    "grass"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Tuckin",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10207.png",
+   "element": [
+    "grass"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Budclaw",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10161.png",
+   "element": [
+    "rock",
+    "grass"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Shrubclaw",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10162.png",
+   "element": [
+    "rock",
+    "grass"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Geoclaw",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10163.png",
+   "element": [
+    "ice"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Sparki",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10331.png",
+   "element": [
+    "fire"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Flamerion",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10333.png",
+   "element": [
+    "fire"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Flutternym",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10231.png",
+   "element": [
+    "wind"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Gracewing",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10232.png",
+   "element": [
+    "wind"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Eko",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10441.png",
+   "element": [
+    "wind"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Eklue",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10443.png",
+   "element": [
+    "wind"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Budsquire",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10321.png",
+   "element": [
+    "grass"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Thornblade",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10323.png",
+   "element": [
+    "grass"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Melloblum",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10324.png",
+   "element": [
+    "grass"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Pomegg",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10471.png",
+   "element": [
+    "grass"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Pomawk",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10475.png",
+   "element": [
+    "grass"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Dewy",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10351.png",
+   "element": [
+    "dark"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Fragrancier",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10352.png",
+   "element": [
+    "dark"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Wisptis",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10031.png",
+   "element": [
+    "dark"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Ignitis",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10032.png",
+   "element": [
+    "dark"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Bonesky",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10131.png",
+   "element": [
+    "ice"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Fenrier",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10132.png",
+   "element": [
+    "ice"
+   ],
+   "stage": "2"
+  },
+  {
+   "name": "Glynsera",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10133.png",
+   "element": [
+    "ice"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Bolty",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10221.png",
+   "element": [
+    "electric"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Blazen",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10222.png",
+   "element": [
+    "electric"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Squarrel",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10511.png",
+   "element": [
+    "fire"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Squashel",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10512.png",
+   "element": [
+    "fire"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Susuta",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10171.png",
+   "element": [
+    "water"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Popota",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10172.png",
+   "element": [
+    "water"
+   ],
+   "stage": "2"
+  },
+  {
+   "name": "Piopiota",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10173.png",
+   "element": [
+    "water"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Panpanta",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10174.png",
+   "element": [
+    "water"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Shelly",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10191.png",
+   "element": [
+    "water"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Sheldon",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10192.png",
+   "element": [
+    "water"
+   ],
+   "stage": "2"
+  },
+  {
+   "name": "Sherro",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10194.png",
+   "element": [
+    "water"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Baleetle",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10451.png",
+   "element": [
+    "rock"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Waleetle",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10453.png",
+   "element": [
+    "rock"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Bouldus",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10454.png",
+   "element": [
+    "rock"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Fentuft",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10291.png",
+   "element": [
+    "electric"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Fenmane",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10293.png",
+   "element": [
+    "electric"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Helmut",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10021.png",
+   "element": [
+    "dark"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Pawney",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10026.png",
+   "element": [
+    "dark"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Rookey",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10027.png",
+   "element": [
+    "dark"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Jawling",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10024.png",
+   "element": [
+    "wind"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Helmwhelp",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10022.png",
+   "element": [
+    "wind"
+   ],
+   "stage": "2"
+  },
+  {
+   "name": "Helgon",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10023.png",
+   "element": [
+    "wind"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Infergon",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10025.png",
+   "element": [
+    "fire"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Cubbo",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10501.png",
+   "element": [
+    "rock"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Grizbo",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10503.png",
+   "element": [
+    "rock"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Pebbling",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10281.png",
+   "element": [
+    "rock"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Lavazar",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10282.png",
+   "element": [
+    "fire",
+    "rock"
+   ],
+   "stage": "2"
+  },
+  {
+   "name": "Magmarex",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10283.png",
+   "element": [
+    "fire",
+    "rock"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Geodeback",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10284.png",
+   "element": [
+    "rock"
+   ],
+   "stage": "2"
+  },
+  {
+   "name": "Minespine",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10285.png",
+   "element": [
+    "rock"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Cozite",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10431.png",
+   "element": [
+    "rock"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Bailite",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10433.png",
+   "element": [
+    "rock"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Bulbly",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10141.png",
+   "element": [
+    "electric"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Veilfloat",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10142.png",
+   "element": [
+    "electric"
+   ],
+   "stage": "2"
+  },
+  {
+   "name": "Luminelle",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10143.png",
+   "element": [
+    "electric"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Fahloo",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10481.png",
+   "element": [
+    "water"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Erlath",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10483.png",
+   "element": [
+    "water"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Besauce",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10122.png",
+   "element": [
+    "electric"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Reefish",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10381.png",
+   "element": [
+    "rock",
+    "water"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Coraliz",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10383.png",
+   "element": [
+    "rock",
+    "water"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Hypnowl",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10571.png",
+   "element": [
+    "wind"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Mesmerowl",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10573.png",
+   "element": [
+    "wind"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Dewlop",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10651.png",
+   "element": [
+    "water"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Dewple",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10653.png",
+   "element": [
+    "water"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Coinwisp",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10631.png",
+   "element": [
+    "dark"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Pouchwisp",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10633.png",
+   "element": [
+    "dark"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Bubbeep",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10581.png",
+   "element": [
+    "grass",
+    "water"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Glameep",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10583.png",
+   "element": [
+    "grass",
+    "water"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Popapus",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10621.png",
+   "element": [
+    "water"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Gachapus",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10623.png",
+   "element": [
+    "water"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Sugarfish",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10591.png",
+   "element": [
+    "ice"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Sugarslime",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10593.png",
+   "element": [
+    "ice"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Sugartini",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10594.png",
+   "element": [
+    "ice"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Lilipole",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10541.png",
+   "element": [
+    "water"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Scrubbit",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10543.png",
+   "element": [
+    "water"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Salabask",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10601.png",
+   "element": [
+    "grass",
+    "water"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Crocobask",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10603.png",
+   "element": [
+    "grass",
+    "water"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Puffby",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10611.png",
+   "element": [
+    "wind"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Buffby",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10613.png",
+   "element": [
+    "wind"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Royalby",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10614.png",
+   "element": [
+    "wind"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Saws",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10391.png",
+   "element": [
+    "water"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Whirlbite",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10393.png",
+   "element": [
+    "water"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Prawnch",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10401.png",
+   "element": [
+    "ice"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Jabster",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10403.png",
+   "element": [
+    "dark",
+    "ice"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Jeglid",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10691.png",
+   "element": [
+    "water"
+   ],
+   "stage": "1"
+  },
+  {
+   "name": "Jeburst",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10693.png",
+   "element": [
+    "water"
+   ],
+   "stage": "3"
+  },
+  {
+   "name": "Ekrim",
+   "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx/wiki_stage/init/Wiki_Aniimo_10444.png",
+   "element": [
+    "dark"
+   ],
+   "stage": "3"
+  }
+ ]
+}

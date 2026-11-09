@@ -48,6 +48,77 @@ KONTEXT_SPACE = "black-forest-labs/FLUX.1-Kontext-Dev"  # free Hugging Face Zero
 QWEN_SPACE = "Qwen/Qwen-Image-Edit-2509"
 CACHE = ROOT / dj.settings.media_output_dir / "pokemon"
 log = logging.getLogger("pokemon_daily")
+SPECS = ROOT / "scripts" / "specs"
+
+# Fusions of other monster games (owner request 2026-11-09: Palworld Pals and Aniimo, 1 + 1 a day) run through the same
+# pipeline. key = record/cache/post-id prefix ("fusion" stays Pokemon's, shared with fusion_inbox.py).
+FAMILIES = {
+    "pokemon": {"word": "Pokemon", "plural": "Pokemon", "game": "Pokemon", "key": "fusion", "pairs": PAIRS,
+                "style": "official Pokemon Sugimori art style, clean line art"},
+    "pal": {"word": "Pal", "plural": "Pals", "game": "Palworld", "key": "palfusion", "pairs": SPECS / "pal_fusion_pairs.json",
+            "style": "official Palworld 3D creature render style, soft shading, cute but cool"},
+    "aniimo": {"word": "Aniimo", "plural": "Aniimo", "game": "Aniimo", "key": "aniimofusion",
+               "pairs": SPECS / "aniimo_fusion_pairs.json",
+               "style": "official Aniimo 3D creature render style, soft fluffy shading, cute but cool"},
+}
+# Pal / Aniimo elements -> the Pokemon type whose background photo + energy words fit
+TYPE_ALIAS = {"neutral": "normal", "wind": "flying", "holy": "fairy", "earth": "ground"}
+
+
+def load_pairs(family: str) -> list[dict]:
+    path = FAMILIES[family]["pairs"]
+    pairs = json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
+    return [{**p, "family": family} for p in pairs]
+
+
+def art_ref(family: str, name: str) -> str:
+    """What fal_video / _art take for a parent: a PokeAPI slug, or a local transparent .png for the other games."""
+    if family == "pokemon":
+        return name
+    path = CACHE / "art" / f"{family}_{name.replace(' ', '_')}.png"
+    if not path.exists():
+        from PIL import Image
+
+        path.parent.mkdir(parents=True, exist_ok=True)
+        if family == "pal":  # official Pal art from the Palworld wiki (cached by the breeding videos too)
+            from scripts.palworld_breeding_videos import fetch_pal_art
+
+            im = fetch_pal_art(name)
+        else:  # official Aniimo art from wiki.aniimo.com (specs/aniimo_catalog.json)
+            cat = json.loads((SPECS / "aniimo_catalog.json").read_text(encoding="utf-8"))["aniimo"]
+            url = next(a["image"] for a in cat if a["name"].lower() == name.lower())
+            im = Image.open(io.BytesIO(httpx.get(url, timeout=60, follow_redirects=True).raise_for_status().content))
+        im = im.convert("RGBA")
+        im.crop(im.getbbox() or (0, 0, im.width, im.height)).save(path)
+    return str(path)
+
+
+def fusion_meta(pair: dict) -> dict:
+    fam = pair.get("family", "pokemon")
+    a, b = pair["a"], pair["b"]
+    types = pair.get("types") or "/".join(dict.fromkeys([fi.primary_type(a), fi.primary_type(b)]))
+    disp = fi.display if fam == "pokemon" else (lambda n: n)
+    return {"id": f"{a}+{b}", "family": fam, "a": disp(a), "b": disp(b), "name": pair["name"], "types": types}
+
+
+def fusion_post_id(meta: dict) -> str:
+    fam = meta.get("family", "pokemon")
+    return fi.post_id(meta) if fam == "pokemon" else f"custom:{FAMILIES[fam]['key']}-{meta['id']}"
+
+
+def fusion_post_text(meta: dict) -> tuple[str, list[str]]:
+    fam = meta.get("family", "pokemon")
+    if fam == "pokemon":
+        return fi.post_text(meta)
+    f = FAMILIES[fam]
+    a, b, name, types, game = meta["a"], meta["b"], meta["name"], meta["types"], f["game"]
+    title = f"{a} + {b} = {name} | {game} Fusion | {types}"
+    desc = (f"What if {a} and {b} fused? Meet {name}, a {types} {game} fusion. Fan-made AI animation from the official "
+            f"{game} art. Which two {f['plural']} should fuse next? Comment below!")
+    tags = [a, b, name, f"{game} fusion", game, f"{game} {f['plural']}", f"{a} {game}", f"{b} {game}",
+            f"{game} fusion animation", "creature fusion", f"{game} shorts", "fusion"]
+    hashtags = " ".join(f"#{h}" for h in [game, f"{game}Fusion", name.replace(" ", ""), "Gaming", "Shorts"])
+    return f"{title}\n\n{desc}\n\n{hashtags}", tags
 
 BACKGROUND = {"fire": "wiki:Lava", "water": "wiki:Wind wave", "grass": "wiki:Forest", "electric": "wiki:Lightning",
               "ghost": "wiki:Graveyard", "dragon": "wiki:Mountain", "psychic": "wiki:Aurora", "fighting": "wiki:Waterfall",
@@ -173,6 +244,9 @@ def storyboard_v1(entry: dict) -> dict:
 def _art(slug: str):
     from PIL import Image
 
+    if slug.endswith(".png"):  # a Pal / Aniimo parent (art_ref)
+        im = Image.open(slug).convert("RGBA")
+        return im.crop(im.getbbox() or (0, 0, im.width, im.height))
     url = (httpx.get(f"https://pokeapi.co/api/v2/pokemon/{slug}", timeout=30).raise_for_status()
            .json()["sprites"]["other"]["official-artwork"]["front_default"])
     im = Image.open(io.BytesIO(httpx.get(url, timeout=60, follow_redirects=True).raise_for_status().content)).convert("RGBA")
@@ -189,7 +263,8 @@ def fusion_image(pair: dict, out: Path) -> Path:
     from PIL import Image
 
     out.parent.mkdir(parents=True, exist_ok=True)
-    green = any(w in (pair["look"] + pair.get("fuse", "")).lower() for w in ("green", "teal", "leaf"))
+    pair = {**pair, "look": pair.get("look") or pair.get("fuse", "")}  # Pal / Aniimo pairs only have "fuse"
+    green = any(w in (pair["look"] + pair.get("fuse", "")).lower() for w in ("green", "teal", "leaf", "moss", "grass"))
     key, key_name = ((255, 0, 255), "magenta") if green else ((0, 255, 0), "green")
     if pair.get("fuse"):  # detailed part-by-part mix of both parents -> Qwen with both images
         try:
@@ -203,7 +278,8 @@ def fusion_image(pair: dict, out: Path) -> Path:
     base, other = fusion_base(pair)
     # chroma-key background: a white one had to be flood-filled, which also punched holes in white faces (Lucarace)
     sheet = Image.new("RGB", (1024, 1024), key)
-    art = _art(base)
+    fam = pair.get("family", "pokemon")
+    art = _art(art_ref(fam, base))
     scale = min(860 / art.width, 900 / art.height)
     art = art.resize((int(art.width * scale), int(art.height * scale)), Image.LANCZOS)
     sheet.paste(art, ((1024 - art.width) // 2, (1024 - art.height) // 2), art)
@@ -214,7 +290,7 @@ def fusion_image(pair: dict, out: Path) -> Path:
     look = re.sub(rf"(?i)\b{re.escape(_name(base))}'s\s*", "its ", look)
     prompt = (f"Edit this creature: {look}. Keep its own head, face, body shape and pose exactly, only change the colors "
               f"and add the new parts. One creature only, full body, flat solid pure {key_name} background, "
-              "official Pokemon art style")
+              f"{FAMILIES[fam]['style']}")
     client = Client(KONTEXT_SPACE, hf_token=fv.hf_token(), verbose=False)
     try:
         res = client.predict(handle_file(str(src)), prompt, 7, False, 3.0, 28, api_name="/infer")
@@ -230,19 +306,20 @@ def _qwen_fusion(pair: dict, key_name: str, out: Path) -> Path:
     from gradio_client import Client, handle_file
     from PIL import Image
 
+    fam = FAMILIES[pair.get("family", "pokemon")]
     srcs = []
     for slug in (pair["a"], pair["b"]):
-        art = _art(slug)
+        art = _art(art_ref(pair.get("family", "pokemon"), slug))
         scale = min(900 / art.width, 900 / art.height)
         art = art.resize((int(art.width * scale), int(art.height * scale)), Image.LANCZOS)
         sheet = Image.new("RGB", (1024, 1024), (255, 255, 255))
         sheet.paste(art, ((1024 - art.width) // 2, (1024 - art.height) // 2), art)
-        src = out.with_name(f"parent_{slug}.png")
+        src = out.with_name(f"parent_{slug.replace(' ', '_')}.png")
         sheet.save(src)
         srcs.append(src)
-    prompt = (f"Fuse {_name(pair['a'])} from image 1 and {_name(pair['b'])} from image 2 into ONE new Pokemon that "
+    prompt = (f"Fuse {_name(pair['a'])} from image 1 and {_name(pair['b'])} from image 2 into ONE new {fam['word']} that "
               f"clearly mixes both of them: {pair['fuse']}. One creature only, full body, standing, front view, "
-              f"official Pokemon Sugimori art style, clean line art, flat solid pure {key_name} background")
+              f"{fam['style']}, flat solid pure {key_name} background")
     client = Client(QWEN_SPACE, hf_token=fv.hf_token(), verbose=False)
     try:  # the Space casts the seed to float and then crashes on it - let it pick a random one; 256x256 = input size
         res, _seed = client.predict([{"image": handle_file(str(s)), "caption": None} for s in srcs], prompt, 0, True,
@@ -295,15 +372,17 @@ def fusion_storyboard(pair: dict, meta: dict, fused: Path) -> dict:
     parent B's art (stills with a slow zoom), the locally drawn fusion (silhouettes slide together, swap, white
     screen), then the fused creature fades in from white and moves (Wan, body-motion prompts) and a closing still."""
     a, b, name = meta["a"], meta["b"], meta["name"]
-    ta, tb = (t.lower() for t in (meta["types"].split("/") * 2)[:2])
+    fam = pair.get("family", "pokemon")
+    ta, tb = (TYPE_ALIAS.get(t.lower(), t.lower()) for t in (meta["types"].split("/") * 2)[:2])
     fx = ENERGY.get(ta, "white energy")
     bg_a, bg_b = BACKGROUND.get(ta, "wiki:Meadow"), BACKGROUND.get(tb, "wiki:Meadow")
     still = lambda who, bg, secs: {"still": {"poke": who, "background": bg}, "seconds": secs, "zoom": [1.0, 1.12]}  # noqa: E731
     wan = lambda prompt, fade=0.0: {"image": {"poke": str(fused), "background": bg_a}, "shots": [[prompt, 5]],  # noqa: E731
                                     **({"white_in": fade} if fade else {})}
-    clips = [still(pair["a"], bg_a, 4.0),
-             still(pair["b"], bg_b, 3.5),
-             {"fuse": [pair["a"], pair["b"], str(fused)], "background": bg_a, "seconds": 3.8},
+    ra, rb = art_ref(fam, pair["a"]), art_ref(fam, pair["b"])
+    clips = [still(ra, bg_a, 4.0),
+             still(rb, bg_b, 3.5),
+             {"fuse": [ra, rb, str(fused)], "background": bg_a, "seconds": 3.8},
              # owner: the fused one must visibly move - soft "breathing" prompts gave a frozen-looking clip; a
              # "lunge + lightning" attack bent it out of shape at the end, a jump / spin keeps the design
              wan(f"the creature jumps up high with joy, lands, then waves both arms and swishes its tail energetically, "
@@ -312,17 +391,18 @@ def fusion_storyboard(pair: dict, meta: dict, fused: Path) -> dict:
                  f"it, big lively full-body movement, the creature stays in the center, {_KEEP}"),
              {"still": str(fused.parent / "scene_03.jpg"), "seconds": 5.5, "zoom": [1.05, 1.15]}]  # closing question
     narration = [f"What happens when {a} fuses with {b}?", f"And here comes {b}!", f"{a} and {b} are fusing!",
-                 f"Fusion complete! Meet {name}!", humor.pick("fusion", meta["id"]),
-                 f"{name}, a {meta['types']} fusion. Which two Pokemon should fuse next? Comment below!"]
+                 f"Fusion complete! Meet {name}!", humor.pick({"pokemon": "fusion", "pal": "palfusion",
+                                                               "aniimo": "aniimofusion"}[fam], meta["id"]),
+                 f"{name}, a {meta['types']} fusion. Which two {FAMILIES[fam]['plural']} should fuse next? Comment below!"]
     return {"title": f"{a} + {b} fusion", "backend": "wan", "voice": "en-US-GuyNeural", "style": FUSION_STYLE,
             "narration": narration, "clips": clips}
 
 
 def make_fusion(pair: dict, poster, games: dict) -> None:
-    meta = {"id": f"{pair['a']}+{pair['b']}", "a": fi.display(pair["a"]), "b": fi.display(pair["b"]), "name": pair["name"],
-            "types": "/".join(dict.fromkeys([fi.primary_type(pair["a"]), fi.primary_type(pair["b"])]))}
-    log.info("== fusion %s + %s = %s (%s)", meta["a"], meta["b"], meta["name"], meta["types"])
-    out = CACHE / f"fusion-{meta['id']}"
+    meta = fusion_meta(pair)
+    fam = FAMILIES[meta["family"]]
+    log.info("== %s fusion %s + %s = %s (%s)", fam["game"], meta["a"], meta["b"], meta["name"], meta["types"])
+    out = CACHE / f"{fam['key']}-{meta['id']}"
     board = out / "storyboard.json"
     old_style = json.loads(board.read_text(encoding="utf-8")).get("style") if board.exists() else FUSION_STYLE
     if old_style != FUSION_STYLE:
@@ -332,9 +412,10 @@ def make_fusion(pair: dict, poster, games: dict) -> None:
     fused = fusion_image(pair, out / "fused.png")
     board.write_text(json.dumps(fusion_storyboard(pair, meta, fused), indent=2) + "\n", encoding="utf-8")
     video = fv.build(board, out)
-    games[f"fusion-{meta['id']}"] = {"kind": "motion", "spec": PAIRS.relative_to(ROOT).as_posix(), "video": str(video), "data": meta}
+    games[f"{fam['key']}-{meta['id']}"] = {"kind": "motion", "spec": fam["pairs"].relative_to(ROOT).as_posix(),
+                                           "video": str(video), "data": meta}
     dj._save(dj.GAME_MANIFEST, games)
-    poster.post(fi.post_id(meta), *fi.post_text(meta), str(video))
+    poster.post(fusion_post_id(meta), *fusion_post_text(meta), str(video))
 
 
 def make_evolution(entry: dict, poster, games: dict) -> None:
@@ -386,16 +467,18 @@ def main() -> None:
     parser.add_argument("--max-shorts", type=int, default=3, help="new evolution shorts per run (owner: 3 a day)")
     parser.add_argument("--max-fusions", type=int, default=0,  # paused 2026-11-08 until the owner approves the Qwen art
                         help="new fusion shorts per run")
+    parser.add_argument("--max-pal-fusions", type=int, default=0, help="new Palworld fusion shorts per run")
+    parser.add_argument("--max-aniimo-fusions", type=int, default=0, help="new Aniimo fusion shorts per run")
     parser.add_argument("--fusion-image", metavar="A+B")
     args = parser.parse_args()
     queue = json.loads(QUEUE.read_text(encoding="utf-8"))
-    pairs = json.loads(PAIRS.read_text(encoding="utf-8"))
+    pairs = [p for fam in FAMILIES for p in load_pairs(fam)]
     if args.plan:
         print(json.dumps(storyboard(next(e for e in queue if e["id"] == args.plan)), indent=2))
         return
     if args.fusion_image:
         pair = next(p for p in pairs if f"{p['a']}+{p['b']}" == args.fusion_image)
-        print(fusion_image(pair, CACHE / f"fusion-{args.fusion_image}" / "fused.png"))
+        print(fusion_image(pair, CACHE / f"{FAMILIES[pair['family']]['key']}-{args.fusion_image}" / "fused.png"))
         return
     log_dir = ROOT / dj.settings.media_output_dir / "logs"
     log_dir.mkdir(parents=True, exist_ok=True)
@@ -415,20 +498,23 @@ def main() -> None:
             else:
                 log.warning("%s still pending but its video is gone from the cache", key)
 
-    spec = PAIRS.relative_to(ROOT).as_posix()
+    made_here = {f["pairs"].relative_to(ROOT).as_posix() for f in FAMILIES.values()}
     for key, rec in games.items():  # a fusion made here that still misses a platform
-        if key.startswith("fusion-") and rec.get("spec") == spec and poster.pending(fi.post_id(rec["data"])):
+        if rec.get("kind") == "motion" and rec.get("spec") in made_here and poster.pending(fusion_post_id(rec["data"])):
             video = CACHE / key / "final.mp4"
             if video.exists():
                 log.info("retry %s", key)
-                poster.post(fi.post_id(rec["data"]), *fi.post_text(rec["data"]), str(video))
+                poster.post(fusion_post_id(rec["data"]), *fusion_post_text(rec["data"]), str(video))
             else:
                 log.warning("%s still pending but its video is gone from the cache", key)
 
     # Evolution lines and fusions take turns, so one kind never uses up the whole GPU quota.
     evos = [("evo", e) for e in queue if f"poke-{e['id']}" not in games][: args.max_shorts]
-    fusions = [("fusion", p) for p in pairs
-               if f"fusion-{p['a']}+{p['b']}" not in games and f"fusion-{p['b']}+{p['a']}" not in games][: args.max_fusions]
+    fusions = []
+    for fam, cap in (("pokemon", args.max_fusions), ("pal", args.max_pal_fusions), ("aniimo", args.max_aniimo_fusions)):
+        k = FAMILIES[fam]["key"]
+        fusions += [("fusion", p) for p in load_pairs(fam)
+                    if f"{k}-{p['a']}+{p['b']}" not in games and f"{k}-{p['b']}+{p['a']}" not in games][:cap]
     jobs = [job for k in range(max(len(evos), len(fusions))) for job in (evos[k:k + 1] + fusions[k:k + 1])]
     for kind, item in jobs:
         try:
@@ -446,7 +532,7 @@ def main() -> None:
         if f"poke-{entry['id']}" in games and not poster.pending(post_id(entry)):
             shutil.rmtree(CACHE / entry["id"], ignore_errors=True)
     for key, rec in games.items():
-        if key.startswith("fusion-") and rec.get("spec") == spec and not poster.pending(fi.post_id(rec["data"])):
+        if rec.get("kind") == "motion" and rec.get("spec") in made_here and not poster.pending(fusion_post_id(rec["data"])):
             shutil.rmtree(CACHE / key, ignore_errors=True)
     log.info("Done (%s)", ", ".join(f"{k} {v}" for k, v in dj.HEALTH.items()))
     if dj.HEALTH["post_failed"] and not dj.HEALTH["posted"]:

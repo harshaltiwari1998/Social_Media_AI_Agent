@@ -1,0 +1,86 @@
+[
+ {
+  "a": "Anubis",
+  "b": "Jetragon",
+  "name": "Jetubis",
+  "fuse": "Anubis's tall standing jackal body, black fur, golden Egyptian collar, armbands and leg bands, and its pointed jackal head; Jetragon's four glowing pink crystal wing blades on the back, its long blue-grey dragon tail and blue-grey armored plates on the arms and shoulders; colours black, gold, blue-grey and glowing pink",
+  "types": "Ground/Dragon"
+ },
+ {
+  "a": "Lamball",
+  "b": "Cattiva",
+  "name": "Lambiva",
+  "fuse": "Cattiva's small standing cat body, big pointed ears, cute face and big paws in its pink colour with a cream belly; Lamball's thick fluffy cream wool covering the head, shoulders and back like a cloud coat, and Lamball's small curled horns on the head",
+  "types": "Neutral"
+ },
+ {
+  "a": "Foxparks",
+  "b": "Chillet",
+  "name": "Chillparks",
+  "fuse": "Foxparks's small fox body, big ears and big fluffy tail; Chillet's pale icy blue colour with darker blue leaf-shaped markings and its long slender ferret-like body; the tail tip burns with a blue-white icy flame",
+  "types": "Fire/Ice"
+ },
+ {
+  "a": "Frostallion",
+  "b": "Blazamut",
+  "name": "Frostamut",
+  "fuse": "Frostallion's majestic winged horse body, long legs, feathered wings and flowing ice-blue mane, in its white and pale blue colours; Blazamut's curved golden horns on the head, its dark shaggy fur on the chest and shoulders, and glowing red magma cracks along the legs",
+  "types": "Ice/Fire"
+ },
+ {
+  "a": "Depresso",
+  "b": "Relaxaurus",
+  "name": "Depressaurus",
+  "fuse": "Relaxaurus's long-necked dinosaur body, cream belly, stubby legs and curly tail, in its teal blue colour; Depresso's tired half-closed eyes with dark bags under them, its small purple horn on the head and droopy tired posture",
+  "types": "Dark/Water"
+ },
+ {
+  "a": "Shadowbeak",
+  "b": "Necromus",
+  "name": "Shadowmus",
+  "fuse": "Necromus's armored black horse body, long legs and red-pink blades on the shoulders; Shadowbeak's black raven head with a long sharp beak, its big feathered black wings and its glowing cyan line markings across the body",
+  "types": "Dark"
+ },
+ {
+  "a": "Faleris",
+  "b": "Suzaku",
+  "name": "Falezaku",
+  "fuse": "Faleris's falcon body, sharp curved beak and strong talons; Suzaku's bright red colour, its long flowing phoenix tail feathers and elegant red head crest; wing feathers mixing Faleris's dark green with Suzaku's red and gold",
+  "types": "Fire"
+ },
+ {
+  "a": "Direhowl",
+  "b": "Kitsun",
+  "name": "Direkitsun",
+  "fuse": "Direhowl's strong wolf body and fierce face with its black and white fur pattern; Kitsun's pointed fox ears with blue tips, white fluffy fur on the chest and several fluffy fox tails burning with bright blue flames",
+  "types": "Neutral/Fire"
+ },
+ {
+  "a": "Chikipi",
+  "b": "Rushoar",
+  "name": "Chikoar",
+  "fuse": "Chikipi's round fluffy white chicken body, big round eyes, small wings and red comb; Rushoar's two curved white tusks, its brown fur on the back with a lighter brown mane and its sturdy boar legs",
+  "types": "Neutral/Ground"
+ },
+ {
+  "a": "Grizzbolt",
+  "b": "Kingpaca",
+  "name": "Grizzpaca",
+  "fuse": "Grizzbolt's big standing bear body and yellow fur with black lightning-bolt markings; Kingpaca's huge fluffy cream wool around the head, neck and shoulders, and its golden trident crown on top of the head; a red belly like Kingpaca",
+  "types": "Electric/Neutral"
+ },
+ {
+  "a": "Penking",
+  "b": "Jormuntide",
+  "name": "Penmuntide",
+  "fuse": "Penking's big round blue penguin body, blue pirate captain hat, white fluffy chest and red buttons; Jormuntide's long blue serpent dragon tail, sharp fins and spikes along the back, and its long whiskers on the face",
+  "types": "Water/Dragon"
+ },
+ {
+  "a": "Lovander",
+  "b": "Daedream",
+  "name": "Lovadream",
+  "fuse": "Lovander's slender pink standing body, long ears and heart-shaped chest; Daedream's dreamy purple galaxy-coloured ghostly lower body that fades into wisps, its blue fluffy collar and sleepy eyes; pink and purple colours",
+  "types": "Neutral/Dark"
+ }
+]

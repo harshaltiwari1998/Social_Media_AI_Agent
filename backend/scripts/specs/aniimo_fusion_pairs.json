@@ -1,0 +1,86 @@
+[
+ {
+  "a": "Scorchhowl",
+  "b": "Glynsera",
+  "name": "Frosthowl",
+  "fuse": "Scorchhowl's standing wolf body, fierce face, dark grey fur and the white X mark on its chest; Glynsera's icy blue fur and sharp crystal ice blades along the arms, back and tail; one shoulder burning with orange flames and the other covered in ice crystals",
+  "types": "Fire/Ice"
+ },
+ {
+  "a": "Infergon",
+  "b": "Coraliz",
+  "name": "Coralgon",
+  "fuse": "Infergon's black armored dragon body, sharp horns, big pointed wings and glowing cracks on the chest; Coraliz's branching pink coral antlers and its soft pink-red frills along the neck and back; the glowing cracks turn coral pink",
+  "types": "Fire/Rock"
+ },
+ {
+  "a": "Fulmintis",
+  "b": "Ignitis",
+  "name": "Fulmignis",
+  "fuse": "Fulmintis's tall white and gold armored mantis-knight body, its golden antler crest and blade arms; Ignitis's sleek purple armor plates, long thin antennae and sharp red eyes; colours white, gold and purple",
+  "types": "Electric/Dark"
+ },
+ {
+  "a": "Blazen",
+  "b": "Squashel",
+  "name": "Blazquash",
+  "fuse": "Squashel's fluffy orange squirrel body, big fluffy tail, cute face and green scarf; Blazen's huge spiky yellow electric mane around the head and shoulders and the yellow fur stripes on its arms; small sparks in the fur",
+  "types": "Electric/Fire"
+ },
+ {
+  "a": "Hypnyto",
+  "b": "Mesmerowl",
+  "name": "Hypnowl",
+  "fuse": "Hypnyto's fluffy white and blue cat body, long fluffy tail and big purple eyes; Mesmerowl's round owl face, ear-feather tufts and soft blue owl wings on the back; colours white, light blue and purple",
+  "types": "Wind"
+ },
+ {
+  "a": "Inferlupa",
+  "b": "Fenmane",
+  "name": "Fenlupa",
+  "fuse": "Inferlupa's dark purple wolf body, fierce face and blue spirit flame on its tail; Fenmane's big fluffy white fox mane around the neck, its golden ear tufts and fluffy white paws; colours dark purple, white and gold",
+  "types": "Fire/Dark"
+ },
+ {
+  "a": "Magmarex",
+  "b": "Crocobask",
+  "name": "Magmabask",
+  "fuse": "Crocobask's long crocodile body, big wide jaws and short legs; Magmarex's dark volcanic rock skin with glowing orange lava cracks and the lava spikes along its back; a patch of green moss on the head like Crocobask",
+  "types": "Fire/Rock"
+ },
+ {
+  "a": "Whirlbite",
+  "b": "Jeburst",
+  "name": "Whirlburst",
+  "fuse": "Whirlbite's shark head with big jaws, blue and white colours and lightning stripes; Jeburst's long white-blue dragon neck and body, its orange-tipped head fins and wing membranes on the forelimbs",
+  "types": "Water"
+ },
+ {
+  "a": "Stellarys",
+  "b": "Luminelle",
+  "name": "Stellinelle",
+  "fuse": "Stellarys's small purple body, big witch hat and glowing star badge; Luminelle's glowing mushroom cap shape on the witch hat, its warm yellow glow and long ribbon-like legs; colours purple, yellow and light blue",
+  "types": "Dark/Electric"
+ },
+ {
+  "a": "Thornblade",
+  "b": "Pawney",
+  "name": "Thornpaw",
+  "fuse": "Pawney's armored knight body, dark blue-grey armor and its sword; Thornblade's red leafy head crest, green leaf blades on the arms and red scarf; colours dark blue, green and red",
+  "types": "Grass/Dark"
+ },
+ {
+  "a": "Sugarslime",
+  "b": "Scrubbit",
+  "name": "Sugarbit",
+  "fuse": "Scrubbit's round happy frog body, big smiling face and green leaf skirt; Sugarslime's pink jelly body texture, the swirl of cream and sprinkles on top of the head like an ice cream; colours pink, cream and green",
+  "types": "Ice/Water"
+ },
+ {
+  "a": "Helgon",
+  "b": "Infergon",
+  "name": "Helfergon",
+  "fuse": "Helgon's tall steel-grey armored dragon body and big bat-like wings; Infergon's black armor, sharp horns and glowing red-orange cracks across the chest and wings; colours steel grey, black and glowing red",
+  "types": "Wind/Fire"
+ }
+]

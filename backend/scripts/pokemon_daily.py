@@ -50,19 +50,16 @@ CACHE = ROOT / dj.settings.media_output_dir / "pokemon"
 log = logging.getLogger("pokemon_daily")
 SPECS = ROOT / "scripts" / "specs"
 
-# Fusions of other monster games (owner request 2026-11-09: Palworld Pals and Aniimo, 1 + 1 a day) run through the same
+# Palworld Pal fusions (owner request 2026-11-09; Aniimo was asked for, then dropped the same day) run through the same
 # pipeline. key = record/cache/post-id prefix ("fusion" stays Pokemon's, shared with fusion_inbox.py).
 FAMILIES = {
     "pokemon": {"word": "Pokemon", "plural": "Pokemon", "game": "Pokemon", "key": "fusion", "pairs": PAIRS,
                 "style": "official Pokemon Sugimori art style, clean line art"},
     "pal": {"word": "Pal", "plural": "Pals", "game": "Palworld", "key": "palfusion", "pairs": SPECS / "pal_fusion_pairs.json",
             "style": "official Palworld 3D creature render style, soft shading, cute but cool"},
-    "aniimo": {"word": "Aniimo", "plural": "Aniimo", "game": "Aniimo", "key": "aniimofusion",
-               "pairs": SPECS / "aniimo_fusion_pairs.json",
-               "style": "official Aniimo 3D creature render style, soft fluffy shading, cute but cool"},
 }
-# Pal / Aniimo elements -> the Pokemon type whose background photo + energy words fit
-TYPE_ALIAS = {"neutral": "normal", "wind": "flying", "holy": "fairy", "earth": "ground"}
+# Pal elements -> the Pokemon type whose background photo + energy words fit
+TYPE_ALIAS = {"neutral": "normal"}
 
 
 def load_pairs(family: str) -> list[dict]:
@@ -72,23 +69,15 @@ def load_pairs(family: str) -> list[dict]:
 
 
 def art_ref(family: str, name: str) -> str:
-    """What fal_video / _art take for a parent: a PokeAPI slug, or a local transparent .png for the other games."""
+    """What fal_video / _art take for a parent: a PokeAPI slug, or a local transparent .png of the Pal's wiki art."""
     if family == "pokemon":
         return name
     path = CACHE / "art" / f"{family}_{name.replace(' ', '_')}.png"
     if not path.exists():
-        from PIL import Image
-
         path.parent.mkdir(parents=True, exist_ok=True)
-        if family == "pal":  # official Pal art from the Palworld wiki (cached by the breeding videos too)
-            from scripts.palworld_breeding_videos import fetch_pal_art
+        from scripts.palworld_breeding_videos import fetch_pal_art  # official Pal art (Palworld wiki)
 
-            im = fetch_pal_art(name)
-        else:  # official Aniimo art from wiki.aniimo.com (specs/aniimo_catalog.json)
-            cat = json.loads((SPECS / "aniimo_catalog.json").read_text(encoding="utf-8"))["aniimo"]
-            url = next(a["image"] for a in cat if a["name"].lower() == name.lower())
-            im = Image.open(io.BytesIO(httpx.get(url, timeout=60, follow_redirects=True).raise_for_status().content))
-        im = im.convert("RGBA")
+        im = fetch_pal_art(name).convert("RGBA")
         im.crop(im.getbbox() or (0, 0, im.width, im.height)).save(path)
     return str(path)
 
@@ -244,7 +233,7 @@ def storyboard_v1(entry: dict) -> dict:
 def _art(slug: str):
     from PIL import Image
 
-    if slug.endswith(".png"):  # a Pal / Aniimo parent (art_ref)
+    if slug.endswith(".png"):  # a Pal parent (art_ref)
         im = Image.open(slug).convert("RGBA")
         return im.crop(im.getbbox() or (0, 0, im.width, im.height))
     url = (httpx.get(f"https://pokeapi.co/api/v2/pokemon/{slug}", timeout=30).raise_for_status()
@@ -263,7 +252,7 @@ def fusion_image(pair: dict, out: Path) -> Path:
     from PIL import Image
 
     out.parent.mkdir(parents=True, exist_ok=True)
-    pair = {**pair, "look": pair.get("look") or pair.get("fuse", "")}  # Pal / Aniimo pairs only have "fuse"
+    pair = {**pair, "look": pair.get("look") or pair.get("fuse", "")}  # Pal pairs only have "fuse"
     green = any(w in (pair["look"] + pair.get("fuse", "")).lower() for w in ("green", "teal", "leaf", "moss", "grass"))
     key, key_name = ((255, 0, 255), "magenta") if green else ((0, 255, 0), "green")
     if pair.get("fuse"):  # detailed part-by-part mix of both parents -> Qwen with both images
@@ -391,8 +380,7 @@ def fusion_storyboard(pair: dict, meta: dict, fused: Path) -> dict:
                  f"it, big lively full-body movement, the creature stays in the center, {_KEEP}"),
              {"still": str(fused.parent / "scene_03.jpg"), "seconds": 5.5, "zoom": [1.05, 1.15]}]  # closing question
     narration = [f"What happens when {a} fuses with {b}?", f"And here comes {b}!", f"{a} and {b} are fusing!",
-                 f"Fusion complete! Meet {name}!", humor.pick({"pokemon": "fusion", "pal": "palfusion",
-                                                               "aniimo": "aniimofusion"}[fam], meta["id"]),
+                 f"Fusion complete! Meet {name}!", humor.pick({"pokemon": "fusion", "pal": "palfusion"}[fam], meta["id"]),
                  f"{name}, a {meta['types']} fusion. Which two {FAMILIES[fam]['plural']} should fuse next? Comment below!"]
     return {"title": f"{a} + {b} fusion", "backend": "wan", "voice": "en-US-GuyNeural", "style": FUSION_STYLE,
             "narration": narration, "clips": clips}
@@ -468,7 +456,6 @@ def main() -> None:
     parser.add_argument("--max-fusions", type=int, default=0,  # paused 2026-11-08 until the owner approves the Qwen art
                         help="new fusion shorts per run")
     parser.add_argument("--max-pal-fusions", type=int, default=0, help="new Palworld fusion shorts per run")
-    parser.add_argument("--max-aniimo-fusions", type=int, default=0, help="new Aniimo fusion shorts per run")
     parser.add_argument("--fusion-image", metavar="A+B")
     args = parser.parse_args()
     queue = json.loads(QUEUE.read_text(encoding="utf-8"))
@@ -511,7 +498,7 @@ def main() -> None:
     # Evolution lines and fusions take turns, so one kind never uses up the whole GPU quota.
     evos = [("evo", e) for e in queue if f"poke-{e['id']}" not in games][: args.max_shorts]
     fusions = []
-    for fam, cap in (("pokemon", args.max_fusions), ("pal", args.max_pal_fusions), ("aniimo", args.max_aniimo_fusions)):
+    for fam, cap in (("pokemon", args.max_fusions), ("pal", args.max_pal_fusions)):
         k = FAMILIES[fam]["key"]
         fusions += [("fusion", p) for p in load_pairs(fam)
                     if f"{k}-{p['a']}+{p['b']}" not in games and f"{k}-{p['b']}+{p['a']}" not in games][:cap]

@@ -30,13 +30,6 @@ POOLS: dict[str, list[str]] = {
         "Two Pals, one body, and zero days off. Classic Palworld.",
         "Your Breeding Farm is officially confused.",
     ],
-    "aniimofusion": [
-        "Somewhere, the Aniilog just needed a brand new page.",
-        "Twice the fluff, twice the power, and twice the snacks.",
-        "It can't decide which trainer to follow, so it follows both.",
-        "Two Aniimo walked into one body. Neither wants to leave.",
-        "Cute? Yes. Strong? Also yes. Fair? Not at all.",
-    ],
     "evolution": [
         "And somewhere, a trainer is pressing B right now. Don't be that trainer.",
         "Same Pokemon, new look, way more attitude.",

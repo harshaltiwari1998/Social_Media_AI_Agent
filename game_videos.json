@@ -8310,5 +8310,18 @@
       "name": "Mewkiss",
       "types": "Psychic/Fairy"
     }
+  },
+  "palfusion-Foxparks+Chillet": {
+    "kind": "motion",
+    "spec": "scripts/specs/pal_fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\palfusion-Foxparks+Chillet\\final.mp4",
+    "data": {
+      "id": "Foxparks+Chillet",
+      "family": "pal",
+      "a": "Foxparks",
+      "b": "Chillet",
+      "name": "Chillparks",
+      "types": "Fire/Ice"
+    }
   }
 }

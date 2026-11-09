@@ -87,7 +87,8 @@ def art_ref(family: str, name: str) -> str:
         path.parent.mkdir(parents=True, exist_ok=True)
         if family == "dbz":  # no free official art: a fan-art drawing of the character, cut out
             _cutout(_qwen_draw(f"{name} from Dragon Ball, exactly the official character design, full body, standing "
-                                 f"facing the viewer, {FAMILIES['dbz']['style']}, plain white background.", []), path)
+                                 f"facing the viewer, {FAMILIES['dbz']['style']}, plain white background.", [],
+                               provider_ok=True), path)
             return str(path)
         from scripts.palworld_breeding_videos import fetch_pal_art  # official Pal art (Palworld wiki)
 
@@ -341,7 +342,7 @@ def _qwen_fusion(pair: dict, key_name: str, out: Path) -> Path:
     if pair.get("family") == "dbz":  # a canon fusion: draw THAT character, the parents only guide the style
         return _qwen_draw(f"Draw {pair['fuse']}. One single character, full body from head to feet, standing facing "
                           f"the viewer, {fam['style']}, same art style as the reference images, plain white "
-                          "background.", srcs)
+                          "background.", srcs, provider_ok=True)
     # "ONE single creature": Snorlax + Arcanine once came out as Arcanine standing in front of Snorlax (2026-11-09)
     return _qwen_draw(f"Design ONE brand-new {fam['word']} that is a fusion of {_name(pair['a'])} (image 1) and "
                       f"{_name(pair['b'])} (image 2): {pair['fuse']}. ONE single creature with one head and one body, "
@@ -350,8 +351,32 @@ def _qwen_fusion(pair: dict, key_name: str, out: Path) -> Path:
                       srcs)
 
 
-def _qwen_draw(prompt: str, refs: list) -> Path:
-    """One Qwen-Image-2.1 image (realtime Space, 1024x1024) from a prompt + optional reference images."""
+def _provider_draw(prompt: str) -> Path:
+    """Text-to-image through HF Inference Providers (fal-ai/qwen-image via router.huggingface.co), billed to the HF
+    credits - works when the ZeroGPU quota is used up (ZeroGPU over-quota credits did not). No reference images, so
+    only for characters the model knows by name (Dragon Ball). ~$0.03 an image."""
+    import tempfile
+
+    r = httpx.post("https://router.huggingface.co/fal-ai/fal-ai/qwen-image",
+                   headers={"Authorization": f"Bearer {fv.hf_token()}"},
+                   json={"prompt": prompt + " ONLY ONE figure, front view, the whole figure fits inside the picture with "
+                                            "empty space above the head and below the feet, nothing cut off.",
+                         "image_size": "portrait_16_9", "num_inference_steps": 30}, timeout=300)
+    r.raise_for_status()
+    out = Path(tempfile.mkdtemp()) / "provider.png"
+    out.write_bytes(httpx.get(r.json()["images"][0]["url"], timeout=120, follow_redirects=True).raise_for_status().content)
+    return out
+
+
+def _qwen_draw(prompt: str, refs: list, provider_ok: bool = False) -> Path:
+    """One Qwen-Image-2.1 image (realtime Space, 1024x1024) from a prompt + optional reference images. With
+    provider_ok, a used-up ZeroGPU quota falls back to HF Inference Providers (credits)."""
+    if provider_ok:
+        try:
+            return _qwen_draw(prompt, refs)
+        except fv.QuotaExhausted:
+            log.info("   ZeroGPU quota used up - drawing through Inference Providers (credits)")
+            return _provider_draw(prompt)
     from gradio_client import Client, handle_file
 
     client = Client(QWEN_SPACE, hf_token=fv.hf_token(), verbose=False)  # token needs "Make calls to Inference

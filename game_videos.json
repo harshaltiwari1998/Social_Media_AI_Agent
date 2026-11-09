@@ -8297,5 +8297,18 @@
       "name": "Brogeta",
       "types": "Fusion Dance"
     }
+  },
+  "fusion-mew+togekiss": {
+    "kind": "motion",
+    "spec": "scripts/specs/fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\fusion-mew+togekiss\\final.mp4",
+    "data": {
+      "id": "mew+togekiss",
+      "family": "pokemon",
+      "a": "Mew",
+      "b": "Togekiss",
+      "name": "Mewkiss",
+      "types": "Psychic/Fairy"
+    }
   }
 }

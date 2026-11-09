@@ -45,7 +45,8 @@ PAIRS = fi.PAIRS
 KONTEXT_SPACE = "black-forest-labs/FLUX.1-Kontext-Dev"  # free Hugging Face ZeroGPU Space (image editing)
 # multi-image editing: sees BOTH parents, so the fusion can mix parts of each (owner's reference, 2026-11-08: a real
 # Lucario + Cinderace mix - body, mask and aura appendages of one, ears, fur collar, flame legs of the other)
-QWEN_SPACE = "Qwen/Qwen-Image-Edit-2509"
+QWEN_SPACE = "prithivMLmods/Qwen-Image-Edit-2509-LoRAs-Fast-Fusion"  # two image inputs + "Super-Fusion" LoRA, ~25 s
+# (the official Qwen/Qwen-Image-Edit-2509 Space: TypeError on our args or a queue longer than 10 min, 2026-11-09)
 CACHE = ROOT / dj.settings.media_output_dir / "pokemon"
 log = logging.getLogger("pokemon_daily")
 SPECS = ROOT / "scripts" / "specs"
@@ -255,13 +256,10 @@ def fusion_image(pair: dict, out: Path) -> Path:
     pair = {**pair, "look": pair.get("look") or pair.get("fuse", "")}  # Pal pairs only have "fuse"
     green = any(w in (pair["look"] + pair.get("fuse", "")).lower() for w in ("green", "teal", "leaf", "moss", "grass"))
     key, key_name = ((255, 0, 255), "magenta") if green else ((0, 255, 0), "green")
-    if pair.get("fuse"):  # detailed part-by-part mix of both parents -> Qwen with both images
-        try:
-            return _key_out(_qwen_fusion(pair, key_name, out), key, out)
-        except fv.QuotaExhausted:
-            raise
-        except Exception as exc:
-            log.warning("   Qwen fusion failed (%s) - falling back to Kontext", str(exc)[:160])
+    if pair.get("fuse"):  # detailed part-by-part mix of both parents -> Qwen Super-Fusion with both images
+        # NO Kontext fallback: on 2026-11-09 Qwen failed, Kontext drew a spider-like Darkceus and it was posted
+        # straight away. A failed fusion now fails the build; it is tried again next run.
+        return _key_flat(_qwen_fusion(pair, key_name, out), out)
     # Kontext edits ONE creature well; given both side by side it mostly kept one parent unchanged (Garchizard came
     # out as a plain Charizard). So edit the parent whose body the "look" keeps and paint the other one's parts on.
     base, other = fusion_base(pair)
@@ -291,7 +289,8 @@ def fusion_image(pair: dict, out: Path) -> Path:
 
 
 def _qwen_fusion(pair: dict, key_name: str, out: Path) -> Path:
-    """Both parents' official art (white sheets) -> Qwen-Image-Edit-2509 with the pair's part-by-part "fuse" text."""
+    """Both parents' official art (white sheets) -> Qwen-Image-Edit-2509 + the "Super-Fusion" LoRA (4 fast steps) with
+    the pair's part-by-part "fuse" text. Its background comes out a muted flat colour - _key_flat cuts it out."""
     from gradio_client import Client, handle_file
     from PIL import Image
 
@@ -310,15 +309,51 @@ def _qwen_fusion(pair: dict, key_name: str, out: Path) -> Path:
               f"clearly mixes both of them: {pair['fuse']}. One creature only, full body, standing, front view, "
               f"{fam['style']}, flat solid pure {key_name} background")
     client = Client(QWEN_SPACE, hf_token=fv.hf_token(), verbose=False)
-    try:  # the Space casts the seed to float and then crashes on it - let it pick a random one; 256x256 = input size
-        res, _seed = client.predict([{"image": handle_file(str(s)), "caption": None} for s in srcs], prompt, 0, True,
-                                    4.0, 30, 256, 256, False, api_name="/infer")
+    try:
+        img, _seed = client.predict(handle_file(str(srcs[0])), handle_file(str(srcs[1])), prompt, "Super-Fusion",
+                                    0, True, 1.0, 4, api_name="/infer")
     except Exception as exc:
         if "quota" in str(exc).lower():
             raise fv.QuotaExhausted(str(exc)) from exc
         raise
-    img = res[0]["image"]
     return Path(img if isinstance(img, str) else img["path"])
+
+
+def _key_flat(src: Path, out: Path, tol: int = 38, min_gap: int = 80) -> Path:
+    """Cut the creature out of a flat (not pure) background colour: everything near the border's median colour that
+    touches the border goes, plus enclosed gaps of that colour (between legs) bigger than min_gap pixels. Small
+    saturated details (Arceus's green gems) differ by more than tol and stay. Edge pixels lose the background tint."""
+    import numpy as np
+    from PIL import Image, ImageDraw, ImageFilter
+
+    a = np.asarray(Image.open(src).convert("RGB")).astype(np.int32)
+    h, w, _ = a.shape
+    bg = np.median(np.concatenate([a[0], a[-1], a[:, 0], a[:, -1]]), axis=0)
+    near = (np.sqrt(((a - bg) ** 2).sum(axis=2)) < tol).astype(np.uint8) * 255
+    m = Image.fromarray(near, "L").copy()  # fromarray shares a read-only buffer: floodfill silently did nothing
+    for x, y in [(0, 0), (w - 1, 0), (0, h - 1), (w - 1, h - 1), (w // 2, 0), (w // 2, h - 1), (0, h // 2), (w - 1, h // 2)]:
+        if m.getpixel((x, y)) == 255:
+            ImageDraw.floodfill(m, (x, y), 128)
+    mm = np.asarray(m).copy()
+    # seeds from an eroded mask, so specks and thin lines never start a fill (one fill per pixel took minutes)
+    core = np.asarray(Image.fromarray(np.where(mm == 255, 255, 0).astype(np.uint8), "L").filter(ImageFilter.MinFilter(9)))
+    for y, x in np.argwhere(core == 255)[::23]:
+        if mm[y, x] != 255:
+            continue
+        tmp = Image.fromarray(mm, "L").copy()
+        ImageDraw.floodfill(tmp, (int(x), int(y)), 77)
+        region = np.asarray(tmp) == 77
+        mm[region] = 128 if region.sum() >= min_gap else 0
+    alpha = np.where(mm == 128, 0, 255).astype(np.uint8)
+    alpha_img = Image.fromarray(alpha, "L").filter(ImageFilter.MinFilter(3)).filter(ImageFilter.GaussianBlur(1.2))
+    edge = np.asarray(Image.fromarray(255 - alpha, "L").filter(ImageFilter.MaxFilter(7))) > 0
+    rgb = a.astype(np.float32)
+    dom = int(np.argmax(bg))
+    o1, o2 = [c for c in range(3) if c != dom]
+    rgb[..., dom] = np.where(edge, np.minimum(rgb[..., dom], np.maximum(rgb[..., o1], rgb[..., o2]) + 10), rgb[..., dom])
+    res = Image.fromarray(np.dstack([np.clip(rgb, 0, 255), np.asarray(alpha_img)]).astype(np.uint8), "RGBA")
+    res.crop(res.getchannel("A").getbbox()).save(out)
+    return out
 
 
 def _key_out(src: Path, key: tuple, out: Path) -> Path:

@@ -67,9 +67,12 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   `backend/scripts/specs/fusion_pairs.json`. The same pairs (with a `"look"` per pair) are also made automatically by
   `pokemon_daily.py`. Fused art (owner 2026-11-08, after a bad Lucarace: must mix BOTH parents part by part like the
   owner's reference - body/mask/appendages of one, ears/fur collar/flame legs of the other): pairs with a `"fuse"`
-  text (part-by-part list, both names) go to Qwen-Image-Edit-2509 with both parents' art (the Space casts the seed to
-  float and crashes - send randomize_seed; it reserves ~600 s of ZeroGPU). Fallback / pairs without `fuse`:
-  FLUX.1 Kontext ZeroGPU Space edits the parent whose body the `look` keeps, on a chroma-key green background (magenta for green Pokemon; a white
+  text (part-by-part list, both names) go to the `prithivMLmods/Qwen-Image-Edit-2509-LoRAs-Fast-Fusion` Space (two
+  image inputs, "Super-Fusion" LoRA, 4 steps, ~25 s - first good mix: Darkceus 2026-11-09); its flat muted background
+  is cut by `_key_flat` (border flood fill + enclosed gaps; PIL `fromarray` images must be `.copy()`-ed or floodfill
+  does nothing). The official Qwen-2509 Space gave TypeError / 10-min queues; FLUX.2-klein and Qwen-2511-Fast Spaces
+  raised RuntimeError. **No Kontext fallback for `fuse` pairs** - a Kontext Darkceus (spider-like) got posted on
+  2026-11-09. Pairs without `fuse` (older ones): FLUX.1 Kontext ZeroGPU Space edits the parent whose body the `look` keeps, on a chroma-key green background (magenta for green Pokemon; a white
   one was flood-filled and punched holes in white faces) (the other parent is
   NOT named in the prompt - naming it made Kontext just redraw that Pokemon), and the fusion itself is drawn locally
   (`fal_video.fuse_clip`: both parents' white silhouettes slide together, swap with the fused form, white screen).
@@ -234,6 +237,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-09 - Fused art from the Qwen Super-Fusion LoRA Space + flat-background cutout; no Kontext fallback for `fuse` pairs.
 - 2026-11-09 - Palworld fusion shorts (12 pairs, official Pal art), generic fusion families in `pokemon_daily.py` (Aniimo dropped).
 - 2026-11-09 - Repo made public: private Actions minutes ran out on 2026-11-07 (no CI run worked 7-8 Nov).
 - 2026-11-08 - YouTube playlists per category (`youtube_playlists.py`, run by every posting workflow); `youtube` OAuth scope added.

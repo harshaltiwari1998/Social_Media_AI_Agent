@@ -8474,5 +8474,18 @@
       "name": "Alakavoir",
       "types": "Psychic"
     }
+  },
+  "fusion-machamp+infernape": {
+    "kind": "motion",
+    "spec": "scripts/specs/fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\fusion-machamp+infernape\\final.mp4",
+    "data": {
+      "id": "machamp+infernape",
+      "family": "pokemon",
+      "a": "Machamp",
+      "b": "Infernape",
+      "name": "Machnape",
+      "types": "Fighting/Fire"
+    }
   }
 }

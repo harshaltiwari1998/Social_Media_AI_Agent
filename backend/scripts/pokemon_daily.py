@@ -342,13 +342,13 @@ def _qwen_fusion(pair: dict, key_name: str, out: Path) -> Path:
     if pair.get("family") == "dbz":  # a canon fusion: draw THAT character, the parents only guide the style
         return _qwen_draw(f"Draw {pair['fuse']}. One single character, full body from head to feet, standing facing "
                           f"the viewer, {fam['style']}, same art style as the reference images, plain white "
-                          "background.", srcs, provider_ok=True)
+                          "background.", srcs, provider_ok="text")
     # "ONE single creature": Snorlax + Arcanine once came out as Arcanine standing in front of Snorlax (2026-11-09)
     return _qwen_draw(f"Design ONE brand-new {fam['word']} that is a fusion of {_name(pair['a'])} (image 1) and "
                       f"{_name(pair['b'])} (image 2): {pair['fuse']}. ONE single creature with one head and one body, "
                       "standing facing the viewer, full body from head to feet, clearly drawn legs and feet, "
                       f"character-design pose, {fam['style']}, clean line art and soft shading, plain white background.",
-                      srcs)
+                      srcs, provider_ok=True)
 
 
 def _provider_draw(prompt: str) -> Path:
@@ -375,6 +375,30 @@ def _provider_draw(prompt: str) -> Path:
     return out
 
 
+def _provider_edit(prompt: str, refs: list) -> Path:
+    """Multi-reference edit through HF Inference Providers (fal-ai/qwen-image-edit-2509), billed to the HF credits:
+    the Pokemon / Pal fusion fallback when the ZeroGPU quota is used up (both parents as references, ~18 s, ~$0.04).
+    First test (Lucario + Cinderace, 2026-11-09) matched the owner's reference closely."""
+    import base64
+    import tempfile
+    import time
+
+    uris = ["data:image/png;base64," + base64.b64encode(Path(x).read_bytes()).decode() for x in refs]
+    for attempt in range(3):
+        r = httpx.post("https://router.huggingface.co/fal-ai/fal-ai/qwen-image-edit-2509",
+                       headers={"Authorization": f"Bearer {fv.hf_token()}"},
+                       json={"prompt": prompt, "image_urls": uris, "image_size": "square_hd", "num_inference_steps": 30},
+                       timeout=300)
+        if r.status_code < 400 or attempt == 2:
+            break
+        log.warning("   Inference Providers edit %s - retrying: %s", r.status_code, r.text[:150])
+        time.sleep(10)
+    r.raise_for_status()
+    out = Path(tempfile.mkdtemp()) / "provider_edit.png"
+    out.write_bytes(httpx.get(r.json()["images"][0]["url"], timeout=120, follow_redirects=True).raise_for_status().content)
+    return out
+
+
 def _qwen_draw(prompt: str, refs: list, provider_ok: bool = False) -> Path:
     """One Qwen-Image-2.1 image (realtime Space, 1024x1024) from a prompt + optional reference images. With
     provider_ok, a used-up ZeroGPU quota falls back to HF Inference Providers (credits)."""
@@ -383,7 +407,7 @@ def _qwen_draw(prompt: str, refs: list, provider_ok: bool = False) -> Path:
             return _qwen_draw(prompt, refs)
         except fv.QuotaExhausted:
             log.info("   ZeroGPU quota used up - drawing through Inference Providers (credits)")
-            return _provider_draw(prompt)
+            return _provider_edit(prompt, refs) if refs and provider_ok != "text" else _provider_draw(prompt)
     from gradio_client import Client, handle_file
 
     client = Client(QWEN_SPACE, hf_token=fv.hf_token(), verbose=False)  # token needs "Make calls to Inference

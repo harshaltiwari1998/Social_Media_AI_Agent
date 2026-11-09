@@ -154,5 +154,95 @@
    "blast"
   ],
   "fuse": "Piccorus, a fan-made Fusion Dance fusion of Piccolo and Beerus: a tall slim god-like warrior with green-and-purple skin, Piccolo's two antennae plus Beerus's big pointed cat ears, sharp yellow eyes, Beerus's gold Egyptian-style collar necklace, gold arm and ankle bands, dark baggy pants with a wide sash, and Piccolo's white cape"
+ },
+ {
+  "a": "Vegeta",
+  "b": "Broly",
+  "name": "Brogeta",
+  "method": "Fusion Dance",
+  "fan": true,
+  "color": [
+   120,
+   255,
+   120
+  ],
+  "background": "wiki:Canyon",
+  "moves": [
+   "powerup",
+   "blast"
+  ],
+  "fuse": "Brogeta, a fan-made Fusion Dance fusion of Vegeta and Broly: a huge muscular Saiyan with Vegeta's widow's-peak spiky black hair grown wild and long like Broly's, Vegeta's sharp proud face with Broly's scar, a fur waist sash like Broly's, wearing the Metamoran fusion outfit - an open dark vest with thick yellow padding along its edges and shoulders, white baggy pants with a sash belt, boots"
+ },
+ {
+  "a": "Goku",
+  "b": "Frieza",
+  "name": "Gokieza",
+  "method": "Fusion Dance",
+  "fan": true,
+  "color": [
+   200,
+   120,
+   255
+  ],
+  "background": "wiki:Canyon",
+  "moves": [
+   "teleport",
+   "beam"
+  ],
+  "fuse": "Gokieza, a fan-made Fusion Dance fusion of Goku and Frieza: Goku's spiky black hair and face shape on Frieza's white and purple armoured alien body, Frieza's long white tail, purple gem patches on the head, shoulders and chest, Goku's orange gi pants with a blue sash and wristbands"
+ },
+ {
+  "a": "Gohan",
+  "b": "Piccolo",
+  "name": "Pichan",
+  "method": "Fusion Dance",
+  "fan": true,
+  "color": [
+   120,
+   230,
+   120
+  ],
+  "background": "wiki:Canyon",
+  "moves": [
+   "powerup",
+   "beam"
+  ],
+  "fuse": "Pichan, a fan-made Fusion Dance fusion of Gohan and Piccolo: adult Gohan's face and spiky black hair with Piccolo's green skin, pointed ears and two antennae, a strong build, wearing the Metamoran fusion outfit - an open dark vest with thick yellow padding along its edges and shoulders, white baggy pants with a sash belt, boots, plus Piccolo's white cape and purple gi pants"
+ },
+ {
+  "a": "Goku",
+  "b": "Jiren",
+  "name": "Gokiren",
+  "method": "Fusion Dance",
+  "fan": true,
+  "color": [
+   255,
+   90,
+   90
+  ],
+  "background": "wiki:Canyon",
+  "moves": [
+   "powerup",
+   "blast"
+  ],
+  "fuse": "Gokiren, a fan-made Fusion Dance fusion of Goku and Jiren: a towering muscular warrior with Jiren's grey skin and big dark eyes, Goku's spiky black hair, wearing Jiren's red and black Pride Trooper suit with white gloves, Goku's blue wristbands and sash"
+ },
+ {
+  "a": "Vegeta",
+  "b": "Cell",
+  "name": "Cellgeta",
+  "method": "Fusion Dance",
+  "fan": true,
+  "color": [
+   120,
+   230,
+   160
+  ],
+  "background": "wiki:Canyon",
+  "moves": [
+   "levitate",
+   "beam"
+  ],
+  "fuse": "Cellgeta, a fan-made Fusion Dance fusion of Vegeta and Cell: Cell's green spotted insect-armoured body, black wings on the back and pointed crown on the head, with Vegeta's widow's-peak spiky black hair and proud face, Vegeta's white gloves and boots and a blue bodysuit under the armour"
  }
 ]

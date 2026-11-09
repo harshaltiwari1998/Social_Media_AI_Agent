@@ -8323,5 +8323,19 @@
       "name": "Chillparks",
       "types": "Fire/Ice"
     }
+  },
+  "dbzfusion-Gokieza": {
+    "kind": "motion",
+    "spec": "scripts/specs/dbz_fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\dbzfusion-Gokieza\\final.mp4",
+    "data": {
+      "id": "Gokieza",
+      "family": "dbz",
+      "fan": true,
+      "a": "Goku",
+      "b": "Frieza",
+      "name": "Gokieza",
+      "types": "Fusion Dance"
+    }
   }
 }

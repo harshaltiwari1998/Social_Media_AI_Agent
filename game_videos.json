@@ -8189,5 +8189,47 @@
       "name": "Gogeta",
       "types": "Fusion Dance"
     }
+  },
+  "dbzfusion-Gokkolo": {
+    "kind": "motion",
+    "spec": "scripts/specs/dbz_fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\dbzfusion-Gokkolo\\final.mp4",
+    "data": {
+      "id": "Gokkolo",
+      "family": "dbz",
+      "fan": true,
+      "a": "Goku",
+      "b": "Piccolo",
+      "name": "Gokkolo",
+      "types": "Fusion Dance"
+    }
+  },
+  "dbzfusion-Gokhan": {
+    "kind": "motion",
+    "spec": "scripts/specs/dbz_fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\dbzfusion-Gokhan\\final.mp4",
+    "data": {
+      "id": "Gokhan",
+      "family": "dbz",
+      "fan": true,
+      "a": "Goku",
+      "b": "Gohan",
+      "name": "Gokhan",
+      "types": "Fusion Dance"
+    }
+  },
+  "dbzfusion-Piccorus": {
+    "kind": "motion",
+    "spec": "scripts/specs/dbz_fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\dbzfusion-Piccorus\\final.mp4",
+    "data": {
+      "id": "Piccorus",
+      "family": "dbz",
+      "fan": true,
+      "a": "Piccolo",
+      "b": "Beerus",
+      "name": "Piccorus",
+      "types": "Fusion Dance"
+    }
   }
 }

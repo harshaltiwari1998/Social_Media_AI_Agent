@@ -8176,5 +8176,18 @@
       "name": "Jetubis",
       "types": "Ground/Dragon"
     }
+  },
+  "dbzfusion-Gogeta": {
+    "kind": "motion",
+    "spec": "scripts/specs/dbz_fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\dbzfusion-Gogeta\\final.mp4",
+    "data": {
+      "id": "Gogeta",
+      "family": "dbz",
+      "a": "Goku",
+      "b": "Vegeta",
+      "name": "Gogeta",
+      "types": "Fusion Dance"
+    }
   }
 }

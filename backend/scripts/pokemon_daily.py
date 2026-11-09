@@ -428,7 +428,7 @@ def fusion_base(pair: dict) -> tuple[str, str]:
 _KEEP = "the character keeps exactly the same design, shape and colors, anime style, smooth natural motion"
 
 
-FUSION_STYLE = 6
+FUSION_STYLE = 7
 # aura / particle colour of the fused creature's first type (fal_video.idle_clip)
 TYPE_COLOR = {"fire": (255, 120, 40), "water": (60, 150, 255), "grass": (90, 210, 90), "electric": (255, 220, 50),
               "ghost": (150, 90, 230), "dragon": (90, 110, 255), "psychic": (255, 100, 200), "fighting": (230, 110, 50),
@@ -438,12 +438,11 @@ TYPE_COLOR = {"fire": (255, 120, 40), "water": (60, 150, 255), "grass": (90, 210
 
 
 def fusion_storyboard(pair: dict, meta: dict, fused: Path) -> dict:
-    """Style 6: parent A's art, parent B's art (stills with a slow zoom - owner 2026-11-08: no animation on the
+    """Style 7: parent A's art, parent B's art (stills with a slow zoom - owner 2026-11-08: no animation on the
     parents), the locally drawn fusion (silhouettes slide together, swap, white screen), the fused creature fades in
-    from white and holds still for 2 s (owner 2026-11-09: let people see it first), then comes alive LOCALLY
-    (fal_video.idle_clip: breathing, floating, aura + particles, then a power-up) and a closing still. No Wan here:
-    on 2026-11-09 it turned Darkceus into a bearded armoured character and broke its eyes - complex fused designs do
-    not survive it, and the local animation can never change the design."""
+    from white and holds still for 3 s, then DOES something (owner 2026-11-09: "kuch kar raha ho"): a leap-and-slam and
+    an energy blast at the camera, both drawn locally by fal_video.action_clip so the design can never change, and a
+    closing still. No Wan here: on 2026-11-09 it turned Darkceus into a bearded armoured character and broke its eyes."""
     a, b, name = meta["a"], meta["b"], meta["name"]
     fam = pair.get("family", "pokemon")
     ta, tb = (TYPE_ALIAS.get(t.lower(), t.lower()) for t in (meta["types"].split("/") * 2)[:2])
@@ -452,14 +451,15 @@ def fusion_storyboard(pair: dict, meta: dict, fused: Path) -> dict:
         bg_a = bg_b = pair["background"]
     still = lambda who, bg, secs: {"still": {"poke": who, "background": bg}, "seconds": secs, "zoom": [1.0, 1.12]}  # noqa: E731
     color = list(pair.get("color") or TYPE_COLOR.get(ta, (140, 190, 255)))
-    alive = lambda mode, secs: {"idle": str(fused), "background": bg_a, "seconds": secs, "mode": mode, "color": color}  # noqa: E731
+    act = lambda mode, secs: {"action": str(fused), "background": bg_a, "seconds": secs, "mode": mode, "color": color}  # noqa: E731
     ra, rb = art_ref(fam, pair["a"]), art_ref(fam, pair["b"])
     clips = [still(ra, bg_a, 4.0),
              still(rb, bg_b, 3.5),
              {"fuse": [ra, rb, str(fused)], "background": bg_a, "seconds": 3.8},
-             {"still": {"poke": str(fused), "background": bg_a}, "seconds": 2.0, "zoom": [1.0, 1.0], "white_in": 0.6},
-             alive("idle", 4.5),
-             alive("power", 5.0),  # + joke
+             # owner 2026-11-09: hold the new creature still for 3 s, then let it DO something (local, design-safe)
+             {"still": {"poke": str(fused), "background": bg_a}, "seconds": 3.0, "zoom": [1.0, 1.0], "white_in": 0.6},
+             act("leap", 3.6),
+             act("blast", 4.5),  # + joke
              {"still": str(fused.parent / "scene_03.jpg"), "seconds": 5.5, "zoom": [1.05, 1.15]}]  # closing question
     joke = humor.pick({"pokemon": "fusion", "pal": "palfusion", "dbz": "dbzfusion"}[fam], meta["id"])
     if fam == "dbz":
@@ -486,7 +486,7 @@ def make_fusion(pair: dict, poster, games: dict) -> None:
     if old_style != FUSION_STYLE:
         # clips of an older style would be mixed in - redraw them. Fused art: kept for old `look` pairs (Kontext style 2/3),
         # always redrawn for `fuse` pairs (it may be a Kontext fallback from before 2026-11-09; Qwen takes ~25 s)
-        keep_art = old_style in (2, 3) and not pair.get("fuse")
+        keep_art = (old_style in (2, 3) and not pair.get("fuse")) or old_style == 6  # style 6+: approved Qwen-2.1 art
         for f in [*out.glob("clip_*"), *out.glob("scene_*.jpg"), board, *([] if keep_art else [out / "fused.png"])]:
             f.unlink(missing_ok=True)
     fused = fusion_image(pair, out / "fused.png")

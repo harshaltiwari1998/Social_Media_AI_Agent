@@ -279,6 +279,160 @@ def idle_clip(spec: dict, work: Path, out: Path) -> Path:
     return out
 
 
+def _glow_sprite(col: tuple, size: int = 512) -> Image.Image:
+    """A soft round glow (white core fading into the colour) - resized per frame instead of blurring a full frame."""
+    yy, xx = np.mgrid[0:size, 0:size]
+    d = np.sqrt((xx - size / 2) ** 2 + (yy - size / 2) ** 2) / (size / 2)
+    a = np.clip(1 - d, 0, 1) ** 1.6
+    core = np.clip(1 - d * 2.2, 0, 1)
+    rgb = np.stack([col[i] * (1 - core) + 255 * core for i in range(3)], axis=2)
+    return Image.fromarray(np.dstack([rgb, a * 255]).astype(np.uint8), "RGBA")
+
+
+def action_clip(spec: dict, work: Path, out: Path) -> Path:
+    """The fused creature DOES something, drawn locally so its design never changes (owner 2026-11-09: "kuch kar raha
+    ho" after a 3 s still). "mode": "leap" - crouch, jump with motion trails, slam down with camera shake, a shockwave
+    ring and a dust burst, then a breathing stance. "mode": "blast" - an energy ball charges in front of it while
+    particles rush in, then fires at the camera: the glow fills the screen, flash, shake, smoke settles.
+    {"action": art_png_or_slug, "background": ref, "seconds": 3.6, "mode": "leap" | "blast", "color": [r, g, b]}"""
+    if out.exists():
+        return out
+    from moviepy.editor import VideoClip
+    from PIL import ImageDraw, ImageFilter
+
+    secs = float(spec.get("seconds", 3.6))
+    mode = spec.get("mode", "leap")
+    col = tuple(spec.get("color", (140, 190, 255)))
+    base = _poke_background(spec.get("background"), work).convert("RGBA")
+    art, (px, py) = _poke_art(spec["action"], work)
+    cx, feet = px + art.width / 2, py + art.height
+    glow = _glow_sprite(col)
+    pad = 140
+    tint = Image.new("RGBA", art.size, col + (255,))
+    tint.putalpha(art.getchannel("A"))
+    aura = Image.new("RGBA", (art.width + 2 * pad, art.height + 2 * pad), (0, 0, 0, 0))
+    aura.alpha_composite(tint, (pad, pad))
+    aura = aura.filter(ImageFilter.GaussianBlur(40))
+    rng = np.random.default_rng(11)
+    dust = rng.random((40, 3))      # angle, speed, size
+    rush = rng.random((60, 3))      # angle, start radius, size
+
+    def ease(u):
+        u = min(max(u, 0.0), 1.0)
+        return u * u * (3 - 2 * u)
+
+    def put(canvas, img, x, y, alpha=1.0):
+        if alpha < 1.0:
+            img = img.copy()
+            img.putalpha(img.getchannel("A").point(lambda v: int(v * alpha)))
+        canvas.alpha_composite(img, (int(x), int(y)))
+
+    def body(sx, sy):
+        return art.resize((max(1, int(art.width * sx)), max(1, int(art.height * sy))), Image.BICUBIC)
+
+    def aura_at(canvas, k):
+        a = aura.resize((int(aura.width * k), int(aura.height * k)), Image.BILINEAR)
+        put(canvas, a, cx - a.width / 2, feet - art.height / 2 - a.height / 2, 0.7)
+
+    def frame(t):
+        canvas = base.copy()
+        shake = (0.0, 0.0)
+        flash = 0.0
+        if mode == "leap":
+            t_jump, t_land = 0.5, 1.3
+            if t < t_jump:  # crouch
+                e = ease(t / t_jump)
+                sx, sy, lift = 1 + 0.08 * e, 1 - 0.12 * e, 0.0
+            elif t < t_land:  # jump up and back down
+                u = (t - t_jump) / (t_land - t_jump)
+                sx, sy, lift = 0.96, 1.06, 430 * np.sin(np.pi * u)
+            else:  # slam, then stand
+                k = (t - t_land) / 0.3
+                sq = 0.15 * max(0.0, 1 - k)
+                sx, sy, lift = 1 + sq * 0.6, 1 - sq, 0.0
+                amp = 26 * max(0.0, 1 - (t - t_land) / 0.7)
+                shake = (amp * np.sin(t * 71), amp * np.cos(t * 53))
+                # shockwave ring + dust burst at the feet
+                r = (t - t_land) * 1400
+                ring_a = int(200 * max(0.0, 1 - (t - t_land) / 0.6))
+                if ring_a > 0:
+                    d = ImageDraw.Draw(canvas)
+                    d.ellipse([cx - r, feet - r * 0.22, cx + r, feet + r * 0.22], outline=col + (ring_a,), width=14)
+                    d.ellipse([cx - r * 0.8, feet - r * 0.17, cx + r * 0.8, feet + r * 0.17], outline=(255, 255, 255, ring_a), width=6)
+                d = ImageDraw.Draw(canvas)
+                for ang, sp, sz in dust:
+                    tt = t - t_land
+                    if tt > 1.2:
+                        break
+                    a_ = np.pi * (0.05 + 0.9 * ang)  # upward half
+                    dist = (250 + 600 * sp) * tt
+                    x, y = cx + np.cos(a_) * dist * 1.6, feet - np.sin(a_) * dist * 0.5
+                    rr = 10 + 26 * sz
+                    al = int(150 * max(0.0, 1 - tt / 1.2))
+                    d.ellipse([x - rr, y - rr, x + rr, y + rr], fill=(190, 170, 140, al))
+                aura_at(canvas, 1.0 + 0.04 * np.sin(2 * np.pi * t / 1.3))
+            if t_jump <= t < t_land:  # motion trail
+                for g in (2, 1):
+                    tg = max(t_jump, t - 0.05 * g)
+                    ug = (tg - t_jump) / (t_land - t_jump)
+                    ghost = body(0.96, 1.06)
+                    put(canvas, ghost, cx - ghost.width / 2, feet - ghost.height - 430 * np.sin(np.pi * ug), 0.18 * (3 - g))
+            br = 0.015 * np.sin(2 * np.pi * t / 1.5) if t > t_land + 0.3 else 0.0
+            b = body(sx * (1 - br / 2), sy * (1 + br))
+            put(canvas, b, cx - b.width / 2, feet - b.height - lift)
+        else:  # blast
+            t_fire, t_flash = 1.6, 2.2
+            ball_x, ball_y = cx, feet - art.height * 0.55
+            if t < t_fire:  # charge
+                e = t / t_fire
+                aura_at(canvas, 1.0 + 0.3 * e)
+                amp = 6 * e
+                shake = (amp * np.sin(t * 61), amp * np.cos(t * 47))
+            if t >= t_flash:  # calm aura behind it after the blast (drawn over it, it washed the creature out)
+                aura_at(canvas, 1.05 + 0.04 * np.sin(2 * np.pi * t / 1.3))
+            b = body(0.97 if t_fire <= t < t_fire + 0.3 else 1.0, 1.0)
+            put(canvas, b, cx - b.width / 2, feet - b.height)
+            d = ImageDraw.Draw(canvas)
+            if t < t_fire:
+                for ang, r0, sz in rush:  # particles rushing into the ball
+                    p = ((t * 1.3 + r0) % 1.0)
+                    dist = (1 - p) * (300 + 400 * r0)
+                    x, y = ball_x + np.cos(2 * np.pi * ang) * dist, ball_y + np.sin(2 * np.pi * ang) * dist
+                    rr = 4 + 8 * sz
+                    d.ellipse([x - rr, y - rr, x + rr, y + rr], fill=col + (int(230 * p),))
+                rad = 90 + 260 * (t / t_fire) ** 1.3 + 18 * np.sin(t * 30)
+            elif t < t_flash:  # fire at the camera
+                u = (t - t_fire) / (t_flash - t_fire)
+                rad = 210 + 1500 * u ** 1.6
+                amp = 30 * u
+                shake = (amp * np.sin(t * 83), amp * np.cos(t * 67))
+                flash = 0.9 * u
+            else:
+                rad = 0
+                flash = 0.9 * max(0.0, 1 - (t - t_flash) / 0.7)
+                for ang, sp, sz in dust:  # sparks drifting down after the blast (grey smoke blobs covered the face)
+                    tt = t - t_flash
+                    x = ball_x + (ang - 0.5) * 900
+                    y = ball_y - 300 + tt * (120 + 200 * sp) + 300 * sz
+                    rr = 4 + 6 * sz
+                    al = int(230 * max(0.0, 1 - tt / 2.3))
+                    d.ellipse([x - rr, y - rr, x + rr, y + rr], fill=col + (al,))
+                    d.ellipse([x - rr / 2.5, y - rr / 2.5, x + rr / 2.5, y + rr / 2.5], fill=(255, 255, 255, al))
+            if rad > 0:
+                g = glow.resize((int(rad * 2), int(rad * 2)), Image.BILINEAR)
+                put(canvas, g, ball_x - rad, ball_y - rad)
+                if t < t_fire:  # second pass: a brighter core while charging
+                    put(canvas, g, ball_x - rad, ball_y - rad)
+        img = canvas.crop((int(40 + shake[0]), int(70 + shake[1]), int(W - 40 + shake[0]), int(H - 70 + shake[1]))).resize((W, H), Image.BILINEAR)
+        if flash > 0:
+            img = Image.blend(img, Image.new("RGBA", (W, H), (255, 255, 255, 255)), min(flash, 1.0))
+        return np.asarray(img.convert("RGB"))
+
+    VideoClip(frame, duration=secs).write_videofile(str(out), fps=FPS, codec="libx264", audio=False, preset="medium", logger=None)
+    print("  action", mode, out.name, flush=True)
+    return out
+
+
 def fuse_clip(spec: dict, work: Path, out: Path) -> Path:
     """A fusion drawn locally (no GPU quota), in the style of evolve_clip: both parents stand side by side and light
     up, their white silhouettes slide together into one, the merged shape and the fused creature swap faster and
@@ -528,6 +682,9 @@ def build(storyboard: Path, out_dir: Path) -> Path:
             continue
         if "idle" in c:  # the fused creature animated locally (breathing, aura, particles)
             clips.append(idle_clip(c, work, out_dir / f"clip_{i:02d}.mp4"))
+            continue
+        if "action" in c:  # the fused creature doing a move, drawn locally (leap / blast)
+            clips.append(action_clip(c, work, out_dir / f"clip_{i:02d}.mp4"))
             continue
         if "still" in c:  # hybrid mode: a still with a zoom instead of a paid/quota-limited AI clip
             # "still" is an image ref/path, or an image spec ({"poke": ..., "background": ...}) drawn to scene_NN.jpg

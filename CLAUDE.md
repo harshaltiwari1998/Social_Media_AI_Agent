@@ -80,10 +80,11 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   one was flood-filled and punched holes in white faces) (the other parent is
   NOT named in the prompt - naming it made Kontext just redraw that Pokemon), and the fusion itself is drawn locally
   (`fal_video.fuse_clip`: both parents' white silhouettes slide together, swap with the fused form, white screen).
-  Style 6 since 2026-11-09: parent A still, parent B still (official art on a background, slow zoom), the drawn
-  fusion, the fused creature fades in from white and holds still 2 s (owner: let people see it), then comes alive
-  LOCALLY (`fal_video.idle_clip`: breathing, floating, sway, type-coloured aura + rising particles, then a power-up
-  with camera shake and flash) + a closing still. **No Wan on fusions**: it turned Darkceus into a different
+  Style 7 since 2026-11-09: parent A still, parent B still (art on a background, slow zoom), the drawn fusion, the
+  fused creature fades in from white and holds still 3 s, then DOES something (owner: "kuch kar raha ho"):
+  `fal_video.action_clip` "leap" (crouch, jump with motion trails, slam + shake + shockwave ring + dust) and
+  "blast" (energy ball charges, fires at the camera, flash, sparks), all drawn locally from the fused PNG, + a
+  closing still. **No Wan on fusions**: it turned Darkceus into a different
   bearded character and broke its eyes (owner: "bakwas") - complex fused designs do not survive it. **Automatic fusions are paused** (`--max-fusions` default 0) until the owner approves
   the Qwen art; one-off fusions on request still work. Older-style clips in a pair's cache are thrown away
   (style-2/3 fused art is kept; shared `fusion-<a>+<b>` record).
@@ -249,6 +250,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-09 - Fusion style 7: 3 s still, then local leap-and-slam + energy-blast actions; Gogeta/Gotenks vest described (open vest, yellow padding).
 - 2026-11-09 - Canon Dragon Ball fusion shorts (6 pairs, Qwen fan art), random Qwen seeds.
 - 2026-11-09 - Fused art from Qwen-Image-2.1 (realtime Space): new standing character per pair, approved by the owner.
 - 2026-11-09 - Actions on Node 24 (checkout@v5, setup-python@v6, cache@v5, upload-artifact@v6); runners pinned to ubuntu-24.04.

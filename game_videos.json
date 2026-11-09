@@ -8924,5 +8924,19 @@
         "epic games free games this week"
       ]
     }
+  },
+  "elden-ring-and-baldurs-gate-3-explained": {
+    "spec": "scripts/specs/long/gaming_68_elden-ring-and-baldurs-gate-3-explained.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-0f025a9a.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-0f025a9a-thumb.jpg",
+    "chapters": "0:00 Two modern masterpieces\n0:43 What is Elden Ring\n1:30 Why Elden Ring won so many fans\n2:17 Shadow of the Erdtree and Switch Two\n2:58 What is Baldur's Gate Three\n3:44 How Baldur's Gate Three plays\n4:25 Awards and sales for Baldur's Gate Three\n5:05 Two different ways to play\n5:46 Which one should you start with\n6:25 Elden Ring or Baldur's Gate Three"
+  },
+  "half-life-franchise-history": {
+    "spec": "scripts/specs/long/gaming_89_half-life-franchise-history.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-c86e6552.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-c86e6552-thumb.jpg",
+    "chapters": "0:00 The game that changed shooters\n0:39 Valve is born\n1:16 Half-Life, 1998\n1:57 Expansions by Gearbox\n2:38 Half-Life 2 and the birth of Steam\n3:21 Episode One and Episode Two\n4:02 Portal grows from the same world\n4:38 Black Mesa, the fan made remake\n5:14 Half-Life: Alyx, 2020\n5:54 What about Half-Life 3\n6:34 Your turn"
   }
 }

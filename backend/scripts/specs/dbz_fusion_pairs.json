@@ -244,5 +244,59 @@
    "beam"
   ],
   "fuse": "Cellgeta, a fan-made Fusion Dance fusion of Vegeta and Cell: Cell's green spotted insect-armoured body, black wings on the back and pointed crown on the head, with Vegeta's widow's-peak spiky black hair and proud face, Vegeta's white gloves and boots and a blue bodysuit under the armour"
+ },
+ {
+  "a": "Vegeta",
+  "b": "Gohan",
+  "name": "Vegohan",
+  "method": "Fusion Dance",
+  "fan": true,
+  "color": [
+   255,
+   205,
+   60
+  ],
+  "background": "wiki:Canyon",
+  "moves": [
+   "powerup",
+   "beam"
+  ],
+  "fuse": "Vegohan, a fan-made Fusion Dance fusion of Vegeta and adult Gohan: Vegeta's widow's-peak spiky black hair with Gohan's single bang, a calm but proud face, a strong build, wearing the Metamoran fusion outfit - an open dark vest with thick yellow padding along its edges and shoulders, white baggy pants with a sash belt, boots, in FULL COLOUR"
+ },
+ {
+  "a": "Frieza",
+  "b": "Cell",
+  "name": "Cellza",
+  "method": "Fusion Dance",
+  "fan": true,
+  "color": [
+   200,
+   120,
+   255
+  ],
+  "background": "wiki:Canyon",
+  "moves": [
+   "levitate",
+   "beam"
+  ],
+  "fuse": "Cellza, a fan-made Fusion Dance fusion of Frieza and Cell: Frieza's sleek white final-form body with purple gem patches on the head, shoulders and chest, covered in Cell's green and black spotted armour plates, Cell's black insect wings on the back and Cell's pointed crest on the head, Frieza's long white tail, in FULL COLOUR"
+ },
+ {
+  "a": "Goku",
+  "b": "Broly",
+  "name": "Gokuly",
+  "method": "Fusion Dance",
+  "fan": true,
+  "color": [
+   120,
+   255,
+   120
+  ],
+  "background": "wiki:Canyon",
+  "moves": [
+   "powerup",
+   "blast"
+  ],
+  "fuse": "Gokuly, a fan-made Fusion Dance fusion of Goku and Broly: a huge muscular Saiyan with Goku's spiky black hair grown wild and long like Broly's, Goku's friendly face with Broly's scar, Broly's fur waist sash and golden armbands, wearing the Metamoran fusion outfit - an open dark vest with thick yellow padding along its edges and shoulders, white baggy pants with a sash belt, boots, in FULL COLOUR"
  }
 ]

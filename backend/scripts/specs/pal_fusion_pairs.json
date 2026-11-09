@@ -31,7 +31,7 @@
   "a": "Depresso",
   "b": "Relaxaurus",
   "name": "Depressaurus",
-  "fuse": "Relaxaurus's long-necked dinosaur body, cream belly, stubby legs and curly tail, in its teal blue colour; Depresso's tired half-closed eyes with dark bags under them, its small purple horn on the head and droopy tired posture",
+  "fuse": "Relaxaurus's long-necked teal dinosaur body, BUT with Depresso's face: heavy half-closed tired eyes with dark bags under them, a gloomy frown, Depresso's small purple horn on the head, and Depresso's purple colour mixed into the teal - the tired gloomy face must be clearly visible",
   "types": "Dark/Water"
  },
  {
@@ -66,7 +66,7 @@
   "a": "Grizzbolt",
   "b": "Kingpaca",
   "name": "Grizzpaca",
-  "fuse": "Grizzbolt's big standing bear body and yellow fur with black lightning-bolt markings; Kingpaca's huge fluffy cream wool around the head, neck and shoulders, and its golden trident crown on top of the head; a red belly like Kingpaca",
+  "fuse": "MUST be GRIZZBOLT's big standing yellow bear body with black lightning-bolt markings and big claws as the base shape - a yellow bear first - wearing Kingpaca's huge fluffy cream wool around its neck and shoulders and Kingpaca's golden trident crown on its head",
   "types": "Electric/Neutral"
  },
  {
@@ -82,5 +82,12 @@
   "name": "Lovadream",
   "fuse": "Lovander's slender pink standing body, long ears and heart-shaped chest; Daedream's dreamy purple galaxy-coloured ghostly lower body that fades into wisps, its blue fluffy collar and sleepy eyes; pink and purple colours",
   "types": "Neutral/Dark"
+ },
+ {
+  "a": "Univolt",
+  "b": "Pyrin",
+  "name": "Pyrivolt",
+  "types": "Electric/Fire",
+  "fuse": "Pyrin's sleek dark navy horse body, burning orange-yellow flame mane and flame tail and flaming hooves as the base shape, with Univolt's jagged bright yellow electric spikes along its back and shoulders, Univolt's single long black horn on the forehead and Univolt's teal-and-yellow markings on the legs; sparks crackle in the flames - ONE horse, not two"
  }
 ]

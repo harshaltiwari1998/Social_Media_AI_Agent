@@ -107,6 +107,11 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   black vest, yellow padding, teal sash) and the approved art came from HF Inference Providers (`fal-ai/qwen-image`
   via router.huggingface.co, billed to the HF credits - these DO work with the token's Inference Providers
   permission, unlike ZeroGPU over-quota) when the ZeroGPU quota was gone.
+- Fusion art when the ZeroGPU quota is used up (`_qwen_draw(provider_ok=...)`): HF Inference Providers billed to
+  the HF credits - Pokemon / Pal fusions via `fal-ai/qwen-image-edit-2509` (both parents as `image_urls`, ~18 s,
+  first test matched the owner's Lucarace reference), Dragon Ball via `fal-ai/qwen-image` text-to-image. 3 tries
+  on provider errors (a transient 422 once). 2026-11-09: owner asked for 10 Pokemon + 10 Palworld + 10 DBZ fusions
+  uploaded without asking - built by `backend/.cache/batch_build.py`, every one checked on a frame strip first.
 - Fused art cutout: `pokemon_daily._cutout` = rembg 2.0.59 + onnxruntime with the "isnet-anime" model in
   `backend/.cache/u2net` (laptop venv only; the model came from huggingface.co/skytnt/anime-seg `isnetis.onnx`,
   same md5 as rembg's GitHub release, which 504'd). Falls back to `_key_flat` where rembg/model are missing (CI).

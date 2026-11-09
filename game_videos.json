@@ -8382,5 +8382,18 @@
   "gta6-countdown-10-vice-city": {
     "spec": "scripts/specs/games/gta6_13_countdown-10.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-646ccc49.mp4"
+  },
+  "palfusion-Direhowl+Kitsun": {
+    "kind": "motion",
+    "spec": "scripts/specs/pal_fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\palfusion-Direhowl+Kitsun\\final.mp4",
+    "data": {
+      "id": "Direhowl+Kitsun",
+      "family": "pal",
+      "a": "Direhowl",
+      "b": "Kitsun",
+      "name": "Direkitsun",
+      "types": "Neutral/Fire"
+    }
   }
 }

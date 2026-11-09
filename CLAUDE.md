@@ -92,7 +92,14 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   `pokemon_daily.py`): each pair has a part-by-part `fuse` text (checked against the art) and `types` = the parents'
   elements. Art: Pal wiki art (`fetch_pal_art`), cached as `media_output/pokemon/art/pal_<name>.png`. Records/post
   ids `palfusion-<a>+<b>`, playlist "Palworld Fusions", own joke pool. Aniimo fusions were built and then dropped
-  by the owner the same day; Dragon Ball Z fusions were declined (Toei claims risk).
+  by the owner the same day.
+- `backend/scripts/specs/dbz_fusion_pairs.json` - canon Dragon Ball fusions (owner request 2026-11-09, Toei claim
+  risk accepted): Gogeta, Gotenks (Fusion Dance), Vegito, Kefla, Kibito Kai, Fused Zamasu (Potara) - who fuses
+  and how checked on Wikipedia's "List of Dragon Ball characters". No free official art: the two characters
+  (`art/dbz_<name>.png`) and the fusion are drawn by Qwen-Image-2.1 as fan art; the fusion prompt names the canon
+  character. Narration says "Fu... sion... HA!" (dance) / "The Potara earrings are on!". `--max-dbz-fusions`
+  (default 0), records `dbzfusion-<a>+<b>`, playlist "Dragon Ball Fusions", joke pool `dbzfusion`. Every Qwen
+  draw uses a random seed (a fixed seed redrew the same failed Snorcanine).
 - `backend/scripts/specs/gameplay/<plan>.json` - cut plans for the owner's own stream recordings.
 - `daily_job.py` picks the lowest-`order` unposted, unexpired spec per slot (`--from-end` takes the
   highest, for manual batches that must not collide with scheduled runs).
@@ -242,6 +249,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-09 - Canon Dragon Ball fusion shorts (6 pairs, Qwen fan art), random Qwen seeds.
 - 2026-11-09 - Fused art from Qwen-Image-2.1 (realtime Space): new standing character per pair, approved by the owner.
 - 2026-11-09 - Actions on Node 24 (checkout@v5, setup-python@v6, cache@v5, upload-artifact@v6); runners pinned to ubuntu-24.04.
 - 2026-11-09 - Workflow downloads (Hindi fonts, cloudflared) retry 5x; fonts fall back to jsDelivr; a cloudflared failure only warns.

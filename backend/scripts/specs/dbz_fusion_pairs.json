@@ -1,0 +1,80 @@
+[
+ {
+  "a": "Goku",
+  "b": "Vegeta",
+  "name": "Gogeta",
+  "method": "Fusion Dance",
+  "color": [
+   255,
+   205,
+   60
+  ],
+  "background": "wiki:Canyon",
+  "fuse": "Gogeta from Dragon Ball Z, exactly his official design, the Fusion Dance fusion of Goku and Vegeta, wearing the Metamoran fusion outfit - a dark-coloured vest lined with light-coloured linen, white pants with a cloth belt, and boots"
+ },
+ {
+  "a": "Goten",
+  "b": "Kid Trunks",
+  "name": "Gotenks",
+  "method": "Fusion Dance",
+  "color": [
+   255,
+   205,
+   60
+  ],
+  "background": "wiki:Canyon",
+  "fuse": "Gotenks from Dragon Ball Z, exactly his official design, the Fusion Dance fusion of Goten and Kid Trunks, wearing the Metamoran fusion outfit - a dark-coloured vest lined with light-coloured linen, white pants with a cloth belt, and boots"
+ },
+ {
+  "a": "Goku",
+  "b": "Vegeta",
+  "name": "Vegito",
+  "method": "Potara Fusion",
+  "color": [
+   255,
+   205,
+   60
+  ],
+  "background": "wiki:Canyon",
+  "fuse": "Vegito from Dragon Ball, exactly the official design, the Potara fusion of Goku and Vegeta, wearing a Potara earring on each ear"
+ },
+ {
+  "a": "Caulifla",
+  "b": "Kale",
+  "name": "Kefla",
+  "method": "Potara Fusion",
+  "color": [
+   120,
+   230,
+   90
+  ],
+  "background": "wiki:Canyon",
+  "fuse": "Kefla from Dragon Ball, exactly the official design, the Potara fusion of Caulifla and Kale, wearing a Potara earring on each ear"
+ },
+ {
+  "a": "Kibito",
+  "b": "Supreme Kai",
+  "name": "Kibito Kai",
+  "method": "Potara Fusion",
+  "color": [
+   190,
+   120,
+   255
+  ],
+  "background": "wiki:Aurora",
+  "fuse": "Kibito Kai from Dragon Ball, exactly the official design, the Potara fusion of Kibito and Supreme Kai, wearing a Potara earring on each ear"
+ },
+ {
+  "a": "Goku Black",
+  "b": "Zamasu",
+  "name": "Fused Zamasu",
+  "method": "Potara Fusion",
+  "color": [
+   255,
+   110,
+   190
+  ],
+  "background": "wiki:Aurora",
+  "fuse": "Fused Zamasu from Dragon Ball, exactly the official design, the Potara fusion of Goku Black and Zamasu, wearing a Potara earring on each ear"
+ }
+]

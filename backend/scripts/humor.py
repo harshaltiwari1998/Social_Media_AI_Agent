@@ -30,6 +30,13 @@ POOLS: dict[str, list[str]] = {
         "Two Pals, one body, and zero days off. Classic Palworld.",
         "Your Breeding Farm is officially confused.",
     ],
+    "dbzfusion": [
+        "Somewhere, Vegeta is still annoyed about those dance moves.",
+        "One fusion, two personalities, and zero patience for a long fight.",
+        "The power level? Let's just say the scouter gave up.",
+        "Rule one of fusion: never, ever miss the pose.",
+        "Two heroes walked in, one show-off walked out.",
+    ],
     "evolution": [
         "And somewhere, a trainer is pressing B right now. Don't be that trainer.",
         "Same Pokemon, new look, way more attitude.",

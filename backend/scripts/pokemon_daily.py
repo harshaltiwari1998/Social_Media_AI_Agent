@@ -61,6 +61,12 @@ FAMILIES = {
                 "style": "official Pokemon Sugimori art style, clean line art"},
     "pal": {"word": "Pal", "plural": "Pals", "game": "Palworld", "key": "palfusion", "pairs": SPECS / "pal_fusion_pairs.json",
             "style": "official Palworld 3D creature render style, soft shading, cute but cool"},
+    # canon Dragon Ball fusions (owner 2026-11-09, Toei claim risk accepted): no free official art, so the two
+    # characters AND the fusion are drawn by Qwen-Image-2.1 as fan art; facts (who fuses, how) from Wikipedia's
+    # "List of Dragon Ball characters"
+    "dbz": {"word": "character", "plural": "characters", "game": "Dragon Ball", "key": "dbzfusion",
+            "pairs": SPECS / "dbz_fusion_pairs.json",
+            "style": "official Akira Toriyama Dragon Ball Z anime art style, clean line art, cel shading"},
 }
 # Pal elements -> the Pokemon type whose background photo + energy words fit
 TYPE_ALIAS = {"neutral": "normal"}
@@ -79,6 +85,10 @@ def art_ref(family: str, name: str) -> str:
     path = CACHE / "art" / f"{family}_{name.replace(' ', '_')}.png"
     if not path.exists():
         path.parent.mkdir(parents=True, exist_ok=True)
+        if family == "dbz":  # no free official art: a fan-art drawing of the character, cut out
+            _key_flat(_qwen_draw(f"{name} from Dragon Ball, exactly the official character design, full body, standing "
+                                 f"facing the viewer, {FAMILIES['dbz']['style']}, plain white background.", []), path)
+            return str(path)
         from scripts.palworld_breeding_videos import fetch_pal_art  # official Pal art (Palworld wiki)
 
         im = fetch_pal_art(name).convert("RGBA")
@@ -89,7 +99,7 @@ def art_ref(family: str, name: str) -> str:
 def fusion_meta(pair: dict) -> dict:
     fam = pair.get("family", "pokemon")
     a, b = pair["a"], pair["b"]
-    types = pair.get("types") or "/".join(dict.fromkeys([fi.primary_type(a), fi.primary_type(b)]))
+    types = pair.get("types") or pair.get("method") or "/".join(dict.fromkeys([fi.primary_type(a), fi.primary_type(b)]))
     disp = fi.display if fam == "pokemon" else (lambda n: n)
     return {"id": f"{a}+{b}", "family": fam, "a": disp(a), "b": disp(b), "name": pair["name"], "types": types}
 
@@ -105,6 +115,14 @@ def fusion_post_text(meta: dict) -> tuple[str, list[str]]:
         return fi.post_text(meta)
     f = FAMILIES[fam]
     a, b, name, types, game = meta["a"], meta["b"], meta["name"], meta["types"], f["game"]
+    if fam == "dbz":  # canon fusions: types = how they fuse ("Fusion Dance" / "Potara Fusion")
+        title = f"{a} + {b} = {name} | Dragon Ball {types} | Fan Animation"
+        desc = (f"{a} and {b} become {name} with the {types}. Fan-made animation, not official Dragon Ball footage. "
+                "Which Dragon Ball fusion should we make next? Comment below!")
+        tags = [a, b, name, f"{name} fusion", "Dragon Ball", "Dragon Ball Z", "DBZ", types, "fusion", "DBZ fusion",
+                "Dragon Ball fusion", "anime fusion", "Dragon Ball shorts", "anime shorts"]
+        hashtags = " ".join(f"#{h}" for h in ["DragonBall", "DBZ", name.replace(" ", ""), "Anime", "Shorts"])
+        return f"{title}\n\n{desc}\n\n{hashtags}", tags
     title = f"{a} + {b} = {name} | {game} Fusion | {types}"
     desc = (f"What if {a} and {b} fused? Meet {name}, a {types} {game} fusion. Fan-made AI animation from the official "
             f"{game} art. Which two {f['plural']} should fuse next? Comment below!")
@@ -259,7 +277,7 @@ def fusion_image(pair: dict, out: Path) -> Path:
     pair = {**pair, "look": pair.get("look") or pair.get("fuse", "")}  # Pal pairs only have "fuse"
     green = any(w in (pair["look"] + pair.get("fuse", "")).lower() for w in ("green", "teal", "leaf", "moss", "grass"))
     key, key_name = ((255, 0, 255), "magenta") if green else ((0, 255, 0), "green")
-    if pair.get("fuse"):  # detailed part-by-part mix of both parents -> Qwen Super-Fusion with both images
+    if pair.get("fuse"):  # detailed part-by-part mix of both parents -> Qwen-Image-2.1 with both images
         # NO Kontext fallback: on 2026-11-09 Qwen failed, Kontext drew a spider-like Darkceus and it was posted
         # straight away. A failed fusion now fails the build; it is tried again next run.
         return _key_flat(_qwen_fusion(pair, key_name, out), out)
@@ -308,15 +326,28 @@ def _qwen_fusion(pair: dict, key_name: str, out: Path) -> Path:
         src = out.with_name(f"parent_{slug.replace(' ', '_')}.png")
         sheet.save(src)
         srcs.append(src)
+    if pair.get("family") == "dbz":  # a canon fusion: draw THAT character, the parents only guide the style
+        return _qwen_draw(f"Draw {pair['fuse']}. One single character, full body from head to feet, standing facing "
+                          f"the viewer, {fam['style']}, same art style as the reference images, plain white "
+                          "background.", srcs)
     # "ONE single creature": Snorlax + Arcanine once came out as Arcanine standing in front of Snorlax (2026-11-09)
-    prompt = (f"Design ONE brand-new {fam['word']} that is a fusion of {_name(pair['a'])} (image 1) and "
-              f"{_name(pair['b'])} (image 2): {pair['fuse']}. ONE single creature with one head and one body, standing "
-              "facing the viewer, full body from head to feet, clearly drawn legs and feet, character-design pose, "
-              f"{fam['style']}, clean line art and soft shading, plain white background.")
+    return _qwen_draw(f"Design ONE brand-new {fam['word']} that is a fusion of {_name(pair['a'])} (image 1) and "
+                      f"{_name(pair['b'])} (image 2): {pair['fuse']}. ONE single creature with one head and one body, "
+                      "standing facing the viewer, full body from head to feet, clearly drawn legs and feet, "
+                      f"character-design pose, {fam['style']}, clean line art and soft shading, plain white background.",
+                      srcs)
+
+
+def _qwen_draw(prompt: str, refs: list) -> Path:
+    """One Qwen-Image-2.1 image (realtime Space, 1024x1024) from a prompt + optional reference images."""
+    from gradio_client import Client, handle_file
+
     client = Client(QWEN_SPACE, hf_token=fv.hf_token(), verbose=False)  # token needs "Make calls to Inference
     try:                                                                 # Providers" for over-quota credits
-        img = client.predict(prompt, [{"image": handle_file(str(x)), "caption": None} for x in srcs], 0, 1024, "1:1",
-                             api_name="/generate")
+        import random  # a fixed seed (0) redrew the same failed image on every retry (Snorcanine, 2026-11-09)
+
+        img = client.predict(prompt, [{"image": handle_file(str(x)), "caption": None} for x in refs],
+                             random.randint(1, 2_000_000_000), 1024, "1:1", api_name="/generate")
     except Exception as exc:
         if "quota" in str(exc).lower():
             raise fv.QuotaExhausted(str(exc)) from exc
@@ -417,8 +448,10 @@ def fusion_storyboard(pair: dict, meta: dict, fused: Path) -> dict:
     fam = pair.get("family", "pokemon")
     ta, tb = (TYPE_ALIAS.get(t.lower(), t.lower()) for t in (meta["types"].split("/") * 2)[:2])
     bg_a, bg_b = BACKGROUND.get(ta, "wiki:Meadow"), BACKGROUND.get(tb, "wiki:Meadow")
+    if pair.get("background"):  # Dragon Ball pairs choose their own scene + aura colour
+        bg_a = bg_b = pair["background"]
     still = lambda who, bg, secs: {"still": {"poke": who, "background": bg}, "seconds": secs, "zoom": [1.0, 1.12]}  # noqa: E731
-    color = list(TYPE_COLOR.get(ta, (140, 190, 255)))
+    color = list(pair.get("color") or TYPE_COLOR.get(ta, (140, 190, 255)))
     alive = lambda mode, secs: {"idle": str(fused), "background": bg_a, "seconds": secs, "mode": mode, "color": color}  # noqa: E731
     ra, rb = art_ref(fam, pair["a"]), art_ref(fam, pair["b"])
     clips = [still(ra, bg_a, 4.0),
@@ -428,9 +461,17 @@ def fusion_storyboard(pair: dict, meta: dict, fused: Path) -> dict:
              alive("idle", 4.5),
              alive("power", 5.0),  # + joke
              {"still": str(fused.parent / "scene_03.jpg"), "seconds": 5.5, "zoom": [1.05, 1.15]}]  # closing question
-    narration = [f"What happens when {a} fuses with {b}?", f"And here comes {b}!", f"{a} and {b} are fusing!",
-                 "Fusion complete!", f"Meet {name}!", humor.pick({"pokemon": "fusion", "pal": "palfusion"}[fam], meta["id"]),
-                 f"{name}, a {meta['types']} fusion. Which two {FAMILIES[fam]['plural']} should fuse next? Comment below!"]
+    joke = humor.pick({"pokemon": "fusion", "pal": "palfusion", "dbz": "dbzfusion"}[fam], meta["id"])
+    if fam == "dbz":
+        dance = pair.get("method") == "Fusion Dance"
+        narration = [f"{a} and {b} are about to fuse!", f"Here comes {b}!",
+                     "Fu... sion... HA!" if dance else "The Potara earrings are on!",
+                     "Fusion complete!", f"Meet {name}!", joke,
+                     f"{name}, born from the {pair['method']}. Which Dragon Ball fusion should we make next? Comment below!"]
+    else:
+        narration = [f"What happens when {a} fuses with {b}?", f"And here comes {b}!", f"{a} and {b} are fusing!",
+                     "Fusion complete!", f"Meet {name}!", joke,
+                     f"{name}, a {meta['types']} fusion. Which two {FAMILIES[fam]['plural']} should fuse next? Comment below!"]
     return {"title": f"{a} + {b} fusion", "backend": "wan", "voice": "en-US-GuyNeural", "style": FUSION_STYLE,
             "narration": narration, "clips": clips}
 
@@ -507,6 +548,7 @@ def main() -> None:
     parser.add_argument("--max-fusions", type=int, default=0,  # paused 2026-11-08 until the owner approves the Qwen art
                         help="new fusion shorts per run")
     parser.add_argument("--max-pal-fusions", type=int, default=0, help="new Palworld fusion shorts per run")
+    parser.add_argument("--max-dbz-fusions", type=int, default=0, help="new Dragon Ball fusion shorts per run")
     parser.add_argument("--fusion-image", metavar="A+B")
     args = parser.parse_args()
     queue = json.loads(QUEUE.read_text(encoding="utf-8"))
@@ -549,7 +591,7 @@ def main() -> None:
     # Evolution lines and fusions take turns, so one kind never uses up the whole GPU quota.
     evos = [("evo", e) for e in queue if f"poke-{e['id']}" not in games][: args.max_shorts]
     fusions = []
-    for fam, cap in (("pokemon", args.max_fusions), ("pal", args.max_pal_fusions)):
+    for fam, cap in (("pokemon", args.max_fusions), ("pal", args.max_pal_fusions), ("dbz", args.max_dbz_fusions)):
         k = FAMILIES[fam]["key"]
         fusions += [("fusion", p) for p in load_pairs(fam)
                     if f"{k}-{p['a']}+{p['b']}" not in games and f"{k}-{p['b']}+{p['a']}" not in games][:cap]

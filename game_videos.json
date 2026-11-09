@@ -8231,5 +8231,18 @@
       "name": "Piccorus",
       "types": "Fusion Dance"
     }
+  },
+  "fusion-umbreon+absol": {
+    "kind": "motion",
+    "spec": "scripts/specs/fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\fusion-umbreon+absol\\final.mp4",
+    "data": {
+      "id": "umbreon+absol",
+      "family": "pokemon",
+      "a": "Umbreon",
+      "b": "Absol",
+      "name": "Umbrasol",
+      "types": "Dark"
+    }
   }
 }

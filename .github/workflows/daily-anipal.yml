@@ -67,10 +67,10 @@ jobs:
       - name: Install Hindi font and cloudflared
         run: |
           mkdir -p .cache/fonts
-          curl -fsSL -o .cache/fonts/Hind-Bold.ttf https://github.com/google/fonts/raw/main/ofl/hind/Hind-Bold.ttf
-          curl -fsSL -o .cache/fonts/Hind-Regular.ttf https://github.com/google/fonts/raw/main/ofl/hind/Hind-Regular.ttf
-          sudo curl -fsSL -o /usr/local/bin/cloudflared https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64
-          sudo chmod +x /usr/local/bin/cloudflared
+          curl -fsSL --retry 5 --retry-all-errors --retry-delay 5 -o .cache/fonts/Hind-Bold.ttf https://github.com/google/fonts/raw/main/ofl/hind/Hind-Bold.ttf || curl -fsSL --retry 5 --retry-all-errors --retry-delay 5 -o .cache/fonts/Hind-Bold.ttf https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/hind/Hind-Bold.ttf
+          curl -fsSL --retry 5 --retry-all-errors --retry-delay 5 -o .cache/fonts/Hind-Regular.ttf https://github.com/google/fonts/raw/main/ofl/hind/Hind-Regular.ttf || curl -fsSL --retry 5 --retry-all-errors --retry-delay 5 -o .cache/fonts/Hind-Regular.ttf https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/hind/Hind-Regular.ttf
+          sudo curl -fsSL --retry 5 --retry-all-errors --retry-delay 5 -o /usr/local/bin/cloudflared https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 || echo "::warning::cloudflared download failed - Instagram uploads will retry next run"
+          sudo chmod +x /usr/local/bin/cloudflared || true
 
       - name: Write YouTube credentials
         env:

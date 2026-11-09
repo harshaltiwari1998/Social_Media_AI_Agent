@@ -52,8 +52,8 @@ jobs:
 
       - name: Install cloudflared
         run: |
-          sudo curl -fsSL -o /usr/local/bin/cloudflared https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64
-          sudo chmod +x /usr/local/bin/cloudflared
+          sudo curl -fsSL --retry 5 --retry-all-errors --retry-delay 5 -o /usr/local/bin/cloudflared https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 || echo "::warning::cloudflared download failed - Instagram uploads will retry next run"
+          sudo chmod +x /usr/local/bin/cloudflared || true
 
       - name: Write YouTube credentials
         env:

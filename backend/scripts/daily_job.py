@@ -20,7 +20,7 @@ import os
 import subprocess
 import sys
 import time
-from datetime import date
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 import httpx
@@ -230,10 +230,15 @@ def make_new_games(poster: Poster, slot: str, count: int, spec_dir: Path = GAME_
         return
     games = _load(GAME_MANIFEST)
     today = date.today().isoformat()
+    # "post_on": a dated spec (GTA 6 countdown, 2026-11-09) posts only on that IST day - "5 days to go" must not go
+    # out a day late; CI runners are on UTC, so compare with the IST date
+    ist = (datetime.now(timezone.utc) + timedelta(hours=5, minutes=30)).date().isoformat()
     specs = []
     for path in sorted(spec_dir.glob(f"{slot}_*.json")):
         spec = json.loads(path.read_text(encoding="utf-8"))
         if spec["id"] in games or spec.get("expires", "9999-12-31") < today:
+            continue
+        if "post_on" in spec and spec["post_on"] != ist:
             continue
         specs.append((spec["order"], path, spec))
     if not specs:

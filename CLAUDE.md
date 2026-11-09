@@ -115,6 +115,12 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
 - Fused art cutout: `pokemon_daily._cutout` = rembg 2.0.59 + onnxruntime with the "isnet-anime" model in
   `backend/.cache/u2net` (laptop venv only; the model came from huggingface.co/skytnt/anime-seg `isnetis.onnx`,
   same md5 as rembg's GitHub release, which 504'd). Falls back to `_key_flat` where rembg/model are missing (CI).
+- `backend/scripts/specs/games/gta6_13..22_countdown-NN.json` - GTA 6 countdown (owner request 2026-11-09; GTA 6
+  launches 19 Nov 2026 and the owner streams it that day): one English short a day 9-18 Nov, `"post_on"` = its IST
+  date (daily_job skips a dated spec on any other day, so "5 days to go" never goes out late). Posted by
+  `daily-content.yml` (`--extra-slot gta6:1`). Facts: Wikipedia "Grand Theft Auto VI"; the preload date is left
+  out (sources disagree), the 3x-RDR2 map size is labelled reported. Older gta6_01-12 specs (Hindi, Oct 2026) are
+  all posted. After the launch stream: clip it like the RDR2 streams (own stream; mute/skip licensed radio songs).
 - `backend/scripts/specs/gameplay/<plan>.json` - cut plans for the owner's own stream recordings.
 - `daily_job.py` picks the lowest-`order` unposted, unexpired spec per slot (`--from-end` takes the
   highest, for manual batches that must not collide with scheduled runs).
@@ -264,6 +270,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-09 - GTA 6 countdown shorts (10, dated with `post_on`, daily-content posts 1 a day).
 - 2026-11-09 - Fusion style 8: two type/character-based moves per fusion (10 local moves); DBZ fan fusions; Gogeta posted.
 - 2026-11-09 - rembg isnet-anime cutout for fused art; Gogeta drawn via HF Inference Providers (credits); jump height capped for tall characters.
 - 2026-11-09 - Fusion style 7: 3 s still, then local leap-and-slam + energy-blast actions; Gogeta/Gotenks vest described (open vest, yellow padding).

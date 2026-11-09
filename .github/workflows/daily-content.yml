@@ -123,6 +123,7 @@ jobs:
           --movie-reviews "${{ github.event.inputs.movie_reviews || '1' }}"
           --extra-slot "reel:${{ github.event.inputs.reels || '1' }}"
           --extra-slot "aniimo:${{ github.event.inputs.aniimo || '1' }}"
+          --extra-slot "gta6:1"
 
       - name: Sort new uploads into YouTube playlists
         if: always()

@@ -67,11 +67,15 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   `backend/scripts/specs/fusion_pairs.json`. The same pairs (with a `"look"` per pair) are also made automatically by
   `pokemon_daily.py`. Fused art (owner 2026-11-08, after a bad Lucarace: must mix BOTH parents part by part like the
   owner's reference - body/mask/appendages of one, ears/fur collar/flame legs of the other): pairs with a `"fuse"`
-  text (part-by-part list, both names) go to the `prithivMLmods/Qwen-Image-Edit-2509-LoRAs-Fast-Fusion` Space (two
-  image inputs, "Super-Fusion" LoRA, 4 steps, ~25 s - first good mix: Darkceus 2026-11-09); its flat muted background
-  is cut by `_key_flat` (border flood fill + enclosed gaps; PIL `fromarray` images must be `.copy()`-ed or floodfill
-  does nothing). The official Qwen-2509 Space gave TypeError / 10-min queues; FLUX.2-klein and Qwen-2511-Fast Spaces
-  raised RuntimeError. **No Kontext fallback for `fuse` pairs** - a Kontext Darkceus (spider-like) got posted on
+  text (part-by-part list, both names) go to the `linoyts/qwen-image-2-1-realtime` Space (Qwen-Image-2.1, 2 steps,
+  ~13 s / ~20 s GPU): both parents' official art as reference images, prompt asks for ONE new standing creature
+  with clear legs - owner approved the result on 2026-11-09 ("mast bane he"; matches the reference Lucarace).
+  Its plain white background is cut by `_key_flat` (border flood fill; enclosed gaps only when within `gap_tol`
+  of the background - a looser pass punched a hole in white faces; PIL `fromarray` images must be `.copy()`-ed or
+  floodfill does nothing). Tried and dropped: Qwen-2509 "Super-Fusion" LoRA (pasted both parents in their own
+  poses - unreadable), official Qwen-2509 Space (TypeError / 10-min queues), FLUX.2-klein + Qwen-2511-Fast
+  (RuntimeError). HF credits ($1 / 10 min) only cover over-quota ZeroGPU once the token has the "Make calls to
+  Inference Providers" permission (added to the `Laptop` token 2026-11-09). **No Kontext fallback for `fuse` pairs** - a Kontext Darkceus (spider-like) got posted on
   2026-11-09. Pairs without `fuse` (older ones): FLUX.1 Kontext ZeroGPU Space edits the parent whose body the `look` keeps, on a chroma-key green background (magenta for green Pokemon; a white
   one was flood-filled and punched holes in white faces) (the other parent is
   NOT named in the prompt - naming it made Kontext just redraw that Pokemon), and the fusion itself is drawn locally
@@ -213,7 +217,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
 - Daily Aniimo + Palworld pipeline (writer routine + `daily-anipal.yml`).
 - Daily free games + store deals (`daily-deals.yml`, `scripts/store_deals.py`) - 10 shorts + 2 long a day.
 - Pokemon evolution shorts (`daily-pokemon.yml`, `scripts/pokemon_daily.py`) - up to 3 a day (HF PRO), 50 lines queued;
-  plus up to 2 automatic fusion shorts a day (`--max-fusions`, Qwen Super-Fusion art, parent stills + drawn fusion, fused creature animated locally).
+  plus up to 2 automatic fusion shorts a day (`--max-fusions`, Qwen-Image-2.1 art, parent stills + drawn fusion, fused creature animated locally).
   Charmander evolution got strong views (Nov 2026) - owner bought HF PRO to scale it.
 - Pokemon fusion shorts from Gemini clips (`fusion-inbox.yml`, `scripts/fusion_inbox.py`) - the clip itself is made by hand.
 - Weekly refill routine, login check, weekly stats report, health-check exit codes.
@@ -238,6 +242,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-09 - Fused art from Qwen-Image-2.1 (realtime Space): new standing character per pair, approved by the owner.
 - 2026-11-09 - Actions on Node 24 (checkout@v5, setup-python@v6, cache@v5, upload-artifact@v6); runners pinned to ubuntu-24.04.
 - 2026-11-09 - Workflow downloads (Hindi fonts, cloudflared) retry 5x; fonts fall back to jsDelivr; a cloudflared failure only warns.
 - 2026-11-09 - Fusion style 6: 2 s still of the fused creature, then local idle/power-up animation (no Wan).

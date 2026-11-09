@@ -8461,5 +8461,18 @@
       "name": "Arcaray",
       "types": "Fire/Electric"
     }
+  },
+  "fusion-alakazam+gardevoir": {
+    "kind": "motion",
+    "spec": "scripts/specs/fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\fusion-alakazam+gardevoir\\final.mp4",
+    "data": {
+      "id": "alakazam+gardevoir",
+      "family": "pokemon",
+      "a": "Alakazam",
+      "b": "Gardevoir",
+      "name": "Alakavoir",
+      "types": "Psychic"
+    }
   }
 }

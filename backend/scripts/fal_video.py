@@ -307,6 +307,8 @@ def action_clip(spec: dict, work: Path, out: Path) -> Path:
     art, (px, py) = _poke_art(spec["action"], work)
     cx, feet = px + art.width / 2, py + art.height
     glow = _glow_sprite(col)
+    # tall characters (Gogeta) went out of the top of the frame at the peak of a 430 px jump
+    jump = int(min(430, max(120, py - 90)))
     pad = 140
     tint = Image.new("RGBA", art.size, col + (255,))
     tint.putalpha(art.getchannel("A"))
@@ -345,7 +347,7 @@ def action_clip(spec: dict, work: Path, out: Path) -> Path:
                 sx, sy, lift = 1 + 0.08 * e, 1 - 0.12 * e, 0.0
             elif t < t_land:  # jump up and back down
                 u = (t - t_jump) / (t_land - t_jump)
-                sx, sy, lift = 0.96, 1.06, 430 * np.sin(np.pi * u)
+                sx, sy, lift = 0.96, 1.06, jump * np.sin(np.pi * u)
             else:  # slam, then stand
                 k = (t - t_land) / 0.3
                 sq = 0.15 * max(0.0, 1 - k)
@@ -376,7 +378,7 @@ def action_clip(spec: dict, work: Path, out: Path) -> Path:
                     tg = max(t_jump, t - 0.05 * g)
                     ug = (tg - t_jump) / (t_land - t_jump)
                     ghost = body(0.96, 1.06)
-                    put(canvas, ghost, cx - ghost.width / 2, feet - ghost.height - 430 * np.sin(np.pi * ug), 0.18 * (3 - g))
+                    put(canvas, ghost, cx - ghost.width / 2, feet - ghost.height - jump * np.sin(np.pi * ug), 0.18 * (3 - g))
             br = 0.015 * np.sin(2 * np.pi * t / 1.5) if t > t_land + 0.3 else 0.0
             b = body(sx * (1 - br / 2), sy * (1 + br))
             put(canvas, b, cx - b.width / 2, feet - b.height - lift)

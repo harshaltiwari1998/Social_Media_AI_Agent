@@ -86,7 +86,7 @@ def art_ref(family: str, name: str) -> str:
     if not path.exists():
         path.parent.mkdir(parents=True, exist_ok=True)
         if family == "dbz":  # no free official art: a fan-art drawing of the character, cut out
-            _key_flat(_qwen_draw(f"{name} from Dragon Ball, exactly the official character design, full body, standing "
+            _cutout(_qwen_draw(f"{name} from Dragon Ball, exactly the official character design, full body, standing "
                                  f"facing the viewer, {FAMILIES['dbz']['style']}, plain white background.", []), path)
             return str(path)
         from scripts.palworld_breeding_videos import fetch_pal_art  # official Pal art (Palworld wiki)
@@ -280,7 +280,7 @@ def fusion_image(pair: dict, out: Path) -> Path:
     if pair.get("fuse"):  # detailed part-by-part mix of both parents -> Qwen-Image-2.1 with both images
         # NO Kontext fallback: on 2026-11-09 Qwen failed, Kontext drew a spider-like Darkceus and it was posted
         # straight away. A failed fusion now fails the build; it is tried again next run.
-        return _key_flat(_qwen_fusion(pair, key_name, out), out)
+        return _cutout(_qwen_fusion(pair, key_name, out), out)
     # Kontext edits ONE creature well; given both side by side it mostly kept one parent unchanged (Garchizard came
     # out as a plain Charizard). So edit the parent whose body the "look" keeps and paint the other one's parts on.
     base, other = fusion_base(pair)
@@ -353,6 +353,27 @@ def _qwen_draw(prompt: str, refs: list) -> Path:
             raise fv.QuotaExhausted(str(exc)) from exc
         raise
     return Path(img if isinstance(img, str) else img["path"])
+
+
+def _cutout(src: Path, out: Path) -> Path:
+    """Background removal for the fused art: rembg's "isnet-anime" model (laptop: backend/.cache/u2net, md5
+    6f184e75...; GitHub's release download 504'd, the same file is huggingface.co/skytnt/anime-seg isnetis.onnx). The
+    border flood fill (_key_flat) cannot cope with a gradient background next to white clothes (Gogeta's pants were
+    eaten, 2026-11-09); it is still the fallback when rembg or the model is missing (CI)."""
+    import os
+
+    home = os.environ.setdefault("U2NET_HOME", str(ROOT / ".cache" / "u2net"))
+    if not (Path(home) / "isnet-anime.onnx").exists():
+        return _key_flat(src, out)
+    try:
+        from PIL import Image
+        from rembg import new_session, remove
+    except ImportError:
+        return _key_flat(src, out)
+    res = remove(Image.open(src).convert("RGB"), session=new_session("isnet-anime"))
+    box = res.getchannel("A").point(lambda v: 255 if v > 16 else 0).getbbox()
+    res.crop(box).save(out)
+    return out
 
 
 def _key_flat(src: Path, out: Path, tol: int = 38, min_gap: int = 80, gap_tol: int = 12) -> Path:

@@ -101,6 +101,13 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   character. Narration says "Fu... sion... HA!" (dance) / "The Potara earrings are on!". `--max-dbz-fusions`
   (default 0), records `dbzfusion-<a>+<b>`, playlist "Dragon Ball Fusions", joke pool `dbzfusion`. Every Qwen
   draw uses a random seed (a fixed seed redrew the same failed Snorcanine).
+  Gogeta's first Qwen-2.1 draw had no Metamoran vest: its `fuse` text now spells out the Super: Broly design (open
+  black vest, yellow padding, teal sash) and the approved art came from HF Inference Providers (`fal-ai/qwen-image`
+  via router.huggingface.co, billed to the HF credits - these DO work with the token's Inference Providers
+  permission, unlike ZeroGPU over-quota) when the ZeroGPU quota was gone.
+- Fused art cutout: `pokemon_daily._cutout` = rembg 2.0.59 + onnxruntime with the "isnet-anime" model in
+  `backend/.cache/u2net` (laptop venv only; the model came from huggingface.co/skytnt/anime-seg `isnetis.onnx`,
+  same md5 as rembg's GitHub release, which 504'd). Falls back to `_key_flat` where rembg/model are missing (CI).
 - `backend/scripts/specs/gameplay/<plan>.json` - cut plans for the owner's own stream recordings.
 - `daily_job.py` picks the lowest-`order` unposted, unexpired spec per slot (`--from-end` takes the
   highest, for manual batches that must not collide with scheduled runs).
@@ -250,6 +257,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-09 - rembg isnet-anime cutout for fused art; Gogeta drawn via HF Inference Providers (credits); jump height capped for tall characters.
 - 2026-11-09 - Fusion style 7: 3 s still, then local leap-and-slam + energy-blast actions; Gogeta/Gotenks vest described (open vest, yellow padding).
 - 2026-11-09 - Canon Dragon Ball fusion shorts (6 pairs, Qwen fan art), random Qwen seeds.
 - 2026-11-09 - Fused art from Qwen-Image-2.1 (realtime Space): new standing character per pair, approved by the owner.

@@ -8257,5 +8257,18 @@
       "name": "Lambiva",
       "types": "Neutral"
     }
+  },
+  "dbzfusion-Gotenks": {
+    "kind": "motion",
+    "spec": "scripts/specs/dbz_fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\dbzfusion-Gotenks\\final.mp4",
+    "data": {
+      "id": "Gotenks",
+      "family": "dbz",
+      "a": "Goten",
+      "b": "Kid Trunks",
+      "name": "Gotenks",
+      "types": "Fusion Dance"
+    }
   }
 }

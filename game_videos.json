@@ -8448,5 +8448,18 @@
       "name": "Blastitar",
       "types": "Water/Rock"
     }
+  },
+  "fusion-arcanine+luxray": {
+    "kind": "motion",
+    "spec": "scripts/specs/fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\fusion-arcanine+luxray\\final.mp4",
+    "data": {
+      "id": "arcanine+luxray",
+      "family": "pokemon",
+      "a": "Arcanine",
+      "b": "Luxray",
+      "name": "Arcaray",
+      "types": "Fire/Electric"
+    }
   }
 }

@@ -8244,5 +8244,18 @@
       "name": "Umbrasol",
       "types": "Dark"
     }
+  },
+  "palfusion-Lamball+Cattiva": {
+    "kind": "motion",
+    "spec": "scripts/specs/pal_fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\palfusion-Lamball+Cattiva\\final.mp4",
+    "data": {
+      "id": "Lamball+Cattiva",
+      "family": "pal",
+      "a": "Lamball",
+      "b": "Cattiva",
+      "name": "Lambiva",
+      "types": "Neutral"
+    }
   }
 }

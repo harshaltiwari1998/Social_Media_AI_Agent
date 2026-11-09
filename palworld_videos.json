@@ -6616,5 +6616,48 @@
       "unique": false,
       "key": "Blazehowl 5"
     }
+  },
+  "Sibelyx 5": {
+    "spec": "scripts/specs/palworld_sibelyx_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b36d510d.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Sibelyx",
+      "caption": "5 ways to breed Sibelyx in Palworld 1.0: Ghangler + Tocotoco, Frostplume + Cattiva, Moldron + Ribbuny, Nyafia + Puffolt, Splatterina + Swee.",
+      "video_script": "Here are five ways to breed Sibelyx in Palworld one point zero. Combo one: breed Ghangler with Tocotoco on your Breeding Farm, then add a cake. Combo two: pair Frostplume and Cattiva together, and you get the same egg. Combo three: Moldron plus Ribbuny works too, so use whichever Pals you have. Combo four: Nyafia with Puffolt is another easy option. Combo five: breed Splatterina with Swee on your Breeding Farm, then add a cake. Every egg hatches into Sibelyx. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Ghangler",
+        "Tocotoco"
+      ],
+      "combos": [
+        [
+          "Ghangler",
+          "Tocotoco"
+        ],
+        [
+          "Frostplume",
+          "Cattiva"
+        ],
+        [
+          "Moldron",
+          "Ribbuny"
+        ],
+        [
+          "Nyafia",
+          "Puffolt"
+        ],
+        [
+          "Splatterina",
+          "Swee"
+        ]
+      ],
+      "child": "Sibelyx",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false,
+      "key": "Sibelyx 5"
+    }
   }
 }

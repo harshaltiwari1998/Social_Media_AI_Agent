@@ -8350,5 +8350,37 @@
       "name": "Rayados",
       "types": "Dragon/Water"
     }
+  },
+  "until-dawn-2-january-28": {
+    "spec": "scripts/specs/games/new_45_until-dawn-2-january-28.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f64b6b30.mp4"
+  },
+  "pubg-battlegrounds-2017": {
+    "spec": "scripts/specs/games/classic_87_pubg-battlegrounds-2017.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-45cb2c91.mp4"
+  },
+  "fallout-3-2008": {
+    "spec": "scripts/specs/games/classic_88_fallout-3-2008.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-04a0838c.mp4"
+  },
+  "avengers-doomsday-india-17-december": {
+    "spec": "scripts/specs/movies/movie_new_41_avengers-doomsday-india-17-december.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-c9b56727.mp4"
+  },
+  "godzilla-minus-zero-opening": {
+    "spec": "scripts/specs/movies/movie_review_37_godzilla-minus-zero-opening.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5c6c60d6.mp4"
+  },
+  "reel-maine-pyar-kiya-1989-facts": {
+    "spec": "scripts/specs/movies/reel_74_maine-pyar-kiya-1989-facts.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-7f1c8bae.mp4"
+  },
+  "aniimo-how-to-get-popapus": {
+    "spec": "scripts/specs/games/aniimo_193_aniimo-how-to-get-popapus.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f7504bea.mp4"
+  },
+  "gta6-countdown-10-vice-city": {
+    "spec": "scripts/specs/games/gta6_13_countdown-10.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-646ccc49.mp4"
   }
 }

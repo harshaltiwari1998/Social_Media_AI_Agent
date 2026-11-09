@@ -8553,5 +8553,376 @@
   "palworld-guide-hoodle-void-dweller-sneak-attack-damage": {
     "spec": "scripts/specs/games/palguide_159_palworld-guide-hoodle-void-dweller-sneak-attack-damage.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e7dd4eca.mp4"
+  },
+  "deal-steam-deal-1676840-70": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-1676840-70.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ef70fa7b.mp4",
+    "data": {
+      "id": "deal-steam-deal-1676840-70",
+      "slot": "deals",
+      "badge": "STEAM MIDWEEK DEAL",
+      "headline": "Steam deal",
+      "title": "For The King II 70% OFF on Steam | Now Rs 368 | Steam Deal Nov 10",
+      "video_script": "Today's Steam Midweek Deal is For The King II at 70 percent off, down from 1,229 rupees to just 368 rupees. Battle against Fahrul's tyrannical Queen alone or as a party of four players in the sequel to For The King, the massively popular turn-based roguelite tabletop RPG. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1676840/bf62f88a8b154f26e92c8397bd288060365e5287/header_alt_assets_13.jpg?t=1794248102",
+          "label": "For The King II"
+        },
+        {
+          "image": "steam:1676840:0",
+          "fact": "-70%  Rs 368",
+          "sub": "was Rs 1,229"
+        },
+        {
+          "image": "steam:1676840:1",
+          "fact": "Adventure + Indie + RPG",
+          "sub": "IronOak Games"
+        },
+        {
+          "image": "steam:1676840:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Midweek Deal is For The King II at 70 percent off, down from 1,229 rupees to just 368 rupees.\nhttps://store.steampowered.com/app/1676840\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 10 2026, 02:57 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "For The King II",
+        "For The King II sale",
+        "For The King II price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-1500-70": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-1500-70.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f86c1cb4.mp4",
+    "data": {
+      "id": "deal-steam-deal-1500-70",
+      "slot": "deals",
+      "badge": "STEAM DAILY DEAL",
+      "headline": "Steam deal",
+      "title": "Darwinia 70% OFF on Steam | Now Rs 171 | Steam Deal Nov 10",
+      "video_script": "Today's Steam Daily Deal is Darwinia at 70 percent off, down from 570 rupees to just 171 rupees. Darwinia blends real-time strategy, action, and puzzles with a unique gesture-based control system. Save the Darwinians, battle viruses, and restore order in a retro-inspired digital world. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1500/header.jpg?t=1779028568",
+          "label": "Darwinia"
+        },
+        {
+          "image": "steam:1500:0",
+          "fact": "-70%  Rs 171",
+          "sub": "was Rs 570"
+        },
+        {
+          "image": "steam:1500:1",
+          "fact": "Indie + Strategy",
+          "sub": "Introversion Software"
+        },
+        {
+          "image": "steam:1500:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Daily Deal is Darwinia at 70 percent off, down from 570 rupees to just 171 rupees.\nhttps://store.steampowered.com/app/1500\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 10 2026, 02:57 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Darwinia",
+        "Darwinia sale",
+        "Darwinia price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-2569760-35": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-2569760-35.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-6680261e.mp4",
+    "data": {
+      "id": "deal-steam-deal-2569760-35",
+      "slot": "deals",
+      "badge": "STEAM MIDWEEK DEAL",
+      "headline": "Steam deal",
+      "title": "The Mound: Omen of Cthulhu 35% OFF on Steam | Now Rs 876 | Steam Deal Nov 10",
+      "video_script": "Today's Steam Midweek Deal is The Mound: Omen of Cthulhu at 35 percent off, down from 1,349 rupees to just 876 rupees. In up to four player co-op, form a group of explorers searching for treasure. In this cursed jungle, danger is everywhere and monstrous creatures alter reality. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2569760/aa5ff744530f8af5344896526a8d4dac103e9dbf/header_alt_assets_1.jpg?t=1793282534",
+          "label": "The Mound: Omen of Cthulhu"
+        },
+        {
+          "image": "steam:2569760:0",
+          "fact": "-35%  Rs 876",
+          "sub": "was Rs 1,349"
+        },
+        {
+          "image": "steam:2569760:1",
+          "fact": "Action + Adventure",
+          "sub": "ACE Team"
+        },
+        {
+          "image": "steam:2569760:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Midweek Deal is The Mound: Omen of Cthulhu at 35 percent off, down from 1,349 rupees to just 876 rupees.\nhttps://store.steampowered.com/app/2569760\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 10 2026, 02:57 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "The Mound: Omen of Cthulhu",
+        "The Mound: Omen of Cthulhu sale",
+        "The Mound: Omen of Cthulhu price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-2584270-25": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-2584270-25.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-a22824c3.mp4",
+    "data": {
+      "id": "deal-steam-deal-2584270-25",
+      "slot": "deals",
+      "badge": "STEAM MIDWEEK DEAL",
+      "headline": "Steam deal",
+      "title": "Mortal Shell II 25% OFF on Steam | Now Rs 2,249 | Steam Deal Nov 10",
+      "video_script": "Today's Steam Midweek Deal is Mortal Shell II at 25 percent off, down from 2,999 rupees to just 2,249 rupees. The deal ends on November 16. Their Flesh Is Your Weapon. Mortal Shell II is a standalone sequel action-RPG with adrenaline-charged, high-stakes combat. Possess warrior Shells, dethrone false gods, redeem a ravaged world. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2584270/0a4c23b70ced29fac344186ea564dae67c80cfd6/header.jpg?t=1794241756",
+          "label": "Mortal Shell II"
+        },
+        {
+          "image": "steam:2584270:0",
+          "fact": "-25%  Rs 2,249",
+          "sub": "was Rs 2,999"
+        },
+        {
+          "image": "steam:2584270:1",
+          "fact": "Action + RPG",
+          "sub": "Cold Symmetry"
+        },
+        {
+          "image": "steam:2584270:2",
+          "fact": "Ends Nov 16",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Midweek Deal is Mortal Shell II at 25 percent off, down from 2,999 rupees to just 2,249 rupees. The deal ends on November 16.\nhttps://store.steampowered.com/app/2584270\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 10 2026, 02:57 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Mortal Shell II",
+        "Mortal Shell II sale",
+        "Mortal Shell II price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-975370-20": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-975370-20.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-37e27443.mp4",
+    "data": {
+      "id": "deal-steam-deal-975370-20",
+      "slot": "deals",
+      "badge": "STEAM MIDWEEK DEAL",
+      "headline": "Steam deal",
+      "title": "Dwarf Fortress 20% OFF on Steam | Now Rs 1,079 | Steam Deal Nov 10",
+      "video_script": "Today's Steam Midweek Deal is Dwarf Fortress at 20 percent off, down from 1,349 rupees to just 1,079 rupees. Build a fortress and try to help your dwarves survive against a deeply generated world. Keep your dwarves happy, grow their community and beware of digging too deeply. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/975370/34e18f5695fffd64458b78110930abc5258ccd14/header.jpg?t=1788524920",
+          "label": "Dwarf Fortress"
+        },
+        {
+          "image": "steam:975370:0",
+          "fact": "-20%  Rs 1,079",
+          "sub": "was Rs 1,349"
+        },
+        {
+          "image": "steam:975370:1",
+          "fact": "Indie + Simulation + Strategy",
+          "sub": "Bay 12 Games"
+        },
+        {
+          "image": "steam:975370:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Midweek Deal is Dwarf Fortress at 20 percent off, down from 1,349 rupees to just 1,079 rupees.\nhttps://store.steampowered.com/app/975370\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 10 2026, 02:57 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Dwarf Fortress",
+        "Dwarf Fortress sale",
+        "Dwarf Fortress price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-5085890-40": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-5085890-40.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ba492c0c.mp4",
+    "data": {
+      "id": "deal-steam-deal-5085890-40",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Bouncemetry 40% OFF on Steam | Now Rs 95 | Steam Deal Nov 10",
+      "video_script": "Bouncemetry is on sale on Steam at 40 percent off, down from 159 rupees to just 95 rupees. The deal ends on November 23. An incremental game made of seven physics simulations. Drop balls into a ring until it shatters, steal links on a gravity-free lattice, sweep a reactor with a beam. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5085890/5ac4a8b668aaf072b4dcda70b6fc710fc52fd0e7/header.jpg?t=1794246877",
+          "label": "Bouncemetry"
+        },
+        {
+          "image": "steam:5085890:0",
+          "fact": "-40%  Rs 95",
+          "sub": "was Rs 159"
+        },
+        {
+          "image": "steam:5085890:1",
+          "fact": "Casual + Indie + Simulation",
+          "sub": "kohlgames"
+        },
+        {
+          "image": "steam:5085890:2",
+          "fact": "Ends Nov 23",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Bouncemetry is on sale on Steam at 40 percent off, down from 159 rupees to just 95 rupees. The deal ends on November 23.\nhttps://store.steampowered.com/app/5085890\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 10 2026, 02:57 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Bouncemetry",
+        "Bouncemetry sale",
+        "Bouncemetry price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-5130120-35": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-5130120-35.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ec223174.mp4",
+    "data": {
+      "id": "deal-steam-deal-5130120-35",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Evenicle - Next Fragment Medica 35% OFF on Steam | Now Rs 623 | Steam Deal Nov 10",
+      "video_script": "Evenicle - Next Fragment Medica is on sale on Steam at 35 percent off, down from 959 rupees to just 623 rupees. The deal ends on November 23. In a world where human civilization is threatened by monsters, only the rare few individuals who wield forbidden skills dare challenge them. However, these brave warriors have to face an even more dangerous hazard... Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5130120/a381f53a484a1acd8a679718aa55c86200e0bc82/header.jpg?t=1794247187",
+          "label": "Evenicle - Next Fragment Medica"
+        },
+        {
+          "image": "steam:5130120:0",
+          "fact": "-35%  Rs 623",
+          "sub": "was Rs 959"
+        },
+        {
+          "image": "steam:5130120:1",
+          "fact": "RPG",
+          "sub": "Alicesoft"
+        },
+        {
+          "image": "steam:5130120:2",
+          "fact": "Ends Nov 23",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Evenicle - Next Fragment Medica is on sale on Steam at 35 percent off, down from 959 rupees to just 623 rupees. The deal ends on November 23.\nhttps://store.steampowered.com/app/5130120\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 10 2026, 02:57 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Evenicle - Next Fragment Medica",
+        "Evenicle - Next Fragment Medica sale",
+        "Evenicle - Next Fragment Medica price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
   }
 }

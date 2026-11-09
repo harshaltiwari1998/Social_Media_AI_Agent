@@ -8408,5 +8408,19 @@
       "name": "Sceptmence",
       "types": "Grass/Dragon"
     }
+  },
+  "dbzfusion-Pichan": {
+    "kind": "motion",
+    "spec": "scripts/specs/dbz_fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\dbzfusion-Pichan\\final.mp4",
+    "data": {
+      "id": "Pichan",
+      "family": "dbz",
+      "fan": true,
+      "a": "Gohan",
+      "b": "Piccolo",
+      "name": "Pichan",
+      "types": "Fusion Dance"
+    }
   }
 }

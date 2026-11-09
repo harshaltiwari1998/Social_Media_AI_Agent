@@ -8270,5 +8270,18 @@
       "name": "Gotenks",
       "types": "Fusion Dance"
     }
+  },
+  "palfusion-Faleris+Suzaku": {
+    "kind": "motion",
+    "spec": "scripts/specs/pal_fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\palfusion-Faleris+Suzaku\\final.mp4",
+    "data": {
+      "id": "Faleris+Suzaku",
+      "family": "pal",
+      "a": "Faleris",
+      "b": "Suzaku",
+      "name": "Falezaku",
+      "types": "Fire"
+    }
   }
 }

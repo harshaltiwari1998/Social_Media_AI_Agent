@@ -294,7 +294,9 @@ def action_clip(spec: dict, work: Path, out: Path) -> Path:
     ho" after a 3 s still). "mode": "leap" - crouch, jump with motion trails, slam down with camera shake, a shockwave
     ring and a dust burst, then a breathing stance. "mode": "blast" - an energy ball charges in front of it while
     particles rush in, then fires at the camera: the glow fills the screen, flash, shake, smoke settles.
-    {"action": art_png_or_slug, "background": ref, "seconds": 3.6, "mode": "leap" | "blast", "color": [r, g, b]}"""
+    More moves, picked per type / character by pokemon_daily.MOVES: powerup, beam, breath, lightning, swirl, teleport,
+    fly, levitate (see more()).
+    {"action": art_png_or_slug, "background": ref, "seconds": 3.6, "mode": <move>, "color": [r, g, b]}"""
     if out.exists():
         return out
     from moviepy.editor import VideoClip
@@ -336,11 +338,168 @@ def action_clip(spec: dict, work: Path, out: Path) -> Path:
         a = aura.resize((int(aura.width * k), int(aura.height * k)), Image.BILINEAR)
         put(canvas, a, cx - a.width / 2, feet - art.height / 2 - a.height / 2, 0.7)
 
+
+    MORE = ("powerup", "beam", "breath", "lightning", "swirl", "teleport", "fly", "levitate")
+    shapes = rng.random((48, 4))    # angle, radius, speed, size - swirl / levitate / powerup rocks
+    bolts = [rng.random((9, 2)) for _ in range(6)]
+    top = feet - art.height
+    side = 1 if sum(map(ord, str(spec["action"]))) % 2 else -1  # which way beams / breath go
+
+    def jag(d, x0, y0, x1, y1, pts, width, fill):
+        line = [(x0, y0)]
+        for i, (jx, jy) in enumerate(pts[1:-1], 1):
+            k = i / (len(pts) - 1)
+            line.append((x0 + (x1 - x0) * k + (jx - 0.5) * 120, y0 + (y1 - y0) * k + (jy - 0.5) * 40))
+        line.append((x1, y1))
+        d.line(line, fill=fill, width=width, joint="curve")
+
+    def more(canvas, t):
+        """Character moves (owner 2026-11-09: not the same jump for everyone). Returns (shake, flash)."""
+        shake, flash = (0.0, 0.0), 0.0
+        d = ImageDraw.Draw(canvas)
+        if mode == "powerup":  # aura flares, rocks rise from the ground, the ground shakes, a burst at the peak
+            e = ease(t / (secs * 0.75))
+            aura_at(canvas, 1.0 + 0.5 * e + 0.05 * np.sin(t * 18))
+            for ang, rad, sp, sz in shapes[:22]:
+                x = cx + (ang - 0.5) * art.width * 2.0
+                y = feet + 20 - (t * (90 + 160 * sp)) * e
+                r = 8 + 20 * sz
+                d.polygon([(x - r, y), (x - r * 0.3, y - r), (x + r, y - r * 0.4), (x + r * 0.6, y + r * 0.6)],
+                          fill=(110 + int(40 * sz), 95, 80, 230))
+            b = body(1.0 + 0.02 * e, 1.0 + 0.03 * e)
+            put(canvas, b, cx - b.width / 2, feet - b.height)
+            amp = 4 + 14 * e
+            shake = (amp * np.sin(t * 77), amp * np.cos(t * 59))
+            if t > secs * 0.75:
+                k = (t - secs * 0.75) / (secs * 0.25)
+                flash = 0.6 * np.sin(np.pi * min(k, 1.0))
+        elif mode == "beam":  # charge between the hands at one side, then a long beam across the screen
+            t_fire = secs * 0.4
+            hx, hy = cx + side * art.width * 0.35, feet - art.height * 0.5
+            aura_at(canvas, 1.05 + 0.1 * min(t / t_fire, 1.0))
+            b = body(1.0, 1.0)
+            put(canvas, b, cx - b.width / 2, feet - b.height)
+            if t < t_fire:
+                rad = 40 + 120 * (t / t_fire)
+            else:
+                u = min((t - t_fire) / 0.35, 1.0)
+                end = hx + side * (W * 1.2) * u
+                thick = 210 + 30 * np.sin(t * 40)
+                x0, x1 = sorted((hx, end))
+                outer = glow.resize((max(2, int(x1 - x0) + int(thick * 2)), int(thick * 2)), Image.BILINEAR)
+                put(canvas, outer, x0 - thick, hy - thick)
+                d.rounded_rectangle([x0, hy - thick * 0.36, x1, hy + thick * 0.36], radius=int(thick * 0.36),
+                                    fill=(255, 255, 255, 235))
+                rad = 230
+                amp = 18
+                shake = (amp * np.sin(t * 83), amp * np.cos(t * 61))
+                flash = 0.25 if t - t_fire < 0.15 else 0.0
+            g = glow.resize((int(rad * 2), int(rad * 2)), Image.BILINEAR)
+            put(canvas, g, hx - rad, hy - rad)
+            put(canvas, g, hx - rad, hy - rad)
+        elif mode == "breath":  # a cone of fire / frost particles from the head across the screen
+            b = body(1.0, 1.0)
+            put(canvas, b, cx - b.width / 2, feet - b.height)
+            mx, my = cx + side * art.width * 0.25, top + art.height * 0.28
+            on = 0.5 < t < secs - 0.4
+            for ang, rad, sp, sz in shapes:
+                if not on:
+                    break
+                p_ = ((t * (1.2 + sp)) + ang) % 1.0
+                dist = p_ * W * 0.5  # most of a long stream ran off the screen
+                spread = (rad - 0.5) * 0.8 * p_
+                x = mx + side * dist
+                y = my + dist * (0.75 + spread)
+                r = 50 + 210 * p_ * (0.5 + sz)
+                g = glow.resize((int(r * 2), int(r * 2)), Image.BILINEAR)
+                put(canvas, g, x - r, y - r, min(1.0, 1.3 * (1 - p_)))
+            if on:
+                shake = (6 * np.sin(t * 70), 6 * np.cos(t * 50))
+        elif mode == "lightning":  # bolts strike around it, flash on each strike, its aura crackles
+            aura_at(canvas, 1.05 + 0.08 * np.sin(t * 25))
+            b = body(1.0, 1.0)
+            put(canvas, b, cx - b.width / 2, feet - b.height)
+            strike = int(t / (secs / 6))
+            k = (t % (secs / 6)) / (secs / 6)
+            if strike < 6 and k < 0.45:
+                pts = bolts[strike]
+                x = cx + (pts[0][0] - 0.5) * W * 0.9
+                for w_, fill in ((26, col + (120,)), (10, (255, 255, 255, 255))):
+                    jag(d, x, 0, x + (pts[0][1] - 0.5) * 200, feet + 10, pts, w_, fill)
+                flash = 0.35 * (1 - k / 0.45)
+                shake = (12 * np.sin(t * 90), 12 * np.cos(t * 70))
+        elif mode in ("swirl", "levitate"):  # orbiting leaves / shards (+ rings when levitating), then a burst
+            lev = mode == "levitate"
+            rise = 60 * ease(t / 1.0) if lev else 0.0
+            hov = 12 * np.sin(2 * np.pi * t / 1.3) if lev else 0.0
+            burst = ease((t - secs * 0.7) / (secs * 0.3))
+            if lev:
+                for i in range(3):
+                    rr = art.width * (0.55 + 0.18 * i) * (1 + 0.04 * np.sin(t * 3 + i))
+                    yy = feet - art.height * 0.5 - rise - hov
+                    d.ellipse([cx - rr, yy - rr * 0.28, cx + rr, yy + rr * 0.28], outline=col + (170,), width=6)
+            aura_at(canvas, 1.05)
+            behind, front = [], []
+            for ang, rad, sp, sz in shapes:
+                a_ = 2 * np.pi * ang + t * (1.5 + sp * 2)
+                rr = art.width * (0.45 + 0.4 * rad) * (1 + 2.5 * burst)
+                x = cx + np.cos(a_) * rr
+                y = feet - art.height * (0.2 + 0.6 * sp) - rise + np.sin(a_) * rr * 0.25
+                (front if np.sin(a_) > 0 else behind).append((x, y, sz, a_))
+
+            def leaf(x, y, sz, a_):
+                r = 22 + 26 * sz
+                pts = [(x + np.cos(a_ + q) * r * (1.0 if j % 2 == 0 else 0.4), y + np.sin(a_ + q) * r * (1.0 if j % 2 == 0 else 0.4))
+                       for j, q in enumerate((0, 1.57, 3.14, 4.71))]
+                d.polygon(pts, fill=col + (int(230 * (1 - 0.7 * burst)),), outline=(255, 255, 255, 160))
+
+            for it in behind:
+                leaf(*it)
+            b = body(1.0, 1.0)
+            put(canvas, b, cx - b.width / 2, feet - b.height - rise - hov)
+            for it in front:
+                leaf(*it)
+            if burst > 0:
+                flash = 0.3 * np.sin(np.pi * burst)
+        elif mode == "teleport":  # vanishes, flickers in at the left and right with afterimages, lands back
+            spots = [0.0, -0.32, 0.32, 0.0]
+            seg = secs / len(spots)
+            i = min(int(t / seg), len(spots) - 1)
+            k = (t - i * seg) / seg
+            x = cx + spots[i] * W
+            if i > 0 and k < 0.2:  # afterimage + streak from the old spot
+                b0 = body(1.0, 1.0)
+                put(canvas, b0, cx + spots[i - 1] * W - b0.width / 2, feet - b0.height, 0.35 * (1 - k / 0.2))
+                d.line([(cx + spots[i - 1] * W, feet - art.height * 0.5), (x, feet - art.height * 0.5)], fill=col + (180,), width=12)
+                flash = 0.3 if k < 0.08 else 0.0
+            if k > 0.2 or i == 0:
+                al = min(1.0, (k - 0.2) / 0.15) if i > 0 else 1.0
+                g = glow.resize((int(art.width * 1.6), int(art.height * 1.4)), Image.BILINEAR)
+                put(canvas, g, x - g.width / 2, feet - art.height * 0.5 - g.height / 2, 0.5 * al)
+                b = body(1.0, 1.0)
+                put(canvas, b, x - b.width / 2, feet - b.height, al)
+        elif mode == "fly":  # takes off with wind streaks, hovers high, lands back down
+            up = ease(t / (secs * 0.35)) - ease((t - secs * 0.75) / (secs * 0.25))
+            lift = up * min(520, max(160, py - 60))
+            hov = 16 * np.sin(2 * np.pi * t / 1.1) * up
+            if up > 0.05:
+                for ang, rad, sp, sz in shapes[:26]:
+                    x = cx + (ang - 0.5) * art.width * 1.6
+                    y = feet - lift + ((t * (900 + 600 * sp)) % 700)
+                    d.line([(x, y), (x, y + 60 + 80 * sz)], fill=(255, 255, 255, int(150 * up)), width=4)
+            b = body(1.0, 1.0)
+            put(canvas, b, cx - b.width / 2, feet - b.height - lift - hov)
+            if t > secs - 0.35:
+                shake = (10 * np.sin(t * 80), 10 * np.cos(t * 60))
+        return shake, flash
+
     def frame(t):
         canvas = base.copy()
         shake = (0.0, 0.0)
         flash = 0.0
-        if mode == "leap":
+        if mode in MORE:
+            shake, flash = more(canvas, t)
+        elif mode == "leap":
             t_jump, t_land = 0.5, 1.3
             if t < t_jump:  # crouch
                 e = ease(t / t_jump)
@@ -382,7 +541,7 @@ def action_clip(spec: dict, work: Path, out: Path) -> Path:
             br = 0.015 * np.sin(2 * np.pi * t / 1.5) if t > t_land + 0.3 else 0.0
             b = body(sx * (1 - br / 2), sy * (1 + br))
             put(canvas, b, cx - b.width / 2, feet - b.height - lift)
-        else:  # blast
+        elif mode == "blast":
             t_fire, t_flash = 1.6, 2.2
             ball_x, ball_y = cx, feet - art.height * 0.55
             if t < t_fire:  # charge

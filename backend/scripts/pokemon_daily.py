@@ -96,12 +96,18 @@ def art_ref(family: str, name: str) -> str:
     return str(path)
 
 
+def pair_id(pair: dict) -> str:
+    """Record / cache / post id of a pair: "<a>+<b>"; Dragon Ball uses the fusion's name - Goku + Vegeta is both
+    Gogeta (dance) and Vegito (Potara)."""
+    return pair["name"] if pair.get("family") == "dbz" else f"{pair['a']}+{pair['b']}"
+
+
 def fusion_meta(pair: dict) -> dict:
     fam = pair.get("family", "pokemon")
     a, b = pair["a"], pair["b"]
     types = pair.get("types") or pair.get("method") or "/".join(dict.fromkeys([fi.primary_type(a), fi.primary_type(b)]))
     disp = fi.display if fam == "pokemon" else (lambda n: n)
-    return {"id": f"{a}+{b}", "family": fam, "a": disp(a), "b": disp(b), "name": pair["name"], "types": types}
+    return {"id": pair_id(pair), "family": fam, **({"fan": True} if pair.get("fan") else {}), "a": disp(a), "b": disp(b), "name": pair["name"], "types": types}
 
 
 def fusion_post_id(meta: dict) -> str:
@@ -115,10 +121,16 @@ def fusion_post_text(meta: dict) -> tuple[str, list[str]]:
         return fi.post_text(meta)
     f = FAMILIES[fam]
     a, b, name, types, game = meta["a"], meta["b"], meta["name"], meta["types"], f["game"]
-    if fam == "dbz":  # canon fusions: types = how they fuse ("Fusion Dance" / "Potara Fusion")
-        title = f"{a} + {b} = {name} | Dragon Ball {types} | Fan Animation"
-        desc = (f"{a} and {b} become {name} with the {types}. Fan-made animation, not official Dragon Ball footage. "
-                "Which Dragon Ball fusion should we make next? Comment below!")
+    if fam == "dbz":  # types = how they fuse ("Fusion Dance" / "Potara Fusion")
+        if meta.get("fan"):  # not in the anime - never present it as canon
+            title = f"{a} + {b} = {name} | Dragon Ball Fan Fusion | What If"
+            desc = (f"What if {a} and {b} did the {types}? Meet {name} - a fan-made fusion that is NOT in the anime. "
+                    "Fan-made animation, not official Dragon Ball footage. Which Dragon Ball fusion should we make next? "
+                    "Comment below!")
+        else:
+            title = f"{a} + {b} = {name} | Dragon Ball {types} | Fan Animation"
+            desc = (f"{a} and {b} become {name} with the {types}. Fan-made animation, not official Dragon Ball footage. "
+                    "Which Dragon Ball fusion should we make next? Comment below!")
         tags = [a, b, name, f"{name} fusion", "Dragon Ball", "Dragon Ball Z", "DBZ", types, "fusion", "DBZ fusion",
                 "Dragon Ball fusion", "anime fusion", "Dragon Ball shorts", "anime shorts"]
         hashtags = " ".join(f"#{h}" for h in ["DragonBall", "DBZ", name.replace(" ", ""), "Anime", "Shorts"])
@@ -449,7 +461,26 @@ def fusion_base(pair: dict) -> tuple[str, str]:
 _KEEP = "the character keeps exactly the same design, shape and colors, anime style, smooth natural motion"
 
 
-FUSION_STYLE = 7
+FUSION_STYLE = 8
+# owner 2026-11-09: not the same jump for every fusion - two moves that fit the creature (fal_video.action_clip).
+# First move from the first type, second from the second type (or the first type's second option); Dragon Ball
+# pairs list their own "moves".
+MOVES = {"fire": ("breath", "powerup"), "water": ("swirl", "beam"), "electric": ("lightning", "teleport"),
+         "grass": ("swirl", "levitate"), "ice": ("swirl", "beam"), "ghost": ("teleport", "levitate"),
+         "dark": ("teleport", "blast"), "dragon": ("fly", "breath"), "psychic": ("levitate", "blast"),
+         "fairy": ("levitate", "swirl"), "fighting": ("leap", "powerup"), "normal": ("leap", "powerup"),
+         "rock": ("leap", "swirl"), "ground": ("leap", "powerup"), "steel": ("powerup", "beam"),
+         "flying": ("fly", "swirl"), "bug": ("fly", "swirl"), "poison": ("swirl", "levitate")}
+
+
+def fusion_moves(pair: dict, ta: str, tb: str) -> tuple[str, str]:
+    if pair.get("moves"):
+        return tuple(pair["moves"][:2])
+    first = MOVES.get(ta, ("leap", "blast"))
+    second = MOVES.get(tb, first)
+    m1 = first[0]
+    m2 = next((m for m in (second[0], second[1], first[1], "blast") if m != m1), "blast")
+    return m1, m2
 # aura / particle colour of the fused creature's first type (fal_video.idle_clip)
 TYPE_COLOR = {"fire": (255, 120, 40), "water": (60, 150, 255), "grass": (90, 210, 90), "electric": (255, 220, 50),
               "ghost": (150, 90, 230), "dragon": (90, 110, 255), "psychic": (255, 100, 200), "fighting": (230, 110, 50),
@@ -472,6 +503,7 @@ def fusion_storyboard(pair: dict, meta: dict, fused: Path) -> dict:
         bg_a = bg_b = pair["background"]
     still = lambda who, bg, secs: {"still": {"poke": who, "background": bg}, "seconds": secs, "zoom": [1.0, 1.12]}  # noqa: E731
     color = list(pair.get("color") or TYPE_COLOR.get(ta, (140, 190, 255)))
+    moves = fusion_moves(pair, ta, tb)
     act = lambda mode, secs: {"action": str(fused), "background": bg_a, "seconds": secs, "mode": mode, "color": color}  # noqa: E731
     ra, rb = art_ref(fam, pair["a"]), art_ref(fam, pair["b"])
     clips = [still(ra, bg_a, 4.0),
@@ -479,8 +511,8 @@ def fusion_storyboard(pair: dict, meta: dict, fused: Path) -> dict:
              {"fuse": [ra, rb, str(fused)], "background": bg_a, "seconds": 3.8},
              # owner 2026-11-09: hold the new creature still for 3 s, then let it DO something (local, design-safe)
              {"still": {"poke": str(fused), "background": bg_a}, "seconds": 3.0, "zoom": [1.0, 1.0], "white_in": 0.6},
-             act("leap", 3.6),
-             act("blast", 4.5),  # + joke
+             act(moves[0], 4.0),
+             act(moves[1], 4.5),  # + joke
              {"still": str(fused.parent / "scene_03.jpg"), "seconds": 5.5, "zoom": [1.05, 1.15]}]  # closing question
     joke = humor.pick({"pokemon": "fusion", "pal": "palfusion", "dbz": "dbzfusion"}[fam], meta["id"])
     if fam == "dbz":
@@ -488,7 +520,8 @@ def fusion_storyboard(pair: dict, meta: dict, fused: Path) -> dict:
         narration = [f"{a} and {b} are about to fuse!", f"Here comes {b}!",
                      "Fu... sion... HA!" if dance else "The Potara earrings are on!",
                      "Fusion complete!", f"Meet {name}!", joke,
-                     f"{name}, born from the {pair['method']}. Which Dragon Ball fusion should we make next? Comment below!"]
+                     (f"{name}, a fan-made {pair['method']} fusion." if pair.get("fan") else f"{name}, born from the {pair['method']}.")
+                     + " Which Dragon Ball fusion should we make next? Comment below!"]
     else:
         narration = [f"What happens when {a} fuses with {b}?", f"And here comes {b}!", f"{a} and {b} are fusing!",
                      "Fusion complete!", f"Meet {name}!", joke,
@@ -507,7 +540,7 @@ def make_fusion(pair: dict, poster, games: dict) -> None:
     if old_style != FUSION_STYLE:
         # clips of an older style would be mixed in - redraw them. Fused art: kept for old `look` pairs (Kontext style 2/3),
         # always redrawn for `fuse` pairs (it may be a Kontext fallback from before 2026-11-09; Qwen takes ~25 s)
-        keep_art = (old_style in (2, 3) and not pair.get("fuse")) or old_style == 6  # style 6+: approved Qwen-2.1 art
+        keep_art = (old_style in (2, 3) and not pair.get("fuse")) or (old_style or 0) >= 6  # 6+: approved Qwen-2.1 art
         for f in [*out.glob("clip_*"), *out.glob("scene_*.jpg"), board, *([] if keep_art else [out / "fused.png"])]:
             f.unlink(missing_ok=True)
     fused = fusion_image(pair, out / "fused.png")
@@ -578,7 +611,7 @@ def main() -> None:
         print(json.dumps(storyboard(next(e for e in queue if e["id"] == args.plan)), indent=2))
         return
     if args.fusion_image:
-        pair = next(p for p in pairs if f"{p['a']}+{p['b']}" == args.fusion_image)
+        pair = next(p for p in pairs if pair_id(p) == args.fusion_image)
         print(fusion_image(pair, CACHE / f"{FAMILIES[pair['family']]['key']}-{args.fusion_image}" / "fused.png"))
         return
     log_dir = ROOT / dj.settings.media_output_dir / "logs"
@@ -615,7 +648,7 @@ def main() -> None:
     for fam, cap in (("pokemon", args.max_fusions), ("pal", args.max_pal_fusions), ("dbz", args.max_dbz_fusions)):
         k = FAMILIES[fam]["key"]
         fusions += [("fusion", p) for p in load_pairs(fam)
-                    if f"{k}-{p['a']}+{p['b']}" not in games and f"{k}-{p['b']}+{p['a']}" not in games][:cap]
+                    if f"{k}-{pair_id(p)}" not in games and f"{k}-{p['b']}+{p['a']}" not in games][:cap]
     jobs = [job for k in range(max(len(evos), len(fusions))) for job in (evos[k:k + 1] + fusions[k:k + 1])]
     for kind, item in jobs:
         try:

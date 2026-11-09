@@ -10,7 +10,11 @@
    60
   ],
   "background": "wiki:Canyon",
-  "fuse": "Gogeta from Dragon Ball Super: Broly, the Fusion Dance fusion of Goku and Vegeta, exactly his official design: spiky black hair with one bang over the forehead, an OPEN black Metamoran vest jacket with thick yellow padded trim along its edges and shoulders, worn over his bare muscular chest, white baggy pants, a teal-blue sash belt, black wristbands and boots"
+  "fuse": "Gogeta from Dragon Ball Super: Broly, the Fusion Dance fusion of Goku and Vegeta, exactly his official design: spiky black hair with one bang over the forehead, an OPEN black Metamoran vest jacket with thick yellow padded trim along its edges and shoulders, worn over his bare muscular chest, white baggy pants, a teal-blue sash belt, black wristbands and boots",
+  "moves": [
+   "powerup",
+   "beam"
+  ]
  },
  {
   "a": "Goten",
@@ -23,7 +27,11 @@
    60
   ],
   "background": "wiki:Canyon",
-  "fuse": "Gotenks from Dragon Ball Z, the Fusion Dance fusion of kid Goten and kid Trunks, exactly his official design: a cocky young boy with spiky hair, an OPEN dark blue Metamoran vest jacket with thick yellow padded trim along its edges and shoulders, worn over his bare chest, white baggy pants, a sash belt and boots"
+  "fuse": "Gotenks from Dragon Ball Z, the Fusion Dance fusion of kid Goten and kid Trunks, exactly his official design: a cocky young boy with spiky hair, an OPEN dark blue Metamoran vest jacket with thick yellow padded trim along its edges and shoulders, worn over his bare chest, white baggy pants, a sash belt and boots",
+  "moves": [
+   "powerup",
+   "blast"
+  ]
  },
  {
   "a": "Goku",
@@ -36,7 +44,11 @@
    60
   ],
   "background": "wiki:Canyon",
-  "fuse": "Vegito from Dragon Ball, exactly the official design, the Potara fusion of Goku and Vegeta, wearing a Potara earring on each ear"
+  "fuse": "Vegito from Dragon Ball, exactly the official design, the Potara fusion of Goku and Vegeta, wearing a Potara earring on each ear",
+  "moves": [
+   "teleport",
+   "beam"
+  ]
  },
  {
   "a": "Caulifla",
@@ -49,7 +61,11 @@
    90
   ],
   "background": "wiki:Canyon",
-  "fuse": "Kefla from Dragon Ball, exactly the official design, the Potara fusion of Caulifla and Kale, wearing a Potara earring on each ear"
+  "fuse": "Kefla from Dragon Ball, exactly the official design, the Potara fusion of Caulifla and Kale, wearing a Potara earring on each ear",
+  "moves": [
+   "powerup",
+   "blast"
+  ]
  },
  {
   "a": "Kibito",
@@ -62,7 +78,11 @@
    255
   ],
   "background": "wiki:Aurora",
-  "fuse": "Kibito Kai from Dragon Ball, exactly the official design, the Potara fusion of Kibito and Supreme Kai, wearing a Potara earring on each ear"
+  "fuse": "Kibito Kai from Dragon Ball, exactly the official design, the Potara fusion of Kibito and Supreme Kai, wearing a Potara earring on each ear",
+  "moves": [
+   "levitate",
+   "teleport"
+  ]
  },
  {
   "a": "Goku Black",
@@ -75,6 +95,64 @@
    190
   ],
   "background": "wiki:Aurora",
-  "fuse": "Fused Zamasu from Dragon Ball, exactly the official design, the Potara fusion of Goku Black and Zamasu, wearing a Potara earring on each ear"
+  "fuse": "Fused Zamasu from Dragon Ball, exactly the official design, the Potara fusion of Goku Black and Zamasu, wearing a Potara earring on each ear",
+  "moves": [
+   "levitate",
+   "beam"
+  ]
+ },
+ {
+  "a": "Goku",
+  "b": "Piccolo",
+  "name": "Gokkolo",
+  "method": "Fusion Dance",
+  "fan": true,
+  "color": [
+   120,
+   230,
+   120
+  ],
+  "background": "wiki:Canyon",
+  "moves": [
+   "powerup",
+   "beam"
+  ],
+  "fuse": "Gokkolo, a fan-made Fusion Dance fusion of Goku and Piccolo: Goku's face shape and spiky black hair with Piccolo's green skin, pointed ears and two antennae on the forehead, a muscular build, wearing the Metamoran fusion outfit - an open dark vest with thick yellow padding along its edges and shoulders, white baggy pants with a sash belt, boots, plus Piccolo's white cape over the shoulders"
+ },
+ {
+  "a": "Goku",
+  "b": "Gohan",
+  "name": "Gokhan",
+  "method": "Fusion Dance",
+  "fan": true,
+  "color": [
+   255,
+   205,
+   60
+  ],
+  "background": "wiki:Canyon",
+  "moves": [
+   "powerup",
+   "beam"
+  ],
+  "fuse": "Gokhan, a fan-made Fusion Dance fusion of Goku and his son Gohan: a young adult Saiyan with spiky black hair mixing Goku's and adult Gohan's hairstyles, a calm confident face, a muscular build, wearing the Metamoran fusion outfit - an open dark vest with thick yellow padding along its edges and shoulders, white baggy pants with a sash belt, boots"
+ },
+ {
+  "a": "Piccolo",
+  "b": "Beerus",
+  "name": "Piccorus",
+  "method": "Fusion Dance",
+  "fan": true,
+  "color": [
+   190,
+   120,
+   255
+  ],
+  "background": "wiki:Canyon",
+  "moves": [
+   "levitate",
+   "blast"
+  ],
+  "fuse": "Piccorus, a fan-made Fusion Dance fusion of Piccolo and Beerus: a tall slim god-like warrior with green-and-purple skin, Piccolo's two antennae plus Beerus's big pointed cat ears, sharp yellow eyes, Beerus's gold Egyptian-style collar necklace, gold arm and ankle bands, dark baggy pants with a wide sash, and Piccolo's white cape"
  }
 ]

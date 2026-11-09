@@ -80,11 +80,10 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   one was flood-filled and punched holes in white faces) (the other parent is
   NOT named in the prompt - naming it made Kontext just redraw that Pokemon), and the fusion itself is drawn locally
   (`fal_video.fuse_clip`: both parents' white silhouettes slide together, swap with the fused form, white screen).
-  Style 7 since 2026-11-09: parent A still, parent B still (art on a background, slow zoom), the drawn fusion, the
-  fused creature fades in from white and holds still 3 s, then DOES something (owner: "kuch kar raha ho"):
-  `fal_video.action_clip` "leap" (crouch, jump with motion trails, slam + shake + shockwave ring + dust) and
-  "blast" (energy ball charges, fires at the camera, flash, sparks), all drawn locally from the fused PNG, + a
-  closing still. **No Wan on fusions**: it turned Darkceus into a different
+  Style 8 since 2026-11-09: parent A still, parent B still, the drawn fusion, the fused creature holds still 3 s,
+  then does TWO moves that fit it (owner: "not the same jump for everyone"): `fal_video.action_clip` modes leap,
+  blast, powerup, beam, breath, lightning, swirl, teleport, fly, levitate - picked by `pokemon_daily.MOVES` from
+  the first/second type; Dragon Ball pairs list their own `moves`. All drawn locally from the fused PNG. **No Wan on fusions**: it turned Darkceus into a different
   bearded character and broke its eyes (owner: "bakwas") - complex fused designs do not survive it. **Automatic fusions are paused** (`--max-fusions` default 0) until the owner approves
   the Qwen art; one-off fusions on request still work. Older-style clips in a pair's cache are thrown away
   (style-2/3 fused art is kept; shared `fusion-<a>+<b>` record).
@@ -101,6 +100,9 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   character. Narration says "Fu... sion... HA!" (dance) / "The Potara earrings are on!". `--max-dbz-fusions`
   (default 0), records `dbzfusion-<a>+<b>`, playlist "Dragon Ball Fusions", joke pool `dbzfusion`. Every Qwen
   draw uses a random seed (a fixed seed redrew the same failed Snorcanine).
+  Fan fusions on request (`"fan": true` - Gokkolo, Gokhan, Piccorus): titled "Fan Fusion | What If" and the
+  description says it is NOT in the anime. Pair ids for Dragon Ball = the fusion's name (Goku + Vegeta is both
+  Gogeta and Vegito), `pokemon_daily.pair_id`.
   Gogeta's first Qwen-2.1 draw had no Metamoran vest: its `fuse` text now spells out the Super: Broly design (open
   black vest, yellow padding, teal sash) and the approved art came from HF Inference Providers (`fal-ai/qwen-image`
   via router.huggingface.co, billed to the HF credits - these DO work with the token's Inference Providers
@@ -257,6 +259,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-09 - Fusion style 8: two type/character-based moves per fusion (10 local moves); DBZ fan fusions; Gogeta posted.
 - 2026-11-09 - rembg isnet-anime cutout for fused art; Gogeta drawn via HF Inference Providers (credits); jump height capped for tall characters.
 - 2026-11-09 - Fusion style 7: 3 s still, then local leap-and-slam + energy-blast actions; Gogeta/Gotenks vest described (open vest, yellow padding).
 - 2026-11-09 - Canon Dragon Ball fusion shorts (6 pairs, Qwen fan art), random Qwen seeds.

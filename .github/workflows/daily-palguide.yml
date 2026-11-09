@@ -22,13 +22,13 @@ permissions:
 
 jobs:
   gaming:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04  # pinned: ubuntu-latest moves to Ubuntu 26 from 2026-10-19
     timeout-minutes: 90
     defaults:
       run:
         working-directory: backend
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Restore posting state
         run: |
@@ -42,7 +42,7 @@ jobs:
           done
 
       - name: Restore trailer cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           # Steam trailers (minutes to download) and Wan-animated Pals (GPU quota) played inside the shorts.
           path: |
@@ -51,7 +51,7 @@ jobs:
           key: trailers-${{ github.run_id }}
           restore-keys: trailers-
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
@@ -132,7 +132,7 @@ jobs:
 
       - name: Upload log
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: palguide-log
           path: backend/media_output/logs/

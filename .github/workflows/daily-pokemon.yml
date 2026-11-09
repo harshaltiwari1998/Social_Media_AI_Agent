@@ -18,13 +18,13 @@ permissions:
 
 jobs:
   pokemon:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04  # pinned: ubuntu-latest moves to Ubuntu 26 from 2026-10-19
     timeout-minutes: 60
     defaults:
       run:
         working-directory: backend
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Restore posting state and clip cache
         run: |
@@ -41,7 +41,7 @@ jobs:
           fi
           ls -R media_output/pokemon 2>/dev/null | head -40 || true
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
@@ -134,7 +134,7 @@ jobs:
 
       - name: Upload log
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: pokemon-log
           path: backend/media_output/logs/

@@ -14,13 +14,13 @@ permissions:
 
 jobs:
   report:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04  # pinned: ubuntu-latest moves to Ubuntu 26 from 2026-10-19
     timeout-minutes: 15
     defaults:
       run:
         working-directory: backend
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Restore posting state
         run: |
@@ -30,7 +30,7 @@ jobs:
             git show "origin/gaming-state:$f" > "media_output/$f" 2>/dev/null || rm -f "media_output/$f"
           done
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip

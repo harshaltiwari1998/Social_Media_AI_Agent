@@ -238,6 +238,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-09 - Actions on Node 24 (checkout@v5, setup-python@v6, cache@v5, upload-artifact@v6); runners pinned to ubuntu-24.04.
 - 2026-11-09 - Workflow downloads (Hindi fonts, cloudflared) retry 5x; fonts fall back to jsDelivr; a cloudflared failure only warns.
 - 2026-11-09 - Fusion style 6: 2 s still of the fused creature, then local idle/power-up animation (no Wan).
 - 2026-11-09 - Fused art from the Qwen Super-Fusion LoRA Space + flat-background cutout; no Kontext fallback for `fuse` pairs.

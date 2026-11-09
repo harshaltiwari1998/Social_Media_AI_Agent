@@ -6659,5 +6659,134 @@
       "unique": false,
       "key": "Sibelyx 5"
     }
+  },
+  "Lunaris 5": {
+    "spec": "scripts/specs/palworld_lunaris_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-7130237b.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Lunaris",
+      "caption": "5 ways to breed Lunaris in Palworld 1.0: Dumud + Tarantriss, Nyafia + Killamari, Helzephyr + Cremis, Finsider + Felbat, Majex + Sparkit.",
+      "video_script": "Here are five ways to breed Lunaris in Palworld one point zero. Combo one: breed Dumud with Tarantriss on your Breeding Farm, then add a cake. Combo two: pair Nyafia and Killamari together, and you get the same egg. Combo three: Helzephyr plus Cremis works too, so use whichever Pals you have. Combo four: Finsider with Felbat is another easy option. Combo five: breed Majex with Sparkit on your Breeding Farm, then add a cake. Every egg hatches into Lunaris. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Dumud",
+        "Tarantriss"
+      ],
+      "combos": [
+        [
+          "Dumud",
+          "Tarantriss"
+        ],
+        [
+          "Nyafia",
+          "Killamari"
+        ],
+        [
+          "Helzephyr",
+          "Cremis"
+        ],
+        [
+          "Finsider",
+          "Felbat"
+        ],
+        [
+          "Majex",
+          "Sparkit"
+        ]
+      ],
+      "child": "Lunaris",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false,
+      "key": "Lunaris 5"
+    }
+  },
+  "Caprity 5": {
+    "spec": "scripts/specs/palworld_caprity_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b42eb43c.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Caprity",
+      "caption": "5 ways to breed Caprity in Palworld 1.0: Amione + Flambelle, Finsider + Killamari, Dumud + Pupperai, Kelpsea + Turtacle, Puffolt + Ribbuny.",
+      "video_script": "Here are five ways to breed Caprity in Palworld one point zero. Combo one: breed Amione with Flambelle on your Breeding Farm, then add a cake. Combo two: pair Finsider and Killamari together, and you get the same egg. Combo three: Dumud plus Pupperai works too, so use whichever Pals you have. Combo four: Kelpsea with Turtacle is another easy option. Combo five: breed Puffolt with Ribbuny on your Breeding Farm, then add a cake. Every egg hatches into Caprity. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Amione",
+        "Flambelle"
+      ],
+      "combos": [
+        [
+          "Amione",
+          "Flambelle"
+        ],
+        [
+          "Finsider",
+          "Killamari"
+        ],
+        [
+          "Dumud",
+          "Pupperai"
+        ],
+        [
+          "Kelpsea",
+          "Turtacle"
+        ],
+        [
+          "Puffolt",
+          "Ribbuny"
+        ]
+      ],
+      "child": "Caprity",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false,
+      "key": "Caprity 5"
+    }
+  },
+  "Tocotoco 5": {
+    "spec": "scripts/specs/palworld_tocotoco_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-4de10c2c.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Tocotoco",
+      "caption": "5 ways to breed Tocotoco in Palworld 1.0: Dazzi + Vixy, Finsider + Sparkit, Flopie + Mozzarina, Turtacle + Lamball, Galeclaw + Cremis.",
+      "video_script": "Here are five ways to breed Tocotoco in Palworld one point zero. Combo one: breed Dazzi with Vixy on your Breeding Farm, then add a cake. Combo two: pair Finsider and Sparkit together, and you get the same egg. Combo three: Flopie plus Mozzarina works too, so use whichever Pals you have. Combo four: Turtacle with Lamball is another easy option. Combo five: breed Galeclaw with Cremis on your Breeding Farm, then add a cake. Every egg hatches into Tocotoco. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Dazzi",
+        "Vixy"
+      ],
+      "combos": [
+        [
+          "Dazzi",
+          "Vixy"
+        ],
+        [
+          "Finsider",
+          "Sparkit"
+        ],
+        [
+          "Flopie",
+          "Mozzarina"
+        ],
+        [
+          "Turtacle",
+          "Lamball"
+        ],
+        [
+          "Galeclaw",
+          "Cremis"
+        ]
+      ],
+      "child": "Tocotoco",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false,
+      "key": "Tocotoco 5"
+    }
   }
 }

@@ -8514,5 +8514,40 @@
       "name": "Gokiren",
       "types": "Fusion Dance"
     }
+  },
+  "palworld-armor-and-weapons-progression-guide": {
+    "spec": "scripts/specs/long/gaming_83_palworld-armor-and-weapons-progression-guide.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-427ae890.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-427ae890-thumb.jpg",
+    "chapters": "0:00 Palworld gear progression\n0:33 Level eighty and the new ladder\n1:16 Early armor\n1:53 Mid game armor\n2:37 Ancient armor\n3:12 Soralite and Paloxite\n3:45 Mechanical Bow\n4:20 Soralite firearms and melee\n5:00 Paloxite weapons\n5:43 How to compare weapons\n6:18 Your upgrade path"
+  },
+  "aniimo-popapus-rigged-odds-build": {
+    "spec": "scripts/specs/games/aniimo_194_aniimo-popapus-rigged-odds-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-07460eaa.mp4"
+  },
+  "aniimo-how-to-get-puffby": {
+    "spec": "scripts/specs/games/aniimo_195_aniimo-how-to-get-puffby.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-7808f2d3.mp4"
+  },
+  "aniimo-how-to-get-prawnch": {
+    "spec": "scripts/specs/games/aniimo_196_aniimo-how-to-get-prawnch.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e6f36698.mp4"
+  },
+  "aniimo-how-to-get-shelly": {
+    "spec": "scripts/specs/games/aniimo_197_aniimo-how-to-get-shelly.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-44e51fb9.mp4"
+  },
+  "aniimo-sparkelf-event-eggs-until-december": {
+    "spec": "scripts/specs/games/aniimo_198_aniimo-sparkelf-event-eggs-until-december.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-1547add4.mp4"
+  },
+  "palworld-guide-tombat-ultrasonic-sensor-detect-dungeons": {
+    "spec": "scripts/specs/games/palguide_157_palworld-guide-tombat-ultrasonic-sensor-detect-dungeons.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-50530d02.mp4"
+  },
+  "palworld-guide-foxcicle-aurora-guide-ice-attack": {
+    "spec": "scripts/specs/games/palguide_158_palworld-guide-foxcicle-aurora-guide-ice-attack.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-1a7bd9a9.mp4"
   }
 }

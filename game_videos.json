@@ -9011,5 +9011,25 @@
       "name": "Cellgeta",
       "types": "Fusion Dance"
     }
+  },
+  "stone-mewtwo-water": {
+    "kind": "motion",
+    "spec": "scripts/specs/mewtwo_stones.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\stone-mewtwo-water\\final.mp4",
+    "data": {
+      "key": "water",
+      "stone": "Water Stone",
+      "type": "water",
+      "form": "Water Mewtwo",
+      "mega": "Mega Water Mewtwo",
+      "stone_look": "a glowing clear blue gemstone with a white wave pattern inside it",
+      "form_look": "ocean blue body with a white belly, fin-like crests on the head and forearms, a long tail ending in a fish-like fin",
+      "mega_look": "bigger and more powerful: sleek armour like a shell on the shoulders, large flowing fins, a tail that splits into two fins, glowing aqua markings",
+      "moves": [
+        "swirl",
+        "beam"
+      ],
+      "joke": "It punched a Water Stone and now it needs a towel."
+    }
   }
 }

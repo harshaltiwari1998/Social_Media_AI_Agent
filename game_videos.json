@@ -9065,5 +9065,19 @@
       ],
       "joke": "Its hair will never sit flat again."
     }
+  },
+  "dbzfusion-Cellza": {
+    "kind": "motion",
+    "spec": "scripts/specs/dbz_fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\dbzfusion-Cellza\\final.mp4",
+    "data": {
+      "id": "Cellza",
+      "family": "dbz",
+      "fan": true,
+      "a": "Frieza",
+      "b": "Cell",
+      "name": "Cellza",
+      "types": "Fusion Dance"
+    }
   }
 }

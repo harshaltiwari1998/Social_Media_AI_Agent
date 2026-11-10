@@ -6917,5 +6917,134 @@
       "unique": false,
       "key": "Cinnamoth 5"
     }
+  },
+  "Reptyro 5": {
+    "spec": "scripts/specs/palworld_reptyro_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-2c5b92fc.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Reptyro",
+      "caption": "5 ways to breed Reptyro in Palworld 1.0: Nyafia + Ghangler, Celesdir + Digtoise, Broncherry + Moldron, Pierdon + Majex, Flaracle + Tarantriss.",
+      "video_script": "Here are five ways to breed Reptyro in Palworld one point zero. Combo one: breed Nyafia with Ghangler on your Breeding Farm, then add a cake. Combo two: pair Celesdir and Digtoise together, and you get the same egg. Combo three: Broncherry plus Moldron works too, so use whichever Pals you have. Combo four: Pierdon with Majex is another easy option. Combo five: breed Flaracle with Tarantriss on your Breeding Farm, then add a cake. Every egg hatches into Reptyro. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Nyafia",
+        "Ghangler"
+      ],
+      "combos": [
+        [
+          "Nyafia",
+          "Ghangler"
+        ],
+        [
+          "Celesdir",
+          "Digtoise"
+        ],
+        [
+          "Broncherry",
+          "Moldron"
+        ],
+        [
+          "Pierdon",
+          "Majex"
+        ],
+        [
+          "Flaracle",
+          "Tarantriss"
+        ]
+      ],
+      "child": "Reptyro",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false,
+      "key": "Reptyro 5"
+    }
+  },
+  "Verdash 5": {
+    "spec": "scripts/specs/palworld_verdash_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5dfa7539.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Verdash",
+      "caption": "5 ways to breed Verdash in Palworld 1.0: Moldron + Felbat, Jormuntide + Tarantriss, Bulldosu + Helzephyr, Silvegis + Smokie, Aegidron + Dumud.",
+      "video_script": "Here are five ways to breed Verdash in Palworld one point zero. Combo one: breed Moldron with Felbat on your Breeding Farm, then add a cake. Combo two: pair Jormuntide and Tarantriss together, and you get the same egg. Combo three: Bulldosu plus Helzephyr works too, so use whichever Pals you have. Combo four: Silvegis with Smokie is another easy option. Combo five: breed Aegidron with Dumud on your Breeding Farm, then add a cake. Every egg hatches into Verdash. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Moldron",
+        "Felbat"
+      ],
+      "combos": [
+        [
+          "Moldron",
+          "Felbat"
+        ],
+        [
+          "Jormuntide",
+          "Tarantriss"
+        ],
+        [
+          "Bulldosu",
+          "Helzephyr"
+        ],
+        [
+          "Silvegis",
+          "Smokie"
+        ],
+        [
+          "Aegidron",
+          "Dumud"
+        ]
+      ],
+      "child": "Verdash",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false,
+      "key": "Verdash 5"
+    }
+  },
+  "Icelyn 5": {
+    "spec": "scripts/specs/palworld_icelyn_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5385e393.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Icelyn",
+      "caption": "5 ways to breed Icelyn in Palworld 1.0: Ghangler + Vanwyrm, Shroomer + Majex, Splatterina + Mimog, Prunelia + Helzephyr, Reptyro + Incineram.",
+      "video_script": "Here are five ways to breed Icelyn in Palworld one point zero. Combo one: breed Ghangler with Vanwyrm on your Breeding Farm, then add a cake. Combo two: pair Shroomer and Majex together, and you get the same egg. Combo three: Splatterina plus Mimog works too, so use whichever Pals you have. Combo four: Prunelia with Helzephyr is another easy option. Combo five: breed Reptyro with Incineram on your Breeding Farm, then add a cake. Every egg hatches into Icelyn. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Ghangler",
+        "Vanwyrm"
+      ],
+      "combos": [
+        [
+          "Ghangler",
+          "Vanwyrm"
+        ],
+        [
+          "Shroomer",
+          "Majex"
+        ],
+        [
+          "Splatterina",
+          "Mimog"
+        ],
+        [
+          "Prunelia",
+          "Helzephyr"
+        ],
+        [
+          "Reptyro",
+          "Incineram"
+        ]
+      ],
+      "child": "Icelyn",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false,
+      "key": "Icelyn 5"
+    }
   }
 }

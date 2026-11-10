@@ -9272,5 +9272,40 @@
         "dragonite-mega"
       ]
     }
+  },
+  "palworld-14-pals-useful-partner-skills": {
+    "spec": "scripts/specs/long/gaming_84_palworld-14-pals-useful-partner-skills.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-7b64447d.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-7b64447d-thumb.jpg",
+    "chapters": "0:00 14 Pals with useful partner skills\n0:41 Rooby and Pyrin: the Fire pair\n1:25 Water and Ice: Azurobe, Polapup and Foxcicle\n2:15 Cinnamoth and Petallia: the base boosters\n3:08 Elgrove and Vaelet: Grass power\n3:56 Felbat and Hoodle: the Dark pair\n4:43 Galeclaw and Tombat: the explorers\n5:29 Tarantriss: the web mount\n6:15 How to pick the right partner skill\n7:01 Which one is your favourite"
+  },
+  "aniimo-how-to-get-reefish": {
+    "spec": "scripts/specs/games/aniimo_205_aniimo-how-to-get-reefish.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-62214543.mp4"
+  },
+  "aniimo-coraliz-coral-mark-build": {
+    "spec": "scripts/specs/games/aniimo_206_aniimo-coraliz-coral-mark-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-fb98c78b.mp4"
+  },
+  "aniimo-how-to-get-bubbeep": {
+    "spec": "scripts/specs/games/aniimo_207_aniimo-how-to-get-bubbeep.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b3300d37.mp4"
+  },
+  "aniimo-glameep-healer-shield-guide": {
+    "spec": "scripts/specs/games/aniimo_208_aniimo-glameep-healer-shield-guide.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-84612f8d.mp4"
+  },
+  "aniimo-malangel-to-malevsera-ice-evolution": {
+    "spec": "scripts/specs/games/aniimo_209_aniimo-malangel-to-malevsera-ice-evolution.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-23656fc9.mp4"
+  },
+  "dinossom-fragrant-dragon-planting-lumbering": {
+    "spec": "scripts/specs/games/palguide_163_dinossom-fragrant-dragon-planting-lumbering.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-4df5bd28.mp4"
+  },
+  "gildane-sandstorms-blessing-feybreak-ground-mount": {
+    "spec": "scripts/specs/games/palguide_164_gildane-sandstorms-blessing-feybreak-ground-mount.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-3238e10f.mp4"
   }
 }

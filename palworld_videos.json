@@ -6788,5 +6788,91 @@
       "unique": false,
       "key": "Tocotoco 5"
     }
+  },
+  "Pengullet 5": {
+    "spec": "scripts/specs/palworld_pengullet_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-4c3adbd2.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Pengullet",
+      "caption": "5 ways to breed Pengullet in Palworld 1.0: Swee + Chikipi, Jolthog + Cremis, Tanzee + Lifmunk, Ribbuny + Vixy, Hoocrates + Fuack.",
+      "video_script": "Here are five ways to breed Pengullet in Palworld one point zero. Combo one: breed Swee with Chikipi on your Breeding Farm, then add a cake. Combo two: pair Jolthog and Cremis together, and you get the same egg. Combo three: Tanzee plus Lifmunk works too, so use whichever Pals you have. Combo four: Ribbuny with Vixy is another easy option. Combo five: breed Hoocrates with Fuack on your Breeding Farm, then add a cake. Every egg hatches into Pengullet. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Swee",
+        "Chikipi"
+      ],
+      "combos": [
+        [
+          "Swee",
+          "Chikipi"
+        ],
+        [
+          "Jolthog",
+          "Cremis"
+        ],
+        [
+          "Tanzee",
+          "Lifmunk"
+        ],
+        [
+          "Ribbuny",
+          "Vixy"
+        ],
+        [
+          "Hoocrates",
+          "Fuack"
+        ]
+      ],
+      "child": "Pengullet",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false,
+      "key": "Pengullet 5"
+    }
+  },
+  "Galeclaw 5": {
+    "spec": "scripts/specs/palworld_galeclaw_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-320c5d4c.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Galeclaw",
+      "caption": "5 ways to breed Galeclaw in Palworld 1.0: Finsider + Bristla, Tocotoco + Turtacle, Dumud + Ribbuny, Dazzi + Celaray, Flopie + Muffly.",
+      "video_script": "Here are five ways to breed Galeclaw in Palworld one point zero. Combo one: breed Finsider with Bristla on your Breeding Farm, then add a cake. Combo two: pair Tocotoco and Turtacle together, and you get the same egg. Combo three: Dumud plus Ribbuny works too, so use whichever Pals you have. Combo four: Dazzi with Celaray is another easy option. Combo five: breed Flopie with Muffly on your Breeding Farm, then add a cake. Every egg hatches into Galeclaw. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Finsider",
+        "Bristla"
+      ],
+      "combos": [
+        [
+          "Finsider",
+          "Bristla"
+        ],
+        [
+          "Tocotoco",
+          "Turtacle"
+        ],
+        [
+          "Dumud",
+          "Ribbuny"
+        ],
+        [
+          "Dazzi",
+          "Celaray"
+        ],
+        [
+          "Flopie",
+          "Muffly"
+        ]
+      ],
+      "child": "Galeclaw",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false,
+      "key": "Galeclaw 5"
+    }
   }
 }

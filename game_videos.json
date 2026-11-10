@@ -8938,5 +8938,44 @@
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-c86e6552.mp4",
     "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-c86e6552-thumb.jpg",
     "chapters": "0:00 The game that changed shooters\n0:39 Valve is born\n1:16 Half-Life, 1998\n1:57 Expansions by Gearbox\n2:38 Half-Life 2 and the birth of Steam\n3:21 Episode One and Episode Two\n4:02 Portal grows from the same world\n4:38 Black Mesa, the fan made remake\n5:14 Half-Life: Alyx, 2020\n5:54 What about Half-Life 3\n6:34 Your turn"
+  },
+  "aniimo-game-modes-egg-heist-holo-battle-explained": {
+    "spec": "scripts/specs/long/gaming_86_aniimo-game-modes-egg-heist-holo-battle-explained.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-1a7cfadb.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-1a7cfadb-thumb.jpg",
+    "chapters": "0:00 Intro\n0:40 The big picture\n1:19 How Operation Egg Heist works\n1:57 Difficulty tiers and rank gates\n2:37 Losing your gear and Beginner Protection\n3:15 Rewards worth the risk\n3:52 Chaos Mode\n4:28 Holo-Battle Interlink\n5:04 Stars and weekly rewards\n5:42 Holo-Battle Sim\n6:18 Which mode first\n6:52 Over to you"
+  },
+  "aniimo-sparkelf-best-build": {
+    "spec": "scripts/specs/games/aniimo_199_aniimo-sparkelf-best-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-81939dbf.mp4"
+  },
+  "aniimo-how-to-get-shrubclaw": {
+    "spec": "scripts/specs/games/aniimo_200_aniimo-how-to-get-shrubclaw.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-94a6665f.mp4"
+  },
+  "aniimo-shrubclaw-stealth-break-build": {
+    "spec": "scripts/specs/games/aniimo_201_aniimo-shrubclaw-stealth-break-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b83cdcdc.mp4"
+  },
+  "aniimo-omega-sherro-boss-tips": {
+    "spec": "scripts/specs/games/aniimo_202_aniimo-omega-sherro-boss-tips.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-499d0ebc.mp4"
+  },
+  "aniimo-echoback-landing-region-guide": {
+    "spec": "scripts/specs/games/aniimo_203_aniimo-echoback-landing-region-guide.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-3d952134.mp4"
+  },
+  "vanwyrm-aerial-marauder-flying-mount": {
+    "spec": "scripts/specs/games/palguide_160_vanwyrm-aerial-marauder-flying-mount.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f82a3510.mp4"
+  },
+  "ragnahawk-flame-wing-mount-mount-obsidian": {
+    "spec": "scripts/specs/games/palguide_161_ragnahawk-flame-wing-mount-mount-obsidian.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-db34dbe6.mp4"
+  },
+  "grintale-glaring-cats-eye-extra-eggs": {
+    "spec": "scripts/specs/games/palguide_162_grintale-glaring-cats-eye-extra-eggs.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5de2c633.mp4"
   }
 }

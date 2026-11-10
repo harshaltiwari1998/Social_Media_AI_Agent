@@ -6874,5 +6874,48 @@
       "unique": false,
       "key": "Galeclaw 5"
     }
+  },
+  "Cinnamoth 5": {
+    "spec": "scripts/specs/palworld_cinnamoth_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-d1414278.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Cinnamoth",
+      "caption": "5 ways to breed Cinnamoth in Palworld 1.0: Dazzi + Swee, Finsider + Fuddler, Dumud + Gumoss, Muffly + Cattiva, Caprity + Herbil.",
+      "video_script": "Here are five ways to breed Cinnamoth in Palworld one point zero. Combo one: breed Dazzi with Swee on your Breeding Farm, then add a cake. Combo two: pair Finsider and Fuddler together, and you get the same egg. Combo three: Dumud plus Gumoss works too, so use whichever Pals you have. Combo four: Muffly with Cattiva is another easy option. Combo five: breed Caprity with Herbil on your Breeding Farm, then add a cake. Every egg hatches into Cinnamoth. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Dazzi",
+        "Swee"
+      ],
+      "combos": [
+        [
+          "Dazzi",
+          "Swee"
+        ],
+        [
+          "Finsider",
+          "Fuddler"
+        ],
+        [
+          "Dumud",
+          "Gumoss"
+        ],
+        [
+          "Muffly",
+          "Cattiva"
+        ],
+        [
+          "Caprity",
+          "Herbil"
+        ]
+      ],
+      "child": "Cinnamoth",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false,
+      "key": "Cinnamoth 5"
+    }
   }
 }

@@ -9193,5 +9193,33 @@
       ],
       "joke": "It is now officially too shiny to look at."
     }
+  },
+  "ff7-revelation-april-8": {
+    "spec": "scripts/specs/games/new_46_ff7-revelation-april-8.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-4383153f.mp4"
+  },
+  "bioshock-2007": {
+    "spec": "scripts/specs/games/classic_89_bioshock-2007.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-19954f18.mp4"
+  },
+  "dune-part-three-18-december": {
+    "spec": "scripts/specs/movies/movie_new_42_dune-part-three-18-december.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-4db4a5cb.mp4"
+  },
+  "ramayana-part-one-opening": {
+    "spec": "scripts/specs/movies/movie_review_38_ramayana-part-one-opening.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-cfaad010.mp4"
+  },
+  "reel-zanjeer-1973-facts": {
+    "spec": "scripts/specs/movies/reel_75_zanjeer-1973-facts.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-8110590d.mp4"
+  },
+  "aniimo-how-to-get-thunderstorm-sherro": {
+    "spec": "scripts/specs/games/aniimo_204_aniimo-how-to-get-thunderstorm-sherro.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-11fd7f8f.mp4"
+  },
+  "gta6-countdown-09-jason-lucia": {
+    "spec": "scripts/specs/games/gta6_14_countdown-09.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-78583407.mp4"
   }
 }

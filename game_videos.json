@@ -9031,5 +9031,19 @@
       ],
       "joke": "It punched a Water Stone and now it needs a towel."
     }
+  },
+  "dbzfusion-Vegohan": {
+    "kind": "motion",
+    "spec": "scripts/specs/dbz_fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\dbzfusion-Vegohan\\final.mp4",
+    "data": {
+      "id": "Vegohan",
+      "family": "dbz",
+      "fan": true,
+      "a": "Vegeta",
+      "b": "Gohan",
+      "name": "Vegohan",
+      "types": "Fusion Dance"
+    }
   }
 }

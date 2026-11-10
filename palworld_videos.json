@@ -7089,5 +7089,48 @@
       "unique": false,
       "key": "Pupperai 5"
     }
+  },
+  "Blazamut 5": {
+    "spec": "scripts/specs/palworld_blazamut_5.json",
+    "video": "F:\\AI AGENT\\run_pal\\videos\\short-94d7b74c.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Blazamut",
+      "caption": "5 ways to breed Blazamut in Palworld 1.0: Lyleen + Celesdir, Dupin + Eidrolon, Aegidron + Splatterina, Flaracle + Azurmane, Silvegis + Knocklem.",
+      "video_script": "Here are five ways to breed Blazamut in Palworld one point zero. Combo one: breed Lyleen with Celesdir on your Breeding Farm, then add a cake. Combo two: pair Dupin and Eidrolon together, and you get the same egg. Combo three: Aegidron plus Splatterina works too, so use whichever Pals you have. Combo four: Flaracle with Azurmane is another easy option. Combo five: breed Silvegis with Knocklem on your Breeding Farm, then add a cake. Every egg hatches into Blazamut. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Lyleen",
+        "Celesdir"
+      ],
+      "combos": [
+        [
+          "Lyleen",
+          "Celesdir"
+        ],
+        [
+          "Dupin",
+          "Eidrolon"
+        ],
+        [
+          "Aegidron",
+          "Splatterina"
+        ],
+        [
+          "Flaracle",
+          "Azurmane"
+        ],
+        [
+          "Silvegis",
+          "Knocklem"
+        ]
+      ],
+      "child": "Blazamut",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false,
+      "key": "Blazamut 5"
+    }
   }
 }

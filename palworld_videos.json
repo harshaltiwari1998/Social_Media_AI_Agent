@@ -7132,5 +7132,48 @@
       "unique": false,
       "key": "Blazamut 5"
     }
+  },
+  "Dualith 5": {
+    "spec": "scripts/specs/palworld_dualith_5.json",
+    "video": "F:\\AI AGENT\\run_pal\\videos\\short-276f9ca2.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Dualith",
+      "caption": "5 ways to breed Dualith in Palworld 1.0: Knocklem + Moldron, Lyleen + Splatterina, Azurmane + Jormuntide, Aegidron + Sootseer, Roujay + Astegon.",
+      "video_script": "Here are five ways to breed Dualith in Palworld one point zero. Combo one: breed Knocklem with Moldron on your Breeding Farm, then add a cake. Combo two: pair Lyleen and Splatterina together, and you get the same egg. Combo three: Azurmane plus Jormuntide works too, so use whichever Pals you have. Combo four: Aegidron with Sootseer is another easy option. Combo five: breed Roujay with Astegon on your Breeding Farm, then add a cake. Every egg hatches into Dualith. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Knocklem",
+        "Moldron"
+      ],
+      "combos": [
+        [
+          "Knocklem",
+          "Moldron"
+        ],
+        [
+          "Lyleen",
+          "Splatterina"
+        ],
+        [
+          "Azurmane",
+          "Jormuntide"
+        ],
+        [
+          "Aegidron",
+          "Sootseer"
+        ],
+        [
+          "Roujay",
+          "Astegon"
+        ]
+      ],
+      "child": "Dualith",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false,
+      "key": "Dualith 5"
+    }
   }
 }

@@ -3,6 +3,7 @@ from __future__ import annotations
 import asyncio
 import logging
 import math
+import time
 import uuid
 from dataclasses import dataclass
 from pathlib import Path
@@ -317,10 +318,16 @@ def generate_video(
     work_id = uuid.uuid4().hex[:8]
 
     audio_path = output_dir / f"narration-{work_id}.mp3"
-    try:
-        words = asyncio.run(_synthesize_narration(narration_script, audio_path))
-    except Exception as exc:
-        return {"success": False, "source": "video_gen", "error": f"narration synthesis failed: {exc}", "data": None}
+    # edge-tts now and then answers "No audio was received" (2 of 12 Hindi rashifal on 2026-11-10) - retry it
+    for attempt in range(4):
+        try:
+            words = asyncio.run(_synthesize_narration(narration_script, audio_path))
+            break
+        except Exception as exc:
+            if attempt == 3:
+                return {"success": False, "source": "video_gen", "error": f"narration synthesis failed: {exc}",
+                        "data": None}
+            time.sleep(5 * (attempt + 1))
 
     try:
         from moviepy.editor import AudioFileClip, VideoClip

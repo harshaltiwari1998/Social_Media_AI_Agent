@@ -24,6 +24,7 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
 - **Video**: moviepy 1.0.3 + ffmpeg (imageio-ffmpeg), Pillow, numpy; Hindi text shaped with uharfbuzz
   (`app/media/text_render.py`). Renderer: `app/media/video_gen.py`.
 - **Voice**: edge-tts 7.3.1 (`en-US-GuyNeural` gaming, `hi-IN-SwaraNeural` movies). 7.2.8 got 403s on CI.
+  edge-tts now and then answers "No audio was received" - `video_gen.generate_video` retries narration 4x.
 - **Images**: Wikipedia/Commons (`wiki:`, `wikifile:`), Steam screenshots (`steam:<appid>:<n>`), Palworld
   wiki art (`pal:<Name>`), official YouTube frames (`yt:`), official Pokemon artwork on a
   background photo for AI-motion storyboards (`{"poke": name, "background": ref}` in `fal_video.py`, PokeAPI). Local Stable Diffusion 1.5 + x4 upscaler
@@ -31,7 +32,9 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
 - **LLM on laptop**: Ollama `gemma3:4b` (trend pipeline). Models live in `backend/.cache/ollama-models`.
 - **Upload APIs**: YouTube Data API v3 (`app/social/youtube.py`), Meta Graph API for Facebook/Instagram
   (`app/social/facebook.py`, `instagram.py`; Instagram needs a public URL -> temporary cloudflared tunnel,
-  `app/social/public_tunnel.py`).
+  `app/social/public_tunnel.py`). Facebook videos go to `graph-video.facebook.com`; files over 80 MB use the
+  resumable upload (start / transfer chunks / finish) - a single request got HTTP 413, so no long video reached the
+  gaming Page until 2026-11-10.
 - **Scheduling**: GitHub Actions (`.github/workflows/`), Claude Code cloud routines (content writers),
   Windows scheduled task on the laptop (`backend/scripts/daily_job.cmd`).
 - **State**: posting history lives on the **`gaming-state`** branch (`pipeline_store.sqlite3`,
@@ -70,6 +73,9 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   text (part-by-part list, both names) go to the `linoyts/qwen-image-2-1-realtime` Space (Qwen-Image-2.1, 2 steps,
   ~13 s / ~20 s GPU): both parents' official art as reference images, prompt asks for ONE new standing creature
   with clear legs - owner approved the result on 2026-11-09 ("mast bane he"; matches the reference Lucarace).
+  The prompt demands ONE face with exactly two eyes (owner 2026-11-09: fusions showed both parents' eyes, e.g. a
+  Metagross X-face with eyes on Scizor's chest) - check every fused PNG for a second face/eye pair before showing it.
+  **Every fusion is shown to the owner before upload, batches included** - the owner names which ones to post.
   Its plain white background is cut by `_key_flat` (border flood fill; enclosed gaps only when within `gap_tol`
   of the background - a looser pass punched a hole in white faces; PIL `fromarray` images must be `.copy()`-ed or
   floodfill does nothing). Tried and dropped: Qwen-2509 "Super-Fusion" LoRA (pasted both parents in their own
@@ -87,11 +93,41 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   bearded character and broke its eyes (owner: "bakwas") - complex fused designs do not survive it. **Automatic fusions are paused** (`--max-fusions` default 0) until the owner approves
   the Qwen art; one-off fusions on request still work. Older-style clips in a pair's cache are thrown away
   (style-2/3 fused art is kept; shared `fusion-<a>+<b>` record).
+- Pokemon fusion art since 2026-11-09 (owner: "ek ke upar ek mat karo, bilkul fused lagna chahiye"): text-only
+  `fal-ai/qwen-image` through HF credits - NO parent pictures (with them the edit models pasted one Pokemon's parts on
+  the other; Sceptile + Salamence came out as two creatures). Prompt = seamless 50/50 blend + the pair's `fuse` text,
+  flat 2D Sugimori style; the reference-image route is only the fallback.
+- `backend/scripts/specs/mewtwo_stones.json` + `scripts/stone_forms.py` (owner idea 2026-11-09): Mewtwo punches an
+  evolution stone (`fal_video.punch_clip`), evolves into an elemental form, then a Mega form, each doing a type move.
+  Fan-made "What If" (title + narration + description say not in the games). Stone + forms drawn text-only via HF
+  credits, cached in `media_output/pokemon/stone-mewtwo-<key>/`. Build: `stone_forms.py fire`; post an approved one:
+  `stone_forms.py fire --post` (MEDIA_OUTPUT_DIR = run folder, then merge_state). 8 stones queued; not scheduled.
+  Owner rejected the first, locally animated sample ("animation kaha he, proper punch") - motion is now 5 Wan 2.2
+  clips a short through HF credits (`fal_video.provider_i2v`, fal-ai, 720p 32 fps, ~2-3 min each; fal's end_image_url
+  gave no morph, so each new form is revealed by a REVERSED "pillar swallows it" clip). HD (owner: "clarity HD
+  bilkul"): `fal_video.hd_clip` = RIFE v4.6 to 30 fps + Real-ESRGAN animevideov3 x2 -> 1080x1920 CRF 16 (ncnn-vulkan
+  tools in `F:/AI AGENT/tools`, laptop RTX 3050, ~2 min a clip; owner approved running them 2026-11-09).
+  Final videos are written at CRF 17 (was x264's default 23).
+  Stones (2026-11-10): AI-drawn stones came out with little bodies/legs or were cut away by rembg, so the 7 others use
+  the OFFICIAL item art (PokeAPI `sprites/items/dream-world/<x>-stone.png`, ~90 px; Ice Stone only has the 30 px
+  sprite) upscaled with Real-ESRGAN `realesrgan-x4plus-anime`, alpha taken from the sprite itself (rembg erases
+  gems). Every first form wears armour (prompt text in `art()`); never put meta notes such as "looked naked" into a
+  prompt - the provider's content check refused the Water form for it. Owner 2026-11-10: the forms looked cute -
+  "rage dikhna chahiye": every form and Mega uses `stone_forms.FIERCE` (angry glaring eyes, battle stance, muscular,
+  NOT cute); all 8 were redrawn and approved on a sheet before any Wan clip was made (art first, animation second -
+  saves credits). Credits: a 720p stone short = 4-5 Wan clips x $0.40 ($0.08/video-second); `STONE_RES=480p` halves
+  it (owner chose 480p for Ice/Moon/Dusk/Shiny on 2026-11-10 when credits ran low; hd_clip upscales to 1080p).
+  `.cache/wan_fetch.py <request_id> <out>` saves a fal job whose process was stopped (it is billed anyway).
+  All 8 approved and queued 2026-11-10 (post ids `custom:stone-mewtwo-<key>`, `.cache/post_one.py stone:<key>`), plus
+  a 5:20 long compilation (`.cache/mewtwo_compilation.py` -> `stone-mewtwo-all`, intro of all 8 Megas + a title card
+  per stone, chapters in the description; YouTube + gaming Facebook only, `post_one.py stone:all`). Playlist
+  "Mewtwo What If - Stone Evolutions" (`youtube_playlists.py` key `mewtwo`).
 - `backend/scripts/specs/pal_fusion_pairs.json` - Palworld Pal fusions (owner request 2026-11-09, 1 a day once the
   first sample is approved; `--max-pal-fusions`, default 0). Same pipeline as Pokemon fusions (`FAMILIES` in
   `pokemon_daily.py`): each pair has a part-by-part `fuse` text (checked against the art) and `types` = the parents'
   elements. Art: Pal wiki art (`fetch_pal_art`), cached as `media_output/pokemon/art/pal_<name>.png`. Records/post
-  ids `palfusion-<a>+<b>`, playlist "Palworld Fusions", own joke pool. Aniimo fusions were built and then dropped
+  ids `palfusion-<a>+<b>`, playlist "Palworld Fusions", own joke pool. **2026-11-09 the owner called the Pal fusions
+  "bohot bakwas"** (the last 6 of the batch were not posted) - make no more Pal fusions until the owner says what to change. Aniimo fusions were built and then dropped
   by the owner the same day.
 - `backend/scripts/specs/dbz_fusion_pairs.json` - canon Dragon Ball fusions (owner request 2026-11-09, Toei claim
   risk accepted): Gogeta, Gotenks (Fusion Dance), Vegito, Kefla, Kibito Kai, Fused Zamasu (Potara) - who fuses
@@ -100,6 +136,18 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   character. Narration says "Fu... sion... HA!" (dance) / "The Potara earrings are on!". `--max-dbz-fusions`
   (default 0), records `dbzfusion-<a>+<b>`, playlist "Dragon Ball Fusions", joke pool `dbzfusion`. Every Qwen
   draw uses a random seed (a fixed seed redrew the same failed Snorcanine).
+  Parent art: drawn characters kept failing (owner 2026-11-09: Jiren purple, then a chibi alien - "bohot bakwas";
+  Cell looked like Goku; Frieza pale green), so parents now come from the Dragon Ball Wiki's official renders
+  (dragonball.fandom.com API, e.g. `File:Jiren.png` upscaled x4 with Real-ESRGAN `realesrgan-x4plus-anime`, `File:DBS
+  Broly Frieza Render.png`) saved as `media_output/pokemon/art/dbz_<Name>.png` - Toei claim risk accepted by the
+  owner. `DBZ_LOOK` descriptions are only the fallback when no render is saved. Gokiren's fused art = the official
+  Jiren render edited with Goku's hair (`_provider_edit`). A re-made video whose first upload the owner deleted is
+  posted as `<pair_id>@v2` by `.cache/post_one.py` (post id + "-v2"). Since 2026-11-09 the attack itself is a Wan 2.2 clip through HF credits
+  (`dbz_attack_video`, `ATTACK_MOTION` per attack, HD via `fal_video.hd_clip`) - the drawn version below was "bohot
+  bekar"; it stays only as the fallback.
+  Each pair has an `"attack"` (`name`, `say` = what the narration shouts, `color`): style 9 makes it the last move -
+  `signature` = ball charged in the hands, then the beam fires straight AT the camera (owner 2026-11-09: the old side
+  `beam` went off to one side and looked wrong), or `blast` for ball attacks (Eraser Cannon); the joke moves to the closing line.
   Fan fusions on request (`"fan": true` - Gokkolo, Gokhan, Piccorus): titled "Fan Fusion | What If" and the
   description says it is NOT in the anime. Pair ids for Dragon Ball = the fusion's name (Goku + Vegeta is both
   Gogeta and Vegito), `pokemon_daily.pair_id`.
@@ -150,7 +198,9 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   Poster" only, no new channel). Moon rashi/nakshatra/tithi computed with skyfield + JPL DE421 (`.cache/skyfield`,
   Lahiri ayanamsa); reading = traditional Chandra gochar house from each rashi; says "for entertainment", no fear,
   health, money advice or religious messaging. `daily-rashifal.yml` (20:00 IST) makes the next day's 12 and
-  schedules them 06:00-06:55 IST; `FESTIVALS` = only panchang-confirmed dates.
+  schedules them 06:00-06:55 IST; `FESTIVALS` = only panchang-confirmed dates. The CI run failed every day 7-10 Nov
+  (no rashifal after 6 Nov) - edge-tts "No audio" (now retried). **Owner rule 2026-11-10: rashifal is posted directly,
+  never shown/asked first** (unlike fusions).
 - `scripts/youtube_playlists.py` - puts every upload made BY THIS PIPELINE (a record in the posting store) into its
   category playlist on both channels (Pokemon Fusions, Pokemon Evolutions, RDR2 Shorts / Story Highlights, Palworld
   Breeding / Guides, Aniimo, Deals, DML, Classic, New Games, Gaming History; movie slots + Safar / Explained on the
@@ -270,6 +320,11 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-10 - Facebook resumable upload for big videos (long videos 413'd); edge-tts retries (rashifal CI failed 7-10 Nov); laptop queue (`.cache/post_queue.py`) also posts `rdr:<plan>:<n>` own-stream shorts and `pal:<key>` breeding shorts built by `.cache/build_breeding.py`.
+- 2026-11-09 - Pokemon fusion art is text-only (`fal-ai/qwen-image`, no parent pictures) - a real blend, owner approved; Mewtwo + stones shorts (`stone_forms.py`), Fire sample built.
+- 2026-11-09 - Fusion art drawn through HF Inference Providers (credits) FIRST, ZeroGPU only as fallback: laptop fusion art had used up the shared ZeroGPU day, so no Wan evolution short was posted 5-9 Nov.
+- 2026-11-09 - Fusion style 9: Dragon Ball pairs fire their signature `attack` (Kamehameha, Final Flash...) at the camera; Pal fusion batch rejected by the owner.
+- 2026-11-09 - Fusion prompt: one face, exactly two eyes (no second eye pair / face); every fusion shown before upload.
 - 2026-11-09 - `fal_video.build` deletes its raw RGB frame caches (~1 GB a clip) after writing final.mp4 - 42 fusion folders had filled F: (204 GB).
 - 2026-11-09 - GTA 6 countdown shorts (10, dated with `post_on`, daily-content posts 1 a day).
 - 2026-11-09 - Fusion style 8: two type/character-based moves per fusion (10 local moves); DBZ fan fusions; Gogeta posted.

@@ -13,8 +13,17 @@
   "fuse": "Gogeta from Dragon Ball Super: Broly, the Fusion Dance fusion of Goku and Vegeta, exactly his official design: spiky black hair with one bang over the forehead, an OPEN black Metamoran vest jacket with thick yellow padded trim along its edges and shoulders, worn over his bare muscular chest, white baggy pants, a teal-blue sash belt, black wristbands and boots",
   "moves": [
    "powerup",
-   "beam"
-  ]
+   "signature"
+  ],
+  "attack": {
+   "name": "KAMEHAMEHA",
+   "say": "Ka... me... ha... me... HA!",
+   "color": [
+    90,
+    170,
+    255
+   ]
+  }
  },
  {
   "a": "Goten",
@@ -30,8 +39,17 @@
   "fuse": "Gotenks from Dragon Ball Z, the Fusion Dance fusion of kid Goten and kid Trunks, exactly his official design: a cocky young boy with spiky hair, an OPEN dark blue Metamoran vest jacket with thick yellow padded trim along its edges and shoulders, worn over his bare chest, white baggy pants, a sash belt and boots",
   "moves": [
    "powerup",
-   "blast"
-  ]
+   "signature"
+  ],
+  "attack": {
+   "name": "KAMEHAMEHA",
+   "say": "Ka... me... ha... me... HA!",
+   "color": [
+    90,
+    170,
+    255
+   ]
+  }
  },
  {
   "a": "Goku",
@@ -47,8 +65,17 @@
   "fuse": "Vegito from Dragon Ball Z, the Potara fusion of Goku and Vegeta, exactly his official design in FULL COLOUR: spiky black hair with one bang over the forehead, Goku's style of gi with the colours reversed - a blue gi top and blue sash over an orange undershirt, orange-blue pants, yellow Potara earrings on both ears, a confident smirk",
   "moves": [
    "teleport",
-   "beam"
-  ]
+   "signature"
+  ],
+  "attack": {
+   "name": "FINAL KAMEHAMEHA",
+   "say": "Final Ka... me... ha... me... HA!",
+   "color": [
+    110,
+    190,
+    255
+   ]
+  }
  },
  {
   "a": "Caulifla",
@@ -115,9 +142,18 @@
   "background": "wiki:Canyon",
   "moves": [
    "powerup",
-   "beam"
+   "signature"
   ],
-  "fuse": "Gokkolo, a fan-made Fusion Dance fusion of Goku and Piccolo: Goku's face shape and spiky black hair with Piccolo's green skin, pointed ears and two antennae on the forehead, a muscular build, wearing the Metamoran fusion outfit - an open dark vest with thick yellow padding along its edges and shoulders, white baggy pants with a sash belt, boots, plus Piccolo's white cape over the shoulders"
+  "fuse": "Gokkolo, a fan-made Fusion Dance fusion of Goku and Piccolo: Goku's face shape and spiky black hair with Piccolo's green skin, pointed ears and two antennae on the forehead, a muscular build, wearing the Metamoran fusion outfit - an open dark vest with thick yellow padding along its edges and shoulders, white baggy pants with a sash belt, boots, plus Piccolo's white cape over the shoulders",
+  "attack": {
+   "name": "SPECIAL BEAM CANNON",
+   "say": "Special Beam... CANNON!",
+   "color": [
+    255,
+    225,
+    110
+   ]
+  }
  },
  {
   "a": "Goku",
@@ -133,9 +169,18 @@
   "background": "wiki:Canyon",
   "moves": [
    "powerup",
-   "beam"
+   "signature"
   ],
-  "fuse": "Gokhan, a fan-made Fusion Dance fusion of Goku and his son Gohan: a young adult Saiyan with spiky black hair mixing Goku's and adult Gohan's hairstyles, a calm confident face, a muscular build, wearing the Metamoran fusion outfit - an open dark vest with thick yellow padding along its edges and shoulders, white baggy pants with a sash belt, boots"
+  "fuse": "Gokhan, a fan-made Fusion Dance fusion of Goku and his son Gohan: a young adult Saiyan with spiky black hair mixing Goku's and adult Gohan's hairstyles, a calm confident face, a muscular build, wearing the Metamoran fusion outfit - an open dark vest with thick yellow padding along its edges and shoulders, white baggy pants with a sash belt, boots",
+  "attack": {
+   "name": "KAMEHAMEHA",
+   "say": "Ka... me... ha... me... HA!",
+   "color": [
+    90,
+    170,
+    255
+   ]
+  }
  },
  {
   "a": "Piccolo",
@@ -153,7 +198,16 @@
    "levitate",
    "blast"
   ],
-  "fuse": "Piccorus, a fan-made Fusion Dance fusion of Piccolo and Beerus: a tall slim god-like warrior with green-and-purple skin, Piccolo's two antennae plus Beerus's big pointed cat ears, sharp yellow eyes, Beerus's gold Egyptian-style collar necklace, gold arm and ankle bands, dark baggy pants with a wide sash, and Piccolo's white cape"
+  "fuse": "Piccorus, a fan-made Fusion Dance fusion of Piccolo and Beerus: a tall slim god-like warrior with green-and-purple skin, Piccolo's two antennae plus Beerus's big pointed cat ears, sharp yellow eyes, Beerus's gold Egyptian-style collar necklace, gold arm and ankle bands, dark baggy pants with a wide sash, and Piccolo's white cape",
+  "attack": {
+   "name": "SPHERE OF DESTRUCTION",
+   "say": "Sphere of... DESTRUCTION!",
+   "color": [
+    255,
+    150,
+    60
+   ]
+  }
  },
  {
   "a": "Vegeta",
@@ -169,9 +223,18 @@
   "background": "wiki:Canyon",
   "moves": [
    "powerup",
-   "blast"
+   "signature"
   ],
-  "fuse": "Brogeta, a fan-made Fusion Dance fusion of Vegeta and Broly: a huge muscular Saiyan with Vegeta's widow's-peak spiky black hair grown wild and long like Broly's, Vegeta's sharp proud face with Broly's scar, a fur waist sash like Broly's, wearing the Metamoran fusion outfit - an open dark vest with thick yellow padding along its edges and shoulders, white baggy pants with a sash belt, boots"
+  "fuse": "Brogeta, a fan-made Fusion Dance fusion of Vegeta and Broly: a huge muscular Saiyan with Vegeta's widow's-peak spiky black hair grown wild and long like Broly's, Vegeta's sharp proud face with Broly's scar, a fur waist sash like Broly's, wearing the Metamoran fusion outfit - an open dark vest with thick yellow padding along its edges and shoulders, white baggy pants with a sash belt, boots",
+  "attack": {
+   "name": "FINAL FLASH",
+   "say": "Final... FLASH!",
+   "color": [
+    255,
+    225,
+    90
+   ]
+  }
  },
  {
   "a": "Goku",
@@ -186,10 +249,19 @@
   ],
   "background": "wiki:Canyon",
   "moves": [
-   "teleport",
-   "beam"
+   "powerup",
+   "signature"
   ],
-  "fuse": "Gokieza, a fan-made Fusion Dance fusion of Goku and Frieza: Goku's spiky black hair and face shape on Frieza's white and purple armoured alien body, Frieza's long white tail, purple gem patches on the head, shoulders and chest, Goku's orange gi pants with a blue sash and wristbands"
+  "fuse": "Gokieza, a fan-made Fusion Dance fusion of Goku and Frieza: Goku's spiky black hair and face shape on Frieza's white and purple armoured alien body, Frieza's long white tail, purple gem patches on the head, shoulders and chest, Goku's orange gi pants with a blue sash and wristbands",
+  "attack": {
+   "name": "DEATH BEAM",
+   "say": "Death... BEAM!",
+   "color": [
+    235,
+    90,
+    220
+   ]
+  }
  },
  {
   "a": "Gohan",
@@ -205,9 +277,18 @@
   "background": "wiki:Canyon",
   "moves": [
    "powerup",
-   "beam"
+   "signature"
   ],
-  "fuse": "Pichan, a fan-made Fusion Dance fusion of Gohan and Piccolo: adult Gohan's face and spiky black hair with Piccolo's green skin, pointed ears and two antennae, a strong build, wearing the Metamoran fusion outfit - an open dark vest with thick yellow padding along its edges and shoulders, white baggy pants with a sash belt, boots, plus Piccolo's white cape and purple gi pants"
+  "fuse": "Pichan, a fan-made Fusion Dance fusion of Gohan and Piccolo: adult Gohan's face and spiky black hair with Piccolo's green skin, pointed ears and two antennae, a strong build, wearing the Metamoran fusion outfit - an open dark vest with thick yellow padding along its edges and shoulders, white baggy pants with a sash belt, boots, plus Piccolo's white cape and purple gi pants",
+  "attack": {
+   "name": "MASENKO",
+   "say": "Ma... sen... KO!",
+   "color": [
+    255,
+    220,
+    80
+   ]
+  }
  },
  {
   "a": "Goku",
@@ -223,9 +304,18 @@
   "background": "wiki:Canyon",
   "moves": [
    "powerup",
-   "blast"
+   "signature"
   ],
-  "fuse": "Gokiren, a fan-made Fusion Dance fusion of Goku and Jiren: a towering muscular warrior with Jiren's grey skin and big dark eyes, Goku's spiky black hair, wearing Jiren's red and black Pride Trooper suit with white gloves, Goku's blue wristbands and sash"
+  "fuse": "Gokiren, a fan-made Fusion Dance fusion of Goku and Jiren: a towering muscular warrior with Jiren's grey skin and big dark eyes, Goku's spiky black hair, wearing Jiren's red and black Pride Trooper suit with white gloves, Goku's blue wristbands and sash",
+  "attack": {
+   "name": "KAMEHAMEHA",
+   "say": "Ka... me... ha... me... HA!",
+   "color": [
+    90,
+    170,
+    255
+   ]
+  }
  },
  {
   "a": "Vegeta",
@@ -241,9 +331,18 @@
   "background": "wiki:Canyon",
   "moves": [
    "levitate",
-   "beam"
+   "signature"
   ],
-  "fuse": "Cellgeta, a fan-made Fusion Dance fusion of Vegeta and Cell: Cell's green spotted insect-armoured body, black wings on the back and pointed crown on the head, with Vegeta's widow's-peak spiky black hair and proud face, Vegeta's white gloves and boots and a blue bodysuit under the armour"
+  "fuse": "Cellgeta, a fan-made Fusion Dance fusion of Vegeta and Cell: Cell's green spotted insect-armoured body, black wings on the back and pointed crown on the head, with Vegeta's widow's-peak spiky black hair and proud face, Vegeta's white gloves and boots and a blue bodysuit under the armour",
+  "attack": {
+   "name": "GALICK GUN",
+   "say": "Galick Gun... FIRE!",
+   "color": [
+    190,
+    110,
+    255
+   ]
+  }
  },
  {
   "a": "Vegeta",
@@ -259,9 +358,18 @@
   "background": "wiki:Canyon",
   "moves": [
    "powerup",
-   "beam"
+   "signature"
   ],
-  "fuse": "Vegohan, a fan-made Fusion Dance fusion of Vegeta and adult Gohan: Vegeta's widow's-peak spiky black hair with Gohan's single bang, a calm but proud face, a strong build, wearing the Metamoran fusion outfit - an open dark vest with thick yellow padding along its edges and shoulders, white baggy pants with a sash belt, boots, in FULL COLOUR"
+  "fuse": "Vegohan, a fan-made Fusion Dance fusion of Vegeta and adult Gohan: Vegeta's widow's-peak spiky black hair with Gohan's single bang, a calm but proud face, a strong build, wearing the Metamoran fusion outfit - an open dark vest with thick yellow padding along its edges and shoulders, white baggy pants with a sash belt, boots, in FULL COLOUR",
+  "attack": {
+   "name": "FINAL FLASH",
+   "say": "Final... FLASH!",
+   "color": [
+    255,
+    225,
+    90
+   ]
+  }
  },
  {
   "a": "Frieza",
@@ -277,9 +385,18 @@
   "background": "wiki:Canyon",
   "moves": [
    "levitate",
-   "beam"
+   "signature"
   ],
-  "fuse": "Cellza, a fan-made Fusion Dance fusion of Frieza and Cell: Frieza's sleek white final-form body with purple gem patches on the head, shoulders and chest, covered in Cell's green and black spotted armour plates, Cell's black insect wings on the back and Cell's pointed crest on the head, Frieza's long white tail, in FULL COLOUR"
+  "fuse": "Cellza, a fan-made Fusion Dance fusion of Frieza and Cell: Frieza's sleek white final-form body with purple gem patches on the head, shoulders and chest, covered in Cell's green and black spotted armour plates, Cell's black insect wings on the back and Cell's pointed crest on the head, Frieza's long white tail, in FULL COLOUR",
+  "attack": {
+   "name": "DEATH BEAM",
+   "say": "Death... BEAM!",
+   "color": [
+    235,
+    90,
+    220
+   ]
+  }
  },
  {
   "a": "Goku",
@@ -297,6 +414,15 @@
    "powerup",
    "blast"
   ],
-  "fuse": "Gokuly, a fan-made Fusion Dance fusion of Goku and Broly: a huge muscular Saiyan with Goku's spiky black hair grown wild and long like Broly's, Goku's friendly face with Broly's scar, Broly's fur waist sash and golden armbands, wearing the Metamoran fusion outfit - an open dark vest with thick yellow padding along its edges and shoulders, white baggy pants with a sash belt, boots, in FULL COLOUR"
+  "fuse": "Gokuly, a fan-made Fusion Dance fusion of Goku and Broly: a huge muscular Saiyan with Goku's spiky black hair grown wild and long like Broly's, Goku's friendly face with Broly's scar, Broly's fur waist sash and golden armbands, wearing the Metamoran fusion outfit - an open dark vest with thick yellow padding along its edges and shoulders, white baggy pants with a sash belt, boots, in FULL COLOUR",
+  "attack": {
+   "name": "ERASER CANNON",
+   "say": "Eraser... CANNON!",
+   "color": [
+    120,
+    255,
+    120
+   ]
+  }
  }
 ]

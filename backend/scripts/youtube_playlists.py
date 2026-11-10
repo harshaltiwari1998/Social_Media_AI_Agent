@@ -42,6 +42,7 @@ PLAYLISTS = {
         "pal_fusion": ("Palworld Fusions", "Two Pals fuse into one brand new Pal - fan-made fusion animations."),
         "dbz_fusion": ("Dragon Ball Fusions", "Dragon Ball fusions - Fusion Dance and Potara - as fan-made animations."),
         "evolution": ("Pokemon Evolutions", "Pokemon evolution lines animated from start to final form, Mega Evolutions included."),
+        "mewtwo": ("Mewtwo What If - Stone Evolutions", "What if Mewtwo punched an evolution stone? Fan-made Mewtwo forms and Mega forms - not in the games."),
         "rdr2_shorts": ("Red Dead Redemption 2 - Best Moments (Shorts)", "Short clips from my own Red Dead Redemption 2 story playthrough."),
         "rdr2_long": ("Red Dead Redemption 2 - Story Highlights", "Longer highlight videos from my own Red Dead Redemption 2 playthrough."),
         "pal_breeding": ("Palworld Breeding Combos", "Verified Palworld 1.0 breeding combinations for every Pal."),
@@ -93,6 +94,8 @@ def classify(channel: str, trend_id: str | None, title: str, games: dict) -> str
         return "fusion"
     if t.startswith("custom:motion-poke-"):
         return "evolution"
+    if t.startswith("custom:stone-mewtwo"):  # Mewtwo + evolution stones (stone_forms.py), incl. the long compilation
+        return "mewtwo"
     if t.startswith("gameplay:rdr2"):
         return "rdr2_long" if ":long" in t else "rdr2_shorts"
     if t.startswith("custom:palworld-breeding-"):

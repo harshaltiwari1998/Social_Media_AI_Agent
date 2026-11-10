@@ -339,11 +339,23 @@ def action_clip(spec: dict, work: Path, out: Path) -> Path:
         put(canvas, a, cx - a.width / 2, feet - art.height / 2 - a.height / 2, 0.7)
 
 
-    MORE = ("powerup", "beam", "breath", "lightning", "swirl", "teleport", "fly", "levitate")
+    MORE = ("powerup", "beam", "breath", "lightning", "swirl", "teleport", "fly", "levitate", "signature")
     shapes = rng.random((48, 4))    # angle, radius, speed, size - swirl / levitate / powerup rocks
     bolts = [rng.random((9, 2)) for _ in range(6)]
     top = feet - art.height
     side = 1 if sum(map(ord, str(spec["action"]))) % 2 else -1  # which way beams / breath go
+    beam_sprite = None
+    if mode == "signature":  # radial energy: white-hot core, the attack's colour, rays fading out at the edge
+        n = 512
+        yy, xx = np.mgrid[0:n, 0:n] / (n / 2) - 1.0
+        r = np.hypot(xx, yy)
+        ang = np.arctan2(yy, xx)
+        rays = 1 + 0.35 * np.sin(ang * 17) * np.sin(ang * 7 + 1.3)
+        colour = np.exp(-(r / (0.62 * rays)) ** 3)
+        core = np.exp(-(r / 0.36) ** 4)
+        rgb = np.array(col, dtype=np.float32)[None, None, :] * (1 - core[..., None]) + 255 * core[..., None]
+        a = np.clip(np.maximum(colour, core), 0, 1) * 255
+        beam_sprite = Image.fromarray(np.dstack([rgb, a]).clip(0, 255).astype(np.uint8), "RGBA")
 
     def jag(d, x0, y0, x1, y1, pts, width, fill):
         line = [(x0, y0)]
@@ -491,6 +503,65 @@ def action_clip(spec: dict, work: Path, out: Path) -> Path:
             put(canvas, b, cx - b.width / 2, feet - b.height - lift - hov)
             if t > secs - 0.35:
                 shake = (10 * np.sin(t * 80), 10 * np.cos(t * 60))
+        elif mode == "signature":
+            # Dragon Ball signature attack (Kamehameha, Final Flash...; owner 2026-11-09: the side beam went off to one side
+            # of the screen and looked wrong). A ball charges in the hands in front of the chest while energy rushes in,
+            # then the beam fires straight AT the camera: a white core ringed with the attack's colour grows until it
+            # fills the screen, speed lines race outwards, the screen shakes, then the flash clears and it stands powered up.
+            t_fire, t_end = secs * 0.45, secs * 0.8
+            hx, hy = cx, top + art.height * 0.42
+
+            def energy(rad_, spin, alpha=1.0):  # the soft glowing beam end, rays turning (flat discs looked like a target)
+                sp_ = beam_sprite.rotate(spin, resample=Image.BILINEAR)
+                sp_ = sp_.resize((max(2, int(rad_ * 2)), max(2, int(rad_ * 2))), Image.BILINEAR)
+                put(canvas, sp_, hx - rad_, hy - rad_, alpha)
+            aura_at(canvas, 1.05 + 0.25 * min(t / t_fire, 1.0) + 0.04 * np.sin(t * 22))
+            b = body(1.0, 1.0)
+            put(canvas, b, cx - b.width / 2, feet - b.height)
+            if t < t_fire:  # charge
+                e = t / t_fire
+                for ang, r0, sz in rush:
+                    p_ = (t * 1.4 + r0) % 1.0
+                    dist = (1 - p_) * (260 + 380 * r0)
+                    x, y = hx + np.cos(2 * np.pi * ang) * dist, hy + np.sin(2 * np.pi * ang) * dist
+                    rr = 4 + 8 * sz
+                    d.ellipse([x - rr, y - rr, x + rr, y + rr], fill=col + (int(230 * p_),))
+                rad = 60 + 190 * e ** 1.2 + 12 * np.sin(t * 35)
+                g = glow.resize((int(rad * 2.4), int(rad * 2.4)), Image.BILINEAR)
+                put(canvas, g, hx - rad * 1.2, hy - rad * 1.2)
+                energy(rad, t * 240)
+                if int(t * 14) % 3 == 0:  # crackles around the ball
+                    for k_ in range(3):
+                        a_ = 2 * np.pi * ((t * 3.7 + k_ * 0.33) % 1.0)
+                        pts = bolts[k_]
+                        jag(d, hx + np.cos(a_) * rad * 0.4, hy + np.sin(a_) * rad * 0.4,
+                            hx + np.cos(a_) * rad * 1.3, hy + np.sin(a_) * rad * 1.3, pts[:4] * 0.25 + 0.375, 4,
+                            (255, 255, 255, 220))
+                amp = 3 + 8 * e
+                shake = (amp * np.sin(t * 61), amp * np.cos(t * 47))
+            elif t < t_end:  # fire at the camera
+                u = (t - t_fire) / (t_end - t_fire)
+                rad = 210 + 760 * ease(u / 0.35) + 25 * np.sin(t * 45)
+                for ang, r0, sz in rush:  # speed lines racing out from the beam to the screen edges
+                    a_ = 2 * np.pi * ang
+                    r1 = rad * 0.7 + ((t * 2600 + r0 * 1100) % 1100)
+                    r2 = r1 + 120 + 200 * sz
+                    d.line([(hx + np.cos(a_) * r1, hy + np.sin(a_) * r1), (hx + np.cos(a_) * r2, hy + np.sin(a_) * r2)],
+                           fill=(255, 255, 255, 190), width=int(3 + 6 * sz))
+                outer = glow.resize((int(rad * 2.6), int(rad * 2.6)), Image.BILINEAR)
+                put(canvas, outer, hx - rad * 1.3, hy - rad * 1.3)
+                for k_ in range(3):  # shock rings rushing out of the beam towards the viewer
+                    q = ((t - t_fire) * 1.8 + k_ / 3) % 1.0
+                    rr = rad * (0.6 + 1.2 * q)
+                    d.ellipse([hx - rr, hy - rr, hx + rr, hy + rr], outline=col + (int(200 * (1 - q)),),
+                              width=int(10 + 30 * (1 - q)))
+                energy(rad * (1.15 + 0.04 * np.sin(t * 50)), t * 300)
+                amp = 24
+                shake = (amp * np.sin(t * 83), amp * np.cos(t * 67))
+                flash = 0.3 if u < 0.06 else 0.0
+            else:  # the flash clears, it stands there powered up
+                k = (t - t_end) / (secs - t_end)
+                flash = 0.85 * (1 - ease(k))
         return shake, flash
 
     def frame(t):
@@ -591,6 +662,237 @@ def action_clip(spec: dict, work: Path, out: Path) -> Path:
 
     VideoClip(frame, duration=secs).write_videofile(str(out), fps=FPS, codec="libx264", audio=False, preset="medium", logger=None)
     print("  action", mode, out.name, flush=True)
+    return out
+
+
+def provider_i2v(start: Path, prompt: str, out: Path, resolution: str = "720p") -> Path:
+    """Wan 2.2 A14B image-to-video (5 s, 81 frames at 16 fps) through HF Inference Providers (fal-ai), billed to the
+    HF credits - NOT the ZeroGPU quota the daily evolution shorts need. ~2-3 min a clip. Cached at `out`. fal's
+    end_image_url did not give a start->end morph (the whole clip showed the end frame), so transformations are made
+    by reversing an "engulf" clip of the new form instead (scripts/stone_forms.py)."""
+    import base64
+    import time
+
+    import httpx
+
+    if out.exists():
+        return out
+    headers = {"Authorization": f"Bearer {hf_token()}"}
+    base = "https://router.huggingface.co/fal-ai/fal-ai/wan"
+    body = {"prompt": prompt, "resolution": resolution, "num_frames": 81, "frames_per_second": 16,
+            "image_url": "data:image/png;base64," + base64.b64encode(Path(start).read_bytes()).decode(),
+            "negative_prompt": "blurry, deformed, extra limbs, extra eyes, morphing into a different character, text, watermark"}
+    for attempt in range(3):
+        try:
+            r = httpx.post(f"{base}/v2.2-a14b/image-to-video?_subdomain=queue", headers=headers, json=body, timeout=120)
+        except httpx.HTTPError:
+            if attempt == 2:
+                raise
+            time.sleep(15)
+            continue
+        if r.status_code < 400 or attempt == 2:
+            break
+        time.sleep(15)
+    r.raise_for_status()
+    rid, t0 = r.json()["request_id"], time.time()
+    while True:
+        time.sleep(10)
+        try:  # a DNS / network blip on the laptop (2026-11-10) must not lose a clip that is already paid for
+            s = httpx.get(f"{base}/requests/{rid}/status?_subdomain=queue", headers=headers, timeout=60)
+        except httpx.HTTPError:
+            continue
+        if s.status_code == 200 and s.json().get("status") == "COMPLETED":
+            break
+        if time.time() - t0 > 1200:
+            raise TimeoutError(f"Wan provider clip {rid} not done after 20 min")
+    for attempt in range(5):
+        try:
+            res = httpx.get(f"{base}/requests/{rid}?_subdomain=queue", headers=headers, timeout=60).raise_for_status().json()
+            out.write_bytes(httpx.get(res["video"]["url"], timeout=300, follow_redirects=True).raise_for_status().content)
+            break
+        except httpx.HTTPError:
+            if attempt == 4:
+                raise
+            time.sleep(20)
+    print("  wan", out.name, f"{time.time() - t0:.0f}s", flush=True)
+    return out
+
+
+TOOLS = Path(r"F:\AI AGENT\tools")
+ESRGAN = TOOLS / "realesrgan" / "realesrgan-ncnn-vulkan.exe"
+RIFE = TOOLS / "rife" / "rife-ncnn-vulkan-20221029-windows" / "rife-ncnn-vulkan.exe"
+
+
+def hd_clip(src: Path, out: Path) -> Path:
+    """Owner 2026-11-09: "clarity achhi rakho, HD bilkul". A 720p 16 fps Wan clip -> RIFE v4.6 in-between frames to
+    30 fps (the build's minterpolate blend ghosted the motion) -> Real-ESRGAN animevideov3 x2 (sharp anime lines) ->
+    1080x1920, CRF 16. Laptop only (ncnn-vulkan tools in F:/AI AGENT/tools, RTX 3050); without them the clip is
+    returned as it is."""
+    import shutil
+    import subprocess
+    import tempfile
+
+    import imageio_ffmpeg
+
+    if out.exists():
+        return out
+    if not (ESRGAN.exists() and RIFE.exists()):
+        return src
+    import os
+    import time
+
+    ff = imageio_ffmpeg.get_ffmpeg_exe()
+    # one HD job on the 4 GB RTX 3050 at a time (two builds - Mewtwo stones + Dragon Ball - ran side by side)
+    lock = TOOLS / "hd.lock"
+    while True:
+        try:
+            fd = os.open(lock, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+            break
+        except FileExistsError:
+            if time.time() - lock.stat().st_mtime > 1800:  # left behind by a killed run
+                lock.unlink(missing_ok=True)
+            time.sleep(5)
+    os.close(fd)
+    tmp = Path(tempfile.mkdtemp(dir=out.parent))
+    try:
+        raw, mid, up = tmp / "raw", tmp / "mid", tmp / "up"
+        for d in (raw, mid, up):
+            d.mkdir()
+        subprocess.run([ff, "-v", "error", "-i", str(src), str(raw / "%06d.png")], check=True)
+        from moviepy.editor import VideoFileClip
+
+        clip = VideoFileClip(str(src))
+        n_out = int(round(clip.duration * FPS))  # same length at 30 fps (fal sends 32 fps, ZeroGPU Wan 16 fps)
+        clip.close()
+        subprocess.run([str(RIFE), "-i", str(raw), "-o", str(mid), "-m", str(RIFE.parent / "rife-v4.6"),
+                        "-n", str(n_out)], check=True, capture_output=True)
+        subprocess.run([str(ESRGAN), "-i", str(mid), "-o", str(up), "-n", "realesr-animevideov3", "-s", "2",
+                        "-f", "png"], check=True, capture_output=True, cwd=str(ESRGAN.parent))
+        subprocess.run([ff, "-v", "error", "-y", "-framerate", str(FPS), "-i", str(up / "%08d.png"), "-vf",
+                        f"scale={W}:{H}:force_original_aspect_ratio=increase:flags=lanczos,crop={W}:{H}",
+                        "-c:v", "libx264", "-crf", "16", "-preset", "slow", "-pix_fmt", "yuv420p", str(out)],
+                       check=True)
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+        lock.unlink(missing_ok=True)
+    print("  hd", out.name, flush=True)
+    return out
+
+
+def punch_clip(spec: dict, work: Path, out: Path) -> Path:
+    """Mewtwo punches an evolution stone (owner idea 2026-11-09, scripts/stone_forms.py): the stone floats in glowing,
+    Mewtwo winds back and dashes at it, the stone shatters with a flash and a shake, and its energy streams into Mewtwo
+    until it glows in the stone's colour (the evolve clip takes over from there). Drawn locally.
+    {"punch": art_png_or_slug, "stone": stone_png, "background": ref, "seconds": 4.2, "color": [r, g, b]}"""
+    if out.exists():
+        return out
+    from moviepy.editor import VideoClip
+    from PIL import ImageDraw, ImageFilter
+
+    secs = float(spec.get("seconds", 4.2))
+    col = tuple(spec.get("color", (255, 140, 60)))
+    base = _poke_background(spec.get("background"), work).convert("RGBA")
+    art, (px, py) = _poke_art(spec["punch"], work)
+    art = art.resize((int(art.width * 0.62), int(art.height * 0.62)), Image.LANCZOS)  # room to dash at the stone
+    stone = Image.open(spec["stone"]).convert("RGBA")
+    stone = stone.crop(stone.getbbox() or (0, 0, stone.width, stone.height))
+    k_ = 230 / max(stone.size)
+    stone = stone.resize((int(stone.width * k_), int(stone.height * k_)), Image.LANCZOS)
+    glow = _glow_sprite(col)
+    feet = py + art.height / 0.62
+    home_x = W * 0.33                                  # Mewtwo stands left of centre, the stone hovers on the right
+    sx0, sy0 = W * 0.8, feet - art.height * 0.7
+    tint = Image.new("RGBA", art.size, col + (255,))
+    tint.putalpha(art.getchannel("A"))
+    pad = 140
+    aura = Image.new("RGBA", (art.width + 2 * pad, art.height + 2 * pad), (0, 0, 0, 0))
+    aura.alpha_composite(tint, (pad, pad))
+    aura = aura.filter(ImageFilter.GaussianBlur(40))
+    rng = np.random.default_rng(5)
+    shards = rng.random((18, 4))   # angle, speed, size, spin
+    stream = rng.random((70, 3))   # phase, spread, size
+    t_in, t_wind, t_hit = 1.1, 1.6, 1.95
+
+    def ease(u):
+        u = min(max(u, 0.0), 1.0)
+        return u * u * (3 - 2 * u)
+
+    def put(canvas, img, x, y, alpha=1.0):
+        if alpha < 1.0:
+            img = img.copy()
+            img.putalpha(img.getchannel("A").point(lambda v: int(v * alpha)))
+        canvas.alpha_composite(img, (int(x), int(y)))
+
+    def frame(t):
+        canvas = base.copy()
+        d = ImageDraw.Draw(canvas)
+        shake, flash = (0.0, 0.0), 0.0
+        # Mewtwo's position: wind back, dash at the stone, drift home
+        if t < t_wind:
+            mx = home_x - 40 * ease((t - t_in) / (t_wind - t_in))
+        elif t < t_hit:
+            mx = home_x - 40 + (sx0 - home_x - 150) * ease((t - t_wind) / (t_hit - t_wind)) ** 0.6
+        else:
+            mx = sx0 - 190 - (sx0 - 190 - home_x) * ease((t - t_hit - 0.5) / 1.0)
+        power = ease((t - t_hit - 0.3) / (secs - t_hit - 0.6))  # how much of the stone's energy it has taken in
+        if power > 0:
+            a = aura.resize((int(aura.width * (1 + 0.15 * power)), int(aura.height * (1 + 0.15 * power))), Image.BILINEAR)
+            put(canvas, a, mx - a.width / 2, feet - art.height / 2 - a.height / 2, min(1.0, 0.9 * power + 0.1))
+        if t_wind <= t < t_hit + 0.1:  # dash trail
+            for g in (3, 2, 1):
+                put(canvas, art, mx - 60 * g - art.width / 2, feet - art.height, 0.12 * (4 - g))
+        put(canvas, art, mx - art.width / 2, feet - art.height)
+        if power > 0:  # it glows in the stone's colour more and more
+            put(canvas, tint, mx - art.width / 2, feet - art.height, 0.45 * power * (0.8 + 0.2 * np.sin(t * 20)))
+        if t < t_hit:  # the stone floats in from the top right and bobs, glowing
+            u = ease(t / t_in)
+            x = sx0 + (1 - u) * 260
+            y = sy0 - (1 - u) * 700 + 18 * np.sin(t * 3.2)
+            rad = 150 + 20 * np.sin(t * 6)
+            g = glow.resize((int(rad * 2), int(rad * 2)), Image.BILINEAR)
+            put(canvas, g, x - rad, y - rad, 0.8)
+            put(canvas, stone, x - stone.width / 2, y - stone.height / 2)
+        else:
+            tt = t - t_hit
+            hx, hy = sx0, sy0
+            if tt < 0.5:  # impact burst
+                rad = 120 + 900 * ease(tt / 0.5)
+                g = glow.resize((int(rad * 2), int(rad * 2)), Image.BILINEAR)
+                put(canvas, g, hx - rad, hy - rad, 1 - tt / 0.5)
+                r = 60 + 1500 * tt
+                d.ellipse([hx - r, hy - r, hx + r, hy + r], outline=(255, 255, 255, int(220 * (1 - tt / 0.5))), width=16)
+            for ang, sp, sz, spin in shards:  # stone shards flying out and fading
+                if tt > 1.2:
+                    break
+                a_ = 2 * np.pi * ang
+                dist = (300 + 700 * sp) * tt
+                x, y = hx + np.cos(a_) * dist, hy + np.sin(a_) * dist + 400 * tt * tt
+                r = 14 + 30 * sz
+                rot = spin * 10 * tt
+                pts = [(x + np.cos(rot + q) * r * (1.0 if j % 2 else 0.55), y + np.sin(rot + q) * r * (1.0 if j % 2 else 0.55))
+                       for j, q in enumerate(np.linspace(0, 2 * np.pi, 6, endpoint=False))]
+                al = int(255 * max(0.0, 1 - tt / 1.2))
+                d.polygon(pts, fill=col + (al,), outline=(255, 255, 255, al))
+            if 0.15 < tt < secs - t_hit - 0.2:  # the energy streams from the impact point into Mewtwo's chest
+                tx, ty = mx, feet - art.height * 0.55
+                for ph, spr, sz in stream:
+                    p = (tt * 1.6 + ph) % 1.0
+                    x = hx + (tx - hx) * p
+                    y = hy + (ty - hy) * p + np.sin(p * np.pi) * (spr - 0.5) * 380
+                    rr = 6 + 12 * sz
+                    d.ellipse([x - rr, y - rr, x + rr, y + rr], fill=col + (int(230 * (1 - abs(p - 0.5))),))
+                    d.ellipse([x - rr / 2.5, y - rr / 2.5, x + rr / 2.5, y + rr / 2.5], fill=(255, 255, 255, 220))
+            amp = 34 * max(0.0, 1 - tt / 0.6) + 6 * power
+            shake = (amp * np.sin(t * 81), amp * np.cos(t * 63))
+            flash = 0.85 * max(0.0, 1 - tt / 0.25) if tt < 0.25 else 0.0
+        flash = max(flash, 0.6 * ease((t - (secs - 0.4)) / 0.4))  # brightening into the evolution
+        img = canvas.crop((int(40 + shake[0]), int(70 + shake[1]), int(W - 40 + shake[0]), int(H - 70 + shake[1]))).resize((W, H), Image.BILINEAR)
+        if flash > 0:
+            img = Image.blend(img, Image.new("RGBA", (W, H), (255, 255, 255, 255)), min(flash, 1.0))
+        return np.asarray(img.convert("RGB"))
+
+    VideoClip(frame, duration=secs).write_videofile(str(out), fps=FPS, codec="libx264", audio=False, preset="medium", logger=None)
+    print("  punch", out.name, flush=True)
     return out
 
 
@@ -841,6 +1143,9 @@ def build(storyboard: Path, out_dir: Path) -> Path:
         if "fuse" in c:  # fusion transition, drawn locally
             clips.append(fuse_clip(c, work, out_dir / f"clip_{i:02d}.mp4"))
             continue
+        if "punch" in c:  # Mewtwo punches an evolution stone, drawn locally
+            clips.append(punch_clip(c, work, out_dir / f"clip_{i:02d}.mp4"))
+            continue
         if "idle" in c:  # the fused creature animated locally (breathing, aura, particles)
             clips.append(idle_clip(c, work, out_dir / f"clip_{i:02d}.mp4"))
             continue
@@ -926,6 +1231,7 @@ def build(storyboard: Path, out_dir: Path) -> Path:
     out = out_dir / "final.mp4"
     VideoClip(make_frame, duration=total).set_audio(AudioArrayClip(mix, fps=SR)).write_videofile(
         str(out), fps=FPS, codec="libx264", audio_codec="aac", preset="medium", threads=4, logger=None,
+        ffmpeg_params=["-crf", "17"],  # owner 2026-11-09: HD clarity (x264's default CRF 23 softened the detail)
         temp_audiofile=str(work / "tmp_audio.m4a"))
     print(f"wrote {out} ({total:.1f}s)")
     # the raw RGB frame caches are ~1 GB per clip: 42 fusion folders kept 204 GB and filled F: (2026-11-09). Drop the

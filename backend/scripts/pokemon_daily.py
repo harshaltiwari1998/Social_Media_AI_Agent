@@ -78,6 +78,22 @@ def load_pairs(family: str) -> list[dict]:
     return [{**p, "family": family} for p in pairs]
 
 
+# What each Dragon Ball character looks like, for the drawn parent art. With only the name the model drew Jiren purple
+# in a black-and-gold suit, Cell as a Goku look-alike and Frieza pale green (owner caught Jiren, 2026-11-09). Designs
+# checked on Wikipedia (Jiren: grey alien, big black eyes, Pride Troopers red-and-black suit, white gloves and boots).
+DBZ_LOOK = {
+    "Jiren": "a towering, extremely muscular grey-skinned alien with adult heroic proportions (small head, huge "
+             "broad chest and shoulders, NOT chibi, NOT a big head), a bald grey head, large completely black oval eyes "
+             "set wide apart, a small stern mouth, wearing the Pride Troopers uniform: a red and black bodysuit with "
+             "white gloves and white boots",
+    "Cell": "Perfect Cell, the green insect-like bio-android villain: green exoskeleton covered in black spots, a tall "
+            "green crown-shaped head crest, a pale human-like face with purple cheek markings, black insect wings on "
+            "the back, black and green armoured body, NOT a Saiyan, no spiky black hair",
+    "Frieza": "Frieza in his final form: a slim white alien body with glossy purple domes on the top of the head, the "
+              "shoulders, the chest and the forearms, red eyes, black lips and a long white tail",
+}
+
+
 def art_ref(family: str, name: str) -> str:
     """What fal_video / _art take for a parent: a PokeAPI slug, or a local transparent .png of the Pal's wiki art."""
     if family == "pokemon":
@@ -86,9 +102,10 @@ def art_ref(family: str, name: str) -> str:
     if not path.exists():
         path.parent.mkdir(parents=True, exist_ok=True)
         if family == "dbz":  # no free official art: a fan-art drawing of the character, cut out
-            _cutout(_qwen_draw(f"{name} from Dragon Ball, exactly the official character design, full body, standing "
-                                 f"facing the viewer, {FAMILIES['dbz']['style']}, plain white background.", [],
-                               provider_ok=True), path)
+            look = f": {DBZ_LOOK[name]}" if name in DBZ_LOOK else ""
+            _cutout(_qwen_draw(f"{name} from Dragon Ball{look}, exactly the official character design, ONE character, "
+                                 f"full body, standing facing the viewer, {FAMILIES['dbz']['style']}, plain white "
+                                 "background.", [], provider_ok=True), path)
             return str(path)
         from scripts.palworld_breeding_videos import fetch_pal_art  # official Pal art (Palworld wiki)
 
@@ -341,13 +358,32 @@ def _qwen_fusion(pair: dict, key_name: str, out: Path) -> Path:
         src = out.with_name(f"parent_{slug.replace(' ', '_')}.png")
         sheet.save(src)
         srcs.append(src)
+    if pair.get("family", "pokemon") == "pokemon":
+        # owner 2026-11-09: "ek ke upar ek mat karo, bilkul fused lagna chahiye" - with the parents' pictures as input
+        # the edit models pasted one Pokemon's parts onto the other (Sceptile + Salamence came out as two creatures).
+        # Text only (the model knows every Pokemon by name) gives a real blend; the owner approved samples the same day.
+        a, b = _name(pair["a"]), _name(pair["b"])
+        try:
+            return _provider_draw(
+                f"A brand-new Pokemon that is a seamless fusion of {a} and {b}, designed as ONE original creature like an "
+                f"official Pokemon from a new game - not {a} wearing {b}'s parts and never two creatures: body shape and "
+                f"proportions halfway between {a} and {b}, the head blends both heads, both colour schemes woven together "
+                f"over the whole body, every feature grows naturally from one body. {pair['fuse']}. ONE face with exactly "
+                "TWO eyes, full body from head to feet standing facing the viewer, clearly drawn legs, official Ken "
+                "Sugimori Pokemon artwork style, flat 2D anime illustration, NOT a 3D render, clean black line art, soft "
+                "cel shading, plain pure white background, no scenery.")
+        except Exception as exc:  # noqa: BLE001 - provider down / out of credits: the old reference-image route
+            log.warning("   text-only fusion art failed (%s) - using the reference images", str(exc)[:150])
     if pair.get("family") == "dbz":  # a canon fusion: draw THAT character, the parents only guide the style
         return _qwen_draw(f"Draw {pair['fuse']}. One single character, full body from head to feet, standing facing "
                           f"the viewer, {fam['style']}, same art style as the reference images, plain white "
                           "background.", srcs, provider_ok="text")
     # "ONE single creature": Snorlax + Arcanine once came out as Arcanine standing in front of Snorlax (2026-11-09)
+    # "ONE face, exactly two eyes": owner 2026-11-09 - fused art showed both parents' eyes on one creature
     return _qwen_draw(f"Design ONE brand-new {fam['word']} that is a fusion of {_name(pair['a'])} (image 1) and "
                       f"{_name(pair['b'])} (image 2): {pair['fuse']}. ONE single creature with one head and one body, "
+                      "ONE face with exactly TWO eyes - never a second pair of eyes, no extra eyes, no eye-shaped "
+                      "markings and no second face anywhere on the head or body, "
                       "standing facing the viewer, full body from head to feet, clearly drawn legs and feet, "
                       f"character-design pose, {fam['style']}, clean line art and soft shading, plain white background.",
                       srcs, provider_ok=True)
@@ -403,13 +439,15 @@ def _provider_edit(prompt: str, refs: list) -> Path:
 
 def _qwen_draw(prompt: str, refs: list, provider_ok: bool = False) -> Path:
     """One Qwen-Image-2.1 image (realtime Space, 1024x1024) from a prompt + optional reference images. With
-    provider_ok, a used-up ZeroGPU quota falls back to HF Inference Providers (credits)."""
+    provider_ok, HF Inference Providers (credits, ~$0.03 an image) draw it FIRST and the ZeroGPU Space is only the
+    fallback: fusion art drawn on the Space used up the shared 40-min ZeroGPU day, so the Wan evolution shorts got
+    "quota used up" from 2026-11-05 to 11-09 and none was posted (owner noticed 2026-11-09)."""
     if provider_ok:
         try:
-            return _qwen_draw(prompt, refs)
-        except fv.QuotaExhausted:
-            log.info("   ZeroGPU quota used up - drawing through Inference Providers (credits)")
             return _provider_edit(prompt, refs) if refs and provider_ok != "text" else _provider_draw(prompt)
+        except Exception as exc:  # noqa: BLE001 - provider down / out of credits: try the Space
+            log.warning("   Inference Providers failed (%s) - trying the ZeroGPU Space", str(exc)[:150])
+            return _qwen_draw(prompt, refs)
     from gradio_client import Client, handle_file
 
     client = Client(QWEN_SPACE, hf_token=fv.hf_token(), verbose=False)  # token needs "Make calls to Inference
@@ -519,7 +557,7 @@ def fusion_base(pair: dict) -> tuple[str, str]:
 _KEEP = "the character keeps exactly the same design, shape and colors, anime style, smooth natural motion"
 
 
-FUSION_STYLE = 8
+FUSION_STYLE = 9  # 9: Dragon Ball signature attacks at the camera
 # owner 2026-11-09: not the same jump for every fusion - two moves that fit the creature (fal_video.action_clip).
 # First move from the first type, second from the second type (or the first type's second option); Dragon Ball
 # pairs list their own "moves".
@@ -547,6 +585,60 @@ TYPE_COLOR = {"fire": (255, 120, 40), "water": (60, 150, 255), "grass": (90, 210
               "bug": (160, 210, 60), "flying": (170, 200, 255)}
 
 
+# how each signature attack is thrown (Wan prompt), owner 2026-11-09: the locally drawn Kamehameha (a ball + rings, the
+# character never moved) was "bohot bekar" - "proper animation, jaise power shoot karte"
+ATTACK_MOTION = {
+    "KAMEHAMEHA": "cups both hands together at his side, a bright blue energy ball charges between his palms, then he "
+                  "thrusts both hands forward and fires a huge blue Kamehameha energy beam",
+    "FINAL KAMEHAMEHA": "cups both hands together at his side, a blue and yellow energy ball charges between his palms, then "
+                        "he thrusts both hands forward and fires a huge blue and yellow energy beam",
+    "FINAL FLASH": "spreads both arms wide charging yellow energy, brings his palms together in front of him and fires a "
+                   "gigantic yellow energy beam",
+    "GALICK GUN": "pulls both hands to one side with palms out, purple energy crackles around them, then he thrusts them "
+                  "forward and fires a huge purple energy beam",
+    "DEATH BEAM": "points one finger straight at the camera, a bright pink light charges at the fingertip, then a "
+                  "thick glowing pink-purple laser beam fires from the fingertip straight toward the camera and "
+                  "flashes across the screen",  # owner 2026-11-09: a thin line through the chest looked weak
+    "ERASER CANNON": "raises one hand, a big green energy ball grows in his palm, then he throws it and it explodes in a "
+                     "huge green blast",
+    "SPECIAL BEAM CANNON": "puts two fingers to his forehead, yellow energy sparks charge there, then he points the fingers "
+                           "forward and fires a thin yellow beam with a spiral of energy around it",
+    "MASENKO": "raises both hands above his head charging yellow energy, then brings them down in front of him and fires a "
+               "big yellow energy beam",
+    "SPHERE OF DESTRUCTION": "raises one hand above his head, a glowing orange sphere of energy grows there, then he hurls "
+                             "it forward and it explodes",
+}
+
+
+def dbz_attack_video(pair: dict, fused: Path, bg: str) -> dict | None:
+    """The Dragon Ball signature attack as a real animation: Wan 2.2 image-to-video through HF credits
+    (fal_video.provider_i2v) from the fused character on the scene, then RIFE + Real-ESRGAN HD on the laptop. Cached in
+    the fusion's folder. None (-> the locally drawn attack) when the provider fails."""
+    attack = pair["attack"]
+    motion = ATTACK_MOTION.get(attack["name"])
+    if not motion:
+        return None
+    out = fused.parent
+    raw = out / "wan_attack.mp4"
+    try:
+        start = out / "frame_attack.png"
+        if not start.exists():
+            work = out / ".work"
+            work.mkdir(parents=True, exist_ok=True)
+            frame = fv._poke_background(bg, work).convert("RGBA")
+            art, (x, y) = fv._poke_art(str(fused), work)
+            frame.alpha_composite(art, (x, y))
+            frame.convert("RGB").save(start)
+        fv.provider_i2v(start, (
+            f"{pair['name']}, a Dragon Ball character, {motion}, the beam blasts across the screen, his aura flares, "
+            "he keeps exactly the same face, hair, outfit and colors, Dragon Ball Z anime style, dynamic powerful motion, "
+            "steady camera"), raw)
+    except Exception as exc:  # noqa: BLE001 - provider down / out of credits
+        log.warning("   Wan attack clip failed (%s) - using the drawn attack", str(exc)[:150])
+        return None
+    return {"video": str(fv.hd_clip(raw, out / "wan_attack_hd.mp4"))}
+
+
 def fusion_storyboard(pair: dict, meta: dict, fused: Path) -> dict:
     """Style 7: parent A's art, parent B's art (stills with a slow zoom - owner 2026-11-08: no animation on the
     parents), the locally drawn fusion (silhouettes slide together, swap, white screen), the fused creature fades in
@@ -562,7 +654,13 @@ def fusion_storyboard(pair: dict, meta: dict, fused: Path) -> dict:
     still = lambda who, bg, secs: {"still": {"poke": who, "background": bg}, "seconds": secs, "zoom": [1.0, 1.12]}  # noqa: E731
     color = list(pair.get("color") or TYPE_COLOR.get(ta, (140, 190, 255)))
     moves = fusion_moves(pair, ta, tb)
-    act = lambda mode, secs: {"action": str(fused), "background": bg_a, "seconds": secs, "mode": mode, "color": color}  # noqa: E731
+    # Dragon Ball: the pair's signature "attack" (owner 2026-11-09: "Kamehameha jab Goku jaise fused ho") is the last
+    # move, in the attack's own colour, and the narration shouts its name over it; the joke moves to the closing line
+    attack = pair.get("attack") if fam == "dbz" else None
+    if attack:
+        moves = tuple([m for m in moves if m not in ("signature", "blast")] + [m for m in moves if m in ("signature", "blast")])
+    act = lambda mode, secs, c=None: {"action": str(fused), "background": bg_a, "seconds": secs, "mode": mode,  # noqa: E731
+                                      "color": list(c or color)}
     ra, rb = art_ref(fam, pair["a"]), art_ref(fam, pair["b"])
     clips = [still(ra, bg_a, 4.0),
              still(rb, bg_b, 3.5),
@@ -570,15 +668,18 @@ def fusion_storyboard(pair: dict, meta: dict, fused: Path) -> dict:
              # owner 2026-11-09: hold the new creature still for 3 s, then let it DO something (local, design-safe)
              {"still": {"poke": str(fused), "background": bg_a}, "seconds": 3.0, "zoom": [1.0, 1.0], "white_in": 0.6},
              act(moves[0], 4.0),
-             act(moves[1], 4.5),  # + joke
-             {"still": str(fused.parent / "scene_03.jpg"), "seconds": 5.5, "zoom": [1.05, 1.15]}]  # closing question
+             (dbz_attack_video(pair, fused, bg_a) or act(moves[1], 5.0, attack["color"])) if attack
+             else act(moves[1], 4.5),  # attack shout, else the joke
+             {"still": str(fused.parent / "scene_03.jpg"), "seconds": 8.0 if attack else 5.5,
+              "zoom": [1.05, 1.15]}]  # closing question
     joke = humor.pick({"pokemon": "fusion", "pal": "palfusion", "dbz": "dbzfusion"}[fam], meta["id"])
     if fam == "dbz":
         dance = pair.get("method") == "Fusion Dance"
         narration = [f"{a} and {b} are about to fuse!", f"Here comes {b}!",
                      "Fu... sion... HA!" if dance else "The Potara earrings are on!",
-                     "Fusion complete!", f"Meet {name}!", joke,
-                     (f"{name}, a fan-made {pair['method']} fusion." if pair.get("fan") else f"{name}, born from the {pair['method']}.")
+                     "Fusion complete!", f"Meet {name}!", attack["say"] if attack else joke,
+                     ((joke + " ") if attack and joke else "")
+                     + (f"{name}, a fan-made {pair['method']} fusion." if pair.get("fan") else f"{name}, born from the {pair['method']}.")
                      + " Which Dragon Ball fusion should we make next? Comment below!"]
     else:
         narration = [f"What happens when {a} fuses with {b}?", f"And here comes {b}!", f"{a} and {b} are fusing!",

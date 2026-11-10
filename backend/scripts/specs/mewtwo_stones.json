@@ -1,0 +1,122 @@
+[
+ {
+  "key": "fire",
+  "stone": "Fire Stone",
+  "type": "fire",
+  "form": "Fire Mewtwo",
+  "mega": "Mega Fire Mewtwo",
+  "stone_look": "a glowing orange-red gemstone with a bright yellow flame shape inside it",
+  "form_look": "deep red and orange body wearing armour: dark red armour plates on the chest, shoulders and hips, black flame-shaped bodysuit markings down the arms and legs, gold bracers on the forearms, a burning flame mane flowing from the back of the head, its long tail ending in a large flame",
+  "mega_look": "bigger and more powerful: dark red armour plates on the shoulders and chest, a huge blazing flame crown, flaming forearms, a long tail wrapped in blue-hot fire",
+  "moves": [
+   "breath",
+   "powerup"
+  ],
+  "joke": "Note to self: never fist-bump a volcano."
+ },
+ {
+  "key": "water",
+  "stone": "Water Stone",
+  "type": "water",
+  "form": "Water Mewtwo",
+  "mega": "Mega Water Mewtwo",
+  "stone_look": "a glowing clear blue gemstone with a white wave pattern inside it",
+  "form_look": "ocean blue body with a white belly, fin-like crests on the head and forearms, a long tail ending in a fish-like fin",
+  "mega_look": "bigger and more powerful: sleek armour like a shell on the shoulders, large flowing fins, a tail that splits into two fins, glowing aqua markings",
+  "moves": [
+   "swirl",
+   "beam"
+  ],
+  "joke": "It punched a Water Stone and now it needs a towel."
+ },
+ {
+  "key": "thunder",
+  "stone": "Thunder Stone",
+  "type": "electric",
+  "form": "Thunder Mewtwo",
+  "mega": "Mega Thunder Mewtwo",
+  "stone_look": "a glowing green-yellow gemstone with a lightning bolt shape inside it",
+  "form_look": "bright yellow body with black lightning stripes, spiky lightning-bolt crests on the head, a zigzag tail tip",
+  "mega_look": "bigger and more powerful: black armour with yellow lightning lines, huge spiky electric crest, crackling bolts around the forearms",
+  "moves": [
+   "lightning",
+   "teleport"
+  ],
+  "joke": "Its hair will never sit flat again."
+ },
+ {
+  "key": "leaf",
+  "stone": "Leaf Stone",
+  "type": "grass",
+  "form": "Leaf Mewtwo",
+  "mega": "Mega Leaf Mewtwo",
+  "stone_look": "a glowing green gemstone with a leaf pattern inside it",
+  "form_look": "leaf green body with a cream belly, large leaves growing from the head like a crown, vines wrapped around the arms, a tail ending in a big leaf",
+  "mega_look": "bigger and more powerful: bark-like armour on the shoulders, a crown of flowers and leaves, thick vines, a tail ending in a blooming flower",
+  "moves": [
+   "swirl",
+   "levitate"
+  ],
+  "joke": "Finally, a Mewtwo that does its own gardening."
+ },
+ {
+  "key": "ice",
+  "stone": "Ice Stone",
+  "type": "ice",
+  "form": "Ice Mewtwo",
+  "mega": "Mega Ice Mewtwo",
+  "stone_look": "a bright glowing icy light-blue crystal gem with a white snowflake shape inside it",
+  "form_look": "icy white and pale blue body, ice crystal spikes on the head and shoulders, a frosty tail tip",
+  "mega_look": "bigger and more powerful: clear ice armour on the chest and arms, a crown of large ice crystals, a long tail ending in an ice blade",
+  "moves": [
+   "swirl",
+   "beam"
+  ],
+  "joke": "Its punches now come with free air conditioning."
+ },
+ {
+  "key": "moon",
+  "stone": "Moon Stone",
+  "type": "fairy",
+  "form": "Moon Mewtwo",
+  "mega": "Mega Moon Mewtwo",
+  "stone_look": "a dark grey-blue stone with a glowing silver crescent moon shape",
+  "form_look": "midnight blue and silver body, a crescent moon crest on the forehead, star-shaped sparkles on the arms",
+  "mega_look": "bigger and more powerful: silver armour with crescent moons, a flowing starry cape-like tail, a glowing full-moon halo",
+  "moves": [
+   "levitate",
+   "swirl"
+  ],
+  "joke": "Now it only trains at night."
+ },
+ {
+  "key": "dusk",
+  "stone": "Dusk Stone",
+  "type": "dark",
+  "form": "Dusk Mewtwo",
+  "mega": "Mega Dusk Mewtwo",
+  "stone_look": "a dark purple-black gemstone with a glowing purple eye-like swirl inside it",
+  "form_look": "dark purple and black body, a shadowy smoke mane, glowing violet markings, a tail that fades into shadow",
+  "mega_look": "bigger and more powerful: black armour with violet lines, a huge shadow crown, shadow claws on the hands",
+  "moves": [
+   "teleport",
+   "blast"
+  ],
+  "joke": "It turned off the lights just to look cooler."
+ },
+ {
+  "key": "shiny",
+  "stone": "Shiny Stone",
+  "type": "fairy",
+  "form": "Shiny Stone Mewtwo",
+  "mega": "Mega Shiny Stone Mewtwo",
+  "stone_look": "a sparkling white gemstone with a bright star shine",
+  "form_look": "white body with pink and gold sparkling patterns, a glowing star on the chest, shining crystal tips on the head",
+  "mega_look": "bigger and more powerful: white and gold armour, a radiant sparkling crown, wings of light behind it",
+  "moves": [
+   "levitate",
+   "blast"
+  ],
+  "joke": "It is now officially too shiny to look at."
+ }
+]

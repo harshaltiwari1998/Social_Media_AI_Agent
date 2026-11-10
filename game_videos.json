@@ -9133,5 +9133,25 @@
       ],
       "joke": "Its punches now come with free air conditioning."
     }
+  },
+  "stone-mewtwo-moon": {
+    "kind": "motion",
+    "spec": "scripts/specs/mewtwo_stones.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\stone-mewtwo-moon\\final.mp4",
+    "data": {
+      "key": "moon",
+      "stone": "Moon Stone",
+      "type": "fairy",
+      "form": "Moon Mewtwo",
+      "mega": "Mega Moon Mewtwo",
+      "stone_look": "a dark grey-blue stone with a glowing silver crescent moon shape",
+      "form_look": "midnight blue and silver body, a crescent moon crest on the forehead, star-shaped sparkles on the arms",
+      "mega_look": "bigger and more powerful: silver armour with crescent moons, a flowing starry cape-like tail, a glowing full-moon halo",
+      "moves": [
+        "levitate",
+        "swirl"
+      ],
+      "joke": "Now it only trains at night."
+    }
   }
 }

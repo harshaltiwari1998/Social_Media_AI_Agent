@@ -8977,5 +8977,25 @@
   "grintale-glaring-cats-eye-extra-eggs": {
     "spec": "scripts/specs/games/palguide_162_grintale-glaring-cats-eye-extra-eggs.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5de2c633.mp4"
+  },
+  "stone-mewtwo-fire": {
+    "kind": "motion",
+    "spec": "scripts/specs/mewtwo_stones.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\stone-mewtwo-fire\\final.mp4",
+    "data": {
+      "key": "fire",
+      "stone": "Fire Stone",
+      "type": "fire",
+      "form": "Fire Mewtwo",
+      "mega": "Mega Fire Mewtwo",
+      "stone_look": "a glowing orange-red gemstone with a bright yellow flame shape inside it",
+      "form_look": "deep red and orange body wearing armour: dark red armour plates on the chest, shoulders and hips, black flame-shaped bodysuit markings down the arms and legs, gold bracers on the forearms, a burning flame mane flowing from the back of the head, its long tail ending in a large flame",
+      "mega_look": "bigger and more powerful: dark red armour plates on the shoulders and chest, a huge blazing flame crown, flaming forearms, a long tail wrapped in blue-hot fire",
+      "moves": [
+        "breath",
+        "powerup"
+      ],
+      "joke": "Note to self: never fist-bump a volcano."
+    }
   }
 }

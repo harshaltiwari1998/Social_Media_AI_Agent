@@ -7046,5 +7046,48 @@
       "unique": false,
       "key": "Icelyn 5"
     }
+  },
+  "Pupperai 5": {
+    "spec": "scripts/specs/palworld_pupperai_5.json",
+    "video": "F:\\AI AGENT\\run_pal\\videos\\short-90879b07.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Pupperai",
+      "caption": "5 ways to breed Pupperai in Palworld 1.0: Swee + Lifmunk, Fuddler + Teafant, Ribbuny + Depresso, Tanzee + Pengullet, Daedream + Gumoss.",
+      "video_script": "Here are five ways to breed Pupperai in Palworld one point zero. Combo one: breed Swee with Lifmunk on your Breeding Farm, then add a cake. Combo two: pair Fuddler and Teafant together, and you get the same egg. Combo three: Ribbuny plus Depresso works too, so use whichever Pals you have. Combo four: Tanzee with Pengullet is another easy option. Combo five: breed Daedream with Gumoss on your Breeding Farm, then add a cake. Every egg hatches into Pupperai. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Swee",
+        "Lifmunk"
+      ],
+      "combos": [
+        [
+          "Swee",
+          "Lifmunk"
+        ],
+        [
+          "Fuddler",
+          "Teafant"
+        ],
+        [
+          "Ribbuny",
+          "Depresso"
+        ],
+        [
+          "Tanzee",
+          "Pengullet"
+        ],
+        [
+          "Daedream",
+          "Gumoss"
+        ]
+      ],
+      "child": "Pupperai",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false,
+      "key": "Pupperai 5"
+    }
   }
 }

@@ -9307,5 +9307,9 @@
   "gildane-sandstorms-blessing-feybreak-ground-mount": {
     "spec": "scripts/specs/games/palguide_164_gildane-sandstorms-blessing-feybreak-ground-mount.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-3238e10f.mp4"
+  },
+  "palworld-guide-fuack-surfing-slam-watering": {
+    "spec": "scripts/specs/games/palguide_165_palworld-guide-fuack-surfing-slam-watering.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-1b7b6b0d.mp4"
   }
 }

@@ -9099,5 +9099,19 @@
       ],
       "joke": "Finally, a Mewtwo that does its own gardening."
     }
+  },
+  "dbzfusion-Gokuly": {
+    "kind": "motion",
+    "spec": "scripts/specs/dbz_fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\dbzfusion-Gokuly\\final.mp4",
+    "data": {
+      "id": "Gokuly",
+      "family": "dbz",
+      "fan": true,
+      "a": "Goku",
+      "b": "Broly",
+      "name": "Gokuly",
+      "types": "Fusion Dance"
+    }
   }
 }

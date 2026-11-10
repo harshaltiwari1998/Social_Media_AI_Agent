@@ -9682,5 +9682,12 @@
         "epic games free games this week"
       ]
     }
+  },
+  "palworld-18-more-pals-3-combos-each": {
+    "spec": "scripts/specs/long/gaming_97_palworld-18-more-pals-3-combos-each.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-d40f7510.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-d40f7510-thumb.jpg",
+    "chapters": "0:00 Eighteen more Pals, three combos each\n0:48 Tanzee and Hoocrates\n1:36 Nox and Woolipop\n2:23 Kelpsea and Kikit\n3:10 Wispaw and Puffolt\n3:57 Shroomer and Slowatt\n4:45 Munchill and Dazemu\n5:33 Mammorest and Maraith\n6:21 Sootseer and Lullu\n7:09 Yakumo and Snugloo\n7:57 Your turn"
   }
 }

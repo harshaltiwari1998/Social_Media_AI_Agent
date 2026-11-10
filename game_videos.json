@@ -9221,5 +9221,56 @@
   "gta6-countdown-09-jason-lucia": {
     "spec": "scripts/specs/games/gta6_14_countdown-09.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-78583407.mp4"
+  },
+  "poke-bulbasaur": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/pokemon/bulbasaur/final.mp4",
+    "data": {
+      "id": "bulbasaur",
+      "stages": [
+        "bulbasaur",
+        "ivysaur",
+        "venusaur"
+      ],
+      "type": "grass",
+      "megas": [
+        "venusaur-mega"
+      ]
+    }
+  },
+  "poke-riolu": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/pokemon/riolu/final.mp4",
+    "data": {
+      "id": "riolu",
+      "stages": [
+        "riolu",
+        "lucario"
+      ],
+      "type": "fighting",
+      "megas": [
+        "lucario-mega",
+        "lucario-mega-z"
+      ]
+    }
+  },
+  "poke-dratini": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/pokemon/dratini/final.mp4",
+    "data": {
+      "id": "dratini",
+      "stages": [
+        "dratini",
+        "dragonair",
+        "dragonite"
+      ],
+      "type": "dragon",
+      "megas": [
+        "dragonite-mega"
+      ]
+    }
   }
 }

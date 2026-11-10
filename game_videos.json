@@ -8997,5 +8997,19 @@
       ],
       "joke": "Note to self: never fist-bump a volcano."
     }
+  },
+  "dbzfusion-Cellgeta": {
+    "kind": "motion",
+    "spec": "scripts/specs/dbz_fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\dbzfusion-Cellgeta\\final.mp4",
+    "data": {
+      "id": "Cellgeta",
+      "family": "dbz",
+      "fan": true,
+      "a": "Vegeta",
+      "b": "Cell",
+      "name": "Cellgeta",
+      "types": "Fusion Dance"
+    }
   }
 }

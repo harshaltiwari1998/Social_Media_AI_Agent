@@ -7175,5 +7175,91 @@
       "unique": false,
       "key": "Dualith 5"
     }
+  },
+  "Broncherry 5": {
+    "spec": "scripts/specs/palworld_broncherry_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f47c5528.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Broncherry",
+      "caption": "5 ways to breed Broncherry in Palworld 1.0: Braloha + Tarantriss, Grizzbolt + Mimog, Shroomer + Palumba, Pierdon + Vanwyrm, Quivern + Digtoise.",
+      "video_script": "Here are five ways to breed Broncherry in Palworld one point zero. Combo one: breed Braloha with Tarantriss on your Breeding Farm, then add a cake. Combo two: pair Grizzbolt and Mimog together, and you get the same egg. Combo three: Shroomer plus Palumba works too, so use whichever Pals you have. Combo four: Pierdon with Vanwyrm is another easy option. Combo five: breed Quivern with Digtoise on your Breeding Farm, then add a cake. Every egg hatches into Broncherry. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Braloha",
+        "Tarantriss"
+      ],
+      "combos": [
+        [
+          "Braloha",
+          "Tarantriss"
+        ],
+        [
+          "Grizzbolt",
+          "Mimog"
+        ],
+        [
+          "Shroomer",
+          "Palumba"
+        ],
+        [
+          "Pierdon",
+          "Vanwyrm"
+        ],
+        [
+          "Quivern",
+          "Digtoise"
+        ]
+      ],
+      "child": "Broncherry",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false,
+      "key": "Broncherry 5"
+    }
+  },
+  "Incineram 5": {
+    "spec": "scripts/specs/palworld_incineram_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ed3b2240.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Incineram",
+      "caption": "5 ways to breed Incineram in Palworld 1.0: Prunelia + Digtoise, Skutlass + Shroomer, Wumpo + Loupmoon, Sekhmet + Penking, Frostplume + Wixen.",
+      "video_script": "Here are five ways to breed Incineram in Palworld one point zero. Combo one: breed Prunelia with Digtoise on your Breeding Farm, then add a cake. Combo two: pair Skutlass and Shroomer together, and you get the same egg. Combo three: Wumpo plus Loupmoon works too, so use whichever Pals you have. Combo four: Sekhmet with Penking is another easy option. Combo five: breed Frostplume with Wixen on your Breeding Farm, then add a cake. Every egg hatches into Incineram. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Prunelia",
+        "Digtoise"
+      ],
+      "combos": [
+        [
+          "Prunelia",
+          "Digtoise"
+        ],
+        [
+          "Skutlass",
+          "Shroomer"
+        ],
+        [
+          "Wumpo",
+          "Loupmoon"
+        ],
+        [
+          "Sekhmet",
+          "Penking"
+        ],
+        [
+          "Frostplume",
+          "Wixen"
+        ]
+      ],
+      "child": "Incineram",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false,
+      "key": "Incineram 5"
+    }
   }
 }

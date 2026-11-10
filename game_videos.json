@@ -9689,5 +9689,44 @@
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-d40f7510.mp4",
     "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-d40f7510-thumb.jpg",
     "chapters": "0:00 Eighteen more Pals, three combos each\n0:48 Tanzee and Hoocrates\n1:36 Nox and Woolipop\n2:23 Kelpsea and Kikit\n3:10 Wispaw and Puffolt\n3:57 Shroomer and Slowatt\n4:45 Munchill and Dazemu\n5:33 Mammorest and Maraith\n6:21 Sootseer and Lullu\n7:09 Yakumo and Snugloo\n7:57 Your turn"
+  },
+  "aniimo-title-promotion-ladder-level-caps-explained": {
+    "spec": "scripts/specs/long/gaming_87_aniimo-title-promotion-ladder-level-caps-explained.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-4f77d8a3.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-4f77d8a3-thumb.jpg",
+    "chapters": "0:00 Intro\n0:36 Why level caps exist\n1:22 The Student titles\n1:55 The Wayfarer titles\n2:31 The Trailblazer titles\n3:04 How a promotion works step by step\n3:45 Report Cards and Talents\n4:22 What to do while you are capped\n5:15 Common mistakes\n6:01 A simple promotion plan\n6:33 Over to you"
+  },
+  "aniimo-fennelun-light-moon-build": {
+    "spec": "scripts/specs/games/aniimo_210_aniimo-fennelun-light-moon-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-c2de6f02.mp4"
+  },
+  "aniimo-cozite-mud-ball-smoke-guide": {
+    "spec": "scripts/specs/games/aniimo_211_aniimo-cozite-mud-ball-smoke-guide.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5b3fced6.mp4"
+  },
+  "aniimo-gachapus-gacha-bubbles-guide": {
+    "spec": "scripts/specs/games/aniimo_212_aniimo-gachapus-gacha-bubbles-guide.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-c35760ef.mp4"
+  },
+  "aniimo-dewple-tide-resonance-build": {
+    "spec": "scripts/specs/games/aniimo_213_aniimo-dewple-tide-resonance-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-c1c6e4ae.mp4"
+  },
+  "aniimo-mesmerowl-wind-support-guide": {
+    "spec": "scripts/specs/games/aniimo_214_aniimo-mesmerowl-wind-support-guide.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5e4e859e.mp4"
+  },
+  "palworld-guide-leezpunk-too-cool-to-be-seen": {
+    "spec": "scripts/specs/games/palguide_166_palworld-guide-leezpunk-too-cool-to-be-seen.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-19180c6b.mp4"
+  },
+  "palworld-guide-cawgnito-night-vision-lumbering": {
+    "spec": "scripts/specs/games/palguide_167_palworld-guide-cawgnito-night-vision-lumbering.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-77e77ce5.mp4"
+  },
+  "palworld-guide-loupmoon-dark-gleam-strike": {
+    "spec": "scripts/specs/games/palguide_168_palworld-guide-loupmoon-dark-gleam-strike.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b2bbeca8.mp4"
   }
 }

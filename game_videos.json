@@ -9113,5 +9113,25 @@
       "name": "Gokuly",
       "types": "Fusion Dance"
     }
+  },
+  "stone-mewtwo-ice": {
+    "kind": "motion",
+    "spec": "scripts/specs/mewtwo_stones.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\stone-mewtwo-ice\\final.mp4",
+    "data": {
+      "key": "ice",
+      "stone": "Ice Stone",
+      "type": "ice",
+      "form": "Ice Mewtwo",
+      "mega": "Mega Ice Mewtwo",
+      "stone_look": "a bright glowing icy light-blue crystal gem with a white snowflake shape inside it",
+      "form_look": "icy white and pale blue body, ice crystal spikes on the head and shoulders, a frosty tail tip",
+      "mega_look": "bigger and more powerful: clear ice armour on the chest and arms, a crown of large ice crystals, a long tail ending in an ice blade",
+      "moves": [
+        "swirl",
+        "beam"
+      ],
+      "joke": "Its punches now come with free air conditioning."
+    }
   }
 }

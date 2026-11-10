@@ -9153,5 +9153,25 @@
       ],
       "joke": "Now it only trains at night."
     }
+  },
+  "stone-mewtwo-dusk": {
+    "kind": "motion",
+    "spec": "scripts/specs/mewtwo_stones.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\stone-mewtwo-dusk\\final.mp4",
+    "data": {
+      "key": "dusk",
+      "stone": "Dusk Stone",
+      "type": "dark",
+      "form": "Dusk Mewtwo",
+      "mega": "Mega Dusk Mewtwo",
+      "stone_look": "a dark purple-black gemstone with a glowing purple eye-like swirl inside it",
+      "form_look": "dark purple and black body, a shadowy smoke mane, glowing violet markings, a tail that fades into shadow",
+      "mega_look": "bigger and more powerful: black armour with violet lines, a huge shadow crown, shadow claws on the hands",
+      "moves": [
+        "teleport",
+        "blast"
+      ],
+      "joke": "It turned off the lights just to look cooler."
+    }
   }
 }

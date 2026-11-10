@@ -9311,5 +9311,376 @@
   "palworld-guide-fuack-surfing-slam-watering": {
     "spec": "scripts/specs/games/palguide_165_palworld-guide-fuack-surfing-slam-watering.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-1b7b6b0d.mp4"
+  },
+  "deal-steam-deal-774861-80": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-774861-80.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-738bac94.mp4",
+    "data": {
+      "id": "deal-steam-deal-774861-80",
+      "slot": "deals",
+      "badge": "STEAM DAILY DEAL",
+      "headline": "Steam deal",
+      "title": "Project Winter 80% OFF on Steam | Now Rs 69 | Steam Deal Nov 10",
+      "video_script": "Today's Steam Daily Deal is Project Winter at 80 percent off, down from 349 rupees to just 69 rupees. Project Winter 2.0: Cabin Fever is an 8-player survival and social deception game where teamwork is vital, but betrayal is inevitable. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774861/6f25285a73c7aa9c652ee701f8080dca790c1961/header.jpg?t=1759330361",
+          "label": "Project Winter"
+        },
+        {
+          "image": "steam:774861:0",
+          "fact": "-80%  Rs 69",
+          "sub": "was Rs 349"
+        },
+        {
+          "image": "steam:774861:1",
+          "fact": "Action + Adventure + Casual",
+          "sub": "Other Ocean Interactive"
+        },
+        {
+          "image": "steam:774861:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Daily Deal is Project Winter at 80 percent off, down from 349 rupees to just 69 rupees.\nhttps://store.steampowered.com/app/774861\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 10 2026, 23:37 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Project Winter",
+        "Project Winter sale",
+        "Project Winter price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-227300-75": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-227300-75.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e48621dd.mp4",
+    "data": {
+      "id": "deal-steam-deal-227300-75",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Euro Truck Simulator 2 75% OFF on Steam | Now Rs 242 | Steam Deal Nov 10",
+      "video_script": "Euro Truck Simulator 2 is on sale on Steam at 75 percent off, down from 970 rupees to just 242 rupees. Travel across Europe as king of the road, a trucker who delivers important cargo across impressive distances! With dozens of cities to explore, your endurance, skill and speed will all be pushed to their limits. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/9a81dc3126c56637297b654f9dcac057cfd79b77/header.jpg?t=1793285269",
+          "label": "Euro Truck Simulator 2"
+        },
+        {
+          "image": "steam:227300:0",
+          "fact": "-75%  Rs 242",
+          "sub": "was Rs 970"
+        },
+        {
+          "image": "steam:227300:1",
+          "fact": "Indie + Simulation",
+          "sub": "SCS Software"
+        },
+        {
+          "image": "steam:227300:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Euro Truck Simulator 2 is on sale on Steam at 75 percent off, down from 970 rupees to just 242 rupees.\nhttps://store.steampowered.com/app/227300\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 10 2026, 23:37 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Euro Truck Simulator 2",
+        "Euro Truck Simulator 2 sale",
+        "Euro Truck Simulator 2 price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-1272080-70": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-1272080-70.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-2076d4de.mp4",
+    "data": {
+      "id": "deal-steam-deal-1272080-70",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "PAYDAY 3 70% OFF on Steam | Now Rs 404 | Steam Deal Nov 10",
+      "video_script": "PAYDAY 3 is on sale on Steam at 70 percent off, down from 1,349 rupees to just 404 rupees. PAYDAY 3 is a 1-to-4 player co-op FPS and the ultimate heist fantasy, set in the most iconic city in the world. Gone without a trace or through a hail of bullets. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1272080/1d66ef7e731a18e40b037d39618f7c3dfd614a90/header.jpg?t=1794297037",
+          "label": "PAYDAY 3"
+        },
+        {
+          "image": "steam:1272080:0",
+          "fact": "-70%  Rs 404",
+          "sub": "was Rs 1,349"
+        },
+        {
+          "image": "steam:1272080:1",
+          "fact": "Action + Adventure + RPG",
+          "sub": "Starbreeze Entertainment"
+        },
+        {
+          "image": "steam:1272080:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "PAYDAY 3 is on sale on Steam at 70 percent off, down from 1,349 rupees to just 404 rupees.\nhttps://store.steampowered.com/app/1272080\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 10 2026, 23:37 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "PAYDAY 3",
+        "PAYDAY 3 sale",
+        "PAYDAY 3 price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-5191760-40": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-5191760-40.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-20cbe8a1.mp4",
+    "data": {
+      "id": "deal-steam-deal-5191760-40",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Black Hole Simulator 40% OFF on Steam | Now Rs 131 | Steam Deal Nov 10",
+      "video_script": "Black Hole Simulator is on sale on Steam at 40 percent off, down from 219 rupees to just 131 rupees. The deal ends on November 24. Gaze into nature's greatest abyss. Explore a real-time black hole simulation with true gravitational lensing, a volumetric accretion disk, orbiting worlds, and cinematic relativistic effects. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5191760/a5c119f192d46c182c895baf8266b8e098149a44/header.jpg?t=1794333801",
+          "label": "Black Hole Simulator"
+        },
+        {
+          "image": "steam:5191760:0",
+          "fact": "-40%  Rs 131",
+          "sub": "was Rs 219"
+        },
+        {
+          "image": "steam:5191760:1",
+          "fact": "Casual + Indie + Simulation",
+          "sub": "Black Hole Simulator"
+        },
+        {
+          "image": "steam:5191760:2",
+          "fact": "Ends Nov 24",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Black Hole Simulator is on sale on Steam at 40 percent off, down from 219 rupees to just 131 rupees. The deal ends on November 24.\nhttps://store.steampowered.com/app/5191760\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 10 2026, 23:37 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Black Hole Simulator",
+        "Black Hole Simulator sale",
+        "Black Hole Simulator price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-5175310-35": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-5175310-35.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-fb89b835.mp4",
+    "data": {
+      "id": "deal-steam-deal-5175310-35",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Worst Class Ever 35% OFF on Steam | Now Rs 239 | Steam Deal Nov 10",
+      "video_script": "Worst Class Ever is on sale on Steam at 35 percent off, down from 369 rupees to just 239 rupees. The deal ends on November 23. 1 Teacher vs 7 Students. Hide. Prank. Survive. Up to 8-player asymmetric party chaos! Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5175310/a53c176293212f69941c443bf595238853135ae3/header.jpg?t=1794305415",
+          "label": "Worst Class Ever"
+        },
+        {
+          "image": "steam:5175310:0",
+          "fact": "-35%  Rs 239",
+          "sub": "was Rs 369"
+        },
+        {
+          "image": "steam:5175310:1",
+          "fact": "Action + Adventure + Casual",
+          "sub": "Funcore Games"
+        },
+        {
+          "image": "steam:5175310:2",
+          "fact": "Ends Nov 23",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Worst Class Ever is on sale on Steam at 35 percent off, down from 369 rupees to just 239 rupees. The deal ends on November 23.\nhttps://store.steampowered.com/app/5175310\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 10 2026, 23:37 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Worst Class Ever",
+        "Worst Class Ever sale",
+        "Worst Class Ever price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-2486910-33": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-2486910-33.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-c1869031.mp4",
+    "data": {
+      "id": "deal-steam-deal-2486910-33",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "COSMIC HOLES Junior 33% OFF on Steam | Now Rs 173 | Steam Deal Nov 10",
+      "video_script": "COSMIC HOLES Junior is on sale on Steam at 33 percent off, down from 259 rupees to just 173 rupees. The deal ends on November 17. Imagine an alien Sudoku where the numbers are elements. Figure out which element to place on the grid, where, and when!? In order to maintain balance, each element must harmonize with the others. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2486910/d883980310a7df994347e6a7669018d8058f3d46/header.jpg?t=1794326190",
+          "label": "COSMIC HOLES Junior"
+        },
+        {
+          "image": "steam:2486910:0",
+          "fact": "-33%  Rs 173",
+          "sub": "was Rs 259"
+        },
+        {
+          "image": "steam:2486910:1",
+          "fact": "Casual + Indie + Strategy",
+          "sub": "Fabien Corblin"
+        },
+        {
+          "image": "steam:2486910:2",
+          "fact": "Ends Nov 17",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "COSMIC HOLES Junior is on sale on Steam at 33 percent off, down from 259 rupees to just 173 rupees. The deal ends on November 17.\nhttps://store.steampowered.com/app/2486910\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 10 2026, 23:37 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "COSMIC HOLES Junior",
+        "COSMIC HOLES Junior sale",
+        "COSMIC HOLES Junior price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-4618570-30": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-4618570-30.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5e759049.mp4",
+    "data": {
+      "id": "deal-steam-deal-4618570-30",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Booster Pack Heroes 30% OFF on Steam | Now Rs 356 | Steam Deal Nov 10",
+      "video_script": "Booster Pack Heroes is on sale on Steam at 30 percent off, down from 509 rupees to just 356 rupees. The deal ends on November 24. Rip open booster packs and pull your next foil hero in Booster Pack Heroes - an incremental game where every pack could contain your next powerhouse. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4618570/b23824cde8f828abb42f3ef497f37657475ba505/header.jpg?t=1794316433",
+          "label": "Booster Pack Heroes"
+        },
+        {
+          "image": "steam:4618570:0",
+          "fact": "-30%  Rs 356",
+          "sub": "was Rs 509"
+        },
+        {
+          "image": "steam:4618570:1",
+          "fact": "Casual + Strategy",
+          "sub": "zup"
+        },
+        {
+          "image": "steam:4618570:2",
+          "fact": "Ends Nov 24",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Booster Pack Heroes is on sale on Steam at 30 percent off, down from 509 rupees to just 356 rupees. The deal ends on November 24.\nhttps://store.steampowered.com/app/4618570\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 10 2026, 23:37 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Booster Pack Heroes",
+        "Booster Pack Heroes sale",
+        "Booster Pack Heroes price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
   }
 }

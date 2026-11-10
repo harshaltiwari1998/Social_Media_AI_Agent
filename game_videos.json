@@ -9079,5 +9079,25 @@
       "name": "Cellza",
       "types": "Fusion Dance"
     }
+  },
+  "stone-mewtwo-leaf": {
+    "kind": "motion",
+    "spec": "scripts/specs/mewtwo_stones.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\stone-mewtwo-leaf\\final.mp4",
+    "data": {
+      "key": "leaf",
+      "stone": "Leaf Stone",
+      "type": "grass",
+      "form": "Leaf Mewtwo",
+      "mega": "Mega Leaf Mewtwo",
+      "stone_look": "a glowing green gemstone with a leaf pattern inside it",
+      "form_look": "leaf green body with a cream belly, large leaves growing from the head like a crown, vines wrapped around the arms, a tail ending in a big leaf",
+      "mega_look": "bigger and more powerful: bark-like armour on the shoulders, a crown of flowers and leaves, thick vines, a tail ending in a blooming flower",
+      "moves": [
+        "swirl",
+        "levitate"
+      ],
+      "joke": "Finally, a Mewtwo that does its own gardening."
+    }
   }
 }

@@ -9173,5 +9173,25 @@
       ],
       "joke": "It turned off the lights just to look cooler."
     }
+  },
+  "stone-mewtwo-shiny": {
+    "kind": "motion",
+    "spec": "scripts/specs/mewtwo_stones.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\stone-mewtwo-shiny\\final.mp4",
+    "data": {
+      "key": "shiny",
+      "stone": "Shiny Stone",
+      "type": "fairy",
+      "form": "Shiny Stone Mewtwo",
+      "mega": "Mega Shiny Stone Mewtwo",
+      "stone_look": "a sparkling white gemstone with a bright star shine",
+      "form_look": "white body with pink and gold sparkling patterns, a glowing star on the chest, shining crystal tips on the head",
+      "mega_look": "bigger and more powerful: white and gold armour, a radiant sparkling crown, wings of light behind it",
+      "moves": [
+        "levitate",
+        "blast"
+      ],
+      "joke": "It is now officially too shiny to look at."
+    }
   }
 }

@@ -9045,5 +9045,25 @@
       "name": "Vegohan",
       "types": "Fusion Dance"
     }
+  },
+  "stone-mewtwo-thunder": {
+    "kind": "motion",
+    "spec": "scripts/specs/mewtwo_stones.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\stone-mewtwo-thunder\\final.mp4",
+    "data": {
+      "key": "thunder",
+      "stone": "Thunder Stone",
+      "type": "electric",
+      "form": "Thunder Mewtwo",
+      "mega": "Mega Thunder Mewtwo",
+      "stone_look": "a glowing green-yellow gemstone with a lightning bolt shape inside it",
+      "form_look": "bright yellow body with black lightning stripes, spiky lightning-bolt crests on the head, a zigzag tail tip",
+      "mega_look": "bigger and more powerful: black armour with yellow lightning lines, huge spiky electric crest, crackling bolts around the forearms",
+      "moves": [
+        "lightning",
+        "teleport"
+      ],
+      "joke": "Its hair will never sit flat again."
+    }
   }
 }

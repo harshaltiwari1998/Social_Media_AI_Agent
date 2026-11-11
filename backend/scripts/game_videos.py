@@ -357,6 +357,11 @@ def spotlight_card(base_png: Path, top_png: Path, layers: list[tuple[Path, tuple
 
 def build_video(spec_path: Path) -> dict:
     spec = json.loads(spec_path.read_text(encoding="utf-8"))
+    if category_of(spec) == "movies" and spec.get("style") != "card":
+        # Movie shorts use the full-screen "cinema" look (owner approved 2026-11-11); "style": "card" keeps the old one.
+        from scripts import cinema_video
+
+        return {"spec": spec_path.name, "images": [], **cinema_video.build_video(spec_path)}
     out_dir = Path(settings.media_output_dir) / "images" / f"game_{spec['id']}"
     out_dir.mkdir(parents=True, exist_ok=True)
     # Owner (Nov 2026): shorts made only of still images looked cheap - scenes showing a Steam screenshot play the

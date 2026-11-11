@@ -121,6 +121,20 @@ def _stars(theme: tuple, seed: int) -> Image.Image:
     return Image.blend(img, glow.filter(ImageFilter.GaussianBlur(120)), 0.45)
 
 
+ART = ROOT / "assets" / "rashi"  # 00.jpg (Mesh) .. 11.jpg (Meen), drawn once by .cache/rashi_art.py
+
+
+def _art(r: int) -> Image.Image | None:
+    path = ART / f"{r:02d}.jpg"
+    return Image.open(path).convert("RGB").resize((CARD, CARD), Image.LANCZOS) if path.exists() else None
+
+
+def _dim(art: Image.Image) -> Image.Image:
+    from PIL import ImageEnhance
+
+    return ImageEnhance.Brightness(art.filter(ImageFilter.GaussianBlur(14))).enhance(0.38)
+
+
 def _text(card: Image.Image, text: str, size: int, y: int, color=WHITE, lines: int = 2) -> int:
     font = _font(size)
     block = render_block(font, wrap(font, text, max_width=900, max_lines=lines), color=color, stroke=6, shadow=8)
@@ -141,28 +155,39 @@ def cards(r: int, day: date, sk: dict, festival: str | None, out: Path) -> list[
         card.save(p)
         paths.append(str(p.resolve()))
 
-    c = _stars(theme, r * 31 + 1)
-    g = _font(330, glyph=True)
-    d = ImageDraw.Draw(c)
-    w = d.textlength(glyph, font=g)
-    d.text(((CARD - w) / 2, 150), glyph, font=g, fill=GOLD, stroke_width=4, stroke_fill=(60, 40, 0))
-    y = _text(c, f"{name} राशिफल", 110, 610, GOLD)
-    _text(c, when, 58, y + 20)
+    art = _art(r)
+    if art is not None:  # the rashi's own symbol picture (crab for Kark...) - owner 2026-11-11
+        c = art.copy()
+        shade = Image.new("L", (CARD, CARD), 0)
+        sd = ImageDraw.Draw(shade)
+        for yy in range(560, CARD):  # text stays inside the area the Ken Burns crop never reaches (~14% a side)
+            sd.line([(0, yy), (CARD, yy)], fill=int(min(1.0, (yy - 560) / 160) * 230))
+        c.paste((4, 6, 20), (0, 0), shade)
+        y = _text(c, f"{name} राशिफल", 104, 690, GOLD)
+        _text(c, when, 54, y + 4)
+    else:
+        c = _stars(theme, r * 31 + 1)
+        g = _font(330, glyph=True)
+        d = ImageDraw.Draw(c)
+        w = d.textlength(glyph, font=g)
+        d.text(((CARD - w) / 2, 150), glyph, font=g, fill=GOLD, stroke_width=4, stroke_fill=(60, 40, 0))
+        y = _text(c, f"{name} राशिफल", 110, 610, GOLD)
+        _text(c, when, 58, y + 20)
     save(1, c)
 
-    c = _stars(theme, r * 31 + 2)
+    c = _dim(art) if art is not None else _stars(theme, r * 31 + 2)
     y = _text(c, "आज चंद्रमा", 70, 230)
     y = _text(c, f"{RASHIS[sk['moon_rashi']][0]} राशि में", 110, y + 10, GOLD)
     y = _text(c, f"{sk['nakshatra']} नक्षत्र | {sk['tithi']}", 54, y + 20)
     _text(c, f"{name} से {ORD[house - 1]} भाव में", 66, y + 60)
     save(2, c)
 
-    c = _stars(theme, r * 31 + 3)
+    c = _dim(art) if art is not None else _stars(theme, r * 31 + 3)
     y = _text(c, head, 120, 300, GOLD)
     _text(c, sub, 70, y + 40)
     save(3, c)
 
-    c = _stars(theme, r * 31 + 4)
+    c = _dim(art) if art is not None else _stars(theme, r * 31 + 4)
     y = _text(c, f"शुभ रंग: {colour}", 96, 260, GOLD)
     y = _text(c, f"शुभ अंक: {num}", 96, y + 30, GOLD)
     y = _text(c, f"स्वामी ग्रह: {lord}", 64, y + 40)
@@ -223,11 +248,107 @@ def post(made: list[dict], day: date) -> int:
     return failed
 
 
+def combined(day: date, sk: dict, festival: str | None, out: Path) -> dict:
+    """ONE video with all 12 rashis (owner 2026-11-11: the AI Trend Poster Page had 0 followers and 0 views with ~19
+    videos a day - 12 separate rashifal shorts looked like spam). Intro card, then two cards + a short reading per
+    rashi (~13 s each), a closing card; chapters for the description."""
+    from moviepy.editor import VideoFileClip, concatenate_videoclips
+
+    when = f"{day.day} {MONTHS[day.month - 1]} {day.year}"
+    hello = f"{festival} की शुभकामनाएं! " if festival else ""
+
+    def card(k: str, lines: list[tuple[str, int, tuple]], seed: int, theme=(120, 90, 200)) -> str:
+        c, y = _stars(theme, seed), 260
+        for text, size, colour in lines:
+            y = _text(c, text, size, y, colour) + 30
+        path = out / f"all_{k}.png"
+        c.save(path)
+        return str(path.resolve())
+
+    out.mkdir(parents=True, exist_ok=True)
+
+    def intro_card() -> str:
+        """Title on top, the 12 symbol pictures in a 4 x 3 grid below."""
+        c = _stars((120, 90, 200), 7)
+        y = _text(c, "आज का राशिफल", 96, 150, GOLD)
+        _text(c, when, 52, y)
+        for i in range(12):
+            art = _art(i)
+            if art is None:
+                continue
+            tile = art.resize((166, 166), Image.LANCZOS)
+            mask = Image.new("L", (166, 166), 0)
+            ImageDraw.Draw(mask).rounded_rectangle([0, 0, 165, 165], radius=22, fill=255)
+            c.paste(tile, (193 + (i % 4) * 176, 400 + (i // 4) * 176), mask)
+        path = out / "all_intro.png"
+        c.save(path)
+        return str(path.resolve())
+
+    segs = [([intro_card() if _art(0) is not None else card("intro", [("आज का राशिफल", 120, GOLD), (when, 70, WHITE), ("सभी 12 राशियां", 84, GOLD)], 7)],
+             f"{hello}आज का राशिफल, {when}। आज चंद्रमा {RASHIS[sk['moon_rashi']][0]} राशि में है। सभी बारह राशियों का "
+             "हाल, अपनी राशि तक ज़रूर देखें!", "आज का राशिफल")]
+    for r in range(12):
+        name, _, _, colour, num, _ = RASHIS[r]
+        house = (sk["moon_rashi"] - r) % 12 + 1
+        _, _, reading, _ = GOCHAR[house]
+        pics = cards(r, day, sk, festival, out)
+        segs.append(([pics[0], pics[2], pics[3]], f"{name} राशि। {reading} शुभ रंग {colour}, शुभ अंक {num}।",
+                     f"{name} राशिफल"))
+    segs.append(([card("outro", [("आपकी राशि कौन सी है?", 100, GOLD), ("कमेंट में लिखें", 80, WHITE)], 9)],
+                 f"{humor.pick('rashifal_hi', f'{day}-all')} यह राशिफल चंद्रमा की चाल और ज्योतिष परंपरा पर आधारित है, "
+                 "सिर्फ मनोरंजन के लिए। अपनी राशि कमेंट में लिखें और कल फिर मिलते हैं!", "आज का राशिफल"))
+    clips, chapters, t = [], [], 0.0
+    for n, (pics, text, head) in enumerate(segs):
+        res = generate_video(pics, head, text, headline=head, badge="आज का राशिफल")
+        if not res.get("success"):
+            return {"video": None, "error": res.get("error")}
+        clip = VideoFileClip(res["data"]["path"])
+        if 1 <= n <= 12:
+            chapters.append(f"{int(t) // 60}:{int(t) % 60:02d} {RASHIS[n - 1][0]}")
+        t += clip.duration
+        clips.append(clip)
+    path = out / f"rashifal-{day.isoformat()}-all.mp4"
+    concatenate_videoclips(clips, method="compose").write_videofile(
+        str(path), fps=30, codec="libx264", audio_codec="aac", preset="medium", threads=4, logger=None,
+        temp_audiofile=str(out / "tmp_all.m4a"))
+    title = f"आज का राशिफल {when} | सभी 12 राशियां | Aaj Ka Rashifal" + (f" | {festival}" if festival else "")
+    desc = (f"{when} का राशिफल - मेष से मीन तक सभी 12 राशियां, चंद्रमा की गोचर स्थिति के अनुसार। शुभ रंग और शुभ अंक।\n"
+            "यह राशिफल ज्योतिष परंपरा पर आधारित है और सिर्फ मनोरंजन के लिए है।\n\n0:00 आज का राशिफल\n"
+            + "\n".join(chapters) + "\n\n#Rashifal #AajKaRashifal #Horoscope")
+    return {"video": str(path), "text": f"{title}\n\n{desc}", "seconds": round(t, 1)}
+
+
+def post_combined(item: dict, day: date) -> bool:
+    """The combined video on the AI Trend Poster Page, scheduled for 06:00 IST of the day (at once when that is under
+    15 minutes away). True when it is up (or was already)."""
+    import httpx
+
+    from app.pipeline import store
+    from app.pipeline.orchestrator import _POSTERS
+    from app.social.facebook import _GRAPH_VIDEO_API
+
+    fb, trend = _POSTERS["facebook"], f"custom:rashifal-{day.isoformat()}-all"
+    if store.already_posted(trend, "facebook"):
+        return True
+    when = datetime(day.year, day.month, day.day, 6, 0, tzinfo=IST)
+    data = {"description": item["text"], "access_token": fb.token}
+    if when.timestamp() > datetime.now(timezone.utc).timestamp() + 900:
+        data |= {"published": "false", "scheduled_publish_time": str(int(when.timestamp()))}
+    with open(item["video"], "rb") as f:
+        r = httpx.post(f"{_GRAPH_VIDEO_API}/{fb.page_id}/videos", data=data, files={"source": f}, timeout=1800.0)
+    pid = r.json().get("id") if r.status_code == 200 else None
+    store.record_post(trend, "facebook", pid, False)
+    print(item["text"].splitlines()[0], "->", f"{'scheduled' if 'published' in data else 'posted'} {pid}" if pid
+          else f"FAILED {r.text[:200]}", flush=True)
+    return pid is not None
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--date", required=True, help="YYYY-MM-DD or 'tomorrow' (IST)")
     ap.add_argument("--festival")
     ap.add_argument("--post", action="store_true", help="schedule them on the AI Trend Poster Facebook Page")
+    ap.add_argument("--separate", action="store_true", help="the old 12 separate shorts instead of ONE combined video")
     args = ap.parse_args()
     day = (datetime.now(IST).date() + timedelta(days=1) if args.date == "tomorrow" else date.fromisoformat(args.date))
     args.festival = args.festival or FESTIVALS.get(day.isoformat())
@@ -235,6 +356,18 @@ def main() -> None:
     print("sky:", json.dumps(sk, ensure_ascii=False))
     settings.tts_voice = "hi-IN-SwaraNeural"
     out = Path(settings.media_output_dir) / "rashifal" / day.isoformat()
+    if not args.separate:  # default since 2026-11-11: one video a day
+        from app.pipeline import store
+
+        if args.post and any(store.already_posted(f"custom:rashifal-{day.isoformat()}-{k}", "facebook") for k in ("all", "00")):
+            print(f"rashifal for {day} is already scheduled - nothing to do")
+            return
+        item = combined(day, sk, args.festival, out)
+        print("combined:", item.get("video") or item.get("error"), item.get("seconds"))
+        (out / "made_all.json").write_text(json.dumps(item, ensure_ascii=False, indent=1), encoding="utf-8")
+        if not item["video"] or (args.post and not post_combined(item, day)):
+            sys.exit(1)
+        return
     made = []
     for r in range(12):
         name = RASHIS[r][0]

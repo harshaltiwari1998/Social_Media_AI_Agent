@@ -358,7 +358,10 @@ def _qwen_fusion(pair: dict, key_name: str, out: Path) -> Path:
         src = out.with_name(f"parent_{slug.replace(' ', '_')}.png")
         sheet.save(src)
         srcs.append(src)
-    if pair.get("family", "pokemon") == "pokemon":
+    if pair.get("family", "pokemon") == "pokemon" and pair.get("text_only"):
+        # Only for pairs marked "text_only". Owner 2026-11-11 called a text-only batch of 10 "sab bakwas" and picked
+        # Darkceus + Umbrasol as the look to follow - both drawn from the parents' official art (the route below),
+        # so they keep the official Pokemon art style and recognisable parts of both parents.
         # owner 2026-11-09: "ek ke upar ek mat karo, bilkul fused lagna chahiye" - with the parents' pictures as input
         # the edit models pasted one Pokemon's parts onto the other (Sceptile + Salamence came out as two creatures).
         # Text only (the model knows every Pokemon by name) gives a real blend; the owner approved samples the same day.

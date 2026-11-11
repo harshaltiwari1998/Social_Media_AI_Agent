@@ -194,8 +194,11 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   deletes the branch when the plan is done. `.pushed` in the plan's `gameplay_out` folder stops a re-push.
   Pushes go in ~300 MB steps (one 2 GB push got HTTP 500), `posted.json` last (CI skips a branch without it), and
   at most `MAX_ON_CLOUD` = 2 plans sit on GitHub at once (2-3 GB each) - the laptop task pushes the next later.
-- `scripts/rashifal.py` - Hindi daily rashifal shorts, one per rashi (owner request Nov 2026; main FB Page "AI Trend
-  Poster" only, no new channel). Moon rashi/nakshatra/tithi computed with skyfield + JPL DE421 (`.cache/skyfield`,
+- `scripts/rashifal.py` - Hindi daily rashifal (owner request Nov 2026; main FB Page "AI Trend Poster" only, no new
+  channel). Since 2026-11-11 ONE video a day with all 12 rashis (~3.5 min: intro card with the 12 symbols, ~13 s per
+  rashi, chapters in the description, post id `custom:rashifal-<date>-all`); `--separate` = the old 12 shorts. Each
+  rashi shows its symbol picture (ram, bull, twins, crab... `backend/assets/rashi/NN.jpg`, drawn once with
+  `.cache/rashi_art.py` through HF credits - owner: "proper symbols, jaise kark ka crab"). Moon rashi/nakshatra/tithi computed with skyfield + JPL DE421 (`.cache/skyfield`,
   Lahiri ayanamsa); reading = traditional Chandra gochar house from each rashi; says "for entertainment", no fear,
   health, money advice or religious messaging. `daily-rashifal.yml` (20:00 IST) makes the next day's 12 and
   schedules them 06:00-06:55 IST; `FESTIVALS` = only panchang-confirmed dates. The CI run failed every day 7-11 Nov
@@ -271,6 +274,13 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
 - **Instagram cover**: Reels use `thumb_offset` 2000 ms (`INSTAGRAM_THUMB_OFFSET_MS`) - frame 0 is the
   black fade-in.
 - **Titles**: no `.` or `?` (YouTube title is cut there), no `<` or `>` anywhere (YouTube 400).
+- **AI Trend Poster Page volume** (2026-11-11): the Page had 0 followers and 0 views on its last 100 videos with ~19
+  uploads a day (12 rashifal + 3 movie + laptop trend-news). Owner chose: max ~4 a day - 3 movie shorts + ONE combined
+  rashifal; the laptop trend-news videos are off (`daily_job.cmd` passes `--skip-trends`). The token has no
+  `read_insights`, so only the Graph `views` field is available. The gaming Page (790 followers) also shows ~0 views.
+- **Movie shorts look** (owner approved 2026-11-11): full-screen "cinema" style, `scripts/cinema_video.py` (big framed
+  picture that slides in and zooms, hook line over the first 1.7 s, white flash on cuts, big fact text, grain +
+  vignette). `game_videos.build_video` routes every `category: movies` spec there; `"style": "card"` keeps the old look.
 - **Volume**: owner wants 20 Aniimo/Palworld shorts + 2 long a day on top of the regular schedule.
   Reach data (Oct 2026): classic games ~207 avg views, Aniimo ~193, Palworld ~97, long videos 40-80;
   a 60-upload day gave 2-5 views each, so gameplay uploads are capped per day.
@@ -322,6 +332,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-11 - AI Trend Poster: cinema-style movie shorts (`cinema_video.py`), ONE combined rashifal a day with symbol pictures, trend-news off; fusion compilations (`.cache/fusion_compilation.py`, `post_one.py comp:<family>:<tag>`); Pokemon fusion text-only art only for `text_only` pairs.
 - 2026-11-11 - `daily-rashifal.yml` downloads the Hindi fonts + ephemeris with retries (it had failed in 2 s every day).
 - 2026-11-10 - Facebook resumable upload for big videos (long videos 413'd); edge-tts retries (rashifal CI failed 7-10 Nov); laptop queue (`.cache/post_queue.py`) also posts `rdr:<plan>:<n>` own-stream shorts and `pal:<key>` breeding shorts built by `.cache/build_breeding.py`.
 - 2026-11-09 - Pokemon fusion art is text-only (`fal-ai/qwen-image`, no parent pictures) - a real blend, owner approved; Mewtwo + stones shorts (`stone_forms.py`), Fire sample built.

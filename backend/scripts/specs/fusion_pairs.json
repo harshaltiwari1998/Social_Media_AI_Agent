@@ -221,5 +221,41 @@
   "name": "Darkceus",
   "look": "Arceus's majestic four-legged body and golden cross-shaped wheel around its waist, recolored in Darkrai's black and dark grey, with Darkrai's white smoky plume mane and red spiky collar",
   "fuse": "Arceus's majestic four-legged horse-like body, pointed head crest, golden hooves and the golden cross-shaped wheel around its waist, but recolored in Darkrai's black and dark grey; Darkrai's flowing white smoke-like plume as a mane on the head and neck, its red spiky collar around the neck and its glowing cyan-blue eyes; the golden wheel set with red gems; a tattered shadowy black cloak flowing from the back like Darkrai's lower body"
+ },
+ {
+  "a": "charizard",
+  "b": "mewtwo",
+  "name": "Charitwo",
+  "if_sprite": "6.150"
+ },
+ {
+  "a": "tyranitar",
+  "b": "blastoise",
+  "name": "Tyranstoise",
+  "if_sprite": "248.9"
+ },
+ {
+  "a": "ho-oh",
+  "b": "lugia",
+  "name": "Lugioh",
+  "if_sprite": "249.250"
+ },
+ {
+  "a": "gengar",
+  "b": "dragonite",
+  "name": "Gengonite",
+  "if_sprite": "94.149"
+ },
+ {
+  "a": "ninetales",
+  "b": "arcanine",
+  "name": "Ninecanine",
+  "if_sprite": "38.59"
+ },
+ {
+  "a": "feraligatr",
+  "b": "typhlosion",
+  "name": "Typhligatr",
+  "if_sprite": "157.160"
  }
 ]

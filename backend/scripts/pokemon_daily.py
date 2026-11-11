@@ -125,7 +125,7 @@ def fusion_meta(pair: dict) -> dict:
     a, b = pair["a"], pair["b"]
     types = pair.get("types") or pair.get("method") or "/".join(dict.fromkeys([fi.primary_type(a), fi.primary_type(b)]))
     disp = fi.display if fam == "pokemon" else (lambda n: n)
-    return {"id": pair_id(pair), "family": fam, **({"fan": True} if pair.get("fan") else {}), "a": disp(a), "b": disp(b), "name": pair["name"], "types": types}
+    return {"id": pair_id(pair), "family": fam, **({"fan": True} if pair.get("fan") else {}), **({"sprite": True} if pair.get("if_sprite") else {}), "a": disp(a), "b": disp(b), "name": pair["name"], "types": types}
 
 
 def fusion_post_id(meta: dict) -> str:
@@ -136,7 +136,12 @@ def fusion_post_id(meta: dict) -> str:
 def fusion_post_text(meta: dict) -> tuple[str, list[str]]:
     fam = meta.get("family", "pokemon")
     if fam == "pokemon":
-        return fi.post_text(meta)
+        text, tags = fi.post_text(meta)
+        if meta.get("sprite"):  # design = a Pokemon Infinite Fusion community sprite (fusioncalc.com) - always credited
+            text = text.replace("Fan-made AI animation.", "Fusion design based on a custom sprite by the Pokemon "
+                                "Infinite Fusion community, redrawn in 3D. Fan-made AI animation.")
+            tags = tags + ["Pokemon Infinite Fusion"]
+        return text, tags
     f = FAMILIES[fam]
     a, b, name, types, game = meta["a"], meta["b"], meta["name"], meta["types"], f["game"]
     if fam == "dbz":  # types = how they fuse ("Fusion Dance" / "Potara Fusion")

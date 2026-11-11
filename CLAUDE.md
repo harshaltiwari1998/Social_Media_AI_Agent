@@ -97,6 +97,17 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   `fal-ai/qwen-image` through HF credits - NO parent pictures (with them the edit models pasted one Pokemon's parts on
   the other; Sceptile + Salamence came out as two creatures). Prompt = seamless 50/50 blend + the pair's `fuse` text,
   flat 2D Sugimori style; the reference-image route is only the fallback.
+- Pokemon fusion look since 2026-11-11 (owner picked "3D + aura" after rejecting text-only, fierce anime, reference-edit
+  and plain HD redraws): the design comes from a Pokemon Infinite Fusion community sprite (fusioncalc.com,
+  `/sprites/spritesheets_custom/<head>/<head>.png`, 96 px tiles, 20 a row, tile = body id; gen 1-2 ids = national dex),
+  redrawn by the Qwen-Image-2.1 Space as a 3D render with a glowing aura (`.cache/if_hd.py <head.body> ...`, ZeroGPU -
+  run it after the day's evolution run; a lighter-aura version was tried and dropped). Video (`.cache/if_video.py
+  <head.body> <a> <b> <Name> "<aura colour>"`, preview only): parent stills, drawn fusion, 3 s still of the cut-out
+  creature, then ONE Wan 2.2 clip of it through HF credits (480p + `hd_clip`, ~$0.20, ~7 min) - the owner wants the fused
+  creature really animated ("uska animation nahi rakha"). The Wan prompt keeps the body in place and moves only the
+  aura: "rears up and powers up" stood four-legged creatures upright or melted them (4 of 9). Check a frame strip of
+  every clip. Pairs carry `"if_sprite": "<head.body>"` in `fusion_pairs.json`; their description credits the Infinite
+  Fusion community. Sprites that are only a recolour (Suicune + Entei) or tangled (Kingdra + Gyarados) are skipped.
 - `backend/scripts/specs/mewtwo_stones.json` + `scripts/stone_forms.py` (owner idea 2026-11-09): Mewtwo punches an
   evolution stone (`fal_video.punch_clip`), evolves into an elemental form, then a Mega form, each doing a type move.
   Fan-made "What If" (title + narration + description say not in the games). Stone + forms drawn text-only via HF
@@ -332,6 +343,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-11 - Pokemon fusions from Infinite Fusion sprites redrawn as "3D + aura" + one Wan clip of the fused creature (`.cache/if_hd.py`, `if_video.py`, `if_sprite` pairs with credit); 6 approved and queued.
 - 2026-11-11 - AI Trend Poster: cinema-style movie shorts (`cinema_video.py`), ONE combined rashifal a day with symbol pictures, trend-news off; fusion compilations (`.cache/fusion_compilation.py`, `post_one.py comp:<family>:<tag>`); Pokemon fusion text-only art only for `text_only` pairs.
 - 2026-11-11 - `daily-rashifal.yml` downloads the Hindi fonts + ephemeris with retries (it had failed in 2 s every day).
 - 2026-11-10 - Facebook resumable upload for big videos (long videos 413'd); edge-tts retries (rashifal CI failed 7-10 Nov); laptop queue (`.cache/post_queue.py`) also posts `rdr:<plan>:<n>` own-stream shorts and `pal:<key>` breeding shorts built by `.cache/build_breeding.py`.

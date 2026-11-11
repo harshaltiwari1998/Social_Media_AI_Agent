@@ -1,0 +1,80 @@
+{
+  "title": "Magikarp to Gyarados evolution",
+  "backend": "wan",
+  "voice": "en-US-GuyNeural",
+  "style": 2,
+  "narration": [
+    "Magikarp is getting ready for something big.",
+    "Oh? Magikarp is evolving!",
+    "Magikarp evolved into Gyarados! But it is not over yet.",
+    "Gyarados reacts to its Mega Stone. Mega Evolution!",
+    "Mega Gyarados, a Water and Dark type! Who is your favourite Water-type Pokemon? Comment below!",
+    "Its old Poke Ball suddenly feels a little too small. Awkward."
+  ],
+  "clips": [
+    {
+      "image": {
+        "poke": "magikarp",
+        "background": "wiki:Wind wave"
+      },
+      "shots": [
+        [
+          "the creature looks around determined, water and spray float around it, anime style, smooth animation, camera slowly pushes in",
+          5
+        ]
+      ]
+    },
+    {
+      "evolve": [
+        "magikarp",
+        "gyarados"
+      ],
+      "background": "wiki:Wind wave",
+      "seconds": 3.2,
+      "mega": false
+    },
+    {
+      "image": {
+        "poke": "gyarados",
+        "background": "wiki:Wind wave"
+      },
+      "shots": [
+        [
+          "the creature appears in a burst of white light and looks around proudly, water and spray swirl around it, anime style, smooth animation",
+          5
+        ]
+      ],
+      "white_in": 0.6
+    },
+    {
+      "evolve": [
+        "gyarados",
+        "gyarados-mega"
+      ],
+      "background": "wiki:Wind wave",
+      "seconds": 3.2,
+      "mega": true
+    },
+    {
+      "image": {
+        "poke": "gyarados-mega",
+        "background": "wiki:Wind wave"
+      },
+      "shots": [
+        [
+          "the creature roars with overwhelming power, dark shadows and rainbow energy explode around it, epic low angle camera, anime style, dynamic motion",
+          5
+        ]
+      ],
+      "white_in": 0.6
+    },
+    {
+      "still": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/pokemon/magikarp/scene_04.jpg",
+      "seconds": 4,
+      "zoom": [
+        1.05,
+        1.15
+      ]
+    }
+  ]
+}

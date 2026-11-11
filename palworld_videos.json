@@ -7519,5 +7519,48 @@
       "unique": false,
       "key": "Sekhmet 5"
     }
+  },
+  "Ghangler 5": {
+    "spec": "scripts/specs/palworld_ghangler_5.json",
+    "video": "F:\\AI AGENT\\run_pal\\videos\\short-46d46a9d.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Ghangler",
+      "caption": "5 ways to breed Ghangler in Palworld 1.0: Nyafia + Dualith, Whalaska + Ragnahawk, Dupin + Palumba, Splatterina + Sootseer, Lyleen + Shroomer.",
+      "video_script": "Here are five ways to breed Ghangler in Palworld one point zero. Combo one: breed Nyafia with Dualith on your Breeding Farm, then add a cake. Combo two: pair Whalaska and Ragnahawk together, and you get the same egg. Combo three: Dupin plus Palumba works too, so use whichever Pals you have. Combo four: Splatterina with Sootseer is another easy option. Combo five: breed Lyleen with Shroomer on your Breeding Farm, then add a cake. Every egg hatches into Ghangler. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Nyafia",
+        "Dualith"
+      ],
+      "combos": [
+        [
+          "Nyafia",
+          "Dualith"
+        ],
+        [
+          "Whalaska",
+          "Ragnahawk"
+        ],
+        [
+          "Dupin",
+          "Palumba"
+        ],
+        [
+          "Splatterina",
+          "Sootseer"
+        ],
+        [
+          "Lyleen",
+          "Shroomer"
+        ]
+      ],
+      "child": "Ghangler",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false,
+      "key": "Ghangler 5"
+    }
   }
 }

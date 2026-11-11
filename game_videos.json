@@ -9748,5 +9748,19 @@
   "gta6-countdown-08-leonida": {
     "spec": "scripts/specs/games/gta6_15_countdown-08.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-50190c79.mp4"
+  },
+  "fusion-charizard+mewtwo": {
+    "kind": "motion",
+    "spec": "scripts/specs/fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\fusion-charizard+mewtwo\\final.mp4",
+    "data": {
+      "id": "charizard+mewtwo",
+      "family": "pokemon",
+      "sprite": true,
+      "a": "Charizard",
+      "b": "Mewtwo",
+      "name": "Charitwo",
+      "types": "Fire/Psychic"
+    }
   }
 }

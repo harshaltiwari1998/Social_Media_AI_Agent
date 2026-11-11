@@ -7304,5 +7304,48 @@
       "unique": false,
       "key": "Moldron 5"
     }
+  },
+  "Mycora 5": {
+    "spec": "scripts/specs/palworld_mycora_5.json",
+    "video": "F:\\AI AGENT\\run_pal\\videos\\short-b3a07bb5.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Mycora",
+      "caption": "5 ways to breed Mycora in Palworld 1.0: Splatterina + Moldron, Dualith + Majex, Flaracle + Helzephyr, Solenne + Nyafia, Blazamut + Pierdon.",
+      "video_script": "Here are five ways to breed Mycora in Palworld one point zero. Combo one: breed Splatterina with Moldron on your Breeding Farm, then add a cake. Combo two: pair Dualith and Majex together, and you get the same egg. Combo three: Flaracle plus Helzephyr works too, so use whichever Pals you have. Combo four: Solenne with Nyafia is another easy option. Combo five: breed Blazamut with Pierdon on your Breeding Farm, then add a cake. Every egg hatches into Mycora. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Splatterina",
+        "Moldron"
+      ],
+      "combos": [
+        [
+          "Splatterina",
+          "Moldron"
+        ],
+        [
+          "Dualith",
+          "Majex"
+        ],
+        [
+          "Flaracle",
+          "Helzephyr"
+        ],
+        [
+          "Solenne",
+          "Nyafia"
+        ],
+        [
+          "Blazamut",
+          "Pierdon"
+        ]
+      ],
+      "child": "Mycora",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false,
+      "key": "Mycora 5"
+    }
   }
 }

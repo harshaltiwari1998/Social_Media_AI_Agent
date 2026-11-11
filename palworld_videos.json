@@ -7605,5 +7605,134 @@
       "unique": false,
       "key": "Vaelet 5"
     }
+  },
+  "Bushi 5": {
+    "spec": "scripts/specs/palworld_bushi_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-d93bf723.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Bushi",
+      "caption": "5 ways to breed Bushi in Palworld 1.0: Majex + Loupmoon, Prunelia + Tarantriss, Digtoise + Felbat, Moldron + Cawgnito, Azurmane + Flambelle.",
+      "video_script": "Here are five ways to breed Bushi in Palworld one point zero. Combo one: breed Majex with Loupmoon on your Breeding Farm, then add a cake. Combo two: pair Prunelia and Tarantriss together, and you get the same egg. Combo three: Digtoise plus Felbat works too, so use whichever Pals you have. Combo four: Moldron with Cawgnito is another easy option. Combo five: breed Azurmane with Flambelle on your Breeding Farm, then add a cake. Every egg hatches into Bushi. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Majex",
+        "Loupmoon"
+      ],
+      "combos": [
+        [
+          "Majex",
+          "Loupmoon"
+        ],
+        [
+          "Prunelia",
+          "Tarantriss"
+        ],
+        [
+          "Digtoise",
+          "Felbat"
+        ],
+        [
+          "Moldron",
+          "Cawgnito"
+        ],
+        [
+          "Azurmane",
+          "Flambelle"
+        ]
+      ],
+      "child": "Bushi",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false,
+      "key": "Bushi 5"
+    }
+  },
+  "Felbat 5": {
+    "spec": "scripts/specs/palworld_felbat_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-9914c9ea.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Felbat",
+      "caption": "5 ways to breed Felbat in Palworld 1.0: Moldron + Dazzi, Frostplume + Dumud, Majex + Munchill, Skutlass + Tarantriss, Ghangler + Univolt.",
+      "video_script": "Here are five ways to breed Felbat in Palworld one point zero. Combo one: breed Moldron with Dazzi on your Breeding Farm, then add a cake. Combo two: pair Frostplume and Dumud together, and you get the same egg. Combo three: Majex plus Munchill works too, so use whichever Pals you have. Combo four: Skutlass with Tarantriss is another easy option. Combo five: breed Ghangler with Univolt on your Breeding Farm, then add a cake. Every egg hatches into Felbat. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Moldron",
+        "Dazzi"
+      ],
+      "combos": [
+        [
+          "Moldron",
+          "Dazzi"
+        ],
+        [
+          "Frostplume",
+          "Dumud"
+        ],
+        [
+          "Majex",
+          "Munchill"
+        ],
+        [
+          "Skutlass",
+          "Tarantriss"
+        ],
+        [
+          "Ghangler",
+          "Univolt"
+        ]
+      ],
+      "child": "Felbat",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false,
+      "key": "Felbat 5"
+    }
+  },
+  "Vanwyrm 5": {
+    "spec": "scripts/specs/palworld_vanwyrm_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-edfd68f2.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Vanwyrm",
+      "caption": "5 ways to breed Vanwyrm in Palworld 1.0: Majex + Dumud, Tarantriss + Felbat, Gildra + Munchill, Celesdir + Tocotoco, Frostplume + Surfent.",
+      "video_script": "Here are five ways to breed Vanwyrm in Palworld one point zero. Combo one: breed Majex with Dumud on your Breeding Farm, then add a cake. Combo two: pair Tarantriss and Felbat together, and you get the same egg. Combo three: Gildra plus Munchill works too, so use whichever Pals you have. Combo four: Celesdir with Tocotoco is another easy option. Combo five: breed Frostplume with Surfent on your Breeding Farm, then add a cake. Every egg hatches into Vanwyrm. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Majex",
+        "Dumud"
+      ],
+      "combos": [
+        [
+          "Majex",
+          "Dumud"
+        ],
+        [
+          "Tarantriss",
+          "Felbat"
+        ],
+        [
+          "Gildra",
+          "Munchill"
+        ],
+        [
+          "Celesdir",
+          "Tocotoco"
+        ],
+        [
+          "Frostplume",
+          "Surfent"
+        ]
+      ],
+      "child": "Vanwyrm",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false,
+      "key": "Vanwyrm 5"
+    }
   }
 }

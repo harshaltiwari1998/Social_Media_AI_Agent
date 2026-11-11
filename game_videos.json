@@ -9762,5 +9762,40 @@
       "name": "Charitwo",
       "types": "Fire/Psychic"
     }
+  },
+  "palworld-alpha-pals-guide": {
+    "spec": "scripts/specs/long/gaming_85_palworld-alpha-pals-guide.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-1ef1c1a2.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-1ef1c1a2-thumb.jpg",
+    "chapters": "0:00 Alpha Pals explained\n0:50 Why hunt Alphas\n1:43 The easiest Alphas\n2:30 Early game Alphas\n3:17 Mid game Alphas\n4:02 High level Alphas\n4:47 Feybreak Alphas\n5:34 Sealed Realms and legends\n6:10 How to win and capture\n6:45 Which Alpha is next"
+  },
+  "aniimo-jabster-guide": {
+    "spec": "scripts/specs/games/aniimo_216_aniimo-jabster-guide.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-fbc445c0.mp4"
+  },
+  "aniimo-lilipole-guide": {
+    "spec": "scripts/specs/games/aniimo_217_aniimo-lilipole-guide.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-40c28495.mp4"
+  },
+  "aniimo-crocobask-guide": {
+    "spec": "scripts/specs/games/aniimo_218_aniimo-crocobask-guide.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b13af80f.mp4"
+  },
+  "aniimo-nimbi-guide": {
+    "spec": "scripts/specs/games/aniimo_219_aniimo-nimbi-guide.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-74c95484.mp4"
+  },
+  "aniimo-coinwisp-guide": {
+    "spec": "scripts/specs/games/aniimo_220_aniimo-coinwisp-guide.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-9baa8845.mp4"
+  },
+  "palworld-guide-woolipop-candy-pop-ranch": {
+    "spec": "scripts/specs/games/palguide_169_palworld-guide-woolipop-candy-pop-ranch.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-1f8d99d3.mp4"
+  },
+  "palworld-guide-flambelle-magma-tears-kindling": {
+    "spec": "scripts/specs/games/palguide_170_palworld-guide-flambelle-magma-tears-kindling.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-11d4f91a.mp4"
   }
 }

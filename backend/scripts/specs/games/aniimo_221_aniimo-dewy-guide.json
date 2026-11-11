@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-dewy-guide",
+  "slot": "aniimo",
+  "order": 221,
+  "headline": "Dewy",
+  "title": "Dewy | Perfume Dark Evolution | Aniimo Guide",
+  "video_script": "Dewy is a stage one Dark Aniimo that can fly and glide, and it evolves into Fragrancier at level twenty seven. Blossoming Moment has power thirty eight, costs ten energy and recharges in ten seconds. Withering Bloom costs twenty energy with an eighteen second cooldown. Homeland work is Dark, Leisure and Perfumery at level one. It is a useful early Dark helper. Would you raise a Dewy? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:8",
+      "label": "Dewy"
+    },
+    {
+      "image": "steam:4126040:20",
+      "fact": "Blossoming Moment",
+      "sub": "Power thirty eight, ten energy"
+    },
+    {
+      "image": "steam:4126040:32",
+      "fact": "Withering Bloom",
+      "sub": "Twenty energy, eighteen seconds"
+    },
+    {
+      "image": "steam:4126040:44",
+      "fact": "Evolves into Fragrancier",
+      "sub": "Level twenty seven"
+    }
+  ],
+  "description": "Dewy guide: a stage 1 Dark Aniimo that can fly and glide and evolves into Fragrancier at Lv. 27. Blossoming Moment, Withering Bloom and Dark, Leisure and Perfumery Homeland work. Checked on aniimo.gg and metabot.gg in November 2026.",
+  "joke": "Dewy loves perfume, so your Homeland smells better already.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Dewy",
+    "Fragrancier",
+    "Blossoming Moment",
+    "Withering Bloom",
+    "Aniimo Dark",
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips"
+  ]
+}

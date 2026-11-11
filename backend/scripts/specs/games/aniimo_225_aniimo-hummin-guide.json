@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-hummin-guide",
+  "slot": "aniimo",
+  "order": 225,
+  "headline": "Hummin",
+  "title": "Hummin | Grass Starter Branches | Aniimo Guide",
+  "video_script": "Hummin is a stage one Grass Aniimo, and at level eighteen it evolves into Hexxin or Tuckin. Plant Charge rams the target for power thirty nine. Euphoric Sonic Blast has an eighteen second cooldown and restores some energy. Homeland work is Grass level one. It is one of the most common Aniimo you will meet in the grass. Hexxin or Tuckin, which branch do you want? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:1",
+      "label": "Hummin"
+    },
+    {
+      "image": "steam:4126040:13",
+      "fact": "Plant Charge",
+      "sub": "Rams the target, power thirty nine"
+    },
+    {
+      "image": "steam:4126040:24",
+      "fact": "Euphoric Sonic Blast",
+      "sub": "Restores energy, eighteen seconds"
+    },
+    {
+      "image": "steam:4126040:37",
+      "fact": "Evolves at level eighteen",
+      "sub": "Hexxin or Tuckin"
+    }
+  ],
+  "description": "Hummin guide: a stage 1 Grass Aniimo that evolves at Lv. 18 into Hexxin or Tuckin. Plant Charge (power 39), Euphoric Sonic Blast and level 1 Grass Homeland work. Checked on aniimo.gg and metabot.gg in November 2026.",
+  "joke": "Hummin sings off-key, but nobody in the grass complains.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Hummin",
+    "Hexxin",
+    "Tuckin",
+    "Plant Charge",
+    "Euphoric Sonic Blast",
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips"
+  ]
+}

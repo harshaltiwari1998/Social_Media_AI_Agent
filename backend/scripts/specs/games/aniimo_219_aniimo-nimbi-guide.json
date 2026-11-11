@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-nimbi-guide",
+  "slot": "aniimo",
+  "order": 219,
+  "headline": "Nimbi",
+  "title": "Nimbi | Cloud Shield Evolution Fork | Aniimo Guide",
+  "video_script": "Nimbi is a stage one Wind Aniimo that can fly and glide. At level twenty one it evolves into Turbo or Dreaple. For Dreaple you must rest with the Pathfinder from night to day. Cloud Orb costs ten energy, and Cloud Shield costs twenty energy with a twenty second cooldown. Homeland work is Wind and Leisure at level one. Turbo or Dreaple, which one would you pick? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:2",
+      "label": "Nimbi"
+    },
+    {
+      "image": "steam:4126040:15",
+      "fact": "Cloud Orb",
+      "sub": "Ten energy"
+    },
+    {
+      "image": "steam:4126040:27",
+      "fact": "Cloud Shield",
+      "sub": "Twenty energy, twenty second cooldown"
+    },
+    {
+      "image": "steam:4126040:39",
+      "fact": "Evolves at level twenty one",
+      "sub": "Turbo or Dreaple"
+    }
+  ],
+  "description": "Nimbi guide: a stage 1 Wind Aniimo that can fly and glide and evolves at Lv. 21 into Turbo or Dreaple (rest with the Pathfinder from night to day). Cloud Orb, Cloud Shield and Homeland work. Checked on aniimo.gg and metabot.gg in November 2026.",
+  "joke": "Nimbi floats around in clouds, so it never needs an umbrella.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Nimbi",
+    "Turbo",
+    "Dreaple",
+    "Cloud Shield",
+    "Aniimo Wind",
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips"
+  ]
+}

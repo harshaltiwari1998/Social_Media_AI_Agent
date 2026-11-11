@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-coinwisp-guide",
+  "slot": "aniimo",
+  "order": 220,
+  "headline": "Coinwisp",
+  "title": "Coinwisp | Showhand Dark Starter | Aniimo Guide",
+  "video_script": "Coinwisp is a stage one Dark Aniimo that can burrow, and it evolves into Pouchwisp at level fifty seven. Coin Boost marks a target and can restore energy if that target breaks. Showhand has power twenty for ten energy and hits harder when enemy health is low. Homeland work is Dark and Leisure at level one. It is a handy early Dark option. Would you take a Coinwisp along? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:6",
+      "label": "Coinwisp"
+    },
+    {
+      "image": "steam:4126040:18",
+      "fact": "Coin Boost",
+      "sub": "Marks a target, restores energy"
+    },
+    {
+      "image": "steam:4126040:31",
+      "fact": "Showhand",
+      "sub": "Power twenty, ten energy"
+    },
+    {
+      "image": "steam:4126040:43",
+      "fact": "Evolves into Pouchwisp",
+      "sub": "Level fifty seven"
+    }
+  ],
+  "description": "Coinwisp guide: a stage 1 Dark Aniimo that can burrow and evolves into Pouchwisp at Lv. 57. Coin Boost, Showhand (power 20) and Dark and Leisure Homeland work. Checked on aniimo.gg and metabot.gg in November 2026.",
+  "joke": "Coinwisp hides inside a giant gold coin, which is a very shiny hiding spot.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Coinwisp",
+    "Pouchwisp",
+    "Showhand",
+    "Coin Boost",
+    "Aniimo Dark",
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips"
+  ]
+}

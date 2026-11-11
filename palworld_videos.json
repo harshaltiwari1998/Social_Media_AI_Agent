@@ -7347,5 +7347,48 @@
       "unique": false,
       "key": "Mycora 5"
     }
+  },
+  "Bulldosu 5": {
+    "spec": "scripts/specs/palworld_bulldosu_5.json",
+    "video": "F:\\AI AGENT\\run_pal\\videos\\short-cc314895.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Bulldosu",
+      "caption": "5 ways to breed Bulldosu in Palworld 1.0: Nyafia + Helzephyr, Shroomer + Frostplume, Wumpo + Digtoise, Blazamut + Foxcicle, Omascul + Palumba.",
+      "video_script": "Here are five ways to breed Bulldosu in Palworld one point zero. Combo one: breed Nyafia with Helzephyr on your Breeding Farm, then add a cake. Combo two: pair Shroomer and Frostplume together, and you get the same egg. Combo three: Wumpo plus Digtoise works too, so use whichever Pals you have. Combo four: Blazamut with Foxcicle is another easy option. Combo five: breed Omascul with Palumba on your Breeding Farm, then add a cake. Every egg hatches into Bulldosu. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Nyafia",
+        "Helzephyr"
+      ],
+      "combos": [
+        [
+          "Nyafia",
+          "Helzephyr"
+        ],
+        [
+          "Shroomer",
+          "Frostplume"
+        ],
+        [
+          "Wumpo",
+          "Digtoise"
+        ],
+        [
+          "Blazamut",
+          "Foxcicle"
+        ],
+        [
+          "Omascul",
+          "Palumba"
+        ]
+      ],
+      "child": "Bulldosu",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false,
+      "key": "Bulldosu 5"
+    }
   }
 }

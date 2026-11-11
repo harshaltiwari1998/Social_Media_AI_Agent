@@ -9815,5 +9815,19 @@
   "palworld-guide-mimog-master-of-unlocking": {
     "spec": "scripts/specs/games/palguide_171_mimog-master-of-unlocking.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-8f4cba59.mp4"
+  },
+  "fusion-tyranitar+blastoise": {
+    "kind": "motion",
+    "spec": "scripts/specs/fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\fusion-tyranitar+blastoise\\final.mp4",
+    "data": {
+      "id": "tyranitar+blastoise",
+      "family": "pokemon",
+      "sprite": true,
+      "a": "Tyranitar",
+      "b": "Blastoise",
+      "name": "Tyranstoise",
+      "types": "Rock/Water"
+    }
   }
 }

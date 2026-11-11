@@ -7433,5 +7433,48 @@
       "unique": false,
       "key": "Wistella 5"
     }
+  },
+  "Gildra 5": {
+    "spec": "scripts/specs/palworld_gildra_5.json",
+    "video": "F:\\AI AGENT\\run_pal\\videos\\short-dbaa64b4.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Gildra",
+      "caption": "5 ways to breed Gildra in Palworld 1.0: Sekhmet + Incineram, Frostplume + Vaelet, Nyafia + Relaxaurus, Tetroise + Digtoise, Splatterina + Bushi.",
+      "video_script": "Here are five ways to breed Gildra in Palworld one point zero. Combo one: breed Sekhmet with Incineram on your Breeding Farm, then add a cake. Combo two: pair Frostplume and Vaelet together, and you get the same egg. Combo three: Nyafia plus Relaxaurus works too, so use whichever Pals you have. Combo four: Tetroise with Digtoise is another easy option. Combo five: breed Splatterina with Bushi on your Breeding Farm, then add a cake. Every egg hatches into Gildra. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Sekhmet",
+        "Incineram"
+      ],
+      "combos": [
+        [
+          "Sekhmet",
+          "Incineram"
+        ],
+        [
+          "Frostplume",
+          "Vaelet"
+        ],
+        [
+          "Nyafia",
+          "Relaxaurus"
+        ],
+        [
+          "Tetroise",
+          "Digtoise"
+        ],
+        [
+          "Splatterina",
+          "Bushi"
+        ]
+      ],
+      "child": "Gildra",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false,
+      "key": "Gildra 5"
+    }
   }
 }

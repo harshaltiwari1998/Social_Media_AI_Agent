@@ -60,6 +60,18 @@ jobs:
           pip install -r requirements-ci.txt
           sudo apt-get install -y -q fonts-dejavu-core  # zodiac glyphs
 
+      # The run died 2 s into rashifal.py every day 7-10 Nov: this workflow never fetched the Hindi fonts the other
+      # workflows download, and the ephemeris came straight from JPL with no retry.
+      - name: Install Hindi font and ephemeris
+        run: |
+          mkdir -p .cache/fonts .cache/skyfield
+          for w in Bold Regular; do
+            curl -fsSL --retry 5 --retry-all-errors --retry-delay 5 -o .cache/fonts/Hind-$w.ttf https://github.com/google/fonts/raw/main/ofl/hind/Hind-$w.ttf || curl -fsSL --retry 5 --retry-all-errors --retry-delay 5 -o .cache/fonts/Hind-$w.ttf https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/hind/Hind-$w.ttf
+          done
+          if [ ! -s .cache/skyfield/de421.bsp ]; then
+            curl -fsSL --retry 5 --retry-all-errors --retry-delay 5 -o .cache/skyfield/de421.bsp https://ssd.jpl.nasa.gov/ftp/eph/planets/bsp/de421.bsp || curl -fsSL --retry 5 --retry-all-errors --retry-delay 5 -o .cache/skyfield/de421.bsp https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/planets/a_old_versions/de421.bsp
+          fi
+
       - name: Make and schedule tomorrow's rashifal
         env:
           DRY_RUN: "false"

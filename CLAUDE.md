@@ -198,8 +198,10 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   Poster" only, no new channel). Moon rashi/nakshatra/tithi computed with skyfield + JPL DE421 (`.cache/skyfield`,
   Lahiri ayanamsa); reading = traditional Chandra gochar house from each rashi; says "for entertainment", no fear,
   health, money advice or religious messaging. `daily-rashifal.yml` (20:00 IST) makes the next day's 12 and
-  schedules them 06:00-06:55 IST; `FESTIVALS` = only panchang-confirmed dates. The CI run failed every day 7-10 Nov
-  (no rashifal after 6 Nov) - edge-tts "No audio" (now retried). **Owner rule 2026-11-10: rashifal is posted directly,
+  schedules them 06:00-06:55 IST; `FESTIVALS` = only panchang-confirmed dates. The CI run failed every day 7-11 Nov
+  (no rashifal from CI after 6 Nov; 11 + 12 Nov were made on the laptop): it died 2 s into rashifal.py - the workflow
+  never downloaded the Hindi fonts (added 2026-11-11, plus a retried ephemeris download); the edge-tts retry alone
+  did not fix it. CI logs need a login, so check step timings through the public jobs API. **Owner rule 2026-11-10: rashifal is posted directly,
   never shown/asked first** (unlike fusions).
 - `scripts/youtube_playlists.py` - puts every upload made BY THIS PIPELINE (a record in the posting store) into its
   category playlist on both channels (Pokemon Fusions, Pokemon Evolutions, RDR2 Shorts / Story Highlights, Palworld
@@ -320,6 +322,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-11 - `daily-rashifal.yml` downloads the Hindi fonts + ephemeris with retries (it had failed in 2 s every day).
 - 2026-11-10 - Facebook resumable upload for big videos (long videos 413'd); edge-tts retries (rashifal CI failed 7-10 Nov); laptop queue (`.cache/post_queue.py`) also posts `rdr:<plan>:<n>` own-stream shorts and `pal:<key>` breeding shorts built by `.cache/build_breeding.py`.
 - 2026-11-09 - Pokemon fusion art is text-only (`fal-ai/qwen-image`, no parent pictures) - a real blend, owner approved; Mewtwo + stones shorts (`stone_forms.py`), Fire sample built.
 - 2026-11-09 - Fusion art drawn through HF Inference Providers (credits) FIRST, ZeroGPU only as fallback: laptop fusion art had used up the shared ZeroGPU day, so no Wan evolution short was posted 5-9 Nov.

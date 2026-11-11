@@ -7734,5 +7734,91 @@
       "unique": false,
       "key": "Vanwyrm 5"
     }
+  },
+  "Elizabee 5": {
+    "spec": "scripts/specs/palworld_elizabee_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b84e86a2.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Elizabee",
+      "caption": "5 ways to breed Elizabee in Palworld 1.0: Ghangler + Flambelle, Frostplume + Tocotoco, Moldron + Swee, Finsider + Helzephyr, Incineram + Loupmoon.",
+      "video_script": "Here are five ways to breed Elizabee in Palworld one point zero. Combo one: breed Ghangler with Flambelle on your Breeding Farm, then add a cake. Combo two: pair Frostplume and Tocotoco together, and you get the same egg. Combo three: Moldron plus Swee works too, so use whichever Pals you have. Combo four: Finsider with Helzephyr is another easy option. Combo five: breed Incineram with Loupmoon on your Breeding Farm, then add a cake. Every egg hatches into Elizabee. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Ghangler",
+        "Flambelle"
+      ],
+      "combos": [
+        [
+          "Ghangler",
+          "Flambelle"
+        ],
+        [
+          "Frostplume",
+          "Tocotoco"
+        ],
+        [
+          "Moldron",
+          "Swee"
+        ],
+        [
+          "Finsider",
+          "Helzephyr"
+        ],
+        [
+          "Incineram",
+          "Loupmoon"
+        ]
+      ],
+      "child": "Elizabee",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false,
+      "key": "Elizabee 5"
+    }
+  },
+  "Azurobe 5": {
+    "spec": "scripts/specs/palworld_azurobe_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-7775c19e.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Azurobe",
+      "caption": "5 ways to breed Azurobe in Palworld 1.0: Ghangler + Fuddler, Nyafia + Dazzi, Majex + Flopie, Digtoise + Loupmoon, Frostplume + Kelpsea.",
+      "video_script": "Here are five ways to breed Azurobe in Palworld one point zero. Combo one: breed Ghangler with Fuddler on your Breeding Farm, then add a cake. Combo two: pair Nyafia and Dazzi together, and you get the same egg. Combo three: Majex plus Flopie works too, so use whichever Pals you have. Combo four: Digtoise with Loupmoon is another easy option. Combo five: breed Frostplume with Kelpsea on your Breeding Farm, then add a cake. Every egg hatches into Azurobe. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Ghangler",
+        "Fuddler"
+      ],
+      "combos": [
+        [
+          "Ghangler",
+          "Fuddler"
+        ],
+        [
+          "Nyafia",
+          "Dazzi"
+        ],
+        [
+          "Majex",
+          "Flopie"
+        ],
+        [
+          "Digtoise",
+          "Loupmoon"
+        ],
+        [
+          "Frostplume",
+          "Kelpsea"
+        ]
+      ],
+      "child": "Azurobe",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false,
+      "key": "Azurobe 5"
+    }
   }
 }

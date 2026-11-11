@@ -10083,5 +10083,44 @@
       "name": "Ninecanine",
       "types": "Fire"
     }
+  },
+  "aniimo-eleven-whisperwake-aniimo-you-should-know": {
+    "spec": "scripts/specs/long/gaming_88_aniimo-eleven-whisperwake-aniimo-you-should-know.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-e1deff9d.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-e1deff9d-thumb.jpg",
+    "chapters": "0:00 Intro\n0:44 Reefish and Coraliz\n1:24 Bubbeep and Glameep\n2:05 Malangel and Malevsera\n2:45 Fennelun\n3:21 Cozite\n3:52 Gachapus\n4:27 Dewple\n5:06 Mesmerowl\n5:41 Pouchwisp\n6:15 Which one first"
+  },
+  "aniimo-dewy-guide": {
+    "spec": "scripts/specs/games/aniimo_221_aniimo-dewy-guide.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-07a7b84d.mp4"
+  },
+  "aniimo-jeglid-guide": {
+    "spec": "scripts/specs/games/aniimo_222_aniimo-jeglid-guide.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-50a12cb5.mp4"
+  },
+  "aniimo-jeburst-guide": {
+    "spec": "scripts/specs/games/aniimo_223_aniimo-jeburst-guide.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-02a631c0.mp4"
+  },
+  "aniimo-buffby-guide": {
+    "spec": "scripts/specs/games/aniimo_224_aniimo-buffby-guide.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-0cfb212e.mp4"
+  },
+  "aniimo-hummin-guide": {
+    "spec": "scripts/specs/games/aniimo_225_aniimo-hummin-guide.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-7448f79b.mp4"
+  },
+  "palworld-guide-melpaca-pacapaca-wool": {
+    "spec": "scripts/specs/games/palguide_172_melpaca-pacapaca-wool.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-eee06e2f.mp4"
+  },
+  "palworld-guide-swee-fluffy": {
+    "spec": "scripts/specs/games/palguide_173_swee-fluffy.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5a5fb129.mp4"
+  },
+  "palworld-guide-jellroy-drop": {
+    "spec": "scripts/specs/games/palguide_174_jellroy-drop.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5c883a01.mp4"
   }
 }

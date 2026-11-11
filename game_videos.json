@@ -9728,5 +9728,25 @@
   "palworld-guide-loupmoon-dark-gleam-strike": {
     "spec": "scripts/specs/games/palguide_168_palworld-guide-loupmoon-dark-gleam-strike.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b2bbeca8.mp4"
+  },
+  "exodus-april-7": {
+    "spec": "scripts/specs/games/new_47_exodus-april-7.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-98785c7b.mp4"
+  },
+  "vrushakarma-naga-chaitanya-4-december": {
+    "spec": "scripts/specs/movies/movie_new_43_vrushakarma-naga-chaitanya-4-december.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-8d479132.mp4"
+  },
+  "reel-don-1978-facts": {
+    "spec": "scripts/specs/movies/reel_76_don-1978-facts.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-53c1ed04.mp4"
+  },
+  "aniimo-pouchwisp-coin-mark-build": {
+    "spec": "scripts/specs/games/aniimo_215_aniimo-pouchwisp-coin-mark-build.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-1450fd84.mp4"
+  },
+  "gta6-countdown-08-leonida": {
+    "spec": "scripts/specs/games/gta6_15_countdown-08.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-50190c79.mp4"
   }
 }

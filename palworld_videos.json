@@ -7562,5 +7562,48 @@
       "unique": false,
       "key": "Ghangler 5"
     }
+  },
+  "Vaelet 5": {
+    "spec": "scripts/specs/palworld_vaelet_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-0bd02e0f.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Vaelet",
+      "caption": "5 ways to breed Vaelet in Palworld 1.0: Nyafia + Tarantriss, Frostplume + Loupmoon, Celesdir + Dazzi, Ghangler + Dinossom, Skutlass + Digtoise.",
+      "video_script": "Here are five ways to breed Vaelet in Palworld one point zero. Combo one: breed Nyafia with Tarantriss on your Breeding Farm, then add a cake. Combo two: pair Frostplume and Loupmoon together, and you get the same egg. Combo three: Celesdir plus Dazzi works too, so use whichever Pals you have. Combo four: Ghangler with Dinossom is another easy option. Combo five: breed Skutlass with Digtoise on your Breeding Farm, then add a cake. Every egg hatches into Vaelet. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Nyafia",
+        "Tarantriss"
+      ],
+      "combos": [
+        [
+          "Nyafia",
+          "Tarantriss"
+        ],
+        [
+          "Frostplume",
+          "Loupmoon"
+        ],
+        [
+          "Celesdir",
+          "Dazzi"
+        ],
+        [
+          "Ghangler",
+          "Dinossom"
+        ],
+        [
+          "Skutlass",
+          "Digtoise"
+        ]
+      ],
+      "child": "Vaelet",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false,
+      "key": "Vaelet 5"
+    }
   }
 }

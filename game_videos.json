@@ -9857,5 +9857,217 @@
       "name": "Lugioh",
       "types": "Fire/Psychic"
     }
+  },
+  "deal-steam-deal-270880-75": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-270880-75.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-37301094.mp4",
+    "data": {
+      "id": "deal-steam-deal-270880-75",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "American Truck Simulator 75% OFF on Steam | Now Rs 242 | Steam Deal Nov 11",
+      "video_script": "American Truck Simulator is on sale on Steam at 75 percent off, down from 970 rupees to just 242 rupees. Experience legendary American trucks and deliver various cargoes across sunny California, sandy Nevada, and the Grand Canyon State of Arizona. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/270880/a80e5a18363259677ca96c2a39503ea595d2a45f/header.jpg?t=1794418935",
+          "label": "American Truck Simulator"
+        },
+        {
+          "image": "steam:270880:0",
+          "fact": "-75%  Rs 242",
+          "sub": "was Rs 970"
+        },
+        {
+          "image": "steam:270880:1",
+          "fact": "Indie + Simulation",
+          "sub": "SCS Software"
+        },
+        {
+          "image": "steam:270880:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "American Truck Simulator is on sale on Steam at 75 percent off, down from 970 rupees to just 242 rupees.\nhttps://store.steampowered.com/app/270880\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 11 2026, 23:30 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "American Truck Simulator",
+        "American Truck Simulator sale",
+        "American Truck Simulator price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-4842090-40": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-4842090-40.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-186f2439.mp4",
+    "data": {
+      "id": "deal-steam-deal-4842090-40",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Grab Your Deck 40% OFF on Steam | Now Rs 299 | Steam Deal Nov 11",
+      "video_script": "Grab Your Deck is on sale on Steam at 40 percent off, down from 499 rupees to just 299 rupees. The deal ends on November 25. Build real skateboard tricks from cards: an Ollie paired with a Kickflip and two Shove-its fuse into a Tre Flip. Roll each trick into a manual or grind and land the line before bailing. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4842090/1bcee2cff6be2666687e2a4be64af328c224b821/header.jpg?t=1794417152",
+          "label": "Grab Your Deck"
+        },
+        {
+          "image": "steam:4842090:0",
+          "fact": "-40%  Rs 299",
+          "sub": "was Rs 499"
+        },
+        {
+          "image": "steam:4842090:1",
+          "fact": "Sports + Strategy",
+          "sub": "Kyle Arch"
+        },
+        {
+          "image": "steam:4842090:2",
+          "fact": "Ends Nov 25",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Grab Your Deck is on sale on Steam at 40 percent off, down from 499 rupees to just 299 rupees. The deal ends on November 25.\nhttps://store.steampowered.com/app/4842090\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 11 2026, 23:30 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Grab Your Deck",
+        "Grab Your Deck sale",
+        "Grab Your Deck price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-4822740-40": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-4822740-40.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-760d7337.mp4",
+    "data": {
+      "id": "deal-steam-deal-4822740-40",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Tiny Conquests 40% OFF on Steam | Now Rs 659 | Steam Deal Nov 11",
+      "video_script": "Tiny Conquests is on sale on Steam at 40 percent off, down from 1,099 rupees to just 659 rupees. The deal ends on November 18. Build tiny empires with big ambitions. A cozy, bite-sized 4X where every turn counts: grow cities, research three historical ages, and outscore rivals through building, conquest, or exploration in short single player or multiplayer matches. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4822740/5034156dd928b05c2dc041dfc569443fe949237e/header.jpg?t=1794414336",
+          "label": "Tiny Conquests"
+        },
+        {
+          "image": "steam:4822740:0",
+          "fact": "-40%  Rs 659",
+          "sub": "was Rs 1,099"
+        },
+        {
+          "image": "steam:4822740:1",
+          "fact": "Casual + Indie + Strategy",
+          "sub": "30 Parallel"
+        },
+        {
+          "image": "steam:4822740:2",
+          "fact": "Ends Nov 18",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Tiny Conquests is on sale on Steam at 40 percent off, down from 1,099 rupees to just 659 rupees. The deal ends on November 18.\nhttps://store.steampowered.com/app/4822740\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 11 2026, 23:30 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Tiny Conquests",
+        "Tiny Conquests sale",
+        "Tiny Conquests price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-5464840-30": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-5464840-30.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-050db0b8.mp4",
+    "data": {
+      "id": "deal-steam-deal-5464840-30",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "FatInfantry 30% OFF on Steam | Now Rs 132 | Steam Deal Nov 11",
+      "video_script": "FatInfantry is on sale on Steam at 30 percent off, down from 189 rupees to just 132 rupees. The deal ends on November 25. Battle the vegetable army that kidnapped the chefs! FatInfantry is a 2D action platformer where eating makes you stronger. Shoot in any direction, land belly strikes, swing a chained fork and cross dangerous terrain. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5464840/972ec7a43d4946da8d35bd855388136531c3a912/header.jpg?t=1794418446",
+          "label": "FatInfantry"
+        },
+        {
+          "image": "steam:5464840:0",
+          "fact": "-30%  Rs 132",
+          "sub": "was Rs 189"
+        },
+        {
+          "image": "steam:5464840:1",
+          "fact": "Action + Adventure + Indie",
+          "sub": "DutArt Studio"
+        },
+        {
+          "image": "steam:5464840:2",
+          "fact": "Ends Nov 25",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "FatInfantry is on sale on Steam at 30 percent off, down from 189 rupees to just 132 rupees. The deal ends on November 25.\nhttps://store.steampowered.com/app/5464840\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 11 2026, 23:30 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "FatInfantry",
+        "FatInfantry sale",
+        "FatInfantry price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
   }
 }

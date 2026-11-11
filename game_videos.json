@@ -10069,5 +10069,19 @@
         "epic games free games this week"
       ]
     }
+  },
+  "fusion-ninetales+arcanine": {
+    "kind": "motion",
+    "spec": "scripts/specs/fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\fusion-ninetales+arcanine\\final.mp4",
+    "data": {
+      "id": "ninetales+arcanine",
+      "family": "pokemon",
+      "sprite": true,
+      "a": "Ninetales",
+      "b": "Arcanine",
+      "name": "Ninecanine",
+      "types": "Fire"
+    }
   }
 }

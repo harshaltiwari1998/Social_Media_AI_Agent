@@ -9829,5 +9829,19 @@
       "name": "Tyranstoise",
       "types": "Rock/Water"
     }
+  },
+  "fusion-feraligatr+typhlosion": {
+    "kind": "motion",
+    "spec": "scripts/specs/fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\fusion-feraligatr+typhlosion\\final.mp4",
+    "data": {
+      "id": "feraligatr+typhlosion",
+      "family": "pokemon",
+      "sprite": true,
+      "a": "Feraligatr",
+      "b": "Typhlosion",
+      "name": "Typhligatr",
+      "types": "Water/Fire"
+    }
   }
 }

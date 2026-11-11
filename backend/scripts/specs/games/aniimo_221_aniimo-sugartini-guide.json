@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-sugartini-guide",
+  "slot": "aniimo",
+  "order": 221,
+  "headline": "Sugartini",
+  "title": "Sugartini | Pudding Support Pick | Aniimo Guide",
+  "video_script": "Sugartini is a stage three Ice support Aniimo that evolves from Sugarfish at level sixty two with one Freeze Stone. Guides say you should beat Alpha Sugartini first. Cream Heal costs twenty energy with an eighteen second cooldown. Bouncy Pudding has power thirty. Pudding Storm has power one hundred. Homeland work is Ice, Leisure and Hauling at level three. Is Sugartini worth the effort? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:8",
+      "label": "Sugartini"
+    },
+    {
+      "image": "steam:4126040:20",
+      "fact": "Cream Heal",
+      "sub": "Twenty energy, eighteen seconds"
+    },
+    {
+      "image": "steam:4126040:32",
+      "fact": "Bouncy Pudding",
+      "sub": "Power thirty"
+    },
+    {
+      "image": "steam:4126040:44",
+      "fact": "Pudding Storm",
+      "sub": "Power one hundred"
+    }
+  ],
+  "description": "Sugartini guide: stage 3 Ice support Aniimo from Sugarfish (Lv. 62, Freeze Stone), unlocked after Alpha Sugartini. Cream Heal, Bouncy Pudding, Pudding Storm and Homeland work. Checked on aniimo.gg and metabot.gg in November 2026.",
+  "joke": "Sugartini fights with pudding, which is a very serious dessert plan.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Sugartini",
+    "Sugarfish",
+    "Cream Heal",
+    "Pudding Storm",
+    "Alpha Sugartini",
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips"
+  ]
+}

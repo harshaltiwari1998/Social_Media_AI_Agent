@@ -1,0 +1,47 @@
+{
+  "id": "aniimo-sugarfish-sweet-blob-ice-support-guide",
+  "slot": "aniimo",
+  "order": 234,
+  "headline": "Sugarfish",
+  "title": "Sugarfish | Sweet Blob Ice Support | Aniimo Guide",
+  "video_script": "Sugarfish is a stage one Ice Aniimo with high energy regen. Sugary Gravity makes a slowing zone, blocks jumping for two seconds, then pulls targets to the center. Sugar-Rush Tackle tosses Sweet Blobs that restore energy when picked up. Homeland work is Ice, Leisure and Hauling at level one. At level sixty two a Freeze Stone evolves it. Will you pick Sugarslime or Sugartini? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:19",
+      "label": "Sugarfish"
+    },
+    {
+      "image": "steam:4126040:21",
+      "fact": "Sugary Gravity",
+      "sub": "Slows, blocks jumping, pulls in"
+    },
+    {
+      "image": "steam:4126040:22",
+      "fact": "Sweet Blobs",
+      "sub": "Pick them up to restore energy"
+    },
+    {
+      "image": "steam:4126040:24",
+      "fact": "Evolves at level sixty two",
+      "sub": "Needs a Freeze Stone"
+    }
+  ],
+  "description": "Aniimo Sugarfish guide: a stage 1 Ice support with Sugary Gravity and energy-restoring Sweet Blobs. Evolves at level 62 with a Freeze Stone into Sugarslime or Sugartini. Checked on aniimo.gg and GameWith in November 2026.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Sugarfish",
+    "Aniimo Sugarfish",
+    "Sugarslime",
+    "Sugartini",
+    "Aniimo Ice",
+    "Sugary Gravity",
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips"
+  ],
+  "joke": "Sugarfish hides in the shade, because melting is not a battle strategy."
+}

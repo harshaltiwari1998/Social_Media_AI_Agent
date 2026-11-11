@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-dazemu-sand-sprint",
+  "slot": "palguide",
+  "order": 181,
+  "headline": "Dazemu",
+  "title": "Dazemu | Sand Mount Ground | Palworld Guide",
+  "video_script": "Dazemu is a Ground Pal you can ride, and it is made for deserts. Its partner skill, Sand Sprint, raises your Movement Speed by fifty to one hundred percent while you are mounted on sand. At your base it gathers at level two. If you travel through dunes a lot, this mount is worth a slot. Outside the sand, the bonus does not apply. Do you ride Dazemu? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Dazemu",
+      "label": "Dazemu"
+    },
+    {
+      "image": "steam:1623730:4",
+      "fact": "Sand Sprint",
+      "sub": "Faster on sand while mounted"
+    },
+    {
+      "image": "pal:Dazemu",
+      "label": "Gathering level two"
+    },
+    {
+      "image": "steam:1623730:6",
+      "label": "Desert travel"
+    }
+  ],
+  "joke": "Dazemu is the only mount that is happy about sand in every shoe.",
+  "description": "Dazemu in Palworld 1.0: Ground Pal mount. Sand Sprint raises Movement Speed 50 to 100 percent while mounted on sand. Gathering 2. Checked on Pindrop, palworld.gg and Pal Breed Calc in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Dazemu",
+    "Dazemu partner skill",
+    "Dazemu Sand Sprint",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld Pal guide",
+    "Palworld tips"
+  ]
+}

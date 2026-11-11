@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-selyne-celestial-darkness",
+  "slot": "palguide",
+  "order": 179,
+  "headline": "Selyne",
+  "title": "Selyne | Flying Mount Dark | Palworld Guide",
+  "video_script": "Selyne is a Dark and Neutral flying mount, and wild ones live in the World Tree. Its partner skill, Celestial Darkness, boosts your Neutral and Dark attacks by fifteen to thirty percent while you ride it. At your base it is a top worker, with handiwork at level seven, medicine at level six and transporting at level three. Its wild spawns are inside the World Tree. Do you own Selyne? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Selyne",
+      "label": "Selyne"
+    },
+    {
+      "image": "steam:1623730:10",
+      "fact": "Celestial Darkness",
+      "sub": "Neutral and Dark attacks up while riding"
+    },
+    {
+      "image": "pal:Selyne",
+      "label": "Handiwork level seven"
+    },
+    {
+      "image": "steam:1623730:2",
+      "label": "World Tree spawns"
+    }
+  ],
+  "joke": "Selyne makes the night sky look like its own backyard.",
+  "description": "Selyne in Palworld 1.0: Dark and Neutral flying mount found in the World Tree. Celestial Darkness boosts Neutral and Dark attacks 15 to 30 percent while riding. Handiwork 7, Medicine 6, Transporting 3. Checked on Pindrop, palworld.gg and Pal Breed Calc in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Selyne",
+    "Selyne partner skill",
+    "Selyne Celestial Darkness",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld Pal guide",
+    "Palworld tips"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-jeburst-guide",
+  "slot": "aniimo",
+  "order": 223,
+  "headline": "Jeburst",
+  "title": "Jeburst | Skyward Water Evolution | Aniimo Guide",
+  "video_script": "Jeburst is the final form of the Jeglid line, and Jeglid evolves at level sixty six. It can fly, swim and glide. Waterfall Pool deals power forty five for twenty energy, and Aqua Wing Spin costs ten energy. Its ultimate is Skyward Torrent. Homeland work is Water level three and Hauling level three. That makes it a very mobile Water Aniimo. Do you fly or swim with Jeburst? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:10",
+      "label": "Jeburst"
+    },
+    {
+      "image": "steam:4126040:22",
+      "fact": "Waterfall Pool",
+      "sub": "Power forty five, twenty energy"
+    },
+    {
+      "image": "steam:4126040:35",
+      "fact": "Skyward Torrent",
+      "sub": "Its ultimate skill"
+    },
+    {
+      "image": "steam:4126040:46",
+      "fact": "Evolves from Jeglid",
+      "sub": "Level sixty six"
+    }
+  ],
+  "description": "Jeburst guide: final form of the Jeglid line (Lv. 66). Can fly, swim and glide, with Waterfall Pool, Aqua Wing Spin, the Skyward Torrent ultimate and level 3 Water and Hauling Homeland work. Checked on aniimo.gg and metabot.gg in November 2026.",
+  "joke": "Jeburst climbs waterfalls just to prove that stairs are optional.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Jeburst",
+    "Jeglid",
+    "Skyward Torrent",
+    "Waterfall Pool",
+    "Aniimo Water",
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips"
+  ]
+}

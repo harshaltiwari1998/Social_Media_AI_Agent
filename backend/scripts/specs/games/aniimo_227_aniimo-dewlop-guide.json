@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-dewlop-guide",
+  "slot": "aniimo",
+  "order": 227,
+  "headline": "Dewlop",
+  "title": "Dewlop | Whirlpool Water Starter | Aniimo Guide",
+  "video_script": "Dewlop is a stage one Water Aniimo that can swim, and it evolves into Dewple at level fifty seven. Whirlpool Dewdrop costs ten energy, has power twenty and a fifteen second cooldown. Current Jet costs ten energy and has power twenty five. Homeland work is Hauling level three and Water level three. It is a cheap and easy way to start Water. Would you start your water team with Dewlop? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:16",
+      "label": "Dewlop"
+    },
+    {
+      "image": "steam:4126040:29",
+      "fact": "Whirlpool Dewdrop",
+      "sub": "Power twenty, ten energy"
+    },
+    {
+      "image": "steam:4126040:41",
+      "fact": "Current Jet",
+      "sub": "Power twenty five, ten energy"
+    },
+    {
+      "image": "steam:4126040:49",
+      "fact": "Evolves into Dewple",
+      "sub": "Level fifty seven"
+    }
+  ],
+  "description": "Dewlop guide: a stage 1 Water Aniimo that can swim and evolves into Dewple at Lv. 57. Whirlpool Dewdrop, Current Jet and level 3 Hauling and Water Homeland work. Checked on aniimo.gg and metabot.gg in November 2026.",
+  "joke": "Dewlop is mostly water, so it never has to carry a bottle.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Dewlop",
+    "Dewple",
+    "Whirlpool Dewdrop",
+    "Current Jet",
+    "Aniimo Water",
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips"
+  ]
+}

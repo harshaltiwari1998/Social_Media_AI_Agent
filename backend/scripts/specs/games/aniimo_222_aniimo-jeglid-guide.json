@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-jeglid-guide",
+  "slot": "aniimo",
+  "order": 222,
+  "headline": "Jeglid",
+  "title": "Jeglid | Glide And Swim Starter | Aniimo Guide",
+  "video_script": "Jeglid is a stage one Water Aniimo that can fly, swim and glide. It evolves into Jeburst at level sixty six. Aqua Wing Spin costs ten energy, has power fifteen and a twenty second cooldown. Waterfall Pool costs twenty energy and has power forty five. Homeland work is Hauling and Water at level one. It is easy to find and cheap to train. Would you take Jeglid on a river trip? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:9",
+      "label": "Jeglid"
+    },
+    {
+      "image": "steam:4126040:21",
+      "fact": "Aqua Wing Spin",
+      "sub": "Power fifteen, ten energy"
+    },
+    {
+      "image": "steam:4126040:33",
+      "fact": "Waterfall Pool",
+      "sub": "Power forty five, twenty energy"
+    },
+    {
+      "image": "steam:4126040:45",
+      "fact": "Evolves into Jeburst",
+      "sub": "Level sixty six"
+    }
+  ],
+  "description": "Jeglid guide: a stage 1 Water Aniimo that can fly, swim and glide and evolves into Jeburst at Lv. 66. Aqua Wing Spin, Waterfall Pool and Hauling and Water Homeland work. Checked on aniimo.gg and metabot.gg in November 2026.",
+  "joke": "Jeglid jumps out of the water like it forgot something on land.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Jeglid",
+    "Jeburst",
+    "Aqua Wing Spin",
+    "Waterfall Pool",
+    "Aniimo Water",
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips"
+  ]
+}

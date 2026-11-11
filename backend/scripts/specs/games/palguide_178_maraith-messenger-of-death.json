@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-maraith-messenger-of-death",
+  "slot": "palguide",
+  "order": 178,
+  "headline": "Maraith",
+  "title": "Maraith | Cooldown Reset Mount | Palworld Guide",
+  "video_script": "Maraith is a Dark Pal that spawns at night, and you can ride it. Its partner skill, Messenger of Death, cuts the Active Skill cooldowns of all your party Pals by thirty to sixty percent whenever you defeat an enemy. At your base it gathers and mines, both at level four. The cooldown cut does not stack with other copies. Is Maraith in your fighting team? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Maraith",
+      "label": "Maraith"
+    },
+    {
+      "image": "steam:1623730:8",
+      "fact": "Messenger of Death",
+      "sub": "Cooldowns drop after every kill"
+    },
+    {
+      "image": "pal:Maraith",
+      "label": "Gathering and Mining level four"
+    },
+    {
+      "image": "steam:1623730:9",
+      "label": "Night spawns"
+    }
+  ],
+  "joke": "Maraith is the messenger nobody wants to meet at night.",
+  "description": "Maraith in Palworld 1.0: Dark Pal, night spawns, rideable. Messenger of Death cuts party Active Skill cooldowns 30 to 60 percent when you defeat an enemy. Gathering 4, Mining 4. Checked on Pindrop, palworld.gg and Pal Breed Calc in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Maraith",
+    "Maraith partner skill",
+    "Maraith Messenger of Death",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld Pal guide",
+    "Palworld tips"
+  ]
+}

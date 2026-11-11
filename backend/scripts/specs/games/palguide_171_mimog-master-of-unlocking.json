@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-mimog-master-of-unlocking",
+  "slot": "palguide",
+  "order": 171,
+  "headline": "Mimog",
+  "title": "Mimog | Chest Opener Pal | Palworld Guide",
+  "video_script": "Mimog is a small Neutral Pal with a very handy partner skill, Master of Unlocking. While it fights beside you, it can open treasure chests without a key, except chests that need a specific work suitability. At your base it carries loads at Transporting level two. It is also one of the most common Pals on the map. That saves you from hunting for keys. Is Mimog in your party yet? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Mimog",
+      "label": "Mimog"
+    },
+    {
+      "image": "steam:1623730:2",
+      "fact": "Master of Unlocking",
+      "sub": "Opens chests without a key"
+    },
+    {
+      "image": "pal:Mimog",
+      "label": "Transporting level two"
+    },
+    {
+      "image": "steam:1623730:5",
+      "label": "Common spawns"
+    }
+  ],
+  "joke": "Mimog never asks where the chest key is.",
+  "description": "Mimog in Palworld 1.0: Neutral Pal whose Master of Unlocking partner skill opens treasure chests without a key (not chests that need a work suitability). Transporting 2, Gathering 1. Checked on Pindrop, palworld.gg and Pal Breed Calc in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Mimog",
+    "Mimog partner skill",
+    "Mimog Master of Unlocking",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld Pal guide",
+    "Palworld tips"
+  ]
+}

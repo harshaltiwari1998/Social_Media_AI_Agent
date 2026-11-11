@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-royalby-guide",
+  "slot": "aniimo",
+  "order": 225,
+  "headline": "Royalby",
+  "title": "Royalby | Queen Blessing Guide | Aniimo Guide",
+  "video_script": "Royalby is a stage three Wind Aniimo that evolves from Puffby at level sixty two with a Hearty Honeybrew. Queen Blessing costs twenty energy and has an eighteen second cooldown. Puffby Bomb costs twenty energy with a ten second cooldown. Its ultimate All Shall Bow to the Crown has power one hundred. Homeland work is Wind level three. Would you rule with Royalby? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:4",
+      "label": "Royalby"
+    },
+    {
+      "image": "steam:4126040:25",
+      "fact": "Queen Blessing",
+      "sub": "Twenty energy, eighteen seconds"
+    },
+    {
+      "image": "steam:4126040:37",
+      "fact": "Puffby Bomb",
+      "sub": "Twenty energy, ten seconds"
+    },
+    {
+      "image": "steam:4126040:48",
+      "fact": "All Shall Bow to the Crown",
+      "sub": "Ultimate, power one hundred"
+    }
+  ],
+  "description": "Royalby guide: stage 3 Wind Aniimo from Puffby (Lv. 62, Hearty Honeybrew). Queen's Blessing, Puffby Bomb, the All Shall Bow to the Crown ultimate (power 100) and Wind Homeland work. Checked on aniimo.gg and metabot.gg in November 2026.",
+  "joke": "Royalby is the queen, so please say hello politely.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Royalby",
+    "Puffby",
+    "Hearty Honeybrew",
+    "Queens Blessing",
+    "Aniimo Wind",
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips"
+  ]
+}

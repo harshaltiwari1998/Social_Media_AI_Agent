@@ -1,0 +1,47 @@
+{
+  "id": "aniimo-salabask-driftwood-gator-guide",
+  "slot": "aniimo",
+  "order": 229,
+  "headline": "Salabask",
+  "title": "Salabask | Driftwood Gator Support | Aniimo Guide",
+  "video_script": "Salabask is a stage one Grass and Water Aniimo that can swim. Its head looks like mossy driftwood. Gatorjaw Bite pulls the target in, and five Grass hits on the marked target set off a blast. Spring Renewal costs twenty energy and creates a healing zone for your team. Homeland work is Water, Grass and Hauling, all level one. At level sixty two a Sprout Stone evolves it into Crocobask. Is Salabask on your team? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:15",
+      "label": "Salabask"
+    },
+    {
+      "image": "steam:4126040:17",
+      "fact": "Gatorjaw Bite",
+      "sub": "Five Grass hits trigger a blast"
+    },
+    {
+      "image": "steam:4126040:19",
+      "fact": "Spring Renewal",
+      "sub": "Healing zone, twenty energy"
+    },
+    {
+      "image": "steam:4126040:21",
+      "fact": "Evolves into Crocobask",
+      "sub": "Level sixty two, Sprout Stone"
+    }
+  ],
+  "description": "Aniimo Salabask guide: a stage 1 Grass and Water swimmer with Gatorjaw Bite and Spring Renewal, plus Water, Grass and Hauling Homeland work. Evolves into Crocobask at level 62 with a Sprout Stone. Checked on aniimo.gg and GameWith in November 2026.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Salabask",
+    "Aniimo Salabask",
+    "Crocobask",
+    "Aniimo Grass",
+    "Gatorjaw Bite",
+    "Spring Renewal",
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips"
+  ],
+  "joke": "Salabask floats so calmly that other Aniimo mistake it for a bridge."
+}

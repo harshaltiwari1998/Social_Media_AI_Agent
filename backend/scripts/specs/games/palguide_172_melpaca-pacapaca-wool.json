@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-melpaca-pacapaca-wool",
+  "slot": "palguide",
+  "order": 172,
+  "headline": "Melpaca",
+  "title": "Melpaca | Ranch Wool Mount | Palworld Guide",
+  "video_script": "Melpaca is a Neutral Pal with the partner skill Pacapaca Wool. You can ride it, and when it works on your ranch it sometimes drops Wool. While it is in your party, it also raises the Defense and Movement Speed of Kingpaca. Its base job is farming, so it fits a ranch plan well. Remember that it is also a rideable Pal. Do you keep Melpaca on your ranch? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Melpaca",
+      "label": "Melpaca"
+    },
+    {
+      "image": "steam:1623730:3",
+      "fact": "Pacapaca Wool",
+      "sub": "Rideable, drops Wool at the ranch"
+    },
+    {
+      "image": "pal:Kingpaca",
+      "fact": "Kingpaca boost",
+      "sub": "Defense and Movement Speed"
+    },
+    {
+      "image": "steam:1623730:6",
+      "label": "Farming Pal"
+    }
+  ],
+  "joke": "Melpaca is proof that a ranch can be very fluffy.",
+  "description": "Melpaca in Palworld 1.0: Neutral Pal with the Pacapaca Wool partner skill (rideable, sometimes drops Wool at the ranch, boosts Kingpaca Defense and Movement Speed in your party). Farming work. Checked on Pindrop and palworld.gg in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Melpaca",
+    "Melpaca partner skill",
+    "Melpaca Pacapaca Wool",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld Pal guide",
+    "Palworld tips"
+  ]
+}

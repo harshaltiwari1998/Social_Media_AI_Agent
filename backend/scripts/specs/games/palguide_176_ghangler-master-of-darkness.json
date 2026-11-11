@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-ghangler-master-of-darkness",
+  "slot": "palguide",
+  "order": 176,
+  "headline": "Ghangler",
+  "title": "Ghangler | Water Mount Dark Water | Palworld Guide",
+  "video_script": "Ghangler is a Dark and Water Pal you can ride across water. Its partner skill, Master of Darkness, raises its Movement Speed by five to twenty five percent for each other Dark or Water Pal in your party. At your base it is a strong waterer at level five, and it also transports at level two. A bigger Dark and Water team means a faster ride. Do you ride Ghangler yet? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Ghangler",
+      "label": "Ghangler"
+    },
+    {
+      "image": "steam:1623730:3",
+      "fact": "Master of Darkness",
+      "sub": "Ride on water, faster with Dark and Water Pals"
+    },
+    {
+      "image": "pal:Ghangler",
+      "label": "Watering level five"
+    },
+    {
+      "image": "steam:1623730:6",
+      "label": "Water travel"
+    }
+  ],
+  "joke": "Ghangler never asks for a boat.",
+  "description": "Ghangler in Palworld 1.0: Dark and Water Pal, rideable on water. Master of Darkness boosts Movement Speed 5 to 25 percent per other Dark or Water Pal in the party. Watering 5, Transporting 2. Checked on Pindrop, palworld.gg and Pal Breed Calc in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Ghangler",
+    "Ghangler partner skill",
+    "Ghangler Master of Darkness",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld Pal guide",
+    "Palworld tips"
+  ]
+}

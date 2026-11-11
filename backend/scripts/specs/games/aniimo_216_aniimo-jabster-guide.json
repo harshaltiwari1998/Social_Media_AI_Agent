@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-jabster-guide",
+  "slot": "aniimo",
+  "order": 216,
+  "headline": "Jabster",
+  "title": "Jabster | Ice Fists Evolution | Aniimo Guide",
+  "video_script": "Jabster is a stage three Aniimo from the Prawnch line. Prawnch evolves into it at level sixty four, and you need one Freeze Stone. Its Spring Fist throws three punches at power sixty two, and its trait Knuckle Burst builds Strike Points from your hits. Homeland work is Ice level three and Artisanship level three. This makes it a strong close range pick for any team. Is a Jabster on your team? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:5",
+      "label": "Jabster"
+    },
+    {
+      "image": "steam:4126040:12",
+      "fact": "Spring Fist",
+      "sub": "Three punches, power sixty two"
+    },
+    {
+      "image": "steam:4126040:23",
+      "fact": "Evolves from Prawnch",
+      "sub": "Level sixty four, Freeze Stone"
+    },
+    {
+      "image": "steam:4126040:34",
+      "fact": "Homeland work",
+      "sub": "Ice and Artisanship level three"
+    }
+  ],
+  "description": "Jabster guide: Prawnch evolves into Jabster at Lv. 64 with a Freeze Stone. Spring Fist (power 62), trait Knuckle Burst, Ice and Artisanship Homeland work at level 3. Checked on aniimo.gg and metabot.gg in November 2026.",
+  "joke": "Jabster does not need a sparring partner, it brings its own fists.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Jabster",
+    "Prawnch",
+    "Spring Fist",
+    "Freeze Stone",
+    "Knuckle Burst",
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips"
+  ]
+}

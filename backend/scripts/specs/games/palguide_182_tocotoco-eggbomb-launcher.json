@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-tocotoco-eggbomb-launcher",
+  "slot": "palguide",
+  "order": 182,
+  "headline": "Tocotoco",
+  "title": "Tocotoco | Egg Launcher Pal | Palworld Guide",
+  "video_script": "Tocotoco is a Neutral Pal with a very explosive partner skill, Eggbomb Launcher. When you activate it, it equips to you and turns into an egg launcher, so you can fire exploding eggs at enemies. At your base it gathers at level one. It is also very common across the map. Just be careful, because the eggs explode! Do you shoot with Tocotoco? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Tocotoco",
+      "label": "Tocotoco"
+    },
+    {
+      "image": "steam:1623730:7",
+      "fact": "Eggbomb Launcher",
+      "sub": "Becomes an egg launcher"
+    },
+    {
+      "image": "pal:Tocotoco",
+      "label": "Gathering level one"
+    },
+    {
+      "image": "steam:1623730:8",
+      "label": "Common spawns"
+    }
+  ],
+  "joke": "Tocotoco proves that breakfast can be a weapon.",
+  "description": "Tocotoco in Palworld 1.0: Neutral Pal whose Eggbomb Launcher partner skill turns it into an egg launcher when activated. Gathering 1. Checked on Pindrop, palworld.gg and Pal Breed Calc in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Tocotoco",
+    "Tocotoco partner skill",
+    "Tocotoco Eggbomb Launcher",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld Pal guide",
+    "Palworld tips"
+  ]
+}

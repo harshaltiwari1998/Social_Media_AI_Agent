@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-jellroy-drop",
+  "slot": "palguide",
+  "order": 174,
+  "headline": "Jellroy",
+  "title": "Jellroy | Salvage Drop Water Dark | Palworld Guide",
+  "video_script": "Jellroy is a Water and Dark Pal that shows up mostly at night. Its partner skill, Jellroy Drop, raises items from salvaging by fifty five to ninety five percent while it is in your party. At your base it waters crops at level two. It can also do handiwork, medicine and transporting at level one. Pair it with Jelliette at your base for faster watering. Is Jellroy on your salvage team? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Jellroy",
+      "label": "Jellroy"
+    },
+    {
+      "image": "steam:1623730:8",
+      "fact": "Jellroy Drop",
+      "sub": "More items from salvaging"
+    },
+    {
+      "image": "pal:Jellroy",
+      "label": "Watering level two"
+    },
+    {
+      "image": "steam:1623730:9",
+      "label": "Mostly night spawns"
+    }
+  ],
+  "joke": "Jellroy likes salvage so much it never leaves a wreck alone.",
+  "description": "Jellroy in Palworld 1.0: Water and Dark Pal with the Jellroy Drop partner skill (salvage items up 55 to 95 percent). Watering 2, Handiwork 1, Medicine 1, Transporting 1. Checked on Pindrop, palworld.gg and Pal Breed Calc in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Jellroy",
+    "Jellroy partner skill",
+    "Jellroy Drop",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld Pal guide",
+    "Palworld tips"
+  ]
+}

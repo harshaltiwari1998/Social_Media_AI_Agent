@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-buffby-guide",
+  "slot": "aniimo",
+  "order": 224,
+  "headline": "Buffby",
+  "title": "Buffby | Honey Bruiser Evolution | Aniimo Guide",
+  "video_script": "Buffby is a stage three Wind Aniimo that evolves from Puffby at level sixty two with a Hearty Honeybrew. Bee-Powered Tackle costs ten energy for power twenty five. Majestic Stance costs twenty energy and recharges in fifteen seconds. Its ultimate Super Mega Spin-Bee has power one hundred and fifty. Homeland work is Wind level three. Pick your branch before you spend the item. Buffby or Royalby, which one wins? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:1",
+      "label": "Buffby"
+    },
+    {
+      "image": "steam:4126040:24",
+      "fact": "Bee-Powered Tackle",
+      "sub": "Power twenty five, ten energy"
+    },
+    {
+      "image": "steam:4126040:36",
+      "fact": "Majestic Stance",
+      "sub": "Twenty energy, fifteen seconds"
+    },
+    {
+      "image": "steam:4126040:47",
+      "fact": "Super Mega Spin-Bee",
+      "sub": "Ultimate, power one hundred fifty"
+    }
+  ],
+  "description": "Buffby guide: stage 3 Wind Aniimo from Puffby (Lv. 62, Hearty Honeybrew). Bee-Powered Tackle, Majestic Stance, the Super Mega Spin-Bee ultimate (power 150) and Wind Homeland work. Checked on aniimo.gg and metabot.gg in November 2026.",
+  "joke": "Buffby is gentle at heart, but it throws boulders anyway.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Buffby",
+    "Puffby",
+    "Hearty Honeybrew",
+    "Super Mega Spin-Bee",
+    "Aniimo Wind",
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips"
+  ]
+}

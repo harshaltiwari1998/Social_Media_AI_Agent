@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-nox-kuudere",
+  "slot": "palguide",
+  "order": 180,
+  "headline": "Nox",
+  "title": "Nox | Effigy Finder Night Pal | Palworld Guide",
+  "video_script": "Nox is a small Dark Pal that you find at night. Its partner skill, Kuudere, detects the location of nearby Pal Effigies when you activate it, which makes it a great helper for collecting them. At your base it gathers at level one. It is an easy early catch. Just remember to explore after sunset, when it appears. Do you use Nox to find Effigies? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Nox",
+      "label": "Nox"
+    },
+    {
+      "image": "steam:1623730:3",
+      "fact": "Kuudere",
+      "sub": "Detects nearby Pal Effigies"
+    },
+    {
+      "image": "pal:Nox",
+      "label": "Gathering level one"
+    },
+    {
+      "image": "steam:1623730:5",
+      "label": "Night spawns"
+    }
+  ],
+  "joke": "Nox finds Effigies faster than it finds its own pillow.",
+  "description": "Nox in Palworld 1.0: small Dark Pal that spawns at night. Its Kuudere partner skill detects nearby Pal Effigies. Gathering 1. Checked on Pindrop, palworld.gg and Pal Breed Calc in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Nox",
+    "Nox partner skill",
+    "Nox Kuudere",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld Pal guide",
+    "Palworld tips"
+  ]
+}

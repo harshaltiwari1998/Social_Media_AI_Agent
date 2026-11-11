@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-whalaska-chilled-whale-cruiser",
+  "slot": "palguide",
+  "order": 177,
+  "headline": "Whalaska",
+  "title": "Whalaska | Ice Water Fishing Mount | Palworld Guide",
+  "video_script": "Whalaska is a huge Ice and Water Pal that you can ride. Its partner skill, Chilled Whale Cruiser, helps with fishing while it is in your party, because the fishing minigame starts with a bigger capture gauge and progress rises faster. At your base it cools at level six and waters at level five. It is a great pick for a lakeside base. Would you ride Whalaska? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Whalaska",
+      "label": "Whalaska"
+    },
+    {
+      "image": "steam:1623730:4",
+      "fact": "Chilled Whale Cruiser",
+      "sub": "Rideable, helps in fishing"
+    },
+    {
+      "image": "pal:Whalaska",
+      "label": "Cooling level six"
+    },
+    {
+      "image": "steam:1623730:7",
+      "label": "Watering level five"
+    }
+  ],
+  "joke": "Whalaska is the only fishing buddy that is bigger than the lake.",
+  "description": "Whalaska in Palworld 1.0: Ice and Water Pal, rideable. Chilled Whale Cruiser gives a 5 to 14 percent fishing boost (starting gauge and capture progress). Cooling 6, Watering 5. Checked on Pindrop, palworld.gg and Pal Breed Calc in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Whalaska",
+    "Whalaska partner skill",
+    "Whalaska Chilled Whale Cruiser",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld Pal guide",
+    "Palworld tips"
+  ]
+}

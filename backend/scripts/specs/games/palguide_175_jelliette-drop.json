@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-jelliette-drop",
+  "slot": "palguide",
+  "order": 175,
+  "headline": "Jelliette",
+  "title": "Jelliette | Fishing Drop Water | Palworld Guide",
+  "video_script": "Jelliette is a Water Pal with the partner skill Jelliette Drop. While it is in your party, items you get from fishing go up by fifty five to ninety five percent. At your base it works at watering level two, and handiwork and transporting level one. Bring Jelliette on your next fishing trip. Pair it with Jellroy at your base for faster watering. Do you fish with Jelliette? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Jelliette",
+      "label": "Jelliette"
+    },
+    {
+      "image": "steam:1623730:10",
+      "fact": "Jelliette Drop",
+      "sub": "More items from fishing"
+    },
+    {
+      "image": "pal:Jelliette",
+      "label": "Watering level two"
+    },
+    {
+      "image": "steam:1623730:2",
+      "label": "Fishing trip"
+    }
+  ],
+  "joke": "Jelliette makes every fishing trip feel like a catch.",
+  "description": "Jelliette in Palworld 1.0: Water Pal with the Jelliette Drop partner skill (fishing items up 55 to 95 percent). Watering 2, Handiwork 1, Transporting 1. Checked on Pindrop, palworld.gg and Pal Breed Calc in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Jelliette",
+    "Jelliette partner skill",
+    "Jelliette Drop",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld Pal guide",
+    "Palworld tips"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "palworld-guide-swee-fluffy",
+  "slot": "palguide",
+  "order": 173,
+  "headline": "Swee",
+  "title": "Swee | Fluffy Ice Booster | Palworld Guide",
+  "video_script": "Swee is a tiny Ice Pal with the partner skill Fluffy. While Swee is in your party, it increases the Attack and Defense of Sweepa. At your base it can gather and also cool things down, both at level one. It is a small helper, but it makes a Sweepa team stronger. Keep both in the same party for the bonus. Do you run Swee with Sweepa? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Swee",
+      "label": "Swee"
+    },
+    {
+      "image": "steam:1623730:4",
+      "fact": "Fluffy",
+      "sub": "Sweepa gets more Attack and Defense"
+    },
+    {
+      "image": "pal:Sweepa",
+      "label": "Sweepa partner"
+    },
+    {
+      "image": "steam:1623730:7",
+      "label": "Gathering and Cooling level one"
+    }
+  ],
+  "joke": "Swee is so fluffy that even the cold feels warm.",
+  "description": "Swee in Palworld 1.0: Ice Pal whose Fluffy partner skill raises Sweepa's Attack and Defense while in your party. Gathering 1 and Cooling 1. Checked on Pindrop, palworld.gg and Pal Breed Calc in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Swee",
+    "Swee partner skill",
+    "Swee Fluffy",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld Pal guide",
+    "Palworld tips"
+  ]
+}

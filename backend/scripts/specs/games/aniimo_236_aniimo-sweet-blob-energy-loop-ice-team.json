@@ -1,0 +1,47 @@
+{
+  "id": "aniimo-sweet-blob-energy-loop-ice-team",
+  "slot": "aniimo",
+  "order": 236,
+  "headline": "Sweet Blob Energy",
+  "title": "Sweet Blob Energy | Ice Team Trick | Aniimo Guide",
+  "video_script": "Sweet Blobs are free energy for your Ice team. Sugarfish and Sugarslime use Sugar-Rush Tackle, which applies Ice Debuff and then tosses Sweet Blobs. Pick one up and you restore energy. Sugarslime's ultimate Sugary Downpour also scatters Sweet Blobs around itself, and it slows enemies in the field. Run both skills, then collect the blobs between casts. Would you run this sweet Ice engine? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:17",
+      "label": "Sweet Blobs"
+    },
+    {
+      "image": "steam:4126040:19",
+      "fact": "Sugar-Rush Tackle",
+      "sub": "Ice Debuff, then Sweet Blobs"
+    },
+    {
+      "image": "steam:4126040:21",
+      "fact": "Sugary Downpour",
+      "sub": "Scatters more blobs"
+    },
+    {
+      "image": "steam:4126040:24",
+      "fact": "Pick them up",
+      "sub": "Restores energy"
+    }
+  ],
+  "description": "Aniimo Sweet Blob energy guide: Sugarfish and Sugarslime use Sugar-Rush Tackle to toss Sweet Blobs that restore energy, and Sugarslime's Sugary Downpour scatters more while slowing enemies. Checked on aniimo.gg and GameWith in November 2026.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Sweet Blob",
+    "Sugarfish",
+    "Sugarslime",
+    "Aniimo Ice",
+    "Sugar-Rush Tackle",
+    "Sugary Downpour",
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips"
+  ],
+  "joke": "Sweet Blobs are the only snacks that refill your energy bar."
+}

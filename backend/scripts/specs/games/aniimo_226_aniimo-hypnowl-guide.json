@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-hypnowl-guide",
+  "slot": "aniimo",
+  "order": 226,
+  "headline": "Hypnowl",
+  "title": "Hypnowl | Wind Healer Starter | Aniimo Guide",
+  "video_script": "Hypnowl is a stage one Wind Aniimo that can fly and glide, and it evolves into Mesmerowl at level fifty seven. Mesmerwave Recharge has power thirty and an eighteen second cooldown. Wind Bomb Therapy costs ten energy, has power thirty and also recharges every eighteen seconds. Homeland work is Hauling and Wind at level one. It is a handy early Wind support. Would you hatch a Hypnowl? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:11",
+      "label": "Hypnowl"
+    },
+    {
+      "image": "steam:4126040:13",
+      "fact": "Mesmerwave Recharge",
+      "sub": "Power thirty, eighteen seconds"
+    },
+    {
+      "image": "steam:4126040:28",
+      "fact": "Wind Bomb Therapy",
+      "sub": "Power thirty, ten energy"
+    },
+    {
+      "image": "steam:4126040:40",
+      "fact": "Evolves into Mesmerowl",
+      "sub": "Level fifty seven"
+    }
+  ],
+  "description": "Hypnowl guide: a stage 1 Wind Aniimo that can fly and glide and evolves into Mesmerowl at Lv. 57. Mesmerwave Recharge, Wind Bomb Therapy and Hauling and Wind Homeland work. Checked on aniimo.gg and metabot.gg in November 2026.",
+  "joke": "Hypnowl hears every tiny sound, including your snack wrapper.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Hypnowl",
+    "Mesmerowl",
+    "Mesmerwave Recharge",
+    "Wind Bomb Therapy",
+    "Aniimo Wind",
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips"
+  ]
+}

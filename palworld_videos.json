@@ -7261,5 +7261,48 @@
       "unique": false,
       "key": "Incineram 5"
     }
+  },
+  "Moldron 5": {
+    "spec": "scripts/specs/palworld_moldron_5.json",
+    "video": "F:\\AI AGENT\\run_pal\\videos\\short-670af769.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Moldron",
+      "caption": "5 ways to breed Moldron in Palworld 1.0: Astegon + Majex, Blazamut + Relaxaurus, Knocklem + Palumba, Aegidron + Incineram, Dupin + Sootseer.",
+      "video_script": "Here are five ways to breed Moldron in Palworld one point zero. Combo one: breed Astegon with Majex on your Breeding Farm, then add a cake. Combo two: pair Blazamut and Relaxaurus together, and you get the same egg. Combo three: Knocklem plus Palumba works too, so use whichever Pals you have. Combo four: Aegidron with Incineram is another easy option. Combo five: breed Dupin with Sootseer on your Breeding Farm, then add a cake. Every egg hatches into Moldron. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Astegon",
+        "Majex"
+      ],
+      "combos": [
+        [
+          "Astegon",
+          "Majex"
+        ],
+        [
+          "Blazamut",
+          "Relaxaurus"
+        ],
+        [
+          "Knocklem",
+          "Palumba"
+        ],
+        [
+          "Aegidron",
+          "Incineram"
+        ],
+        [
+          "Dupin",
+          "Sootseer"
+        ]
+      ],
+      "child": "Moldron",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false,
+      "key": "Moldron 5"
+    }
   }
 }

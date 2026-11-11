@@ -9843,5 +9843,19 @@
       "name": "Typhligatr",
       "types": "Water/Fire"
     }
+  },
+  "fusion-ho-oh+lugia": {
+    "kind": "motion",
+    "spec": "scripts/specs/fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\fusion-ho-oh+lugia\\final.mp4",
+    "data": {
+      "id": "ho-oh+lugia",
+      "family": "pokemon",
+      "sprite": true,
+      "a": "Ho-Oh",
+      "b": "Lugia",
+      "name": "Lugioh",
+      "types": "Fire/Psychic"
+    }
   }
 }

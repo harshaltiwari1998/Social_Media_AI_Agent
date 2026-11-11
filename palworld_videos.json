@@ -7476,5 +7476,48 @@
       "unique": false,
       "key": "Gildra 5"
     }
+  },
+  "Sekhmet 5": {
+    "spec": "scripts/specs/palworld_sekhmet_5.json",
+    "video": "F:\\AI AGENT\\run_pal\\videos\\short-545aebe1.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Sekhmet",
+      "caption": "5 ways to breed Sekhmet in Palworld 1.0: Celesdir + Gildra, Astegon + Nyafia, Gildane + Majex, Whalaska + Braloha, Knocklem + Vaelet.",
+      "video_script": "Here are five ways to breed Sekhmet in Palworld one point zero. Combo one: breed Celesdir with Gildra on your Breeding Farm, then add a cake. Combo two: pair Astegon and Nyafia together, and you get the same egg. Combo three: Gildane plus Majex works too, so use whichever Pals you have. Combo four: Whalaska with Braloha is another easy option. Combo five: breed Knocklem with Vaelet on your Breeding Farm, then add a cake. Every egg hatches into Sekhmet. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Celesdir",
+        "Gildra"
+      ],
+      "combos": [
+        [
+          "Celesdir",
+          "Gildra"
+        ],
+        [
+          "Astegon",
+          "Nyafia"
+        ],
+        [
+          "Gildane",
+          "Majex"
+        ],
+        [
+          "Whalaska",
+          "Braloha"
+        ],
+        [
+          "Knocklem",
+          "Vaelet"
+        ]
+      ],
+      "child": "Sekhmet",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false,
+      "key": "Sekhmet 5"
+    }
   }
 }

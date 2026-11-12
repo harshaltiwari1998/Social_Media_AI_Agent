@@ -10224,5 +10224,25 @@
   "gta6-countdown-07-trailer-one": {
     "spec": "scripts/specs/games/gta6_16_countdown-07.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-05cebc94.mp4"
+  },
+  "palworld-guide-starryon-night-dancer": {
+    "spec": "scripts/specs/games/palguide_188_starryon-night-dancer.json",
+    "video": "F:\\AI AGENT\\run_pal10\\videos\\short-e42ff607.mp4"
+  },
+  "palworld-guide-dogen-homeward-prayer": {
+    "spec": "scripts/specs/games/palguide_187_dogen-homeward-prayer.json",
+    "video": "F:\\AI AGENT\\run_pal10\\videos\\short-3df224e0.mp4"
+  },
+  "palworld-guide-prixter-phantom-venom": {
+    "spec": "scripts/specs/games/palguide_186_prixter-phantom-venom.json",
+    "video": "F:\\AI AGENT\\run_pal10\\videos\\short-a9e66b93.mp4"
+  },
+  "palworld-guide-azurmane-plasma-dash": {
+    "spec": "scripts/specs/games/palguide_185_azurmane-plasma-dash.json",
+    "video": "F:\\AI AGENT\\run_pal10\\videos\\short-4bfe0261.mp4"
+  },
+  "palworld-guide-reindrix-cool-body": {
+    "spec": "scripts/specs/games/palguide_184_reindrix-cool-body.json",
+    "video": "F:\\AI AGENT\\run_pal10\\videos\\short-2bc4e1ab.mp4"
   }
 }

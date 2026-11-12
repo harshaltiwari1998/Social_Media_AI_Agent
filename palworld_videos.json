@@ -7863,5 +7863,220 @@
       "unique": false,
       "key": "Foxcicle 5"
     }
+  },
+  "Roujay 5": {
+    "spec": "scripts/specs/palworld_roujay_5.json",
+    "video": "F:\\AI AGENT\\run_pal10\\videos\\short-46916d36.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Roujay",
+      "caption": "5 ways to breed Roujay in Palworld 1.0: Bastigor + Majex, Lyleen + Wumpo, Solenne + Splatterina, Astegon + Celesdir, Lapure + Knocklem.",
+      "video_script": "Here are five ways to breed Roujay in Palworld one point zero. Combo one: breed Bastigor with Majex on your Breeding Farm, then add a cake. Combo two: pair Lyleen and Wumpo together, and you get the same egg. Combo three: Solenne plus Splatterina works too, so use whichever Pals you have. Combo four: Astegon with Celesdir is another easy option. Combo five: breed Lapure with Knocklem on your Breeding Farm, then add a cake. Every egg hatches into Roujay. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Bastigor",
+        "Majex"
+      ],
+      "combos": [
+        [
+          "Bastigor",
+          "Majex"
+        ],
+        [
+          "Lyleen",
+          "Wumpo"
+        ],
+        [
+          "Solenne",
+          "Splatterina"
+        ],
+        [
+          "Astegon",
+          "Celesdir"
+        ],
+        [
+          "Lapure",
+          "Knocklem"
+        ]
+      ],
+      "child": "Roujay",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false,
+      "key": "Roujay 5"
+    }
+  },
+  "Azurmane 5": {
+    "spec": "scripts/specs/palworld_azurmane_5.json",
+    "video": "F:\\AI AGENT\\run_pal10\\videos\\short-57d0caa5.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Azurmane",
+      "caption": "5 ways to breed Azurmane in Palworld 1.0: Knocklem + Jormuntide, Solenne + Celesdir, Bastigor + Tetroise, Aegidron + Lapure, Orserk + Gildane.",
+      "video_script": "Here are five ways to breed Azurmane in Palworld one point zero. Combo one: breed Knocklem with Jormuntide on your Breeding Farm, then add a cake. Combo two: pair Solenne and Celesdir together, and you get the same egg. Combo three: Bastigor plus Tetroise works too, so use whichever Pals you have. Combo four: Aegidron with Lapure is another easy option. Combo five: breed Orserk with Gildane on your Breeding Farm, then add a cake. Every egg hatches into Azurmane. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Knocklem",
+        "Jormuntide"
+      ],
+      "combos": [
+        [
+          "Knocklem",
+          "Jormuntide"
+        ],
+        [
+          "Solenne",
+          "Celesdir"
+        ],
+        [
+          "Bastigor",
+          "Tetroise"
+        ],
+        [
+          "Aegidron",
+          "Lapure"
+        ],
+        [
+          "Orserk",
+          "Gildane"
+        ]
+      ],
+      "child": "Azurmane",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false,
+      "key": "Azurmane 5"
+    }
+  },
+  "Eidrolon 5": {
+    "spec": "scripts/specs/palworld_eidrolon_5.json",
+    "video": "F:\\AI AGENT\\run_pal10\\videos\\short-a55586af.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Eidrolon",
+      "caption": "5 ways to breed Eidrolon in Palworld 1.0: Lyleen + Blazamut, Bastigor + Celesdir, Flaracle + Knocklem, Orserk + Dupin, Aegidron + Jormuntide.",
+      "video_script": "Here are five ways to breed Eidrolon in Palworld one point zero. Combo one: breed Lyleen with Blazamut on your Breeding Farm, then add a cake. Combo two: pair Bastigor and Celesdir together, and you get the same egg. Combo three: Flaracle plus Knocklem works too, so use whichever Pals you have. Combo four: Orserk with Dupin is another easy option. Combo five: breed Aegidron with Jormuntide on your Breeding Farm, then add a cake. Every egg hatches into Eidrolon. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Lyleen",
+        "Blazamut"
+      ],
+      "combos": [
+        [
+          "Lyleen",
+          "Blazamut"
+        ],
+        [
+          "Bastigor",
+          "Celesdir"
+        ],
+        [
+          "Flaracle",
+          "Knocklem"
+        ],
+        [
+          "Orserk",
+          "Dupin"
+        ],
+        [
+          "Aegidron",
+          "Jormuntide"
+        ]
+      ],
+      "child": "Eidrolon",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false,
+      "key": "Eidrolon 5"
+    }
+  },
+  "Tetroise 5": {
+    "spec": "scripts/specs/palworld_tetroise_5.json",
+    "video": "F:\\AI AGENT\\run_pal10\\videos\\short-de5c9569.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Tetroise",
+      "caption": "5 ways to breed Tetroise in Palworld 1.0: Celesdir + Majex, Whalaska + Sekhmet, Gildane + Frostplume, Blazamut + Gildra, Dupin + Reptyro.",
+      "video_script": "Here are five ways to breed Tetroise in Palworld one point zero. Combo one: breed Celesdir with Majex on your Breeding Farm, then add a cake. Combo two: pair Whalaska and Sekhmet together, and you get the same egg. Combo three: Gildane plus Frostplume works too, so use whichever Pals you have. Combo four: Blazamut with Gildra is another easy option. Combo five: breed Dupin with Reptyro on your Breeding Farm, then add a cake. Every egg hatches into Tetroise. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Celesdir",
+        "Majex"
+      ],
+      "combos": [
+        [
+          "Celesdir",
+          "Majex"
+        ],
+        [
+          "Whalaska",
+          "Sekhmet"
+        ],
+        [
+          "Gildane",
+          "Frostplume"
+        ],
+        [
+          "Blazamut",
+          "Gildra"
+        ],
+        [
+          "Dupin",
+          "Reptyro"
+        ]
+      ],
+      "child": "Tetroise",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false,
+      "key": "Tetroise 5"
+    }
+  },
+  "Silvegis 5": {
+    "spec": "scripts/specs/palworld_silvegis_5.json",
+    "video": "F:\\AI AGENT\\run_pal10\\videos\\short-f37c57d7.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Silvegis",
+      "caption": "5 ways to breed Silvegis in Palworld 1.0: Lyleen + Ghangler, Knocklem + Frostplume, Azurmane + Whalaska, Eidrolon + Wumpo, Orserk + Majex.",
+      "video_script": "Here are five ways to breed Silvegis in Palworld one point zero. Combo one: breed Lyleen with Ghangler on your Breeding Farm, then add a cake. Combo two: pair Knocklem and Frostplume together, and you get the same egg. Combo three: Azurmane plus Whalaska works too, so use whichever Pals you have. Combo four: Eidrolon with Wumpo is another easy option. Combo five: breed Orserk with Majex on your Breeding Farm, then add a cake. Every egg hatches into Silvegis. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Lyleen",
+        "Ghangler"
+      ],
+      "combos": [
+        [
+          "Lyleen",
+          "Ghangler"
+        ],
+        [
+          "Knocklem",
+          "Frostplume"
+        ],
+        [
+          "Azurmane",
+          "Whalaska"
+        ],
+        [
+          "Eidrolon",
+          "Wumpo"
+        ],
+        [
+          "Orserk",
+          "Majex"
+        ]
+      ],
+      "child": "Silvegis",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false,
+      "key": "Silvegis 5"
+    }
   }
 }

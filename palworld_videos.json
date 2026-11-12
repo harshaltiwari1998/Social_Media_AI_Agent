@@ -8207,5 +8207,91 @@
       "unique": false,
       "key": "Grintale 5"
     }
+  },
+  "Sweepa 5": {
+    "spec": "scripts/specs/palworld_sweepa_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-af8f6597.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Sweepa",
+      "caption": "5 ways to breed Sweepa in Palworld 1.0: Digtoise + Cattiva, Flopie + Vanwyrm, Felbat + Tocotoco, Incineram + Ribbuny, Nyafia + Chikipi.",
+      "video_script": "Here are five ways to breed Sweepa in Palworld one point zero. Combo one: breed Digtoise with Cattiva on your Breeding Farm, then add a cake. Combo two: pair Flopie and Vanwyrm together, and you get the same egg. Combo three: Felbat plus Tocotoco works too, so use whichever Pals you have. Combo four: Incineram with Ribbuny is another easy option. Combo five: breed Nyafia with Chikipi on your Breeding Farm, then add a cake. Every egg hatches into Sweepa. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Digtoise",
+        "Cattiva"
+      ],
+      "combos": [
+        [
+          "Digtoise",
+          "Cattiva"
+        ],
+        [
+          "Flopie",
+          "Vanwyrm"
+        ],
+        [
+          "Felbat",
+          "Tocotoco"
+        ],
+        [
+          "Incineram",
+          "Ribbuny"
+        ],
+        [
+          "Nyafia",
+          "Chikipi"
+        ]
+      ],
+      "child": "Sweepa",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false,
+      "key": "Sweepa 5"
+    }
+  },
+  "Kingpaca 5": {
+    "spec": "scripts/specs/palworld_kingpaca_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-9ad3b9e2.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Kingpaca",
+      "caption": "5 ways to breed Kingpaca in Palworld 1.0: Mimog + Flambelle, Digtoise + Cremis, Vanwyrm + Fuddler, Smokie + Direhowl, Chillet + Loupmoon.",
+      "video_script": "Here are five ways to breed Kingpaca in Palworld one point zero. Combo one: breed Mimog with Flambelle on your Breeding Farm, then add a cake. Combo two: pair Digtoise and Cremis together, and you get the same egg. Combo three: Vanwyrm plus Fuddler works too, so use whichever Pals you have. Combo four: Smokie with Direhowl is another easy option. Combo five: breed Chillet with Loupmoon on your Breeding Farm, then add a cake. Every egg hatches into Kingpaca. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Mimog",
+        "Flambelle"
+      ],
+      "combos": [
+        [
+          "Mimog",
+          "Flambelle"
+        ],
+        [
+          "Digtoise",
+          "Cremis"
+        ],
+        [
+          "Vanwyrm",
+          "Fuddler"
+        ],
+        [
+          "Smokie",
+          "Direhowl"
+        ],
+        [
+          "Chillet",
+          "Loupmoon"
+        ]
+      ],
+      "child": "Kingpaca",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false,
+      "key": "Kingpaca 5"
+    }
   }
 }

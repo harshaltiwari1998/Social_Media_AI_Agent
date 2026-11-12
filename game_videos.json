@@ -10722,5 +10722,44 @@
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-4e0dcd21.mp4",
     "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-4e0dcd21-thumb.jpg",
     "chapters": "0:00 एक सितारे की कहानी\n0:41 Copenhagen से Bangalore\n1:28 मॉडलिंग से अभिनय तक\n2:12 Om Shanti Om का जादू\n2:54 संघर्ष का दौर\n3:39 Cocktail से वापसी\n4:25 Piku और Bhansali की फिल्में\n5:14 मानसिक स्वास्थ्य की आवाज़\n5:59 निर्माता और नई पारी\n6:50 आपकी राय"
+  },
+  "aniimo-emberpup-fire-family-scorchhowl-vs-inferlupa": {
+    "spec": "scripts/specs/long/gaming_100_aniimo-emberpup-fire-family-scorchhowl-vs-inferlupa.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-ac2878cf.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-ac2878cf-thumb.jpg",
+    "chapters": "0:00 Intro\n0:52 Meet Emberpup\n1:39 Where to find it\n2:26 Emberpup to Flameruff\n3:13 The big split\n4:01 Scorchhowl the fighter\n4:52 Inferlupa the breaker\n5:43 Which branch to pick\n6:34 Your plan"
+  },
+  "aniimo-whirlbite-prismana-dark-water-form": {
+    "spec": "scripts/specs/games/aniimo_232_aniimo-whirlbite-prismana-dark-water-form.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ca8e9f11.mp4"
+  },
+  "aniimo-scrubbit-leaf-tail-frog-break-guide": {
+    "spec": "scripts/specs/games/aniimo_233_aniimo-scrubbit-leaf-tail-frog-break-guide.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-8e47a6a2.mp4"
+  },
+  "aniimo-sugarfish-sweet-blob-ice-support-guide": {
+    "spec": "scripts/specs/games/aniimo_234_aniimo-sugarfish-sweet-blob-ice-support-guide.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b087d20f.mp4"
+  },
+  "aniimo-sugarslime-sugary-downpour-regen-guide": {
+    "spec": "scripts/specs/games/aniimo_235_aniimo-sugarslime-sugary-downpour-regen-guide.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-1d04fce6.mp4"
+  },
+  "aniimo-sweet-blob-energy-loop-ice-team": {
+    "spec": "scripts/specs/games/aniimo_236_aniimo-sweet-blob-energy-loop-ice-team.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-9f6af465.mp4"
+  },
+  "palworld-guide-whalaska-chilled-whale-cruiser": {
+    "spec": "scripts/specs/games/palguide_177_whalaska-chilled-whale-cruiser.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ae892840.mp4"
+  },
+  "palworld-guide-maraith-messenger-of-death": {
+    "spec": "scripts/specs/games/palguide_178_maraith-messenger-of-death.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-68bc45f2.mp4"
+  },
+  "palworld-guide-selyne-celestial-darkness": {
+    "spec": "scripts/specs/games/palguide_179_selyne-celestial-darkness.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-6a70997b.mp4"
   }
 }

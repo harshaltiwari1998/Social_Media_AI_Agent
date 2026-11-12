@@ -10330,5 +10330,376 @@
   "palworld-guide-ghangler-master-of-darkness": {
     "spec": "scripts/specs/games/palguide_176_ghangler-master-of-darkness.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-acef1e5b.mp4"
+  },
+  "deal-steam-deal-597170-75": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-597170-75.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-371fb394.mp4",
+    "data": {
+      "id": "deal-steam-deal-597170-75",
+      "slot": "deals",
+      "badge": "STEAM DAILY DEAL",
+      "headline": "Steam deal",
+      "title": "Clone Drone in the Danger Zone 75% OFF on Steam | Now Rs 132 | Steam Deal Nov 13",
+      "video_script": "Today's Steam Daily Deal is Clone Drone in the Danger Zone at 75 percent off, down from 529 rupees to just 132 rupees. Clone Drone in the Danger Zone is a robot voxel slice-em-up where any part of your body can be sliced off. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/597170/header.jpg?t=1784069375",
+          "label": "Clone Drone in the Danger Zone"
+        },
+        {
+          "image": "steam:597170:0",
+          "fact": "-75%  Rs 132",
+          "sub": "was Rs 529"
+        },
+        {
+          "image": "steam:597170:1",
+          "fact": "Action + Indie",
+          "sub": "Doborog Games"
+        },
+        {
+          "image": "steam:597170:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Daily Deal is Clone Drone in the Danger Zone at 75 percent off, down from 529 rupees to just 132 rupees.\nhttps://store.steampowered.com/app/597170\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 13 2026, 00:02 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Clone Drone in the Danger Zone",
+        "Clone Drone in the Danger Zone sale",
+        "Clone Drone in the Danger Zone price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-2062430-50": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-2062430-50.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-88249cab.mp4",
+    "data": {
+      "id": "deal-steam-deal-2062430-50",
+      "slot": "deals",
+      "badge": "STEAM WEEKEND DEAL",
+      "headline": "Steam deal",
+      "title": "BALL x PIT 50% OFF on Steam | Now Rs 345 | Steam Deal Nov 13",
+      "video_script": "Today's Steam Weekend Deal is BALL x PIT at 50 percent off, down from 690 rupees to just 345 rupees. BALL x PIT is a brick-breaking, ball-fusing, base-building survival roguelite. Batter hordes of enemies with ricocheting balls and gather the riches of the pit to expand your homestead, generate resources and recruit unique heroes. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2062430/a157aa8de4bd9070194ddffb27c31636355dca05/header.jpg?t=1794503272",
+          "label": "BALL x PIT"
+        },
+        {
+          "image": "steam:2062430:0",
+          "fact": "-50%  Rs 345",
+          "sub": "was Rs 690"
+        },
+        {
+          "image": "steam:2062430:1",
+          "fact": "Action + Indie",
+          "sub": "Kenny Sun and Friends"
+        },
+        {
+          "image": "steam:2062430:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Weekend Deal is BALL x PIT at 50 percent off, down from 690 rupees to just 345 rupees.\nhttps://store.steampowered.com/app/2062430\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 13 2026, 00:02 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "BALL x PIT",
+        "BALL x PIT sale",
+        "BALL x PIT price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-3282300-20": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-3282300-20.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-12630c79.mp4",
+    "data": {
+      "id": "deal-steam-deal-3282300-20",
+      "slot": "deals",
+      "badge": "STEAM WEEKEND DEAL",
+      "headline": "Steam deal",
+      "title": "Mistfall Hunter 20% OFF on Steam | Now Rs 999 | Steam Deal Nov 13",
+      "video_script": "Today's Steam Weekend Deal is Mistfall Hunter at 20 percent off, down from 1,249 rupees to just 999 rupees. Mistfall Hunter is a dark fantasy extraction ARPG. Combine skills, talents, and gear for each class in thrilling combat! Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3282300/3e8b95416c755bfc390d42b0673e35ed5a887046/header_alt_assets_10.jpg?t=1794379333",
+          "label": "Mistfall Hunter"
+        },
+        {
+          "image": "steam:3282300:0",
+          "fact": "-20%  Rs 999",
+          "sub": "was Rs 1,249"
+        },
+        {
+          "image": "steam:3282300:1",
+          "fact": "Action + Adventure",
+          "sub": "Bellring Games"
+        },
+        {
+          "image": "steam:3282300:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Weekend Deal is Mistfall Hunter at 20 percent off, down from 1,249 rupees to just 999 rupees.\nhttps://store.steampowered.com/app/3282300\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 13 2026, 00:02 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Mistfall Hunter",
+        "Mistfall Hunter sale",
+        "Mistfall Hunter price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-489830-80": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-489830-80.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-bcf74331.mp4",
+    "data": {
+      "id": "deal-steam-deal-489830-80",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "The Elder Scrolls V: Skyrim Special Edition 80% OFF on Steam | Now Rs 359 | Steam Deal Nov 13",
+      "video_script": "The Elder Scrolls V: Skyrim Special Edition is on sale on Steam at 80 percent off, down from 1,799 rupees to just 359 rupees. The deal ends on November 18. Winner of more than 200 Game of the Year Awards, The Elder Scrolls V: Skyrim Special Edition brings the epic fantasy to life in stunning detail. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/header.jpg?t=1786648247",
+          "label": "The Elder Scrolls V: Skyrim Special Edition"
+        },
+        {
+          "image": "steam:489830:0",
+          "fact": "-80%  Rs 359",
+          "sub": "was Rs 1,799"
+        },
+        {
+          "image": "steam:489830:1",
+          "fact": "RPG",
+          "sub": "Bethesda Game Studios"
+        },
+        {
+          "image": "steam:489830:2",
+          "fact": "Ends Nov 18",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "The Elder Scrolls V: Skyrim Special Edition is on sale on Steam at 80 percent off, down from 1,799 rupees to just 359 rupees. The deal ends on November 18.\nhttps://store.steampowered.com/app/489830\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 13 2026, 00:02 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "The Elder Scrolls V: Skyrim Special Edition",
+        "The Elder Scrolls V: Skyrim Special Edition sale",
+        "The Elder Scrolls V: Skyrim Special Edition price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-12210-70": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-12210-70.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-22d2ea68.mp4",
+    "data": {
+      "id": "deal-steam-deal-12210-70",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Grand Theft Auto IV: The Complete Edition 70% OFF on Steam | Now Rs 299 | Steam Deal Nov 13",
+      "video_script": "Grand Theft Auto IV: The Complete Edition is on sale on Steam at 70 percent off, down from 999 rupees to just 299 rupees. The deal ends on November 19. Niko Bellic, Johnny Klebitz and Luis Lopez all have one thing in common - they live in the worst city in America. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/12210/header.jpg?t=1721061564",
+          "label": "Grand Theft Auto IV: The Complete Edition"
+        },
+        {
+          "image": "steam:12210:0",
+          "fact": "-70%  Rs 299",
+          "sub": "was Rs 999"
+        },
+        {
+          "image": "steam:12210:1",
+          "fact": "Action + Adventure",
+          "sub": "Rockstar North, Rockstar Toronto"
+        },
+        {
+          "image": "steam:12210:2",
+          "fact": "Ends Nov 19",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Grand Theft Auto IV: The Complete Edition is on sale on Steam at 70 percent off, down from 999 rupees to just 299 rupees. The deal ends on November 19.\nhttps://store.steampowered.com/app/12210\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 13 2026, 00:02 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Grand Theft Auto IV: The Complete Edition",
+        "Grand Theft Auto IV: The Complete Edition sale",
+        "Grand Theft Auto IV: The Complete Edition price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-2672700-40": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-2672700-40.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-c0445486.mp4",
+    "data": {
+      "id": "deal-steam-deal-2672700-40",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Lands of Fury 40% OFF on Steam | Now Rs 357 | Steam Deal Nov 13",
+      "video_script": "Lands of Fury is on sale on Steam at 40 percent off, down from 595 rupees to just 357 rupees. The deal ends on November 19. Fight your way up a brutal mountain. Combine weapons, cartridges, runes, and companions to create devastating combat builds and carve through relentless enemies in this combat-driven roguelite ARPG. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2672700/efc6041eaa0a7ea52d0d0f008e4c7da969af1898/header.jpg?t=1794506404",
+          "label": "Lands of Fury"
+        },
+        {
+          "image": "steam:2672700:0",
+          "fact": "-40%  Rs 357",
+          "sub": "was Rs 595"
+        },
+        {
+          "image": "steam:2672700:1",
+          "fact": "Action + Indie + RPG",
+          "sub": "Fife"
+        },
+        {
+          "image": "steam:2672700:2",
+          "fact": "Ends Nov 19",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Lands of Fury is on sale on Steam at 40 percent off, down from 595 rupees to just 357 rupees. The deal ends on November 19.\nhttps://store.steampowered.com/app/2672700\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 13 2026, 00:02 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Lands of Fury",
+        "Lands of Fury sale",
+        "Lands of Fury price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-1077310-38": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-1077310-38.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-8853c9e4.mp4",
+    "data": {
+      "id": "deal-steam-deal-1077310-38",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Whiskers of Yesterday 38% OFF on Steam | Now Rs 257 | Steam Deal Nov 13",
+      "video_script": "Whiskers of Yesterday is on sale on Steam at 38 percent off, down from 415 rupees to just 257 rupees. The deal ends on November 26. You’re a cat, and the whole house is yours. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1077310/20aa97eb641db4cf4c6f364c873d0c78f978e482/header.jpg?t=1794506538",
+          "label": "Whiskers of Yesterday"
+        },
+        {
+          "image": "steam:1077310:0",
+          "fact": "-38%  Rs 257",
+          "sub": "was Rs 415"
+        },
+        {
+          "image": "steam:1077310:1",
+          "fact": "Casual + Indie",
+          "sub": "Blind Bird"
+        },
+        {
+          "image": "steam:1077310:2",
+          "fact": "Ends Nov 26",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Whiskers of Yesterday is on sale on Steam at 38 percent off, down from 415 rupees to just 257 rupees. The deal ends on November 26.\nhttps://store.steampowered.com/app/1077310\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 13 2026, 00:02 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Whiskers of Yesterday",
+        "Whiskers of Yesterday sale",
+        "Whiskers of Yesterday price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
   }
 }

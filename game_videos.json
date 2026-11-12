@@ -10122,5 +10122,19 @@
   "palworld-guide-jellroy-drop": {
     "spec": "scripts/specs/games/palguide_174_jellroy-drop.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-5c883a01.mp4"
+  },
+  "fusion-charizard+giratina-altered": {
+    "kind": "motion",
+    "spec": "scripts/specs/fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\fusion-charizard+giratina-altered\\final.mp4",
+    "data": {
+      "id": "charizard+giratina-altered",
+      "family": "pokemon",
+      "sprite": true,
+      "a": "Charizard",
+      "b": "Giratina",
+      "name": "Charitina",
+      "types": "Fire/Ghost"
+    }
   }
 }

@@ -1,0 +1,46 @@
+{
+  "id": "cat-in-the-hat-opening",
+  "category": "movies",
+  "slot": "movie_review",
+  "order": 44,
+  "expires": "2026-12-05",
+  "headline": "The Cat in the Hat: Godzilla ke peeche",
+  "title": "The Cat in the Hat Box Office | 20 Million Dollar Opening | Movie Box Office Hindi",
+  "video_script": "The Cat in the Hat ने North America में पहले weekend में करीब 20 million dollar कमाए, 4,003 theatres से. ये Godzilla Minus Zero से पीछे दूसरे नंबर पर रही. Critics की राय mixed रही, Rotten Tomatoes पर करीब 44 percent. Warner Bros. की ये animated film Dr. Seuss की मशहूर किताब पर बनी है. आप देखोगे? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Dr. Seuss",
+      "label": "The Cat in the Hat - box office"
+    },
+    {
+      "image": "wiki:Dr. Seuss",
+      "fact": "North America opening - 20 million dollar",
+      "sub": "6-8 November 2026"
+    },
+    {
+      "image": "wiki:Godzilla Minus Zero",
+      "fact": "Godzilla Minus Zero se peeche",
+      "sub": null
+    },
+    {
+      "image": "wiki:Dr. Seuss",
+      "fact": "Dr. Seuss ki kitab par based",
+      "sub": null
+    }
+  ],
+  "description": "The Cat in the Hat ne 6-8 November 2026 ke weekend par North America mein lagbhag 20 million dollar kamaye (4,003 theatres) aur doosre number par rahi. Rotten Tomatoes par critics lagbhag 44 percent. Sources: AP, JoBlo, AV Club, The Numbers.",
+  "hashtags": [
+    "TheCatInTheHat",
+    "BoxOffice",
+    "Hollywood"
+  ],
+  "tags": [
+    "The Cat in the Hat",
+    "Cat in the Hat box office",
+    "Warner Bros",
+    "Dr Seuss",
+    "weekend box office",
+    "Hollywood box office",
+    "movie review Hindi"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "forgotten-island-box-office",
+  "category": "movies",
+  "slot": "movie_review",
+  "order": 46,
+  "expires": "2026-12-05",
+  "headline": "Forgotten Island: tareef mili, opening dheemi",
+  "title": "Forgotten Island Box Office | DreamWorks Ki Dheemi Shuruaat | Movie Box Office Hindi",
+  "video_script": "DreamWorks Animation की Forgotten Island को critics की तारीफ़ मिली, लेकिन September के opening weekend में North America में करीब 13 million dollar और worldwide 20.6 million dollar ही आए. film का budget 80 million dollar बताया गया है, इसलिए शुरुआत धीमी मानी गई. आपने देखी? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:DreamWorks Animation",
+      "label": "Forgotten Island - box office"
+    },
+    {
+      "image": "wiki:DreamWorks Animation",
+      "fact": "North America opening - 13 million dollar",
+      "sub": "September 2026"
+    },
+    {
+      "image": "wiki:DreamWorks Animation",
+      "fact": "Worldwide opening - 20.6 million dollar",
+      "sub": null
+    },
+    {
+      "image": "wiki:DreamWorks Animation",
+      "fact": "Budget - 80 million dollar",
+      "sub": null
+    }
+  ],
+  "description": "DreamWorks Animation ki Forgotten Island ne September 2026 ke opening weekend mein North America mein lagbhag 13 million dollar aur worldwide 20.6 million dollar kamaye. Reported budget 80 million dollar. Critics ki tareef mili. Sources: TheWrap, SlashFilm.",
+  "hashtags": [
+    "ForgottenIsland",
+    "DreamWorks",
+    "BoxOffice"
+  ],
+  "tags": [
+    "Forgotten Island",
+    "DreamWorks Animation",
+    "animated movie",
+    "Hollywood box office",
+    "opening weekend",
+    "Universal Pictures",
+    "movie review Hindi"
+  ]
+}

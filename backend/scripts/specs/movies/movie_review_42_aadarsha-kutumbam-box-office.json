@@ -1,0 +1,46 @@
+{
+  "id": "aadarsha-kutumbam-box-office",
+  "category": "movies",
+  "slot": "movie_review",
+  "order": 42,
+  "expires": "2026-12-05",
+  "headline": "Venkatesh ki Aadarsha Kutumbam: 11 din ka hisaab",
+  "title": "Aadarsha Kutumbam Box Office | Venkatesh Trivikram | Movie Box Office Hindi",
+  "video_script": "Venkatesh की Telugu film Aadarsha Kutumbam House No: 47 ने 11 दिन में India में करीब 46.8 करोड़ रुपये net कमाए, Sacnilk के मुताबिक, 9 November तक. film 30 October को रिलीज़ हुई और पहले weekend में worldwide करीब 51 करोड़ रुपये gross पर पहुंची. इसे Trivikram Srinivas ने डायरेक्ट किया है. आपने देखी? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Venkatesh",
+      "label": "Aadarsha Kutumbam - box office"
+    },
+    {
+      "image": "wiki:Venkatesh",
+      "fact": "India net - 11 din mein 46.8 crore",
+      "sub": "Sacnilk, 9 November 2026"
+    },
+    {
+      "image": "wiki:Venkatesh",
+      "fact": "Pehla weekend - 51 crore worldwide",
+      "sub": "Release 30 October"
+    },
+    {
+      "image": "wiki:Trivikram Srinivas",
+      "fact": "Director",
+      "sub": null
+    }
+  ],
+  "description": "Aadarsha Kutumbam House No: 47 ne 30 October 2026 ki release ke baad 11 din mein India mein lagbhag 46.8 crore net kamaye (Sacnilk, 9 November 2026). Pehle weekend mein worldwide lagbhag 51 crore gross. Sources: Sacnilk, Koimoi, Hollywood Reporter India.",
+  "hashtags": [
+    "AadarshaKutumbam",
+    "Venkatesh",
+    "BoxOffice"
+  ],
+  "tags": [
+    "Aadarsha Kutumbam",
+    "House No 47",
+    "Venkatesh",
+    "Trivikram Srinivas",
+    "Telugu box office",
+    "Sacnilk",
+    "movie review Hindi"
+  ]
+}

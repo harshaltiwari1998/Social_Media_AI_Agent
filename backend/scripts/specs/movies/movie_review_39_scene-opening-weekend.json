@@ -1,0 +1,46 @@
+{
+  "id": "scene-opening-weekend",
+  "category": "movies",
+  "slot": "movie_review",
+  "order": 39,
+  "expires": "2026-12-05",
+  "headline": "Scene: Suriya ki teesri lagataar hit",
+  "title": "Scene Box Office | Suriya Ka Opening Weekend | Movie Box Office Hindi",
+  "video_script": "Suriya की Scene ने पहले तीन दिन में India में करीब 63 करोड़ रुपये net कमाए, Sacnilk के आंकड़ों के मुताबिक. makers के मुताबिक film का worldwide gross 145 करोड़ रुपये से ऊपर पहुंचा. ये Suriya की 2026 की तीसरी लगातार हिट बताई जा रही है. film 6 November को रिलीज़ हुई और इसे Jithu Madhavan ने डायरेक्ट किया है. आपने देखी? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Suriya",
+      "label": "Scene - opening weekend"
+    },
+    {
+      "image": "wiki:Suriya",
+      "fact": "India net - 3 din mein 63 crore",
+      "sub": "Sacnilk estimate"
+    },
+    {
+      "image": "wiki:Nazriya Nazim",
+      "fact": "Nazriya ki Tamil wapsi",
+      "sub": "12 saal baad"
+    },
+    {
+      "image": "wiki:Jithu Madhavan",
+      "fact": "Director",
+      "sub": null
+    }
+  ],
+  "description": "Suriya ki Scene ne 6 November 2026 ki release ke baad pehle 3 din mein India mein lagbhag 63 crore net kamaye (Sacnilk estimate, 9 November 2026). Makers ke mutabik worldwide gross 145 crore se upar. Sources: Sacnilk, The Week, Gulf News.",
+  "hashtags": [
+    "Scene",
+    "Suriya",
+    "BoxOffice"
+  ],
+  "tags": [
+    "Scene",
+    "Scene box office",
+    "Suriya",
+    "Jithu Madhavan",
+    "Sacnilk",
+    "Tamil box office",
+    "movie review Hindi"
+  ]
+}

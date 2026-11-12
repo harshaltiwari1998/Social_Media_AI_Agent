@@ -1,0 +1,119 @@
+{
+  "id": "roblox-explained",
+  "category": "gaming",
+  "order": 114,
+  "title": "Roblox Explained | How Players Build Games, Robux and Record Breaking Hits | Gaming Explained",
+  "description": "Roblox explained: what the platform is, how David Baszucki and Erik Cassel started it, Roblox Studio and Luau, Robux and the Developer Exchange, hit experiences like Adopt Me, Brookhaven and Grow a Garden, record player counts and tips for safe play.",
+  "hashtags": [
+    "Roblox",
+    "RobloxStudio",
+    "Gaming"
+  ],
+  "tags": [
+    "Roblox explained",
+    "what is Roblox",
+    "Roblox history",
+    "Roblox Studio",
+    "Robux",
+    "Grow a Garden",
+    "Adopt Me",
+    "Brookhaven",
+    "Roblox for parents"
+  ],
+  "thumbnail": {
+    "image": "yt:sme76WoJ_-U:maxresdefault",
+    "text": "ROBLOX EXPLAINED"
+  },
+  "sections": [
+    {
+      "heading": "What is Roblox",
+      "script": "Roblox is not one game. It is a giant platform where millions of games, called experiences, are made by the players themselves. One minute you can be running an obstacle course, the next you are caring for pets, building a house, or exploring a haunted mansion with friends. Every experience is created by someone using Roblox's own tools, and anyone can try it for free. That idea, a game world built by its community, is why Roblox became one of the biggest names in gaming. In this explainer we cover how Roblox started, how people build games with Roblox Studio, how Robux and the developer economy work, some of the biggest hits and records, and a few sensible tips for staying safe while playing.",
+      "images": [
+        "yt:eAvXhNlO-rA:maxresdefault",
+        "yt:sme76WoJ_-U:maxresdefault",
+        "yt:eAvXhNlO-rA:maxres1"
+      ]
+    },
+    {
+      "heading": "How it started",
+      "script": "Roblox was created by David Baszucki and Erik Cassel, who also founded the company, Roblox Corporation. The project began in the early two thousands, and the idea was to give creators a playground and let others join in. After years of development and testing, Roblox opened to the public in two thousand six. At first it was small and simple, with basic graphics, but the core idea was already there. Players could make something and share it with others. Over the years the platform grew, added new tools and moved to more devices, and the community that gathered around it became its biggest strength. That early spirit of sharing is still visible today, because every creator on the platform starts from the same simple idea of making something and inviting friends in.",
+      "images": [
+        "yt:eAvXhNlO-rA:maxres1",
+        "yt:sme76WoJ_-U:maxres1",
+        "yt:eAvXhNlO-rA:maxres2"
+      ]
+    },
+    {
+      "heading": "Experiences, not games",
+      "script": "On Roblox, people usually call games experiences, because they can be so different from each other. There are racing games, role play worlds, shooters, tycoons, survival games, simulators and many more. Because the platform handles the technical work, such as servers and player connections, creators can focus on the fun part, which is the idea itself. Some experiences are made by large teams, while others begin as a single person's weekend project. You join with a single avatar, which you can customize with clothes and accessories, and you keep that same look as you move between experiences. This simple connection between all the worlds makes the platform feel like one big place rather than a store full of separate games.",
+      "images": [
+        "yt:eAvXhNlO-rA:maxres2",
+        "yt:sme76WoJ_-U:maxres2",
+        "yt:eAvXhNlO-rA:maxres3"
+      ]
+    },
+    {
+      "heading": "Roblox Studio and Luau",
+      "script": "The tool creators use is called Roblox Studio, a free program that works as the engine and editing software for the platform. Inside Studio you can place objects, shape terrain, set up lighting and design menus. To make things actually work, creators write code, mostly in Luau, a language that grew out of Lua. Lua is a lightweight programming language that is often used in games because it is simple to learn. This is one reason many young creators take their first steps into programming through Roblox. You can start by dragging blocks into a scene, then add a script that opens a door or counts points. Step by step you learn how real games are built, and that is a skill that can be useful far beyond the platform.",
+      "images": [
+        "yt:eAvXhNlO-rA:maxres3",
+        "yt:sme76WoJ_-U:maxres3",
+        "wiki:Roblox Corporation"
+      ]
+    },
+    {
+      "heading": "Robux and the creator economy",
+      "script": "Roblox has its own currency called Robux. Players can buy Robux with real money and spend them on avatar items, special abilities or perks inside experiences. When players spend Robux in a creator's experience, the creator earns a share. Roblox also runs a program called the Developer Exchange, which lets creators turn the Robux they have earned into real money once they reach the required amount. This is a big reason Roblox attracts so many developers, since a good idea can turn into income. It also means that the best experiences are polished, updated often and supported by active communities. For players, the key point is simple. Spending is optional, and many experiences let you enjoy them without paying anything.",
+      "images": [
+        "wiki:Roblox Corporation",
+        "wiki:Lua",
+        "yt:eAvXhNlO-rA:maxresdefault"
+      ]
+    },
+    {
+      "heading": "Becoming a public company",
+      "script": "As Roblox grew, so did the company behind it. Roblox Corporation went public in March twenty twenty one. The listing showed how far a platform built on user made games had come from its early days. After that, the company kept investing in better graphics, more devices and new ways for creators to earn. Today Roblox runs on computers, phones, tablets and several game consoles, and a player can usually continue on a different device with the same account. This reach is part of the reason the platform feels so large, because a friend with almost any device can join the same world at the same time. There is always a new trend somewhere on the platform, so it is worth checking the popular lists now and then.",
+      "images": [
+        "yt:eAvXhNlO-rA:maxresdefault",
+        "yt:sme76WoJ_-U:maxresdefault",
+        "yt:eAvXhNlO-rA:maxres1"
+      ]
+    },
+    {
+      "heading": "The big hits",
+      "script": "Some experiences have become huge names on their own. Adopt Me is a hugely popular pet game, and Brookhaven is a role play town where players live out everyday stories with friends. These kinds of games succeed because they are easy to understand and fun to share. Then there is Grow a Garden, a farming style game that exploded in popularity in twenty twenty five. These hits show how quickly a simple idea can catch fire on the platform. A game that nobody knew about on Monday can be the talk of every school on Friday. And because the platform is open to everyone, the next hit could come from a creator who is just starting to learn how to build.",
+      "images": [
+        "yt:eAvXhNlO-rA:maxres1",
+        "yt:sme76WoJ_-U:maxres1",
+        "yt:eAvXhNlO-rA:maxres2"
+      ]
+    },
+    {
+      "heading": "Record breaking numbers",
+      "script": "The numbers around Roblox can sound unbelievable. In August twenty twenty five, Grow a Garden reached about twenty two million players at the same time, which Guinness World Records recognized as the most concurrent players in a video game. Around the same period, the platform as a whole passed forty million players online at once, with reports putting the peak at more than forty seven million. Brookhaven also set its own record of one million two hundred ninety six thousand two hundred eight players at once in December twenty twenty five. Different outlets report slightly different figures, but they all agree on the size of the moment. A platform that began with simple blocks became a place where tens of millions of people can be online together.",
+      "images": [
+        "yt:eAvXhNlO-rA:maxres2",
+        "yt:sme76WoJ_-U:maxres2",
+        "yt:eAvXhNlO-rA:maxres3"
+      ]
+    },
+    {
+      "heading": "Safety and smart play",
+      "script": "Because Roblox is so popular with younger players, safety matters. The platform offers parental controls and privacy settings, and the best habit is to check them together with your family. Be careful about sharing personal information in chat, and remember that nobody should ask you for passwords, addresses or photos. If a stranger makes you uncomfortable, use the report and block tools and tell a parent or trusted adult. Also keep in mind that spending is optional. Never buy Robux using someone else's payment method without permission, and be wary of any website that promises free Robux, because those are common tricks. With a few simple habits, Roblox can be a creative and friendly place to play, build and meet friends.",
+      "images": [
+        "yt:eAvXhNlO-rA:maxres3",
+        "yt:sme76WoJ_-U:maxres3",
+        "wiki:Roblox Corporation"
+      ]
+    },
+    {
+      "heading": "Why Roblox matters",
+      "script": "Roblox matters because it changes who gets to make games. Anyone with an idea and a free copy of Roblox Studio can build something and share it with millions of players. Many young people take their first steps into design, art and coding there, and some even turn those first projects into real careers. For players, it is a huge library that is always changing, with something new every day. So tell us, what is your favorite Roblox experience, and have you ever tried making your own with Roblox Studio? Share it in the comments, and subscribe to the channel for more game explainers. If you want a beginner guide to building your first experience, let us know and we will make it.",
+      "images": [
+        "wiki:Roblox Corporation",
+        "wiki:Lua",
+        "yt:eAvXhNlO-rA:maxresdefault"
+      ]
+    }
+  ]
+}

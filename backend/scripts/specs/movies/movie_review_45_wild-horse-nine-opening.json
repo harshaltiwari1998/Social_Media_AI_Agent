@@ -1,0 +1,46 @@
+{
+  "id": "wild-horse-nine-opening",
+  "category": "movies",
+  "slot": "movie_review",
+  "order": 45,
+  "expires": "2026-12-05",
+  "headline": "Wild Horse Nine: chhoti release, badi cast",
+  "title": "Wild Horse Nine Box Office | Sam Rockwell John Malkovich | Movie Box Office Hindi",
+  "video_script": "Wild Horse Nine ने North America में सिर्फ़ करीब 1,100 theatres में पहले weekend पर करीब 5.9 million dollar कमाए, Box Office Mojo और The Numbers के मुताबिक. Martin McDonagh की इस film में Sam Rockwell और John Malkovich हैं, और इसे Searchlight Pictures ने रिलीज़ किया. आप देखोगे? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Wild Horse Nine",
+      "label": "Wild Horse Nine - box office"
+    },
+    {
+      "image": "wiki:Wild Horse Nine",
+      "fact": "Opening weekend - 5.9 million dollar",
+      "sub": "6-8 November 2026"
+    },
+    {
+      "image": "wiki:Sam Rockwell",
+      "fact": "Sam Rockwell aur John Malkovich",
+      "sub": null
+    },
+    {
+      "image": "wiki:Martin McDonagh",
+      "fact": "Director",
+      "sub": null
+    }
+  ],
+  "description": "Wild Horse Nine ne 6-8 November 2026 ke weekend par North America mein lagbhag 5.9 million dollar kamaye (lagbhag 1,100 theatres). Director Martin McDonagh, Searchlight Pictures. Sources: Box Office Mojo, The Numbers, Koimoi.",
+  "hashtags": [
+    "WildHorseNine",
+    "BoxOffice",
+    "Hollywood"
+  ],
+  "tags": [
+    "Wild Horse Nine",
+    "Martin McDonagh",
+    "Sam Rockwell",
+    "John Malkovich",
+    "Searchlight Pictures",
+    "weekend box office",
+    "movie review Hindi"
+  ]
+}

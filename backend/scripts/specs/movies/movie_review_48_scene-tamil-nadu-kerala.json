@@ -1,0 +1,46 @@
+{
+  "id": "scene-tamil-nadu-kerala",
+  "category": "movies",
+  "slot": "movie_review",
+  "order": 48,
+  "expires": "2026-12-05",
+  "headline": "Scene: Tamil Nadu aur Kerala mein Suriya ka jalwa",
+  "title": "Scene Tamil Nadu Kerala Box Office | Suriya | Movie Box Office Hindi",
+  "video_script": "Scene ने Tamil Nadu में पहले तीन दिन में 35.15 करोड़ रुपये कमाए, जिसमें Sunday को 13.50 करोड़ रुपये रहे. Kerala में film ने करीब 16.30 करोड़ रुपये कमाए, और ये Suriya की पिछली दो हिट से बेहतर शुरुआत है. 9 November के आंकड़ों के मुताबिक ये Suriya की तीसरी लगातार हिट बताई जा रही है. आपने देखी? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Suriya",
+      "label": "Scene - Tamil Nadu aur Kerala"
+    },
+    {
+      "image": "wiki:Tamil Nadu",
+      "fact": "Tamil Nadu - 35.15 crore",
+      "sub": "3 din, Sunday 13.50 crore"
+    },
+    {
+      "image": "wiki:Kerala",
+      "fact": "Kerala - lagbhag 16.30 crore",
+      "sub": "Suriya ki pichli 2 hit se behtar"
+    },
+    {
+      "image": "wiki:Suriya",
+      "fact": "Suriya ki teesri lagataar hit",
+      "sub": null
+    }
+  ],
+  "description": "Scene ne pehle 3 din mein Tamil Nadu mein 35.15 crore aur Kerala mein lagbhag 16.30 crore kamaye (9 November 2026), Kerala mein Suriya ki pichli do hit se behtar. Sources: The Week, Gulf News, Sacnilk.",
+  "hashtags": [
+    "Scene",
+    "Suriya",
+    "BoxOffice"
+  ],
+  "tags": [
+    "Scene",
+    "Suriya",
+    "Tamil Nadu box office",
+    "Kerala box office",
+    "Tamil box office",
+    "Sacnilk",
+    "movie review Hindi"
+  ]
+}

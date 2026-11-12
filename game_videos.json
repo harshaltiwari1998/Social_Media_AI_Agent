@@ -10136,5 +10136,19 @@
       "name": "Charitina",
       "types": "Fire/Ghost"
     }
+  },
+  "fusion-gengar+lugia": {
+    "kind": "motion",
+    "spec": "scripts/specs/fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\fusion-gengar+lugia\\final.mp4",
+    "data": {
+      "id": "gengar+lugia",
+      "family": "pokemon",
+      "sprite": true,
+      "a": "Gengar",
+      "b": "Lugia",
+      "name": "Gengia",
+      "types": "Ghost/Psychic"
+    }
   }
 }

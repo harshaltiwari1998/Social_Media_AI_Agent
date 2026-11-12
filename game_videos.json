@@ -10204,5 +10204,25 @@
   "aniimo-geodeback-pebbling-rock-branch": {
     "spec": "scripts/specs/games/aniimo_240_aniimo-geodeback-pebbling-rock-branch.json",
     "video": "F:\\AI AGENT\\run_ani10\\videos\\short-ffafbf7c.mp4"
+  },
+  "game-awards-2026-december-10": {
+    "spec": "scripts/specs/games/new_48_game-awards-2026-december-10.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ad64dc25.mp4"
+  },
+  "love-and-war-21-january-2027": {
+    "spec": "scripts/specs/movies/movie_new_44_love-and-war-21-january-2027.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-35048a5d.mp4"
+  },
+  "reel-ramayana-4-day-box-office": {
+    "spec": "scripts/specs/movies/reel_77_ramayana-4-day-box-office.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-3d0c056e.mp4"
+  },
+  "aniimo-hypnowl-guide": {
+    "spec": "scripts/specs/games/aniimo_226_aniimo-hypnowl-guide.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e2dc76bd.mp4"
+  },
+  "gta6-countdown-07-trailer-one": {
+    "spec": "scripts/specs/games/gta6_16_countdown-07.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-05cebc94.mp4"
   }
 }

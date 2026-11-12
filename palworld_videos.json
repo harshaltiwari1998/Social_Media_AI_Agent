@@ -7820,5 +7820,48 @@
       "unique": false,
       "key": "Azurobe 5"
     }
+  },
+  "Foxcicle 5": {
+    "spec": "scripts/specs/palworld_foxcicle_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f4947d7f.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Foxcicle",
+      "caption": "5 ways to breed Foxcicle in Palworld 1.0: Nyafia + Bristla, Frostplume + Chikipi, Dumud + Vanwyrm, Ghangler + Vixy, Palumba + Flambelle.",
+      "video_script": "Here are five ways to breed Foxcicle in Palworld one point zero. Combo one: breed Nyafia with Bristla on your Breeding Farm, then add a cake. Combo two: pair Frostplume and Chikipi together, and you get the same egg. Combo three: Dumud plus Vanwyrm works too, so use whichever Pals you have. Combo four: Ghangler with Vixy is another easy option. Combo five: breed Palumba with Flambelle on your Breeding Farm, then add a cake. Every egg hatches into Foxcicle. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Nyafia",
+        "Bristla"
+      ],
+      "combos": [
+        [
+          "Nyafia",
+          "Bristla"
+        ],
+        [
+          "Frostplume",
+          "Chikipi"
+        ],
+        [
+          "Dumud",
+          "Vanwyrm"
+        ],
+        [
+          "Ghangler",
+          "Vixy"
+        ],
+        [
+          "Palumba",
+          "Flambelle"
+        ]
+      ],
+      "child": "Foxcicle",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false,
+      "key": "Foxcicle 5"
+    }
   }
 }

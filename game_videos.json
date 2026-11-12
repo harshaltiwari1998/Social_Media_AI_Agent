@@ -10244,5 +10244,56 @@
   "palworld-guide-reindrix-cool-body": {
     "spec": "scripts/specs/games/palguide_184_reindrix-cool-body.json",
     "video": "F:\\AI AGENT\\run_pal10\\videos\\short-2bc4e1ab.mp4"
+  },
+  "poke-magikarp": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "F:\\AI AGENT\\run_evo\\pokemon\\magikarp\\final.mp4",
+    "data": {
+      "id": "magikarp",
+      "stages": [
+        "magikarp",
+        "gyarados"
+      ],
+      "type": "water",
+      "megas": [
+        "gyarados-mega"
+      ]
+    }
+  },
+  "poke-froakie": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "F:\\AI AGENT\\run_evo\\pokemon\\froakie\\final.mp4",
+    "data": {
+      "id": "froakie",
+      "stages": [
+        "froakie",
+        "frogadier",
+        "greninja"
+      ],
+      "type": "water",
+      "megas": [
+        "greninja-mega"
+      ]
+    }
+  },
+  "poke-gible": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "F:\\AI AGENT\\run_evo\\pokemon\\gible\\final.mp4",
+    "data": {
+      "id": "gible",
+      "stages": [
+        "gible",
+        "gabite",
+        "garchomp"
+      ],
+      "type": "dragon",
+      "megas": [
+        "garchomp-mega",
+        "garchomp-mega-z"
+      ]
+    }
   }
 }

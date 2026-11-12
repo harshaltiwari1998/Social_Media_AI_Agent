@@ -1,0 +1,45 @@
+{
+  "id": "aniimo-skippy-to-pranky-evolution",
+  "slot": "aniimo",
+  "order": 248,
+  "headline": "Skippy to Pranky",
+  "title": "Pranky | How Skippy Evolves | Aniimo Guide",
+  "video_script": "Skippy evolves into Pranky at level twelve, a very early evolution. Pranky is a Water Aniimo with one hundred and nine HP and ninety eight magic defense. At level twenty it can go further, either into Glacy or into Leafy. Lightning, Grass and Ice hit Pranky for extra damage. Which final form are you aiming for? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:9",
+      "label": "Pranky"
+    },
+    {
+      "image": "steam:4126040:10",
+      "fact": "Skippy to Pranky",
+      "sub": "Level twelve needed"
+    },
+    {
+      "image": "steam:4126040:11",
+      "fact": "HP one hundred and nine",
+      "sub": "Magic defense ninety eight"
+    },
+    {
+      "image": "steam:4126040:12",
+      "fact": "Next step at level twenty",
+      "sub": "Glacy or Leafy"
+    }
+  ],
+  "description": "Aniimo Pranky guide: Skippy evolves into Pranky at level 12; Pranky then evolves into Glacy or Leafy at level 20. HP 109, magic defense 98. Weak to Lightning, Grass and Ice. Checked on aniimo.gg and the Dexerto Aniimo wiki in November 2026.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Pranky",
+    "Skippy evolution",
+    "Aniimo Water",
+    "Glacy",
+    "Leafy",
+    "Aniimo guide",
+    "Aniimo tips"
+  ],
+  "joke": "Pranky loves staying wet, and honestly so does your Aniimo team."
+}

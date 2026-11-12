@@ -1,0 +1,45 @@
+{
+  "id": "aniimo-geodeback-pebbling-rock-branch",
+  "slot": "aniimo",
+  "order": 240,
+  "headline": "Geodeback",
+  "title": "Geodeback | Pebbling Rock Branch | Aniimo Guide",
+  "video_script": "Pebbling can also grow into Geodeback at level thirty eight. This pure Rock Aniimo has ninety nine HP, eighty one attack and one hundred and two break, a great stat for staggering bosses. Rock resists Lightning, Fire, Ice and Earth, but Grass and Water hit it for one point six times damage. It later evolves into Minespine. Are you a Lavazar or a Geodeback player? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:7",
+      "label": "Geodeback"
+    },
+    {
+      "image": "steam:4126040:8",
+      "fact": "Pebbling to Geodeback",
+      "sub": "Evolve at level thirty eight"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Break one hundred and two",
+      "sub": "Great for staggering"
+    },
+    {
+      "image": "steam:4126040:10",
+      "fact": "Weak to Grass and Water",
+      "sub": "One point six times damage"
+    }
+  ],
+  "description": "Aniimo Geodeback guide: Pebbling evolves into the Rock type Geodeback at level 38. HP 99, attack 81, break 102. Weak to Grass and Water (1.6x), it resists Lightning, Fire, Ice and Earth. Later evolves into Minespine. Checked on aniimo.gg and the Dexerto Aniimo wiki in November 2026.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Geodeback",
+    "Pebbling evolution",
+    "Aniimo Rock",
+    "Rock Aniimo",
+    "Aniimo evolution",
+    "Aniimo guide",
+    "Aniimo tips"
+  ],
+  "joke": "Geodeback is basically a rock with confidence."
+}

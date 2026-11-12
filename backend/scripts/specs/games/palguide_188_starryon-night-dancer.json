@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-starryon-night-dancer",
+  "slot": "palguide",
+  "order": 188,
+  "headline": "Starryon",
+  "title": "Starryon | Night Mount | Palworld Guide",
+  "video_script": "Starryon is a Dark Pal you can ride, and its partner skill is Night Dancer. It boosts your jump power while mounted, and its movement speed goes up at night. At your base it is a top Gatherer at level five. In the wild, look for it around levels fifty three to sixty seven. Do you ride Starryon at night? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Starryon",
+      "label": "Starryon"
+    },
+    {
+      "image": "steam:1623730:13",
+      "fact": "Night Dancer",
+      "sub": "More jump power, faster at night"
+    },
+    {
+      "image": "pal:Starryon",
+      "fact": "Gathering level five",
+      "sub": "A strong base worker"
+    },
+    {
+      "image": "steam:1623730:14",
+      "fact": "Wild levels fifty three to sixty seven",
+      "sub": "Dark Pal mount"
+    }
+  ],
+  "joke": "Starryon is proud of its mane, so please do not compliment the other mounts.",
+  "description": "Starryon in Palworld 1.0: Dark Pal that can be ridden. Night Dancer boosts jump power and its speed at night. Gathering 5. Wild levels 53 to 67. Checked on Pindrop, palworld.gg and Pal Breed Calc in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Starryon",
+    "Starryon Night Dancer",
+    "Palworld night mount",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld Pal guide",
+    "Palworld tips"
+  ]
+}

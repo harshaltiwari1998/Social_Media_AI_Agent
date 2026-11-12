@@ -1,0 +1,45 @@
+{
+  "id": "aniimo-helmut-to-pawney-evolution",
+  "slot": "aniimo",
+  "order": 244,
+  "headline": "Helmut to Pawney",
+  "title": "Pawney | How Helmut Evolves | Aniimo Guide",
+  "video_script": "Helmut can evolve into Pawney at level forty five when you pull out the Sword of Bravery. Pawney is a Dark attacker with ninety HP and a big one hundred and twenty five attack. It resists Earth, but Light and Wind hit it for one point six times damage. Will you pick Pawney as your hard hitter? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:23",
+      "label": "Pawney"
+    },
+    {
+      "image": "steam:4126040:24",
+      "fact": "Helmut to Pawney",
+      "sub": "Level forty five needed"
+    },
+    {
+      "image": "steam:4126040:25",
+      "fact": "Pull the Sword of Bravery",
+      "sub": "The Pawney route"
+    },
+    {
+      "image": "steam:4126040:26",
+      "fact": "Attack one hundred and twenty five",
+      "sub": "Weak to Light and Wind"
+    }
+  ],
+  "description": "Aniimo Pawney evolution: Helmut evolves into Pawney at level 45 by pulling out the Sword of Bravery. Pawney is a Dark Aniimo with HP 90 and attack 125, weak to Light and Wind (1.6x), resisting Earth. Checked on aniimo.gg and the Dexerto Aniimo wiki in November 2026.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Pawney",
+    "Helmut evolution",
+    "Aniimo Dark",
+    "Sword of Bravery",
+    "Aniimo evolution",
+    "Aniimo guide",
+    "Aniimo tips"
+  ],
+  "joke": "Pawney pulls out a sword like it has done this before."
+}

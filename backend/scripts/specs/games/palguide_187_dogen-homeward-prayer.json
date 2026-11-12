@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-dogen-homeward-prayer",
+  "slot": "palguide",
+  "order": 187,
+  "headline": "Dogen",
+  "title": "Dogen | Teleport Home Pal | Palworld Guide",
+  "video_script": "Dogen is a Neutral Pal with the partner skill Homeward Prayer. When you activate it, it teleports you to the nearest base. It cannot be used inside dungeons. At your base, Dogen has Handiwork at level four and Gathering, Lumbering and Transporting at level three. Wild Dogen appear around levels fifty three to fifty six. Do you use Dogen to travel? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Dogen",
+      "label": "Dogen"
+    },
+    {
+      "image": "steam:1623730:11",
+      "fact": "Homeward Prayer",
+      "sub": "Teleport to the nearest base"
+    },
+    {
+      "image": "pal:Dogen",
+      "fact": "Handiwork level four",
+      "sub": "Gathering, Lumbering, Transporting level three"
+    },
+    {
+      "image": "steam:1623730:12",
+      "fact": "Levels fifty three to fifty six",
+      "sub": "Wild Dogen"
+    }
+  ],
+  "joke": "Dogen meditates all day, then sends you home like it is finished with you.",
+  "description": "Dogen in Palworld 1.0: Neutral Pal whose Homeward Prayer partner skill teleports you to the nearest base, but not inside dungeons. Handiwork 4, Gathering 3, Lumbering 3, Transporting 3, Medicine Production 2. Wild levels 53 to 56. Checked on Pindrop, palworld.gg and Pal Breed Calc in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Dogen",
+    "Dogen Homeward Prayer",
+    "Palworld teleport",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld Pal guide",
+    "Palworld tips"
+  ]
+}

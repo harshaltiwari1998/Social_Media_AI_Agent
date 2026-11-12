@@ -1,0 +1,45 @@
+{
+  "id": "aniimo-helmut-to-rookey-evolution",
+  "slot": "aniimo",
+  "order": 245,
+  "headline": "Helmut to Rookey",
+  "title": "Rookey | How Helmut Evolves | Aniimo Guide",
+  "video_script": "Helmut can also become Rookey at level forty five. You must deal damage with Counter in Ballistic Guard to defeat the opponent, and learn the passive talent Unwavering Rampart. Rookey is a Dark tank with one hundred HP, one hundred defense and one hundred and five break. Light and Wind are its weak spots. Pawney or Rookey, which do you pick? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:27",
+      "label": "Rookey"
+    },
+    {
+      "image": "steam:4126040:28",
+      "fact": "Helmut to Rookey",
+      "sub": "Level forty five needed"
+    },
+    {
+      "image": "steam:4126040:29",
+      "fact": "Counter in Ballistic Guard",
+      "sub": "Win the fight that way"
+    },
+    {
+      "image": "steam:4126040:30",
+      "fact": "Unwavering Rampart",
+      "sub": "Learn this passive talent"
+    }
+  ],
+  "description": "Aniimo Rookey evolution: Helmut evolves into Rookey at level 45 after you win using Counter in Ballistic Guard and learn the passive talent Unwavering Rampart. Rookey has HP 100, defense 100, break 105. Checked on aniimo.gg and the Dexerto Aniimo wiki in November 2026.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Rookey",
+    "Helmut evolution",
+    "Aniimo Dark",
+    "Unwavering Rampart",
+    "Aniimo evolution",
+    "Aniimo guide",
+    "Aniimo tips"
+  ],
+  "joke": "Rookey blocks so well that your own attacks feel awkward."
+}

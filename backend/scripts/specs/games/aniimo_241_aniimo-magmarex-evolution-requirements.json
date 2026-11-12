@@ -1,0 +1,45 @@
+{
+  "id": "aniimo-magmarex-evolution-requirements",
+  "slot": "aniimo",
+  "order": 241,
+  "headline": "Magmarex Evolution",
+  "title": "Magmarex | How Lavazar Evolves | Aniimo Guide",
+  "video_script": "Magmarex is the final fire and rock form of the Pebbling line. To evolve Lavazar into it you need level forty eight, you must soak in the hot spring pool, and you must defeat Alpha Magmarex. Magmarex has one hundred and ten HP and one hundred and four break. Water deals two point five six times damage, so watch out. Are you going for Magmarex? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:11",
+      "label": "Magmarex"
+    },
+    {
+      "image": "steam:4126040:12",
+      "fact": "Lavazar to Magmarex",
+      "sub": "Level forty eight needed"
+    },
+    {
+      "image": "steam:4126040:13",
+      "fact": "Soak in the hot spring",
+      "sub": "Then beat Alpha Magmarex"
+    },
+    {
+      "image": "steam:4126040:14",
+      "fact": "Water two point five six times",
+      "sub": "The one big weakness"
+    }
+  ],
+  "description": "Aniimo Magmarex evolution: Lavazar evolves at level 48, after soaking in the hot spring pool and defeating Alpha Magmarex. Magmarex has 110 HP and 104 break, and takes 2.56x damage from Water. Checked on aniimo.gg and the Dexerto Aniimo wiki in November 2026.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Magmarex",
+    "Lavazar evolution",
+    "Aniimo Fire",
+    "Aniimo Rock",
+    "Aniimo evolution",
+    "Aniimo guide",
+    "Aniimo tips"
+  ],
+  "joke": "Magmarex wants a hot spring day, just like you."
+}

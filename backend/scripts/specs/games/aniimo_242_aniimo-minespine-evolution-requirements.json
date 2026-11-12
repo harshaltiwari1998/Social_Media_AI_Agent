@@ -1,0 +1,45 @@
+{
+  "id": "aniimo-minespine-evolution-requirements",
+  "slot": "aniimo",
+  "order": 242,
+  "headline": "Minespine Evolution",
+  "title": "Minespine | How Geodeback Evolves | Aniimo Guide",
+  "video_script": "Minespine is the final Rock form of the Pebbling line. Geodeback evolves into it at level forty eight, and you must defeat Alpha Minespine first. Minespine has one hundred and ten HP, ninety attack, ninety seven physical defense and one hundred and five break. Grass and Water still hit it hard. Is Minespine worth the grind for you? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:15",
+      "label": "Minespine"
+    },
+    {
+      "image": "steam:4126040:16",
+      "fact": "Geodeback to Minespine",
+      "sub": "Level forty eight needed"
+    },
+    {
+      "image": "steam:4126040:17",
+      "fact": "Defeat Alpha Minespine",
+      "sub": "Required for the evolution"
+    },
+    {
+      "image": "steam:4126040:18",
+      "fact": "Tough Rock tank",
+      "sub": "Defense ninety seven, break one hundred and five"
+    }
+  ],
+  "description": "Aniimo Minespine evolution: Geodeback evolves into Minespine at level 48 after you defeat Alpha Minespine. HP 110, attack 90, physical defense 97, break 105. Weak to Grass and Water. Checked on aniimo.gg and the Dexerto Aniimo wiki in November 2026.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Minespine",
+    "Geodeback evolution",
+    "Aniimo Rock",
+    "Alpha Minespine",
+    "Aniimo evolution",
+    "Aniimo guide",
+    "Aniimo tips"
+  ],
+  "joke": "Minespine collects crystals, so please do not ask it to share."
+}

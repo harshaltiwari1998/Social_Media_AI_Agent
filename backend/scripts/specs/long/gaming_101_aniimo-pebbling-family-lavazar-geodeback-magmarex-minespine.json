@@ -1,0 +1,113 @@
+{
+  "id": "aniimo-pebbling-family-lavazar-geodeback-magmarex-minespine",
+  "category": "gaming",
+  "series": "aniimo",
+  "order": 101,
+  "title": "Aniimo Pebbling Family Explained | Lavazar, Geodeback, Magmarex and Minespine Evolution Guide",
+  "description": "The whole Aniimo Pebbling family: Pebbling, Lavazar, Geodeback, Magmarex and Minespine. Evolution levels, requirements, base stats, element weaknesses and which final form to pick, checked against aniimo.gg and the Dexerto Aniimo wiki in November 2026.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Pebbling",
+    "Lavazar",
+    "Geodeback",
+    "Magmarex",
+    "Minespine",
+    "Aniimo evolution",
+    "Aniimo rock",
+    "Aniimo fire"
+  ],
+  "thumbnail": {
+    "image": "steam:4126040:7",
+    "text": "MAGMAREX OR MINESPINE"
+  },
+  "joke": "Choosing between Magmarex and Minespine is easy, until your Pebbling stares at you like it already picked.",
+  "sections": [
+    {
+      "heading": "Intro",
+      "script": "The Pebbling family is one of the most interesting evolution trees in Aniimo, because a single early Rock Aniimo can turn into two very different final forms. In this video we go through the whole family: Pebbling, the two middle forms Lavazar and Geodeback, and the two final forms Magmarex and Minespine. You will hear what level each evolution needs, what extra requirements there are, the base stats of every stage, and the element weaknesses you must plan around. The numbers come from aniimo.gg and the Dexerto Aniimo wiki, checked in November 2026. Where the sites use different names for places, we skip the place and keep to what they both agree on. Stay until the end, because the last section gives you a clear pick for your team.",
+      "images": [
+        "steam:4126040:1",
+        "steam:4126040:2",
+        "steam:4126040:3"
+      ]
+    },
+    {
+      "heading": "Meet Pebbling",
+      "script": "Pebbling is the start of the line. It is a Rock Aniimo at evolution stage one, and the Aniilog describes it as a natural geologist that loves eating all kinds of ore, because what it eats decides how it grows. Aniimo dot gg lists two hundred and one wild spawn points for it, which makes it very easy to find. Its base stats are eighty three HP, sixty eight attack, fifty two physical defense, seventy four magic defense, seventy nine break and fifty six regen. Those are modest numbers, but this is a starting form. As a Rock Aniimo it takes extra damage from Grass and Water, at one point six times, and it resists Lightning, Fire, Ice and Earth. It can also burrow, and in your Homeland it can help with Earth and Hauling work. The important point is the fork: at level thirty eight, Pebbling can evolve either into Lavazar or into Geodeback.",
+      "images": [
+        "steam:4126040:4",
+        "steam:4126040:5",
+        "steam:4126040:6"
+      ]
+    },
+    {
+      "heading": "The first fork",
+      "script": "Before we look at each branch, remember what the fork means. Both middle forms need the same level, level thirty eight, so you do not need a different amount of grinding for either one. What changes is the element. Lavazar becomes Fire and Rock, which gives it strong resistance to Fire and Ice but a huge weakness to Water. Geodeback stays pure Rock, which keeps the same Grass and Water weaknesses that Pebbling already had, but without anything worse. If your team already struggles against Water enemies, think carefully before taking Lavazar. If your team lacks Fire damage, Lavazar fills that gap. Both middle forms also continue to a final form at level forty eight, and both final forms ask you to beat an Alpha first. So the real decision happens right here, at level thirty eight, and it decides which Alpha you will be fighting later.",
+      "images": [
+        "steam:4126040:7",
+        "steam:4126040:8",
+        "steam:4126040:9"
+      ]
+    },
+    {
+      "heading": "Lavazar",
+      "script": "Lavazar is the Fire and Rock branch. It is a stage two Aniimo and it evolves from Pebbling at level thirty eight. Its base stats are ninety nine HP, eighty two attack, sixty three physical defense, eighty magic defense, ninety three break and sixty eight regen, for a total of four hundred and eighty five. The Aniilog says it uses hard claws to crush crystals and eats them to store heat, which causes fiery red patterns on its body, and that it can spew high heat flame streams from its mouth. Here is the important matchup information. Because it is both Fire and Rock, Fire and Ice only deal point three nine times damage to it, and Lightning deals point six three times. But Water deals two point five six times damage, the biggest weakness in this whole family. If you see a Water Aniimo on the enemy team, switch Lavazar out or bring a Water counter.",
+      "images": [
+        "steam:4126040:10",
+        "steam:4126040:11",
+        "steam:4126040:12"
+      ]
+    },
+    {
+      "heading": "Geodeback",
+      "script": "Geodeback is the Rock branch, also stage two, and it also evolves from Pebbling at level thirty eight. Its base stats are ninety nine HP, eighty one attack, eighty physical defense, fifty four magic defense, one hundred and two break and seventy regen, for a total of four hundred and eighty six. That break stat is the highlight. Break is how quickly you stagger an enemy, and one hundred and two is a high number at this stage. Geodeback resists Lightning, Fire, Ice and Earth at point six three times damage, while Grass and Water deal one point six times damage. The Aniilog says the minerals it eats are refined in its body and turned into crystal spines infused with pure energy. In practice, think of Geodeback as the steady choice. It does not have a double weakness, so it is easier to protect, and it leads straight to Minespine at level forty eight.",
+      "images": [
+        "steam:4126040:13",
+        "steam:4126040:14",
+        "steam:4126040:15"
+      ]
+    },
+    {
+      "heading": "Magmarex",
+      "script": "Magmarex is the final form of the Lavazar branch, and it is the one that asks the most from you. It evolves from Lavazar at level forty eight, but you must also soak in the hot spring pool, and you must defeat Alpha Magmarex. Once you finish those steps you get a stage three Fire and Rock Aniimo with one hundred and ten HP, ninety one attack, seventy physical defense, eighty nine magic defense, one hundred and four break and seventy five regen, for a total of five hundred and thirty nine. The Aniilog says scorching crystals grow on its body like solidified lava, and if the stored heat erupts, it can melt everything in its path. The weakness is unchanged: Water deals two point five six times damage, while Fire and Ice are resisted heavily. Aniimo dot gg also lists a tougher boss form, Omega Magmarex, so do not mix up the fights.",
+      "images": [
+        "steam:4126040:16",
+        "steam:4126040:17",
+        "steam:4126040:18"
+      ]
+    },
+    {
+      "heading": "Minespine",
+      "script": "Minespine is the final form of the Geodeback branch. It evolves from Geodeback at level forty eight, and you must defeat Alpha Minespine first. The result is a stage three Rock Aniimo with one hundred and ten HP, ninety attack, ninety seven physical defense, sixty magic defense, one hundred and five break and seventy eight regen, for a total of five hundred and forty. The Aniilog says that wherever crystal minerals are found, so are they, and that its hard spines serve both as protection and as energy storage. Its element chart is the same as Geodeback: Grass and Water hit it for one point six times damage, and Lightning, Fire, Ice and Earth are resisted. That physical defense of ninety seven is the highest number in the family, so Minespine is the natural tank of the Pebbling tree, and its break of one hundred and five makes it great at staggering large enemies.",
+      "images": [
+        "steam:4126040:19",
+        "steam:4126040:20",
+        "steam:4126040:21"
+      ]
+    },
+    {
+      "heading": "Which final form",
+      "script": "So which one should you pick? Look at the two final forms side by side. Magmarex has one hundred and ten HP, ninety one attack and one hundred and four break. Minespine has one hundred and ten HP, ninety attack and one hundred and five break, plus much better physical defense. The totals are five hundred and thirty nine and five hundred and forty, which is almost the same. So the choice is not about raw stats. It is about elements and about the fight you want. Magmarex brings Fire damage and strong Fire and Ice resistance, but its one big flaw is the two point five six times damage from Water. Minespine brings no Fire damage, but its weaknesses stay at one point six times only. If your team needs Fire attacks, or you like the hot spring route, pick Magmarex. If you want a durable front line that is easier to protect, pick Minespine.",
+      "images": [
+        "steam:4126040:22",
+        "steam:4126040:23",
+        "steam:4126040:24"
+      ]
+    },
+    {
+      "heading": "Your turn",
+      "script": "Let us end with a joke. In Aniimo, you can raise a perfect Pebbling for hours, and still end up asking your Homeland whether Fire or crystals look better on a team photo. Now it is your turn. Which final form of the Pebbling family are you going for, Magmarex or Minespine, and which Aniimo family should we explain next? Tell us in the comments. If this guide helped you, subscribe to HarryBeast Gaming for more Aniimo guides, and we will see you in the next video.",
+      "images": [
+        "steam:4126040:25",
+        "steam:4126040:26",
+        "steam:4126040:27"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-azurmane-plasma-dash",
+  "slot": "palguide",
+  "order": 185,
+  "headline": "Azurmane",
+  "title": "Azurmane | Lightning Steed | Palworld Guide",
+  "video_script": "Azurmane is an Electric Pal you can ride, and its partner skill is Plasma Dash, an air dash that lets you move at even higher speeds. At your base it generates electricity at level five. Wild Azurmane appear around levels sixty three to sixty six. Which Electric mount do you prefer? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Azurmane",
+      "label": "Azurmane"
+    },
+    {
+      "image": "steam:1623730:7",
+      "fact": "Plasma Dash",
+      "sub": "Air dash for more speed"
+    },
+    {
+      "image": "pal:Azurmane",
+      "fact": "Generating Electricity",
+      "sub": "Level five"
+    },
+    {
+      "image": "steam:1623730:8",
+      "fact": "Levels sixty three to sixty six",
+      "sub": "Wild Azurmane"
+    }
+  ],
+  "joke": "Azurmane is fast enough to arrive before your loading screen ends.",
+  "description": "Azurmane in Palworld 1.0: Electric Pal that can be ridden, with the Plasma Dash partner skill giving an Air Dash. Generating Electricity 5. Wild levels 63 to 66. Checked on Pindrop, palworld.gg and Pal Breed Calc in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Azurmane",
+    "Azurmane Plasma Dash",
+    "Palworld electric mount",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld Pal guide",
+    "Palworld tips"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "aniimo-fahloo-to-erlath-evolution",
+  "slot": "aniimo",
+  "order": 246,
+  "headline": "Fahloo to Erlath",
+  "title": "Fahloo | Evolve Into Erlath | Aniimo Guide",
+  "video_script": "Fahloo is a Water Aniimo that evolves into Erlath at level forty nine. It has one hundred and two HP and ninety three regen, so it keeps healing. Fahloo takes extra damage from Lightning, Grass and Ice, and resists Dark and Earth. It is also easy to catch. Have you evolved Erlath yet? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:1",
+      "label": "Fahloo"
+    },
+    {
+      "image": "steam:4126040:2",
+      "fact": "Evolves into Erlath",
+      "sub": "Level forty nine needed"
+    },
+    {
+      "image": "steam:4126040:3",
+      "fact": "HP one hundred and two",
+      "sub": "Regen ninety three"
+    },
+    {
+      "image": "steam:4126040:4",
+      "fact": "Weak to Lightning, Grass, Ice",
+      "sub": "Resists Dark and Earth"
+    }
+  ],
+  "description": "Aniimo Fahloo guide: a Water Aniimo that evolves into Erlath at level 49. HP 102, regen 93. Weak to Lightning, Grass and Ice, resists Dark and Earth. Checked on aniimo.gg and the Dexerto Aniimo wiki in November 2026.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Fahloo",
+    "Erlath",
+    "Aniimo Water",
+    "Aniimo evolution",
+    "Aniimo guide",
+    "Water Aniimo",
+    "Aniimo tips"
+  ],
+  "joke": "Fahloo makes foam to stay clean, then slips on it anyway."
+}

@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-celaray-zephyr-glider",
+  "slot": "palguide",
+  "order": 183,
+  "headline": "Celaray",
+  "title": "Celaray | Glider Pal | Palworld Guide",
+  "video_script": "Celaray is a Water Pal with the partner skill Zephyr Glider. While it is in your party, it improves your equipped glider, prevents fall damage and extends high speed gliding. It works Watering and Transporting at level one. You can find it in the wild at levels two to fourteen, and it is very common. Do you glide with Celaray? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Celaray",
+      "label": "Celaray"
+    },
+    {
+      "image": "steam:1623730:3",
+      "fact": "Zephyr Glider",
+      "sub": "Better glider, no fall damage"
+    },
+    {
+      "image": "pal:Celaray",
+      "fact": "Watering and Transporting",
+      "sub": "Both at level one"
+    },
+    {
+      "image": "steam:1623730:4",
+      "fact": "Very common",
+      "sub": "Levels two to fourteen"
+    }
+  ],
+  "joke": "Celaray lets you fall from anywhere, so please do not test that on a mountain.",
+  "description": "Celaray in Palworld 1.0: Water Pal with the Zephyr Glider partner skill, which improves your equipped glider and prevents fall damage. Watering 1 and Transporting 1. Found at low levels across Palpagos. Checked on Pindrop, palworld.gg and Pal Breed Calc in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Celaray",
+    "Celaray Zephyr Glider",
+    "Celaray work suitability",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld Pal guide",
+    "Palworld tips"
+  ]
+}

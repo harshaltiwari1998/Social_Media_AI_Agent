@@ -1,0 +1,45 @@
+{
+  "id": "aniimo-lavazar-pebbling-evolution-guide",
+  "slot": "aniimo",
+  "order": 239,
+  "headline": "Lavazar",
+  "title": "Lavazar | Pebbling Fire Branch | Aniimo Guide",
+  "video_script": "Want a fire and rock tank? Evolve Pebbling into Lavazar at level thirty eight. Lavazar is a stage two Aniimo with ninety nine HP, eighty two attack and ninety three break. Fire and Rock resist Ice and Fire, but Water hits it for two point five six times damage. Keep a Water counter on your team. Later it can evolve again into Magmarex. Would you pick Lavazar over Geodeback? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:3",
+      "label": "Lavazar"
+    },
+    {
+      "image": "steam:4126040:4",
+      "fact": "Pebbling to Lavazar",
+      "sub": "Evolve at level thirty eight"
+    },
+    {
+      "image": "steam:4126040:5",
+      "fact": "Fire and Rock",
+      "sub": "Stage two Aniimo"
+    },
+    {
+      "image": "steam:4126040:6",
+      "fact": "Water hits hard",
+      "sub": "Two point five six times damage"
+    }
+  ],
+  "description": "Aniimo Lavazar guide: Pebbling evolves into the Fire and Rock Lavazar at level 38. Base HP 99, attack 82, break 93. Water deals 2.56x damage to it. It can evolve into Magmarex later. Checked on aniimo.gg and the Dexerto Aniimo wiki in November 2026.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Lavazar",
+    "Pebbling evolution",
+    "Aniimo Fire",
+    "Aniimo Rock",
+    "Aniimo evolution",
+    "Aniimo guide",
+    "Aniimo tips"
+  ],
+  "joke": "Lavazar breathes fire, but one splash of Water and it has a very bad day."
+}

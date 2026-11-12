@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-reindrix-cool-body",
+  "slot": "palguide",
+  "order": 184,
+  "headline": "Reindrix",
+  "title": "Reindrix | Frosthorn Mount | Palworld Guide",
+  "video_script": "Reindrix is an Ice Pal you can ride. Its partner skill, Cool Body, gives you heat resistance while it is in your party. At your base it works Lumbering and Cooling, both at level three. In the Frostbound Mountains you can find it around levels thirty two to thirty nine. Is Reindrix on your team? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Reindrix",
+      "label": "Reindrix"
+    },
+    {
+      "image": "steam:1623730:5",
+      "fact": "Cool Body",
+      "sub": "Heat resistance in your party"
+    },
+    {
+      "image": "pal:Reindrix",
+      "fact": "Lumbering and Cooling",
+      "sub": "Both at level three"
+    },
+    {
+      "image": "steam:1623730:6",
+      "fact": "Frostbound Mountains",
+      "sub": "Around levels thirty two to thirty nine"
+    }
+  ],
+  "joke": "Reindrix carries antlers colder than your last takeaway.",
+  "description": "Reindrix in Palworld 1.0: Ice Pal that can be ridden. Cool Body gives heat resistance while it is in your party. Lumbering 3 and Cooling 3. Found in the Frostbound Mountains around level 32 to 39. Checked on Pindrop, palworld.gg and Pal Breed Calc in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Reindrix",
+    "Reindrix Cool Body",
+    "Reindrix mount",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld Pal guide",
+    "Palworld tips"
+  ]
+}

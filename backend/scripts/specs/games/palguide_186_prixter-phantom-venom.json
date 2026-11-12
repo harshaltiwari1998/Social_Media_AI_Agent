@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-prixter-phantom-venom",
+  "slot": "palguide",
+  "order": 186,
+  "headline": "Prixter",
+  "title": "Prixter | Poison Damage Boost | Palworld Guide",
+  "video_script": "Prixter is a Dark and Earth Pal with the partner skill Phantom Venom. While it is in your party, damage to enemies afflicted with Poison goes up by fifty to sixty five percent for you and your Pals. At your base it does Lumbering at level four, Gathering at level two and Medicine Production at level two. Do you run poison teams? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Prixter",
+      "label": "Prixter"
+    },
+    {
+      "image": "steam:1623730:9",
+      "fact": "Phantom Venom",
+      "sub": "More damage to poisoned enemies"
+    },
+    {
+      "image": "pal:Prixter",
+      "fact": "Lumbering level four",
+      "sub": "Gathering and Medicine too"
+    },
+    {
+      "image": "steam:1623730:10",
+      "fact": "Wild levels forty eight to forty nine",
+      "sub": "Find it around Palpagos"
+    }
+  ],
+  "joke": "Prixter has about five thousand kinds of venom, and none of them are for sharing.",
+  "description": "Prixter in Palworld 1.0: Dark and Earth Pal with the Phantom Venom partner skill, which boosts damage to poisoned enemies by 50 to 65 percent. Lumbering 4, Gathering 2, Medicine Production 2. Wild levels 48 to 49. Checked on Pindrop, palworld.gg and Pal Breed Calc in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Prixter",
+    "Prixter Phantom Venom",
+    "Palworld poison team",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld Pal guide",
+    "Palworld tips"
+  ]
+}

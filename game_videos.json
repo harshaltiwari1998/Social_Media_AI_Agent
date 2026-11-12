@@ -10164,5 +10164,45 @@
       "name": "Typhlovoir",
       "types": "Fire/Psychic"
     }
+  },
+  "aniimo-glacy-or-leafy-stats-compared": {
+    "spec": "scripts/specs/games/aniimo_249_aniimo-glacy-or-leafy-stats-compared.json",
+    "video": "F:\\AI AGENT\\run_ani10\\videos\\short-26b9765d.mp4"
+  },
+  "aniimo-skippy-to-pranky-evolution": {
+    "spec": "scripts/specs/games/aniimo_248_aniimo-skippy-to-pranky-evolution.json",
+    "video": "F:\\AI AGENT\\run_ani10\\videos\\short-6677f430.mp4"
+  },
+  "aniimo-dewy-to-fragrancier-evolution": {
+    "spec": "scripts/specs/games/aniimo_247_aniimo-dewy-to-fragrancier-evolution.json",
+    "video": "F:\\AI AGENT\\run_ani10\\videos\\short-b57d3add.mp4"
+  },
+  "aniimo-fahloo-to-erlath-evolution": {
+    "spec": "scripts/specs/games/aniimo_246_aniimo-fahloo-to-erlath-evolution.json",
+    "video": "F:\\AI AGENT\\run_ani10\\videos\\short-5ddc5b5b.mp4"
+  },
+  "aniimo-helmut-to-rookey-evolution": {
+    "spec": "scripts/specs/games/aniimo_245_aniimo-helmut-to-rookey-evolution.json",
+    "video": "F:\\AI AGENT\\run_ani10\\videos\\short-22a684a1.mp4"
+  },
+  "aniimo-helmut-to-pawney-evolution": {
+    "spec": "scripts/specs/games/aniimo_244_aniimo-helmut-to-pawney-evolution.json",
+    "video": "F:\\AI AGENT\\run_ani10\\videos\\short-9c9d8564.mp4"
+  },
+  "aniimo-magmarex-or-minespine-final-form": {
+    "spec": "scripts/specs/games/aniimo_243_aniimo-magmarex-or-minespine-final-form.json",
+    "video": "F:\\AI AGENT\\run_ani10\\videos\\short-26f1c44b.mp4"
+  },
+  "aniimo-minespine-evolution-requirements": {
+    "spec": "scripts/specs/games/aniimo_242_aniimo-minespine-evolution-requirements.json",
+    "video": "F:\\AI AGENT\\run_ani10\\videos\\short-be157e96.mp4"
+  },
+  "aniimo-magmarex-evolution-requirements": {
+    "spec": "scripts/specs/games/aniimo_241_aniimo-magmarex-evolution-requirements.json",
+    "video": "F:\\AI AGENT\\run_ani10\\videos\\short-a1ceb248.mp4"
+  },
+  "aniimo-geodeback-pebbling-rock-branch": {
+    "spec": "scripts/specs/games/aniimo_240_aniimo-geodeback-pebbling-rock-branch.json",
+    "video": "F:\\AI AGENT\\run_ani10\\videos\\short-ffafbf7c.mp4"
   }
 }

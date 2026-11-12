@@ -8078,5 +8078,134 @@
       "unique": false,
       "key": "Silvegis 5"
     }
+  },
+  "Wixen 5": {
+    "spec": "scripts/specs/palworld_wixen_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-7833a8d7.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Wixen",
+      "caption": "5 ways to breed Wixen in Palworld 1.0: Smokie + Dazzi, Nyafia + Daedream, Digtoise + Caprity, Prunelia + Killamari, Helzephyr + Jolthog.",
+      "video_script": "Here are five ways to breed Wixen in Palworld one point zero. Combo one: breed Smokie with Dazzi on your Breeding Farm, then add a cake. Combo two: pair Nyafia and Daedream together, and you get the same egg. Combo three: Digtoise plus Caprity works too, so use whichever Pals you have. Combo four: Prunelia with Killamari is another easy option. Combo five: breed Helzephyr with Jolthog on your Breeding Farm, then add a cake. Every egg hatches into Wixen. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Smokie",
+        "Dazzi"
+      ],
+      "combos": [
+        [
+          "Smokie",
+          "Dazzi"
+        ],
+        [
+          "Nyafia",
+          "Daedream"
+        ],
+        [
+          "Digtoise",
+          "Caprity"
+        ],
+        [
+          "Prunelia",
+          "Killamari"
+        ],
+        [
+          "Helzephyr",
+          "Jolthog"
+        ]
+      ],
+      "child": "Wixen",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false,
+      "key": "Wixen 5"
+    }
+  },
+  "Lovander 5": {
+    "spec": "scripts/specs/palworld_lovander_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-cbbd5b5d.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Lovander",
+      "caption": "5 ways to breed Lovander in Palworld 1.0: Finsider + Tarantriss, Shroomer + Flopie, Digtoise + Herbil, Prunelia + Fuddler, Skutlass + Cattiva.",
+      "video_script": "Here are five ways to breed Lovander in Palworld one point zero. Combo one: breed Finsider with Tarantriss on your Breeding Farm, then add a cake. Combo two: pair Shroomer and Flopie together, and you get the same egg. Combo three: Digtoise plus Herbil works too, so use whichever Pals you have. Combo four: Prunelia with Fuddler is another easy option. Combo five: breed Skutlass with Cattiva on your Breeding Farm, then add a cake. Every egg hatches into Lovander. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Finsider",
+        "Tarantriss"
+      ],
+      "combos": [
+        [
+          "Finsider",
+          "Tarantriss"
+        ],
+        [
+          "Shroomer",
+          "Flopie"
+        ],
+        [
+          "Digtoise",
+          "Herbil"
+        ],
+        [
+          "Prunelia",
+          "Fuddler"
+        ],
+        [
+          "Skutlass",
+          "Cattiva"
+        ]
+      ],
+      "child": "Lovander",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false,
+      "key": "Lovander 5"
+    }
+  },
+  "Grintale 5": {
+    "spec": "scripts/specs/palworld_grintale_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-a65677a4.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Grintale",
+      "caption": "5 ways to breed Grintale in Palworld 1.0: Digtoise + Bristla, Munchill + Loupmoon, Incineram + Killamari, Nyafia + Foxparks, Smokie + Muffly.",
+      "video_script": "Here are five ways to breed Grintale in Palworld one point zero. Combo one: breed Digtoise with Bristla on your Breeding Farm, then add a cake. Combo two: pair Munchill and Loupmoon together, and you get the same egg. Combo three: Incineram plus Killamari works too, so use whichever Pals you have. Combo four: Nyafia with Foxparks is another easy option. Combo five: breed Smokie with Muffly on your Breeding Farm, then add a cake. Every egg hatches into Grintale. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Digtoise",
+        "Bristla"
+      ],
+      "combos": [
+        [
+          "Digtoise",
+          "Bristla"
+        ],
+        [
+          "Munchill",
+          "Loupmoon"
+        ],
+        [
+          "Incineram",
+          "Killamari"
+        ],
+        [
+          "Nyafia",
+          "Foxparks"
+        ],
+        [
+          "Smokie",
+          "Muffly"
+        ]
+      ],
+      "child": "Grintale",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false,
+      "key": "Grintale 5"
+    }
   }
 }

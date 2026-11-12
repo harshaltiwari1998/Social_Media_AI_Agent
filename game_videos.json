@@ -10295,5 +10295,40 @@
         "garchomp-mega-z"
       ]
     }
+  },
+  "palworld-best-mining-pals-1-0-aegidron-astegon-blazamut": {
+    "spec": "scripts/specs/long/gaming_098_palworld-best-mining-pals-1-0.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-c6b8d8f6.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-c6b8d8f6-thumb.jpg",
+    "chapters": "0:00 Intro\n0:46 What changed in 1.0\n1:35 Aegidron at the top\n2:38 The level seven group\n3:34 Anubis the mid game star\n4:14 Early game miners\n5:13 Match the Pal to the resource\n5:55 Set up your base\n6:31 Your plan"
+  },
+  "aniimo-dewlop-guide": {
+    "spec": "scripts/specs/games/aniimo_227_aniimo-dewlop-guide.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b53615a2.mp4"
+  },
+  "aniimo-frenzied-assault-saws-whirlbite-explained": {
+    "spec": "scripts/specs/games/aniimo_228_aniimo-frenzied-assault-saws-whirlbite-explained.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-8bd3f696.mp4"
+  },
+  "aniimo-salabask-driftwood-gator-guide": {
+    "spec": "scripts/specs/games/aniimo_229_aniimo-salabask-driftwood-gator-guide.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-3abc5823.mp4"
+  },
+  "aniimo-saws-shark-rush-evolution-guide": {
+    "spec": "scripts/specs/games/aniimo_230_aniimo-saws-shark-rush-evolution-guide.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-91637156.mp4"
+  },
+  "aniimo-whirlbite-hunters-feast-guide": {
+    "spec": "scripts/specs/games/aniimo_231_aniimo-whirlbite-hunters-feast-guide.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-32e214e1.mp4"
+  },
+  "palworld-guide-jelliette-drop": {
+    "spec": "scripts/specs/games/palguide_175_jelliette-drop.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b3b89fc1.mp4"
+  },
+  "palworld-guide-ghangler-master-of-darkness": {
+    "spec": "scripts/specs/games/palguide_176_ghangler-master-of-darkness.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-acef1e5b.mp4"
   }
 }

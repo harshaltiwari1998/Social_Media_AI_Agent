@@ -1,0 +1,62 @@
+{
+  "id": "the-last-of-us-explained",
+  "category": "gaming",
+  "order": 113,
+  "title": "The Last of Us Explained | Joel, Ellie, the Fungus and the Whole Series | Gaming Explained",
+  "description": "The Last of Us explained without heavy spoilers: Naughty Dog's 2013 PlayStation 3 game, the Cordyceps outbreak, Joel and Ellie, how it plays, the remaster, Part II in 2020, the Part I remake for PS5 and PC, and the HBO series.",
+  "hashtags": ["TheLastOfUs", "NaughtyDog", "Gaming"],
+  "tags": ["The Last of Us explained", "The Last of Us story", "Joel and Ellie", "Naughty Dog", "The Last of Us Part II", "The Last of Us Part I remake", "The Last of Us HBO", "Cordyceps", "PlayStation exclusive"],
+  "thumbnail": {"image": "steam:1888930:1", "text": "THE LAST OF US EXPLAINED"},
+  "sections": [
+    {
+      "heading": "What is The Last of Us",
+      "script": "A quiet world, overgrown with plants, where one wrong sound can bring danger. That is the setting of The Last of Us, an action adventure survival game made by the studio Naughty Dog. It is a story driven game, which means it is more about its characters and emotions than about points or levels. You play through a long journey across a ruined United States, sneaking past enemies, scavenging supplies and fighting when there is no other choice. The game is famous for its writing, its music and the bond between its two main characters. In this explainer we cover the story setup without big spoilers, how the game plays, the sequel, the remake, and the television series, so you know exactly why so many people call it one of the best games ever made.",
+      "images": ["steam:1888930:1", "wiki:The Last of Us", "wiki:Naughty Dog"]
+    },
+    {
+      "heading": "The original release",
+      "script": "The Last of Us was published by Sony Computer Entertainment and released worldwide for the PlayStation three on the fourteenth of June, twenty thirteen. It came near the end of that console's life, and many people felt it was a great farewell to the system. Naughty Dog had already won fans with the Uncharted series, and this new project showed a different side of the studio. It was darker, quieter and more personal. The game was later released again as The Last of Us Remastered for PlayStation four, which gave new players an easy way to try it. Critics praised the story and the characters, and the game won many awards. It quickly became one of the most respected titles on the console.",
+      "images": ["wiki:The Last of Us", "wiki:Naughty Dog", "steam:1888930:2"]
+    },
+    {
+      "heading": "The world and the outbreak",
+      "script": "The story begins with a disaster. A mutated version of the Cordyceps fungus spreads across the United States, turning people into aggressive creatures. Cordyceps is a real kind of fungus, and the game takes that real idea and imagines the worst possible version. Society collapses. Cities are cut off, people live in tightly controlled quarantine zones, and groups of survivors fight for what remains. The game does not show the end of the world as a single big battle. Instead it shows how daily life becomes a struggle, with abandoned buildings, rusty cars and nature slowly taking everything back. This makes the world feel real and sad, and it gives the quiet moments of hope in the story even more weight.",
+      "images": ["wiki:Cordyceps", "wiki:The Last of Us", "steam:1888930:3"]
+    },
+    {
+      "heading": "Joel and Ellie",
+      "script": "The heart of the game is the bond between Joel and Ellie. Joel is a hardened smuggler living in a Boston quarantine zone, a man who has lost a lot and learned not to trust anyone. He is hired to take Ellie, a fourteen year old girl who may hold the key to a cure, out of the city and across the country to a rebel group called the Fireflies. Neither of them wants to be partners at the start. Along the way, the two slowly learn to rely on each other, and the story turns into something more like a family journey. Troy Baker voices Joel and Ashley Johnson voices Ellie, and their performances are one of the biggest reasons the game feels so alive.",
+      "images": ["steam:1888930:1", "wiki:The Last of Us", "wiki:Naughty Dog"]
+    },
+    {
+      "heading": "How the game plays",
+      "script": "The Last of Us plays from a third person view. Most of the time you move carefully, listen for enemies and choose between sneaking and fighting. Supplies are limited, so every bullet matters, and you craft items like bandages and tools from things you find while exploring. Some enemies are infected creatures that hunt by sound, while others are human survivors who are just as dangerous. This mix keeps the game tense, because you can never relax. Ellie, and other companions, move with you and help during fights. There are also moments to rest, look around and listen to the characters talk. The gameplay is built to support the story, and that is why even simple moments, like climbing a ladder together, can feel meaningful.",
+      "images": ["steam:1888930:2", "steam:1888930:3", "wiki:The Last of Us"]
+    },
+    {
+      "heading": "The music",
+      "script": "Music is a huge part of the experience. The score was composed and performed by Gustavo Santaolalla, who built the sound around simple, lonely guitar. The music does not try to be loud or heroic. It leaves lots of space, so you can hear footsteps, wind and distant sounds. This choice helps create a feeling of loneliness and quiet danger. When the music does appear, it hits hard, because the game has been so silent before. Many fans say that just a few notes of the theme can bring back memories of the whole journey. Together with the sound design and the voice acting, the music helped make the game feel more like a film that you could walk through, and it is one of the best examples of sound telling a story.",
+      "images": ["wiki:The Last of Us", "wiki:Naughty Dog", "steam:1888930:1"]
+    },
+    {
+      "heading": "The Last of Us Part II",
+      "script": "The sequel, The Last of Us Part II, came out for the PlayStation four on the nineteenth of June, twenty twenty. It takes place several years after the first game, and it follows Ellie as she grows older and faces new challenges. The sequel is a serious, emotional story that explores some hard ideas, and it was a very talked about game. Players had strong opinions, which is a sign of how deeply people cared about the characters. If you plan to play, it is best to finish the first game first, because the sequel builds directly on it. Many players recommend taking your time, because the story works best when you see it from start to finish.",
+      "images": ["wiki:The Last of Us Part II", "wiki:Naughty Dog", "wiki:The Last of Us"]
+    },
+    {
+      "heading": "The Part I remake",
+      "script": "In twenty twenty two Naughty Dog released The Last of Us Part I, a ground up remake of the original game built with the studio's newer technology. It arrived on PlayStation five on the second of September, twenty twenty two, and then on Windows on the twenty eighth of March, twenty twenty three. The story stays the same, but the visuals are much sharper and more detailed, and the controls and extra features feel modern. For new players on computers, this is the easiest way to experience the first game today. For old fans, it is a chance to walk through familiar places with new eyes. If you want to start the series, Part I is the right place to begin, and you can play it before the sequel.",
+      "images": ["steam:1888930:1", "steam:1888930:2", "steam:1888930:3"]
+    },
+    {
+      "heading": "The HBO series",
+      "script": "The story also reached television. HBO adapted the game into a series, written by Craig Mazin, the creator of Chernobyl, together with Neil Druckmann from Naughty Dog. It debuted in January twenty twenty three, with Pedro Pascal as Joel and Bella Ramsey as Ellie. HBO renewed it for a second season less than two weeks after the premiere. Season two follows the story of Part II and brings in Kaitlyn Dever as Abby. The show kept the heart of the game, the relationship between the two leads, while adding new views of the world. For many people it was the proof that a video game story can work in other forms. It also brought many viewers to the games themselves.",
+      "images": ["wiki:The Last of Us", "wiki:Naughty Dog", "steam:1888930:1"]
+    },
+    {
+      "heading": "Where to start",
+      "script": "So where should you begin? If you have a PlayStation five or a gaming computer, play The Last of Us Part I first, and take your time with the story. Then, when you feel ready, move on to Part II. If you only want the story, the HBO series is a good way to see the world, but the games let you feel every choice yourself. Whichever way you go, expect a serious, emotional journey, not a quick action game. The Last of Us earned its place in gaming history by trusting the story and the characters. So tell us, did you start with the game or the show, and which moment stayed with you the most? Share it in the comments, and subscribe to the channel for more game explainers.",
+      "images": ["steam:1888930:1", "wiki:The Last of Us", "wiki:Naughty Dog"]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "space-cadet-pinball-windows",
+  "slot": "classic",
+  "order": 99,
+  "headline": "Space Cadet Pinball",
+  "title": "Space Cadet Pinball Facts | The Windows Game That Vanished | Classic Games",
+  "video_script": "Space Cadet Pinball was the Windows game many of us played in school computer labs. It is the Space Cadet table from Full Tilt Pinball, made by Cinematronics, and it came with Microsoft Plus ninety five, then several Windows versions. Windows XP was the last one to include it. Microsoft engineer Raymond Chen explained that a collision detection bug appeared while porting Windows to sixty four bit, so the game was dropped. Did you ever get the high score? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:3D Pinball for Windows – Space Cadet",
+      "label": "Space Cadet Pinball"
+    },
+    {
+      "image": "wiki:3D Pinball for Windows – Space Cadet",
+      "fact": "Windows XP",
+      "sub": "Last version with it"
+    },
+    {
+      "image": "wiki:3D Pinball for Windows – Space Cadet",
+      "fact": "Cinematronics",
+      "sub": "Original developer"
+    },
+    {
+      "image": "wiki:3D Pinball for Windows – Space Cadet",
+      "fact": "64-bit bug",
+      "sub": "Collision detection broke"
+    }
+  ],
+  "description": "Space Cadet Pinball was bundled with Microsoft Plus 95 and later Windows versions up to Windows XP. Sources: Wikipedia, PCWorld.",
+  "hashtags": [
+    "SpaceCadetPinball",
+    "Windows",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Space Cadet Pinball",
+    "3D Pinball",
+    "Windows XP",
+    "Full Tilt Pinball",
+    "Cinematronics",
+    "gaming facts",
+    "classic games"
+  ],
+  "joke": "The ball always found the gap right when the teacher walked past."
+}

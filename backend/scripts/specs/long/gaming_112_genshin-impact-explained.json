@@ -1,0 +1,57 @@
+{
+  "id": "genshin-impact-explained",
+  "category": "gaming",
+  "order": 112,
+  "title": "Genshin Impact Explained | Teyvat, Elements, Wishes and Reactions for Beginners | Gaming Explained",
+  "description": "Genshin Impact explained for beginners: what the free open world action RPG from miHoYo is, the Traveler and Paimon, the seven nations of Teyvat, the seven elements and elemental reactions, Wishes, Genius Invokation TCG and the platforms it runs on.",
+  "hashtags": ["GenshinImpact", "HoYoverse", "Gaming"],
+  "tags": ["Genshin Impact explained", "Genshin Impact for beginners", "Genshin Impact elements", "Genshin elemental reactions", "Teyvat", "HoYoverse", "miHoYo", "Genius Invokation TCG", "Genshin Impact wishes"],
+  "thumbnail": {"image": "wiki:Genshin Impact", "text": "GENSHIN IMPACT EXPLAINED"},
+  "sections": [
+    {
+      "heading": "What is Genshin Impact",
+      "script": "A colorful open world, a floating companion, a party of four heroes and a fighting system built on seven elements. That is Genshin Impact, a free to play action role playing game made by the Chinese studio miHoYo and published worldwide under the name HoYoverse. You explore a huge fantasy land called Teyvat, climb mountains, glide across valleys, solve puzzles, fight monsters and meet characters with their own stories. The game launched in twenty twenty and quickly became one of the most talked about games on phones, computers and consoles. In this explainer we cover the world, the Traveler and Paimon, the seven nations, the elements and reactions, how Wishes work, the card game inside it, and the platforms where you can play.",
+      "images": ["wiki:Genshin Impact", "wiki:MiHoYo", "wiki:Free-to-play"]
+    },
+    {
+      "heading": "Release and platforms",
+      "script": "Genshin Impact launched on the twenty eighth of September, twenty twenty, on PlayStation four, Windows, Android and iOS, all as a free download. That wide launch is a big reason for its success, because friends on different devices could play the same game. The PlayStation five could run the game through backward compatibility not long after, and a dedicated PlayStation five version followed later. On the twentieth of November, twenty twenty four, the game also arrived on Xbox Series X and S. Because the game is a live service, it keeps receiving updates with new story chapters, characters, areas and events. This means the world keeps growing, and a new player joins a game that has years of content waiting to be explored, with new additions arriving regularly.",
+      "images": ["wiki:Genshin Impact", "wiki:MiHoYo", "wiki:Free-to-play"]
+    },
+    {
+      "heading": "The Traveler and Paimon",
+      "script": "At the start of the game you take the role of the Traveler, one of two twin siblings. You choose to play as Aether, the brother, or Lumine, the sister, and the two choices play the same way. The twins travel between worlds until the two are separated, and one sibling goes missing. When you wake up in Teyvat, you meet Paimon, a small floating guide who becomes your constant companion and explains the world as you learn it. The search for the missing twin drives the main story, and it takes you across the lands of Teyvat, from one nation to the next. Along the way you meet people, solve their problems, and slowly uncover how this world works and why the gods are involved.",
+      "images": ["wiki:Genshin Impact", "wiki:MiHoYo", "wiki:Gacha game"]
+    },
+    {
+      "heading": "The seven nations of Teyvat",
+      "script": "Teyvat is made up of seven nations, and each one is tied to an element and ruled by a god called an Archon. The story takes the Traveler to these nations in order. First comes Mondstadt, which is tied to wind. Next is Liyue, then Inazuma, then Sumeru, then Fontaine, then Natlan, and the last is Snezhnaya, home of the Fatui. Each region has its own look, music, culture and monsters, so exploring never feels repetitive. The area names tell you a lot about what you can expect. Fans enjoy comparing the nations, and many players pick their favorite based on the music, which changes with the place and the time of day. The world is designed so that every new nation feels like a new game, and the Traveler's journey becomes a tour of very different places and ideas, which keeps the adventure fresh for a long time.",
+      "images": ["wiki:Genshin Impact", "wiki:MiHoYo", "wiki:Free-to-play"]
+    },
+    {
+      "heading": "The seven elements",
+      "script": "Combat in Genshin Impact is all about elements. There are seven of them. Anemo is wind, Geo is earth, Pyro is fire, Hydro is water, Cryo is ice, Electro is lightning, and Dendro is nature. Every playable character is tied to one element, and their skills and bursts use that power. You bring a party of four characters, and you can switch between them at any moment during a fight. This is the key idea of the game. You are not just attacking, you are choosing which element to use and when. The elements also work outside of fights. You can burn grass with fire, freeze water with ice, or power machines with lightning. That makes the world feel alive and gives you many small ways to be creative.",
+      "images": ["wiki:Genshin Impact", "wiki:MiHoYo", "wiki:Gacha game"]
+    },
+    {
+      "heading": "Elemental reactions",
+      "script": "When two elements touch the same enemy, they can create an elemental reaction, and this is where the combat becomes exciting. Fire and lightning make Overloaded, a big area explosion. Water followed by fire creates Vaporize, a burst of extra damage. Ice followed by fire creates Melt, which also hits very hard. Water and ice together freeze the enemy in place. Ice with lightning creates Superconduct, an area hit that weakens enemy defense, and lightning with water creates Electro Charged, which shocks the enemy over time. Wind can spread an element to nearby enemies in a reaction called Swirl, and earth can create a shield with Crystallize. Learning these combinations takes some practice, but trying them in the open world is a fun way to start. It is the real depth of the game, and it is what lets a smart team of four beat much stronger enemies.",
+      "images": ["wiki:Genshin Impact", "wiki:MiHoYo", "wiki:Free-to-play"]
+    },
+    {
+      "heading": "Wishes and the gacha system",
+      "script": "Genshin Impact earns money through a gacha system, which the game calls Wishes. New characters and weapons appear on limited banners, and you use an in game currency called Primogems to try for them. You can earn Primogems by playing, exploring and finishing quests, and you can also buy them with real money, but you do not have to. The game has a pity system that guarantees a top rarity item after enough tries. It is important to treat this part with care. Set a budget, remember that the story and the exploring are free, and enjoy the characters you already have. Many players happily play for years without spending anything, and you can learn how everything works at your own pace, without any hurry.",
+      "images": ["wiki:Gacha game", "wiki:Genshin Impact", "wiki:MiHoYo"]
+    },
+    {
+      "heading": "Genius Invokation TCG",
+      "script": "Genshin Impact also hides a full card game inside it, called Genius Invokation TCG. It was added in version three point three, in December twenty twenty two. You build a deck using character cards from the game and action cards, then battle an opponent by rolling elemental dice and using them to play skills. You win by defeating all of your opponent's character cards. Because it uses the same elements and reactions as the main game, it feels familiar right away, but it plays like a thoughtful strategy game. You can enjoy it between adventures as a relaxing change of pace, and you only need the characters you already own to get started. It is a good example of how the game keeps adding new things, so that players always have a different way to enjoy the world.",
+      "images": ["wiki:Genshin Impact", "wiki:MiHoYo", "wiki:Gacha game"]
+    },
+    {
+      "heading": "Tips for beginners",
+      "script": "If you are new, here are a few simple tips. First, follow the main story at the start, because it teaches the basics and unlocks the biggest features. Second, explore everywhere, since chests, puzzles and hidden spots are placed all over the map. Third, learn the elements and try different reactions with your party, because that matters more than raw power. Fourth, pick characters you enjoy and build them slowly instead of chasing every new banner. Fifth, use the daily activities and events to collect Primogems without paying. And finally, take breaks, enjoy the music and the views, and play at your own pace. Genshin Impact is a game that rewards curiosity. So tell us, which element is your favorite, and who is your main character? Share it in the comments, and subscribe to the channel for more game explainers.",
+      "images": ["wiki:Genshin Impact", "wiki:MiHoYo", "wiki:Free-to-play"]
+    }
+  ]
+}

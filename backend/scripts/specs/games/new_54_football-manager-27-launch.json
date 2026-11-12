@@ -1,0 +1,46 @@
+{
+  "id": "football-manager-27-launch",
+  "slot": "new",
+  "order": 54,
+  "headline": "Football Manager 27 is out",
+  "title": "Football Manager 27 Is Out | Launch Details | Gaming News",
+  "video_script": "Football Manager twenty seven launched on November tenth, twenty twenty six, from Sega and Sports Interactive. It comes as a PC version, a console version for PlayStation five and Xbox, and a mobile version. The studio promised simpler club management, a more atmospheric match day and easier menu navigation. Will you take charge of your club this season? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4530370:1",
+      "label": "Football Manager 27 is out"
+    },
+    {
+      "image": "steam:4530370:1",
+      "fact": "Nov 10, 2026",
+      "sub": "Launch date"
+    },
+    {
+      "image": "steam:4530370:1",
+      "fact": "PC, console, mobile",
+      "sub": "Three versions"
+    },
+    {
+      "image": "steam:4530370:1",
+      "fact": "Sports Interactive",
+      "sub": "With Sega"
+    }
+  ],
+  "description": "Football Manager 27 launched November 10, 2026 on PC, console and mobile. Sources: The Sixth Axis, Altchar.",
+  "hashtags": [
+    "FootballManager",
+    "FM27",
+    "Gaming"
+  ],
+  "tags": [
+    "Football Manager 27",
+    "FM27",
+    "Sports Interactive",
+    "Sega",
+    "football games",
+    "Gaming news",
+    "PC games"
+  ],
+  "expires": "2026-12-10",
+  "joke": "Every manager is a genius until the first home defeat."
+}

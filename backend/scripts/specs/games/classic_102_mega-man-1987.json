@@ -1,0 +1,45 @@
+{
+  "id": "mega-man-1987",
+  "slot": "classic",
+  "order": 102,
+  "headline": "Mega Man",
+  "title": "Mega Man Facts | Capcom's First Home Console Game | Classic Games",
+  "video_script": "Mega Man launched in Japan on December seventeenth, nineteen eighty seven, on the Famicom, where it is called Rockman. It was Capcom's first game made for home consoles. Keiji Inafune designed and drew nearly all the characters and enemies. You can pick the stages in any order, and every boss gives you a weapon that is strong against another boss. Which Robot Master is your favorite? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Mega Man (1987 video game)",
+      "label": "Mega Man"
+    },
+    {
+      "image": "wiki:Mega Man (1987 video game)",
+      "fact": "Dec 17, 1987",
+      "sub": "Japan release"
+    },
+    {
+      "image": "wiki:Mega Man (1987 video game)",
+      "fact": "Rockman",
+      "sub": "Japanese name"
+    },
+    {
+      "image": "wiki:Mega Man (1987 video game)",
+      "fact": "Boss weapons",
+      "sub": "Pick stages in any order"
+    }
+  ],
+  "description": "Mega Man released December 17, 1987 on the Famicom by Capcom. Sources: Wikipedia, Game Informer.",
+  "hashtags": [
+    "MegaMan",
+    "Capcom",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Mega Man",
+    "Rockman",
+    "Capcom",
+    "NES",
+    "Keiji Inafune",
+    "gaming facts",
+    "classic games"
+  ],
+  "joke": "The blue guy has been jumping over those same pits for decades and still says no thanks."
+}

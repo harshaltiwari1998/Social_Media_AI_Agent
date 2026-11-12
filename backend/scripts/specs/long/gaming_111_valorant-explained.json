@@ -1,0 +1,62 @@
+{
+  "id": "valorant-explained",
+  "category": "gaming",
+  "order": 111,
+  "title": "Valorant Explained | Agents, Spike Rounds, Economy and Ranks for Beginners | Gaming Explained",
+  "description": "Valorant explained for beginners: what the free tactical shooter from Riot Games is, how a match works, the Spike, agents and the four roles, the buy economy, game modes, ranks, and the move to PlayStation 5 and Xbox Series X and S.",
+  "hashtags": ["Valorant", "RiotGames", "Gaming"],
+  "tags": ["Valorant explained", "Valorant for beginners", "Valorant agents", "Valorant roles", "Valorant Spike Rush", "Valorant ranks", "Riot Games", "Valorant console", "tactical shooter"],
+  "thumbnail": {"image": "wiki:Valorant", "text": "VALORANT EXPLAINED"},
+  "sections": [
+    {
+      "heading": "What is Valorant",
+      "script": "Two teams of five, one dangerous device called the Spike, and a fight that is decided in seconds. That is Valorant, a free to play tactical shooter made by Riot Games, the studio behind League of Legends. It is played from a first person view and mixes precise gunplay with special character abilities, which is why it is called a hero shooter. Every player picks an agent with a unique set of powers, but the winner is usually the team that aims well, plans well and talks well. The game came out in twenty twenty and has since grown into one of the biggest competitive shooters in the world. In this explainer we cover how a match works, the agents and roles, the economy, the game modes and ranks, and the console version.",
+      "images": ["wiki:Valorant", "wiki:Riot Games", "wiki:Hero shooter"]
+    },
+    {
+      "heading": "From beta to launch",
+      "script": "Valorant was developed by Riot Games over several years, and a closed beta began on the seventh of April, twenty twenty, and the full release came on the second of June, twenty twenty, on Windows. Riot wanted to build a shooter that felt fair, with accurate hit registration and a smooth experience on many types of computers. Because the game is free to play, anyone can download it without paying. That decision made the game easy for new players to try and helped its community grow quickly after the launch. Over time Riot kept adding agents, maps and modes, and in twenty twenty four it brought the game to consoles. If you are curious about the game, the download is free, and the first matches are a good way to see whether the pace of a tactical shooter suits you.",
+      "images": ["wiki:Valorant", "wiki:Riot Games", "wiki:Free-to-play"]
+    },
+    {
+      "heading": "The basic idea of a match",
+      "script": "The main game mode puts two teams of five against each other, one attacking and one defending. The attackers carry the Spike, a bomb like device, and their goal is to plant it on a bomb site. The defenders must stop the plant, or defuse the Spike once it is down. A round can also end when one team eliminates the other. There is no respawning within a round, so every life matters, and a single mistake can cost your team. After a set number of rounds the teams swap sides, because attacking and defending feel very different. The first team to win thirteen rounds wins the match. That simple structure creates tense moments again and again, and it is easy to understand even if you have never played a shooter before.",
+      "images": ["wiki:Valorant", "wiki:Hero shooter", "wiki:Riot Games"]
+    },
+    {
+      "heading": "Agents and abilities",
+      "script": "What makes Valorant different from many other tactical shooters is its agents. Each agent is a character with special abilities, such as smoke screens, flash effects, walls, traps or healing tools, plus a powerful ultimate move that charges during the match. These abilities do not replace gunplay. They help you take space, hold a position, or gather information about where the enemy is. For example, a smoke can block an enemy's view while your team moves in, and a trap can warn you when someone tries to sneak behind you. New players often pick an agent whose ability feels easy to use, then slowly learn the rest. Riot has added many agents since launch, so the roster keeps growing, and each new one tends to bring a fresh idea to the game.",
+      "images": ["wiki:Valorant", "wiki:Hero shooter", "wiki:Unreal Engine 5"]
+    },
+    {
+      "heading": "The four roles",
+      "script": "Agents are grouped into four roles, and knowing them helps you build a good team. Duelists are the offensive players who specialize in attacking and getting the first kills. Sentinels guard areas and protect the team, often with traps and sensors. Initiators help the team enter a site by finding enemies or disrupting them. Controllers use smokes and similar tools to block vision and reshape the map. A balanced team usually includes a mix of these roles, because a team of only duelists may struggle to hold a position, while a team with no duelist may find it hard to create the first attack. If you are new, you do not need to master every role. Pick one that fits how you like to play and learn it well first.",
+      "images": ["wiki:Valorant", "wiki:Riot Games", "wiki:Hero shooter"]
+    },
+    {
+      "heading": "The buy economy",
+      "script": "Valorant has an economy system that adds another layer of strategy. At the start of each round, players earn credits, and they use them to buy weapons, armor and ability charges. How much you earn depends on whether you won or lost the previous round, how many kills you got and whether you completed objectives like planting the Spike. Everyone starts with a basic pistol, but better rifles cost more. Smart teams sometimes decide to save money in one round so they can buy strong weapons for the next, even if it means being weaker for a few moments. That is why you will hear players talk about saving or a full buy. Learning the economy is one of the fastest ways to improve, because it lets the whole team make a plan together.",
+      "images": ["wiki:Valorant", "wiki:Riot Games", "wiki:Hero shooter"]
+    },
+    {
+      "heading": "Game modes",
+      "script": "Besides the standard mode, Valorant offers shorter ways to play. Spike Rush is a faster mode that arrived with the launch, and it is a best of seven match where the first team to win four rounds takes the victory. It is a good choice when you want quick action or want to try new agents without much pressure. There are also other modes that change from time to time, including quicker team matches and a free for all deathmatch to practice your aim. The standard unrated mode is a best of twenty five where thirteen rounds are needed to win. Competitive play uses the same basic rules but adds a rank on top. Having this range of modes means a new player can learn gently, and a veteran can still find a serious challenge.",
+      "images": ["wiki:Valorant", "wiki:Hero shooter", "wiki:Riot Games"]
+    },
+    {
+      "heading": "Ranks and climbing",
+      "script": "In competitive play, every player earns a rank that shows their skill, running from Iron at the bottom up to Radiant at the very top. Winning matches moves you up the ladder, and losing can move you down. The ranks give the game a long term goal, and many players enjoy the feeling of slowly climbing. For beginners, the best advice is simple. Do not worry about the rank number at first. Focus on learning one agent, practicing your aim in short sessions, and listening to your teammates. Communication matters a lot, because a team that shares information about where enemies are will beat a team of better aimers who stay silent. Valorant rewards patience and teamwork, and that is why many players say the climb feels satisfying.",
+      "images": ["wiki:Valorant", "wiki:Riot Games", "wiki:Valorant Champions Tour"]
+    },
+    {
+      "heading": "Valorant on console",
+      "script": "For a long time Valorant was a Windows only game, but that changed in twenty twenty four. Riot launched the console version on the second of August, twenty twenty four, for PlayStation five and Xbox Series X and S, after an open beta that began in late July. Riot said it was available in the United States and Canada, Europe, Japan and Brazil at launch. Crossplay works between PlayStation and Xbox, but console players cannot play with PC players, and Riot said this keeps competitive integrity, because a mouse and keyboard can offer advantages. Progress and inventory can still sync between the platforms. The console launch gave many new players their first chance to try the game, and it showed that tactical shooters can work well with a controller.",
+      "images": ["wiki:Valorant", "wiki:Riot Games", "wiki:Unreal Engine 5"]
+    },
+    {
+      "heading": "Why people keep playing",
+      "script": "There are a few reasons Valorant keeps its community. The rounds are short and tense, the rules are easy to learn, and the skill ceiling is very high, so there is always something to improve. The agent abilities give a lot of variety without hiding the importance of aim. The game is free, so a friend can join you any time. It also has a large competitive scene, the Valorant Champions Tour, which gives fans professional matches to watch and learn from. And because a match is a team story, even a loss can feel like a good memory. So tell us, which agent do you play the most, and what role fits you best? Share it in the comments, and subscribe to the channel for more game explainers.",
+      "images": ["wiki:Valorant Champions Tour", "wiki:Valorant", "wiki:Riot Games"]
+    }
+  ]
+}

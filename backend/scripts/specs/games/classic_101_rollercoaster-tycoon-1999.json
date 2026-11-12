@@ -1,0 +1,45 @@
+{
+  "id": "rollercoaster-tycoon-1999",
+  "slot": "classic",
+  "order": 101,
+  "headline": "RollerCoaster Tycoon",
+  "title": "RollerCoaster Tycoon Facts | One Man Wrote It In Assembly | Classic Games",
+  "video_script": "RollerCoaster Tycoon came out for Windows in March nineteen ninety nine. Chris Sawyer designed and programmed it, and about ninety nine percent of the code is written in x86 assembly language. It was originally titled White Knuckle during development. The base game has twenty one scenarios, and it was the best selling PC game of nineteen ninety nine. What coaster would you build first? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:RollerCoaster Tycoon (video game)",
+      "label": "RollerCoaster Tycoon"
+    },
+    {
+      "image": "wiki:RollerCoaster Tycoon (video game)",
+      "fact": "Chris Sawyer",
+      "sub": "Designed and programmed it"
+    },
+    {
+      "image": "wiki:RollerCoaster Tycoon (video game)",
+      "fact": "99%",
+      "sub": "Written in assembly"
+    },
+    {
+      "image": "wiki:RollerCoaster Tycoon (video game)",
+      "fact": "21",
+      "sub": "Base scenarios"
+    }
+  ],
+  "description": "RollerCoaster Tycoon released March 22, 1999, written mostly in x86 assembly by Chris Sawyer. Sources: Wikipedia, PCGamesN.",
+  "hashtags": [
+    "RollerCoasterTycoon",
+    "ChrisSawyer",
+    "ClassicGames"
+  ],
+  "tags": [
+    "RollerCoaster Tycoon",
+    "Chris Sawyer",
+    "assembly language",
+    "simulation games",
+    "PC games",
+    "gaming facts",
+    "classic games"
+  ],
+  "joke": "My guests were happy until I built the coaster that ended at a pond."
+}

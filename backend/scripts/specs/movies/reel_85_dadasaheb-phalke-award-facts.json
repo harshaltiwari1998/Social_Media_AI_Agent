@@ -1,0 +1,49 @@
+{
+  "id": "reel-dadasaheb-phalke-award-facts",
+  "category": "movies",
+  "slot": "reel",
+  "order": 85,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Dadasaheb Phalke Award: pehli winner Devika Rani",
+  "title": "Dadasaheb Phalke Award Facts | Devika Rani Pehli Winner | Movie News Hindi",
+  "video_script": "Dadasaheb Phalke Award भारतीय सिनेमा का सबसे बड़ा सम्मान माना जाता है. ये 1969 में शुरू हुआ और इसका नाम Dadasaheb Phalke के नाम पर है, जिन्होंने 1913 में पहली भारतीय feature film Raja Harishchandra बनाई थी. पहला award Devika Rani को मिला. विजेता को Swarna Kamal यानी Golden Lotus medal, shawl और नकद राशि दी जाती है. आपके हिसाब से अगला award किसे मिलना चाहिए? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Dadasaheb Phalke Award",
+      "label": "Dadasaheb Phalke Award"
+    },
+    {
+      "image": "wiki:Dadasaheb Phalke Award",
+      "fact": "1969 se shuru",
+      "sub": null
+    },
+    {
+      "image": "wiki:Devika Rani",
+      "fact": "Pehli winner Devika Rani",
+      "sub": null
+    },
+    {
+      "image": "wiki:Dadasaheb Phalke",
+      "fact": "Raja Harishchandra 1913",
+      "sub": null
+    }
+  ],
+  "description": "Dadasaheb Phalke Award: instituted 1969, first recipient Devika Rani, named after Dadasaheb Phalke who directed Raja Harishchandra (1913); winners get a Swarna Kamal medallion, a shawl and a cash prize. Sources: Wikipedia, Vajiram and Ravi.",
+  "hashtags": [
+    "DadasahebPhalke",
+    "DevikaRani",
+    "IndianCinema"
+  ],
+  "tags": [
+    "Dadasaheb Phalke Award",
+    "Devika Rani",
+    "Dadasaheb Phalke",
+    "Swarna Kamal",
+    "National Film Awards",
+    "Indian cinema history",
+    "Raja Harishchandra"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "steam-winter-sale-2026-december-17",
+  "slot": "new",
+  "order": 57,
+  "headline": "Steam Winter Sale 2026 starts December 17",
+  "title": "Steam Winter Sale 2026 | Starts December 17 | Gaming News",
+  "video_script": "Valve's Steam Winter Sale twenty twenty six is scheduled to start on December seventeenth and run until January fourth, twenty twenty seven. That is about eighteen days of discounts. Before it, Steam also has an Auto Battler RPG Fest from November sixteenth to November twenty third. Valve plans Black Friday discounts too, but has not announced dates. What is on your wishlist? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Steam (service)",
+      "label": "Steam Winter Sale 2026"
+    },
+    {
+      "image": "wiki:Steam (service)",
+      "fact": "Dec 17, 2026",
+      "sub": "Sale starts"
+    },
+    {
+      "image": "wiki:Steam (service)",
+      "fact": "Jan 4, 2027",
+      "sub": "Sale ends"
+    },
+    {
+      "image": "wiki:Steam (service)",
+      "fact": "Nov 16 to 23",
+      "sub": "Auto Battler RPG Fest"
+    }
+  ],
+  "description": "Steam Winter Sale 2026 is scheduled for December 17, 2026 to January 4, 2027, per Valve's published events schedule. Sources: GamingOnLinux, Windows Report.",
+  "hashtags": [
+    "Steam",
+    "WinterSale",
+    "Gaming"
+  ],
+  "tags": [
+    "Steam Winter Sale",
+    "Steam sale 2026",
+    "Valve",
+    "PC games",
+    "game deals",
+    "Gaming news",
+    "wishlist"
+  ],
+  "expires": "2026-12-18",
+  "joke": "Your wishlist is long, your backlog is longer, and the sale does not care."
+}

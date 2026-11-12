@@ -1,0 +1,67 @@
+{
+  "id": "cyberpunk-2077-explained",
+  "category": "gaming",
+  "order": 110,
+  "title": "Cyberpunk 2077 Explained | Launch Disaster, Comeback and Phantom Liberty | Gaming Explained",
+  "description": "Cyberpunk 2077 explained: what the game is, Night City, V and Johnny Silverhand, the rough launch in December 2020, the PlayStation Store removal, Update 2.0, Phantom Liberty, the Edgerunners anime effect and the sales milestones up to forty million copies.",
+  "hashtags": ["Cyberpunk2077", "CDProjektRed", "Gaming"],
+  "tags": ["Cyberpunk 2077 explained", "Cyberpunk 2077 comeback", "Cyberpunk 2077 Phantom Liberty", "CD Projekt Red", "Night City", "Johnny Silverhand", "Cyberpunk 2077 update 2.0", "Cyberpunk 2077 for beginners", "Cyberpunk Edgerunners"],
+  "thumbnail": {"image": "steam:1091500:1", "text": "CYBERPUNK: THE COMEBACK"},
+  "sections": [
+    {
+      "heading": "What is Cyberpunk 2077",
+      "script": "Imagine a neon city where giant corporations rule everything, where people upgrade their bodies with machines, and where one bad job can change your whole life. That is Cyberpunk 2077, an open world action role playing game made by the Polish studio CD Projekt Red, the same team behind The Witcher series. It is played from a first person view, and you build your own character, choose how to fight, and decide how the story goes. The game launched in December twenty twenty with huge hype and a very rough start, and then became one of the biggest comeback stories in gaming. In this explainer we cover the world, the story, the launch problems, the big fixes and where the game stands today.",
+      "images": ["steam:1091500:1", "wiki:Cyberpunk 2077", "steam:1091500:2"]
+    },
+    {
+      "heading": "Who made it",
+      "script": "Cyberpunk 2077 was developed by CD Projekt Red and published by its parent company, CD Projekt. The studio became famous for The Witcher three, so expectations for its next big project were enormous. The game runs on REDengine four, the studio's own technology, built to draw a huge, detailed city full of lights, signs and crowds. The idea was not new either. Cyberpunk comes from a science fiction style that mixes high technology with a gritty, low life society, and the game is inspired by it. Fans waited for years, and the game was delayed several times before it finally arrived. When it launched, the studio's goal was clear: to make a story driven open world where your choices matter, set in a place unlike any fantasy kingdom.",
+      "images": ["wiki:CD Projekt Red", "steam:1091500:3", "wiki:Cyberpunk 2077"]
+    },
+    {
+      "heading": "Night City and the world",
+      "script": "The game takes place in Night City, a fictional city in California ruled by powerful corporations rather than normal governments. It is a place of huge towers, crowded markets, gangs and glowing advertisements. The city is split into districts, and each one has its own feel, from rich corporate zones to rough neighborhoods and the dusty badlands outside. Cyberware is everywhere. People swap in new eyes, arms and implants to run faster, hack systems or hit harder. This is more than decoration, because the city shapes the stories you meet. You can walk the streets, take side jobs from fixers, drive cars and bikes, and stumble into small stories on every corner. Night City is really the main character of the game, and it is the reason many players keep coming back.",
+      "images": ["steam:1091500:2", "steam:1091500:1", "steam:1091500:3"]
+    },
+    {
+      "heading": "V and Johnny Silverhand",
+      "script": "You play as V, a freelance mercenary trying to make a name in Night City. You choose V's background, look and skills, and the voice actors for V are Gavin Drea for the male version and Cherami Leigh for the female version. A big job goes wrong, and V ends up with a dangerous piece of technology in their head. It carries the digital engram of Johnny Silverhand, a rebel rockstar from the past, played by Keanu Reeves. Johnny appears as a voice and a ghostly figure only V can see, and the two must share one body while the clock is ticking. Their uneasy friendship is the emotional heart of the story. It is funny, tense and sad at different moments, and it is the part of the game almost everyone remembers.",
+      "images": ["wiki:Cyberpunk 2077", "steam:1091500:1", "steam:1091500:3"]
+    },
+    {
+      "heading": "How you play",
+      "script": "Gameplay is about freedom. You can fight with guns, blades or hacking, and many missions let you pick your own path. You can sneak in quietly, rush in with weapons, or use technology to turn the enemy's own gear against them. Your character grows through attributes and skill trees, so a hacker plays very differently from a heavy gunner. Dialogue choices matter too, and sometimes a skill check opens a path that other players never see. Between missions you can explore, shop, customize your car and clothes, and take on side gigs. The fun comes from combining all these options, which is why two players can finish the same quest in completely different ways. That freedom was promised before launch and it is what the game does best today.",
+      "images": ["steam:1091500:2", "steam:1091500:3", "steam:1091500:1"]
+    },
+    {
+      "heading": "The rough launch",
+      "script": "Cyberpunk 2077 released on the tenth of December, twenty twenty, on PlayStation four, Xbox One, Windows and Google Stadia. On a strong computer it could look amazing, but on the older consoles the game suffered from many bugs and serious performance problems. Frame rates dropped, textures failed to load and characters glitched. Players were upset because the marketing had shown something much more polished. The studio apologized and promised fixes. It was a painful moment for a team that had earned so much trust with The Witcher. The game still sold in huge numbers, which shows how excited people were, but the quality of the console version overshadowed everything else. Many fans felt the game had been released too early, and the conversation about it changed overnight.",
+      "images": ["steam:1091500:1", "wiki:Cyberpunk 2077", "wiki:CD Projekt Red"]
+    },
+    {
+      "heading": "Removed from PlayStation Store",
+      "script": "Things got even more serious soon after. In December twenty twenty, Sony removed Cyberpunk 2077 from the PlayStation Store until further notice and offered refunds, because of the poor performance on the older PlayStation four consoles. Xbox also offered refunds through its normal request system, while the game stayed on sale there. It was a rare and dramatic step for such a major release. CD Projekt Red said it was working hard to fix the problems and promised a long series of patches. The game returned to the PlayStation Store in June twenty twenty one. The removal became a symbol of the launch trouble, but it also set the stage for the studio's long journey to repair the game and win players back.",
+      "images": ["wiki:Cyberpunk 2077", "steam:1091500:2", "wiki:CD Projekt Red"]
+    },
+    {
+      "heading": "The long road of fixes",
+      "script": "After the launch, the studio kept releasing patches that fixed bugs, improved stability and added new features. In February twenty twenty two the game arrived on PlayStation five and Xbox Series X and S, which finally ran it much better than the old consoles. Over the following years the team worked steadily, and many players noticed that the game was becoming the experience that had been promised. The studio did not rush to say it was finished. It continued to listen to feedback and improve the game bit by bit. This slow and honest work is a big part of why the story ended happily. It shows that a game does not have to be judged forever by its first week, and that patient updates can change how people see a project.",
+      "images": ["steam:1091500:3", "wiki:Cyberpunk 2077", "steam:1091500:1"]
+    },
+    {
+      "heading": "Update 2.0 and Phantom Liberty",
+      "script": "The biggest turning point came in September twenty twenty three. On the twenty first of September, Update 2.0 arrived on PC, PlayStation five and Xbox Series X and S as a free update for everyone. Five days later, on the twenty sixth of September, the expansion Phantom Liberty released, the first and last expansion for the game. It added a spy thriller story and Idris Elba as Solomon Reed, a retired spy. Players and critics praised the expansion as a strong, tense story, and it helped bring back many people who had given up on the game. Phantom Liberty is often named as the moment the comeback was truly complete, and it is the best place to start for returning players.",
+      "images": ["wiki:Cyberpunk 2077: Phantom Liberty", "steam:1091500:2", "steam:1091500:1"]
+    },
+    {
+      "heading": "Edgerunners and the sales story",
+      "script": "Another boost came from Cyberpunk Edgerunners, an anime series on Netflix set in the same world. It helped bring new fans to Night City and was widely mentioned in the game's critical reappraisal. The numbers show the comeback clearly. Reports said the game passed thirty million copies sold in its latest financial results, then thirty five million as of the twenty sixth of November twenty twenty five, and over forty million copies as of the third of July twenty twenty six. That total includes the base game and the Ultimate Edition with Phantom Liberty. The game also came to later platforms, including Nintendo Switch two and Mac. Few games have turned such a bad launch into such lasting success. Its story is now taught as an example of staying with a project.",
+      "images": ["wiki:Cyberpunk: Edgerunners", "wiki:Cyberpunk 2077", "steam:1091500:3"]
+    },
+    {
+      "heading": "Should you play it today",
+      "script": "If you were put off by the launch stories, now is a very different time to try Cyberpunk 2077. The game is much more stable, the update two point zero patch is in, and Phantom Liberty adds one of the best stories the studio has written. Start with a character build that suits your style, whether that means hacking, shooting or sneaking, and take your time with the side quests, because many of the best moments are hidden there. If you enjoy big role playing games with strong characters, it is easy to recommend. So tell us, did you play it at launch, or did you wait for the comeback? And which part of Night City is your favorite? Let us know in the comments, and subscribe to the channel for more game explainers.",
+      "images": ["steam:1091500:1", "wiki:Cyberpunk 2077: Phantom Liberty", "steam:1091500:2"]
+    }
+  ]
+}

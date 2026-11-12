@@ -1,0 +1,49 @@
+{
+  "id": "reel-laapataa-ladies-facts",
+  "category": "movies",
+  "slot": "reel",
+  "order": 83,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Laapataa Ladies: Filmfare mein 13 award ka record",
+  "title": "Laapataa Ladies Facts | Kiran Rao | 13 Filmfare Awards | Movie News Hindi",
+  "video_script": "Laapataa Ladies को Kiran Rao ने डायरेक्ट किया, और इसके producers हैं Kiran Rao, Aamir Khan और Jyoti Deshpande. फ़िल्म 1 March 2024 को थिएटर में आई. 70th Filmfare Awards में इसने 13 award जीते, जिनमें Best Film और Best Director शामिल हैं. ये Gully Boy के record की बराबरी थी. India ने इसे 97th Academy Awards के लिए अपनी entry भी चुना था, पर ये nominate नहीं हुई. आपका favourite scene कौन सा है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Laapataa Ladies",
+      "label": "Laapataa Ladies"
+    },
+    {
+      "image": "wiki:Kiran Rao",
+      "fact": "Director Kiran Rao",
+      "sub": null
+    },
+    {
+      "image": "wiki:Laapataa Ladies",
+      "fact": "13 Filmfare Awards",
+      "sub": null
+    },
+    {
+      "image": "wiki:Laapataa Ladies",
+      "fact": "India ki Oscar entry",
+      "sub": null
+    }
+  ],
+  "description": "Laapataa Ladies (2024): directed by Kiran Rao, 13 wins at the 70th Filmfare Awards including Best Film and Best Director, India's entry for the 97th Academy Awards (not nominated). Sources: Wikipedia, Tribune India, Deccan Herald.",
+  "hashtags": [
+    "LaapataaLadies",
+    "KiranRao",
+    "Filmfare"
+  ],
+  "tags": [
+    "Laapataa Ladies",
+    "Kiran Rao",
+    "Filmfare Awards",
+    "Aamir Khan",
+    "Oscar entry",
+    "Bollywood films",
+    "Hindi cinema"
+  ]
+}

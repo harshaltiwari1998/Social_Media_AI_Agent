@@ -1,0 +1,45 @@
+{
+  "id": "bejeweled-diamond-mine",
+  "slot": "classic",
+  "order": 100,
+  "headline": "Bejeweled",
+  "title": "Bejeweled Facts | From Diamond Mine To Hall Of Fame | Classic Games",
+  "video_script": "Bejeweled started in two thousand as a browser game called Diamond Mine by the team that became PopCap Games. It was renamed Bejeweled when it went onto MSN Games. Swapping gems to match three of a kind popularized the match three style. In twenty twenty, The Strong National Museum of Play inducted it into the World Video Game Hall of Fame. Which match three game is your favorite? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Bejeweled (video game)",
+      "label": "Bejeweled"
+    },
+    {
+      "image": "wiki:Bejeweled (video game)",
+      "fact": "Diamond Mine",
+      "sub": "Its first name"
+    },
+    {
+      "image": "wiki:Bejeweled (video game)",
+      "fact": "PopCap Games",
+      "sub": "Made it"
+    },
+    {
+      "image": "wiki:Bejeweled (video game)",
+      "fact": "2020",
+      "sub": "World Video Game Hall of Fame"
+    }
+  ],
+  "description": "Bejeweled began as Diamond Mine by PopCap Games and was inducted into the World Video Game Hall of Fame in 2020. Sources: Wikipedia, The Strong National Museum of Play.",
+  "hashtags": [
+    "Bejeweled",
+    "PopCap",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Bejeweled",
+    "Diamond Mine",
+    "PopCap Games",
+    "match three",
+    "puzzle games",
+    "gaming facts",
+    "classic games"
+  ],
+  "joke": "One more match and then I stop, said everyone, forever."
+}

@@ -1,0 +1,49 @@
+{
+  "id": "reel-sairat-facts",
+  "category": "movies",
+  "slot": "reel",
+  "order": 84,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Sairat: 4 crore ki Marathi film ne kiya 110 crore",
+  "title": "Sairat Facts | Nagraj Manjule | Rinku Rajguru Akash Thosar | Movie News Hindi",
+  "video_script": "Sairat 2016 की Marathi film है, जिसे Nagraj Manjule ने डायरेक्ट किया. ये 29 April 2016 को रिलीज़ हुई और Berlin Film Festival में भी दिखाई गई. Rinku Rajguru और Akash Thosar की ये पहली फ़िल्म थी. करीब 4 करोड़ के budget में बनी इस film ने लगभग 110 करोड़ रुपये कमाए. इसका संगीत Ajay-Atul ने दिया, और Hindi में इसकी remake थी Dhadak. आपको Sairat का कौन सा गाना पसंद है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Sairat",
+      "label": "Sairat"
+    },
+    {
+      "image": "wiki:Nagraj Manjule",
+      "fact": "Nagraj Manjule",
+      "sub": null
+    },
+    {
+      "image": "wiki:Rinku Rajguru",
+      "fact": "Pehli film",
+      "sub": null
+    },
+    {
+      "image": "wiki:Sairat",
+      "fact": "4 crore se 110 crore",
+      "sub": null
+    }
+  ],
+  "description": "Sairat (2016): Marathi film by Nagraj Manjule, released 29 April 2016, screened at the 66th Berlin Film Festival, debut for Rinku Rajguru and Akash Thosar, budget about 4 crore, gross about 110 crore, music by Ajay-Atul, Hindi remake Dhadak (2018). Sources: Wikipedia, DNA India.",
+  "hashtags": [
+    "Sairat",
+    "NagrajManjule",
+    "MarathiCinema"
+  ],
+  "tags": [
+    "Sairat",
+    "Nagraj Manjule",
+    "Rinku Rajguru",
+    "Akash Thosar",
+    "Marathi cinema",
+    "Ajay Atul",
+    "Dhadak"
+  ]
+}

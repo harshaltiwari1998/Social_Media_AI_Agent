@@ -10701,5 +10701,26 @@
         "epic games free games this week"
       ]
     }
+  },
+  "fifa-ea-sports-fc-franchise-history": {
+    "spec": "scripts/specs/long/gaming_105_fifa-ea-sports-fc-franchise-history.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-085dde2b.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-085dde2b-thumb.jpg",
+    "chapters": "0:00 A football series with two names\n0:42 The Christmas rush of nineteen ninety three\n1:21 FIFA International Soccer\n2:03 Real names and a three dimensional pitch\n2:47 The yearly release machine\n3:29 Ultimate Team and the modern game\n4:09 Women's national teams arrive in FIFA 16\n4:55 The split announced in twenty twenty two\n5:34 EA Sports FC 24 begins a new chapter\n6:12 What the history teaches us\n6:51 Your favourite football game"
+  },
+  "the-sims-franchise-history": {
+    "spec": "scripts/specs/long/gaming_106_the-sims-franchise-history.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-9936e2ff.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-9936e2ff-thumb.jpg",
+    "chapters": "0:00 The game about everyday life\n0:42 Will Wright and SimCity\n1:22 Maxis joins Electronic Arts\n1:59 The Sims arrives in February two thousand\n2:32 Passing Myst\n3:13 Expansion packs and the Sims habit\n3:50 The Sims 2 in two thousand four\n4:29 The Sims 3 and the open neighbourhood\n5:05 The Sims 4 and the free to play day\n5:45 Why The Sims lasts\n6:23 Which Sims game is your favourite"
+  },
+  "deepika-padukone-safar": {
+    "spec": "scripts/specs/long/movies_25_deepika-padukone-safar.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-4e0dcd21.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-4e0dcd21-thumb.jpg",
+    "chapters": "0:00 एक सितारे की कहानी\n0:41 Copenhagen से Bangalore\n1:28 मॉडलिंग से अभिनय तक\n2:12 Om Shanti Om का जादू\n2:54 संघर्ष का दौर\n3:39 Cocktail से वापसी\n4:25 Piku और Bhansali की फिल्में\n5:14 मानसिक स्वास्थ्य की आवाज़\n5:59 निर्माता और नई पारी\n6:50 आपकी राय"
   }
 }

@@ -10150,5 +10150,19 @@
       "name": "Gengia",
       "types": "Ghost/Psychic"
     }
+  },
+  "fusion-typhlosion+gardevoir": {
+    "kind": "motion",
+    "spec": "scripts/specs/fusion_pairs.json",
+    "video": "F:\\AI AGENT\\universal-ai-agent\\backend\\media_output\\pokemon\\fusion-typhlosion+gardevoir\\final.mp4",
+    "data": {
+      "id": "typhlosion+gardevoir",
+      "family": "pokemon",
+      "sprite": true,
+      "a": "Typhlosion",
+      "b": "Gardevoir",
+      "name": "Typhlovoir",
+      "types": "Fire/Psychic"
+    }
   }
 }

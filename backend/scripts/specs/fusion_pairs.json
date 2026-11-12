@@ -257,5 +257,27 @@
   "b": "typhlosion",
   "name": "Typhligatr",
   "if_sprite": "157.160"
+ },
+ {
+  "a": "typhlosion",
+  "b": "gardevoir",
+  "name": "Typhlovoir",
+  "if_sprite": "157.287"
+ },
+ {
+  "a": "charizard",
+  "b": "giratina-altered",
+  "name": "Charitina",
+  "names": [
+   "Charizard",
+   "Giratina"
+  ],
+  "if_sprite": "6.345"
+ },
+ {
+  "a": "gengar",
+  "b": "lugia",
+  "name": "Gengia",
+  "if_sprite": "249.94"
  }
 ]

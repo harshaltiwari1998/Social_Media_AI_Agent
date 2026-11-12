@@ -57,7 +57,20 @@ def _get_json(url: str, params: dict) -> dict:
     raise AssertionError("unreachable")
 
 
-def _resolve_url(ref: str) -> str:
+# Wikipedia files are asked for at 1920 px wide (the API hands back the original when it is smaller). Some originals
+# never finish downloading from upload.wikimedia.org: "Deepika Padukone 2025 (1).png" (1.5 MB, 1080 px) timed out
+# after 3 min on CI and on the laptop, which failed every movie long-video run from 28 Oct to 11 Nov 2026, while its
+# 960 px copy on thumb.wikimedia.org came in 1 s - so fetch_image retries a failed download with that smaller copy.
+_WIKI_WIDTH = 1920
+_WIKI_FALLBACK_WIDTH = 960
+
+
+def _wiki_file_url(files: dict) -> str:
+    info = next(iter(files.values()))["imageinfo"][0]
+    return info.get("thumburl") or info["url"]
+
+
+def _resolve_url(ref: str, wiki_width: int = _WIKI_WIDTH) -> str:
     kind, _, rest = ref.partition(":")
     if kind == "url":  # url:https://... - store art the store API handed us (Epic key images, Steam capsules)
         return rest
@@ -74,9 +87,9 @@ def _resolve_url(ref: str) -> str:
         return f"https://i.ytimg.com/vi/{video_id}/{variant or 'maxresdefault'}.jpg"
     if kind == "wikifile":
         files = _get_json(
-            _WIKI_API, {"action": "query", "titles": f"File:{rest}", "prop": "imageinfo", "iiprop": "url", "format": "json"}
+            _WIKI_API, {"action": "query", "titles": f"File:{rest}", "prop": "imageinfo", "iiprop": "url", "iiurlwidth": wiki_width, "format": "json"}
         )["query"]["pages"]
-        return next(iter(files.values()))["imageinfo"][0]["url"]
+        return _wiki_file_url(files)
     if kind == "wiki":
         pages = _get_json(
             _WIKI_API, {"action": "query", "titles": rest, "prop": "pageprops", "ppprop": "page_image|page_image_free", "format": "json", "redirects": 1}
@@ -86,9 +99,9 @@ def _resolve_url(ref: str) -> str:
         if not image:
             raise RuntimeError(f"no infobox image on Wikipedia article {rest!r}")
         files = _get_json(
-            _WIKI_API, {"action": "query", "titles": f"File:{image}", "prop": "imageinfo", "iiprop": "url", "format": "json"}
+            _WIKI_API, {"action": "query", "titles": f"File:{image}", "prop": "imageinfo", "iiprop": "url", "iiurlwidth": wiki_width, "format": "json"}
         )["query"]["pages"]
-        return next(iter(files.values()))["imageinfo"][0]["url"]
+        return _wiki_file_url(files)
     raise ValueError(f"unknown image ref {ref!r} (use steam:<appid>:<n>, wiki:<article>, wikifile:<file name>, yt:<id>:<frame> or url:<https url>)")
 
 
@@ -111,7 +124,13 @@ def fetch_image(ref: str) -> Image.Image:
         return _pal_image(ref[4:])
     cached = _art_dir() / (hashlib.sha1(ref.encode()).hexdigest()[:16] + ".png")
     if not cached.exists():
-        data = httpx.get(_resolve_url(ref), headers=_HEADERS, timeout=60, follow_redirects=True).content
+        try:
+            data = httpx.get(_resolve_url(ref), headers=_HEADERS, timeout=60, follow_redirects=True).content
+        except httpx.TransportError:
+            if not ref.startswith(("wiki:", "wikifile:")):
+                raise
+            data = httpx.get(_resolve_url(ref, _WIKI_FALLBACK_WIDTH), headers=_HEADERS, timeout=60,
+                             follow_redirects=True).content
         Image.open(io.BytesIO(data)).convert("RGB").save(cached)
     return Image.open(cached).convert("RGB")
 

@@ -25,7 +25,8 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   (`app/media/text_render.py`). Renderer: `app/media/video_gen.py`.
 - **Voice**: edge-tts 7.3.1 (`en-US-GuyNeural` gaming, `hi-IN-SwaraNeural` movies). 7.2.8 got 403s on CI.
   edge-tts now and then answers "No audio was received" - `video_gen.generate_video` retries narration 4x.
-- **Images**: Wikipedia/Commons (`wiki:`, `wikifile:`), Steam screenshots (`steam:<appid>:<n>`), Palworld
+- **Images**: Wikipedia/Commons (`wiki:`, `wikifile:` - asked for at 1920 px; a download that times out is retried with the 960 px
+  copy: one original that never finished downloading failed every movie long-video run 28 Oct - 11 Nov 2026), Steam screenshots (`steam:<appid>:<n>`), Palworld
   wiki art (`pal:<Name>`), official YouTube frames (`yt:`), official Pokemon artwork on a
   background photo for AI-motion storyboards (`{"poke": name, "background": ref}` in `fal_video.py`, PokeAPI). Local Stable Diffusion 1.5 + x4 upscaler
   (`app/media/image_gen.py`, laptop only). Pollinations balance is empty; Gemini image/Veo need billing.
@@ -205,6 +206,10 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   deletes the branch when the plan is done. `.pushed` in the plan's `gameplay_out` folder stops a re-push.
   Pushes go in ~300 MB steps (one 2 GB push got HTTP 500), `posted.json` last (CI skips a branch without it), and
   at most `MAX_ON_CLOUD` = 2 plans sit on GitHub at once (2-3 GB each) - the laptop task pushes the next later.
+  The RDR2 recordings were deleted on 2026-11-12 (owner request, 49.6 GB) after every clip of all 15 plans was
+  checked as rendered (592 shorts + 41 long in `gameplay_out/<plan>/`): `gameplay_daily.rendered(plan)` lets a
+  fully rendered plan be pushed / posted without its recording. The rendered clips are now the only copy -
+  never delete a `gameplay_out/<plan>` folder before its plan is fully posted (the streams can be re-downloaded).
 - `scripts/rashifal.py` - Hindi daily rashifal (owner request Nov 2026; main FB Page "AI Trend Poster" only, no new
   channel). Since 2026-11-11 ONE video a day with all 12 rashis (~3.5 min: intro card with the 12 symbols, ~13 s per
   rashi, chapters in the description, post id `custom:rashifal-<date>-all`); `--separate` = the old 12 shorts. Each
@@ -343,6 +348,8 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-12 - RDR2 stream recordings deleted after all 15 plans were rendered; `gameplay_daily.py` posts rendered plans without the recording; fusion pairs can override shown names (`names`).
+- 2026-11-12 - Wikipedia images: 1920 px copy, 960 px retry on a timed-out download (`game_videos.fetch_image`) - no movie long video had been built since 27 Oct; gaming long specs are used up (0 of 56 left).
 - 2026-11-11 - Pokemon fusions from Infinite Fusion sprites redrawn as "3D + aura" + one Wan clip of the fused creature (`.cache/if_hd.py`, `if_video.py`, `if_sprite` pairs with credit); 6 approved and queued.
 - 2026-11-11 - AI Trend Poster: cinema-style movie shorts (`cinema_video.py`), ONE combined rashifal a day with symbol pictures, trend-news off; fusion compilations (`.cache/fusion_compilation.py`, `post_one.py comp:<family>:<tag>`); Pokemon fusion text-only art only for `text_only` pairs.
 - 2026-11-11 - `daily-rashifal.yml` downloads the Hindi fonts + ephemeris with retries (it had failed in 2 s every day).

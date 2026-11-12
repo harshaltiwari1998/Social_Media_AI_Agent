@@ -54,6 +54,15 @@ def main() -> None:
         lock.unlink(missing_ok=True)
 
 
+def rendered(plan: dict) -> bool:
+    """Every short and long video of the plan (with its thumbnail and chapters) is already in its gameplay_out folder."""
+    dest = gc.OUT / plan["name"]
+    files = [dest / f"short_{n:02d}.mp4" for n in range(1, len(plan.get("shorts", [])) + 1)]
+    for n in range(1, len(plan.get("longs", [])) + 1):
+        files += [dest / f"long_{n}{s}" for s in (".mp4", "_thumb.jpg", "_chapters.txt")]
+    return all(f.exists() and f.stat().st_size > 0 for f in files)
+
+
 def _run_plans() -> None:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s",
                         handlers=[logging.FileHandler(gc.OUT / f"gameplay-{date.today()}.log", encoding="utf-8"),
@@ -68,19 +77,25 @@ def _run_plans() -> None:
         left = pending(plan)
         if not left:
             continue
-        if not Path(plan["source"]).exists():
-            log.warning("%s: %d clips left but the recording is gone (%s)", plan["name"], left, plan["source"])
+        # owner 2026-11-12: the recordings are deleted once every clip of a plan is rendered (F: space) - such a plan
+        # still has to be pushed / posted from its rendered files, only the render step is skipped
+        have_source = Path(plan["source"]).exists()
+        if not have_source and not rendered(plan):
+            log.warning("%s: %d clips left, not all rendered and the recording is gone (%s)", plan["name"], left, plan["source"])
             continue
-        log.info("== %s: %d clips left - rendering what is missing", plan["name"], left)
+        log.info("== %s: %d clips left - %s", plan["name"], left,
+                 "rendering what is missing" if have_source else "all rendered, recording deleted")
         if plan.get("cloud"):  # GitHub Actions (daily-gameplay.yml) posts it - the laptop only renders and pushes
             try:
-                gc.build(plan)
+                if have_source:
+                    gc.build(plan)
                 gameplay_cloud.push(plan)
             except Exception:
                 log.exception("%s: render/push failed - will retry next run", plan["name"])
             continue
         try:
-            gc.build(plan)
+            if have_source:
+                gc.build(plan)
             posted = gc.upload(plan, long_limit=budget["long"], short_limit=budget["short"]) or {}
             for kind in budget:
                 budget[kind] -= posted.get(kind, 0)

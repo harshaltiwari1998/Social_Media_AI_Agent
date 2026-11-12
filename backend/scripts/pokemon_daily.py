@@ -121,11 +121,12 @@ def pair_id(pair: dict) -> str:
 
 
 def fusion_meta(pair: dict) -> dict:
+    # "names": [a, b] overrides the shown names when the PokeAPI slug is a form ("giratina-altered" -> "Giratina")
     fam = pair.get("family", "pokemon")
     a, b = pair["a"], pair["b"]
     types = pair.get("types") or pair.get("method") or "/".join(dict.fromkeys([fi.primary_type(a), fi.primary_type(b)]))
     disp = fi.display if fam == "pokemon" else (lambda n: n)
-    return {"id": pair_id(pair), "family": fam, **({"fan": True} if pair.get("fan") else {}), **({"sprite": True} if pair.get("if_sprite") else {}), "a": disp(a), "b": disp(b), "name": pair["name"], "types": types}
+    return {"id": pair_id(pair), "family": fam, **({"fan": True} if pair.get("fan") else {}), **({"sprite": True} if pair.get("if_sprite") else {}), "a": (pair.get("names") or [disp(a)])[0], "b": (pair.get("names") or [0, disp(b)])[1], "name": pair["name"], "types": types}
 
 
 def fusion_post_id(meta: dict) -> str:

@@ -237,6 +237,14 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
 - `scripts/fal_video.py`, `motion_daily.py`, `lucario_*.py` - AI-motion experiments (Wan/Kling/Flow).
 - `scripts/fusion_inbox.py` - inbox clip -> 9:16 short (blurred fill, names, fusion name + PokeAPI type, outro),
   posts to the gaming platforms, lists fully posted clips so `fusion-inbox.yml` deletes them from `inbox/`.
+- `scripts/laptop_batch.py <tag> <daily_job options>` - laptop batch of spec shorts (owner asks "10 Aniimo + 10 Palworld"): fresh run
+  folder `F:/AI AGENT/run_<tag>` from the latest `gaming-state`, `daily_job.py --skip-trends --from-end` with every default slot 0,
+  then `merge_state.py` + push (5 tries; a failed merge leaves `.unmerged` and the next run merges it first).
+  `laptop_batch.py evo --evolution --max-shorts 3` runs `pokemon_daily.py` the same way (takes over `motion-cache` clips, keeps
+  `run_evo` so a half-made line continues). **ZeroGPU quota**: the PRO quota resets at ~19:57 IST; `daily-pokemon.yml` usually
+  starts ~19:30 IST, when the day's quota is already gone (12 Nov log: "105s requested vs. 50s left, try again in 0:27") - so the
+  evolution shorts are made by the laptop task at 20:15 and the CI run is only the backup (it skips posted lines). Keep every
+  other laptop ZeroGPU use (Qwen Space fusion art) for after that task.
 - `scripts/pokemon_daily.py` - free Pokemon evolution shorts on CI: official artwork start frames + free Wan 2.2
   (HF ZeroGPU on an HF PRO account, `HF_TOKEN` secret, 4 clips per short, max 3 new shorts a run - `--max-shorts`). Clips persist on the **`motion-cache`**
   branch between runs; finished shorts post to the gaming platforms (`kind: "motion"` in game_videos.json,
@@ -257,6 +265,7 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
 | 16:00 | `daily-deals.yml` - up to 10 free-game / deal shorts + 2 long deal roundups (Epic + Steam, live) |
 | 18:00 | `daily-long.yml` - 2 long gaming + 1 long movie |
 | 19:00 | `daily-gameplay.yml` - 1 long + 8 shorts of own-stream clips from `clips/*` branches (laptop renders + pushes) |
+| 20:15 | Laptop task **Pokemon Evolution Daily** (`scripts/evolution_job.cmd` -> `laptop_batch.py evo --evolution --max-shorts 3`) - up to 3 evolution shorts right after the ZeroGPU quota reset; log `backend/logs/evolution_laptop.log` |
 | 20:00 | `daily-rashifal.yml` - next day's 12 Hindi rashifal shorts, scheduled 06:00-06:55 IST on the AI Trend Poster FB Page |
 | 21:00 | `daily-anipal.yml` 2nd half - 5 Aniimo + 3 Palworld guide + 2 breeding + 1 long (aniimo) |
 | Sun 19:30 | `weekly-report.yml` - stats issue |
@@ -348,6 +357,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-12 - Evolution shorts move to a laptop task at 20:15 IST (`evolution_job.cmd`, `laptop_batch.py`): the CI run comes just before the ZeroGPU quota reset and found it empty; Magikarp, Froakie, Gible posted from the laptop.
 - 2026-11-12 - RDR2 stream recordings deleted after all 15 plans were rendered; `gameplay_daily.py` posts rendered plans without the recording; fusion pairs can override shown names (`names`).
 - 2026-11-12 - Wikipedia images: 1920 px copy, 960 px retry on a timed-out download (`game_videos.fetch_image`) - no movie long video had been built since 27 Oct; gaming long specs are used up (0 of 56 left).
 - 2026-11-11 - Pokemon fusions from Infinite Fusion sprites redrawn as "3D + aura" + one Wan clip of the fused creature (`.cache/if_hd.py`, `if_video.py`, `if_sprite` pairs with credit); 6 approved and queued.

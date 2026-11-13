@@ -11316,5 +11316,54 @@
         }
       ]
     }
+  },
+  "poke-abra": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "F:\\AI AGENT\\run_evo\\pokemon\\abra\\final.mp4",
+    "data": {
+      "id": "abra",
+      "stages": [
+        "abra",
+        "kadabra",
+        "alakazam"
+      ],
+      "type": "psychic",
+      "megas": [
+        "alakazam-mega"
+      ]
+    }
+  },
+  "poke-torchic": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "F:\\AI AGENT\\run_evo\\pokemon\\torchic\\final.mp4",
+    "data": {
+      "id": "torchic",
+      "stages": [
+        "torchic",
+        "combusken",
+        "blaziken"
+      ],
+      "type": "fire",
+      "megas": [
+        "blaziken-mega"
+      ]
+    }
+  },
+  "poke-machop": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "F:\\AI AGENT\\run_evo\\pokemon\\machop\\final.mp4",
+    "data": {
+      "id": "machop",
+      "stages": [
+        "machop",
+        "machoke",
+        "machamp"
+      ],
+      "type": "fighting",
+      "megas": []
+    }
   }
 }

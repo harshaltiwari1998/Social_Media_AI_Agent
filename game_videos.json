@@ -10840,5 +10840,9 @@
   "palworld-guide-dazemu-sand-sprint": {
     "spec": "scripts/specs/games/palguide_181_dazemu-sand-sprint.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-dcc9fa50.mp4"
+  },
+  "palworld-guide-tocotoco-eggbomb-launcher": {
+    "spec": "scripts/specs/games/palguide_182_tocotoco-eggbomb-launcher.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-bd162e06.mp4"
   }
 }

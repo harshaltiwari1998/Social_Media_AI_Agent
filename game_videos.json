@@ -10844,5 +10844,477 @@
   "palworld-guide-tocotoco-eggbomb-launcher": {
     "spec": "scripts/specs/games/palguide_182_tocotoco-eggbomb-launcher.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-bd162e06.mp4"
+  },
+  "deal-steam-deal-394360-70": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-394360-70.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-83f43fa6.mp4",
+    "data": {
+      "id": "deal-steam-deal-394360-70",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Hearts of Iron IV 70% OFF on Steam | Now Rs 941 | Steam Deal Nov 13",
+      "video_script": "Hearts of Iron IV is on sale on Steam at 70 percent off, down from 3,139 rupees to just 941 rupees. Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation in World War II; the most. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/67bbd0057627fc2244793bcdd09260c2539499cf/header.jpg?t=1794491980",
+          "label": "Hearts of Iron IV"
+        },
+        {
+          "image": "steam:394360:0",
+          "fact": "-70%  Rs 941",
+          "sub": "was Rs 3,139"
+        },
+        {
+          "image": "steam:394360:1",
+          "fact": "Simulation + Strategy",
+          "sub": "Paradox Development Studio"
+        },
+        {
+          "image": "steam:394360:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Hearts of Iron IV is on sale on Steam at 70 percent off, down from 3,139 rupees to just 941 rupees.\nhttps://store.steampowered.com/app/394360\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 13 2026, 23:28 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Hearts of Iron IV",
+        "Hearts of Iron IV sale",
+        "Hearts of Iron IV price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-2536520-35": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-2536520-35.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ce82a4f5.mp4",
+    "data": {
+      "id": "deal-steam-deal-2536520-35",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Diablo II: Resurrected – Infernal Edition 35% OFF on Steam | Now Rs 1,949 | Steam Deal Nov 13",
+      "video_script": "Diablo II: Resurrected – Infernal Edition is on sale on Steam at 35 percent off, down from 2,999 rupees to just 1,949 rupees. The deal ends on November 18. Rediscover the dark fantasy classic that defined the modern ARPG genre; fully remastered with a new class, fresh content, quality‑of‑life upgrades, and an overhauled endgame. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/8cfd8f0d73075b10b3b58d9eccfee799baffab79/header.jpg?t=1774399170",
+          "label": "Diablo II: Resurrected – Infernal Edition"
+        },
+        {
+          "image": "steam:2536520:0",
+          "fact": "-35%  Rs 1,949",
+          "sub": "was Rs 2,999"
+        },
+        {
+          "image": "steam:2536520:1",
+          "fact": "Action + RPG + Strategy",
+          "sub": "Blizzard Entertainment, Inc."
+        },
+        {
+          "image": "steam:2536520:2",
+          "fact": "Ends Nov 18",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Diablo II: Resurrected – Infernal Edition is on sale on Steam at 35 percent off, down from 2,999 rupees to just 1,949 rupees. The deal ends on November 18.\nhttps://store.steampowered.com/app/2536520\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 13 2026, 23:28 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Diablo II: Resurrected – Infernal Edition",
+        "Diablo II: Resurrected – Infernal Edition sale",
+        "Diablo II: Resurrected – Infernal Edition price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-5378110-30": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-5378110-30.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-06549423.mp4",
+    "data": {
+      "id": "deal-steam-deal-5378110-30",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "One More Lawn 30% OFF on Steam | Now Rs 258 | Steam Deal Nov 13",
+      "video_script": "One More Lawn is on sale on Steam at 30 percent off, down from 369 rupees to just 258 rupees. The deal ends on November 26. Mow lawns in first person on a beat-up riding mower, solo or online co-op up to 6 players. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5378110/9ac5251c1c2fd82c9b6fc5205e71dc94f65ec583/header.jpg?t=1794516748",
+          "label": "One More Lawn"
+        },
+        {
+          "image": "steam:5378110:0",
+          "fact": "-30%  Rs 258",
+          "sub": "was Rs 369"
+        },
+        {
+          "image": "steam:5378110:1",
+          "fact": "Casual + Indie + Simulation",
+          "sub": "Superdou"
+        },
+        {
+          "image": "steam:5378110:2",
+          "fact": "Ends Nov 26",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "One More Lawn is on sale on Steam at 30 percent off, down from 369 rupees to just 258 rupees. The deal ends on November 26.\nhttps://store.steampowered.com/app/5378110\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 13 2026, 23:28 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "One More Lawn",
+        "One More Lawn sale",
+        "One More Lawn price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-5273080-30": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-5273080-30.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-fd07a527.mp4",
+    "data": {
+      "id": "deal-steam-deal-5273080-30",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Ball Pit Cleanup 30% OFF on Steam | Now Rs 132 | Steam Deal Nov 13",
+      "video_script": "Ball Pit Cleanup is on sale on Steam at 30 percent off, down from 189 rupees to just 132 rupees. The deal ends on November 20. Sort thousands of colorful balls into matching pipes. Unlock upgrades and work more efficiently, but be careful: every mistake adds more balls to the pile. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5273080/5fd5852054aad63c814144755ef1317fc7086bbb/header.jpg?t=1794589926",
+          "label": "Ball Pit Cleanup"
+        },
+        {
+          "image": "steam:5273080:0",
+          "fact": "-30%  Rs 132",
+          "sub": "was Rs 189"
+        },
+        {
+          "image": "steam:5273080:1",
+          "fact": "Casual + Indie + Simulation",
+          "sub": "tommyrot"
+        },
+        {
+          "image": "steam:5273080:2",
+          "fact": "Ends Nov 20",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Ball Pit Cleanup is on sale on Steam at 30 percent off, down from 189 rupees to just 132 rupees. The deal ends on November 20.\nhttps://store.steampowered.com/app/5273080\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 13 2026, 23:28 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Ball Pit Cleanup",
+        "Ball Pit Cleanup sale",
+        "Ball Pit Cleanup price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-5373210-30": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-5373210-30.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-6e96e001.mp4",
+    "data": {
+      "id": "deal-steam-deal-5373210-30",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Arteria 30% OFF on Steam | Now Rs 356 | Steam Deal Nov 13",
+      "video_script": "Arteria is on sale on Steam at 30 percent off, down from 509 rupees to just 356 rupees. The deal ends on November 27. Build roads, intersections, and tram lines. The city grows on its own along the roads you lay. Ease congestion and turn a village into a metropolis. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5373210/db45aefea26b7a68339b9af56979281c37374ffc/header.jpg?t=1794589658",
+          "label": "Arteria"
+        },
+        {
+          "image": "steam:5373210:0",
+          "fact": "-30%  Rs 356",
+          "sub": "was Rs 509"
+        },
+        {
+          "image": "steam:5373210:1",
+          "fact": "Simulation",
+          "sub": "Pomerania Games"
+        },
+        {
+          "image": "steam:5373210:2",
+          "fact": "Ends Nov 27",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Arteria is on sale on Steam at 30 percent off, down from 509 rupees to just 356 rupees. The deal ends on November 27.\nhttps://store.steampowered.com/app/5373210\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 13 2026, 23:28 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Arteria",
+        "Arteria sale",
+        "Arteria price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-5458210-30": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-5458210-30.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f8af8a06.mp4",
+    "data": {
+      "id": "deal-steam-deal-5458210-30",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "How They Built the Pyramids 30% OFF on Steam | Now Rs 223 | Steam Deal Nov 13",
+      "video_script": "How They Built the Pyramids is on sale on Steam at 30 percent off, down from 319 rupees to just 223 rupees. The deal ends on November 20. A chaotic online co-op building game for 1–8 players. Make bricks, build a giant pyramid and turn a small operation into a massive automated production line. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5458210/e8525d1cf30149534fbc6b2ee780a2dddc2f328b/header.jpg?t=1794589252",
+          "label": "How They Built the Pyramids"
+        },
+        {
+          "image": "steam:5458210:0",
+          "fact": "-30%  Rs 223",
+          "sub": "was Rs 319"
+        },
+        {
+          "image": "steam:5458210:1",
+          "fact": "Casual + Indie + Simulation",
+          "sub": "Pattez Games"
+        },
+        {
+          "image": "steam:5458210:2",
+          "fact": "Ends Nov 20",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "How They Built the Pyramids is on sale on Steam at 30 percent off, down from 319 rupees to just 223 rupees. The deal ends on November 20.\nhttps://store.steampowered.com/app/5458210\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 13 2026, 23:28 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "How They Built the Pyramids",
+        "How They Built the Pyramids sale",
+        "How They Built the Pyramids price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-5256610-30": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-5256610-30.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-fcfbca1c.mp4",
+    "data": {
+      "id": "deal-steam-deal-5256610-30",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Business Tycoon 30% OFF on Steam | Now Rs 280 | Steam Deal Nov 13",
+      "video_script": "Business Tycoon is on sale on Steam at 30 percent off, down from 400 rupees to just 280 rupees. The deal ends on November 27. Build a business empire across the United States. Create companies, open and upgrade assets. Expand across industries, dominate markets, control a growing share of the economy, and build a trillion-dollar fortune. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5256610/9d511a6b3c4966b386acb291bc9a7805ceab94a7/header.jpg?t=1794586105",
+          "label": "Business Tycoon"
+        },
+        {
+          "image": "steam:5256610:0",
+          "fact": "-30%  Rs 280",
+          "sub": "was Rs 400"
+        },
+        {
+          "image": "steam:5256610:1",
+          "fact": "Casual + Indie + Simulation",
+          "sub": "Tycoon Games"
+        },
+        {
+          "image": "steam:5256610:2",
+          "fact": "Ends Nov 27",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Business Tycoon is on sale on Steam at 30 percent off, down from 400 rupees to just 280 rupees. The deal ends on November 27.\nhttps://store.steampowered.com/app/5256610\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 13 2026, 23:28 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Business Tycoon",
+        "Business Tycoon sale",
+        "Business Tycoon price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deals-biggest-2026-11-13": {
+    "spec": "scripts/specs/deals/long/deals-biggest-2026-11-13.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-a253920b.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-a253920b-thumb.jpg",
+    "chapters": "0:00 Today's deals\n0:09 Ball Pit Cleanup - 30% off\n0:42 Arteria - 30% off\n1:15 How They Built the Pyramids - 30% off\n1:55 Business Tycoon - 30% off\n2:32 Cities: Skylines II - 30% off\n3:11 Which one are you grabbing",
+    "data": {
+      "id": "deals-biggest-2026-11-13",
+      "category": "gaming",
+      "title": "Biggest Steam Discounts Today | Up to 30% OFF | Nov 13",
+      "description": "These are the biggest discounts on Steam for November 13. 5 games, from 30 percent off down, with the India price for each.\n\n- Ball Pit Cleanup: -30% Rs 132 (was Rs 189) - https://store.steampowered.com/app/5273080\n- Arteria: -30% Rs 356 (was Rs 509) - https://store.steampowered.com/app/5373210\n- How They Built the Pyramids: -30% Rs 223 (was Rs 319) - https://store.steampowered.com/app/5458210\n- Business Tycoon: -30% Rs 280 (was Rs 400) - https://store.steampowered.com/app/5256610\n- Cities: Skylines II: -30% Rs 2,197 (was Rs 3,139) - https://store.steampowered.com/app/949230\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 13 2026, 23:28 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "SteamSale",
+        "EpicGames",
+        "GameDeals"
+      ],
+      "tags": [
+        "Ball Pit Cleanup",
+        "Arteria",
+        "How They Built the Pyramids",
+        "Business Tycoon",
+        "Cities: Skylines II",
+        "free games",
+        "steam sale",
+        "steam deals today",
+        "epic games free games",
+        "best game deals",
+        "steam sale india",
+        "cheap pc games",
+        "games under 500 rupees"
+      ],
+      "thumbnail": {
+        "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5273080/5fd5852054aad63c814144755ef1317fc7086bbb/header.jpg?t=1794589926",
+        "text": "UP TO 30% OFF"
+      },
+      "sections": [
+        {
+          "heading": "Today's deals",
+          "script": "These are the biggest discounts on Steam for November 13. 5 games, from 30 percent off down, with the India price for each.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5273080/5fd5852054aad63c814144755ef1317fc7086bbb/header.jpg?t=1794589926",
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5373210/db45aefea26b7a68339b9af56979281c37374ffc/header.jpg?t=1794589658",
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5458210/e8525d1cf30149534fbc6b2ee780a2dddc2f328b/header.jpg?t=1794589252"
+          ]
+        },
+        {
+          "heading": "Ball Pit Cleanup - 30% off",
+          "script": "Ball Pit Cleanup is on sale on Steam at 30 percent off, down from 189 rupees to just 132 rupees. The deal ends on November 20. Sort thousands of colorful balls into matching pipes. Unlock upgrades and work more efficiently, but be careful: every mistake adds more balls to the pile. Steam lists it as Casual and Indie and Simulation, made by tommyrot, released 13 Nov, 2026. That saves you 57 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5273080/5fd5852054aad63c814144755ef1317fc7086bbb/header.jpg?t=1794589926",
+            "steam:5273080:0",
+            "steam:5273080:1"
+          ]
+        },
+        {
+          "heading": "Arteria - 30% off",
+          "script": "Arteria is on sale on Steam at 30 percent off, down from 509 rupees to just 356 rupees. The deal ends on November 27. Build roads, intersections, and tram lines. The city grows on its own along the roads you lay. Ease congestion and turn a village into a metropolis. Steam lists it as Simulation, made by Pomerania Games, released 13 Nov, 2026. That saves you 153 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5373210/db45aefea26b7a68339b9af56979281c37374ffc/header.jpg?t=1794589658",
+            "steam:5373210:0",
+            "steam:5373210:1"
+          ]
+        },
+        {
+          "heading": "How They Built the Pyramids - 30% off",
+          "script": "How They Built the Pyramids is on sale on Steam at 30 percent off, down from 319 rupees to just 223 rupees. The deal ends on November 20. A chaotic online co-op building game for 1–8 players. Make bricks, build a giant pyramid and turn a small operation into a massive automated production line. Work together, hire help and find increasingly ridiculous ways to get those bricks to the top. Steam lists it as Casual and Indie and Simulation, made by Pattez Games, released 13 Nov, 2026. That saves you 96 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5458210/e8525d1cf30149534fbc6b2ee780a2dddc2f328b/header.jpg?t=1794589252",
+            "steam:5458210:0",
+            "steam:5458210:1"
+          ]
+        },
+        {
+          "heading": "Business Tycoon - 30% off",
+          "script": "Business Tycoon is on sale on Steam at 30 percent off, down from 400 rupees to just 280 rupees. The deal ends on November 27. Build a business empire across the United States. Create companies, open and upgrade assets. Expand across industries, dominate markets, control a growing share of the economy, and build a trillion-dollar fortune. Steam lists it as Casual and Indie and Simulation, made by Tycoon Games, released 13 Nov, 2026. That saves you 120 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5256610/9d511a6b3c4966b386acb291bc9a7805ceab94a7/header.jpg?t=1794586105",
+            "steam:5256610:0",
+            "steam:5256610:1"
+          ]
+        },
+        {
+          "heading": "Cities: Skylines II - 30% off",
+          "script": "Cities: Skylines II is on sale on Steam at 30 percent off, down from 3,139 rupees to just 2,197 rupees. Raise a city from the ground up and transform it into a thriving metropolis. Push your creativity and problem-solving with deep simulation and a living economy: there’s a map waiting for you in Cities: Skylines II. If you can dream it, you can build it. Steam lists it as Simulation, made by Iceflake Studios, Colossal Order, released 24 Oct, 2023. That saves you 942 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/de14fd18639aed1dd558f7ebb08eb28d6febccb3/header_alt_assets_9.jpg?t=1794506466",
+            "steam:949230:0",
+            "steam:949230:1"
+          ]
+        },
+        {
+          "heading": "Which one are you grabbing",
+          "script": "That's the list for today. Prices on Steam are the India store prices in rupees, and they can change, so always check the store page before you buy. Every link is in the description. Tell me in the comments which game you are grabbing, and subscribe, because we check Epic and Steam every single day and post the free games and the best deals as soon as they go live.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5273080/5fd5852054aad63c814144755ef1317fc7086bbb/header.jpg?t=1794589926"
+          ]
+        }
+      ]
+    }
   }
 }

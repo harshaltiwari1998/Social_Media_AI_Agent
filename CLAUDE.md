@@ -306,6 +306,13 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
 - **Movie shorts look** (owner approved 2026-11-11): full-screen "cinema" style, `scripts/cinema_video.py` (big framed
   picture that slides in and zooms, hook line over the first 1.7 s, white flash on cuts, big fact text, grain +
   vignette). `game_videos.build_video` routes every `category: movies` spec there; `"style": "card"` keeps the old look.
+- **Gaming Facebook Page volume** (owner 2026-11-14): only Pokemon evolutions, fusions (Pokemon / Dragon Ball / Mewtwo
+  stones / compilations) and at most 2 own-stream clips a day (IST) go to `facebook_gaming`; every other gaming upload
+  (Aniimo, Palworld, deals, classic, new, GTA 6, long videos) gets a `skip:fb-volume` marker there and stays on YouTube +
+  Instagram. Gate: `store.fb_gaming_allowed` (called by `daily_job.Poster.post`, `post_long`, `gameplay_clips.upload`).
+  Why: Jun-Aug 2026 the owner's own clips got 100-340 views each (Shiny Articuno 864, GTA 6 joke 1,023); reach already
+  fell to ~13 in Sep; since 21 Oct ~1,000 pipeline videos at 50-90 a day got 0.2 views each. Page status: no
+  restrictions, Recommendations active - it is distribution, not a penalty. Compare views again early Dec.
 - **Volume**: owner wants 20 Aniimo/Palworld shorts + 2 long a day on top of the regular schedule.
   Reach data (Oct 2026): classic games ~207 avg views, Aniimo ~193, Palworld ~97, long videos 40-80;
   a 60-upload day gave 2-5 views each, so gameplay uploads are capped per day.
@@ -357,6 +364,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-14 - Gaming Facebook Page gets only evolutions, fusions and 2 own-stream clips a day (`store.fb_gaming_allowed`): ~1,000 pipeline videos there averaged 0.2 views.
 - 2026-11-12 - Evolution shorts move to a laptop task at 20:15 IST (`evolution_job.cmd`, `laptop_batch.py`): the CI run comes just before the ZeroGPU quota reset and found it empty; Magikarp, Froakie, Gible posted from the laptop.
 - 2026-11-12 - RDR2 stream recordings deleted after all 15 plans were rendered; `gameplay_daily.py` posts rendered plans without the recording; fusion pairs can override shown names (`names`).
 - 2026-11-12 - Wikipedia images: 1920 px copy, 960 px retry on a timed-out download (`game_videos.fetch_image`) - no movie long video had been built since 27 Oct; gaming long specs are used up (0 of 56 left).

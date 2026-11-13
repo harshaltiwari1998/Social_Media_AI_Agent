@@ -251,6 +251,9 @@ def upload(plan: dict, limit: int | None = None, long_limit: int | None = None,
         for platform in todo:
             if platform == "youtube" and yt_blocked:
                 continue
+            if platform == "facebook_gaming" and not store.fb_gaming_allowed(trend_id):
+                print(f"{kind} {n} facebook_gaming: skipped (2 own clips a day on the Page)", flush=True)
+                continue
             poster = _POSTERS[platform]
             if platform == "youtube" and kind == "long":
                 thumb = dest / f"long_{n}_thumb.jpg"

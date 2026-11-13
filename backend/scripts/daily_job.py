@@ -89,6 +89,9 @@ class Poster:
             if name in self.blocked:
                 log.info("  %s: skipped (upload limit reached today, retry tomorrow)", name)
                 continue
+            if name == "facebook_gaming" and not store.fb_gaming_allowed(trend_id):
+                log.info("  %s: skipped (Page gets only fusions / evolutions / 2 own clips a day)", name)
+                continue
             result = _POSTERS[name].post_video(video_path, text, tags=tags)
             store.record_post(trend_id, name, result.post_id, result.dry_run)
             _record_post_result(name, result)
@@ -305,6 +308,9 @@ def post_long(poster: Poster, spec: dict, entry: dict) -> None:
             continue
         if name in poster.blocked:
             log.info("  %s: skipped (upload limit reached today, retry tomorrow)", name)
+            continue
+        if name == "facebook_gaming" and not store.fb_gaming_allowed(trend_id):
+            log.info("  %s: skipped (Page gets only fusions / evolutions / 2 own clips a day)", name)
             continue
         target = _POSTERS[name]
         if name.startswith("youtube"):

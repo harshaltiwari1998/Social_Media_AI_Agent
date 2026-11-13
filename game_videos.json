@@ -10817,5 +10817,28 @@
   "gta6-countdown-06-trailer-two": {
     "spec": "scripts/specs/games/gta6_17_countdown-06.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-fe434f7e.mp4"
+  },
+  "palworld-12-pals-3-combos-each-round-two": {
+    "spec": "scripts/specs/long/gaming_103_palworld-12-pals-3-combos-each-round-two.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-e4fac79b.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-e4fac79b-thumb.jpg",
+    "chapters": "0:00 Intro\n0:42 Before you start\n1:25 Foxcicle and Wixen\n2:10 Sweepa and Loupmoon\n2:56 Rayhound and Tombat\n3:41 Why three combos\n4:23 Swee and Hoodle\n5:07 Warsect and Turtacle\n5:52 Needoll and Finsider\n6:38 Tips\n7:20 Your turn"
+  },
+  "aniimo-alpha-sugartini-rosy-mirelands-boss-tips": {
+    "spec": "scripts/specs/games/aniimo_238_aniimo-alpha-sugartini-rosy-mirelands-boss-tips.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-07d2a6c1.mp4"
+  },
+  "aniimo-lavazar-pebbling-evolution-guide": {
+    "spec": "scripts/specs/games/aniimo_239_aniimo-lavazar-pebbling-evolution-guide.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e8047e6f.mp4"
+  },
+  "palworld-guide-nox-kuudere": {
+    "spec": "scripts/specs/games/palguide_180_nox-kuudere.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-bb9394b8.mp4"
+  },
+  "palworld-guide-dazemu-sand-sprint": {
+    "spec": "scripts/specs/games/palguide_181_dazemu-sand-sprint.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-dcc9fa50.mp4"
   }
 }

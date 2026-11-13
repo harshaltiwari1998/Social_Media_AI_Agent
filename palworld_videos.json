@@ -8336,5 +8336,134 @@
       "unique": false,
       "key": "Chillet 5"
     }
+  },
+  "Loupmoon 5": {
+    "spec": "scripts/specs/palworld_loupmoon_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-8a820162.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Loupmoon",
+      "caption": "5 ways to breed Loupmoon in Palworld 1.0: Shroomer + Flambelle, Nyafia + Clovee, Mimog + Muffly, Bushi + Flopie, Vanwyrm + Galeclaw.",
+      "video_script": "Here are five ways to breed Loupmoon in Palworld one point zero. Combo one: breed Shroomer with Flambelle on your Breeding Farm, then add a cake. Combo two: pair Nyafia and Clovee together, and you get the same egg. Combo three: Mimog plus Muffly works too, so use whichever Pals you have. Combo four: Bushi with Flopie is another easy option. Combo five: breed Vanwyrm with Galeclaw on your Breeding Farm, then add a cake. Every egg hatches into Loupmoon. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Shroomer",
+        "Flambelle"
+      ],
+      "combos": [
+        [
+          "Shroomer",
+          "Flambelle"
+        ],
+        [
+          "Nyafia",
+          "Clovee"
+        ],
+        [
+          "Mimog",
+          "Muffly"
+        ],
+        [
+          "Bushi",
+          "Flopie"
+        ],
+        [
+          "Vanwyrm",
+          "Galeclaw"
+        ]
+      ],
+      "child": "Loupmoon",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false,
+      "key": "Loupmoon 5"
+    }
+  },
+  "Dumud 5": {
+    "spec": "scripts/specs/palworld_dumud_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-3b45d61e.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Dumud",
+      "caption": "5 ways to breed Dumud in Palworld 1.0: Finsider + Munchill, Mimog + Swee, Digtoise + Jolthog, Rayhound + Flopie, Felbat + Sparkit.",
+      "video_script": "Here are five ways to breed Dumud in Palworld one point zero. Combo one: breed Finsider with Munchill on your Breeding Farm, then add a cake. Combo two: pair Mimog and Swee together, and you get the same egg. Combo three: Digtoise plus Jolthog works too, so use whichever Pals you have. Combo four: Rayhound with Flopie is another easy option. Combo five: breed Felbat with Sparkit on your Breeding Farm, then add a cake. Every egg hatches into Dumud. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Finsider",
+        "Munchill"
+      ],
+      "combos": [
+        [
+          "Finsider",
+          "Munchill"
+        ],
+        [
+          "Mimog",
+          "Swee"
+        ],
+        [
+          "Digtoise",
+          "Jolthog"
+        ],
+        [
+          "Rayhound",
+          "Flopie"
+        ],
+        [
+          "Felbat",
+          "Sparkit"
+        ]
+      ],
+      "child": "Dumud",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false,
+      "key": "Dumud 5"
+    }
+  },
+  "Fenglope 5": {
+    "spec": "scripts/specs/palworld_fenglope_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-c556cef4.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Fenglope",
+      "caption": "5 ways to breed Fenglope in Palworld 1.0: Shroomer + Dazzi, Ghangler + Mau, Helzephyr + Fuddler, Incineram + Finsider, Sekhmet + Lamball.",
+      "video_script": "Here are five ways to breed Fenglope in Palworld one point zero. Combo one: breed Shroomer with Dazzi on your Breeding Farm, then add a cake. Combo two: pair Ghangler and Mau together, and you get the same egg. Combo three: Helzephyr plus Fuddler works too, so use whichever Pals you have. Combo four: Incineram with Finsider is another easy option. Combo five: breed Sekhmet with Lamball on your Breeding Farm, then add a cake. Every egg hatches into Fenglope. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Shroomer",
+        "Dazzi"
+      ],
+      "combos": [
+        [
+          "Shroomer",
+          "Dazzi"
+        ],
+        [
+          "Ghangler",
+          "Mau"
+        ],
+        [
+          "Helzephyr",
+          "Fuddler"
+        ],
+        [
+          "Incineram",
+          "Finsider"
+        ],
+        [
+          "Sekhmet",
+          "Lamball"
+        ]
+      ],
+      "child": "Fenglope",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false,
+      "key": "Fenglope 5"
+    }
   }
 }

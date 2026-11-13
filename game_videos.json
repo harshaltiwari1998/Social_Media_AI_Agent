@@ -11365,5 +11365,26 @@
       "type": "fighting",
       "megas": []
     }
+  },
+  "tetris-history-explained": {
+    "spec": "scripts/specs/long/gaming_107_tetris-history-explained.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-42d6fcf1.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-42d6fcf1-thumb.jpg",
+    "chapters": "0:00 The puzzle everyone knows\n0:43 Alexey Pajitnov builds a game\n1:23 Reaching the West\n2:03 Henk Rogers goes to Moscow\n2:41 The Game Boy bundle\n3:18 The legal fight over console rights\n3:55 The Tetris Company is formed\n4:34 Tetris on every screen\n5:13 Tetris ninety nine and Tetris Effect\n5:53 From the games to the screen\n6:30 Your Tetris memories"
+  },
+  "mario-kart-franchise-history": {
+    "spec": "scripts/specs/long/gaming_108_mario-kart-franchise-history.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-bb610c65.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-bb610c65-thumb.jpg",
+    "chapters": "0:00 The racing game everyone plays\n0:48 Super Mario Kart\n1:28 Mario Kart 64 and Double Dash\n2:07 Handheld and Wii years\n2:43 Mario Kart 8 in twenty fourteen\n3:16 Mario Kart 8 Deluxe\n3:54 Mario Kart Tour and keeping the series alive\n4:33 Mario Kart World on Switch 2\n5:15 What makes Mario Kart work\n5:54 Your favourite Mario Kart"
+  },
+  "mahesh-babu-safar": {
+    "spec": "scripts/specs/long/movies_26_mahesh-babu-safar.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-2a8b3002.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-2a8b3002-thumb.jpg",
+    "chapters": "0:00 Superstar की कहानी\n0:42 फिल्मी परिवार में जन्म\n1:24 बाल कलाकार से Prince तक\n2:10 Murari, Okkadu और पहला Filmfare\n2:54 Athadu और Pokiri का दौर\n3:39 Dookudu और स्टारडम\n4:27 Srimanthudu और गांव की मदद\n5:11 Tamil debut और बड़ी हिट\n6:01 पुरस्कार और समाज सेवा\n6:45 Varanasi और आपकी राय"
   }
 }

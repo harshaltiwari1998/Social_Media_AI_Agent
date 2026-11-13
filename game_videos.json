@@ -10801,5 +10801,21 @@
   "cricket-07-century-stick": {
     "spec": "scripts/specs/games/classic_98_cricket-07-century-stick.json",
     "video": "F:\\AI AGENT\\run_games10\\videos\\short-1623019f.mp4"
+  },
+  "aeterna-lucis-december-3": {
+    "spec": "scripts/specs/games/new_49_aeterna-lucis-december-3.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-568f50b6.mp4"
+  },
+  "reel-satyajit-ray-honorary-oscar": {
+    "spec": "scripts/specs/movies/reel_78_satyajit-ray-honorary-oscar.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-17ebe0e7.mp4"
+  },
+  "aniimo-sugarslime-or-sugartini-which-evolution": {
+    "spec": "scripts/specs/games/aniimo_237_aniimo-sugarslime-or-sugartini-which-evolution.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-65773ba1.mp4"
+  },
+  "gta6-countdown-06-trailer-two": {
+    "spec": "scripts/specs/games/gta6_17_countdown-06.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-fe434f7e.mp4"
   }
 }

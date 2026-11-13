@@ -8293,5 +8293,48 @@
       "unique": false,
       "key": "Kingpaca 5"
     }
+  },
+  "Chillet 5": {
+    "spec": "scripts/specs/palworld_chillet_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b2d20caf.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Chillet",
+      "caption": "5 ways to breed Chillet in Palworld 1.0: Fenglope + Flambelle, Foxcicle + Bristla, Tarantriss + Pupperai, Smokie + Tanzee, Dumud + Cawgnito.",
+      "video_script": "Here are five ways to breed Chillet in Palworld one point zero. Combo one: breed Fenglope with Flambelle on your Breeding Farm, then add a cake. Combo two: pair Foxcicle and Bristla together, and you get the same egg. Combo three: Tarantriss plus Pupperai works too, so use whichever Pals you have. Combo four: Smokie with Tanzee is another easy option. Combo five: breed Dumud with Cawgnito on your Breeding Farm, then add a cake. Every egg hatches into Chillet. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Fenglope",
+        "Flambelle"
+      ],
+      "combos": [
+        [
+          "Fenglope",
+          "Flambelle"
+        ],
+        [
+          "Foxcicle",
+          "Bristla"
+        ],
+        [
+          "Tarantriss",
+          "Pupperai"
+        ],
+        [
+          "Smokie",
+          "Tanzee"
+        ],
+        [
+          "Dumud",
+          "Cawgnito"
+        ]
+      ],
+      "child": "Chillet",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false,
+      "key": "Chillet 5"
+    }
   }
 }

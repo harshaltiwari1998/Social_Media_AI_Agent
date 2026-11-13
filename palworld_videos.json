@@ -8465,5 +8465,91 @@
       "unique": false,
       "key": "Fenglope 5"
     }
+  },
+  "Reindrix 5": {
+    "spec": "scripts/specs/palworld_reindrix_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-383a1dbb.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Reindrix",
+      "caption": "5 ways to breed Reindrix in Palworld 1.0: Munchill + Tarantriss, Dazzi + Incineram, Digtoise + Arsox, Frostplume + Sparkit, Ghangler + Foxparks.",
+      "video_script": "Here are five ways to breed Reindrix in Palworld one point zero. Combo one: breed Munchill with Tarantriss on your Breeding Farm, then add a cake. Combo two: pair Dazzi and Incineram together, and you get the same egg. Combo three: Digtoise plus Arsox works too, so use whichever Pals you have. Combo four: Frostplume with Sparkit is another easy option. Combo five: breed Ghangler with Foxparks on your Breeding Farm, then add a cake. Every egg hatches into Reindrix. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Munchill",
+        "Tarantriss"
+      ],
+      "combos": [
+        [
+          "Munchill",
+          "Tarantriss"
+        ],
+        [
+          "Dazzi",
+          "Incineram"
+        ],
+        [
+          "Digtoise",
+          "Arsox"
+        ],
+        [
+          "Frostplume",
+          "Sparkit"
+        ],
+        [
+          "Ghangler",
+          "Foxparks"
+        ]
+      ],
+      "child": "Reindrix",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false,
+      "key": "Reindrix 5"
+    }
+  },
+  "Rayhound 5": {
+    "spec": "scripts/specs/palworld_rayhound_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f63a6ec2.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Rayhound",
+      "caption": "5 ways to breed Rayhound in Palworld 1.0: Ghangler + Pengullet, Dumud + Digtoise, Tarantriss + Loupmoon, Frostplume + Fuack, Prunelia + Finsider.",
+      "video_script": "Here are five ways to breed Rayhound in Palworld one point zero. Combo one: breed Ghangler with Pengullet on your Breeding Farm, then add a cake. Combo two: pair Dumud and Digtoise together, and you get the same egg. Combo three: Tarantriss plus Loupmoon works too, so use whichever Pals you have. Combo four: Frostplume with Fuack is another easy option. Combo five: breed Prunelia with Finsider on your Breeding Farm, then add a cake. Every egg hatches into Rayhound. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Ghangler",
+        "Pengullet"
+      ],
+      "combos": [
+        [
+          "Ghangler",
+          "Pengullet"
+        ],
+        [
+          "Dumud",
+          "Digtoise"
+        ],
+        [
+          "Tarantriss",
+          "Loupmoon"
+        ],
+        [
+          "Frostplume",
+          "Fuack"
+        ],
+        [
+          "Prunelia",
+          "Finsider"
+        ]
+      ],
+      "child": "Rayhound",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false,
+      "key": "Rayhound 5"
+    }
   }
 }

@@ -11386,5 +11386,16 @@
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-2a8b3002.mp4",
     "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-2a8b3002-thumb.jpg",
     "chapters": "0:00 Superstar की कहानी\n0:42 फिल्मी परिवार में जन्म\n1:24 बाल कलाकार से Prince तक\n2:10 Murari, Okkadu और पहला Filmfare\n2:54 Athadu और Pokiri का दौर\n3:39 Dookudu और स्टारडम\n4:27 Srimanthudu और गांव की मदद\n5:11 Tamil debut और बड़ी हिट\n6:01 पुरस्कार और समाज सेवा\n6:45 Varanasi और आपकी राय"
+  },
+  "aniimo-pebbling-family-lavazar-geodeback-magmarex-minespine": {
+    "spec": "scripts/specs/long/gaming_101_aniimo-pebbling-family-lavazar-geodeback-magmarex-minespine.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-41bb2b8c.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-41bb2b8c-thumb.jpg",
+    "chapters": "0:00 Intro\n0:44 Meet Pebbling\n1:36 The first fork\n2:28 Lavazar\n3:20 Geodeback\n4:12 Magmarex\n5:02 Minespine\n5:52 Which final form\n6:47 Your turn"
+  },
+  "palworld-guide-celaray-zephyr-glider": {
+    "spec": "scripts/specs/games/palguide_183_celaray-zephyr-glider.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-daad593f.mp4"
   }
 }

@@ -10761,5 +10761,45 @@
   "palworld-guide-selyne-celestial-darkness": {
     "spec": "scripts/specs/games/palguide_179_selyne-celestial-darkness.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-6a70997b.mp4"
+  },
+  "steam-winter-sale-2026-december-17": {
+    "spec": "scripts/specs/games/new_57_steam-winter-sale-2026-december-17.json",
+    "video": "F:\\AI AGENT\\run_games10\\videos\\short-872fe8d4.mp4"
+  },
+  "sombras-negative-frames-december-3": {
+    "spec": "scripts/specs/games/new_56_sombras-negative-frames-december-3.json",
+    "video": "F:\\AI AGENT\\run_games10\\videos\\short-9bdca4dd.mp4"
+  },
+  "the-ascent-switch-2-december": {
+    "spec": "scripts/specs/games/new_55_the-ascent-switch-2-december.json",
+    "video": "F:\\AI AGENT\\run_games10\\videos\\short-cb9d0ae5.mp4"
+  },
+  "football-manager-27-launch": {
+    "spec": "scripts/specs/games/new_54_football-manager-27-launch.json",
+    "video": "F:\\AI AGENT\\run_games10\\videos\\short-9ef0ddd9.mp4"
+  },
+  "kena-scars-of-kosmora-2027": {
+    "spec": "scripts/specs/games/new_53_kena-scars-of-kosmora-2027.json",
+    "video": "F:\\AI AGENT\\run_games10\\videos\\short-dd255ead.mp4"
+  },
+  "mega-man-1987": {
+    "spec": "scripts/specs/games/classic_102_mega-man-1987.json",
+    "video": "F:\\AI AGENT\\run_games10\\videos\\short-515b4960.mp4"
+  },
+  "rollercoaster-tycoon-1999": {
+    "spec": "scripts/specs/games/classic_101_rollercoaster-tycoon-1999.json",
+    "video": "F:\\AI AGENT\\run_games10\\videos\\short-7fd9083d.mp4"
+  },
+  "bejeweled-diamond-mine": {
+    "spec": "scripts/specs/games/classic_100_bejeweled-diamond-mine.json",
+    "video": "F:\\AI AGENT\\run_games10\\videos\\short-b9d047b5.mp4"
+  },
+  "space-cadet-pinball-windows": {
+    "spec": "scripts/specs/games/classic_99_space-cadet-pinball-windows.json",
+    "video": "F:\\AI AGENT\\run_games10\\videos\\short-d83e8f80.mp4"
+  },
+  "cricket-07-century-stick": {
+    "spec": "scripts/specs/games/classic_98_cricket-07-century-stick.json",
+    "video": "F:\\AI AGENT\\run_games10\\videos\\short-1623019f.mp4"
   }
 }

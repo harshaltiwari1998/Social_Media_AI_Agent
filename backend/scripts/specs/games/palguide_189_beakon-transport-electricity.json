@@ -1,0 +1,47 @@
+{
+  "id": "palworld-guide-beakon-transport-electricity",
+  "slot": "palguide",
+  "order": 189,
+  "headline": "Beakon transport and power worker",
+  "title": "Beakon | Top Transport And Power | Palworld Guide",
+  "video_script": "Need a strong hauler in Palworld one point zero? Beakon is an Electric bird Pal that works Transporting level five, Generating Electricity level four and Gathering level two. That makes it a great helper for a busy base. Its alpha version is a level thirty seven boss you can catch. Will you put Beakon on your power plant? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:15",
+      "label": "Beakon"
+    },
+    {
+      "image": "pal:Beakon",
+      "fact": "Transporting 5",
+      "sub": "Top hauler"
+    },
+    {
+      "image": "steam:1623730:16",
+      "label": "Electricity 4"
+    },
+    {
+      "image": "pal:Beakon",
+      "fact": "Alpha level 37",
+      "sub": "Catch the boss"
+    }
+  ],
+  "description": "Beakon in Palworld 1.0 is an Electric Pal with Transporting level five, Electricity level four and Gathering level two.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Beakon",
+    "Beakon work suitability",
+    "Palworld electricity",
+    "Palworld Electric Pal",
+    "Palworld transporting",
+    "Beakon alpha",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld Pal guide",
+    "Palworld work suitability"
+  ],
+  "joke": "Beakon sparks a joke about power bills."
+}

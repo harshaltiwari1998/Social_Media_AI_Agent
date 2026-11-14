@@ -1,0 +1,47 @@
+{
+  "id": "palworld-guide-braloha-planting-gathering",
+  "slot": "palguide",
+  "order": 190,
+  "headline": "Braloha farm worker",
+  "title": "Braloha | Planting And Gathering Five | Palworld Guide",
+  "video_script": "Want one Pal to run your farm in Palworld one point zero? Braloha is a Grass and Ground Pal that works Planting level five and Gathering level five, plus Mining level three. One worker can plant crops and also harvest berries and plants. It is a big, tough helper for any base. Will you give Braloha your garden? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:17",
+      "label": "Braloha"
+    },
+    {
+      "image": "pal:Braloha",
+      "fact": "Planting 5",
+      "sub": "Farm worker"
+    },
+    {
+      "image": "steam:1623730:18",
+      "label": "Gathering 5"
+    },
+    {
+      "image": "pal:Braloha",
+      "fact": "Grass and Ground",
+      "sub": "Mining 3"
+    }
+  ],
+  "description": "Braloha in Palworld 1.0 is a Grass and Ground Pal with Planting level five, Gathering level five and Mining level three.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Braloha",
+    "Braloha work suitability",
+    "Palworld farming",
+    "Palworld planting",
+    "Palworld gathering",
+    "Palworld Grass Pal",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld Pal guide",
+    "Palworld work suitability"
+  ],
+  "joke": "Braloha says it just wants to grow on you."
+}

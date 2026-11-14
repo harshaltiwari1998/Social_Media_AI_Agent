@@ -1,0 +1,47 @@
+{
+  "id": "palworld-guide-leafan-planting-handiwork-gathering",
+  "slot": "palguide",
+  "order": 195,
+  "headline": "Leafan grass helper",
+  "title": "Leafan | Three Jobs Grass Worker | Palworld Guide",
+  "video_script": "Looking for a flexible Grass worker in Palworld one point zero? Leafan works Planting level three, Handiwork level three and Gathering level three, plus Transporting level two. That is four jobs in one small Pal. Will you put Leafan to work at your base? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:15",
+      "label": "Leafan"
+    },
+    {
+      "image": "pal:Leafan",
+      "fact": "Planting 3",
+      "sub": "Handiwork 3"
+    },
+    {
+      "image": "steam:1623730:16",
+      "label": "Gathering 3"
+    },
+    {
+      "image": "pal:Leafan",
+      "fact": "Transporting 2",
+      "sub": "Grass Pal"
+    }
+  ],
+  "description": "Leafan in Palworld 1.0 is a Grass Pal with Planting, Handiwork and Gathering at level three and Transporting at level two.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Leafan",
+    "Leafan work suitability",
+    "Palworld planting",
+    "Palworld handiwork",
+    "Palworld Grass Pal",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld Pal guide",
+    "Palworld work suitability"
+  ],
+  "joke": "Leafan is not distracted by romance, only chores."
+}

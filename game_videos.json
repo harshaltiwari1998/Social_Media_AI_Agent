@@ -11397,5 +11397,21 @@
   "palworld-guide-celaray-zephyr-glider": {
     "spec": "scripts/specs/games/palguide_183_celaray-zephyr-glider.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-daad593f.mp4"
+  },
+  "duskbloods-delayed-2027": {
+    "spec": "scripts/specs/games/new_50_duskbloods-delayed-2027.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-de514ccd.mp4"
+  },
+  "reel-bhanu-athaiya-gandhi-oscar": {
+    "spec": "scripts/specs/movies/reel_79_bhanu-athaiya-gandhi-oscar.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-85fb20bf.mp4"
+  },
+  "aniimo-how-to-get-cubbo-grizbo": {
+    "spec": "scripts/specs/games/aniimo_250_aniimo-how-to-get-cubbo-grizbo.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-121fec07.mp4"
+  },
+  "gta6-countdown-05-regions": {
+    "spec": "scripts/specs/games/gta6_18_countdown-05.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-537df1fc.mp4"
   }
 }

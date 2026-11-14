@@ -8551,5 +8551,48 @@
       "unique": false,
       "key": "Rayhound 5"
     }
+  },
+  "Dinossom 5": {
+    "spec": "scripts/specs/palworld_dinossom_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-9a0352af.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Dinossom",
+      "caption": "5 ways to breed Dinossom in Palworld 1.0: Incineram + Tocotoco, Nyafia + Gumoss, Digtoise + Jelliette, Felbat + Herbil, Helzephyr + Teafant.",
+      "video_script": "Here are five ways to breed Dinossom in Palworld one point zero. Combo one: breed Incineram with Tocotoco on your Breeding Farm, then add a cake. Combo two: pair Nyafia and Gumoss together, and you get the same egg. Combo three: Digtoise plus Jelliette works too, so use whichever Pals you have. Combo four: Felbat with Herbil is another easy option. Combo five: breed Helzephyr with Teafant on your Breeding Farm, then add a cake. Every egg hatches into Dinossom. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Incineram",
+        "Tocotoco"
+      ],
+      "combos": [
+        [
+          "Incineram",
+          "Tocotoco"
+        ],
+        [
+          "Nyafia",
+          "Gumoss"
+        ],
+        [
+          "Digtoise",
+          "Jelliette"
+        ],
+        [
+          "Felbat",
+          "Herbil"
+        ],
+        [
+          "Helzephyr",
+          "Teafant"
+        ]
+      ],
+      "child": "Dinossom",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false,
+      "key": "Dinossom 5"
+    }
   }
 }

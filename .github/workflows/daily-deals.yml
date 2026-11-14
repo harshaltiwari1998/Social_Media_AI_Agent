@@ -5,9 +5,11 @@ name: Daily free games and store deals
 # discounts) + 2 long roundups (free games + top deals, deals under Rs 500) -> HarryBeast Gaming
 # YouTube + gaming Facebook Page + Instagram (long: YouTube + Facebook). A game is posted once per
 # offer, so quiet days make fewer videos. No laptop needed; "what's posted" lives on gaming-state.
-# STOPPED 2026-11-14 (owner): a platform warning for an adult game in a Steam deal video - "ye band kar do steam ke and
-# epic games ke videos". No schedule; do not bring it back without the owner asking.
+# 2026-11-14: a platform warned the owner about an adult game in a deal video; the owner kept the deals ("rakho and adult
+# wale games mat dalna") - store_deals.py skips every game with nudity / sexual content.
 on:
+  schedule:
+    - cron: "30 10 * * *" # 16:00 IST
   workflow_dispatch:
     inputs:
       shorts:

@@ -159,6 +159,22 @@ def fetch_epic(now: datetime) -> tuple[list[dict], list[dict]]:
 
 # --------------------------------------------------------------------------- Steam
 
+_ADULT_WORDS = re.compile(r"hentai|nsfw|erotic|eroge|sexy|sexual|nudity|nude|naked|lewd|uncensored|18\+|adult only|"
+                          r"waifu|harem|strip|lingerie|bikini|onsen|succubus|seduc", re.I)
+
+
+def _adult(details: dict) -> bool:
+    """Never put an adult game in a video (owner 2026-11-14, after a platform warning for "Kiss Me on the Oligarch's
+    Dime" and "Evenicle"): Steam content descriptors 1 / 3 / 4 (some nudity or sexual content, adult-only sexual
+    content, frequent nudity or sexual content), or adult words in the name, genres, description or descriptor notes."""
+    cd = details.get("content_descriptors") or {}
+    if set(cd.get("ids") or []) & {1, 3, 4}:
+        return True
+    text = " ".join([details.get("name") or "", details.get("short_description") or "", cd.get("notes") or "",
+                     *[g.get("description", "") for g in details.get("genres") or []]])
+    return bool(_ADULT_WORDS.search(text))
+
+
 def _steam_details(appid: int) -> dict:
     data = _get_json(STEAM_DETAILS, {"appids": appid, "cc": "in", "l": "english"}).get(str(appid)) or {}
     return (data.get("data") or {}) if data.get("success") else {}
@@ -226,8 +242,8 @@ def fetch_steam() -> tuple[list[dict], list[dict], list[str], int]:
         price = details.get("price_overview") or {}
         if not details or price.get("currency") != "INR" or not price.get("discount_percent"):
             continue  # not discounted any more / not sold in India
-        if set((details.get("content_descriptors") or {}).get("ids") or []) & {1, 3, 4}:
-            continue  # nudity / sexual content (Steam descriptors 1, 3, 4) - a platform warned the owner (2026-11-14)
+        if _adult(details):
+            continue  # a platform warned the owner about an adult game in a deal video (2026-11-14)
         percent = int(price["discount_percent"])
         if percent < MIN_DEAL_PERCENT and seen["tag"] is None:
             continue

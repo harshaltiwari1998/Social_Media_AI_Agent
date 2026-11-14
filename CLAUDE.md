@@ -245,6 +245,11 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   starts ~19:30 IST, when the day's quota is already gone (12 Nov log: "105s requested vs. 50s left, try again in 0:27") - so the
   evolution shorts are made by the laptop task at 20:15 and the CI run is only the backup (it skips posted lines). Keep every
   other laptop ZeroGPU use (Qwen Space fusion art) for after that task.
+  **Every evolution short is shown to the owner before upload** (owner 2026-11-14: "kabhi kabhi pokemon evolution bohot
+  bakwas hote he, mujhe puch ke hi karna"): `pokemon_daily.py --review` builds without posting and lists the line in
+  `run_evo/pokemon/review_pending.json` (held lines are not rebuilt); after the owner names the good ones:
+  `laptop_batch.py evo --evolution --max-shorts 0 --post-approved <id,id>` (posts the exact file shown) and
+  `--reject <id>` for the rest (`review_rejected.json`, never posted).
 - `scripts/pokemon_daily.py` - free Pokemon evolution shorts on CI: official artwork start frames + free Wan 2.2
   (HF ZeroGPU on an HF PRO account, `HF_TOKEN` secret, 4 clips per short, max 3 new shorts a run - `--max-shorts`). Clips persist on the **`motion-cache`**
   branch between runs; finished shorts post to the gaming platforms (`kind: "motion"` in game_videos.json,
@@ -258,14 +263,14 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
 | Mon/Thu 08:00 | Routine **Weekly content refill** (`trig_01LRixiDvLT8uP4GPUjYnDcy`) tops up all other queues |
 | 10:00 | `daily-content.yml` - 1 new game, 3 classic, 1 breeding, 1 Aniimo, 1 movie new, 1 review, 1 reel |
 | 10:00 | Laptop task `daily_job.cmd --skip-gaming` (trends) + `motion_daily.py` + `gameplay_daily.py` |
-| 11:15 | `daily-pokemon.yml` - Pokemon shorts (HF PRO): up to 3 evolution a day (+ 2 fusion when `--max-fusions` 2; paused 2026-11-08) |
+| 11:15 | `daily-pokemon.yml` - only retries unfinished uploads (`--max-shorts 0` since 2026-11-14: new evolutions are reviewed on the laptop first) |
 | on push + 12:15 | `fusion-inbox.yml` - fusion clips uploaded to `inbox/` (daily run = retries) |
 | 13:45 | `daily-anipal.yml` 1st half - 5 Aniimo + 2 Palworld guide + 3 breeding + 1 long (palworld) |
 | 14:00 | `daily-palguide.yml` - 1 Palworld guide |
 | 16:00 | `daily-deals.yml` - up to 10 free-game / deal shorts + 2 long deal roundups (Epic + Steam, live) |
 | 18:00 | `daily-long.yml` - 2 long gaming + 1 long movie |
 | 19:00 | `daily-gameplay.yml` - 1 long + 8 shorts of own-stream clips from `clips/*` branches (laptop renders + pushes) |
-| 20:15 | Laptop task **Pokemon Evolution Daily** (`scripts/evolution_job.cmd` -> `laptop_batch.py evo --evolution --max-shorts 3`) - up to 3 evolution shorts right after the ZeroGPU quota reset; log `backend/logs/evolution_laptop.log` |
+| 20:15 | Laptop task **Pokemon Evolution Daily** (`scripts/evolution_job.cmd` -> `laptop_batch.py evo --evolution --max-shorts 3 --review`) - builds up to 3 evolution shorts right after the ZeroGPU quota reset, posts NOTHING, opens them in VLC (`evolution_review.py`); log `backend/logs/evolution_laptop.log` |
 | 20:00 | `daily-rashifal.yml` - next day's 12 Hindi rashifal shorts, scheduled 06:00-06:55 IST on the AI Trend Poster FB Page |
 | 21:00 | `daily-anipal.yml` 2nd half - 5 Aniimo + 3 Palworld guide + 2 breeding + 1 long (aniimo) |
 | Sun 19:30 | `weekly-report.yml` - stats issue |
@@ -364,6 +369,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-14 - Evolution shorts need the owner's OK: the laptop task builds + opens them in VLC (`--review`, `evolution_review.py`), posts only `--post-approved` lines; CI builds no new ones.
 - 2026-11-14 - Gaming Facebook Page gets only evolutions, fusions and 2 own-stream clips a day (`store.fb_gaming_allowed`): ~1,000 pipeline videos there averaged 0.2 views.
 - 2026-11-12 - Evolution shorts move to a laptop task at 20:15 IST (`evolution_job.cmd`, `laptop_batch.py`): the CI run comes just before the ZeroGPU quota reset and found it empty; Magikarp, Froakie, Gible posted from the laptop.
 - 2026-11-12 - RDR2 stream recordings deleted after all 15 plans were rendered; `gameplay_daily.py` posts rendered plans without the recording; fusion pairs can override shown names (`names`).

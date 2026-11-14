@@ -18,6 +18,12 @@ game_videos.json ("kind": "motion") + the pipeline store like every other video.
     python scripts/pokemon_daily.py            # build what the quota allows, post finished shorts
     python scripts/pokemon_daily.py --plan ID  # print the storyboard for one queue entry
     python scripts/pokemon_daily.py --fusion-image charizard+gyarados   # only draw one fused creature (preview)
+
+Owner review (2026-11-14: "kabhi kabhi pokemon evolution bohot bakwas hote he, mujhe puch ke hi karna"): with --review a
+built line is NOT posted - it is listed in <CACHE>/review_pending.json and shown to the owner first.
+    python scripts/pokemon_daily.py --review                       # build up to --max-shorts new lines, post nothing
+    python scripts/pokemon_daily.py --max-shorts 0 --post-approved abra,gible   # post the lines the owner approved
+    python scripts/pokemon_daily.py --max-shorts 0 --reject torchic            # owner said no - never post it
 """
 from __future__ import annotations
 
@@ -720,7 +726,20 @@ def make_fusion(pair: dict, poster, games: dict) -> None:
     poster.post(fusion_post_id(meta), *fusion_post_text(meta), str(video))
 
 
-def make_evolution(entry: dict, poster, games: dict) -> None:
+REVIEW = CACHE / "review_pending.json"
+REJECTED = CACHE / "review_rejected.json"
+
+
+def _ids(path: Path) -> list[str]:
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
+
+
+def _set_ids(path: Path, ids: list[str]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(sorted(set(ids)), indent=2) + "\n", encoding="utf-8")
+
+
+def make_evolution(entry: dict, poster, games: dict, review: bool = False) -> None:
     log.info("== %s", " -> ".join(entry["stages"]))
     out = CACHE / entry["id"]
     check_chain(entry["stages"])
@@ -735,7 +754,13 @@ def make_evolution(entry: dict, poster, games: dict) -> None:
             entry = {**entry, "megas": megas_of(entry["stages"][-1])}
         sb = storyboard(entry)
     board.write_text(json.dumps(sb, indent=2) + "\n", encoding="utf-8")
-    video = fv.build(board, out)
+    seen = out / "final.mp4"  # an approved line posts exactly the file the owner watched
+    video = seen if not review and entry["id"] in _ids(REVIEW) and seen.exists() else fv.build(board, out)
+    if review:  # the owner sees it first - posted later with --post-approved
+        _set_ids(REVIEW, _ids(REVIEW) + [entry["id"]])
+        log.info("   built %s - waiting for the owner's OK (%s)", entry["id"], video)
+        return
+    _set_ids(REVIEW, [x for x in _ids(REVIEW) if x != entry["id"]])
     games[f"poke-{entry['id']}"] = {"kind": "motion", "spec": QUEUE.relative_to(ROOT).as_posix(), "video": str(video), "data": entry}
     dj._save(dj.GAME_MANIFEST, games)
     poster.post(post_id(entry), *post_text(entry), str(video))
@@ -772,6 +797,9 @@ def main() -> None:
     parser.add_argument("--max-pal-fusions", type=int, default=0, help="new Palworld fusion shorts per run")
     parser.add_argument("--max-dbz-fusions", type=int, default=0, help="new Dragon Ball fusion shorts per run")
     parser.add_argument("--fusion-image", metavar="A+B")
+    parser.add_argument("--review", action="store_true", help="build new evolution lines but post nothing")
+    parser.add_argument("--post-approved", metavar="IDS", help="comma list of reviewed lines to post now")
+    parser.add_argument("--reject", metavar="IDS", help="comma list of reviewed lines the owner rejected")
     args = parser.parse_args()
     queue = json.loads(QUEUE.read_text(encoding="utf-8"))
     pairs = [p for fam in FAMILIES for p in load_pairs(fam)]
@@ -811,7 +839,24 @@ def main() -> None:
                 log.warning("%s still pending but its video is gone from the cache", key)
 
     # Evolution lines and fusions take turns, so one kind never uses up the whole GPU quota.
-    evos = [("evo", e) for e in queue if f"poke-{e['id']}" not in games][: args.max_shorts]
+    if args.reject:
+        bad = [x.strip() for x in args.reject.split(",") if x.strip()]
+        _set_ids(REJECTED, _ids(REJECTED) + bad)
+        _set_ids(REVIEW, [x for x in _ids(REVIEW) if x not in bad])
+        log.info("rejected %s", ", ".join(bad))
+    for lid in [x.strip() for x in (args.post_approved or "").split(",") if x.strip()]:
+        entry = next((e for e in queue if e["id"] == lid), None)
+        if entry is None or f"poke-{lid}" in games:
+            log.warning("%s: not in the queue or already posted", lid)
+            continue
+        try:
+            make_evolution(entry, poster, games)  # clips are cached - this only renders (if needed) and posts
+            dj.HEALTH["built"] += 1
+        except Exception:
+            log.exception("   %s failed", lid)
+            dj.HEALTH["build_failed"] += 1
+    held = set(_ids(REVIEW)) | set(_ids(REJECTED))  # waiting for the owner / turned down: no new build
+    evos = [("evo", e) for e in queue if f"poke-{e['id']}" not in games and e["id"] not in held][: args.max_shorts]
     fusions = []
     for fam, cap in (("pokemon", args.max_fusions), ("pal", args.max_pal_fusions), ("dbz", args.max_dbz_fusions)):
         k = FAMILIES[fam]["key"]
@@ -820,7 +865,10 @@ def main() -> None:
     jobs = [job for k in range(max(len(evos), len(fusions))) for job in (evos[k:k + 1] + fusions[k:k + 1])]
     for kind, item in jobs:
         try:
-            (make_evolution if kind == "evo" else make_fusion)(item, poster, games)
+            if kind == "evo":
+                make_evolution(item, poster, games, review=args.review)
+            else:
+                make_fusion(item, poster, games)
         except fv.QuotaExhausted as exc:
             log.info("   free GPU quota used up - continuing next run (%s)", str(exc)[:120])
             break

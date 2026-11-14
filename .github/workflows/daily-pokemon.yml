@@ -78,7 +78,7 @@ jobs:
           PYTHONUNBUFFERED: "1"
         run: |
           if [ -z "$HF_TOKEN" ]; then echo "::warning::HF_TOKEN secret not set - the shared free quota is tiny"; fi
-          python scripts/pokemon_daily.py
+          python scripts/pokemon_daily.py --max-shorts 0  # owner 2026-11-14: evolutions only after review (laptop task)
 
       - name: Sort new uploads into YouTube playlists
         if: always()

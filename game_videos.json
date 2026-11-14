@@ -11985,5 +11985,19 @@
         "swampert-mega"
       ]
     }
+  },
+  "super-smash-bros-franchise-history": {
+    "spec": "scripts/specs/long/gaming_109_super-smash-bros-franchise-history.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-30f2cdf5.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-30f2cdf5-thumb.jpg",
+    "chapters": "0:00 The crossover that shouldn't work\n0:45 Masahiro Sakurai's idea\n1:20 Super Smash Bros on Nintendo 64\n1:56 Melee on GameCube\n2:31 Brawl on Wii\n3:05 Two games in twenty fourteen\n3:42 Ultimate on Nintendo Switch\n4:20 Guest fighters and downloadable content\n4:56 Sora joins as the final fighter\n5:32 Why Smash lasts\n6:09 Your favourite Smash game"
+  },
+  "cyberpunk-2077-explained": {
+    "spec": "scripts/specs/long/gaming_110_cyberpunk-2077-explained.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-2b72bb48.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-2b72bb48-thumb.jpg",
+    "chapters": "0:00 What is Cyberpunk 2077\n0:40 Who made it\n1:26 Night City and the world\n2:14 V and Johnny Silverhand\n2:57 How you play\n3:42 The rough launch\n4:30 Removed from PlayStation Store\n5:13 The long road of fixes\n5:56 Update 2.0 and Phantom Liberty\n6:38 Edgerunners and the sales story\n7:24 Should you play it today"
   }
 }

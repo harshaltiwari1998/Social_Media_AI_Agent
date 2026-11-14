@@ -1,0 +1,104 @@
+{
+  "title": "Treecko to Grovyle to Sceptile evolution",
+  "backend": "wan",
+  "voice": "en-US-GuyNeural",
+  "style": 2,
+  "narration": [
+    "Treecko is getting ready for something big.",
+    "Oh? Treecko is evolving!",
+    "Treecko evolved into Grovyle!",
+    "Oh? Grovyle is evolving!",
+    "Grovyle evolved into Sceptile! But it is not over yet.",
+    "Sceptile reacts to its Mega Stone. Mega Evolution!",
+    "Mega Sceptile, a Grass and Dragon type! Who is your favourite Grass-type Pokemon? Comment below!",
+    "And somewhere, a trainer is pressing B right now. Don't be that trainer."
+  ],
+  "clips": [
+    {
+      "image": {
+        "poke": "treecko",
+        "background": "wiki:Forest"
+      },
+      "shots": [
+        [
+          "the creature looks around determined, leaves and green light float around it, anime style, smooth animation, camera slowly pushes in",
+          5
+        ]
+      ]
+    },
+    {
+      "evolve": [
+        "treecko",
+        "grovyle"
+      ],
+      "background": "wiki:Forest",
+      "seconds": 3.2,
+      "mega": false
+    },
+    {
+      "image": {
+        "poke": "grovyle",
+        "background": "wiki:Forest"
+      },
+      "shots": [
+        [
+          "the creature appears in a burst of white light and looks around proudly, leaves and green light swirl around it, anime style, smooth animation",
+          5
+        ]
+      ],
+      "white_in": 0.6
+    },
+    {
+      "evolve": [
+        "grovyle",
+        "sceptile"
+      ],
+      "background": "wiki:Forest",
+      "seconds": 3.2,
+      "mega": false
+    },
+    {
+      "image": {
+        "poke": "sceptile",
+        "background": "wiki:Forest"
+      },
+      "shots": [
+        [
+          "the creature appears in a burst of white light and looks around proudly, leaves and green light swirl around it, anime style, smooth animation",
+          5
+        ]
+      ],
+      "white_in": 0.6
+    },
+    {
+      "evolve": [
+        "sceptile",
+        "sceptile-mega"
+      ],
+      "background": "wiki:Forest",
+      "seconds": 3.2,
+      "mega": true
+    },
+    {
+      "image": {
+        "poke": "sceptile-mega",
+        "background": "wiki:Forest"
+      },
+      "shots": [
+        [
+          "the creature roars with overwhelming power, blue dragon energy and rainbow energy explode around it, epic low angle camera, anime style, dynamic motion",
+          5
+        ]
+      ],
+      "white_in": 0.6
+    },
+    {
+      "still": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/pokemon/treecko/scene_06.jpg",
+      "seconds": 4,
+      "zoom": [
+        1.05,
+        1.15
+      ]
+    }
+  ]
+}

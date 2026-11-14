@@ -8723,5 +8723,91 @@
       "unique": false,
       "key": "Cattiva 5"
     }
+  },
+  "Daedream 5": {
+    "spec": "scripts/specs/palworld_daedream_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-65b8348c.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Daedream",
+      "caption": "5 ways to breed Daedream in Palworld 1.0: Ribbuny + Pengullet, Fuddler + Jolthog, Killamari + Lamball, Swee + Fuack, Pupperai + Cremis.",
+      "video_script": "Here are five ways to breed Daedream in Palworld one point zero. Combo one: breed Ribbuny with Pengullet on your Breeding Farm, then add a cake. Combo two: pair Fuddler and Jolthog together, and you get the same egg. Combo three: Killamari plus Lamball works too, so use whichever Pals you have. Combo four: Swee with Fuack is another easy option. Combo five: breed Pupperai with Cremis on your Breeding Farm, then add a cake. Every egg hatches into Daedream. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Ribbuny",
+        "Pengullet"
+      ],
+      "combos": [
+        [
+          "Ribbuny",
+          "Pengullet"
+        ],
+        [
+          "Fuddler",
+          "Jolthog"
+        ],
+        [
+          "Killamari",
+          "Lamball"
+        ],
+        [
+          "Swee",
+          "Fuack"
+        ],
+        [
+          "Pupperai",
+          "Cremis"
+        ]
+      ],
+      "child": "Daedream",
+      "color": [
+        240,
+        190,
+        40
+      ],
+      "unique": false,
+      "key": "Daedream 5"
+    }
+  },
+  "Killamari 5": {
+    "spec": "scripts/specs/palworld_killamari_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-28a15d5d.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Killamari",
+      "caption": "5 ways to breed Killamari in Palworld 1.0: Swee + Flambelle, Flopie + Rushoar, Tocotoco + Kelpsea, Ribbuny + Direhowl, Amione + Lifmunk.",
+      "video_script": "Here are five ways to breed Killamari in Palworld one point zero. Combo one: breed Swee with Flambelle on your Breeding Farm, then add a cake. Combo two: pair Flopie and Rushoar together, and you get the same egg. Combo three: Tocotoco plus Kelpsea works too, so use whichever Pals you have. Combo four: Ribbuny with Direhowl is another easy option. Combo five: breed Amione with Lifmunk on your Breeding Farm, then add a cake. Every egg hatches into Killamari. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Swee",
+        "Flambelle"
+      ],
+      "combos": [
+        [
+          "Swee",
+          "Flambelle"
+        ],
+        [
+          "Flopie",
+          "Rushoar"
+        ],
+        [
+          "Tocotoco",
+          "Kelpsea"
+        ],
+        [
+          "Ribbuny",
+          "Direhowl"
+        ],
+        [
+          "Amione",
+          "Lifmunk"
+        ]
+      ],
+      "child": "Killamari",
+      "color": [
+        255,
+        120,
+        40
+      ],
+      "unique": false,
+      "key": "Killamari 5"
+    }
   }
 }

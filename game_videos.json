@@ -11999,5 +11999,37 @@
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-2b72bb48.mp4",
     "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-2b72bb48-thumb.jpg",
     "chapters": "0:00 What is Cyberpunk 2077\n0:40 Who made it\n1:26 Night City and the world\n2:14 V and Johnny Silverhand\n2:57 How you play\n3:42 The rough launch\n4:30 Removed from PlayStation Store\n5:13 The long road of fixes\n5:56 Update 2.0 and Phantom Liberty\n6:38 Edgerunners and the sales story\n7:24 Should you play it today"
+  },
+  "aniimo-alpha-magmarex-boss-water-overheat": {
+    "spec": "scripts/specs/games/aniimo_263_aniimo-alpha-magmarex-boss-water-overheat.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-9b1e6e43.mp4"
+  },
+  "aniimo-omega-tuckin-hummin-helpers": {
+    "spec": "scripts/specs/games/aniimo_264_aniimo-omega-tuckin-hummin-helpers.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-83cd51b7.mp4"
+  },
+  "aniimo-wonder-egg-grand-feast": {
+    "spec": "scripts/specs/games/aniimo_265_aniimo-wonder-egg-grand-feast.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-360157ea.mp4"
+  },
+  "aniimo-stamp-shop-weekly-windborn-stamps": {
+    "spec": "scripts/specs/games/aniimo_266_aniimo-stamp-shop-weekly-windborn-stamps.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-be679cb4.mp4"
+  },
+  "aniimo-fire-team-magmarex-infergon-flamerion": {
+    "spec": "scripts/specs/games/aniimo_267_aniimo-fire-team-magmarex-infergon-flamerion.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-a21cad39.mp4"
+  },
+  "palworld-guide-sibelyx-medicine-cooling-farming": {
+    "spec": "scripts/specs/games/palguide_192_sibelyx-medicine-cooling-farming.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-09def6ab.mp4"
+  },
+  "palworld-guide-blazamut-mining-seven-kindling": {
+    "spec": "scripts/specs/games/palguide_193_blazamut-mining-seven-kindling.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-879c7f20.mp4"
+  },
+  "palworld-guide-suzaku-kindling-five-desert": {
+    "spec": "scripts/specs/games/palguide_194_suzaku-kindling-five-desert.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-8eee6113.mp4"
   }
 }

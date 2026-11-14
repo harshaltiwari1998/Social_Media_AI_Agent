@@ -8594,5 +8594,134 @@
       "unique": false,
       "key": "Dinossom 5"
     }
+  },
+  "Tombat 5": {
+    "spec": "scripts/specs/palworld_tombat_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-b2029653.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Tombat",
+      "caption": "5 ways to breed Tombat in Palworld 1.0: Tarantriss + Gumoss, Mimog + Hoocrates, Munchill + Gobfin, Puffolt + Arsox, Loupmoon + Galeclaw.",
+      "video_script": "Here are five ways to breed Tombat in Palworld one point zero. Combo one: breed Tarantriss with Gumoss on your Breeding Farm, then add a cake. Combo two: pair Mimog and Hoocrates together, and you get the same egg. Combo three: Munchill plus Gobfin works too, so use whichever Pals you have. Combo four: Puffolt with Arsox is another easy option. Combo five: breed Loupmoon with Galeclaw on your Breeding Farm, then add a cake. Every egg hatches into Tombat. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Tarantriss",
+        "Gumoss"
+      ],
+      "combos": [
+        [
+          "Tarantriss",
+          "Gumoss"
+        ],
+        [
+          "Mimog",
+          "Hoocrates"
+        ],
+        [
+          "Munchill",
+          "Gobfin"
+        ],
+        [
+          "Puffolt",
+          "Arsox"
+        ],
+        [
+          "Loupmoon",
+          "Galeclaw"
+        ]
+      ],
+      "child": "Tombat",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false,
+      "key": "Tombat 5"
+    }
+  },
+  "Beegarde 5": {
+    "spec": "scripts/specs/palworld_beegarde_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-8b9fdb1a.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Beegarde",
+      "caption": "5 ways to breed Beegarde in Palworld 1.0: Dumud + Turtacle, Foxcicle + Tocotoco, Mimog + Pengullet, Munchill + Galeclaw, Tarantriss + Clovee.",
+      "video_script": "Here are five ways to breed Beegarde in Palworld one point zero. Combo one: breed Dumud with Turtacle on your Breeding Farm, then add a cake. Combo two: pair Foxcicle and Tocotoco together, and you get the same egg. Combo three: Mimog plus Pengullet works too, so use whichever Pals you have. Combo four: Munchill with Galeclaw is another easy option. Combo five: breed Tarantriss with Clovee on your Breeding Farm, then add a cake. Every egg hatches into Beegarde. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Dumud",
+        "Turtacle"
+      ],
+      "combos": [
+        [
+          "Dumud",
+          "Turtacle"
+        ],
+        [
+          "Foxcicle",
+          "Tocotoco"
+        ],
+        [
+          "Mimog",
+          "Pengullet"
+        ],
+        [
+          "Munchill",
+          "Galeclaw"
+        ],
+        [
+          "Tarantriss",
+          "Clovee"
+        ]
+      ],
+      "child": "Beegarde",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false,
+      "key": "Beegarde 5"
+    }
+  },
+  "Cattiva 5": {
+    "spec": "scripts/specs/palworld_cattiva_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-e7e557cc.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Cattiva",
+      "caption": "5 ways to breed Cattiva in Palworld 1.0: Flopie + Ribbuny, Tocotoco + Fuddler, Herbil + Cremis, Swee + Direhowl, Finsider + Teafant.",
+      "video_script": "Here are five ways to breed Cattiva in Palworld one point zero. Combo one: breed Flopie with Ribbuny on your Breeding Farm, then add a cake. Combo two: pair Tocotoco and Fuddler together, and you get the same egg. Combo three: Herbil plus Cremis works too, so use whichever Pals you have. Combo four: Swee with Direhowl is another easy option. Combo five: breed Finsider with Teafant on your Breeding Farm, then add a cake. Every egg hatches into Cattiva. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Flopie",
+        "Ribbuny"
+      ],
+      "combos": [
+        [
+          "Flopie",
+          "Ribbuny"
+        ],
+        [
+          "Tocotoco",
+          "Fuddler"
+        ],
+        [
+          "Herbil",
+          "Cremis"
+        ],
+        [
+          "Swee",
+          "Direhowl"
+        ],
+        [
+          "Finsider",
+          "Teafant"
+        ]
+      ],
+      "child": "Cattiva",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false,
+      "key": "Cattiva 5"
+    }
   }
 }

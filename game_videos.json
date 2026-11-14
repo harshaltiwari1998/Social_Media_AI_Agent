@@ -11413,5 +11413,40 @@
   "gta6-countdown-05-regions": {
     "spec": "scripts/specs/games/gta6_18_countdown-05.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-537df1fc.mp4"
+  },
+  "palworld-six-pals-partner-skills-you-missed": {
+    "spec": "scripts/specs/long/gaming_104_palworld-six-pals-partner-skills-you-missed.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-48be8018.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-48be8018-thumb.jpg",
+    "chapters": "0:00 Intro\n0:47 Celaray partner skill\n1:36 Reindrix partner skill\n2:17 Azurmane partner skill\n3:06 Prixter partner skill\n3:48 Dogen partner skill\n4:42 Starryon partner skill\n5:31 Combat skills compared\n6:11 Which Pal fits which job\n6:58 Your turn"
+  },
+  "aniimo-how-to-get-fentuft-fenmane": {
+    "spec": "scripts/specs/games/aniimo_251_aniimo-how-to-get-fentuft-fenmane.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-101c409e.mp4"
+  },
+  "aniimo-how-to-get-luminelle-alpha-night": {
+    "spec": "scripts/specs/games/aniimo_252_aniimo-how-to-get-luminelle-alpha-night.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-ec664f6d.mp4"
+  },
+  "aniimo-how-to-get-hexxin-mistwoods": {
+    "spec": "scripts/specs/games/aniimo_253_aniimo-how-to-get-hexxin-mistwoods.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-7739b45f.mp4"
+  },
+  "aniimo-how-to-get-budsquire-two-regions": {
+    "spec": "scripts/specs/games/aniimo_254_aniimo-how-to-get-budsquire-two-regions.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-787b741f.mp4"
+  },
+  "aniimo-carousel-mill-wheatmeal-feeding": {
+    "spec": "scripts/specs/games/aniimo_262_aniimo-carousel-mill-wheatmeal-feeding.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-12f2db2a.mp4"
+  },
+  "palworld-guide-beakon-transport-electricity": {
+    "spec": "scripts/specs/games/palguide_189_beakon-transport-electricity.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-43048779.mp4"
+  },
+  "palworld-guide-braloha-planting-gathering": {
+    "spec": "scripts/specs/games/palguide_190_braloha-planting-gathering.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-693fe14e.mp4"
   }
 }

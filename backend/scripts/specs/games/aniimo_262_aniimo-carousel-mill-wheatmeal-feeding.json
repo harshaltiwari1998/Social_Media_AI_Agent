@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-carousel-mill-wheatmeal-feeding",
+  "slot": "aniimo",
+  "order": 262,
+  "headline": "Carousel Mill",
+  "title": "Carousel Mill | Easy Aniimo Feeding | Aniimo Guide",
+  "video_script": "Tired of feeding your Aniimo by hand? Build the Carousel Mill in your Homeland. It unlocks at R V level two, and it makes Wheatmeal. Wheatmeal is used to feed your Aniimo, and one guide says it makes feeding far less of a chore. So upgrade your R V to level two, build the mill, and keep Wheatmeal flowing for your workers. Have you built your Carousel Mill yet? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:20",
+      "label": "Carousel Mill"
+    },
+    {
+      "image": "steam:4126040:21",
+      "fact": "R V level two",
+      "sub": "Unlocks the mill"
+    },
+    {
+      "image": "steam:4126040:22",
+      "fact": "Wheatmeal",
+      "sub": "Made at the mill"
+    },
+    {
+      "image": "steam:4126040:23",
+      "fact": "Feeds Aniimo",
+      "sub": "Less of a chore"
+    }
+  ],
+  "description": "The Carousel Mill unlocks at RV level 2 in Aniimo's Homeland and makes Wheatmeal, which is used to feed your Aniimo.",
+  "hashtags": [
+    "Aniimo",
+    "Homeland",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo Homeland",
+    "Carousel Mill",
+    "Wheatmeal",
+    "Aniimo tips",
+    "Aniimo RV",
+    "Pawprint Studio"
+  ],
+  "joke": "My Aniimo ate so well that the mill got jealous."
+}

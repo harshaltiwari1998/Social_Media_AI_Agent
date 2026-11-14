@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-alpha-minespine-seismic-wave-boss",
+  "slot": "aniimo",
+  "order": 268,
+  "headline": "Alpha Minespine",
+  "title": "Alpha Minespine | Dodge The Seismic Wave | Aniimo Guide",
+  "video_script": "Alpha Minespine waits in Beast Fang Ridge, and it is an Earth boss. Bring Water or Grass Aniimo to hit it for extra damage. Its big move is a tail hammer that sends a seismic wave across the arena, so dodge it or get to higher ground instead of taking the hit. Then strike back between waves. Which element will you bring? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:49",
+      "label": "Alpha Minespine"
+    },
+    {
+      "image": "steam:4126040:50",
+      "fact": "Earth boss",
+      "sub": "Beast Fang Ridge"
+    },
+    {
+      "image": "steam:4126040:51",
+      "fact": "Water or Grass",
+      "sub": "Extra damage"
+    },
+    {
+      "image": "steam:4126040:52",
+      "fact": "Tail hammer",
+      "sub": "Sends a seismic wave"
+    },
+    {
+      "image": "steam:4126040:53",
+      "fact": "Dodge it",
+      "sub": "Or climb higher"
+    }
+  ],
+  "description": "Alpha Minespine is an Earth boss in Beast Fang Ridge. Water and Grass hit it hard, and you should dodge its seismic waves.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoBoss",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo boss",
+    "Alpha Minespine",
+    "Minespine",
+    "Beast Fang Ridge",
+    "Aniimo tips",
+    "Pawprint Studio"
+  ],
+  "joke": "Do not stand still, this boss really knows how to shake things up."
+}

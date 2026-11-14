@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-wonder-egg-grand-feast",
+  "slot": "aniimo",
+  "order": 265,
+  "headline": "Wonder Egg",
+  "title": "Wonder Egg | Guaranteed Alpha Or Sparkling | Aniimo Guide",
+  "video_script": "Want a guaranteed rare Aniimo? The Wonder Egg hatches into an Aniimo with at least the Alpha or Sparkling mutation. One way to get it is the Homeland quest A Grand Feast, where you cook dishes for Jojo at home. You can also earn it from Nurture Branch progress and Holo-Battle Interlink. Then put it in a Hatchinator and wait. Have you hatched a Wonder Egg? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:34",
+      "label": "Wonder Egg"
+    },
+    {
+      "image": "steam:4126040:35",
+      "fact": "Alpha or Sparkling",
+      "sub": "Guaranteed mutation"
+    },
+    {
+      "image": "steam:4126040:36",
+      "fact": "A Grand Feast",
+      "sub": "Cook for Jojo"
+    },
+    {
+      "image": "steam:4126040:37",
+      "fact": "Nurture Branch",
+      "sub": "Another source"
+    },
+    {
+      "image": "steam:4126040:38",
+      "fact": "Holo-Battle Interlink",
+      "sub": "Another source"
+    }
+  ],
+  "description": "The Wonder Egg hatches into an Aniimo with at least the Alpha or Sparkling mutation. The Homeland quest A Grand Feast, Nurture Branch and Holo-Battle Interlink can give one.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoEggs",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo eggs",
+    "Wonder Egg",
+    "A Grand Feast",
+    "Alpha mutation",
+    "Sparkling Aniimo",
+    "Pawprint Studio"
+  ],
+  "joke": "Dinner for Jojo, and a surprise egg for dessert."
+}

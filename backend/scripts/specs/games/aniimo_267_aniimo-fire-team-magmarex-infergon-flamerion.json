@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-fire-team-magmarex-infergon-flamerion",
+  "slot": "aniimo",
+  "order": 267,
+  "headline": "Fire Team",
+  "title": "Fire Team | Magmarex Infergon Flamerion | Aniimo Guide",
+  "video_script": "Here is a Fire team for Aniimo. Magmarex and Infergon bring heavy fire damage, and Flamerion backs them up. For the fourth slot, one guide picks Scorchhowl for more damage, while another picks Glacy to heal. Fire is weak to Water, so keep that in mind when you plan your team. Which fourth Aniimo would you run? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:44",
+      "label": "Fire Team"
+    },
+    {
+      "image": "steam:4126040:45",
+      "fact": "Magmarex",
+      "sub": "Fire damage"
+    },
+    {
+      "image": "steam:4126040:46",
+      "fact": "Infergon",
+      "sub": "Fire damage"
+    },
+    {
+      "image": "steam:4126040:47",
+      "fact": "Flamerion",
+      "sub": "Backup"
+    },
+    {
+      "image": "steam:4126040:48",
+      "fact": "Fourth slot",
+      "sub": "Scorchhowl or Glacy"
+    }
+  ],
+  "description": "A Fire team for Aniimo built around Magmarex, Infergon and Flamerion, with Scorchhowl or Glacy as the fourth Aniimo.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoTeams",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo team",
+    "Fire team",
+    "Magmarex",
+    "Infergon",
+    "Flamerion",
+    "Pawprint Studio"
+  ],
+  "joke": "This team is so hot, it needs its own fan club."
+}

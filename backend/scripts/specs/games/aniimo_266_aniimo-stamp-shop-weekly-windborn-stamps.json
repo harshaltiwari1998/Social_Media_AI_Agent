@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-stamp-shop-weekly-windborn-stamps",
+  "slot": "aniimo",
+  "order": 266,
+  "headline": "Stamp Shop",
+  "title": "Stamp Shop | Spend Stamps Weekly | Aniimo Guide",
+  "video_script": "Spend your Windborn Stamps wisely in Aniimo. Open the Season Hub, then the Stamp Shop, and use the Weekly tab. Irisalis Petals cost fifty stamps each, and you can buy four a week. Vein Essence also costs fifty stamps, with a limit of ten. The weekly limits reset on Monday. You earn stamps from Daily Activity Quests, so do them daily. What will you buy first? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:39",
+      "label": "Stamp Shop"
+    },
+    {
+      "image": "steam:4126040:40",
+      "fact": "Weekly tab",
+      "sub": "In the Season Hub"
+    },
+    {
+      "image": "steam:4126040:41",
+      "fact": "Irisalis Petal",
+      "sub": "Fifty stamps, four a week"
+    },
+    {
+      "image": "steam:4126040:42",
+      "fact": "Vein Essence",
+      "sub": "Fifty stamps, ten a week"
+    },
+    {
+      "image": "steam:4126040:43",
+      "fact": "Monday reset",
+      "sub": "Weekly limits refresh"
+    }
+  ],
+  "description": "Aniimo's Stamp Shop Weekly tab sells Irisalis Petal (4 a week) and Vein Essence (10 a week) for 50 Windborn Stamps each. Limits reset on Monday.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo Stamp Shop",
+    "Windborn Stamps",
+    "Irisalis Petal",
+    "Vein Essence",
+    "Aniimo tips",
+    "Pawprint Studio"
+  ],
+  "joke": "Stamps do not stick to letters here, only to shopping lists."
+}

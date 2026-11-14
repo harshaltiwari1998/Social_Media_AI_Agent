@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-alpha-magmarex-boss-water-overheat",
+  "slot": "aniimo",
+  "order": 263,
+  "headline": "Alpha Magmarex",
+  "title": "Alpha Magmarex | Beat The Overheat | Aniimo Guide",
+  "video_script": "Alpha Magmarex is a Fire boss in Zephyrus Landbridge, in an underground arena north of Hot Spring Reef Bloom. Bring Water Aniimo, because Water is its counter. As the fight goes on it heats up and becomes Overheated, which raises its attack but lowers its Water resistance. So keep hitting it with Water skills, especially while it is overheated. Are you bringing Water? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:24",
+      "label": "Alpha Magmarex"
+    },
+    {
+      "image": "steam:4126040:25",
+      "fact": "Fire boss",
+      "sub": "Zephyrus Landbridge"
+    },
+    {
+      "image": "steam:4126040:26",
+      "fact": "Bring Water",
+      "sub": "Its counter"
+    },
+    {
+      "image": "steam:4126040:27",
+      "fact": "Overheated",
+      "sub": "More attack, less Water resistance"
+    },
+    {
+      "image": "steam:4126040:28",
+      "fact": "Water skills",
+      "sub": "Hit hard while overheated"
+    }
+  ],
+  "description": "Alpha Magmarex is a Fire boss in Zephyrus Landbridge. Water is the counter, and its Overheated state raises its attack but lowers its Water resistance.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoBoss",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo boss",
+    "Alpha Magmarex",
+    "Magmarex",
+    "Zephyrus Landbridge",
+    "Aniimo tips",
+    "Pawprint Studio"
+  ],
+  "joke": "This boss runs hot, so bring a water bottle."
+}

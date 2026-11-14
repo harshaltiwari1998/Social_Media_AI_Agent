@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-alpha-ignitis-night-clones",
+  "slot": "aniimo",
+  "order": 269,
+  "headline": "Alpha Ignitis",
+  "title": "Alpha Ignitis | Find The Real One | Aniimo Guide",
+  "video_script": "Alpha Ignitis only appears at night in Berylline Vale. It is a Dark boss, so bring Wind or Light Aniimo for extra damage. The trick is that it makes clones of itself. If you hit the real Ignitis, the copies disappear. So watch closely, find the real one first, and then focus it down. Are you ready for a night hunt? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:54",
+      "label": "Alpha Ignitis"
+    },
+    {
+      "image": "steam:4126040:55",
+      "fact": "Night only",
+      "sub": "Berylline Vale"
+    },
+    {
+      "image": "steam:4126040:56",
+      "fact": "Dark boss",
+      "sub": "Bring Wind or Light"
+    },
+    {
+      "image": "steam:4126040:57",
+      "fact": "Clones",
+      "sub": "It copies itself"
+    },
+    {
+      "image": "steam:4126040:58",
+      "fact": "Hit the real one",
+      "sub": "Copies disappear"
+    }
+  ],
+  "description": "Alpha Ignitis is a Dark boss that appears at night in Berylline Vale. Wind and Light hit it hard, and hitting the real one clears its clones.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoBoss",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo boss",
+    "Alpha Ignitis",
+    "Ignitis",
+    "Berylline Vale",
+    "Aniimo tips",
+    "Pawprint Studio"
+  ],
+  "joke": "Finding the real one is the only game of hide and seek I enjoy."
+}

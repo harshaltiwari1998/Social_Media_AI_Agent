@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-omega-tuckin-hummin-helpers",
+  "slot": "aniimo",
+  "order": 264,
+  "headline": "Omega Tuckin",
+  "title": "Omega Tuckin | Stop The Helpers | Aniimo Guide",
+  "video_script": "Omega Tuckin is a Grass boss in the Mistwoods. Fire, Wind and Dark hit it for extra damage. The fight gets messy because it calls Hummin helpers, and they heal it, so take them out fast. Fire is a great pick because it also clears the Hummin wave. When it slams its roots down and they get stuck, attack the root to break its Earth Shield. Which element will you bring? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:29",
+      "label": "Omega Tuckin"
+    },
+    {
+      "image": "steam:4126040:30",
+      "fact": "Grass boss",
+      "sub": "The Mistwoods"
+    },
+    {
+      "image": "steam:4126040:31",
+      "fact": "Fire Wind Dark",
+      "sub": "Extra damage"
+    },
+    {
+      "image": "steam:4126040:32",
+      "fact": "Kill the Hummins",
+      "sub": "They heal Tuckin"
+    },
+    {
+      "image": "steam:4126040:33",
+      "fact": "Hit the root",
+      "sub": "Breaks the Earth Shield"
+    }
+  ],
+  "description": "Omega Tuckin is a Grass boss in the Mistwoods. Fire, Wind and Dark hit it hard, and its Hummin helpers heal it, so kill them quickly.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoBoss",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo boss",
+    "Omega Tuckin",
+    "Tuckin",
+    "Hummin",
+    "Mistwoods",
+    "Pawprint Studio"
+  ],
+  "joke": "Even the helpers here come with a healing plan."
+}

@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-beast-fang-ridge-three-alphas",
+  "slot": "aniimo",
+  "order": 270,
+  "headline": "Beast Fang Ridge Alphas",
+  "title": "Beast Fang Ridge | Three Alphas One Team | Aniimo Guide",
+  "video_script": "Beast Fang Ridge hides three Alpha bosses, Glynsera, Minespine and Scorchhowl. Glynsera is Ice, so bring Fire and Earth. Minespine is Earth, so bring Water or Grass. Scorchhowl is Fire, so bring Water. A team with Fire, Water and Earth Aniimo can handle all three. Fire skills even destroy Glynsera's ice blades. Which one will you hunt first? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:59",
+      "label": "Beast Fang Ridge Alphas"
+    },
+    {
+      "image": "steam:4126040:60",
+      "fact": "Glynsera",
+      "sub": "Ice, bring Fire"
+    },
+    {
+      "image": "steam:4126040:61",
+      "fact": "Minespine",
+      "sub": "Earth, bring Water"
+    },
+    {
+      "image": "steam:4126040:62",
+      "fact": "Scorchhowl",
+      "sub": "Fire, bring Water"
+    },
+    {
+      "image": "steam:4126040:63",
+      "fact": "Fire Water Earth",
+      "sub": "One team for all"
+    }
+  ],
+  "description": "Three Alpha bosses live in Beast Fang Ridge: Glynsera (Ice), Minespine (Earth) and Scorchhowl (Fire). A team with Fire, Water and Earth Aniimo covers all of them.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoBoss",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo boss",
+    "Beast Fang Ridge",
+    "Alpha Glynsera",
+    "Alpha Scorchhowl",
+    "Alpha Minespine",
+    "Pawprint Studio"
+  ],
+  "joke": "Three bosses, one ridge, and zero chances to nap."
+}

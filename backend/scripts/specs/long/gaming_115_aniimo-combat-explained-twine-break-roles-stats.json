@@ -1,0 +1,130 @@
+{
+  "id": "aniimo-combat-explained-twine-break-roles-stats",
+  "category": "gaming",
+  "series": "aniimo",
+  "order": 115,
+  "title": "Aniimo Combat Explained | Twine, Break, Stun, Roles and the Six Stats | Aniimo Guide",
+  "description": "How Aniimo combat works: Twine and Command mode, the six stats, the Break meter and stun window, the five roles, energy and dodging. Checked against GameWith, aniimotools, Dexerto, games.gg and pixelnitro in November 2026.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo combat",
+    "Aniimo Break",
+    "Aniimo Twine",
+    "Aniimo roles",
+    "Aniimo stats",
+    "Aniimo tips",
+    "Aniimo beginner"
+  ],
+  "thumbnail": {
+    "image": "steam:4126040:8",
+    "text": "HOW COMBAT REALLY WORKS"
+  },
+  "joke": "Aniimo combat is simple: you drain the Break meter, the enemy gets stunned, and your own dodge button still arrives one second late.",
+  "sections": [
+    {
+      "heading": "Intro",
+      "script": "Aniimo looks cute, but its fights are real-time and action focused, and the players who understand how combat actually works get through hard bosses much faster. In this video we explain the whole system in plain words. We start with Twine mode and Command mode, then the six stats, then the Break meter, which is probably the most important mechanic of all. After that we cover the five roles, energy and skills, elements, dodging and a simple team recipe. The facts come from several guides, including GameWith, aniimotools, Dexerto, games dot gg and pixelnitro, checked in November 2026. Where guides disagree or only one site mentions a number, we leave it out. Stay until the end for a short checklist you can use in your next boss fight.",
+      "images": [
+        "steam:4126040:1",
+        "steam:4126040:2",
+        "steam:4126040:3"
+      ]
+    },
+    {
+      "heading": "Twine and Command mode",
+      "script": "The signature idea of Aniimo is Twining. Your Pathfinder merges with a collected Aniimo, and you take direct control of its movement and combat abilities. Dexerto says some tougher encounters make you do exactly that, because you need to dodge certain attacks and area effects yourself. There is also a second way to fight. The aniimotools guide describes Command mode, where you direct your Aniimo tactically from the trainer position, while Twine mode means you transform and fight with its own kit in real time. Other guides describe the same contrast, trainer commands on one side and direct control on the other. The practical lesson is simple. Command mode is a relaxed way to fight, but when a boss has attacks you must avoid by hand, Twining is the tool that gives you control.",
+      "images": [
+        "steam:4126040:4",
+        "steam:4126040:5",
+        "steam:4126040:6"
+      ]
+    },
+    {
+      "heading": "The six stats",
+      "script": "Every Aniimo fights with six stats, and knowing them makes the rest of the system easy. HP is your maximum health. ATK raises the damage you deal. P DEF lowers physical damage you take, and M DEF lowers magical damage you take. REGEN speeds up energy recovery, which means your skills come back faster. And BREAK raises your Break damage, the power to knock down an enemy's guard. Notice that the stats are not only about hitting hard. Two of them are defensive, one is about tempo, and one is about breaking the enemy open. That is why an Aniimo with modest attack can still be a great team member. When you compare two Aniimo, ask what job each one does before you compare raw numbers.",
+      "images": [
+        "steam:4126040:7",
+        "steam:4126040:8",
+        "steam:4126040:9"
+      ]
+    },
+    {
+      "heading": "The Break meter",
+      "script": "Now the mechanic that matters most. Enemies have a Break meter, a gauge under the health bar. Your attacks drain it, and Break Aniimo drain it faster. When the meter is empty, the enemy is stunned, and Dexerto describes this as a window for bonus damage. GameWith and pixelnitro both put a number on it: while the enemy is in the Break state, it takes two hundred and fifty percent damage. That is why good players do not throw their strongest attack at the start of a fight. They first drain the meter, wait for the stun, and then unload everything. A GameWith example also shows a Break recovery timer, so the window is limited and the meter refills afterwards. Treat Break as the on switch for your big damage.",
+      "images": [
+        "steam:4126040:10",
+        "steam:4126040:11",
+        "steam:4126040:12"
+      ]
+    },
+    {
+      "heading": "Break helps with catching",
+      "script": "Break is not only for bosses. Several guides, including GameWith, aniimotools, games dot gg and the EnjoyGM guide, say that breaking a creature also makes it easier to capture. If you want a specific wild Aniimo for your collection, bring a Break unit, drain its meter first and then throw your Aniipod. That is a better plan than throwing pods at a full health, fully alert creature. It also saves resources, because every failed throw wastes a pod. We have a separate video about Aniipod types and catching, so here we only remember the main rule. Weaken the guard, then catch. The same pressure that opens a boss for damage also opens a wild Aniimo for your pod.",
+      "images": [
+        "steam:4126040:13",
+        "steam:4126040:14",
+        "steam:4126040:15"
+      ]
+    },
+    {
+      "heading": "The five roles",
+      "script": "Guides sort Aniimo into five combat roles. DPS Aniimo deal heavy damage to health bars. Break Aniimo drain the Break meter quickly. Support Aniimo buff your team or weaken the target. Regen Aniimo raise the team's REGEN so skills return faster. And Heal Aniimo restore health for the party. Dexerto lists the same idea under slightly different names, Healer, Support, Energy and Breaker, so the naming differs a little between sites, but the jobs are the same. The key point from GameWith is that DPS Aniimo shine best when they come in during the Break state. So a Break unit and a damage unit work as a pair. One opens the door, and the other walks through it with two hundred and fifty percent damage.",
+      "images": [
+        "steam:4126040:16",
+        "steam:4126040:17",
+        "steam:4126040:18"
+      ]
+    },
+    {
+      "heading": "Energy and skills",
+      "script": "Skills in Aniimo are limited by energy, usually called EP, and by cooldowns. GameWith says the number on a skill button is its EP cost, and aniimotools gives examples of creatures whose skills have both a cooldown and an energy cost. This is where the REGEN stat and Regen role matter. Games dot gg, the EnjoyGM guide and pixelnitro all describe REGEN as the thing that restores energy faster and keeps your ability rotation going. Skill and trait counts differ from creature to creature, so always read the Aniimo's own skill page. Some skills are strong but expensive, and a team without energy support spends half the fight waiting. If your fights feel slow, check energy before you check damage.",
+      "images": [
+        "steam:4126040:19",
+        "steam:4126040:20",
+        "steam:4126040:1"
+      ]
+    },
+    {
+      "heading": "Elements and traits",
+      "script": "Elements work inside combat too. Each Aniimo has one or two element types, and Dexerto notes that using type advantages affects both normal damage and Break damage. So the right element does double duty, because it hits harder and it also opens the guard faster. We have a full video about the type chart, so here we keep it simple. Before a boss, look at its element and bring a team that hits it where it is weak. Traits add another layer. GameWith explains that traits are buffs tied to a creature family, where some affect only certain elements or families, while many buff the whole team. A good trait on the right creature can quietly improve every fight.",
+      "images": [
+        "steam:4126040:2",
+        "steam:4126040:3",
+        "steam:4126040:4"
+      ]
+    },
+    {
+      "heading": "Dodging and bosses",
+      "script": "Combat is real time, so positioning matters. Dexerto describes players dodging and chaining attacks, and the EnjoyGM guide says some attacks and area effects require precise dodging, which Twining helps you manage. GameWith adds a tip about bosses showing their attack zones on the ground, so you can see danger before it lands, and it recommends saving some stamina to move out of the way. Only one guide stresses the stamina part, so treat it as a habit, not a rule. The good habit is to stop mashing buttons and watch the boss. Dodge first, attack in the gaps, and save your big skills for the moment the Break meter hits zero.",
+      "images": [
+        "steam:4126040:5",
+        "steam:4126040:6",
+        "steam:4126040:7"
+      ]
+    },
+    {
+      "heading": "A simple team recipe",
+      "script": "Let us put it together. GameWith and aniimotools both suggest the same starting shape, a DPS Aniimo to deal the damage, a Break Aniimo to open the guard, and then a Support or Heal Aniimo to keep the fight stable. If energy runs short, swap in a Regen Aniimo. Before each boss, check its element, pick Aniimo that hit it well, and decide who drains the Break meter and who hits during the stun. Against sustained damage, GameWith suggests defensive items, and if you keep losing, it says to raise your Aniimo's power, because tactics cannot fully replace weak stats. Combat knowledge and levels work together, and neither one is enough alone.",
+      "images": [
+        "steam:4126040:8",
+        "steam:4126040:9",
+        "steam:4126040:10"
+      ]
+    },
+    {
+      "heading": "Your turn",
+      "script": "Let us end with a joke. Aniimo combat is simple: you drain the Break meter, the enemy gets stunned, and your own dodge button still arrives one second late. Now it is your turn. Which role do you enjoy playing most, DPS, Break, Support, Regen or Heal, and which Aniimo do you want us to build a team around next? Tell us in the comments. If this guide helped you, subscribe to HarryBeast Gaming for more Aniimo guides, and we will see you in the next video.",
+      "images": [
+        "steam:4126040:11",
+        "steam:4126040:12",
+        "steam:4126040:13"
+      ]
+    }
+  ]
+}

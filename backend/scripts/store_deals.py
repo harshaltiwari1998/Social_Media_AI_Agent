@@ -226,6 +226,8 @@ def fetch_steam() -> tuple[list[dict], list[dict], list[str], int]:
         price = details.get("price_overview") or {}
         if not details or price.get("currency") != "INR" or not price.get("discount_percent"):
             continue  # not discounted any more / not sold in India
+        if set((details.get("content_descriptors") or {}).get("ids") or []) & {1, 3, 4}:
+            continue  # nudity / sexual content (Steam descriptors 1, 3, 4) - a platform warned the owner (2026-11-14)
         percent = int(price["discount_percent"])
         if percent < MIN_DEAL_PERCENT and seen["tag"] is None:
             continue

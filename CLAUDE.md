@@ -267,7 +267,7 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
 | on push + 12:15 | `fusion-inbox.yml` - fusion clips uploaded to `inbox/` (daily run = retries) |
 | 13:45 | `daily-anipal.yml` 1st half - 5 Aniimo + 2 Palworld guide + 3 breeding + 1 long (palworld) |
 | 14:00 | `daily-palguide.yml` - 1 Palworld guide |
-| 16:00 | `daily-deals.yml` - up to 10 free-game / deal shorts + 2 long deal roundups (Epic + Steam, live) |
+| ~~16:00~~ | `daily-deals.yml` - **STOPPED 2026-11-14** (manual trigger only; owner: no more Steam / Epic videos) |
 | 18:00 | `daily-long.yml` - 2 long gaming + 1 long movie |
 | 19:00 | `daily-gameplay.yml` - 1 long + 8 shorts of own-stream clips from `clips/*` branches (laptop renders + pushes) |
 | 20:15 | Laptop task **Pokemon Evolution Daily** (`scripts/evolution_job.cmd` -> `laptop_batch.py evo --evolution --max-shorts 3 --review`) - builds up to 3 evolution shorts right after the ZeroGPU quota reset, posts NOTHING, opens them in VLC (`evolution_review.py`); log `backend/logs/evolution_laptop.log` |
@@ -280,7 +280,11 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
 ## Decisions and owner rules (do not break)
 
 - **Routing**: gaming never goes to the movie channel/page and vice versa. Gaming = English, movies = Hindi.
-- **Store deals**: the store APIs are the source (no two-source check), prices are Steam India INR, and
+- **Store deal videos are STOPPED** (owner 2026-11-14, after a platform warning for an adult game - "Kiss Me on the
+  Oligarch's Dime" in a 25 Oct roundup and the "Evenicle" short): no schedule, no retries of old deal uploads
+  (`daily_job.retry_pending` skips them). If ever restarted, `store_deals.fetch_steam` skips games with Steam content
+  descriptors 1/3/4 (nudity / sexual content). Do not restart without the owner asking.
+- **Store deals** (when running): the store APIs are the source (no two-source check), prices are Steam India INR, and
   every description says when it was checked. Deals under 30% off are skipped unless the store features them.
 - **Copyright**: never clip third-party films, TV shows or other people's videos (refused: Haunted 3D, TMKOC).
   Offer Wikipedia-verified facts reels instead. Gameplay cuts only from the owner's own streams
@@ -369,6 +373,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-14 - Steam / Epic deal videos stopped (adult-game warning); `store_deals` skips nudity/sexual-content games; old deal uploads are not retried.
 - 2026-11-14 - Evolution shorts need the owner's OK: the laptop task builds + opens them in VLC (`--review`, `evolution_review.py`), posts only `--post-approved` lines; CI builds no new ones.
 - 2026-11-14 - Gaming Facebook Page gets only evolutions, fusions and 2 own-stream clips a day (`store.fb_gaming_allowed`): ~1,000 pipeline videos there averaged 0.2 views.
 - 2026-11-12 - Evolution shorts move to a laptop task at 20:15 IST (`evolution_job.cmd`, `laptop_batch.py`): the CI run comes just before the ZeroGPU quota reset and found it empty; Magikarp, Froakie, Gible posted from the laptop.

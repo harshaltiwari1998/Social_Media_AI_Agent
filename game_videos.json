@@ -11452,5 +11452,487 @@
   "palworld-guide-splatterina-handiwork-medicine": {
     "spec": "scripts/specs/games/palguide_191_splatterina-handiwork-medicine.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-411b8412.mp4"
+  },
+  "deal-steam-deal-773370-85": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-773370-85.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-eac651da.mp4",
+    "data": {
+      "id": "deal-steam-deal-773370-85",
+      "slot": "deals",
+      "badge": "STEAM DAILY DEAL",
+      "headline": "Steam deal",
+      "title": "Exo One 85% OFF on Steam | Now Rs 115 | Steam Deal Nov 14",
+      "video_script": "Today's Steam Daily Deal is Exo One at 85 percent off, down from 770 rupees to just 115 rupees. A strange signal... an alien craft... an interplanetary, gravity-defying journey through space and time. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/773370/header.jpg?t=1786705563",
+          "label": "Exo One"
+        },
+        {
+          "image": "steam:773370:0",
+          "fact": "-85%  Rs 115",
+          "sub": "was Rs 770"
+        },
+        {
+          "image": "steam:773370:1",
+          "fact": "Adventure + Casual + Indie",
+          "sub": "Exbleative"
+        },
+        {
+          "image": "steam:773370:2",
+          "fact": "Grab it now",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Today's Steam Daily Deal is Exo One at 85 percent off, down from 770 rupees to just 115 rupees.\nhttps://store.steampowered.com/app/773370\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 14 2026, 22:11 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Exo One",
+        "Exo One sale",
+        "Exo One price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-5421010-40": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-5421010-40.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-54af4a0a.mp4",
+    "data": {
+      "id": "deal-steam-deal-5421010-40",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Physical Yut 40% OFF on Steam | Now Rs 131 | Steam Deal Nov 14",
+      "video_script": "Physical Yut is on sale on Steam at 40 percent off, down from 219 rupees to just 131 rupees. The deal ends on November 28. Yut without waiting for turns. Build energy, throw the sticks, stack and capture pieces, and turn the match around with skills. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5421010/025756811d40125b1a8129d1a81204e231cdc5a5/header.jpg?t=1794669160",
+          "label": "Physical Yut"
+        },
+        {
+          "image": "steam:5421010:0",
+          "fact": "-40%  Rs 131",
+          "sub": "was Rs 219"
+        },
+        {
+          "image": "steam:5421010:1",
+          "fact": "Casual + Indie + Strategy",
+          "sub": "Making Soul Studio"
+        },
+        {
+          "image": "steam:5421010:2",
+          "fact": "Ends Nov 28",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Physical Yut is on sale on Steam at 40 percent off, down from 219 rupees to just 131 rupees. The deal ends on November 28.\nhttps://store.steampowered.com/app/5421010\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 14 2026, 22:11 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Physical Yut",
+        "Physical Yut sale",
+        "Physical Yut price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-5356830-40": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-5356830-40.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-d30cdf10.mp4",
+    "data": {
+      "id": "deal-steam-deal-5356830-40",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "GRAND TIDDY ADVENTURES 🚨 40% OFF on Steam | Now Rs 467 | Steam Deal Nov 14",
+      "video_script": "GRAND TIDDY ADVENTURES 🚨 is on sale on Steam at 40 percent off, down from 779 rupees to just 467 rupees. The deal ends on November 28. Crime pays in this city, but the girls want their cut too. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5356830/7e27c3b7be1f178586b198edc43f89171643ac44/header.jpg?t=1794666026",
+          "label": "GRAND TIDDY ADVENTURES 🚨"
+        },
+        {
+          "image": "steam:5356830:0",
+          "fact": "-40%  Rs 467",
+          "sub": "was Rs 779"
+        },
+        {
+          "image": "steam:5356830:1",
+          "fact": "Adventure + Casual + Indie",
+          "sub": "Lewd Star"
+        },
+        {
+          "image": "steam:5356830:2",
+          "fact": "Ends Nov 28",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "GRAND TIDDY ADVENTURES 🚨 is on sale on Steam at 40 percent off, down from 779 rupees to just 467 rupees. The deal ends on November 28.\nhttps://store.steampowered.com/app/5356830\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 14 2026, 22:11 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "GRAND TIDDY ADVENTURES 🚨",
+        "GRAND TIDDY ADVENTURES 🚨 sale",
+        "GRAND TIDDY ADVENTURES 🚨 price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-5418940-40": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-5418940-40.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-92ee68b7.mp4",
+    "data": {
+      "id": "deal-steam-deal-5418940-40",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Morphic Wallpaper 40% OFF on Steam | Now Rs 43 | Steam Deal Nov 14",
+      "video_script": "Morphic Wallpaper is on sale on Steam at 40 percent off, down from 72 rupees to just 43 rupees. The deal ends on November 28. Live wallpapers for Windows: scenes, videos, images, web pages and audio on your desktop. A built-in editor with particles, effects and keyframes, scheduled playlists, auto-pause in games, and Steam Workshop. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5418940/3d47a44ffcb111a64a6270d9944e274d189c1931/header.jpg?t=1794657850",
+          "label": "Morphic Wallpaper"
+        },
+        {
+          "image": "steam:5418940:0",
+          "fact": "-40%  Rs 43",
+          "sub": "was Rs 72"
+        },
+        {
+          "image": "steam:5418940:1",
+          "fact": "Indie + Accounting + Design & Illustration",
+          "sub": "EuroGamesStudio"
+        },
+        {
+          "image": "steam:5418940:2",
+          "fact": "Ends Nov 28",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Morphic Wallpaper is on sale on Steam at 40 percent off, down from 72 rupees to just 43 rupees. The deal ends on November 28.\nhttps://store.steampowered.com/app/5418940\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 14 2026, 22:11 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Morphic Wallpaper",
+        "Morphic Wallpaper sale",
+        "Morphic Wallpaper price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-3527290-38": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-3527290-38.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-589f3172.mp4",
+    "data": {
+      "id": "deal-steam-deal-3527290-38",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "PEAK 38% OFF on Steam | Now Rs 222 | Steam Deal Nov 14",
+      "video_script": "PEAK is on sale on Steam at 38 percent off, down from 359 rupees to just 222 rupees. The deal ends on November 15. PEAK is a co-op climbing game where the slightest mistake can spell your doom. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/31bac6b2eccf09b368f5e95ce510bae2baf3cfcd/header.jpg?t=1792684718",
+          "label": "PEAK"
+        },
+        {
+          "image": "steam:3527290:0",
+          "fact": "-38%  Rs 222",
+          "sub": "was Rs 359"
+        },
+        {
+          "image": "steam:3527290:1",
+          "fact": "Action + Adventure + Indie",
+          "sub": "Team PEAK"
+        },
+        {
+          "image": "steam:3527290:2",
+          "fact": "Ends Nov 15",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "PEAK is on sale on Steam at 38 percent off, down from 359 rupees to just 222 rupees. The deal ends on November 15.\nhttps://store.steampowered.com/app/3527290\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 14 2026, 22:11 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "PEAK",
+        "PEAK sale",
+        "PEAK price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-4484970-30": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-4484970-30.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-6ca4efd8.mp4",
+    "data": {
+      "id": "deal-steam-deal-4484970-30",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Wallpaper Animator 30% OFF on Steam | Now Rs 181 | Steam Deal Nov 14",
+      "video_script": "Wallpaper Animator is on sale on Steam at 30 percent off, down from 259 rupees to just 181 rupees. The deal ends on November 28. Use animated wallpapers on your desktop. Explore unlimited live wallpapers from the community, or create your own with included AI generations that refill daily. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4484970/b0c3c1f1a1486113eb74a41b9692906ac11b3db6/header.jpg?t=1794672385",
+          "label": "Wallpaper Animator"
+        },
+        {
+          "image": "steam:4484970:0",
+          "fact": "-30%  Rs 181",
+          "sub": "was Rs 259"
+        },
+        {
+          "image": "steam:4484970:1",
+          "fact": "Indie + Animation & Modeling + Design & Illustration",
+          "sub": "Fashtag s.r.o."
+        },
+        {
+          "image": "steam:4484970:2",
+          "fact": "Ends Nov 28",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Wallpaper Animator is on sale on Steam at 30 percent off, down from 259 rupees to just 181 rupees. The deal ends on November 28.\nhttps://store.steampowered.com/app/4484970\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 14 2026, 22:11 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Wallpaper Animator",
+        "Wallpaper Animator sale",
+        "Wallpaper Animator price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deal-steam-deal-5405940-30": {
+    "spec": "scripts/specs/deals/short/deal-steam-deal-5405940-30.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-369ec7dd.mp4",
+    "data": {
+      "id": "deal-steam-deal-5405940-30",
+      "slot": "deals",
+      "badge": "STEAM DEAL",
+      "headline": "Steam deal",
+      "title": "Rosaline: The Dragon Girl 30% OFF on Steam | Now Rs 195 | Steam Deal Nov 14",
+      "video_script": "Rosaline: The Dragon Girl is on sale on Steam at 30 percent off, down from 279 rupees to just 195 rupees. The deal ends on November 21. Awakening from a deadly clash with a dragon, Rosaline gains terrifying powers. Follow for free games and deals every day!",
+      "scenes": [
+        {
+          "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5405940/5365c41f24cc89de15f620e166d9cd712666226e/header.jpg?t=1794644761",
+          "label": "Rosaline: The Dragon Girl"
+        },
+        {
+          "image": "steam:5405940:0",
+          "fact": "-30%  Rs 195",
+          "sub": "was Rs 279"
+        },
+        {
+          "image": "steam:5405940:1",
+          "fact": "RPG",
+          "sub": "Succubella Games"
+        },
+        {
+          "image": "steam:5405940:2",
+          "fact": "Ends Nov 21",
+          "sub": "Follow for daily game deals"
+        }
+      ],
+      "description": "Rosaline: The Dragon Girl is on sale on Steam at 30 percent off, down from 279 rupees to just 195 rupees. The deal ends on November 21.\nhttps://store.steampowered.com/app/5405940\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 14 2026, 22:11 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "EpicGames",
+        "SteamSale",
+        "GameDeals"
+      ],
+      "tags": [
+        "Rosaline: The Dragon Girl",
+        "Rosaline: The Dragon Girl sale",
+        "Rosaline: The Dragon Girl price",
+        "free games",
+        "epic games free game",
+        "steam sale",
+        "steam deals",
+        "game deals today",
+        "free pc games",
+        "steam sale india",
+        "epic games free games this week"
+      ]
+    }
+  },
+  "deals-biggest-2026-11-14": {
+    "spec": "scripts/specs/deals/long/deals-biggest-2026-11-14.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-2656299c.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-2656299c-thumb.jpg",
+    "chapters": "0:00 Today's deals\n0:09 PEAK - 38% off\n0:44 Worst Class Ever - 35% off\n1:30 Diablo II: Resurrected – Infernal Edition - 35% off\n2:14 Wallpaper Animator - 30% off\n2:50 Rosaline: The Dragon Girl - 30% off\n3:27 Cities: Skylines II - 30% off\n4:05 Which one are you grabbing",
+    "data": {
+      "id": "deals-biggest-2026-11-14",
+      "category": "gaming",
+      "title": "Biggest Steam Discounts Today | Up to 38% OFF | Nov 14",
+      "description": "These are the biggest discounts on Steam for November 14. 6 games, from 38 percent off down, with the India price for each.\n\n- PEAK: -38% Rs 222 (was Rs 359) - https://store.steampowered.com/app/3527290\n- Worst Class Ever: -35% Rs 239 (was Rs 369) - https://store.steampowered.com/app/5175310\n- Diablo II: Resurrected – Infernal Edition: -35% Rs 1,949 (was Rs 2,999) - https://store.steampowered.com/app/2536520\n- Wallpaper Animator: -30% Rs 181 (was Rs 259) - https://store.steampowered.com/app/4484970\n- Rosaline: The Dragon Girl: -30% Rs 195 (was Rs 279) - https://store.steampowered.com/app/5405940\n- Cities: Skylines II: -30% Rs 2,197 (was Rs 3,139) - https://store.steampowered.com/app/949230\n\nChecked on the Epic Games Store and Steam India (INR) on Nov 14 2026, 22:11 IST. Prices and dates change - check the store before you buy.",
+      "hashtags": [
+        "FreeGames",
+        "SteamSale",
+        "EpicGames",
+        "GameDeals"
+      ],
+      "tags": [
+        "PEAK",
+        "Worst Class Ever",
+        "Diablo II: Resurrected – Infernal Edition",
+        "Wallpaper Animator",
+        "Rosaline: The Dragon Girl",
+        "Cities: Skylines II",
+        "free games",
+        "steam sale",
+        "steam deals today",
+        "epic games free games",
+        "best game deals",
+        "steam sale india",
+        "cheap pc games",
+        "games under 500 rupees"
+      ],
+      "thumbnail": {
+        "image": "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/31bac6b2eccf09b368f5e95ce510bae2baf3cfcd/header.jpg?t=1792684718",
+        "text": "UP TO 38% OFF"
+      },
+      "sections": [
+        {
+          "heading": "Today's deals",
+          "script": "These are the biggest discounts on Steam for November 14. 6 games, from 38 percent off down, with the India price for each.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/31bac6b2eccf09b368f5e95ce510bae2baf3cfcd/header.jpg?t=1792684718",
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5175310/a53c176293212f69941c443bf595238853135ae3/header.jpg?t=1794560465",
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/8cfd8f0d73075b10b3b58d9eccfee799baffab79/header.jpg?t=1774399170"
+          ]
+        },
+        {
+          "heading": "PEAK - 38% off",
+          "script": "PEAK is on sale on Steam at 38 percent off, down from 359 rupees to just 222 rupees. The deal ends on November 15. PEAK is a co-op climbing game where the slightest mistake can spell your doom. Either solo or as a group of lost nature scouts, your only hope of rescue from a mysterious island is to scale the mountain at its center. Steam lists it as Action and Adventure and Indie, made by Team PEAK, released 16 Jun, 2025. That saves you 137 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/31bac6b2eccf09b368f5e95ce510bae2baf3cfcd/header.jpg?t=1792684718",
+            "steam:3527290:0",
+            "steam:3527290:1"
+          ]
+        },
+        {
+          "heading": "Worst Class Ever - 35% off",
+          "script": "Worst Class Ever is on sale on Steam at 35 percent off, down from 369 rupees to just 239 rupees. The deal ends on November 23. 1 Teacher vs 7 Students. Hide. Prank. Survive. Up to 8-player asymmetric party chaos! Mischievous students blend into dozens of NPC classmates, secretly snacking, texting, and causing trouble, while the teacher must spot these wannabe delinquents and restore complete order to the classroom. Steam lists it as Action and Adventure and Casual, made by Funcore Games, released 9 Nov, 2026. That saves you 130 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5175310/a53c176293212f69941c443bf595238853135ae3/header.jpg?t=1794560465",
+            "steam:5175310:0",
+            "steam:5175310:1"
+          ]
+        },
+        {
+          "heading": "Diablo II: Resurrected – Infernal Edition - 35% off",
+          "script": "Diablo II: Resurrected – Infernal Edition is on sale on Steam at 35 percent off, down from 2,999 rupees to just 1,949 rupees. The deal ends on November 18. Rediscover the dark fantasy classic that defined the modern ARPG genre; fully remastered with a new class, fresh content, quality‑of‑life upgrades, and an overhauled endgame. Chain brutal skill and item synergies, rise in power, and carve through Hell’s armies with up to eight players. Steam lists it as Action and RPG and Strategy, made by Blizzard Entertainment, Inc., released 11 Feb, 2026. That saves you 1,050 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2536520/8cfd8f0d73075b10b3b58d9eccfee799baffab79/header.jpg?t=1774399170",
+            "steam:2536520:0",
+            "steam:2536520:1"
+          ]
+        },
+        {
+          "heading": "Wallpaper Animator - 30% off",
+          "script": "Wallpaper Animator is on sale on Steam at 30 percent off, down from 259 rupees to just 181 rupees. The deal ends on November 28. Use animated wallpapers on your desktop. Explore unlimited live wallpapers from the community, or create your own with included AI generations that refill daily. Steam lists it as Indie and Animation & Modeling and Design & Illustration, made by Fashtag s.r.o., released 14 Nov, 2026. That saves you 78 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4484970/b0c3c1f1a1486113eb74a41b9692906ac11b3db6/header.jpg?t=1794672385",
+            "steam:4484970:0",
+            "steam:4484970:1"
+          ]
+        },
+        {
+          "heading": "Rosaline: The Dragon Girl - 30% off",
+          "script": "Rosaline: The Dragon Girl is on sale on Steam at 30 percent off, down from 279 rupees to just 195 rupees. The deal ends on November 21. Awakening from a deadly clash with a dragon, Rosaline gains terrifying powers. Set off on an epic journey through the kingdom of Artolia, slay fearsome monsters alongside allies, and confront the corrupt shadow threatening her homeland. Steam lists it as RPG, made by Succubella Games, released 14 Nov, 2026. That saves you 84 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5405940/5365c41f24cc89de15f620e166d9cd712666226e/header.jpg?t=1794644761",
+            "steam:5405940:0",
+            "steam:5405940:1"
+          ]
+        },
+        {
+          "heading": "Cities: Skylines II - 30% off",
+          "script": "Cities: Skylines II is on sale on Steam at 30 percent off, down from 3,139 rupees to just 2,197 rupees. Raise a city from the ground up and transform it into a thriving metropolis. Push your creativity and problem-solving with deep simulation and a living economy: there’s a map waiting for you in Cities: Skylines II. If you can dream it, you can build it. Steam lists it as Simulation, made by Iceflake Studios, Colossal Order, released 24 Oct, 2023. That saves you 942 rupees compared to the normal price.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/de14fd18639aed1dd558f7ebb08eb28d6febccb3/header_alt_assets_9.jpg?t=1794506466",
+            "steam:949230:0",
+            "steam:949230:1"
+          ]
+        },
+        {
+          "heading": "Which one are you grabbing",
+          "script": "That's the list for today. Prices on Steam are the India store prices in rupees, and they can change, so always check the store page before you buy. Every link is in the description. Tell me in the comments which game you are grabbing, and subscribe, because we check Epic and Steam every single day and post the free games and the best deals as soon as they go live.",
+          "images": [
+            "url:https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3527290/31bac6b2eccf09b368f5e95ce510bae2baf3cfcd/header.jpg?t=1792684718"
+          ]
+        }
+      ]
+    }
   }
 }

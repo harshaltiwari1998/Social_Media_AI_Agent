@@ -1,0 +1,140 @@
+{
+  "id": "palworld-status-effects-immunity-pals-illnesses",
+  "category": "gaming",
+  "series": "palworld",
+  "order": 117,
+  "title": "Palworld Status Effects Explained | Burn, Freeze, Immunity Pals and Pal Illnesses | Palworld 1.0",
+  "description": "Every Palworld 1.0 status effect explained: Burn, Soak, Electrify, Freeze, Blind, Ivy-Covered, Muddy, Poison and Stun, the Pals whose partner skills make you immune, how Pal illnesses and medical supplies work, and hunger basics. Checked on Pindrop, PalDB, AllThings and the Palworld wiki in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Palworld",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld status effects",
+    "Palworld burn",
+    "Palworld freeze",
+    "Palworld partner skills",
+    "Palworld immunity",
+    "Palworld illness",
+    "Palworld medical supplies"
+  ],
+  "thumbnail": {
+    "image": "pal:Elphidran Aqua",
+    "text": "STATUS EFFECTS EXPLAINED"
+  },
+  "joke": "Palworld status effects are simple: if your Pal is on fire, your base is probably on fire too.",
+  "sections": [
+    {
+      "heading": "Intro",
+      "script": "Fire, water, lightning, mud, vines. In Palworld one point zero, almost every fight is quietly decided by status effects, and most players never look at them. In this video we go through the status conditions your enemies and your own team can suffer: what each one does, which Pals make your whole team immune to them, how Pal illnesses work at your base, and how hunger fits in. Everything here was checked against the game's own help text as shown on Pindrop and PalDB, and the partner skills were checked on both sites as well. If a number depends on the skill level of your Pal, we give you the range instead of one fixed value. Stay until the end, because the base care section can save a sick Pal that is slowing your whole camp down.",
+      "images": [
+        "pal:Elphidran Aqua",
+        "pal:Kitsun",
+        "steam:1623730:1"
+      ]
+    },
+    {
+      "heading": "How status effects work",
+      "script": "First, the basic idea. Skills do damage, but many skills also add build up toward a status condition. Hit an enemy enough times with the right skill and the condition triggers. Both Pindrop and PalDB list the same set of conditions: Burn, Soak, Electrify, Freeze, Blind, Ivy-Covered, Muddy and Poison. Pindrop also lists a rare ninth one called Stun. Pals and players can suffer a condition from skills, and some partner skills add a little build up with every attack you make. There is one more reason to care. Both sites note that a Pal under a status condition is easier to capture, and we come back to that later.",
+      "images": [
+        "pal:Flaracle",
+        "pal:Ophydia",
+        "steam:1623730:2"
+      ]
+    },
+    {
+      "heading": "Burn and Soak",
+      "script": "Burn sets the target on fire, and it takes damage over time. While a target is burning, Grass attacks deal less damage to it. Fire and Water Pals cannot be burned, so do not expect Burn to work on them. Soak is the water version. A soaked target moves more slowly, Electric attacks deal more damage to it, and Fire attacks deal less. That is a very clean setup. Soak an enemy first, then follow up with Electric damage. Be careful about the other direction too. If you light a soaked enemy on fire, the Fire damage is reduced, so mixing these two in the wrong order wastes your effort.",
+      "images": [
+        "pal:Renjishi",
+        "pal:Ophydia",
+        "steam:1623730:3"
+      ]
+    },
+    {
+      "heading": "Electrify and Freeze",
+      "script": "Electrify is the lightning condition. Electricity paralyzes the target, so it cannot act while the condition lasts, and Water attacks deal more damage to it. Freeze is similar in one big way: the target is frozen solid and cannot act. Neither site lists a damage modifier for Freeze, so think of it as pure crowd control. For now, remember the pairing: Water into Electrify, and Electric into Soak.",
+      "images": [
+        "pal:Slowatt",
+        "pal:Frostallion",
+        "steam:1623730:4"
+      ]
+    },
+    {
+      "heading": "Blind, Ivy-Covered and Muddy",
+      "script": "Blind makes the target's vision darken, and it loses sight of its enemies. No damage multiplier is listed for it, but a blinded enemy that cannot find you is an enemy that is not hitting you. Ivy-Covered wraps the target in vines. It slows the target, blocks some actions such as jumping and dodging, and Fire attacks deal more damage to it. Muddy covers the target in mud. It also slows the target, Grass attacks deal more damage to it, and Electric attacks deal less. Notice the pattern. Every one of these conditions invites a particular follow up element. Ivy-Covered asks for Fire, Muddy asks for Grass, and Soak asks for Electric.",
+      "images": [
+        "pal:Venusa",
+        "pal:Needoll",
+        "pal:Surfent Terra"
+      ]
+    },
+    {
+      "heading": "Poison and Stun",
+      "script": "Poison is the simple one. The target is poisoned and takes damage over time. Pindrop lists a small number of skills that can cause it, and it also lists items: the Poison Bow, the Poison Arrow Crossbow and Poison Arrows, which poison any target they hit. Stun is the odd one out. Pindrop says the in game help page does not even describe it, and only one skill in the skill table carries it. What the data does show is that one partner skill gives your party immunity to it. That Pal is Aegidron, and we will get to it in the immunity section. For now, the important takeaway is that Poison is a steady damage option, while Stun is rare enough that you will almost never plan around it.",
+      "images": [
+        "pal:Dandilord",
+        "pal:Bakemi",
+        "steam:1623730:5"
+      ]
+    },
+    {
+      "heading": "Why status effects help you catch Pals",
+      "script": "Here is a tip that connects combat and catching. Both Pindrop and PalDB state that Pals are easier to capture while they are affected by a status condition. A few partner skills lean into this directly. Muffly has a partner skill called Fluffy Flutterer, which increases the capture rate of Pals afflicted with Freeze while it is in your party. The effect does not stack, so one Muffly is enough. The practical plan is simple. Weaken the Pal, apply a condition, then throw your sphere. A frozen or otherwise afflicted target gives you a better chance than a healthy one.",
+      "images": [
+        "pal:Muffly",
+        "pal:Frostallion",
+        "steam:1623730:6"
+      ]
+    },
+    {
+      "heading": "Pals that make you immune, part one",
+      "script": "Now the part that protects your run. Several Pals have a partner skill that makes you and your party Pals immune to one specific condition, and they also reduce damage from a matching element. Elphidran Aqua's skill is called Amicable Water Dragon. It can be ridden as a flying mount, and while it is in your party, you and your party Pals take fifteen to thirty percent less Fire damage and are immune to Burn. Snock Terra has Grounding Shell, which gives the same fifteen to thirty percent less Water damage and immunity to Soak. Bulldosu's Yokozuna's Presence gives less Electric damage and immunity to Electrify, and it can also be ridden. Kitsun has Wolf of the Sun, which can be ridden and gives less Ice damage and immunity to Freeze. None of these skills stack with copies of themselves.",
+      "images": [
+        "pal:Elphidran Aqua",
+        "pal:Snock Terra",
+        "pal:Bulldosu"
+      ]
+    },
+    {
+      "heading": "Pals that make you immune, part two",
+      "script": "The list continues. Kitsun Noct has Gloomhowl, which can be ridden and gives fifteen to thirty percent less Dark damage plus immunity to Blind. Wumpo Botan has Guardian of the South, a rideable skill that gives less Ground damage and immunity to Muddy. Dandilord has Mist Stalwart. While it is in your party, you and your Pals are immune to Poison, and it also nullifies the effects of toxic gas in the World Tree area. When activated, it adds Poison build up to your attacks as well. Finally, Aegidron has Indestructible Fortress. It can be ridden, it reduces explosive damage by sixty to eighty percent, and it makes you immune to Stun. So if one condition keeps ruining a boss fight, there is probably a Pal for it.",
+      "images": [
+        "pal:Kitsun Noct",
+        "pal:Wumpo Botan",
+        "pal:Aegidron"
+      ]
+    },
+    {
+      "heading": "Pal illnesses at your base",
+      "script": "Status effects are not only for combat. Pals at your base can fall ill too. Pindrop says the game names seven illnesses, and they are cured by three kinds of medical supplies. Low Grade Medical Supplies treat Sick, Sprain and Overfull. Medical Supplies treat Ulcer and Fracture. High Grade Medical Supplies treat Weakened and Depressed. One important detail from both Pindrop and AllThings: none of these medicines heal health. A cured Pal still needs food or rest to recover its hit points afterward. AllThings also notes that your Pals will not treat sick teammates on their own. You have to deliver the medicine yourself.",
+      "images": [
+        "pal:Dogen",
+        "pal:Lamball",
+        "steam:1623730:2"
+      ]
+    },
+    {
+      "heading": "Hunger and the Feed Box",
+      "script": "Hunger is handled differently from illness. The Palworld wiki explains that food restores both hunger and sanity for players and Pals. Below half, a character becomes Hungry. At zero, the Starving status applies, and health slowly drops to one. The wiki states that you cannot die from starvation, but you will not recover health until you eat. Base Pals eat automatically from a Feed Box when food is available, while party Pals must be fed by hand. AllThings agrees that hunger is a food problem and not a medicine problem, so refilling a reachable Feed Box is the cure. A well stocked Feed Box prevents a lot of trouble, because ignoring hunger can lead to injuries and illness later. Cooked food also lasts longer than raw ingredients, according to the wiki.",
+      "images": [
+        "pal:Lamball",
+        "pal:Cattiva",
+        "steam:1623730:3"
+      ]
+    },
+    {
+      "heading": "Quick summary and your question",
+      "script": "Let us wrap up. Burn and Poison deal damage over time. Soak, Ivy-Covered and Muddy slow the target and set up a follow up element. Electrify and Freeze stop the target from acting. Blind blinds it. Stun is rare. For protection, Elphidran Aqua, Snock Terra, Bulldosu, Kitsun, Kitsun Noct, Wumpo Botan, Dandilord and Aegidron each shield you from one condition. At your base, match the medical supplies to the illness and keep the Feed Box full. One last thing. A small Lamball with a bad attitude can still ruin an otherwise perfect plan. Which status effect gives you the most trouble in Palworld? Tell us in the comments, and subscribe so you do not miss the next Palworld guide.",
+      "images": [
+        "pal:Elphidran Aqua",
+        "pal:Aegidron",
+        "steam:1623730:4"
+      ]
+    }
+  ]
+}

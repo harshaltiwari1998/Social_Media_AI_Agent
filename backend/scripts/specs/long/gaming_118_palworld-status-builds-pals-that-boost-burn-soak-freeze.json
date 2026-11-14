@@ -1,0 +1,131 @@
+{
+  "id": "palworld-status-builds-pals-that-boost-burn-soak-freeze",
+  "category": "gaming",
+  "series": "palworld",
+  "order": 118,
+  "title": "Palworld Status Builds | Pals That Boost Burn, Soak, Muddy and Freeze Damage | Palworld 1.0",
+  "description": "Palworld 1.0 status team builds: the Pals that add Burn, Soak, Electrify, Muddy, Blind and Poison build up, the Pals that boost damage against afflicted enemies by fifty to sixty five percent, and the rules every status partner skill follows. Partner skills checked on Pindrop and PalDB in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Palworld",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld status build",
+    "Palworld partner skills",
+    "Palworld burn team",
+    "Palworld soak",
+    "Palworld freeze",
+    "Jormuntide",
+    "Elgrove Cryst"
+  ],
+  "thumbnail": {
+    "image": "pal:Jormuntide Ignis",
+    "text": "BEST STATUS BUILDS"
+  },
+  "joke": "A good status build feels like a perfect plan, right up until the enemy turns out to be immune.",
+  "sections": [
+    {
+      "heading": "Intro",
+      "script": "A status build is a simple idea. One Pal adds build up toward a condition like Burn or Soak, and another Pal punishes enemies that have that condition. Palworld one point zero has partner skills for exactly this, and almost nobody talks about them. In this video we build seven status teams: Burn, Soak, Electrify, Ivy-Covered, Muddy, Blind and Poison. For each one you will hear which Pal applies the condition, which Pal gets stronger against it, and what the exact bonus is. We also cover Freeze, which works a little differently. Every partner skill here was checked on both Pindrop and PalDB. Stay to the end for the rules that every one of these skills follows, because they save you from a very common mistake.",
+      "images": [
+        "pal:Renjishi",
+        "pal:Jormuntide",
+        "steam:1623730:1"
+      ]
+    },
+    {
+      "heading": "The three roles",
+      "script": "Almost every status partner skill falls into one of three roles. The first role is the starter. These Pals add a small amount of build up every time you attack, usually described as a range from two to six depending on the skill level. The second role is the booster. These Pals increase the damage that you and your Pals deal to enemies suffering the condition, and the number you will see again and again is fifty to sixty five percent. The third role is the exploder. These Pals trigger an extra effect when you hit an afflicted enemy, such as an explosion that deals forty to sixty percent of your attack damage to nearby enemies. A good team has a starter and at least one of the other two roles.",
+      "images": [
+        "pal:Flaracle",
+        "pal:Needoll",
+        "steam:1623730:2"
+      ]
+    },
+    {
+      "heading": "Burn team",
+      "script": "Let us start with Burn, because it has the deepest list. Renjishi is the starter. Its partner skill, Stage Combat, makes your attacks add Burn build up while it is in your party. Jormuntide Ignis is the booster. Its skill, Stormbringer Lava Dragon, can be ridden, nullifies lava damage and increases your damage and your Pals' damage against enemies afflicted with Burn by fifty to sixty five percent. Then come the two exploders. Flaracle's Burning Future makes a burning enemy explode when you attack it, dealing forty to sixty percent of your attack damage to nearby enemies. Majex's Phantasmal Arcana creates flames around a burning enemy that deal continuous damage, between fifteen and thirty percent of your attack damage, to enemies that touch them. Remember that Fire and Water Pals cannot be burned.",
+      "images": [
+        "pal:Renjishi",
+        "pal:Jormuntide Ignis",
+        "pal:Flaracle"
+      ]
+    },
+    {
+      "heading": "Soak team",
+      "script": "The Soak team is built around water. Ophydia is the starter. Its partner skill, Glorious Mist, can be ridden, and while it is in your party your attacks add Soak build up. Jormuntide is the booster, with Stormbringer Sea Dragon. It can be ridden to travel on water, and it increases your damage and your Pals' damage against enemies afflicted with Soak by fifty to sixty five percent. Now remember what Soak does by itself. The target moves more slowly, Electric attacks deal more damage to it, and Fire attacks deal less. So this team is happiest when your main damage dealers use Electric skills. If you want a finisher, the next section has one that is very unusual.",
+      "images": [
+        "pal:Ophydia",
+        "pal:Jormuntide",
+        "steam:1623730:3"
+      ]
+    },
+    {
+      "heading": "Freeze in one strike",
+      "script": "Elgrove Cryst has one of the strangest partner skills in the game. It is called Father Winter's Threat, and while it is in your party, it grants you the ability to freeze enemies afflicted with Soak in one strike. That means a Soak team can end with a Freeze. Pair it with Ophydia or Jormuntide, soak the target, and one hit locks the enemy in place. Frozen enemies cannot act, and both Pindrop and PalDB say Pals are easier to catch while under a status condition. Frostallion offers a more direct route. Its skill, Icy Steed, can be ridden as a flying mount. While you are mounted, it changes your attack type to Ice, increases Attack by ten to forty percent and adds Freeze build up.",
+      "images": [
+        "pal:Elgrove Cryst",
+        "pal:Frostallion",
+        "steam:1623730:4"
+      ]
+    },
+    {
+      "heading": "Electrify team",
+      "script": "For Electrify, you want Snock and Slowatt. Snock's Charging Shell is the starter, because while it is in your party, your attacks add Electrify build up. Slowatt's Chillswitch is the exploder. When you attack an enemy afflicted with Electrify, the enemy discharges electricity and deals forty to sixty percent of your attack damage to nearby enemies. This team is great against groups, because the discharge hits everything around the target. An Electrified enemy cannot act, and Water attacks deal more damage to it, so a Water Pal in the party makes a good third member. Keep the two apart in your head: Soak boosts Electric damage, while Electrify boosts Water damage.",
+      "images": [
+        "pal:Snock",
+        "pal:Slowatt",
+        "steam:1623730:5"
+      ]
+    },
+    {
+      "heading": "Ivy-Covered team",
+      "script": "The Ivy-Covered team uses Grass. Needoll is the booster. Its skill, Hug Me Please, increases your damage and your Pals' damage against enemies afflicted with Ivy-Covered by fifty to sixty five percent. Silvance is the exploder. Its skill, Spore Stalwart, makes an Ivy-Covered enemy explode when you attack it, adding damage equal to forty to sixty percent of your attack damage. As a bonus, Silvance grants you and your Pals immunity to the World Tree's Explosive Spores, which is very handy in the endgame area. The starter is the Grass element itself, because many Grass skills add Ivy-Covered build up, so any Grass Pal with those moves can start the chain. Remember that Fire attacks deal more damage to an Ivy-Covered target.",
+      "images": [
+        "pal:Needoll",
+        "pal:Silvance",
+        "steam:1623730:6"
+      ]
+    },
+    {
+      "heading": "Muddy team",
+      "script": "Muddy is tied to Ground skills. Surfent Terra is the starter. Its skill, Sand Swimmer, can be ridden, and while it is in your party, your attacks add Muddy build up. Pierdon is the booster. Its skill, Power Stone, increases your damage and your Pals' damage against enemies afflicted with Muddy by fifty to sixty five percent. Muddy slows the target, Grass attacks deal more damage to it, and Electric attacks deal less. So your best damage dealers on a Muddy team are Grass Pals. Notice how this mirrors the Ivy-Covered team, where Fire is the best follow up. Each condition points to its own element, and this is the kind of pattern that wins long fights against bosses.",
+      "images": [
+        "pal:Surfent Terra",
+        "pal:Pierdon",
+        "steam:1623730:2"
+      ]
+    },
+    {
+      "heading": "Blind and Poison teams",
+      "script": "Two smaller teams finish the list. For Blind, Venusa is the starter. Its skill, Snake's Sagacity, makes your attacks add Blind build up while it is in your party. Roujay is the booster. Dark-Nester can be ridden as a flying mount and increases your damage and your Pals' damage against enemies afflicted with Blind by fifty to sixty five percent. For Poison, Dandilord starts the chain. When activated, Mist Stalwart makes your attacks add Poison build up, and it also gives you immunity to Poison. Bakemi finishes the job. Its skill, Grinning Death, reduces the Attack of any poisoned enemy you hit by forty to eighty percent. That is not extra damage. It is protection, and it is great against bosses that hit hard.",
+      "images": [
+        "pal:Venusa",
+        "pal:Roujay",
+        "pal:Bakemi"
+      ]
+    },
+    {
+      "heading": "Rules every status skill follows",
+      "script": "Now the rules that save you from mistakes. First, these partner skills work while the Pal is in your party, so a Pal sitting in the Palbox does nothing. Second, every skill we mentioned says it does not stack. Bringing two Pals with the same skill gives you no extra bonus, so spend that slot on a different role. Third, the ranges depend on the skill level of the Pal. Fifty to sixty five percent means fifty at the lowest level and sixty five at the highest. Fourth, the build up from partner skills is small, between two and six, so treat it as a helper and not a full replacement for good attack skills. Finally, check the condition immunities, because some enemies, like Fire and Water Pals against Burn, simply cannot be afflicted.",
+      "images": [
+        "pal:Elphidran Aqua",
+        "pal:Aegidron",
+        "steam:1623730:3"
+      ]
+    },
+    {
+      "heading": "Recap and your question",
+      "script": "Here is the short version. Burn: Renjishi, Jormuntide Ignis, Flaracle and Majex. Soak: Ophydia, Jormuntide and Elgrove Cryst. Electrify: Snock and Slowatt. Ivy-Covered: Needoll and Silvance. Muddy: Surfent Terra and Pierdon. Blind: Venusa and Roujay. Poison: Dandilord and Bakemi. Freeze comes from Frostallion. Pick one condition, build around it, and leave the other slots for your mounts and workers. Always check that the skill range fits your Pal's level. Which status build would you try first in Palworld? Tell us in the comments, and subscribe so you do not miss the next Palworld guide.",
+      "images": [
+        "pal:Jormuntide",
+        "pal:Renjishi",
+        "steam:1623730:4"
+      ]
+    }
+  ]
+}

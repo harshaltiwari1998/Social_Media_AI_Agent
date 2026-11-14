@@ -11448,5 +11448,9 @@
   "palworld-guide-braloha-planting-gathering": {
     "spec": "scripts/specs/games/palguide_190_braloha-planting-gathering.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-693fe14e.mp4"
+  },
+  "palworld-guide-splatterina-handiwork-medicine": {
+    "spec": "scripts/specs/games/palguide_191_splatterina-handiwork-medicine.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-411b8412.mp4"
   }
 }

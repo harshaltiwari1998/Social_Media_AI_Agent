@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-how-to-get-hexxin-mistwoods",
+  "slot": "aniimo",
+  "order": 253,
+  "headline": "Get Hexxin",
+  "title": "How to Get Hexxin | Catch It Or Evolve It | Aniimo Guide",
+  "video_script": "Hexxin is the dark and grass final form of the Hummin line. You can catch a wild one in The Mistwoods at levels thirty five to thirty seven, with a catch rate of about twenty eight percent. Or evolve Hummin at level eighteen. Hummin can also become Tuckin at the same level, so pick your branch on purpose. Which Hummin form do you want? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:22",
+      "label": "How to Get Hexxin"
+    },
+    {
+      "image": "steam:4126040:23",
+      "fact": "The Mistwoods",
+      "sub": "Wild Hexxin"
+    },
+    {
+      "image": "steam:4126040:24",
+      "fact": "Levels 35 to 37",
+      "sub": "Catch rate 28 percent"
+    },
+    {
+      "image": "steam:4126040:25",
+      "fact": "Level 18",
+      "sub": "Hummin evolves"
+    },
+    {
+      "image": "steam:4126040:26",
+      "fact": "Hexxin or Tuckin",
+      "sub": "Choose a branch"
+    }
+  ],
+  "description": "Aniimo's Hexxin can be caught in The Mistwoods at levels 35 to 37, or evolved from Hummin at level 18. Hummin can also become Tuckin.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Hexxin",
+    "Aniimo Hexxin",
+    "Hexxin evolution",
+    "AniimoHowToGet",
+    "Pawprint Studio"
+  ]
+}

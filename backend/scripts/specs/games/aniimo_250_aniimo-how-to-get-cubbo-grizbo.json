@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-how-to-get-cubbo-grizbo",
+  "slot": "aniimo",
+  "order": 250,
+  "headline": "Get Cubbo",
+  "title": "How to Get Cubbo | Grizbo Needs A Boss | Aniimo Guide",
+  "video_script": "Cubbo is a rage fighter you can catch in Rosetower Woods, in the Breezy Plains region, at levels forty three to fifty. To turn it into Grizbo, raise Cubbo to level forty seven. You also have to defeat Alpha Grizbo once. The evolution stays locked until that boss falls. Do not skip the fight, because it unlocks the whole species. Have you beaten Alpha Grizbo yet? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:7",
+      "label": "How to Get Cubbo"
+    },
+    {
+      "image": "steam:4126040:8",
+      "fact": "Rosetower Woods",
+      "sub": "Breezy Plains"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Levels 43 to 50",
+      "sub": "Wild Cubbo"
+    },
+    {
+      "image": "steam:4126040:10",
+      "fact": "Level 47",
+      "sub": "Evolves to Grizbo"
+    },
+    {
+      "image": "steam:4126040:11",
+      "fact": "Beat Alpha Grizbo",
+      "sub": "Unlocks evolution"
+    }
+  ],
+  "description": "Aniimo's Cubbo is found in Rosetower Woods at levels 43 to 50. It evolves into Grizbo at level 47 after you defeat Alpha Grizbo.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Cubbo",
+    "Aniimo Cubbo",
+    "Cubbo evolution",
+    "AniimoHowToGet",
+    "Pawprint Studio"
+  ]
+}

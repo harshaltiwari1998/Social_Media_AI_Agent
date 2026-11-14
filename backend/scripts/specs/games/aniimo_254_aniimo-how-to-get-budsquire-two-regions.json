@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-how-to-get-budsquire-two-regions",
+  "slot": "aniimo",
+  "order": 254,
+  "headline": "Get Budsquire",
+  "title": "How to Get Budsquire | Two Regions Two Forms | Aniimo Guide",
+  "video_script": "Budsquire is a Grass Aniimo with two homes. The basic form lives in the Sea of Flowers at levels nineteen to twenty eight, and in Rosetower Woods at levels forty three to fifty. The Towerwood form is only in Rosetower Woods. At level twenty seven, Budsquire can become Thornblade or Melloblum, but each branch has its own conditions. Which branch will you pick? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:27",
+      "label": "How to Get Budsquire"
+    },
+    {
+      "image": "steam:4126040:28",
+      "fact": "Sea of Flowers",
+      "sub": "Levels 19 to 28"
+    },
+    {
+      "image": "steam:4126040:29",
+      "fact": "Rosetower Woods",
+      "sub": "Levels 43 to 50"
+    },
+    {
+      "image": "steam:4126040:30",
+      "fact": "Towerwood form",
+      "sub": "Rosetower only"
+    },
+    {
+      "image": "steam:4126040:31",
+      "fact": "Level 27",
+      "sub": "Thornblade or Melloblum"
+    }
+  ],
+  "description": "Aniimo's Budsquire lives in the Sea of Flowers and Rosetower Woods. At level 27 it can evolve into Thornblade or Melloblum.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Budsquire",
+    "Aniimo Budsquire",
+    "Budsquire evolution",
+    "AniimoHowToGet",
+    "Pawprint Studio"
+  ]
+}

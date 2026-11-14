@@ -11934,5 +11934,56 @@
         }
       ]
     }
+  },
+  "poke-treecko": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "F:\\AI AGENT\\run_evo\\pokemon\\treecko\\final.mp4",
+    "data": {
+      "id": "treecko",
+      "stages": [
+        "treecko",
+        "grovyle",
+        "sceptile"
+      ],
+      "type": "grass",
+      "megas": [
+        "sceptile-mega"
+      ]
+    }
+  },
+  "poke-larvitar": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "F:\\AI AGENT\\run_evo\\pokemon\\larvitar\\final.mp4",
+    "data": {
+      "id": "larvitar",
+      "stages": [
+        "larvitar",
+        "pupitar",
+        "tyranitar"
+      ],
+      "type": "rock",
+      "megas": [
+        "tyranitar-mega"
+      ]
+    }
+  },
+  "poke-mudkip": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "F:\\AI AGENT\\run_evo\\pokemon\\mudkip\\final.mp4",
+    "data": {
+      "id": "mudkip",
+      "stages": [
+        "mudkip",
+        "marshtomp",
+        "swampert"
+      ],
+      "type": "water",
+      "megas": [
+        "swampert-mega"
+      ]
+    }
   }
 }

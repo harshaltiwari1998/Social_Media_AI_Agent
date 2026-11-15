@@ -12210,5 +12210,19 @@
   "palworld-guide-leafan-planting-handiwork-gathering": {
     "spec": "scripts/specs/games/palguide_195_leafan-planting-handiwork-gathering.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-53007ad7.mp4"
+  },
+  "valorant-explained": {
+    "spec": "scripts/specs/long/gaming_111_valorant-explained.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-08d8d9dc.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-08d8d9dc-thumb.jpg",
+    "chapters": "0:00 What is Valorant\n0:42 From beta to launch\n1:26 The basic idea of a match\n2:10 Agents and abilities\n2:55 The four roles\n3:39 The buy economy\n4:22 Game modes\n5:04 Ranks and climbing\n5:49 Valorant on console\n6:34 Why people keep playing"
+  },
+  "genshin-impact-explained": {
+    "spec": "scripts/specs/long/gaming_112_genshin-impact-explained.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-a3174ca3.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-a3174ca3-thumb.jpg",
+    "chapters": "0:00 What is Genshin Impact\n0:42 Release and platforms\n1:33 The Traveler and Paimon\n2:11 The seven nations of Teyvat\n3:01 The seven elements\n3:47 Elemental reactions\n4:41 Wishes and the gacha system\n5:28 Genius Invokation TCG\n6:14 Tips for beginners"
   }
 }

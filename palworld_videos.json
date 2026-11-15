@@ -8852,5 +8852,91 @@
       "unique": false,
       "key": "Tanzee 5"
     }
+  },
+  "Direhowl 5": {
+    "spec": "scripts/specs/palworld_direhowl_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-2bc148b5.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Direhowl",
+      "caption": "5 ways to breed Direhowl in Palworld 1.0: Flopie + Flambelle, Dazzi + Pengullet, Tocotoco + Herbil, Amione + Swee, Finsider + Daedream.",
+      "video_script": "Here are five ways to breed Direhowl in Palworld one point zero. Combo one: breed Flopie with Flambelle on your Breeding Farm, then add a cake. Combo two: pair Dazzi and Pengullet together, and you get the same egg. Combo three: Tocotoco plus Herbil works too, so use whichever Pals you have. Combo four: Amione with Swee is another easy option. Combo five: breed Finsider with Daedream on your Breeding Farm, then add a cake. Every egg hatches into Direhowl. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Flopie",
+        "Flambelle"
+      ],
+      "combos": [
+        [
+          "Flopie",
+          "Flambelle"
+        ],
+        [
+          "Dazzi",
+          "Pengullet"
+        ],
+        [
+          "Tocotoco",
+          "Herbil"
+        ],
+        [
+          "Amione",
+          "Swee"
+        ],
+        [
+          "Finsider",
+          "Daedream"
+        ]
+      ],
+      "child": "Direhowl",
+      "color": [
+        150,
+        80,
+        230
+      ],
+      "unique": false,
+      "key": "Direhowl 5"
+    }
+  },
+  "Arsox 5": {
+    "spec": "scripts/specs/palworld_arsox_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-a51b8617.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Arsox",
+      "caption": "5 ways to breed Arsox in Palworld 1.0: Tarantriss + Daedream, Mimog + Tanzee, Smokie + Rushoar, Fenglope + Direhowl, Felbat + Teafant.",
+      "video_script": "Here are five ways to breed Arsox in Palworld one point zero. Combo one: breed Tarantriss with Daedream on your Breeding Farm, then add a cake. Combo two: pair Mimog and Tanzee together, and you get the same egg. Combo three: Smokie plus Rushoar works too, so use whichever Pals you have. Combo four: Fenglope with Direhowl is another easy option. Combo five: breed Felbat with Teafant on your Breeding Farm, then add a cake. Every egg hatches into Arsox. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Tarantriss",
+        "Daedream"
+      ],
+      "combos": [
+        [
+          "Tarantriss",
+          "Daedream"
+        ],
+        [
+          "Mimog",
+          "Tanzee"
+        ],
+        [
+          "Smokie",
+          "Rushoar"
+        ],
+        [
+          "Fenglope",
+          "Direhowl"
+        ],
+        [
+          "Felbat",
+          "Teafant"
+        ]
+      ],
+      "child": "Arsox",
+      "color": [
+        60,
+        190,
+        120
+      ],
+      "unique": false,
+      "key": "Arsox 5"
+    }
   }
 }

@@ -12224,5 +12224,20 @@
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-a3174ca3.mp4",
     "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-a3174ca3-thumb.jpg",
     "chapters": "0:00 What is Genshin Impact\n0:42 Release and platforms\n1:33 The Traveler and Paimon\n2:11 The seven nations of Teyvat\n3:01 The seven elements\n3:47 Elemental reactions\n4:41 Wishes and the gacha system\n5:28 Genius Invokation TCG\n6:14 Tips for beginners"
+  },
+  "aniimo-five-evolution-lines-levels-explained": {
+    "spec": "scripts/specs/long/gaming_102_aniimo-five-evolution-lines-levels-explained.json",
+    "kind": "long",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-f7c3ced2.mp4",
+    "thumbnail": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/long-f7c3ced2-thumb.jpg",
+    "chapters": "0:00 Intro\n0:43 Skippy to Pranky\n1:34 Glacy or Leafy\n2:28 Helmut to Pawney\n3:19 Helmut to Rookey\n4:13 Dewy to Fragrancier\n5:03 Fahloo to Erlath\n5:50 Checklist\n6:35 Your turn"
+  },
+  "aniimo-alpha-ignitis-night-clones": {
+    "spec": "scripts/specs/games/aniimo_269_aniimo-alpha-ignitis-night-clones.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-1bb75221.mp4"
+  },
+  "aniimo-beast-fang-ridge-three-alphas": {
+    "spec": "scripts/specs/games/aniimo_270_aniimo-beast-fang-ridge-three-alphas.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f1a4e75c.mp4"
   }
 }

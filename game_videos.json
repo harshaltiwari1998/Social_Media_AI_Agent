@@ -12190,5 +12190,21 @@
         "epic games free games this week"
       ]
     }
+  },
+  "witchbrook-january-28-2027": {
+    "spec": "scripts/specs/games/new_51_witchbrook-january-28-2027.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-93ace4bd.mp4"
+  },
+  "reel-elephant-whisperers-oscar": {
+    "spec": "scripts/specs/movies/reel_80_elephant-whisperers-oscar.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-00d7609c.mp4"
+  },
+  "aniimo-alpha-minespine-seismic-wave-boss": {
+    "spec": "scripts/specs/games/aniimo_268_aniimo-alpha-minespine-seismic-wave-boss.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-4cb441b6.mp4"
+  },
+  "gta6-countdown-04-map-size": {
+    "spec": "scripts/specs/games/gta6_19_countdown-04.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-d74cc95a.mp4"
   }
 }

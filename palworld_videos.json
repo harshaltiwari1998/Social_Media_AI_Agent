@@ -8809,5 +8809,48 @@
       "unique": false,
       "key": "Killamari 5"
     }
+  },
+  "Tanzee 5": {
+    "spec": "scripts/specs/palworld_tanzee_5.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-d295aecf.mp4",
+    "data": {
+      "headline": "5 Ways to Breed Tanzee",
+      "caption": "5 ways to breed Tanzee in Palworld 1.0: Sparkit + Fuddler, Swee + Pengullet, Tocotoco + Teafant, Daedream + Cremis, Ribbuny + Hoocrates.",
+      "video_script": "Here are five ways to breed Tanzee in Palworld one point zero. Combo one: breed Sparkit with Fuddler on your Breeding Farm, then add a cake. Combo two: pair Swee and Pengullet together, and you get the same egg. Combo three: Tocotoco plus Teafant works too, so use whichever Pals you have. Combo four: Daedream with Cremis is another easy option. Combo five: breed Ribbuny with Hoocrates on your Breeding Farm, then add a cake. Every egg hatches into Tanzee. Which Pal should I cover next? Comment below!",
+      "parents": [
+        "Sparkit",
+        "Fuddler"
+      ],
+      "combos": [
+        [
+          "Sparkit",
+          "Fuddler"
+        ],
+        [
+          "Swee",
+          "Pengullet"
+        ],
+        [
+          "Tocotoco",
+          "Teafant"
+        ],
+        [
+          "Daedream",
+          "Cremis"
+        ],
+        [
+          "Ribbuny",
+          "Hoocrates"
+        ]
+      ],
+      "child": "Tanzee",
+      "color": [
+        90,
+        170,
+        255
+      ],
+      "unique": false,
+      "key": "Tanzee 5"
+    }
   }
 }

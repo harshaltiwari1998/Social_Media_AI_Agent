@@ -12206,5 +12206,9 @@
   "gta6-countdown-04-map-size": {
     "spec": "scripts/specs/games/gta6_19_countdown-04.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-d74cc95a.mp4"
+  },
+  "palworld-guide-leafan-planting-handiwork-gathering": {
+    "spec": "scripts/specs/games/palguide_195_leafan-planting-handiwork-gathering.json",
+    "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-53007ad7.mp4"
   }
 }

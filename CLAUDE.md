@@ -290,6 +290,7 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
 | 20:00 | `daily-rashifal.yml` - next day's 12 Hindi rashifal shorts, scheduled 06:00-06:55 IST on the AI Trend Poster FB Page |
 | 21:00 | `daily-anipal.yml` 2nd half - 5 Aniimo + 3 Palworld guide + 2 breeding + 1 long (aniimo) |
 | 18:00 | Laptop task **Car Museum Daily (approved shorts)** - `.cache/carmuseum_post.py 3`: 3 of the 25 owner-approved Payana Museum shorts a day to Instagram + gaming Facebook (light ~5 Mbps copies in `carmuseum_out/light`; 12 Mbps originals timed out in Instagram processing); does nothing once all are posted |
+| 19:00 | Laptop task **Yu-Gi-Oh Daily (approved explainers)** - `.cache/ygo_post.py 3`: next 3 of the 50 Yu-Gi-Oh videos in `run_ygo/review_queue.json` to Instagram (`.light.mp4` ~5 Mbps copies - cinema-style originals are 100+ MB and time out); YouTube holds stay until the strike week ends (then `ygo_post.py N youtube`) |
 | Sun 19:30 | `weekly-report.yml` - stats issue |
 
 All gaming workflows share the `daily-gaming` concurrency group (never two writers of `gaming-state`).

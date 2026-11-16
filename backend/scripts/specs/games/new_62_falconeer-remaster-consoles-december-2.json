@@ -1,0 +1,46 @@
+{
+  "id": "falconeer-remaster-consoles-december-2",
+  "slot": "new",
+  "order": 62,
+  "headline": "The Falconeer Revolution Remaster hits consoles December 2",
+  "title": "The Falconeer | Remaster Hits PS5 and Xbox Dec 2 | Gaming News",
+  "video_script": "The Falconeer: Revolution Remaster is coming to PlayStation 5 and Xbox Series X and S on December second, twenty twenty six. It is a game about flying a warbird over a stormy ocean world. The remaster is nineteen ninety nine dollars, and owners of the original can upgrade from two ninety nine. Wired Productions publishes it and Tomas Sala made it. Ready to take flight? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:The Falconeer",
+      "label": "The Falconeer Revolution Remaster"
+    },
+    {
+      "image": "wiki:The Falconeer",
+      "fact": "Dec 2, 2026",
+      "sub": "PS5 and Xbox launch"
+    },
+    {
+      "image": "wiki:The Falconeer",
+      "fact": "$19.99",
+      "sub": "Remaster price"
+    },
+    {
+      "image": "wiki:The Falconeer",
+      "fact": "$2.99",
+      "sub": "Upgrade for owners"
+    }
+  ],
+  "description": "The Falconeer: Revolution Remaster launches on PS5 and Xbox Series X and S on December 2, 2026, published by Wired Productions. Sources: Gematsu, Gaming Trend, PlayStation Store.",
+  "hashtags": [
+    "Falconeer",
+    "Remaster",
+    "Gaming"
+  ],
+  "tags": [
+    "The Falconeer",
+    "Revolution Remaster",
+    "Wired Productions",
+    "PS5",
+    "Xbox Series X",
+    "flight game",
+    "Gaming news"
+  ],
+  "expires": "2026-12-03",
+  "joke": "Flying is easy, landing on a tiny rock in a storm is the real quest."
+}

@@ -1,0 +1,45 @@
+{
+  "id": "minesweeper-windows-1992",
+  "slot": "classic",
+  "order": 104,
+  "headline": "Minesweeper",
+  "title": "Minesweeper Facts | The Game Hiding in Windows | Classic Games",
+  "video_script": "Minesweeper first came out in nineteen ninety as part of Microsoft Entertainment Pack one. Curt Johnson created the game for IBM's OS slash two, and Robert Donner ported it to Windows. In nineteen ninety two it was added to the standard install of Windows three point one, replacing Reversi. It has beginner, intermediate and expert boards, plus a custom option. Can you clear the expert board? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Minesweeper (video game)",
+      "label": "Minesweeper"
+    },
+    {
+      "image": "wiki:Minesweeper (video game)",
+      "fact": "1990",
+      "sub": "Entertainment Pack 1"
+    },
+    {
+      "image": "wiki:Minesweeper (video game)",
+      "fact": "Windows 3.1",
+      "sub": "Replaced Reversi, 1992"
+    },
+    {
+      "image": "wiki:Minesweeper (video game)",
+      "fact": "3 levels",
+      "sub": "Beginner, Intermediate, Expert"
+    }
+  ],
+  "description": "Minesweeper debuted in Microsoft Entertainment Pack 1 in 1990 and joined the standard Windows 3.1 install in 1992, replacing Reversi. Sources: Wikipedia, Neowin.",
+  "hashtags": [
+    "Minesweeper",
+    "Windows",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Minesweeper",
+    "Windows 3.1",
+    "Microsoft",
+    "Entertainment Pack",
+    "Robert Donner",
+    "gaming facts",
+    "classic games"
+  ],
+  "joke": "Minesweeper is the only game where guessing wrong is a very loud lesson."
+}

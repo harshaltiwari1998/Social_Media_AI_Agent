@@ -1,0 +1,46 @@
+{
+  "id": "guns-of-eschaton-december-8",
+  "slot": "new",
+  "order": 65,
+  "headline": "Guns of Eschaton launches December 8",
+  "title": "Guns of Eschaton | Western Soulslike FPS Dec 8 | Gaming News",
+  "video_script": "Guns of Eschaton launches on December eighth, twenty twenty six for PC, PlayStation 5 and Xbox Series X and S. It is a first person soulslike shooter set in an occult, apocalyptic nineteenth century America, with online co-op. The publisher is 4Divinity and the developer is Eschatology Entertainment. The date was revealed on October fifteenth. Solo or co-op? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:3734220:1",
+      "label": "Guns of Eschaton"
+    },
+    {
+      "image": "steam:3734220:2",
+      "fact": "Dec 8, 2026",
+      "sub": "Launch date"
+    },
+    {
+      "image": "steam:3734220:1",
+      "fact": "Soulslike FPS",
+      "sub": "Western setting"
+    },
+    {
+      "image": "steam:3734220:2",
+      "fact": "Online co-op",
+      "sub": "Team up"
+    }
+  ],
+  "description": "Guns of Eschaton launches December 8, 2026 on PC, PS5 and Xbox Series X and S. Sources: Gematsu, VGChartz, Xbox Store.",
+  "hashtags": [
+    "GunsOfEschaton",
+    "Soulslike",
+    "Gaming"
+  ],
+  "tags": [
+    "Guns of Eschaton",
+    "soulslike",
+    "FPS",
+    "co-op",
+    "PS5",
+    "Xbox Series X",
+    "Gaming news"
+  ],
+  "expires": "2026-12-09",
+  "joke": "In a soulslike, dying is just the game saying hello again."
+}

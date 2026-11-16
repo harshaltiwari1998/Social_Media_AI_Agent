@@ -1,0 +1,47 @@
+{
+  "id": "gothic-3-classic-november-24",
+  "slot": "new",
+  "order": 59,
+  "headline": "Gothic 3 Classic arrives November 24 on consoles",
+  "title": "Gothic 3 Classic | Console Release Nov 24 | Gaming News",
+  "video_script": "Gothic 3 Classic is coming to consoles on November twenty fourth, twenty twenty six. THQ Nordic is bringing the original role playing game to PlayStation 5, Xbox Series X and S, and Nintendo Switch 2. It is priced at twenty nine ninety nine dollars at launch, according to Gematsu. The original came out on PC back in two thousand six. Did you play Gothic on PC? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Gothic 3",
+      "label": "Gothic 3 Classic"
+    },
+    {
+      "image": "wiki:Gothic 3",
+      "fact": "Nov 24, 2026",
+      "sub": "Console release"
+    },
+    {
+      "image": "wiki:Gothic 3",
+      "fact": "PS5, Xbox, Switch 2",
+      "sub": "Platforms"
+    },
+    {
+      "image": "wiki:Gothic 3",
+      "fact": "$29.99",
+      "sub": "Launch price"
+    }
+  ],
+  "description": "Gothic 3 Classic launches November 24, 2026 on PS5, Xbox Series X and S and Nintendo Switch 2 from THQ Nordic. The original game released on PC in 2006. Sources: THQ Nordic, Gematsu, RPG Site.",
+  "hashtags": [
+    "Gothic",
+    "RPG",
+    "Gaming"
+  ],
+  "tags": [
+    "Gothic 3 Classic",
+    "Gothic 3",
+    "THQ Nordic",
+    "RPG",
+    "PS5",
+    "Switch 2",
+    "Xbox",
+    "Gaming news"
+  ],
+  "expires": "2026-11-25",
+  "joke": "Finally, a game where walking into the wrong forest is a feature."
+}

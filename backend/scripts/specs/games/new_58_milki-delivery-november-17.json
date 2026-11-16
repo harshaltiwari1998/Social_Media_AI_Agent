@@ -1,0 +1,46 @@
+{
+  "id": "milki-delivery-november-17",
+  "slot": "new",
+  "order": 58,
+  "headline": "Milki Delivery launches November 17 on Steam",
+  "title": "Milki Delivery | Cosy Milk Route Launches Nov 17 | Gaming News",
+  "video_script": "Milki Delivery, a cosy countryside delivery game, launches on Steam on November seventeenth, twenty twenty six. You play Neha, who runs a milk delivery service with her cow Milki, bringing bottles to the neighbours of a quiet village. It is published by Wholesome Games Presents and comes from the developers Blibloop and Doot. A free demo is already on Steam. Would you deliver the milk? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4259360:1",
+      "label": "Milki Delivery"
+    },
+    {
+      "image": "steam:4259360:2",
+      "fact": "Nov 17, 2026",
+      "sub": "Launch on Steam"
+    },
+    {
+      "image": "steam:4259360:1",
+      "fact": "Neha and Milki",
+      "sub": "Milk delivery cosy game"
+    },
+    {
+      "image": "steam:4259360:2",
+      "fact": "Free demo",
+      "sub": "Already on Steam"
+    }
+  ],
+  "description": "Milki Delivery launches on Steam on November 17, 2026 (some regions see November 18 due to time zones). Published by Wholesome Games Presents. Sources: Steam store page, GamePressure, Automaton.",
+  "hashtags": [
+    "MilkiDelivery",
+    "CosyGames",
+    "Gaming"
+  ],
+  "tags": [
+    "Milki Delivery",
+    "cozy games",
+    "Steam",
+    "Wholesome Games",
+    "indie games",
+    "Gaming news",
+    "release date"
+  ],
+  "expires": "2026-11-19",
+  "joke": "I hope the cow gets a tip too."
+}

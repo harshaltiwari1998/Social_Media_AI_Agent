@@ -1,0 +1,46 @@
+{
+  "id": "thief-dark-project-remastered-december-3",
+  "slot": "new",
+  "order": 64,
+  "headline": "Thief The Dark Project Remastered launches December 3",
+  "title": "Thief Remastered | Garrett Returns Dec 3 | Gaming News",
+  "video_script": "Thief: The Dark Project Remastered launches on December third, twenty twenty six for PC, PlayStation 5, Xbox and Nintendo Switch 2. Nightdive Studios is remastering the nineteen ninety eight stealth classic with Eidos Montreal and Atari. The digital standard edition costs twenty nine ninety nine dollars. Ready to sneak back into the shadows with Garrett? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Thief: The Dark Project",
+      "label": "Thief Remastered"
+    },
+    {
+      "image": "wiki:Thief: The Dark Project",
+      "fact": "Dec 3, 2026",
+      "sub": "Launch date"
+    },
+    {
+      "image": "wiki:Thief: The Dark Project",
+      "fact": "Nightdive",
+      "sub": "Remaster studio"
+    },
+    {
+      "image": "wiki:Thief: The Dark Project",
+      "fact": "$29.99",
+      "sub": "Standard edition"
+    }
+  ],
+  "description": "Thief: The Dark Project Remastered launches December 3, 2026 on PC, PS5, Xbox and Switch 2 from Nightdive Studios, Eidos Montreal and Atari. Sources: Shacknews, GamingOnLinux, Nintendo Everything.",
+  "hashtags": [
+    "Thief",
+    "Remaster",
+    "Gaming"
+  ],
+  "tags": [
+    "Thief Remastered",
+    "Nightdive Studios",
+    "Garrett",
+    "stealth game",
+    "Eidos Montreal",
+    "Atari",
+    "Gaming news"
+  ],
+  "expires": "2026-12-04",
+  "joke": "Stealth tip: the shadows are free, the guards are not."
+}

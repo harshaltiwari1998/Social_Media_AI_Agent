@@ -1,0 +1,46 @@
+{
+  "id": "fall-up-december-3",
+  "slot": "new",
+  "order": 63,
+  "headline": "Fall Up launches December 3 on consoles and PC",
+  "title": "Fall Up | Platformer Launch Dec 3 | Gaming News",
+  "video_script": "Fall Up launches on December third, twenty twenty six for PlayStation 5, Xbox Series X and S, Nintendo Switch 2, PS4, Switch and PC. It is a platformer where you play an electric rabbit robot who bounces around mechanical worlds. Astrolabe Games is the publisher and Unicellular Games is the developer. Would you jump in on day one? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1835670:1",
+      "label": "Fall Up"
+    },
+    {
+      "image": "steam:1835670:2",
+      "fact": "Dec 3, 2026",
+      "sub": "Launch date"
+    },
+    {
+      "image": "steam:1835670:1",
+      "fact": "Electric rabbit robot",
+      "sub": "You bounce around"
+    },
+    {
+      "image": "steam:1835670:2",
+      "fact": "6 platforms",
+      "sub": "PS, Xbox, Switch, PC"
+    }
+  ],
+  "description": "Fall Up launches December 3, 2026 for PS5, Xbox Series, Switch 2, PS4, Switch and PC (Steam lists December 2 in some time zones). Sources: Gematsu, Nintendo eShop, PlayStation Store.",
+  "hashtags": [
+    "FallUp",
+    "Platformer",
+    "Gaming"
+  ],
+  "tags": [
+    "Fall Up",
+    "platformer",
+    "Switch 2",
+    "PS5",
+    "Xbox Series",
+    "Astrolabe Games",
+    "Gaming news"
+  ],
+  "expires": "2026-12-04",
+  "joke": "A robot rabbit that bounces, and a controller that survives it."
+}

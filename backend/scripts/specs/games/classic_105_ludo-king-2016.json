@@ -1,0 +1,45 @@
+{
+  "id": "ludo-king-2016",
+  "slot": "classic",
+  "order": 105,
+  "headline": "Ludo King",
+  "title": "Ludo King Facts | India's Own Mobile Hit | Classic Games",
+  "video_script": "Ludo King was made by Gametion Technologies, a studio in Navi Mumbai, India. It was released on February twentieth, twenty sixteen. During India's lockdown in twenty twenty it climbed into the top five most downloaded apps in the country. By December twenty twenty it had crossed five hundred million downloads. Who is your toughest Ludo rival at home? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Ludo King",
+      "label": "Ludo King"
+    },
+    {
+      "image": "wiki:Ludo King",
+      "fact": "Feb 20, 2016",
+      "sub": "Release date"
+    },
+    {
+      "image": "wiki:Ludo King",
+      "fact": "Navi Mumbai",
+      "sub": "Made by Gametion"
+    },
+    {
+      "image": "wiki:Ludo King",
+      "fact": "500 million+",
+      "sub": "Downloads by Dec 2020"
+    }
+  ],
+  "description": "Ludo King by Gametion Technologies (Navi Mumbai) released February 20, 2016 and passed 500 million downloads by late 2020. Sources: Wikipedia, afaqs.",
+  "hashtags": [
+    "LudoKing",
+    "IndianGaming",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Ludo King",
+    "Gametion",
+    "Indian games",
+    "mobile games",
+    "board game",
+    "gaming facts",
+    "classic games"
+  ],
+  "joke": "In Ludo, the dice always roll a six for everyone except you."
+}

@@ -1,0 +1,48 @@
+{
+  "id": "reel-pathaan",
+  "category": "movies",
+  "slot": "reel",
+  "order": 88,
+  "platforms": [
+    "facebook",
+    "instagram"
+  ],
+  "headline": "Pathaan: Shah Rukh ki 1000 crore wali film",
+  "title": "Pathaan Facts | Shah Rukh Khan Siddharth Anand 1000 Crore | Movie News Hindi",
+  "video_script": "Pathaan 25 January 2023 को रिलीज़ हुई. इसे Siddharth Anand ने डायरेक्ट किया और Aditya Chopra के Yash Raj Films ने बनाया. इसमें Shah Rukh Khan के साथ Deepika Padukone और John Abraham थे. 21 February 2023 को Yash Raj ने बताया कि film दुनिया भर में 1000 करोड़ रुपये के gross पर पहुंच गई है. ये Yash Raj Spy Universe की चौथी film है. आपका favourite scene कौन सा है? Comment करो!",
+  "scenes": [
+    {
+      "image": "wiki:Pathaan (film)",
+      "label": "Pathaan"
+    },
+    {
+      "image": "wiki:Pathaan (film)",
+      "fact": "25 January 2023",
+      "sub": null
+    },
+    {
+      "image": "wiki:Pathaan (film)",
+      "fact": "Director Siddharth Anand",
+      "sub": null
+    },
+    {
+      "image": "wiki:Pathaan (film)",
+      "fact": "1000 crore worldwide",
+      "sub": null
+    }
+  ],
+  "description": "Pathaan (2023): released 25 January 2023, directed by Siddharth Anand, produced by Yash Raj Films, announced 1000 crore worldwide gross on 21 February 2023. Sources: Wikipedia, Deccan Herald.",
+  "hashtags": [
+    "Pathaan",
+    "ShahRukhKhan",
+    "YRF"
+  ],
+  "tags": [
+    "Pathaan",
+    "Shah Rukh Khan",
+    "Siddharth Anand",
+    "Yash Raj Films",
+    "Bollywood box office",
+    "Hindi film facts"
+  ]
+}

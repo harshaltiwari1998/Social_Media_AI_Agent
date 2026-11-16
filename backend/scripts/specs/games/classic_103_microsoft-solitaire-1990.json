@@ -1,0 +1,45 @@
+{
+  "id": "microsoft-solitaire-1990",
+  "slot": "classic",
+  "order": 103,
+  "headline": "Microsoft Solitaire",
+  "title": "Windows Solitaire Facts | Made by an Intern | Classic Games",
+  "video_script": "Microsoft Solitaire came with Windows three point zero in nineteen ninety. It was programmed by a Microsoft intern named Wes Cherry in the summer of nineteen eighty eight, and the cards were designed by Susan Kare. Microsoft included it partly to help people get used to the mouse, because moving cards teaches drag and drop. In twenty nineteen it was inducted into the World Video Game Hall of Fame. Did you play it on your school computer? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Microsoft Solitaire",
+      "label": "Microsoft Solitaire"
+    },
+    {
+      "image": "wiki:Microsoft Solitaire",
+      "fact": "Wes Cherry",
+      "sub": "Intern who programmed it"
+    },
+    {
+      "image": "wiki:Microsoft Solitaire",
+      "fact": "Windows 3.0",
+      "sub": "Shipped in 1990"
+    },
+    {
+      "image": "wiki:Microsoft Solitaire",
+      "fact": "Hall of Fame",
+      "sub": "World Video Game Hall of Fame, 2019"
+    }
+  ],
+  "description": "Microsoft Solitaire shipped with Windows 3.0 in 1990, programmed by intern Wes Cherry with cards by Susan Kare, and entered the World Video Game Hall of Fame in 2019. Sources: Wikipedia, The Strong National Museum of Play.",
+  "hashtags": [
+    "Solitaire",
+    "Windows",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Microsoft Solitaire",
+    "Windows Solitaire",
+    "Wes Cherry",
+    "Susan Kare",
+    "Windows 3.0",
+    "gaming facts",
+    "classic games"
+  ],
+  "joke": "Solitaire taught millions to use a mouse, and also taught them to look busy at work."
+}

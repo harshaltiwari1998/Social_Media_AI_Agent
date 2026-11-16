@@ -1,0 +1,45 @@
+{
+  "id": "zuma-2003",
+  "slot": "classic",
+  "order": 107,
+  "headline": "Zuma",
+  "title": "Zuma Facts | The Stone Frog Classic | Classic Games",
+  "video_script": "Zuma was made by PopCap Games and came out in December two thousand three. Jason Kapalka is credited as the designer. You control a stone frog that fires colored balls at a moving chain, and you must clear them before they reach a golden skull. Three or more balls of the same color explode. An enhanced version, Zuma Deluxe, came to Windows, Mac and consoles. Did you ever beat the final level? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Zuma (video game)",
+      "label": "Zuma"
+    },
+    {
+      "image": "wiki:Zuma (video game)",
+      "fact": "Dec 2003",
+      "sub": "PopCap Games"
+    },
+    {
+      "image": "wiki:Zuma (video game)",
+      "fact": "Stone frog",
+      "sub": "Fires colored balls"
+    },
+    {
+      "image": "wiki:Zuma (video game)",
+      "fact": "Zuma Deluxe",
+      "sub": "PC, Mac, Xbox 360, PS3"
+    }
+  ],
+  "description": "Zuma by PopCap Games, designed by Jason Kapalka, released December 2003; Zuma Deluxe followed on PC, Mac and consoles. Sources: Wikipedia, Metacritic listings.",
+  "hashtags": [
+    "Zuma",
+    "PopCap",
+    "ClassicGames"
+  ],
+  "tags": [
+    "Zuma",
+    "Zuma Deluxe",
+    "PopCap",
+    "Jason Kapalka",
+    "puzzle games",
+    "gaming facts",
+    "classic games"
+  ],
+  "joke": "That frog has been spitting colored balls for twenty years and never asked for a break."
+}

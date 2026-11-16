@@ -1,0 +1,45 @@
+{
+  "id": "riders-republic-switch-2-december-9",
+  "slot": "new",
+  "order": 66,
+  "headline": "Riders Republic hits Switch 2 on December 9",
+  "title": "Riders Republic | Switch 2 Launch Dec 9 | Gaming News",
+  "video_script": "Riders Republic is coming to Nintendo Switch 2 on December ninth, twenty twenty six. Ubisoft's extreme sports game also gets a new offline play mode on December ninth, on all current platforms including Switch 2. The announcement came in October as part of the game's fifth anniversary. Would you ride on the go? Comment below!",
+  "scenes": [
+    {
+      "image": "wiki:Riders Republic",
+      "label": "Riders Republic on Switch 2"
+    },
+    {
+      "image": "wiki:Riders Republic",
+      "fact": "Dec 9, 2026",
+      "sub": "Switch 2 launch"
+    },
+    {
+      "image": "wiki:Riders Republic",
+      "fact": "Offline play",
+      "sub": "New mode, all platforms"
+    },
+    {
+      "image": "wiki:Riders Republic",
+      "fact": "5th anniversary",
+      "sub": "Ubisoft announcement"
+    }
+  ],
+  "description": "Riders Republic launches on Nintendo Switch 2 on December 9, 2026 with a new offline play mode. Sources: Gematsu, God is a Geek, Final Weapon.",
+  "hashtags": [
+    "RidersRepublic",
+    "Switch2",
+    "Gaming"
+  ],
+  "tags": [
+    "Riders Republic",
+    "Switch 2",
+    "Ubisoft",
+    "extreme sports",
+    "offline mode",
+    "Gaming news"
+  ],
+  "expires": "2026-12-10",
+  "joke": "Extreme sports, minus the extreme bruises."
+}

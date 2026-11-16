@@ -1,0 +1,46 @@
+{
+  "id": "luma-island-ps5-xbox-december-2",
+  "slot": "new",
+  "order": 61,
+  "headline": "Luma Island hits PS5 and Xbox December 2",
+  "title": "Luma Island | PS5 and Xbox Launch Dec 2 | Gaming News",
+  "video_script": "Luma Island is coming to PlayStation 5 and Xbox Series X and S on December second, twenty twenty six. The cosy adventure game is already on Steam, and the console versions add cross play, so up to four players can team up across PS5, Xbox and PC. The console price is nineteen ninety nine dollars. Feel Free Games is the developer. Who would you farm with? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:2408820:1",
+      "label": "Luma Island"
+    },
+    {
+      "image": "steam:2408820:2",
+      "fact": "Dec 2, 2026",
+      "sub": "PS5 and Xbox launch"
+    },
+    {
+      "image": "steam:2408820:1",
+      "fact": "4 players",
+      "sub": "Cross play with PC"
+    },
+    {
+      "image": "steam:2408820:2",
+      "fact": "$19.99",
+      "sub": "Console price"
+    }
+  ],
+  "description": "Luma Island launches on PS5 and Xbox Series X and S on December 2, 2026 with four player cross play, from developer Feel Free Games. Sources: PlayStation Blog, VGChartz, KeenGamer.",
+  "hashtags": [
+    "LumaIsland",
+    "CosyGames",
+    "Gaming"
+  ],
+  "tags": [
+    "Luma Island",
+    "cozy games",
+    "PS5",
+    "Xbox Series X",
+    "cross play",
+    "co-op",
+    "Gaming news"
+  ],
+  "expires": "2026-12-03",
+  "joke": "Four friends, one island, and somehow only one person is farming."
+}

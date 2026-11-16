@@ -1,0 +1,46 @@
+{
+  "id": "appulse-november-26",
+  "slot": "new",
+  "order": 60,
+  "headline": "Appulse launches November 26 on Steam",
+  "title": "Appulse | Pinball Roguelite Shooter Nov 26 | Gaming News",
+  "video_script": "Appulse launches on Steam on November twenty sixth, twenty twenty six. It mixes pinball with a roguelite shooter: you use flippers and your weapon's recoil to move around, build upgrades, and climb leaderboards. Raw Fury is the publisher and the developer is Le Rado. A demo is available now. Pinball or shooter, which side wins for you? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:3498700:1",
+      "label": "Appulse"
+    },
+    {
+      "image": "steam:3498700:2",
+      "fact": "Nov 26, 2026",
+      "sub": "Launch on Steam"
+    },
+    {
+      "image": "steam:3498700:1",
+      "fact": "Pinball + shooter",
+      "sub": "Roguelite mix"
+    },
+    {
+      "image": "steam:3498700:2",
+      "fact": "Demo out now",
+      "sub": "Try before launch"
+    }
+  ],
+  "description": "Appulse, a pinball and roguelite shooter from Le Rado and publisher Raw Fury, launches on Steam on November 26, 2026. Sources: Gematsu, Raw Fury, The Sixth Axis.",
+  "hashtags": [
+    "Appulse",
+    "Roguelite",
+    "Gaming"
+  ],
+  "tags": [
+    "Appulse",
+    "pinball",
+    "roguelite",
+    "Raw Fury",
+    "Steam",
+    "indie games",
+    "Gaming news"
+  ],
+  "expires": "2026-11-27",
+  "joke": "Finally, a game where bouncing off walls counts as a strategy."
+}

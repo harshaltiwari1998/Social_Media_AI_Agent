@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-roujay-flying-mount-gathering",
+  "slot": "palguide",
+  "order": 207,
+  "headline": "Roujay flying mount",
+  "title": "Roujay | Flying Mount That Gathers And Hauls | Palworld Guide",
+  "video_script": "Need a flying mount that also works in Palworld one point zero? Roujay is a Dark Pal that you can ride as a flying mount. At your base it works Gathering level five and Transporting level five. Its partner skill, Dark-Nester, boosts damage against enemies afflicted with Blind. You find it deep in the World Tree. Will you take to the skies with Roujay? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:7",
+      "label": "Roujay"
+    },
+    {
+      "image": "pal:Roujay",
+      "fact": "Flying mount",
+      "sub": "Roujay Saddle"
+    },
+    {
+      "image": "steam:1623730:20",
+      "fact": "Dark-Nester",
+      "sub": "More damage to Blind foes"
+    },
+    {
+      "image": "pal:Roujay",
+      "fact": "Gathering 5",
+      "sub": "Transporting 5"
+    }
+  ],
+  "description": "Roujay in Palworld 1.0 is a Dark flying mount from the World Tree with Gathering level five and Transporting level five.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Roujay",
+    "Roujay flying mount",
+    "Palworld flying mount",
+    "Palworld World Tree",
+    "Palworld Gathering",
+    "Palworld 1.0",
+    "Palworld guide"
+  ],
+  "joke": "Roujay is the only courier that brings its own airline."
+}

@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-solmora-water-mount-fishing",
+  "slot": "palguide",
+  "order": 206,
+  "headline": "Solmora water mount",
+  "title": "Solmora | Water Mount That Helps You Fish | Palworld Guide",
+  "video_script": "Want a new way to cross the water in Palworld one point zero? Solmora is a Water Pal you can ride to travel across water. It has Watering level four, and its partner skill, Charming Fish, makes it easier to fish up talented Pals while it is in your party. You can find it on the Sunreach islands. Will you ride Solmora? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:6",
+      "label": "Solmora"
+    },
+    {
+      "image": "pal:Solmora",
+      "fact": "Charming Fish",
+      "sub": "Ride on water"
+    },
+    {
+      "image": "steam:1623730:18",
+      "fact": "Talented Pals",
+      "sub": "Easier to fish up"
+    },
+    {
+      "image": "pal:Solmora",
+      "fact": "Watering 4",
+      "sub": "Found on Sunreach"
+    }
+  ],
+  "description": "Solmora in Palworld 1.0 is a Water Pal found on Sunreach that can be ridden on water and makes fishing for talented Pals easier.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Solmora",
+    "Solmora water mount",
+    "Palworld water mount",
+    "Palworld fishing",
+    "Palworld Sunreach",
+    "Palworld 1.0",
+    "Palworld guide"
+  ],
+  "joke": "Solmora never gets seasick, it just gets a little fishy."
+}

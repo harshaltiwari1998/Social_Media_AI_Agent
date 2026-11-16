@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-prixter-lux-alpha-sandstone-gate",
+  "slot": "palguide",
+  "order": 204,
+  "headline": "Prixter Lux alpha",
+  "title": "Prixter Lux | Electric Alpha Boss Location | Palworld Guide",
+  "video_script": "Hunting Electric Organs in Palworld one point zero? Find the alpha Prixter Lux on Sandstone Gate Isle, one of the outer islands. It is an Electric and Ground Pal, and its alpha drops Electric Organs. Stay behind cover when it fires long beams, then chip its health down before you throw your best spheres. Are you ready to catch one? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:1",
+      "label": "Prixter Lux Alpha"
+    },
+    {
+      "image": "pal:Prixter Lux",
+      "fact": "Sandstone Gate Isle",
+      "sub": "Alpha boss location"
+    },
+    {
+      "image": "steam:1623730:12",
+      "fact": "Electric Organs",
+      "sub": "Alpha drop"
+    },
+    {
+      "image": "pal:Prixter Lux",
+      "fact": "Electric and Ground",
+      "sub": "Beware the long beams"
+    }
+  ],
+  "description": "Prixter Lux is a new 1.0 alpha boss on Sandstone Gate Isle that is an Electric and Ground Pal and drops Electric Organs.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Prixter Lux",
+    "Prixter Lux alpha",
+    "Prixter Lux location",
+    "Palworld alpha boss",
+    "Palworld Electric Organ",
+    "Palworld 1.0",
+    "Palworld guide"
+  ],
+  "joke": "This alpha has a very shocking personality."
+}

@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-chest-filters-exclusion-list-storage",
+  "slot": "palguide",
+  "order": 209,
+  "headline": "Storage tips",
+  "title": "Chest Filters | Let Pals Sort Your Base Storage | Palworld Guide",
+  "video_script": "Tired of messy chests in Palworld one point zero? Open Chest Settings and check only the item types you want, and your Pals will fill that chest with matching items. Turn on the private lock to stop Pals adding anything at all. Use Quick Deposit, R on PC, to stash your bag, and put items on the exclusion list to keep them. What will your first chest hold? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:5",
+      "label": "Chest Filters"
+    },
+    {
+      "image": "steam:1623730:13",
+      "fact": "Chest Settings",
+      "sub": "Pals fill only checked types"
+    },
+    {
+      "image": "steam:1623730:21",
+      "fact": "Private lock",
+      "sub": "Pals add nothing"
+    },
+    {
+      "image": "steam:1623730:30",
+      "fact": "Exclusion list",
+      "sub": "Quick Deposit skips it"
+    }
+  ],
+  "description": "Palworld 1.0 chest filters, the private lock, Quick Deposit and the exclusion list help you keep base storage tidy.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld storage",
+    "Palworld chest filters",
+    "Palworld Quick Deposit",
+    "Palworld exclusion list",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide"
+  ],
+  "joke": "A tidy chest is a happy chest, and a rare one."
+}

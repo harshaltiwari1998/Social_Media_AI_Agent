@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-surgery-table-passive-implants",
+  "slot": "palguide",
+  "order": 203,
+  "headline": "Pal Surgery Table",
+  "title": "Pal Surgery Table | Change Passive Skills With Implants | Palworld Guide",
+  "video_script": "Want better passive skills without endless breeding in Palworld one point zero? Build the Pal Surgery Table in your base. It lets you add or replace a Pal's passive skills using implants. A Pal holds four passives, and a new one can overwrite an old one, so choose carefully. Implants come from sources like Bounty Officers, who take Successful Bounty Tokens. Will you operate on your best Pal? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:3",
+      "label": "Pal Surgery Table"
+    },
+    {
+      "image": "steam:1623730:22",
+      "fact": "Change passives",
+      "sub": "Use implants at the table"
+    },
+    {
+      "image": "steam:1623730:8",
+      "fact": "Four passive slots",
+      "sub": "A new one can overwrite"
+    },
+    {
+      "image": "steam:1623730:27",
+      "fact": "Bounty Tokens",
+      "sub": "Trade them for implants"
+    }
+  ],
+  "description": "The Pal Surgery Table in Palworld 1.0 lets you add or replace Pal passive skills using implants, including ones from Bounty Officers.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld surgery table",
+    "Palworld implants",
+    "Palworld passive skills",
+    "Palworld bounty tokens",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld base tips"
+  ],
+  "joke": "The only thing sharper than the scalpel is the price tag."
+}

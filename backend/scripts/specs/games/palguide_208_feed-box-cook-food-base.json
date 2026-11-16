@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-feed-box-cook-food-base",
+  "slot": "palguide",
+  "order": 208,
+  "headline": "Feed Box tips",
+  "title": "Feed Box | Keep Base Pals Fed The Easy Way | Palworld Guide",
+  "video_script": "Are your base Pals working slowly in Palworld one point zero? Hungry Pals walk to the Feed Box and eat on their own, so keep it stocked. You unlock it at Technology level four for twenty Wood. Cook your berries first. A Red Berry restores fifteen hunger, but a roasted one restores twenty one. Is your Feed Box full right now? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:2",
+      "label": "Feed Box"
+    },
+    {
+      "image": "steam:1623730:10",
+      "fact": "Technology level 4",
+      "sub": "Costs 20 Wood"
+    },
+    {
+      "image": "steam:1623730:16",
+      "fact": "Roasted Berry 21",
+      "sub": "Raw Red Berry 15"
+    },
+    {
+      "image": "steam:1623730:25",
+      "fact": "Pals eat on their own",
+      "sub": "Keep it stocked"
+    }
+  ],
+  "description": "The Feed Box in Palworld 1.0 unlocks at Technology level four, and cooked food like roasted berries restores more hunger than raw berries.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Feed Box",
+    "Palworld hunger",
+    "Palworld base tips",
+    "Palworld cooking",
+    "Palworld roasted berry",
+    "Palworld 1.0",
+    "Palworld guide"
+  ],
+  "joke": "Your Pals work hard, but they will never work for free berries."
+}

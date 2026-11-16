@@ -8,8 +8,8 @@ on:
   push:
     branches: [main]
     paths: ["inbox/**"]
-  schedule:
-    - cron: "45 6 * * *" # 12:15 IST - retries
+  # Schedule REMOVED 2026-11-16 (owner): the YouTube channel was terminated over an adult game in a deal video and
+  # had to be appealed back - nothing may post without the owner's approval. Run by hand only after review.
   workflow_dispatch:
 
 concurrency:

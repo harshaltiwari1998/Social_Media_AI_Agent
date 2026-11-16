@@ -6,8 +6,8 @@ name: Daily gaming and movie videos
 # Facebook + Instagram only - and retries uploads that
 # failed earlier. No laptop needed. "What's already posted" lives on the gaming-state branch.
 on:
-  schedule:
-    - cron: "30 4 * * *" # 10:00 IST
+  # Schedule REMOVED 2026-11-16 (owner): the YouTube channel was terminated over an adult game in a deal video and
+  # had to be appealed back - nothing may post without the owner's approval. Run by hand only after review.
   workflow_dispatch:
     inputs:
       new_games:

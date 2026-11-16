@@ -8,8 +8,8 @@ name: Daily free games and store deals
 # 2026-11-14: a platform warned the owner about an adult game in a deal video; the owner kept the deals ("rakho and adult
 # wale games mat dalna") - store_deals.py skips every game with nudity / sexual content.
 on:
-  schedule:
-    - cron: "30 10 * * *" # 16:00 IST
+  # Schedule REMOVED 2026-11-16 (owner): the YouTube channel was terminated over an adult game in a deal video and
+  # had to be appealed back - nothing may post without the owner's approval. Run by hand only after review.
   workflow_dispatch:
     inputs:
       shorts:

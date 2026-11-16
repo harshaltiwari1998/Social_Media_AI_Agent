@@ -4,8 +4,8 @@ name: Daily rashifal shorts
 # traditional Chandra gochar reading) -> the main Facebook Page "AI Trend Poster" only, scheduled for 06:00-06:55
 # IST the next morning. Runs the evening before, so even a run hours late is ready in time. No laptop needed.
 on:
-  schedule:
-    - cron: "30 14 * * *" # 20:00 IST
+  # Schedule REMOVED 2026-11-16 (owner): the YouTube channel was terminated over an adult game in a deal video and
+  # had to be appealed back - nothing may post without the owner's approval. Run by hand only after review.
   workflow_dispatch:
     inputs:
       date:

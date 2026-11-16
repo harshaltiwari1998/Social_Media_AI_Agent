@@ -5,8 +5,8 @@ name: Daily Palworld guide
 # the breeding videos in daily-content.yml, which keep running. Shares the daily-gaming
 # concurrency group so the two never write the gaming-state branch at the same time.
 on:
-  schedule:
-    - cron: "30 8 * * *" # 14:00 IST
+  # Schedule REMOVED 2026-11-16 (owner): the YouTube channel was terminated over an adult game in a deal video and
+  # had to be appealed back - nothing may post without the owner's approval. Run by hand only after review.
   workflow_dispatch:
     inputs:
       guides:

@@ -44,7 +44,8 @@ def merge(src: Path, dst: Path) -> None:
     con.execute("""INSERT OR REPLACE INTO posted_trends (trend_id, platform, post_id, dry_run, posted_at)
                    SELECT s.trend_id, s.platform, s.post_id, s.dry_run, s.posted_at FROM src.posted_trends s
                    JOIN posted_trends t ON t.trend_id = s.trend_id AND t.platform = s.platform
-                   WHERE (t.post_id IS NULL OR t.dry_run = 1) AND s.post_id IS NOT NULL AND s.dry_run = 0""")
+                   WHERE (t.post_id IS NULL OR t.dry_run = 1 OR t.post_id = 'hold:review')
+                     AND s.post_id IS NOT NULL AND s.dry_run = 0 AND s.post_id != 'hold:review'""")
     con.commit()
     print(f"posted_trends: {con.total_changes - before} rows changed")
     con.execute("DETACH DATABASE src")

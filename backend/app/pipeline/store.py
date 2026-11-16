@@ -78,6 +78,19 @@ def fb_gaming_allowed(trend_id: str) -> bool:
     return False
 
 
+HOLD = "hold:review"  # built, waiting for the owner's approval (owner rule 2026-11-16) - counts as "posted" for retries
+
+
+def clear_hold(trend_id: str) -> None:
+    """Approved: drop the hold markers so the real upload can be recorded."""
+    conn = _get_conn()
+    try:
+        conn.execute("DELETE FROM posted_trends WHERE trend_id = ? AND post_id = ?", (trend_id, HOLD))
+        conn.commit()
+    finally:
+        conn.close()
+
+
 def record_post(trend_id: str, platform: str, post_id: str | None, dry_run: bool) -> None:
     conn = _get_conn()
     try:

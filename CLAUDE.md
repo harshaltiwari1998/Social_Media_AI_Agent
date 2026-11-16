@@ -279,6 +279,20 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
 
 ## Decisions and owner rules (do not break)
 
+- **NOTHING IS POSTED WITHOUT THE OWNER'S APPROVAL** (owner 2026-11-16). The YouTube channel was TERMINATED over an
+  adult game in a deal video (appealed back), then got a community-guideline strike (no YouTube uploads for a week from
+  ~2026-11-16) for the "GRAND TIDDY ADVENTURES" deal short of 14 Nov: its Steam screenshot showed sexual content. It was
+  posted at 22:29 IST by a deals run that started before the adult filter was pushed (22:45). Since then:
+  every workflow's `schedule` is removed (manual `workflow_dispatch` only, run only after the owner approved the videos),
+  the laptop task "AI Trend Poster Daily" is disabled, and every laptop batch runs with `POST_MODE=review`:
+  `daily_job.Poster.post` / `post_long` only queue the finished video in `<run folder>/review_queue.json` and put a
+  `hold:review` marker on each platform (so no retry, CI included, posts it). `scripts/post_reviewed.py <run> show`
+  opens them in VLC; `approve 1,3` posts exactly those files, `reject 2` marks `skip:rejected`; then
+  `laptop_batch.py <tag> --merge-only`. Evolutions keep their own review (`--review`). Rashifal also needs approval now.
+- **Community guidelines (YouTube / Instagram / Facebook)**: zero adult or sexual content anywhere - no nudity, no
+  suggestive images, no adult games (any Steam content descriptor 1/3/4), no sexual-violence themes. Look at EVERY
+  picture/clip that goes into a video before showing it to the owner. Also no gore close-ups, hate symbols, slurs,
+  real-person insults, misleading claims or copyrighted film/TV clips.
 - **Routing**: gaming never goes to the movie channel/page and vice versa. Gaming = English, movies = Hindi.
 - **No adult games in deal videos** (owner 2026-11-14, after a platform warning for "Kiss Me on the Oligarch's Dime"
   in a 25 Oct roundup and the "Evenicle" short: "adult wale games mat dalna"): `store_deals._adult` skips Steam
@@ -373,6 +387,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-16 - All scheduled uploads stopped after a YouTube strike (adult deal short); review queue for every laptop batch (`POST_MODE=review`, `post_reviewed.py`, `hold:review` markers).
 - 2026-11-14 - Deal videos: no adult games (`store_deals._adult`: Steam descriptors 1/3/4 + adult words) after a platform warning; old deal uploads are not retried.
 - 2026-11-14 - Evolution shorts need the owner's OK: the laptop task builds + opens them in VLC (`--review`, `evolution_review.py`), posts only `--post-approved` lines; CI builds no new ones.
 - 2026-11-14 - Gaming Facebook Page gets only evolutions, fusions and 2 own-stream clips a day (`store.fb_gaming_allowed`): ~1,000 pipeline videos there averaged 0.2 views.

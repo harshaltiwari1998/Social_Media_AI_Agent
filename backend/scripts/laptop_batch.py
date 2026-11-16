@@ -6,6 +6,7 @@ not take the specs a scheduled run is about to pick), then merge_state.py into g
     laptop_batch.py evo --evolution --max-shorts 3     # pokemon_daily.py instead (evolution_job.cmd, 20:15 task):
 the run_evo folder is kept between runs (half-made lines continue), clips on motion-cache are taken over.
 A run whose merge failed leaves .unmerged in its folder - the next run merges that first."""
+import json
 import os
 import shutil
 import subprocess
@@ -51,7 +52,14 @@ def merge() -> bool:
 UNMERGED = RUN / ".unmerged"  # posts of an earlier run that never reached gaming-state: merge them before anything
 if UNMERGED.exists() and not merge():  # else is overwritten (they would be posted a second time)
     sys.exit(2)
+if extra == ["--merge-only"]:  # after post_reviewed.py approve / reject
+    sys.exit(0 if merge() else 2)
 EVO = extra[:1] == ["--evolution"]
+held = RUN / "review_queue.json"
+if held.exists() and json.loads(held.read_text(encoding="utf-8")):
+    print(f"{RUN} still has videos waiting for the owner's review - approve/reject them first "
+          f"(scripts/post_reviewed.py {RUN} list) or use another tag", flush=True)
+    sys.exit(3)
 if not EVO:  # the evolution folder is kept: a line the quota stopped half-way continues from its clips
     shutil.rmtree(RUN, ignore_errors=True)
 RUN.mkdir(parents=True, exist_ok=True)
@@ -78,7 +86,7 @@ if EVO:  # laptop_batch.py evo --evolution --max-shorts 3: what daily-pokemon.ym
     subprocess.run(["tar", "-x", "-k", "-C", str(RUN)], input=tar.stdout, check=False)  # -k: keep newer local clips
     cmd = [PY, "scripts/pokemon_daily.py", *extra[1:]]
 env = {**os.environ, "MEDIA_OUTPUT_DIR": str(RUN), "YOUTUBE_NONINTERACTIVE": "1", "PYTHONIOENCODING": "utf-8",
-       "PYTHONUNBUFFERED": "1"}
+       "PYTHONUNBUFFERED": "1", "POST_MODE": "review"}  # owner rule 2026-11-16: nothing posts before approval
 print(time.strftime("%Y-%m-%d %H:%M"), "RUN", " ".join(cmd[1:]), flush=True)
 UNMERGED.touch()
 code = subprocess.run(cmd, cwd=REPO / "backend", env=env).returncode

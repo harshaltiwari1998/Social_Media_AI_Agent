@@ -65,6 +65,24 @@ def _save(path: Path, manifest: dict) -> None:
     path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+# Owner rule 2026-11-16 (channel terminated over an adult game, appealed back, then a community-guideline strike):
+# NOTHING is posted without the owner's approval. With POST_MODE=review (laptop_batch.py always sets it) a finished
+# video is only written to review_queue.json; scripts/post_reviewed.py shows the queue in VLC and posts the exact files
+# the owner approved.
+REVIEW = os.environ.get("POST_MODE", "") == "review"
+REVIEW_QUEUE = ROOT / settings.media_output_dir / "review_queue.json"
+
+
+def queue_for_review(entry: dict, platforms: list[str]) -> None:
+    for name in platforms:  # a hold marker stops every retry (CI included) from posting it before approval
+        if not store.already_posted(entry["trend_id"], name):
+            store.record_post(entry["trend_id"], name, store.HOLD, False)
+    queue = _load(REVIEW_QUEUE)
+    queue[entry["trend_id"]] = entry
+    _save(REVIEW_QUEUE, queue)
+    log.info("  held for the owner's review: %s", entry["trend_id"])
+
+
 class Poster:
     """Posts gaming/movie videos; stops using a YouTube channel for the run once its daily upload limit is hit."""
 
@@ -83,6 +101,10 @@ class Poster:
         self, trend_id: str, text: str, tags: list[str], video_path: str,
         category: str = "gaming", platforms: list[str] | None = None,
     ) -> None:
+        if REVIEW:
+            queue_for_review({"trend_id": trend_id, "kind": "short", "text": text, "tags": tags, "video": str(video_path),
+                              "category": category, "platforms": platforms}, self.targets(category, platforms))
+            return
         for name in self.targets(category, platforms):
             if store.already_posted(trend_id, name):
                 continue
@@ -305,6 +327,10 @@ def post_long(poster: Poster, spec: dict, entry: dict) -> None:
     """Upload a long video: YouTube channels get title/description/chapters/thumbnail, Facebook the file."""
     trend_id = longv.post_id_for(spec)
     description = longv.description_for(spec, entry.get("chapters", ""))
+    if REVIEW:
+        queue_for_review({"trend_id": trend_id, "kind": "long", "spec": spec, "entry": entry, "video": entry["video"]},
+                         longv.default_platforms(spec))
+        return
     for name in longv.default_platforms(spec):
         if store.already_posted(trend_id, name):
             continue

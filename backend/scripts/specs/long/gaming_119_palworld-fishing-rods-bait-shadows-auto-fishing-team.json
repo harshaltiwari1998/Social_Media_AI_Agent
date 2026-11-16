@@ -1,0 +1,131 @@
+{
+  "id": "palworld-fishing-rods-bait-shadows-auto-fishing-team",
+  "category": "gaming",
+  "series": "palworld",
+  "order": 119,
+  "title": "Palworld Fishing Guide | Rods, Bait, Fish Shadows and the Auto Fishing Team | Palworld Guide",
+  "description": "A full Palworld 1.0 fishing guide: the three rod tiers and the rare schematic rods, the four baits, how the minigame works, what the green and purple shadow sparkles mean, the Pals that make fishing easier, and how the Fishing Pond fishes for you. Checked on the Palworld wiki, Pindrop, KeenGamer, AllThings and Nerdschalk in November 2026.",
+  "hashtags": [
+    "Palworld",
+    "PalworldGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Palworld",
+    "Palworld guide",
+    "Palworld 1.0",
+    "Palworld fishing",
+    "Palworld fishing rod",
+    "Palworld bait",
+    "Palworld fishing pond",
+    "Palworld Whalaska",
+    "Palworld Gloopie",
+    "Palworld tips"
+  ],
+  "thumbnail": {
+    "image": "pal:Whalaska",
+    "text": "FISHING GUIDE"
+  },
+  "joke": "Fishing in Palworld is relaxing until the fish you caught turns out to be bigger than your base.",
+  "sections": [
+    {
+      "heading": "Intro",
+      "script": "Fishing arrived in Palworld with the one point zero update, and it is much more than a side activity. A single cast can land a Pal, a Rainbow passive, a rare Alpha, or even a schematic for a better rod. In this video we cover everything in order: the three rod tiers and the rare schematic rods, the four kinds of bait, how the minigame works, what the glowing shadows in the water mean, which Pals make fishing easier, and how the Fishing Pond can catch Pals for you while you do something else. We checked the numbers on the Palworld wiki, Pindrop, KeenGamer, AllThings and Nerdschalk, and where those pages disagree we say it roughly. Stay until the end for the lazy auto fishing team.",
+      "images": [
+        "pal:Whalaska",
+        "steam:1623730:5",
+        "pal:Jelliette"
+      ]
+    },
+    {
+      "heading": "Where to start",
+      "script": "You unlock fishing through the Technology menu, and the first rod comes at technology level fifteen. Simple Bait is available from the start, so you can try your first cast the moment you reach that level. Then walk to the water and look for the named fishing spots. This matters: you cannot fish from just any shoreline. Pindrop maps about four hundred and seventy named spots across the main map, and the Palmods database says there are dozens more inside the World Tree. Walk up to a spot, wait for the fishing prompt, equip your rod, and cast toward a shadow in the water. Each cast uses one bait, so carry plenty before you set out. A good first step is to stand at an easy spot, cast a few times, and learn how the bar moves before you spend better bait on harder water.",
+      "images": [
+        "steam:1623730:6",
+        "pal:Chillet",
+        "steam:1623730:7"
+      ]
+    },
+    {
+      "heading": "The three rod tiers",
+      "script": "There are three standard rods. The Beginner rod unlocks at technology level fifteen, the Intermediate rod at level twenty nine, and the Advanced rod at level forty five. What a better rod really gives you is a bigger green bar in the minigame, which makes catching easier. The wiki lists the bar size as one times for the Beginner rod, one point three times for Intermediate and one point eight times for Advanced. Higher tier rods also last longer. The harder fishing spots need higher tier rods, so this is not only comfort. It decides which water you are allowed to fish.",
+      "images": [
+        "pal:Pengullet",
+        "pal:Cattiva",
+        "steam:1623730:8"
+      ]
+    },
+    {
+      "heading": "Schematic rods",
+      "script": "On top of the three standard rods there are three better versions that you cannot simply research. They come from schematics, which you find as drops in the world, and the best one is rare. The Gumoss version of the Beginner rod has a bar of one point one times. The Croajiro version of the Intermediate rod has one point four times. The Depresso version of the Advanced rod has one point nine times and lasts for seven hundred and twenty uses, compared to four hundred and eighty for the Pengullet version. KeenGamer notes that the Depresso schematic is very rare from normal salvage, so do not plan your whole week around it. Treat it as a bonus. The nice part is that all six rods work the same way. The schematic versions simply have a wider bar and more durability, so even the plain Advanced rod is a fine tool for the whole endgame.",
+      "images": [
+        "pal:Depresso",
+        "pal:Gumoss",
+        "pal:Croajiro"
+      ]
+    },
+    {
+      "heading": "The four baits",
+      "script": "Bait is the other half of the setup, and there are four kinds. Simple Bait gives no bonus, but fishing needs it. High Quality Bait improves how often Pals bite, and AllThings and KeenGamer both say it unlocks around technology level twenty two. Deluxe Bait makes the minigame bar bigger and unlocks around level thirty eight. Alluring Bait does the same and also increases the items you get from caught Pals, and it comes around level fifty two. The smart habit is to save your good bait for the tougher spots. There is no reason to spend Alluring Bait on a pond full of easy catches that already fill your gauge.",
+      "images": [
+        "steam:1623730:9",
+        "pal:Gloopie",
+        "steam:1623730:10"
+      ]
+    },
+    {
+      "heading": "How the minigame works",
+      "script": "Cast your line toward the Pal you want, and it swims toward the bait. After a few seconds it bites and two big yellow exclamation marks appear above it. Press the fire button to begin. Now you hold the button to move the green bar, and your job is to keep that bar over the moving yellow fish icon. While they overlap, the capture gauge fills. When they do not, the gauge drains, and if it empties the Pal escapes. The icon changes direction at random, sometimes several times in a row. How hard that is depends on the fishing spot, which is why a wider bar and good helper Pals matter so much.",
+      "images": [
+        "steam:1623730:11",
+        "pal:Whalaska Ignis",
+        "steam:1623730:12"
+      ]
+    },
+    {
+      "heading": "Spots and difficulty",
+      "script": "Not every spot is equal. Pindrop sorts the fishing pools by difficulty, from easy through normal, difficult and very difficult, up to extremely difficult and even impossible, and the level range of the Pals rises with each step. The one point zero update added harder fishing spots in Sunreach and the World Tree, and the guides we checked call the World Tree the place for the best loot and Sunreach the best practical late game farm. The names of the top tiers differ between guides, so we will not argue about labels. Just remember the rule: bigger challenge, bigger rewards, and you need a stronger rod to even try.",
+      "images": [
+        "steam:1623730:13",
+        "pal:Solmora Lux",
+        "steam:1623730:14"
+      ]
+    },
+    {
+      "heading": "Shadows and sparkles",
+      "script": "Before you cast, read the shadow. Pindrop says every Pal appears in three shadow sizes. A small shadow is the common version, a medium one is a Boss version, and a large one is the rare Nushi version. Then watch the colours. Green sparkles mean the Pal carries a Rainbow passive skill. Purple sparkles mean it is a bigger, stronger Alpha Pal. Purple frothing water, or a purple beam, points to the special Lunker passive. Nerdschalk, AllThings and KeenGamer all describe these cues the same way, so they are worth chasing. A green sparkle is basically a free ticket to a great passive. If you plan to breed Pals later, a Rainbow passive Pal from the water can save you hours of hatching eggs, so it is worth spending a few extra baits on those sparkling shadows.",
+      "images": [
+        "pal:Kitsun",
+        "steam:1623730:15",
+        "pal:Ghangler"
+      ]
+    },
+    {
+      "heading": "Helper Pals",
+      "script": "Your party can make the minigame much easier. Gloopie slows the way the gauge drains when the bars are not overlapping, which prevents failed catches. Whalaska and Whalaska Ignis give the gauge a head start and make it fill faster, and the Ignis version is stronger. Jelliette increases the items you gain from fishing, with a large boost when its skill is built up. Solmora Lux makes talented Pals easier to catch, and it also works as a water mount. Two other names appear in guides, Ghangler for better night bites and Jellroy for salvage items, but the first four are the core team.",
+      "images": [
+        "pal:Gloopie",
+        "pal:Whalaska",
+        "pal:Jelliette"
+      ]
+    },
+    {
+      "heading": "Rewards and the Fishing Pond",
+      "script": "So what do you get? The Pal itself, and its own drops such as fish meat. The fishing loot tables also include spheres, keys, coins and skill fruit. Better bait means better rewards. Now the lazy part. The Fishing Pond unlocks at technology level thirty one. You choose a shadow size, add the matching bait, and assign a strong Handiwork Pal, and it collects the catch for you when production finishes. A Large Fishing Pond unlocks much later in the tech tree and brings bigger shadows. AllThings even describes a hands off party of Gloopie, Whalaska, Jelliette and Solmora Lux that fills the gauge with almost no input.",
+      "images": [
+        "steam:1623730:16",
+        "pal:Whalaska Ignis",
+        "steam:1623730:17"
+      ]
+    },
+    {
+      "heading": "Over to you",
+      "script": "Let us end with a joke. Fishing in Palworld is relaxing until the fish you caught turns out to be bigger than your base. Now it is your turn. What was the best thing you ever pulled out of the water, a Rainbow passive, an Alpha, or the rod schematic you have been chasing? Tell us in the comments. If this guide helped you, subscribe to HarryBeast Gaming for more Palworld guides, and we will see you in the next video.",
+      "images": [
+        "pal:Depresso",
+        "steam:1623730:18",
+        "pal:Elphidran Aqua"
+      ]
+    }
+  ]
+}

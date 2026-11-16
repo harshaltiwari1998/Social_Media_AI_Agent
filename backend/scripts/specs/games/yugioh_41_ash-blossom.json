@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-ash-blossom",
+  "slot": "yugioh",
+  "order": 41,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Ash Blossom & Joyous Spring",
+  "title": "Ash Blossom & Joyous Spring Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Ash Blossom & Joyous Spring. What is it? It is a Level three FIRE Zombie Tuner, and one of the most used hand traps. What does it do? Discard it from your hand to negate an effect that adds a card from the Deck to the hand, Special Summons from the Deck, or sends a card from the Deck to the Graveyard. How do you use it? Hold it during your opponent's turn and use it on their first big search. Only once per turn. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/14558127.jpg",
+      "label": "Ash Blossom & Joyous Spring"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/14558127.jpg",
+      "fact": "0 ATK / 1800 DEF",
+      "sub": "Level 3 FIRE Zombie"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/14558127.jpg",
+      "fact": "What it does",
+      "sub": "Hand trap: stops searches"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/14558127.jpg",
+      "fact": "How to use it",
+      "sub": "Stop their first search"
+    }
+  ],
+  "description": "Ash Blossom & Joyous Spring explained: Discard it from your hand to negate an effect that adds a card from the Deck to the hand, Special Summons from the Deck, or sends a card from the Deck to the Graveyard. How to use it: Hold it during your opponent's turn and use it on their first big search. Only once per turn. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "AshBlossomAndJoyousSpring",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Ash Blossom & Joyous Spring",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "She looks sweet, but she ruins combos for breakfast."
+}

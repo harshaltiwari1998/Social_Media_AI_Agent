@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-torrential-tribute",
+  "slot": "yugioh",
+  "order": 29,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Torrential Tribute",
+  "title": "Torrential Tribute Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Torrential Tribute. What is it? It is a Normal Trap Card. What does it do? When a monster is Summoned, destroy all monsters on the field. How do you use it? Set it when your field is empty, and let your opponent walk into it. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/53582587.jpg",
+      "label": "Torrential Tribute"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/53582587.jpg",
+      "fact": "Trap",
+      "sub": "Normal"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/53582587.jpg",
+      "fact": "What it does",
+      "sub": "Summon = wipe the field"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/53582587.jpg",
+      "fact": "How to use it",
+      "sub": "Use with an empty field"
+    }
+  ],
+  "description": "Torrential Tribute explained: When a monster is Summoned, destroy all monsters on the field. How to use it: Set it when your field is empty, and let your opponent walk into it. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "TorrentialTribute",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Torrential Tribute",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "Summon a monster. Watch everything disappear. Classic."
+}

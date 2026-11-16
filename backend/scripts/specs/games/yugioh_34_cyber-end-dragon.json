@@ -1,0 +1,54 @@
+{
+  "id": "yugioh-cyber-end-dragon",
+  "slot": "yugioh",
+  "order": 34,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Cyber End Dragon",
+  "title": "Cyber End Dragon Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Cyber End Dragon. What is it? It is a Level ten LIGHT Machine Fusion Monster with four thousand attack. What does it do? It is three Cyber Dragons fused, and when it attacks a Defense Position monster it deals piercing battle damage. How do you use it? It can only be Fusion Summoned with three Cyber Dragon. It is in Duelist Pack: Zane Truesdale. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/1546123.jpg",
+      "label": "Cyber End Dragon"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/1546123.jpg",
+      "fact": "4000 ATK / 2800 DEF",
+      "sub": "Level 10 LIGHT Machine"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/1546123.jpg",
+      "fact": "What it does",
+      "sub": "4000 ATK + piercing"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/70095154.jpg",
+      "fact": "Cyber Dragon",
+      "sub": "Fusion material x3"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/1546123.jpg",
+      "fact": "How to use it",
+      "sub": "3 Cyber Dragon"
+    }
+  ],
+  "description": "Cyber End Dragon explained: It is three Cyber Dragons fused, and when it attacks a Defense Position monster it deals piercing battle damage. How to use it: It can only be Fusion Summoned with three Cyber Dragon. It is in Duelist Pack: Zane Truesdale. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "CyberEndDragon",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Cyber End Dragon",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG",
+    "Cyber Dragon"
+  ],
+  "joke": "Three heads, four thousand attack, zero mercy."
+}

@@ -1,0 +1,53 @@
+{
+  "id": "yugioh-best-cards-jaden",
+  "slot": "yugioh",
+  "order": 48,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Jaden's Best Cards",
+  "title": "Jaden's Best Cards in Yu-Gi-Oh | Top 3 Explained",
+  "video_script": "Here are Jaden Yuki's best cards. Number 3: Elemental HERO Flame Wingman, his signature card, burning your opponent for the attack of the monster it destroys. Number 2: Elemental HERO Neos, the heart of his Neo-Spacian Contact Fusion deck. Number 1: and Winged Kuriboh, the card Yugi gave him, which stops battle damage for a turn when destroyed. Whose deck should I cover next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/35809262.jpg",
+      "label": "Jaden's best cards"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/35809262.jpg",
+      "fact": "Elemental HERO",
+      "sub": "Signature card"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/89943723.jpg",
+      "fact": "Elemental HERO Neos",
+      "sub": "Contact Fusion"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/57116033.jpg",
+      "fact": "Winged Kuriboh",
+      "sub": "Gift from Yugi"
+    }
+  ],
+  "description": "Jaden Yuki's best cards. Sources: Wikipedia (Jaden Yuki). Card text: YGOPRODeck. Card art (c) Kazuki Takahashi / Konami - fan video.",
+  "hashtags": [
+    "YuGiOh",
+    "JadenDeck",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Jaden Yu-Gi-Oh",
+    "Jaden deck",
+    "Jaden best cards",
+    "Elemental HERO Flame Wingman",
+    "Elemental HERO Neos",
+    "Winged Kuriboh",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "Jaden's deck has more plot armour than my whole collection."
+}

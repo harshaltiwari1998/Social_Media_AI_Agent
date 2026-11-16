@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-graceful-charity",
+  "slot": "yugioh",
+  "order": 26,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Graceful Charity",
+  "title": "Graceful Charity Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Graceful Charity. What is it? It is a Normal Spell Card. What does it do? Draw three cards, then discard two cards. How do you use it? It is Forbidden in the current TCG banlist, so it is only for casual games. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/79571449.jpg",
+      "label": "Graceful Charity"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/79571449.jpg",
+      "fact": "Spell",
+      "sub": "Normal"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/79571449.jpg",
+      "fact": "What it does",
+      "sub": "Draw 3, discard 2"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/79571449.jpg",
+      "fact": "How to use it",
+      "sub": "Forbidden in TCG"
+    }
+  ],
+  "description": "Graceful Charity explained: Draw three cards, then discard two cards. How to use it: It is Forbidden in the current TCG banlist, so it is only for casual games. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "GracefulCharity",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Graceful Charity",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "Draw three, discard two, pretend that was the plan."
+}

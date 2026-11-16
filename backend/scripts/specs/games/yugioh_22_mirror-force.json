@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-mirror-force",
+  "slot": "yugioh",
+  "order": 22,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Mirror Force",
+  "title": "Mirror Force Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Mirror Force. What is it? It is a Normal Trap Card. What does it do? When your opponent's monster declares an attack, destroy all of your opponent's Attack Position monsters. How do you use it? Set it and wait for an attack. The more monsters in Attack Position, the bigger the punish. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/44095762.jpg",
+      "label": "Mirror Force"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/44095762.jpg",
+      "fact": "Trap",
+      "sub": "Normal"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/44095762.jpg",
+      "fact": "What it does",
+      "sub": "Destroys all attackers"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/44095762.jpg",
+      "fact": "How to use it",
+      "sub": "Set it, wait for an attack"
+    }
+  ],
+  "description": "Mirror Force explained: When your opponent's monster declares an attack, destroy all of your opponent's Attack Position monsters. How to use it: Set it and wait for an attack. The more monsters in Attack Position, the bigger the punish. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "MirrorForce",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Mirror Force",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "Attacking into a face-down card? Bold move."
+}

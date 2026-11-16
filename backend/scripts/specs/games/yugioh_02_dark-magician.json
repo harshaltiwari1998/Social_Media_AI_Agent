@@ -1,0 +1,60 @@
+{
+  "id": "yugioh-dark-magician",
+  "slot": "yugioh",
+  "order": 2,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Dark Magician",
+  "title": "Dark Magician Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Dark Magician. What is it? It is a Level seven DARK Spellcaster Normal Monster with two thousand five hundred attack. It is Yugi's signature card. What does it do? It has no effect. It is a solid attacker that a whole family of support cards is built around. How do you use it? Two Tributes summon it normally, so players search for help. Magician's Rod adds a Spell or Trap that lists Dark Magician when it is Normal Summoned, and Dark Magic Attack destroys all your opponent's Spells and Traps while you control Dark Magician. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/46986414.jpg",
+      "label": "Dark Magician"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/46986414.jpg",
+      "fact": "2500 ATK / 2100 DEF",
+      "sub": "Level 7 DARK Spellcaster"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/46986414.jpg",
+      "fact": "What it does",
+      "sub": "No effect, huge support"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/7084129.jpg",
+      "fact": "Magician's Rod",
+      "sub": "Searches Dark Magician support"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/2314238.jpg",
+      "fact": "Dark Magic Attack",
+      "sub": "Wipes their Spells and Traps"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/46986414.jpg",
+      "fact": "How to use it",
+      "sub": "Support: Rod + Dark Magic Attack"
+    }
+  ],
+  "description": "Dark Magician explained: It has no effect. It is a solid attacker that a whole family of support cards is built around. How to use it: Two Tributes summon it normally, so players search for help. Magician's Rod adds a Spell or Trap that lists Dark Magician when it is Normal Summoned, and Dark Magic Attack destroys all your opponent's Spells and Traps while you control Dark Magician. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "DarkMagician",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Dark Magician",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG",
+    "Magician's Rod",
+    "Dark Magic Attack"
+  ],
+  "joke": "The ultimate wizard, and he still cannot find my deck box."
+}

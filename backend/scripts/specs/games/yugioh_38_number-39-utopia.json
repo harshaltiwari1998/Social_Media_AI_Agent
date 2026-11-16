@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-number-39-utopia",
+  "slot": "yugioh",
+  "order": 38,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Number 39: Utopia",
+  "title": "Number 39: Utopia Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Number 39: Utopia. What is it? It is a Rank four LIGHT Warrior Xyz Monster with two thousand five hundred attack. What does it do? When a monster declares an attack, you can detach one material to negate the attack. Careful: if it is targeted for an attack with no material, it is destroyed. How do you use it? Xyz Summon it with two Level four monsters. It is in Duelist Pack: Yuma. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/84013237.jpg",
+      "label": "Number 39: Utopia"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/84013237.jpg",
+      "fact": "2500 ATK / 2000 DEF",
+      "sub": "Rank 4 LIGHT Warrior"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/84013237.jpg",
+      "fact": "What it does",
+      "sub": "Detach: negate an attack"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/84013237.jpg",
+      "fact": "How to use it",
+      "sub": "2 Level 4 monsters"
+    }
+  ],
+  "description": "Number 39: Utopia explained: When a monster declares an attack, you can detach one material to negate the attack. Careful: if it is targeted for an attack with no material, it is destroyed. How to use it: Xyz Summon it with two Level four monsters. It is in Duelist Pack: Yuma. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "Number39Utopia",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Number 39: Utopia",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "Every Xyz deck's best friend, and every opponent's speed bump."
+}

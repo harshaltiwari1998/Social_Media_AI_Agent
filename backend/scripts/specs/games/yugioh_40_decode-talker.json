@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-decode-talker",
+  "slot": "yugioh",
+  "order": 40,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Decode Talker",
+  "title": "Decode Talker Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Decode Talker. What is it? It is a Link-three DARK Cyberse Link Monster with two thousand three hundred attack. What does it do? It gains five hundred attack for each monster it points to, and can tribute a monster it points to to negate an effect that targets your cards. How do you use it? Link Summon it with two or more Effect Monsters, then fill the zones it points to. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/1861629.jpg",
+      "label": "Decode Talker"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/1861629.jpg",
+      "fact": "2300 ATK",
+      "sub": "Link-3 DARK Cyberse"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/1861629.jpg",
+      "fact": "What it does",
+      "sub": "+500 per pointed monster"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/1861629.jpg",
+      "fact": "How to use it",
+      "sub": "2+ Effect Monsters"
+    }
+  ],
+  "description": "Decode Talker explained: It gains five hundred attack for each monster it points to, and can tribute a monster it points to to negate an effect that targets your cards. How to use it: Link Summon it with two or more Effect Monsters, then fill the zones it points to. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "DecodeTalker",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Decode Talker",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "It speaks fluent Cyberse."
+}

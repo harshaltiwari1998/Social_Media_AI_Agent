@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-maxx-c",
+  "slot": "yugioh",
+  "order": 42,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Maxx \"C\"",
+  "title": "Maxx \"C\" Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Maxx \"C\". What is it? It is a Level two EARTH Insect hand trap. What does it do? Send it from your hand to the Graveyard, and for the rest of that turn you draw a card every time your opponent Special Summons a monster. How do you use it? It is so strong that it is Forbidden in the current TCG banlist. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/23434538.jpg",
+      "label": "Maxx \"C\""
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/23434538.jpg",
+      "fact": "500 ATK / 200 DEF",
+      "sub": "Level 2 EARTH Insect"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/23434538.jpg",
+      "fact": "What it does",
+      "sub": "Draw on every Special Summon"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/23434538.jpg",
+      "fact": "How to use it",
+      "sub": "Forbidden in TCG"
+    }
+  ],
+  "description": "Maxx \"C\" explained: Send it from your hand to the Graveyard, and for the rest of that turn you draw a card every time your opponent Special Summons a monster. How to use it: It is so strong that it is Forbidden in the current TCG banlist. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "MaxxC",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Maxx \"C\"",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "Every Special Summon, another card for me. Thank you very much."
+}

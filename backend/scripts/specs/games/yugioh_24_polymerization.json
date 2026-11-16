@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-polymerization",
+  "slot": "yugioh",
+  "order": 24,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Polymerization",
+  "title": "Polymerization Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Polymerization. What is it? It is a Normal Spell Card. What does it do? Fusion Summon one Fusion Monster from your Extra Deck, using monsters from your hand or field as material. How do you use it? Check your Fusion Monster's material list, then keep those monsters ready in hand or on the field. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/24094653.jpg",
+      "label": "Polymerization"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/24094653.jpg",
+      "fact": "Spell",
+      "sub": "Normal"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/24094653.jpg",
+      "fact": "What it does",
+      "sub": "Fusion Summon"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/24094653.jpg",
+      "fact": "How to use it",
+      "sub": "Match the materials"
+    }
+  ],
+  "description": "Polymerization explained: Fusion Summon one Fusion Monster from your Extra Deck, using monsters from your hand or field as material. How to use it: Check your Fusion Monster's material list, then keep those monsters ready in hand or on the field. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "Polymerization",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Polymerization",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "Two monsters walk into a portal. One very angry monster walks out."
+}

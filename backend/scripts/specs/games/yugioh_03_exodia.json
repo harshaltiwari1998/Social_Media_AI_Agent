@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-exodia",
+  "slot": "yugioh",
+  "order": 3,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Exodia the Forbidden One",
+  "title": "Exodia the Forbidden One Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Exodia the Forbidden One. What is it? It is a Level three DARK Spellcaster with one thousand attack, and the head of the Forbidden One. What does it do? If you hold all five pieces in your hand, the head plus both arms and both legs, you win the Duel on the spot. How do you use it? Players build draw-heavy decks to collect all five pieces fast, using cards that draw and search. Today the head is Limited, so you can only run one copy. It appears in Legendary Collection 3, Yugi's World. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/33396948.jpg",
+      "label": "Exodia the Forbidden One"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/33396948.jpg",
+      "fact": "1000 ATK / 1000 DEF",
+      "sub": "Level 3 DARK Spellcaster"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/33396948.jpg",
+      "fact": "What it does",
+      "sub": "5 pieces in hand = you win"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/33396948.jpg",
+      "fact": "How to use it",
+      "sub": "Draw fast, collect all 5"
+    }
+  ],
+  "description": "Exodia the Forbidden One explained: If you hold all five pieces in your hand, the head plus both arms and both legs, you win the Duel on the spot. How to use it: Players build draw-heavy decks to collect all five pieces fast, using cards that draw and search. Today the head is Limited, so you can only run one copy. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "ExodiatheForbiddenOne",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Exodia the Forbidden One",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "Losing one arm to a sleeve shuffle is a real tragedy."
+}

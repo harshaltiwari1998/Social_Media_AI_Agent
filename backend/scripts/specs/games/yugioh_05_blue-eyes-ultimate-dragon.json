@@ -1,0 +1,54 @@
+{
+  "id": "yugioh-blue-eyes-ultimate-dragon",
+  "slot": "yugioh",
+  "order": 5,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Blue-Eyes Ultimate Dragon",
+  "title": "Blue-Eyes Ultimate Dragon Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Blue-Eyes Ultimate Dragon. What is it? It is a Level twelve LIGHT Dragon Fusion Monster with four thousand five hundred attack. What does it do? It is made from three Blue-Eyes White Dragons fused together, and it has no extra effect. How do you use it? You need three Blue-Eyes White Dragon plus a fusion card like Polymerization. It appears in Duelist Pack: Kaiba. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/23995346.jpg",
+      "label": "Blue-Eyes Ultimate Dragon"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/23995346.jpg",
+      "fact": "4500 ATK / 3800 DEF",
+      "sub": "Level 12 LIGHT Dragon"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/23995346.jpg",
+      "fact": "What it does",
+      "sub": "3 Blue-Eyes = 4500 ATK"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/24094653.jpg",
+      "fact": "Polymerization",
+      "sub": "Fusion Summon from hand or field"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/23995346.jpg",
+      "fact": "How to use it",
+      "sub": "Polymerization + 3 Blue-Eyes"
+    }
+  ],
+  "description": "Blue-Eyes Ultimate Dragon explained: It is made from three Blue-Eyes White Dragons fused together, and it has no extra effect. How to use it: You need three Blue-Eyes White Dragon plus a fusion card like Polymerization. It appears in Duelist Pack: Kaiba. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "BlueEyesUltimateDragon",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Blue-Eyes Ultimate Dragon",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG",
+    "Polymerization"
+  ],
+  "joke": "Three heads are better than one, unless you are paying for dental."
+}

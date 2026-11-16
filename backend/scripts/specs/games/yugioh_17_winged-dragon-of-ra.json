@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-winged-dragon-of-ra",
+  "slot": "yugioh",
+  "order": 17,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "The Winged Dragon of Ra",
+  "title": "The Winged Dragon of Ra Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is The Winged Dragon of Ra. What is it? It is the third Egyptian God Card, a Level ten DIVINE Divine-Beast. What does it do? When Normal Summoned you can pay your Life Points down to one hundred, and it gains attack and defense equal to what you paid. You can also pay one thousand Life Points to destroy a monster on the field. How do you use it? It cannot be Special Summoned and needs three Tributes to Normal Summon, so plan your Tributes. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/10000010.jpg",
+      "label": "The Winged Dragon of Ra"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/10000010.jpg",
+      "fact": "? ATK / ? DEF",
+      "sub": "Level 10 DIVINE Divine-Beast"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/10000010.jpg",
+      "fact": "What it does",
+      "sub": "Pay LP = ATK"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/10000010.jpg",
+      "fact": "How to use it",
+      "sub": "3 Tributes, no Special Summon"
+    }
+  ],
+  "description": "The Winged Dragon of Ra explained: When Normal Summoned you can pay your Life Points down to one hundred, and it gains attack and defense equal to what you paid. You can also pay one thousand Life Points to destroy a monster on the field. How to use it: It cannot be Special Summoned and needs three Tributes to Normal Summon, so plan your Tributes. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "TheWingedDragonofRa",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "The Winged Dragon of Ra",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "Ra asks for your Life Points like my phone asks for updates."
+}

@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-monster-reborn",
+  "slot": "yugioh",
+  "order": 19,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Monster Reborn",
+  "title": "Monster Reborn Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Monster Reborn. What is it? It is a Normal Spell Card. What does it do? Target one monster in either player's Graveyard and Special Summon it. How do you use it? You can bring back your best monster, or steal your opponent's. It is Limited, so only one copy per Deck. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/83764719.jpg",
+      "label": "Monster Reborn"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/83764719.jpg",
+      "fact": "Spell",
+      "sub": "Normal"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/83764719.jpg",
+      "fact": "What it does",
+      "sub": "Revive from ANY Graveyard"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/83764719.jpg",
+      "fact": "How to use it",
+      "sub": "Limited: 1 copy"
+    }
+  ],
+  "description": "Monster Reborn explained: Target one monster in either player's Graveyard and Special Summon it. How to use it: You can bring back your best monster, or steal your opponent's. It is Limited, so only one copy per Deck. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "MonsterReborn",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Monster Reborn",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "The Graveyard has a revolving door and this is the key."
+}

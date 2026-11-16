@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-raigeki",
+  "slot": "yugioh",
+  "order": 20,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Raigeki",
+  "title": "Raigeki Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Raigeki. What is it? It is a Normal Spell Card. What does it do? Destroy all monsters your opponent controls. How do you use it? Play it before you attack, then swing into an empty field. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/12580477.jpg",
+      "label": "Raigeki"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/12580477.jpg",
+      "fact": "Spell",
+      "sub": "Normal"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/12580477.jpg",
+      "fact": "What it does",
+      "sub": "Destroys ALL their monsters"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/12580477.jpg",
+      "fact": "How to use it",
+      "sub": "Clear the field, then attack"
+    }
+  ],
+  "description": "Raigeki explained: Destroy all monsters your opponent controls. How to use it: Play it before you attack, then swing into an empty field. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "Raigeki",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Raigeki",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "One card, zero monsters, lots of crying."
+}

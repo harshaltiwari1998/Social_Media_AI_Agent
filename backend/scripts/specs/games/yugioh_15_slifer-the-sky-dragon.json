@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-slifer-the-sky-dragon",
+  "slot": "yugioh",
+  "order": 15,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Slifer the Sky Dragon",
+  "title": "Slifer the Sky Dragon Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Slifer the Sky Dragon. What is it? It is one of the three Egyptian God Cards, a Level ten DIVINE Divine-Beast. What does it do? It gains one thousand attack and defense for each card in your hand, and when your opponent summons a monster in Attack Position, that monster loses two thousand attack, and is destroyed if that drops it to zero. How do you use it? It needs three Tributes to Normal Summon, and if it is Special Summoned it goes back to the Graveyard in the End Phase. Keep a big hand to make it strong. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/10000020.jpg",
+      "label": "Slifer the Sky Dragon"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/10000020.jpg",
+      "fact": "? ATK / ? DEF",
+      "sub": "Level 10 DIVINE Divine-Beast"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/10000020.jpg",
+      "fact": "What it does",
+      "sub": "+1000 ATK per card in hand"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/10000020.jpg",
+      "fact": "How to use it",
+      "sub": "3 Tributes, big hand"
+    }
+  ],
+  "description": "Slifer the Sky Dragon explained: It gains one thousand attack and defense for each card in your hand, and when your opponent summons a monster in Attack Position, that monster loses two thousand attack, and is destroyed if that drops it to zero. How to use it: It needs three Tributes to Normal Summon, and if it is Special Summoned it goes back to the Graveyard in the End Phase. Keep a big hand to make it strong. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "SlifertheSkyDragon",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Slifer the Sky Dragon",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "My hand has seven cards, and Slifer has seven thousand attack. Math was never this fun."
+}

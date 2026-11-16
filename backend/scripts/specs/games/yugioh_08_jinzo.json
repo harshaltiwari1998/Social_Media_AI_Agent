@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-jinzo",
+  "slot": "yugioh",
+  "order": 8,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Jinzo",
+  "title": "Jinzo Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Jinzo. What is it? It is a Level six DARK Machine with two thousand four hundred attack. In the anime it was Joey's Deck Master in the virtual world. What does it do? While Jinzo is on the field, Trap Cards and their effects on the field cannot be activated, and all Trap effects on the field are negated. How do you use it? Summon it against a trap-heavy opponent. Remember it stops your own Traps too. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/77585513.jpg",
+      "label": "Jinzo"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/77585513.jpg",
+      "fact": "2400 ATK / 1500 DEF",
+      "sub": "Level 6 DARK Machine"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/77585513.jpg",
+      "fact": "What it does",
+      "sub": "Shuts down Traps"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/77585513.jpg",
+      "fact": "How to use it",
+      "sub": "Great vs trap decks"
+    }
+  ],
+  "description": "Jinzo explained: While Jinzo is on the field, Trap Cards and their effects on the field cannot be activated, and all Trap effects on the field are negated. How to use it: Summon it against a trap-heavy opponent. Remember it stops your own Traps too. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "Jinzo",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Jinzo",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "Jinzo walks in and every trap card suddenly needs a coffee break."
+}

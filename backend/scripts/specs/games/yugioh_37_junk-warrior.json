@@ -1,0 +1,54 @@
+{
+  "id": "yugioh-junk-warrior",
+  "slot": "yugioh",
+  "order": 37,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Junk Warrior",
+  "title": "Junk Warrior Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Junk Warrior. What is it? It is a Level five DARK Warrior Synchro Monster with two thousand three hundred attack, used by Yusei. What does it do? When Synchro Summoned it gains attack equal to the total attack of all Level two or lower monsters you control. How do you use it? Its materials are Junk Synchron plus non-Tuners, and Junk Synchron can revive a Level two or lower monster when Normal Summoned. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/60800381.jpg",
+      "label": "Junk Warrior"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/60800381.jpg",
+      "fact": "2300 ATK / 1300 DEF",
+      "sub": "Level 5 DARK Warrior"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/60800381.jpg",
+      "fact": "What it does",
+      "sub": "Gains ATK from small monsters"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/63977008.jpg",
+      "fact": "Junk Synchron",
+      "sub": "Revives a Level 2 or lower"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/60800381.jpg",
+      "fact": "How to use it",
+      "sub": "Junk Synchron"
+    }
+  ],
+  "description": "Junk Warrior explained: When Synchro Summoned it gains attack equal to the total attack of all Level two or lower monsters you control. How to use it: Its materials are Junk Synchron plus non-Tuners, and Junk Synchron can revive a Level two or lower monster when Normal Summoned. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "JunkWarrior",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Junk Warrior",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG",
+    "Junk Synchron"
+  ],
+  "joke": "Built from junk, hits like brand new."
+}

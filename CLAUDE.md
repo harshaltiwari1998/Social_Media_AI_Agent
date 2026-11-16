@@ -189,6 +189,11 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   images.ygoprodeck.com (`url:` refs; Konami claim risk like the Pokemon art); NO anime clips. `"style": "cinema"` +
   `"tts_voice": "en-US-GuyNeural"` (game_videos routes any spec with style cinema to `cinema_video.py`). Built and posted
   only through the review queue: `laptop_batch.py ygo --extra-slot yugioh:N` then `post_reviewed.py`.
+  50 specs written 2026-11-16 by `.cache/yugioh_write.py` (44 card explainers + 6 duelist best-card videos: Yugi, Kaiba,
+  Joey, Jaden, Yusei, Zane). Next ideas the owner liked: Duel Links / Master Duel "best deck" videos from the live
+  top-deck APIs (duellinksmeta.com / masterduelmeta.com `/api/v1/top-decks?sort=-created`), Duel Links card explainers
+  (8,270 cards - start with the ~300 used in top decks), and a deck plan from the owner's own Duel Links collection
+  (owner will share a phone screen recording of the card list, Skills and gems).
 - Payana Museum shorts (owner's own phone videos of 14 Nov, `F:/AI AGENT/VID20261114*.mp4`): `.cache/carmuseum_specs.py` (25
   shorts, English text, original sound, facts from the museum boards / Wikipedia), `.cache/carmuseum_build.py`, approved by
   the owner 2026-11-16 (`carmuseum_out/approved.txt`), posted by `.cache/carmuseum_post.py <n>` to Instagram + gaming Facebook
@@ -284,6 +289,7 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
 | 20:15 | Laptop task **Pokemon Evolution Daily** (`scripts/evolution_job.cmd` -> `laptop_batch.py evo --evolution --max-shorts 3 --review`) - builds up to 3 evolution shorts right after the ZeroGPU quota reset, posts NOTHING, opens them in VLC (`evolution_review.py`); log `backend/logs/evolution_laptop.log` |
 | 20:00 | `daily-rashifal.yml` - next day's 12 Hindi rashifal shorts, scheduled 06:00-06:55 IST on the AI Trend Poster FB Page |
 | 21:00 | `daily-anipal.yml` 2nd half - 5 Aniimo + 3 Palworld guide + 2 breeding + 1 long (aniimo) |
+| 18:00 | Laptop task **Car Museum Daily (approved shorts)** - `.cache/carmuseum_post.py 3`: 3 of the 25 owner-approved Payana Museum shorts a day to Instagram + gaming Facebook (light ~5 Mbps copies in `carmuseum_out/light`; 12 Mbps originals timed out in Instagram processing); does nothing once all are posted |
 | Sun 19:30 | `weekly-report.yml` - stats issue |
 
 All gaming workflows share the `daily-gaming` concurrency group (never two writers of `gaming-state`).

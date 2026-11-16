@@ -1,0 +1,54 @@
+{
+  "id": "yugioh-flame-swordsman",
+  "slot": "yugioh",
+  "order": 14,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Flame Swordsman",
+  "title": "Flame Swordsman Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Flame Swordsman. What is it? It is a Level five FIRE Warrior Fusion Monster with one thousand eight hundred attack. What does it do? It is a Fusion of Flame Manipulator and Masaki the Legendary Swordsman, with no extra effect. How do you use it? Fuse the two materials with Polymerization. It appears in Legendary Collection 4, Joey's World. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/45231177.jpg",
+      "label": "Flame Swordsman"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/45231177.jpg",
+      "fact": "1800 ATK / 1600 DEF",
+      "sub": "Level 5 FIRE Warrior"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/45231177.jpg",
+      "fact": "What it does",
+      "sub": "Fusion: 2 classic monsters"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/24094653.jpg",
+      "fact": "Polymerization",
+      "sub": "Fusion Summon from hand or field"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/45231177.jpg",
+      "fact": "How to use it",
+      "sub": "Polymerization"
+    }
+  ],
+  "description": "Flame Swordsman explained: It is a Fusion of Flame Manipulator and Masaki the Legendary Swordsman, with no extra effect. How to use it: Fuse the two materials with Polymerization. It appears in Legendary Collection 4, Joey's World. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "FlameSwordsman",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Flame Swordsman",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG",
+    "Polymerization"
+  ],
+  "joke": "A sword that is also on fire. Safety first."
+}

@@ -1,0 +1,60 @@
+{
+  "id": "yugioh-elemental-hero-flame-wingman",
+  "slot": "yugioh",
+  "order": 31,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Elemental HERO Flame Wingman",
+  "title": "Elemental HERO Flame Wingman Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Elemental HERO Flame Wingman. What is it? It is a Level six WIND Warrior Fusion Monster with two thousand one hundred attack. It is Jaden's signature card. What does it do? When it destroys a monster by battle, your opponent takes damage equal to that monster's attack. How do you use it? It must be Fusion Summoned from Elemental HERO Avian and Elemental HERO Burstinatrix. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/35809262.jpg",
+      "label": "Elemental HERO Flame Wingman"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/35809262.jpg",
+      "fact": "2100 ATK / 1200 DEF",
+      "sub": "Level 6 WIND Warrior"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/35809262.jpg",
+      "fact": "What it does",
+      "sub": "Burn = destroyed monster's ATK"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/21844576.jpg",
+      "fact": "Elemental HERO Avian",
+      "sub": "Fusion material"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/58932615.jpg",
+      "fact": "Burstinatrix",
+      "sub": "Fusion material"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/35809262.jpg",
+      "fact": "How to use it",
+      "sub": "Avian + Burstinatrix"
+    }
+  ],
+  "description": "Elemental HERO Flame Wingman explained: When it destroys a monster by battle, your opponent takes damage equal to that monster's attack. How to use it: It must be Fusion Summoned from Elemental HERO Avian and Elemental HERO Burstinatrix. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "ElementalHEROFlameWingman",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Elemental HERO Flame Wingman",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG",
+    "Elemental HERO Avian",
+    "Elemental HERO Burstinatrix"
+  ],
+  "joke": "Half bird, half fire, full drama."
+}

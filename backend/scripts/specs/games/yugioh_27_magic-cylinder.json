@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-magic-cylinder",
+  "slot": "yugioh",
+  "order": 27,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Magic Cylinder",
+  "title": "Magic Cylinder Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Magic Cylinder. What is it? It is a Normal Trap Card. What does it do? When your opponent's monster declares an attack, negate the attack and deal damage to your opponent equal to that monster's attack. How do you use it? Best against one huge attacker. A four thousand attack monster deals four thousand to its own owner. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/62279055.jpg",
+      "label": "Magic Cylinder"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/62279055.jpg",
+      "fact": "Trap",
+      "sub": "Normal"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/62279055.jpg",
+      "fact": "What it does",
+      "sub": "Reflect the attack as damage"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/62279055.jpg",
+      "fact": "How to use it",
+      "sub": "Punish big attackers"
+    }
+  ],
+  "description": "Magic Cylinder explained: When your opponent's monster declares an attack, negate the attack and deal damage to your opponent equal to that monster's attack. How to use it: Best against one huge attacker. A four thousand attack monster deals four thousand to its own owner. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "MagicCylinder",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Magic Cylinder",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "Hit me with your best shot. No really, please do."
+}

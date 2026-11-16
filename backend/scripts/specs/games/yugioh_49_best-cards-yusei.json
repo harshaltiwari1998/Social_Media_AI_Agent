@@ -1,0 +1,53 @@
+{
+  "id": "yugioh-best-cards-yusei",
+  "slot": "yugioh",
+  "order": 49,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Yusei's Best Cards",
+  "title": "Yusei's Best Cards in Yu-Gi-Oh | Top 3 Explained",
+  "video_script": "Here are Yusei Fudo's best cards. Number 3: Stardust Dragon, his key card, which negates destruction and comes back. Number 2: Junk Warrior, which grows from his small monsters. Number 1: and Shooting Star Dragon, the evolution of Stardust with three thousand three hundred attack. Whose deck should I cover next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/44508094.jpg",
+      "label": "Yusei's best cards"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/44508094.jpg",
+      "fact": "Stardust Dragon",
+      "sub": "Key card"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/60800381.jpg",
+      "fact": "Junk Warrior",
+      "sub": "Grows from small monsters"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/24696097.jpg",
+      "fact": "Shooting Star Dragon",
+      "sub": "Stardust evolved"
+    }
+  ],
+  "description": "Yusei Fudo's best cards. Sources: Wikipedia (Yusei Fudo). Card text: YGOPRODeck. Card art (c) Kazuki Takahashi / Konami - fan video.",
+  "hashtags": [
+    "YuGiOh",
+    "YuseiDeck",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Yusei Yu-Gi-Oh",
+    "Yusei deck",
+    "Yusei best cards",
+    "Stardust Dragon",
+    "Junk Warrior",
+    "Shooting Star Dragon",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "Yusei's deck has more plot armour than my whole collection."
+}

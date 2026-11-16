@@ -1,0 +1,65 @@
+{
+  "id": "yugioh-best-cards-joey",
+  "slot": "yugioh",
+  "order": 47,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Joey's Best Cards",
+  "title": "Joey's Best Cards in Yu-Gi-Oh | Top 5 Explained",
+  "video_script": "Here are Joey Wheeler's best cards. Number 5: Red-Eyes Black Dragon, his ace card. Number 4: Jinzo, which shuts down Trap Cards, and was his Deck Master in the virtual world. Number 3: Time Wizard, a coin toss that can wipe your opponent's monsters. Number 2: Flame Swordsman, a classic Fusion Monster. Number 1: and Gilford the Lightning, tribute three monsters to summon it and destroy all your opponent's monsters. Whose deck should I cover next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/74677422.jpg",
+      "label": "Joey's best cards"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/74677422.jpg",
+      "fact": "Red-Eyes Black Dragon",
+      "sub": "Ace card"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/77585513.jpg",
+      "fact": "Jinzo",
+      "sub": "Stops Traps"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/71625222.jpg",
+      "fact": "Time Wizard",
+      "sub": "Coin toss wipe"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/45231177.jpg",
+      "fact": "Flame Swordsman",
+      "sub": "Classic Fusion"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/36354007.jpg",
+      "fact": "Gilford the Lightning",
+      "sub": "3 Tributes: wipe"
+    }
+  ],
+  "description": "Joey Wheeler's best cards. Sources: Red-Eyes, Jinzo: Wikipedia (Joey Wheeler). Others: Legendary Collection 4: Joey's World (Yugipedia). Card text: YGOPRODeck. Card art (c) Kazuki Takahashi / Konami - fan video.",
+  "hashtags": [
+    "YuGiOh",
+    "JoeyDeck",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Joey Yu-Gi-Oh",
+    "Joey deck",
+    "Joey best cards",
+    "Red-Eyes Black Dragon",
+    "Jinzo",
+    "Time Wizard",
+    "Flame Swordsman",
+    "Gilford the Lightning",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "Joey's deck has more plot armour than my whole collection."
+}

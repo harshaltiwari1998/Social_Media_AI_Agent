@@ -1,0 +1,54 @@
+{
+  "id": "yugioh-red-eyes-black-dragon",
+  "slot": "yugioh",
+  "order": 4,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Red-Eyes Black Dragon",
+  "title": "Red-Eyes Black Dragon Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Red-Eyes Black Dragon. What is it? It is a Level seven DARK Dragon Normal Monster with two thousand four hundred attack. It is Joey's ace card. What does it do? It has no effect, but it has big potential, and many Red-Eyes cards are built around it. How do you use it? Red-Eyes Fusion lets you Fusion Summon a monster that lists a Red-Eyes monster as material, using monsters from your hand, Deck or field, and the summoned monster's name becomes Red-Eyes B. Dragon. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/74677422.jpg",
+      "label": "Red-Eyes Black Dragon"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/74677422.jpg",
+      "fact": "2400 ATK / 2000 DEF",
+      "sub": "Level 7 DARK Dragon"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/74677422.jpg",
+      "fact": "What it does",
+      "sub": "No effect, big potential"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/6172122.jpg",
+      "fact": "Red-Eyes Fusion",
+      "sub": "Fusion from hand, Deck or field"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/74677422.jpg",
+      "fact": "How to use it",
+      "sub": "Red-Eyes Fusion"
+    }
+  ],
+  "description": "Red-Eyes Black Dragon explained: It has no effect, but it has big potential, and many Red-Eyes cards are built around it. How to use it: Red-Eyes Fusion lets you Fusion Summon a monster that lists a Red-Eyes monster as material, using monsters from your hand, Deck or field, and the summoned monster's name becomes Red-Eyes B. Dragon. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "RedEyesBlackDragon",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Red-Eyes Black Dragon",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG",
+    "Red-Eyes Fusion"
+  ],
+  "joke": "Red eyes, black scales, zero sleep. Just like duelists at a tournament."
+}

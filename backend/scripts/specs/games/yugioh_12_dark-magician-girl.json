@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-dark-magician-girl",
+  "slot": "yugioh",
+  "order": 12,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Dark Magician Girl",
+  "title": "Dark Magician Girl Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Dark Magician Girl. What is it? It is a Level six DARK Spellcaster with two thousand attack. What does it do? She gains three hundred attack for every Dark Magician or Magician of Black Chaos in the Graveyard. How do you use it? Pair her with a Dark Magician deck so the Graveyard fills up with her master. She is in Duelist Pack: Yugi. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/38033121.jpg",
+      "label": "Dark Magician Girl"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/38033121.jpg",
+      "fact": "2000 ATK / 1700 DEF",
+      "sub": "Level 6 DARK Spellcaster"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/38033121.jpg",
+      "fact": "What it does",
+      "sub": "+300 ATK per Dark Magician in GY"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/38033121.jpg",
+      "fact": "How to use it",
+      "sub": "Play her with Dark Magician"
+    }
+  ],
+  "description": "Dark Magician Girl explained: She gains three hundred attack for every Dark Magician or Magician of Black Chaos in the Graveyard. How to use it: Pair her with a Dark Magician deck so the Graveyard fills up with her master. She is in Duelist Pack: Yugi. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "DarkMagicianGirl",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Dark Magician Girl",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "Her master is in the Graveyard and she gets stronger. Talk about motivation."
+}

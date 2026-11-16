@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-solemn-judgment",
+  "slot": "yugioh",
+  "order": 28,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Solemn Judgment",
+  "title": "Solemn Judgment Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Solemn Judgment. What is it? It is a Counter Trap Card. What does it do? When a monster would be Summoned, or a Spell or Trap is activated, pay half your Life Points to negate it and destroy that card. How do you use it? Save it for the one card that would beat you. It is Limited, so one copy per Deck. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/41420027.jpg",
+      "label": "Solemn Judgment"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/41420027.jpg",
+      "fact": "Trap",
+      "sub": "Counter"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/41420027.jpg",
+      "fact": "What it does",
+      "sub": "Pay half LP: negate"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/41420027.jpg",
+      "fact": "How to use it",
+      "sub": "Stop their key card"
+    }
+  ],
+  "description": "Solemn Judgment explained: When a monster would be Summoned, or a Spell or Trap is activated, pay half your Life Points to negate it and destroy that card. How to use it: Save it for the one card that would beat you. It is Limited, so one copy per Deck. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "SolemnJudgment",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Solemn Judgment",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "Half my Life Points? Sure, I was not using them."
+}

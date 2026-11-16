@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-odd-eyes-pendulum-dragon",
+  "slot": "yugioh",
+  "order": 39,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Odd-Eyes Pendulum Dragon",
+  "title": "Odd-Eyes Pendulum Dragon Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Odd-Eyes Pendulum Dragon. What is it? It is a Level seven DARK Dragon Pendulum Monster with two thousand five hundred attack. What does it do? Battle damage it deals to your opponent is doubled. As a Pendulum Scale it can reduce the battle damage you take from your Pendulum Monster's battles to zero, and can search a Pendulum Monster with fifteen hundred or less attack. How do you use it? Use it both as a monster and as a Pendulum Scale. It is in Starter Deck: Yuya. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/16178681.jpg",
+      "label": "Odd-Eyes Pendulum Dragon"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/16178681.jpg",
+      "fact": "2500 ATK / 2000 DEF",
+      "sub": "Level 7 DARK Dragon"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/16178681.jpg",
+      "fact": "What it does",
+      "sub": "Double battle damage"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/16178681.jpg",
+      "fact": "How to use it",
+      "sub": "Monster + Pendulum Scale"
+    }
+  ],
+  "description": "Odd-Eyes Pendulum Dragon explained: Battle damage it deals to your opponent is doubled. As a Pendulum Scale it can reduce the battle damage you take from your Pendulum Monster's battles to zero, and can search a Pendulum Monster with fifteen hundred or less attack. How to use it: Use it both as a monster and as a Pendulum Scale. It is in Starter Deck: Yuya. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "OddEyesPendulumDragon",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Odd-Eyes Pendulum Dragon",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "Two different eye colours, double the damage."
+}

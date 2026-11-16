@@ -1,0 +1,53 @@
+{
+  "id": "yugioh-best-cards-zane",
+  "slot": "yugioh",
+  "order": 50,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Zane's Best Cards",
+  "title": "Zane's Best Cards in Yu-Gi-Oh | Top 3 Explained",
+  "video_script": "Here are Zane Truesdale's Cyber Dragons. Number 3: Cyber Dragon, a free Special Summon when only your opponent has a monster. Number 2: Cyber Twin Dragon, two Cyber Dragons fused, attacking twice per Battle Phase. Number 1: and Cyber End Dragon, three Cyber Dragons fused into four thousand attack with piercing damage. Whose deck should I cover next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/70095154.jpg",
+      "label": "Zane's best cards"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/70095154.jpg",
+      "fact": "Cyber Dragon",
+      "sub": "Free summon"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/74157028.jpg",
+      "fact": "Cyber Twin Dragon",
+      "sub": "Attacks twice"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/1546123.jpg",
+      "fact": "Cyber End Dragon",
+      "sub": "4000 ATK piercing"
+    }
+  ],
+  "description": "Zane Truesdale's Cyber Dragons. Sources: Duelist Pack: Zane Truesdale (Yugipedia). Card text: YGOPRODeck. Card art (c) Kazuki Takahashi / Konami - fan video.",
+  "hashtags": [
+    "YuGiOh",
+    "ZaneDeck",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Zane Yu-Gi-Oh",
+    "Zane deck",
+    "Zane best cards",
+    "Cyber Dragon",
+    "Cyber Twin Dragon",
+    "Cyber End Dragon",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "Zane's deck has more plot armour than my whole collection."
+}

@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-summoned-skull",
+  "slot": "yugioh",
+  "order": 7,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Summoned Skull",
+  "title": "Summoned Skull Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Summoned Skull. What is it? It is a Level six DARK Fiend Normal Monster with two thousand five hundred attack. What does it do? It has no effect, but it is always treated as an Archfiend card. How do you use it? Level six means one Tribute to Normal Summon it, so it is a big attacker that is easier to bring out than Level seven monsters. It is in Starter Deck: Yugi Evolution. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/70781052.jpg",
+      "label": "Summoned Skull"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/70781052.jpg",
+      "fact": "2500 ATK / 1200 DEF",
+      "sub": "Level 6 DARK Fiend"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/70781052.jpg",
+      "fact": "What it does",
+      "sub": "Always an Archfiend"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/70781052.jpg",
+      "fact": "How to use it",
+      "sub": "1 Tribute, 2500 ATK"
+    }
+  ],
+  "description": "Summoned Skull explained: It has no effect, but it is always treated as an Archfiend card. How to use it: Level six means one Tribute to Normal Summon it, so it is a big attacker that is easier to bring out than Level seven monsters. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "SummonedSkull",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Summoned Skull",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "His lightning attack is the original static shock."
+}

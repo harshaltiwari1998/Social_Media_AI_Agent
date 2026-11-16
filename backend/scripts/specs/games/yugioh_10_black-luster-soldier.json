@@ -1,0 +1,54 @@
+{
+  "id": "yugioh-black-luster-soldier",
+  "slot": "yugioh",
+  "order": 10,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Black Luster Soldier",
+  "title": "Black Luster Soldier Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Black Luster Soldier. What is it? It is a Level eight EARTH Warrior Ritual Monster with three thousand attack. What does it do? It is a Ritual Monster, so you Ritual Summon it with the spell Black Luster Ritual. How do you use it? You need Black Luster Ritual and monsters to tribute whose Levels add up to eight or more. It is in Starter Deck: Yugi Evolution. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/5405694.jpg",
+      "label": "Black Luster Soldier"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/5405694.jpg",
+      "fact": "3000 ATK / 2500 DEF",
+      "sub": "Level 8 EARTH Warrior"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/5405694.jpg",
+      "fact": "What it does",
+      "sub": "Ritual Summon only"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/55761792.jpg",
+      "fact": "Black Luster Ritual",
+      "sub": "The ritual spell for it"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/5405694.jpg",
+      "fact": "How to use it",
+      "sub": "Black Luster Ritual"
+    }
+  ],
+  "description": "Black Luster Soldier explained: It is a Ritual Monster, so you Ritual Summon it with the spell Black Luster Ritual. How to use it: You need Black Luster Ritual and monsters to tribute whose Levels add up to eight or more. It is in Starter Deck: Yugi Evolution. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "BlackLusterSoldier",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Black Luster Soldier",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG",
+    "Black Luster Ritual"
+  ],
+  "joke": "Shiny armour, no effect, all attitude."
+}

@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-nibiru",
+  "slot": "yugioh",
+  "order": 44,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Nibiru, the Primal Being",
+  "title": "Nibiru, the Primal Being Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Nibiru, the Primal Being. What is it? It is a Level eleven LIGHT Rock hand trap with three thousand attack. What does it do? If your opponent summons five or more monsters in one turn, during the Main Phase you can tribute as many face-up monsters on the field as possible, then summon Nibiru and give your opponent a Primal Being Token. How do you use it? Wait until their fifth summon, then wipe their combo board. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/27204311.jpg",
+      "label": "Nibiru, the Primal Being"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/27204311.jpg",
+      "fact": "3000 ATK / 600 DEF",
+      "sub": "Level 11 LIGHT Rock"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/27204311.jpg",
+      "fact": "What it does",
+      "sub": "Punishes 5+ summons"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/27204311.jpg",
+      "fact": "How to use it",
+      "sub": "Use on summon #5"
+    }
+  ],
+  "description": "Nibiru, the Primal Being explained: If your opponent summons five or more monsters in one turn, during the Main Phase you can tribute as many face-up monsters on the field as possible, then summon Nibiru and give your opponent a Primal Being Token. How to use it: Wait until their fifth summon, then wipe their combo board. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "Nibiru,thePrimalBeing",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Nibiru, the Primal Being",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "Summon four monsters. Feel safe. Summon a fifth. Regret."
+}

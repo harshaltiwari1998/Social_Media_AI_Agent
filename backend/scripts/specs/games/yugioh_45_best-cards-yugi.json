@@ -1,0 +1,65 @@
+{
+  "id": "yugioh-best-cards-yugi",
+  "slot": "yugioh",
+  "order": 45,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Yugi's Best Cards",
+  "title": "Yugi's Best Cards in Yu-Gi-Oh | Top 5 Explained",
+  "video_script": "Here are Yugi Mutou's best cards. Number 5: Dark Magician, his signature card, with two thousand five hundred attack. Number 4: Dark Magician Girl, who gains three hundred attack for each Dark Magician in the Graveyard. Number 3: Kuriboh, discard it to take no battle damage from an attack. Number 2: Black Luster Soldier, a three thousand attack Ritual Monster. Number 1: and Exodia, hold all five pieces and you win the Duel. Whose deck should I cover next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/46986414.jpg",
+      "label": "Yugi's best cards"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/46986414.jpg",
+      "fact": "Dark Magician",
+      "sub": "Signature card"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/38033121.jpg",
+      "fact": "Dark Magician Girl",
+      "sub": "+300 per Dark Magician"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/40640057.jpg",
+      "fact": "Kuriboh",
+      "sub": "Blocks battle damage"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/5405694.jpg",
+      "fact": "Black Luster Soldier",
+      "sub": "3000 ATK Ritual"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/33396948.jpg",
+      "fact": "Exodia the",
+      "sub": "Instant win"
+    }
+  ],
+  "description": "Yugi Mutou's best cards. Sources: Dark Magician: Wikipedia (Yugi Mutou). Others: Duelist Pack: Yugi, Starter Deck: Yugi Evolution, Legendary Collection 3: Yugi's World (Yugipedia). Card text: YGOPRODeck. Card art (c) Kazuki Takahashi / Konami - fan video.",
+  "hashtags": [
+    "YuGiOh",
+    "YugiDeck",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Yugi Yu-Gi-Oh",
+    "Yugi deck",
+    "Yugi best cards",
+    "Dark Magician",
+    "Dark Magician Girl",
+    "Kuriboh",
+    "Black Luster Soldier",
+    "Exodia the Forbidden One",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "Yugi's deck has more plot armour than my whole collection."
+}

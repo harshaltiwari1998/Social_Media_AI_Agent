@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-stardust-dragon",
+  "slot": "yugioh",
+  "order": 35,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Stardust Dragon",
+  "title": "Stardust Dragon Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Stardust Dragon. What is it? It is a Level eight WIND Dragon Synchro Monster with two thousand five hundred attack. It is Yusei's key card. What does it do? When a card or effect that would destroy a card on the field is activated, you can tribute Stardust Dragon to negate and destroy it, then bring it back in the End Phase. How do you use it? Synchro Summon it with one Tuner plus non-Tuner monsters whose Levels add up to eight. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/44508094.jpg",
+      "label": "Stardust Dragon"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/44508094.jpg",
+      "fact": "2500 ATK / 2000 DEF",
+      "sub": "Level 8 WIND Dragon"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/44508094.jpg",
+      "fact": "What it does",
+      "sub": "Negate destruction, come back"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/44508094.jpg",
+      "fact": "How to use it",
+      "sub": "Tuner + non-Tuners = 8"
+    }
+  ],
+  "description": "Stardust Dragon explained: When a card or effect that would destroy a card on the field is activated, you can tribute Stardust Dragon to negate and destroy it, then bring it back in the End Phase. How to use it: Synchro Summon it with one Tuner plus non-Tuner monsters whose Levels add up to eight. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "StardustDragon",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Stardust Dragon",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "It protects your cards and still comes home for dinner."
+}

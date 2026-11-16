@@ -1,0 +1,54 @@
+{
+  "id": "yugioh-elemental-hero-neos",
+  "slot": "yugioh",
+  "order": 30,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Elemental HERO Neos",
+  "title": "Elemental HERO Neos Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Elemental HERO Neos. What is it? It is a Level seven LIGHT Warrior Normal Monster with two thousand five hundred attack. Jaden switched to a Neo-Spacian deck built around Contact Fusion. What does it do? It has no effect, but it is the core of Contact Fusion with Neo-Spacians. How do you use it? The field spell Neo Space gives Neos and Fusions that list Neos five hundred attack. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/89943723.jpg",
+      "label": "Elemental HERO Neos"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/89943723.jpg",
+      "fact": "2500 ATK / 2000 DEF",
+      "sub": "Level 7 LIGHT Warrior"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/89943723.jpg",
+      "fact": "What it does",
+      "sub": "Contact Fusion core"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/42015635.jpg",
+      "fact": "Neo Space",
+      "sub": "Neos and its Fusions +500 ATK"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/89943723.jpg",
+      "fact": "How to use it",
+      "sub": "Neo Space +500 ATK"
+    }
+  ],
+  "description": "Elemental HERO Neos explained: It has no effect, but it is the core of Contact Fusion with Neo-Spacians. How to use it: The field spell Neo Space gives Neos and Fusions that list Neos five hundred attack. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "ElementalHERONeos",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Elemental HERO Neos",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG",
+    "Neo Space"
+  ],
+  "joke": "From Neo-Space, with no visa required."
+}

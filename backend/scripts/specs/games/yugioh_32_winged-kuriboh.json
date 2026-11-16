@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-winged-kuriboh",
+  "slot": "yugioh",
+  "order": 32,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Winged Kuriboh",
+  "title": "Winged Kuriboh Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Winged Kuriboh. What is it? It is a Level one LIGHT Fairy with three hundred attack. In GX, Yugi gave this card to Jaden. What does it do? If it is destroyed on the field and sent to the Graveyard, you take no battle damage for the rest of that turn. How do you use it? Put it in Defense Position as a wall that saves you for a full turn. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/57116033.jpg",
+      "label": "Winged Kuriboh"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/57116033.jpg",
+      "fact": "300 ATK / 200 DEF",
+      "sub": "Level 1 LIGHT Fairy"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/57116033.jpg",
+      "fact": "What it does",
+      "sub": "Destroyed = no damage this turn"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/57116033.jpg",
+      "fact": "How to use it",
+      "sub": "Wall in Defense Position"
+    }
+  ],
+  "description": "Winged Kuriboh explained: If it is destroyed on the field and sent to the Graveyard, you take no battle damage for the rest of that turn. How to use it: Put it in Defense Position as a wall that saves you for a full turn. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "WingedKuriboh",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Winged Kuriboh",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "A gift from the King of Games. Better than socks."
+}

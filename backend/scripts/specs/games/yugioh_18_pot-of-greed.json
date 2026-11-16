@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-pot-of-greed",
+  "slot": "yugioh",
+  "order": 18,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Pot of Greed",
+  "title": "Pot of Greed Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Pot of Greed. What is it? It is a Normal Spell Card. What does it do? You draw two cards. That is the whole card. How do you use it? It is so strong that it is Forbidden in the current TCG banlist, so you cannot use it in official tournaments. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/55144522.jpg",
+      "label": "Pot of Greed"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/55144522.jpg",
+      "fact": "Spell",
+      "sub": "Normal"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/55144522.jpg",
+      "fact": "What it does",
+      "sub": "Draw 2 cards"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/55144522.jpg",
+      "fact": "How to use it",
+      "sub": "Forbidden in TCG"
+    }
+  ],
+  "description": "Pot of Greed explained: You draw two cards. That is the whole card. How to use it: It is so strong that it is Forbidden in the current TCG banlist, so you cannot use it in official tournaments. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "PotofGreed",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Pot of Greed",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "It allows me to draw two additional cards. Every anime fan just heard that line."
+}

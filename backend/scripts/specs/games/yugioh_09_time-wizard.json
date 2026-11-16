@@ -1,0 +1,54 @@
+{
+  "id": "yugioh-time-wizard",
+  "slot": "yugioh",
+  "order": 9,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Time Wizard",
+  "title": "Time Wizard Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Time Wizard. What is it? It is a Level two LIGHT Spellcaster with five hundred attack. What does it do? Once per turn you toss a coin and call it. Call it right, and all your opponent's monsters are destroyed. Call it wrong, and your own monsters are destroyed and you take damage equal to half their total attack. How do you use it? It is risky, so use it when you have few monsters to lose. It is also a material for Thousand Dragon, with Baby Dragon. It appears in Joey's World. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/71625222.jpg",
+      "label": "Time Wizard"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/71625222.jpg",
+      "fact": "500 ATK / 400 DEF",
+      "sub": "Level 2 LIGHT Spellcaster"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/71625222.jpg",
+      "fact": "What it does",
+      "sub": "Coin toss: wipe or backfire"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/41462083.jpg",
+      "fact": "Thousand Dragon",
+      "sub": "Time Wizard + Baby Dragon"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/71625222.jpg",
+      "fact": "How to use it",
+      "sub": "Low risk = use it"
+    }
+  ],
+  "description": "Time Wizard explained: Once per turn you toss a coin and call it. Call it right, and all your opponent's monsters are destroyed. Call it wrong, and your own monsters are destroyed and you take damage equal to half their total attack. How to use it: It is risky, so use it when you have few monsters to lose. It is also a material for Thousand Dragon, with Baby Dragon. It appears in Joey's World. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "TimeWizard",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Time Wizard",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG",
+    "Thousand Dragon"
+  ],
+  "joke": "Heads I win, tails I uninstall."
+}

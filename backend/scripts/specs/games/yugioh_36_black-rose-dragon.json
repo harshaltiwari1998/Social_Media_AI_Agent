@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-black-rose-dragon",
+  "slot": "yugioh",
+  "order": 36,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Black Rose Dragon",
+  "title": "Black Rose Dragon Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Black Rose Dragon. What is it? It is a Level seven FIRE Dragon Synchro Monster with two thousand four hundred attack. What does it do? When it is Synchro Summoned you can destroy all cards on the field. It can also banish a Plant from your Graveyard to turn a defending monster to Attack Position with zero attack. How do you use it? Summon it when you are behind and clear everything, then rebuild. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/73580471.jpg",
+      "label": "Black Rose Dragon"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/73580471.jpg",
+      "fact": "2400 ATK / 1800 DEF",
+      "sub": "Level 7 FIRE Dragon"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/73580471.jpg",
+      "fact": "What it does",
+      "sub": "Synchro Summon = board wipe"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/73580471.jpg",
+      "fact": "How to use it",
+      "sub": "Comeback card"
+    }
+  ],
+  "description": "Black Rose Dragon explained: When it is Synchro Summoned you can destroy all cards on the field. It can also banish a Plant from your Graveyard to turn a defending monster to Attack Position with zero attack. How to use it: Summon it when you are behind and clear everything, then rebuild. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "BlackRoseDragon",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Black Rose Dragon",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "Roses are red, your field is gone."
+}

@@ -1,0 +1,59 @@
+{
+  "id": "yugioh-best-cards-kaiba",
+  "slot": "yugioh",
+  "order": 46,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Kaiba's Best Cards",
+  "title": "Kaiba's Best Cards in Yu-Gi-Oh | Top 4 Explained",
+  "video_script": "Here are Seto Kaiba's best cards. Number 4: Blue-Eyes White Dragon, his signature monster with three thousand attack. Number 3: Blue-Eyes Ultimate Dragon, three Blue-Eyes fused into four thousand five hundred attack. Number 2: XYZ-Dragon Cannon, discard a card to destroy one of your opponent's cards. Number 1: and Obelisk the Tormentor, an Egyptian God with four thousand attack. Whose deck should I cover next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/89631139.jpg",
+      "label": "Kaiba's best cards"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/89631139.jpg",
+      "fact": "Blue-Eyes White Dragon",
+      "sub": "Signature monster"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/23995346.jpg",
+      "fact": "Blue-Eyes Ultimate",
+      "sub": "4500 ATK Fusion"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/91998119.jpg",
+      "fact": "XYZ-Dragon Cannon",
+      "sub": "Discard: destroy a card"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/10000000.jpg",
+      "fact": "Obelisk the Tormentor",
+      "sub": "Egyptian God"
+    }
+  ],
+  "description": "Seto Kaiba's best cards. Sources: Blue-Eyes: Wikipedia (Seto Kaiba). Others: Duelist Pack: Kaiba, 25th Anniversary Ultimate Kaiba Set (Yugipedia). Card text: YGOPRODeck. Card art (c) Kazuki Takahashi / Konami - fan video.",
+  "hashtags": [
+    "YuGiOh",
+    "KaibaDeck",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Kaiba Yu-Gi-Oh",
+    "Kaiba deck",
+    "Kaiba best cards",
+    "Blue-Eyes White Dragon",
+    "Blue-Eyes Ultimate Dragon",
+    "XYZ-Dragon Cannon",
+    "Obelisk the Tormentor",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "Kaiba's deck has more plot armour than my whole collection."
+}

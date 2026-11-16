@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-gaia-the-fierce-knight",
+  "slot": "yugioh",
+  "order": 11,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Gaia The Fierce Knight",
+  "title": "Gaia The Fierce Knight Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Gaia The Fierce Knight. What is it? It is a Level seven EARTH Warrior Normal Monster with two thousand three hundred attack. What does it do? It has no effect. It is a knight whose horse, as the card says, travels faster than the wind. How do you use it? It is a classic Fusion material, and it is in Starter Deck: Yugi Evolution with Yugi's other classic monsters. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/6368038.jpg",
+      "label": "Gaia The Fierce Knight"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/6368038.jpg",
+      "fact": "2300 ATK / 2100 DEF",
+      "sub": "Level 7 EARTH Warrior"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/6368038.jpg",
+      "fact": "What it does",
+      "sub": "No effect, fast horse"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/6368038.jpg",
+      "fact": "How to use it",
+      "sub": "Classic Fusion material"
+    }
+  ],
+  "description": "Gaia The Fierce Knight explained: It has no effect. It is a knight whose horse, as the card says, travels faster than the wind. How to use it: It is a classic Fusion material, and it is in Starter Deck: Yugi Evolution with Yugi's other classic monsters. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "GaiaTheFierceKnight",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Gaia The Fierce Knight",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "Faster than the wind, still slower than my phone charger."
+}

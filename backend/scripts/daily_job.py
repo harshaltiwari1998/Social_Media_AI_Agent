@@ -31,6 +31,7 @@ os.chdir(ROOT)
 os.environ.setdefault("YOUTUBE_NONINTERACTIVE", "1")
 
 from app.config import settings  # noqa: E402
+from app.media import safety  # noqa: E402
 from app.pipeline import store  # noqa: E402
 from app.pipeline.orchestrator import _POSTERS, platforms_for, run_pipeline  # noqa: E402
 from scripts import game_videos as game  # noqa: E402
@@ -99,11 +100,15 @@ class Poster:
 
     def post(
         self, trend_id: str, text: str, tags: list[str], video_path: str,
-        category: str = "gaming", platforms: list[str] | None = None,
+        category: str = "gaming", platforms: list[str] | None = None, safety_ok: bool = False,
     ) -> None:
-        if REVIEW:
+        if not self.pending(trend_id, category, platforms):
+            return
+        flagged = [] if safety_ok else safety.scan_video(video_path)  # owner 2026-11-16: no nudity, ever
+        if REVIEW or flagged:
             queue_for_review({"trend_id": trend_id, "kind": "short", "text": text, "tags": tags, "video": str(video_path),
-                              "category": category, "platforms": platforms}, self.targets(category, platforms))
+                              "category": category, "platforms": platforms, "safety": flagged},
+                             self.targets(category, platforms))
             return
         for name in self.targets(category, platforms):
             if store.already_posted(trend_id, name):
@@ -323,13 +328,16 @@ def make_store_deals(poster: Poster, shorts: int, longs: int) -> None:
         post_long(poster, spec, entry)
 
 
-def post_long(poster: Poster, spec: dict, entry: dict) -> None:
+def post_long(poster: Poster, spec: dict, entry: dict, safety_ok: bool = False) -> None:
     """Upload a long video: YouTube channels get title/description/chapters/thumbnail, Facebook the file."""
     trend_id = longv.post_id_for(spec)
     description = longv.description_for(spec, entry.get("chapters", ""))
-    if REVIEW:
-        queue_for_review({"trend_id": trend_id, "kind": "long", "spec": spec, "entry": entry, "video": entry["video"]},
-                         longv.default_platforms(spec))
+    if all(store.already_posted(trend_id, n) for n in longv.default_platforms(spec)):
+        return
+    flagged = [] if safety_ok else safety.scan_video(entry["video"])  # owner 2026-11-16: no nudity, ever
+    if REVIEW or flagged:
+        queue_for_review({"trend_id": trend_id, "kind": "long", "spec": spec, "entry": entry, "video": entry["video"],
+                          "safety": flagged}, longv.default_platforms(spec))
         return
     for name in longv.default_platforms(spec):
         if store.already_posted(trend_id, name):

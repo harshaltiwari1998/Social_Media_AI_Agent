@@ -289,6 +289,13 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   `hold:review` marker on each platform (so no retry, CI included, posts it). `scripts/post_reviewed.py <run> show`
   opens them in VLC; `approve 1,3` posts exactly those files, `reject 2` marks `skip:rejected`; then
   `laptop_batch.py <tag> --merge-only`. Evolutions keep their own review (`--review`). Rashifal also needs approval now.
+- **Automatic nudity check before every post / review** (owner 2026-11-16: "jo bhi videos aap banaoge kisi games clips
+  se to waha check kar lena ki koi nudity to nahi he"): `app/media/safety.scan_video` runs NudeNet (local onnx) on one
+  frame a second; any exposed breast / genitalia / buttocks / anus hit holds the video for the owner (flagged frames in
+  `<video>.nsfw/`, result cached in `<video>.safety.json`). It fails CLOSED (no NudeNet = unsafe). Called by
+  `daily_job.Poster.post`, `post_long` and `gameplay_clips.upload`; `post_reviewed.py approve` skips it because the owner
+  watched the video. Shirtless wrestlers/fighters are sometimes flagged as "breast" - a human look decides.
+  2026-11-16 channel scan (`.cache/channel_scan.py`): all 3,912 thumbnails clean (10 false alarms: WWE, Mortal Kombat).
 - **Community guidelines (YouTube / Instagram / Facebook)**: zero adult or sexual content anywhere - no nudity, no
   suggestive images, no adult games (any Steam content descriptor 1/3/4), no sexual-violence themes. Look at EVERY
   picture/clip that goes into a video before showing it to the owner. Also no gore close-ups, hate symbols, slurs,
@@ -387,6 +394,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-16 - NudeNet check (`app/media/safety.py`) on every video before posting or review; flagged videos are held for the owner.
 - 2026-11-16 - All scheduled uploads stopped after a YouTube strike (adult deal short); review queue for every laptop batch (`POST_MODE=review`, `post_reviewed.py`, `hold:review` markers).
 - 2026-11-14 - Deal videos: no adult games (`store_deals._adult`: Steam descriptors 1/3/4 + adult words) after a platform warning; old deal uploads are not retried.
 - 2026-11-14 - Evolution shorts need the owner's OK: the laptop task builds + opens them in VLC (`--review`, `evolution_review.py`), posts only `--post-approved` lines; CI builds no new ones.

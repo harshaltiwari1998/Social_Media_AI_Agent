@@ -52,7 +52,8 @@ def main() -> None:
     queue = _queue()
     if cmd == "list":
         for i, (tid, e) in enumerate(queue.items(), 1):
-            print(f"{i:2d}. [{e['kind']}] {_title(e)}  ({tid})")
+            warn = f"  !! {len(e['safety'])} FLAGGED FRAMES - see {Path(e['video']).name}.nsfw/" if e.get("safety") else ""
+            print(f"{i:2d}. [{e['kind']}] {_title(e)}  ({tid}){warn}")
         print(f"{len(queue)} held")
     elif cmd == "show":
         vids = [e["video"] for e in queue.values() if Path(e["video"]).exists()]
@@ -72,10 +73,11 @@ def main() -> None:
                         dj.store.record_post(tid, name, "skip:rejected", False)
                 print("rejected", _title(e))
             elif e["kind"] == "long":
-                dj.post_long(poster, e["spec"], e["entry"])
+                dj.post_long(poster, e["spec"], e["entry"], safety_ok=True)  # the owner saw it (and any flags)
                 print("posted", _title(e))
             else:
-                poster.post(tid, e["text"], e["tags"], e["video"], e.get("category", "gaming"), e.get("platforms"))
+                poster.post(tid, e["text"], e["tags"], e["video"], e.get("category", "gaming"), e.get("platforms"),
+                            safety_ok=True)  # the owner watched it (flagged frames included)
                 print("posted", _title(e))
             queue.pop(tid)
             QUEUE.write_text(json.dumps(queue, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

@@ -239,6 +239,12 @@ def upload(plan: dict, limit: int | None = None, long_limit: int | None = None,
         if not video.exists():
             print(f"missing {video} - run build first")
             continue
+        from app.media import safety
+        if safety.scan_video(video):  # owner 2026-11-16: no nudity, ever - held for the owner, never posted
+            for p in todo:
+                store.record_post(trend_id, p, store.HOLD, False)
+            print(f"{kind} {n}: HELD - flagged frames in {video.name}.nsfw/", flush=True)
+            continue
         title = item["title"]
         if tag and tag.lower() not in title.lower():
             title = f"{title} | {tag}"  # the game's name in the title - it is what people search for

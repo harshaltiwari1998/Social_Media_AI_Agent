@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-crescent-bay-new-journey-quests",
+  "slot": "aniimo",
+  "order": 292,
+  "headline": "Crescent Bay Quests",
+  "title": "Crescent Bay | Two New Journey Quests | Aniimo Guide",
+  "video_script": "Crescent Bay has two new Journey Quests. The Coral Sea of Dreams is about Reefish, who dreams of a distant, calm coral sea that can only be reached by crossing tidal storms. Squarrel's Poem of Revolution has Chompy the Squarrel causing trouble in Mirrorsea Village, and her partner Dora may know how to calm her down. Both came with the November twelve update. Which quest will you start first? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:6",
+      "label": "Crescent Bay Quests"
+    },
+    {
+      "image": "steam:4126040:19",
+      "fact": "The Coral Sea of Dreams",
+      "sub": "Reefish's dream"
+    },
+    {
+      "image": "steam:4126040:24",
+      "fact": "Squarrel's Poem of Revolution",
+      "sub": "Chompy in Mirrorsea Village"
+    },
+    {
+      "image": "steam:4126040:28",
+      "fact": "Two new quests",
+      "sub": "November 12 update"
+    }
+  ],
+  "description": "The November 12 Aniimo update added two Journey Quests in Crescent Bay: The Coral Sea of Dreams (Reefish) and Squarrel's Poem of Revolution (Chompy the Squarrel, Mirrorsea Village).",
+  "hashtags": [
+    "Aniimo",
+    "CrescentBay",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Crescent Bay",
+    "Journey Quest",
+    "Reefish",
+    "Squarrel"
+  ],
+  "joke": "Chompy wrote a poem, and the village is still reviewing it."
+}

@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-tuckin-best-build-draw-nourishment",
+  "slot": "aniimo",
+  "order": 293,
+  "headline": "Tuckin Build",
+  "title": "Tuckin Build | Draw Nourishment and Breaking Roar | Aniimo Guide",
+  "video_script": "Tuckin is a Grass tank and Break Aniimo. Its trait, Prank Master, raises Break damage for every thousand max health, and it summons Hummin helpers in battle. So put points into health and Break first. Guides pick Draw Nourishment for sustain and Off-Key Shock Wave as a cheap Break skill, with Breaking Roar as the ultimate. Held item picks vary, so test them. Do you run Tuckin? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:7",
+      "label": "Tuckin Build"
+    },
+    {
+      "image": "steam:4126040:1",
+      "fact": "Prank Master",
+      "sub": "Break scales with max HP"
+    },
+    {
+      "image": "steam:4126040:10",
+      "fact": "Draw Nourishment",
+      "sub": "Heals and buffs Break"
+    },
+    {
+      "image": "steam:4126040:29",
+      "fact": "Breaking Roar",
+      "sub": "Ultimate"
+    }
+  ],
+  "description": "Tuckin build in Aniimo: HP and Break stat priority, Draw Nourishment and Off-Key Shock Wave, with Breaking Roar as the ultimate. Prank Master scales Break damage with max HP.",
+  "hashtags": [
+    "Aniimo",
+    "Tuckin",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Tuckin",
+    "Tuckin build",
+    "Break build",
+    "Grass tank"
+  ],
+  "joke": "Tuckin brings the helpers, and I bring the snacks."
+}

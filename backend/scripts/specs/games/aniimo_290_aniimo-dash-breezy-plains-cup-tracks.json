@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-dash-breezy-plains-cup-tracks",
+  "slot": "aniimo",
+  "order": 290,
+  "headline": "Aniimo Dash",
+  "title": "Aniimo Dash | Breezy Plains Cup Racing Until December 9 | Aniimo Guide",
+  "video_script": "Aniimo Dash is a new racing mode, and you need Pathfinder level forty. Solo Full Throttle runs all day. Speed Showdown is multiplayer, every day from six to midnight server time, up to eight racers, grabbing item boxes to use on each other. Greenfield Shallows is open now, Gullcove Cliffs joins on November nineteenth, and Redrock Trail on November twenty sixth. All three run until December ninth. Which track will you race first? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:4",
+      "label": "Aniimo Dash"
+    },
+    {
+      "image": "steam:4126040:12",
+      "fact": "Pathfinder level 40",
+      "sub": "Needed to race"
+    },
+    {
+      "image": "steam:4126040:16",
+      "fact": "Up to 8 racers",
+      "sub": "Speed Showdown"
+    },
+    {
+      "image": "steam:4126040:26",
+      "fact": "3 tracks",
+      "sub": "Until December 9"
+    }
+  ],
+  "description": "Aniimo Dash, the Breezy Plains Cup, needs Pathfinder Level 40. Full Throttle is solo, Speed Showdown is multiplayer from 18:00 to 24:00 with up to 8 racers. Tracks: Greenfield Shallows, Gullcove Cliffs (from November 19) and Redrock Trail (from the November 26 update), all until December 9.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoDash",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Aniimo Dash",
+    "Breezy Plains Cup",
+    "Aniimo racing"
+  ],
+  "joke": "I raced my Aniimo and it stopped to admire the scenery.",
+  "expires": "2026-12-09"
+}

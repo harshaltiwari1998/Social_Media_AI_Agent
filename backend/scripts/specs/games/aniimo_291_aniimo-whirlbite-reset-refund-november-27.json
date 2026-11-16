@@ -1,0 +1,47 @@
+{
+  "id": "aniimo-whirlbite-reset-refund-november-27",
+  "slot": "aniimo",
+  "order": 291,
+  "headline": "Whirlbite Reset",
+  "title": "Whirlbite Reset | Free Refund Until November 27 | Aniimo News",
+  "video_script": "Whirlbite got a balance change, and there is a limited reset for it. If you got a Basic or Prismana Whirlbite before the change, you get your EXP items back, your Star Up and Capability Awakening materials back, and your Capafruit uses restored. Those features start fresh, so you can rebuild it. The reset runs from November twelfth to November twenty seventh on the Europe server clock. Will you rebuild your Whirlbite? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:5",
+      "label": "Whirlbite Reset"
+    },
+    {
+      "image": "steam:4126040:13",
+      "fact": "EXP items back",
+      "sub": "And EXP reduced"
+    },
+    {
+      "image": "steam:4126040:17",
+      "fact": "Star Up and Awakening",
+      "sub": "Materials refunded"
+    },
+    {
+      "image": "steam:4126040:27",
+      "fact": "Ends November 27",
+      "sub": "Check your server time"
+    }
+  ],
+  "description": "Whirlbite, Basic and Prismana forms obtained before the November 12 balance change, can be reset until November 27 (Europe server time): EXP items, Star Up and Capability Awakening materials and Capafruit are refunded and those features reset.",
+  "hashtags": [
+    "Aniimo",
+    "Whirlbite",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Whirlbite",
+    "Whirlbite reset",
+    "Aniimo news",
+    "Aniimo update"
+  ],
+  "joke": "Whirlbite got a do-over, and my Capafruit finally got a rest.",
+  "expires": "2026-11-27"
+}

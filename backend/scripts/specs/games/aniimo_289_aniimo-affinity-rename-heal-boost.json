@@ -1,0 +1,45 @@
+{
+  "id": "aniimo-affinity-rename-heal-boost",
+  "slot": "aniimo",
+  "order": 289,
+  "headline": "Aniimo Affinity",
+  "title": "Aniimo Affinity | Rename Your Aniimo | Aniimo Guide",
+  "video_script": "The November twelve update added Aniimo Affinity. Raise it and you can rename that Aniimo, and its Heal and Swoleshroom skills get stronger. You build it by keeping the Aniimo in your party or Home, using Star Up and Ascend, finishing Pathfinder Challenges and Egg Heist, and beating wild Aniimo and Alphas in Idyll. Each Aniimo has daily and weekly limits, so spread it out. Which Aniimo will you rename first? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:3",
+      "label": "Aniimo Affinity"
+    },
+    {
+      "image": "steam:4126040:11",
+      "fact": "Rename",
+      "sub": "Unlocked by Affinity"
+    },
+    {
+      "image": "steam:4126040:14",
+      "fact": "Heal and Swoleshroom",
+      "sub": "Stronger skills"
+    },
+    {
+      "image": "steam:4126040:25",
+      "fact": "Daily and weekly limits",
+      "sub": "Per Aniimo"
+    }
+  ],
+  "description": "Aniimo Affinity from the November 12 update lets you rename an Aniimo and boosts its Heal and Swoleshroom active skills. Gain it in your party or Home, with Star Up and Ascend, Pathfinder Challenges, Egg Heist and defeating wild Aniimo and Alphas in Idyll. Each Aniimo has daily and weekly limits.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoAffinity",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Aniimo Affinity",
+    "Aniimo update",
+    "Aniimo rename"
+  ],
+  "joke": "My Aniimo earned a new name and immediately asked for a raise."
+}

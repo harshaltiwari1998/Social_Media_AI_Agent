@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-how-to-get-hypnyto",
+  "slot": "aniimo",
+  "order": 273,
+  "headline": "Get Hypnyto",
+  "title": "How to Get Hypnyto | Bewitching Eye Soul | Aniimo Guide",
+  "video_script": "Hypnyto is the special branch of Hypnowl. Hypnowl evolves at level fifty seven, and the normal result is Mesmerowl. To get Hypnyto instead, you must own the Bewitching Eye Soul item before you evolve. Guides also list a Gust Stone as part of the cost. Check the evolution screen to confirm each requirement. Pick your branch before you spend anything. Mesmerowl or Hypnyto, which one? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:74",
+      "label": "How to Get Hypnyto"
+    },
+    {
+      "image": "steam:4126040:75",
+      "fact": "Hypnowl",
+      "sub": "Wind healer starter"
+    },
+    {
+      "image": "steam:4126040:76",
+      "fact": "Level fifty seven",
+      "sub": "Evolution level"
+    },
+    {
+      "image": "steam:4126040:77",
+      "fact": "Bewitching Eye Soul",
+      "sub": "Needed for Hypnyto"
+    },
+    {
+      "image": "steam:4126040:78",
+      "fact": "Mesmerowl",
+      "sub": "The normal branch"
+    }
+  ],
+  "description": "Aniimo's Hypnyto evolves from Hypnowl at level 57 if you own the Bewitching Eye Soul; without it Hypnowl becomes Mesmerowl.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Hypnyto",
+    "Aniimo Hypnyto",
+    "Hypnowl",
+    "Mesmerowl",
+    "Bewitching Eye Soul",
+    "AniimoHowToGet",
+    "Pawprint Studio"
+  ],
+  "joke": "This owl evolution asks for a soul, and it still will not tell you the price."
+}

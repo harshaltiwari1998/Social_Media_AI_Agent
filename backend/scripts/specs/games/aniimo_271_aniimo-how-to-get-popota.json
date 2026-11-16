@@ -1,0 +1,50 @@
+{
+  "id": "aniimo-how-to-get-popota",
+  "slot": "aniimo",
+  "order": 271,
+  "headline": "Get Popota",
+  "title": "How to Get Popota | Susuta Level Twenty Nine | Aniimo Guide",
+  "video_script": "Popota is a Water Breaker and the middle form of the Susuta line. Find Susuta at Echoback Landing and raise it to level twenty nine to get Popota. Its Appeal trait boosts its BREAK when an opposite gender Susuta is in your party. At level thirty nine it becomes Panpanta or Piopiota, so decide before you level it. Which final form do you want? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:64",
+      "label": "How to Get Popota"
+    },
+    {
+      "image": "steam:4126040:65",
+      "fact": "Echoback Landing",
+      "sub": "Find Susuta here"
+    },
+    {
+      "image": "steam:4126040:66",
+      "fact": "Level twenty nine",
+      "sub": "Susuta to Popota"
+    },
+    {
+      "image": "steam:4126040:67",
+      "fact": "Appeal trait",
+      "sub": "Needs opposite gender Susuta"
+    },
+    {
+      "image": "steam:4126040:68",
+      "fact": "Level thirty nine",
+      "sub": "Panpanta or Piopiota"
+    }
+  ],
+  "description": "Aniimo's Popota is a Water Breaker that evolves from Susuta at level 29 (Susuta lives at Echoback Landing). At level 39 it becomes Panpanta or Piopiota.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Popota",
+    "Aniimo Popota",
+    "Susuta",
+    "Susuta evolution",
+    "Echoback Landing",
+    "AniimoHowToGet",
+    "Pawprint Studio"
+  ],
+  "joke": "Water Breaker that needs a partner, just like most of us."
+}

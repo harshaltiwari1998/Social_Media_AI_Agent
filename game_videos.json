@@ -12439,5 +12439,32 @@
   "yugioh-blue-eyes-white-dragon": {
     "spec": "scripts/specs/games/yugioh_01_blue-eyes-white-dragon.json",
     "video": "F:\\AI AGENT\\run_ygo\\videos\\short-6f1b5b54.mp4"
+  },
+  "poke-phanpy": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "F:\\AI AGENT\\run_evo\\pokemon\\phanpy\\final.mp4",
+    "data": {
+      "id": "phanpy",
+      "stages": [
+        "phanpy",
+        "donphan"
+      ],
+      "type": "ground"
+    }
+  },
+  "poke-chimchar": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "F:\\AI AGENT\\run_evo\\pokemon\\chimchar\\final.mp4",
+    "data": {
+      "id": "chimchar",
+      "stages": [
+        "chimchar",
+        "monferno",
+        "infernape"
+      ],
+      "type": "fire"
+    }
   }
 }

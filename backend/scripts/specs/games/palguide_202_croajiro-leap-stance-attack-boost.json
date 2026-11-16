@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-croajiro-leap-stance-attack-boost",
+  "slot": "palguide",
+  "order": 202,
+  "headline": "Croajiro leap stance",
+  "title": "Croajiro | Bounce High For An Attack Boost | Palworld Guide",
+  "video_script": "Did you know a frog can launch you into the air? Croajiro is a Water and Dark Pal. Its partner skill, Leap Stance, makes it puff up so you can climb on top and be propelled high, and while you are airborne your Attack rises by fifty to eighty six percent. It also works Watering, Handiwork, Gathering and Transporting at level one. Will you try the Croajiro bounce? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:33",
+      "label": "Croajiro"
+    },
+    {
+      "image": "pal:Croajiro",
+      "fact": "Leap Stance",
+      "sub": "Launches you upward"
+    },
+    {
+      "image": "steam:1623730:34",
+      "label": "Airborne attack"
+    },
+    {
+      "image": "pal:Croajiro",
+      "fact": "Attack up to 86 percent",
+      "sub": "While airborne"
+    }
+  ],
+  "description": "Croajiro in Palworld 1.0 is a Water and Dark Pal whose Leap Stance partner skill launches the player and raises Attack while airborne.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Croajiro",
+    "Croajiro partner skill",
+    "Palworld Leap Stance",
+    "Palworld Pal guide",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld Water Dark Pal",
+    "Palworld combat tips"
+  ]
+}

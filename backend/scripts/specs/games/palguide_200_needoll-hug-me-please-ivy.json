@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-needoll-hug-me-please-ivy",
+  "slot": "palguide",
+  "order": 200,
+  "headline": "Needoll ivy damage",
+  "title": "Needoll | Hug Me Please Ivy Damage Boost | Palworld Guide",
+  "video_script": "Here is a cute Pal with a real combat bonus. Needoll is a Grass Pal with Planting level three, Gathering level three and Transporting level one. Its partner skill, Hug Me Please, increases damage from you and your Pals against enemies afflicted with Ivy-Covered, while it is in your party. Pair it with Pals that can apply ivy. Will Needoll join your team? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:29",
+      "label": "Needoll"
+    },
+    {
+      "image": "pal:Needoll",
+      "fact": "Hug Me Please",
+      "sub": "Bonus damage on Ivy-Covered"
+    },
+    {
+      "image": "steam:1623730:30",
+      "label": "Planting 3"
+    },
+    {
+      "image": "pal:Needoll",
+      "fact": "Gathering 3",
+      "sub": "Transporting 1"
+    }
+  ],
+  "description": "Needoll in Palworld 1.0 is a Grass Pal with Planting and Gathering at level three and a damage boost against Ivy-Covered enemies.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Needoll",
+    "Needoll partner skill",
+    "Palworld Pal guide",
+    "Palworld Ivy-Covered",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld Grass Pal",
+    "Palworld combat tips"
+  ]
+}

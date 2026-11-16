@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-nitemary-handiwork-four-soul-collector",
+  "slot": "palguide",
+  "order": 197,
+  "headline": "Nitemary soul collector",
+  "title": "Nitemary | Handiwork Four And More Pal Souls | Palworld Guide",
+  "video_script": "Need a top crafter that also helps your Pal Soul farming? Nitemary is a Dark Pal with Handiwork level four and Transporting level two. Its partner skill, Soul Collector, makes Pals drop more Pal Souls when defeated while you fight together. It is a nocturnal Pal, so plan your base shifts. Will you take Nitemary to your next soul farm? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:23",
+      "label": "Nitemary"
+    },
+    {
+      "image": "pal:Nitemary",
+      "fact": "Soul Collector",
+      "sub": "More Pal Souls"
+    },
+    {
+      "image": "steam:1623730:24",
+      "label": "Handiwork 4"
+    },
+    {
+      "image": "pal:Nitemary",
+      "fact": "Dark Pal",
+      "sub": "Transporting 2"
+    }
+  ],
+  "description": "Nitemary in Palworld 1.0 is a Dark Pal with Handiwork level four and a partner skill that increases Pal Soul drops.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Nitemary",
+    "Nitemary work suitability",
+    "Palworld Pal guide",
+    "Palworld Pal Souls",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld Handiwork",
+    "Palworld Dark Pal"
+  ]
+}

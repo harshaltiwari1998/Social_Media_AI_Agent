@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-sootseer-bone-digger-ranch",
+  "slot": "palguide",
+  "order": 196,
+  "headline": "Sootseer digs bones",
+  "title": "Sootseer | Dark Fire Worker That Digs Bones | Palworld Guide",
+  "video_script": "Want a Pal that mines, crafts and burns? Sootseer is a Dark and Fire Pal with Kindling level three, Handiwork level three and Mining level three, plus Gathering and Farming at level two. Its partner skill, Grave Robber, makes it sometimes dig up Bone when it is assigned to your ranch. It is also nocturnal. Will Sootseer join your base crew? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:21",
+      "label": "Sootseer"
+    },
+    {
+      "image": "pal:Sootseer",
+      "fact": "Grave Robber",
+      "sub": "Digs up Bone at the ranch"
+    },
+    {
+      "image": "steam:1623730:22",
+      "label": "Mining 3"
+    },
+    {
+      "image": "pal:Sootseer",
+      "fact": "Kindling 3",
+      "sub": "Handiwork 3"
+    }
+  ],
+  "description": "Sootseer in Palworld 1.0 is a Dark and Fire Pal with Kindling, Handiwork and Mining at level three and a Bone digging partner skill.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Sootseer",
+    "Sootseer work suitability",
+    "Palworld Pal guide",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld Bone",
+    "Palworld Dark Fire Pal"
+  ]
+}

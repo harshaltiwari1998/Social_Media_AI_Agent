@@ -1,0 +1,44 @@
+{
+  "id": "palworld-guide-gloopie-sticky-princess-fishing",
+  "slot": "palguide",
+  "order": 198,
+  "headline": "Gloopie fishing helper",
+  "title": "Gloopie | Easier Fishing With Sticky Princess | Palworld Guide",
+  "video_script": "Struggling with the fishing minigame in Palworld? Gloopie can help. Its partner skill, Sticky Princess, makes the capture gauge drop more slowly while the bars are not overlapping, as long as Gloopie is in your party. It is a Water and Dark Pal that also works Watering, Handiwork and Transporting at level two. Who is your fishing partner? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:1623730:25",
+      "label": "Gloopie"
+    },
+    {
+      "image": "pal:Gloopie",
+      "fact": "Sticky Princess",
+      "sub": "Slower gauge loss"
+    },
+    {
+      "image": "steam:1623730:26",
+      "label": "Fishing help"
+    },
+    {
+      "image": "pal:Gloopie",
+      "fact": "Watering 2",
+      "sub": "Handiwork 2"
+    }
+  ],
+  "description": "Gloopie in Palworld 1.0 is a Water and Dark Pal whose partner skill Sticky Princess helps in the fishing minigame.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Gloopie",
+    "Gloopie partner skill",
+    "Palworld fishing",
+    "Palworld Pal guide",
+    "Palworld 1.0",
+    "Palworld guide",
+    "Palworld Water Dark Pal",
+    "Palworld fishing tips"
+  ]
+}

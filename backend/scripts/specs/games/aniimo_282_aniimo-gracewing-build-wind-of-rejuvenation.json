@@ -1,0 +1,53 @@
+{
+  "id": "aniimo-gracewing-build-wind-of-rejuvenation",
+  "slot": "aniimo",
+  "order": 282,
+  "headline": "Gracewing Build",
+  "title": "Gracewing Build | Heal Cleanse and Refill Energy | Aniimo Guide",
+  "video_script": "Gracewing is a Wind healer with a lot of tools. Wind of Rejuvenation heals your whole team over time. Purifying Dance removes debuffs from teammates. Phantomfly restores energy to allies who touch it. For emergencies, the ultimate Help Gracewing heals the entire team at once. Its Flutter Heal trait restores health when allies use skills. Save the ultimate for sudden damage. Is Gracewing your healer? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:24",
+      "label": "Gracewing Build"
+    },
+    {
+      "image": "steam:4126040:44",
+      "fact": "Wind healer",
+      "sub": "Heals over time"
+    },
+    {
+      "image": "steam:4126040:49",
+      "fact": "Purifying Dance",
+      "sub": "Removes debuffs"
+    },
+    {
+      "image": "steam:4126040:54",
+      "fact": "Phantomfly",
+      "sub": "Restores energy"
+    },
+    {
+      "image": "steam:4126040:59",
+      "fact": "Help Gracewing",
+      "sub": "Ultimate heals the team"
+    }
+  ],
+  "description": "Aniimo Gracewing build: a Wind healer with Wind of Rejuvenation, Purifying Dance, Phantomfly and the team-healing ultimate Help Gracewing.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Gracewing",
+    "Gracewing build",
+    "Wind Aniimo",
+    "Aniimo healer"
+  ],
+  "joke": "A healer that also brings snacks, in energy form."
+}

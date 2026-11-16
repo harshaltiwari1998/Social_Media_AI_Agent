@@ -1,0 +1,53 @@
+{
+  "id": "aniimo-turbo-build-nimbi-burst-support",
+  "slot": "aniimo",
+  "order": 280,
+  "headline": "Turbo Build",
+  "title": "Turbo Build | Nimbi Burst Team Support | Aniimo Guide",
+  "video_script": "Turbo is a Wind support, and you should not build it as your main attacker. Its Nimbi Burst boosts your team's damage and break, and it gets stronger when Turbo is wrapped in mist. Cloud Shield soaks up damage, and the ultimate, Collectible Drop, scatters pickups that heal your team. Lean on health and defence so Turbo survives long enough to buff. Who do you buff with Turbo? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:20",
+      "label": "Turbo Build"
+    },
+    {
+      "image": "steam:4126040:41",
+      "fact": "Wind support",
+      "sub": "Not a main attacker"
+    },
+    {
+      "image": "steam:4126040:46",
+      "fact": "Nimbi Burst",
+      "sub": "Team damage and break"
+    },
+    {
+      "image": "steam:4126040:51",
+      "fact": "Cloud Shield",
+      "sub": "Absorbs damage"
+    },
+    {
+      "image": "steam:4126040:56",
+      "fact": "Collectible Drop",
+      "sub": "Pickups heal the team"
+    }
+  ],
+  "description": "Aniimo Turbo build: a Wind support using Nimbi Burst to boost team damage and break, Cloud Shield for defence and Collectible Drop as a healing ultimate.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Turbo",
+    "Turbo build",
+    "Wind Aniimo",
+    "Nimbi Burst"
+  ],
+  "joke": "Turbo hands out buffs the way some people hand out snacks."
+}

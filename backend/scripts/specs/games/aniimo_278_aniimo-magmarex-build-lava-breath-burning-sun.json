@@ -1,0 +1,53 @@
+{
+  "id": "aniimo-magmarex-build-lava-breath-burning-sun",
+  "slot": "aniimo",
+  "order": 278,
+  "headline": "Magmarex Build",
+  "title": "Magmarex Build | Lava Breath and Burning Sun | Aniimo Guide",
+  "video_script": "Magmarex is a Fire breaker with huge break and health. Its Lava Breath applies Fire Debuff stacks. Then Lava Punch spends those stacks for extra damage, and Burning Sun hits harder for every stack on the target. Magma Surge can stun a target that carries many stacks. Raise break first, then health. The Gargantuan Horn boosts break, and Flamerion is a great partner. Do you run Magmarex? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:14",
+      "label": "Magmarex Build"
+    },
+    {
+      "image": "steam:4126040:40",
+      "fact": "Fire breaker",
+      "sub": "Build Fire Debuff stacks"
+    },
+    {
+      "image": "steam:4126040:45",
+      "fact": "Lava Breath",
+      "sub": "Applies Fire Debuff"
+    },
+    {
+      "image": "steam:4126040:50",
+      "fact": "Burning Sun",
+      "sub": "More damage per stack"
+    },
+    {
+      "image": "steam:4126040:55",
+      "fact": "Break then HP",
+      "sub": "Gargantuan Horn"
+    }
+  ],
+  "description": "Aniimo Magmarex build: Fire breaker that stacks Fire Debuff with Lava Breath and spends it with Lava Punch and Burning Sun. Raise Break then HP, Gargantuan Horn, Flamerion partner.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Magmarex",
+    "Magmarex build",
+    "Fire Aniimo",
+    "Burning Sun"
+  ],
+  "joke": "This one runs so hot the stacks arrive pre-cooked."
+}

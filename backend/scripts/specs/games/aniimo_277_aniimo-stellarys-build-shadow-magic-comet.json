@@ -1,0 +1,53 @@
+{
+  "id": "aniimo-stellarys-build-shadow-magic-comet",
+  "slot": "aniimo",
+  "order": 277,
+  "headline": "Stellarys Build",
+  "title": "Stellarys Build | Shadow Magic and Shooting Stars | Aniimo Guide",
+  "video_script": "Stellarys is a Dark damage dealer, and its highest stat is attack. Run Shadow Magic, which leaves a clone behind for twenty seconds. Add Shooting Stars, whose homing stars stack a damage boost with every hit. Your ultimate is Comet Aureus, a heavy magical strike. Ferocious Fang is a popular held item for extra attack. Put your points into attack first. Which Dark Aniimo do you main? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:8",
+      "label": "Stellarys Build"
+    },
+    {
+      "image": "steam:4126040:12",
+      "fact": "Dark damage dealer",
+      "sub": "Attack is its top stat"
+    },
+    {
+      "image": "steam:4126040:25",
+      "fact": "Shadow Magic",
+      "sub": "Clone lasts twenty seconds"
+    },
+    {
+      "image": "steam:4126040:30",
+      "fact": "Shooting Stars",
+      "sub": "Homing stars stack a boost"
+    },
+    {
+      "image": "steam:4126040:35",
+      "fact": "Comet Aureus",
+      "sub": "Ultimate strike"
+    }
+  ],
+  "description": "Aniimo Stellarys build: a Dark damage dealer using Shadow Magic, Shooting Stars and the Comet Aureus ultimate, with Ferocious Fang as a popular held item.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoGuide",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "creature catching game",
+    "Aniimo gameplay",
+    "Stellarys",
+    "Stellarys build",
+    "Dark Aniimo",
+    "Shooting Stars"
+  ],
+  "joke": "Even the clone wants a turn at the stars."
+}

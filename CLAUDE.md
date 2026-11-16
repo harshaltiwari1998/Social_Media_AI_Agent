@@ -182,6 +182,17 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   out (sources disagree), the 3x-RDR2 map size is labelled reported. Older gta6_01-12 specs (Hindi, Oct 2026) are
   all posted. After the launch stream: clip it like the RDR2 streams (own stream; mute/skip licensed radio songs).
 - `backend/scripts/specs/gameplay/<plan>.json` - cut plans for the owner's own stream recordings.
+- `backend/scripts/specs/games/yugioh_NN_<card>.json` - Yu-Gi-Oh card explainers (owner 2026-11-16: "har card ke bare me
+  batao english me ki kya he kya karta he and kaise use karna he" + "players ke best cards" videos). Format: what it is
+  (type / Level / ATK / DEF), what it does (official card text from the YGOPRODeck API, said simply), how to use it (real
+  support cards, their official text). Story facts: Wikipedia + Yugipedia. Images = official card art from
+  images.ygoprodeck.com (`url:` refs; Konami claim risk like the Pokemon art); NO anime clips. `"style": "cinema"` +
+  `"tts_voice": "en-US-GuyNeural"` (game_videos routes any spec with style cinema to `cinema_video.py`). Built and posted
+  only through the review queue: `laptop_batch.py ygo --extra-slot yugioh:N` then `post_reviewed.py`.
+- Payana Museum shorts (owner's own phone videos of 14 Nov, `F:/AI AGENT/VID20261114*.mp4`): `.cache/carmuseum_specs.py` (25
+  shorts, English text, original sound, facts from the museum boards / Wikipedia), `.cache/carmuseum_build.py`, approved by
+  the owner 2026-11-16 (`carmuseum_out/approved.txt`), posted by `.cache/carmuseum_post.py <n>` to Instagram + gaming Facebook
+  (2 a day there, `custom:carmuseum-` in `store.FB_GAMING_DAILY`) while YouTube is frozen by the strike.
 - `daily_job.py` picks the lowest-`order` unposted, unexpired spec per slot (`--from-end` takes the
   highest, for manual batches that must not collide with scheduled runs).
 
@@ -394,6 +405,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-16 - Yu-Gi-Oh explainer slot (`yugioh`, cinema style for gaming specs); Payana Museum shorts approved and posting to Instagram/Facebook.
 - 2026-11-16 - NudeNet check (`app/media/safety.py`) on every video before posting or review; flagged videos are held for the owner.
 - 2026-11-16 - All scheduled uploads stopped after a YouTube strike (adult deal short); review queue for every laptop batch (`POST_MODE=review`, `post_reviewed.py`, `hold:review` markers).
 - 2026-11-14 - Deal videos: no adult games (`store_deals._adult`: Steam descriptors 1/3/4 + adult words) after a platform warning; old deal uploads are not retried.

@@ -376,7 +376,8 @@ def spotlight_card(base_png: Path, top_png: Path, layers: list[tuple[Path, tuple
 
 def build_video(spec_path: Path) -> dict:
     spec = json.loads(spec_path.read_text(encoding="utf-8"))
-    if category_of(spec) == "movies" and spec.get("style") != "card":
+    if (category_of(spec) == "movies" and spec.get("style") != "card") or spec.get("style") == "cinema":
+        # "style": "cinema" also works for gaming specs (Yu-Gi-Oh explainers, owner 2026-11-16) - with "tts_voice".
         # Movie shorts use the full-screen "cinema" look (owner approved 2026-11-11); "style": "card" keeps the old one.
         from scripts import cinema_video
 

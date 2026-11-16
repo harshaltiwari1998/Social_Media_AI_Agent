@@ -12239,5 +12239,205 @@
   "aniimo-beast-fang-ridge-three-alphas": {
     "spec": "scripts/specs/games/aniimo_270_aniimo-beast-fang-ridge-three-alphas.json",
     "video": "/home/runner/work/Social_Media_AI_Agent/Social_Media_AI_Agent/backend/media_output/videos/short-f1a4e75c.mp4"
+  },
+  "yugioh-best-cards-zane": {
+    "spec": "scripts/specs/games/yugioh_50_best-cards-zane.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-75e70db9.mp4"
+  },
+  "yugioh-best-cards-yusei": {
+    "spec": "scripts/specs/games/yugioh_49_best-cards-yusei.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-b79bf688.mp4"
+  },
+  "yugioh-best-cards-jaden": {
+    "spec": "scripts/specs/games/yugioh_48_best-cards-jaden.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-a5257913.mp4"
+  },
+  "yugioh-best-cards-joey": {
+    "spec": "scripts/specs/games/yugioh_47_best-cards-joey.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-269d2463.mp4"
+  },
+  "yugioh-best-cards-kaiba": {
+    "spec": "scripts/specs/games/yugioh_46_best-cards-kaiba.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-d2c8d746.mp4"
+  },
+  "yugioh-best-cards-yugi": {
+    "spec": "scripts/specs/games/yugioh_45_best-cards-yugi.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-ac203fd8.mp4"
+  },
+  "yugioh-nibiru": {
+    "spec": "scripts/specs/games/yugioh_44_nibiru.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-43b3bc96.mp4"
+  },
+  "yugioh-accesscode-talker": {
+    "spec": "scripts/specs/games/yugioh_43_accesscode-talker.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-ef0d7146.mp4"
+  },
+  "yugioh-maxx-c": {
+    "spec": "scripts/specs/games/yugioh_42_maxx-c.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-e9f0986f.mp4"
+  },
+  "yugioh-ash-blossom": {
+    "spec": "scripts/specs/games/yugioh_41_ash-blossom.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-62a1868c.mp4"
+  },
+  "yugioh-decode-talker": {
+    "spec": "scripts/specs/games/yugioh_40_decode-talker.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-cc428c30.mp4"
+  },
+  "yugioh-odd-eyes-pendulum-dragon": {
+    "spec": "scripts/specs/games/yugioh_39_odd-eyes-pendulum-dragon.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-d8141ca3.mp4"
+  },
+  "yugioh-number-39-utopia": {
+    "spec": "scripts/specs/games/yugioh_38_number-39-utopia.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-e8932cc6.mp4"
+  },
+  "yugioh-junk-warrior": {
+    "spec": "scripts/specs/games/yugioh_37_junk-warrior.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-d310d92c.mp4"
+  },
+  "yugioh-black-rose-dragon": {
+    "spec": "scripts/specs/games/yugioh_36_black-rose-dragon.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-074c1201.mp4"
+  },
+  "yugioh-stardust-dragon": {
+    "spec": "scripts/specs/games/yugioh_35_stardust-dragon.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-8541332a.mp4"
+  },
+  "yugioh-cyber-end-dragon": {
+    "spec": "scripts/specs/games/yugioh_34_cyber-end-dragon.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-4117194d.mp4"
+  },
+  "yugioh-cyber-dragon": {
+    "spec": "scripts/specs/games/yugioh_33_cyber-dragon.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-3529a0a6.mp4"
+  },
+  "yugioh-winged-kuriboh": {
+    "spec": "scripts/specs/games/yugioh_32_winged-kuriboh.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-70d96745.mp4"
+  },
+  "yugioh-elemental-hero-flame-wingman": {
+    "spec": "scripts/specs/games/yugioh_31_elemental-hero-flame-wingman.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-ffa56b0b.mp4"
+  },
+  "yugioh-elemental-hero-neos": {
+    "spec": "scripts/specs/games/yugioh_30_elemental-hero-neos.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-df3f470b.mp4"
+  },
+  "yugioh-torrential-tribute": {
+    "spec": "scripts/specs/games/yugioh_29_torrential-tribute.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-86f8be70.mp4"
+  },
+  "yugioh-solemn-judgment": {
+    "spec": "scripts/specs/games/yugioh_28_solemn-judgment.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-65f017ae.mp4"
+  },
+  "yugioh-magic-cylinder": {
+    "spec": "scripts/specs/games/yugioh_27_magic-cylinder.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-2ebde259.mp4"
+  },
+  "yugioh-graceful-charity": {
+    "spec": "scripts/specs/games/yugioh_26_graceful-charity.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-6eef2067.mp4"
+  },
+  "yugioh-change-of-heart": {
+    "spec": "scripts/specs/games/yugioh_25_change-of-heart.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-ca94ed59.mp4"
+  },
+  "yugioh-polymerization": {
+    "spec": "scripts/specs/games/yugioh_24_polymerization.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-ca3998db.mp4"
+  },
+  "yugioh-swords-of-revealing-light": {
+    "spec": "scripts/specs/games/yugioh_23_swords-of-revealing-light.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-ca3a456a.mp4"
+  },
+  "yugioh-mirror-force": {
+    "spec": "scripts/specs/games/yugioh_22_mirror-force.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-5d77517d.mp4"
+  },
+  "yugioh-dark-hole": {
+    "spec": "scripts/specs/games/yugioh_21_dark-hole.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-3f9ee361.mp4"
+  },
+  "yugioh-raigeki": {
+    "spec": "scripts/specs/games/yugioh_20_raigeki.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-9435ff0a.mp4"
+  },
+  "yugioh-monster-reborn": {
+    "spec": "scripts/specs/games/yugioh_19_monster-reborn.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-d0f4ac03.mp4"
+  },
+  "yugioh-pot-of-greed": {
+    "spec": "scripts/specs/games/yugioh_18_pot-of-greed.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-559cacec.mp4"
+  },
+  "yugioh-winged-dragon-of-ra": {
+    "spec": "scripts/specs/games/yugioh_17_winged-dragon-of-ra.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-20d5f4ff.mp4"
+  },
+  "yugioh-obelisk-the-tormentor": {
+    "spec": "scripts/specs/games/yugioh_16_obelisk-the-tormentor.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-62c8a2c5.mp4"
+  },
+  "yugioh-slifer-the-sky-dragon": {
+    "spec": "scripts/specs/games/yugioh_15_slifer-the-sky-dragon.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-79d8daa6.mp4"
+  },
+  "yugioh-flame-swordsman": {
+    "spec": "scripts/specs/games/yugioh_14_flame-swordsman.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-6df21b65.mp4"
+  },
+  "yugioh-buster-blader": {
+    "spec": "scripts/specs/games/yugioh_13_buster-blader.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-20301ac3.mp4"
+  },
+  "yugioh-dark-magician-girl": {
+    "spec": "scripts/specs/games/yugioh_12_dark-magician-girl.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-2aaa9df9.mp4"
+  },
+  "yugioh-gaia-the-fierce-knight": {
+    "spec": "scripts/specs/games/yugioh_11_gaia-the-fierce-knight.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-5416b28d.mp4"
+  },
+  "yugioh-black-luster-soldier": {
+    "spec": "scripts/specs/games/yugioh_10_black-luster-soldier.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-8267c434.mp4"
+  },
+  "yugioh-time-wizard": {
+    "spec": "scripts/specs/games/yugioh_09_time-wizard.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-dac847ac.mp4"
+  },
+  "yugioh-jinzo": {
+    "spec": "scripts/specs/games/yugioh_08_jinzo.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-b958d70c.mp4"
+  },
+  "yugioh-summoned-skull": {
+    "spec": "scripts/specs/games/yugioh_07_summoned-skull.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-6adfc59b.mp4"
+  },
+  "yugioh-kuriboh": {
+    "spec": "scripts/specs/games/yugioh_06_kuriboh.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-319b11e9.mp4"
+  },
+  "yugioh-blue-eyes-ultimate-dragon": {
+    "spec": "scripts/specs/games/yugioh_05_blue-eyes-ultimate-dragon.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-48e2ef55.mp4"
+  },
+  "yugioh-red-eyes-black-dragon": {
+    "spec": "scripts/specs/games/yugioh_04_red-eyes-black-dragon.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-86dbb083.mp4"
+  },
+  "yugioh-exodia": {
+    "spec": "scripts/specs/games/yugioh_03_exodia.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-a3cccea0.mp4"
+  },
+  "yugioh-dark-magician": {
+    "spec": "scripts/specs/games/yugioh_02_dark-magician.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-58c7dab5.mp4"
+  },
+  "yugioh-blue-eyes-white-dragon": {
+    "spec": "scripts/specs/games/yugioh_01_blue-eyes-white-dragon.json",
+    "video": "F:\\AI AGENT\\run_ygo\\videos\\short-6f1b5b54.mp4"
   }
 }

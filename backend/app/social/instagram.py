@@ -105,7 +105,8 @@ class InstagramPoster(SocialPoster):
         except Exception:
             return False
 
-    def _wait_until_ready(self, creation_id: str, timeout_s: float = 300.0) -> bool:
+    def _wait_until_ready(self, creation_id: str, timeout_s: float = 600.0) -> bool:
+        # 300 s was too short for ~100 MB reels pulled through the tunnel (Yu-Gi-Oh / museum shorts, 2026-11-16)
         deadline = time.monotonic() + timeout_s
         while time.monotonic() < deadline:
             status = httpx.get(
@@ -115,6 +116,8 @@ class InstagramPoster(SocialPoster):
             ).json()
             if status.get("status_code") == "FINISHED":
                 return True
+            if status.get("status_code") in ("ERROR", "EXPIRED"):
+                return False
             time.sleep(5)
         return False
 

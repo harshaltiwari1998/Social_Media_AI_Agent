@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-homeland-unlock-order-farmland-mine-well",
+  "slot": "aniimo",
+  "order": 288,
+  "headline": "Unlock Order",
+  "title": "Homeland Unlock Order | Farmland Woodland Mine Well | Aniimo Guide",
+  "video_script": "Not sure what your Homeland unlocks next in Aniimo? Production facilities follow your R V level. Farmland opens at level one. Woodland opens at level two. The Mine opens at level three, and the Well opens at level four. The Mine needs Earth workers and the Well needs Water workers. Plan your Homeland early. What is your R V level now? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:54",
+      "label": "Homeland Unlock Order"
+    },
+    {
+      "image": "steam:4126040:55",
+      "fact": "Farmland",
+      "sub": "R V level one"
+    },
+    {
+      "image": "steam:4126040:59",
+      "fact": "Woodland",
+      "sub": "R V level two"
+    },
+    {
+      "image": "steam:4126040:57",
+      "fact": "Mine",
+      "sub": "R V level three"
+    },
+    {
+      "image": "steam:4126040:58",
+      "fact": "Well",
+      "sub": "R V level four"
+    }
+  ],
+  "description": "Aniimo Homeland production facilities open by RV level: Farmland 1, Woodland 2, Mine 3 and Well 4. The Mine needs Earth workers and the Well needs Water workers.",
+  "hashtags": [
+    "Aniimo",
+    "Homeland",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Aniimo Homeland",
+    "Pawprint Studio",
+    "Farmland",
+    "Mine",
+    "Well"
+  ],
+  "joke": "My Homeland has a plan, and the plan is more plots."
+}

@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-power-module-e-mode-crackle-generator",
+  "slot": "aniimo",
+  "order": 283,
+  "headline": "Power Module",
+  "title": "Power Module | Unlock E-Mode at RV 12 | Aniimo Guide",
+  "video_script": "Want faster Homeland production in Aniimo? Reach R V level twelve and buy the Power Module. It unlocks E-Mode for certain facilities, plus the Crackle Generator and the Crackle Power Pole. The generator only runs when you assign a Lightning Aniimo to it. A facility must sit inside the grid's supply range, and poles extend that range. Facilities on one grid share the power equally. Are you powering up your Homeland? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:30",
+      "label": "Power Module"
+    },
+    {
+      "image": "steam:4126040:31",
+      "fact": "R V level twelve",
+      "sub": "Unlocks E-Mode"
+    },
+    {
+      "image": "steam:4126040:32",
+      "fact": "Lightning worker",
+      "sub": "Runs the generator"
+    },
+    {
+      "image": "steam:4126040:33",
+      "fact": "Power Pole",
+      "sub": "Extends the range"
+    },
+    {
+      "image": "steam:4126040:34",
+      "fact": "One grid",
+      "sub": "Power is shared equally"
+    }
+  ],
+  "description": "In Aniimo's Homeland the Power Module unlocks at RV level 12 and enables E-Mode, the Crackle Generator and the Crackle Power Pole. Generators need a Lightning Aniimo, poles extend the supply range and facilities on a grid share the output.",
+  "hashtags": [
+    "Aniimo",
+    "Homeland",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Aniimo Homeland",
+    "Pawprint Studio",
+    "Power Module",
+    "Crackle Generator",
+    "E-Mode"
+  ],
+  "joke": "My Homeland finally has power, now my Lightning Aniimo wants a raise."
+}

@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-ice-team-glynsera-geoclaw",
+  "slot": "aniimo",
+  "order": 285,
+  "headline": "Ice Team",
+  "title": "Ice Team | Glynsera Geoclaw and Support | Aniimo Guide",
+  "video_script": "Here is a simple Ice team for Aniimo. Put Glynsera on damage, it is the top Ice attacker in most guides. Geoclaw is the Break unit, and its attacks pile Ice debuff stacks on the enemy, which helps Glynsera hit harder. Add a regen Aniimo such as Somniwing to keep energy flowing, and a healer like Gracewing or Glacy. Guides differ on the last slots, so use what you own. Who leads your Ice team? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:40",
+      "label": "Ice Team"
+    },
+    {
+      "image": "steam:4126040:41",
+      "fact": "Glynsera",
+      "sub": "Ice damage dealer"
+    },
+    {
+      "image": "steam:4126040:42",
+      "fact": "Geoclaw",
+      "sub": "Break and Ice debuff"
+    },
+    {
+      "image": "steam:4126040:43",
+      "fact": "Somniwing",
+      "sub": "Regen for energy"
+    },
+    {
+      "image": "steam:4126040:44",
+      "fact": "Gracewing or Glacy",
+      "sub": "Healer slot"
+    }
+  ],
+  "description": "A simple Aniimo Ice team: Glynsera on damage, Geoclaw on Break, a regen like Somniwing and a healer like Gracewing or Glacy. Guides differ on the last slots, so use what you own.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoTeam",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Aniimo Homeland",
+    "Pawprint Studio",
+    "Ice team",
+    "Glynsera",
+    "Geoclaw"
+  ],
+  "joke": "My Ice team is so cool that nobody wants to sit next to it."
+}

@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-heat-furnace-cooling-unit-sunlamp",
+  "slot": "aniimo",
+  "order": 284,
+  "headline": "Climate Units",
+  "title": "Heat Furnace and Cooling Unit | Plus the Sunlamp | Aniimo Guide",
+  "video_script": "Some Homeland recipes need the right climate. At R V level seven you can place the Heat Furnace, which uses the Fire ability to give heat, and the Cooling Unit, which uses Ice to cool. The Sunlamp comes at R V level nine and uses Light. These units only help facilities inside their range, so place them close. Do not put a cool crop next to a furnace. Which one do you build first? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:35",
+      "label": "Homeland Climate"
+    },
+    {
+      "image": "steam:4126040:36",
+      "fact": "Heat Furnace",
+      "sub": "R V level seven, Fire"
+    },
+    {
+      "image": "steam:4126040:37",
+      "fact": "Cooling Unit",
+      "sub": "R V level seven, Ice"
+    },
+    {
+      "image": "steam:4126040:38",
+      "fact": "Sunlamp",
+      "sub": "R V level nine, Light"
+    },
+    {
+      "image": "steam:4126040:39",
+      "fact": "Mind the range",
+      "sub": "Only nearby facilities"
+    }
+  ],
+  "description": "In Aniimo's Homeland the Heat Furnace and Cooling Unit unlock at RV level 7 (Fire and Ice workers) and the Sunlamp at RV level 9 (Light). They only affect facilities inside their range.",
+  "hashtags": [
+    "Aniimo",
+    "Homeland",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Aniimo Homeland",
+    "Pawprint Studio",
+    "Heat Furnace",
+    "Cooling Unit",
+    "Sunlamp"
+  ],
+  "joke": "A furnace next to my frost crop, because chaos is a farming strategy."
+}

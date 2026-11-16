@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-rest-module-max-stamina",
+  "slot": "aniimo",
+  "order": 287,
+  "headline": "Rest Module",
+  "title": "Rest Module | Free Max Stamina Boost | Aniimo Guide",
+  "video_script": "Running out of stamina in Aniimo? Upgrade the Rest Module on your R V. It raises your max stamina in three steps. Level one gives three percent and comes with the R V. Level two gives six percent and needs R V level three. Level three gives ten percent and needs R V level five, plus fourteen hundred Home Coins. It is a cheap early upgrade that helps every trip. Have you upgraded yours? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:50",
+      "label": "Rest Module"
+    },
+    {
+      "image": "steam:4126040:51",
+      "fact": "Three percent",
+      "sub": "Comes with the R V"
+    },
+    {
+      "image": "steam:4126040:52",
+      "fact": "Six percent",
+      "sub": "R V level three"
+    },
+    {
+      "image": "steam:4126040:53",
+      "fact": "Ten percent",
+      "sub": "R V level five"
+    }
+  ],
+  "description": "The Rest Module on your Aniimo RV raises max stamina by 3 percent, then 6 percent at RV level 3 and 10 percent at RV level 5 (1,400 Home Coins).",
+  "hashtags": [
+    "Aniimo",
+    "Homeland",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Aniimo Homeland",
+    "Pawprint Studio",
+    "Rest Module",
+    "Aniimo stamina",
+    "Aniimo RV"
+  ],
+  "joke": "More stamina means more running away from things I could have fought."
+}

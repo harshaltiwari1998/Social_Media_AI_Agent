@@ -1,0 +1,51 @@
+{
+  "id": "aniimo-earth-team-grizbo-minespine",
+  "slot": "aniimo",
+  "order": 286,
+  "headline": "Earth Team",
+  "title": "Earth Team | Grizbo Minespine and Bouldus | Aniimo Guide",
+  "video_script": "Try this Earth team in Aniimo. Grizbo is the damage dealer, and it needs time to build rage. Minespine handles Break, and Bouldus supports with its rock moves. Add a healer such as Gracewing, or a regen like Somniwing. Guides suggest using the support and Break skills first to build buffs and energy, then switching to Grizbo. Guides differ on the last slot, so adapt to your box. Who leads your Earth team? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:45",
+      "label": "Earth Team"
+    },
+    {
+      "image": "steam:4126040:46",
+      "fact": "Grizbo",
+      "sub": "Builds rage for damage"
+    },
+    {
+      "image": "steam:4126040:47",
+      "fact": "Minespine",
+      "sub": "Break unit"
+    },
+    {
+      "image": "steam:4126040:48",
+      "fact": "Bouldus",
+      "sub": "Support"
+    },
+    {
+      "image": "steam:4126040:49",
+      "fact": "Set up first",
+      "sub": "Then switch to Grizbo"
+    }
+  ],
+  "description": "A simple Aniimo Earth team: Grizbo on damage, Minespine on Break, Bouldus on support and a healer or regen such as Gracewing or Somniwing. Set up buffs first, then switch to Grizbo.",
+  "hashtags": [
+    "Aniimo",
+    "AniimoTeam",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Aniimo Homeland",
+    "Pawprint Studio",
+    "Earth team",
+    "Grizbo",
+    "Minespine"
+  ],
+  "joke": "My Earth team has one strategy: stand firm and look rocky."
+}

@@ -227,6 +227,18 @@ def gmax_of(final: str) -> str | None:
     return None
 
 
+def primal_of(final: str) -> str | None:
+    """The official Primal Reversion (Groudon / Kyogre: PokeAPI variety "<name>-primal"), if any."""
+    species = httpx.get(f"https://pokeapi.co/api/v2/pokemon-species/{final}", timeout=30).raise_for_status().json()
+    for v in species["varieties"]:
+        if v["pokemon"]["name"].endswith("-primal"):
+            return v["pokemon"]["name"]
+    return None
+
+
+ORB = {"groudon": "Red Orb", "kyogre": "Blue Orb"}  # what triggers Primal Reversion (Omega Ruby / Alpha Sapphire)
+
+
 # Owner 2026-11-17: "jab bhi evolution aaye pokemon ka to mega, dynamax and gigantamax sab dal dena, agar nahi he tab bhi
 # aap bana dena" (the Chimchar short had no Mega - Infernape has none). Missing forms are drawn as FAN-MADE art from the
 # official artwork (HF Inference Providers edit, credits, ~$0.04 each - no ZeroGPU) and every video says they are
@@ -235,21 +247,47 @@ def gmax_of(final: str) -> str | None:
 # carry the FIERCE look the owner approved for the Mewtwo stone forms (stone_forms.FIERCE).
 FAN_FIERCE = ("It must look DANGEROUS and terrifying: narrow angry glaring eyes full of rage, bared fangs, a menacing "
               "aggressive battle stance ready to strike, a bigger muscular build, long sharp claws, jagged spikes, an "
-              "aura of overwhelming destructive power, dark dramatic shading - NOT cute, NOT chibi, NOT smiling, NOT "
-              "friendly.")
+              "aura of overwhelming destructive power - NOT cute, NOT chibi, NOT smiling, NOT friendly.")
+# Groudon 2026-11-17: "dark armour" / "dark shading" / "storm clouds behind it" turned Groudon black (Mega) and beige on a
+# dark red scene (Gigantamax - the cutout then erased it). So: its own colours, and nothing behind it (the red clouds
+# come from the Wan prompt).
+FAN_KEEP = ("Keep EXACTLY the same colours as the reference picture - do not recolour it, do not make it darker. "
+            "Its body stays {colour} like the reference. Solid pure white background (#FFFFFF) with nothing behind the "
+            "creature: no clouds, no ground, no scenery, no shadow, NOT a checkerboard, NOT a transparency pattern.")
 FAN_PROMPT = {
     "mega": ("This is the Pokemon {name}. Draw its Mega Evolution: the SAME Pokemon, clearly recognisable - same species, "
-             "same face shape, same main colours - but far more powerful: bigger, sharper shapes, heavy dark armour "
-             "plates, spikes and {fx} that fit its {types} type. " + FAN_FIERCE + " Official Pokemon artwork style "
-             "(Ken Sugimori), clean full body, plain white background, ONE creature only, exactly one face with two eyes, "
-             "no text, no logo."),
+             "same face shape - but far more powerful: bigger, sharper shapes, extra armour plates in its own colours, "
+             "spikes and {fx} that fit its {types} type. " + FAN_FIERCE + " " + FAN_KEEP + " Official Pokemon artwork "
+             "style (Ken Sugimori), clean full body, ONE creature only, exactly one face with two eyes, no text, no logo."),
     "gmax": ("This is the Pokemon {name}. Draw its Gigantamax form, like the Gigantamax forms in Pokemon Sword and Shield: "
-             "the SAME Pokemon, clearly recognisable - same face shape and main colours - but transformed into a colossal "
-             "monster: parts of its body grow giant and turn into {types}-type structures of {fx}, glowing red energy "
-             "cracks across its body, dark red storm clouds swirling behind it. " + FAN_FIERCE + " Official Pokemon "
-             "artwork style, clean full body, plain white background, ONE creature only, exactly one face with two eyes, "
-             "no halo, no ring above the head, no text, no logo."),
+             "the SAME Pokemon, clearly recognisable - same face shape, and its body keeps its own colours - but "
+             "transformed into a colossal monster: its spikes, horns and armour grow huge and jagged in its own colours, "
+             "glowing red energy cracks across its body, burning red eyes. " + FAN_FIERCE + " " + FAN_KEEP + " Official Pokemon "
+             "artwork style, clean full body, ONE creature "
+             "only, exactly one face with two eyes, no halo, no ring above the head, no text, no logo."),
 }
+
+
+def _main_colour(art) -> str:
+    """Rough name of the art's main colour (Groudon -> red): Gigantamax Groudon kept coming out beige ("sand") until
+    the prompt named its colour."""
+    import colorsys
+
+    import numpy as np
+
+    a = np.asarray(art.convert("RGBA").resize((96, 96))).reshape(-1, 4).astype(float) / 255
+    a = a[a[:, 3] > 0.5][:, :3]
+    hsv = np.array([colorsys.rgb_to_hsv(*px) for px in a])
+    sat = hsv[(hsv[:, 1] > 0.18) & (hsv[:, 2] > 0.2)]
+    if len(sat) < len(hsv) * 0.15:
+        dark = (hsv[:, 2] < 0.35).mean()
+        return "black" if dark > 0.5 else "white and grey" if hsv[:, 2].mean() > 0.7 else "grey"
+    edges = ((15, "red"), (40, "orange"), (72, "yellow"), (160, "green"), (195, "teal"), (250, "blue"),
+             (295, "purple"), (345, "pink"), (361, "red"))
+    names = [next(n for top, n in edges if d < top) for d in sat[:, 0] * 360]
+    counts = sorted(((names.count(n), n) for n in set(names)), reverse=True)
+    top = [n for c, n in counts[:2] if c >= 0.25 * len(names)]  # Blastoise: blue AND orange (the shell is bigger)
+    return " and ".join(top or [counts[0][1]])
 
 
 def fan_form(slug: str, kind: str) -> str:
@@ -268,11 +306,13 @@ def fan_form(slug: str, kind: str) -> str:
     ref_path = out.with_name(f"ref_{slug}.png")
     ref.save(ref_path)
     types = _types(slug)
-    prompt = FAN_PROMPT[kind].format(name=_name(slug), types=" and ".join(types),
+    prompt = FAN_PROMPT[kind].format(name=_name(slug), types=" and ".join(types), colour=_main_colour(art),
                                      fx=ENERGY.get(types[0], "glowing energy"))
     raw = _provider_edit(prompt, [ref_path])
     shutil.copy(raw, out.with_name(f"fan_{kind}_{slug}_raw.png"))
-    _cutout(raw, out)
+    # the prompt asks for plain white: a border flood fill is cleaner here than rembg, which left grey patches around
+    # Mega Groudon's flames (2026-11-17)
+    _key_flat(raw, out)
     log.info("   fan-made %s art for %s: %s", kind, slug, out)
     return str(out)
 
@@ -292,7 +332,8 @@ def with_forms(entry: dict, draw: bool = True) -> dict:
                 fan[kind] = fan_form(final, kind)
             except Exception as exc:  # noqa: BLE001 - provider down / no credits: the short goes without that form
                 log.warning("   fan-made %s art for %s failed: %s", kind, final, str(exc)[:200])
-    return {**entry, "megas": megas, "gmax": gmax, "fan": fan, "forms": True}
+    primal = entry["primal"] if "primal" in entry else primal_of(final)
+    return {**entry, "megas": megas, "gmax": gmax, "primal": primal, "fan": fan, "forms": True}
 
 
 def _types(slug: str) -> list[str]:
@@ -325,7 +366,8 @@ def storyboard(entry: dict) -> dict:
                                          **({"white_in": fade} if fade else {})}
     evolve = lambda a, b, mega=False: {"evolve": [a, b], "background": bg, "seconds": 3.2, "mega": mega}  # noqa: E731
     outro = (f"Who is your favourite {t.title()}-type Pokemon? Comment below!" if not forms
-             else "Mega, Dynamax or Gigantamax, which form is your favourite? Comment below!")
+             else f"{'Primal, ' if entry.get('primal') else ''}Mega, Dynamax or Gigantamax, which form is your favourite? "
+                  "Comment below!")
     clips, narration = [wan(s[0], idle)], [f"{names[0]} is getting ready for something big."]
     for k in range(1, len(s)):
         last = k == len(s) - 1
@@ -334,6 +376,14 @@ def storyboard(entry: dict) -> dict:
                       f"{names[k - 1]} evolved into {names[k]}!" + ("" if not last else
                                                                     " But it is not over yet." if megas or forms
                                                                     else f" {outro}")]
+    if forms and entry.get("primal"):  # Groudon / Kyogre: the official Primal Reversion comes first
+        pr = entry["primal"]
+        ptypes = _types(pr)
+        clips += [{**evolve(s[-1], pr), "tint": [255, 120, 40] if "fire" in ptypes else [60, 140, 255]},
+                  wan(pr, f"the colossal creature roars with ancient power, {ENERGY.get(ptypes[-1], fx)} erupt around it, "
+                          "glowing patterns pulse on its body, epic low angle camera, anime style, dynamic motion", 0.6)]
+        narration += [f"{names[-1]} reacts to the {ORB.get(s[-1], "orb")}. Primal Reversion!",
+                      f"Primal {names[-1]}, a {' and '.join(x.title() for x in ptypes)} type! But there is more."]
     for k, m in enumerate(megas):
         mtypes = _types(s[-1] if fan_mega else m)
         mfx = ENERGY.get(mtypes[-1], fx)
@@ -886,17 +936,24 @@ def post_text(entry: dict) -> tuple[str, list[str]]:
         fan = entry.get("fan", {})
         fan_mega, fan_gmax = not megas and bool(fan.get("mega")), not entry.get("gmax") and bool(fan.get("gmax"))
         later = names[1:]
-        title = f"{names[0]} Evolves Into " + (", ".join(later[:-1]) + " and " + later[-1] if len(later) > 1 else later[0])
-        for suffix in (" | Mega, Dynamax and Gigantamax", " | Mega Dynamax Gigantamax"):
+        primal = [f"Primal {names[-1]}"] if entry.get("primal") else []
+        if later:
+            title = f"{names[0]} Evolves Into " + (", ".join(later[:-1]) + " and " + later[-1] if len(later) > 1
+                                                   else later[0])
+        else:  # a Pokemon that does not evolve (Groudon): its forms are the video
+            title = f"{names[0]} Transforms" + (" | Primal" if primal else "")
+        for suffix in ((", Mega, Dynamax and Gigantamax",) if not later and primal else ()) + (
+                " | Mega, Dynamax and Gigantamax", " | Mega Dynamax Gigantamax"):
             if len(title + suffix) <= 95:
                 title += suffix
                 break
         if (fan_mega or fan_gmax) and len(title) <= 87:
             title += " What If"
-        forms_txt = [*(megas or ([f"Mega {names[-1]}"] if fan_mega else [])), f"Dynamax {names[-1]}",
+        forms_txt = [*primal, *(megas or ([f"Mega {names[-1]}"] if fan_mega else [])), f"Dynamax {names[-1]}",
                      *([f"Gigantamax {names[-1]}"] if entry.get("gmax") or fan_gmax else [])]
         made = [f"Mega {names[-1]}"] * fan_mega + [f"Gigantamax {names[-1]}"] * fan_gmax
-        desc = (f"{' to '.join(names)}, then {', '.join(forms_txt)} - a Pokemon evolution animation, made with AI from "
+        desc = (f"{' to '.join(names)}, then {', '.join(forms_txt)} - a Pokemon "
+                f"{'evolution' if later else 'transformation'} animation, made with AI from "
                 "the official artwork. "
                 + (f"Fan-made, not in the games: {' and '.join(made)}. " if made else "")
                 + "Mega, Dynamax or Gigantamax, which form is your favourite? Comment below!")

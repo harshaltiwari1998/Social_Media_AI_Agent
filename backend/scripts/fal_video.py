@@ -1113,10 +1113,16 @@ def make_clip_wan(image: Path, shots: list, out: Path) -> Path:
     from gradio_client import Client, handle_file
 
     ff = imageio_ffmpeg.get_ffmpeg_exe()
-    client = Client(WAN_SPACE, hf_token=hf_token(), verbose=False)  # an HF token (PRO) gives a bigger daily GPU quota
+    via_credits = os.environ.get("WAN_VIA_CREDITS")  # "480p" / "720p": HF credits instead of the free ZeroGPU quota
+    client = None if via_credits else Client(WAN_SPACE, hf_token=hf_token(), verbose=False)  # PRO token: bigger quota
     parts, start = [], image
     for k, (prompt, secs) in enumerate(shots):
         part = out.with_name(f"{out.stem}_part{k}.mp4")
+        if not part.exists() and via_credits:  # owner 2026-11-17: Groudon "abhi" - paid, the free quota stays for 20:15
+            png = out.with_name(f"{out.stem}_start{k}.png")
+            Image.open(start).convert("RGB").save(png)
+            provider_i2v(png, prompt, part, resolution=via_credits)
+            print("  wan (credits)", part.name, flush=True)
         if not part.exists():
             for attempt in range(3):
                 try:

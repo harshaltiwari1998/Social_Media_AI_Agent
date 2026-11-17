@@ -78,6 +78,13 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   energy, grows giant, red clouds, shake); the Gigantamax change is the evolve clip with a red `tint`, then a Wan clip.
   Each line now needs 1-2 more Wan clips (fan Mega + Gigantamax), so fewer lines fit in a ZeroGPU day.
   `"forms": false` in a queue entry turns it off; a failed fan drawing just leaves that form out.
+  Fan art rules learned on Groudon (2026-11-17): fierce look (`FAN_FIERCE`, owner: "thoda aur khaarnaak banao"), but
+  keep the reference colours (`FAN_KEEP` + `_main_colour` names them - "dark armour" turned Groudon black, "ground-type
+  structures of sand" turned it beige), solid white background (no clouds / ground / checkerboard - the red clouds come
+  from the Wan prompt), cutout with the white flood fill (`_key_flat`; rembg left grey patches). Check a sheet of the
+  art BEFORE the Wan clips are made. Primal Reversion (Groudon / Kyogre, PokeAPI `-primal`) comes before the Mega;
+  Pokemon that do not evolve get "<Name> Transforms" titles. `WAN_VIA_CREDITS=480p` makes the Wan clips through HF
+  credits (~$0.20 a clip) instead of ZeroGPU - used for Groudon "abhi" on 2026-11-17, owner chose credits.
 - `inbox/<pokemon1>+<pokemon2>[=<name>].mp4` - Pokemon fusion reveal clips the owner makes in the Gemini app
   (prompts: `F:/AI AGENT/pokemon_fusion_prompts.md`) and uploads on the GitHub website; names from
   `backend/scripts/specs/fusion_pairs.json`. The same pairs (with a `"look"` per pair) are also made automatically by

@@ -452,5 +452,12 @@
    "kommo-o"
   ],
   "type": "dragon"
+ },
+ {
+  "id": "groudon",
+  "stages": [
+   "groudon"
+  ],
+  "type": "ground"
  }
 ]

@@ -12490,5 +12490,29 @@
   "yugioh-slifer-deck": {
     "spec": "scripts/specs/games/yugioh_51_slifer-deck.json",
     "video": "F:\\AI AGENT\\run_ygo_gods\\videos\\short-d7847539.mp4"
+  },
+  "yugioh-dl-ra-summon": {
+    "spec": "scripts/specs/games/yugioh_62_dl-ra-summon.json",
+    "video": "F:\\AI AGENT\\run_ygo_gods_dl\\videos\\short-186f00d8.mp4"
+  },
+  "yugioh-dl-ra-deck": {
+    "spec": "scripts/specs/games/yugioh_61_dl-ra-deck.json",
+    "video": "F:\\AI AGENT\\run_ygo_gods_dl\\videos\\short-37c98b62.mp4"
+  },
+  "yugioh-dl-obelisk-summon": {
+    "spec": "scripts/specs/games/yugioh_60_dl-obelisk-summon.json",
+    "video": "F:\\AI AGENT\\run_ygo_gods_dl\\videos\\short-b8863d71.mp4"
+  },
+  "yugioh-dl-obelisk-deck": {
+    "spec": "scripts/specs/games/yugioh_59_dl-obelisk-deck.json",
+    "video": "F:\\AI AGENT\\run_ygo_gods_dl\\videos\\short-fcc5c077.mp4"
+  },
+  "yugioh-dl-slifer-summon": {
+    "spec": "scripts/specs/games/yugioh_58_dl-slifer-summon.json",
+    "video": "F:\\AI AGENT\\run_ygo_gods_dl\\videos\\short-b94db669.mp4"
+  },
+  "yugioh-dl-slifer-deck": {
+    "spec": "scripts/specs/games/yugioh_57_dl-slifer-deck.json",
+    "video": "F:\\AI AGENT\\run_ygo_gods_dl\\videos\\short-c3b898da.mp4"
   }
 }

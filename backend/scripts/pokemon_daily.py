@@ -231,18 +231,24 @@ def gmax_of(final: str) -> str | None:
 # aap bana dena" (the Chimchar short had no Mega - Infernape has none). Missing forms are drawn as FAN-MADE art from the
 # official artwork (HF Inference Providers edit, credits, ~$0.04 each - no ZeroGPU) and every video says they are
 # fan-made / not in the games.
+# Owner 2026-11-17 after the first Infernape sheet: "Mega and fan made gigantamax thoda aur khaarnaak banao" - so both
+# carry the FIERCE look the owner approved for the Mewtwo stone forms (stone_forms.FIERCE).
+FAN_FIERCE = ("It must look DANGEROUS and terrifying: narrow angry glaring eyes full of rage, bared fangs, a menacing "
+              "aggressive battle stance ready to strike, a bigger muscular build, long sharp claws, jagged spikes, an "
+              "aura of overwhelming destructive power, dark dramatic shading - NOT cute, NOT chibi, NOT smiling, NOT "
+              "friendly.")
 FAN_PROMPT = {
     "mega": ("This is the Pokemon {name}. Draw its Mega Evolution: the SAME Pokemon, clearly recognisable - same species, "
-             "same face, same main colours - but more powerful and dramatic: a bit bigger, sharper shapes, extra armour "
-             "plates, spikes or {fx} that fit its {types} type, a fierce confident look. Official Pokemon artwork style "
-             "(Ken Sugimori), clean full body, standing, plain white background, ONE creature only, exactly one face with "
-             "two eyes, no text, no logo."),
+             "same face shape, same main colours - but far more powerful: bigger, sharper shapes, heavy dark armour "
+             "plates, spikes and {fx} that fit its {types} type. " + FAN_FIERCE + " Official Pokemon artwork style "
+             "(Ken Sugimori), clean full body, plain white background, ONE creature only, exactly one face with two eyes, "
+             "no text, no logo."),
     "gmax": ("This is the Pokemon {name}. Draw its Gigantamax form, like the Gigantamax forms in Pokemon Sword and Shield: "
-             "the SAME Pokemon, clearly recognisable - same face and main colours - but transformed and huge: parts of its "
-             "body grow giant and turn into {types}-type structures of {fx}, glowing red energy patterns on its body, "
-             "small dark red storm clouds swirling behind it. Official Pokemon artwork style, clean full body, plain "
-             "white background, ONE creature only, exactly one face with two eyes, no halo, no ring above the head, no "
-             "text, no logo."),
+             "the SAME Pokemon, clearly recognisable - same face shape and main colours - but transformed into a colossal "
+             "monster: parts of its body grow giant and turn into {types}-type structures of {fx}, glowing red energy "
+             "cracks across its body, dark red storm clouds swirling behind it. " + FAN_FIERCE + " Official Pokemon "
+             "artwork style, clean full body, plain white background, ONE creature only, exactly one face with two eyes, "
+             "no halo, no ring above the head, no text, no logo."),
 }
 
 

@@ -53,12 +53,16 @@ FB_GAMING_ALWAYS = ("custom:motion-poke-", "custom:fusion-", "custom:dbzfusion-"
 FB_GAMING_DAILY = {"gameplay:": 2,  # own-stream clips (RDR2...): at most this many a day (IST)
                    "custom:carmuseum-": 2}  # the owner's own Payana Museum footage (2026-11-16)
 FB_SKIP = "skip:fb-volume"
+# Single videos the owner asked for on the gaming Page (2026-11-17: "Facebook gaming me bhi dal do" - the 12 Egyptian
+# God deck / summon videos, Master Duel/TCG and Duel Links). Exact ids, so other Yu-Gi-Oh videos stay off the Page.
+FB_GAMING_IDS = {f"custom:game-yugioh-{p}{g}-{k}" for p in ("", "dl-") for g in ("slifer", "obelisk", "ra")
+                 for k in ("deck", "summon")}
 
 
 def fb_gaming_allowed(trend_id: str) -> bool:
     """True when this upload may go to the gaming Facebook Page; otherwise records the skip marker so it is never
     retried."""
-    if trend_id.startswith(FB_GAMING_ALWAYS):
+    if trend_id.startswith(FB_GAMING_ALWAYS) or trend_id in FB_GAMING_IDS:
         return True
     for prefix, cap in FB_GAMING_DAILY.items():
         if trend_id.startswith(prefix):

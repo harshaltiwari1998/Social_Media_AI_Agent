@@ -204,7 +204,7 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   rules (4000 LP, 3 Monster Zones), and the Ra deck = Duel Links Meta's top deck of 2026-11-15. Always say which game a
   Yu-Gi-Oh deck video is for. All 12 approved 2026-11-17 and posted to Instagram with `.cache/ygo_post.py 6
   instagram_gaming --run ygo_gods_dl` / `--run ygo_gods` (makes the `.light.mp4` copy itself); their YouTube holds stay
-  until the strike week ends (`ygo_post.py 6 youtube --run <tag>`). Next ideas the owner liked: Duel Links / Master Duel "best deck" videos from the live
+  until the strike week ends (`ygo_post.py 6 youtube --run <tag>`); also on the gaming Facebook Page on the owner's request (`store.FB_GAMING_IDS`). Next ideas the owner liked: Duel Links / Master Duel "best deck" videos from the live
   top-deck APIs (duellinksmeta.com / masterduelmeta.com `/api/v1/top-decks?sort=-created`), Duel Links card explainers
   (8,270 cards - start with the ~300 used in top decks), and a deck plan from the owner's own Duel Links collection
   (owner will share a phone screen recording of the card list, Skills and gems).
@@ -372,7 +372,8 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
 - **Gaming Facebook Page volume** (owner 2026-11-14): only Pokemon evolutions, fusions (Pokemon / Dragon Ball / Mewtwo
   stones / compilations) and at most 2 own-stream clips a day (IST) go to `facebook_gaming`; every other gaming upload
   (Aniimo, Palworld, deals, classic, new, GTA 6, long videos) gets a `skip:fb-volume` marker there and stays on YouTube +
-  Instagram. Gate: `store.fb_gaming_allowed` (called by `daily_job.Poster.post`, `post_long`, `gameplay_clips.upload`).
+  Instagram. Single exceptions the owner asks for go in `store.FB_GAMING_IDS` (exact ids): the 12 Yu-Gi-Oh Egyptian God
+  videos (2026-11-17, "Facebook gaming me bhi dal do"). Gate: `store.fb_gaming_allowed` (called by `daily_job.Poster.post`, `post_long`, `gameplay_clips.upload`).
   Why: Jun-Aug 2026 the owner's own clips got 100-340 views each (Shiny Articuno 864, GTA 6 joke 1,023); reach already
   fell to ~13 in Sep; since 21 Oct ~1,000 pipeline videos at 50-90 a day got 0.2 views each. Page status: no
   restrictions, Recommendations active - it is distribution, not a penalty. Compare views again early Dec.

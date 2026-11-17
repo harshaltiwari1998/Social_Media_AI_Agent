@@ -12514,5 +12514,28 @@
   "yugioh-dl-slifer-deck": {
     "spec": "scripts/specs/games/yugioh_57_dl-slifer-deck.json",
     "video": "F:\\AI AGENT\\run_ygo_gods_dl\\videos\\short-c3b898da.mp4"
+  },
+  "mr-and-mrs-grey-11-december": {
+    "spec": "scripts/specs/movies/movie_new_53_mr-and-mrs-grey-11-december.json",
+    "video": "F:\\AI AGENT\\run_cine\\videos\\short-3840f1ee.mp4"
+  },
+  "main-na-raha-mera-11-december": {
+    "spec": "scripts/specs/movies/movie_new_52_main-na-raha-mera-11-december.json",
+    "video": "F:\\AI AGENT\\run_cine\\videos\\short-afd1d0ba.mp4"
+  },
+  "scene-tamil-nadu-kerala": {
+    "spec": "scripts/specs/movies/movie_review_48_scene-tamil-nadu-kerala.json",
+    "video": "F:\\AI AGENT\\run_cine\\videos\\short-1fdceafa.mp4"
+  },
+  "ramayana-north-america-weekend": {
+    "spec": "scripts/specs/movies/movie_review_47_ramayana-north-america-weekend.json",
+    "video": "F:\\AI AGENT\\run_cine\\videos\\short-366768fe.mp4"
+  },
+  "rohit-shetty-cop-universe-explained": {
+    "spec": "scripts/specs/long/movies_35_rohit-shetty-cop-universe-explained.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_cine\\videos\\long-ec6fb0e7.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_cine\\videos\\long-ec6fb0e7-thumb.jpg",
+    "chapters": "0:00 Rohit Shetty की पुलिस दुनिया\n0:37 Singham से शुरुआत\n1:25 Singham Returns\n2:12 Simmba: नया रंग\n2:57 Sooryavanshi का इंतज़ार\n3:34 तीनों पुलिस वाले साथ\n4:19 Singham Again: बड़ी टीम\n5:03 कमाई और राय\n5:47 एक web series भी\n6:27 आपका favourite पुलिस वाला"
   }
 }

@@ -56,7 +56,9 @@ if extra == ["--merge-only"]:  # after post_reviewed.py approve / reject
     sys.exit(0 if merge() else 2)
 EVO = extra[:1] == ["--evolution"]
 held = RUN / "review_queue.json"
-if held.exists() and json.loads(held.read_text(encoding="utf-8")):
+# evolutions have their own review (review_pending.json) and keep their folder, so the strike-time YouTube holds that
+# evo_post.py parks in run_evo/review_queue.json must not stop the 20:15 task (it built nothing on 2026-11-17)
+if not EVO and held.exists() and json.loads(held.read_text(encoding="utf-8")):
     print(f"{RUN} still has videos waiting for the owner's review - approve/reject them first "
           f"(scripts/post_reviewed.py {RUN} list) or use another tag", flush=True)
     sys.exit(3)

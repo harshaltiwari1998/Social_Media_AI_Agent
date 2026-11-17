@@ -452,6 +452,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-17 - `laptop_batch.py evo` no longer stops on the strike-time YouTube holds in `run_evo/review_queue.json` (the 20:15 evolution task built nothing on 17 Nov). ElevenLabs Image & Video API needs a Pro plan (Starter: 402); HF credits ran out the same evening.
 - 2026-11-17 - Evolution shorts: Mega + Dynamax + Gigantamax for every line, fan-made art when the games have none (`with_forms`, `fan_form`, `fal_video.dynamax_clip`).
 - 2026-11-17 - `post_reviewed.py approve`: Instagram gets a light copy; 12 Yu-Gi-Oh God videos + 5 CineAI Hindi videos posted after the owner's approval.
 - 2026-11-17 - daily_job: a failed spec build no longer blocks its slot (tries the next specs); 3 movie specs with missing Wikipedia images fixed.

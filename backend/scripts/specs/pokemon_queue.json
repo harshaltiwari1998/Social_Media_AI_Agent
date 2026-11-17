@@ -459,5 +459,14 @@
    "groudon"
   ],
   "type": "ground"
+ },
+ {
+  "id": "dratini-forms",
+  "stages": [
+   "dratini",
+   "dragonair",
+   "dragonite"
+  ],
+  "type": "dragon"
  }
 ]

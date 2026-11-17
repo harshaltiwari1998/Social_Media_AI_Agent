@@ -255,14 +255,15 @@ FAN_KEEP = ("Keep EXACTLY the same colours as the reference picture - do not rec
             "Its body stays {colour} like the reference. Solid pure white background (#FFFFFF) with nothing behind the "
             "creature: no clouds, no ground, no scenery, no shadow, NOT a checkerboard, NOT a transparency pattern.")
 FAN_PROMPT = {
-    "mega": ("This is the Pokemon {name}. Draw its Mega Evolution: the SAME Pokemon, clearly recognisable - same species, "
+    "mega": ("This is the Pokemon {name}, a {colour} Pokemon - its body MUST stay {colour}. Draw its Mega Evolution: the SAME Pokemon, clearly recognisable - same species, "
              "same face shape - but far more powerful: bigger, sharper shapes, extra armour plates in its own colours, "
              "spikes and {fx} that fit its {types} type. " + FAN_FIERCE + " " + FAN_KEEP + " Official Pokemon artwork "
              "style (Ken Sugimori), clean full body, ONE creature only, exactly one face with two eyes, no text, no logo."),
-    "gmax": ("This is the Pokemon {name}. Draw its Gigantamax form, like the Gigantamax forms in Pokemon Sword and Shield: "
+    "gmax": ("This is the Pokemon {name}, a {colour} Pokemon - its body MUST stay {colour}. Draw its Gigantamax form, like the Gigantamax forms in Pokemon Sword and Shield: "
              "the SAME Pokemon, clearly recognisable - same face shape, and its body keeps its own colours - but "
              "transformed into a colossal monster: its spikes, horns and armour grow huge and jagged in its own colours, "
-             "glowing red energy cracks across its body, burning red eyes. " + FAN_FIERCE + " " + FAN_KEEP + " Official Pokemon "
+             "a few thin glowing red energy lines on its arms and tail only, burning red eyes, the rest of its body bright "
+             "and the same colour as the reference. " + FAN_FIERCE + " " + FAN_KEEP + " Official Pokemon "
              "artwork style, clean full body, ONE creature "
              "only, exactly one face with two eyes, no halo, no ring above the head, no text, no logo."),
 }
@@ -287,7 +288,10 @@ def _main_colour(art) -> str:
     names = [next(n for top, n in edges if d < top) for d in sat[:, 0] * 360]
     counts = sorted(((names.count(n), n) for n in set(names)), reverse=True)
     top = [n for c, n in counts[:2] if c >= 0.25 * len(names)]  # Blastoise: blue AND orange (the shell is bigger)
-    return " and ".join(top or [counts[0][1]])
+    main = counts[0][1]
+    px = np.array([rgb for rgb, n, (h, sv, v) in zip(a[(hsv[:, 1] > 0.18) & (hsv[:, 2] > 0.2)], names, sat) if n == main])
+    hexcol = "#%02X%02X%02X" % tuple(int(x * 255) for x in np.median(px, axis=0))  # Dragonite kept turning dark brown
+    return " and ".join(top or [main]) + f" ({hexcol})"
 
 
 def fan_form(slug: str, kind: str) -> str:

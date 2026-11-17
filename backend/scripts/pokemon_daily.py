@@ -245,9 +245,11 @@ ORB = {"groudon": "Red Orb", "kyogre": "Blue Orb"}  # what triggers Primal Rever
 # fan-made / not in the games.
 # Owner 2026-11-17 after the first Infernape sheet: "Mega and fan made gigantamax thoda aur khaarnaak banao" - so both
 # carry the FIERCE look the owner approved for the Mewtwo stone forms (stone_forms.FIERCE).
-FAN_FIERCE = ("It must look DANGEROUS and terrifying: narrow angry glaring eyes full of rage, bared fangs, a menacing "
-              "aggressive battle stance ready to strike, a bigger muscular build, long sharp claws, jagged spikes, an "
-              "aura of overwhelming destructive power - NOT cute, NOT chibi, NOT smiling, NOT friendly.")
+FAN_FIERCE = ("It must look DANGEROUS: narrow angry glaring eyes full of rage, a menacing aggressive battle stance ready "
+              "to strike, a bigger muscular build, long sharp claws, jagged spikes, an aura of overwhelming power - NOT "
+              "cute, NOT chibi, NOT smiling. But its FACE keeps exactly the shape of the reference - same head, snout, eyes "
+              "position and antennae / ears / horns as the reference; do not turn the face into another dragon or "
+              "creature (Gigantamax Dragonite got a Charizard face, 2026-11-17).")
 # Groudon 2026-11-17: "dark armour" / "dark shading" / "storm clouds behind it" turned Groudon black (Mega) and beige on a
 # dark red scene (Gigantamax - the cutout then erased it). So: its own colours, and nothing behind it (the red clouds
 # come from the Wan prompt).
@@ -259,13 +261,13 @@ FAN_PROMPT = {
              "same face shape - but far more powerful: bigger, sharper shapes, extra armour plates in its own colours, "
              "spikes and {fx} that fit its {types} type. " + FAN_FIERCE + " " + FAN_KEEP + " Official Pokemon artwork "
              "style (Ken Sugimori), clean full body, ONE creature only, exactly one face with two eyes, no text, no logo."),
-    "gmax": ("This is the Pokemon {name}, a {colour} Pokemon - its body MUST stay {colour}. Draw its Gigantamax form, like the Gigantamax forms in Pokemon Sword and Shield: "
-             "the SAME Pokemon, clearly recognisable - same face shape, and its body keeps its own colours - but "
-             "transformed into a colossal monster: its spikes, horns and armour grow huge and jagged in its own colours, "
-             "a few thin glowing red energy lines on its arms and tail only, burning red eyes, the rest of its body bright "
-             "and the same colour as the reference. " + FAN_FIERCE + " " + FAN_KEEP + " Official Pokemon "
-             "artwork style, clean full body, ONE creature "
-             "only, exactly one face with two eyes, no halo, no ring above the head, no text, no logo."),
+    # 2026-11-17: asked to "draw its Gigantamax form", the model redrew Dragonite with a Charizard face three times
+    # (owner: "dragonite ka chehera bohot bekar he") - so it only ADDS to the official picture now.
+    "gmax": ("Edit this picture of the Pokemon {name}: keep the Pokemon EXACTLY as it is - the same head, face, eyes "
+             "shape, antennae / ears / horns, pose, body shape and {colour} colours; do not redraw it. Only ADD on top of "
+             "it: thin glowing red energy cracks on its body and limbs, sharp black spikes along its back and tail, red "
+             "energy flames around its hands and tail tip, its eyes glowing red with an angry frown, a faint red glow "
+             "around its outline. Keep the plain pure white background (#FFFFFF), nothing behind it, no clouds, no text."),
 }
 
 
@@ -394,7 +396,8 @@ def storyboard(entry: dict) -> dict:
         clips += [evolve(s[-1], m, mega=True),
                   # "{mfx} and rainbow energy explode around it" hid Mega Dragonite behind a white blast for the whole
                   # clip (2026-11-17): the Mega must stay clearly visible
-                  wan(m, f"the creature stands tall and roars proudly, a glowing rainbow aura shines around its outline, "
+                  wan(m, f"the creature stands tall and looks around confidently with its mouth closed, its face keeps "
+                         f"exactly the same shape, a glowing rainbow aura shines around its outline, "
                          f"a few {mfx} drift around it, the creature stays fully visible and in focus the whole time, "
                          f"epic low angle camera slowly pushes in, anime style, {_KEEP}", 0.6)]
         if fan_mega:
@@ -417,7 +420,8 @@ def storyboard(entry: dict) -> dict:
         if gmax:
             fan_g = not entry.get("gmax")
             clips += [{**evolve(s[-1], gmax), "tint": [255, 60, 80]},
-                      wan(gmax, "the giant creature roars, dark red clouds swirl in the sky above it, red energy glows "
+                      wan(gmax, "the giant creature glares down menacingly with its mouth closed and breathes heavily, its "
+                                "face keeps exactly the same shape, dark red clouds swirl in the sky above it, red energy glows "
                                 "around its body, its colours and flames stay exactly the same colour, it stays fully "
                                 f"visible, epic low angle camera, anime style, {_KEEP}", 0.6)]
             narration.append(f"{names[-1]} cannot Gigantamax in the games, so here is a fan-made Gigantamax form!" if fan_g

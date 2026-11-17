@@ -85,6 +85,10 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   art BEFORE the Wan clips are made. Primal Reversion (Groudon / Kyogre, PokeAPI `-primal`) comes before the Mega;
   Pokemon that do not evolve get "<Name> Transforms" titles. `WAN_VIA_CREDITS=480p` makes the Wan clips through HF
   credits (~$0.20 a clip) instead of ZeroGPU - used for Groudon "abhi" on 2026-11-17, owner chose credits.
+  Faces (owner 2026-11-17: "dragonite ka chehera bohot bekar he animation me bhi"): a "draw its Gigantamax form"
+  prompt gave Dragonite a Charizard face three times, so the fan Gigantamax is an ADD-ONLY edit of the official art
+  (keep the picture, only add red cracks / black spikes / red flames / glowing angry eyes); Mega and Gigantamax Wan
+  prompts say "mouth closed, face keeps exactly the same shape" - "roars" made Wan open a huge toothed mouth.
 - `inbox/<pokemon1>+<pokemon2>[=<name>].mp4` - Pokemon fusion reveal clips the owner makes in the Gemini app
   (prompts: `F:/AI AGENT/pokemon_fusion_prompts.md`) and uploads on the GitHub website; names from
   `backend/scripts/specs/fusion_pairs.json`. The same pairs (with a `"look"` per pair) are also made automatically by

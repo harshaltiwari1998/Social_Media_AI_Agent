@@ -1,0 +1,71 @@
+{
+  "id": "yugioh-obelisk-summon",
+  "slot": "yugioh",
+  "order": 54,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "How Do You Summon Obelisk",
+  "title": "How to Summon Obelisk the Tormentor | Every Way | Yu-Gi-Oh Master Duel and TCG",
+  "video_script": "How do you summon Obelisk the Tormentor? Here are four ways, and the rule that sends it away. Way one: Tribute three monsters to Normal Summon it. It cannot be Normal Set. The Normal Summon cannot be negated, and no cards or effects can be activated when it lands. Way two: banish Soul Energy MAX from your Graveyard in your Main or Battle Phase. It adds Obelisk from your Deck or Graveyard to your hand, and you can Normal Summon it right away, still with three Tributes. Way three: The Breaking Ruin God Special Summons Obelisk from your hand or Graveyard with no Tributes, and your opponent's effects cannot touch it that turn. Way four: Magical Trick Mirror revives it from the Graveyard in Defense Position. Do it on your opponent's turn, and their monsters that can attack must attack Obelisk. Bonus: Soul Crossing lets you Tribute Summon Obelisk using your opponent's monsters as the Tributes. The catch: a Special Summoned Obelisk is sent to the Graveyard in the End Phase. Use it right away, or Normal Summon it to keep it. Which way do you use? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/10000000.jpg",
+      "label": "How to Summon Obelisk"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/10000000.jpg",
+      "fact": "Normal Summon",
+      "sub": "3 Tributes"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/79339613.jpg",
+      "fact": "Soul Energy MAX!!!",
+      "sub": "Find Obelisk + summon it"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/85182315.jpg",
+      "fact": "The Breaking Ruin God",
+      "sub": "No Tributes needed"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/85758066.jpg",
+      "fact": "Magical Trick Mirror",
+      "sub": "Back in Defense Position"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/5253985.jpg",
+      "fact": "Soul Crossing",
+      "sub": "Tribute THEIR monsters"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/10000000.jpg",
+      "fact": "The catch",
+      "sub": "Special Summoned = back to GY"
+    }
+  ],
+  "description": "For Yu-Gi-Oh Master Duel and the TCG - some of these cards are not in Duel Links (there is a separate Duel Links video). Every way to summon Obelisk the Tormentor: Soul Energy MAX!!!, The Breaking Ruin God, Magical Trick Mirror, Soul Crossing. How do you summon Obelisk the Tormentor? Here are four ways, and the rule that sends it away. Way one: Tribute three monsters to Normal Summon it. It cannot be Normal Set. The Normal Summon cannot be negated, and no cards or effects can be activated when it lands. Way two: banish Soul Energy MAX from your Graveyard in your Main or Battle Phase. It adds Obelisk from your Deck or Graveyard to your hand, and you can Normal Summon it right away, still with three Tributes. Way three: The Breaking Ruin God Special Summons Obelisk from your hand or Graveyard with no Tributes, and your opponent's effects cannot touch it that turn. Way four: Magical Trick Mirror revives it from the Graveyard in Defense Position. Do it on your opponent's turn, and their monsters that can attack must attack Obelisk. Bonus: Soul Crossing lets you Tribute Summon Obelisk using your opponent's monsters as the Tributes. The catch: a Special Summoned Obelisk is sent to the Graveyard in the End Phase. Use it right away, or Normal Summon it to keep it. Card text: YGOPRODeck (official card text, TCG / Master Duel). Battle City facts: Wikipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "ObelisktheTormentor",
+    "MasterDuel",
+    "EgyptianGods"
+  ],
+  "tags": [
+    "Obelisk the Tormentor",
+    "how to summon Obelisk the Tormentor",
+    "Yu-Gi-Oh",
+    "Egyptian God cards",
+    "Egyptian Gods deck",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG",
+    "Soul Energy MAX!!!",
+    "The Breaking Ruin God",
+    "Magical Trick Mirror",
+    "Soul Crossing"
+  ],
+  "joke": "Three Tributes walk in, one giant walks out."
+}

@@ -1,0 +1,72 @@
+{
+  "id": "yugioh-dl-slifer-deck",
+  "slot": "yugioh",
+  "order": 57,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Slifer Deck for Duel Links",
+  "title": "Slifer the Sky Dragon Deck | Duel Links Cards and Skill | Yu-Gi-Oh Duel Links",
+  "video_script": "Here is how to build a Slifer the Sky Dragon deck in Duel Links. Slifer has no meta deck right now, so this is a fun build with cards you can really get in the game. Remember the Speed Duel rules: only three Monster Zones and four thousand Life Points. Three Tributes means your whole monster field goes into Slifer. The Skill is Card of Sanctity, for Yami Yugi. At the end of a turn where you Normal Summoned Slifer, both players draw until they hold six cards, and six cards means six thousand attack. Ra's Disciple is your Tribute engine. When it is summoned, it brings up to two more from your hand or Deck. While it is on your field, you cannot Special Summon other monsters. Reactor Slime makes two Slime Tokens, so it is three monsters by itself, but for the rest of that turn you can only summon Divine-Beast monsters. Egyptian God Slime counts as three Tributes on its own. Tribute Metal Reflect Slime, a Level ten Aqua with zero attack, to bring it out from your Extra Deck. Monster Reborn brings Slifer back from the Graveyard, but a Special Summoned Slifer goes back to the Graveyard in the End Phase, so attack right away. Which card would you add? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/10000020.jpg",
+      "label": "Slifer in Duel Links"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/10000020.jpg",
+      "fact": "Speed Duel rules",
+      "sub": "3 zones, 4000 LP"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/10000020.jpg",
+      "fact": "Skill",
+      "sub": "Card of Sanctity"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/74875003.jpg",
+      "fact": "Ra's Disciple",
+      "sub": "1 card = 3 Tributes"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/79387392.jpg",
+      "fact": "Reactor Slime",
+      "sub": "2 Slime Tokens"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/42166000.jpg",
+      "fact": "Egyptian God Slime",
+      "sub": "Counts as 3 Tributes"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/83764719.jpg",
+      "fact": "Monster Reborn",
+      "sub": "Bring Slifer back"
+    }
+  ],
+  "description": "For Yu-Gi-Oh Duel Links (Speed Duels: 4000 LP, 3 Monster Zones) - only cards and Skills that are in Duel Links. The cards that make a Slifer the Sky Dragon deck work: Card of Sanctity (Skill), Ra's Disciple, Reactor Slime, Egyptian God Slime, Metal Reflect Slime, Monster Reborn. Here is how to build a Slifer the Sky Dragon deck in Duel Links. Slifer has no meta deck right now, so this is a fun build with cards you can really get in the game. Remember the Speed Duel rules: only three Monster Zones and four thousand Life Points. Three Tributes means your whole monster field goes into Slifer. The Skill is Card of Sanctity, for Yami Yugi. At the end of a turn where you Normal Summoned Slifer, both players draw until they hold six cards, and six cards means six thousand attack. Ra's Disciple is your Tribute engine. When it is summoned, it brings up to two more from your hand or Deck. While it is on your field, you cannot Special Summon other monsters. Reactor Slime makes two Slime Tokens, so it is three monsters by itself, but for the rest of that turn you can only summon Divine-Beast monsters. Egyptian God Slime counts as three Tributes on its own. Tribute Metal Reflect Slime, a Level ten Aqua with zero attack, to bring it out from your Extra Deck. Monster Reborn brings Slifer back from the Graveyard, but a Special Summoned Slifer goes back to the Graveyard in the End Phase, so attack right away. Card text: YGOPRODeck (official card text). Duel Links cards, Skills and the Ra top deck (15 Nov 2026): Duel Links Meta. Speed Duel rules and Battle City facts: Wikipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "SlifertheSkyDragon",
+    "DuelLinks",
+    "EgyptianGods"
+  ],
+  "tags": [
+    "Slifer the Sky Dragon",
+    "Slifer the Sky Dragon deck",
+    "Yu-Gi-Oh Duel Links",
+    "Duel Links",
+    "Duel Links deck",
+    "Egyptian God cards",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Speed Duel",
+    "Card of Sanctity (Skill)",
+    "Ra's Disciple",
+    "Reactor Slime",
+    "Egyptian God Slime",
+    "Metal Reflect Slime",
+    "Monster Reborn"
+  ],
+  "joke": "Slifer players never play their cards. They just hold them and smile."
+}

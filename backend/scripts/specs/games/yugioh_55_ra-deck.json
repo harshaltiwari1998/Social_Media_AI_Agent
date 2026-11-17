@@ -1,0 +1,79 @@
+{
+  "id": "yugioh-ra-deck",
+  "slot": "yugioh",
+  "order": 55,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Ra Deck: The Cards You Need",
+  "title": "The Winged Dragon of Ra Deck | Best Support Cards | Yu-Gi-Oh Master Duel and TCG",
+  "video_script": "Here is how to build a Winged Dragon of Ra deck. Ra was Marik's Egyptian God in Battle City, and it has the most support cards of the three. When Ra is Normal Summoned, you can pay Life Points until you have one hundred left, and it gains that much attack and defense. Pay one thousand to destroy a monster on the field. Sphere Mode can be summoned with three Tributes from your opponent's side too, and it comes back to you later. Tribute the Sphere to summon Ra from your hand or Deck with four thousand attack. Immortal Phoenix waits in the Graveyard. When Ra goes from the field to your Graveyard, the Phoenix summons itself. It is unaffected by other cards' effects, and for one thousand Life Points it sends a monster to the Graveyard. Millennium Revelation sends a Divine-Beast from your hand to fetch Monster Reborn, and lets Monster Reborn revive Ra from the Graveyard, ignoring its summoning conditions. Ancient Chant adds Ra from your Deck or Graveyard and gives you an extra Tribute Summon that turn. From the Graveyard, it makes Ra's attack the total of the monsters you Tributed. To find your pieces, The True Sun God adds Ra or a card that mentions it, and Guardian Slime adds a Ra Spell or Trap when it goes to the Graveyard. And Blaze Cannon makes Ra unaffected by your opponent's effects, and after Ra attacks, it can send all their monsters to the Graveyard. Which card would you add to this deck? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/10000010.jpg",
+      "label": "The Winged Dragon of Ra"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/10000010.jpg",
+      "fact": "The core",
+      "sub": "Pay LP = ATK"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/10000080.jpg",
+      "fact": "Sphere Mode",
+      "sub": "Tribute from EITHER side"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/10000090.jpg",
+      "fact": "Immortal Phoenix",
+      "sub": "Ra falls, Phoenix rises"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/41044418.jpg",
+      "fact": "Millennium Revelation",
+      "sub": "Monster Reborn revives Ra"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/78665705.jpg",
+      "fact": "Ancient Chant",
+      "sub": "Find Ra + extra summon"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/11587414.jpg",
+      "fact": "The True Sun God",
+      "sub": "Searches Ra cards"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/4059313.jpg",
+      "fact": "Blaze Cannon",
+      "sub": "Clear their field"
+    }
+  ],
+  "description": "For Yu-Gi-Oh Master Duel and the TCG - some of these cards are not in Duel Links (there is a separate Duel Links video). The cards that make a The Winged Dragon of Ra deck work: The Winged Dragon of Ra - Sphere Mode, The Winged Dragon of Ra - Immortal Phoenix, Millennium Revelation, Ancient Chant, The True Sun God, Guardian Slime, Blaze Cannon. Here is how to build a Winged Dragon of Ra deck. Ra was Marik's Egyptian God in Battle City, and it has the most support cards of the three. When Ra is Normal Summoned, you can pay Life Points until you have one hundred left, and it gains that much attack and defense. Pay one thousand to destroy a monster on the field. Sphere Mode can be summoned with three Tributes from your opponent's side too, and it comes back to you later. Tribute the Sphere to summon Ra from your hand or Deck with four thousand attack. Immortal Phoenix waits in the Graveyard. When Ra goes from the field to your Graveyard, the Phoenix summons itself. It is unaffected by other cards' effects, and for one thousand Life Points it sends a monster to the Graveyard. Millennium Revelation sends a Divine-Beast from your hand to fetch Monster Reborn, and lets Monster Reborn revive Ra from the Graveyard, ignoring its summoning conditions. Ancient Chant adds Ra from your Deck or Graveyard and gives you an extra Tribute Summon that turn. From the Graveyard, it makes Ra's attack the total of the monsters you Tributed. To find your pieces, The True Sun God adds Ra or a card that mentions it, and Guardian Slime adds a Ra Spell or Trap when it goes to the Graveyard. And Blaze Cannon makes Ra unaffected by your opponent's effects, and after Ra attacks, it can send all their monsters to the Graveyard. Card text: YGOPRODeck (official card text, TCG / Master Duel). Battle City facts: Wikipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "WingedDragonofRa",
+    "MasterDuel",
+    "EgyptianGods"
+  ],
+  "tags": [
+    "The Winged Dragon of Ra",
+    "The Winged Dragon of Ra deck",
+    "Yu-Gi-Oh",
+    "Egyptian God cards",
+    "Egyptian Gods deck",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG",
+    "The Winged Dragon of Ra - Sphere Mode",
+    "The Winged Dragon of Ra - Immortal Phoenix",
+    "Millennium Revelation",
+    "Ancient Chant",
+    "The True Sun God",
+    "Guardian Slime",
+    "Blaze Cannon"
+  ],
+  "joke": "Ra has a ball form, a bird form and a dragon form. I cannot even pick one outfit."
+}

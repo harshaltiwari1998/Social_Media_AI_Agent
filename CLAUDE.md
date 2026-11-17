@@ -193,7 +193,18 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   `"tts_voice": "en-US-GuyNeural"` (game_videos routes any spec with style cinema to `cinema_video.py`). Built and posted
   only through the review queue: `laptop_batch.py ygo --extra-slot yugioh:N` then `post_reviewed.py`.
   50 specs written 2026-11-16 by `.cache/yugioh_write.py` (44 card explainers + 6 duelist best-card videos: Yugi, Kaiba,
-  Joey, Jaden, Yusei, Zane). Next ideas the owner liked: Duel Links / Master Duel "best deck" videos from the live
+  Joey, Jaden, Yusei, Zane). Egyptian God pairs (owner 2026-11-17: for each God a "deck" video = the support cards, and
+  a "how to summon it" video): orders 51-56 (`slifer-deck`, `slifer-summon`, `obelisk-deck`, `obelisk-summon`, `ra-deck`,
+  `ra-summon`) written by `.cache/yugioh_gods_write.py` from the official card text, TCG / Master Duel cards only (Holactie
+  named as OCG only); built in their own run folder `run_ygo_gods` so the daily `ygo_post.py` drip (reads `run_ygo`) never
+  posts them before the owner has watched them. Owner 2026-11-17: several of those cards are NOT in Duel Links (the
+  owner plays Duel Links), so 51-56 are titled "Yu-Gi-Oh Master Duel and TCG" and Duel Links versions are orders 57-62
+  (`yugioh-dl-*`, `.cache/yugioh_gods_dl_write.py`, run folder `run_ygo_gods_dl`): only cards / Skills Duel Links Meta
+  lists (its card API has release + obtain data; YGOPRODeck's "Duel Links" format flag misses newer boxes), Speed Duel
+  rules (4000 LP, 3 Monster Zones), and the Ra deck = Duel Links Meta's top deck of 2026-11-15. Always say which game a
+  Yu-Gi-Oh deck video is for. All 12 approved 2026-11-17 and posted to Instagram with `.cache/ygo_post.py 6
+  instagram_gaming --run ygo_gods_dl` / `--run ygo_gods` (makes the `.light.mp4` copy itself); their YouTube holds stay
+  until the strike week ends (`ygo_post.py 6 youtube --run <tag>`). Next ideas the owner liked: Duel Links / Master Duel "best deck" videos from the live
   top-deck APIs (duellinksmeta.com / masterduelmeta.com `/api/v1/top-decks?sort=-created`), Duel Links card explainers
   (8,270 cards - start with the ~300 used in top decks), and a deck plan from the owner's own Duel Links collection
   (owner will share a phone screen recording of the card list, Skills and gems).
@@ -207,8 +218,9 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
 ### Main scripts
 - `scripts/daily_job.py` - the one entry point: retries pending uploads, then builds + posts per
   slot (`--new-games`, `--classic-games`, `--new-palworld`, `--extra-slot slot:N`, `--long-videos`,
-  `--long-category`, `--long-series`, `--deals-shorts`, `--deals-long`, `--skip-trends`, `--from-end`). Exits 1 if every build or every
-  upload failed (health check).
+  `--long-category`, `--long-series`, `--deals-shorts`, `--deals-long`, `--skip-trends`, `--from-end`, `--skip-retry`). Exits 1 if every build or every
+  upload failed (health check). Use `--skip-retry` for one-slot laptop batches: the retry step rebuilds old pending
+  shorts, and on 2026-11-17 it rebuilt a Palworld breeding short with Wan motion, using the ZeroGPU quota.
 - `scripts/game_videos.py` (shorts from specs; scenes with a `steam:` image play the game's official Steam trailer
   footage in the picture area - silent, 720p, cached in `game_art/trailers/` and in the workflows' actions/cache;
   owner found still-image shorts cheap, Nov 2026; `"footage": false` opts a spec out). Palworld slots never get
@@ -415,6 +427,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-17 - Yu-Gi-Oh Egyptian God videos: deck + how-to-summon for Slifer, Obelisk and Ra (specs 51-56 Master Duel / TCG, 57-62 Duel Links); `daily_job.py --skip-retry`.
 - 2026-11-17 - `PROJECT_OVERVIEW.md`: one-page map of the project for new sessions (status, flow, repo map, rules).
 - 2026-11-16 - Yu-Gi-Oh explainer slot (`yugioh`, cinema style for gaming specs); Payana Museum shorts approved and posting to Instagram/Facebook.
 - 2026-11-16 - NudeNet check (`app/media/safety.py`) on every video before posting or review; flagged videos are held for the owner.

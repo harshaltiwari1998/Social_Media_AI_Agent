@@ -1,0 +1,78 @@
+{
+  "id": "yugioh-dl-ra-summon",
+  "slot": "yugioh",
+  "order": 62,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "How to Summon Ra in Duel Links",
+  "title": "How to Summon The Winged Dragon of Ra in Duel Links | Every Way | Yu-Gi-Oh",
+  "video_script": "The Winged Dragon of Ra cannot be Special Summoned by its own rule, so how do Duel Links players get it out? Here are the ways. Way one: Tribute three monsters and Normal Summon it. Nothing can be activated when it lands. Then pay Life Points down to one hundred to give it that much attack. Ancient Chant adds Ra and gives you an extra Tribute Summon this turn. Banish it from the Graveyard, and Ra's attack becomes the total of its Tributes. Way two: Sphere Mode. Summon the Sphere, even with your opponent's monsters, then Tribute it to Special Summon Ra from your hand or Deck with four thousand attack. Way three: send Millennium Revelation to the Graveyard, and this turn Monster Reborn can revive Ra. That Ra goes back to the Graveyard in the End Phase. Way four: banish Dark Spell Regeneration from your Graveyard and send a Monster Reborn to revive Ra, then you can send one of your opponent's monsters to the Graveyard. Ra leaves again in the End Phase. A revived Ra starts with zero attack, so Sun God Unification lets you pay Life Points down to one hundred and give a Special Summoned Ra that much attack. When Ra leaves the field for the Graveyard, Immortal Phoenix rises, and in the End Phase it turns into Sphere Mode, so the cycle starts again. Which way do you use? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/10000010.jpg",
+      "label": "Summon Ra in Duel Links"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/10000010.jpg",
+      "fact": "Normal Summon",
+      "sub": "3 Tributes"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/78665705.jpg",
+      "fact": "Ancient Chant",
+      "sub": "Extra Tribute Summon"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/10000080.jpg",
+      "fact": "Sphere Mode",
+      "sub": "Sphere -> Ra at 4000"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/41044418.jpg",
+      "fact": "Millennium Revelation",
+      "sub": "Monster Reborn on Ra"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/12930501.jpg",
+      "fact": "Dark Spell Regeneration",
+      "sub": "Revive Ra from the GY"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/77432167.jpg",
+      "fact": "Sun God Unification",
+      "sub": "Power up a revived Ra"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/10000090.jpg",
+      "fact": "Immortal Phoenix",
+      "sub": "The cycle restarts"
+    }
+  ],
+  "description": "For Yu-Gi-Oh Duel Links (Speed Duels: 4000 LP, 3 Monster Zones) - only cards and Skills that are in Duel Links. Every way to summon The Winged Dragon of Ra: The Winged Dragon of Ra - Sphere Mode, Ancient Chant, Millennium Revelation, Monster Reborn, Dark Spell Regeneration, Sun God Unification, The Winged Dragon of Ra - Immortal Phoenix. The Winged Dragon of Ra cannot be Special Summoned by its own rule, so how do Duel Links players get it out? Here are the ways. Way one: Tribute three monsters and Normal Summon it. Nothing can be activated when it lands. Then pay Life Points down to one hundred to give it that much attack. Ancient Chant adds Ra and gives you an extra Tribute Summon this turn. Banish it from the Graveyard, and Ra's attack becomes the total of its Tributes. Way two: Sphere Mode. Summon the Sphere, even with your opponent's monsters, then Tribute it to Special Summon Ra from your hand or Deck with four thousand attack. Way three: send Millennium Revelation to the Graveyard, and this turn Monster Reborn can revive Ra. That Ra goes back to the Graveyard in the End Phase. Way four: banish Dark Spell Regeneration from your Graveyard and send a Monster Reborn to revive Ra, then you can send one of your opponent's monsters to the Graveyard. Ra leaves again in the End Phase. A revived Ra starts with zero attack, so Sun God Unification lets you pay Life Points down to one hundred and give a Special Summoned Ra that much attack. When Ra leaves the field for the Graveyard, Immortal Phoenix rises, and in the End Phase it turns into Sphere Mode, so the cycle starts again. Card text: YGOPRODeck (official card text). Duel Links cards, Skills and the Ra top deck (15 Nov 2026): Duel Links Meta. Speed Duel rules and Battle City facts: Wikipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "WingedDragonofRa",
+    "DuelLinks",
+    "EgyptianGods"
+  ],
+  "tags": [
+    "The Winged Dragon of Ra",
+    "how to summon The Winged Dragon of Ra",
+    "Yu-Gi-Oh Duel Links",
+    "Duel Links",
+    "Duel Links deck",
+    "Egyptian God cards",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Speed Duel",
+    "The Winged Dragon of Ra - Sphere Mode",
+    "Ancient Chant",
+    "Millennium Revelation",
+    "Monster Reborn",
+    "Dark Spell Regeneration",
+    "Sun God Unification",
+    "The Winged Dragon of Ra - Immortal Phoenix"
+  ],
+  "joke": "Ra is the only God that comes with an instruction manual."
+}

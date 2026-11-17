@@ -462,6 +462,9 @@ def main() -> None:
     parser.add_argument("--skip-trends", action="store_true")
     parser.add_argument("--skip-gaming", action="store_true", help="gaming + movie videos run on GitHub Actions instead")
     parser.add_argument("--from-end", action="store_true", help="pick specs from the end of each queue (manual batches)")
+    parser.add_argument("--skip-retry", action="store_true",
+                        help="do not retry pending uploads (one-slot laptop batch: a retry rebuilt a Palworld short and "
+                             "used the ZeroGPU quota the 20:15 evolution task needs, 2026-11-17)")
     args = parser.parse_args()
     global FROM_END
     FROM_END = args.from_end
@@ -481,7 +484,7 @@ def main() -> None:
 
     poster = Poster()
     steps = [] if args.skip_gaming else [
-        lambda: retry_pending(poster),
+        *([] if args.skip_retry else [lambda: retry_pending(poster)]),
         lambda: make_new_games(poster, "new", args.new_games),
         lambda: make_new_games(poster, "classic", args.classic_games),
         lambda: make_new_palworld(poster, args.new_palworld),

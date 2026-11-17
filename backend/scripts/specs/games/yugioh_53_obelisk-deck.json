@@ -1,0 +1,72 @@
+{
+  "id": "yugioh-obelisk-deck",
+  "slot": "yugioh",
+  "order": 53,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Obelisk Deck: The Cards You Need",
+  "title": "Obelisk the Tormentor Deck | Best Support Cards | Yu-Gi-Oh Master Duel and TCG",
+  "video_script": "Here is how to build an Obelisk the Tormentor deck, and the cards that make it work. Obelisk was Seto Kaiba's Egyptian God in Battle City. Obelisk has four thousand attack and defense, and neither player can target it with card effects. Tribute two monsters to destroy all monsters your opponent controls, but then it cannot attack that turn. Soul Energy MAX is the big finisher. While you control Obelisk, Tribute two other face-up monsters to destroy as many of your opponent's monsters as possible, and then deal four thousand damage. The Breaking Ruin God Special Summons Obelisk from your hand or Graveyard, and it is unaffected by your opponent's card effects that turn. Its activation cannot be negated. Fist of Fate needs Obelisk on your field. It negates and destroys one of your opponent's Effect Monsters, and in your Main Phase it can also destroy all their Spells and Traps. Magical Trick Mirror is the backup plan. Banish it from your Graveyard and send a Monster Reborn to bring Obelisk back in Defense Position. Ra's Disciple gives you three Tributes, but only for a God's Tribute Summon, not for Obelisk's field wipe. Keep other monsters for that. Which card would you add to this deck? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/10000000.jpg",
+      "label": "Obelisk the Tormentor"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/10000000.jpg",
+      "fact": "4000 ATK / 4000 DEF",
+      "sub": "Untargetable + field wipe"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/79339613.jpg",
+      "fact": "Soul Energy MAX!!!",
+      "sub": "Wipe + 4000 damage"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/85182315.jpg",
+      "fact": "The Breaking Ruin God",
+      "sub": "Summon it, untouchable"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/79868386.jpg",
+      "fact": "Fist of Fate",
+      "sub": "Negate + destroy"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/85758066.jpg",
+      "fact": "Magical Trick Mirror",
+      "sub": "Revive in Defense"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/74875003.jpg",
+      "fact": "Ra's Disciple",
+      "sub": "Tributes for the summon"
+    }
+  ],
+  "description": "For Yu-Gi-Oh Master Duel and the TCG - some of these cards are not in Duel Links (there is a separate Duel Links video). The cards that make a Obelisk the Tormentor deck work: Soul Energy MAX!!!, The Breaking Ruin God, Fist of Fate, Magical Trick Mirror, Ra's Disciple. Here is how to build an Obelisk the Tormentor deck, and the cards that make it work. Obelisk was Seto Kaiba's Egyptian God in Battle City. Obelisk has four thousand attack and defense, and neither player can target it with card effects. Tribute two monsters to destroy all monsters your opponent controls, but then it cannot attack that turn. Soul Energy MAX is the big finisher. While you control Obelisk, Tribute two other face-up monsters to destroy as many of your opponent's monsters as possible, and then deal four thousand damage. The Breaking Ruin God Special Summons Obelisk from your hand or Graveyard, and it is unaffected by your opponent's card effects that turn. Its activation cannot be negated. Fist of Fate needs Obelisk on your field. It negates and destroys one of your opponent's Effect Monsters, and in your Main Phase it can also destroy all their Spells and Traps. Magical Trick Mirror is the backup plan. Banish it from your Graveyard and send a Monster Reborn to bring Obelisk back in Defense Position. Ra's Disciple gives you three Tributes, but only for a God's Tribute Summon, not for Obelisk's field wipe. Keep other monsters for that. Card text: YGOPRODeck (official card text, TCG / Master Duel). Battle City facts: Wikipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "ObelisktheTormentor",
+    "MasterDuel",
+    "EgyptianGods"
+  ],
+  "tags": [
+    "Obelisk the Tormentor",
+    "Obelisk the Tormentor deck",
+    "Yu-Gi-Oh",
+    "Egyptian God cards",
+    "Egyptian Gods deck",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG",
+    "Soul Energy MAX!!!",
+    "The Breaking Ruin God",
+    "Fist of Fate",
+    "Magical Trick Mirror",
+    "Ra's Disciple"
+  ],
+  "joke": "Obelisk's idea of a warning is one punch for the whole field."
+}

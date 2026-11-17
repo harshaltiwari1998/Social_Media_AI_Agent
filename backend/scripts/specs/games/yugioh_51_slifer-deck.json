@@ -1,0 +1,78 @@
+{
+  "id": "yugioh-slifer-deck",
+  "slot": "yugioh",
+  "order": 51,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Slifer Deck: The Cards You Need",
+  "title": "Slifer the Sky Dragon Deck | Best Support Cards | Yu-Gi-Oh Master Duel and TCG",
+  "video_script": "Here is how to build a Slifer the Sky Dragon deck, and the cards that make it work. Slifer was Yugi's Egyptian God in Battle City. The core is Slifer itself. It gains one thousand attack and defense for each card in your hand, so this deck wants a big hand. The Revived Sky God brings Slifer back from your Graveyard, then both players draw until they hold six cards. Six cards in hand means six thousand attack. Thunderforce Attack works while you control Slifer. It destroys as many face-up monsters your opponent controls as possible, and in your Main Phase you draw for each one sent to their Graveyard. Soul Crossing Tribute Summons a Divine-Beast, and you can use your opponent's monsters as the Tributes. After that, you can only activate one card or effect per turn until the end of the next turn. Divine Evolution gives Slifer one thousand more attack and defense, its effects cannot be negated, and when it attacks, your opponent must send one of their monsters to the Graveyard. Ultimate Divine-Beast is a Trap. When your opponent attacks, discard a Spell or Trap to Special Summon a Divine-Beast from your Graveyard in Defense Position, and the attack goes to it. For Tributes, Ra's Disciple summons up to two more copies from your hand or Deck, and they can only be Tributed for the Egyptian Gods. Which card would you add to this deck? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/10000020.jpg",
+      "label": "Slifer the Sky Dragon"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/10000020.jpg",
+      "fact": "The core",
+      "sub": "+1000 ATK per card in hand"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/59094601.jpg",
+      "fact": "The Revived Sky God",
+      "sub": "Revive Slifer, draw to 6"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/42469671.jpg",
+      "fact": "Thunderforce Attack",
+      "sub": "Wipe their face-up monsters"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/5253985.jpg",
+      "fact": "Soul Crossing",
+      "sub": "Tribute THEIR monsters"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/7373632.jpg",
+      "fact": "Divine Evolution",
+      "sub": "+1000 ATK, can't be negated"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/32247099.jpg",
+      "fact": "Ultimate Divine-Beast",
+      "sub": "Revive a God when attacked"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/74875003.jpg",
+      "fact": "Ra's Disciple",
+      "sub": "1 card = 3 Tributes"
+    }
+  ],
+  "description": "For Yu-Gi-Oh Master Duel and the TCG - some of these cards are not in Duel Links (there is a separate Duel Links video). The cards that make a Slifer the Sky Dragon deck work: The Revived Sky God, Thunderforce Attack, Soul Crossing, Divine Evolution, Ultimate Divine-Beast, Ra's Disciple. Here is how to build a Slifer the Sky Dragon deck, and the cards that make it work. Slifer was Yugi's Egyptian God in Battle City. The core is Slifer itself. It gains one thousand attack and defense for each card in your hand, so this deck wants a big hand. The Revived Sky God brings Slifer back from your Graveyard, then both players draw until they hold six cards. Six cards in hand means six thousand attack. Thunderforce Attack works while you control Slifer. It destroys as many face-up monsters your opponent controls as possible, and in your Main Phase you draw for each one sent to their Graveyard. Soul Crossing Tribute Summons a Divine-Beast, and you can use your opponent's monsters as the Tributes. After that, you can only activate one card or effect per turn until the end of the next turn. Divine Evolution gives Slifer one thousand more attack and defense, its effects cannot be negated, and when it attacks, your opponent must send one of their monsters to the Graveyard. Ultimate Divine-Beast is a Trap. When your opponent attacks, discard a Spell or Trap to Special Summon a Divine-Beast from your Graveyard in Defense Position, and the attack goes to it. For Tributes, Ra's Disciple summons up to two more copies from your hand or Deck, and they can only be Tributed for the Egyptian Gods. Card text: YGOPRODeck (official card text, TCG / Master Duel). Battle City facts: Wikipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "SlifertheSkyDragon",
+    "MasterDuel",
+    "EgyptianGods"
+  ],
+  "tags": [
+    "Slifer the Sky Dragon",
+    "Slifer the Sky Dragon deck",
+    "Yu-Gi-Oh",
+    "Egyptian God cards",
+    "Egyptian Gods deck",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG",
+    "The Revived Sky God",
+    "Thunderforce Attack",
+    "Soul Crossing",
+    "Divine Evolution",
+    "Ultimate Divine-Beast",
+    "Ra's Disciple"
+  ],
+  "joke": "Slifer players never play their cards. They just hold them and smile."
+}

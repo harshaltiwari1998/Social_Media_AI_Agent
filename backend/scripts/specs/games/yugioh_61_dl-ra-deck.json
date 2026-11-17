@@ -1,0 +1,88 @@
+{
+  "id": "yugioh-dl-ra-deck",
+  "slot": "yugioh",
+  "order": 61,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Ra Deck for Duel Links",
+  "title": "The Winged Dragon of Ra Deck | Duel Links Top Deck and Skill | Yu-Gi-Oh Duel Links",
+  "video_script": "The Winged Dragon of Ra is a real top deck in Duel Links. This build is from a top deck list on Duel Links Meta from November twenty twenty six. Three Ra. When it is Normal Summoned, pay Life Points down to one hundred and it gains that much attack. From four thousand Life Points, that is three thousand nine hundred. The Skill is Sun God's Flare, for Marik. Reveal Ra to play Guardian Slime with its effects negated, and once per Duel set your Life Points to four thousand one hundred and add Monster Reborn. Two Guardian Slime. When it goes to the Graveyard from your hand or field, it adds a Spell or Trap that lists Ra from your Deck. Two Sphere Mode. Summon it with three Tributes from either side of the field, then Tribute it to summon Ra from your hand or Deck with four thousand attack. Two Immortal Phoenix. When Ra goes from the field to your Graveyard, the Phoenix summons itself and is unaffected by other cards' effects. Three Ancient Chant. It adds Ra from your Deck or Graveyard and gives you an extra Tribute Summon that turn. Three The True Sun God, which adds Ra or a card that mentions it, plus one Millennium Revelation, one Monster Reborn and one Sun God Unification. Two Blaze Cannon make Ra unaffected by your opponent's effects and clear their monsters after it attacks. Forbidden Droplet and Book of Eclipse complete the deck. Which card would you add? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/10000010.jpg",
+      "label": "Ra in Duel Links"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/10000010.jpg",
+      "fact": "3x The Winged Dragon of Ra",
+      "sub": "Pay LP = ATK"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/10000010.jpg",
+      "fact": "Skill",
+      "sub": "Sun God's Flare"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/15771991.jpg",
+      "fact": "2x Guardian Slime",
+      "sub": "Searches a Ra Spell/Trap"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/10000080.jpg",
+      "fact": "2x Sphere Mode",
+      "sub": "Sphere -> Ra at 4000"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/10000090.jpg",
+      "fact": "2x Immortal Phoenix",
+      "sub": "Ra falls, Phoenix rises"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/78665705.jpg",
+      "fact": "3x Ancient Chant",
+      "sub": "Find Ra + extra summon"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/11587414.jpg",
+      "fact": "3x The True Sun God",
+      "sub": "Searches Ra cards"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/4059313.jpg",
+      "fact": "2x Blaze Cannon",
+      "sub": "Clear their field"
+    }
+  ],
+  "description": "For Yu-Gi-Oh Duel Links (Speed Duels: 4000 LP, 3 Monster Zones) - only cards and Skills that are in Duel Links. The cards that make a The Winged Dragon of Ra deck work: Sun God's Flare (Skill), The Winged Dragon of Ra - Sphere Mode, The Winged Dragon of Ra - Immortal Phoenix, Guardian Slime, Ancient Chant, The True Sun God, Millennium Revelation, Monster Reborn, Sun God Unification, Blaze Cannon, Forbidden Droplet, Book of Eclipse. The Winged Dragon of Ra is a real top deck in Duel Links. This build is from a top deck list on Duel Links Meta from November twenty twenty six. Three Ra. When it is Normal Summoned, pay Life Points down to one hundred and it gains that much attack. From four thousand Life Points, that is three thousand nine hundred. The Skill is Sun God's Flare, for Marik. Reveal Ra to play Guardian Slime with its effects negated, and once per Duel set your Life Points to four thousand one hundred and add Monster Reborn. Two Guardian Slime. When it goes to the Graveyard from your hand or field, it adds a Spell or Trap that lists Ra from your Deck. Two Sphere Mode. Summon it with three Tributes from either side of the field, then Tribute it to summon Ra from your hand or Deck with four thousand attack. Two Immortal Phoenix. When Ra goes from the field to your Graveyard, the Phoenix summons itself and is unaffected by other cards' effects. Three Ancient Chant. It adds Ra from your Deck or Graveyard and gives you an extra Tribute Summon that turn. Three The True Sun God, which adds Ra or a card that mentions it, plus one Millennium Revelation, one Monster Reborn and one Sun God Unification. Two Blaze Cannon make Ra unaffected by your opponent's effects and clear their monsters after it attacks. Forbidden Droplet and Book of Eclipse complete the deck. Card text: YGOPRODeck (official card text). Duel Links cards, Skills and the Ra top deck (15 Nov 2026): Duel Links Meta. Speed Duel rules and Battle City facts: Wikipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "WingedDragonofRa",
+    "DuelLinks",
+    "EgyptianGods"
+  ],
+  "tags": [
+    "The Winged Dragon of Ra",
+    "The Winged Dragon of Ra deck",
+    "Yu-Gi-Oh Duel Links",
+    "Duel Links",
+    "Duel Links deck",
+    "Egyptian God cards",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Speed Duel",
+    "Sun God's Flare (Skill)",
+    "The Winged Dragon of Ra - Sphere Mode",
+    "The Winged Dragon of Ra - Immortal Phoenix",
+    "Guardian Slime",
+    "Ancient Chant",
+    "The True Sun God",
+    "Millennium Revelation",
+    "Monster Reborn",
+    "Sun God Unification",
+    "Blaze Cannon",
+    "Forbidden Droplet",
+    "Book of Eclipse"
+  ],
+  "joke": "Ra has a ball form, a bird form and a dragon form. I cannot even pick one outfit."
+}

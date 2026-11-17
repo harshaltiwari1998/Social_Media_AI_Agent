@@ -2,6 +2,9 @@
 
 > **Keep this file current.** After every feature, workflow, schedule or rule change, update the
 > matching section below (and "Change log" at the end) in the same commit.
+>
+> **New session? Read `PROJECT_OVERVIEW.md` first** - a short map of the project, its current status, the
+> repo layout and how a video goes from spec to upload. Update its "Status right now" section when that changes.
 
 ## What this project is
 
@@ -412,6 +415,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-17 - `PROJECT_OVERVIEW.md`: one-page map of the project for new sessions (status, flow, repo map, rules).
 - 2026-11-16 - Yu-Gi-Oh explainer slot (`yugioh`, cinema style for gaming specs); Payana Museum shorts approved and posting to Instagram/Facebook.
 - 2026-11-16 - NudeNet check (`app/media/safety.py`) on every video before posting or review; flagged videos are held for the owner.
 - 2026-11-16 - All scheduled uploads stopped after a YouTube strike (adult deal short); review queue for every laptop batch (`POST_MODE=review`, `post_reviewed.py`, `hold:review` markers).

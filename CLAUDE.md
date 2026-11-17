@@ -214,6 +214,9 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   (2 a day there, `custom:carmuseum-` in `store.FB_GAMING_DAILY`) while YouTube is frozen by the strike.
 - `daily_job.py` picks the lowest-`order` unposted, unexpired spec per slot (`--from-end` takes the
   highest, for manual batches that must not collide with scheduled runs).
+  A failed build is not recorded, so the same spec comes back every run: a slot now tries up to 2 more specs (long
+  videos: 1 more). Missing Wikipedia infobox images are the usual cause - no CineAI Hindi short went out 13-17 Nov
+  2026 because Golmaal 5 and Jithu Madhavan had none (fixed with other `wiki:` refs).
 
 ### Main scripts
 - `scripts/daily_job.py` - the one entry point: retries pending uploads, then builds + posts per
@@ -428,6 +431,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-17 - daily_job: a failed spec build no longer blocks its slot (tries the next specs); 3 movie specs with missing Wikipedia images fixed.
 - 2026-11-17 - Yu-Gi-Oh Egyptian God videos: deck + how-to-summon for Slifer, Obelisk and Ra (specs 51-56 Master Duel / TCG, 57-62 Duel Links); `daily_job.py --skip-retry`.
 - 2026-11-17 - `PROJECT_OVERVIEW.md`: one-page map of the project for new sessions (status, flow, repo map, rules).
 - 2026-11-16 - Yu-Gi-Oh explainer slot (`yugioh`, cinema style for gaming specs); Payana Museum shorts approved and posting to Instagram/Facebook.

@@ -276,10 +276,16 @@ def make_new_games(poster: Poster, slot: str, count: int, spec_dir: Path = GAME_
     if not specs:
         log.warning("No %s specs left - add more to %s", slot, spec_dir.relative_to(ROOT))
         return
-    for _, path, spec in sorted(specs, key=lambda t: t[0], reverse=FROM_END)[:count]:
+    # A spec whose build fails is not recorded, so it is picked again every run: try up to 2 more specs instead, or one
+    # dead spec blocks the slot (no CineAI Hindi short 13-17 Nov 2026: Golmaal 5 / Jithu Madhavan had no Wikipedia image).
+    built = 0
+    for _, path, spec in sorted(specs, key=lambda t: t[0], reverse=FROM_END)[:count + 2]:
+        if built >= count:
+            break
         log.info("%s", spec["id"])
         if not (video := _build(game.build_video, path)):
             continue
+        built += 1
         games[spec["id"]] = {"spec": path.relative_to(ROOT).as_posix(), "video": video}
         _save(GAME_MANIFEST, games)
         poster.post(
@@ -384,13 +390,17 @@ def make_long_videos(poster: Poster, per_category: int, categories: tuple[str, .
             continue
         # Full-length scripts first; too-short ones only when nothing else is left.
         todo.sort(key=lambda t: (longv.is_too_short(t[2]), -t[0] if FROM_END else t[0]))
-        for _, path, spec in todo[:per_category]:
+        built = 0  # a failed build is not recorded and would block the queue: try one more spec (see make_new_games)
+        for _, path, spec in todo[:per_category + 1]:
+            if built >= per_category:
+                break
             log.info("%s (long, %s)", spec["id"], category)
             result = longv.build_video(path)["video"]
             _record_build(result["success"])
             if not result["success"]:
                 log.warning("  build failed: %s", result["error"])
                 continue
+            built += 1
             entry = {"spec": path.relative_to(ROOT).as_posix(), "kind": "long", "video": result["data"]["path"],
                      "thumbnail": result["data"]["thumbnail"], "chapters": result["data"]["chapters"]}
             games[spec["id"]] = entry

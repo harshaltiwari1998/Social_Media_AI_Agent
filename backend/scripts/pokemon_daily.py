@@ -364,9 +364,13 @@ def storyboard(entry: dict) -> dict:
     gmax = (entry.get("gmax") or fan.get("gmax")) if forms else None
     names = [_name(x) for x in s]
     bg, fx = BACKGROUND.get(t, "wiki:Meadow"), ENERGY.get(t, "white energy")
-    idle = f"the creature looks around determined, {fx} float around it, anime style, smooth animation, camera slowly pushes in"
-    reveal = (f"the creature appears in a burst of white light and looks around proudly, {fx} swirl around it, "
-              "anime style, smooth animation")
+    face = "its mouth stays closed, its face, eyes and design keep exactly the same shape"
+    idle = (f"the creature looks around determined with small natural movements, {fx} float around it, {face}, "
+            "anime style, smooth animation, camera slowly pushes in")
+    # no "burst of white light": the drawn evolve clip already flashes white, and a second Wan flash smeared
+    # Dragonite's face into a sketch before it opened a huge mouth (owner 2026-11-17: "chehera bekar he")
+    reveal = (f"the creature stands in place and looks around proudly with small natural movements, a few {fx} drift "
+              f"around it, {face}, anime style, smooth gentle animation, camera slowly pushes in")
     finale = f"the creature roars and unleashes a powerful attack of {fx}, epic low angle camera, anime style, dynamic motion"
     wan = lambda who, prompt, fade=0.0: {"image": {"poke": who, "background": bg}, "shots": [[prompt, 5]],  # noqa: E731
                                          **({"white_in": fade} if fade else {})}

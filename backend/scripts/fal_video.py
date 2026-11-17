@@ -1176,22 +1176,32 @@ def build(storyboard: Path, out_dir: Path) -> Path:
     starts = np.cumsum([0] + durs[:-1])
     total = float(sum(durs))
 
-    # narration: one block per clip, placed at the clip start (sped up slightly if it's longer than the clip)
-    chunks, mix = [], np.zeros((int(total * SR) + SR, 2), dtype=np.float32)
+    # narration: one block per clip, placed at the clip start - but never before the previous block has finished
+    # (owner 2026-11-16: "aakhri me 2 aavaj aati he" - the "...Comment below!" line ran past its clip and the closing
+    # joke started on top of it). If the last block runs past the end, the last clip is held longer.
+    vo, prev_end = [], 0.0
     for i, text in enumerate(sb["narration"][: len(clips)]):
         mp3 = work / f"vo_{i:02d}.mp3"
         words = asyncio.run(sv._tts(text, mp3))
         a = sv._decode(mp3)
-        st = int((starts[i] + 0.15) * SR)
+        at = max(starts[i] + 0.15, prev_end + 0.25)
+        vo.append((at, a, words))
+        prev_end = at + len(a) / SR
+    if prev_end + 0.5 > total:
+        durs[-1] += prev_end + 0.5 - total
+        total = prev_end + 0.5
+    chunks, mix = [], np.zeros((int(total * SR) + SR, 2), dtype=np.float32)
+    for at, a, words in vo:
+        st = int(at * SR)
         mix[st:st + len(a)] += a[: len(mix) - st]
         cur = []
         for w in words:
             cur.append(w)
             if len(cur) == 3 or w[0].endswith((".", ",", "?", "!")):
-                chunks.append((starts[i] + 0.15 + cur[0][1], " ".join(x[0] for x in cur)))
+                chunks.append((at + cur[0][1], " ".join(x[0] for x in cur)))
                 cur = []
         if cur:
-            chunks.append((starts[i] + 0.15 + cur[0][1], " ".join(x[0] for x in cur)))
+            chunks.append((at + cur[0][1], " ".join(x[0] for x in cur)))
     for i, a in enumerate(clip_audio):
         if a is not None:
             st = int(starts[i] * SR)

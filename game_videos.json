@@ -12537,5 +12537,25 @@
     "video": "F:\\AI AGENT\\run_cine\\videos\\long-ec6fb0e7.mp4",
     "thumbnail": "F:\\AI AGENT\\run_cine\\videos\\long-ec6fb0e7-thumb.jpg",
     "chapters": "0:00 Rohit Shetty की पुलिस दुनिया\n0:37 Singham से शुरुआत\n1:25 Singham Returns\n2:12 Simmba: नया रंग\n2:57 Sooryavanshi का इंतज़ार\n3:34 तीनों पुलिस वाले साथ\n4:19 Singham Again: बड़ी टीम\n5:03 कमाई और राय\n5:47 एक web series भी\n6:27 आपका favourite पुलिस वाला"
+  },
+  "poke-groudon": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "F:\\AI AGENT\\run_evo\\pokemon\\groudon\\final.mp4",
+    "data": {
+      "id": "groudon",
+      "stages": [
+        "groudon"
+      ],
+      "type": "ground",
+      "megas": [],
+      "gmax": null,
+      "primal": "groudon-primal",
+      "fan": {
+        "mega": "F:\\AI AGENT\\run_evo\\pokemon\\art\\fan_mega_groudon.png",
+        "gmax": "F:\\AI AGENT\\run_evo\\pokemon\\art\\fan_gmax_groudon.png"
+      },
+      "forms": true
+    }
   }
 }

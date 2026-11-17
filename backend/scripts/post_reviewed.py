@@ -43,6 +43,18 @@ def _pick(arg: str) -> list[str]:
     return out
 
 
+def _light(video: str) -> str:
+    """~3 Mbps 1080p copy for Instagram, made once next to the original (<name>.light.mp4)."""
+    light = Path(video).with_suffix(".light.mp4")
+    if not light.exists():
+        import imageio_ffmpeg
+        subprocess.run([imageio_ffmpeg.get_ffmpeg_exe(), "-v", "error", "-y", "-i", video, "-r", "30", "-c:v", "libx264",
+                        "-preset", "medium", "-b:v", "3000k", "-maxrate", "3500k", "-bufsize", "7000k",
+                        "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", str(light)],
+                       check=True)
+    return str(light)
+
+
 def _title(e: dict) -> str:
     return (e["spec"]["title"] if e["kind"] == "long" else e["text"].split("\n")[0])[:90]
 
@@ -76,8 +88,16 @@ def main() -> None:
                 dj.post_long(poster, e["spec"], e["entry"], safety_ok=True)  # the owner saw it (and any flags)
                 print("posted", _title(e))
             else:
-                poster.post(tid, e["text"], e["tags"], e["video"], e.get("category", "gaming"), e.get("platforms"),
-                            safety_ok=True)  # the owner watched it (flagged frames included)
+                # the owner watched it (flagged frames included). Instagram pulls the file through the laptop tunnel and
+                # big originals time out in its processing (2026-11-17: 45 MB reels failed), so it gets a light copy.
+                cat = e.get("category", "gaming")
+                targets = poster.targets(cat, e.get("platforms"))
+                ig = [t for t in targets if t.startswith("instagram")]
+                rest = [t for t in targets if t not in ig]
+                if rest:
+                    poster.post(tid, e["text"], e["tags"], e["video"], cat, rest, safety_ok=True)
+                if ig:
+                    poster.post(tid, e["text"], e["tags"], _light(e["video"]), cat, ig, safety_ok=True)
                 print("posted", _title(e))
             queue.pop(tid)
             QUEUE.write_text(json.dumps(queue, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

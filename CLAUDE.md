@@ -324,7 +324,8 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   `daily_job.Poster.post` / `post_long` only queue the finished video in `<run folder>/review_queue.json` and put a
   `hold:review` marker on each platform (so no retry, CI included, posts it). `scripts/post_reviewed.py <run> show`
   opens them in VLC; `approve 1,3` posts exactly those files, `reject 2` marks `skip:rejected`; then
-  `laptop_batch.py <tag> --merge-only`. Evolutions keep their own review (`--review`). Rashifal also needs approval now.
+  `laptop_batch.py <tag> --merge-only`. Shorts send Instagram a ~3 Mbps `<video>.light.mp4` copy made at approve time (Instagram pulls the
+  file through the laptop tunnel; 45 MB reels timed out in its processing on 2026-11-17); other platforms get the original. Evolutions keep their own review (`--review`). Rashifal also needs approval now.
 - **Automatic nudity check before every post / review** (owner 2026-11-16: "jo bhi videos aap banaoge kisi games clips
   se to waha check kar lena ki koi nudity to nahi he"): `app/media/safety.scan_video` runs NudeNet (local onnx) on one
   frame a second; any exposed breast / genitalia / buttocks / anus hit holds the video for the owner (flagged frames in
@@ -431,6 +432,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-17 - `post_reviewed.py approve`: Instagram gets a light copy; 12 Yu-Gi-Oh God videos + 5 CineAI Hindi videos posted after the owner's approval.
 - 2026-11-17 - daily_job: a failed spec build no longer blocks its slot (tries the next specs); 3 movie specs with missing Wikipedia images fixed.
 - 2026-11-17 - Yu-Gi-Oh Egyptian God videos: deck + how-to-summon for Slifer, Obelisk and Ra (specs 51-56 Master Duel / TCG, 57-62 Duel Links); `daily_job.py --skip-retry`.
 - 2026-11-17 - `PROJECT_OVERVIEW.md`: one-page map of the project for new sessions (status, flow, repo map, rules).

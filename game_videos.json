@@ -12557,5 +12557,28 @@
       },
       "forms": true
     }
+  },
+  "poke-dratini-forms": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "F:\\AI AGENT\\run_evo\\pokemon\\dratini-forms\\final.mp4",
+    "data": {
+      "id": "dratini-forms",
+      "stages": [
+        "dratini",
+        "dragonair",
+        "dragonite"
+      ],
+      "type": "dragon",
+      "megas": [
+        "dragonite-mega"
+      ],
+      "gmax": null,
+      "primal": null,
+      "fan": {
+        "gmax": "F:\\AI AGENT\\run_evo\\pokemon\\art\\fan_gmax_dragonite.png"
+      },
+      "forms": true
+    }
   }
 }

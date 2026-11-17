@@ -392,8 +392,11 @@ def storyboard(entry: dict) -> dict:
         mtypes = _types(s[-1] if fan_mega else m)
         mfx = ENERGY.get(mtypes[-1], fx)
         clips += [evolve(s[-1], m, mega=True),
-                  wan(m, f"the creature roars with overwhelming power, {mfx} and rainbow energy explode around it, "
-                         "epic low angle camera, anime style, dynamic motion" + (f", {_KEEP}" if fan_mega else ""), 0.6)]
+                  # "{mfx} and rainbow energy explode around it" hid Mega Dragonite behind a white blast for the whole
+                  # clip (2026-11-17): the Mega must stay clearly visible
+                  wan(m, f"the creature stands tall and roars proudly, a glowing rainbow aura shines around its outline, "
+                         f"a few {mfx} drift around it, the creature stays fully visible and in focus the whole time, "
+                         f"epic low angle camera slowly pushes in, anime style, {_KEEP}", 0.6)]
         if fan_mega:
             narration.append(f"{names[-1]} has no Mega Evolution in the games, so here is a fan-made one. Mega Evolution!")
         else:
@@ -415,8 +418,8 @@ def storyboard(entry: dict) -> dict:
             fan_g = not entry.get("gmax")
             clips += [{**evolve(s[-1], gmax), "tint": [255, 60, 80]},
                       wan(gmax, "the giant creature roars, dark red clouds swirl in the sky above it, red energy glows "
-                                f"around its body, {fx}, epic low angle camera, anime style, dynamic motion"
-                                + (f", {_KEEP}" if fan_g else ""), 0.6)]
+                                "around its body, its colours and flames stay exactly the same colour, it stays fully "
+                                f"visible, epic low angle camera, anime style, {_KEEP}", 0.6)]
             narration.append(f"{names[-1]} cannot Gigantamax in the games, so here is a fan-made Gigantamax form!" if fan_g
                              else f"And {names[-1]} has even more power. Gigantamax!")
             narration.append(f"{'Fan-made ' if fan_g else ''}Gigantamax {names[-1]}! {outro}")

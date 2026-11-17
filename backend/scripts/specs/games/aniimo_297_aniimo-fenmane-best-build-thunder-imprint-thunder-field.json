@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-fenmane-best-build-thunder-imprint-thunder-field",
+  "slot": "aniimo",
+  "order": 297,
+  "headline": "Fenmane Build",
+  "title": "Fenmane Build | Thunder Imprint and Thunder Field | Aniimo Guide",
+  "video_script": "Fenmane is a Lightning damage dealer and the final form of Fentuft. Thunder Field follows the target and adds extra Lightning hits plus Lightning Debuff. Thunder Imprint stores your damage for eight seconds, then releases it all at once, and gives bonus damage at ten Lightning Debuff stacks. Thunderfeather Volley fires five arrows at zero EP. Do you run Fenmane? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:8",
+      "label": "Fenmane Build"
+    },
+    {
+      "image": "steam:4126040:30",
+      "fact": "Thunder Field",
+      "sub": "Extra hits and debuff"
+    },
+    {
+      "image": "steam:4126040:13",
+      "fact": "Thunder Imprint",
+      "sub": "Stores damage, then bursts"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Volley",
+      "sub": "Five arrows, zero EP"
+    }
+  ],
+  "description": "Fenmane build in Aniimo: Lightning damage dealer, Thunder Field plus Thunder Imprint, Lightning Debuff stacks, Thunderfeather Volley. Evolve Fentuft at level 42.",
+  "hashtags": [
+    "Aniimo",
+    "Fenmane",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Fenmane",
+    "Fenmane build",
+    "Lightning Aniimo",
+    "Fentuft"
+  ],
+  "joke": "Fenmane saves up damage like a piggy bank, then breaks it open."
+}

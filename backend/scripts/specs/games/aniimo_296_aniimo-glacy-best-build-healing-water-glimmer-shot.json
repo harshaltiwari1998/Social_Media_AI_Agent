@@ -1,0 +1,47 @@
+{
+  "id": "aniimo-glacy-best-build-healing-water-glimmer-shot",
+  "slot": "aniimo",
+  "order": 296,
+  "headline": "Glacy Build",
+  "title": "Glacy Build | Healing Water and Glimmer Shot | Aniimo Guide",
+  "video_script": "Glacy is a Water and Ice healer, and one of the best supports you can run. Healing Water heals every ally and keeps healing Glacy over time. Glimmer Shot boosts the whole team's damage for a short time when it hits. Stack health first, because Glacy is there to survive and keep the team up. Spring of Life adds a healing zone you can drop on the ground. Do you run Glacy? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:8",
+      "label": "Glacy Build"
+    },
+    {
+      "image": "steam:4126040:17",
+      "fact": "Healing Water",
+      "sub": "Heals all allies"
+    },
+    {
+      "image": "steam:4126040:30",
+      "fact": "Glimmer Shot",
+      "sub": "Boosts team damage"
+    },
+    {
+      "image": "steam:4126040:1",
+      "fact": "Stack Health",
+      "sub": "Support, not damage"
+    }
+  ],
+  "description": "Glacy build in Aniimo: Water and Ice healer, Healing Water heals all allies, Glimmer Shot boosts team damage, health is the stat to stack. Evolve Skippy to Pranky to Glacy.",
+  "hashtags": [
+    "Aniimo",
+    "Glacy",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Glacy",
+    "Glacy build",
+    "Healer",
+    "Water Aniimo",
+    "Support"
+  ],
+  "joke": "Glacy heals everyone, and still nobody says thank you."
+}

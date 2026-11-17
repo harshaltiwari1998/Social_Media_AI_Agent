@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-flamerion-best-build-phantom-barrage-trick-fire-ring",
+  "slot": "aniimo",
+  "order": 298,
+  "headline": "Flamerion Build",
+  "title": "Flamerion Build | Phantom Barrage Refills EP | Aniimo Guide",
+  "video_script": "Flamerion is a Fire energy unit, the final form of Sparki, and it only comes out at night. Trick Fire Ring adds Fire Debuff stacks on enemies. Then Phantom Barrage hits them and restores EP for each stack. In a fire team, it refills a teammate's EP after the break phase. Held items matter little here, so use spare gear. Do you run Flamerion? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:8",
+      "label": "Flamerion Build"
+    },
+    {
+      "image": "steam:4126040:30",
+      "fact": "Trick Fire Ring",
+      "sub": "Adds Fire Debuff stacks"
+    },
+    {
+      "image": "steam:4126040:17",
+      "fact": "Phantom Barrage",
+      "sub": "Restores EP per stack"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Fire Team",
+      "sub": "EP refill for allies"
+    }
+  ],
+  "description": "Flamerion build in Aniimo: Fire energy unit, Trick Fire Ring then Phantom Barrage to restore EP, best in a fire team. Appears only at night; Sparki evolves at level 21.",
+  "hashtags": [
+    "Aniimo",
+    "Flamerion",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo tips",
+    "Pawprint Studio",
+    "Flamerion",
+    "Flamerion build",
+    "Fire Aniimo",
+    "Sparki"
+  ],
+  "joke": "Flamerion is basically a campfire that hands out snacks."
+}

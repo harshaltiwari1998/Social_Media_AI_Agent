@@ -215,6 +215,80 @@ def megas_of(final: str) -> list[str]:
     return out
 
 
+def gmax_of(final: str) -> str | None:
+    """The official Gigantamax form of the last stage (PokeAPI variety "<name>-gmax" with official artwork), if any."""
+    species = httpx.get(f"https://pokeapi.co/api/v2/pokemon-species/{final}", timeout=30).raise_for_status().json()
+    for v in species["varieties"]:
+        name = v["pokemon"]["name"]
+        if name.endswith("-gmax"):
+            data = httpx.get(f"https://pokeapi.co/api/v2/pokemon/{name}", timeout=30).raise_for_status().json()
+            if data["sprites"]["other"]["official-artwork"]["front_default"]:
+                return name
+    return None
+
+
+# Owner 2026-11-17: "jab bhi evolution aaye pokemon ka to mega, dynamax and gigantamax sab dal dena, agar nahi he tab bhi
+# aap bana dena" (the Chimchar short had no Mega - Infernape has none). Missing forms are drawn as FAN-MADE art from the
+# official artwork (HF Inference Providers edit, credits, ~$0.04 each - no ZeroGPU) and every video says they are
+# fan-made / not in the games.
+FAN_PROMPT = {
+    "mega": ("This is the Pokemon {name}. Draw its Mega Evolution: the SAME Pokemon, clearly recognisable - same species, "
+             "same face, same main colours - but more powerful and dramatic: a bit bigger, sharper shapes, extra armour "
+             "plates, spikes or {fx} that fit its {types} type, a fierce confident look. Official Pokemon artwork style "
+             "(Ken Sugimori), clean full body, standing, plain white background, ONE creature only, exactly one face with "
+             "two eyes, no text, no logo."),
+    "gmax": ("This is the Pokemon {name}. Draw its Gigantamax form, like the Gigantamax forms in Pokemon Sword and Shield: "
+             "the SAME Pokemon, clearly recognisable - same face and main colours - but transformed and huge: parts of its "
+             "body grow giant and turn into {types}-type structures of {fx}, glowing red energy patterns on its body, "
+             "small dark red storm clouds swirling behind it. Official Pokemon artwork style, clean full body, plain "
+             "white background, ONE creature only, exactly one face with two eyes, no halo, no ring above the head, no "
+             "text, no logo."),
+}
+
+
+def fan_form(slug: str, kind: str) -> str:
+    """Fan-made Mega / Gigantamax art for a Pokemon that has none (kind "mega" / "gmax"): the official artwork edited
+    by Qwen-Image-Edit through HF Inference Providers, background cut out. Cached as CACHE/art/fan_<kind>_<slug>.png."""
+    from PIL import Image
+
+    out = CACHE / "art" / f"fan_{kind}_{slug}.png"
+    if out.exists():
+        return str(out)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    art = _art(slug)
+    side = int(max(art.size) * 1.15)
+    ref = Image.new("RGB", (side, side), (255, 255, 255))
+    ref.paste(art, ((side - art.width) // 2, (side - art.height) // 2), art)
+    ref_path = out.with_name(f"ref_{slug}.png")
+    ref.save(ref_path)
+    types = _types(slug)
+    prompt = FAN_PROMPT[kind].format(name=_name(slug), types=" and ".join(types),
+                                     fx=ENERGY.get(types[0], "glowing energy"))
+    raw = _provider_edit(prompt, [ref_path])
+    shutil.copy(raw, out.with_name(f"fan_{kind}_{slug}_raw.png"))
+    _cutout(raw, out)
+    log.info("   fan-made %s art for %s: %s", kind, slug, out)
+    return str(out)
+
+
+def with_forms(entry: dict, draw: bool = True) -> dict:
+    """The entry plus its Mega / Gigantamax forms: official ones from PokeAPI, else fan-made art (draw=False for
+    --plan). "forms": false in a queue entry turns this off."""
+    if entry.get("forms") is False:
+        return {**entry, "megas": entry.get("megas", megas_of(entry["stages"][-1]))}
+    final = entry["stages"][-1]
+    megas = entry["megas"] if "megas" in entry else megas_of(final)
+    gmax = entry["gmax"] if "gmax" in entry else gmax_of(final)
+    fan = dict(entry.get("fan", {}))
+    for kind, official in (("mega", megas), ("gmax", gmax)):
+        if draw and not official and not fan.get(kind):
+            try:
+                fan[kind] = fan_form(final, kind)
+            except Exception as exc:  # noqa: BLE001 - provider down / no credits: the short goes without that form
+                log.warning("   fan-made %s art for %s failed: %s", kind, final, str(exc)[:200])
+    return {**entry, "megas": megas, "gmax": gmax, "fan": fan, "forms": True}
+
+
 def _types(slug: str) -> list[str]:
     data = httpx.get(f"https://pokeapi.co/api/v2/pokemon/{slug}", timeout=30).raise_for_status().json()
     return [t["type"]["name"] for t in data["types"]]
@@ -230,6 +304,11 @@ def storyboard(entry: dict) -> dict:
     """Game-style evolution: a Wan clip of each form, joined by locally drawn evolution sequences (glow, swapping
     silhouettes, white screen); the next form fades in from white. Mega Evolutions (entry["megas"]) come last."""
     s, t, megas = entry["stages"], entry["type"], entry.get("megas", [])
+    forms, fan = entry.get("forms"), entry.get("fan", {})
+    fan_mega = forms and not megas and fan.get("mega")
+    if fan_mega:
+        megas = [fan["mega"]]  # a local .png - _poke_art / evolve / Wan all take it like a slug
+    gmax = (entry.get("gmax") or fan.get("gmax")) if forms else None
     names = [_name(x) for x in s]
     bg, fx = BACKGROUND.get(t, "wiki:Meadow"), ENERGY.get(t, "white energy")
     idle = f"the creature looks around determined, {fx} float around it, anime style, smooth animation, camera slowly pushes in"
@@ -239,31 +318,52 @@ def storyboard(entry: dict) -> dict:
     wan = lambda who, prompt, fade=0.0: {"image": {"poke": who, "background": bg}, "shots": [[prompt, 5]],  # noqa: E731
                                          **({"white_in": fade} if fade else {})}
     evolve = lambda a, b, mega=False: {"evolve": [a, b], "background": bg, "seconds": 3.2, "mega": mega}  # noqa: E731
-    outro = f"Who is your favourite {t.title()}-type Pokemon? Comment below!"
+    outro = (f"Who is your favourite {t.title()}-type Pokemon? Comment below!" if not forms
+             else "Mega, Dynamax or Gigantamax, which form is your favourite? Comment below!")
     clips, narration = [wan(s[0], idle)], [f"{names[0]} is getting ready for something big."]
     for k in range(1, len(s)):
         last = k == len(s) - 1
-        clips += [evolve(s[k - 1], s[k]), wan(s[k], finale if last and not megas else reveal, 0.6)]
+        clips += [evolve(s[k - 1], s[k]), wan(s[k], finale if last and not (megas or forms) else reveal, 0.6)]
         narration += [f"Oh? {names[k - 1]} is evolving!",
                       f"{names[k - 1]} evolved into {names[k]}!" + ("" if not last else
-                                                                    " But it is not over yet." if megas else f" {outro}")]
+                                                                    " But it is not over yet." if megas or forms
+                                                                    else f" {outro}")]
     for k, m in enumerate(megas):
-        mtypes = _types(m)
+        mtypes = _types(s[-1] if fan_mega else m)
         mfx = ENERGY.get(mtypes[-1], fx)
         clips += [evolve(s[-1], m, mega=True),
                   wan(m, f"the creature roars with overwhelming power, {mfx} and rainbow energy explode around it, "
-                         "epic low angle camera, anime style, dynamic motion", 0.6)]
-        narration.append(f"{names[-1]} reacts to its Mega Stone. Mega Evolution!" if k == 0
-                         else f"But {names[-1]} has a second Mega Evolution!")
-        typed = f"{mega_name(m)}, a {' and '.join(x.title() for x in mtypes)} type!"
-        if k < len(megas) - 1:
+                         "epic low angle camera, anime style, dynamic motion" + (f", {_KEEP}" if fan_mega else ""), 0.6)]
+        if fan_mega:
+            narration.append(f"{names[-1]} has no Mega Evolution in the games, so here is a fan-made one. Mega Evolution!")
+        else:
+            narration.append(f"{names[-1]} reacts to its Mega Stone. Mega Evolution!" if k == 0
+                             else f"But {names[-1]} has a second Mega Evolution!")
+        mname = f"Fan-made Mega {names[-1]}" if fan_mega else mega_name(m)
+        typed = f"{mname}, a {' and '.join(x.title() for x in mtypes)} type!"
+        if k < len(megas) - 1 or forms:
             narration.append(typed)
         elif len(megas) > 1:
             narration.append(f"{typed} {' or '.join(mega_name(x).split()[-1] for x in megas)}, which one do you like more? "
                              "Comment below!")
         else:
             narration.append(f"{typed} {outro}")
-    clips.append({"still": str(CACHE / entry["id"] / f"scene_{len(clips) - 1:02d}.jpg"), "seconds": 4, "zoom": [1.05, 1.15]})
+    if forms:  # Dynamax (every Pokemon can), then Gigantamax - official, or fan-made when it has none
+        clips.append({"dynamax": s[-1], "background": bg, "seconds": 4.6})
+        narration.append(f"Now {names[-1]} Dynamaxes and grows to a giant size!")
+        if gmax:
+            fan_g = not entry.get("gmax")
+            clips += [{**evolve(s[-1], gmax), "tint": [255, 60, 80]},
+                      wan(gmax, "the giant creature roars, dark red clouds swirl in the sky above it, red energy glows "
+                                f"around its body, {fx}, epic low angle camera, anime style, dynamic motion"
+                                + (f", {_KEEP}" if fan_g else ""), 0.6)]
+            narration.append(f"{names[-1]} cannot Gigantamax in the games, so here is a fan-made Gigantamax form!" if fan_g
+                             else f"And {names[-1]} has even more power. Gigantamax!")
+            narration.append(f"{'Fan-made ' if fan_g else ''}Gigantamax {names[-1]}! {outro}")
+        else:
+            narration[-1] += f" {outro}"
+    last_scene = max(i for i, c in enumerate(clips) if "image" in c)  # the Dynamax clip has no scene image
+    clips.append({"still": str(CACHE / entry["id"] / f"scene_{last_scene:02d}.jpg"), "seconds": 4, "zoom": [1.05, 1.15]})
     narration.append(humor.pick("evolution", entry["id"]))
     return {"title": f"{' to '.join(names)} evolution", "backend": "wan", "voice": "en-US-GuyNeural", "style": 2,
             "narration": narration, "clips": clips}
@@ -750,8 +850,7 @@ def make_evolution(entry: dict, poster, games: dict, review: bool = False) -> No
         entry = {**entry, "megas": []}  # clips cached in the first style - finish it that way
         sb = storyboard_v1(entry)
     else:
-        if "megas" not in entry:
-            entry = {**entry, "megas": megas_of(entry["stages"][-1])}
+        entry = with_forms(entry)  # official Megas / Gigantamax, or fan-made ones (owner 2026-11-17)
         sb = storyboard(entry)
     board.write_text(json.dumps(sb, indent=2) + "\n", encoding="utf-8")
     seen = out / "final.mp4"  # an approved line posts exactly the file the owner watched
@@ -777,6 +876,30 @@ def post_text(entry: dict) -> tuple[str, list[str]]:
         mega = " ".join(megas[0].split()[:-1]) + " " + " and ".join(m.split()[-1] for m in megas)
     else:
         mega = megas[0] if megas else ""
+    if entry.get("forms"):  # Mega + Dynamax + Gigantamax (owner 2026-11-17); fan-made ones are said to be fan-made
+        fan = entry.get("fan", {})
+        fan_mega, fan_gmax = not megas and bool(fan.get("mega")), not entry.get("gmax") and bool(fan.get("gmax"))
+        later = names[1:]
+        title = f"{names[0]} Evolves Into " + (", ".join(later[:-1]) + " and " + later[-1] if len(later) > 1 else later[0])
+        for suffix in (" | Mega, Dynamax and Gigantamax", " | Mega Dynamax Gigantamax"):
+            if len(title + suffix) <= 95:
+                title += suffix
+                break
+        if (fan_mega or fan_gmax) and len(title) <= 87:
+            title += " What If"
+        forms_txt = [*(megas or ([f"Mega {names[-1]}"] if fan_mega else [])), f"Dynamax {names[-1]}",
+                     *([f"Gigantamax {names[-1]}"] if entry.get("gmax") or fan_gmax else [])]
+        made = [f"Mega {names[-1]}"] * fan_mega + [f"Gigantamax {names[-1]}"] * fan_gmax
+        desc = (f"{' to '.join(names)}, then {', '.join(forms_txt)} - a Pokemon evolution animation, made with AI from "
+                "the official artwork. "
+                + (f"Fan-made, not in the games: {' and '.join(made)}. " if made else "")
+                + "Mega, Dynamax or Gigantamax, which form is your favourite? Comment below!")
+        tags = [*names, *forms_txt, f"{names[0]} evolution", "Pokemon evolution", "Mega Evolution", "Dynamax",
+                "Gigantamax", *(["fan made Pokemon", "Pokemon what if"] if made else []), f"{entry['type']} type Pokemon",
+                "Pokemon animation", "Pokemon", "Pokemon shorts"]
+        hashtags = " ".join(f"#{h}" for h in ["Pokemon", "PokemonEvolution", names[-1].replace(" ", ""), "Gigantamax",
+                                                "Shorts"])
+        return f"{title}\n\n{desc}\n\n{hashtags}", tags
     later = names[1:] + ([mega] if mega else [])
     title = f"{names[0]} Evolves Into " + (", ".join(later[:-1]) + " and " + later[-1] if len(later) > 1 else later[0])
     title += " | Pokemon Evolution Animation" if len(title) <= 66 else " | Pokemon Evolution"
@@ -804,7 +927,7 @@ def main() -> None:
     queue = json.loads(QUEUE.read_text(encoding="utf-8"))
     pairs = [p for fam in FAMILIES for p in load_pairs(fam)]
     if args.plan:
-        print(json.dumps(storyboard(next(e for e in queue if e["id"] == args.plan)), indent=2))
+        print(json.dumps(storyboard(with_forms(next(e for e in queue if e["id"] == args.plan), draw=False)), indent=2))
         return
     if args.fusion_image:
         pair = next(p for p in pairs if pair_id(p) == args.fusion_image)

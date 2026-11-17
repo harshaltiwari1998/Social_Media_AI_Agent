@@ -163,6 +163,7 @@ def evolve_clip(spec: dict, work: Path, out: Path) -> Path:
     from PIL import ImageFilter
 
     seconds = float(spec.get("seconds", 3.2))
+    tint = tuple(spec["tint"]) if spec.get("tint") else None  # Gigantamax: red silhouettes (2026-11-17)
     base = _poke_background(spec.get("background"), work)
     forms = [_poke_art(n, work) for n in spec["evolve"]]
     white = Image.new("RGB", (1080, 1920), (255, 255, 255))
@@ -179,7 +180,8 @@ def evolve_clip(spec: dict, work: Path, out: Path) -> Path:
     def layer(k: int, hue: float | None):
         key = (k, None if hue is None else round(hue, 2))
         if key not in cache:
-            col = (255, 255, 255) if hue is None else tuple(int(c * 255) for c in colorsys.hsv_to_rgb(hue, 0.55, 1.0))
+            col = ((tint or (255, 255, 255)) if hue is None
+                   else tuple(int(c * 255) for c in colorsys.hsv_to_rgb(hue, 0.55, 1.0)))
             cache[key] = silhouette(k, col)
         return cache[key]
 
@@ -202,7 +204,7 @@ def evolve_clip(spec: dict, work: Path, out: Path) -> Path:
         hue = ((t * 0.9) % 1.0) if spec.get("mega") else None
         fill, mask, glow = layer(k, hue)
         im = Image.composite(fill, im, glow)
-        im = Image.composite(Image.new("RGB", im.size, (255, 255, 255)), im, mask)
+        im = Image.composite(fill if tint else Image.new("RGB", im.size, (255, 255, 255)), im, mask)
         if t > swap_end:  # burn to white
             im = Image.blend(im, white, min(1.0, (t - swap_end) / 0.45))
         return np.asarray(im)
@@ -210,6 +212,96 @@ def evolve_clip(spec: dict, work: Path, out: Path) -> Path:
     VideoClip(frame, duration=seconds).write_videofile(str(out), fps=FPS, codec="libx264", audio=False, preset="medium",
                                                       logger=None)
     print("  evolve", out.name, flush=True)
+    return out
+
+
+def dynamax_clip(spec: dict, work: Path, out: Path) -> Path:
+    """Dynamax, drawn locally (no GPU quota, so the design never changes): red energy rushes into the Pokemon, it
+    glows red and grows to giant size (feet stay on the ground), dark red clouds gather above it, the ground shakes,
+    then it stands giant with a pulsing red aura. Owner 2026-11-17: every evolution short shows Mega, Dynamax and
+    Gigantamax. {"dynamax": slug_or_png, "background": ref, "seconds": 4.6}"""
+    if out.exists():
+        return out
+    from moviepy.editor import VideoClip
+    from PIL import ImageDraw, ImageFilter
+
+    secs = float(spec.get("seconds", 4.6))
+    red = (255, 40, 70)
+    base = _poke_background(spec.get("background"), work).convert("RGBA")
+    art, (px, py) = _poke_art(spec["dynamax"], work)
+    feet, cx = py + art.height, px + art.width / 2
+    big = min(2.1, 1650 / art.height)  # final size: as tall as the frame allows - wide ones may leave it at the sides
+    pad = 90
+    sil = Image.new("RGBA", art.size, red + (255,))
+    sil.putalpha(art.getchannel("A"))
+    aura = Image.new("RGBA", (art.width + 2 * pad, art.height + 2 * pad), (0, 0, 0, 0))
+    aura.alpha_composite(sil, (pad, pad))
+    aura = aura.filter(ImageFilter.GaussianBlur(34))
+    glow = _glow_sprite(red)
+    rng = np.random.default_rng(7)
+    rush = rng.random((70, 3))  # angle, start radius, size
+    clouds = Image.new("RGBA", (2160, 760), (0, 0, 0, 0))  # wide strip, scrolled sideways
+    for x, y, w, h, a in rng.random((26, 5)):
+        blob = Image.new("RGBA", (int(260 + w * 420), int(120 + h * 200)), (90 + int(a * 40), 10, 25, 200))
+        mask = Image.new("L", blob.size, 0)
+        ImageDraw.Draw(mask).ellipse([0, 0, blob.width - 1, blob.height - 1], fill=210)
+        blob.putalpha(mask)
+        clouds.alpha_composite(blob, (int(x * (2160 - blob.width)), int(y * (760 - blob.height))))
+    clouds = clouds.filter(ImageFilter.GaussianBlur(28))
+    clouds = Image.alpha_composite(clouds, clouds.transpose(Image.FLIP_LEFT_RIGHT))
+    t_gather, t_grow = 1.1, 2.4
+
+    def ease(u):
+        u = min(max(u, 0.0), 1.0)
+        return u * u * (3 - 2 * u)
+
+    def frame(t: float) -> np.ndarray:
+        im = base.copy()
+        darken = 0.45 * ease(t / t_grow)
+        if darken:
+            im = Image.alpha_composite(im, Image.new("RGBA", im.size, (40, 0, 10, int(255 * darken))))
+        cl = ease((t - 0.5) / 1.6)  # the clouds gather over the scene
+        if cl:
+            off = int((t * 60) % 1080)
+            strip = clouds.crop((off, 0, off + 1080, 760))
+            strip.putalpha(strip.getchannel("A").point(lambda v: int(v * cl)))
+            im.alpha_composite(strip, (0, 0))
+        g_ease = ease((t - t_gather) / (t_grow - t_gather))
+        s = 1 + (big - 1) * g_ease
+        w, h = int(art.width * s), int(art.height * s)
+        ground = feet + (1890 - feet) * g_ease  # the feet move down to the frame edge so the giant fits
+        x, y = int(cx - w / 2), int(ground - h)
+        shake = 0
+        if t_grow - 0.15 < t < t_grow + 0.6:  # the ground shakes as it lands at full size
+            shake = int(14 * np.sin(t * 90) * max(0.0, 1 - (t - t_grow + 0.15) / 0.75))
+        pulse = 0.75 + 0.25 * np.sin(t * 7)
+        a = aura.resize((int(aura.width * s), int(aura.height * s)), Image.BILINEAR)
+        a.putalpha(a.getchannel("A").point(lambda v: int(v * pulse * min(1.0, 0.3 + t / t_gather))))
+        im.alpha_composite(a, (x - int(pad * s) + shake, y - int(pad * s)))
+        body = art.resize((w, h), Image.LANCZOS)
+        im.alpha_composite(body, (x + shake, y))
+        redness = ease(t / t_gather) * (1 - ease((t - t_grow) / 0.8))  # glows red while it grows, then its colours return
+        if redness > 0.02:
+            r = sil.resize((w, h), Image.BILINEAR)
+            r.putalpha(r.getchannel("A").point(lambda v: int(v * 0.85 * redness)))
+            im.alpha_composite(r, (x + shake, y))
+        if t < t_grow:  # red energy rushes in from all around
+            for ang, r0, sz in rush:
+                u = ((t * 1.4 + r0) % 1.0)
+                dist = (1 - u) * (500 + 300 * r0)
+                gx = cx + np.cos(ang * 6.283) * dist
+                gy = (ground - h / 2) + np.sin(ang * 6.283) * dist
+                g = glow.resize((int(30 + sz * 50),) * 2, Image.BILINEAR)
+                im.alpha_composite(g, (int(gx - g.width / 2), int(gy - g.height / 2)))
+        if t_grow - 0.1 < t < t_grow + 0.35:  # flash as it reaches full size
+            k = 1 - abs(t - t_grow - 0.1) / 0.25
+            if k > 0:
+                im = Image.alpha_composite(im, Image.new("RGBA", im.size, (255, 200, 210, int(160 * k))))
+        return np.asarray(im.convert("RGB"))
+
+    VideoClip(frame, duration=secs).write_videofile(str(out), fps=FPS, codec="libx264", audio=False, preset="medium",
+                                                    logger=None)
+    print("  dynamax", out.name, flush=True)
     return out
 
 
@@ -1139,6 +1231,9 @@ def build(storyboard: Path, out_dir: Path) -> Path:
             continue
         if "evolve" in c:  # game-style evolution transition, drawn locally
             clips.append(evolve_clip(c, work, out_dir / f"clip_{i:02d}.mp4"))
+            continue
+        if "dynamax" in c:  # the last form Dynamaxes (grows giant, red aura, red clouds), drawn locally
+            clips.append(dynamax_clip(c, work, out_dir / f"clip_{i:02d}.mp4"))
             continue
         if "fuse" in c:  # fusion transition, drawn locally
             clips.append(fuse_clip(c, work, out_dir / f"clip_{i:02d}.mp4"))

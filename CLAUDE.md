@@ -69,6 +69,15 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   white screen; next clip fades in via `white_in`), then the line's Mega Evolutions (PokeAPI species varieties with
   `-mega`, or `"megas"` in the entry) with a rainbow aura. Lines cached in the old 4-clip style finish in that style.
   `charmander-mega` (Charmander -> Mega Charizard X and Y) was queued first on request.
+  Owner 2026-11-17 ("jab bhi evolution aaye pokemon ka to mega, dynamax and gigantamax sab dal dena, agar nahi he tab bhi
+  aap bana dena" - the Chimchar short had no Mega): every evolution short now ends with Mega -> Dynamax -> Gigantamax
+  (`pokemon_daily.with_forms`). Official Megas / Gigantamax come from PokeAPI (`megas_of`, `gmax_of`); when a line has
+  none, `fan_form` draws a FAN-MADE one from the official art (`fal-ai/qwen-image-edit-2509` via HF credits, ~$0.04, no
+  ZeroGPU; cutout with rembg; cached `<run>/pokemon/art/fan_<mega|gmax>_<slug>.png`) and the narration, title ("What If")
+  and description say it is fan-made / not in the games. Dynamax is drawn locally (`fal_video.dynamax_clip`: red
+  energy, grows giant, red clouds, shake); the Gigantamax change is the evolve clip with a red `tint`, then a Wan clip.
+  Each line now needs 1-2 more Wan clips (fan Mega + Gigantamax), so fewer lines fit in a ZeroGPU day.
+  `"forms": false` in a queue entry turns it off; a failed fan drawing just leaves that form out.
 - `inbox/<pokemon1>+<pokemon2>[=<name>].mp4` - Pokemon fusion reveal clips the owner makes in the Gemini app
   (prompts: `F:/AI AGENT/pokemon_fusion_prompts.md`) and uploads on the GitHub website; names from
   `backend/scripts/specs/fusion_pairs.json`. The same pairs (with a `"look"` per pair) are also made automatically by
@@ -432,6 +441,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-17 - Evolution shorts: Mega + Dynamax + Gigantamax for every line, fan-made art when the games have none (`with_forms`, `fan_form`, `fal_video.dynamax_clip`).
 - 2026-11-17 - `post_reviewed.py approve`: Instagram gets a light copy; 12 Yu-Gi-Oh God videos + 5 CineAI Hindi videos posted after the owner's approval.
 - 2026-11-17 - daily_job: a failed spec build no longer blocks its slot (tries the next specs); 3 movie specs with missing Wikipedia images fixed.
 - 2026-11-17 - Yu-Gi-Oh Egyptian God videos: deck + how-to-summon for Slifer, Obelisk and Ra (specs 51-56 Master Duel / TCG, 57-62 Duel Links); `daily_job.py --skip-retry`.

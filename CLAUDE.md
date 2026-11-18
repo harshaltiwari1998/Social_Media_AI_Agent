@@ -204,6 +204,16 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   `daily-content.yml` (`--extra-slot gta6:1`). Facts: Wikipedia "Grand Theft Auto VI"; the preload date is left
   out (sources disagree), the 3x-RDR2 map size is labelled reported. Older gta6_01-12 specs (Hindi, Oct 2026) are
   all posted. After the launch stream: clip it like the RDR2 streams (own stream; mute/skip licensed radio songs).
+  Launch stream clipped 2026-11-19 (owner's OBS recording `VIDEOS GAMING/2026-11-19 00-00-08.mp4`, 58 min, facecam
+  bottom right): plan `specs/gameplay/gta6_launch.json` = 41 shorts (story / action / NPC / graphics, picked from a
+  faster-whisper transcript `gameplay_out/gta6_launch/asr.txt` + 10 s frame sheets; menus and crude sexual lines left
+  out) + 2 long videos (Lucia's story, Jason's first mission). **NudeNet at 1 fps missed a beach shot (1257-1263 s: NPCs
+  in thongs, a bare behind)** - a stricter 2 fps pass (`gameplay_out/gta6_launch/strict_scan.py`, exposed >= 0.25,
+  covered buttocks/breasts >= 0.55) caught it; it is in the plan's `excluded` list and cut from short 14 and long 2.
+  Run that strict pass + look at the hits for every new open-world recording. Posting: owner approved by judgement
+  ("aapke hisab se dal do"), 10 at a time - `.cache/gta6_post.py 1-10` (Instagram light copy + gaming Facebook within
+  the 2-a-day cap; YouTube gets `hold:review` during the strike - clear the hold before `gameplay_clips.py upload`),
+  state in `run_gta6`, then `laptop_batch.py gta6 --merge-only`.
 - `backend/scripts/specs/gameplay/<plan>.json` - cut plans for the owner's own stream recordings.
 - `backend/scripts/specs/games/yugioh_NN_<card>.json` - Yu-Gi-Oh card explainers (owner 2026-11-16: "har card ke bare me
   batao english me ki kya he kya karta he and kaise use karna he" + "players ke best cards" videos). Format: what it is
@@ -452,6 +462,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-19 - GTA 6 launch stream: 41 shorts + 2 long videos (`gta6_launch` plan), strict 2 fps nudity pass after NudeNet missed a beach shot; posting 10 at a time (`.cache/gta6_post.py`).
 - 2026-11-17 - `laptop_batch.py evo` no longer stops on the strike-time YouTube holds in `run_evo/review_queue.json` (the 20:15 evolution task built nothing on 17 Nov). ElevenLabs Image & Video API needs a Pro plan (Starter: 402); HF credits ran out the same evening.
 - 2026-11-17 - Evolution shorts: Mega + Dynamax + Gigantamax for every line, fan-made art when the games have none (`with_forms`, `fan_form`, `fal_video.dynamax_clip`).
 - 2026-11-17 - `post_reviewed.py approve`: Instagram gets a light copy; 12 Yu-Gi-Oh God videos + 5 CineAI Hindi videos posted after the owner's approval.

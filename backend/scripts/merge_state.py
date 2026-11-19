@@ -4,7 +4,8 @@ Every workflow (and every laptop batch) saves its state with this, so two writer
 records: a plain copy + push either loses the other writer's posts or gets rejected and loses its own.
 
 - posted_trends: rows the target lacks are added; a target row that failed (post_id NULL) or was a dry run is
-  replaced by a real post from the source.
+  replaced by a real post from the source; so is a hold:review or skip:fb-volume marker (a short the gaming Page's
+  daily cap skipped and that was posted there later, e.g. after the GTA 6 cap went 2 -> 6 on 2026-11-19).
 - game_videos.json / palworld_videos.json: keys the target lacks are added.
 
     python scripts/merge_state.py <source dir> <gaming-state checkout>
@@ -44,8 +45,9 @@ def merge(src: Path, dst: Path) -> None:
     con.execute("""INSERT OR REPLACE INTO posted_trends (trend_id, platform, post_id, dry_run, posted_at)
                    SELECT s.trend_id, s.platform, s.post_id, s.dry_run, s.posted_at FROM src.posted_trends s
                    JOIN posted_trends t ON t.trend_id = s.trend_id AND t.platform = s.platform
-                   WHERE (t.post_id IS NULL OR t.dry_run = 1 OR t.post_id = 'hold:review')
-                     AND s.post_id IS NOT NULL AND s.dry_run = 0 AND s.post_id != 'hold:review'""")
+                   WHERE (t.post_id IS NULL OR t.dry_run = 1 OR t.post_id IN ('hold:review', 'skip:fb-volume'))
+                     AND s.post_id IS NOT NULL AND s.dry_run = 0 AND s.post_id != 'hold:review'
+                     AND s.post_id NOT LIKE 'skip:%'""")
     con.commit()
     print(f"posted_trends: {con.total_changes - before} rows changed")
     con.execute("DETACH DATABASE src")

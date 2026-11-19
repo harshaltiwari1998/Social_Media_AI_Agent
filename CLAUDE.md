@@ -338,6 +338,7 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
 | 20:00 | `daily-rashifal.yml` - next day's 12 Hindi rashifal shorts, scheduled 06:00-06:55 IST on the AI Trend Poster FB Page |
 | 21:00 | `daily-anipal.yml` 2nd half - 5 Aniimo + 3 Palworld guide + 2 breeding + 1 long (aniimo) |
 | 18:00 | Laptop task **Car Museum Daily (approved shorts)** - `.cache/carmuseum_post.py 3`: 3 of the 25 owner-approved Payana Museum shorts a day to Instagram + gaming Facebook (light ~5 Mbps copies in `carmuseum_out/light`; 12 Mbps originals timed out in Instagram processing); does nothing once all are posted |
+| 19:30 | Laptop task **GTA 6 FB Daily (approved shorts)** - `.cache/gta6_fb_daily.cmd`: next 6 of the 41 GTA 6 launch shorts to the gaming Facebook Page (`gta6_post.py 1-41 facebook_gaming`, cap reached = waits for the next day, no skip marker), then `laptop_batch.py gta6 --merge-only`; log `backend/logs/gta6_fb.log` |
 | 19:00 | Laptop task **Yu-Gi-Oh Daily (approved explainers)** - `.cache/ygo_post.py 3`: next 3 of the 50 Yu-Gi-Oh videos in `run_ygo/review_queue.json` to Instagram (`.light.mp4` ~5 Mbps copies - cinema-style originals are 100+ MB and time out); YouTube holds stay until the strike week ends (then `ygo_post.py N youtube`) |
 | Sun 19:30 | `weekly-report.yml` - stats issue |
 
@@ -404,7 +405,9 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   picture that slides in and zooms, hook line over the first 1.7 s, white flash on cuts, big fact text, grain +
   vignette). `game_videos.build_video` routes every `category: movies` spec there; `"style": "card"` keeps the old look.
 - **Gaming Facebook Page volume** (owner 2026-11-14): only Pokemon evolutions, fusions (Pokemon / Dragon Ball / Mewtwo
-  stones / compilations) and at most 2 own-stream clips a day (IST) go to `facebook_gaming`; every other gaming upload
+  stones / compilations) and at most 2 own-stream clips a day (IST) go to `facebook_gaming` (GTA 6 launch shorts: 6 a day,
+  owner 2026-11-19 - `"gameplay:gta6_launch:"` comes first in `store.FB_GAMING_DAILY`; `merge_state.py` lets a real post
+  replace an old `skip:fb-volume` marker); every other gaming upload
   (Aniimo, Palworld, deals, classic, new, GTA 6, long videos) gets a `skip:fb-volume` marker there and stays on YouTube +
   Instagram. Single exceptions the owner asks for go in `store.FB_GAMING_IDS` (exact ids): the 12 Yu-Gi-Oh Egyptian God
   videos (2026-11-17, "Facebook gaming me bhi dal do"). Gate: `store.fb_gaming_allowed` (called by `daily_job.Poster.post`, `post_long`, `gameplay_clips.upload`).
@@ -462,6 +465,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-19 - Gaming Facebook Page: GTA 6 launch shorts 6 a day (were capped at 2, shorts 3-9 had got permanent skip markers); laptop task "GTA 6 FB Daily" 19:30; `store.fb_gaming_left_today`.
 - 2026-11-19 - GTA 6 launch stream: 41 shorts + 2 long videos (`gta6_launch` plan), strict 2 fps nudity pass after NudeNet missed a beach shot; posting 10 at a time (`.cache/gta6_post.py`).
 - 2026-11-17 - `laptop_batch.py evo` no longer stops on the strike-time YouTube holds in `run_evo/review_queue.json` (the 20:15 evolution task built nothing on 17 Nov). ElevenLabs Image & Video API needs a Pro plan (Starter: 402); HF credits ran out the same evening.
 - 2026-11-17 - Evolution shorts: Mega + Dynamax + Gigantamax for every line, fan-made art when the games have none (`with_forms`, `fan_form`, `fal_video.dynamax_clip`).

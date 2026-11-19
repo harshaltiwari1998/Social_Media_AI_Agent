@@ -50,7 +50,9 @@ def already_posted(trend_id: str, platform: str) -> bool:
 # these go to facebook_gaming; every other gaming upload gets a "skip:fb-volume" marker there (YouTube + Instagram as before).
 FB_GAMING_ALWAYS = ("custom:motion-poke-", "custom:fusion-", "custom:dbzfusion-", "custom:stone-mewtwo-",
                     "custom:compilation-")
-FB_GAMING_DAILY = {"gameplay:": 2,  # own-stream clips (RDR2...): at most this many a day (IST)
+FB_GAMING_DAILY = {"gameplay:gta6_launch:": 6,  # GTA 6 launch-stream shorts (owner 2026-11-19 picked 5-6 a day while
+                   # the launch is fresh); listed BEFORE "gameplay:" - the first prefix with room wins
+                   "gameplay:": 2,  # other own-stream clips (RDR2...): at most this many a day (IST)
                    "custom:carmuseum-": 2}  # the owner's own Payana Museum footage (2026-11-16)
 FB_SKIP = "skip:fb-volume"
 # Single videos the owner asked for on the gaming Page (2026-11-17: "Facebook gaming me bhi dal do" - the 12 Egyptian
@@ -59,11 +61,9 @@ FB_GAMING_IDS = {f"custom:game-yugioh-{p}{g}-{k}" for p in ("", "dl-") for g in 
                  for k in ("deck", "summon")}
 
 
-def fb_gaming_allowed(trend_id: str) -> bool:
-    """True when this upload may go to the gaming Facebook Page; otherwise records the skip marker so it is never
-    retried."""
-    if trend_id.startswith(FB_GAMING_ALWAYS) or trend_id in FB_GAMING_IDS:
-        return True
+def fb_gaming_left_today(trend_id: str) -> int | None:
+    """How many more uploads with this id's daily-capped prefix the gaming Page takes today (IST); None = not capped."""
+    left = None
     for prefix, cap in FB_GAMING_DAILY.items():
         if trend_id.startswith(prefix):
             now = datetime.now(timezone.utc)
@@ -74,11 +74,21 @@ def fb_gaming_allowed(trend_id: str) -> bool:
                 used = conn.execute(
                     "SELECT COUNT(*) FROM posted_trends WHERE platform = 'facebook_gaming' AND trend_id LIKE ?"
                     " AND posted_at >= ? AND dry_run = 0 AND post_id IS NOT NULL AND post_id NOT LIKE 'skip:%'"
-                    " AND post_id != 'laptop'", (prefix + "%", start)).fetchone()[0]
+                    " AND post_id NOT LIKE 'hold:%' AND post_id != 'laptop'", (prefix + "%", start)).fetchone()[0]
             finally:
                 conn.close()
-            if used < cap:
-                return True
+            left = max(left or 0, cap - used)
+    return left
+
+
+def fb_gaming_allowed(trend_id: str) -> bool:
+    """True when this upload may go to the gaming Facebook Page; otherwise records the skip marker so it is never
+    retried."""
+    if trend_id.startswith(FB_GAMING_ALWAYS) or trend_id in FB_GAMING_IDS:
+        return True
+    left = fb_gaming_left_today(trend_id)
+    if left is not None and left > 0:
+        return True
     record_post(trend_id, "facebook_gaming", FB_SKIP, False)
     return False
 

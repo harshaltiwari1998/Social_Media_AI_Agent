@@ -12667,5 +12667,85 @@
       "fan": {},
       "forms": true
     }
+  },
+  "yugioh-dl-deck-stardust-synchron": {
+    "spec": "scripts/specs/games/yugioh_82_dl-deck-stardust-synchron.json",
+    "video": "F:\\AI AGENT\\run_ygo3\\videos\\short-70acd553.mp4"
+  },
+  "yugioh-dl-deck-icejade": {
+    "spec": "scripts/specs/games/yugioh_81_dl-deck-icejade.json",
+    "video": "F:\\AI AGENT\\run_ygo3\\videos\\short-bf52809e.mp4"
+  },
+  "yugioh-dl-deck-dark-magician": {
+    "spec": "scripts/specs/games/yugioh_80_dl-deck-dark-magician.json",
+    "video": "F:\\AI AGENT\\run_ygo3\\videos\\short-fdd12be7.mp4"
+  },
+  "yugioh-dl-deck-centur-ion": {
+    "spec": "scripts/specs/games/yugioh_79_dl-deck-centur-ion.json",
+    "video": "F:\\AI AGENT\\run_ygo3\\videos\\short-e779bce4.mp4"
+  },
+  "yugioh-dl-deck-memento": {
+    "spec": "scripts/specs/games/yugioh_78_dl-deck-memento.json",
+    "video": "F:\\AI AGENT\\run_ygo3\\videos\\short-03f3fadd.mp4"
+  },
+  "yugioh-gilford-the-lightning": {
+    "spec": "scripts/specs/games/yugioh_77_gilford-the-lightning.json",
+    "video": "F:\\AI AGENT\\run_ygo3\\videos\\short-41b7617f.mp4"
+  },
+  "yugioh-dark-armed-dragon": {
+    "spec": "scripts/specs/games/yugioh_76_dark-armed-dragon.json",
+    "video": "F:\\AI AGENT\\run_ygo3\\videos\\short-109a6cdf.mp4"
+  },
+  "yugioh-man-eater-bug": {
+    "spec": "scripts/specs/games/yugioh_75_man-eater-bug.json",
+    "video": "F:\\AI AGENT\\run_ygo3\\videos\\short-34221406.mp4"
+  },
+  "yugioh-effect-veiler": {
+    "spec": "scripts/specs/games/yugioh_74_effect-veiler.json",
+    "video": "F:\\AI AGENT\\run_ygo3\\videos\\short-07b907fe.mp4"
+  },
+  "yugioh-sangan": {
+    "spec": "scripts/specs/games/yugioh_73_sangan.json",
+    "video": "F:\\AI AGENT\\run_ygo3\\videos\\short-73827bc6.mp4"
+  },
+  "yugioh-called-by-the-grave": {
+    "spec": "scripts/specs/games/yugioh_72_called-by-the-grave.json",
+    "video": "F:\\AI AGENT\\run_ygo3\\videos\\short-9aabd386.mp4"
+  },
+  "yugioh-foolish-burial": {
+    "spec": "scripts/specs/games/yugioh_71_foolish-burial.json",
+    "video": "F:\\AI AGENT\\run_ygo3\\videos\\short-0a0535eb.mp4"
+  },
+  "yugioh-book-of-moon": {
+    "spec": "scripts/specs/games/yugioh_70_book-of-moon.json",
+    "video": "F:\\AI AGENT\\run_ygo3\\videos\\short-2dfa86c7.mp4"
+  },
+  "yugioh-heavy-storm": {
+    "spec": "scripts/specs/games/yugioh_69_heavy-storm.json",
+    "video": "F:\\AI AGENT\\run_ygo3\\videos\\short-8fac168b.mp4"
+  },
+  "yugioh-mystical-space-typhoon": {
+    "spec": "scripts/specs/games/yugioh_68_mystical-space-typhoon.json",
+    "video": "F:\\AI AGENT\\run_ygo3\\videos\\short-dc0a6f88.mp4"
+  },
+  "yugioh-sakuretsu-armor": {
+    "spec": "scripts/specs/games/yugioh_67_sakuretsu-armor.json",
+    "video": "F:\\AI AGENT\\run_ygo3\\videos\\short-0507cb56.mp4"
+  },
+  "yugioh-dimensional-prison": {
+    "spec": "scripts/specs/games/yugioh_66_dimensional-prison.json",
+    "video": "F:\\AI AGENT\\run_ygo3\\videos\\short-92337c37.mp4"
+  },
+  "yugioh-infinite-impermanence": {
+    "spec": "scripts/specs/games/yugioh_65_infinite-impermanence.json",
+    "video": "F:\\AI AGENT\\run_ygo3\\videos\\short-27fc7051.mp4"
+  },
+  "yugioh-trap-hole": {
+    "spec": "scripts/specs/games/yugioh_64_trap-hole.json",
+    "video": "F:\\AI AGENT\\run_ygo3\\videos\\short-f1bda5ff.mp4"
+  },
+  "yugioh-call-of-the-haunted": {
+    "spec": "scripts/specs/games/yugioh_63_call-of-the-haunted.json",
+    "video": "F:\\AI AGENT\\run_ygo3\\videos\\short-2e3aa28b.mp4"
   }
 }

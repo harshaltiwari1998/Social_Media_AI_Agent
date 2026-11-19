@@ -12580,5 +12580,17 @@
       },
       "forms": true
     }
+  },
+  "fauzi-march-19-2027": {
+    "spec": "scripts/specs/movies/movie_new_54_fauzi-march-19-2027.json",
+    "video": "F:\\AI AGENT\\run_cine\\videos\\short-519c64ed.mp4"
+  },
+  "pratap-amit-sadh-esha-deol-20-november": {
+    "spec": "scripts/specs/movies/movie_new_51_pratap-amit-sadh-esha-deol-20-november.json",
+    "video": "F:\\AI AGENT\\run_cine\\videos\\short-2e6311b0.mp4"
+  },
+  "forgotten-island-box-office": {
+    "spec": "scripts/specs/movies/movie_review_46_forgotten-island-box-office.json",
+    "video": "F:\\AI AGENT\\run_cine\\videos\\short-9e3b83f5.mp4"
   }
 }

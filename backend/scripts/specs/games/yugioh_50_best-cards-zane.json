@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/70095154.jpg",
       "fact": "Cyber Dragon",
-      "sub": "Free summon"
+      "sub": "Free summon",
+      "cue": "Number 3"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/74157028.jpg",
       "fact": "Cyber Twin Dragon",
-      "sub": "Attacks twice"
+      "sub": "Attacks twice",
+      "cue": "Number 2"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/1546123.jpg",
       "fact": "Cyber End Dragon",
-      "sub": "4000 ATK piercing"
+      "sub": "4000 ATK piercing",
+      "cue": "Number 1"
     }
   ],
   "description": "Zane Truesdale's Cyber Dragons. Sources: Duelist Pack: Zane Truesdale (Yugipedia). Card text: YGOPRODeck. Card art (c) Kazuki Takahashi / Konami - fan video.",

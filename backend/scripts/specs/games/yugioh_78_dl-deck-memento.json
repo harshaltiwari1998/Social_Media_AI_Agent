@@ -16,42 +16,50 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/14529511.jpg",
       "fact": "Tier 1",
-      "sub": "Duel Links Meta, Nov 2026"
+      "sub": "Duel Links Meta, Nov 2026",
+      "cue": "Tier 1"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/54550967.jpg",
       "fact": "Skill",
-      "sub": "Precious Cards of the Dark"
+      "sub": "Precious Cards of the Dark",
+      "cue": "The Skill is"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/54550967.jpg",
       "fact": "Mementotlan Angwitch",
-      "sub": "Searches a Memento"
+      "sub": "Searches a Memento",
+      "cue": "Mementotlan Angwitch adds another Memento monster"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/81677154.jpg",
       "fact": "Mementotlan Tatsunooto",
-      "sub": "Fills the Graveyard"
+      "sub": "Fills the Graveyard",
+      "cue": "Mementotlan Tatsunootoshigo Special Summons itself, then"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/80722024.jpg",
       "fact": "Mementotlan Bone Party",
-      "sub": "Destroy one, get another"
+      "sub": "Destroy one, get another",
+      "cue": "Mementotlan Bone Party destroys one of"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/66518509.jpg",
       "fact": "Mementotlan Fusion",
-      "sub": "Fusion from the Graveyard"
+      "sub": "Fusion from the Graveyard",
+      "cue": "Mementotlan Fusion Fusion Summons with Memento"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/14529511.jpg",
       "fact": "Mementomictlan Tecuhtl",
-      "sub": "The 3000 ATK boss"
+      "sub": "The 3000 ATK boss",
+      "cue": "and the boss, Mementomictlan Tecuhtlica Creation"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/14529511.jpg",
       "fact": "How it plays",
-      "sub": "30 card Main Deck"
+      "sub": "30 card Main Deck",
+      "cue": "How does it play?"
     }
   ],
   "description": "Memento deck guide for Yu-Gi-Oh Duel Links: Tier 1 on Duel Links Meta (checked 19 Nov 2026). Skill: Precious Cards of the Dark - Once per turn, and up to twice a Duel if your Deck has six or more DARK monsters, put one card from your hand on the bottom of your Deck or into the Graveyard, then draw two cards. How it plays: The deck destroys its own monsters on purpose, because that is what powers its effects, and ends with the Creation King. Three Forbidden Droplet halve attack and negate effects to push through. Deck list: a first place Community Tournament list from the nineteenth of November on duellinksmeta.com. Card text: YGOPRODeck; Skill text: Duel Links Meta. Card art (c) Kazuki Takahashi / Konami - fan guide.",

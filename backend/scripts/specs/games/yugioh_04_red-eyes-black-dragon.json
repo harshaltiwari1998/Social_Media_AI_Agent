@@ -16,22 +16,26 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/74677422.jpg",
       "fact": "2400 ATK / 2000 DEF",
-      "sub": "Level 7 DARK Dragon"
+      "sub": "Level 7 DARK Dragon",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/74677422.jpg",
       "fact": "What it does",
-      "sub": "No effect, big potential"
-    },
-    {
-      "image": "url:https://images.ygoprodeck.com/images/cards/6172122.jpg",
-      "fact": "Red-Eyes Fusion",
-      "sub": "Fusion from hand, Deck or field"
+      "sub": "No effect, big potential",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/74677422.jpg",
       "fact": "How to use it",
-      "sub": "Red-Eyes Fusion"
+      "sub": "Red-Eyes Fusion",
+      "cue": "How do you use it?"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/6172122.jpg",
+      "fact": "Red-Eyes Fusion",
+      "sub": "Fusion from hand, Deck or field",
+      "cue": "Red-Eyes Fusion"
     }
   ],
   "description": "Red-Eyes Black Dragon explained: It has no effect, but it has big potential, and many Red-Eyes cards are built around it. How to use it: Red-Eyes Fusion lets you Fusion Summon a monster that lists a Red-Eyes monster as material, using monsters from your hand, Deck or field, and the summoned monster's name becomes Red-Eyes B. Dragon. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

@@ -16,27 +16,32 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/46986414.jpg",
       "fact": "2500 ATK / 2100 DEF",
-      "sub": "Level 7 DARK Spellcaster"
+      "sub": "Level 7 DARK Spellcaster",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/46986414.jpg",
       "fact": "What it does",
-      "sub": "No effect, huge support"
-    },
-    {
-      "image": "url:https://images.ygoprodeck.com/images/cards/7084129.jpg",
-      "fact": "Magician's Rod",
-      "sub": "Searches Dark Magician support"
-    },
-    {
-      "image": "url:https://images.ygoprodeck.com/images/cards/2314238.jpg",
-      "fact": "Dark Magic Attack",
-      "sub": "Wipes their Spells and Traps"
+      "sub": "No effect, huge support",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/46986414.jpg",
       "fact": "How to use it",
-      "sub": "Support: Rod + Dark Magic Attack"
+      "sub": "Support: Rod + Dark Magic Attack",
+      "cue": "How do you use it?"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/7084129.jpg",
+      "fact": "Magician's Rod",
+      "sub": "Searches Dark Magician support",
+      "cue": "Magician's Rod"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/2314238.jpg",
+      "fact": "Dark Magic Attack",
+      "sub": "Wipes their Spells and Traps",
+      "cue": "Dark Magic Attack"
     }
   ],
   "description": "Dark Magician explained: It has no effect. It is a solid attacker that a whole family of support cards is built around. How to use it: Two Tributes summon it normally, so players search for help. Magician's Rod adds a Spell or Trap that lists Dark Magician when it is Normal Summoned, and Dark Magic Attack destroys all your opponent's Spells and Traps while you control Dark Magician. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

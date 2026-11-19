@@ -16,22 +16,26 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/24224830.jpg",
       "fact": "Spell",
-      "sub": "Quick-Play"
+      "sub": "Quick-Play",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/24224830.jpg",
       "fact": "What it does",
-      "sub": "Banish + negate that name"
+      "sub": "Banish + negate that name",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/14558127.jpg",
       "fact": "Ash Blossom",
-      "sub": "Its best target"
+      "sub": "Its best target",
+      "cue": "Ash Blossom & Joyous Spring"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/24224830.jpg",
       "fact": "How to use it",
-      "sub": "Counter hand traps"
+      "sub": "Counter hand traps",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Called by the Grave explained: Target one monster in your opponent's Graveyard and banish it. Until the end of the next turn, the effects of monsters with that same name are negated. How to use it: Hold it to answer hand traps. When your opponent discards Ash Blossom to stop your search, chain Called by the Grave, banish Ash Blossom and negate its effect, and your combo goes on. Card text: YGOPRODeck (official card text). Card art (c) Kazuki Takahashi / Konami - fan explainer.",

@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/23434538.jpg",
       "fact": "500 ATK / 200 DEF",
-      "sub": "Level 2 EARTH Insect"
+      "sub": "Level 2 EARTH Insect",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/23434538.jpg",
       "fact": "What it does",
-      "sub": "Draw on every Special Summon"
+      "sub": "Draw on every Special Summon",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/23434538.jpg",
       "fact": "How to use it",
-      "sub": "Forbidden in TCG"
+      "sub": "Forbidden in TCG",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Maxx \"C\" explained: Send it from your hand to the Graveyard, and for the rest of that turn you draw a card every time your opponent Special Summons a monster. How to use it: It is so strong that it is Forbidden in the current TCG banlist. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

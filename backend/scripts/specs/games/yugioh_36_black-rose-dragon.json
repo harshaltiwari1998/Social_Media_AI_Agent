@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/73580471.jpg",
       "fact": "2400 ATK / 1800 DEF",
-      "sub": "Level 7 FIRE Dragon"
+      "sub": "Level 7 FIRE Dragon",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/73580471.jpg",
       "fact": "What it does",
-      "sub": "Synchro Summon = board wipe"
+      "sub": "Synchro Summon = board wipe",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/73580471.jpg",
       "fact": "How to use it",
-      "sub": "Comeback card"
+      "sub": "Comeback card",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Black Rose Dragon explained: When it is Synchro Summoned you can destroy all cards on the field. It can also banish a Plant from your Graveyard to turn a defending monster to Attack Position with zero attack. How to use it: Summon it when you are behind and clear everything, then rebuild. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

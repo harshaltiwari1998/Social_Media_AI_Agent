@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/55144522.jpg",
       "fact": "Spell",
-      "sub": "Normal"
+      "sub": "Normal",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/55144522.jpg",
       "fact": "What it does",
-      "sub": "Draw 2 cards"
+      "sub": "Draw 2 cards",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/55144522.jpg",
       "fact": "How to use it",
-      "sub": "Forbidden in TCG"
+      "sub": "Forbidden in TCG",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Pot of Greed explained: You draw two cards. That is the whole card. How to use it: It is so strong that it is Forbidden in the current TCG banlist, so you cannot use it in official tournaments. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

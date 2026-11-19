@@ -259,6 +259,14 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   Centur-Ion, Dark Magician, Icejade, Stardust / Synchron; newest list of each from the top-deck API, Skill text from
   `/api/v1/skills?name=`; the deck-type filter in the top-decks query does not work - pick ids from the newest 60).
   Built in `run_ygo3` (`laptop_batch.py ygo3 --extra-slot yugioh:20 --skip-retry`), waiting for the owner's review.
+  Voice / card sync (owner 2026-11-20: "the voice is telling about the card but at that time previous card is
+  displayed"): cinema scenes used to get equal slices of the video. Now a scene's optional `"cue"` (the script words
+  where it starts) makes it cut in on that spoken word (`cinema_video.scene_starts`, edge-tts word timings; scenes
+  without a found cue are spread between the found ones; no cues = old equal split). `yugioh_batch3_write.py` writes
+  the cues and orders explainer scenes the way the narration says them. Queued videos are re-rendered in place with
+  `.cache/cinema_rebuild.py <run folder> [n,...]`. Specs 1-62 got their cues from `.cache/yugioh_cues.py` (card name /
+  section question / "Number N" found in the script, `OVERRIDES` for the odd ones) and were re-rendered in run_ygo,
+  run_ygo_gods, run_ygo_gods_dl before their held YouTube uploads (their Instagram posts were already out of sync).
 - Payana Museum shorts (owner's own phone videos of 14 Nov, `F:/AI AGENT/VID20261114*.mp4`): `.cache/carmuseum_specs.py` (25
   shorts, English text, original sound, facts from the museum boards / Wikipedia), `.cache/carmuseum_build.py`, approved by
   the owner 2026-11-16 (`carmuseum_out/approved.txt`), posted by `.cache/carmuseum_post.py <n>` to Instagram + gaming Facebook
@@ -486,6 +494,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-20 - Cinema videos: scenes cut on the narration word of their `cue` (Yu-Gi-Oh cards were shown one scene late); batch 3 re-rendered.
 - 2026-11-19 - Yu-Gi-Oh batch 3 (orders 63-82: 15 card explainers + 5 Duel Links deck guides).
 - 2026-11-19 - GTA 6 day-2 recording: plan `gta6_day2` (65 shorts + 5 long); `gta6_post.py --plan`; FB cap prefix `gameplay:gta6_` covers all GTA 6 plans; faster-whisper on the GPU (cuBLAS/cuDNN wheels in the venv).
 - 2026-11-19 - Gaming Facebook Page: GTA 6 launch shorts 6 a day (were capped at 2, shorts 3-9 had got permanent skip markers); laptop task "GTA 6 FB Daily" 19:30; `store.fb_gaming_left_today`.

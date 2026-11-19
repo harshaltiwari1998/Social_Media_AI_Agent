@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/44095762.jpg",
       "fact": "Trap",
-      "sub": "Normal"
+      "sub": "Normal",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/44095762.jpg",
       "fact": "What it does",
-      "sub": "Destroys all attackers"
+      "sub": "Destroys all attackers",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/44095762.jpg",
       "fact": "How to use it",
-      "sub": "Set it, wait for an attack"
+      "sub": "Set it, wait for an attack",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Mirror Force explained: When your opponent's monster declares an attack, destroy all of your opponent's Attack Position monsters. How to use it: Set it and wait for an attack. The more monsters in Attack Position, the bigger the punish. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

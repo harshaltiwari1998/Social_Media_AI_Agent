@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/41420027.jpg",
       "fact": "Trap",
-      "sub": "Counter"
+      "sub": "Counter",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/41420027.jpg",
       "fact": "What it does",
-      "sub": "Pay half LP: negate"
+      "sub": "Pay half LP: negate",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/41420027.jpg",
       "fact": "How to use it",
-      "sub": "Stop their key card"
+      "sub": "Stop their key card",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Solemn Judgment explained: When a monster would be Summoned, or a Spell or Trap is activated, pay half your Life Points to negate it and destroy that card. How to use it: Save it for the one card that would beat you. It is Limited, so one copy per Deck. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

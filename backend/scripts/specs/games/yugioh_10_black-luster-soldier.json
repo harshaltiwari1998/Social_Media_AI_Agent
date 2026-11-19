@@ -16,22 +16,26 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/5405694.jpg",
       "fact": "3000 ATK / 2500 DEF",
-      "sub": "Level 8 EARTH Warrior"
+      "sub": "Level 8 EARTH Warrior",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/5405694.jpg",
       "fact": "What it does",
-      "sub": "Ritual Summon only"
+      "sub": "Ritual Summon only",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/55761792.jpg",
       "fact": "Black Luster Ritual",
-      "sub": "The ritual spell for it"
+      "sub": "The ritual spell for it",
+      "cue": "Black Luster Ritual"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/5405694.jpg",
       "fact": "How to use it",
-      "sub": "Black Luster Ritual"
+      "sub": "Black Luster Ritual",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Black Luster Soldier explained: It is a Ritual Monster, so you Ritual Summon it with the spell Black Luster Ritual. How to use it: You need Black Luster Ritual and monsters to tribute whose Levels add up to eight or more. It is in Starter Deck: Yugi Evolution. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

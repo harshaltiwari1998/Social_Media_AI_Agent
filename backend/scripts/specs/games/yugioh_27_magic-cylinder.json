@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/62279055.jpg",
       "fact": "Trap",
-      "sub": "Normal"
+      "sub": "Normal",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/62279055.jpg",
       "fact": "What it does",
-      "sub": "Reflect the attack as damage"
+      "sub": "Reflect the attack as damage",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/62279055.jpg",
       "fact": "How to use it",
-      "sub": "Punish big attackers"
+      "sub": "Punish big attackers",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Magic Cylinder explained: When your opponent's monster declares an attack, negate the attack and deal damage to your opponent equal to that monster's attack. How to use it: Best against one huge attacker. A four thousand attack monster deals four thousand to its own owner. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

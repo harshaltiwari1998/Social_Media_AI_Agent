@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/36354007.jpg",
       "fact": "2800 ATK / 1400 DEF",
-      "sub": "Level 8 LIGHT Warrior"
+      "sub": "Level 8 LIGHT Warrior",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/36354007.jpg",
       "fact": "What it does",
-      "sub": "3 Tributes: wipe their monsters"
+      "sub": "3 Tributes: wipe their monsters",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/36354007.jpg",
       "fact": "How to use it",
-      "sub": "3 Tributes = full wipe"
+      "sub": "3 Tributes = full wipe",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Gilford the Lightning explained: You can Tribute three monsters to Tribute Summon it, and if you do, destroy all monsters your opponent controls. How to use it: With two Tributes it is just a big attacker, so save three weak monsters or tokens for the full wipe. Card text: YGOPRODeck (official card text). Card art (c) Kazuki Takahashi / Konami - fan explainer.",

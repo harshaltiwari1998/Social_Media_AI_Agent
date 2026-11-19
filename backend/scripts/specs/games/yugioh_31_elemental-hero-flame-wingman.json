@@ -16,27 +16,32 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/35809262.jpg",
       "fact": "2100 ATK / 1200 DEF",
-      "sub": "Level 6 WIND Warrior"
+      "sub": "Level 6 WIND Warrior",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/35809262.jpg",
       "fact": "What it does",
-      "sub": "Burn = destroyed monster's ATK"
-    },
-    {
-      "image": "url:https://images.ygoprodeck.com/images/cards/21844576.jpg",
-      "fact": "Elemental HERO Avian",
-      "sub": "Fusion material"
-    },
-    {
-      "image": "url:https://images.ygoprodeck.com/images/cards/58932615.jpg",
-      "fact": "Burstinatrix",
-      "sub": "Fusion material"
+      "sub": "Burn = destroyed monster's ATK",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/35809262.jpg",
       "fact": "How to use it",
-      "sub": "Avian + Burstinatrix"
+      "sub": "Avian + Burstinatrix",
+      "cue": "How do you use it?"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/21844576.jpg",
+      "fact": "Elemental HERO Avian",
+      "sub": "Fusion material",
+      "cue": "Elemental HERO Avian"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/58932615.jpg",
+      "fact": "Burstinatrix",
+      "sub": "Fusion material",
+      "cue": "Burstinatrix"
     }
   ],
   "description": "Elemental HERO Flame Wingman explained: When it destroys a monster by battle, your opponent takes damage equal to that monster's attack. How to use it: It must be Fusion Summoned from Elemental HERO Avian and Elemental HERO Burstinatrix. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

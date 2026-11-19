@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/16178681.jpg",
       "fact": "2500 ATK / 2000 DEF",
-      "sub": "Level 7 DARK Dragon"
+      "sub": "Level 7 DARK Dragon",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/16178681.jpg",
       "fact": "What it does",
-      "sub": "Double battle damage"
+      "sub": "Double battle damage",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/16178681.jpg",
       "fact": "How to use it",
-      "sub": "Monster + Pendulum Scale"
+      "sub": "Monster + Pendulum Scale",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Odd-Eyes Pendulum Dragon explained: Battle damage it deals to your opponent is doubled. As a Pendulum Scale it can reduce the battle damage you take from your Pendulum Monster's battles to zero, and can search a Pendulum Monster with fifteen hundred or less attack. How to use it: Use it both as a monster and as a Pendulum Scale. It is in Starter Deck: Yuya. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

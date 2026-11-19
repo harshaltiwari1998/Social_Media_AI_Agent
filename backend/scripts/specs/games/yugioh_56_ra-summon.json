@@ -16,37 +16,44 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/10000010.jpg",
       "fact": "Normal Summon",
-      "sub": "3 Tributes"
+      "sub": "3 Tributes",
+      "cue": "Way one"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/78665705.jpg",
       "fact": "Ancient Chant",
-      "sub": "Extra Tribute Summon"
+      "sub": "Extra Tribute Summon",
+      "cue": "Ancient Chant"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/10000080.jpg",
       "fact": "Sphere Mode",
-      "sub": "Sphere -> Ra at 4000"
+      "sub": "Sphere -> Ra at 4000",
+      "cue": "Sphere Mode"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/41044418.jpg",
       "fact": "Millennium Revelation",
-      "sub": "Monster Reborn on Ra"
+      "sub": "Monster Reborn on Ra",
+      "cue": "Millennium Revelation"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/22082432.jpg",
       "fact": "Dangers of the Divine",
-      "sub": "Summon from hand, 4000"
+      "sub": "Summon from hand, 4000",
+      "cue": "Dangers of the Divine"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/10000090.jpg",
       "fact": "Immortal Phoenix",
-      "sub": "The cycle restarts"
+      "sub": "The cycle restarts",
+      "cue": "Immortal Phoenix"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/10000040.jpg",
       "fact": "Fun fact",
-      "sub": "All 3 Gods = you win"
+      "sub": "All 3 Gods = you win",
+      "cue": "Fun fact"
     }
   ],
   "description": "For Yu-Gi-Oh Master Duel and the TCG - some of these cards are not in Duel Links (there is a separate Duel Links video). Every way to summon The Winged Dragon of Ra: The Winged Dragon of Ra - Sphere Mode, Ancient Chant, Millennium Revelation, Dangers of the Divine, The Winged Dragon of Ra - Immortal Phoenix, Holactie the Creator of Light. The Winged Dragon of Ra is the hardest God to summon, because its card says it cannot be Special Summoned. Here is how players get around that. Way one: Tribute three monsters and Normal Summon it. Nothing can be activated when it lands. Then pay Life Points down to one hundred to give it that much attack. Ancient Chant helps here. It adds Ra to your hand and gives you an extra Tribute Summon that turn. Banish it from the Graveyard, and Ra's attack becomes the total of its Tributes. Way two: Sphere Mode. Summon the Sphere, even with your opponent's monsters, then Tribute it to Special Summon Ra from your hand or Deck with four thousand attack, ignoring Ra's rule. Way three: send Millennium Revelation to the Graveyard, and this turn Monster Reborn can revive Ra. You must send that Ra back to the Graveyard in the End Phase. Way four: Dangers of the Divine. Pay half your Life Points and Tribute one monster to summon Ra from your hand with four thousand attack. It cannot attack, and it returns to your hand at the end of the next turn. When Ra leaves the field for the Graveyard, Immortal Phoenix rises, and in the End Phase it turns into Sphere Mode, so the cycle starts again. Fun fact: in the Japanese OCG, Holactie the Creator of Light needs all three Gods as Tributes, and whoever summons it wins the Duel. Card text: YGOPRODeck (official card text, TCG / Master Duel; Holactie is OCG only). Battle City facts: Wikipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

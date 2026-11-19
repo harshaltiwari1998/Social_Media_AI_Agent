@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/70781052.jpg",
       "fact": "2500 ATK / 1200 DEF",
-      "sub": "Level 6 DARK Fiend"
+      "sub": "Level 6 DARK Fiend",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/70781052.jpg",
       "fact": "What it does",
-      "sub": "Always an Archfiend"
+      "sub": "Always an Archfiend",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/70781052.jpg",
       "fact": "How to use it",
-      "sub": "1 Tribute, 2500 ATK"
+      "sub": "1 Tribute, 2500 ATK",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Summoned Skull explained: It has no effect, but it is always treated as an Archfiend card. How to use it: Level six means one Tribute to Normal Summon it, so it is a big attacker that is easier to bring out than Level seven monsters. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

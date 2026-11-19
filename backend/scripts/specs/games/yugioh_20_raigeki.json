@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/12580477.jpg",
       "fact": "Spell",
-      "sub": "Normal"
+      "sub": "Normal",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/12580477.jpg",
       "fact": "What it does",
-      "sub": "Destroys ALL their monsters"
+      "sub": "Destroys ALL their monsters",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/12580477.jpg",
       "fact": "How to use it",
-      "sub": "Clear the field, then attack"
+      "sub": "Clear the field, then attack",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Raigeki explained: Destroy all monsters your opponent controls. How to use it: Play it before you attack, then swing into an empty field. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

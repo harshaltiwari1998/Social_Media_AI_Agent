@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/77585513.jpg",
       "fact": "2400 ATK / 1500 DEF",
-      "sub": "Level 6 DARK Machine"
+      "sub": "Level 6 DARK Machine",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/77585513.jpg",
       "fact": "What it does",
-      "sub": "Shuts down Traps"
+      "sub": "Shuts down Traps",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/77585513.jpg",
       "fact": "How to use it",
-      "sub": "Great vs trap decks"
+      "sub": "Great vs trap decks",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Jinzo explained: While Jinzo is on the field, Trap Cards and their effects on the field cannot be activated, and all Trap effects on the field are negated. How to use it: Summon it against a trap-heavy opponent. Remember it stops your own Traps too. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

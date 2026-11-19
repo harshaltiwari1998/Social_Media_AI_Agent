@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/14087893.jpg",
       "fact": "Spell",
-      "sub": "Quick-Play"
+      "sub": "Quick-Play",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/14087893.jpg",
       "fact": "What it does",
-      "sub": "Flips a monster face-down"
+      "sub": "Flips a monster face-down",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/14087893.jpg",
       "fact": "How to use it",
-      "sub": "Stops attacks and effects"
+      "sub": "Stops attacks and effects",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Book of Moon explained: Target one face-up monster on the field and change it to face-down Defense Position. How to use it: Use it on your opponent's turn to stop a monster's effects on the field or to stop its attack, because a face-down monster cannot attack. You can also flip your own Flip monsters face-down to use them again. Card text: YGOPRODeck (official card text). Card art (c) Kazuki Takahashi / Konami - fan explainer.",

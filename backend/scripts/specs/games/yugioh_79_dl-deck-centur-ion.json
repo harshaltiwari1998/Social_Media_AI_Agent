@@ -16,42 +16,50 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/15982593.jpg",
       "fact": "Tier 1",
-      "sub": "Duel Links Meta, Nov 2026"
+      "sub": "Duel Links Meta, Nov 2026",
+      "cue": "Tier 1"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/15005145.jpg",
       "fact": "Skill",
-      "sub": "The Courage to Rise"
+      "sub": "The Courage to Rise",
+      "cue": "The Skill is"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/15005145.jpg",
       "fact": "Centur-Ion Primera",
-      "sub": "Searches the deck"
+      "sub": "Searches the deck",
+      "cue": "Centur-Ion Primera is a Tuner that"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/42493140.jpg",
       "fact": "Centur-Ion Trudea",
-      "sub": "Monsters as Traps"
+      "sub": "Monsters as Traps",
+      "cue": "Centur-Ion Trudea puts itself and another"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/41371602.jpg",
       "fact": "Stand Up Centur-Ion!",
-      "sub": "Synchro on any turn"
+      "sub": "Synchro on any turn",
+      "cue": "the Field Spell Stand Up Centur-Ion!"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/77765207.jpg",
       "fact": "Emblema Oath",
-      "sub": "More Centur-Ions"
+      "sub": "More Centur-Ions",
+      "cue": "Emblema Oath places another Centur-Ion monster"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/15982593.jpg",
       "fact": "Centur-Ion Legatia",
-      "sub": "3500 ATK boss"
+      "sub": "3500 ATK boss",
+      "cue": "and the boss, Centur-Ion Legatia, a"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/15982593.jpg",
       "fact": "How it plays",
-      "sub": "30 card Main Deck"
+      "sub": "30 card Main Deck",
+      "cue": "How does it play?"
     }
   ],
   "description": "Centur-Ion deck guide for Yu-Gi-Oh Duel Links: Tier 1 on Duel Links Meta (checked 19 Nov 2026). Skill: The Courage to Rise - During your turn you can only summon Centur-Ion monsters from the hand or Deck. Once per Duel, reveal a Centur-Ion monster to add any Centur-Ion card from your Deck. And once per Duel, add an Emblema card and place a Centur-Ion monster in your Spell and Trap Zone. How it plays: Its monsters wait in the Spell and Trap Zone, then come out on either player's turn and Synchro Summon into Legatia. Effect Veiler, Droll and Lock Bird and Nibiru stop the opponent. Deck list: a King of Games Cup top 100 list from the eighteenth of November on duellinksmeta.com. Card text: YGOPRODeck; Skill text: Duel Links Meta. Card art (c) Kazuki Takahashi / Konami - fan guide.",

@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/44508094.jpg",
       "fact": "Stardust Dragon",
-      "sub": "Key card"
+      "sub": "Key card",
+      "cue": "Number 3"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/60800381.jpg",
       "fact": "Junk Warrior",
-      "sub": "Grows from small monsters"
+      "sub": "Grows from small monsters",
+      "cue": "Number 2"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/24696097.jpg",
       "fact": "Shooting Star Dragon",
-      "sub": "Stardust evolved"
+      "sub": "Stardust evolved",
+      "cue": "Number 1"
     }
   ],
   "description": "Yusei Fudo's best cards. Sources: Wikipedia (Yusei Fudo). Card text: YGOPRODeck. Card art (c) Kazuki Takahashi / Konami - fan video.",

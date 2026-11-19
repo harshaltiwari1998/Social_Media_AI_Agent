@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/10000010.jpg",
       "fact": "? ATK / ? DEF",
-      "sub": "Level 10 DIVINE Divine-Beast"
+      "sub": "Level 10 DIVINE Divine-Beast",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/10000010.jpg",
       "fact": "What it does",
-      "sub": "Pay LP = ATK"
+      "sub": "Pay LP = ATK",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/10000010.jpg",
       "fact": "How to use it",
-      "sub": "3 Tributes, no Special Summon"
+      "sub": "3 Tributes, no Special Summon",
+      "cue": "How do you use it?"
     }
   ],
   "description": "The Winged Dragon of Ra explained: When Normal Summoned you can pay your Life Points down to one hundred, and it gains attack and defense equal to what you paid. You can also pay one thousand Life Points to destroy a monster on the field. How to use it: It cannot be Special Summoned and needs three Tributes to Normal Summon, so plan your Tributes. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

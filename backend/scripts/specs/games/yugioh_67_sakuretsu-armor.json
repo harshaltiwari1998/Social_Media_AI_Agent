@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/56120475.jpg",
       "fact": "Trap",
-      "sub": "Normal"
+      "sub": "Normal",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/56120475.jpg",
       "fact": "What it does",
-      "sub": "Destroys the attacker"
+      "sub": "Destroys the attacker",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/56120475.jpg",
       "fact": "How to use it",
-      "sub": "1-for-1 vs any attacker"
+      "sub": "1-for-1 vs any attacker",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Sakuretsu Armor explained: When your opponent's monster declares an attack, destroy that attacking monster. How to use it: It is a simple one for one answer to any attacker. Keep it for their biggest attacker. Card text: YGOPRODeck (official card text). Card art (c) Kazuki Takahashi / Konami - fan explainer.",

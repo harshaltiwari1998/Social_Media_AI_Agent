@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/53129443.jpg",
       "fact": "Spell",
-      "sub": "Normal"
+      "sub": "Normal",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/53129443.jpg",
       "fact": "What it does",
-      "sub": "Destroys EVERY monster"
+      "sub": "Destroys EVERY monster",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/53129443.jpg",
       "fact": "How to use it",
-      "sub": "Reset the board"
+      "sub": "Reset the board",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Dark Hole explained: Destroy all monsters on the field, yours too. How to use it: Use it when your opponent has more or stronger monsters than you, then rebuild faster. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

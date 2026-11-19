@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/35809262.jpg",
       "fact": "Elemental HERO",
-      "sub": "Signature card"
+      "sub": "Signature card",
+      "cue": "Number 3"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/89943723.jpg",
       "fact": "Elemental HERO Neos",
-      "sub": "Contact Fusion"
+      "sub": "Contact Fusion",
+      "cue": "Number 2"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/57116033.jpg",
       "fact": "Winged Kuriboh",
-      "sub": "Gift from Yugi"
+      "sub": "Gift from Yugi",
+      "cue": "Number 1"
     }
   ],
   "description": "Jaden Yuki's best cards. Sources: Wikipedia (Jaden Yuki). Card text: YGOPRODeck. Card art (c) Kazuki Takahashi / Konami - fan video.",

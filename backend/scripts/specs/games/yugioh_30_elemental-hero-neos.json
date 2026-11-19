@@ -16,22 +16,26 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/89943723.jpg",
       "fact": "2500 ATK / 2000 DEF",
-      "sub": "Level 7 LIGHT Warrior"
+      "sub": "Level 7 LIGHT Warrior",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/89943723.jpg",
       "fact": "What it does",
-      "sub": "Contact Fusion core"
-    },
-    {
-      "image": "url:https://images.ygoprodeck.com/images/cards/42015635.jpg",
-      "fact": "Neo Space",
-      "sub": "Neos and its Fusions +500 ATK"
+      "sub": "Contact Fusion core",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/89943723.jpg",
       "fact": "How to use it",
-      "sub": "Neo Space +500 ATK"
+      "sub": "Neo Space +500 ATK",
+      "cue": "How do you use it?"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/42015635.jpg",
+      "fact": "Neo Space",
+      "sub": "Neos and its Fusions +500 ATK",
+      "cue": "Neo Space"
     }
   ],
   "description": "Elemental HERO Neos explained: It has no effect, but it is the core of Contact Fusion with Neo-Spacians. How to use it: The field spell Neo Space gives Neos and Fusions that list Neos five hundred attack. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

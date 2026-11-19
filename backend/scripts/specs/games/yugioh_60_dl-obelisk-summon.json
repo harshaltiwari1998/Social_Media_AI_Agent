@@ -16,32 +16,38 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/10000000.jpg",
       "fact": "Normal Summon",
-      "sub": "3 Tributes"
+      "sub": "3 Tributes",
+      "cue": "Way one"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/89631139.jpg",
       "fact": "Skill",
-      "sub": "1 Blue-Eyes = 3 Tributes"
+      "sub": "1 Blue-Eyes = 3 Tributes",
+      "cue": "Skill"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/10000000.jpg",
       "fact": "The catch",
-      "sub": "Only 1 Blue-Eyes = gone at end of turn"
+      "sub": "Only 1 Blue-Eyes = gone at end of turn",
+      "cue": "The catch"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/74875003.jpg",
       "fact": "Ra's Disciple",
-      "sub": "One card, three bodies"
+      "sub": "One card, three bodies",
+      "cue": "Ra's Disciple"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/42166000.jpg",
       "fact": "Egyptian God Slime",
-      "sub": "1 monster = 3 Tributes"
+      "sub": "1 monster = 3 Tributes",
+      "cue": "Egyptian God Slime"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/83764719.jpg",
       "fact": "Monster Reborn",
-      "sub": "From the Graveyard"
+      "sub": "From the Graveyard",
+      "cue": "Monster Reborn"
     }
   ],
   "description": "For Yu-Gi-Oh Duel Links (Speed Duels: 4000 LP, 3 Monster Zones) - only cards and Skills that are in Duel Links. Every way to summon Obelisk the Tormentor: Memories of a Pharoah (Skill), Blue-Eyes White Dragon, Ra's Disciple, Egyptian God Slime, Monster Reborn. How do you summon Obelisk the Tormentor in Duel Links? Here are the ways, and the catches. Way one: Tribute three monsters, your whole field in Duel Links. The Normal Summon cannot be negated, and nothing can be activated when it lands. Way two: Kaiba's Skill Memories of a Pharoah. From turn three you draw Obelisk, and one Blue-Eyes White Dragon counts as three Tributes. The catch: if you Tribute only one Blue-Eyes, Obelisk is sent to the Graveyard at the end of the turn, so use its field wipe right away. Way three: Ra's Disciple. One summon brings up to two more, and next turn all three go into Obelisk. Egyptian God Slime does the same job alone, because it counts as three Tributes. Way four: Monster Reborn. A Special Summoned Obelisk is sent to the Graveyard in the End Phase, so attack the same turn. Card text: YGOPRODeck (official card text). Duel Links cards, Skills and the Ra top deck (15 Nov 2026): Duel Links Meta. Speed Duel rules and Battle City facts: Wikipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

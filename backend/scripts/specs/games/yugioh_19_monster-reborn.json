@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/83764719.jpg",
       "fact": "Spell",
-      "sub": "Normal"
+      "sub": "Normal",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/83764719.jpg",
       "fact": "What it does",
-      "sub": "Revive from ANY Graveyard"
+      "sub": "Revive from ANY Graveyard",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/83764719.jpg",
       "fact": "How to use it",
-      "sub": "Limited: 1 copy"
+      "sub": "Limited: 1 copy",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Monster Reborn explained: Target one monster in either player's Graveyard and Special Summon it. How to use it: You can bring back your best monster, or steal your opponent's. It is Limited, so only one copy per Deck. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

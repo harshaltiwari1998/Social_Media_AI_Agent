@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/26202165.jpg",
       "fact": "1000 ATK / 600 DEF",
-      "sub": "Level 3 DARK Fiend"
+      "sub": "Level 3 DARK Fiend",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/26202165.jpg",
       "fact": "What it does",
-      "sub": "Leaves the field: search a monster"
+      "sub": "Leaves the field: search a monster",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/26202165.jpg",
       "fact": "How to use it",
-      "sub": "Material + search"
+      "sub": "Material + search",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Sangan explained: If it is sent from the field to the Graveyard, add one monster with fifteen hundred or less attack from your Deck to your hand. You cannot use cards with that name for the rest of that turn, and the effect works once per turn. How to use it: Use it as material for a Synchro or Link Summon, or let it be destroyed in battle, and search a key monster for your next turn. Card text: YGOPRODeck (official card text). Card art (c) Kazuki Takahashi / Konami - fan explainer.",

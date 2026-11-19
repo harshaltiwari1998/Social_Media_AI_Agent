@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/86066372.jpg",
       "fact": "2300 ATK",
-      "sub": "Link-4 DARK Cyberse"
+      "sub": "Link-4 DARK Cyberse",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/86066372.jpg",
       "fact": "What it does",
-      "sub": "Can't be responded to"
+      "sub": "Can't be responded to",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/86066372.jpg",
       "fact": "How to use it",
-      "sub": "Big Link material = big ATK"
+      "sub": "Big Link material = big ATK",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Accesscode Talker explained: When Link Summoned it gains attack equal to one Link Monster used as material, times one thousand. Your opponent cannot respond to its effects, and it can banish Link Monsters to destroy their cards. How to use it: Use a big Link Monster as material for a huge attack boost, then banish Link Monsters to destroy cards. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/1861629.jpg",
       "fact": "2300 ATK",
-      "sub": "Link-3 DARK Cyberse"
+      "sub": "Link-3 DARK Cyberse",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/1861629.jpg",
       "fact": "What it does",
-      "sub": "+500 per pointed monster"
+      "sub": "+500 per pointed monster",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/1861629.jpg",
       "fact": "How to use it",
-      "sub": "2+ Effect Monsters"
+      "sub": "2+ Effect Monsters",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Decode Talker explained: It gains five hundred attack for each monster it points to, and can tribute a monster it points to to negate an effect that targets your cards. How to use it: Link Summon it with two or more Effect Monsters, then fill the zones it points to. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

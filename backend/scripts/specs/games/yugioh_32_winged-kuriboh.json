@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/57116033.jpg",
       "fact": "300 ATK / 200 DEF",
-      "sub": "Level 1 LIGHT Fairy"
+      "sub": "Level 1 LIGHT Fairy",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/57116033.jpg",
       "fact": "What it does",
-      "sub": "Destroyed = no damage this turn"
+      "sub": "Destroyed = no damage this turn",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/57116033.jpg",
       "fact": "How to use it",
-      "sub": "Wall in Defense Position"
+      "sub": "Wall in Defense Position",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Winged Kuriboh explained: If it is destroyed on the field and sent to the Graveyard, you take no battle damage for the rest of that turn. How to use it: Put it in Defense Position as a wall that saves you for a full turn. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/72302403.jpg",
       "fact": "Spell",
-      "sub": "Normal"
+      "sub": "Normal",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/72302403.jpg",
       "fact": "What it does",
-      "sub": "No attacks for 3 turns"
+      "sub": "No attacks for 3 turns",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/72302403.jpg",
       "fact": "How to use it",
-      "sub": "Buy time"
+      "sub": "Buy time",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Swords of Revealing Light explained: It flips your opponent's face-down monsters face-up, and while it is on the field their monsters cannot declare an attack. It is destroyed in the End Phase of your opponent's third turn. How to use it: Use it to buy time when you are behind, while you set up your own win. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

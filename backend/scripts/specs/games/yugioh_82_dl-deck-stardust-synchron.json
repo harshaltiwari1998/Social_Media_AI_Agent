@@ -16,42 +16,50 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/99585850.jpg",
       "fact": "Tier 3",
-      "sub": "Duel Links Meta, Nov 2026"
+      "sub": "Duel Links Meta, Nov 2026",
+      "cue": "Tier 3"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/37799519.jpg",
       "fact": "Skill",
-      "sub": "Bonds of the Converging Stars"
+      "sub": "Bonds of the Converging Stars",
+      "cue": "The Skill is"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/37799519.jpg",
       "fact": "Stardust Synchron",
-      "sub": "Summons itself + search"
+      "sub": "Summons itself + search",
+      "cue": "Stardust Synchron Tributes a monster to"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/63184227.jpg",
       "fact": "Stardust Trail",
-      "sub": "Free summon"
+      "sub": "Free summon",
+      "cue": "Stardust Trail comes back from your"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/75874514.jpg",
       "fact": "Shining Star Dragon",
-      "sub": "Synchro on their turn"
+      "sub": "Synchro on their turn",
+      "cue": "Shining Star Dragon revives a Dragon"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/5376159.jpg",
       "fact": "Red Reign",
-      "sub": "Banish the field"
+      "sub": "Banish the field",
+      "cue": "Red Reign banishes every monster on"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/99585850.jpg",
       "fact": "Red Supernova Dragon",
-      "sub": "4000 ATK boss"
+      "sub": "4000 ATK boss",
+      "cue": "and the boss, Red Supernova Dragon,"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/99585850.jpg",
       "fact": "How it plays",
-      "sub": "24 card Main Deck"
+      "sub": "24 card Main Deck",
+      "cue": "How does it play?"
     }
   ],
   "description": "Stardust Synchron deck guide for Yu-Gi-Oh Duel Links: Tier 3 on Duel Links Meta (checked 19 Nov 2026). Skill: Bonds of the Converging Stars - At the start of the Duel it adds five Synchro Monsters to your Extra Deck. Once per Duel it plays two Level four Stardust monsters from your Deck and adds Shining Star Dragon, and once per Duel it plays three Signer Dragons from outside your Deck. How it plays: Yusei's Synchro Dragons come out on both turns, Red Reign clears the board, and Red Supernova Dragon finishes the Duel. Deck list: a King of Games Cup top 100 list from the nineteenth of November on duellinksmeta.com. Card text: YGOPRODeck; Skill text: Duel Links Meta. Card art (c) Kazuki Takahashi / Konami - fan guide.",

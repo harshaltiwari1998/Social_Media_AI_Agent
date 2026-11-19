@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/19613556.jpg",
       "fact": "Spell",
-      "sub": "Normal"
+      "sub": "Normal",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/19613556.jpg",
       "fact": "What it does",
-      "sub": "Destroys ALL Spells and Traps"
+      "sub": "Destroys ALL Spells and Traps",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/19613556.jpg",
       "fact": "How to use it",
-      "sub": "Use when they have more backrow"
+      "sub": "Use when they have more backrow",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Heavy Storm explained: Destroy all Spell and Trap Cards on the field, including your own. How to use it: Use it when your opponent has more Spells and Traps than you, ideally when you have none, and clear the way before you attack. Card text: YGOPRODeck (official card text). Card art (c) Kazuki Takahashi / Konami - fan explainer.",

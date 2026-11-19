@@ -16,22 +16,26 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/1546123.jpg",
       "fact": "4000 ATK / 2800 DEF",
-      "sub": "Level 10 LIGHT Machine"
+      "sub": "Level 10 LIGHT Machine",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/1546123.jpg",
       "fact": "What it does",
-      "sub": "4000 ATK + piercing"
+      "sub": "4000 ATK + piercing",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/70095154.jpg",
       "fact": "Cyber Dragon",
-      "sub": "Fusion material x3"
+      "sub": "Fusion material x3",
+      "cue": "Cyber Dragon"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/1546123.jpg",
       "fact": "How to use it",
-      "sub": "3 Cyber Dragon"
+      "sub": "3 Cyber Dragon",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Cyber End Dragon explained: It is three Cyber Dragons fused, and when it attacks a Defense Position monster it deals piercing battle damage. How to use it: It can only be Fusion Summoned with three Cyber Dragon. It is in Duelist Pack: Zane Truesdale. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

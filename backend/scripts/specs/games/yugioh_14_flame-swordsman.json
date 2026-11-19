@@ -16,22 +16,26 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/45231177.jpg",
       "fact": "1800 ATK / 1600 DEF",
-      "sub": "Level 5 FIRE Warrior"
+      "sub": "Level 5 FIRE Warrior",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/45231177.jpg",
       "fact": "What it does",
-      "sub": "Fusion: 2 classic monsters"
-    },
-    {
-      "image": "url:https://images.ygoprodeck.com/images/cards/24094653.jpg",
-      "fact": "Polymerization",
-      "sub": "Fusion Summon from hand or field"
+      "sub": "Fusion: 2 classic monsters",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/45231177.jpg",
       "fact": "How to use it",
-      "sub": "Polymerization"
+      "sub": "Polymerization",
+      "cue": "How do you use it?"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/24094653.jpg",
+      "fact": "Polymerization",
+      "sub": "Fusion Summon from hand or field",
+      "cue": "Polymerization"
     }
   ],
   "description": "Flame Swordsman explained: It is a Fusion of Flame Manipulator and Masaki the Legendary Swordsman, with no extra effect. How to use it: Fuse the two materials with Polymerization. It appears in Legendary Collection 4, Joey's World. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

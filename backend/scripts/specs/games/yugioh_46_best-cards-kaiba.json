@@ -16,22 +16,26 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/89631139.jpg",
       "fact": "Blue-Eyes White Dragon",
-      "sub": "Signature monster"
+      "sub": "Signature monster",
+      "cue": "Number 4"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/23995346.jpg",
       "fact": "Blue-Eyes Ultimate",
-      "sub": "4500 ATK Fusion"
+      "sub": "4500 ATK Fusion",
+      "cue": "Number 3"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/91998119.jpg",
       "fact": "XYZ-Dragon Cannon",
-      "sub": "Discard: destroy a card"
+      "sub": "Discard: destroy a card",
+      "cue": "Number 2"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/10000000.jpg",
       "fact": "Obelisk the Tormentor",
-      "sub": "Egyptian God"
+      "sub": "Egyptian God",
+      "cue": "Number 1"
     }
   ],
   "description": "Seto Kaiba's best cards. Sources: Blue-Eyes: Wikipedia (Seto Kaiba). Others: Duelist Pack: Kaiba, 25th Anniversary Ultimate Kaiba Set (Yugipedia). Card text: YGOPRODeck. Card art (c) Kazuki Takahashi / Konami - fan video.",

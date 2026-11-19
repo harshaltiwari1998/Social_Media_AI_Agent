@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/10045474.jpg",
       "fact": "Trap",
-      "sub": "Normal"
+      "sub": "Normal",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/10045474.jpg",
       "fact": "What it does",
-      "sub": "Negates a monster, even from hand"
+      "sub": "Negates a monster, even from hand",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/10045474.jpg",
       "fact": "How to use it",
-      "sub": "Stop their first big monster"
+      "sub": "Stop their first big monster",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Infinite Impermanence explained: Target one face-up monster your opponent controls and negate its effects until the end of the turn. If it was Set first, Spell and Trap effects in its column are negated too for the rest of the turn. And if you control no cards, you can activate it straight from your hand. How to use it: Open with it in hand and stop your opponent's first key monster. When you have cards on the field, Set it in the column of their Spell or Trap to shut that down too. Card text: YGOPRODeck (official card text). Card art (c) Kazuki Takahashi / Konami - fan explainer.",

@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/70095154.jpg",
       "fact": "2100 ATK / 1600 DEF",
-      "sub": "Level 5 LIGHT Machine"
+      "sub": "Level 5 LIGHT Machine",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/70095154.jpg",
       "fact": "What it does",
-      "sub": "Free summon if they have monsters"
+      "sub": "Free summon if they have monsters",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/70095154.jpg",
       "fact": "How to use it",
-      "sub": "Answer to their first move"
+      "sub": "Answer to their first move",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Cyber Dragon explained: If only your opponent controls a monster, you can Special Summon it from your hand. How to use it: Drop it when your opponent goes first and has a monster. It is in Duelist Pack: Zane Truesdale. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

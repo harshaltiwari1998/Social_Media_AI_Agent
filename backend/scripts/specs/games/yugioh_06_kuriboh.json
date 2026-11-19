@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/40640057.jpg",
       "fact": "300 ATK / 200 DEF",
-      "sub": "Level 1 DARK Fiend"
+      "sub": "Level 1 DARK Fiend",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/40640057.jpg",
       "fact": "What it does",
-      "sub": "Discard: no battle damage"
+      "sub": "Discard: no battle damage",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/40640057.jpg",
       "fact": "How to use it",
-      "sub": "Save it for the big hit"
+      "sub": "Save it for the big hit",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Kuriboh explained: During damage calculation, when your opponent's monster attacks, you can discard Kuriboh from your hand, and you take no battle damage from that battle. How to use it: Keep it in hand as a shield against a big attack that would finish you. It is in Starter Deck: Yugi Evolution. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

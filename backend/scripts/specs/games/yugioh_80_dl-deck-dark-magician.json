@@ -16,42 +16,50 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/41721210.jpg",
       "fact": "Tier 2",
-      "sub": "Duel Links Meta, Nov 2026"
+      "sub": "Duel Links Meta, Nov 2026",
+      "cue": "Tier 2"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/46986414.jpg",
       "fact": "Skill",
-      "sub": "The Eye of the United Dragon"
+      "sub": "The Eye of the United Dragon",
+      "cue": "The Skill is"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/46986414.jpg",
       "fact": "Dark Magician",
-      "sub": "The ace"
+      "sub": "The ace",
+      "cue": "Dark Magician, two thousand five hundred"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/3078380.jpg",
       "fact": "Timaeus the",
-      "sub": "Summons, then Fuses"
+      "sub": "Summons, then Fuses",
+      "cue": "Timaeus the United Dragon Special Summons"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/12266229.jpg",
       "fact": "Illusion of Chaos",
-      "sub": "Search + negate"
+      "sub": "Search + negate",
+      "cue": "Illusion of Chaos searches Dark Magician"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/41350417.jpg",
       "fact": "Dark Magical Curtain",
-      "sub": "Summon + search"
+      "sub": "Summon + search",
+      "cue": "Dark Magical Curtain Special Summons a"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/41721210.jpg",
       "fact": "Dark Magician",
-      "sub": "Protects your backrow"
+      "sub": "Protects your backrow",
+      "cue": "and Dark Magician the Dragon Knight,"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/41721210.jpg",
       "fact": "How it plays",
-      "sub": "30 card Main Deck"
+      "sub": "30 card Main Deck",
+      "cue": "How does it play?"
     }
   ],
   "description": "Dark Magician deck guide for Yu-Gi-Oh Duel Links: Tier 2 on Duel Links Meta (checked 19 Nov 2026). Skill: The Eye of the United Dragon - With fifteen or more Dark Magician cards in your Deck: once per Duel, play Timaeus the United Dragon from your hand and add two Dark Magician cards from your Deck, and once per Duel, play Dark Magician or Dark Magician Girl from your Deck face-down and add The Eye of Timaeus from outside your Deck. How it plays: Dark Magician comes out early, Timaeus turns it into big Fusions, and Lava Golem plus The Winged Dragon of Ra Sphere Mode deal with monsters the deck cannot beat in battle. Deck list: a top deck from the nineteenth of November on duellinksmeta.com. Card text: YGOPRODeck; Skill text: Duel Links Meta. Card art (c) Kazuki Takahashi / Konami - fan guide.",

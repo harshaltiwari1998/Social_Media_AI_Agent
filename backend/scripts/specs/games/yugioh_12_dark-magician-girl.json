@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/38033121.jpg",
       "fact": "2000 ATK / 1700 DEF",
-      "sub": "Level 6 DARK Spellcaster"
+      "sub": "Level 6 DARK Spellcaster",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/38033121.jpg",
       "fact": "What it does",
-      "sub": "+300 ATK per Dark Magician in GY"
+      "sub": "+300 ATK per Dark Magician in GY",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/38033121.jpg",
       "fact": "How to use it",
-      "sub": "Play her with Dark Magician"
+      "sub": "Play her with Dark Magician",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Dark Magician Girl explained: She gains three hundred attack for every Dark Magician or Magician of Black Chaos in the Graveyard. How to use it: Pair her with a Dark Magician deck so the Graveyard fills up with her master. She is in Duelist Pack: Yugi. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

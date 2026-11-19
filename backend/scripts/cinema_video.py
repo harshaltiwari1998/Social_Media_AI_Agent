@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import asyncio
 import json
+import logging
 import sys
 import time
 import uuid
@@ -26,6 +27,7 @@ from app.media import video_gen as vg  # noqa: E402
 from app.media.text_render import get_font, render_block, render_runs, wrap  # noqa: E402
 from scripts import game_videos as gv, humor  # noqa: E402
 
+logger = logging.getLogger(__name__)
 W, H, FPS = 1080, 1920, 30
 GOLD, WHITE, ACCENT = (255, 205, 70), (255, 255, 255), (255, 45, 85)
 HERO_BOX = (1000, 1000)  # the picture's largest size
@@ -102,10 +104,52 @@ class _Scene:
         return frame
 
 
+def _norm(text: str) -> str:
+    return "".join(ch for ch in text.lower() if ch.isalnum())
+
+
+def scene_starts(cues: list[str | None], words, duration: float) -> list[float]:
+    """Start time of every scene. A scene with a "cue" (the words of the script where it starts) cuts in on the
+    spoken word that begins the cue (owner 2026-11-20: the voice talked about a card while the previous card was
+    still shown - scenes used to get equal slices). Cues are searched in order, each after the previous match, in
+    the TTS word stream with case/punctuation removed; scenes without a found cue are spread evenly between the
+    found ones. No cues at all = the old equal split."""
+    n = len(cues)
+    stream, owner = "", []
+    for i, w in enumerate(words):
+        t = _norm(w.text)
+        stream += t
+        owner += [i] * len(t)
+    anchors: dict[int, float] = {0: 0.0}
+    pos = 0
+    for k, cue in enumerate(cues):
+        if k == 0 or not cue or not _norm(cue):
+            continue
+        at = stream.find(_norm(cue), pos)
+        if at < 0:
+            logger.warning("scene %d cue not found in the narration: %r", k, cue)
+            continue
+        pos = at + len(_norm(cue))
+        start = max(0.0, words[owner[at]].start - 0.12)  # cut just before the word
+        if start > max(anchors.values()) + 0.6:
+            anchors[k] = start
+    if len(anchors) == 1:
+        return [duration * k / n for k in range(n)]
+    starts = [0.0] * n
+    keys = sorted(anchors) + [n]
+    ends = {**anchors, n: duration}
+    for a, b in zip(keys, keys[1:]):
+        for k in range(a, b):
+            starts[k] = ends[a] + (ends[b] - ends[a]) * (k - a) / (b - a)
+    return starts
+
+
 class _Renderer:
-    def __init__(self, scenes: list[_Scene], badge: str, title: str, hook: str, chunks, duration: float) -> None:
+    def __init__(self, scenes: list[_Scene], badge: str, title: str, hook: str, chunks, duration: float,
+                 starts: list[float] | None = None) -> None:
         self.scenes, self.chunks, self.duration = scenes, chunks, duration
-        self.segment = duration / len(scenes)
+        self.starts = starts or [duration * k / len(scenes) for k in range(len(scenes))]
+        self.lengths = [b - a for a, b in zip(self.starts, self.starts[1:] + [duration])]
         pill_text = render_runs(get_font("bold", 40), [(badge, WHITE)])
         pill = Image.new("RGBA", (pill_text.width + 48, pill_text.height + 10), (0, 0, 0, 0))
         ImageDraw.Draw(pill).rounded_rectangle([0, 0, pill.width - 1, pill.height - 1], radius=pill.height // 2, fill=ACCENT)
@@ -144,9 +188,9 @@ class _Renderer:
                 return
 
     def __call__(self, t: float) -> np.ndarray:
-        index = min(int(t // self.segment), len(self.scenes) - 1)
-        local = t - index * self.segment
-        frame = self.scenes[index].frame(local, self.segment)
+        index = max(k for k, s in enumerate(self.starts) if s <= t or k == 0)
+        local = t - self.starts[index]
+        frame = self.scenes[index].frame(local, self.lengths[index])
         if t >= HOOK_SECONDS:
             p = vg._ease((t - HOOK_SECONDS) / 0.4)
             frame.paste(self.top, (0, 60 - int((1 - p) * 60)), self.top)
@@ -198,8 +242,9 @@ def build_video(spec_path: Path) -> dict:
         scenes = [_Scene(gv.fetch_image(s["image"]), s.get("fact") or s.get("label"), s.get("sub"), i)
                   for i, s in enumerate(spec["scenes"])]
         title = spec["scenes"][0].get("label") or spec["headline"].split(":")[0]
+        starts = scene_starts([s.get("cue") for s in spec["scenes"]], words, duration)
         renderer = _Renderer(scenes, gv.badge_for(spec), title, spec["headline"],
-                             vg._build_subtitle_chunks(words, get_font("bold", 76)), duration)
+                             vg._build_subtitle_chunks(words, get_font("bold", 76)), duration, starts)
         out = out_dir / f"short-{work}.mp4"
         VideoClip(renderer, duration=duration).set_audio(vg._build_audio(audio_path, duration)).write_videofile(
             str(out), fps=FPS, codec="libx264", audio_codec="aac", audio_bitrate="192k", preset="medium",

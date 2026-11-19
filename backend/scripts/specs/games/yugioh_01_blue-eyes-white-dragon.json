@@ -16,32 +16,38 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/89631139.jpg",
       "fact": "3000 ATK / 2500 DEF",
-      "sub": "Level 8 LIGHT Dragon"
+      "sub": "Level 8 LIGHT Dragon",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/89631139.jpg",
       "fact": "No effect",
-      "sub": "Pure power"
+      "sub": "Pure power",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/89631139.jpg",
       "fact": "2 Tributes",
-      "sub": "to Normal Summon it"
+      "sub": "to Normal Summon it",
+      "cue": "How do you use it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/79814787.jpg",
       "fact": "White Stone of Legend",
-      "sub": "In GY: search Blue-Eyes"
+      "sub": "In GY: search Blue-Eyes",
+      "cue": "White Stone of Legend"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/38120068.jpg",
       "fact": "Trade-In",
-      "sub": "Discard Blue-Eyes, draw 2"
+      "sub": "Discard Blue-Eyes, draw 2",
+      "cue": "Trade-In"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/89631139.jpg",
       "fact": "LOB-EN001",
-      "sub": "Card #1 of the first English set"
+      "sub": "Card #1 of the first English set",
+      "cue": "Fun fact"
     }
   ],
   "description": "Blue-Eyes White Dragon explained: Level 8 LIGHT Dragon Normal Monster, 3000 ATK / 2500 DEF, no effect, needs 2 Tributes to Normal Summon. Support: The White Stone of Legend (if sent to the GY, add 1 Blue-Eyes White Dragon from your Deck to your hand) and Trade-In (discard 1 Level 8 monster, draw 2). Seto Kaiba's signature monster; LOB-EN001. Card text: YGOPRODeck. Story: Wikipedia (Seto Kaiba), Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

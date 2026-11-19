@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/53582587.jpg",
       "fact": "Trap",
-      "sub": "Normal"
+      "sub": "Normal",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/53582587.jpg",
       "fact": "What it does",
-      "sub": "Summon = wipe the field"
+      "sub": "Summon = wipe the field",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/53582587.jpg",
       "fact": "How to use it",
-      "sub": "Use with an empty field"
+      "sub": "Use with an empty field",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Torrential Tribute explained: When a monster is Summoned, destroy all monsters on the field. How to use it: Set it when your field is empty, and let your opponent walk into it. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

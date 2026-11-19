@@ -16,42 +16,50 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/86682165.jpg",
       "fact": "Tier 2",
-      "sub": "Duel Links Meta, Nov 2026"
+      "sub": "Duel Links Meta, Nov 2026",
+      "cue": "Tier 2"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/18494511.jpg",
       "fact": "Skill",
-      "sub": "A World of Ice and Water"
+      "sub": "A World of Ice and Water",
+      "cue": "The Skill is"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/18494511.jpg",
       "fact": "Icejade Ran Aegirine",
-      "sub": "Summons itself + a Token"
+      "sub": "Summons itself + a Token",
+      "cue": "Icejade Ran Aegirine Special Summons itself"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/39354437.jpg",
       "fact": "Icejade Aegirine",
-      "sub": "Searches Spells / Traps"
+      "sub": "Searches Spells / Traps",
+      "cue": "Icejade Aegirine adds an Icejade Spell"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/1295442.jpg",
       "fact": "Icejade Creation",
-      "sub": "Equip, then summon"
+      "sub": "Equip, then summon",
+      "cue": "Icejade Creation Aegirocassis equips itself to"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/55343303.jpg",
       "fact": "Icejade Cradle",
-      "sub": "Searches a monster"
+      "sub": "Searches a monster",
+      "cue": "Icejade Cradle adds an Icejade monster"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/86682165.jpg",
       "fact": "Icejade Gymir Aegirine",
-      "sub": "Protects your field"
+      "sub": "Protects your field",
+      "cue": "and the boss, Icejade Gymir Aegirine,"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/86682165.jpg",
       "fact": "How it plays",
-      "sub": "30 card Main Deck"
+      "sub": "30 card Main Deck",
+      "cue": "How does it play?"
     }
   ],
   "description": "Icejade deck guide for Yu-Gi-Oh Duel Links: Tier 2 on Duel Links Meta (checked 19 Nov 2026). Skill: A World of Ice and Water - Once per Duel, reveal a Level seven WATER Tuner and send a card to add up to two Icejade cards and Set Icejade Cenote Enion Cradle from outside your Deck. And once per Duel, play an Icejade monster from your Deck face-down and Set an Icejade Spell or Trap. How it plays: The deck makes Level ten WATER Synchros fast and protects them, while Lava Golem and Mulcharmy Fuwalos bother the opponent. Deck list: a King of Games Cup top 100 list from the eighteenth of November on duellinksmeta.com. Card text: YGOPRODeck; Skill text: Duel Links Meta. Card art (c) Kazuki Takahashi / Konami - fan guide.",

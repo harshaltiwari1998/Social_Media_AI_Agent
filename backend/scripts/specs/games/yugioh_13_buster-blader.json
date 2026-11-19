@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/78193831.jpg",
       "fact": "2600 ATK / 2300 DEF",
-      "sub": "Level 7 EARTH Warrior"
+      "sub": "Level 7 EARTH Warrior",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/78193831.jpg",
       "fact": "What it does",
-      "sub": "+500 ATK per enemy Dragon"
+      "sub": "+500 ATK per enemy Dragon",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/78193831.jpg",
       "fact": "How to use it",
-      "sub": "Use vs Dragon decks"
+      "sub": "Use vs Dragon decks",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Buster Blader explained: It gains five hundred attack for each Dragon monster your opponent controls or has in their Graveyard. How to use it: Side it in against Dragon decks. Against Blue-Eyes it can get huge very fast. It is in Duelist Pack: Yugi. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

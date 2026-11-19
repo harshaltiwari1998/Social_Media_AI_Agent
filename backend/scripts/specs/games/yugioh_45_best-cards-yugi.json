@@ -16,27 +16,32 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/46986414.jpg",
       "fact": "Dark Magician",
-      "sub": "Signature card"
+      "sub": "Signature card",
+      "cue": "Number 5"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/38033121.jpg",
       "fact": "Dark Magician Girl",
-      "sub": "+300 per Dark Magician"
+      "sub": "+300 per Dark Magician",
+      "cue": "Number 4"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/40640057.jpg",
       "fact": "Kuriboh",
-      "sub": "Blocks battle damage"
+      "sub": "Blocks battle damage",
+      "cue": "Number 3"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/5405694.jpg",
       "fact": "Black Luster Soldier",
-      "sub": "3000 ATK Ritual"
+      "sub": "3000 ATK Ritual",
+      "cue": "Number 2"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/33396948.jpg",
       "fact": "Exodia the",
-      "sub": "Instant win"
+      "sub": "Instant win",
+      "cue": "Number 1"
     }
   ],
   "description": "Yugi Mutou's best cards. Sources: Dark Magician: Wikipedia (Yugi Mutou). Others: Duelist Pack: Yugi, Starter Deck: Yugi Evolution, Legendary Collection 3: Yugi's World (Yugipedia). Card text: YGOPRODeck. Card art (c) Kazuki Takahashi / Konami - fan video.",

@@ -16,27 +16,32 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/74677422.jpg",
       "fact": "Red-Eyes Black Dragon",
-      "sub": "Ace card"
+      "sub": "Ace card",
+      "cue": "Number 5"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/77585513.jpg",
       "fact": "Jinzo",
-      "sub": "Stops Traps"
+      "sub": "Stops Traps",
+      "cue": "Number 4"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/71625222.jpg",
       "fact": "Time Wizard",
-      "sub": "Coin toss wipe"
+      "sub": "Coin toss wipe",
+      "cue": "Number 3"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/45231177.jpg",
       "fact": "Flame Swordsman",
-      "sub": "Classic Fusion"
+      "sub": "Classic Fusion",
+      "cue": "Number 2"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/36354007.jpg",
       "fact": "Gilford the Lightning",
-      "sub": "3 Tributes: wipe"
+      "sub": "3 Tributes: wipe",
+      "cue": "Number 1"
     }
   ],
   "description": "Joey Wheeler's best cards. Sources: Red-Eyes, Jinzo: Wikipedia (Joey Wheeler). Others: Legendary Collection 4: Joey's World (Yugipedia). Card text: YGOPRODeck. Card art (c) Kazuki Takahashi / Konami - fan video.",

@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/97077563.jpg",
       "fact": "Trap",
-      "sub": "Continuous"
+      "sub": "Continuous",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/97077563.jpg",
       "fact": "What it does",
-      "sub": "Revives 1 monster from your GY"
+      "sub": "Revives 1 monster from your GY",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/97077563.jpg",
       "fact": "How to use it",
-      "sub": "Surprise revive on their turn"
+      "sub": "Surprise revive on their turn",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Call of the Haunted explained: Target one monster in your Graveyard and Special Summon it in Attack Position. If this card leaves the field, that monster is destroyed, and if that monster is destroyed, this card goes too. How to use it: Set it, then flip it on your opponent's turn to bring back your strongest monster as a surprise blocker, or to get a monster back for a Tribute or a Synchro Summon. Protect the card, because losing it also loses the monster. Card text: YGOPRODeck (official card text). Card art (c) Kazuki Takahashi / Konami - fan explainer.",

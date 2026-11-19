@@ -16,22 +16,26 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/23995346.jpg",
       "fact": "4500 ATK / 3800 DEF",
-      "sub": "Level 12 LIGHT Dragon"
+      "sub": "Level 12 LIGHT Dragon",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/23995346.jpg",
       "fact": "What it does",
-      "sub": "3 Blue-Eyes = 4500 ATK"
-    },
-    {
-      "image": "url:https://images.ygoprodeck.com/images/cards/24094653.jpg",
-      "fact": "Polymerization",
-      "sub": "Fusion Summon from hand or field"
+      "sub": "3 Blue-Eyes = 4500 ATK",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/23995346.jpg",
       "fact": "How to use it",
-      "sub": "Polymerization + 3 Blue-Eyes"
+      "sub": "Polymerization + 3 Blue-Eyes",
+      "cue": "How do you use it?"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/24094653.jpg",
+      "fact": "Polymerization",
+      "sub": "Fusion Summon from hand or field",
+      "cue": "Polymerization"
     }
   ],
   "description": "Blue-Eyes Ultimate Dragon explained: It is made from three Blue-Eyes White Dragons fused together, and it has no extra effect. How to use it: You need three Blue-Eyes White Dragon plus a fusion card like Polymerization. It appears in Duelist Pack: Kaiba. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

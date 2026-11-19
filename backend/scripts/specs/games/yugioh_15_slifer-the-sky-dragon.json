@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/10000020.jpg",
       "fact": "? ATK / ? DEF",
-      "sub": "Level 10 DIVINE Divine-Beast"
+      "sub": "Level 10 DIVINE Divine-Beast",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/10000020.jpg",
       "fact": "What it does",
-      "sub": "+1000 ATK per card in hand"
+      "sub": "+1000 ATK per card in hand",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/10000020.jpg",
       "fact": "How to use it",
-      "sub": "3 Tributes, big hand"
+      "sub": "3 Tributes, big hand",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Slifer the Sky Dragon explained: It gains one thousand attack and defense for each card in your hand, and when your opponent summons a monster in Attack Position, that monster loses two thousand attack, and is destroyed if that drops it to zero. How to use it: It needs three Tributes to Normal Summon, and if it is Special Summoned it goes back to the Graveyard in the End Phase. Keep a big hand to make it strong. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

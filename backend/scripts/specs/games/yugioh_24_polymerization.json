@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/24094653.jpg",
       "fact": "Spell",
-      "sub": "Normal"
+      "sub": "Normal",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/24094653.jpg",
       "fact": "What it does",
-      "sub": "Fusion Summon"
+      "sub": "Fusion Summon",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/24094653.jpg",
       "fact": "How to use it",
-      "sub": "Match the materials"
+      "sub": "Match the materials",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Polymerization explained: Fusion Summon one Fusion Monster from your Extra Deck, using monsters from your hand or field as material. How to use it: Check your Fusion Monster's material list, then keep those monsters ready in hand or on the field. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

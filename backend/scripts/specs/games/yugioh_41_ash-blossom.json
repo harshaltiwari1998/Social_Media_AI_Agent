@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/14558127.jpg",
       "fact": "0 ATK / 1800 DEF",
-      "sub": "Level 3 FIRE Zombie"
+      "sub": "Level 3 FIRE Zombie",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/14558127.jpg",
       "fact": "What it does",
-      "sub": "Hand trap: stops searches"
+      "sub": "Hand trap: stops searches",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/14558127.jpg",
       "fact": "How to use it",
-      "sub": "Stop their first search"
+      "sub": "Stop their first search",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Ash Blossom & Joyous Spring explained: Discard it from your hand to negate an effect that adds a card from the Deck to the hand, Special Summons from the Deck, or sends a card from the Deck to the Graveyard. How to use it: Hold it during your opponent's turn and use it on their first big search. Only once per turn. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

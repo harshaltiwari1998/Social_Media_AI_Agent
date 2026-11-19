@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/65192027.jpg",
       "fact": "2800 ATK / 1000 DEF",
-      "sub": "Level 7 DARK Dragon"
+      "sub": "Level 7 DARK Dragon",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/65192027.jpg",
       "fact": "What it does",
-      "sub": "Exactly 3 DARKs in GY"
+      "sub": "Exactly 3 DARKs in GY",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/65192027.jpg",
       "fact": "How to use it",
-      "sub": "Summon, then destroy cards"
+      "sub": "Summon, then destroy cards",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Dark Armed Dragon explained: It cannot be Normal Summoned. You Special Summon it from your hand when you have exactly three DARK monsters in your Graveyard. Then you can banish a DARK monster from your Graveyard to destroy one card on the field. How to use it: Build up exactly three DARK monsters in your Graveyard, summon it for free, then banish DARK monsters to destroy your opponent's cards. Card text: YGOPRODeck (official card text). Card art (c) Kazuki Takahashi / Konami - fan explainer.",

@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/5318639.jpg",
       "fact": "Spell",
-      "sub": "Quick-Play"
+      "sub": "Quick-Play",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/5318639.jpg",
       "fact": "What it does",
-      "sub": "Destroys 1 Spell / Trap"
+      "sub": "Destroys 1 Spell / Trap",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/5318639.jpg",
       "fact": "How to use it",
-      "sub": "Quick-Play: use it any time"
+      "sub": "Quick-Play: use it any time",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Mystical Space Typhoon explained: Target one Spell or Trap on the field and destroy it. How to use it: Because it is a Quick-Play Spell, you can Set it and use it on your opponent's turn, for example on a Trap they just flipped up or on a Continuous Spell. Card text: YGOPRODeck (official card text). Card art (c) Kazuki Takahashi / Konami - fan explainer.",

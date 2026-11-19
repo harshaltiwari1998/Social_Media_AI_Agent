@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/44508094.jpg",
       "fact": "2500 ATK / 2000 DEF",
-      "sub": "Level 8 WIND Dragon"
+      "sub": "Level 8 WIND Dragon",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/44508094.jpg",
       "fact": "What it does",
-      "sub": "Negate destruction, come back"
+      "sub": "Negate destruction, come back",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/44508094.jpg",
       "fact": "How to use it",
-      "sub": "Tuner + non-Tuners = 8"
+      "sub": "Tuner + non-Tuners = 8",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Stardust Dragon explained: When a card or effect that would destroy a card on the field is activated, you can tribute Stardust Dragon to negate and destroy it, then bring it back in the End Phase. How to use it: Synchro Summon it with one Tuner plus non-Tuner monsters whose Levels add up to eight. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

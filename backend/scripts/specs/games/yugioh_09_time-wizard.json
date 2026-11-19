@@ -16,22 +16,26 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/71625222.jpg",
       "fact": "500 ATK / 400 DEF",
-      "sub": "Level 2 LIGHT Spellcaster"
+      "sub": "Level 2 LIGHT Spellcaster",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/71625222.jpg",
       "fact": "What it does",
-      "sub": "Coin toss: wipe or backfire"
-    },
-    {
-      "image": "url:https://images.ygoprodeck.com/images/cards/41462083.jpg",
-      "fact": "Thousand Dragon",
-      "sub": "Time Wizard + Baby Dragon"
+      "sub": "Coin toss: wipe or backfire",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/71625222.jpg",
       "fact": "How to use it",
-      "sub": "Low risk = use it"
+      "sub": "Low risk = use it",
+      "cue": "How do you use it?"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/41462083.jpg",
+      "fact": "Thousand Dragon",
+      "sub": "Time Wizard + Baby Dragon",
+      "cue": "Thousand Dragon"
     }
   ],
   "description": "Time Wizard explained: Once per turn you toss a coin and call it. Call it right, and all your opponent's monsters are destroyed. Call it wrong, and your own monsters are destroyed and you take damage equal to half their total attack. How to use it: It is risky, so use it when you have few monsters to lose. It is also a material for Thousand Dragon, with Baby Dragon. It appears in Joey's World. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

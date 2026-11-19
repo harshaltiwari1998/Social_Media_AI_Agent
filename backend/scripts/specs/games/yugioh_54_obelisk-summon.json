@@ -16,32 +16,38 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/10000000.jpg",
       "fact": "Normal Summon",
-      "sub": "3 Tributes"
+      "sub": "3 Tributes",
+      "cue": "Way one"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/79339613.jpg",
       "fact": "Soul Energy MAX!!!",
-      "sub": "Find Obelisk + summon it"
+      "sub": "Find Obelisk + summon it",
+      "cue": "Soul Energy MAX!!!"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/85182315.jpg",
       "fact": "The Breaking Ruin God",
-      "sub": "No Tributes needed"
+      "sub": "No Tributes needed",
+      "cue": "The Breaking Ruin God"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/85758066.jpg",
       "fact": "Magical Trick Mirror",
-      "sub": "Back in Defense Position"
+      "sub": "Back in Defense Position",
+      "cue": "Magical Trick Mirror"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/5253985.jpg",
       "fact": "Soul Crossing",
-      "sub": "Tribute THEIR monsters"
+      "sub": "Tribute THEIR monsters",
+      "cue": "Soul Crossing"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/10000000.jpg",
       "fact": "The catch",
-      "sub": "Special Summoned = back to GY"
+      "sub": "Special Summoned = back to GY",
+      "cue": "The catch"
     }
   ],
   "description": "For Yu-Gi-Oh Master Duel and the TCG - some of these cards are not in Duel Links (there is a separate Duel Links video). Every way to summon Obelisk the Tormentor: Soul Energy MAX!!!, The Breaking Ruin God, Magical Trick Mirror, Soul Crossing. How do you summon Obelisk the Tormentor? Here are four ways, and the rule that sends it away. Way one: Tribute three monsters to Normal Summon it. It cannot be Normal Set. The Normal Summon cannot be negated, and no cards or effects can be activated when it lands. Way two: banish Soul Energy MAX from your Graveyard in your Main or Battle Phase. It adds Obelisk from your Deck or Graveyard to your hand, and you can Normal Summon it right away, still with three Tributes. Way three: The Breaking Ruin God Special Summons Obelisk from your hand or Graveyard with no Tributes, and your opponent's effects cannot touch it that turn. Way four: Magical Trick Mirror revives it from the Graveyard in Defense Position. Do it on your opponent's turn, and their monsters that can attack must attack Obelisk. Bonus: Soul Crossing lets you Tribute Summon Obelisk using your opponent's monsters as the Tributes. The catch: a Special Summoned Obelisk is sent to the Graveyard in the End Phase. Use it right away, or Normal Summon it to keep it. Card text: YGOPRODeck (official card text, TCG / Master Duel). Battle City facts: Wikipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

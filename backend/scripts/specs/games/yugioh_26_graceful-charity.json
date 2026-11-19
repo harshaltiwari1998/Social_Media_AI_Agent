@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/79571449.jpg",
       "fact": "Spell",
-      "sub": "Normal"
+      "sub": "Normal",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/79571449.jpg",
       "fact": "What it does",
-      "sub": "Draw 3, discard 2"
+      "sub": "Draw 3, discard 2",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/79571449.jpg",
       "fact": "How to use it",
-      "sub": "Forbidden in TCG"
+      "sub": "Forbidden in TCG",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Graceful Charity explained: Draw three cards, then discard two cards. How to use it: It is Forbidden in the current TCG banlist, so it is only for casual games. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

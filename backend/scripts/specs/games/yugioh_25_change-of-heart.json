@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/4031928.jpg",
       "fact": "Spell",
-      "sub": "Normal"
+      "sub": "Normal",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/4031928.jpg",
       "fact": "What it does",
-      "sub": "Steal a monster this turn"
+      "sub": "Steal a monster this turn",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/4031928.jpg",
       "fact": "How to use it",
-      "sub": "Steal it, then tribute it"
+      "sub": "Steal it, then tribute it",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Change of Heart explained: Take control of one monster your opponent controls until the End Phase. How to use it: Steal their best monster, attack with it, or use it as a Tribute so they never get it back. Card text: YGOPRODeck (official card text). Character facts: Wikipedia / Yugipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

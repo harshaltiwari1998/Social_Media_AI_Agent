@@ -16,32 +16,38 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/10000020.jpg",
       "fact": "Normal Summon",
-      "sub": "3 Tributes"
+      "sub": "3 Tributes",
+      "cue": "Way one"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/74875003.jpg",
       "fact": "Ra's Disciple",
-      "sub": "One card, three bodies"
+      "sub": "One card, three bodies",
+      "cue": "Ra's Disciple"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/79387392.jpg",
       "fact": "Reactor Slime",
-      "sub": "3 monsters at once"
+      "sub": "3 monsters at once",
+      "cue": "Reactor Slime"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/42166000.jpg",
       "fact": "Egyptian God Slime",
-      "sub": "1 monster = 3 Tributes"
+      "sub": "1 monster = 3 Tributes",
+      "cue": "Egyptian God Slime"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/83764719.jpg",
       "fact": "Monster Reborn",
-      "sub": "From the Graveyard"
+      "sub": "From the Graveyard",
+      "cue": "Monster Reborn"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/10000020.jpg",
       "fact": "Skill",
-      "sub": "Card of Sanctity"
+      "sub": "Card of Sanctity",
+      "cue": "Skill"
     }
   ],
   "description": "For Yu-Gi-Oh Duel Links (Speed Duels: 4000 LP, 3 Monster Zones) - only cards and Skills that are in Duel Links. Every way to summon Slifer the Sky Dragon: Ra's Disciple, Reactor Slime, Egyptian God Slime, Monster Reborn, Card of Sanctity (Skill). How do you summon Slifer the Sky Dragon in Duel Links, where you only have three Monster Zones? Here are the ways. Way one: Tribute three monsters to Normal Summon it. Nothing can be activated when it lands, and a Normal Summoned Slifer stays on the field. Ra's Disciple fills all three zones with one card. Summon it, call two more from your hand or Deck, and next turn Tribute all three for Slifer. Reactor Slime also gives you three monsters at once, itself and two Slime Tokens, ready for your next Normal Summon. Egyptian God Slime is one monster that counts as three Tributes, so Slifer needs just one zone of Tributes. Way two: Monster Reborn from the Graveyard. No Tributes, but a Special Summoned Slifer goes back to the Graveyard in the End Phase. After a Normal Summon, Yami Yugi's Skill Card of Sanctity refills both hands to six at the end of the turn. Card text: YGOPRODeck (official card text). Duel Links cards, Skills and the Ra top deck (15 Nov 2026): Duel Links Meta. Speed Duel rules and Battle City facts: Wikipedia. Card art (c) Kazuki Takahashi / Konami - fan explainer.",

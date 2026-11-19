@@ -16,22 +16,26 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/81439173.jpg",
       "fact": "Spell",
-      "sub": "Normal"
+      "sub": "Normal",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/81439173.jpg",
       "fact": "What it does",
-      "sub": "Deck to Graveyard"
-    },
-    {
-      "image": "url:https://images.ygoprodeck.com/images/cards/83764719.jpg",
-      "fact": "Monster Reborn",
-      "sub": "Then revive it"
+      "sub": "Deck to Graveyard",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/81439173.jpg",
       "fact": "How to use it",
-      "sub": "Fuel for GY effects and revivals"
+      "sub": "Fuel for GY effects and revivals",
+      "cue": "How do you use it?"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/83764719.jpg",
+      "fact": "Monster Reborn",
+      "sub": "Then revive it",
+      "cue": "Monster Reborn"
     }
   ],
   "description": "Foolish Burial explained: Send one monster from your Deck to the Graveyard. How to use it: Many monsters have effects that work in the Graveyard, or you can send a strong monster there and then revive it with Monster Reborn or Call of the Haunted. Card text: YGOPRODeck (official card text). Card art (c) Kazuki Takahashi / Konami - fan explainer.",

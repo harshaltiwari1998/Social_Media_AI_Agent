@@ -16,17 +16,20 @@
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/70342110.jpg",
       "fact": "Trap",
-      "sub": "Normal"
+      "sub": "Normal",
+      "cue": "What is it?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards_cropped/70342110.jpg",
       "fact": "What it does",
-      "sub": "Banishes the attacker"
+      "sub": "Banishes the attacker",
+      "cue": "What does it do?"
     },
     {
       "image": "url:https://images.ygoprodeck.com/images/cards/70342110.jpg",
       "fact": "How to use it",
-      "sub": "Banish beats destroy"
+      "sub": "Banish beats destroy",
+      "cue": "How do you use it?"
     }
   ],
   "description": "Dimensional Prison explained: When your opponent's monster declares an attack, banish that attacking monster. How to use it: Set it and wait for an attack. Banishing is stronger than destroying, because a banished monster cannot be revived from the Graveyard. Card text: YGOPRODeck (official card text). Card art (c) Kazuki Takahashi / Konami - fan explainer.",

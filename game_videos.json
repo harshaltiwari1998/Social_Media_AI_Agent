@@ -12592,5 +12592,80 @@
   "forgotten-island-box-office": {
     "spec": "scripts/specs/movies/movie_review_46_forgotten-island-box-office.json",
     "video": "F:\\AI AGENT\\run_cine\\videos\\short-9e3b83f5.mp4"
+  },
+  "poke-eevee-sylveon": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "F:\\AI AGENT\\run_evo\\pokemon\\eevee-sylveon\\final.mp4",
+    "data": {
+      "id": "eevee-sylveon",
+      "stages": [
+        "eevee",
+        "sylveon"
+      ],
+      "type": "fairy",
+      "megas": [],
+      "gmax": null,
+      "primal": null,
+      "fan": {},
+      "forms": true
+    }
+  },
+  "poke-eevee-umbreon": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "F:\\AI AGENT\\run_evo\\pokemon\\eevee-umbreon\\final.mp4",
+    "data": {
+      "id": "eevee-umbreon",
+      "stages": [
+        "eevee",
+        "umbreon"
+      ],
+      "type": "dark",
+      "megas": [],
+      "gmax": null,
+      "primal": null,
+      "fan": {},
+      "forms": true
+    }
+  },
+  "poke-eevee-vaporeon": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "F:\\AI AGENT\\run_evo\\pokemon\\eevee-vaporeon\\final.mp4",
+    "data": {
+      "id": "eevee-vaporeon",
+      "stages": [
+        "eevee",
+        "vaporeon"
+      ],
+      "type": "water",
+      "megas": [],
+      "gmax": null,
+      "primal": null,
+      "fan": {},
+      "forms": true
+    }
+  },
+  "poke-ralts": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "F:\\AI AGENT\\run_evo\\pokemon\\ralts\\final.mp4",
+    "data": {
+      "id": "ralts",
+      "stages": [
+        "ralts",
+        "kirlia",
+        "gardevoir"
+      ],
+      "type": "psychic",
+      "megas": [
+        "gardevoir-mega"
+      ],
+      "gmax": null,
+      "primal": null,
+      "fan": {},
+      "forms": true
+    }
   }
 }

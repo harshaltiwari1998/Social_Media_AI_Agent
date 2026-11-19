@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-heavy-storm",
+  "slot": "yugioh",
+  "order": 69,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Heavy Storm",
+  "title": "Heavy Storm Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Heavy Storm. What is it? It is a Normal Spell Card. What does it do? Destroy all Spell and Trap Cards on the field, including your own. How do you use it? Use it when your opponent has more Spells and Traps than you, ideally when you have none, and clear the way before you attack. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/19613556.jpg",
+      "label": "Heavy Storm"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/19613556.jpg",
+      "fact": "Spell",
+      "sub": "Normal"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/19613556.jpg",
+      "fact": "What it does",
+      "sub": "Destroys ALL Spells and Traps"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/19613556.jpg",
+      "fact": "How to use it",
+      "sub": "Use when they have more backrow"
+    }
+  ],
+  "description": "Heavy Storm explained: Destroy all Spell and Trap Cards on the field, including your own. How to use it: Use it when your opponent has more Spells and Traps than you, ideally when you have none, and clear the way before you attack. Card text: YGOPRODeck (official card text). Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "HeavyStorm",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Heavy Storm",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "Forecast: one hundred percent chance of losing your face-downs."
+}

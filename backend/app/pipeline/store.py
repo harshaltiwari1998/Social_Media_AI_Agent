@@ -50,8 +50,8 @@ def already_posted(trend_id: str, platform: str) -> bool:
 # these go to facebook_gaming; every other gaming upload gets a "skip:fb-volume" marker there (YouTube + Instagram as before).
 FB_GAMING_ALWAYS = ("custom:motion-poke-", "custom:fusion-", "custom:dbzfusion-", "custom:stone-mewtwo-",
                     "custom:compilation-")
-FB_GAMING_DAILY = {"gameplay:gta6_launch:": 6,  # GTA 6 launch-stream shorts (owner 2026-11-19 picked 5-6 a day while
-                   # the launch is fresh); listed BEFORE "gameplay:" - the first prefix with room wins
+FB_GAMING_DAILY = {"gameplay:gta6_": 6,  # GTA 6 stream shorts, all GTA 6 plans together (owner 2026-11-19 picked 5-6
+                   # a day while the launch is fresh); listed BEFORE "gameplay:" - the first prefix with room wins
                    "gameplay:": 2,  # other own-stream clips (RDR2...): at most this many a day (IST)
                    "custom:carmuseum-": 2}  # the owner's own Payana Museum footage (2026-11-16)
 FB_SKIP = "skip:fb-volume"

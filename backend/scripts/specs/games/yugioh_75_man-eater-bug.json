@@ -1,0 +1,54 @@
+{
+  "id": "yugioh-man-eater-bug",
+  "slot": "yugioh",
+  "order": 75,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Man-Eater Bug",
+  "title": "Man-Eater Bug Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Man-Eater Bug. What is it? It is a Level two EARTH Insect Flip monster. What does it do? When it is flipped face-up, target one monster on the field and destroy it. How do you use it? Set it face-down. When your opponent attacks it, or when you flip it yourself, destroy their strongest monster. Book of Moon can turn it face-down again for another use. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/54652250.jpg",
+      "label": "Man-Eater Bug"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/54652250.jpg",
+      "fact": "450 ATK / 600 DEF",
+      "sub": "Level 2 EARTH Insect"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/54652250.jpg",
+      "fact": "What it does",
+      "sub": "FLIP: destroy 1 monster"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/14087893.jpg",
+      "fact": "Book of Moon",
+      "sub": "Flip it down again"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/54652250.jpg",
+      "fact": "How to use it",
+      "sub": "Set it, flip it"
+    }
+  ],
+  "description": "Man-Eater Bug explained: When it is flipped face-up, target one monster on the field and destroy it. How to use it: Set it face-down. When your opponent attacks it, or when you flip it yourself, destroy their strongest monster. Book of Moon can turn it face-down again for another use. Card text: YGOPRODeck (official card text). Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "ManEaterBug",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Man-Eater Bug",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG",
+    "Book of Moon"
+  ],
+  "joke": "A tiny bug with a very big appetite."
+}

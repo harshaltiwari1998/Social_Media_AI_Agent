@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-mystical-space-typhoon",
+  "slot": "yugioh",
+  "order": 68,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Mystical Space Typhoon",
+  "title": "Mystical Space Typhoon Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Mystical Space Typhoon. What is it? It is a Quick-Play Spell Card. What does it do? Target one Spell or Trap on the field and destroy it. How do you use it? Because it is a Quick-Play Spell, you can Set it and use it on your opponent's turn, for example on a Trap they just flipped up or on a Continuous Spell. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/5318639.jpg",
+      "label": "Mystical Space Typhoon"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/5318639.jpg",
+      "fact": "Spell",
+      "sub": "Quick-Play"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/5318639.jpg",
+      "fact": "What it does",
+      "sub": "Destroys 1 Spell / Trap"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/5318639.jpg",
+      "fact": "How to use it",
+      "sub": "Quick-Play: use it any time"
+    }
+  ],
+  "description": "Mystical Space Typhoon explained: Target one Spell or Trap on the field and destroy it. How to use it: Because it is a Quick-Play Spell, you can Set it and use it on your opponent's turn, for example on a Trap they just flipped up or on a Continuous Spell. Card text: YGOPRODeck (official card text). Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "MysticalSpaceTyphoon",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Mystical Space Typhoon",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "A small typhoon, but big trouble for face-down cards."
+}

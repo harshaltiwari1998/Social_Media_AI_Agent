@@ -1,0 +1,54 @@
+{
+  "id": "yugioh-called-by-the-grave",
+  "slot": "yugioh",
+  "order": 72,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Called by the Grave",
+  "title": "Called by the Grave Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Called by the Grave. What is it? It is a Quick-Play Spell Card. What does it do? Target one monster in your opponent's Graveyard and banish it. Until the end of the next turn, the effects of monsters with that same name are negated. How do you use it? Hold it to answer hand traps. When your opponent discards Ash Blossom to stop your search, chain Called by the Grave, banish Ash Blossom and negate its effect, and your combo goes on. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/24224830.jpg",
+      "label": "Called by the Grave"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/24224830.jpg",
+      "fact": "Spell",
+      "sub": "Quick-Play"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/24224830.jpg",
+      "fact": "What it does",
+      "sub": "Banish + negate that name"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/14558127.jpg",
+      "fact": "Ash Blossom",
+      "sub": "Its best target"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/24224830.jpg",
+      "fact": "How to use it",
+      "sub": "Counter hand traps"
+    }
+  ],
+  "description": "Called by the Grave explained: Target one monster in your opponent's Graveyard and banish it. Until the end of the next turn, the effects of monsters with that same name are negated. How to use it: Hold it to answer hand traps. When your opponent discards Ash Blossom to stop your search, chain Called by the Grave, banish Ash Blossom and negate its effect, and your combo goes on. Card text: YGOPRODeck (official card text). Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "CalledbytheGrave",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Called by the Grave",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG",
+    "Ash Blossom & Joyous Spring"
+  ],
+  "joke": "The grave called. Your hand trap has to answer."
+}

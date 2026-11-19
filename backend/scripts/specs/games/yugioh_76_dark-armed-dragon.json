@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-dark-armed-dragon",
+  "slot": "yugioh",
+  "order": 76,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Dark Armed Dragon",
+  "title": "Dark Armed Dragon Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Dark Armed Dragon. What is it? It is a Level seven DARK Dragon with two thousand eight hundred attack. What does it do? It cannot be Normal Summoned. You Special Summon it from your hand when you have exactly three DARK monsters in your Graveyard. Then you can banish a DARK monster from your Graveyard to destroy one card on the field. How do you use it? Build up exactly three DARK monsters in your Graveyard, summon it for free, then banish DARK monsters to destroy your opponent's cards. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/65192027.jpg",
+      "label": "Dark Armed Dragon"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/65192027.jpg",
+      "fact": "2800 ATK / 1000 DEF",
+      "sub": "Level 7 DARK Dragon"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/65192027.jpg",
+      "fact": "What it does",
+      "sub": "Exactly 3 DARKs in GY"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/65192027.jpg",
+      "fact": "How to use it",
+      "sub": "Summon, then destroy cards"
+    }
+  ],
+  "description": "Dark Armed Dragon explained: It cannot be Normal Summoned. You Special Summon it from your hand when you have exactly three DARK monsters in your Graveyard. Then you can banish a DARK monster from your Graveyard to destroy one card on the field. How to use it: Build up exactly three DARK monsters in your Graveyard, summon it for free, then banish DARK monsters to destroy your opponent's cards. Card text: YGOPRODeck (official card text). Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "DarkArmedDragon",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Dark Armed Dragon",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "Count your DARK monsters carefully. Exactly three, not four."
+}

@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-effect-veiler",
+  "slot": "yugioh",
+  "order": 74,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Effect Veiler",
+  "title": "Effect Veiler Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Effect Veiler. What is it? It is a Level one LIGHT Spellcaster Tuner with zero attack and zero defense. What does it do? During your opponent's Main Phase, send it from your hand to the Graveyard and negate the effects of one face-up Effect Monster your opponent controls until the end of the turn. How do you use it? Keep it in hand and use it on their main combo monster once it is on the field. It is also a Level one Tuner, so it helps Synchro decks on your own turn. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/97268402.jpg",
+      "label": "Effect Veiler"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/97268402.jpg",
+      "fact": "0 ATK / 0 DEF",
+      "sub": "Level 1 LIGHT Spellcaster"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/97268402.jpg",
+      "fact": "What it does",
+      "sub": "Hand trap: negates a monster"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/97268402.jpg",
+      "fact": "How to use it",
+      "sub": "Stop their key monster"
+    }
+  ],
+  "description": "Effect Veiler explained: During your opponent's Main Phase, send it from your hand to the Graveyard and negate the effects of one face-up Effect Monster your opponent controls until the end of the turn. How to use it: Keep it in hand and use it on their main combo monster once it is on the field. It is also a Level one Tuner, so it helps Synchro decks on your own turn. Card text: YGOPRODeck (official card text). Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "EffectVeiler",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Effect Veiler",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "Zero attack, zero defense, one hundred percent annoying."
+}

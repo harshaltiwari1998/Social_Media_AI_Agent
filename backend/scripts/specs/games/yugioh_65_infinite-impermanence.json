@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-infinite-impermanence",
+  "slot": "yugioh",
+  "order": 65,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Infinite Impermanence",
+  "title": "Infinite Impermanence Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Infinite Impermanence. What is it? It is a Normal Trap Card that you can even play from your hand. What does it do? Target one face-up monster your opponent controls and negate its effects until the end of the turn. If it was Set first, Spell and Trap effects in its column are negated too for the rest of the turn. And if you control no cards, you can activate it straight from your hand. How do you use it? Open with it in hand and stop your opponent's first key monster. When you have cards on the field, Set it in the column of their Spell or Trap to shut that down too. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/10045474.jpg",
+      "label": "Infinite Impermanence"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/10045474.jpg",
+      "fact": "Trap",
+      "sub": "Normal"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/10045474.jpg",
+      "fact": "What it does",
+      "sub": "Negates a monster, even from hand"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/10045474.jpg",
+      "fact": "How to use it",
+      "sub": "Stop their first big monster"
+    }
+  ],
+  "description": "Infinite Impermanence explained: Target one face-up monster your opponent controls and negate its effects until the end of the turn. If it was Set first, Spell and Trap effects in its column are negated too for the rest of the turn. And if you control no cards, you can activate it straight from your hand. How to use it: Open with it in hand and stop your opponent's first key monster. When you have cards on the field, Set it in the column of their Spell or Trap to shut that down too. Card text: YGOPRODeck (official card text). Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "InfiniteImpermanence",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Infinite Impermanence",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "Infinite? It only lasts one turn, but what a turn."
+}

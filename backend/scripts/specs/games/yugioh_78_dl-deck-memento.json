@@ -1,0 +1,81 @@
+{
+  "id": "yugioh-dl-deck-memento",
+  "slot": "yugioh",
+  "order": 78,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Memento Deck",
+  "title": "Memento Deck Guide | Best Yu-Gi-Oh Duel Links Decks November 2026",
+  "video_script": "This is the Memento deck in Yu-Gi-Oh Duel Links, a Tier 1 deck on Duel Links Meta this week. The Skill is Precious Cards of the Dark. Once per turn, and up to twice a Duel if your Deck has six or more DARK monsters, put one card from your hand on the bottom of your Deck or into the Graveyard, then draw two cards. The key cards: Mementotlan Angwitch adds another Memento monster from your Deck when it is summoned. Mementotlan Tatsunootoshigo Special Summons itself, then destroys a Memento monster to send more Memento monsters from your Deck to the Graveyard. Mementotlan Bone Party destroys one of your Memento monsters and brings a different one out of your Deck. Mementotlan Fusion Fusion Summons with Memento monsters, and after one of yours was destroyed by an effect it can even use Memento monsters from your Graveyard. And the boss, Mementomictlan Tecuhtlica Creation King, three thousand attack, which can destroy your Memento monsters and the same number of your opponent's cards as a Quick Effect. How does it play? The deck destroys its own monsters on purpose, because that is what powers its effects, and ends with the Creation King. Three Forbidden Droplet halve attack and negate effects to push through. This list is a first place Community Tournament list from the nineteenth of November, with 30 cards in the Main Deck. Which deck should I cover next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/14529511.jpg",
+      "label": "Memento - Duel Links"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/14529511.jpg",
+      "fact": "Tier 1",
+      "sub": "Duel Links Meta, Nov 2026"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/54550967.jpg",
+      "fact": "Skill",
+      "sub": "Precious Cards of the Dark"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/54550967.jpg",
+      "fact": "Mementotlan Angwitch",
+      "sub": "Searches a Memento"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/81677154.jpg",
+      "fact": "Mementotlan Tatsunooto",
+      "sub": "Fills the Graveyard"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/80722024.jpg",
+      "fact": "Mementotlan Bone Party",
+      "sub": "Destroy one, get another"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/66518509.jpg",
+      "fact": "Mementotlan Fusion",
+      "sub": "Fusion from the Graveyard"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/14529511.jpg",
+      "fact": "Mementomictlan Tecuhtl",
+      "sub": "The 3000 ATK boss"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/14529511.jpg",
+      "fact": "How it plays",
+      "sub": "30 card Main Deck"
+    }
+  ],
+  "description": "Memento deck guide for Yu-Gi-Oh Duel Links: Tier 1 on Duel Links Meta (checked 19 Nov 2026). Skill: Precious Cards of the Dark - Once per turn, and up to twice a Duel if your Deck has six or more DARK monsters, put one card from your hand on the bottom of your Deck or into the Graveyard, then draw two cards. How it plays: The deck destroys its own monsters on purpose, because that is what powers its effects, and ends with the Creation King. Three Forbidden Droplet halve attack and negate effects to push through. Deck list: a first place Community Tournament list from the nineteenth of November on duellinksmeta.com. Card text: YGOPRODeck; Skill text: Duel Links Meta. Card art (c) Kazuki Takahashi / Konami - fan guide.",
+  "hashtags": [
+    "YuGiOh",
+    "DuelLinks",
+    "MementoDeck"
+  ],
+  "tags": [
+    "Memento deck",
+    "Memento Duel Links",
+    "Precious Cards of the Dark",
+    "Mementotlan Angwitch",
+    "Mementotlan Tatsunootoshigo",
+    "Mementotlan Bone Party",
+    "Mementotlan Fusion",
+    "Mementomictlan Tecuhtlica - Creation King",
+    "Yu-Gi-Oh Duel Links",
+    "Duel Links",
+    "Duel Links meta",
+    "Duel Links deck",
+    "best deck Duel Links",
+    "Duel Links tier list",
+    "Yu-Gi-Oh"
+  ],
+  "joke": "The only deck where destroying your own monsters is the plan."
+}

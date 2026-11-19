@@ -34,6 +34,10 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   background photo for AI-motion storyboards (`{"poke": name, "background": ref}` in `fal_video.py`, PokeAPI). Local Stable Diffusion 1.5 + x4 upscaler
   (`app/media/image_gen.py`, laptop only). Pollinations balance is empty; Gemini image/Veo need billing.
 - **LLM on laptop**: Ollama `gemma3:4b` (trend pipeline). Models live in `backend/.cache/ollama-models`.
+- **Speech-to-text on laptop**: faster-whisper 1.2.1 (CTranslate2 4.9) on the RTX 3050 (4 GB): `medium`,
+  `compute_type="int8_float16"`. CUDA libs come from the venv's `nvidia-cublas-cu12` + `nvidia-cudnn-cu12` wheels
+  (installed 2026-11-19, no CUDA Toolkit) - add `site-packages/nvidia/*/bin` with `os.add_dll_directory` + PATH before
+  loading the model (see `gameplay_out/gta6_day2/asr.py`), else "cublas64_12.dll is not found". CPU fallback: `small` int8.
 - **Upload APIs**: YouTube Data API v3 (`app/social/youtube.py`), Meta Graph API for Facebook/Instagram
   (`app/social/facebook.py`, `instagram.py`; Instagram needs a public URL -> temporary cloudflared tunnel,
   `app/social/public_tunnel.py`). Facebook videos go to `graph-video.facebook.com`; files over 80 MB use the
@@ -214,6 +218,18 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   ("aapke hisab se dal do"), 10 at a time - `.cache/gta6_post.py 1-10` (Instagram light copy + gaming Facebook within
   the 2-a-day cap; YouTube gets `hold:review` during the strike - clear the hold before `gameplay_clips.py upload`),
   state in `run_gta6`, then `laptop_batch.py gta6 --merge-only`.
+  GTA 6 day 2 (owner's 2.5 h recording `VIDEOS GAMING/2026-11-19 19-44-31.mp4`, free roam + missions): plan
+  `specs/gameplay/gta6_day2.json` = 65 shorts + 5 long videos (free roam / cops, Joey's garage + Brian's rent, the
+  impound / Phoenix mission, house repairs, hunting Arnold), picked from 10 s frame sheets (`gameplay_out/gta6_day2/scan.py`,
+  one decode pass: 2 fps frames -> sheets + strict NudeNet) - the owner talks Hindi, so the transcript is only a helper.
+  `excluded` in the plan: the shower (Jason's bare behind, 0-268 s), beating an NPC woman, Mandy in underwear
+  (6540-6810), swimwear at the yacht / pools / neighbors, Arnold shot while kneeling, the drug lab ("collect the acid",
+  2880+). `scan_plan.py` checks only the planned parts. Posted with `.cache/gta6_post.py <a>-<b> --plan gta6_day2`
+  (same `run_gta6` state, so the gaming Page's GTA 6 cap - prefix `gameplay:gta6_`, 6 a day - counts both plans).
+  Shorts 1-20 approved and posted to Instagram 2026-11-19 (Facebook via the 19:30 task after the launch shorts).
+  This recording has the game audio TWICE (OBS: two game-audio sources; the copy is 195-265 ms late and ~20-55 %
+  per band). A per-band echo filter (`gameplay_out/gta6_day2/fix_audio.py`) removed it, but the owner said "jane do echo
+  hone do" - the clips keep the original audio. Tell the owner to mute one of Desktop Audio / Game Capture audio in OBS.
 - `backend/scripts/specs/gameplay/<plan>.json` - cut plans for the owner's own stream recordings.
 - `backend/scripts/specs/games/yugioh_NN_<card>.json` - Yu-Gi-Oh card explainers (owner 2026-11-16: "har card ke bare me
   batao english me ki kya he kya karta he and kaise use karna he" + "players ke best cards" videos). Format: what it is
@@ -238,6 +254,11 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   top-deck APIs (duellinksmeta.com / masterduelmeta.com `/api/v1/top-decks?sort=-created`), Duel Links card explainers
   (8,270 cards - start with the ~300 used in top decks), and a deck plan from the owner's own Duel Links collection
   (owner will share a phone screen recording of the card list, Skills and gems).
+  Batch 3 (owner 2026-11-19: "20 - 5 Trap cards, 5 Spell Cards, 5 Monster Cards, 5 Best Deck"): orders 63-82 by
+  `.cache/yugioh_batch3_write.py` - 15 card explainers (cards not in 1-62) + 5 Duel Links deck guides (Memento,
+  Centur-Ion, Dark Magician, Icejade, Stardust / Synchron; newest list of each from the top-deck API, Skill text from
+  `/api/v1/skills?name=`; the deck-type filter in the top-decks query does not work - pick ids from the newest 60).
+  Built in `run_ygo3` (`laptop_batch.py ygo3 --extra-slot yugioh:20 --skip-retry`), waiting for the owner's review.
 - Payana Museum shorts (owner's own phone videos of 14 Nov, `F:/AI AGENT/VID20261114*.mp4`): `.cache/carmuseum_specs.py` (25
   shorts, English text, original sound, facts from the museum boards / Wikipedia), `.cache/carmuseum_build.py`, approved by
   the owner 2026-11-16 (`carmuseum_out/approved.txt`), posted by `.cache/carmuseum_post.py <n>` to Instagram + gaming Facebook
@@ -406,7 +427,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   vignette). `game_videos.build_video` routes every `category: movies` spec there; `"style": "card"` keeps the old look.
 - **Gaming Facebook Page volume** (owner 2026-11-14): only Pokemon evolutions, fusions (Pokemon / Dragon Ball / Mewtwo
   stones / compilations) and at most 2 own-stream clips a day (IST) go to `facebook_gaming` (GTA 6 launch shorts: 6 a day,
-  owner 2026-11-19 - `"gameplay:gta6_launch:"` comes first in `store.FB_GAMING_DAILY`; `merge_state.py` lets a real post
+  owner 2026-11-19 - `"gameplay:gta6_"` (all GTA 6 plans together) comes first in `store.FB_GAMING_DAILY`; `merge_state.py` lets a real post
   replace an old `skip:fb-volume` marker); every other gaming upload
   (Aniimo, Palworld, deals, classic, new, GTA 6, long videos) gets a `skip:fb-volume` marker there and stays on YouTube +
   Instagram. Single exceptions the owner asks for go in `store.FB_GAMING_IDS` (exact ids): the 12 Yu-Gi-Oh Egyptian God
@@ -465,6 +486,8 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-19 - Yu-Gi-Oh batch 3 (orders 63-82: 15 card explainers + 5 Duel Links deck guides).
+- 2026-11-19 - GTA 6 day-2 recording: plan `gta6_day2` (65 shorts + 5 long); `gta6_post.py --plan`; FB cap prefix `gameplay:gta6_` covers all GTA 6 plans; faster-whisper on the GPU (cuBLAS/cuDNN wheels in the venv).
 - 2026-11-19 - Gaming Facebook Page: GTA 6 launch shorts 6 a day (were capped at 2, shorts 3-9 had got permanent skip markers); laptop task "GTA 6 FB Daily" 19:30; `store.fb_gaming_left_today`.
 - 2026-11-19 - GTA 6 launch stream: 41 shorts + 2 long videos (`gta6_launch` plan), strict 2 fps nudity pass after NudeNet missed a beach shot; posting 10 at a time (`.cache/gta6_post.py`).
 - 2026-11-17 - `laptop_batch.py evo` no longer stops on the strike-time YouTube holds in `run_evo/review_queue.json` (the 20:15 evolution task built nothing on 17 Nov). ElevenLabs Image & Video API needs a Pro plan (Starter: 402); HF credits ran out the same evening.

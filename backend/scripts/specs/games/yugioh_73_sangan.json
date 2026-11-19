@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-sangan",
+  "slot": "yugioh",
+  "order": 73,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Sangan",
+  "title": "Sangan Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Sangan. What is it? It is a Level three DARK Fiend with one thousand attack. What does it do? If it is sent from the field to the Graveyard, add one monster with fifteen hundred or less attack from your Deck to your hand. You cannot use cards with that name for the rest of that turn, and the effect works once per turn. How do you use it? Use it as material for a Synchro or Link Summon, or let it be destroyed in battle, and search a key monster for your next turn. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/26202165.jpg",
+      "label": "Sangan"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/26202165.jpg",
+      "fact": "1000 ATK / 600 DEF",
+      "sub": "Level 3 DARK Fiend"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/26202165.jpg",
+      "fact": "What it does",
+      "sub": "Leaves the field: search a monster"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/26202165.jpg",
+      "fact": "How to use it",
+      "sub": "Material + search"
+    }
+  ],
+  "description": "Sangan explained: If it is sent from the field to the Graveyard, add one monster with fifteen hundred or less attack from your Deck to your hand. You cannot use cards with that name for the rest of that turn, and the effect works once per turn. How to use it: Use it as material for a Synchro or Link Summon, or let it be destroyed in battle, and search a key monster for your next turn. Card text: YGOPRODeck (official card text). Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "Sangan",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Sangan",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "The three-eyed fiend that always finds what you need."
+}

@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-dimensional-prison",
+  "slot": "yugioh",
+  "order": 66,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Dimensional Prison",
+  "title": "Dimensional Prison Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Dimensional Prison. What is it? It is a Normal Trap Card. What does it do? When your opponent's monster declares an attack, banish that attacking monster. How do you use it? Set it and wait for an attack. Banishing is stronger than destroying, because a banished monster cannot be revived from the Graveyard. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/70342110.jpg",
+      "label": "Dimensional Prison"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/70342110.jpg",
+      "fact": "Trap",
+      "sub": "Normal"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/70342110.jpg",
+      "fact": "What it does",
+      "sub": "Banishes the attacker"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/70342110.jpg",
+      "fact": "How to use it",
+      "sub": "Banish beats destroy"
+    }
+  ],
+  "description": "Dimensional Prison explained: When your opponent's monster declares an attack, banish that attacking monster. How to use it: Set it and wait for an attack. Banishing is stronger than destroying, because a banished monster cannot be revived from the Graveyard. Card text: YGOPRODeck (official card text). Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "DimensionalPrison",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Dimensional Prison",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "Next stop for that monster: another dimension."
+}

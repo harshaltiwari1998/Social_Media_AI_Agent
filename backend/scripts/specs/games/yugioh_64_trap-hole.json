@@ -1,0 +1,48 @@
+{
+  "id": "yugioh-trap-hole",
+  "slot": "yugioh",
+  "order": 64,
+  "style": "cinema",
+  "tts_voice": "en-US-GuyNeural",
+  "footage": false,
+  "headline": "Trap Hole",
+  "title": "Trap Hole Explained | What It Does and How to Use It | Yu-Gi-Oh",
+  "video_script": "This is Trap Hole. What is it? It is a Normal Trap Card, and one of the oldest traps in the game. What does it do? When your opponent Normal Summons or Flip Summons a monster with one thousand or more attack, destroy that monster. How do you use it? Set it and wait for a strong Normal Summon. It does not work on Special Summons, so it is best against decks that Normal Summon their key monsters. Which card should I explain next? Comment below!",
+  "scenes": [
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/4206964.jpg",
+      "label": "Trap Hole"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/4206964.jpg",
+      "fact": "Trap",
+      "sub": "Normal"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards_cropped/4206964.jpg",
+      "fact": "What it does",
+      "sub": "Destroys a fresh Normal Summon"
+    },
+    {
+      "image": "url:https://images.ygoprodeck.com/images/cards/4206964.jpg",
+      "fact": "How to use it",
+      "sub": "Only Normal / Flip Summons"
+    }
+  ],
+  "description": "Trap Hole explained: When your opponent Normal Summons or Flip Summons a monster with one thousand or more attack, destroy that monster. How to use it: Set it and wait for a strong Normal Summon. It does not work on Special Summons, so it is best against decks that Normal Summon their key monsters. Card text: YGOPRODeck (official card text). Card art (c) Kazuki Takahashi / Konami - fan explainer.",
+  "hashtags": [
+    "YuGiOh",
+    "TrapHole",
+    "YuGiOhCards"
+  ],
+  "tags": [
+    "Trap Hole",
+    "Yu-Gi-Oh",
+    "Yu-Gi-Oh explained",
+    "Yu-Gi-Oh cards",
+    "Duel Monsters",
+    "Master Duel",
+    "Yu-Gi-Oh TCG"
+  ],
+  "joke": "Watch your step, the floor is a trap."
+}

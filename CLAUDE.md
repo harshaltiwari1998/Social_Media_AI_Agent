@@ -230,6 +230,13 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   This recording has the game audio TWICE (OBS: two game-audio sources; the copy is 195-265 ms late and ~20-55 %
   per band). A per-band echo filter (`gameplay_out/gta6_day2/fix_audio.py`) removed it, but the owner said "jane do echo
   hone do" - the clips keep the original audio. Tell the owner to mute one of Desktop Audio / Game Capture audio in OBS.
+  GTA 6 day 3 (owner 2026-11-20, two recordings, no doubled audio this time): `gta6_day3a` (9:38, 3 shorts - mostly
+  settings menus) and `gta6_day3b` (2:51, 72 shorts + 8 long: free roam + bridge jump, gun store + ambush, Cal's JoySystem
+  games, the shipwreck dive, errands + haircut, Lucia out of prison, pool + bar fight, the mobility scooter job + Fleeca
+  bank). Plan written by `gameplay_out/gta6_day3b/make_plan.py`; every in-plan strict-scan hit was looked at (false alarms:
+  shorts, wetsuits, clothed NPCs). `excluded`: bedroom / underwear / shower / towel scenes, the dance party + dating app,
+  phone feeds (bikini photos, an offensive meme), bodies after the back-room fight, Dobbs' bloody legs, a man in underwear.
+  Not checked against HarryBeast streams yet; post with `.cache/gta6_post.py <a>-<b> --plan gta6_day3b` after approval.
 - `backend/scripts/specs/gameplay/<plan>.json` - cut plans for the owner's own stream recordings.
 - `backend/scripts/specs/games/yugioh_NN_<card>.json` - Yu-Gi-Oh card explainers (owner 2026-11-16: "har card ke bare me
   batao english me ki kya he kya karta he and kaise use karna he" + "players ke best cards" videos). Format: what it is
@@ -507,6 +514,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-20 - GTA 6 day-3 recordings: plans `gta6_day3a` (3 shorts) + `gta6_day3b` (72 shorts + 8 long).
 - 2026-11-20 - Both Facebook Pages wiped on the owner's request (lists in `fb_gaming_backup/`, `fb_main_backup/`; the owner's 103 own gaming clips downloaded first); automatic posting to both paused (`store.FB_GAMING_PAUSED`, `FB_MAIN_PAUSED`).
 - 2026-11-20 - Cinema videos: scenes cut on the narration word of their `cue` (Yu-Gi-Oh cards were shown one scene late); batch 3 re-rendered.
 - 2026-11-19 - Yu-Gi-Oh batch 3 (orders 63-82: 15 card explainers + 5 Duel Links deck guides).

@@ -1,0 +1,678 @@
+{
+ "name": "gta6_day3b",
+ "source": "F:/AI AGENT/VIDEOS GAMING/2026-11-20 16-44-08.mp4",
+ "game": "GTA 6",
+ "title_tag": "GTA 6",
+ "post_line": "GTA 6 gameplay from my live stream - full stream on the channel.",
+ "tags": [
+  "GTA 6",
+  "GTA VI",
+  "Grand Theft Auto VI",
+  "GTA 6 gameplay",
+  "Jason",
+  "Lucia",
+  "Leonida Keys",
+  "Vice City",
+  "GTA 6 missions",
+  "GTA 6 free roam",
+  "Rockstar Games",
+  "Gaming",
+  "HarryBeast"
+ ],
+ "note": "2:51:28 recording of 20 Nov 2026 (16:44). No doubled game audio (echo peak 0.02-0.07). Picked from 10 s sheets + GPU transcript.",
+ "shorts": [
+  {
+   "start": 200,
+   "dur": 56,
+   "title": "Scooter vs Leonida Traffic"
+  },
+  {
+   "start": 252,
+   "dur": 56,
+   "title": "Dodging Trucks on a Scooter"
+  },
+  {
+   "start": 325,
+   "dur": 58,
+   "title": "Jason Jumps Off the Bridge"
+  },
+  {
+   "start": 383,
+   "dur": 56,
+   "title": "Swimming Under the Old Bridge"
+  },
+  {
+   "start": 458,
+   "dur": 56,
+   "title": "Exploring Underwater in GTA 6"
+  },
+  {
+   "start": 615,
+   "dur": 56,
+   "title": "Off-Road Pickup Crash"
+  },
+  {
+   "start": 783,
+   "dur": 56,
+   "title": "Falling Off the Dirt Bike"
+  },
+  {
+   "start": 900,
+   "dur": 58,
+   "title": "What Is Going On in the Back Room"
+  },
+  {
+   "start": 1440,
+   "dur": 58,
+   "title": "Visiting the GTA 6 Gun Store"
+  },
+  {
+   "start": 1500,
+   "dur": 58,
+   "title": "Building a Tactical Rifle"
+  },
+  {
+   "start": 1665,
+   "dur": 58,
+   "title": "Ambushed in the Parking Lot"
+  },
+  {
+   "start": 1860,
+   "dur": 56,
+   "title": "Jason Visits Cal at Night"
+  },
+  {
+   "start": 2010,
+   "dur": 58,
+   "title": "Moving Cal's Couch for Feng Shui"
+  },
+  {
+   "start": 2225,
+   "dur": 56,
+   "title": "Cal's New JoySystem Console"
+  },
+  {
+   "start": 2295,
+   "dur": 56,
+   "title": "A Spooky Indie Game Inside GTA 6"
+  },
+  {
+   "start": 2470,
+   "dur": 58,
+   "title": "GTA 6 Has a Zombie Game Inside It"
+  },
+  {
+   "start": 2585,
+   "dur": 58,
+   "title": "Street Trash III Zombie Horde"
+  },
+  {
+   "start": 2700,
+   "dur": 58,
+   "title": "Picking Perks in Street Trash III"
+  },
+  {
+   "start": 2780,
+   "dur": 58,
+   "title": "Cal Opens Up About His Ex"
+  },
+  {
+   "start": 3330,
+   "dur": 56,
+   "title": "Cruising in the Yellow Pickup"
+  },
+  {
+   "start": 3410,
+   "dur": 58,
+   "title": "Picking Up Lucia's Clothes"
+  },
+  {
+   "start": 3600,
+   "dur": 40,
+   "title": "Pickup Drift at the Docks"
+  },
+  {
+   "start": 3780,
+   "dur": 58,
+   "title": "Meeting Kenton the Treasure Hunter"
+  },
+  {
+   "start": 3840,
+   "dur": 58,
+   "title": "Setting Off to the Shipwreck"
+  },
+  {
+   "start": 3895,
+   "dur": 58,
+   "title": "Boat Ride Across Leonida's Ocean"
+  },
+  {
+   "start": 4020,
+   "dur": 58,
+   "title": "Diving Into the Ocean"
+  },
+  {
+   "start": 4085,
+   "dur": 58,
+   "title": "The Reef Under the Water"
+  },
+  {
+   "start": 4150,
+   "dur": 58,
+   "title": "A Whole World Down Here"
+  },
+  {
+   "start": 4210,
+   "dur": 58,
+   "title": "Finding the Shipwreck"
+  },
+  {
+   "start": 4270,
+   "dur": 58,
+   "title": "Metal Detector Underwater"
+  },
+  {
+   "start": 4380,
+   "dur": 58,
+   "title": "Something Has Got Dobbs"
+  },
+  {
+   "start": 4440,
+   "dur": 58,
+   "title": "Saving Dobbs Underwater"
+  },
+  {
+   "start": 4490,
+   "dur": 58,
+   "title": "Inside the Shipwreck"
+  },
+  {
+   "start": 4550,
+   "dur": 58,
+   "title": "Getting Out of the Wreck"
+  },
+  {
+   "start": 4720,
+   "dur": 58,
+   "title": "There Are Wrecks All Over the Keys"
+  },
+  {
+   "start": 4880,
+   "dur": 58,
+   "title": "Grocery Run for Lucia"
+  },
+  {
+   "start": 4925,
+   "dur": 56,
+   "title": "Shopping at the Grocery Store"
+  },
+  {
+   "start": 5045,
+   "dur": 58,
+   "title": "Buying Flowers for Lucia"
+  },
+  {
+   "start": 5165,
+   "dur": 58,
+   "title": "Jason Gets a New Haircut"
+  },
+  {
+   "start": 5470,
+   "dur": 58,
+   "title": "Mandy Wants a Favour"
+  },
+  {
+   "start": 5590,
+   "dur": 56,
+   "title": "Putting Away the Groceries"
+  },
+  {
+   "start": 5800,
+   "dur": 58,
+   "title": "Meeting the Neighbor"
+  },
+  {
+   "start": 5840,
+   "dur": 58,
+   "title": "The Renter in the Kitchen"
+  },
+  {
+   "start": 6060,
+   "dur": 50,
+   "title": "Filling Up the Pickup"
+  },
+  {
+   "start": 6160,
+   "dur": 58,
+   "title": "Speeding to the Prison"
+  },
+  {
+   "start": 6220,
+   "dur": 58,
+   "title": "Arriving at Hamlet Correctional"
+  },
+  {
+   "start": 6355,
+   "dur": 58,
+   "title": "The Phone Call From Prison"
+  },
+  {
+   "start": 6425,
+   "dur": 58,
+   "title": "Lucia Walks Out of Prison"
+  },
+  {
+   "start": 6500,
+   "dur": 58,
+   "title": "First Drive With Lucia"
+  },
+  {
+   "start": 6560,
+   "dur": 58,
+   "title": "Lucia Has Not Moved This Fast in a While"
+  },
+  {
+   "start": 6600,
+   "dur": 58,
+   "title": "Sunset Drive Over the Bridge"
+  },
+  {
+   "start": 6665,
+   "dur": 55,
+   "title": "Taking Lucia to the Bar"
+  },
+  {
+   "start": 6720,
+   "dur": 58,
+   "title": "Lucia Meets Cal"
+  },
+  {
+   "start": 6860,
+   "dur": 58,
+   "title": "Lucia and Jason at Sunset"
+  },
+  {
+   "start": 6970,
+   "dur": 58,
+   "title": "Lucia's Big Plan"
+  },
+  {
+   "start": 7090,
+   "dur": 58,
+   "title": "Meet Brian - Boss, Mentor and Landlord"
+  },
+  {
+   "start": 7880,
+   "dur": 58,
+   "title": "Who Is Donnie"
+  },
+  {
+   "start": 7930,
+   "dur": 50,
+   "title": "Donnie Wants In"
+  },
+  {
+   "start": 8140,
+   "dur": 58,
+   "title": "Playing Pool in GTA 6"
+  },
+  {
+   "start": 8215,
+   "dur": 58,
+   "title": "Pool Showdown With D-Man"
+  },
+  {
+   "start": 8290,
+   "dur": 58,
+   "title": "Sinking the Last Ball"
+  },
+  {
+   "start": 8395,
+   "dur": 58,
+   "title": "Bar Fight With D-Man"
+  },
+  {
+   "start": 8460,
+   "dur": 55,
+   "title": "Running From the Cops"
+  },
+  {
+   "start": 8740,
+   "dur": 58,
+   "title": "Feeding Jason's Pet Snake"
+  },
+  {
+   "start": 9060,
+   "dur": 58,
+   "title": "Stealing Peggy's Scooter"
+  },
+  {
+   "start": 9120,
+   "dur": 58,
+   "title": "Escaping on a Mobility Scooter"
+  },
+  {
+   "start": 9180,
+   "dur": 58,
+   "title": "Delivering the Scooter to Mandy"
+  },
+  {
+   "start": 9245,
+   "dur": 55,
+   "title": "Mandy Needs Personal Space"
+  },
+  {
+   "start": 9485,
+   "dur": 58,
+   "title": "Bike Crash on the Way to the Bank"
+  },
+  {
+   "start": 9685,
+   "dur": 58,
+   "title": "Opening a Bank Account in GTA 6"
+  },
+  {
+   "start": 9750,
+   "dur": 58,
+   "title": "The Bank Manager Says No"
+  },
+  {
+   "start": 9810,
+   "dur": 58,
+   "title": "Lucia Can't Get an Account"
+  }
+ ],
+ "longs": [
+  {
+   "title": "GTA 6 Free Roam - Scooter, Bridge Jump and a Back Room Fight",
+   "description": "Free roam in GTA 6 on my live stream: a scooter ride through Leonida Keys traffic, jumping off the bridge, swimming under it, crashing a pickup, falling off a dirt bike and a fight in a tackle store back room.",
+   "thumb_text": "GTA 6 - Bridge Jump",
+   "thumb_at": 352,
+   "segments": [
+    {
+     "start": 200,
+     "dur": 130,
+     "label": "Scooter Through Traffic"
+    },
+    {
+     "start": 330,
+     "dur": 210,
+     "label": "Bridge Jump and Swim"
+    },
+    {
+     "start": 555,
+     "dur": 145,
+     "label": "Pickup Crash"
+    },
+    {
+     "start": 780,
+     "dur": 110,
+     "label": "Dirt Bike Ride"
+    },
+    {
+     "start": 890,
+     "dur": 108,
+     "label": "Back Room Fight"
+    }
+   ]
+  },
+  {
+   "title": "GTA 6 Gun Store, Parking Lot Ambush and Cal's House",
+   "description": "GTA 6 on my live stream: buying and building a rifle at the gun store, getting ambushed in the parking lot, then helping Cal set up his new console and move his couch.",
+   "thumb_text": "GTA 6 - Ambush",
+   "thumb_at": 1700,
+   "segments": [
+    {
+     "start": 1440,
+     "dur": 225,
+     "label": "Gun Store"
+    },
+    {
+     "start": 1665,
+     "dur": 80,
+     "label": "Parking Lot Ambush"
+    },
+    {
+     "start": 1860,
+     "dur": 300,
+     "label": "Cal's House"
+    }
+   ]
+  },
+  {
+   "title": "GTA 6 Has Games Inside the Game - Cal's JoySystem",
+   "description": "Cal shows Jason his JoySystem in GTA 6: a black and white indie game and the top-down zombie shooter Street Trash III, then Cal opens up about his ex.",
+   "thumb_text": "Games in GTA 6",
+   "thumb_at": 2560,
+   "segments": [
+    {
+     "start": 2220,
+     "dur": 220,
+     "label": "The Indie Game"
+    },
+    {
+     "start": 2465,
+     "dur": 310,
+     "label": "Street Trash III"
+    },
+    {
+     "start": 2775,
+     "dur": 103,
+     "label": "Cal's Story"
+    }
+   ]
+  },
+  {
+   "title": "GTA 6 Shipwreck Dive With Kenton the Treasure Hunter",
+   "description": "The full shipwreck dive in GTA 6 on my live stream: meeting Kenton, the boat ride out, the reef, the metal detector, Dobbs getting stuck in the wreck and the treasure back on the boat.",
+   "thumb_text": "GTA 6 - Shipwreck",
+   "thumb_at": 4480,
+   "segments": [
+    {
+     "start": 3780,
+     "dur": 240,
+     "label": "Kenton and the Boat Ride"
+    },
+    {
+     "start": 4020,
+     "dur": 350,
+     "label": "The Reef and the Wreck"
+    },
+    {
+     "start": 4370,
+     "dur": 240,
+     "label": "Saving Dobbs"
+    },
+    {
+     "start": 4700,
+     "dur": 100,
+     "label": "The Treasure"
+    }
+   ]
+  },
+  {
+   "title": "GTA 6 Groceries, a Haircut and Mandy's Errands",
+   "description": "Everyday life in GTA 6: picking up Lucia's clothes, a grocery run, flowers, a new haircut for Jason, Mandy's favour and the renter next door.",
+   "thumb_text": "GTA 6 Life",
+   "thumb_at": 5190,
+   "segments": [
+    {
+     "start": 3330,
+     "dur": 270,
+     "label": "Lucia's Clothes"
+    },
+    {
+     "start": 4860,
+     "dur": 125,
+     "label": "Groceries"
+    },
+    {
+     "start": 5045,
+     "dur": 70,
+     "label": "Flowers"
+    },
+    {
+     "start": 5160,
+     "dur": 90,
+     "label": "Haircut"
+    },
+    {
+     "start": 5470,
+     "dur": 100,
+     "label": "Mandy"
+    },
+    {
+     "start": 5760,
+     "dur": 180,
+     "label": "The Renter"
+    }
+   ]
+  },
+  {
+   "title": "GTA 6 Lucia Gets Out of Prison",
+   "description": "Jason races to Hamlet Correctional to pick up Lucia in GTA 6, the phone call, Lucia walking out, the sunset drive and her first night out with Cal and Brian.",
+   "thumb_text": "Lucia Is Free",
+   "thumb_at": 6440,
+   "segments": [
+    {
+     "start": 6150,
+     "dur": 145,
+     "label": "To the Prison"
+    },
+    {
+     "start": 6345,
+     "dur": 135,
+     "label": "Lucia Walks Out"
+    },
+    {
+     "start": 6480,
+     "dur": 185,
+     "label": "First Drive"
+    },
+    {
+     "start": 6665,
+     "dur": 125,
+     "label": "The Bar"
+    },
+    {
+     "start": 6850,
+     "dur": 185,
+     "label": "Sunset Talk"
+    },
+    {
+     "start": 7080,
+     "dur": 70,
+     "label": "Meet Brian"
+    }
+   ]
+  },
+  {
+   "title": "GTA 6 Pool Game and Bar Fight With D-Man",
+   "description": "A game of pool against D-Man in GTA 6 that ends in a fight outside the bar and running from the cops.",
+   "thumb_text": "GTA 6 Bar Fight",
+   "thumb_at": 8420,
+   "segments": [
+    {
+     "start": 7860,
+     "dur": 130,
+     "label": "Donnie"
+    },
+    {
+     "start": 8130,
+     "dur": 265,
+     "label": "Pool"
+    },
+    {
+     "start": 8395,
+     "dur": 125,
+     "label": "The Fight"
+    }
+   ]
+  },
+  {
+   "title": "GTA 6 Stealing a Mobility Scooter and Opening a Bank Account",
+   "description": "Mandy wants Peggy's mobility scooter gone, so Jason steals it in GTA 6, then rides to the Fleeca bank to open an account with Lucia.",
+   "thumb_text": "Scooter Heist",
+   "thumb_at": 9140,
+   "segments": [
+    {
+     "start": 8840,
+     "dur": 460,
+     "label": "The Scooter Job"
+    },
+    {
+     "start": 9480,
+     "dur": 80,
+     "label": "Bike Crash"
+    },
+    {
+     "start": 9620,
+     "dur": 270,
+     "label": "Fleeca Bank"
+    }
+   ]
+  }
+ ],
+ "excluded": [
+  {
+   "start": 120,
+   "end": 200,
+   "why": "pause menu"
+  },
+  {
+   "start": 1000,
+   "end": 1310,
+   "why": "bodies and blood after the back room fight, cigarette smoking - not used"
+  },
+  {
+   "start": 2880,
+   "end": 3040,
+   "why": "bedroom: a woman in underwear on the bed, Jason in underwear at the wardrobe - never use"
+  },
+  {
+   "start": 3640,
+   "end": 3775,
+   "why": "phone social media feed (photos of people) - not used"
+  },
+  {
+   "start": 4612,
+   "end": 4700,
+   "why": "Dobbs hurt on the deck, bloody legs close-up - left out"
+  },
+  {
+   "start": 6295,
+   "end": 6345,
+   "why": "a man in his underwear on the phone video - left out"
+  },
+  {
+   "start": 5290,
+   "end": 5390,
+   "why": "jewellery store clerk scene - strict scan hits, left out"
+  },
+  {
+   "start": 7200,
+   "end": 7860,
+   "why": "dating app on the phone, dance party with crude talk - never use"
+  },
+  {
+   "start": 7995,
+   "end": 8130,
+   "why": "pause menu"
+  },
+  {
+   "start": 8560,
+   "end": 8735,
+   "why": "Jason and Lucia in bed - never use"
+  },
+  {
+   "start": 9330,
+   "end": 9480,
+   "why": "phone social media: bikini photos and an offensive meme - never use"
+  },
+  {
+   "start": 9890,
+   "end": 10300,
+   "why": "bedroom, underwear, shower (bare behind) and towel scenes - never use"
+  }
+ ]
+}

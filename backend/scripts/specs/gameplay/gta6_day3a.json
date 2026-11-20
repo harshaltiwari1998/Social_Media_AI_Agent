@@ -1,0 +1,19 @@
+{
+  "name": "gta6_day3a",
+  "source": "F:/AI AGENT/VIDEOS GAMING/2026-11-20 16-27-55.mp4",
+  "game": "GTA 6",
+  "title_tag": "GTA 6",
+  "post_line": "GTA 6 gameplay from my live stream - full stream on the channel.",
+  "tags": ["GTA 6", "GTA VI", "Grand Theft Auto VI", "GTA 6 gameplay", "Jason", "Leonida Keys", "Vice City",
+           "GTA 6 free roam", "Rockstar Games", "Gaming", "HarryBeast"],
+  "note": "9:38 recording of 20 Nov 2026 (16:27). No doubled game audio (echo peak 0.02-0.05). ~2.5 min are settings menus (60-145, 320-425) - not used. Strict 2 fps NudeNet: 2 hits, both false alarms (Miss Charlene fully dressed in her chair at 42 s, Jason's shorts at 158 s).",
+  "shorts": [
+    {"start": 0, "dur": 56, "title": "Miss Charlene and Gary the Gator"},
+    {"start": 222, "dur": 56, "title": "Cruising Leonida in an Old Pickup"},
+    {"start": 428, "dur": 58, "title": "Old Pickup vs Big Truck"}
+  ],
+  "longs": [],
+  "excluded": [
+    {"start": 530, "end": 578, "why": "beach road with people on the sand in the background - not checked closely, left out"}
+  ]
+}

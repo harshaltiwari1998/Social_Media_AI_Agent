@@ -183,6 +183,14 @@ ENERGY = {"fire": "fire and embers", "water": "water and spray", "grass": "leave
           "rock": "rocks and dust", "ground": "sand and dust", "steel": "silver metal sparks", "ice": "ice crystals",
           "normal": "white energy", "poison": "purple poison mist", "dark": "dark shadows", "fairy": "pink sparkles",
           "bug": "green energy", "flying": "strong wind"}
+# Gigantamax colour per type (owner 2026-11-20: Gigantamax must not look like the red Dynamax): RGB tint of the change +
+# the colour named in the art / Wan prompts
+TYPE_TINT = {"fire": ((255, 120, 30), "orange"), "water": ((40, 140, 255), "blue"), "grass": ((60, 200, 80), "green"),
+             "electric": ((255, 220, 40), "yellow"), "ghost": ((150, 80, 220), "purple"), "dragon": ((70, 110, 255), "blue"),
+             "psychic": ((255, 90, 180), "pink"), "fighting": ((230, 110, 40), "orange"), "rock": ((200, 160, 90), "golden"),
+             "ground": ((215, 170, 80), "golden"), "steel": ((190, 205, 225), "silver"), "ice": ((130, 220, 255), "icy blue"),
+             "normal": ((245, 235, 200), "golden white"), "poison": ((170, 70, 200), "purple"), "dark": ((120, 70, 180), "violet"),
+             "fairy": ((255, 140, 210), "pink"), "bug": ((150, 210, 40), "lime green"), "flying": ((150, 190, 255), "sky blue")}
 
 
 def _name(slug: str) -> str:
@@ -256,18 +264,33 @@ FAN_FIERCE = ("It must look DANGEROUS: narrow angry glaring eyes full of rage, a
 FAN_KEEP = ("Keep EXACTLY the same colours as the reference picture - do not recolour it, do not make it darker. "
             "Its body stays {colour} like the reference. Solid pure white background (#FFFFFF) with nothing behind the "
             "creature: no clouds, no ground, no scenery, no shadow, NOT a checkerboard, NOT a transparency pattern.")
+# body parts the drawing model kept losing (2026-11-20: Mega Hydreigon got claws instead of its hand-heads)
+PARTS = {"hydreigon": "Hydreigon has THREE heads: one main head on its neck and one smaller head at the end of EACH arm "
+                      "(its hands ARE heads with mouths, it has no claws or fingers) - all three heads must stay. "}
 FAN_PROMPT = {
-    "mega": ("This is the Pokemon {name}, a {colour} Pokemon - its body MUST stay {colour}. Draw its Mega Evolution: the SAME Pokemon, clearly recognisable - same species, "
-             "same face shape - but far more powerful: bigger, sharper shapes, extra armour plates in its own colours, "
-             "spikes and {fx} that fit its {types} type. " + FAN_FIERCE + " " + FAN_KEEP + " Official Pokemon artwork "
-             "style (Ken Sugimori), clean full body, ONE creature only, exactly one face with two eyes, no text, no logo."),
+    # 2026-11-20: drawn as a new picture, the free ZeroGPU Space put dust + ground behind the Megas (no cutout) and gave
+    # Hydreigon claws instead of its hand-heads - an EDIT of the official art keeps the body. Mega = armour and sharper
+    # shapes in its own colours; Gigantamax (below) = giant energy structures; Dynamax = the same body, giant and red.
+    "mega": ("Edit this picture of the Pokemon {name} into its MEGA EVOLUTION. Keep its head, face, eyes, snout, ears / "
+             "horns, the same number of heads, arms, legs and wings (if its hands are heads they stay heads) and its "
+             "{colour} colours EXACTLY as in the picture. Make it more powerful only with armour: sharper and longer "
+             "spikes, extra armour plates in its own colours, bigger claws, a more muscular build, angry glaring eyes, a "
+             "menacing stance, small {fx} accents on the armour. NOT cute. Plain pure white background (#FFFFFF), nothing "
+             "behind it - no dust, no smoke, no ground, no aura, no clouds, no text. Official Pokemon artwork style, ONE "
+             "creature only, exactly one face per head."),
     # 2026-11-17: asked to "draw its Gigantamax form", the model redrew Dragonite with a Charizard face three times
-    # (owner: "dragonite ka chehera bohot bekar he") - so it only ADDS to the official picture now.
-    "gmax": ("Edit this picture of the Pokemon {name}: keep the Pokemon EXACTLY as it is - the same head, face, eyes "
-             "shape, antennae / ears / horns, pose, body shape and {colour} colours; do not redraw it. Only ADD on top of "
-             "it: thin glowing red energy cracks on its body and limbs, sharp black spikes along its back and tail, red "
-             "energy flames around its hands and tail tip, its eyes glowing red with an angry frown, a faint red glow "
-             "around its outline. Keep the plain pure white background (#FFFFFF), nothing behind it, no clouds, no text."),
+    # (owner: "dragonite ka chehera bohot bekar he"), so the face is pinned. 2026-11-20 the owner: Dynamax and Gigantamax
+    # are different, every video must show them differently - the old add-only red cracks looked just like the red
+    # Dynamax. So the body now really changes, with huge structures in the type's own colour (not red).
+    "gmax": ("Edit this picture of the Pokemon {name} into its GIGANTAMAX form. Keep its head, face, eyes, snout, "
+             "ears / horns and its {colour} colours EXACTLY as in the picture - the face must not change at all. Change "
+             "the BODY the way official Gigantamax forms do: a far more massive build and huge new structures made of "
+             "{fx} growing out of it - a giant {fx} crown or mane around its neck, enormous {fx} wings or fins rising "
+             "from its back, its tail or limbs ending in big {fx} formations, glowing {tcol} energy patterns across its "
+             "body and {tcol} energy rings orbiting it. It must look clearly DIFFERENT from the normal {name} but still "
+             "be the same Pokemon. Angry glaring eyes, menacing pose, NOT cute. Plain pure white background (#FFFFFF), "
+             "nothing behind it, no clouds, no ground, no text. Official Pokemon artwork style, ONE creature only, "
+             "exactly one face with two eyes."),
 }
 
 
@@ -301,7 +324,7 @@ def fan_form(slug: str, kind: str) -> str:
     by Qwen-Image-Edit through HF Inference Providers, background cut out. Cached as CACHE/art/fan_<kind>_<slug>.png."""
     from PIL import Image
 
-    out = CACHE / "art" / f"fan_{kind}_{slug}.png"
+    out = CACHE / "art" / f"fan_{kind}{'_v2' if kind == 'gmax' else ''}_{slug}.png"  # v2: changed body, type colour
     if out.exists():
         return str(out)
     out.parent.mkdir(parents=True, exist_ok=True)
@@ -312,13 +335,23 @@ def fan_form(slug: str, kind: str) -> str:
     ref_path = out.with_name(f"ref_{slug}.png")
     ref.save(ref_path)
     types = _types(slug)
-    prompt = FAN_PROMPT[kind].format(name=_name(slug), types=" and ".join(types), colour=_main_colour(art),
-                                     fx=ENERGY.get(types[0], "glowing energy"))
-    raw = _provider_edit(prompt, [ref_path])
+    extra = PARTS.get(slug, "")
+    prompt = extra + FAN_PROMPT[kind].format(name=_name(slug), types=" and ".join(types), colour=_main_colour(art),
+                                     fx=ENERGY.get(types[0], "glowing energy"), tcol=TYPE_TINT.get(types[0], ((0,), "golden"))[1])
+    # HF credits first, the free ZeroGPU Space when they are gone (credits ran out 2026-11-17: Axew, Bagon and Deino were
+    # built on 2026-11-20 with no fan form at all)
+    raw = _qwen_draw(prompt, [ref_path], provider_ok=True)
     shutil.copy(raw, out.with_name(f"fan_{kind}_{slug}_raw.png"))
     # the prompt asks for plain white: a border flood fill is cleaner here than rembg, which left grey patches around
     # Mega Groudon's flames (2026-11-17)
     _key_flat(raw, out)
+    # the free ZeroGPU Space sometimes draws dust / ground behind it (Mega Haxorus 2026-11-20): when the flat cut leaves
+    # the picture's border mostly solid, rembg's anime model cuts it instead
+    import numpy as np
+    alpha = np.asarray(Image.open(out).convert("RGBA").getchannel("A"))
+    border = np.concatenate([alpha[0], alpha[-1], alpha[:, 0], alpha[:, -1]])
+    if (border > 128).mean() > 0.12:
+        _cutout(Path(raw), out)
     log.info("   fan-made %s art for %s: %s", kind, slug, out)
     return str(out)
 
@@ -336,8 +369,10 @@ def with_forms(entry: dict, draw: bool = True) -> dict:
         if draw and not official and not fan.get(kind):
             try:
                 fan[kind] = fan_form(final, kind)
-            except Exception as exc:  # noqa: BLE001 - provider down / no credits: the short goes without that form
-                log.warning("   fan-made %s art for %s failed: %s", kind, final, str(exc)[:200])
+            except fv.QuotaExhausted:
+                raise
+            except Exception as exc:  # noqa: BLE001 - owner 2026-11-20: never a short without its forms - try again next run
+                raise RuntimeError(f"fan-made {kind} art for {final} could not be drawn: {str(exc)[:200]}") from exc
     primal = entry["primal"] if "primal" in entry else primal_of(final)
     return {**entry, "megas": megas, "gmax": gmax, "primal": primal, "fan": fan, "forms": True}
 
@@ -423,11 +458,14 @@ def storyboard(entry: dict) -> dict:
         narration.append(f"Now {names[-1]} Dynamaxes and grows to a giant size!")
         if gmax:
             fan_g = not entry.get("gmax")
-            clips += [{**evolve(s[-1], gmax), "tint": [255, 60, 80]},
-                      wan(gmax, "the giant creature glares down menacingly with its mouth closed and breathes heavily, its "
-                                "face keeps exactly the same shape, dark red clouds swirl in the sky above it, red energy glows "
-                                "around its body, its colours and flames stay exactly the same colour, it stays fully "
-                                f"visible, epic low angle camera, anime style, {_KEEP}", 0.6)]
+            gtype = _types(s[-1])[0]
+            (grgb, gcol), gfx = TYPE_TINT.get(gtype, ((255, 200, 80), "golden")), ENERGY.get(gtype, fx)
+            # not red like the Dynamax (owner 2026-11-20: they are different and must look different)
+            clips += [{**evolve(s[-1], gmax), "tint": list(grgb)},
+                      wan(gmax, "the colossal creature glares down menacingly with its mouth closed and breathes heavily, its "
+                                f"face keeps exactly the same shape, huge {gfx} swirl around its giant body, {gcol} energy "
+                                f"patterns pulse across it, {gcol} light fills the sky, its colours stay exactly the same, "
+                                f"it stays fully visible, epic low angle camera, anime style, {_KEEP}", 0.6)]
             narration.append(f"{names[-1]} cannot Gigantamax in the games, so here is a fan-made Gigantamax form!" if fan_g
                              else f"And {names[-1]} has even more power. Gigantamax!")
             narration.append(f"{'Fan-made ' if fan_g else ''}Gigantamax {names[-1]}! {outro}")

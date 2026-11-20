@@ -93,6 +93,16 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   prompt gave Dragonite a Charizard face three times, so the fan Gigantamax is an ADD-ONLY edit of the official art
   (keep the picture, only add red cracks / black spikes / red flames / glowing angry eyes); Mega and Gigantamax Wan
   prompts say "mouth closed, face keeps exactly the same shape" - "roars" made Wan open a huge toothed mouth.
+  Dynamax vs Gigantamax (owner 2026-11-20: "Dynamax and Gigantamax me farak he to har videos me alag alag dikhana
+  honga, jiske he uske same nahi to banao"): Dynamax = the same body, giant, RED aura + red clouds (local clip).
+  Gigantamax = the official G-Max form when PokeAPI has one, else a fan form whose BODY changes (giant crown / mane /
+  wings / tail of the type's energy, energy rings; face kept) in the TYPE colour (`TYPE_TINT`, never red) - the old
+  add-only red-cracks edit looked like the Dynamax. Fan Mega = an edit too (armour, spikes, own colours; drawing a new
+  picture lost Hydreigon's hand-heads and added dust). Cache `fan_gmax_v2_<slug>.png`. Fan art: HF credits first, the free
+  ZeroGPU Space when they are gone (credits empty since 17 Nov - Axew/Bagon/Deino of 20 Nov had no fan forms); a cut
+  that leaves the border solid falls back to rembg. A form that cannot be drawn now FAILS the line (retried next run)
+  instead of posting it without. `PARTS` adds body-part notes per Pokemon. Mega Hydreigon failed 6 draws (4-5 heads,
+  dust): the Deino line stays held in review_pending until the owner decides.
 - `inbox/<pokemon1>+<pokemon2>[=<name>].mp4` - Pokemon fusion reveal clips the owner makes in the Gemini app
   (prompts: `F:/AI AGENT/pokemon_fusion_prompts.md`) and uploads on the GitHub website; names from
   `backend/scripts/specs/fusion_pairs.json`. The same pairs (with a `"look"` per pair) are also made automatically by
@@ -514,6 +524,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-20 - Evolution shorts: Gigantamax clearly different from Dynamax (changed body, type colour), fan Mega as an edit, free ZeroGPU fallback, no short without its forms; GTA 6 day-3b plan grown to 102 shorts.
 - 2026-11-20 - GTA 6 day-3 recordings: plans `gta6_day3a` (3 shorts) + `gta6_day3b` (72 shorts + 8 long).
 - 2026-11-20 - Both Facebook Pages wiped on the owner's request (lists in `fb_gaming_backup/`, `fb_main_backup/`; the owner's 103 own gaming clips downloaded first); automatic posting to both paused (`store.FB_GAMING_PAUSED`, `FB_MAIN_PAUSED`).
 - 2026-11-20 - Cinema videos: scenes cut on the narration word of their `cue` (Yu-Gi-Oh cards were shown one scene late); batch 3 re-rendered.

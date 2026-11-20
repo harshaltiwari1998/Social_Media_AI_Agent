@@ -380,6 +380,156 @@
    "start": 9810,
    "dur": 58,
    "title": "Lucia Can't Get an Account"
+  },
+  {
+   "start": 0,
+   "dur": 56,
+   "title": "Scooter Ride Over the Keys Bridge"
+  },
+  {
+   "start": 556,
+   "dur": 56,
+   "title": "Back on Land After the Swim"
+  },
+  {
+   "start": 700,
+   "dur": 58,
+   "title": "Searching the Back Alley"
+  },
+  {
+   "start": 1345,
+   "dur": 58,
+   "title": "Night Ride to the Gun Store"
+  },
+  {
+   "start": 1750,
+   "dur": 50,
+   "title": "Driving Away After the Ambush"
+  },
+  {
+   "start": 3060,
+   "dur": 58,
+   "title": "Gearing Up From the Stash"
+  },
+  {
+   "start": 3120,
+   "dur": 58,
+   "title": "Loading the Pickup"
+  },
+  {
+   "start": 3180,
+   "dur": 58,
+   "title": "Walking Through Jason's Neighborhood"
+  },
+  {
+   "start": 3240,
+   "dur": 58,
+   "title": "A Walk Around the Keys"
+  },
+  {
+   "start": 3470,
+   "dur": 58,
+   "title": "Andy Hands Over Lucia's Stuff"
+  },
+  {
+   "start": 3530,
+   "dur": 58,
+   "title": "Leaving the Marina"
+  },
+  {
+   "start": 3955,
+   "dur": 58,
+   "title": "Out on the Open Sea"
+  },
+  {
+   "start": 4320,
+   "dur": 58,
+   "title": "The Sea Snake Story"
+  },
+  {
+   "start": 4800,
+   "dur": 58,
+   "title": "Heading Home From the Dive"
+  },
+  {
+   "start": 4985,
+   "dur": 56,
+   "title": "Loading Groceries in the Pickup"
+  },
+  {
+   "start": 5110,
+   "dur": 50,
+   "title": "Driving to the Barber"
+  },
+  {
+   "start": 5395,
+   "dur": 58,
+   "title": "Driving Back With the Groceries"
+  },
+  {
+   "start": 5650,
+   "dur": 58,
+   "title": "Texts From Lucia"
+  },
+  {
+   "start": 5700,
+   "dur": 58,
+   "title": "Heading Over to the Neighbor"
+  },
+  {
+   "start": 5940,
+   "dur": 58,
+   "title": "The Renter Says Goodbye"
+  },
+  {
+   "start": 6000,
+   "dur": 58,
+   "title": "Driving to Pick Up Lucia"
+  },
+  {
+   "start": 6105,
+   "dur": 50,
+   "title": "On the Highway to the Prison"
+  },
+  {
+   "start": 6780,
+   "dur": 58,
+   "title": "Cal Meets Lucia at the Bar"
+  },
+  {
+   "start": 7150,
+   "dur": 50,
+   "title": "Drinks With Brian"
+  },
+  {
+   "start": 8515,
+   "dur": 40,
+   "title": "Escaping to the Beach"
+  },
+  {
+   "start": 8845,
+   "dur": 58,
+   "title": "Mandy's Secret Mission"
+  },
+  {
+   "start": 8905,
+   "dur": 58,
+   "title": "Sneaking to Peggy's House"
+  },
+  {
+   "start": 8965,
+   "dur": 58,
+   "title": "Finding Peggy's Scooter"
+  },
+  {
+   "start": 9560,
+   "dur": 58,
+   "title": "Arriving at Brian's Lockup"
+  },
+  {
+   "start": 9620,
+   "dur": 58,
+   "title": "Riding to the Fleeca Bank"
   }
  ],
  "longs": [
@@ -579,7 +729,7 @@
     },
     {
      "start": 8130,
-     "dur": 265,
+     "dur": 238,
      "label": "Pool"
     },
     {
@@ -658,6 +808,11 @@
    "start": 7995,
    "end": 8130,
    "why": "pause menu"
+  },
+  {
+   "start": 8368,
+   "end": 8395,
+   "why": "crude sexual line in the subtitles before the fight - left out"
   },
   {
    "start": 8560,

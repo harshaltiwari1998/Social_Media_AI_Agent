@@ -55,6 +55,11 @@ FB_GAMING_DAILY = {"gameplay:gta6_": 6,  # GTA 6 stream shorts, all GTA 6 plans 
                    "gameplay:": 2,  # other own-stream clips (RDR2...): at most this many a day (IST)
                    "custom:carmuseum-": 2}  # the owner's own Payana Museum footage (2026-11-16)
 FB_SKIP = "skip:fb-volume"
+# Owner 2026-11-20: the gaming Page got ~0 views since the automatic uploads started (Oct 2026, ~1,070 videos), even
+# for the owner's own GTA 6 clips; every video on the Page was deleted to start fresh. While paused NOTHING goes there
+# automatically: uploads get FB_PAUSED_SKIP (so they never flood the Page later) and capped prefixes have 0 left.
+FB_GAMING_PAUSED = True
+FB_PAUSED_SKIP = "skip:fb-paused"
 # Single videos the owner asked for on the gaming Page (2026-11-17: "Facebook gaming me bhi dal do" - the 12 Egyptian
 # God deck / summon videos, Master Duel/TCG and Duel Links). Exact ids, so other Yu-Gi-Oh videos stay off the Page.
 FB_GAMING_IDS = {f"custom:game-yugioh-{p}{g}-{k}" for p in ("", "dl-") for g in ("slifer", "obelisk", "ra")
@@ -63,6 +68,8 @@ FB_GAMING_IDS = {f"custom:game-yugioh-{p}{g}-{k}" for p in ("", "dl-") for g in 
 
 def fb_gaming_left_today(trend_id: str) -> int | None:
     """How many more uploads with this id's daily-capped prefix the gaming Page takes today (IST); None = not capped."""
+    if FB_GAMING_PAUSED:
+        return 0
     left = None
     for prefix, cap in FB_GAMING_DAILY.items():
         if trend_id.startswith(prefix):
@@ -84,6 +91,9 @@ def fb_gaming_left_today(trend_id: str) -> int | None:
 def fb_gaming_allowed(trend_id: str) -> bool:
     """True when this upload may go to the gaming Facebook Page; otherwise records the skip marker so it is never
     retried."""
+    if FB_GAMING_PAUSED:
+        record_post(trend_id, "facebook_gaming", FB_PAUSED_SKIP, False)
+        return False
     if trend_id.startswith(FB_GAMING_ALWAYS) or trend_id in FB_GAMING_IDS:
         return True
     left = fb_gaming_left_today(trend_id)

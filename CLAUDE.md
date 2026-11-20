@@ -433,6 +433,15 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
 - **Movie shorts look** (owner approved 2026-11-11): full-screen "cinema" style, `scripts/cinema_video.py` (big framed
   picture that slides in and zooms, hook line over the first 1.7 s, white flash on cuts, big fact text, grain +
   vignette). `game_videos.build_video` routes every `category: movies` spec there; `"style": "card"` keeps the old look.
+- **Gaming Facebook Page PAUSED + wiped** (owner 2026-11-20: "sala facebook me kuch bhi views nahi aa rahe"): views per
+  video went from ~180 avg (Jun-Aug 2026, the owner's own clips: GTA 6 PC joke 1,023, Shiny Articuno 865) to 0.2 once
+  the pipeline posted ~1,070 videos (Oct-Nov), and even the owner's own GTA 6 launch clips got 0-3 - Page-wide reach
+  loss, not a publishing error (all videos were published, ready, in the Reels list). Owner chose to delete EVERY video
+  on the Page and start fresh. Backup first: `F:/AI AGENT/fb_gaming_backup/` (`videos_list.json` = all 1,173 with views
+  and links, `videos/` = the owner's 103 pre-21-Oct clips as Facebook serves them, `delete_all.py` + `deleted.txt`).
+  `store.FB_GAMING_PAUSED = True`: nothing goes to `facebook_gaming` automatically (uploads get `skip:fb-paused`,
+  capped prefixes have 0 left). Restart plan proposed: 1 Reel a day, the owner's own best clip with a hook title,
+  posted from the Facebook app (trending audio), 19:00-22:00 IST.
 - **Gaming Facebook Page volume** (owner 2026-11-14): only Pokemon evolutions, fusions (Pokemon / Dragon Ball / Mewtwo
   stones / compilations) and at most 2 own-stream clips a day (IST) go to `facebook_gaming` (GTA 6 launch shorts: 6 a day,
   owner 2026-11-19 - `"gameplay:gta6_"` (all GTA 6 plans together) comes first in `store.FB_GAMING_DAILY`; `merge_state.py` lets a real post
@@ -494,6 +503,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-20 - Gaming Facebook Page: all videos deleted on the owner's request (backup in `fb_gaming_backup/`), automatic posting there paused (`store.FB_GAMING_PAUSED`).
 - 2026-11-20 - Cinema videos: scenes cut on the narration word of their `cue` (Yu-Gi-Oh cards were shown one scene late); batch 3 re-rendered.
 - 2026-11-19 - Yu-Gi-Oh batch 3 (orders 63-82: 15 card explainers + 5 Duel Links deck guides).
 - 2026-11-19 - GTA 6 day-2 recording: plan `gta6_day2` (65 shorts + 5 long); `gta6_post.py --plan`; FB cap prefix `gameplay:gta6_` covers all GTA 6 plans; faster-whisper on the GPU (cuBLAS/cuDNN wheels in the venv).

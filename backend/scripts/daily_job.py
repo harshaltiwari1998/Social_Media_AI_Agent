@@ -119,6 +119,9 @@ class Poster:
             if name == "facebook_gaming" and not store.fb_gaming_allowed(trend_id):
                 log.info("  %s: skipped (Page gets only fusions / evolutions / 2 own clips a day)", name)
                 continue
+            if name == "facebook" and not store.fb_main_allowed(trend_id):
+                log.info("  %s: skipped (main Page paused, owner 2026-11-20)", name)
+                continue
             result = _POSTERS[name].post_video(video_path, text, tags=tags)
             store.record_post(trend_id, name, result.post_id, result.dry_run)
             _record_post_result(name, result)
@@ -353,6 +356,9 @@ def post_long(poster: Poster, spec: dict, entry: dict, safety_ok: bool = False) 
             continue
         if name == "facebook_gaming" and not store.fb_gaming_allowed(trend_id):
             log.info("  %s: skipped (Page gets only fusions / evolutions / 2 own clips a day)", name)
+            continue
+        if name == "facebook" and not store.fb_main_allowed(trend_id):
+            log.info("  %s: skipped (main Page paused, owner 2026-11-20)", name)
             continue
         target = _POSTERS[name]
         if name.startswith("youtube"):

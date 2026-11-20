@@ -442,6 +442,10 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   `store.FB_GAMING_PAUSED = True`: nothing goes to `facebook_gaming` automatically (uploads get `skip:fb-paused`,
   capped prefixes have 0 left). Restart plan proposed: 1 Reel a day, the owner's own best clip with a hook title,
   posted from the Facebook app (trending audio), 19:00-22:00 IST.
+  Main Page "AI Trend Poster" the same day ("Delete kro"): 0 followers, 341 pipeline videos, 38 views in total since
+  Sep 2026 - all deleted (`F:/AI AGENT/fb_main_backup/`: list + `delete_all.py`), `store.FB_MAIN_PAUSED = True`
+  (`store.fb_main_allowed` in `daily_job.Poster`, `rashifal.py` posts nothing). Restart idea: rename it after the Hindi
+  YouTube channel, first ~100 followers by the owner's own invites / shares, then 1 Hindi movie Reel a day.
 - **Gaming Facebook Page volume** (owner 2026-11-14): only Pokemon evolutions, fusions (Pokemon / Dragon Ball / Mewtwo
   stones / compilations) and at most 2 own-stream clips a day (IST) go to `facebook_gaming` (GTA 6 launch shorts: 6 a day,
   owner 2026-11-19 - `"gameplay:gta6_"` (all GTA 6 plans together) comes first in `store.FB_GAMING_DAILY`; `merge_state.py` lets a real post
@@ -503,7 +507,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
-- 2026-11-20 - Gaming Facebook Page: all videos deleted on the owner's request (backup in `fb_gaming_backup/`), automatic posting there paused (`store.FB_GAMING_PAUSED`).
+- 2026-11-20 - Both Facebook Pages wiped on the owner's request (lists in `fb_gaming_backup/`, `fb_main_backup/`; the owner's 103 own gaming clips downloaded first); automatic posting to both paused (`store.FB_GAMING_PAUSED`, `FB_MAIN_PAUSED`).
 - 2026-11-20 - Cinema videos: scenes cut on the narration word of their `cue` (Yu-Gi-Oh cards were shown one scene late); batch 3 re-rendered.
 - 2026-11-19 - Yu-Gi-Oh batch 3 (orders 63-82: 15 card explainers + 5 Duel Links deck guides).
 - 2026-11-19 - GTA 6 day-2 recording: plan `gta6_day2` (65 shorts + 5 long); `gta6_post.py --plan`; FB cap prefix `gameplay:gta6_` covers all GTA 6 plans; faster-whisper on the GPU (cuBLAS/cuDNN wheels in the venv).

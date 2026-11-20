@@ -228,6 +228,9 @@ def post(made: list[dict], day: date) -> int:
     from app.pipeline.orchestrator import _POSTERS
     from app.social.facebook import _GRAPH_API
 
+    if store.FB_MAIN_PAUSED:  # owner 2026-11-20: main Page wiped and paused
+        print("main Facebook Page paused - nothing posted")
+        return 0
     fb, failed = _POSTERS["facebook"], 0
     start = datetime(day.year, day.month, day.day, 6, 0, tzinfo=IST)
     for k, item in enumerate(made):
@@ -327,6 +330,9 @@ def post_combined(item: dict, day: date) -> bool:
     from app.pipeline.orchestrator import _POSTERS
     from app.social.facebook import _GRAPH_VIDEO_API
 
+    if store.FB_MAIN_PAUSED:  # owner 2026-11-20: main Page wiped and paused
+        print("main Facebook Page paused - nothing posted")
+        return True
     fb, trend = _POSTERS["facebook"], f"custom:rashifal-{day.isoformat()}-all"
     if store.already_posted(trend, "facebook"):
         return True

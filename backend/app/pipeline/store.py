@@ -60,6 +60,17 @@ FB_SKIP = "skip:fb-volume"
 # automatically: uploads get FB_PAUSED_SKIP (so they never flood the Page later) and capped prefixes have 0 left.
 FB_GAMING_PAUSED = True
 FB_PAUSED_SKIP = "skip:fb-paused"
+# Owner 2026-11-20: same for the main Page "AI Trend Poster" (0 followers, 341 videos, 38 views in total since Sep 2026):
+# every video deleted, nothing posted there automatically until the restart.
+FB_MAIN_PAUSED = True
+
+
+def fb_main_allowed(trend_id: str) -> bool:
+    """False while the main Facebook Page is paused; records FB_PAUSED_SKIP so the upload is never retried there."""
+    if FB_MAIN_PAUSED:
+        record_post(trend_id, "facebook", FB_PAUSED_SKIP, False)
+        return False
+    return True
 # Single videos the owner asked for on the gaming Page (2026-11-17: "Facebook gaming me bhi dal do" - the 12 Egyptian
 # God deck / summon videos, Master Duel/TCG and Duel Links). Exact ids, so other Yu-Gi-Oh videos stay off the Page.
 FB_GAMING_IDS = {f"custom:game-yugioh-{p}{g}-{k}" for p in ("", "dl-") for g in ("slifer", "obelisk", "ra")

@@ -125,11 +125,17 @@ def scene_starts(cues: list[str | None], words, duration: float) -> list[float]:
     for k, cue in enumerate(cues):
         if k == 0 or not cue or not _norm(cue):
             continue
-        at = stream.find(_norm(cue), pos)
+        at, size = -1, 0
+        parts = cue.split()
+        for n_words in range(len(parts), min(2, len(parts)) - 1, -1):  # full cue, then shorter starts of it
+            size = len(_norm(" ".join(parts[:n_words])))  # ("Ash Blossom & Joyous Spring": TTS says "and")
+            at = stream.find(_norm(" ".join(parts[:n_words])), pos) if size else -1
+            if at >= 0:
+                break
         if at < 0:
             logger.warning("scene %d cue not found in the narration: %r", k, cue)
             continue
-        pos = at + len(_norm(cue))
+        pos = at + size
         start = max(0.0, words[owner[at]].start - 0.12)  # cut just before the word
         if start > max(anchors.values()) + 0.6:
             anchors[k] = start

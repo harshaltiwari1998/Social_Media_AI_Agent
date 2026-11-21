@@ -255,6 +255,16 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   kiss scenes, the night pool party, Jason shooting a downed biker in a blood pool (5405-5485), bloody bodies, a phone video of
   Janet partying, the owner asking for the strip club on the map, crude radio / subtitle lines. All rendered and strip-checked.
   **The owner found nudity I had not reported**: a topless woman dancing at the night pool party (2:51:30, 10270-10400 excluded) - NudeNet missed the small distant figure and its one hit there was outside the plan, so never opened. Rule since 2026-11-21: open EVERY scan hit of the whole recording and look at every party / pool / beach / bedroom scene on the sheets, then tell the owner each nudity timestamp (even when already cut).
+  GTA 6 day 5 (owner 2026-11-21, `VIDEOS GAMING/2026-11-21 15-25-43.mp4`, 2:10, no doubled audio): plan `gta6_day5` = 89
+  shorts + 7 long (storm drive + car thief mode, supercar spree + bear protesters, Donnie's lost packages in the swamp, bucket
+  truck home, night + morning at home, Skunk Ape + Brian's hangar, the Kingfisher setup mission), written by
+  `gameplay_out/gta6_day5/make_plan.py`. All 318 strict-scan hits of the whole file were opened. Nudity / adult spots (all
+  excluded): bed + underwear at the start (0-122), the whole Rusty Anchor dock / yacht party / jet skis / nightclub / hotel
+  part 4560-6235 (thong bikini ~1:31, nude statue in the club, bare-skin close-up in the club bathroom 1:38:15, sex on hotel
+  beds 1:39:20 / 1:40:00 / 1:40:30, bikinis next morning); also cut: a body in the bait shop, a low rear camera on Lucia,
+  the phone feed, blood on the airboat. Every short (8 frames) and long (16 frames) strip-checked. Shorts 66-69 + long 6 show
+  an NPC knocked into Jason's truck bed and carried to the hangar (no blood) - owner decides. Not posted - waiting for approval.
+  Long 3 (~15.5 min) and long 7 (~17.7 min) are over Instagram's 15 min.
   **GTA 6 Chapter 1** (owner 2026-11-21: "kya aap editing kar sakte ho youtube ke liye ... ek chapter 1 banao", chose the
   launch stream, intro + chapter cards, zoom + text pop-ups, English subtitles): an EDITED 31:46 story video, not a clip cut.
   Folder `gameplay_out/gta6_launch/chapter1/`: `edl.json` (hook moments, title shot, 13 parts of source segments with
@@ -542,6 +552,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-21 - GTA 6 day-5 recording: plan `gta6_day5` (89 shorts + 7 long), rendered and checked, waiting for the owner.
 - 2026-11-21 - GTA 6 hourly Instagram posting (10 shorts + 1 long up to 15 min an hour, laptop task `gta6_hourly.py`) after the owner's go-ahead for all GTA 6 clips.
 - 2026-11-21 - GTA 6 day-4 recording: plan `gta6_day4` (102 shorts + 10 long); first edited YouTube video - "GTA 6 Chapter 1" (31:46, hook + chapter cards + text pop-ups + zooms, English SRT from OCR of the game subtitles).
 - 2026-11-20 - Evolution shorts: Gigantamax clearly different from Dynamax (changed body, type colour), fan Mega as an edit, free ZeroGPU fallback, no short without its forms; GTA 6 day-3b plan grown to 102 shorts.

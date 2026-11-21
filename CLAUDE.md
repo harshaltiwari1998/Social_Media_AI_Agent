@@ -247,6 +247,22 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   shorts, wetsuits, clothed NPCs). `excluded`: bedroom / underwear / shower / towel scenes, the dance party + dating app,
   phone feeds (bikini photos, an offensive meme), bodies after the back-room fight, Dobbs' bloody legs, a man in underwear.
   Not checked against HarryBeast streams yet; post with `.cache/gta6_post.py <a>-<b> --plan gta6_day3b` after approval.
+  GTA 6 day 4 (owner 2026-11-21, `VIDEOS GAMING/2026-11-20 21-44-13.mp4`, 2:56, no doubled audio): plan `gta6_day4` = 102
+  shorts + 10 long (plane-crash package, gator country, Brian's seaplane deal with Lucia, the parole officer, Pete's escort
+  flight, biker hangar shootout, home life + car mods, pool at the Rusty Anchor, beach camp + swamp hideout, Alan and Janet),
+  written by `gameplay_out/gta6_day4/make_plan.py`. All 78 in-plan strict-scan hits were false alarms (tank tops, the white
+  cue ball, planes). `excluded` also: the coffee-table scene (low camera on Lucia kneeling in sleep shorts - suggestive), bed /
+  kiss scenes, the night pool party, Jason shooting a downed biker in a blood pool (5405-5485), bloody bodies, a phone video of
+  Janet partying, the owner asking for the strip club on the map, crude radio / subtitle lines. All rendered and strip-checked.
+  **GTA 6 Chapter 1** (owner 2026-11-21: "kya aap editing kar sakte ho youtube ke liye ... ek chapter 1 banao", chose the
+  launch stream, intro + chapter cards, zoom + text pop-ups, English subtitles): an EDITED 31:46 story video, not a clip cut.
+  Folder `gameplay_out/gta6_launch/chapter1/`: `edl.json` (hook moments, title shot, 13 parts of source segments with
+  `pops` = text pop-ups and `zooms` = punch-ins), `edit.py` (renders each piece with NVENC h264 - the RTX 3050 encodes 1080p60
+  fast - then concat copy; writes `chapter1.mp4`, `chapters.txt`, `timeline.json`), `ocr_subs.py` (RapidOCR 1.4.4 in the
+  venv reads the game's burnt-in subtitles at 2 fps -> `subs_raw.json`; the Whisper transcript of this stream is too poor for
+  captions), `make_srt.py` (-> `chapter1.en.srt` for the YouTube caption upload, swear words masked as f*** etc.),
+  `description.txt`, `thumb.jpg`. The whole launch recording was strict-scanned (`gta6_launch/full/`): 45 hits inside the
+  edit, all false alarms. Not uploaded - YouTube strike; shown to the owner in VLC first.
 - `backend/scripts/specs/gameplay/<plan>.json` - cut plans for the owner's own stream recordings.
 - `backend/scripts/specs/games/yugioh_NN_<card>.json` - Yu-Gi-Oh card explainers (owner 2026-11-16: "har card ke bare me
   batao english me ki kya he kya karta he and kaise use karna he" + "players ke best cards" videos). Format: what it is
@@ -524,6 +540,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-21 - GTA 6 day-4 recording: plan `gta6_day4` (102 shorts + 10 long); first edited YouTube video - "GTA 6 Chapter 1" (31:46, hook + chapter cards + text pop-ups + zooms, English SRT from OCR of the game subtitles).
 - 2026-11-20 - Evolution shorts: Gigantamax clearly different from Dynamax (changed body, type colour), fan Mega as an edit, free ZeroGPU fallback, no short without its forms; GTA 6 day-3b plan grown to 102 shorts.
 - 2026-11-20 - GTA 6 day-3 recordings: plans `gta6_day3a` (3 shorts) + `gta6_day3b` (72 shorts + 8 long).
 - 2026-11-20 - Both Facebook Pages wiped on the owner's request (lists in `fb_gaming_backup/`, `fb_main_backup/`; the owner's 103 own gaming clips downloaded first); automatic posting to both paused (`store.FB_GAMING_PAUSED`, `FB_MAIN_PAUSED`).

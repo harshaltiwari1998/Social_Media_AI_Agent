@@ -1,0 +1,883 @@
+{
+ "name": "gta6_day4",
+ "source": "F:/AI AGENT/VIDEOS GAMING/2026-11-20 21-44-13.mp4",
+ "game": "GTA 6",
+ "title_tag": "GTA 6",
+ "post_line": "GTA 6 gameplay from my live stream - full stream on the channel.",
+ "tags": [
+  "GTA 6",
+  "GTA VI",
+  "Grand Theft Auto VI",
+  "GTA 6 gameplay",
+  "Jason",
+  "Lucia",
+  "Leonida",
+  "Vice City",
+  "GTA 6 story",
+  "Rockstar Games",
+  "Gaming",
+  "HarryBeast"
+ ],
+ "note": "2:56:14 recording of 20 Nov 2026 (21:44). No doubled game audio (echo peak 0.03-0.08; two 0.28-0.34 spots are music). Picked from 10 s sheets + GPU transcript; strict 2 fps NudeNet in check/strict.json.",
+ "shorts": [
+  {
+   "start": 225,
+   "dur": 56,
+   "title": "Riding Past a Police Takedown"
+  },
+  {
+   "start": 470,
+   "dur": 58,
+   "title": "Dirt Bike Ride Into the Storm"
+  },
+  {
+   "start": 540,
+   "dur": 58,
+   "title": "Bike Crash Then I Took His Sports Car"
+  },
+  {
+   "start": 596,
+   "dur": 56,
+   "title": "Sports Car vs Swamp"
+  },
+  {
+   "start": 735,
+   "dur": 56,
+   "title": "The Burning Plane Wreck"
+  },
+  {
+   "start": 850,
+   "dur": 56,
+   "title": "Looting the Crash Site"
+  },
+  {
+   "start": 930,
+   "dur": 58,
+   "title": "Crime Reported - ATV Escape"
+  },
+  {
+   "start": 1000,
+   "dur": 58,
+   "title": "ATV Through Flamingo Swamp"
+  },
+  {
+   "start": 1080,
+   "dur": 56,
+   "title": "Gator Next to the Trail"
+  },
+  {
+   "start": 1170,
+   "dur": 58,
+   "title": "The Fisherman on the Dock"
+  },
+  {
+   "start": 1240,
+   "dur": 56,
+   "title": "Looting a Police Car"
+  },
+  {
+   "start": 1400,
+   "dur": 58,
+   "title": "Stilt House in Gator Country"
+  },
+  {
+   "start": 1470,
+   "dur": 58,
+   "title": "Searching the Swamp Shack"
+  },
+  {
+   "start": 1560,
+   "dur": 58,
+   "title": "Stealing an Airboat"
+  },
+  {
+   "start": 1650,
+   "dur": 58,
+   "title": "ATV River Crossing"
+  },
+  {
+   "start": 1735,
+   "dur": 56,
+   "title": "Stealing an SUV"
+  },
+  {
+   "start": 1860,
+   "dur": 56,
+   "title": "Through the Toll Booth"
+  },
+  {
+   "start": 2080,
+   "dur": 58,
+   "title": "Donnie's Trailer Stash"
+  },
+  {
+   "start": 2230,
+   "dur": 58,
+   "title": "Brian Has a New Job"
+  },
+  {
+   "start": 2345,
+   "dur": 58,
+   "title": "Pressure Washing Brian's Boat"
+  },
+  {
+   "start": 2405,
+   "dur": 58,
+   "title": "Lucia Meets Brian's Crew"
+  },
+  {
+   "start": 2470,
+   "dur": 56,
+   "title": "Off to the Seaplane"
+  },
+  {
+   "start": 2526,
+   "dur": 58,
+   "title": "Taking Lucia Flying"
+  },
+  {
+   "start": 2590,
+   "dur": 58,
+   "title": "Low Flying Over the Keys"
+  },
+  {
+   "start": 2650,
+   "dur": 50,
+   "title": "Landing Next to the Fishing Boat"
+  },
+  {
+   "start": 2700,
+   "dur": 40,
+   "title": "Hooking the Packages"
+  },
+  {
+   "start": 2740,
+   "dur": 58,
+   "title": "The Deal Goes Wrong at Sea"
+  },
+  {
+   "start": 2810,
+   "dur": 58,
+   "title": "Air Drop Over the Swamp"
+  },
+  {
+   "start": 2900,
+   "dur": 58,
+   "title": "Water Landing in the Swamp"
+  },
+  {
+   "start": 3020,
+   "dur": 58,
+   "title": "Flying Over Vice City"
+  },
+  {
+   "start": 3100,
+   "dur": 58,
+   "title": "Cops at the House"
+  },
+  {
+   "start": 3160,
+   "dur": 58,
+   "title": "Lucia's Parole Check"
+  },
+  {
+   "start": 3220,
+   "dur": 58,
+   "title": "Jason Covers for Lucia"
+  },
+  {
+   "start": 3278,
+   "dur": 56,
+   "title": "After the Parole Officer Leaves"
+  },
+  {
+   "start": 3415,
+   "dur": 56,
+   "title": "Morning With Lucia"
+  },
+  {
+   "start": 3600,
+   "dur": 56,
+   "title": "Back to Donnie's Trailer"
+  },
+  {
+   "start": 3716,
+   "dur": 58,
+   "title": "Pickup Chaos at the Junction"
+  },
+  {
+   "start": 3840,
+   "dur": 58,
+   "title": "Stealing a Sports Car on the Bridge"
+  },
+  {
+   "start": 3900,
+   "dur": 58,
+   "title": "Sneaking Past the Gate"
+  },
+  {
+   "start": 3960,
+   "dur": 56,
+   "title": "Stealing a UTV"
+  },
+  {
+   "start": 4020,
+   "dur": 58,
+   "title": "Running Along the Beach"
+  },
+  {
+   "start": 4078,
+   "dur": 58,
+   "title": "Bus Off-Roading"
+  },
+  {
+   "start": 4180,
+   "dur": 58,
+   "title": "Motorbike Wipeout"
+  },
+  {
+   "start": 4240,
+   "dur": 56,
+   "title": "Breaking Into a Car"
+  },
+  {
+   "start": 4370,
+   "dur": 58,
+   "title": "Overseas Highway Drive"
+  },
+  {
+   "start": 4440,
+   "dur": 58,
+   "title": "Donnie at the Seaplane"
+  },
+  {
+   "start": 4500,
+   "dur": 58,
+   "title": "Brian at the Bar"
+  },
+  {
+   "start": 4560,
+   "dur": 56,
+   "title": "Meet Pete the Pilot"
+  },
+  {
+   "start": 4620,
+   "dur": 58,
+   "title": "Brian's Plan for Pete"
+  },
+  {
+   "start": 4690,
+   "dur": 58,
+   "title": "Seaplane Takeoff"
+  },
+  {
+   "start": 4760,
+   "dur": 58,
+   "title": "Escorting Pete's Plane"
+  },
+  {
+   "start": 4820,
+   "dur": 56,
+   "title": "Static on the Radio"
+  },
+  {
+   "start": 4900,
+   "dur": 58,
+   "title": "Flying Above the Clouds"
+  },
+  {
+   "start": 5000,
+   "dur": 58,
+   "title": "Landing at the Airstrip"
+  },
+  {
+   "start": 5090,
+   "dur": 58,
+   "title": "The Biker Hangar"
+  },
+  {
+   "start": 5150,
+   "dur": 58,
+   "title": "The Bikers Arrive"
+  },
+  {
+   "start": 5280,
+   "dur": 58,
+   "title": "Hangar Shootout"
+  },
+  {
+   "start": 5345,
+   "dur": 58,
+   "title": "Finding Donnie"
+  },
+  {
+   "start": 5485,
+   "dur": 50,
+   "title": "Getting Donnie Out"
+  },
+  {
+   "start": 5510,
+   "dur": 58,
+   "title": "Airfield Firefight"
+  },
+  {
+   "start": 5600,
+   "dur": 58,
+   "title": "Bike Escape Off the Runway"
+  },
+  {
+   "start": 5660,
+   "dur": 58,
+   "title": "Following Donnie"
+  },
+  {
+   "start": 5730,
+   "dur": 56,
+   "title": "Donnie Flies Off"
+  },
+  {
+   "start": 6150,
+   "dur": 58,
+   "title": "Jason's Secret Stash"
+  },
+  {
+   "start": 6290,
+   "dur": 58,
+   "title": "Driving Lucia to Work"
+  },
+  {
+   "start": 6350,
+   "dur": 58,
+   "title": "Lucia's First Day"
+  },
+  {
+   "start": 6440,
+   "dur": 58,
+   "title": "Beat-Up Pickup"
+  },
+  {
+   "start": 6515,
+   "dur": 58,
+   "title": "Coastal Auto Care"
+  },
+  {
+   "start": 6575,
+   "dur": 58,
+   "title": "Pickup Upgrades"
+  },
+  {
+   "start": 6745,
+   "dur": 58,
+   "title": "Cinematic Camera Mode"
+  },
+  {
+   "start": 6900,
+   "dur": 58,
+   "title": "Cruising the Keys"
+  },
+  {
+   "start": 6960,
+   "dur": 50,
+   "title": "Road Rage"
+  },
+  {
+   "start": 7020,
+   "dur": 58,
+   "title": "Rusty Anchor Pool Hall"
+  },
+  {
+   "start": 7140,
+   "dur": 58,
+   "title": "Pool Shots"
+  },
+  {
+   "start": 7250,
+   "dur": 58,
+   "title": "Pool Battle"
+  },
+  {
+   "start": 7330,
+   "dur": 58,
+   "title": "Pool Trick Shots"
+  },
+  {
+   "start": 7510,
+   "dur": 58,
+   "title": "Winning the 8 Ball"
+  },
+  {
+   "start": 7740,
+   "dur": 58,
+   "title": "Over the Bridges"
+  },
+  {
+   "start": 7800,
+   "dur": 58,
+   "title": "Off-Road Pickup"
+  },
+  {
+   "start": 7990,
+   "dur": 58,
+   "title": "The Old Iron Bridge"
+  },
+  {
+   "start": 8090,
+   "dur": 58,
+   "title": "Sniper on the Beach Camp"
+  },
+  {
+   "start": 8180,
+   "dur": 52,
+   "title": "Beach Camp Showdown"
+  },
+  {
+   "start": 8265,
+   "dur": 58,
+   "title": "Wading Through the Water"
+  },
+  {
+   "start": 8345,
+   "dur": 58,
+   "title": "Back Road Escape"
+  },
+  {
+   "start": 8500,
+   "dur": 58,
+   "title": "The Abandoned Shacks"
+  },
+  {
+   "start": 8657,
+   "dur": 56,
+   "title": "Airboat at the Hideout"
+  },
+  {
+   "start": 8820,
+   "dur": 58,
+   "title": "Sniping From the Grass"
+  },
+  {
+   "start": 8880,
+   "dur": 58,
+   "title": "Sneaking In"
+  },
+  {
+   "start": 8940,
+   "dur": 58,
+   "title": "Swamp Crawl"
+  },
+  {
+   "start": 9000,
+   "dur": 58,
+   "title": "The Trailer Hideout"
+  },
+  {
+   "start": 9180,
+   "dur": 58,
+   "title": "Cracking the Safe"
+  },
+  {
+   "start": 9310,
+   "dur": 58,
+   "title": "Dirt Road Drive"
+  },
+  {
+   "start": 9370,
+   "dur": 58,
+   "title": "Bridge Over the Creek"
+  },
+  {
+   "start": 9540,
+   "dur": 58,
+   "title": "Gas Station Stop"
+  },
+  {
+   "start": 9800,
+   "dur": 58,
+   "title": "Alan Needs a Ride"
+  },
+  {
+   "start": 9860,
+   "dur": 58,
+   "title": "Alan Coleman of Coleman Wealth Management"
+  },
+  {
+   "start": 9918,
+   "dur": 58,
+   "title": "The Cheeky Mutineer"
+  },
+  {
+   "start": 10010,
+   "dur": 58,
+   "title": "Searching for Janet"
+  },
+  {
+   "start": 10126,
+   "dur": 54,
+   "title": "Asking Around the Bar"
+  },
+  {
+   "start": 10180,
+   "dur": 58,
+   "title": "Sunset Rush"
+  },
+  {
+   "start": 10396,
+   "dur": 50,
+   "title": "Alan Pays His Debts"
+  },
+  {
+   "start": 10505,
+   "dur": 58,
+   "title": "Night Drive Home"
+  }
+ ],
+ "longs": [
+  {
+   "title": "GTA 6 The Lost Package - Plane Crash and a Swamp Escape",
+   "description": "Jason goes after one of Donnie's lost packages: a bike crash, a stolen sports car in the swamp, the burning plane wreck and an ATV escape through flamingo country.",
+   "thumb_text": "GTA 6 - Plane Crash",
+   "segments": [
+    {
+     "start": 540,
+     "dur": 135,
+     "label": "Bike Crash and a Stolen Sports Car"
+    },
+    {
+     "start": 690,
+     "dur": 25,
+     "label": "The Crash Site"
+    },
+    {
+     "start": 735,
+     "dur": 90,
+     "label": "Searching the Wreck"
+    },
+    {
+     "start": 850,
+     "dur": 220,
+     "label": "Escape Through the Swamp"
+    }
+   ]
+  },
+  {
+   "title": "GTA 6 Gator Country - Stilt House, Airboat and Donnie's Trailer",
+   "description": "Through the swamp: the dock, a looted police car, the stilt house, stealing an airboat and an SUV, and stashing the package at Donnie's trailer.",
+   "thumb_text": "GTA 6 - Gator Country",
+   "segments": [
+    {
+     "start": 1080,
+     "dur": 220,
+     "label": "The Dock and the Police Car"
+    },
+    {
+     "start": 1400,
+     "dur": 230,
+     "label": "Stilt House and the Airboat"
+    },
+    {
+     "start": 1640,
+     "dur": 160,
+     "label": "ATV and a Stolen SUV"
+    },
+    {
+     "start": 2040,
+     "dur": 120,
+     "label": "Donnie's Trailer"
+    }
+   ]
+  },
+  {
+   "title": "GTA 6 Brian's Seaplane Deal With Lucia - Full Mission",
+   "description": "Brian's boatyard, then Jason takes Lucia flying: the pick-up at sea goes wrong, the air drop over the swamp and the flight home.",
+   "thumb_text": "GTA 6 - Seaplane Deal",
+   "segments": [
+    {
+     "start": 2220,
+     "dur": 300,
+     "label": "Brian's Boatyard"
+    },
+    {
+     "start": 2520,
+     "dur": 280,
+     "label": "Taking Lucia Flying"
+    },
+    {
+     "start": 2800,
+     "dur": 200,
+     "label": "The Air Drop"
+    },
+    {
+     "start": 3010,
+     "dur": 100,
+     "label": "Flying Home"
+    }
+   ]
+  },
+  {
+   "title": "GTA 6 Lucia's Parole Officer Shows Up",
+   "description": "Cops at the house: the parole officer checks on Lucia and Jason covers for her, then a quiet morning at home.",
+   "thumb_text": "GTA 6 - Parole Check",
+   "segments": [
+    {
+     "start": 3110,
+     "dur": 245,
+     "label": "The Parole Officer"
+    },
+    {
+     "start": 3410,
+     "dur": 130,
+     "label": "The Morning After"
+    }
+   ]
+  },
+  {
+   "title": "GTA 6 Escorting Pete's Plane - Full Mission",
+   "description": "Brian at the bar, Pete the pilot, and a long escort flight over the Keys to the airstrip.",
+   "thumb_text": "GTA 6 - Escort Flight",
+   "segments": [
+    {
+     "start": 4440,
+     "dur": 250,
+     "label": "Brian and Pete"
+    },
+    {
+     "start": 4690,
+     "dur": 285,
+     "label": "The Escort Flight"
+    },
+    {
+     "start": 4995,
+     "dur": 105,
+     "label": "Landing at the Airstrip"
+    }
+   ]
+  },
+  {
+   "title": "GTA 6 Biker Hangar Shootout and Donnie's Rescue",
+   "description": "The deal with the bikers at the hangar goes bad: a shootout, getting Donnie out and the bike escape off the runway.",
+   "thumb_text": "GTA 6 - Hangar Shootout",
+   "segments": [
+    {
+     "start": 5090,
+     "dur": 190,
+     "label": "The Biker Hangar"
+    },
+    {
+     "start": 5280,
+     "dur": 125,
+     "label": "Shootout"
+    },
+    {
+     "start": 5485,
+     "dur": 115,
+     "label": "Getting Donnie Out"
+    },
+    {
+     "start": 5600,
+     "dur": 220,
+     "label": "Bike Escape"
+    }
+   ]
+  },
+  {
+   "title": "GTA 6 Home Life - Lucia's Job and Car Mods",
+   "description": "Back home, Jason's secret stash, driving Lucia to work and upgrading the pickup at Coastal Auto Care.",
+   "thumb_text": "GTA 6 - Home Life",
+   "segments": [
+    {
+     "start": 5820,
+     "dur": 60,
+     "label": "Back Home"
+    },
+    {
+     "start": 6145,
+     "dur": 275,
+     "label": "Lucia's First Day"
+    },
+    {
+     "start": 6440,
+     "dur": 230,
+     "label": "Coastal Auto Care"
+    }
+   ]
+  },
+  {
+   "title": "GTA 6 Pool at the Rusty Anchor - Full Game",
+   "description": "A full game of pool against a local at the Rusty Anchor bar.",
+   "thumb_text": "GTA 6 - Pool Game",
+   "segments": [
+    {
+     "start": 7010,
+     "dur": 390,
+     "label": "Breaking"
+    },
+    {
+     "start": 7410,
+     "dur": 78,
+     "label": "The Comeback"
+    },
+    {
+     "start": 7500,
+     "dur": 78,
+     "label": "The 8 Ball"
+    }
+   ]
+  },
+  {
+   "title": "GTA 6 Hunting Trip - Beach Camp and the Swamp Hideout",
+   "description": "Into the wild with a sniper rifle: the beach camp, the abandoned shacks, the swamp crawl and cracking the safe in the trailer.",
+   "thumb_text": "GTA 6 - Swamp Hideout",
+   "segments": [
+    {
+     "start": 7860,
+     "dur": 375,
+     "label": "The Beach Camp"
+    },
+    {
+     "start": 8260,
+     "dur": 65,
+     "label": "Through the Water"
+    },
+    {
+     "start": 8340,
+     "dur": 285,
+     "label": "The Abandoned Shacks"
+    },
+    {
+     "start": 8657,
+     "dur": 603,
+     "label": "The Trailer Hideout"
+    }
+   ]
+  },
+  {
+   "title": "GTA 6 Alan and Janet - The Missing Wife",
+   "description": "Alan Coleman of Coleman Wealth Management needs a ride and his wife Janet is missing - from the Cheeky Mutineer to La Medusa at sunset.",
+   "thumb_text": "GTA 6 - Missing Wife",
+   "segments": [
+    {
+     "start": 9800,
+     "dur": 311,
+     "label": "Alan Needs a Ride"
+    },
+    {
+     "start": 10126,
+     "dur": 154,
+     "label": "Looking for Janet"
+    },
+    {
+     "start": 10396,
+     "dur": 59,
+     "label": "Alan Pays His Debts"
+    }
+   ]
+  }
+ ],
+ "excluded": [
+  {
+   "start": 180,
+   "end": 215,
+   "why": "map menu while the owner asks out loud for the strip club - never use"
+  },
+  {
+   "start": 675,
+   "end": 690,
+   "why": "body on the ground next to the ATV"
+  },
+  {
+   "start": 715,
+   "end": 735,
+   "why": "bodies at the burning plane crash"
+  },
+  {
+   "start": 825,
+   "end": 850,
+   "why": "bodies with blood after the swamp shootout"
+  },
+  {
+   "start": 3355,
+   "end": 3405,
+   "why": "Jason and Lucia in bed (dark bedroom morning scene)"
+  },
+  {
+   "start": 3705,
+   "end": 3716,
+   "why": "crude line in the subtitles"
+  },
+  {
+   "start": 4975,
+   "end": 4995,
+   "why": "crude sexual lines on the radio"
+  },
+  {
+   "start": 5405,
+   "end": 5485,
+   "why": "dead bodies and blood pools in the hangar, top-down, Jason shooting a downed biker, crude line"
+  },
+  {
+   "start": 5880,
+   "end": 6045,
+   "why": "coffee table: low camera on Lucia kneeling in sleep shorts + tank top, then the couch - suggestive framing, left out"
+  },
+  {
+   "start": 6045,
+   "end": 6145,
+   "why": "night scene: kiss, then Jason and Lucia in bed"
+  },
+  {
+   "start": 7400,
+   "end": 7410,
+   "why": "crude line about a choke hold"
+  },
+  {
+   "start": 7488,
+   "end": 7500,
+   "why": "crude sexual line"
+  },
+  {
+   "start": 7578,
+   "end": 7590,
+   "why": "phone message with a selfie photo - not checked closely"
+  },
+  {
+   "start": 7635,
+   "end": 7665,
+   "why": "bar toilet"
+  },
+  {
+   "start": 8235,
+   "end": 8260,
+   "why": "bloody body at the beach camp"
+  },
+  {
+   "start": 8325,
+   "end": 8340,
+   "why": "body on the sand"
+  },
+  {
+   "start": 8625,
+   "end": 8657,
+   "why": "bloody body on the dock"
+  },
+  {
+   "start": 9715,
+   "end": 9725,
+   "why": "map menu, owner asks for the strip club"
+  },
+  {
+   "start": 10111,
+   "end": 10126,
+   "why": "phone video of Janet partying (fast cuts, people half seen) - left out"
+  },
+  {
+   "start": 10280,
+   "end": 10395,
+   "why": "night pool party at the house - people in swimwear, never use"
+  },
+  {
+   "start": 10455,
+   "end": 10500,
+   "why": "phone social media feed (photos of people)"
+  }
+ ]
+}

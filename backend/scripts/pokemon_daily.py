@@ -293,6 +293,90 @@ FAN_PROMPT = {
              "exactly one face with two eyes."),
 }
 
+# Owner 2026-11-21 ("kya sabhi ke gigantamax same rahenge", "Salamence ka gigantamax kaha he"): the one "gmax" prompt above
+# buried every Pokemon in the same mane of type-coloured flames - Haxorus and Salamence both came out as a blue flame
+# blob, Salamence's red wings were gone. Official G-Max forms change ONE signature part of the Pokemon in its own way
+# (Charizard's flame wings, Lapras' ice crown, Gengar's giant mouth), so each Pokemon gets its own design here:
+# (what changes, RGB of the evolve-clip tint, colour named in the Wan prompt, what moves in the Wan clip).
+GMAX_DESIGN = {
+    "salamence": ("its two red crescent wings grow into two COLOSSAL red crescent wings, each wider than its whole body, "
+                  "with white jet-stream trails streaming from the wing tips, and a ring of swirling white storm clouds "
+                  "orbits its waist like a cyclone", (230, 60, 70), "crimson", "its colossal red wings beat slowly"),
+    "haxorus": ("the two red-edged tusks on the sides of its jaw THEMSELVES grow into two HUGE glowing golden axe-blade "
+                "tusks, each longer than its body, still attached to its jaw; its hands stay empty claws and it holds NO "
+                "weapon; a row of tall golden armour plates rises along its back and tail", (255, 190, 40), "golden",
+                "its giant axe tusks gleam and it swings its head"),
+    "flygon": ("its diamond wings become FOUR giant green wings with red rims, a spinning sand tornado at each wing tip, "
+               "its red eye covers glow and a sandstorm ring circles its feet", (215, 170, 80), "sandy gold",
+               "its four giant wings beat and the sand tornadoes spin"),
+    "hydreigon": ("its six black wings become six HUGE black wings edged with violet flames, and each of its three "
+                  "heads wears a glowing magenta crown of spikes", (170, 60, 220), "violet",
+                  "its six huge wings spread and its three heads look around"),
+    "feraligatr": ("its red back spikes grow into a giant crashing tidal wave that rises along its back like an enormous "
+                   "fin, and its jaws glow blue", (40, 140, 255), "ocean blue", "the giant wave on its back churns"),
+    "typhlosion": ("its flame collar erupts into a towering volcano-shaped ring of fire around its neck, taller than its "
+                   "body, with glowing lava cracks on its legs", (255, 110, 20), "orange", "the volcano of flames on its "
+                   "neck roars upward"),
+    "meganium": ("the petals around its neck grow into one GIGANTIC pink flower like a parasol above it, raining glowing "
+                 "golden pollen, with long flowering vines hanging from it", (255, 150, 200), "pink",
+                 "the giant flower sways and golden pollen falls"),
+    "empoleon": ("its trident crest grows into a giant golden trident crown and its flipper blades become huge icy steel "
+                 "blades, with an ice cape flowing from its shoulders", (150, 210, 255), "icy blue",
+                 "its icy cape flows and its blades shine"),
+    "torterra": ("the tree on its back grows into a GIANT ancient tree with a wide canopy and a small waterfall, and its "
+                 "rocky shell rises into mountain peaks", (90, 190, 80), "forest green",
+                 "the giant tree's leaves sway and the waterfall flows"),
+    "decidueye": ("its hooded cloak grows into a huge flowing cloak of leaves like a forest, and its arrow quill becomes "
+                  "a giant glowing green longbow made of vines", (60, 200, 90), "emerald", "its leaf cloak flows and it "
+                  "draws the giant bow"),
+    "incineroar": ("its flame belt becomes a giant blazing champion belt and huge flame gauntlets cover its forearms",
+                   (255, 80, 30), "red-orange", "it flexes and the flame gauntlets blaze"),
+    "primarina": ("its long hair becomes a HUGE flowing gown of water and bubbles and a crown of water crystals sits on its "
+                  "head", (90, 170, 255), "aqua", "the gown of water flows and bubbles rise"),
+    "meowscarada": ("its cape of leaves becomes a GIANT magician's cape of flower petals and a ring of glowing flower bombs "
+                    "floats around it", (230, 70, 150), "magenta", "its petal cape flutters and the flower bombs orbit"),
+    "skeledirge": ("the little fire bird on its head becomes a GIANT blazing phoenix of flames spreading its wings above "
+                   "it", (255, 140, 40), "orange", "the flaming phoenix on its head spreads its wings"),
+    "quaquaval": ("its head feathers grow into a giant carnival headdress of water feathers and its leg feathers become "
+                  "long flowing water ribbons", (60, 180, 255), "turquoise", "the water ribbons swirl as it poses"),
+    "arcanine": ("its mane grows into a HUGE blazing sun-like mane of fire and its tail becomes a long comet of flames",
+                 (255, 150, 40), "golden orange", "its sun mane blazes"),
+    "ninetales": ("its nine tails grow into nine ENORMOUS tails of pale blue foxfire fanned out behind it like a peacock",
+                  (140, 190, 255), "pale blue", "its nine giant tails wave"),
+    "crobat": ("its four wings become four GIANT purple wings in an X shape with poison mist dripping from the tips",
+               (170, 70, 200), "purple", "its four giant wings flap"),
+    "scizor": ("its pincers grow into two GIANT red steel hammer claws with glowing eye patterns, and its wings become "
+               "big steel blades", (220, 50, 50), "steel red", "it raises its giant hammer claws"),
+    "serperior": ("its leaf collar grows into a huge royal crown of leaves and its body coils into a giant spiral with a "
+                  "long train of leaves", (90, 200, 90), "royal green", "its long leaf train flows"),
+    "emboar": ("its fiery beard grows into a giant blazing beard and mane of fire, and flame gauntlets cover its arms",
+               (255, 90, 30), "orange", "its blazing beard roars"),
+    "samurott": ("its shell blades become two HUGE glowing water katanas and its helmet horn grows into a long sweeping "
+                 "crest", (70, 150, 230), "steel blue", "it raises the giant water katanas"),
+    "delphox": ("its stick becomes a GIANT flaming magic staff and its robe-like fur grows into a huge flowing robe of "
+                "fire", (255, 110, 60), "flame red", "it spins the giant staff"),
+    "chesnaught": ("its shell grows into a GIANT spiked fortress shield on its arm and its spikes glow green",
+                   (110, 180, 60), "green", "it raises the giant shield"),
+    "goodra": ("its antennae grow very long and glowing and its body slime pours down like a waterfall, with a small rain "
+               "cloud above its head", (170, 120, 220), "lavender", "the slime waterfall flows and rain falls"),
+    "kommo-o": ("its scales grow into giant golden armour scales like bells and its head crest becomes a huge golden "
+                "scale crown", (255, 200, 60), "gold", "its golden scales shake and shine"),
+}
+FAN_GMAX_ONE = ("Edit this picture of the Pokemon {name} into its GIGANTAMAX form. Change ONLY this, like an official "
+                "Gigantamax form: {design}. Everything else stays EXACTLY like the picture: the same head, face, eyes, "
+                "snout, horns, legs and pose, the same {colour} body colours. The whole body stays clearly visible - do "
+                "NOT cover it with fire, flames, smoke, aura or energy, NO mane of energy around the body. Angry glaring "
+                "eyes, menacing, NOT cute. Plain pure white background (#FFFFFF), nothing behind it, no ground, no text. "
+                "Official Pokemon artwork style, ONE creature only, exactly one face per head.")
+# Owner 2026-11-21 "Salamence ka to animation ekdum bakwas he": Wan turned Mega Salamence into a standing humanoid with
+# ghost rings (twice, also with a hover pose) and gave Salamence a second translucent face - these get the local idle
+# animation (fal_video.idle_clip: breathing, aura, particles) instead of a Wan clip.
+LOCAL_ANIM = {"salamence", "salamence-mega"}
+# Wan poses (2026-11-21, Mega Salamence: "stands tall" made Wan stand it up like a person, with ghost rings around it)
+POSE = {"salamence": "the dragon stays low on its four legs", "salamence-mega": "the dragon hovers in the air with its "
+        "crescent wings spread wide, it does NOT stand up on two legs, its body keeps the same shape",
+        "flygon": "it stays on its legs with its wings spread", "haxorus": "it stays on its two legs"}
+
 
 def _main_colour(art) -> str:
     """Rough name of the art's main colour (Groudon -> red): Gigantamax Groudon kept coming out beige ("sand") until
@@ -324,7 +408,9 @@ def fan_form(slug: str, kind: str) -> str:
     by Qwen-Image-Edit through HF Inference Providers, background cut out. Cached as CACHE/art/fan_<kind>_<slug>.png."""
     from PIL import Image
 
-    out = CACHE / "art" / f"fan_{kind}{'_v2' if kind == 'gmax' else ''}_{slug}.png"  # v2: changed body, type colour
+    design = GMAX_DESIGN.get(slug) if kind == "gmax" else None
+    # v2: changed body, type colour; v3: the Pokemon's own design (GMAX_DESIGN, 2026-11-21)
+    out = CACHE / "art" / f"fan_{kind}{('_v3' if design else '_v2') if kind == 'gmax' else ''}_{slug}.png"
     if out.exists():
         return str(out)
     out.parent.mkdir(parents=True, exist_ok=True)
@@ -336,7 +422,8 @@ def fan_form(slug: str, kind: str) -> str:
     ref.save(ref_path)
     types = _types(slug)
     extra = PARTS.get(slug, "")
-    prompt = extra + FAN_PROMPT[kind].format(name=_name(slug), types=" and ".join(types), colour=_main_colour(art),
+    template = FAN_GMAX_ONE.replace("{design}", design[0]) if design else FAN_PROMPT[kind]
+    prompt = extra + template.format(name=_name(slug), types=" and ".join(types), colour=_main_colour(art),
                                      fx=ENERGY.get(types[0], "glowing energy"), tcol=TYPE_TINT.get(types[0], ((0,), "golden"))[1])
     # HF credits first, the free ZeroGPU Space when they are gone (credits ran out 2026-11-17: Axew, Bagon and Deino were
     # built on 2026-11-20 with no fan form at all)
@@ -407,8 +494,12 @@ def storyboard(entry: dict) -> dict:
     reveal = (f"the creature stands in place and looks around proudly with small natural movements, a few {fx} drift "
               f"around it, {face}, anime style, smooth gentle animation, camera slowly pushes in")
     finale = f"the creature roars and unleashes a powerful attack of {fx}, epic low angle camera, anime style, dynamic motion"
-    wan = lambda who, prompt, fade=0.0: {"image": {"poke": who, "background": bg}, "shots": [[prompt, 5]],  # noqa: E731
-                                         **({"white_in": fade} if fade else {})}
+    def wan(who, prompt, fade=0.0):
+        if who in LOCAL_ANIM:  # Wan breaks this design - animated locally, the art can never change shape
+            col = list(TYPE_TINT.get(_types(who)[-1], ((140, 190, 255), ""))[0])
+            return {"idle": who, "background": bg, "seconds": 5, "color": col,
+                    "mode": "power" if "-mega" in who else "idle", **({"white_in": fade} if fade else {})}
+        return {"image": {"poke": who, "background": bg}, "shots": [[prompt, 5]], **({"white_in": fade} if fade else {})}
     evolve = lambda a, b, mega=False: {"evolve": [a, b], "background": bg, "seconds": 3.2, "mega": mega}  # noqa: E731
     outro = (f"Who is your favourite {t.title()}-type Pokemon? Comment below!" if not forms
              else f"{'Primal, ' if entry.get('primal') else ''}Mega, Dynamax or Gigantamax, which form is your favourite? "
@@ -416,7 +507,8 @@ def storyboard(entry: dict) -> dict:
     clips, narration = [wan(s[0], idle)], [f"{names[0]} is getting ready for something big."]
     for k in range(1, len(s)):
         last = k == len(s) - 1
-        clips += [evolve(s[k - 1], s[k]), wan(s[k], finale if last and not (megas or forms) else reveal, 0.6)]
+        shown = finale if last and not (megas or forms) else reveal
+        clips += [evolve(s[k - 1], s[k]), wan(s[k], f"{POSE[s[k]]}, {shown}" if s[k] in POSE else shown, 0.6)]
         narration += [f"Oh? {names[k - 1]} is evolving!",
                       f"{names[k - 1]} evolved into {names[k]}!" + ("" if not last else
                                                                     " But it is not over yet." if megas or forms
@@ -435,7 +527,8 @@ def storyboard(entry: dict) -> dict:
         clips += [evolve(s[-1], m, mega=True),
                   # "{mfx} and rainbow energy explode around it" hid Mega Dragonite behind a white blast for the whole
                   # clip (2026-11-17): the Mega must stay clearly visible
-                  wan(m, f"the creature stands tall and looks around confidently with its mouth closed, its face keeps "
+                  wan(m, f"{POSE.get(m, 'the creature stands tall')} and looks around confidently with its mouth "
+                         f"closed, its face keeps "
                          f"exactly the same shape, a glowing rainbow aura shines around its outline, "
                          f"a few {mfx} drift around it, the creature stays fully visible and in focus the whole time, "
                          f"epic low angle camera slowly pushes in, anime style, {_KEEP}", 0.6)]
@@ -460,12 +553,20 @@ def storyboard(entry: dict) -> dict:
             fan_g = not entry.get("gmax")
             gtype = _types(s[-1])[0]
             (grgb, gcol), gfx = TYPE_TINT.get(gtype, ((255, 200, 80), "golden")), ENERGY.get(gtype, fx)
+            design = GMAX_DESIGN.get(s[-1]) if fan_g else None
+            if design:  # its own colour + motion; nothing swirls over the body (Salamence vanished in blue flames)
+                grgb, gcol = design[1], design[2]
+                gprompt = (f"the colossal creature glares down menacingly with its mouth closed, {design[3]}, "
+                           f"{POSE.get(s[-1], 'it keeps its pose')}, its face keeps exactly the same shape, a few small "
+                           f"{gcol} sparks drift in the air, nothing covers its body, its colours stay exactly the same, it "
+                           f"stays fully visible, epic low angle camera, anime style, {_KEEP}")
+            else:
+                gprompt = ("the colossal creature glares down menacingly with its mouth closed and breathes heavily, its "
+                           f"face keeps exactly the same shape, huge {gfx} swirl around its giant body, {gcol} energy "
+                           f"patterns pulse across it, {gcol} light fills the sky, its colours stay exactly the same, "
+                           f"it stays fully visible, epic low angle camera, anime style, {_KEEP}")
             # not red like the Dynamax (owner 2026-11-20: they are different and must look different)
-            clips += [{**evolve(s[-1], gmax), "tint": list(grgb)},
-                      wan(gmax, "the colossal creature glares down menacingly with its mouth closed and breathes heavily, its "
-                                f"face keeps exactly the same shape, huge {gfx} swirl around its giant body, {gcol} energy "
-                                f"patterns pulse across it, {gcol} light fills the sky, its colours stay exactly the same, "
-                                f"it stays fully visible, epic low angle camera, anime style, {_KEEP}", 0.6)]
+            clips += [{**evolve(s[-1], gmax), "tint": list(grgb)}, wan(gmax, gprompt, 0.6)]
             narration.append(f"{names[-1]} cannot Gigantamax in the games, so here is a fan-made Gigantamax form!" if fan_g
                              else f"And {names[-1]} has even more power. Gigantamax!")
             narration.append(f"{'Fan-made ' if fan_g else ''}Gigantamax {names[-1]}! {outro}")

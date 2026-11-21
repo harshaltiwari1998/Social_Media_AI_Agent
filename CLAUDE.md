@@ -103,6 +103,16 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   that leaves the border solid falls back to rembg. A form that cannot be drawn now FAILS the line (retried next run)
   instead of posting it without. `PARTS` adds body-part notes per Pokemon. Mega Hydreigon failed 6 draws (4-5 heads,
   dust): the Deino line stays held in review_pending until the owner decides.
+  Own Gigantamax per Pokemon (owner 2026-11-21 on Axew / Bagon / Trapinch: "kya sabhi ke gigantamax same rahenge",
+  "Salamence ka gigantamax kaha he"): the one gmax prompt buried every Pokemon in the same mane of type-coloured flames
+  (Haxorus and Salamence were the same blue blob, Salamence's red wings gone). Now `pokemon_daily.GMAX_DESIGN` gives each
+  final stage ONE signature change like the official G-Max forms (Salamence: colossal red wings + cloud cyclone; Haxorus:
+  golden axe-blade tusks, back plates, NO hand-held weapon - the first draw gave it two axes; Flygon: sand tornadoes at the
+  wing tips) with its own tint colour and Wan motion; prompt `FAN_GMAX_ONE` says nothing may cover the body. Cache
+  `fan_gmax_v3_<slug>.png`; Pokemon not in the dict keep the v2 prompt - add a design before their line is built (all queued
+  lines up to Kommo-o have one). `POSE` pins the Wan pose: "stands tall" stood Mega Salamence up like a person. Wan broke Salamence and Mega Salamence
+  again with the hover pose (humanoid body, ghost rings, a second face), so forms in `LOCAL_ANIM` get the local
+  `fal_video.idle_clip` (breathing, aura, particles - the art never changes) instead of a Wan clip.
 - `inbox/<pokemon1>+<pokemon2>[=<name>].mp4` - Pokemon fusion reveal clips the owner makes in the Gemini app
   (prompts: `F:/AI AGENT/pokemon_fusion_prompts.md`) and uploads on the GitHub website; names from
   `backend/scripts/specs/fusion_pairs.json`. The same pairs (with a `"look"` per pair) are also made automatically by
@@ -552,6 +562,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-21 - Evolution shorts: own fan Gigantamax design per Pokemon (`GMAX_DESIGN`, v3 art) and Wan poses (`POSE`); Axew, Bagon, Trapinch rebuilt.
 - 2026-11-21 - GTA 6 day-5 recording: plan `gta6_day5` (89 shorts + 7 long), rendered and checked, waiting for the owner.
 - 2026-11-21 - GTA 6 hourly Instagram posting (10 shorts + 1 long up to 15 min an hour, laptop task `gta6_hourly.py`) after the owner's go-ahead for all GTA 6 clips.
 - 2026-11-21 - GTA 6 day-4 recording: plan `gta6_day4` (102 shorts + 10 long); first edited YouTube video - "GTA 6 Chapter 1" (31:46, hook + chapter cards + text pop-ups + zooms, English SRT from OCR of the game subtitles).

@@ -254,6 +254,7 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   cue ball, planes). `excluded` also: the coffee-table scene (low camera on Lucia kneeling in sleep shorts - suggestive), bed /
   kiss scenes, the night pool party, Jason shooting a downed biker in a blood pool (5405-5485), bloody bodies, a phone video of
   Janet partying, the owner asking for the strip club on the map, crude radio / subtitle lines. All rendered and strip-checked.
+  **The owner found nudity I had not reported**: a topless woman dancing at the night pool party (2:51:30, 10270-10400 excluded) - NudeNet missed the small distant figure and its one hit there was outside the plan, so never opened. Rule since 2026-11-21: open EVERY scan hit of the whole recording and look at every party / pool / beach / bedroom scene on the sheets, then tell the owner each nudity timestamp (even when already cut).
   **GTA 6 Chapter 1** (owner 2026-11-21: "kya aap editing kar sakte ho youtube ke liye ... ek chapter 1 banao", chose the
   launch stream, intro + chapter cards, zoom + text pop-ups, English subtitles): an EDITED 31:46 story video, not a clip cut.
   Folder `gameplay_out/gta6_launch/chapter1/`: `edl.json` (hook moments, title shot, 13 parts of source segments with

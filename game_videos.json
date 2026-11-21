@@ -12747,5 +12747,72 @@
   "yugioh-call-of-the-haunted": {
     "spec": "scripts/specs/games/yugioh_63_call-of-the-haunted.json",
     "video": "F:\\AI AGENT\\run_ygo3\\videos\\short-2e3aa28b.mp4"
+  },
+  "poke-axew": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "F:\\AI AGENT\\run_evo\\pokemon\\axew\\final.mp4",
+    "data": {
+      "id": "axew",
+      "stages": [
+        "axew",
+        "fraxure",
+        "haxorus"
+      ],
+      "type": "dragon",
+      "megas": [],
+      "gmax": null,
+      "primal": null,
+      "fan": {
+        "mega": "F:\\AI AGENT\\run_evo\\pokemon\\art\\fan_mega_haxorus.png",
+        "gmax": "F:\\AI AGENT\\run_evo\\pokemon\\art\\fan_gmax_v3_haxorus.png"
+      },
+      "forms": true
+    }
+  },
+  "poke-bagon": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "F:\\AI AGENT\\run_evo\\pokemon\\bagon\\final.mp4",
+    "data": {
+      "id": "bagon",
+      "stages": [
+        "bagon",
+        "shelgon",
+        "salamence"
+      ],
+      "type": "dragon",
+      "megas": [
+        "salamence-mega"
+      ],
+      "gmax": null,
+      "primal": null,
+      "fan": {
+        "gmax": "F:\\AI AGENT\\run_evo\\pokemon\\art\\fan_gmax_v3_salamence.png"
+      },
+      "forms": true
+    }
+  },
+  "poke-trapinch": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "F:\\AI AGENT\\run_evo\\pokemon\\trapinch\\final.mp4",
+    "data": {
+      "id": "trapinch",
+      "stages": [
+        "trapinch",
+        "vibrava",
+        "flygon"
+      ],
+      "type": "ground",
+      "megas": [],
+      "gmax": null,
+      "primal": null,
+      "fan": {
+        "mega": "F:\\AI AGENT\\run_evo\\pokemon\\art\\fan_mega_flygon.png",
+        "gmax": "F:\\AI AGENT\\run_evo\\pokemon\\art\\fan_gmax_v3_flygon.png"
+      },
+      "forms": true
+    }
   }
 }

@@ -583,6 +583,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-22 - `pokemon_daily.py` no longer deletes a line's folder while it waits in review_pending.json or review_queue.json (a `hold:review` marker counted as posted: Deino's final.mp4 and the 11 strike-held YouTube evolution shorts were deleted; the 11 were re-downloaded at 720p from their Instagram posts via the Graph `media_url`, Deino rebuilt).
 - 2026-11-22 - Evolution shorts: Hydreigon animated locally (Wan gave it hands), fan Gigantamax v3 with 3 heads, add-only fan Mega (`MEGA_DESIGN`), `skip_forms`; Deino rebuilt.
 - 2026-11-21 - Evolution shorts: own fan Gigantamax design per Pokemon (`GMAX_DESIGN`, v3 art) and Wan poses (`POSE`); Axew, Bagon, Trapinch rebuilt.
 - 2026-11-21 - GTA 6 day-5 recording: plan `gta6_day5` (89 shorts + 7 long), rendered and checked, waiting for the owner.

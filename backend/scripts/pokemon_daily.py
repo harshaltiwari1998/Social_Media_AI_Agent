@@ -1292,7 +1292,13 @@ def main() -> None:
             continue
         dj.HEALTH["built"] += 1
 
+    # a "hold:review" marker counts as done for pending(), so a line waiting in review_queue.json (YouTube during the
+    # strike) or in review_pending.json must keep its final.mp4 - 2026-11-22 this deleted Deino and the 11 held
+    # YouTube evolution shorts
+    held = set(json.loads((CACHE.parent / "review_queue.json").read_text(encoding="utf-8")))         if (CACHE.parent / "review_queue.json").exists() else set()
     for entry in queue:  # fully posted -> drop its clips so the motion-cache branch stays small
+        if entry["id"] in _ids(REVIEW) or post_id(entry) in held:
+            continue
         if f"poke-{entry['id']}" in games and not poster.pending(post_id(entry)):
             shutil.rmtree(CACHE / entry["id"], ignore_errors=True)
     for key, rec in games.items():

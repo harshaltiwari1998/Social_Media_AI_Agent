@@ -238,7 +238,10 @@
    "zweilous",
    "hydreigon"
   ],
-  "type": "dark"
+  "type": "dark",
+  "skip_forms": [
+   "mega"
+  ]
  },
  {
   "id": "bagon",

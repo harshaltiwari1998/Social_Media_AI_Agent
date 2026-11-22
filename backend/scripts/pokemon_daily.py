@@ -265,8 +265,15 @@ FAN_KEEP = ("Keep EXACTLY the same colours as the reference picture - do not rec
             "Its body stays {colour} like the reference. Solid pure white background (#FFFFFF) with nothing behind the "
             "creature: no clouds, no ground, no scenery, no shadow, NOT a checkerboard, NOT a transparency pattern.")
 # body parts the drawing model kept losing (2026-11-20: Mega Hydreigon got claws instead of its hand-heads)
-PARTS = {"hydreigon": "Hydreigon has THREE heads: one main head on its neck and one smaller head at the end of EACH arm "
-                      "(its hands ARE heads with mouths, it has no claws or fingers) - all three heads must stay. "}
+# 2026-11-22: "one main head on its neck" made it draw a FOURTH head on a long neck above the body - the heads are
+# now named by where they are in the official art
+PARTS = {"hydreigon": "Hydreigon has EXACTLY THREE heads, the three already in the picture: the big main head with the "
+                      "pink mane on the left of its body, and one smaller head at the end of EACH arm (its hands ARE heads "
+                      "with mouths, it has no claws or fingers). Do NOT add a fourth head, no head on a long neck above the "
+                      "body - exactly three heads in total. "
+                      # 2026-11-22: every Mega draw gave it two legs with big claws, standing on dusty ground
+                      "It has NO legs and NO feet: it FLOATS in the air and its lower body ends in one long striped "
+                      "tail - keep the same floating pose as the picture, nothing under it. "}
 FAN_PROMPT = {
     # 2026-11-20: drawn as a new picture, the free ZeroGPU Space put dust + ground behind the Megas (no cutout) and gave
     # Hydreigon claws instead of its hand-heads - an EDIT of the official art keeps the body. Mega = armour and sharper
@@ -309,8 +316,8 @@ GMAX_DESIGN = {
     "flygon": ("its diamond wings become FOUR giant green wings with red rims, a spinning sand tornado at each wing tip, "
                "its red eye covers glow and a sandstorm ring circles its feet", (215, 170, 80), "sandy gold",
                "its four giant wings beat and the sand tornadoes spin"),
-    "hydreigon": ("its six black wings become six HUGE black wings edged with violet flames, and each of its three "
-                  "heads wears a glowing magenta crown of spikes", (170, 60, 220), "violet",
+    "hydreigon": ("its six black wings become six HUGE black wings edged with violet flames, and the pink mane "
+                  "of its main head becomes a glowing magenta crown of spikes", (170, 60, 220), "violet",
                   "its six huge wings spread and its three heads look around"),
     "feraligatr": ("its red back spikes grow into a giant crashing tidal wave that rises along its back like an enormous "
                    "fin, and its jaws glow blue", (40, 140, 255), "ocean blue", "the giant wave on its back churns"),
@@ -371,7 +378,18 @@ FAN_GMAX_ONE = ("Edit this picture of the Pokemon {name} into its GIGANTAMAX for
 # Owner 2026-11-21 "Salamence ka to animation ekdum bakwas he": Wan turned Mega Salamence into a standing humanoid with
 # ghost rings (twice, also with a hover pose) and gave Salamence a second translucent face - these get the local idle
 # animation (fal_video.idle_clip: breathing, aura, particles) instead of a Wan clip.
-LOCAL_ANIM = {"salamence", "salamence-mega"}
+# 2026-11-22 Hydreigon (owner: "end me aate aate haath dikhte he"): Wan turned its hand-heads into human hands and its
+# tail into ghost legs. A slug here also covers its fan-made Mega / Gigantamax art (fan_<kind>_..._<slug>.png).
+LOCAL_ANIM = {"salamence", "salamence-mega", "hydreigon"}
+
+
+def _local_anim(who: str) -> str | None:
+    """The Pokemon slug when this form is animated locally (LOCAL_ANIM, or a fan-made form of one), else None."""
+    if who in LOCAL_ANIM:
+        return who
+    if who.endswith(".png"):
+        return next((x for x in LOCAL_ANIM if Path(who).stem.endswith("_" + x)), None)
+    return None
 # Wan poses (2026-11-21, Mega Salamence: "stands tall" made Wan stand it up like a person, with ghost rings around it)
 POSE = {"salamence": "the dragon stays low on its four legs", "salamence-mega": "the dragon hovers in the air with its "
         "crescent wings spread wide, it does NOT stand up on two legs, its body keeps the same shape",
@@ -453,6 +471,10 @@ def with_forms(entry: dict, draw: bool = True) -> dict:
     gmax = entry["gmax"] if "gmax" in entry else gmax_of(final)
     fan = dict(entry.get("fan", {}))
     for kind, official in (("mega", megas), ("gmax", gmax)):
+        # "skip_forms": ["mega"] - a fan form the model cannot draw (Mega Hydreigon: 9 draws, all with extra heads /
+        # claws / legs, 2026-11-22) is left out instead of failing the line every run
+        if kind in entry.get("skip_forms", []):
+            continue
         if draw and not official and not fan.get(kind):
             try:
                 fan[kind] = fan_form(final, kind)
@@ -495,14 +517,18 @@ def storyboard(entry: dict) -> dict:
               f"around it, {face}, anime style, smooth gentle animation, camera slowly pushes in")
     finale = f"the creature roars and unleashes a powerful attack of {fx}, epic low angle camera, anime style, dynamic motion"
     def wan(who, prompt, fade=0.0):
-        if who in LOCAL_ANIM:  # Wan breaks this design - animated locally, the art can never change shape
-            col = list(TYPE_TINT.get(_types(who)[-1], ((140, 190, 255), ""))[0])
+        slug = _local_anim(who)
+        if slug:  # Wan breaks this design - animated locally, the art can never change shape
+            col = list(TYPE_TINT.get(_types(slug)[-1], ((140, 190, 255), ""))[0])
+            stem = Path(who).stem
             return {"idle": who, "background": bg, "seconds": 5, "color": col,
-                    "mode": "power" if "-mega" in who else "idle", **({"white_in": fade} if fade else {})}
+                    "mode": "power" if ("-mega" in who or stem.startswith(("fan_mega", "fan_gmax"))) else "idle",
+                    **({"white_in": fade} if fade else {})}
         return {"image": {"poke": who, "background": bg}, "shots": [[prompt, 5]], **({"white_in": fade} if fade else {})}
     evolve = lambda a, b, mega=False: {"evolve": [a, b], "background": bg, "seconds": 3.2, "mega": mega}  # noqa: E731
     outro = (f"Who is your favourite {t.title()}-type Pokemon? Comment below!" if not forms
-             else f"{'Primal, ' if entry.get('primal') else ''}Mega, Dynamax or Gigantamax, which form is your favourite? "
+             else f"{'Primal, ' if entry.get('primal') else ''}{'Mega, ' if megas else ''}Dynamax or Gigantamax, "
+                  "which form is your favourite? "
                   "Comment below!")
     clips, narration = [wan(s[0], idle)], [f"{names[0]} is getting ready for something big."]
     for k in range(1, len(s)):
@@ -566,14 +592,19 @@ def storyboard(entry: dict) -> dict:
                            f"patterns pulse across it, {gcol} light fills the sky, its colours stay exactly the same, "
                            f"it stays fully visible, epic low angle camera, anime style, {_KEEP}")
             # not red like the Dynamax (owner 2026-11-20: they are different and must look different)
-            clips += [{**evolve(s[-1], gmax), "tint": list(grgb)}, wan(gmax, gprompt, 0.6)]
+            gclip = wan(gmax, gprompt, 0.6)
+            if "idle" in gclip:  # animated locally: the aura takes the Gigantamax colour too
+                gclip["color"] = list(grgb)
+            clips += [{**evolve(s[-1], gmax), "tint": list(grgb)}, gclip]
             narration.append(f"{names[-1]} cannot Gigantamax in the games, so here is a fan-made Gigantamax form!" if fan_g
                              else f"And {names[-1]} has even more power. Gigantamax!")
             narration.append(f"{'Fan-made ' if fan_g else ''}Gigantamax {names[-1]}! {outro}")
         else:
             narration[-1] += f" {outro}"
-    last_scene = max(i for i, c in enumerate(clips) if "image" in c)  # the Dynamax clip has no scene image
-    clips.append({"still": str(CACHE / entry["id"] / f"scene_{last_scene:02d}.jpg"), "seconds": 4, "zoom": [1.05, 1.15]})
+    last_scene = max(i for i, c in enumerate(clips) if "image" in c or "idle" in c)  # the Dynamax clip has no scene image
+    still = (str(CACHE / entry["id"] / f"scene_{last_scene:02d}.jpg") if "image" in clips[last_scene]
+             else {"poke": clips[last_scene]["idle"], "background": bg})  # a locally animated last form: drawn fresh
+    clips.append({"still": still, "seconds": 4, "zoom": [1.05, 1.15]})
     narration.append(humor.pick("evolution", entry["id"]))
     return {"title": f"{' to '.join(names)} evolution", "backend": "wan", "voice": "en-US-GuyNeural", "style": 2,
             "narration": narration, "clips": clips}
@@ -1096,8 +1127,9 @@ def post_text(entry: dict) -> tuple[str, list[str]]:
                                                    else later[0])
         else:  # a Pokemon that does not evolve (Groudon): its forms are the video
             title = f"{names[0]} Transforms" + (" | Primal" if primal else "")
-        for suffix in ((", Mega, Dynamax and Gigantamax",) if not later and primal else ()) + (
-                " | Mega, Dynamax and Gigantamax", " | Mega Dynamax Gigantamax"):
+        m_, m2 = ("Mega, ", "Mega ") if megas or fan_mega else ("", "")  # Hydreigon: no Mega (skip_forms)
+        for suffix in ((f", {m_}Dynamax and Gigantamax",) if not later and primal else ()) + (
+                f" | {m_}Dynamax and Gigantamax", f" | {m2}Dynamax Gigantamax"):
             if len(title + suffix) <= 95:
                 title += suffix
                 break
@@ -1110,8 +1142,9 @@ def post_text(entry: dict) -> tuple[str, list[str]]:
                 f"{'evolution' if later else 'transformation'} animation, made with AI from "
                 "the official artwork. "
                 + (f"Fan-made, not in the games: {' and '.join(made)}. " if made else "")
-                + "Mega, Dynamax or Gigantamax, which form is your favourite? Comment below!")
-        tags = [*names, *forms_txt, f"{names[0]} evolution", "Pokemon evolution", "Mega Evolution", "Dynamax",
+                + f"{m_}Dynamax or Gigantamax, which form is your favourite? Comment below!")
+        tags = [*names, *forms_txt, f"{names[0]} evolution", "Pokemon evolution", *(["Mega Evolution"] if m_ else []),
+                "Dynamax",
                 "Gigantamax", *(["fan made Pokemon", "Pokemon what if"] if made else []), f"{entry['type']} type Pokemon",
                 "Pokemon animation", "Pokemon", "Pokemon shorts"]
         hashtags = " ".join(f"#{h}" for h in ["Pokemon", "PokemonEvolution", names[-1].replace(" ", ""), "Gigantamax",

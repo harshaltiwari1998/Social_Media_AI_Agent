@@ -102,7 +102,14 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   ZeroGPU Space when they are gone (credits empty since 17 Nov - Axew/Bagon/Deino of 20 Nov had no fan forms); a cut
   that leaves the border solid falls back to rembg. A form that cannot be drawn now FAILS the line (retried next run)
   instead of posting it without. `PARTS` adds body-part notes per Pokemon. Mega Hydreigon failed 6 draws (4-5 heads,
-  dust): the Deino line stays held in review_pending until the owner decides.
+  dust).
+  Hydreigon (owner 2026-11-22: "evolution 3 bekar he, end me aate aate haath dikhte he, iska koi gigantamax nahi banaya"):
+  Wan turned its hand-heads into human hands and its tail into ghost legs, so `hydreigon` is in `LOCAL_ANIM` (a slug there
+  also covers its fan forms, `_local_anim`; the closing still is then drawn from the last local form). `PARTS` now places
+  its three heads as in the official art and says it has no legs ("one main head on its neck" gave a 4th head on a long
+  neck). Fan Gigantamax v3 drawn and checked (3 heads, flaming wings, glowing crown). Mega Hydreigon failed 9 draws
+  (extra heads / clawed arm / legs / dust): queue entries can carry `"skip_forms": ["mega"]` - the form is left out and
+  title / narration / description drop the word Mega. Deino rebuilt for review (Deino + Zweilous clips kept).
   Own Gigantamax per Pokemon (owner 2026-11-21 on Axew / Bagon / Trapinch: "kya sabhi ke gigantamax same rahenge",
   "Salamence ka gigantamax kaha he"): the one gmax prompt buried every Pokemon in the same mane of type-coloured flames
   (Haxorus and Salamence were the same blue blob, Salamence's red wings gone). Now `pokemon_daily.GMAX_DESIGN` gives each
@@ -573,6 +580,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-22 - Evolution shorts: Hydreigon animated locally (Wan gave it hands), fan Gigantamax v3 with 3 heads, `skip_forms` for a fan Mega that cannot be drawn; Deino rebuilt.
 - 2026-11-21 - Evolution shorts: own fan Gigantamax design per Pokemon (`GMAX_DESIGN`, v3 art) and Wan poses (`POSE`); Axew, Bagon, Trapinch rebuilt.
 - 2026-11-21 - GTA 6 day-5 recording: plan `gta6_day5` (89 shorts + 7 long), rendered and checked, waiting for the owner.
 - 2026-11-21 - GTA 6 hourly Instagram posting (10 shorts + 1 long up to 15 min an hour, laptop task `gta6_hourly.py`) after the owner's go-ahead for all GTA 6 clips.

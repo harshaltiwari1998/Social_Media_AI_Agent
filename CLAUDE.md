@@ -293,7 +293,7 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   Excluded nudity: day 6 Jason in underwear (0-262), Lucia in underwear on Jason in bed (5283-5335), underwear in the motel
   bed (7945-7965), a small statue of a naked woman Jason holds (7832-7870, found only on the strip check of the renders); day 7 the Delights strip club with a fully nude dancer (455-750), Caleb's ex-boss naked on the tractor
   (4660-4690), a naked woman in the woods after the alien light (5150-5325). Also cut: blood-pool close-ups, a drugs talk,
-  the "Delights Dancers" card menu, close-ups of Lucia's hips in the clothes shop.
+  the "Delights Dancers" card menu, close-ups of Lucia's hips in the clothes shop. Both rendered + strip-checked 2026-11-23 (day 6 = 128 shorts + 6 long after the statue cut); every in-plan scan hit was already among the opened whole-file hits. Waiting for the owner's approval; then add both plans to `.cache/gta6_hourly.py` SHORTS / LONG_PLANS (only day6 long 5 and day7 long 1 are under 15 min).
   Laptop tasks run through `conhost.exe --headless` since 2026-11-22 (owner: "ye kyu khul raha he" - the hourly task
   opened a cmd window every hour).
   **GTA 6 Chapter 1** (owner 2026-11-21: "kya aap editing kar sakte ho youtube ke liye ... ek chapter 1 banao", chose the

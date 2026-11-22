@@ -369,6 +369,21 @@ GMAX_DESIGN = {
     "kommo-o": ("its scales grow into giant golden armour scales like bells and its head crest becomes a huge golden "
                 "scale crown", (255, 200, 60), "gold", "its golden scales shake and shine"),
 }
+# Owner 2026-11-22 "where is its mega form": 9 Mega Hydreigon draws with FAN_PROMPT["mega"] ("more muscular build,
+# bigger claws") all came out as a standing dragon with clawed arms, legs and an extra head. The Gigantamax that worked
+# was an add-only edit, so a Pokemon listed here gets its Mega the same way: the picture stays, only these parts change.
+MEGA_DESIGN = {
+    "hydreigon": "dark steel-blue armour plates with magenta edges over its chest and shoulders, its pink manes grow into "
+                 "longer sharper magenta spikes, each of its six black wings gets a sharp silver edge, its eyes glow red, "
+                 "and a small glowing red gem sits in the centre of its chest. The top of its body between the wings "
+                 "stays a plain furry body with NO head and NO neck on it",
+}
+FAN_MEGA_ONE = ("Edit this picture of the Pokemon {name} into its MEGA EVOLUTION. Change ONLY this: {design}. Everything "
+                "else stays EXACTLY like the picture: the same pose, the same number of heads, arms, wings and tail, the "
+                "same head shapes and faces, the same {colour} body colours. Do NOT add arms, legs, feet, claws or "
+                "heads. Angry glaring eyes, menacing, NOT cute. Plain pure white background (#FFFFFF), nothing behind or "
+                "under it - no dust cloud, no smoke, no ground, no shadow, no aura, no text; the white space under its tail stays empty. Official Pokemon artwork style, ONE creature "
+                "only, exactly one face per head.")
 FAN_GMAX_ONE = ("Edit this picture of the Pokemon {name} into its GIGANTAMAX form. Change ONLY this, like an official "
                 "Gigantamax form: {design}. Everything else stays EXACTLY like the picture: the same head, face, eyes, "
                 "snout, horns, legs and pose, the same {colour} body colours. The whole body stays clearly visible - do "
@@ -427,8 +442,10 @@ def fan_form(slug: str, kind: str) -> str:
     from PIL import Image
 
     design = GMAX_DESIGN.get(slug) if kind == "gmax" else None
-    # v2: changed body, type colour; v3: the Pokemon's own design (GMAX_DESIGN, 2026-11-21)
-    out = CACHE / "art" / f"fan_{kind}{('_v3' if design else '_v2') if kind == 'gmax' else ''}_{slug}.png"
+    mdesign = MEGA_DESIGN.get(slug) if kind == "mega" else None
+    # v2: changed body, type colour; v3: the Pokemon's own design (GMAX_DESIGN, 2026-11-21 / MEGA_DESIGN, 2026-11-22)
+    ver = ("_v3" if design else "_v2") if kind == "gmax" else ("_v3" if mdesign else "")
+    out = CACHE / "art" / f"fan_{kind}{ver}_{slug}.png"
     if out.exists():
         return str(out)
     out.parent.mkdir(parents=True, exist_ok=True)
@@ -440,7 +457,8 @@ def fan_form(slug: str, kind: str) -> str:
     ref.save(ref_path)
     types = _types(slug)
     extra = PARTS.get(slug, "")
-    template = FAN_GMAX_ONE.replace("{design}", design[0]) if design else FAN_PROMPT[kind]
+    template = (FAN_GMAX_ONE.replace("{design}", design[0]) if design
+                else FAN_MEGA_ONE.replace("{design}", mdesign) if mdesign else FAN_PROMPT[kind])
     prompt = extra + template.format(name=_name(slug), types=" and ".join(types), colour=_main_colour(art),
                                      fx=ENERGY.get(types[0], "glowing energy"), tcol=TYPE_TINT.get(types[0], ((0,), "golden"))[1])
     # HF credits first, the free ZeroGPU Space when they are gone (credits ran out 2026-11-17: Axew, Bagon and Deino were
@@ -457,8 +475,31 @@ def fan_form(slug: str, kind: str) -> str:
     border = np.concatenate([alpha[0], alpha[-1], alpha[:, 0], alpha[:, -1]])
     if (border > 128).mean() > 0.12:
         _cutout(Path(raw), out)
+    if mdesign:  # the edit model keeps drawing a dust cloud under Mega Hydreigon even when told not to
+        _drop_dust(out)
     log.info("   fan-made %s art for %s: %s", kind, slug, out)
     return str(out)
+
+
+def _drop_dust(png: Path) -> None:
+    """Erase a pale, grey-beige dust cloud from the lower part of a cut-out drawing and keep only the biggest piece
+    (2026-11-22: all 8 Mega Hydreigon edits had dust under the tail). Only for MEGA_DESIGN forms - it would eat the
+    body of a white or grey Pokemon."""
+    import numpy as np
+    from PIL import Image
+    from scipy import ndimage
+
+    px = np.asarray(Image.open(png).convert("RGBA")).copy()
+    rgb = px[..., :3].astype(float) / 255
+    mx, mn = rgb.max(-1), rgb.min(-1)
+    sat = np.where(mx > 0, (mx - mn) / np.maximum(mx, 1e-6), 0)
+    low = np.arange(px.shape[0])[:, None] > px.shape[0] * 0.55
+    px[(px[..., 3] > 0) & (mx > 0.5) & (sat < 0.28) & low, 3] = 0
+    lab, n = ndimage.label(px[..., 3] > 20)
+    if n > 1:
+        sizes = ndimage.sum(np.ones_like(lab), lab, range(1, n + 1))
+        px[(lab != int(np.argmax(sizes)) + 1) & (lab > 0), 3] = 0
+    Image.fromarray(px).save(png)
 
 
 def with_forms(entry: dict, draw: bool = True) -> dict:

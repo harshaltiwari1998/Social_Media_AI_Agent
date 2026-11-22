@@ -632,23 +632,23 @@
   },
   {
    "start": 7750,
-   "dur": 49,
+   "dur": 41,
    "title": "The Motel Desk"
   },
   {
-   "start": 7799,
-   "dur": 49,
+   "start": 7791,
+   "dur": 41,
    "title": "Jason Wakes Up"
   },
   {
-   "start": 7848,
-   "dur": 48,
-   "title": "News About the Cops"
+   "start": 7870,
+   "dur": 38,
+   "title": "The Mystery Hard Drive"
   },
   {
-   "start": 7896,
-   "dur": 49,
-   "title": "Checking the Stolen Case"
+   "start": 7908,
+   "dur": 37,
+   "title": "Lucia Goes for Supplies"
   },
   {
    "start": 7965,
@@ -804,8 +804,13 @@
     },
     {
      "start": 7690,
-     "dur": 255,
+     "dur": 142,
      "label": "Chapter II"
+    },
+    {
+     "start": 7870,
+     "dur": 75,
+     "label": "The Hard Drive"
     }
    ]
   }
@@ -830,6 +835,11 @@
    "start": 7128,
    "end": 7138,
    "why": "close-up of Jason's bloody arm"
+  },
+  {
+   "start": 7832,
+   "end": 7870,
+   "why": "Jason holds a small statue of a naked woman ('It's a naked lady') - found on the strip check"
   },
   {
    "start": 7945,

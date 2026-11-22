@@ -12848,5 +12848,27 @@
     "video": "F:\\AI AGENT\\run_cine2\\videos\\long-a54d8413.mp4",
     "thumbnail": "F:\\AI AGENT\\run_cine2\\videos\\long-a54d8413-thumb.jpg",
     "chapters": "0:00 संगीत के तूफान की कहानी\n0:43 बचपन और संघर्ष\n1:30 संगीत की पढ़ाई और शुरुआती काम\n2:13 Jingles से Roja तक\n2:59 तमिल सिनेमा में धूम\n3:47 Bollywood में कदम\n4:37 Slumdog Millionaire और Oscars\n5:22 स्टूडियो, label और नई शुरुआत\n6:02 सम्मान और पुरस्कार\n6:46 आपकी राय"
+  },
+  "poke-deino": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "F:\\AI AGENT\\run_evo\\pokemon\\deino\\final.mp4",
+    "data": {
+      "id": "deino",
+      "stages": [
+        "deino",
+        "zweilous",
+        "hydreigon"
+      ],
+      "type": "dark",
+      "megas": [],
+      "gmax": null,
+      "primal": null,
+      "fan": {
+        "mega": "F:\\AI AGENT\\run_evo\\pokemon\\art\\fan_mega_v3_hydreigon.png",
+        "gmax": "F:\\AI AGENT\\run_evo\\pokemon\\art\\fan_gmax_v3_hydreigon.png"
+      },
+      "forms": true
+    }
   }
 }

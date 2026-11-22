@@ -274,7 +274,18 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   beds 1:39:20 / 1:40:00 / 1:40:30, bikinis next morning); also cut: a body in the bait shop, a low rear camera on Lucia,
   the phone feed, blood on the airboat. Every short (8 frames) and long (16 frames) strip-checked. Shorts 66-69 + long 6 show
   an NPC knocked into Jason's truck bed and carried to the hangar (no blood) - owner decides. Not posted - waiting for approval.
-  Long 3 (~15.5 min) and long 7 (~17.7 min) are over Instagram's 15 min.
+  Long 3 (~15.5 min) and long 7 (~17.7 min) are over Instagram's 15 min. Approved 2026-11-22 and in the hourly queue.
+  GTA 6 day 6 + day 7 (owner 2026-11-22, two recordings): `gta6_day6` (`2026-11-21 20-42-27.mp4`, 2:14 - Donnie's trailer,
+  fishing with Cal, the shipwreck dive, the visitor-center setup, the house fire, the hospital escape, Chapter II) = 128
+  shorts + 6 long; `gta6_day7` (`2026-11-22 16-03-26.mp4`, 1:28 - Lucia in Port Gellhorn: Vicki, Moses' car jobs, the
+  ambulance, Caleb's tractor revenge) = 82 shorts + 4 long. Plans from `make_plan.py` (PARTS = a stretch cut into equal
+  shorts). All 201 + 89 strict hits opened (`.cache`-free helper: scratchpad `hitsheet.py` -> `check/hits/hNN.jpg`).
+  Excluded nudity: day 6 Jason in underwear (0-262), Lucia in underwear on Jason in bed (5283-5335), underwear in the motel
+  bed (7945-7965); day 7 the Delights strip club with a fully nude dancer (455-750), Caleb's ex-boss naked on the tractor
+  (4660-4690), a naked woman in the woods after the alien light (5150-5325). Also cut: blood-pool close-ups, a drugs talk,
+  the "Delights Dancers" card menu, close-ups of Lucia's hips in the clothes shop.
+  Laptop tasks run through `conhost.exe --headless` since 2026-11-22 (owner: "ye kyu khul raha he" - the hourly task
+  opened a cmd window every hour).
   **GTA 6 Chapter 1** (owner 2026-11-21: "kya aap editing kar sakte ho youtube ke liye ... ek chapter 1 banao", chose the
   launch stream, intro + chapter cards, zoom + text pop-ups, English subtitles): an EDITED 31:46 story video, not a clip cut.
   Folder `gameplay_out/gta6_launch/chapter1/`: `edl.json` (hook moments, title shot, 13 parts of source segments with

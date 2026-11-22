@@ -291,7 +291,7 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   ambulance, Caleb's tractor revenge) = 82 shorts + 4 long. Plans from `make_plan.py` (PARTS = a stretch cut into equal
   shorts). All 201 + 89 strict hits opened (`.cache`-free helper: scratchpad `hitsheet.py` -> `check/hits/hNN.jpg`).
   Excluded nudity: day 6 Jason in underwear (0-262), Lucia in underwear on Jason in bed (5283-5335), underwear in the motel
-  bed (7945-7965); day 7 the Delights strip club with a fully nude dancer (455-750), Caleb's ex-boss naked on the tractor
+  bed (7945-7965), a small statue of a naked woman Jason holds (7832-7870, found only on the strip check of the renders); day 7 the Delights strip club with a fully nude dancer (455-750), Caleb's ex-boss naked on the tractor
   (4660-4690), a naked woman in the woods after the alien light (5150-5325). Also cut: blood-pool close-ups, a drugs talk,
   the "Delights Dancers" card menu, close-ups of Lucia's hips in the clothes shop.
   Laptop tasks run through `conhost.exe --headless` since 2026-11-22 (owner: "ye kyu khul raha he" - the hourly task

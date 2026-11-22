@@ -12814,5 +12814,39 @@
       },
       "forms": true
     }
+  },
+  "haindava-27-november": {
+    "spec": "scripts/specs/movies/movie_new_55_haindava-27-november.json",
+    "video": "F:\\AI AGENT\\run_cine2\\videos\\short-abcdd7c2.mp4"
+  },
+  "akshay-vidya-anees-bazmee-4-december": {
+    "spec": "scripts/specs/movies/movie_new_48_akshay-vidya-anees-bazmee-4-december.json",
+    "video": "F:\\AI AGENT\\run_cine2\\videos\\short-6a514770.mp4"
+  },
+  "naagzilla-12-february-2027": {
+    "spec": "scripts/specs/movies/movie_new_46_naagzilla-12-february-2027.json",
+    "video": "F:\\AI AGENT\\run_cine2\\videos\\short-9a767f38.mp4"
+  },
+  "ramayana-second-weekend": {
+    "spec": "scripts/specs/movies/movie_review_49_ramayana-second-weekend.json",
+    "video": "F:\\AI AGENT\\run_cine2\\videos\\short-eb62d6d1.mp4"
+  },
+  "wild-horse-nine-opening": {
+    "spec": "scripts/specs/movies/movie_review_45_wild-horse-nine-opening.json",
+    "video": "F:\\AI AGENT\\run_cine2\\videos\\short-d659d9b8.mp4"
+  },
+  "yash-raj-spy-universe-explained": {
+    "spec": "scripts/specs/long/movies_34_yash-raj-spy-universe-explained.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_cine2\\videos\\long-6782e628.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_cine2\\videos\\long-6782e628-thumb.jpg",
+    "chapters": "0:00 जासूसों की दुनिया\n0:40 Ek Tha Tiger से शुरुआत\n1:24 Tiger Zinda Hai\n2:01 War: Kabir की एंट्री\n2:54 Pathaan की धमाकेदार वापसी\n3:42 Tiger 3 और बड़ा मिलन\n4:29 War 2: नया चेहरा\n5:22 Alpha: पहली महिला जासूस\n6:02 कौन सी film कब देखें\n6:38 आपकी पसंद कौन सी"
+  },
+  "ar-rahman-safar": {
+    "spec": "scripts/specs/long/movies_32_ar-rahman-safar.json",
+    "kind": "long",
+    "video": "F:\\AI AGENT\\run_cine2\\videos\\long-a54d8413.mp4",
+    "thumbnail": "F:\\AI AGENT\\run_cine2\\videos\\long-a54d8413-thumb.jpg",
+    "chapters": "0:00 संगीत के तूफान की कहानी\n0:43 बचपन और संघर्ष\n1:30 संगीत की पढ़ाई और शुरुआती काम\n2:13 Jingles से Roja तक\n2:59 तमिल सिनेमा में धूम\n3:47 Bollywood में कदम\n4:37 Slumdog Millionaire और Oscars\n5:22 स्टूडियो, label और नई शुरुआत\n6:02 सम्मान और पुरस्कार\n6:46 आपकी राय"
   }
 }

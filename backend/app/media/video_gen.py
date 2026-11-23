@@ -55,6 +55,8 @@ async def _synthesize_narration(text: str, output_path: Path) -> list[_Word]:
     import edge_tts
 
     voice, rate = settings.tts_voice, settings.tts_rate
+    if settings.owner_voice and voice.startswith("hi-"):
+        return _owner_voice_hindi(text, output_path)
     owner = settings.owner_voice and voice.startswith("en-")
     if owner:
         voice, rate = settings.owner_voice_en, settings.owner_voice_rate
@@ -89,6 +91,39 @@ def _to_owner_voice(audio_path: Path) -> None:
                     str(tmp)], check=True)
     tmp.replace(audio_path)
     wav.unlink(missing_ok=True)
+
+
+def _owner_voice_hindi(text: str, audio_path: Path) -> list[_Word]:
+    """Hindi narration spoken in the owner's voice by Chatterbox multilingual TTS (owner 2026-11-24: "1st voice for
+    hindi"). The model gives no word timings: each sentence is made on its own, so sentence starts/ends are exact, and
+    the words of a sentence share its time by their length (good enough for 4-word captions)."""
+    import json
+    import subprocess
+
+    import imageio_ffmpeg
+
+    script = Path(__file__).resolve().parents[2] / "scripts" / "owner_voice.py"
+    txt = audio_path.with_suffix(".owner.txt")
+    wav = audio_path.with_suffix(".owner.wav")
+    txt.write_text(text, encoding="utf-8")
+    subprocess.run([settings.owner_voice_python, str(script), "--tts", "hi", str(txt), str(wav), settings.owner_voice_ref],
+                   check=True, capture_output=True, timeout=1800)
+    timing = json.loads(Path(str(wav) + ".json").read_text(encoding="utf-8"))
+    words: list[_Word] = []
+    for sentence, start, end in timing:
+        tokens = sentence.split()
+        weights = [len(tok) + 1 for tok in tokens]
+        span, t = (end - start) / max(sum(weights), 1), start
+        for tok, w in zip(tokens, weights):
+            words.append(_Word(tok, t, t + w * span * 0.92))
+            t += w * span
+    tmp = audio_path.with_suffix(".owner" + audio_path.suffix)
+    subprocess.run([imageio_ffmpeg.get_ffmpeg_exe(), "-y", "-loglevel", "error", "-i", str(wav), "-b:a", "192k",
+                    str(tmp)], check=True)
+    tmp.replace(audio_path)
+    for p in (txt, wav, Path(str(wav) + ".json")):
+        p.unlink(missing_ok=True)
+    return words
 
 
 def _even_word_timings(script: str, duration: float) -> list[_Word]:

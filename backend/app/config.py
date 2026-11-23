@@ -101,7 +101,7 @@ class Settings(BaseSettings):
     tts_rate: str = Field(default="+5%", alias="TTS_RATE")
     # Owner's own voice (owner 2026-11-24, laptop only - set OWNER_VOICE=true in .env): English narration is spoken by
     # the Indian English edge-tts voice, then turned into the owner's voice by Chatterbox VC (scripts/owner_voice.py,
-    # its own venv on the GPU). Timing is kept, so captions stay in sync. Hindi keeps its edge-tts voice for now.
+    # its own venv on the GPU). Timing is kept, so captions stay in sync. Hindi: Chatterbox multilingual TTS speaks it.
     owner_voice: bool = Field(default=False, alias="OWNER_VOICE")
     owner_voice_python: str = Field(default=r"F:\AI AGENT\tools\voice\venv\Scripts\python.exe", alias="OWNER_VOICE_PYTHON")
     owner_voice_ref: str = Field(default=r"F:\AI AGENT\voice\owner_ref18.wav", alias="OWNER_VOICE_REF")

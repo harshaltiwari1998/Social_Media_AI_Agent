@@ -54,7 +54,11 @@ async def _synthesize_narration(text: str, output_path: Path) -> list[_Word]:
     """Write the TTS audio to output_path and return per-word timings for subtitle sync."""
     import edge_tts
 
-    communicate = edge_tts.Communicate(text, settings.tts_voice, rate=settings.tts_rate, boundary="WordBoundary")
+    voice, rate = settings.tts_voice, settings.tts_rate
+    owner = settings.owner_voice and voice.startswith("en-")
+    if owner:
+        voice, rate = settings.owner_voice_en, settings.owner_voice_rate
+    communicate = edge_tts.Communicate(text, voice, rate=rate, boundary="WordBoundary")
     words: list[_Word] = []
     with output_path.open("wb") as audio_file:
         async for chunk in communicate.stream():
@@ -63,7 +67,28 @@ async def _synthesize_narration(text: str, output_path: Path) -> list[_Word]:
             elif chunk["type"] == "WordBoundary":
                 start = chunk["offset"] / 1e7  # 100ns ticks -> seconds
                 words.append(_Word(chunk["text"], start, start + chunk["duration"] / 1e7))
+    if owner:
+        _to_owner_voice(output_path)
     return words
+
+
+def _to_owner_voice(audio_path: Path) -> None:
+    """Replace audio_path (edge-tts mp3) with the same narration in the owner's voice (scripts/owner_voice.py,
+    Chatterbox VC in its own venv). Same length, so the word timings stay valid. Fails loudly: with OWNER_VOICE on,
+    a video must not quietly go out in the AI voice."""
+    import subprocess
+
+    import imageio_ffmpeg
+
+    script = Path(__file__).resolve().parents[2] / "scripts" / "owner_voice.py"
+    wav = audio_path.with_suffix(".owner.wav")
+    subprocess.run([settings.owner_voice_python, str(script), str(audio_path), str(wav), settings.owner_voice_ref],
+                   check=True, capture_output=True, timeout=900)
+    tmp = audio_path.with_suffix(".owner" + audio_path.suffix)
+    subprocess.run([imageio_ffmpeg.get_ffmpeg_exe(), "-y", "-loglevel", "error", "-i", str(wav), "-b:a", "192k",
+                    str(tmp)], check=True)
+    tmp.replace(audio_path)
+    wav.unlink(missing_ok=True)
 
 
 def _even_word_timings(script: str, duration: float) -> list[_Word]:

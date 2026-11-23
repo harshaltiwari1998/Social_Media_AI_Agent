@@ -99,6 +99,14 @@ class Settings(BaseSettings):
     gaming_tts_voice: str = Field(default="en-US-GuyNeural", alias="GAMING_TTS_VOICE")
     # Narration speed passed to edge-tts; specs can override it (e.g. slower for tributes).
     tts_rate: str = Field(default="+5%", alias="TTS_RATE")
+    # Owner's own voice (owner 2026-11-24, laptop only - set OWNER_VOICE=true in .env): English narration is spoken by
+    # the Indian English edge-tts voice, then turned into the owner's voice by Chatterbox VC (scripts/owner_voice.py,
+    # its own venv on the GPU). Timing is kept, so captions stay in sync. Hindi keeps its edge-tts voice for now.
+    owner_voice: bool = Field(default=False, alias="OWNER_VOICE")
+    owner_voice_python: str = Field(default=r"F:\AI AGENT\tools\voice\venv\Scripts\python.exe", alias="OWNER_VOICE_PYTHON")
+    owner_voice_ref: str = Field(default=r"F:\AI AGENT\voice\owner_ref18.wav", alias="OWNER_VOICE_REF")
+    owner_voice_en: str = Field(default="en-IN-PrabhatNeural", alias="OWNER_VOICE_EN")
+    owner_voice_rate: str = Field(default="-8%", alias="OWNER_VOICE_RATE")  # owner: the first sample spoke too fast
     # Optional royalty-free background music (mp3/wav), looped and ducked under the narration.
     bgm_path: str | None = Field(default=None, alias="BGM_PATH")
 

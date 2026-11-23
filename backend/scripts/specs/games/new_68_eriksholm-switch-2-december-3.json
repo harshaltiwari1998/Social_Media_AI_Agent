@@ -1,0 +1,45 @@
+{
+    "id": "eriksholm-switch-2-december-3",
+    "slot": "new",
+    "order": 68,
+    "expires": "2026-12-04",
+    "headline": "Eriksholm comes to Switch 2 on December 3",
+    "title": "Eriksholm The Stolen Dream | Switch 2 Dec 3 | Gaming News",
+    "video_script": "Eriksholm: The Stolen Dream is coming to Nintendo Switch 2 on December third, twenty twenty six. The stealth strategy game from River End Games and publisher Nordcurrent Labs launches digitally on the Nintendo eShop worldwide. The Switch 2 version supports touchscreen and Joy-Con 2 mouse controls. The game first launched on PC, PS5 and Xbox in July twenty twenty five. Will you sneak in on Switch 2? Comment below!",
+    "scenes": [
+        {
+            "image": "steam:2377280:1",
+            "label": "Eriksholm on Switch 2"
+        },
+        {
+            "image": "steam:2377280:2",
+            "fact": "Dec 3, 2026",
+            "sub": "Nintendo eShop, worldwide"
+        },
+        {
+            "image": "steam:2377280:3",
+            "fact": "Touch and mouse controls",
+            "sub": "Joy-Con 2 support"
+        },
+        {
+            "image": "steam:2377280:4",
+            "fact": "Out since July 2025",
+            "sub": "PC, PS5, Xbox"
+        }
+    ],
+    "description": "Eriksholm: The Stolen Dream launches on Nintendo Switch 2 on December 3, 2026. Sources: Gematsu, Noisy Pixel, Nintendo Everything.",
+    "hashtags": [
+        "Eriksholm",
+        "Switch2",
+        "Gaming"
+    ],
+    "tags": [
+        "Eriksholm The Stolen Dream",
+        "Switch 2",
+        "stealth game",
+        "Nordcurrent",
+        "River End Games",
+        "December 2026"
+    ],
+    "joke": "Sneaking is easy, until you step on the one noisy floorboard."
+}

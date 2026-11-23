@@ -1,0 +1,45 @@
+{
+    "id": "cronos-lazarus-dlc-december-3",
+    "slot": "new",
+    "order": 67,
+    "expires": "2026-12-04",
+    "headline": "Cronos Lazarus DLC arrives December 3",
+    "title": "Cronos Lazarus DLC | Launches Dec 3 | Gaming News",
+    "video_script": "Cronos: The New Dawn is getting its first story expansion. Cronos: Lazarus launches on December third, twenty twenty six, for PC, PlayStation 5 and Xbox Series X and S. It is an expansion, so you need the base game installed to play it. A Switch 2 version is planned for early twenty twenty seven. Will you jump back into the horror? Comment below!",
+    "scenes": [
+        {
+            "image": "steam:2101960:1",
+            "label": "Cronos: Lazarus DLC"
+        },
+        {
+            "image": "steam:2101960:2",
+            "fact": "Dec 3, 2026",
+            "sub": "PC, PS5, Xbox Series X|S"
+        },
+        {
+            "image": "steam:2101960:3",
+            "fact": "Base game needed",
+            "sub": "Cronos: The New Dawn"
+        },
+        {
+            "image": "steam:2101960:4",
+            "fact": "Switch 2 in Q1 2027",
+            "sub": "Planned later"
+        }
+    ],
+    "description": "Cronos: Lazarus, the first DLC for Cronos: The New Dawn, launches December 3, 2026 on PC, PS5 and Xbox Series X and S. Sources: OpenCritic, Gamingtrend, The Outer Haven, Otaku Study.",
+    "hashtags": [
+        "Cronos",
+        "Horror",
+        "Gaming"
+    ],
+    "tags": [
+        "Cronos The New Dawn",
+        "Cronos Lazarus",
+        "Bloober Team",
+        "DLC",
+        "horror games",
+        "December 2026"
+    ],
+    "joke": "Another reason to sleep with the lights on this December."
+}

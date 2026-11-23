@@ -12870,5 +12870,73 @@
       },
       "forms": true
     }
+  },
+  "poke-totodile": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "F:\\AI AGENT\\run_evo\\pokemon\\totodile\\final.mp4",
+    "data": {
+      "id": "totodile",
+      "stages": [
+        "totodile",
+        "croconaw",
+        "feraligatr"
+      ],
+      "type": "water",
+      "megas": [
+        "feraligatr-mega"
+      ],
+      "gmax": null,
+      "primal": null,
+      "fan": {
+        "gmax": "F:\\AI AGENT\\run_evo\\pokemon\\art\\fan_gmax_v3_feraligatr.png"
+      },
+      "forms": true
+    }
+  },
+  "poke-cyndaquil": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "F:\\AI AGENT\\run_evo\\pokemon\\cyndaquil\\final.mp4",
+    "data": {
+      "id": "cyndaquil",
+      "stages": [
+        "cyndaquil",
+        "quilava",
+        "typhlosion"
+      ],
+      "type": "fire",
+      "megas": [],
+      "gmax": null,
+      "primal": null,
+      "fan": {
+        "mega": "F:\\AI AGENT\\run_evo\\pokemon\\art\\fan_mega_typhlosion.png",
+        "gmax": "F:\\AI AGENT\\run_evo\\pokemon\\art\\fan_gmax_v3_typhlosion.png"
+      },
+      "forms": true
+    }
+  },
+  "poke-chikorita": {
+    "kind": "motion",
+    "spec": "scripts/specs/pokemon_queue.json",
+    "video": "F:\\AI AGENT\\run_evo\\pokemon\\chikorita\\final.mp4",
+    "data": {
+      "id": "chikorita",
+      "stages": [
+        "chikorita",
+        "bayleef",
+        "meganium"
+      ],
+      "type": "grass",
+      "megas": [
+        "meganium-mega"
+      ],
+      "gmax": null,
+      "primal": null,
+      "fan": {
+        "gmax": "F:\\AI AGENT\\run_evo\\pokemon\\art\\fan_gmax_v3_meganium.png"
+      },
+      "forms": true
+    }
   }
 }

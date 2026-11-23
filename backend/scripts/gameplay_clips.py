@@ -95,14 +95,50 @@ def _text_block(draw: ImageDraw.ImageDraw, text: str, font: ImageFont.FreeTypeFo
     return top
 
 
+def gta6_logo() -> Image.Image:
+    """Our own "GTA VI" logo for the GTA 6 shorts (owner 2026-11-23 picked design A over the plain red "GTA 6" badge):
+    white "GTA" + "VI" in a Vice City sunset gradient (yellow -> orange -> pink -> purple) with a soft pink glow.
+    Not Rockstar's official logo (trademark). 1080x260, transparent."""
+    import numpy as np
+
+    big = ImageFont.truetype(IMPACT, 150)
+    im = Image.new("RGBA", (1080, 260), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    w1, w2 = d.textlength("GTA ", font=big), d.textlength("VI", font=big)
+    x, y = 540 - (w1 + w2) / 2, 40
+    mask = Image.new("L", im.size, 0)
+    ImageDraw.Draw(mask).text((x + w1, y), "VI", font=big, fill=255)
+    glow = Image.new("RGBA", im.size, (255, 60, 150, 0))
+    glow.putalpha(mask.filter(ImageFilter.GaussianBlur(18)))
+    im.alpha_composite(glow)
+    d = ImageDraw.Draw(im)
+    for text, at in (("GTA", x), ("VI", x + w1)):
+        d.text((at, y), text, font=big, fill="white", stroke_width=8, stroke_fill="black")
+    stops = [(0, (255, 214, 90)), (0.35, (255, 214, 90)), (0.55, (255, 110, 70)), (0.7, (255, 50, 140)),
+             (0.85, (150, 60, 255)), (1, (150, 60, 255))]
+    ys = np.linspace(0, 1, im.height)
+    rows = np.array([np.interp(ys, [p for p, _ in stops], [c[k] for _, c in stops]) for k in range(3)]).T
+    grad = Image.fromarray(np.repeat(rows[:, None, :], im.width, axis=1).astype("uint8"), "RGB").convert("RGBA")
+    grad.putalpha(mask)
+    im.alpha_composite(grad)
+    return im
+
+
+LOGOS = {"GTA 6": gta6_logo}  # game name -> logo drawn instead of the red text badge
+
+
 def short_overlay(title: str, game: str, path: Path) -> None:
     im = Image.new("RGBA", (1080, 1920), (0, 0, 0, 0))
     d = ImageDraw.Draw(im)
-    badge = ImageFont.truetype(IMPACT, 54)
-    label = game.upper()
-    w = d.textlength(label, font=badge)
-    d.rounded_rectangle((540 - w / 2 - 28, 150, 540 + w / 2 + 28, 230), 18, fill=(200, 16, 16))
-    d.text((540 - w / 2, 160), label, font=badge, fill="white")
+    if game in LOGOS:
+        im.alpha_composite(LOGOS[game](), (0, 20))
+        d = ImageDraw.Draw(im)
+    else:
+        badge = ImageFont.truetype(IMPACT, 54)
+        label = game.upper()
+        w = d.textlength(label, font=badge)
+        d.rounded_rectangle((540 - w / 2 - 28, 150, 540 + w / 2 + 28, 230), 18, fill=(200, 16, 16))
+        d.text((540 - w / 2, 160), label, font=badge, fill="white")
     _text_block(d, title.upper(), ImageFont.truetype(IMPACT, 92), 540, 270, 18, fill=YELLOW, stroke=7)
     foot = ImageFont.truetype(BOLD, 42)
     _text_block(d, f"Full stream on {CHANNEL}", foot, 540, 1530, 40, stroke=4)

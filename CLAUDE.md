@@ -293,7 +293,12 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   Excluded nudity: day 6 Jason in underwear (0-262), Lucia in underwear on Jason in bed (5283-5335), underwear in the motel
   bed (7945-7965), a small statue of a naked woman Jason holds (7832-7870, found only on the strip check of the renders); day 7 the Delights strip club with a fully nude dancer (455-750), Caleb's ex-boss naked on the tractor
   (4660-4690), a naked woman in the woods after the alien light (5150-5325). Also cut: blood-pool close-ups, a drugs talk,
-  the "Delights Dancers" card menu, close-ups of Lucia's hips in the clothes shop. Both rendered + strip-checked 2026-11-23 (day 6 = 128 shorts + 6 long after the statue cut); every in-plan scan hit was already among the opened whole-file hits. Waiting for the owner's approval; then add both plans to `.cache/gta6_hourly.py` SHORTS / LONG_PLANS (only day6 long 5 and day7 long 1 are under 15 min).
+  the "Delights Dancers" card menu, close-ups of Lucia's hips in the clothes shop. Both rendered + strip-checked 2026-11-23 (day 6 = 128 shorts + 6 long after the statue cut); every in-plan scan hit was already among the opened whole-file hits. Approved 2026-11-23 ("haan", subtitle swear word / Vicki close-up / pills line kept) and added to the hourly queue (only day6 long 5 and day7 long 1 are under 15 min).
+  **GTA VI logo** (owner 2026-11-23: "simple GTA 6 ke text ke jagah ek mast logo", picked design A of two): `gameplay_clips.gta6_logo`
+  (white "GTA" + "VI" in a Vice City sunset gradient with a pink glow - our own design, not Rockstar's trademarked logo)
+  replaces the red text badge on every short whose plan game is in `LOGOS`. `.cache/gta6_relogo.py` re-renders the shorts not
+  on Instagram yet in hourly order (427 on 2026-11-23; `--all` also does the posted ones for YouTube), swaps each file only
+  while `hourly.lock` is absent, deletes its stale `.light.mp4` / NudeNet cache, logs to `gameplay_out/relogo.log`.
   Laptop tasks run through `conhost.exe --headless` since 2026-11-22 (owner: "ye kyu khul raha he" - the hourly task
   opened a cmd window every hour).
   **GTA 6 Chapter 1** (owner 2026-11-21: "kya aap editing kar sakte ho youtube ke liye ... ek chapter 1 banao", chose the
@@ -453,7 +458,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
 
 - **NOTHING IS POSTED WITHOUT THE OWNER'S APPROVAL** (owner 2026-11-16). The YouTube channel was TERMINATED over an
   adult game in a deal video (appealed back), then got a community-guideline strike (no YouTube uploads for a week from
-  ~2026-11-16) for the "GRAND TIDDY ADVENTURES" deal short of 14 Nov: its Steam screenshot showed sexual content. It was
+  ~2026-11-16) - over: the first upload after it (Deino evolution, `ZTwLTNT76YU`) went through on 2026-11-23 (last one before it: 15 Nov 17:52 IST) for the "GRAND TIDDY ADVENTURES" deal short of 14 Nov: its Steam screenshot showed sexual content. It was
   posted at 22:29 IST by a deals run that started before the adult filter was pushed (22:45). Since then:
   every workflow's `schedule` is removed (manual `workflow_dispatch` only, run only after the owner approved the videos),
   the laptop task "AI Trend Poster Daily" is disabled, and every laptop batch runs with `POST_MODE=review`:
@@ -583,6 +588,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-23 - GTA 6 shorts get our own "GTA VI" sunset logo (`gameplay_clips.gta6_logo`, re-render `.cache/gta6_relogo.py`); day 6 + 7 in the hourly Instagram queue; YouTube strike over (first upload 23 Nov).
 - 2026-11-22 - `pokemon_daily.py` no longer deletes a line's folder while it waits in review_pending.json or review_queue.json (a `hold:review` marker counted as posted: Deino's final.mp4 and the 11 strike-held YouTube evolution shorts were deleted; the 11 were re-downloaded at 720p from their Instagram posts via the Graph `media_url`, Deino rebuilt).
 - 2026-11-22 - Evolution shorts: Hydreigon animated locally (Wan gave it hands), fan Gigantamax v3 with 3 heads, add-only fan Mega (`MEGA_DESIGN`), `skip_forms`; Deino rebuilt.
 - 2026-11-21 - Evolution shorts: own fan Gigantamax design per Pokemon (`GMAX_DESIGN`, v3 art) and Wan poses (`POSE`); Axew, Bagon, Trapinch rebuilt.

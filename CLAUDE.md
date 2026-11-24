@@ -591,6 +591,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-25 - `gta6-youtube.yml` now tries hourly and uploads up to 10 GTA 6 shorts in any 4 hours (counts laptop uploads too; stops on the channel upload limit); queue in story order (launch 6-41, day 2 first), 96 shorts (owner: "bina laptop on kiye karo").
 - 2026-11-25 - GTA 6 YouTube moved to its own laptop task: 10 shorts every 4 hours from 04:30 (`gta6_youtube4h.cmd`); the 2-hourly task is Instagram only.
 - 2026-11-24 - Pokemon evolution / fusion / stone shorts also narrated in the owner's voice (`lucario_stone_video._tts`).
 - 2026-11-24 - GTA 6 laptop task: YouTube is tried on every 2-hour run after the channel upload limit (no 22 h pause) and also when Instagram's daily cap is full.

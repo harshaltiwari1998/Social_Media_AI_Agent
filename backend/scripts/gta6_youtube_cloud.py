@@ -24,6 +24,7 @@ import subprocess
 import sys
 import tempfile
 import time
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -34,6 +35,8 @@ BRANCH = "clips/gta6-youtube"
 RAW = "https://raw.githubusercontent.com/harshaltiwari1998/Social_Media_AI_Agent/" + BRANCH
 STEP = 300 * 1024 * 1024
 PLANS = ROOT / "scripts" / "specs" / "gameplay"
+STORY_FIRST = [("gta6_launch", range(1, 42)), ("gta6_day2", range(1, 21))]
+PER_4H = 10  # owner 2026-11-25: "youtube gaming ke liye 4 ghante me 10 shorts" - laptop closed, so GitHub does it
 
 
 def caption(plan: dict, title: str) -> str:
@@ -63,6 +66,9 @@ def push(n: int) -> None:
 
     src = (ROOT / ".cache" / "gta6_hourly.py").read_text(encoding="utf-8")
     shorts = eval(src.split("SHORTS = ", 1)[1].split("\nLONG_PLANS", 1)[0])  # noqa: S307 - our own file, same order
+    shorts = STORY_FIRST + shorts  # YouTube in story order: the launch stream and day 2 first (like YT_ORDER)
+    rank = {f"gameplay:{name}:short{k:02d}": i for i, (name, k) in
+            enumerate((name, k) for name, nums in shorts for k in nums)}
     held = json.loads((run / "hourly_held.json").read_text()) if (run / "hourly_held.json").exists() else []
     cleared = json.loads((run / "hourly_cleared.json").read_text()) if (run / "hourly_cleared.json").exists() else []
 
@@ -122,7 +128,8 @@ def push(n: int) -> None:
             if size >= STEP:
                 flush(f"GTA 6 YouTube queue: +{added}")
                 size = 0
-    if size or not queue_file.exists():
+    queue.sort(key=lambda q: rank.get(q["tid"], len(rank)))
+    if size or added or not queue_file.exists():
         flush(f"GTA 6 YouTube queue: +{added}")
     print(f"queued {added}, {len(queue)} in queue.json", flush=True)
 
@@ -137,6 +144,16 @@ def post(n: int) -> None:
     queue = httpx.get(f"{RAW}/queue.json", timeout=60, follow_redirects=True).raise_for_status().json()
     todo = [q for q in queue if yt_open(store, q["tid"])]
     print(f"{len(todo)} of {len(queue)} queued shorts not on YouTube yet", flush=True)
+    since = (datetime.now(timezone.utc) - timedelta(hours=4)).isoformat()
+    c = store._get_conn()  # GTA 6 shorts that went to YouTube in the last 4 hours (laptop or CI)
+    recent = c.execute("select count(*) from posted_trends where platform='youtube' and trend_id like 'gameplay:gta6_%' "
+                       "and post_id is not null and post_id not like 'hold:%' and post_id not like 'skip:%' "
+                       "and posted_at > ?", (since,)).fetchone()[0]
+    c.close()
+    n = min(n, PER_4H - recent)
+    if n <= 0:
+        print(f"{recent} GTA 6 shorts went to YouTube in the last 4 h - next run", flush=True)
+        return
     done = 0
     for q in todo:
         if done >= n:
@@ -149,6 +166,10 @@ def post(n: int) -> None:
                     for chunk in r.iter_bytes():
                         f.write(chunk)
             r = yt.post_video(str(video), q["caption"], tags=q["tags"])
+        if not r.success and "uploadLimitExceeded" in str(r.error):
+            # the channel's own limit (~14-15 uploads in a rolling 24 h; the owner's own uploads count too)
+            print("YouTube channel upload limit reached - the next run tries again", flush=True)
+            return
         if not r.success and "quota" in str(r.error).lower():
             print("YouTube quota used up for today - next run after the reset (~13:30 IST)", flush=True)
             return

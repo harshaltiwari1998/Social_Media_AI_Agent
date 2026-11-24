@@ -8,7 +8,8 @@ name: GTA 6 shorts to YouTube (every 2 hours)
 # (every other posting workflow is manual-only since 2026-11-16).
 on:
   schedule:
-    - cron: "15 */2 * * *"
+    # hourly: GitHub starts only some scheduled runs (24 Nov: 2 of 12); the script keeps it to 10 in 4 hours
+    - cron: "40 * * * *"
   workflow_dispatch:
 
 concurrency:
@@ -64,7 +65,7 @@ jobs:
           YOUTUBE_NONINTERACTIVE: "1"
           YOUTUBE_CATEGORY_ID: "20"
           PYTHONUNBUFFERED: "1"
-        run: python scripts/gta6_youtube_cloud.py post 1
+        run: python scripts/gta6_youtube_cloud.py post 10
 
       - name: Save posting state
         if: always()

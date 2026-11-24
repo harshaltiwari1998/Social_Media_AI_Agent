@@ -55,8 +55,13 @@ OUTRO = {1: "Which Lucario is your favorite? Comment the next stone!",
 async def _tts(text: str, mp3: Path) -> list[tuple[str, float, float]]:
     import edge_tts
 
+    from app.config import settings
+
+    # evolution / fusion / stone shorts narrate here, not through video_gen: the owner's voice too (OWNER_VOICE, laptop)
+    owner = settings.owner_voice and VOICE.startswith("en-")
+    voice, rate = (settings.owner_voice_en, settings.owner_voice_rate) if owner else (VOICE, RATE)
     words = []
-    comm = edge_tts.Communicate(text, VOICE, rate=RATE, boundary="WordBoundary")
+    comm = edge_tts.Communicate(text, voice, rate=rate, boundary="WordBoundary")
     with mp3.open("wb") as f:
         async for chunk in comm.stream():
             if chunk["type"] == "audio":
@@ -64,6 +69,10 @@ async def _tts(text: str, mp3: Path) -> list[tuple[str, float, float]]:
             elif chunk["type"] == "WordBoundary":
                 s = chunk["offset"] / 1e7
                 words.append((chunk["text"], s, s + chunk["duration"] / 1e7))
+    if owner:
+        from app.media.video_gen import _to_owner_voice
+
+        _to_owner_voice(mp3)
     return _restore_punctuation(text, words)
 
 

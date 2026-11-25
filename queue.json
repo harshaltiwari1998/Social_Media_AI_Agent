@@ -541,5 +541,118 @@
   ],
   "preview": "previews/16.mp4",
   "added": "2026-11-26 02:08"
+ },
+ {
+  "n": 17,
+  "trend_id": "custom:movie-samuk-28-may-2027",
+  "kind": "short",
+  "text": "Samuk Release 28 May 2027 | Akshay Kumar Sci Fi | Movie News Hindi\n\nAkshay Kumar ki sci-fi film Samuk 28 May 2027 ko release hogi. Director Kanishk Varma, producer Vipul Amrutlal Shah. Sources: India TV, Sacnilk, Variety India.\n\n#Samuk #AkshayKumar #MovieNews #Movies #Bollywood #Shorts",
+  "tags": [
+   "Samuk",
+   "Akshay Kumar",
+   "Vipul Amrutlal Shah",
+   "Kanishk Varma",
+   "sci-fi film",
+   "movie news Hindi"
+  ],
+  "category": "movies",
+  "platforms": null,
+  "safety": [],
+  "source": "run_cine3",
+  "files": [
+   "videos/17.mp4.part00",
+   "videos/17.mp4.part01"
+  ],
+  "light": [
+   "videos/17.light.mp4"
+  ],
+  "preview": "previews/17.mp4",
+  "added": "2026-11-26 02:21"
+ },
+ {
+  "n": 18,
+  "trend_id": "custom:movie-beparwah-26-march-2027",
+  "kind": "short",
+  "text": "Beparwah Release 26 March 2027 | Ahaan Panday Sharvari | Movie News Hindi\n\nAhaan Panday aur Sharvari ki Beparwah 26 March 2027 ko release hogi. Director Ali Abbas Zafar, producer Yash Raj Films. Sources: The Statesman, Wikipedia list of Hindi films of 2027, Yash Raj Films.\n\n#Beparwah #AhaanPanday #MovieNews #Movies #Bollywood #Shorts",
+  "tags": [
+   "Beparwah",
+   "Ahaan Panday",
+   "Sharvari",
+   "Ali Abbas Zafar",
+   "Yash Raj Films",
+   "movie news Hindi"
+  ],
+  "category": "movies",
+  "platforms": null,
+  "safety": [],
+  "source": "run_cine3",
+  "files": [
+   "videos/18.mp4.part00",
+   "videos/18.mp4.part01"
+  ],
+  "light": [
+   "videos/18.light.mp4"
+  ],
+  "preview": "previews/18.mp4",
+  "added": "2026-11-26 02:23"
+ },
+ {
+  "n": 19,
+  "trend_id": "custom:movie-ramayana-900-crore",
+  "kind": "short",
+  "text": "Ramayana 900 Crore Net Milestone | Ranbir Kapoor | Movie Box Office Hindi\n\nRamayana Part One ne 17 din mein India mein lagbhag 907 crore net kamaye (Sacnilk, 21 November 2026), Koimoi ke hisab se lagbhag 943 crore. Trackers ke aankde alag hain. Sources: Sacnilk, Koimoi, Outlook.\n\n#Ramayana #RanbirKapoor #BoxOffice #Movies #MovieNews #Bollywood #Shorts",
+  "tags": [
+   "Ramayana",
+   "Ranbir Kapoor",
+   "900 crore",
+   "box office",
+   "Sacnilk",
+   "Koimoi",
+   "movie review Hindi"
+  ],
+  "category": "movies",
+  "platforms": null,
+  "safety": [],
+  "source": "run_cine3",
+  "files": [
+   "videos/19.mp4.part00",
+   "videos/19.mp4.part01"
+  ],
+  "light": [
+   "videos/19.light.mp4"
+  ],
+  "preview": "previews/19.mp4",
+  "added": "2026-11-26 02:24"
+ },
+ {
+  "n": 20,
+  "trend_id": "custom:movie-reel-secret-superstar",
+  "kind": "short",
+  "text": "Secret Superstar Facts | Zaira Wasim Aamir Khan China Release | Movie News Hindi\n\nSecret Superstar (2017): directed by Advait Chandan, Zaira Wasim and Aamir Khan, India release 19 October 2017, China release 19 January 2018 where it topped the opening weekend. Sources: Wikipedia, Global Times.\n\n#SecretSuperstar #ZairaWasim #AamirKhan #Movies #MovieNews #Bollywood #Shorts",
+  "tags": [
+   "Secret Superstar",
+   "Zaira Wasim",
+   "Aamir Khan",
+   "Advait Chandan",
+   "China box office",
+   "Hindi film facts"
+  ],
+  "category": "movies",
+  "platforms": [
+   "facebook",
+   "instagram"
+  ],
+  "safety": [],
+  "source": "run_cine3",
+  "files": [
+   "videos/20.mp4.part00",
+   "videos/20.mp4.part01",
+   "videos/20.mp4.part02"
+  ],
+  "light": [
+   "videos/20.light.mp4"
+  ],
+  "preview": "previews/20.mp4",
+  "added": "2026-11-26 02:26"
  }
 ]

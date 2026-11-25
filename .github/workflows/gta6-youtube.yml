@@ -1,44 +1,43 @@
-name: GTA 6 shorts to YouTube (every 2 hours)
+name: GTA 6 shorts to YouTube (10 every 4 hours)
 
 # Owner 2026-11-23: "me office me laptop open nahi kar sakta hu to aap kuch karo jisse har 2 ghante me youtube me shorts
-# jaye GTA 6 ke". The laptop pushes owner-approved, nudity-checked GTA 6 shorts (with the GTA VI logo) to the branch
-# clips/gta6-youtube (scripts/gta6_youtube_cloud.py push N); every 2 hours this uploads the next one to the HarryBeast
-# YouTube channel. The API quota (~10,000 units a day for both channels, 1,600 an upload) lets ~5-6 a day through - a
-# run after that just ends. Only GTA 6 clips the owner approved are in that queue, so this one keeps its schedule
-# (every other posting workflow is manual-only since 2026-11-16).
+# jaye GTA 6 ke"; 2026-11-25: "youtube gaming ke liye 4 ghante me 10 shorts". The laptop pushes owner-approved,
+# nudity-checked GTA 6 shorts (with the GTA VI logo) to the branch clips/gta6-youtube (scripts/gta6_youtube_cloud.py
+# push N); this uploads them to the HarryBeast YouTube channel, at most 10 in any 4 hours (the script counts laptop
+# uploads too). Only GTA 6 clips the owner approved are in that queue, so this one keeps its schedule (every other
+# posting workflow is manual-only since 2026-11-16).
+#
+# GitHub starts only a few scheduled runs of this repo (24 + 25 Nov: 2 a day out of 24 hourly; the 07:30 login check
+# started 9 h late), so a run does not end after one try: it keeps going for ~5.5 hours, tries every 30 minutes and
+# saves the posting state after each try, and at the end starts the next run itself (workflow_dispatch with the
+# GITHUB_TOKEN does start a new run). The schedule only restarts the chain if it ever breaks. Its own concurrency group
+# keeps it to one running + one waiting run (in the shared daily-gaming group its waiting run would cancel a waiting
+# manual run of another workflow); gaming-state stays safe because every save is fetch + merge_state.py + retried push.
 on:
   schedule:
-    # hourly: GitHub starts only some scheduled runs (24 Nov: 2 of 12); the script keeps it to 10 in 4 hours
-    - cron: "40 * * * *"
+    - cron: "40 */3 * * *"
   workflow_dispatch:
+  push:  # a change to this file (only the owner can push to main) starts the chain right away
+    branches: [main]
+    paths: [.github/workflows/gta6-youtube.yml]
 
 concurrency:
-  group: daily-gaming
+  group: gta6-youtube
   cancel-in-progress: false
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   youtube:
     runs-on: ubuntu-24.04
-    timeout-minutes: 30
+    timeout-minutes: 350
     defaults:
       run:
         working-directory: backend
     steps:
       - uses: actions/checkout@v5
-
-      - name: Restore posting state
-        run: |
-          mkdir -p media_output
-          if ! git fetch --depth 1 origin gaming-state; then
-            echo "::error::gaming-state branch missing - refusing to run without the posted-videos record"
-            exit 1
-          fi
-          for f in pipeline_store.sqlite3 palworld_videos.json game_videos.json; do
-            git show "origin/gaming-state:$f" > "media_output/$f" 2>/dev/null || rm -f "media_output/$f"
-          done
 
       - uses: actions/setup-python@v6
         with:
@@ -58,32 +57,58 @@ jobs:
           printf '%s' "$YOUTUBE_CLIENT_SECRET_JSON" > .cache/youtube_client_secret.json
           printf '%s' "$YOUTUBE_TOKEN_JSON" > .cache/youtube_token.json
 
-      - name: Upload the next GTA 6 short
+      - name: Upload GTA 6 shorts for ~5.5 hours (max 10 in 4 hours)
         env:
           DRY_RUN: "false"
           YOUTUBE_CLIENT_SECRET_FILE: .cache/youtube_client_secret.json
           YOUTUBE_NONINTERACTIVE: "1"
           YOUTUBE_CATEGORY_ID: "20"
           PYTHONUNBUFFERED: "1"
-        run: python scripts/gta6_youtube_cloud.py post 10
-
-      - name: Save posting state
-        if: always()
         run: |
-          # Merge into the LATEST gaming-state (never copy over it), retry on a rejected push.
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          for attempt in 1 2 3 4 5; do
-            git fetch --depth 1 origin gaming-state
-            state=$(mktemp -d)
-            git worktree add --detach "$state" FETCH_HEAD
-            python scripts/merge_state.py media_output "$state"
-            if (cd "$state" && git add -A && { git diff --cached --quiet || git commit -m "Update GTA 6 YouTube state ($(date -u +%F))"; } \
-                && git push origin HEAD:gaming-state); then
-              exit 0
+          restore() {
+            # the latest posting record each round (the laptop and other runs write it too)
+            rm -rf media_output && mkdir -p media_output
+            git fetch -q --depth 1 origin gaming-state || return 1
+            for f in pipeline_store.sqlite3 palworld_videos.json game_videos.json; do
+              git show "FETCH_HEAD:$f" > "media_output/$f" 2>/dev/null || rm -f "media_output/$f"
+            done
+            [ -s media_output/pipeline_store.sqlite3 ]
+          }
+          save() {
+            # Merge into the LATEST gaming-state (never copy over it), retry on a rejected push.
+            for attempt in 1 2 3 4 5; do
+              git fetch -q --depth 1 origin gaming-state
+              state=$(mktemp -d)
+              git worktree add -q --detach "$state" FETCH_HEAD
+              python scripts/merge_state.py media_output "$state"
+              if (cd "$state" && git add -A && { git diff --cached --quiet || git commit -qm "Update GTA 6 YouTube state ($(date -u +%F))"; } \
+                  && git push -q origin HEAD:gaming-state); then
+                git worktree remove --force "$state"
+                return 0
+              fi
+              git worktree remove --force "$state"
+              sleep $((attempt * 15))
+            done
+            echo "::error::could not save posting state after 5 attempts"
+            return 1
+          }
+          end=$((SECONDS + 320 * 60))
+          while :; do
+            echo "== $(date -u +%H:%M) UTC"
+            if restore; then
+              python scripts/gta6_youtube_cloud.py post 10 || echo "::warning::post step failed - next round"
+              save || true
+            else
+              echo "::warning::gaming-state missing - not posting without the posted-videos record"
             fi
-            git worktree remove --force "$state"
-            sleep $((attempt * 15))
+            [ $((end - SECONDS)) -lt 1800 ] && break
+            sleep 1800
           done
-          echo "::error::could not save posting state after 5 attempts"
-          exit 1
+
+      - name: Start the next run
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run gta6-youtube.yml --ref "${{ github.ref_name }}"

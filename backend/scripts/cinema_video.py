@@ -58,7 +58,19 @@ class _Scene:
             d.line([(0, y), (W, y)], fill=int(min(1.0, (y - 1180) / 260) * 215))
         bg.paste((0, 0, 0), (0, 0), band)
         self.bg = bg
-        scale = min(HERO_BOX[0] / img.width, HERO_BOX[1] / img.height)
+        blocks = []
+        if big:
+            f = get_font("bold", 100)
+            blocks.append(render_block(f, wrap(f, big, max_width=980, max_lines=2), color=GOLD, stroke=7, shadow=12))
+        if small:
+            f = get_font("bold", 58)
+            blocks.append(render_block(f, wrap(f, small, max_width=960, max_lines=2), color=WHITE, stroke=5, shadow=8))
+        text_h = sum(b.height for b in blocks) + 14 * max(len(blocks) - 1, 0)
+        # a 2-line fact + a sub ran into the caption line (Beparwah / Ramayana, 2026-11-26): the text moves up to end
+        # above the caption and the picture gets smaller to make room
+        self.text_y = min(TEXT_Y, SUB_Y - 80 - text_h)
+        box_h = min(HERO_BOX[1], 2 * (self.text_y - 40 - HERO_CY))
+        scale = min(HERO_BOX[0] / img.width, box_h / img.height)
         pic = img.resize((int(img.width * scale * 1.1), int(img.height * scale * 1.1)), Image.LANCZOS)
         if scale > 1.6:  # a small Wikipedia picture blown up: sharpen it a little
             pic = pic.filter(ImageFilter.UnsharpMask(radius=3, percent=90))
@@ -68,13 +80,6 @@ class _Scene:
         self.shadow = shadow.filter(ImageFilter.GaussianBlur(28))
         self.side = -1 if index % 2 else 1  # slides in from the right, then the left, ...
         self.text = None
-        blocks = []
-        if big:
-            f = get_font("bold", 100)
-            blocks.append(render_block(f, wrap(f, big, max_width=980, max_lines=2), color=GOLD, stroke=7, shadow=12))
-        if small:
-            f = get_font("bold", 58)
-            blocks.append(render_block(f, wrap(f, small, max_width=960, max_lines=2), color=WHITE, stroke=5, shadow=8))
         if blocks:
             text = Image.new("RGBA", (W, sum(b.height for b in blocks) + 14 * (len(blocks) - 1)), (0, 0, 0, 0))
             y = 0
@@ -100,7 +105,7 @@ class _Scene:
                 if p < 1:
                     text = text.copy()
                     text.putalpha(text.getchannel("A").point(lambda v: int(v * p)))
-                frame.paste(text, (0, TEXT_Y + int((1 - p) * 70)), text)
+                frame.paste(text, (0, self.text_y + int((1 - p) * 70)), text)
         return frame
 
 

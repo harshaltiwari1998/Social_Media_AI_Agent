@@ -144,8 +144,9 @@ def push(sources: list[Path]) -> None:
         raise SystemExit("push failed")
 
     added = 0
+    skip = set(os.environ.get("REVIEW_SKIP", "").split(","))  # trend ids left out of this push
     for e in _pending(sources):
-        if e["trend_id"] in have:
+        if e["trend_id"] in have or e["trend_id"] in skip:
             continue
         n = max([q["n"] for q in queue], default=0) + 1
         video = e.pop("video")

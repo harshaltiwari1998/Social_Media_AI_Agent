@@ -612,6 +612,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-26 - Cinema shorts: a 2-line fact + sub moves up and the picture shrinks (the sub ran into the caption on Beparwah / Ramayana); `review_cloud.py push` skips ids in `REVIEW_SKIP`.
 - 2026-11-26 - GTA 6 long videos to YouTube, 2 in any 24 h (owner: "2 long a day"): `gta6_youtube_cloud.py push-long 6 --if-low 2` (laptop 2-hourly task) rebuilds the orphan branch `clips/gta6-youtube-long` with the next 6 (45 MB parts, story order launch -> day7; the 42 longs are 39 GB), `post-long` in `gta6-youtube.yml` uploads them with chapters + thumbnail. GTA 6 Full Chapter 1 videos (story / highlight / free roam) in `gameplay_out/gta6_chapter1_full/`.
 - 2026-11-25 - Evolution / fusion shorts: clips are held as long as their narration (own voice is slower; the audio drifted up to 20 s behind the scenes).
 - 2026-11-25 - Phone approvals with the laptop closed: `review_cloud.py` (push / post / sync), branch `review-queue`, `review/approved.json` on main, `review-post.yml`.

@@ -1,0 +1,192 @@
+[
+ {
+  "n": 1,
+  "trend_id": "custom:motion-poke-fuecoco",
+  "kind": "short",
+  "text": "Fuecoco Evolves Into Crocalor and Skeledirge | Pokemon Evolution Animation\n\nFuecoco to Crocalor to Skeledirge - a Pokemon evolution animation, made with AI from the official artwork. Who is your favourite Fire-type Pokemon? Comment below!\n\n#Pokemon #PokemonEvolution #Skeledirge #Gaming #Shorts",
+  "tags": [
+   "Fuecoco",
+   "Crocalor",
+   "Skeledirge",
+   "Fuecoco evolution",
+   "Pokemon evolution",
+   "Pokemon animation",
+   "Pokemon",
+   "fire type Pokemon",
+   "evolution animation",
+   "Pokemon shorts"
+  ],
+  "category": "gaming",
+  "platforms": null,
+  "evolution": {
+   "id": "fuecoco",
+   "stages": [
+    "fuecoco",
+    "crocalor",
+    "skeledirge"
+   ],
+   "type": "fire"
+  },
+  "source": "run_evo",
+  "files": [
+   "videos/1.mp4"
+  ],
+  "light": [
+   "videos/1.light.mp4"
+  ],
+  "preview": "previews/1.mp4",
+  "added": "2026-11-26 01:33"
+ },
+ {
+  "n": 2,
+  "trend_id": "custom:motion-poke-growlithe",
+  "kind": "short",
+  "text": "Growlithe Evolves Into Arcanine | Pokemon Evolution Animation\n\nGrowlithe to Arcanine - a Pokemon evolution animation, made with AI from the official artwork. Who is your favourite Fire-type Pokemon? Comment below!\n\n#Pokemon #PokemonEvolution #Arcanine #Gaming #Shorts",
+  "tags": [
+   "Growlithe",
+   "Arcanine",
+   "Growlithe evolution",
+   "Pokemon evolution",
+   "Pokemon animation",
+   "Pokemon",
+   "fire type Pokemon",
+   "evolution animation",
+   "Pokemon shorts"
+  ],
+  "category": "gaming",
+  "platforms": null,
+  "evolution": {
+   "id": "growlithe",
+   "stages": [
+    "growlithe",
+    "arcanine"
+   ],
+   "type": "fire"
+  },
+  "source": "run_evo",
+  "files": [
+   "videos/2.mp4"
+  ],
+  "light": [
+   "videos/2.light.mp4"
+  ],
+  "preview": "previews/2.mp4",
+  "added": "2026-11-26 01:36"
+ },
+ {
+  "n": 3,
+  "trend_id": "custom:motion-poke-litten",
+  "kind": "short",
+  "text": "Litten Evolves Into Torracat and Incineroar | Pokemon Evolution Animation\n\nLitten to Torracat to Incineroar - a Pokemon evolution animation, made with AI from the official artwork. Who is your favourite Fire-type Pokemon? Comment below!\n\n#Pokemon #PokemonEvolution #Incineroar #Gaming #Shorts",
+  "tags": [
+   "Litten",
+   "Torracat",
+   "Incineroar",
+   "Litten evolution",
+   "Pokemon evolution",
+   "Pokemon animation",
+   "Pokemon",
+   "fire type Pokemon",
+   "evolution animation",
+   "Pokemon shorts"
+  ],
+  "category": "gaming",
+  "platforms": null,
+  "evolution": {
+   "id": "litten",
+   "stages": [
+    "litten",
+    "torracat",
+    "incineroar"
+   ],
+   "type": "fire"
+  },
+  "source": "run_evo",
+  "files": [
+   "videos/3.mp4.part00",
+   "videos/3.mp4.part01"
+  ],
+  "light": [
+   "videos/3.light.mp4"
+  ],
+  "preview": "previews/3.mp4",
+  "added": "2026-11-26 01:40"
+ },
+ {
+  "n": 4,
+  "trend_id": "custom:motion-poke-piplup",
+  "kind": "short",
+  "text": "Piplup Evolves Into Prinplup and Empoleon | Pokemon Evolution Animation\n\nPiplup to Prinplup to Empoleon - a Pokemon evolution animation, made with AI from the official artwork. Who is your favourite Water-type Pokemon? Comment below!\n\n#Pokemon #PokemonEvolution #Empoleon #Gaming #Shorts",
+  "tags": [
+   "Piplup",
+   "Prinplup",
+   "Empoleon",
+   "Piplup evolution",
+   "Pokemon evolution",
+   "Pokemon animation",
+   "Pokemon",
+   "water type Pokemon",
+   "evolution animation",
+   "Pokemon shorts"
+  ],
+  "category": "gaming",
+  "platforms": null,
+  "evolution": {
+   "id": "piplup",
+   "stages": [
+    "piplup",
+    "prinplup",
+    "empoleon"
+   ],
+   "type": "water"
+  },
+  "source": "run_evo",
+  "files": [
+   "videos/4.mp4"
+  ],
+  "light": [
+   "videos/4.light.mp4"
+  ],
+  "preview": "previews/4.mp4",
+  "added": "2026-11-26 01:43"
+ },
+ {
+  "n": 5,
+  "trend_id": "custom:motion-poke-popplio",
+  "kind": "short",
+  "text": "Popplio Evolves Into Brionne and Primarina | Pokemon Evolution Animation\n\nPopplio to Brionne to Primarina - a Pokemon evolution animation, made with AI from the official artwork. Who is your favourite Water-type Pokemon? Comment below!\n\n#Pokemon #PokemonEvolution #Primarina #Gaming #Shorts",
+  "tags": [
+   "Popplio",
+   "Brionne",
+   "Primarina",
+   "Popplio evolution",
+   "Pokemon evolution",
+   "Pokemon animation",
+   "Pokemon",
+   "water type Pokemon",
+   "evolution animation",
+   "Pokemon shorts"
+  ],
+  "category": "gaming",
+  "platforms": null,
+  "evolution": {
+   "id": "popplio",
+   "stages": [
+    "popplio",
+    "brionne",
+    "primarina"
+   ],
+   "type": "water"
+  },
+  "source": "run_evo",
+  "files": [
+   "videos/5.mp4.part00",
+   "videos/5.mp4.part01"
+  ],
+  "light": [
+   "videos/5.light.mp4"
+  ],
+  "preview": "previews/5.mp4",
+  "added": "2026-11-26 01:45"
+ }
+]

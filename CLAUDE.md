@@ -395,7 +395,10 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   (no rashifal from CI after 6 Nov; 11 + 12 Nov were made on the laptop): it died 2 s into rashifal.py - the workflow
   never downloaded the Hindi fonts (added 2026-11-11, plus a retried ephemeris download); the edge-tts retry alone
   did not fix it. CI logs need a login, so check step timings through the public jobs API. **Owner rule 2026-11-10: rashifal is posted directly,
-  never shown/asked first** (unlike fusions).
+  never shown/asked first** (unlike fusions). 2026-11-25 (owner chose "AI Trend Poster Instagram + AI Trend Poster FB Page"): rashifal is the one thing that
+  still goes to the paused main Page, AND to its Instagram; built on the laptop for review (owner's Hindi voice,
+  `MEDIA_OUTPUT_DIR=F:/AI AGENT/run_rashifal`, no `--post`), then `rashifal.py --date <day> --post-approved` posts the
+  watched `made_all.json` video (refresh the run folder's store from gaming-state first, merge_state.py after).
 - `scripts/youtube_playlists.py` - puts every upload made BY THIS PIPELINE (a record in the posting store) into its
   category playlist on both channels (Pokemon Fusions, Pokemon Evolutions, RDR2 Shorts / Story Highlights, Palworld
   Breeding / Guides, Aniimo, Deals, DML, Classic, New Games, Gaming History; movie slots + Safar / Explained on the
@@ -591,6 +594,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-25 - Rashifal back on the AI Trend Poster FB Page + Instagram after review (`rashifal.py --post-approved`); own-voice review batches (`.cache/review_chain.sh`, `.cache/revoice_evo.py` re-voices built evolution shorts from cached clips).
 - 2026-11-25 - `gta6-youtube.yml` runs as a self-restarting chain (~5.5 h runs, a try every 30 min) because GitHub started only 2 scheduled runs a day; 30 GTA 6 shorts went to YouTube 24 Nov 00:55 - 25 Nov 18:56.
 - 2026-11-25 - Owner verified the YouTube channel (phone / advanced features): 10 uploads went through at 00:55 while the old ~12-15 a day limit was full. Laptop "GTA 6 YouTube 4h" task disabled; GitHub alone posts 10 in 4 hours.
 - 2026-11-25 - `gta6-youtube.yml` now tries hourly and uploads up to 10 GTA 6 shorts in any 4 hours (counts laptop uploads too; stops on the channel upload limit); queue in story order (launch 6-41, day 2 first), 96 shorts (owner: "bina laptop on kiye karo").

@@ -330,10 +330,14 @@ def post_combined(item: dict, day: date) -> bool:
     from app.pipeline.orchestrator import _POSTERS
     from app.social.facebook import _GRAPH_VIDEO_API
 
-    if store.FB_MAIN_PAUSED:  # owner 2026-11-20: main Page wiped and paused
-        print("main Facebook Page paused - nothing posted")
-        return True
+    # owner 2026-11-20: main Page wiped and paused - but 2026-11-25 the owner chose rashifal for it again ("AI Trend
+    # Poster FB Page" + its Instagram), so rashifal is the one thing that still goes there (after the owner's OK)
     fb, trend = _POSTERS["facebook"], f"custom:rashifal-{day.isoformat()}-all"
+    ig = _POSTERS["instagram"]
+    if not store.already_posted(trend, "instagram"):
+        r = ig.post_video(item["video"], item["text"])
+        store.record_post(trend, "instagram", r.post_id, r.dry_run)
+        print("instagram:", r.post_id if r.success else f"FAILED {str(r.error)[:200]}", flush=True)
     if store.already_posted(trend, "facebook"):
         return True
     when = datetime(day.year, day.month, day.day, 6, 0, tzinfo=IST)
@@ -355,7 +359,14 @@ def main() -> None:
     ap.add_argument("--festival")
     ap.add_argument("--post", action="store_true", help="schedule them on the AI Trend Poster Facebook Page")
     ap.add_argument("--separate", action="store_true", help="the old 12 separate shorts instead of ONE combined video")
+    ap.add_argument("--post-approved", action="store_true",
+                    help="post the video already made for --date (the owner watched it) to the FB Page + Instagram")
     args = ap.parse_args()
+    if args.post_approved:  # owner 2026-11-25: rashifal is shown first, then posted exactly as watched
+        day = (datetime.now(IST).date() + timedelta(days=1) if args.date == "tomorrow" else date.fromisoformat(args.date))
+        made = Path(settings.media_output_dir) / "rashifal" / day.isoformat() / "made_all.json"
+        item = json.loads(made.read_text(encoding="utf-8"))
+        sys.exit(0 if post_combined(item, day) else 1)
     day = (datetime.now(IST).date() + timedelta(days=1) if args.date == "tomorrow" else date.fromisoformat(args.date))
     args.festival = args.festival or FESTIVALS.get(day.isoformat())
     sk = sky(day)

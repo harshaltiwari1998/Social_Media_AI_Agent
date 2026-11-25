@@ -1273,7 +1273,18 @@ def build(storyboard: Path, out_dir: Path) -> Path:
 
     frames = [_clip_frames(c, work) for c in clips]
     clip_audio = [sv._decode(c) if _has_audio(c) else None for c in clips]
-    durs = [len(f) / FPS for f in frames]
+    nat = [len(f) / FPS for f in frames]  # each clip's own length
+
+    # narration first: a clip lasts at least as long as its own narration block (owner 2026-11-25, own voice: "aavaj
+    # scene se sync nahi he" - the slower owner's voice ran up to 20 s behind the 3-5 s clips). A longer clip loops
+    # back and forth (Wan / still clips) or plays slower (drawn transitions: evolve, Dynamax, fusion...).
+    spoken = []
+    for i, text in enumerate(sb["narration"][: len(clips)]):
+        mp3 = work / f"vo_{i:02d}.mp3"
+        words = asyncio.run(sv._tts(text, mp3))
+        spoken.append((sv._decode(mp3), words))
+    durs = [max(nat[i], len(spoken[i][0]) / SR + 0.35) if i < len(spoken) else nat[i] for i in range(len(frames))]
+    loops = [("shots" in c or "still" in c or "video" in c) for c in sb["clips"][: len(frames)]]
     starts = np.cumsum([0] + durs[:-1])
     total = float(sum(durs))
 
@@ -1281,10 +1292,7 @@ def build(storyboard: Path, out_dir: Path) -> Path:
     # (owner 2026-11-16: "aakhri me 2 aavaj aati he" - the "...Comment below!" line ran past its clip and the closing
     # joke started on top of it). If the last block runs past the end, the last clip is held longer.
     vo, prev_end = [], 0.0
-    for i, text in enumerate(sb["narration"][: len(clips)]):
-        mp3 = work / f"vo_{i:02d}.mp3"
-        words = asyncio.run(sv._tts(text, mp3))
-        a = sv._decode(mp3)
+    for i, (a, words) in enumerate(spoken):
         at = max(starts[i] + 0.15, prev_end + 0.25)
         vo.append((at, a, words))
         prev_end = at + len(a) / SR
@@ -1329,7 +1337,15 @@ def build(storyboard: Path, out_dir: Path) -> Path:
     def make_frame(t):
         i = int(np.searchsorted(starts, t, side="right") - 1)
         fr = frames[i]
-        im = Image.fromarray(np.asarray(fr[min(int((t - starts[i]) * FPS), len(fr) - 1)])).convert("RGBA")
+        n, local = len(fr), t - starts[i]
+        if durs[i] <= nat[i] + 1e-6 or n < 2:
+            k = int(local * FPS)
+        elif loops[i]:  # back and forth, so a Wan clip never jumps
+            k = int(local * FPS) % (2 * n - 2)
+            k = k if k < n else 2 * n - 2 - k
+        else:  # a drawn transition plays slower instead
+            k = int(local / durs[i] * n)
+        im = Image.fromarray(np.asarray(fr[min(k, n - 1)])).convert("RGBA")
         fade = sb["clips"][i].get("white_in", 0)
         if fade and t - starts[i] < fade:  # comes out of an evolution's white screen
             im = Image.blend(im, Image.new("RGBA", im.size, (255, 255, 255, 255)), 1 - (t - starts[i]) / fade)

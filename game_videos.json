@@ -12938,5 +12938,29 @@
       },
       "forms": true
     }
+  },
+  "aniimo-flamerion-best-build-phantom-barrage-trick-fire-ring": {
+    "spec": "scripts/specs/games/aniimo_298_aniimo-flamerion-best-build-phantom-barrage-trick-fire-ring.json",
+    "video": "F:\\AI AGENT\\run_ov1\\videos\\short-f71c909f.mp4"
+  },
+  "aniimo-fenmane-best-build-thunder-imprint-thunder-field": {
+    "spec": "scripts/specs/games/aniimo_297_aniimo-fenmane-best-build-thunder-imprint-thunder-field.json",
+    "video": "F:\\AI AGENT\\run_ov1\\videos\\short-5c84f9c7.mp4"
+  },
+  "aniimo-glacy-best-build-healing-water-glimmer-shot": {
+    "spec": "scripts/specs/games/aniimo_296_aniimo-glacy-best-build-healing-water-glimmer-shot.json",
+    "video": "F:\\AI AGENT\\run_ov1\\videos\\short-9408908c.mp4"
+  },
+  "palworld-guide-chest-filters-exclusion-list-storage": {
+    "spec": "scripts/specs/games/palguide_209_chest-filters-exclusion-list-storage.json",
+    "video": "F:\\AI AGENT\\run_ov1\\videos\\short-f4bb489f.mp4"
+  },
+  "palworld-guide-feed-box-cook-food-base": {
+    "spec": "scripts/specs/games/palguide_208_feed-box-cook-food-base.json",
+    "video": "F:\\AI AGENT\\run_ov1\\videos\\short-b60251bb.mp4"
+  },
+  "palworld-guide-roujay-flying-mount-gathering": {
+    "spec": "scripts/specs/games/palguide_207_roujay-flying-mount-gathering.json",
+    "video": "F:\\AI AGENT\\run_ov1\\videos\\short-90ed6718.mp4"
   }
 }

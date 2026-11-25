@@ -5,7 +5,7 @@ The laptop makes the videos (owner's voice needs its GPU); nothing is posted bef
   push [sources]   laptop: every video waiting for review - <run>/review_queue.json entries, evolution shorts in
                    run_evo/pokemon/review_pending.json, rashifal made_all.json files not posted yet - goes to the orphan
                    branch `review-queue` (videos/<n>.mp4 + an Instagram light copy, split into 45 MB parts, plus
-                   queue.json) and gets a 720p preview in previews/<n>.mp4 for the owner's private review page.
+                   queue.json); a phone preview (<= 15 MB) goes to F:/AI AGENT/review_page/previews/<n>.mp4 for the private review page.
                    Each video gets a number <n> that never changes. sources default: all run folders.
   post             CI (review-post.yml): reads review/approved.json on main ({"approve": [n, ...], "reject": [n, ...]},
                    edited from the phone by a Claude cloud session or on the GitHub website), downloads only the
@@ -40,11 +40,18 @@ STEP = 300 * 1024 * 1024
 APPROVED = REPO / "review" / "approved.json"
 WT = REPO.parent / "wt_review"
 RUNS = REPO.parent  # F:/AI AGENT/run_*
+PREVIEWS = REPO.parent / "review_page" / "previews"  # published with the private claude.ai review page only
 
 
 def _ffmpeg() -> str:
     import imageio_ffmpeg
     return imageio_ffmpeg.get_ffmpeg_exe()
+
+
+def _duration(video: str) -> float:
+    from moviepy.editor import VideoFileClip
+    with VideoFileClip(video, audio=False) as c:
+        return float(c.duration)
 
 
 def _git(*args: str, cwd: Path) -> str:
@@ -143,9 +150,12 @@ def push(sources: list[Path]) -> None:
         n = max([q["n"] for q in queue], default=0) + 1
         video = e.pop("video")
         with tempfile.TemporaryDirectory() as tmp:
-            light, prev = Path(tmp) / "light.mp4", WT / "previews" / f"{n}.mp4"
-            prev.parent.mkdir(exist_ok=True)
-            _encode(video, prev, 720, 1200)  # owner's phone preview (review page)
+            light, prev = Path(tmp) / "light.mp4", PREVIEWS / f"{n}.mp4"
+            prev.parent.mkdir(parents=True, exist_ok=True)
+            # owner's phone preview on the private review page (not in git): a page file may be 15 MB at most
+            secs = _duration(video)
+            kbps = max(150, min(1200, int(13.5 * 8 * 1024 / max(secs, 1)) - 100))
+            _encode(video, prev, 720 if kbps >= 500 else 480, kbps)
             files = _split(Path(video), WT / "videos", f"{n}.mp4")
             light_files = []
             if e["kind"] == "short":

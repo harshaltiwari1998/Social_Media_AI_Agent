@@ -182,9 +182,172 @@ def post(n: int) -> None:
         print("::warning::the GTA 6 YouTube queue is empty - push more shorts from the laptop", flush=True)
 
 
+# ---------- long videos (owner 2026-11-26: "2 long a day") ----------
+# The 42 GTA 6 long videos are ~39 GB, too much for one branch, so the laptop keeps only the next few on their own
+# orphan branch: push-long rebuilds it (force push, old files dropped) with the next N longs not on YouTube yet, but
+# only when fewer than --if-low are left on it. post uploads at most LONGS_PER_DAY in any 24 hours.
+LONG_BRANCH = "clips/gta6-youtube-long"
+RAW_LONG = RAW.rsplit("/", 1)[0] + "/" + LONG_BRANCH.split("/", 1)[1]
+LONG_ORDER = ["gta6_launch", "gta6_day2", "gta6_day3b", "gta6_day4", "gta6_day5", "gta6_day6", "gta6_day7"]
+LONGS_PER_DAY = 2
+PART = 45 * 1024 * 1024
+
+
+def _long_text(plan: dict, n: int, lv: dict, dest: Path) -> tuple[str, str]:
+    title, tag = lv["title"], plan.get("title_tag", "")
+    if tag and tag.lower() not in title.lower():
+        title = f"{title} | {tag}"
+    ch = dest / f"long_{n}_chapters.txt"
+    chapters = ch.read_text(encoding="utf-8") if ch.exists() else ""
+    text = (f"{lv.get('description', '')}\n\nChapters:\n{chapters}\n\n"
+            + " ".join(f"#{t.replace(' ', '')}" for t in plan.get("tags", [])[:8]))
+    return title, text
+
+
+def _yt_done(dbs: list[Path]) -> set[str]:
+    import sqlite3
+    done = set()
+    for db in dbs:
+        if db.exists() and db.stat().st_size:
+            c = sqlite3.connect(db)
+            done |= {r[0] for r in c.execute(
+                "select trend_id from posted_trends where platform='youtube' and trend_id like 'gameplay:gta6_%:long%' "
+                "and post_id is not null and post_id != '' and post_id not like 'hold:%'")}
+            c.close()
+    return done
+
+
+def push_long(n: int, if_low: int) -> None:
+    import httpx
+    run, out = REPO.parent / "run_gta6", REPO.parent / "gameplay_out"
+    os.environ["MEDIA_OUTPUT_DIR"] = str(run)
+    from app.media import safety
+    _git("fetch", "-q", "origin", "gaming-state", cwd=REPO)
+    state = Path(tempfile.mkdtemp()) / "state.sqlite3"
+    state.write_bytes(subprocess.run(["git", "show", "origin/gaming-state:pipeline_store.sqlite3"], cwd=REPO,
+                                     check=True, capture_output=True).stdout)
+    done = _yt_done([state, run / "pipeline_store.sqlite3"])
+    r = httpx.get(f"{RAW_LONG}/queue.json", timeout=60, follow_redirects=True)
+    left = [q for q in (r.json() if r.status_code == 200 else []) if q["tid"] not in done]
+    if len(left) >= if_low:
+        print(f"{len(left)} long videos still waiting on {LONG_BRANCH} - nothing to push", flush=True)
+        return
+    picks = []
+    for name in LONG_ORDER:
+        plan = json.loads((PLANS / f"{name}.json").read_text(encoding="utf-8"))
+        for k, lv in enumerate(plan.get("longs", []), 1):
+            tid = f"gameplay:{name}:long{k:02d}"
+            video = out / name / f"long_{k}.mp4"
+            if len(picks) >= n or tid in done or not video.exists():
+                continue
+            if safety.scan_video(video):
+                print(f"{tid}: NudeNet hit - left out", flush=True)
+                continue
+            picks.append((name, k, plan, lv, video))
+    if not picks:
+        print("no GTA 6 long video left for YouTube", flush=True)
+        return
+    wt = REPO.parent / "wt_gta6yt_long"
+    if wt.exists():
+        subprocess.run(["git", "worktree", "remove", "--force", str(wt)], cwd=REPO)
+        shutil.rmtree(wt, ignore_errors=True)
+    _git("worktree", "prune", cwd=REPO)
+    _git("worktree", "add", "-q", "--detach", str(wt), cwd=REPO)
+    subprocess.run(["git", "branch", "-D", "gta6yt-long-tmp"], cwd=REPO, capture_output=True)
+    _git("checkout", "-q", "--orphan", "gta6yt-long-tmp", cwd=wt)
+    _git("rm", "-rq", "--cached", ".", cwd=wt)
+    for p in wt.iterdir():
+        if p.name != ".git":
+            shutil.rmtree(p) if p.is_dir() else p.unlink()
+    (wt / "longs").mkdir()
+    first = [True]
+
+    def flush(msg: str) -> None:
+        _git("add", "-A", cwd=wt)
+        _git("-c", "user.name=HarryBeast laptop", "-c", "user.email=laptop@localhost", "commit", "-qm", msg, cwd=wt)
+        for k in range(5):
+            cmd = ["git", "push", "-q", *(["--force"] if first[0] else []), "origin", f"HEAD:{LONG_BRANCH}"]
+            if subprocess.run(cmd, cwd=wt).returncode == 0:
+                first[0] = False
+                return
+            time.sleep(20 * (k + 1))
+        raise SystemExit("push failed")
+
+    queue, size = [], 0
+    for name, k, plan, lv, video in picks:
+        title, text = _long_text(plan, k, lv, out / name)
+        parts = []
+        with open(video, "rb") as fh:
+            i = 0
+            while chunk := fh.read(PART):
+                rel = f"longs/{name}_long{k}.mp4.part{i:02d}"
+                (wt / rel).write_bytes(chunk)
+                parts.append(rel)
+                i += 1
+                size += len(chunk)
+                if size >= STEP:
+                    flush(f"GTA 6 long videos: {name} long {k}")
+                    size = 0
+        thumb = out / name / f"long_{k}_thumb.jpg"
+        entry = {"tid": f"gameplay:{name}:long{k:02d}", "parts": parts, "title": title, "text": text,
+                 "tags": plan.get("tags", [])}
+        if thumb.exists():
+            shutil.copy(thumb, wt / f"longs/{name}_long{k}_thumb.jpg")
+            entry["thumb"] = f"longs/{name}_long{k}_thumb.jpg"
+        queue.append(entry)
+        print(f"queued {entry['tid']}: {title}", flush=True)
+    (wt / "queue.json").write_text(json.dumps(queue, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+    flush(f"GTA 6 long videos: queue of {len(queue)}")  # queue.json last - CI never sees a queue without its files
+    print(f"{len(queue)} long videos on {LONG_BRANCH}", flush=True)
+
+
+def post_long() -> None:
+    import httpx
+
+    from app.pipeline import store
+    from app.pipeline.orchestrator import _POSTERS
+
+    r = httpx.get(f"{RAW_LONG}/queue.json", timeout=60, follow_redirects=True)
+    if r.status_code == 404:
+        print("no long-video queue on GitHub", flush=True)
+        return
+    todo = [q for q in r.raise_for_status().json() if yt_open(store, q["tid"])]
+    since = (datetime.now(timezone.utc) - timedelta(hours=24)).isoformat()
+    c = store._get_conn()
+    recent = c.execute("select count(*) from posted_trends where platform='youtube' and trend_id like 'gameplay:gta6_%:long%' "
+                       "and post_id is not null and post_id not like 'hold:%' and post_id not like 'skip:%' "
+                       "and posted_at > ?", (since,)).fetchone()[0]
+    c.close()
+    print(f"long videos: {len(todo)} waiting, {recent} uploaded in the last 24 h", flush=True)
+    if not todo or recent >= LONGS_PER_DAY:
+        return
+    q = todo[0]
+    with tempfile.TemporaryDirectory() as tmp:
+        video = Path(tmp) / "long.mp4"
+        with open(video, "wb") as f:
+            for part in q["parts"]:
+                with httpx.stream("GET", f"{RAW_LONG}/{part}", timeout=300, follow_redirects=True) as resp:
+                    resp.raise_for_status()
+                    for chunk in resp.iter_bytes():
+                        f.write(chunk)
+        thumb = None
+        if q.get("thumb"):
+            thumb = Path(tmp) / "thumb.jpg"
+            thumb.write_bytes(httpx.get(f"{RAW_LONG}/{q['thumb']}", timeout=60, follow_redirects=True).content)
+        res = _POSTERS["youtube"].post_long_video(str(video), q["title"], q["text"], q["tags"],
+                                                  str(thumb) if thumb else None)
+    if not res.success and ("uploadLimitExceeded" in str(res.error) or "quota" in str(res.error).lower()):
+        print("YouTube upload limit / quota - the long video goes next run", flush=True)
+        return
+    store.record_post(q["tid"], "youtube", res.post_id, res.dry_run)
+    print(f"{q['tid']}: {'ok ' + str(res.post_id) if res.success else 'FAILED ' + str(res.error)[:200]}", flush=True)
+
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("mode", choices=["push", "post"])
+    ap.add_argument("mode", choices=["push", "post", "push-long", "post-long"])
     ap.add_argument("n", type=int, nargs="?", default=1)
+    ap.add_argument("--if-low", type=int, default=2, help="push-long: only when fewer than this many wait on GitHub")
     a = ap.parse_args()
-    push(a.n) if a.mode == "push" else post(a.n)
+    {"push": lambda: push(a.n), "post": lambda: post(a.n), "push-long": lambda: push_long(a.n, a.if_low),
+     "post-long": post_long}[a.mode]()

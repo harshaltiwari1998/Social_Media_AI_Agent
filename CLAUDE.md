@@ -311,6 +311,13 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   captions), `make_srt.py` (-> `chapter1.en.srt` for the YouTube caption upload, swear words masked as f*** etc.),
   `description.txt`, `thumb.jpg`. The whole launch recording was strict-scanned (`gta6_launch/full/`): 45 hits inside the
   edit, all false alarms. Not uploaded - YouTube strike; shown to the owner in VLC first.
+  **GTA 6 Full Chapter 1** (owner 2026-11-26: "1st Story Missions only, 2nd Short Highlight, 3rd Free Roam", ONLY Chapter 1 =
+  launch stream -> `gta6_day6` 7690 s, the "Chapter II" card): `gameplay_out/gta6_chapter1_full/` - `make_edls.py` builds
+  `edl_story.json` (~4:48, the launch Chapter 1 edit + the story long videos), `edl_highlight.json` (~1:01, big story beats)
+  and `edl_freeroam.json` (~3:46, free roam / side activities) from the plans' long videos (already cut around every excluded
+  range; excluded ranges are subtracted again). `edit_full.py <name>` renders with the chapter1 `edit.py` functions, pieces
+  cached by content in `_pieces/` (the highlight reuses the story's). Story vs free roam split per long video is a judgement
+  call - the owner can move parts. Shown to the owner before any upload.
 - `backend/scripts/specs/gameplay/<plan>.json` - cut plans for the owner's own stream recordings.
 - `backend/scripts/specs/games/yugioh_NN_<card>.json` - Yu-Gi-Oh card explainers (owner 2026-11-16: "har card ke bare me
   batao english me ki kya he kya karta he and kaise use karna he" + "players ke best cards" videos). Format: what it is
@@ -605,6 +612,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-26 - GTA 6 long videos to YouTube, 2 in any 24 h (owner: "2 long a day"): `gta6_youtube_cloud.py push-long 6 --if-low 2` (laptop 2-hourly task) rebuilds the orphan branch `clips/gta6-youtube-long` with the next 6 (45 MB parts, story order launch -> day7; the 42 longs are 39 GB), `post-long` in `gta6-youtube.yml` uploads them with chapters + thumbnail. GTA 6 Full Chapter 1 videos (story / highlight / free roam) in `gameplay_out/gta6_chapter1_full/`.
 - 2026-11-25 - Evolution / fusion shorts: clips are held as long as their narration (own voice is slower; the audio drifted up to 20 s behind the scenes).
 - 2026-11-25 - Phone approvals with the laptop closed: `review_cloud.py` (push / post / sync), branch `review-queue`, `review/approved.json` on main, `review-post.yml`.
 - 2026-11-25 - Rashifal back on the AI Trend Poster FB Page + Instagram after review (`rashifal.py --post-approved`); own-voice review batches (`.cache/review_chain.sh`, `.cache/revoice_evo.py` re-voices built evolution shorts from cached clips).

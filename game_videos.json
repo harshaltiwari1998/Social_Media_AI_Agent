@@ -12962,5 +12962,21 @@
   "palworld-guide-roujay-flying-mount-gathering": {
     "spec": "scripts/specs/games/palguide_207_roujay-flying-mount-gathering.json",
     "video": "F:\\AI AGENT\\run_ov1\\videos\\short-90ed6718.mp4"
+  },
+  "samuk-28-may-2027": {
+    "spec": "scripts/specs/movies/movie_new_58_samuk-28-may-2027.json",
+    "video": "F:\\AI AGENT\\run_cine3\\videos\\short-2e99c821.mp4"
+  },
+  "beparwah-26-march-2027": {
+    "spec": "scripts/specs/movies/movie_new_57_beparwah-26-march-2027.json",
+    "video": "F:\\AI AGENT\\run_cine3\\videos\\short-4d609aaf.mp4"
+  },
+  "ramayana-900-crore": {
+    "spec": "scripts/specs/movies/movie_review_50_ramayana-900-crore.json",
+    "video": "F:\\AI AGENT\\run_cine3\\videos\\short-083727b2.mp4"
+  },
+  "reel-secret-superstar": {
+    "spec": "scripts/specs/movies/reel_90_secret-superstar-facts.json",
+    "video": "F:\\AI AGENT\\run_cine3\\videos\\short-103edc77.mp4"
   }
 }

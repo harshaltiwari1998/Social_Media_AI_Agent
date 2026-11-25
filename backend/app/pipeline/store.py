@@ -63,11 +63,13 @@ FB_PAUSED_SKIP = "skip:fb-paused"
 # Owner 2026-11-20: same for the main Page "AI Trend Poster" (0 followers, 341 videos, 38 views in total since Sep 2026):
 # every video deleted, nothing posted there automatically until the restart.
 FB_MAIN_PAUSED = True
+# 2026-11-25 the owner chose the Page again for the daily rashifal (after review) - the only thing that still goes there
+FB_MAIN_ALLOWED = ("custom:rashifal-",)
 
 
 def fb_main_allowed(trend_id: str) -> bool:
     """False while the main Facebook Page is paused; records FB_PAUSED_SKIP so the upload is never retried there."""
-    if FB_MAIN_PAUSED:
+    if FB_MAIN_PAUSED and not trend_id.startswith(FB_MAIN_ALLOWED):
         record_post(trend_id, "facebook", FB_PAUSED_SKIP, False)
         return False
     return True

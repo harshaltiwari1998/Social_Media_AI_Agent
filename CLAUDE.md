@@ -473,6 +473,17 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   opens them in VLC; `approve 1,3` posts exactly those files, `reject 2` marks `skip:rejected`; then
   `laptop_batch.py <tag> --merge-only`. Shorts send Instagram a ~3 Mbps `<video>.light.mp4` copy made at approve time (Instagram pulls the
   file through the laptop tunnel; 45 MB reels timed out in its processing on 2026-11-17); other platforms get the original. Evolutions keep their own review (`--review`). Rashifal also needs approval now.
+- **Approve from the phone, laptop closed** (owner 2026-11-25): `scripts/review_cloud.py push "<run folder>" ...` puts
+  every video waiting for review (`review_queue.json` entries, evolution shorts in `pokemon/review_pending.json`,
+  rashifal `made_all.json`) on the orphan branch `review-queue` (`queue.json`, `videos/<n>.mp4` + `<n>.light.mp4` for
+  Instagram, split into 45 MB parts, `previews/<n>.mp4` 720p). Each video keeps its number `<n>`. The owner watches the
+  previews (private claude.ai review page) and approves by editing **`review/approved.json` on main**
+  (`{"approve": [n, ...], "reject": [n, ...]}`) - a Claude cloud session from the phone does that commit + push.
+  The push starts `review-post.yml` (`review_cloud.py post`: downloads only the approved files, posts them like
+  `post_reviewed.py approve`, rejected ones get `skip:rejected`, evolution shorts also get their `game_videos.json`
+  record; every 6 h it retries failed uploads). On the laptop, `review_cloud.py sync` drops what CI handled from the
+  local review queues before anything is approved there. The branch is public: push only finished, checked videos.
+  `store.FB_MAIN_ALLOWED` = the rashifal prefix (the one thing still posted to the paused main Page).
 - **Automatic nudity check before every post / review** (owner 2026-11-16: "jo bhi videos aap banaoge kisi games clips
   se to waha check kar lena ki koi nudity to nahi he"): `app/media/safety.scan_video` runs NudeNet (local onnx) on one
   frame a second; any exposed breast / genitalia / buttocks / anus hit holds the video for the owner (flagged frames in
@@ -594,6 +605,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-25 - Phone approvals with the laptop closed: `review_cloud.py` (push / post / sync), branch `review-queue`, `review/approved.json` on main, `review-post.yml`.
 - 2026-11-25 - Rashifal back on the AI Trend Poster FB Page + Instagram after review (`rashifal.py --post-approved`); own-voice review batches (`.cache/review_chain.sh`, `.cache/revoice_evo.py` re-voices built evolution shorts from cached clips).
 - 2026-11-25 - `gta6-youtube.yml` runs as a self-restarting chain (~5.5 h runs, a try every 30 min) because GitHub started only 2 scheduled runs a day; 30 GTA 6 shorts went to YouTube 24 Nov 00:55 - 25 Nov 18:56.
 - 2026-11-25 - Owner verified the YouTube channel (phone / advanced features): 10 uploads went through at 00:55 while the old ~12-15 a day limit was full. Laptop "GTA 6 YouTube 4h" task disabled; GitHub alone posts 10 in 4 hours.

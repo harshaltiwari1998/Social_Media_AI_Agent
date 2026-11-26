@@ -875,5 +875,66 @@
   ],
   "preview": "previews/27.mp4",
   "added": "2026-11-27 02:25"
+ },
+ {
+  "n": 28,
+  "trend_id": "custom:movie-reel-manjummel-boys",
+  "kind": "short",
+  "text": "Manjummel Boys Facts | Guna Caves Ki Sachchi Kahani | Movie News Hindi\n\nManjummel Boys (2024): Malayalam film by Chidambaram, released 22 February 2024, based on a 2006 Guna Caves incident, budget about 20 crore, first Malayalam film above 200 crore. Sources: Wikipedia, The News Minute.\n\n#ManjummelBoys #MalayalamCinema #Chidambaram #Movies #MovieNews #Bollywood #Shorts",
+  "tags": [
+   "Manjummel Boys",
+   "Malayalam cinema",
+   "Chidambaram",
+   "Guna Caves",
+   "200 crore",
+   "Hindi film facts"
+  ],
+  "category": "movies",
+  "platforms": [
+   "facebook",
+   "instagram"
+  ],
+  "safety": [],
+  "source": "run_cine4",
+  "files": [
+   "videos/28.mp4.part00",
+   "videos/28.mp4.part01"
+  ],
+  "light": [
+   "videos/28.light.mp4"
+  ],
+  "preview": "previews/28.mp4",
+  "added": "2026-11-27 02:30"
+ },
+ {
+  "n": 29,
+  "trend_id": "custom:movie-reel-pathaan",
+  "kind": "short",
+  "text": "Pathaan Facts | Shah Rukh Khan Siddharth Anand 1000 Crore | Movie News Hindi\n\nPathaan (2023): released 25 January 2023, directed by Siddharth Anand, produced by Yash Raj Films, announced 1000 crore worldwide gross on 21 February 2023. Sources: Wikipedia, Deccan Herald.\n\n#Pathaan #ShahRukhKhan #YRF #Movies #MovieNews #Bollywood #Shorts",
+  "tags": [
+   "Pathaan",
+   "Shah Rukh Khan",
+   "Siddharth Anand",
+   "Yash Raj Films",
+   "Bollywood box office",
+   "Hindi film facts"
+  ],
+  "category": "movies",
+  "platforms": [
+   "facebook",
+   "instagram"
+  ],
+  "safety": [],
+  "source": "run_cine4",
+  "files": [
+   "videos/29.mp4.part00",
+   "videos/29.mp4.part01",
+   "videos/29.mp4.part02"
+  ],
+  "light": [
+   "videos/29.light.mp4"
+  ],
+  "preview": "previews/29.mp4",
+  "added": "2026-11-27 02:31"
  }
 ]

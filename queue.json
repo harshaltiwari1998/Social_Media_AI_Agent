@@ -654,5 +654,115 @@
   ],
   "preview": "previews/20.mp4",
   "added": "2026-11-26 02:26"
+ },
+ {
+  "n": 21,
+  "trend_id": "custom:motion-poke-scyther",
+  "kind": "short",
+  "text": "Scyther Evolves Into Scizor | Pokemon Evolution Animation\n\nScyther to Scizor - a Pokemon evolution animation, made with AI from the official artwork. Who is your favourite Bug-type Pokemon? Comment below!\n\nMusic: Jim Yosef - Link [NCS Release]\nMusic provided by NoCopyrightSounds\nFree Download/Stream: http://ncs.io/link\n\n#Pokemon #PokemonEvolution #Scizor #Gaming #Shorts",
+  "tags": [
+   "Scyther",
+   "Scizor",
+   "Scyther evolution",
+   "Pokemon evolution",
+   "Pokemon animation",
+   "Pokemon",
+   "bug type Pokemon",
+   "evolution animation",
+   "Pokemon shorts"
+  ],
+  "category": "gaming",
+  "platforms": null,
+  "evolution": {
+   "id": "scyther",
+   "stages": [
+    "scyther",
+    "scizor"
+   ],
+   "type": "bug"
+  },
+  "source": "run_evo",
+  "files": [
+   "videos/21.mp4"
+  ],
+  "light": [
+   "videos/21.light.mp4"
+  ],
+  "preview": "previews/21.mp4",
+  "added": "2026-11-26 23:43"
+ },
+ {
+  "n": 22,
+  "trend_id": "custom:motion-poke-vulpix",
+  "kind": "short",
+  "text": "Vulpix Evolves Into Ninetales | Pokemon Evolution Animation\n\nVulpix to Ninetales - a Pokemon evolution animation, made with AI from the official artwork. Who is your favourite Fire-type Pokemon? Comment below!\n\nMusic: Elektronomia - Energy [NCS Release]\nMusic provided by NoCopyrightSounds\nFree Download/Stream: http://ncs.io/energy\n\n#Pokemon #PokemonEvolution #Ninetales #Gaming #Shorts",
+  "tags": [
+   "Vulpix",
+   "Ninetales",
+   "Vulpix evolution",
+   "Pokemon evolution",
+   "Pokemon animation",
+   "Pokemon",
+   "fire type Pokemon",
+   "evolution animation",
+   "Pokemon shorts"
+  ],
+  "category": "gaming",
+  "platforms": null,
+  "evolution": {
+   "id": "vulpix",
+   "stages": [
+    "vulpix",
+    "ninetales"
+   ],
+   "type": "fire"
+  },
+  "source": "run_evo",
+  "files": [
+   "videos/22.mp4"
+  ],
+  "light": [
+   "videos/22.light.mp4"
+  ],
+  "preview": "previews/22.mp4",
+  "added": "2026-11-26 23:44"
+ },
+ {
+  "n": 23,
+  "trend_id": "custom:motion-poke-zubat",
+  "kind": "short",
+  "text": "Zubat Evolves Into Golbat and Crobat | Pokemon Evolution Animation\n\nZubat to Golbat to Crobat - a Pokemon evolution animation, made with AI from the official artwork. Who is your favourite Poison-type Pokemon? Comment below!\n\nMusic: Spektrem - Shine [NCS Release]\nMusic provided by NoCopyrightSounds\nFree Download/Stream: http://ncs.io/shine\n\n#Pokemon #PokemonEvolution #Crobat #Gaming #Shorts",
+  "tags": [
+   "Zubat",
+   "Golbat",
+   "Crobat",
+   "Zubat evolution",
+   "Pokemon evolution",
+   "Pokemon animation",
+   "Pokemon",
+   "poison type Pokemon",
+   "evolution animation",
+   "Pokemon shorts"
+  ],
+  "category": "gaming",
+  "platforms": null,
+  "evolution": {
+   "id": "zubat",
+   "stages": [
+    "zubat",
+    "golbat",
+    "crobat"
+   ],
+   "type": "poison"
+  },
+  "source": "run_evo",
+  "files": [
+   "videos/23.mp4"
+  ],
+  "light": [
+   "videos/23.light.mp4"
+  ],
+  "preview": "previews/23.mp4",
+  "added": "2026-11-26 23:46"
  }
 ]

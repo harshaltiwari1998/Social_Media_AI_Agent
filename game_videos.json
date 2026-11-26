@@ -12978,5 +12978,130 @@
   "reel-secret-superstar": {
     "spec": "scripts/specs/movies/reel_90_secret-superstar-facts.json",
     "video": "F:\\AI AGENT\\run_cine3\\videos\\short-103edc77.mp4"
+  },
+  "poke-fuecoco": {
+    "kind": "motion",
+    "spec": "backend/scripts/specs/pokemon_queue.json",
+    "video": "",
+    "data": {
+      "id": "fuecoco",
+      "stages": [
+        "fuecoco",
+        "crocalor",
+        "skeledirge"
+      ],
+      "type": "fire"
+    }
+  },
+  "poke-growlithe": {
+    "kind": "motion",
+    "spec": "backend/scripts/specs/pokemon_queue.json",
+    "video": "",
+    "data": {
+      "id": "growlithe",
+      "stages": [
+        "growlithe",
+        "arcanine"
+      ],
+      "type": "fire"
+    }
+  },
+  "poke-litten": {
+    "kind": "motion",
+    "spec": "backend/scripts/specs/pokemon_queue.json",
+    "video": "",
+    "data": {
+      "id": "litten",
+      "stages": [
+        "litten",
+        "torracat",
+        "incineroar"
+      ],
+      "type": "fire"
+    }
+  },
+  "poke-piplup": {
+    "kind": "motion",
+    "spec": "backend/scripts/specs/pokemon_queue.json",
+    "video": "",
+    "data": {
+      "id": "piplup",
+      "stages": [
+        "piplup",
+        "prinplup",
+        "empoleon"
+      ],
+      "type": "water"
+    }
+  },
+  "poke-popplio": {
+    "kind": "motion",
+    "spec": "backend/scripts/specs/pokemon_queue.json",
+    "video": "",
+    "data": {
+      "id": "popplio",
+      "stages": [
+        "popplio",
+        "brionne",
+        "primarina"
+      ],
+      "type": "water"
+    }
+  },
+  "poke-quaxly": {
+    "kind": "motion",
+    "spec": "backend/scripts/specs/pokemon_queue.json",
+    "video": "",
+    "data": {
+      "id": "quaxly",
+      "stages": [
+        "quaxly",
+        "quaxwell",
+        "quaquaval"
+      ],
+      "type": "water"
+    }
+  },
+  "poke-rowlet": {
+    "kind": "motion",
+    "spec": "backend/scripts/specs/pokemon_queue.json",
+    "video": "",
+    "data": {
+      "id": "rowlet",
+      "stages": [
+        "rowlet",
+        "dartrix",
+        "decidueye"
+      ],
+      "type": "grass"
+    }
+  },
+  "poke-sprigatito": {
+    "kind": "motion",
+    "spec": "backend/scripts/specs/pokemon_queue.json",
+    "video": "",
+    "data": {
+      "id": "sprigatito",
+      "stages": [
+        "sprigatito",
+        "floragato",
+        "meowscarada"
+      ],
+      "type": "grass"
+    }
+  },
+  "poke-turtwig": {
+    "kind": "motion",
+    "spec": "backend/scripts/specs/pokemon_queue.json",
+    "video": "",
+    "data": {
+      "id": "turtwig",
+      "stages": [
+        "turtwig",
+        "grotle",
+        "torterra"
+      ],
+      "type": "grass"
+    }
   }
 }

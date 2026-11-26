@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-pomegg-pomawk-or-dazmand-evolution",
+  "slot": "aniimo",
+  "order": 300,
+  "headline": "Pomegg Choice",
+  "title": "Pomegg Evolution | Pomawk or Dazmand | Aniimo Guide",
+  "video_script": "Pomegg looks like an egg, but it evolves two ways. At level twenty five it can become Pomawk, a Grass and Ice breaker. Add a Roar Stone at level twenty five and it becomes Dazmand instead, a Lightning support. Both branches start from the same little shell. Which form fits your team? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:8",
+      "label": "Pomegg Choice"
+    },
+    {
+      "image": "steam:4126040:12",
+      "fact": "Pomawk",
+      "sub": "Level 25, Grass and Ice"
+    },
+    {
+      "image": "steam:4126040:20",
+      "fact": "Dazmand",
+      "sub": "Level 25 plus Roar Stone"
+    },
+    {
+      "image": "steam:4126040:30",
+      "fact": "Two branches",
+      "sub": "Breaker or support"
+    }
+  ],
+  "description": "Pomegg evolution in Aniimo: Pomawk at level 25, or Dazmand at level 25 with a Roar Stone. Pomawk is a Grass and Ice breaker, Dazmand a Lightning support.",
+  "hashtags": [
+    "Aniimo",
+    "Pomegg",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo evolution",
+    "Pomegg",
+    "Pomawk",
+    "Dazmand",
+    "Roar Stone",
+    "Pawprint Studio"
+  ],
+  "joke": "Pomegg hides in a shell and still gets mistaken for breakfast."
+}

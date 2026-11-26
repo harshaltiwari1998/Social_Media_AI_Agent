@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-yakumo-birds-of-a-feather-gathering-mount",
+  "slot": "palguide",
+  "order": 210,
+  "headline": "Yakumo Mount",
+  "title": "Yakumo | Rideable Gatherer With a Passive Hunting Trick | Palworld Guide",
+  "video_script": "Yakumo is a Neutral Pal you can ride. Its partner skill, Birds of a Feather, raises your chance of meeting Pals that carry the same passive skill while you fight together, by fifteen to thirty percent. That helps when you hunt for perfect passives. It also works at Gathering level two. Wild ones spawn near Dancing Sakura Shrine on Sakurajima, around level fifty three. Will you ride Yakumo? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Yakumo",
+      "label": "Yakumo"
+    },
+    {
+      "image": "steam:1623730:8",
+      "fact": "Birds of a Feather",
+      "sub": "More Pals with the same passive"
+    },
+    {
+      "image": "steam:1623730:13",
+      "fact": "Gathering Lv 2",
+      "sub": "Rideable Neutral Pal"
+    },
+    {
+      "image": "steam:1623730:17",
+      "fact": "Sakurajima",
+      "sub": "Near Dancing Sakura Shrine"
+    }
+  ],
+  "description": "Palworld 1.0 Yakumo guide: rideable Neutral Pal, Gathering level 2, partner skill Birds of a Feather and where it spawns on Sakurajima.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Yakumo",
+    "Palworld Birds of a Feather",
+    "Palworld mounts",
+    "Palworld passive skills",
+    "Palworld Sakurajima",
+    "Palworld 1.0",
+    "Palworld guide"
+  ],
+  "joke": "Yakumo is a loyal dog that also happens to help you hunt for good genes."
+}

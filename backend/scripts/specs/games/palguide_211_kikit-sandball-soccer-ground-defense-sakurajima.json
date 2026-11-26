@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-kikit-sandball-soccer-ground-defense-sakurajima",
+  "slot": "palguide",
+  "order": 211,
+  "headline": "Kikit Guide",
+  "title": "Kikit | Sandball Soccer Boosts Ground Pal Defense | Palworld Guide",
+  "video_script": "Kikit is a small Ground Pal with a useful partner skill. Sandball Soccer raises the defense of Ground Pals in your party by fifteen to thirty percent, and it does not stack. Kikit also works at Mining level one. You can find it on Sakurajima, mostly around the Southern Sandbar, at roughly level forty six. Build a Ground team and it quietly toughens everyone. Do you use Kikit? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Kikit",
+      "label": "Kikit"
+    },
+    {
+      "image": "steam:1623730:8",
+      "fact": "Sandball Soccer",
+      "sub": "Ground Pal defense up"
+    },
+    {
+      "image": "steam:1623730:13",
+      "fact": "Mining Lv 1",
+      "sub": "Small Ground worker"
+    },
+    {
+      "image": "steam:1623730:17",
+      "fact": "Sakurajima",
+      "sub": "Southern Sandbar"
+    }
+  ],
+  "description": "Palworld 1.0 Kikit guide: Ground Pal, Mining level 1, Sandball Soccer boosts Ground Pal defense, found on Sakurajima.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Kikit",
+    "Palworld Sandball Soccer",
+    "Palworld Ground Pals",
+    "Palworld Sakurajima",
+    "Palworld team",
+    "Palworld 1.0",
+    "Palworld guide"
+  ],
+  "joke": "Kikit plays soccer like the whole team depends on it, and it does."
+}

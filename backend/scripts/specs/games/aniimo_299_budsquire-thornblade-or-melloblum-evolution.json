@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-budsquire-thornblade-or-melloblum-evolution",
+  "slot": "aniimo",
+  "order": 299,
+  "headline": "Budsquire Choice",
+  "title": "Budsquire Evolution | Thornblade or Melloblum | Aniimo Guide",
+  "video_script": "Budsquire can become two different Aniimo, and both evolve at level twenty seven. For Thornblade, defeat a Thornblade while your party holds only a Budsquire. For Melloblum, finish the journey Flowers and Thorns, give it a Stamen of Cubbo's Rose, and make sure its personality contains Faithful. Thornblade is a Grass and Water attacker. Melloblum is a Grass support. Which one will you pick? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:8",
+      "label": "Budsquire Choice"
+    },
+    {
+      "image": "steam:4126040:30",
+      "fact": "Thornblade",
+      "sub": "Win a solo Budsquire fight"
+    },
+    {
+      "image": "steam:4126040:17",
+      "fact": "Melloblum",
+      "sub": "Faithful plus Cubbo's Rose"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Both at level 27",
+      "sub": "Pick attacker or support"
+    }
+  ],
+  "description": "Budsquire evolution in Aniimo: both Thornblade and Melloblum need level 27. Thornblade needs a win with a Budsquire-only party; Melloblum needs the Flowers and Thorns journey, a Faithful personality and a Stamen of Cubbo's Rose.",
+  "hashtags": [
+    "Aniimo",
+    "Budsquire",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Aniimo evolution",
+    "Budsquire",
+    "Thornblade",
+    "Melloblum",
+    "Pawprint Studio",
+    "Aniimo tips"
+  ],
+  "joke": "Budsquire cries easily, but it has two very sharp career options."
+}

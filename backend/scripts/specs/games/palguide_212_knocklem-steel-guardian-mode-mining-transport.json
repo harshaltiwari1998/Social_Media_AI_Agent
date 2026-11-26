@@ -1,0 +1,45 @@
+{
+  "id": "palworld-guide-knocklem-steel-guardian-mode-mining-transport",
+  "slot": "palguide",
+  "order": 212,
+  "headline": "Knocklem Guide",
+  "title": "Knocklem | Steel Guardian Mode and Heavy Mining | Palworld Guide",
+  "video_script": "Knocklem is a Ground Pal built like a tank. Its partner skill, Steel Guardian Mode, boosts its own attack and defense for a limited time, from fifty up to two hundred percent depending on its rank. At the base it works at Mining level seven, Transporting level seven and Gathering level four. Will you make one a tank? Comment below!",
+  "scenes": [
+    {
+      "image": "pal:Knocklem",
+      "label": "Knocklem"
+    },
+    {
+      "image": "steam:1623730:8",
+      "fact": "Steel Guardian Mode",
+      "sub": "Attack and defense up"
+    },
+    {
+      "image": "steam:1623730:13",
+      "fact": "Mining Lv 7",
+      "sub": "Transporting Lv 7 too"
+    },
+    {
+      "image": "steam:1623730:17",
+      "fact": "Gathering Lv 4",
+      "sub": "Strong all round worker"
+    }
+  ],
+  "description": "Palworld 1.0 Knocklem guide: Ground Pal, Steel Guardian Mode, Mining 7, Transporting 7 and Gathering 4.",
+  "hashtags": [
+    "Palworld",
+    "PalworldTips",
+    "PalworldGuide"
+  ],
+  "tags": [
+    "Palworld Knocklem",
+    "Palworld Steel Guardian Mode",
+    "Palworld mining Pals",
+    "Palworld transport Pals",
+    "Palworld base tips",
+    "Palworld 1.0",
+    "Palworld guide"
+  ],
+  "joke": "Knocklem works hard and also looks like it could win an argument with a wall."
+}

@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-pranky-three-forms-healer-where-to-find",
+  "slot": "aniimo",
+  "order": 301,
+  "headline": "Pranky Forms",
+  "title": "Pranky Guide | Three Forms and Where to Find Them | Aniimo Guide",
+  "video_script": "Pranky is a Water healer that evolves from Skippy at level twelve. The normal form lives in Nimbus Fields early on. A Sea of Flowers form appears around level twenty one. The Snowfield form, Water and Ice, waits in Driftwise Meadow near level fifty two. At level twenty, Pranky evolves into Glacy, or into Leafy after you beat the Alpha Leafy. Which form do you want? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:8",
+      "label": "Pranky Forms"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Nimbus Fields",
+      "sub": "Early game Pranky"
+    },
+    {
+      "image": "steam:4126040:17",
+      "fact": "Sea of Flowers",
+      "sub": "Around level 21"
+    },
+    {
+      "image": "steam:4126040:20",
+      "fact": "Driftwise Meadow",
+      "sub": "Snowfield form near level 52"
+    }
+  ],
+  "description": "Pranky in Aniimo is a Water healer from Skippy. Find the normal form in Nimbus Fields, a Sea of Flowers form around level 21 and the Water and Ice Snowfield form in Driftwise Meadow near level 52.",
+  "hashtags": [
+    "Aniimo",
+    "Pranky",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Pranky",
+    "Skippy",
+    "Glacy",
+    "Leafy",
+    "Aniimo locations",
+    "Pawprint Studio"
+  ],
+  "joke": "Pranky heals your team, then still finds time to be cute about it."
+}

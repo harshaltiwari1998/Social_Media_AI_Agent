@@ -321,6 +321,12 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   gore close-up the day-5 plan had kept (pigs eating Donnie's bloody body, day5 7190.5-7198.5, in short 80 + long 7):
   added to `excluded`, short 80 / long 7 put in `hourly_held.json` (`push-long` now skips held ids too), Story +
   Highlight re-rendered. Strip-check every edit for gore too, not only nudity.
+  **Chapter 1 mission videos** (owner 2026-11-26: "jitne bhi missions hue he chapter 1 me usko bhi banao and upload wali me
+  dal do 4 ghante wale me"): `missions.py` joins the Story's own pieces into 25 videos (launch parts grouped into missions
+  1-5, every story long video = one mission) -> `missions/mission_NN.mp4` + thumb + `missions.json` (title "GTA 6 Chapter 1
+  Mission N - <name>", chapters, `replaces` = the 22 plan long videos with the same footage). `push-long` queues the
+  missions first (ids `gameplay:gta6_ch1:missionNN`) and never the replaced plan longs; `post-long` uploads one mission
+  per 4 h (next to the 10-short batch), the other long videos keep 2 a day after the missions.
 - `backend/scripts/specs/gameplay/<plan>.json` - cut plans for the owner's own stream recordings.
 - `backend/scripts/specs/games/yugioh_NN_<card>.json` - Yu-Gi-Oh card explainers (owner 2026-11-16: "har card ke bare me
   batao english me ki kya he kya karta he and kaise use karna he" + "players ke best cards" videos). Format: what it is
@@ -622,6 +628,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-26 - GTA 6 Chapter 1: one video per mission (25, `gta6_chapter1_full/missions.py`), one to YouTube every 4 h from the long queue; the plan long videos they replace are left out.
 - 2026-11-26 - GTA 6 YouTube shorts: batches of 10 with a full 4 h gap (was a rolling 10-in-4-h window that posted stragglers every ~2 h); long videos no longer count.
 - 2026-11-26 - Clips posted on every platform (checked on YouTube + Instagram) are deleted from `gameplay_out`; `deleted_posted.txt` stops re-renders.
 - 2026-11-26 - GTA 6 day 5: gore close-up (pigs + Donnie's body) excluded, short 80 / long 7 held; `push-long` skips held long videos.

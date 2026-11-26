@@ -214,8 +214,8 @@ def _yt_done(dbs: list[Path]) -> set[str]:
         if db.exists() and db.stat().st_size:
             c = sqlite3.connect(db)
             done |= {r[0] for r in c.execute(
-                "select trend_id from posted_trends where platform='youtube' and trend_id like 'gameplay:gta6_%:long%' "
-                "and post_id is not null and post_id != '' and post_id not like 'hold:%'")}
+                "select trend_id from posted_trends where platform='youtube' and (trend_id like 'gameplay:gta6_%:long%' "
+                "or trend_id like 'gameplay:gta6_ch1:%') and post_id is not null and post_id != '' and post_id not like 'hold:%'")}
             c.close()
     return done
 
@@ -237,21 +237,33 @@ def push_long(n: int, if_low: int) -> None:
         return
     held = json.loads((run / "hourly_held.json").read_text()) if (run / "hourly_held.json").exists() else []
     cleared = json.loads((run / "hourly_cleared.json").read_text()) if (run / "hourly_cleared.json").exists() else []
-    picks = []
+    # owner 2026-11-26: every Chapter 1 mission as its own video, one in each 4-hour batch - they go first; the plan
+    # long videos with the same footage (REPLACES) are left out so nothing is on the channel twice
+    mf = out / "gta6_chapter1_full" / "missions" / "missions.json"
+    ms = json.loads(mf.read_text(encoding="utf-8")) if mf.exists() else {"replaces": [], "missions": []}
+    cands = [(m["tid"], Path(m["file"]), Path(m["thumb"]), m["title"], m["text"], m["tags"], f"ch1_mission{m['n']:02d}")
+             for m in ms["missions"]]
     for name in LONG_ORDER:
         plan = json.loads((PLANS / f"{name}.json").read_text(encoding="utf-8"))
         for k, lv in enumerate(plan.get("longs", []), 1):
             tid = f"gameplay:{name}:long{k:02d}"
-            video = out / name / f"long_{k}.mp4"
-            if len(picks) >= n or tid in done or not video.exists():
+            if tid in ms["replaces"]:
                 continue
-            if tid in held and tid not in cleared:
-                print(f"{tid}: held in hourly_held.json - left out", flush=True)
-                continue
-            if tid not in cleared and safety.scan_video(video):
-                print(f"{tid}: NudeNet hit - left out", flush=True)
-                continue
-            picks.append((name, k, plan, lv, video))
+            title, text = _long_text(plan, k, lv, out / name)
+            cands.append((tid, out / name / f"long_{k}.mp4", out / name / f"long_{k}_thumb.jpg", title, text,
+                          plan.get("tags", []), f"{name}_long{k}"))
+    picks = []
+    for c in cands:
+        tid, video = c[0], c[1]
+        if len(picks) >= n or tid in done or not video.exists():
+            continue
+        if tid in held and tid not in cleared:
+            print(f"{tid}: held in hourly_held.json - left out", flush=True)
+            continue
+        if tid not in cleared and safety.scan_video(video):
+            print(f"{tid}: NudeNet hit - left out", flush=True)
+            continue
+        picks.append(c)
     if not picks:
         print("no GTA 6 long video left for YouTube", flush=True)
         return
@@ -282,26 +294,23 @@ def push_long(n: int, if_low: int) -> None:
         raise SystemExit("push failed")
 
     queue, size = [], 0
-    for name, k, plan, lv, video in picks:
-        title, text = _long_text(plan, k, lv, out / name)
+    for tid, video, thumb, title, text, tags, base in picks:
         parts = []
         with open(video, "rb") as fh:
             i = 0
             while chunk := fh.read(PART):
-                rel = f"longs/{name}_long{k}.mp4.part{i:02d}"
+                rel = f"longs/{base}.mp4.part{i:02d}"
                 (wt / rel).write_bytes(chunk)
                 parts.append(rel)
                 i += 1
                 size += len(chunk)
                 if size >= STEP:
-                    flush(f"GTA 6 long videos: {name} long {k}")
+                    flush(f"GTA 6 long videos: {base}")
                     size = 0
-        thumb = out / name / f"long_{k}_thumb.jpg"
-        entry = {"tid": f"gameplay:{name}:long{k:02d}", "parts": parts, "title": title, "text": text,
-                 "tags": plan.get("tags", [])}
+        entry = {"tid": tid, "parts": parts, "title": title, "text": text, "tags": tags}
         if thumb.exists():
-            shutil.copy(thumb, wt / f"longs/{name}_long{k}_thumb.jpg")
-            entry["thumb"] = f"longs/{name}_long{k}_thumb.jpg"
+            shutil.copy(thumb, wt / f"longs/{base}_thumb.jpg")
+            entry["thumb"] = f"longs/{base}_thumb.jpg"
         queue.append(entry)
         print(f"queued {entry['tid']}: {title}", flush=True)
     (wt / "queue.json").write_text(json.dumps(queue, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
@@ -325,11 +334,20 @@ def post_long() -> None:
     recent = c.execute("select count(*) from posted_trends where platform='youtube' and trend_id like 'gameplay:gta6_%:long%' "
                        "and post_id is not null and post_id not like 'hold:%' and post_id not like 'skip:%' "
                        "and posted_at > ?", (since,)).fetchone()[0]
+    last_m = c.execute("select max(posted_at) from posted_trends where platform='youtube' and trend_id like 'gameplay:gta6_ch1:%' "
+                       "and post_id is not null and post_id not like 'hold:%' and post_id not like 'skip:%'").fetchone()[0]
     c.close()
     print(f"long videos: {len(todo)} waiting, {recent} uploaded in the last 24 h", flush=True)
-    if not todo or recent >= LONGS_PER_DAY:
+    if not todo:
         return
     q = todo[0]
+    if q["tid"].startswith("gameplay:gta6_ch1:"):
+        # Chapter 1 missions (owner 2026-11-26): one in every 4-hour batch, next to the 10 shorts
+        if last_m and datetime.fromisoformat(last_m).replace(tzinfo=timezone.utc) + timedelta(hours=GAP_H) > datetime.now(timezone.utc):
+            print(f"last Chapter 1 mission went up at {last_m[:16]} UTC - next one 4 h after it", flush=True)
+            return
+    elif recent >= LONGS_PER_DAY:
+        return
     with tempfile.TemporaryDirectory() as tmp:
         video = Path(tmp) / "long.mp4"
         with open(video, "wb") as f:

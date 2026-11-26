@@ -13103,5 +13103,29 @@
       ],
       "type": "grass"
     }
+  },
+  "inji-vellam-29-january-2027": {
+    "spec": "scripts/specs/movies/movie_new_59_inji-vellam-29-january-2027.json",
+    "video": "F:\\AI AGENT\\run_cine4\\videos\\short-7dc42aa3.mp4"
+  },
+  "mupapa-19-february-2027": {
+    "spec": "scripts/specs/movies/movie_new_56_mupapa-19-february-2027.json",
+    "video": "F:\\AI AGENT\\run_cine4\\videos\\short-85ad04c9.mp4"
+  },
+  "cat-in-the-hat-opening": {
+    "spec": "scripts/specs/movies/movie_review_44_cat-in-the-hat-opening.json",
+    "video": "F:\\AI AGENT\\run_cine4\\videos\\short-bfc7b62a.mp4"
+  },
+  "ramayana-500-crore-worldwide": {
+    "spec": "scripts/specs/movies/movie_review_43_ramayana-500-crore-worldwide.json",
+    "video": "F:\\AI AGENT\\run_cine4\\videos\\short-026dc650.mp4"
+  },
+  "reel-manjummel-boys": {
+    "spec": "scripts/specs/movies/reel_89_manjummel-boys-facts.json",
+    "video": "F:\\AI AGENT\\run_cine4\\videos\\short-28b998f8.mp4"
+  },
+  "reel-pathaan": {
+    "spec": "scripts/specs/movies/reel_88_pathaan-facts.json",
+    "video": "F:\\AI AGENT\\run_cine4\\videos\\short-41283701.mp4"
   }
 }

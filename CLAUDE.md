@@ -620,7 +620,11 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   not wanted), `verify.py` checks each one on YouTube (processed, public/unlisted) and Instagram (media exists); only those are
   deleted with their `.light` / `.ig` / safety files. Names go in `<plan>/deleted_posted.txt` (`gameplay_clips.build`,
   `gameplay_daily.rendered` and `gta6_relogo.py` treat them as done - never re-rendered), links in `_cleanup/deleted_log.json`.
-  First run: 86 clips, 4.8 GB.
+  First run: 86 clips, 4.8 GB; second (same day) 38 more. Run folders too: `_cleanup/runs_inventory.py [--delete]` maps
+  every `run_*` video (review queues, game/palworld_videos.json, evolution `final.mp4`, rashifal `made_all.json`) to its
+  post, keeps anything with a hold / failed / rejected row, checks YouTube (both channels) + Instagram (both accounts) and
+  deletes the rest (a posted evolution line = its whole folder) - 38 videos, 2.1 GB on 2026-11-26. Kept: Yu-Gi-Oh (82 YouTube
+  holds, 35 not on Instagram), `run_evo/pokemon/scyther` (6.6 GB, never posted).
 - No working paid image/video model (Pollinations empty, Gemini Veo/image need billing).
 - Instagram API cannot change the cover of already-posted Reels.
 - Twitter trend source has no token (skipped).

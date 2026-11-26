@@ -192,7 +192,9 @@ def post_text(entry: dict) -> tuple[str, list[str]]:
             "Which stone should Mewtwo punch next? Comment below!")
     tags = ["Mewtwo", entry["form"], entry["mega"], entry["stone"], "Pokemon what if", "Pokemon evolution",
             "Mewtwo evolution", "fan made Pokemon", "Pokemon fan animation", "Pokemon shorts", "Pokemon"]
-    return f"{title}\n\n{desc}\n\n#Pokemon #Mewtwo #PokemonEvolution #Shorts", tags
+    from scripts import ncs_music  # NCS background music credit (owner 2026-11-26); key = the build folder
+    return (f"{title}\n\n{desc}\n\n{ncs_music.credit('stone-mewtwo-' + entry['key'])}\n\n"
+            "#Pokemon #Mewtwo #PokemonEvolution #Shorts"), tags
 
 
 def main() -> None:

@@ -1315,6 +1315,12 @@ def build(storyboard: Path, out_dir: Path) -> Path:
         if a is not None:
             st = int(starts[i] * SR)
             mix[st:st + len(a)] += a[: len(mix) - st] * 0.35  # Kling's own sound effects under the narration
+    if sb.get("music", True):  # NCS background music under everything (owner 2026-11-26), ducked under the voice
+        from scripts import ncs_music
+        mix, used = ncs_music.add_bed(mix, SR, [(at, len(a) / SR) for at, a, _ in vo], sb.get("music_key", out_dir.name))
+        if used:
+            (out_dir / "music.json").write_text(json.dumps(ncs_music.track_for(sb.get("music_key", out_dir.name))),
+                                               encoding="utf-8")
     mix = np.clip(mix, -1, 1)[: int(total * SR)]
     chunks = [(s, chunks[k + 1][0] if k + 1 < len(chunks) else total, t) for k, (s, t) in enumerate(chunks)]
 

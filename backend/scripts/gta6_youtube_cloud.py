@@ -129,7 +129,7 @@ def push(n: int) -> None:
             if size >= STEP:
                 flush(f"GTA 6 YouTube queue: +{added}")
                 size = 0
-    queue.sort(key=lambda q: rank.get(q["tid"], len(rank)))
+    queue.sort(key=lambda q: (0 if q.get("v2") else 1, rank.get(q["tid"], len(rank))))  # v2 re-edits first
     if size or added or not queue_file.exists():
         flush(f"GTA 6 YouTube queue: +{added}")
     print(f"queued {added}, {len(queue)} in queue.json", flush=True)
@@ -369,11 +369,94 @@ def post_long() -> None:
     print(f"{q['tid']}: {'ok ' + str(res.post_id) if res.success else 'FAILED ' + str(res.error)[:200]}", flush=True)
 
 
+def v2_sync() -> None:
+    """Owner 2026-11-26 (max views): the best 100 GTA 6 shorts are re-edited (gta6_shorts_v2.py). On the queue branch
+    a best-100 short that is not re-edited yet is taken OUT (so CI never posts the old cut), a re-edited one gets its new
+    file and goes to the FRONT (v2 entries in best-list order, then the rest in story order)."""
+    run, out = REPO.parent / "run_gta6", REPO.parent / "gameplay_out"
+    os.environ["MEDIA_OUTPUT_DIR"] = str(run)
+    from app.pipeline import store
+    best = json.loads((PLANS / "gta6_best100.json").read_text(encoding="utf-8"))
+    edits_f = out / "_v2" / "edits.json"
+    edits = json.loads(edits_f.read_text(encoding="utf-8")) if edits_f.exists() else {}
+    held = json.loads((run / "hourly_held.json").read_text()) if (run / "hourly_held.json").exists() else []
+    cleared = json.loads((run / "hourly_cleared.json").read_text()) if (run / "hourly_cleared.json").exists() else []
+    _git("fetch", "-q", "origin", "gaming-state", cwd=REPO)
+    state = Path(tempfile.mkdtemp()) / "state.sqlite3"
+    state.write_bytes(subprocess.run(["git", "show", "origin/gaming-state:pipeline_store.sqlite3"], cwd=REPO,
+                                     check=True, capture_output=True).stdout)
+    import sqlite3
+    c = sqlite3.connect(state)
+    on_yt = {r[0] for r in c.execute("select trend_id from posted_trends where platform='youtube' and post_id is not null "
+                                     "and post_id != '' and post_id not like 'hold:%' and post_id not like 'skip:%'")}
+    c.close()
+    wt = REPO.parent / "wt_gta6yt"
+    _git("pull", "-q", "--ff-only", "origin", BRANCH, cwd=wt)
+    queue_file = wt / "queue.json"
+    queue = json.loads(queue_file.read_text(encoding="utf-8"))
+    by_tid = {q["tid"]: q for q in queue}
+    order = {f"gameplay:{b['plan']}:short{b['n']:02d}": i for i, b in enumerate(best)}
+    plans: dict[str, dict] = {}
+    size, changed = 0, 0
+
+    def flush(msg: str) -> None:
+        queue_file.write_text(json.dumps(queue, indent=1, ensure_ascii=False) + chr(10), encoding="utf-8")
+        _git("add", "-A", cwd=wt)
+        if not _git("status", "--porcelain", cwd=wt).strip():
+            return
+        _git("-c", "user.name=HarryBeast laptop", "-c", "user.email=laptop@localhost", "commit", "-qm", msg, cwd=wt)
+        for k in range(5):
+            if subprocess.run(["git", "push", "-q", "origin", f"HEAD:{BRANCH}"], cwd=wt).returncode == 0:
+                return
+            time.sleep(20 * (k + 1))
+        raise SystemExit("push failed")
+
+    for b in best:
+        name, k = b["plan"], b["n"]
+        tid = f"gameplay:{name}:short{k:02d}"
+        if tid in on_yt or (tid in held and tid not in cleared):
+            continue
+        done = f"{name}:{k}" in edits
+        q = by_tid.get(tid)
+        if not done:
+            if q is not None:  # old cut must not go up - out until the new one is ready
+                queue.remove(q)
+                del by_tid[tid]
+                changed += 1
+            continue
+        if q is not None and q.get("v2"):
+            continue
+        video = out / name / f"short_{k:02d}.mp4"
+        if not video.exists():
+            continue
+        plan = plans.setdefault(name, json.loads((PLANS / f"{name}.json").read_text(encoding="utf-8")))
+        rel = f"shorts/{name}_short{k:02d}.mp4"
+        (wt / "shorts").mkdir(exist_ok=True)
+        shutil.copy(video, wt / rel)
+        size += video.stat().st_size
+        entry = {"tid": tid, "file": rel, "caption": caption(plan, plan["shorts"][k - 1]["title"]), "tags": plan["tags"],
+                 "v2": True}
+        if q is not None:
+            queue.remove(q)
+        queue.append(entry)
+        by_tid[tid] = entry
+        changed += 1
+        if size >= STEP:
+            queue.sort(key=lambda x: (0 if x.get("v2") else 1, order.get(x["tid"], 999)))
+            flush("GTA 6 YouTube queue: v2 re-edits")
+            size = 0
+    v2 = [x for x in queue if x.get("v2")]
+    v2.sort(key=lambda x: order.get(x["tid"], 999))
+    queue[:] = v2 + [x for x in queue if not x.get("v2")]
+    flush("GTA 6 YouTube queue: v2 re-edits first")
+    print(f"v2 sync: {changed} changes, {len(v2)} re-edited shorts at the front, {len(queue)} in queue.json", flush=True)
+
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("mode", choices=["push", "post", "push-long", "post-long"])
+    ap.add_argument("mode", choices=["push", "post", "push-long", "post-long", "v2-sync"])
     ap.add_argument("n", type=int, nargs="?", default=1)
     ap.add_argument("--if-low", type=int, default=2, help="push-long: only when fewer than this many wait on GitHub")
     a = ap.parse_args()
     {"push": lambda: push(a.n), "post": lambda: post(a.n), "push-long": lambda: push_long(a.n, a.if_low),
-     "post-long": post_long}[a.mode]()
+     "post-long": post_long, "v2-sync": v2_sync}[a.mode]()

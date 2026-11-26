@@ -1,0 +1,502 @@
+[
+ {
+  "plan": "gta6_launch",
+  "n": 10,
+  "hook": "COPS EVERYWHERE"
+ },
+ {
+  "plan": "gta6_launch",
+  "n": 32,
+  "hook": "HIS PLANE IS GONE"
+ },
+ {
+  "plan": "gta6_launch",
+  "n": 36,
+  "hook": "SHE'S CALLING FROM PRISON"
+ },
+ {
+  "plan": "gta6_day2",
+  "n": 60,
+  "hook": "ARNOLD PICKED THE WRONG GUY"
+ },
+ {
+  "plan": "gta6_day2",
+  "n": 61,
+  "hook": "HE'S RUNNING"
+ },
+ {
+  "plan": "gta6_day2",
+  "n": 63,
+  "hook": "NOWHERE LEFT TO RUN"
+ },
+ {
+  "plan": "gta6_day3a",
+  "n": 1,
+  "hook": "THIS GATOR HAS A NAME"
+ },
+ {
+  "plan": "gta6_day3b",
+  "n": 3,
+  "hook": "JASON JUMPS OFF THE BRIDGE"
+ },
+ {
+  "plan": "gta6_day3b",
+  "n": 11,
+  "hook": "IT'S AN AMBUSH"
+ },
+ {
+  "plan": "gta6_day3b",
+  "n": 13,
+  "hook": "FENG SHUI WITH CAL"
+ },
+ {
+  "plan": "gta6_day3b",
+  "n": 16,
+  "hook": "A ZOMBIE GAME INSIDE GTA 6"
+ },
+ {
+  "plan": "gta6_day3b",
+  "n": 19,
+  "hook": "CAL GETS EMOTIONAL"
+ },
+ {
+  "plan": "gta6_day3b",
+  "n": 31,
+  "hook": "SOMETHING GRABBED DOBBS"
+ },
+ {
+  "plan": "gta6_day3b",
+  "n": 32,
+  "hook": "SAVE HIM UNDERWATER"
+ },
+ {
+  "plan": "gta6_day3b",
+  "n": 39,
+  "hook": "JASON'S NEW HAIRCUT"
+ },
+ {
+  "plan": "gta6_day3b",
+  "n": 40,
+  "hook": "MANDY WANTS A FAVOUR"
+ },
+ {
+  "plan": "gta6_day3b",
+  "n": 47,
+  "hook": "THE CALL FROM PRISON"
+ },
+ {
+  "plan": "gta6_day3b",
+  "n": 48,
+  "hook": "LUCIA IS FREE"
+ },
+ {
+  "plan": "gta6_day3b",
+  "n": 50,
+  "hook": "LUCIA IS BACK"
+ },
+ {
+  "plan": "gta6_day3b",
+  "n": 55,
+  "hook": "LUCIA HAS A PLAN"
+ },
+ {
+  "plan": "gta6_day3b",
+  "n": 56,
+  "hook": "MEET BRIAN"
+ },
+ {
+  "plan": "gta6_day3b",
+  "n": 57,
+  "hook": "WHO IS DONNIE"
+ },
+ {
+  "plan": "gta6_day3b",
+  "n": 58,
+  "hook": "DONNIE WANTS IN"
+ },
+ {
+  "plan": "gta6_day3b",
+  "n": 60,
+  "hook": "POOL SHOWDOWN"
+ },
+ {
+  "plan": "gta6_day3b",
+  "n": 62,
+  "hook": "BAR FIGHT"
+ },
+ {
+  "plan": "gta6_day3b",
+  "n": 64,
+  "hook": "JASON HAS A PET SNAKE"
+ },
+ {
+  "plan": "gta6_day3b",
+  "n": 66,
+  "hook": "MOBILITY SCOOTER ESCAPE"
+ },
+ {
+  "plan": "gta6_day3b",
+  "n": 68,
+  "hook": "MANDY NEEDS SPACE"
+ },
+ {
+  "plan": "gta6_day3b",
+  "n": 71,
+  "hook": "THE BANK SAYS NO"
+ },
+ {
+  "plan": "gta6_day3b",
+  "n": 72,
+  "hook": "NO ACCOUNT FOR LUCIA"
+ },
+ {
+  "plan": "gta6_day4",
+  "n": 3,
+  "hook": "CRASHED SO I TOOK HIS CAR"
+ },
+ {
+  "plan": "gta6_day4",
+  "n": 5,
+  "hook": "THE PLANE IS ON FIRE"
+ },
+ {
+  "plan": "gta6_day4",
+  "n": 9,
+  "hook": "GATOR RIGHT THERE"
+ },
+ {
+  "plan": "gta6_day4",
+  "n": 14,
+  "hook": "STEALING AN AIRBOAT"
+ },
+ {
+  "plan": "gta6_day4",
+  "n": 21,
+  "hook": "LUCIA MEETS THE CREW"
+ },
+ {
+  "plan": "gta6_day4",
+  "n": 23,
+  "hook": "TAKING LUCIA FLYING"
+ },
+ {
+  "plan": "gta6_day4",
+  "n": 27,
+  "hook": "THE DEAL GOES WRONG"
+ },
+ {
+  "plan": "gta6_day4",
+  "n": 31,
+  "hook": "COPS AT THE HOUSE"
+ },
+ {
+  "plan": "gta6_day4",
+  "n": 43,
+  "hook": "TOTAL WIPEOUT"
+ },
+ {
+  "plan": "gta6_day4",
+  "n": 49,
+  "hook": "BRIAN'S SHADY PLAN"
+ },
+ {
+  "plan": "gta6_day4",
+  "n": 57,
+  "hook": "HANGAR SHOOTOUT"
+ },
+ {
+  "plan": "gta6_day4",
+  "n": 58,
+  "hook": "FOUND DONNIE"
+ },
+ {
+  "plan": "gta6_day4",
+  "n": 63,
+  "hook": "DONNIE FLIES OFF"
+ },
+ {
+  "plan": "gta6_day4",
+  "n": 66,
+  "hook": "LUCIA'S FIRST DAY"
+ },
+ {
+  "plan": "gta6_day4",
+  "n": 72,
+  "hook": "ROAD RAGE"
+ },
+ {
+  "plan": "gta6_day4",
+  "n": 77,
+  "hook": "THE WINNING SHOT"
+ },
+ {
+  "plan": "gta6_day4",
+  "n": 82,
+  "hook": "BEACH CAMP SHOWDOWN"
+ },
+ {
+  "plan": "gta6_day4",
+  "n": 91,
+  "hook": "CRACKING THE SAFE"
+ },
+ {
+  "plan": "gta6_day4",
+  "n": 96,
+  "hook": "MEET ALAN COLEMAN"
+ },
+ {
+  "plan": "gta6_day4",
+  "n": 101,
+  "hook": "ALAN PAYS UP"
+ },
+ {
+  "plan": "gta6_day5",
+  "n": 19,
+  "hook": "SUPERCAR WRECKED"
+ },
+ {
+  "plan": "gta6_day5",
+  "n": 21,
+  "hook": "BIKE FLIP ON THE HIGHWAY"
+ },
+ {
+  "plan": "gta6_day5",
+  "n": 22,
+  "hook": "BEAR PROTESTERS"
+ },
+ {
+  "plan": "gta6_day5",
+  "n": 23,
+  "hook": "FREE THE BEAR"
+ },
+ {
+  "plan": "gta6_day5",
+  "n": 30,
+  "hook": "MONSTER TRUCK IN THE SWAMP"
+ },
+ {
+  "plan": "gta6_day5",
+  "n": 60,
+  "hook": "MORNING WITH LUCIA"
+ },
+ {
+  "plan": "gta6_day5",
+  "n": 63,
+  "hook": "LUCIA'S BAR SHIFT"
+ },
+ {
+  "plan": "gta6_day5",
+  "n": 65,
+  "hook": "HAVE YOU SEEN SKUNK APE"
+ },
+ {
+  "plan": "gta6_day5",
+  "n": 71,
+  "hook": "DONNIE GOT CAUGHT"
+ },
+ {
+  "plan": "gta6_day5",
+  "n": 74,
+  "hook": "DONNIE'S FAT FINGERS"
+ },
+ {
+  "plan": "gta6_day5",
+  "n": 82,
+  "hook": "ESCAPE BY HELICOPTER"
+ },
+ {
+  "plan": "gta6_day5",
+  "n": 85,
+  "hook": "AIRBOAT CHASE"
+ },
+ {
+  "plan": "gta6_day5",
+  "n": 87,
+  "hook": "BRIAN RETIRES"
+ },
+ {
+  "plan": "gta6_day5",
+  "n": 89,
+  "hook": "LUCIA MAKES A SANDWICH"
+ },
+ {
+  "plan": "gta6_day6",
+  "n": 7,
+  "hook": "DONNIE'S FRIENDS SHOW UP"
+ },
+ {
+  "plan": "gta6_day6",
+  "n": 11,
+  "hook": "BURN THE CAR"
+ },
+ {
+  "plan": "gta6_day6",
+  "n": 18,
+  "hook": "ROBBED AT GUNPOINT"
+ },
+ {
+  "plan": "gta6_day6",
+  "n": 23,
+  "hook": "LUCIA'S SISTER CAME LOOKING"
+ },
+ {
+  "plan": "gta6_day6",
+  "n": 32,
+  "hook": "CAL VS LUCIA"
+ },
+ {
+  "plan": "gta6_day6",
+  "n": 34,
+  "hook": "BIG FISH"
+ },
+ {
+  "plan": "gta6_day6",
+  "n": 55,
+  "hook": "ANGRY FISHERWOMAN"
+ },
+ {
+  "plan": "gta6_day6",
+  "n": 59,
+  "hook": "FOUND THE STASH"
+ },
+ {
+  "plan": "gta6_day6",
+  "n": 85,
+  "hook": "BUSTED"
+ },
+ {
+  "plan": "gta6_day6",
+  "n": 89,
+  "hook": "HE'S A FAKE COP"
+ },
+ {
+  "plan": "gta6_day6",
+  "n": 90,
+  "hook": "OFFICER DOWN"
+ },
+ {
+  "plan": "gta6_day6",
+  "n": 96,
+  "hook": "LUCIA IS HURT"
+ },
+ {
+  "plan": "gta6_day6",
+  "n": 100,
+  "hook": "AMBUSHED AT HOME"
+ },
+ {
+  "plan": "gta6_day6",
+  "n": 101,
+  "hook": "THE HOUSE IS ON FIRE"
+ },
+ {
+  "plan": "gta6_day6",
+  "n": 102,
+  "hook": "GET OUT OF THE FIRE"
+ },
+ {
+  "plan": "gta6_day6",
+  "n": 105,
+  "hook": "HIDE UNDER THE BLANKET"
+ },
+ {
+  "plan": "gta6_day6",
+  "n": 111,
+  "hook": "HOSPITAL UNDER ATTACK"
+ },
+ {
+  "plan": "gta6_day6",
+  "n": 115,
+  "hook": "LUCIA TAKES THE GUN"
+ },
+ {
+  "plan": "gta6_day6",
+  "n": 116,
+  "hook": "HOSPITAL ESCAPE"
+ },
+ {
+  "plan": "gta6_day6",
+  "n": 119,
+  "hook": "STEAL THE AMBULANCE"
+ },
+ {
+  "plan": "gta6_day7",
+  "n": 4,
+  "hook": "MEET VICKI"
+ },
+ {
+  "plan": "gta6_day7",
+  "n": 13,
+  "hook": "DEALING WITH THE KOLTS"
+ },
+ {
+  "plan": "gta6_day7",
+  "n": 16,
+  "hook": "DUNK AND THE MILITIA"
+ },
+ {
+  "plan": "gta6_day7",
+  "n": 22,
+  "hook": "LUCIA GETS MUGGING TIPS"
+ },
+ {
+  "plan": "gta6_day7",
+  "n": 26,
+  "hook": "LUCIA'S NEW LOOK"
+ },
+ {
+  "plan": "gta6_day7",
+  "n": 29,
+  "hook": "MEET MOSES"
+ },
+ {
+  "plan": "gta6_day7",
+  "n": 47,
+  "hook": "GAS STATION HOLDUP"
+ },
+ {
+  "plan": "gta6_day7",
+  "n": 60,
+  "hook": "CHASED ON AN ATV"
+ },
+ {
+  "plan": "gta6_day7",
+  "n": 62,
+  "hook": "BURN THE AMBULANCE"
+ },
+ {
+  "plan": "gta6_day7",
+  "n": 66,
+  "hook": "STRANGER ON A TRACTOR"
+ },
+ {
+  "plan": "gta6_day7",
+  "n": 68,
+  "hook": "CALEB'S STORY"
+ },
+ {
+  "plan": "gta6_day7",
+  "n": 69,
+  "hook": "REVENGE ON THE EX-BOSS"
+ },
+ {
+  "plan": "gta6_day7",
+  "n": 71,
+  "hook": "MANURE ON THE LAWN"
+ },
+ {
+  "plan": "gta6_day7",
+  "n": 73,
+  "hook": "SPRAYING THE DRIVEWAY"
+ },
+ {
+  "plan": "gta6_day7",
+  "n": 74,
+  "hook": "ALMOST CAUGHT"
+ },
+ {
+  "plan": "gta6_day7",
+  "n": 81,
+  "hook": "SCOOTER CRASH"
+ }
+]

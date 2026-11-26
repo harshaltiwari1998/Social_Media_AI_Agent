@@ -43,6 +43,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from scripts import daily_job as dj  # noqa: E402  (chdirs to backend; Poster, manifests, store)
 from scripts import fal_video as fv  # noqa: E402
+from scripts import ncs_music  # noqa: E402  (NCS background music credit, owner 2026-11-26)
 from scripts import fusion_inbox as fi  # noqa: E402  (fusion post text + record shared with the inbox flow)
 from scripts import humor  # noqa: E402
 
@@ -141,6 +142,14 @@ def fusion_post_id(meta: dict) -> str:
 
 
 def fusion_post_text(meta: dict) -> tuple[str, list[str]]:
+    """The fusion text + the NCS credit of the music fal_video.build put under it (key = the pair's build folder)."""
+    text, tags = _fusion_post_text(meta)
+    cr = ncs_music.credit(f"{FAMILIES[meta.get('family', 'pokemon')]['key']}-{meta['id']}")
+    head, sep, tail = text.rpartition("\n\n")
+    return (f"{head}\n\n{cr}\n\n{tail}" if sep else f"{text}\n\n{cr}"), tags
+
+
+def _fusion_post_text(meta: dict) -> tuple[str, list[str]]:
     fam = meta.get("family", "pokemon")
     if fam == "pokemon":
         text, tags = fi.post_text(meta)
@@ -1190,7 +1199,7 @@ def post_text(entry: dict) -> tuple[str, list[str]]:
                 "Pokemon animation", "Pokemon", "Pokemon shorts"]
         hashtags = " ".join(f"#{h}" for h in ["Pokemon", "PokemonEvolution", names[-1].replace(" ", ""), "Gigantamax",
                                                 "Shorts"])
-        return f"{title}\n\n{desc}\n\n{hashtags}", tags
+        return f"{title}\n\n{desc}\n\n{ncs_music.credit(entry['id'])}\n\n{hashtags}", tags
     later = names[1:] + ([mega] if mega else [])
     title = f"{names[0]} Evolves Into " + (", ".join(later[:-1]) + " and " + later[-1] if len(later) > 1 else later[0])
     title += " | Pokemon Evolution Animation" if len(title) <= 66 else " | Pokemon Evolution"
@@ -1199,7 +1208,7 @@ def post_text(entry: dict) -> tuple[str, list[str]]:
     tags = [*names, *megas, f"{names[0]} evolution", "Pokemon evolution", "Pokemon animation", "Pokemon",
             *(["Mega Evolution"] if megas else []), f"{entry['type']} type Pokemon", "evolution animation", "Pokemon shorts"]
     hashtags = " ".join(f"#{h}" for h in ["Pokemon", "PokemonEvolution", names[-1].replace(" ", ""), "Gaming", "Shorts"])
-    return f"{title}\n\n{desc}\n\n{hashtags}", tags
+    return f"{title}\n\n{desc}\n\n{ncs_music.credit(entry['id'])}\n\n{hashtags}", tags
 
 
 def main() -> None:

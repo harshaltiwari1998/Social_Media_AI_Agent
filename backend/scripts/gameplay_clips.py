@@ -205,10 +205,12 @@ def build(plan: dict, only: str | None = None) -> Path:
     dest = OUT / plan["name"]
     work = dest / "_work"
     work.mkdir(parents=True, exist_ok=True)
+    # clips posted on every platform are deleted to free F: (owner 2026-11-26) - never render those again
+    gone = set((dest / "deleted_posted.txt").read_text().split()) if (dest / "deleted_posted.txt").exists() else set()
     if only in (None, "shorts"):
         for n, s in enumerate(plan.get("shorts", []), 1):
             out = dest / f"short_{n:02d}.mp4"
-            if out.exists():
+            if out.exists() or out.name in gone:
                 continue
             print(f"short {n:02d}: {s['title']}", flush=True)
             ov = work / f"short_{n:02d}.png"
@@ -217,7 +219,7 @@ def build(plan: dict, only: str | None = None) -> Path:
     if only in (None, "longs"):
         for n, lv in enumerate(plan.get("longs", []), 1):
             out = dest / f"long_{n}.mp4"
-            if out.exists():
+            if out.exists() or out.name in gone:
                 continue
             print(f"long {n}: {lv['title']}", flush=True)
             parts, chapters, t = [], [], 0.0

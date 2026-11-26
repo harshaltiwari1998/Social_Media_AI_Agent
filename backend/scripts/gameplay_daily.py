@@ -60,7 +60,8 @@ def rendered(plan: dict) -> bool:
     files = [dest / f"short_{n:02d}.mp4" for n in range(1, len(plan.get("shorts", [])) + 1)]
     for n in range(1, len(plan.get("longs", [])) + 1):
         files += [dest / f"long_{n}{s}" for s in (".mp4", "_thumb.jpg", "_chapters.txt")]
-    return all(f.exists() and f.stat().st_size > 0 for f in files)
+    gone = set((dest / "deleted_posted.txt").read_text().split()) if (dest / "deleted_posted.txt").exists() else set()
+    return all(f.name in gone or (f.exists() and f.stat().st_size > 0) for f in files)
 
 
 def _run_plans() -> None:

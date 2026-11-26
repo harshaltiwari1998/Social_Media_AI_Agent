@@ -608,6 +608,13 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
 - Cloud cannot read the laptop's `VIDEOS GAMING` folder; YouTube blocks yt-dlp from GitHub runners.
   A Google Drive route was offered and declined - scanning, planning and rendering stay on the laptop; only the
   posting of rendered clips moved to CI (`clips/*` branches).
+- **Posted clips are deleted** (owner 2026-11-26: "jo upload ho gaye he proper sab jagah phir usko directory me se delete
+  kar dena, pahile check karna"): `gameplay_out/_cleanup/inventory.py` lists clips posted on every platform they are meant
+  for (YouTube always, Instagram for shorts and GTA 6 longs <= 15 min, gaming Facebook paused so not needed, a `skip:` marker =
+  not wanted), `verify.py` checks each one on YouTube (processed, public/unlisted) and Instagram (media exists); only those are
+  deleted with their `.light` / `.ig` / safety files. Names go in `<plan>/deleted_posted.txt` (`gameplay_clips.build`,
+  `gameplay_daily.rendered` and `gta6_relogo.py` treat them as done - never re-rendered), links in `_cleanup/deleted_log.json`.
+  First run: 86 clips, 4.8 GB.
 - No working paid image/video model (Pollinations empty, Gemini Veo/image need billing).
 - Instagram API cannot change the cover of already-posted Reels.
 - Twitter trend source has no token (skipped).
@@ -615,6 +622,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-26 - Clips posted on every platform (checked on YouTube + Instagram) are deleted from `gameplay_out`; `deleted_posted.txt` stops re-renders.
 - 2026-11-26 - GTA 6 day 5: gore close-up (pigs + Donnie's body) excluded, short 80 / long 7 held; `push-long` skips held long videos.
 - 2026-11-26 - Cinema shorts: a 2-line fact + sub moves up and the picture shrinks (the sub ran into the caption on Beparwah / Ramayana); `review_cloud.py push` skips ids in `REVIEW_SKIP`.
 - 2026-11-26 - GTA 6 long videos to YouTube, 2 in any 24 h (owner: "2 long a day"): `gta6_youtube_cloud.py push-long 6 --if-low 2` (laptop 2-hourly task) rebuilds the orphan branch `clips/gta6-youtube-long` with the next 6 (45 MB parts, story order launch -> day7; the 42 longs are 39 GB), `post-long` in `gta6-youtube.yml` uploads them with chapters + thumbnail. GTA 6 Full Chapter 1 videos (story / highlight / free roam) in `gameplay_out/gta6_chapter1_full/`.

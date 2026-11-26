@@ -232,6 +232,8 @@ def push_long(n: int, if_low: int) -> None:
     if len(left) >= if_low:
         print(f"{len(left)} long videos still waiting on {LONG_BRANCH} - nothing to push", flush=True)
         return
+    held = json.loads((run / "hourly_held.json").read_text()) if (run / "hourly_held.json").exists() else []
+    cleared = json.loads((run / "hourly_cleared.json").read_text()) if (run / "hourly_cleared.json").exists() else []
     picks = []
     for name in LONG_ORDER:
         plan = json.loads((PLANS / f"{name}.json").read_text(encoding="utf-8"))
@@ -240,7 +242,10 @@ def push_long(n: int, if_low: int) -> None:
             video = out / name / f"long_{k}.mp4"
             if len(picks) >= n or tid in done or not video.exists():
                 continue
-            if safety.scan_video(video):
+            if tid in held and tid not in cleared:
+                print(f"{tid}: held in hourly_held.json - left out", flush=True)
+                continue
+            if tid not in cleared and safety.scan_video(video):
                 print(f"{tid}: NudeNet hit - left out", flush=True)
                 continue
             picks.append((name, k, plan, lv, video))

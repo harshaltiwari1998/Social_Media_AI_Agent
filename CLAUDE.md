@@ -317,7 +317,10 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   and `edl_freeroam.json` (~3:46, free roam / side activities) from the plans' long videos (already cut around every excluded
   range; excluded ranges are subtracted again). `edit_full.py <name>` renders with the chapter1 `edit.py` functions, pieces
   cached by content in `_pieces/` (the highlight reuses the story's). Story vs free roam split per long video is a judgement
-  call - the owner can move parts. Shown to the owner before any upload.
+  call - the owner can move parts. Shown to the owner before any upload. The strip check of the finished videos found a
+  gore close-up the day-5 plan had kept (pigs eating Donnie's bloody body, day5 7190.5-7198.5, in short 80 + long 7):
+  added to `excluded`, short 80 / long 7 put in `hourly_held.json` (`push-long` now skips held ids too), Story +
+  Highlight re-rendered. Strip-check every edit for gore too, not only nudity.
 - `backend/scripts/specs/gameplay/<plan>.json` - cut plans for the owner's own stream recordings.
 - `backend/scripts/specs/games/yugioh_NN_<card>.json` - Yu-Gi-Oh card explainers (owner 2026-11-16: "har card ke bare me
   batao english me ki kya he kya karta he and kaise use karna he" + "players ke best cards" videos). Format: what it is
@@ -612,6 +615,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-26 - GTA 6 day 5: gore close-up (pigs + Donnie's body) excluded, short 80 / long 7 held; `push-long` skips held long videos.
 - 2026-11-26 - Cinema shorts: a 2-line fact + sub moves up and the picture shrinks (the sub ran into the caption on Beparwah / Ramayana); `review_cloud.py push` skips ids in `REVIEW_SKIP`.
 - 2026-11-26 - GTA 6 long videos to YouTube, 2 in any 24 h (owner: "2 long a day"): `gta6_youtube_cloud.py push-long 6 --if-low 2` (laptop 2-hourly task) rebuilds the orphan branch `clips/gta6-youtube-long` with the next 6 (45 MB parts, story order launch -> day7; the 42 longs are 39 GB), `post-long` in `gta6-youtube.yml` uploads them with chapters + thumbnail. GTA 6 Full Chapter 1 videos (story / highlight / free roam) in `gameplay_out/gta6_chapter1_full/`.
 - 2026-11-25 - Evolution / fusion shorts: clips are held as long as their narration (own voice is slower; the audio drifted up to 20 s behind the scenes).

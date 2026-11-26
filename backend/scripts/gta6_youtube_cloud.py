@@ -37,6 +37,7 @@ STEP = 300 * 1024 * 1024
 PLANS = ROOT / "scripts" / "specs" / "gameplay"
 STORY_FIRST = [("gta6_launch", range(1, 42)), ("gta6_day2", range(1, 21))]
 PER_4H = 10  # owner 2026-11-25: "youtube gaming ke liye 4 ghante me 10 shorts" - laptop closed, so GitHub does it
+GAP_H = 4  # hours between two batches (counted from the last short of the batch)
 
 
 def caption(plan: dict, title: str) -> str:
@@ -144,16 +145,18 @@ def post(n: int) -> None:
     queue = httpx.get(f"{RAW}/queue.json", timeout=60, follow_redirects=True).raise_for_status().json()
     todo = [q for q in queue if yt_open(store, q["tid"])]
     print(f"{len(todo)} of {len(queue)} queued shorts not on YouTube yet", flush=True)
-    since = (datetime.now(timezone.utc) - timedelta(hours=4)).isoformat()
-    c = store._get_conn()  # GTA 6 shorts that went to YouTube in the last 4 hours (laptop or CI)
-    recent = c.execute("select count(*) from posted_trends where platform='youtube' and trend_id like 'gameplay:gta6_%' "
-                       "and post_id is not null and post_id not like 'hold:%' and post_id not like 'skip:%' "
-                       "and posted_at > ?", (since,)).fetchone()[0]
+    # owner 2026-11-26: "4 ghante ka gap" - a batch of up to 10 shorts, then 4 full hours with no GTA 6 short. The old
+    # rolling "max 10 in any 4 h" (long videos counted too) let 1-2 stragglers go up every ~2 hours in between.
+    c = store._get_conn()
+    last = c.execute("select max(posted_at) from posted_trends where platform='youtube' and trend_id like 'gameplay:gta6_%:short%' "
+                     "and post_id is not null and post_id not like 'hold:%' and post_id not like 'skip:%'").fetchone()[0]
     c.close()
-    n = min(n, PER_4H - recent)
-    if n <= 0:
-        print(f"{recent} GTA 6 shorts went to YouTube in the last 4 h - next run", flush=True)
-        return
+    if last:
+        wait = datetime.fromisoformat(last).replace(tzinfo=timezone.utc) + timedelta(hours=GAP_H) - datetime.now(timezone.utc)
+        if wait.total_seconds() > 0:
+            print(f"last GTA 6 short went to YouTube at {last[:16]} UTC - next batch in {wait.total_seconds() / 60:.0f} min", flush=True)
+            return
+    n = min(n, PER_4H)
     done = 0
     for q in todo:
         if done >= n:

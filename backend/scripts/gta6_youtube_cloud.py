@@ -424,7 +424,8 @@ def v2_sync() -> None:
                 del by_tid[tid]
                 changed += 1
             continue
-        if q is not None and q.get("v2"):
+        rev = edits[f"{name}:{k}"].get("file_rev", 1)  # set when the file was re-rendered (2026-11-27: swear mask) -> re-copy
+        if q is not None and q.get("v2") and q.get("rev", 1) >= rev:
             continue
         video = out / name / f"short_{k:02d}.mp4"
         if not video.exists():
@@ -435,7 +436,7 @@ def v2_sync() -> None:
         shutil.copy(video, wt / rel)
         size += video.stat().st_size
         entry = {"tid": tid, "file": rel, "caption": caption(plan, plan["shorts"][k - 1]["title"]), "tags": plan["tags"],
-                 "v2": True}
+                 "v2": True, "rev": rev}
         if q is not None:
             queue.remove(q)
         queue.append(entry)

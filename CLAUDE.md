@@ -335,6 +335,11 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   masked), footer moved down; old cut kept in `<plan>/_v1/`, log `gameplay_out/_v2/edits.json`. `gta6_youtube_cloud.py
   v2-sync` takes not-yet-re-edited best shorts OFF the YouTube queue and puts re-edited ones at the FRONT (`"v2": true`).
   Owner kept the volume at 10 shorts + 1 mission every 4 h on YouTube; Instagram task now every 4 h (was 2).
+  All 100 re-edited and strip-checked 2026-11-27 (no nudity / gore close-ups). The OCR glues words together, so the first
+  swear mask (`` word match) missed "wearefucked" / "officerbullshit": the roots are now masked inside words too, and
+  `gta6_shorts_v2.py --recheck` re-reads each done short's captions and re-renders (same window) only those the new mask
+  changes (`file_rev` in `edits.json`; `v2-sync` re-copies a short whose `file_rev` went up). Shorts already on YouTube
+  keep the old captions.
   **Chapter 1 mission videos** (owner 2026-11-26: "jitne bhi missions hue he chapter 1 me usko bhi banao and upload wali me
   dal do 4 ghante wale me"): `missions.py` joins the Story's own pieces into 25 videos (launch parts grouped into missions
   1-5, every story long video = one mission) -> `missions/mission_NN.mp4` + thumb + `missions.json` (title "GTA 6 Chapter 1
@@ -653,6 +658,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-27 - GTA 6 best-100 re-edits done; swear mask also inside OCR-glued words (`gta6_shorts_v2.py --recheck`, `file_rev`); Chapter 1 missions 24-25 built (all 25), 6 Hindi movie shorts (`run_cine4`) on the review page #24-29.
 - 2026-11-26 - Facebook restart: gaming Page gets 5 GTA 6 shorts + 1 long a day after the wipe (`gta6_hourly.py --facebook`); AI Trend Poster takes reviewed Hindi movie shorts again.
 - 2026-11-26 - Pokemon shorts get NCS background music + credit (`ncs_music.py`); GTA 6 best-100 shorts re-edited (hook, 20-35 s, OCR captions; `gta6_shorts_v2.py`, `v2-sync`); Instagram GTA 6 task every 4 h.
 - 2026-11-26 - GTA 6 Chapter 1: one video per mission (25, `gta6_chapter1_full/missions.py`), one to YouTube every 4 h from the long queue; the plan long videos they replace are left out.

@@ -34,7 +34,11 @@ FF = gc.FFMPEG if hasattr(gc, "FFMPEG") else None
 MIN_S, MAX_S, TARGET_S = 20.0, 35.0, 30.0
 HOOK_S = 2.4
 SUB_TOP = 1385
-SWEAR = re.compile(r"\b(fuck\w*|shit\w*|bitch\w*|asshole\w*|motherfuck\w*|cunt\w*|dick\w*|pussy\w*|bastard\w*)\b", re.I)
+SWEAR_OLD = re.compile(r"\b(fuck\w*|shit\w*|bitch\w*|asshole\w*|motherfuck\w*|cunt\w*|dick\w*|pussy\w*|bastard\w*)\b", re.I)
+# 2026-11-27: OCR glues words together ("wearefucked", "officerbullshit"), so the roots are matched INSIDE words too
+# (only "dick" keeps the word start - "Dickens"...). REV = edit revision; v2-sync re-copies shorts whose rev went up.
+SWEAR = re.compile(r"(fuck\w*|shit\w*|bitch\w*|asshole\w*|cunt\w*|\bdick\w*|pussy\w*|bastard\w*|goddamn\w*)", re.I)
+REV = 2
 
 
 def ffmpeg() -> str:
@@ -42,8 +46,8 @@ def ffmpeg() -> str:
     return imageio_ffmpeg.get_ffmpeg_exe()
 
 
-def mask(text: str) -> str:
-    return SWEAR.sub(lambda m: m.group(0)[0] + "*" * (len(m.group(0)) - 1), text)
+def mask(text: str, rx: re.Pattern = SWEAR) -> str:
+    return rx.sub(lambda m: m.group(0)[0] + "*" * (len(m.group(0)) - 1), text)
 
 
 # ---------------------------------------------------------------- analysis
@@ -59,7 +63,7 @@ def audio_rms(src: str, start: float, dur: float) -> np.ndarray:
 _ocr = None
 
 
-def subtitles(src: str, start: float, dur: float) -> list[tuple[float, float, str]]:
+def subtitles(src: str, start: float, dur: float, raw: bool = False) -> list[tuple[float, float, str]]:
     """The game's burnt-in subtitle lines (bottom centre of the 16:9 frame) as (from, to, text), clip-relative."""
     global _ocr
     if _ocr is None:
@@ -102,7 +106,7 @@ def subtitles(src: str, start: float, dur: float) -> list[tuple[float, float, st
                 cues[-1][2] = txt
         else:
             cues.append([t, t + 0.5, txt])
-    return [(a, b, mask(c)) for a, b, c in cues if b - a >= 0.9]
+    return [(a, b, c if raw else mask(c)) for a, b, c in cues if b - a >= 0.9]
 
 
 def pick_window(dur: float, rms: np.ndarray, cues) -> tuple[float, float]:
@@ -183,12 +187,52 @@ def render(src: str, a: float, b: float, title: str, game: str, hook: str, cues,
                 "-af", f"{gc.AUDIO},afade=t=out:st={end:.2f}:d=0.6", *gc.ENC], out)
 
 
+def recheck(only: str | None) -> None:
+    """2026-11-27: the first 100 re-edits used a mask that missed swears glued to other words by the OCR. Re-reads each
+    done short's captions (its logged window only) and re-renders it with the same window when the new mask changes a
+    line; every checked short gets "rev": REV so it is not read again."""
+    best = {f"{b['plan']}:{b['n']}": b for b in json.loads(BEST.read_text(encoding="utf-8"))}
+    log_f = OUT / "_v2" / "edits.json"
+    log = json.loads(log_f.read_text(encoding="utf-8"))
+    for key, e in list(log.items()):
+        if (only and key != only) or e.get("rev", 1) >= REV:
+            continue
+        name, n = key.split(":")[0], int(key.split(":")[1])
+        plan = json.loads((SPECS / f"{name}.json").read_text(encoding="utf-8"))
+        s = plan["shorts"][n - 1]
+        video = OUT / name / f"short_{n:02d}.mp4"
+        if not video.exists():
+            print(f"{key}: no file - skipped", flush=True)
+            continue
+        wa, wb = e["window"]
+        cues = subtitles(plan["source"], wa, wb - wa, raw=True)
+        bad = [c for _, _, c in cues if mask(c) != mask(c, SWEAR_OLD)]
+        if bad:
+            with tempfile.TemporaryDirectory(dir="F:/AI AGENT/tmp") as tmp:
+                new = Path(tmp) / "new.mp4"  # (temp dir: F:/AI AGENT/tmp)
+                render(plan["source"], wa, wb, s["title"], plan["game"], e["hook"],
+                       [(x + wa, y + wa, mask(t)) for x, y, t in cues], new, Path(tmp))
+                shutil.move(str(new), video)
+            for extra in (video.with_suffix(".light.mp4"), video.with_suffix(".ig.mp4"),
+                          video.with_name(video.name + ".safety.json")):
+                extra.unlink(missing_ok=True)
+            e["remasked"] = [mask(c) for c in bad]
+            e["file_rev"] = REV
+        e["rev"] = REV
+        log_f.write_text(json.dumps(log, indent=1, ensure_ascii=False), encoding="utf-8")
+        print(f"{key}: {'RE-RENDERED - ' + ' | '.join(mask(c) for c in bad) if bad else 'ok'}", flush=True)
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--only")
     ap.add_argument("--limit", type=int)
     ap.add_argument("--force", action="store_true", help="redo shorts already in v2_done.json")
+    ap.add_argument("--recheck", action="store_true", help="re-read the captions of done shorts and re-render (same "
+                    "window) the ones the newer swear mask changes")
     a = ap.parse_args()
+    if a.recheck:
+        return recheck(a.only)
     best = json.loads(BEST.read_text(encoding="utf-8"))
     log_f = OUT / "_v2" / "edits.json"
     log_f.parent.mkdir(exist_ok=True)
@@ -228,7 +272,7 @@ def main() -> None:
         for extra in (video.with_suffix(".light.mp4"), video.with_suffix(".ig.mp4"), video.with_name(video.name + ".safety.json")):
             extra.unlink(missing_ok=True)
         shutil.rmtree(video.with_name(video.name + ".nsfw"), ignore_errors=True)
-        log[key] = {"hook": hook, "window": [round(start + w0, 1), round(start + w1, 1)], "subs": len(cues)}
+        log[key] = {"hook": hook, "window": [round(start + w0, 1), round(start + w1, 1)], "subs": len(cues), "rev": REV}
         log_f.write_text(json.dumps(log, indent=1, ensure_ascii=False), encoding="utf-8")
         done += 1
         print(f"{key} {s['title']}: {w1 - w0:.0f} s from +{w0:.0f}, {len(cues)} subtitle lines, hook '{hook}'", flush=True)

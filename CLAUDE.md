@@ -574,6 +574,13 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Sep 2026 - all deleted (`F:/AI AGENT/fb_main_backup/`: list + `delete_all.py`), `store.FB_MAIN_PAUSED = True`
   (`store.fb_main_allowed` in `daily_job.Poster`, `rashifal.py` posts nothing). Restart idea: rename it after the Hindi
   YouTube channel, first ~100 followers by the owner's own invites / shares, then 1 Hindi movie Reel a day.
+  **Restart 2026-11-26** (owner: "jaise delete ho jaye to HarryBeast Gaming facebook me ... dalte rahna and AI trends wale
+  me bhi dalo", then "GTA 6 shorts, long videos and pokemon bhi but kam volumn me" / "Hindi movies and rashifal"):
+  gaming Page = 1 GTA 6 short per 4-hour run (5 a day IST) + 1 long video a day (Chapter 1 missions first), posted by
+  `gta6_hourly.py --facebook` only once `fb_gaming_backup/deleted.txt` holds every id of `videos_list.json`; shorts in
+  best-100 (re-edited) order, then story order, only files still on disk; ids with an old real Facebook id are skipped.
+  Pokemon (approved) go through `FB_GAMING_ALWAYS` once `FB_GAMING_PAUSED` is set to False - flip it when the wipe is
+  done. Main Page: `FB_MAIN_ALLOWED` now also has `custom:movie-` (Hindi movie shorts after review, `run_cine4`).
 - **Gaming Facebook Page volume** (owner 2026-11-14): only Pokemon evolutions, fusions (Pokemon / Dragon Ball / Mewtwo
   stones / compilations) and at most 2 own-stream clips a day (IST) go to `facebook_gaming` (GTA 6 launch shorts: 6 a day,
   owner 2026-11-19 - `"gameplay:gta6_"` (all GTA 6 plans together) comes first in `store.FB_GAMING_DAILY`; `merge_state.py` lets a real post
@@ -646,6 +653,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-26 - Facebook restart: gaming Page gets 5 GTA 6 shorts + 1 long a day after the wipe (`gta6_hourly.py --facebook`); AI Trend Poster takes reviewed Hindi movie shorts again.
 - 2026-11-26 - Pokemon shorts get NCS background music + credit (`ncs_music.py`); GTA 6 best-100 shorts re-edited (hook, 20-35 s, OCR captions; `gta6_shorts_v2.py`, `v2-sync`); Instagram GTA 6 task every 4 h.
 - 2026-11-26 - GTA 6 Chapter 1: one video per mission (25, `gta6_chapter1_full/missions.py`), one to YouTube every 4 h from the long queue; the plan long videos they replace are left out.
 - 2026-11-26 - GTA 6 YouTube shorts: batches of 10 with a full 4 h gap (was a rolling 10-in-4-h window that posted stragglers every ~2 h); long videos no longer count.

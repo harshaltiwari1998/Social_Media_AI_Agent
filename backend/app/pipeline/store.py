@@ -64,7 +64,8 @@ FB_PAUSED_SKIP = "skip:fb-paused"
 # every video deleted, nothing posted there automatically until the restart.
 FB_MAIN_PAUSED = True
 # 2026-11-25 the owner chose the Page again for the daily rashifal (after review) - the only thing that still goes there
-FB_MAIN_ALLOWED = ("custom:rashifal-",)
+# 2026-11-26 the owner added Hindi movie shorts ("Hindi movies and rashifal") - still only after the owner's review
+FB_MAIN_ALLOWED = ("custom:rashifal-", "custom:movie-")
 
 
 def fb_main_allowed(trend_id: str) -> bool:

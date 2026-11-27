@@ -130,6 +130,13 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   inside the outline stays - `_drop_dust` cut holes in Serperior). `PARTS` has body notes for Crobat / Serperior, `POSE`
   is also looked up by the Pokemon for a fan Mega (default "keeps its pose", not "stands tall"); never write "no arms"
   into a Wan prompt. Zubat + Snivy rebuilt with v4 Megas. Megas posted before this (Arcanine ... Typhlosion) keep the old art.
+  Owner 2026-11-28 ("46, 42, 40 - is me mega bekar bana he"): the v4 Mega Crobat was a plain round blob with horns, and
+  the old Mega Flygon (muscular biped) / Typhlosion (3 heads) broke the body - so these three got a `MEGA_DESIGN` (one
+  signature change each: crimson blade wings + fangs, red crystal visor + sand-pattern wings, blue-tipped fire ring + navy
+  armour; cache `fan_mega_v3_<slug>.png`). Add a `MEGA_DESIGN` before a fan Mega is drawn for a new line. `_drop_ground` now
+  erases only grey / beige pixels (it erased Mega Flygon's pale green body); Mega Wan clips keep the camera still ("camera
+  pushes in" filled the screen with Mega Crobat). Zubat, Cyndaquil and Trapinch rebuilt (Trapinch from scratch - its
+  clips were gone).
   The same check applies to every form and every Wan clip: Wan turned Serperior's yellow body ring into two legs and its
   fan Gigantamax v3 had four legs, so `serperior` is in `LOCAL_ANIM` and its Gigantamax was redrawn with the `PARTS` note.
   A start frame is cached as `<line>/scene_NN.jpg` - delete it with the clip when the art of a form changes.
@@ -672,6 +679,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-28 - Own Mega designs for Crobat / Flygon / Typhlosion (`MEGA_DESIGN`), dust cut keeps pale green bodies, still camera on Mega clips; Zubat, Cyndaquil, Trapinch rebuilt.
 - 2026-11-27 - Fan Mega v4: add-only edit that keeps the Pokemon's body plan (no added arms / legs / wings), dust removed by `_drop_ground`; Zubat + Snivy rebuilt.
 - 2026-11-27 - GTA 6 on YouTube: 1 short every 2 hours + 1 long video every 5 hours (owner), was 10 shorts + 1 mission every 4 h; `gta6_hourly.py` skips missing long files (it crashed every run since 26 Nov 21:00).
 - 2026-11-27 - GTA 6 best-100 re-edits done; swear mask also inside OCR-glued words (`gta6_shorts_v2.py --recheck`, `file_rev`); Chapter 1 missions 24-25 built (all 25), 6 Hindi movie shorts (`run_cine4`) on the review page #24-29.

@@ -286,7 +286,13 @@ PARTS = {"crobat": "Crobat is a round purple bat with FOUR wings (two big upper 
                       "body - exactly three heads in total. "
                       # 2026-11-22: every Mega draw gave it two legs with big claws, standing on dusty ground
                       "It has NO legs and NO feet: it FLOATS in the air and its lower body ends in one long striped "
-                      "tail - keep the same floating pose as the picture, nothing under it. "}
+                      "tail - keep the same floating pose as the picture, nothing under it. ",
+         # 2026-11-27 (owner: "mega bekar bana he" on Flygon / Typhlosion): the old fan Megas gave Typhlosion three heads
+         # and stood Flygon up as a muscular fighter with big arms
+         "typhlosion": "Typhlosion has exactly ONE head (the one in the picture) and its round cream-and-navy body; "
+                       "no second or third head, no heads in the flames. ",
+         "flygon": "Flygon is a SLIM green dragon-insect that FLIES: a thin body, small thin arms, thin legs hanging down, "
+                   "a long thin tail - it is NOT muscular and does NOT stand on the ground. "}
 FAN_PROMPT = {
     # 2026-11-20: drawn as a new picture, the free ZeroGPU Space put dust + ground behind the Megas (no cutout) and gave
     # Hydreigon claws instead of its hand-heads - an EDIT of the official art keeps the body. Mega = armour and sharper
@@ -397,6 +403,19 @@ MEGA_DESIGN = {
                  "longer sharper magenta spikes, each of its six black wings gets a sharp silver edge, its eyes glow red, "
                  "and a small glowing red gem sits in the centre of its chest. The top of its body between the wings "
                  "stays a plain furry body with NO head and NO neck on it",
+    # 2026-11-27 owner "46, 42, 40 - is me mega bekar bana he": the generic add-only Mega of Crobat was a plain round
+    # blob with horns, and the old generic Megas of Flygon (muscular biped) / Typhlosion (3 heads) broke the body.
+    # Each gets ONE signature change like an official Mega, the body plan stays.
+    "crobat": "its four wings grow much LARGER and sharper, like jagged blades with glowing crimson edges and crimson "
+              "veins, two long sharp crimson fangs, a sharp crimson X-shaped mark on its forehead and its ears grow "
+              "into long pointed horns. Its body stays the small round purple bat body, flying in the air",
+    "flygon": "its two diamond wings grow bigger with sharp glowing red crystal edges and a pattern like desert sand, "
+              "its red eye covers become sharp shining red crystal visors, its two antennae grow longer with red "
+              "diamond tips and its tail tip becomes a bigger red crystal diamond. It stays slim and flying, NOT "
+              "muscular",
+    "typhlosion": "its collar of flames grows into a HUGE blazing ring of fire around its neck and the back of its head "
+                  "that burns blue-white at the tips, dark navy armour plates with glowing orange cracks cover its back "
+                  "and its forehead, and its eyes glow red. It keeps exactly ONE head",
 }
 FAN_MEGA_ONE = ("Edit this picture of the Pokemon {name} into its MEGA EVOLUTION. Change ONLY this: {design}. Everything "
                 "else stays EXACTLY like the picture: the same pose, the same number of heads, arms, wings and tail, the "
@@ -431,7 +450,7 @@ POSE = {"crobat": "the bat hovers in the air flapping its four wings",
         "serperior": "the snake stays coiled low on the ground, its long body slowly sways",
         "salamence": "the dragon stays low on its four legs", "salamence-mega": "the dragon hovers in the air with its "
         "crescent wings spread wide, it does NOT stand up on two legs, its body keeps the same shape",
-        "flygon": "it stays on its legs with its wings spread", "haxorus": "it stays on its two legs"}
+        "flygon": "it hovers in the air with its wings buzzing and its legs hanging down", "haxorus": "it stays on its two legs"}
 
 
 def _main_colour(art) -> str:
@@ -499,7 +518,7 @@ def fan_form(slug: str, kind: str) -> str:
     border = np.concatenate([alpha[0], alpha[-1], alpha[:, 0], alpha[:, -1]])
     if (border > 128).mean() > 0.12:
         _cutout(Path(raw), out)
-    if mdesign:  # the edit model keeps drawing a dust cloud under Mega Hydreigon even when told not to
+    if slug == "hydreigon":  # the edit model keeps drawing a dust cloud under Mega Hydreigon even when told not to
         _drop_dust(out)
     elif kind == "mega":  # the free ZeroGPU Space draws a dust cloud under every Mega (Crobat / Serperior 2026-11-27)
         _drop_ground(out)
@@ -540,7 +559,11 @@ def _drop_ground(png: Path) -> None:
     rgb = px[..., :3].astype(float) / 255
     mx, mn = rgb.max(-1), rgb.min(-1)
     sat = np.where(mx > 0, (mx - mn) / np.maximum(mx, 1e-6), 0)
-    cand = (px[..., 3] > 0) & (sat < 0.35) & (mx > 0.25)
+    r, g, b = rgb[..., 0], rgb[..., 1], rgb[..., 2]
+    d = np.maximum(mx - mn, 1e-6)
+    hue = np.where(mx == r, ((g - b) / d) % 6, np.where(mx == g, (b - r) / d + 2, (r - g) / d + 4)) * 60
+    # only grey or beige / brown: Mega Flygon's pale green body (sat ~0.3) was erased with the dust (2026-11-28)
+    cand = (px[..., 3] > 0) & (mx > 0.25) & ((sat < 0.12) | ((sat < 0.45) & (hue >= 15) & (hue <= 60)))
     outside = px[..., 3] == 0
     lab, _ = ndimage.label(cand | outside)
     touching = np.unique(lab[outside])
@@ -649,7 +672,8 @@ def storyboard(entry: dict) -> dict:
                          f"closed, its face keeps "
                          f"exactly the same shape, a glowing rainbow aura shines around its outline, "
                          f"a few {mfx} drift around it, the creature stays fully visible and in focus the whole time, "
-                         f"epic low angle camera slowly pushes in, anime style, {_KEEP}", 0.6)]
+                         f"the camera stays still and the creature stays the same size in the middle of the picture, "
+                         f"anime style, {_KEEP}", 0.6)]  # "camera pushes in" filled the screen with Mega Crobat
         if fan_mega:
             narration.append(f"{names[-1]} has no Mega Evolution in the games, so here is a fan-made one. Mega Evolution!")
         else:

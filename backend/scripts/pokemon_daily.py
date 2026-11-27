@@ -276,7 +276,11 @@ FAN_KEEP = ("Keep EXACTLY the same colours as the reference picture - do not rec
 # body parts the drawing model kept losing (2026-11-20: Mega Hydreigon got claws instead of its hand-heads)
 # 2026-11-22: "one main head on its neck" made it draw a FOURTH head on a long neck above the body - the heads are
 # now named by where they are in the official art
-PARTS = {"hydreigon": "Hydreigon has EXACTLY THREE heads, the three already in the picture: the big main head with the "
+PARTS = {"crobat": "Crobat is a round purple bat with FOUR wings (two big upper wings, two smaller lower wings), two "
+                   "tiny feet under its body and NO arms, NO hands and NO legs to stand on - it FLIES in the air. ",
+         "serperior": "Serperior is a long green SNAKE with NO arms, NO legs and NO wings; its two small yellow vines "
+                      "on the sides of its neck stay vines. ",
+         "hydreigon": "Hydreigon has EXACTLY THREE heads, the three already in the picture: the big main head with the "
                       "pink mane on the left of its body, and one smaller head at the end of EACH arm (its hands ARE heads "
                       "with mouths, it has no claws or fingers). Do NOT add a fourth head, no head on a long neck above the "
                       "body - exactly three heads in total. "
@@ -287,13 +291,20 @@ FAN_PROMPT = {
     # 2026-11-20: drawn as a new picture, the free ZeroGPU Space put dust + ground behind the Megas (no cutout) and gave
     # Hydreigon claws instead of its hand-heads - an EDIT of the official art keeps the body. Mega = armour and sharper
     # shapes in its own colours; Gigantamax (below) = giant energy structures; Dynamax = the same body, giant and red.
-    "mega": ("Edit this picture of the Pokemon {name} into its MEGA EVOLUTION. Keep its head, face, eyes, snout, ears / "
-             "horns, the same number of heads, arms, legs and wings (if its hands are heads they stay heads) and its "
-             "{colour} colours EXACTLY as in the picture. Make it more powerful only with armour: sharper and longer "
-             "spikes, extra armour plates in its own colours, bigger claws, a more muscular build, angry glaring eyes, a "
-             "menacing stance, small {fx} accents on the armour. NOT cute. Plain pure white background (#FFFFFF), nothing "
-             "behind it - no dust, no smoke, no ground, no aura, no clouds, no text. Official Pokemon artwork style, ONE "
-             "creature only, exactly one face per head."),
+    # 2026-11-27 owner: "jo pokemon nahi he mega usme aap per aur haat laga dete ho ... jaise ex Zubat" - "bigger claws,
+    # a more muscular build, a menacing stance" turned Crobat into a muscular biped with arms and legs, gave Serperior
+    # legs + wings, Typhlosion three heads and stood Primarina / Flygon / Quaquaval up like people, all on dust clouds.
+    # So the Mega is an ADD-ONLY edit (like MEGA_DESIGN / the v3 Gigantamax): the body plan stays, only armour changes.
+    "mega": ("Edit this picture of the Pokemon {name} into its MEGA EVOLUTION. This is an EDIT of the picture: the same "
+             "creature in the same pose, seen from the same angle, with the same body shape and proportions. Keep its "
+             "head, face, eyes, snout, ears / horns and its {colour} colours EXACTLY as in the picture, and EXACTLY the "
+             "same number of heads, arms, legs, wings and tails - a Pokemon with no arms or no legs in the picture gets "
+             "NONE, a snake stays a snake, a flying bat stays a flying bat, a four-legged animal stays on all fours; it "
+             "does NOT stand up like a person and it does NOT become muscular or humanoid. Change ONLY its surface: sleek "
+             "armour plates and sharper, longer spikes in its own colours, small glowing {fx} accents on the armour, "
+             "angry glaring eyes. NOT cute. Plain pure white background (#FFFFFF), nothing behind or under it - no dust "
+             "cloud, no smoke, no ground, no shadow, no aura, no text. Official Pokemon artwork style, ONE creature only, "
+             "exactly one face per head."),
     # 2026-11-17: asked to "draw its Gigantamax form", the model redrew Dragonite with a Charizard face three times
     # (owner: "dragonite ka chehera bohot bekar he"), so the face is pinned. 2026-11-20 the owner: Dynamax and Gigantamax
     # are different, every video must show them differently - the old add-only red cracks looked just like the red
@@ -415,7 +426,9 @@ def _local_anim(who: str) -> str | None:
         return next((x for x in LOCAL_ANIM if Path(who).stem.endswith("_" + x)), None)
     return None
 # Wan poses (2026-11-21, Mega Salamence: "stands tall" made Wan stand it up like a person, with ghost rings around it)
-POSE = {"salamence": "the dragon stays low on its four legs", "salamence-mega": "the dragon hovers in the air with its "
+POSE = {"crobat": "the bat hovers in the air flapping its four wings",
+        "serperior": "the snake stays coiled low on the ground, its long body slowly sways",
+        "salamence": "the dragon stays low on its four legs", "salamence-mega": "the dragon hovers in the air with its "
         "crescent wings spread wide, it does NOT stand up on two legs, its body keeps the same shape",
         "flygon": "it stays on its legs with its wings spread", "haxorus": "it stays on its two legs"}
 
@@ -453,7 +466,8 @@ def fan_form(slug: str, kind: str) -> str:
     design = GMAX_DESIGN.get(slug) if kind == "gmax" else None
     mdesign = MEGA_DESIGN.get(slug) if kind == "mega" else None
     # v2: changed body, type colour; v3: the Pokemon's own design (GMAX_DESIGN, 2026-11-21 / MEGA_DESIGN, 2026-11-22)
-    ver = ("_v3" if design else "_v2") if kind == "gmax" else ("_v3" if mdesign else "")
+    # mega v4 = the add-only generic prompt (2026-11-27); older fan_mega_<slug>.png had added arms / legs
+    ver = ("_v3" if design else "_v2") if kind == "gmax" else ("_v3" if mdesign else "_v4")
     out = CACHE / "art" / f"fan_{kind}{ver}_{slug}.png"
     if out.exists():
         return str(out)
@@ -486,6 +500,8 @@ def fan_form(slug: str, kind: str) -> str:
         _cutout(Path(raw), out)
     if mdesign:  # the edit model keeps drawing a dust cloud under Mega Hydreigon even when told not to
         _drop_dust(out)
+    elif kind == "mega":  # the free ZeroGPU Space draws a dust cloud under every Mega (Crobat / Serperior 2026-11-27)
+        _drop_ground(out)
     log.info("   fan-made %s art for %s: %s", kind, slug, out)
     return str(out)
 
@@ -506,6 +522,31 @@ def _drop_dust(png: Path) -> None:
     px[(px[..., 3] > 0) & (mx > 0.5) & (sat < 0.28) & low, 3] = 0
     lab, n = ndimage.label(px[..., 3] > 20)
     if n > 1:
+        sizes = ndimage.sum(np.ones_like(lab), lab, range(1, n + 1))
+        px[(lab != int(np.argmax(sizes)) + 1) & (lab > 0), 3] = 0
+    Image.fromarray(px).save(png)
+
+
+def _drop_ground(png: Path) -> None:
+    """Erase a dust cloud / ground shadow from the lower part of a cut-out drawing: greyish, beige or brown pixels that
+    are connected to the transparent outside (2026-11-27). Unlike _drop_dust, pale parts INSIDE the outline (Serperior's
+    cream belly) stay, because the body's outline separates them from the outside."""
+    import numpy as np
+    from PIL import Image
+    from scipy import ndimage
+
+    px = np.asarray(Image.open(png).convert("RGBA")).copy()
+    rgb = px[..., :3].astype(float) / 255
+    mx, mn = rgb.max(-1), rgb.min(-1)
+    sat = np.where(mx > 0, (mx - mn) / np.maximum(mx, 1e-6), 0)
+    cand = (px[..., 3] > 0) & (sat < 0.35) & (mx > 0.25)
+    outside = px[..., 3] == 0
+    lab, _ = ndimage.label(cand | outside)
+    touching = np.unique(lab[outside])
+    low = np.arange(px.shape[0])[:, None] > px.shape[0] * 0.45
+    px[np.isin(lab, touching[touching > 0]) & cand & low, 3] = 0
+    lab, n = ndimage.label(px[..., 3] > 20)
+    if n > 1:  # loose specks of the cloud
         sizes = ndimage.sum(np.ones_like(lab), lab, range(1, n + 1))
         px[(lab != int(np.argmax(sizes)) + 1) & (lab > 0), 3] = 0
     Image.fromarray(px).save(png)
@@ -603,7 +644,7 @@ def storyboard(entry: dict) -> dict:
         clips += [evolve(s[-1], m, mega=True),
                   # "{mfx} and rainbow energy explode around it" hid Mega Dragonite behind a white blast for the whole
                   # clip (2026-11-17): the Mega must stay clearly visible
-                  wan(m, f"{POSE.get(m, 'the creature stands tall')} and looks around confidently with its mouth "
+                  wan(m, f"{POSE.get(m) or (POSE.get(s[-1]) if fan_mega else None) or 'the creature keeps its pose'} and looks around confidently with its mouth "
                          f"closed, its face keeps "
                          f"exactly the same shape, a glowing rainbow aura shines around its outline, "
                          f"a few {mfx} drift around it, the creature stays fully visible and in focus the whole time, "

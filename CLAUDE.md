@@ -121,6 +121,15 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   edges; cache `fan_mega_v3_<slug>.png`), and `_drop_dust` erases the dust cloud the edit model still draws under it.
   1 of 4 draws had exactly 3 heads - always count the heads. Queue entries can also carry `"skip_forms": ["mega"]` (form
   left out, title / narration / description drop the word Mega) for a fan form that cannot be drawn at all.
+  Fan Mega v4 (owner 2026-11-27: "jo pokemon nahi he mega usme aap per aur haat laga dete ho ... jaise ex Zubat"): the
+  generic Mega prompt ("bigger claws, more muscular build, menacing stance") had turned Crobat into a muscular biped,
+  given Serperior legs + wings, Typhlosion three heads and stood Primarina / Flygon / Quaquaval up like people, all on dust.
+  `FAN_PROMPT["mega"]` is now an ADD-ONLY edit: same pose, body shape and number of heads / arms / legs / wings / tails
+  (no limbs = none added), only armour plates, spikes and glowing accents. Cache `fan_mega_v4_<slug>.png`; `_drop_ground`
+  erases the dust cloud the ZeroGPU Space still draws (only grey / beige pixels connected to the outside, so a pale belly
+  inside the outline stays - `_drop_dust` cut holes in Serperior). `PARTS` has body notes for Crobat / Serperior, `POSE`
+  is also looked up by the Pokemon for a fan Mega (default "keeps its pose", not "stands tall"); never write "no arms"
+  into a Wan prompt. Zubat + Snivy rebuilt with v4 Megas. Megas posted before this (Arcanine ... Typhlosion) keep the old art.
   Own Gigantamax per Pokemon (owner 2026-11-21 on Axew / Bagon / Trapinch: "kya sabhi ke gigantamax same rahenge",
   "Salamence ka gigantamax kaha he"): the one gmax prompt buried every Pokemon in the same mane of type-coloured flames
   (Haxorus and Salamence were the same blue blob, Salamence's red wings gone). Now `pokemon_daily.GMAX_DESIGN` gives each
@@ -660,6 +669,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-27 - Fan Mega v4: add-only edit that keeps the Pokemon's body plan (no added arms / legs / wings), dust removed by `_drop_ground`; Zubat + Snivy rebuilt.
 - 2026-11-27 - GTA 6 on YouTube: 1 short every 2 hours + 1 long video every 5 hours (owner), was 10 shorts + 1 mission every 4 h; `gta6_hourly.py` skips missing long files (it crashed every run since 26 Nov 21:00).
 - 2026-11-27 - GTA 6 best-100 re-edits done; swear mask also inside OCR-glued words (`gta6_shorts_v2.py --recheck`, `file_rev`); Chapter 1 missions 24-25 built (all 25), 6 Hindi movie shorts (`run_cine4`) on the review page #24-29.
 - 2026-11-26 - Facebook restart: gaming Page gets 5 GTA 6 shorts + 1 long a day after the wipe (`gta6_hourly.py --facebook`); AI Trend Poster takes reviewed Hindi movie shorts again.

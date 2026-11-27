@@ -98,10 +98,14 @@ def _pending(sources: list[Path]) -> list[dict]:
             for lid in json.loads(rp.read_text(encoding="utf-8")):
                 video = run / "pokemon" / lid / "final.mp4"
                 if lid in queue and video.exists():
-                    text, tags = pd.post_text(queue[lid])
+                    # with its Mega / Dynamax / Gigantamax forms, as make_evolution posts it: the bare queue entry gave
+                    # "Pokemon Evolution Animation" with no forms and no fan-made note (Zubat / Snivy 2026-11-27). The
+                    # forms are read from the built storyboard, nothing is drawn here.
+                    entry = pd.built_forms(queue[lid])
+                    text, tags = pd.post_text(entry)
                     items.append({"trend_id": pd.post_id(queue[lid]), "kind": "short", "text": text, "tags": tags,
                                   "video": str(video), "category": "gaming", "platforms": None,
-                                  "evolution": queue[lid], "source": run.name})
+                                  "evolution": entry, "source": run.name})
         for made in sorted((run / "rashifal").glob("*/made_all.json")) if (run / "rashifal").exists() else []:
             m = json.loads(made.read_text(encoding="utf-8"))
             day = made.parent.name

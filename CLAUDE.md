@@ -540,6 +540,9 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   record; every 6 h it retries failed uploads). On the laptop, `review_cloud.py sync` drops what CI handled from the
   local review queues before anything is approved there. The branch is public: push only finished, checked videos.
   `store.FB_MAIN_ALLOWED` = the rashifal prefix (the one thing still posted to the paused main Page).
+  Evolution text on the queue comes from `pokemon_daily.built_forms` (forms read from the line's storyboard, nothing
+  drawn). Before 2026-11-28 the push used the bare queue entry: #1-9 of 26 Nov (Fuecoco ... Turtwig) went up titled
+  "Pokemon Evolution Animation" with no Mega / Gigantamax and no fan-made note.
 - **Automatic nudity check before every post / review** (owner 2026-11-16: "jo bhi videos aap banaoge kisi games clips
   se to waha check kar lena ki koi nudity to nahi he"): `app/media/safety.scan_video` runs NudeNet (local onnx) on one
   frame a second; any exposed breast / genitalia / buttocks / anus hit holds the video for the owner (flagged frames in
@@ -679,6 +682,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-28 - Review push: evolution title / description include the forms and the fan-made note (`built_forms`).
 - 2026-11-28 - Own Mega designs for Crobat / Flygon / Typhlosion (`MEGA_DESIGN`), dust cut keeps pale green bodies, still camera on Mega clips; Zubat, Cyndaquil, Trapinch rebuilt.
 - 2026-11-27 - Fan Mega v4: add-only edit that keeps the Pokemon's body plan (no added arms / legs / wings), dust removed by `_drop_ground`; Zubat + Snivy rebuilt.
 - 2026-11-27 - GTA 6 on YouTube: 1 short every 2 hours + 1 long video every 5 hours (owner), was 10 shorts + 1 mission every 4 h; `gta6_hourly.py` skips missing long files (it crashed every run since 26 Nov 21:00).

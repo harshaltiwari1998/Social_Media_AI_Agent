@@ -601,6 +601,18 @@ def with_forms(entry: dict, draw: bool = True) -> dict:
     return {**entry, "megas": megas, "gmax": gmax, "primal": primal, "fan": fan, "forms": True}
 
 
+def built_forms(entry: dict) -> dict:
+    """with_forms for a line that is already built: the fan-made forms come from its storyboard, nothing is drawn (the
+    review push needs the post text of Vulpix, built with an older Mega art file than with_forms would look for)."""
+    e = with_forms(entry, draw=False)
+    board = CACHE / entry["id"] / "storyboard.json"
+    text = board.read_text(encoding="utf-8") if board.exists() else ""
+    for kind in ("mega", "gmax"):
+        if not e["fan"].get(kind) and f"fan_{kind}" in text:
+            e["fan"][kind] = re.search(rf'"([^"]*fan_{kind}[^"]*\.png)"', text).group(1).replace("\\\\", "\\")
+    return e
+
+
 def _types(slug: str) -> list[str]:
     data = httpx.get(f"https://pokeapi.co/api/v2/pokemon/{slug}", timeout=30).raise_for_status().json()
     return [t["type"]["name"] for t in data["types"]]

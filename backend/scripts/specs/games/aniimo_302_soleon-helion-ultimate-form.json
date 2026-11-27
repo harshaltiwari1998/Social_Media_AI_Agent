@@ -1,0 +1,46 @@
+{
+  "id": "aniimo-soleon-helion-ultimate-form",
+  "slot": "aniimo",
+  "order": 302,
+  "headline": "Soleon Explained",
+  "title": "Soleon Guide | The Golden Form Helion Turns Into | Aniimo Guide",
+  "video_script": "Soleon is the Light form of Helion, and you cannot catch it in the wild. Helion turns into Soleon during battle when it uses its ultimate, Helios Judgment. That skill hits with a power of one hundred sixty seven and costs no energy. Soleon is a Light damage dealer with very high attack, so keep Helion alive long enough to fire the ultimate. Are you team Helion or team Lunara? Comment below!",
+  "scenes": [
+    {
+      "image": "steam:4126040:1",
+      "label": "Soleon Explained"
+    },
+    {
+      "image": "steam:4126040:3",
+      "fact": "Not Catchable",
+      "sub": "Soleon only exists as Helion's battle form"
+    },
+    {
+      "image": "steam:4126040:5",
+      "fact": "Helios Judgment",
+      "sub": "The ultimate that makes the change"
+    },
+    {
+      "image": "steam:4126040:9",
+      "fact": "Light Damage Dealer",
+      "sub": "Keep Helion alive to fire it"
+    }
+  ],
+  "description": "Soleon in Aniimo is the golden Light form that Helion turns into during battle when it uses its ultimate, Helios Judgment. You cannot catch Soleon on its own, so keep Helion alive long enough to fire the skill.",
+  "hashtags": [
+    "Aniimo",
+    "Soleon",
+    "Gaming"
+  ],
+  "tags": [
+    "Aniimo",
+    "Aniimo guide",
+    "Soleon",
+    "Helion",
+    "Helios Judgment",
+    "Aniimo Light element",
+    "Aniimo starter",
+    "Pawprint Studio"
+  ],
+  "joke": "Helion saves the golden outfit for the big moment, like a true main character."
+}

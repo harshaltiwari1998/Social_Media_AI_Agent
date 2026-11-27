@@ -8324,5 +8324,71 @@
       ]
     ],
     "key": "Solmora 5"
+  },
+  {
+    "parents": [
+      "Direhowl",
+      "Robinquill"
+    ],
+    "child": "Kelpsea Ignis",
+    "unique": false,
+    "combos": [
+      [
+        "Direhowl",
+        "Robinquill"
+      ],
+      [
+        "Foxparks",
+        "Reindrix"
+      ],
+      [
+        "Eikthyrdeer",
+        "Kingpaca"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Anubis",
+      "Dazzi"
+    ],
+    "child": "Shroomer Noct",
+    "unique": false,
+    "combos": [
+      [
+        "Anubis",
+        "Dazzi"
+      ],
+      [
+        "Azurmane",
+        "Finsider"
+      ],
+      [
+        "Beakon",
+        "Bulldosu"
+      ]
+    ]
+  },
+  {
+    "parents": [
+      "Anubis",
+      "Moldron"
+    ],
+    "child": "Wumpo Botan",
+    "unique": false,
+    "combos": [
+      [
+        "Anubis",
+        "Moldron"
+      ],
+      [
+        "Azurmane",
+        "Splatterina"
+      ],
+      [
+        "Blazamut",
+        "Lapure"
+      ]
+    ]
   }
 ]

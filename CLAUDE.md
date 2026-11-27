@@ -130,6 +130,9 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   inside the outline stays - `_drop_dust` cut holes in Serperior). `PARTS` has body notes for Crobat / Serperior, `POSE`
   is also looked up by the Pokemon for a fan Mega (default "keeps its pose", not "stands tall"); never write "no arms"
   into a Wan prompt. Zubat + Snivy rebuilt with v4 Megas. Megas posted before this (Arcanine ... Typhlosion) keep the old art.
+  The same check applies to every form and every Wan clip: Wan turned Serperior's yellow body ring into two legs and its
+  fan Gigantamax v3 had four legs, so `serperior` is in `LOCAL_ANIM` and its Gigantamax was redrawn with the `PARTS` note.
+  A start frame is cached as `<line>/scene_NN.jpg` - delete it with the clip when the art of a form changes.
   Own Gigantamax per Pokemon (owner 2026-11-21 on Axew / Bagon / Trapinch: "kya sabhi ke gigantamax same rahenge",
   "Salamence ka gigantamax kaha he"): the one gmax prompt buried every Pokemon in the same mane of type-coloured flames
   (Haxorus and Salamence were the same blue blob, Salamence's red wings gone). Now `pokemon_daily.GMAX_DESIGN` gives each

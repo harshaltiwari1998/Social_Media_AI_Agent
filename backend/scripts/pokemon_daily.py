@@ -415,7 +415,8 @@ FAN_GMAX_ONE = ("Edit this picture of the Pokemon {name} into its GIGANTAMAX for
 # animation (fal_video.idle_clip: breathing, aura, particles) instead of a Wan clip.
 # 2026-11-22 Hydreigon (owner: "end me aate aate haath dikhte he"): Wan turned its hand-heads into human hands and its
 # tail into ghost legs. A slug here also covers its fan-made Mega / Gigantamax art (fan_<kind>_..._<slug>.png).
-LOCAL_ANIM = {"salamence", "salamence-mega", "hydreigon"}
+# 2026-11-27 Serperior: Wan turned the yellow ring on its body into two legs (owner: no added arms / legs)
+LOCAL_ANIM = {"salamence", "salamence-mega", "hydreigon", "serperior"}
 
 
 def _local_anim(who: str) -> str | None:

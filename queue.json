@@ -1410,5 +1410,119 @@
   ],
   "preview": "previews/43.mp4",
   "added": "2026-11-27 22:02"
+ },
+ {
+  "n": 44,
+  "trend_id": "custom:motion-poke-snivy",
+  "kind": "short",
+  "text": "Snivy Evolves Into Servine and Serperior | Pokemon Evolution Animation\n\nSnivy to Servine to Serperior - a Pokemon evolution animation, made with AI from the official artwork. Who is your favourite Grass-type Pokemon? Comment below!\n\nMusic: Disfigure - Blank [NCS Release]\nMusic provided by NoCopyrightSounds\nFree Download/Stream: http://ncs.io/blank\n\n#Pokemon #PokemonEvolution #Serperior #Gaming #Shorts",
+  "tags": [
+   "Snivy",
+   "Servine",
+   "Serperior",
+   "Snivy evolution",
+   "Pokemon evolution",
+   "Pokemon animation",
+   "Pokemon",
+   "grass type Pokemon",
+   "evolution animation",
+   "Pokemon shorts"
+  ],
+  "category": "gaming",
+  "platforms": null,
+  "evolution": {
+   "id": "snivy",
+   "stages": [
+    "snivy",
+    "servine",
+    "serperior"
+   ],
+   "type": "grass"
+  },
+  "source": "run_evo",
+  "files": [
+   "videos/44.mp4"
+  ],
+  "light": [
+   "videos/44.light.mp4"
+  ],
+  "preview": "previews/44.mp4",
+  "added": "2026-11-27 22:06"
+ },
+ {
+  "n": 45,
+  "trend_id": "custom:motion-poke-tepig",
+  "kind": "short",
+  "text": "Tepig Evolves Into Pignite and Emboar | Pokemon Evolution Animation\n\nTepig to Pignite to Emboar - a Pokemon evolution animation, made with AI from the official artwork. Who is your favourite Fire-type Pokemon? Comment below!\n\nMusic: Elektronomia - Energy [NCS Release]\nMusic provided by NoCopyrightSounds\nFree Download/Stream: http://ncs.io/energy\n\n#Pokemon #PokemonEvolution #Emboar #Gaming #Shorts",
+  "tags": [
+   "Tepig",
+   "Pignite",
+   "Emboar",
+   "Tepig evolution",
+   "Pokemon evolution",
+   "Pokemon animation",
+   "Pokemon",
+   "fire type Pokemon",
+   "evolution animation",
+   "Pokemon shorts"
+  ],
+  "category": "gaming",
+  "platforms": null,
+  "evolution": {
+   "id": "tepig",
+   "stages": [
+    "tepig",
+    "pignite",
+    "emboar"
+   ],
+   "type": "fire"
+  },
+  "source": "run_evo",
+  "files": [
+   "videos/45.mp4"
+  ],
+  "light": [
+   "videos/45.light.mp4"
+  ],
+  "preview": "previews/45.mp4",
+  "added": "2026-11-27 22:07"
+ },
+ {
+  "n": 46,
+  "trend_id": "custom:motion-poke-zubat",
+  "kind": "short",
+  "text": "Zubat Evolves Into Golbat and Crobat | Pokemon Evolution Animation\n\nZubat to Golbat to Crobat - a Pokemon evolution animation, made with AI from the official artwork. Who is your favourite Poison-type Pokemon? Comment below!\n\nMusic: Spektrem - Shine [NCS Release]\nMusic provided by NoCopyrightSounds\nFree Download/Stream: http://ncs.io/shine\n\n#Pokemon #PokemonEvolution #Crobat #Gaming #Shorts",
+  "tags": [
+   "Zubat",
+   "Golbat",
+   "Crobat",
+   "Zubat evolution",
+   "Pokemon evolution",
+   "Pokemon animation",
+   "Pokemon",
+   "poison type Pokemon",
+   "evolution animation",
+   "Pokemon shorts"
+  ],
+  "category": "gaming",
+  "platforms": null,
+  "evolution": {
+   "id": "zubat",
+   "stages": [
+    "zubat",
+    "golbat",
+    "crobat"
+   ],
+   "type": "poison"
+  },
+  "source": "run_evo",
+  "files": [
+   "videos/46.mp4"
+  ],
+  "light": [
+   "videos/46.light.mp4"
+  ],
+  "preview": "previews/46.mp4",
+  "added": "2026-11-27 22:08"
  }
 ]

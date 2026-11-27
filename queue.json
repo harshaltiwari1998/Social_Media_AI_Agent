@@ -659,16 +659,23 @@
   "n": 21,
   "trend_id": "custom:motion-poke-scyther",
   "kind": "short",
-  "text": "Scyther Evolves Into Scizor | Pokemon Evolution Animation\n\nScyther to Scizor - a Pokemon evolution animation, made with AI from the official artwork. Who is your favourite Bug-type Pokemon? Comment below!\n\nMusic: Jim Yosef - Link [NCS Release]\nMusic provided by NoCopyrightSounds\nFree Download/Stream: http://ncs.io/link\n\n#Pokemon #PokemonEvolution #Scizor #Gaming #Shorts",
+  "text": "Scyther Evolves Into Scizor | Mega, Dynamax and Gigantamax What If\n\nScyther to Scizor, then Mega Scizor, Dynamax Scizor, Gigantamax Scizor - a Pokemon evolution animation, made with AI from the official artwork. Fan-made, not in the games: Gigantamax Scizor. Mega, Dynamax or Gigantamax, which form is your favourite? Comment below!\n\nMusic: Jim Yosef - Link [NCS Release]\nMusic provided by NoCopyrightSounds\nFree Download/Stream: http://ncs.io/link\n\n#Pokemon #PokemonEvolution #Scizor #Gigantamax #Shorts",
   "tags": [
    "Scyther",
    "Scizor",
+   "Mega Scizor",
+   "Dynamax Scizor",
+   "Gigantamax Scizor",
    "Scyther evolution",
    "Pokemon evolution",
+   "Mega Evolution",
+   "Dynamax",
+   "Gigantamax",
+   "fan made Pokemon",
+   "Pokemon what if",
+   "bug type Pokemon",
    "Pokemon animation",
    "Pokemon",
-   "bug type Pokemon",
-   "evolution animation",
    "Pokemon shorts"
   ],
   "category": "gaming",
@@ -679,7 +686,16 @@
     "scyther",
     "scizor"
    ],
-   "type": "bug"
+   "type": "bug",
+   "megas": [
+    "scizor-mega"
+   ],
+   "gmax": null,
+   "primal": null,
+   "fan": {
+    "gmax": "F:\\AI AGENT\\run_evo\\pokemon\\art\\fan_gmax_v3_scizor.png"
+   },
+   "forms": true
   },
   "source": "run_evo",
   "files": [
@@ -695,16 +711,23 @@
   "n": 22,
   "trend_id": "custom:motion-poke-vulpix",
   "kind": "short",
-  "text": "Vulpix Evolves Into Ninetales | Pokemon Evolution Animation\n\nVulpix to Ninetales - a Pokemon evolution animation, made with AI from the official artwork. Who is your favourite Fire-type Pokemon? Comment below!\n\nMusic: Elektronomia - Energy [NCS Release]\nMusic provided by NoCopyrightSounds\nFree Download/Stream: http://ncs.io/energy\n\n#Pokemon #PokemonEvolution #Ninetales #Gaming #Shorts",
+  "text": "Vulpix Evolves Into Ninetales | Mega, Dynamax and Gigantamax What If\n\nVulpix to Ninetales, then Mega Ninetales, Dynamax Ninetales, Gigantamax Ninetales - a Pokemon evolution animation, made with AI from the official artwork. Fan-made, not in the games: Mega Ninetales and Gigantamax Ninetales. Mega, Dynamax or Gigantamax, which form is your favourite? Comment below!\n\nMusic: Elektronomia - Energy [NCS Release]\nMusic provided by NoCopyrightSounds\nFree Download/Stream: http://ncs.io/energy\n\n#Pokemon #PokemonEvolution #Ninetales #Gigantamax #Shorts",
   "tags": [
    "Vulpix",
    "Ninetales",
+   "Mega Ninetales",
+   "Dynamax Ninetales",
+   "Gigantamax Ninetales",
    "Vulpix evolution",
    "Pokemon evolution",
+   "Mega Evolution",
+   "Dynamax",
+   "Gigantamax",
+   "fan made Pokemon",
+   "Pokemon what if",
+   "fire type Pokemon",
    "Pokemon animation",
    "Pokemon",
-   "fire type Pokemon",
-   "evolution animation",
    "Pokemon shorts"
   ],
   "category": "gaming",
@@ -715,7 +738,15 @@
     "vulpix",
     "ninetales"
    ],
-   "type": "fire"
+   "type": "fire",
+   "megas": [],
+   "gmax": null,
+   "primal": null,
+   "fan": {
+    "mega": "F:\\AI AGENT\\run_evo\\pokemon\\art\\fan_mega_ninetales.png",
+    "gmax": "F:\\AI AGENT\\run_evo\\pokemon\\art\\fan_gmax_v3_ninetales.png"
+   },
+   "forms": true
   },
   "source": "run_evo",
   "files": [
@@ -1256,45 +1287,6 @@
   "added": "2026-11-27 21:59"
  },
  {
-  "n": 40,
-  "trend_id": "custom:motion-poke-trapinch",
-  "kind": "short",
-  "text": "Trapinch Evolves Into Vibrava and Flygon | Mega, Dynamax and Gigantamax What If\n\nTrapinch to Vibrava to Flygon, then Mega Flygon, Dynamax Flygon, Gigantamax Flygon - a Pokemon evolution animation, made with AI from the official artwork. Fan-made, not in the games: Mega Flygon and Gigantamax Flygon. Mega, Dynamax or Gigantamax, which form is your favourite? Comment below!\n\n#Pokemon #PokemonEvolution #Flygon #Gigantamax #Shorts",
-  "tags": [
-   "Trapinch",
-   "Vibrava",
-   "Flygon",
-   "Mega Flygon",
-   "Dynamax Flygon",
-   "Gigantamax Flygon",
-   "Trapinch evolution",
-   "Pokemon evolution",
-   "Mega Evolution",
-   "Dynamax",
-   "Gigantamax",
-   "fan made Pokemon",
-   "Pokemon what if",
-   "ground type Pokemon",
-   "Pokemon animation",
-   "Pokemon",
-   "Pokemon shorts"
-  ],
-  "category": "gaming",
-  "platforms": [
-   "youtube"
-  ],
-  "safety": [],
-  "source": "run_evo",
-  "files": [
-   "videos/40.mp4"
-  ],
-  "light": [
-   "videos/40.light.mp4"
-  ],
-  "preview": "previews/40.mp4",
-  "added": "2026-11-27 22:00"
- },
- {
   "n": 41,
   "trend_id": "custom:motion-poke-totodile",
   "kind": "short",
@@ -1331,45 +1323,6 @@
    "videos/41.light.mp4"
   ],
   "preview": "previews/41.mp4",
-  "added": "2026-11-27 22:01"
- },
- {
-  "n": 42,
-  "trend_id": "custom:motion-poke-cyndaquil",
-  "kind": "short",
-  "text": "Cyndaquil Evolves Into Quilava and Typhlosion | Mega, Dynamax and Gigantamax What If\n\nCyndaquil to Quilava to Typhlosion, then Mega Typhlosion, Dynamax Typhlosion, Gigantamax Typhlosion - a Pokemon evolution animation, made with AI from the official artwork. Fan-made, not in the games: Mega Typhlosion and Gigantamax Typhlosion. Mega, Dynamax or Gigantamax, which form is your favourite? Comment below!\n\n#Pokemon #PokemonEvolution #Typhlosion #Gigantamax #Shorts",
-  "tags": [
-   "Cyndaquil",
-   "Quilava",
-   "Typhlosion",
-   "Mega Typhlosion",
-   "Dynamax Typhlosion",
-   "Gigantamax Typhlosion",
-   "Cyndaquil evolution",
-   "Pokemon evolution",
-   "Mega Evolution",
-   "Dynamax",
-   "Gigantamax",
-   "fan made Pokemon",
-   "Pokemon what if",
-   "fire type Pokemon",
-   "Pokemon animation",
-   "Pokemon",
-   "Pokemon shorts"
-  ],
-  "category": "gaming",
-  "platforms": [
-   "youtube"
-  ],
-  "safety": [],
-  "source": "run_evo",
-  "files": [
-   "videos/42.mp4"
-  ],
-  "light": [
-   "videos/42.light.mp4"
-  ],
-  "preview": "previews/42.mp4",
   "added": "2026-11-27 22:01"
  },
  {
@@ -1415,17 +1368,24 @@
   "n": 44,
   "trend_id": "custom:motion-poke-snivy",
   "kind": "short",
-  "text": "Snivy Evolves Into Servine and Serperior | Pokemon Evolution Animation\n\nSnivy to Servine to Serperior - a Pokemon evolution animation, made with AI from the official artwork. Who is your favourite Grass-type Pokemon? Comment below!\n\nMusic: Disfigure - Blank [NCS Release]\nMusic provided by NoCopyrightSounds\nFree Download/Stream: http://ncs.io/blank\n\n#Pokemon #PokemonEvolution #Serperior #Gaming #Shorts",
+  "text": "Snivy Evolves Into Servine and Serperior | Mega, Dynamax and Gigantamax What If\n\nSnivy to Servine to Serperior, then Mega Serperior, Dynamax Serperior, Gigantamax Serperior - a Pokemon evolution animation, made with AI from the official artwork. Fan-made, not in the games: Mega Serperior and Gigantamax Serperior. Mega, Dynamax or Gigantamax, which form is your favourite? Comment below!\n\nMusic: Disfigure - Blank [NCS Release]\nMusic provided by NoCopyrightSounds\nFree Download/Stream: http://ncs.io/blank\n\n#Pokemon #PokemonEvolution #Serperior #Gigantamax #Shorts",
   "tags": [
    "Snivy",
    "Servine",
    "Serperior",
+   "Mega Serperior",
+   "Dynamax Serperior",
+   "Gigantamax Serperior",
    "Snivy evolution",
    "Pokemon evolution",
+   "Mega Evolution",
+   "Dynamax",
+   "Gigantamax",
+   "fan made Pokemon",
+   "Pokemon what if",
+   "grass type Pokemon",
    "Pokemon animation",
    "Pokemon",
-   "grass type Pokemon",
-   "evolution animation",
    "Pokemon shorts"
   ],
   "category": "gaming",
@@ -1437,7 +1397,15 @@
     "servine",
     "serperior"
    ],
-   "type": "grass"
+   "type": "grass",
+   "megas": [],
+   "gmax": null,
+   "primal": null,
+   "fan": {
+    "mega": "F:\\AI AGENT\\run_evo\\pokemon\\art\\fan_mega_v4_serperior.png",
+    "gmax": "F:\\AI AGENT\\run_evo\\pokemon\\art\\fan_gmax_v3_serperior.png"
+   },
+   "forms": true
   },
   "source": "run_evo",
   "files": [
@@ -1453,17 +1421,24 @@
   "n": 45,
   "trend_id": "custom:motion-poke-tepig",
   "kind": "short",
-  "text": "Tepig Evolves Into Pignite and Emboar | Pokemon Evolution Animation\n\nTepig to Pignite to Emboar - a Pokemon evolution animation, made with AI from the official artwork. Who is your favourite Fire-type Pokemon? Comment below!\n\nMusic: Elektronomia - Energy [NCS Release]\nMusic provided by NoCopyrightSounds\nFree Download/Stream: http://ncs.io/energy\n\n#Pokemon #PokemonEvolution #Emboar #Gaming #Shorts",
+  "text": "Tepig Evolves Into Pignite and Emboar | Mega, Dynamax and Gigantamax What If\n\nTepig to Pignite to Emboar, then Mega Emboar, Dynamax Emboar, Gigantamax Emboar - a Pokemon evolution animation, made with AI from the official artwork. Fan-made, not in the games: Gigantamax Emboar. Mega, Dynamax or Gigantamax, which form is your favourite? Comment below!\n\nMusic: Elektronomia - Energy [NCS Release]\nMusic provided by NoCopyrightSounds\nFree Download/Stream: http://ncs.io/energy\n\n#Pokemon #PokemonEvolution #Emboar #Gigantamax #Shorts",
   "tags": [
    "Tepig",
    "Pignite",
    "Emboar",
+   "Mega Emboar",
+   "Dynamax Emboar",
+   "Gigantamax Emboar",
    "Tepig evolution",
    "Pokemon evolution",
+   "Mega Evolution",
+   "Dynamax",
+   "Gigantamax",
+   "fan made Pokemon",
+   "Pokemon what if",
+   "fire type Pokemon",
    "Pokemon animation",
    "Pokemon",
-   "fire type Pokemon",
-   "evolution animation",
    "Pokemon shorts"
   ],
   "category": "gaming",
@@ -1475,7 +1450,16 @@
     "pignite",
     "emboar"
    ],
-   "type": "fire"
+   "type": "fire",
+   "megas": [
+    "emboar-mega"
+   ],
+   "gmax": null,
+   "primal": null,
+   "fan": {
+    "gmax": "F:\\AI AGENT\\run_evo\\pokemon\\art\\fan_gmax_v3_emboar.png"
+   },
+   "forms": true
   },
   "source": "run_evo",
   "files": [
@@ -1486,43 +1470,5 @@
   ],
   "preview": "previews/45.mp4",
   "added": "2026-11-27 22:07"
- },
- {
-  "n": 46,
-  "trend_id": "custom:motion-poke-zubat",
-  "kind": "short",
-  "text": "Zubat Evolves Into Golbat and Crobat | Pokemon Evolution Animation\n\nZubat to Golbat to Crobat - a Pokemon evolution animation, made with AI from the official artwork. Who is your favourite Poison-type Pokemon? Comment below!\n\nMusic: Spektrem - Shine [NCS Release]\nMusic provided by NoCopyrightSounds\nFree Download/Stream: http://ncs.io/shine\n\n#Pokemon #PokemonEvolution #Crobat #Gaming #Shorts",
-  "tags": [
-   "Zubat",
-   "Golbat",
-   "Crobat",
-   "Zubat evolution",
-   "Pokemon evolution",
-   "Pokemon animation",
-   "Pokemon",
-   "poison type Pokemon",
-   "evolution animation",
-   "Pokemon shorts"
-  ],
-  "category": "gaming",
-  "platforms": null,
-  "evolution": {
-   "id": "zubat",
-   "stages": [
-    "zubat",
-    "golbat",
-    "crobat"
-   ],
-   "type": "poison"
-  },
-  "source": "run_evo",
-  "files": [
-   "videos/46.mp4"
-  ],
-  "light": [
-   "videos/46.light.mp4"
-  ],
-  "preview": "previews/46.mp4",
-  "added": "2026-11-27 22:08"
  }
 ]

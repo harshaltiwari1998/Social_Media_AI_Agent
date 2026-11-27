@@ -36,9 +36,10 @@ RAW = "https://raw.githubusercontent.com/harshaltiwari1998/Social_Media_AI_Agent
 STEP = 300 * 1024 * 1024
 PLANS = ROOT / "scripts" / "specs" / "gameplay"
 STORY_FIRST = [("gta6_launch", range(1, 42)), ("gta6_day2", range(1, 21))]
-# owner 2026-11-27: "1 short + 1 long every 2 hours" (was 10 shorts + 1 mission every 4 h, 25-26 Nov)
+# owner 2026-11-27: "1 short every 2 hours and 1 long every 5 hours" (was 10 shorts + 1 mission every 4 h, 25-26 Nov)
 PER_4H = 1  # shorts per batch
-GAP_H = 2  # hours between two batches (counted from the last short of the batch); long videos use the same gap
+GAP_H = 2  # hours between two short batches (counted from the last short of the batch)
+LONG_GAP_H = 5  # hours between two GTA 6 long videos (Chapter 1 missions first)
 
 
 def caption(plan: dict, title: str) -> str:
@@ -188,7 +189,7 @@ def post(n: int) -> None:
 # ---------- long videos (owner 2026-11-26: "2 long a day") ----------
 # The 42 GTA 6 long videos are ~39 GB, too much for one branch, so the laptop keeps only the next few on their own
 # orphan branch: push-long rebuilds it (force push, old files dropped) with the next N longs not on YouTube yet, but
-# only when fewer than --if-low are left on it. post-long uploads one every GAP_H hours (owner 2026-11-27).
+# only when fewer than --if-low are left on it. post-long uploads one every LONG_GAP_H hours (owner 2026-11-27).
 LONG_BRANCH = "clips/gta6-youtube-long"
 RAW_LONG = RAW.rsplit("/", 1)[0] + "/" + LONG_BRANCH.split("/", 1)[1]
 LONG_ORDER = ["gta6_launch", "gta6_day2", "gta6_day3b", "gta6_day4", "gta6_day5", "gta6_day6", "gta6_day7"]
@@ -341,9 +342,9 @@ def post_long() -> None:
     if not todo:
         return
     q = todo[0]
-    # owner 2026-11-27: one long video (Chapter 1 missions first, then the plan longs) every GAP_H hours, next to the short
-    if last_m and datetime.fromisoformat(last_m).replace(tzinfo=timezone.utc) + timedelta(hours=GAP_H) > datetime.now(timezone.utc):
-        print(f"last GTA 6 long video went up at {last_m[:16]} UTC - next one {GAP_H} h after it", flush=True)
+    # owner 2026-11-27: one long video (Chapter 1 missions first, then the plan longs) every LONG_GAP_H hours
+    if last_m and datetime.fromisoformat(last_m).replace(tzinfo=timezone.utc) + timedelta(hours=LONG_GAP_H) > datetime.now(timezone.utc):
+        print(f"last GTA 6 long video went up at {last_m[:16]} UTC - next one {LONG_GAP_H} h after it", flush=True)
         return
     with tempfile.TemporaryDirectory() as tmp:
         video = Path(tmp) / "long.mp4"

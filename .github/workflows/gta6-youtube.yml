@@ -1,10 +1,10 @@
-name: GTA 6 to YouTube (1 short + 1 long every 2 hours)
+name: GTA 6 to YouTube (1 short every 2 h, 1 long every 5 h)
 
 # Owner 2026-11-23: "me office me laptop open nahi kar sakta hu to aap kuch karo jisse har 2 ghante me youtube me shorts
-# jaye GTA 6 ke"; 2026-11-25: "youtube gaming ke liye 4 ghante me 10 shorts"; 2026-11-27: "1 short + 1 long every 2 hours". The laptop pushes owner-approved,
+# jaye GTA 6 ke"; 2026-11-25: "youtube gaming ke liye 4 ghante me 10 shorts"; 2026-11-27: "1 short every 2 hours and 1 long every 5 hours". The laptop pushes owner-approved,
 # nudity-checked GTA 6 shorts (with the GTA VI logo) to the branch clips/gta6-youtube (scripts/gta6_youtube_cloud.py
-# push N); this uploads them to the HarryBeast YouTube channel: 1 short + 1 long video (clips/gta6-youtube-long) every
-# 2 hours (PER_4H / GAP_H in the script). Only GTA 6 clips the owner approved are in that queue, so this one keeps its schedule (every other
+# push N); this uploads them to the HarryBeast YouTube channel: 1 short every 2 hours and 1 long video
+# (clips/gta6-youtube-long) every 5 hours (GAP_H / LONG_GAP_H in the script). Only GTA 6 clips the owner approved are in that queue, so this one keeps its schedule (every other
 # posting workflow is manual-only since 2026-11-16).
 #
 # GitHub starts only a few scheduled runs of this repo (24 + 25 Nov: 2 a day out of 24 hourly; the 07:30 login check
@@ -57,7 +57,7 @@ jobs:
           printf '%s' "$YOUTUBE_CLIENT_SECRET_JSON" > .cache/youtube_client_secret.json
           printf '%s' "$YOUTUBE_TOKEN_JSON" > .cache/youtube_token.json
 
-      - name: Upload GTA 6 videos for ~5.5 hours (1 short + 1 long every 2 hours)
+      - name: Upload GTA 6 videos for ~5.5 hours (1 short every 2 h, 1 long every 5 h)
         env:
           DRY_RUN: "false"
           YOUTUBE_CLIENT_SECRET_FILE: .cache/youtube_client_secret.json

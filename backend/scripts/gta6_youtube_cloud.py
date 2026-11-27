@@ -36,8 +36,9 @@ RAW = "https://raw.githubusercontent.com/harshaltiwari1998/Social_Media_AI_Agent
 STEP = 300 * 1024 * 1024
 PLANS = ROOT / "scripts" / "specs" / "gameplay"
 STORY_FIRST = [("gta6_launch", range(1, 42)), ("gta6_day2", range(1, 21))]
-PER_4H = 10  # owner 2026-11-25: "youtube gaming ke liye 4 ghante me 10 shorts" - laptop closed, so GitHub does it
-GAP_H = 4  # hours between two batches (counted from the last short of the batch)
+# owner 2026-11-27: "1 short + 1 long every 2 hours" (was 10 shorts + 1 mission every 4 h, 25-26 Nov)
+PER_4H = 1  # shorts per batch
+GAP_H = 2  # hours between two batches (counted from the last short of the batch); long videos use the same gap
 
 
 def caption(plan: dict, title: str) -> str:
@@ -145,8 +146,7 @@ def post(n: int) -> None:
     queue = httpx.get(f"{RAW}/queue.json", timeout=60, follow_redirects=True).raise_for_status().json()
     todo = [q for q in queue if yt_open(store, q["tid"])]
     print(f"{len(todo)} of {len(queue)} queued shorts not on YouTube yet", flush=True)
-    # owner 2026-11-26: "4 ghante ka gap" - a batch of up to 10 shorts, then 4 full hours with no GTA 6 short. The old
-    # rolling "max 10 in any 4 h" (long videos counted too) let 1-2 stragglers go up every ~2 hours in between.
+    # a batch of PER_4H shorts, then GAP_H full hours with no GTA 6 short (owner 2026-11-27: 1 short every 2 hours)
     c = store._get_conn()
     last = c.execute("select max(posted_at) from posted_trends where platform='youtube' and trend_id like 'gameplay:gta6_%:short%' "
                      "and post_id is not null and post_id not like 'hold:%' and post_id not like 'skip:%'").fetchone()[0]
@@ -188,11 +188,10 @@ def post(n: int) -> None:
 # ---------- long videos (owner 2026-11-26: "2 long a day") ----------
 # The 42 GTA 6 long videos are ~39 GB, too much for one branch, so the laptop keeps only the next few on their own
 # orphan branch: push-long rebuilds it (force push, old files dropped) with the next N longs not on YouTube yet, but
-# only when fewer than --if-low are left on it. post uploads at most LONGS_PER_DAY in any 24 hours.
+# only when fewer than --if-low are left on it. post-long uploads one every GAP_H hours (owner 2026-11-27).
 LONG_BRANCH = "clips/gta6-youtube-long"
 RAW_LONG = RAW.rsplit("/", 1)[0] + "/" + LONG_BRANCH.split("/", 1)[1]
 LONG_ORDER = ["gta6_launch", "gta6_day2", "gta6_day3b", "gta6_day4", "gta6_day5", "gta6_day6", "gta6_day7"]
-LONGS_PER_DAY = 2
 PART = 45 * 1024 * 1024
 
 
@@ -334,19 +333,17 @@ def post_long() -> None:
     recent = c.execute("select count(*) from posted_trends where platform='youtube' and trend_id like 'gameplay:gta6_%:long%' "
                        "and post_id is not null and post_id not like 'hold:%' and post_id not like 'skip:%' "
                        "and posted_at > ?", (since,)).fetchone()[0]
-    last_m = c.execute("select max(posted_at) from posted_trends where platform='youtube' and trend_id like 'gameplay:gta6_ch1:%' "
+    last_m = c.execute("select max(posted_at) from posted_trends where platform='youtube' and (trend_id like 'gameplay:gta6_ch1:%' "
+                       "or trend_id like 'gameplay:gta6_%:long%') "
                        "and post_id is not null and post_id not like 'hold:%' and post_id not like 'skip:%'").fetchone()[0]
     c.close()
     print(f"long videos: {len(todo)} waiting, {recent} uploaded in the last 24 h", flush=True)
     if not todo:
         return
     q = todo[0]
-    if q["tid"].startswith("gameplay:gta6_ch1:"):
-        # Chapter 1 missions (owner 2026-11-26): one in every 4-hour batch, next to the 10 shorts
-        if last_m and datetime.fromisoformat(last_m).replace(tzinfo=timezone.utc) + timedelta(hours=GAP_H) > datetime.now(timezone.utc):
-            print(f"last Chapter 1 mission went up at {last_m[:16]} UTC - next one 4 h after it", flush=True)
-            return
-    elif recent >= LONGS_PER_DAY:
+    # owner 2026-11-27: one long video (Chapter 1 missions first, then the plan longs) every GAP_H hours, next to the short
+    if last_m and datetime.fromisoformat(last_m).replace(tzinfo=timezone.utc) + timedelta(hours=GAP_H) > datetime.now(timezone.utc):
+        print(f"last GTA 6 long video went up at {last_m[:16]} UTC - next one {GAP_H} h after it", flush=True)
         return
     with tempfile.TemporaryDirectory() as tmp:
         video = Path(tmp) / "long.mp4"

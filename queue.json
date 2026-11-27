@@ -1470,5 +1470,136 @@
   ],
   "preview": "previews/45.mp4",
   "added": "2026-11-27 22:07"
+ },
+ {
+  "n": 46,
+  "trend_id": "custom:motion-poke-trapinch",
+  "kind": "short",
+  "text": "Trapinch Evolves Into Vibrava and Flygon | Mega, Dynamax and Gigantamax What If\n\nTrapinch to Vibrava to Flygon, then Mega Flygon, Dynamax Flygon, Gigantamax Flygon - a Pokemon evolution animation, made with AI from the official artwork. Fan-made, not in the games: Mega Flygon and Gigantamax Flygon. Mega, Dynamax or Gigantamax, which form is your favourite? Comment below!\n\nMusic: Elektronomia - Sky High [NCS Release]\nMusic provided by NoCopyrightSounds\nFree Download/Stream: http://ncs.io/skyhigh\n\n#Pokemon #PokemonEvolution #Flygon #Gigantamax #Shorts",
+  "tags": [
+   "Trapinch",
+   "Vibrava",
+   "Flygon",
+   "Mega Flygon",
+   "Dynamax Flygon",
+   "Gigantamax Flygon",
+   "Trapinch evolution",
+   "Pokemon evolution",
+   "Mega Evolution",
+   "Dynamax",
+   "Gigantamax",
+   "fan made Pokemon",
+   "Pokemon what if",
+   "ground type Pokemon",
+   "Pokemon animation",
+   "Pokemon",
+   "Pokemon shorts"
+  ],
+  "category": "gaming",
+  "platforms": [
+   "youtube"
+  ],
+  "safety": [],
+  "source": "run_evo",
+  "files": [
+   "videos/46.mp4"
+  ],
+  "light": [
+   "videos/46.light.mp4"
+  ],
+  "preview": "previews/46.mp4",
+  "added": "2026-11-28 00:52"
+ },
+ {
+  "n": 47,
+  "trend_id": "custom:motion-poke-cyndaquil",
+  "kind": "short",
+  "text": "Cyndaquil Evolves Into Quilava and Typhlosion | Mega, Dynamax and Gigantamax What If\n\nCyndaquil to Quilava to Typhlosion, then Mega Typhlosion, Dynamax Typhlosion, Gigantamax Typhlosion - a Pokemon evolution animation, made with AI from the official artwork. Fan-made, not in the games: Mega Typhlosion and Gigantamax Typhlosion. Mega, Dynamax or Gigantamax, which form is your favourite? Comment below!\n\nMusic: Spektrem - Shine [NCS Release]\nMusic provided by NoCopyrightSounds\nFree Download/Stream: http://ncs.io/shine\n\n#Pokemon #PokemonEvolution #Typhlosion #Gigantamax #Shorts",
+  "tags": [
+   "Cyndaquil",
+   "Quilava",
+   "Typhlosion",
+   "Mega Typhlosion",
+   "Dynamax Typhlosion",
+   "Gigantamax Typhlosion",
+   "Cyndaquil evolution",
+   "Pokemon evolution",
+   "Mega Evolution",
+   "Dynamax",
+   "Gigantamax",
+   "fan made Pokemon",
+   "Pokemon what if",
+   "fire type Pokemon",
+   "Pokemon animation",
+   "Pokemon",
+   "Pokemon shorts"
+  ],
+  "category": "gaming",
+  "platforms": [
+   "youtube"
+  ],
+  "safety": [],
+  "source": "run_evo",
+  "files": [
+   "videos/47.mp4"
+  ],
+  "light": [
+   "videos/47.light.mp4"
+  ],
+  "preview": "previews/47.mp4",
+  "added": "2026-11-28 00:53"
+ },
+ {
+  "n": 48,
+  "trend_id": "custom:motion-poke-zubat",
+  "kind": "short",
+  "text": "Zubat Evolves Into Golbat and Crobat | Mega, Dynamax and Gigantamax What If\n\nZubat to Golbat to Crobat, then Mega Crobat, Dynamax Crobat, Gigantamax Crobat - a Pokemon evolution animation, made with AI from the official artwork. Fan-made, not in the games: Mega Crobat and Gigantamax Crobat. Mega, Dynamax or Gigantamax, which form is your favourite? Comment below!\n\nMusic: Spektrem - Shine [NCS Release]\nMusic provided by NoCopyrightSounds\nFree Download/Stream: http://ncs.io/shine\n\n#Pokemon #PokemonEvolution #Crobat #Gigantamax #Shorts",
+  "tags": [
+   "Zubat",
+   "Golbat",
+   "Crobat",
+   "Mega Crobat",
+   "Dynamax Crobat",
+   "Gigantamax Crobat",
+   "Zubat evolution",
+   "Pokemon evolution",
+   "Mega Evolution",
+   "Dynamax",
+   "Gigantamax",
+   "fan made Pokemon",
+   "Pokemon what if",
+   "poison type Pokemon",
+   "Pokemon animation",
+   "Pokemon",
+   "Pokemon shorts"
+  ],
+  "category": "gaming",
+  "platforms": null,
+  "evolution": {
+   "id": "zubat",
+   "stages": [
+    "zubat",
+    "golbat",
+    "crobat"
+   ],
+   "type": "poison",
+   "megas": [],
+   "gmax": null,
+   "primal": null,
+   "fan": {
+    "mega": "F:\\AI AGENT\\run_evo\\pokemon\\art\\fan_mega_v3_crobat.png",
+    "gmax": "F:\\AI AGENT\\run_evo\\pokemon\\art\\fan_gmax_v3_crobat.png"
+   },
+   "forms": true
+  },
+  "source": "run_evo",
+  "files": [
+   "videos/48.mp4"
+  ],
+  "light": [
+   "videos/48.light.mp4"
+  ],
+  "preview": "previews/48.mp4",
+  "added": "2026-11-28 00:53"
  }
 ]

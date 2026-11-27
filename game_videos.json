@@ -13127,5 +13127,27 @@
   "reel-pathaan": {
     "spec": "scripts/specs/movies/reel_88_pathaan-facts.json",
     "video": "F:\\AI AGENT\\run_cine4\\videos\\short-41283701.mp4"
+  },
+  "poke-zubat": {
+    "kind": "motion",
+    "spec": "backend/scripts/specs/pokemon_queue.json",
+    "video": "",
+    "data": {
+      "id": "zubat",
+      "stages": [
+        "zubat",
+        "golbat",
+        "crobat"
+      ],
+      "type": "poison",
+      "megas": [],
+      "gmax": null,
+      "primal": null,
+      "fan": {
+        "mega": "F:\\AI AGENT\\run_evo\\pokemon\\art\\fan_mega_v3_crobat.png",
+        "gmax": "F:\\AI AGENT\\run_evo\\pokemon\\art\\fan_gmax_v3_crobat.png"
+      },
+      "forms": true
+    }
   }
 }

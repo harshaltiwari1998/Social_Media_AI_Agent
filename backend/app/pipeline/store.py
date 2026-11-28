@@ -58,7 +58,9 @@ FB_SKIP = "skip:fb-volume"
 # Owner 2026-11-20: the gaming Page got ~0 views since the automatic uploads started (Oct 2026, ~1,070 videos), even
 # for the owner's own GTA 6 clips; every video on the Page was deleted to start fresh. While paused NOTHING goes there
 # automatically: uploads get FB_PAUSED_SKIP (so they never flood the Page later) and capped prefixes have 0 left.
-FB_GAMING_PAUSED = True
+# 2026-11-28: the wipe is done (all 1,173 deleted) - the Page takes posts again: approved Pokemon (FB_GAMING_ALWAYS), and
+# GTA 6 at low volume through gta6_hourly.py --facebook (5 shorts + 1 long a day).
+FB_GAMING_PAUSED = False
 FB_PAUSED_SKIP = "skip:fb-paused"
 # Owner 2026-11-20: same for the main Page "AI Trend Poster" (0 followers, 341 videos, 38 views in total since Sep 2026):
 # every video deleted, nothing posted there automatically until the restart.

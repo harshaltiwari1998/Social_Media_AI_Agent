@@ -608,8 +608,8 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   gaming Page = 1 GTA 6 short per 4-hour run (5 a day IST) + 1 long video a day (Chapter 1 missions first), posted by
   `gta6_hourly.py --facebook` only once `fb_gaming_backup/deleted.txt` holds every id of `videos_list.json`; shorts in
   best-100 (re-edited) order, then story order, only files still on disk; ids with an old real Facebook id are skipped.
-  Pokemon (approved) go through `FB_GAMING_ALWAYS` once `FB_GAMING_PAUSED` is set to False - flip it when the wipe is
-  done. Main Page: `FB_MAIN_ALLOWED` now also has `custom:movie-` (Hindi movie shorts after review, `run_cine4`).
+  Pokemon (approved) go through `FB_GAMING_ALWAYS`. Wipe finished 2026-11-28 (all 1,173 deleted) and
+  `FB_GAMING_PAUSED` set to False the same day. Main Page: `FB_MAIN_ALLOWED` now also has `custom:movie-` (Hindi movie shorts after review, `run_cine4`).
 - **Gaming Facebook Page volume** (owner 2026-11-14): only Pokemon evolutions, fusions (Pokemon / Dragon Ball / Mewtwo
   stones / compilations) and at most 2 own-stream clips a day (IST) go to `facebook_gaming` (GTA 6 launch shorts: 6 a day,
   owner 2026-11-19 - `"gameplay:gta6_"` (all GTA 6 plans together) comes first in `store.FB_GAMING_DAILY`; `merge_state.py` lets a real post
@@ -682,6 +682,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-28 - Gaming Facebook Page wipe finished (1,173 deleted); `FB_GAMING_PAUSED = False` - approved Pokemon + 5 GTA 6 shorts and 1 long a day go there again.
 - 2026-11-28 - Review push: evolution title / description include the forms and the fan-made note (`built_forms`).
 - 2026-11-28 - Own Mega designs for Crobat / Flygon / Typhlosion (`MEGA_DESIGN`), dust cut keeps pale green bodies, still camera on Mega clips; Zubat, Cyndaquil, Trapinch rebuilt.
 - 2026-11-27 - Fan Mega v4: add-only edit that keeps the Pokemon's body plan (no added arms / legs / wings), dust removed by `_drop_ground`; Zubat + Snivy rebuilt.

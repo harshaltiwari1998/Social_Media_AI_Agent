@@ -124,7 +124,58 @@ def gta6_logo() -> Image.Image:
     return im
 
 
-LOGOS = {"GTA 6": gta6_logo}  # game name -> logo drawn instead of the red text badge
+GTA6_OFFICIAL = Path(__file__).resolve().parent.parent / "assets" / "gta6_logo_official.png"
+
+
+def gta6_logo_official() -> Image.Image:
+    """The official GTA VI logo (owner 2026-11-28: "GTA 6 wale shorts me GTA 6 ka original logo lagao"). Wikimedia
+    Commons "Grand Theft Auto VI logo (with gradient).svg" (marked public domain - too simple for copyright, still
+    Rockstar's trademark), 230 px tall, centred in the same 1080x260 box. Falls back to our own design."""
+    if not GTA6_OFFICIAL.exists():
+        return gta6_logo()
+    logo = Image.open(GTA6_OFFICIAL).convert("RGBA")
+    logo = logo.resize((round(logo.width * 230 / logo.height), 230), Image.LANCZOS)
+    im = Image.new("RGBA", (1080, 260), (0, 0, 0, 0))
+    shadow = Image.new("RGBA", im.size, (0, 0, 0, 0))
+    shadow.paste((0, 0, 0, 255), (540 - logo.width // 2 + 6, 22), logo.getchannel("A"))
+    im.alpha_composite(shadow.filter(ImageFilter.GaussianBlur(8)))
+    im.alpha_composite(logo, (540 - logo.width // 2, 15))
+    return im
+
+
+LOGOS = {"GTA 6": gta6_logo_official}  # game name -> logo drawn instead of the red text badge
+OLD_GTA6_BOX = (340, 58, 420, 190)  # x, y, w, h around our old "GTA VI" badge (349-748 x 69-236) on rendered shorts
+OFFICIAL_SINCE = 1795870226  # 2026-11-28 18:20 IST: every short written after this was drawn with the official logo
+
+
+def has_official_logo(video: Path) -> bool:
+    """Rendered after the switch, or swapped by .cache/gta6_logo_swap.py (listed in <plan>/logo_official_done.txt)."""
+    video = Path(video)
+    done = video.parent / "logo_official_done.txt"
+    if done.exists() and video.name in done.read_text().split():
+        return True
+    return video.exists() and video.stat().st_mtime >= OFFICIAL_SINCE
+
+
+def swap_gta6_logo(src: Path, dst: Path) -> None:
+    """Replace our old "GTA VI" badge on an already rendered GTA 6 short with the official logo, without the source
+    recording (launch / day 2 / day 3 recordings are deleted) and keeping v2 re-edits (hook, captions) as they are:
+    ffmpeg delogo erases the badge (it sits on the blurred background band) and the logo is laid over it."""
+    import imageio_ffmpeg
+
+    logo = Path(dst).with_suffix(".logo.png")
+    canvas = Image.new("RGBA", (1080, 1920), (0, 0, 0, 0))
+    canvas.alpha_composite(gta6_logo_official(), (0, 20))
+    canvas.save(logo)
+    x, y, w, h = OLD_GTA6_BOX
+    enc = ["-c:v", "libx264", "-preset", "veryfast", "-crf", "19"]  # ~10 s a short; NVENC doubled the file size
+    try:
+        subprocess.run([imageio_ffmpeg.get_ffmpeg_exe(), "-y", "-loglevel", "error", "-i", str(src), "-i", str(logo),
+                        "-filter_complex", f"[0:v]delogo=x={x}:y={y}:w={w}:h={h}[a];[a][1:v]overlay=0:0[v]",
+                        "-map", "[v]", "-map", "0:a?", *enc, "-pix_fmt", "yuv420p", "-c:a", "copy",
+                        "-movflags", "+faststart", str(dst)], check=True)
+    finally:
+        logo.unlink(missing_ok=True)
 
 
 def short_overlay(title: str, game: str, path: Path) -> None:

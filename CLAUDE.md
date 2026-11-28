@@ -326,6 +326,14 @@ streams) and uploads them on a schedule, mostly without the laptop being on.
   replaces the red text badge on every short whose plan game is in `LOGOS`. `.cache/gta6_relogo.py` re-renders the shorts not
   on Instagram yet in hourly order (427 on 2026-11-23; `--all` also does the posted ones for YouTube), swaps each file only
   while `hourly.lock` is absent, deletes its stale `.light.mp4` / NudeNet cache, logs to `gameplay_out/relogo.log`.
+  **Official GTA VI logo since 2026-11-28** (owner: "GTA 6 wale shorts me na GTA 6 ka original logo lagao"): `LOGOS` now
+  draws `gameplay_clips.gta6_logo_official` (Rockstar's logo from Wikimedia Commons "Grand Theft Auto VI logo (with gradient).svg",
+  marked public domain there but still Rockstar's trademark - owner's choice; `backend/assets/gta6_logo_official.png`). The launch /
+  day 2 / day 3 recordings are gone, so finished shorts are not re-cut: `gc.swap_gta6_logo` = ffmpeg `delogo` over the old badge
+  (`OLD_GTA6_BOX`) + the logo on top, ~10 s a short, v2 hooks / captions kept. `.cache/gta6_logo_swap.py` did every short on
+  disk (511; done list `<plan>/logo_official_done.txt`, log `gameplay_out/logo_swap.log`). `gc.has_official_logo` = in that list
+  or written after `OFFICIAL_SINCE`. The 391 shorts already on `clips/gta6-youtube` were not re-pushed (12 GB): `post` swaps the
+  logo on CI before the upload unless the queue entry has `"logo": "official"` (set by `push` / `v2-sync` from now on).
   Laptop tasks run through `conhost.exe --headless` since 2026-11-22 (owner: "ye kyu khul raha he" - the hourly task
   opened a cmd window every hour).
   **GTA 6 Chapter 1** (owner 2026-11-21: "kya aap editing kar sakte ho youtube ke liye ... ek chapter 1 banao", chose the
@@ -682,6 +690,7 @@ All gaming workflows share the `daily-gaming` concurrency group (never two write
   Free Wan output is 480p (upscaled) and cannot morph one form into the next - the morph is the drawn evolve clip.
 
 ## Change log
+- 2026-11-28 - GTA 6 shorts carry the official GTA VI logo (`gta6_logo_official`, `swap_gta6_logo`, `.cache/gta6_logo_swap.py`; CI swaps queued YouTube shorts before upload); gaming Facebook Page posting started (launch short 10 + Chapter 1 Mission 2 first).
 - 2026-11-28 - Gaming Facebook Page wipe finished (1,173 deleted); `FB_GAMING_PAUSED = False` - approved Pokemon + 5 GTA 6 shorts and 1 long a day go there again.
 - 2026-11-28 - Review push: evolution title / description include the forms and the fan-made note (`built_forms`).
 - 2026-11-28 - Own Mega designs for Crobat / Flygon / Typhlosion (`MEGA_DESIGN`), dust cut keeps pale green bodies, still camera on Mega clips; Zubat, Cyndaquil, Trapinch rebuilt.

@@ -30,6 +30,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 REPO = ROOT.parent
 sys.path.insert(0, str(ROOT))
+sys.path.insert(0, str(ROOT / "scripts"))
+import gameplay_clips as gc  # noqa: E402 - official GTA VI logo (owner 2026-11-28)
 
 BRANCH = "clips/gta6-youtube"
 RAW = "https://raw.githubusercontent.com/harshaltiwari1998/Social_Media_AI_Agent/" + BRANCH
@@ -113,18 +115,20 @@ def push(n: int) -> None:
             if added >= n:
                 break
             tid = f"gameplay:{name}:short{k:02d}"
-            if tid in have or f"{k:02d}" not in with_logo or not yt_open(store, tid):
+            video = out / name / f"short_{k:02d}.mp4"
+            if tid in have or not video.exists() or not yt_open(store, tid):
+                continue
+            if f"{k:02d}" not in with_logo and not gc.has_official_logo(video):
                 continue
             if tid in held and tid not in cleared:
                 continue
-            video = out / name / f"short_{k:02d}.mp4"
             if tid not in cleared and safety.scan_video(video):
                 print(f"{tid}: NudeNet hit - left out", flush=True)
                 continue
             rel = f"shorts/{name}_short{k:02d}.mp4"
             shutil.copy(video, wt / rel)
             queue.append({"tid": tid, "file": rel, "caption": caption(plan, plan["shorts"][k - 1]["title"]),
-                          "tags": plan["tags"]})
+                          "tags": plan["tags"], **({"logo": "official"} if gc.has_official_logo(video) else {})})
             added += 1
             size += video.stat().st_size
             print(f"{added}/{n} {tid}: {plan['shorts'][k - 1]['title']}", flush=True)
@@ -169,6 +173,10 @@ def post(n: int) -> None:
                 with open(video, "wb") as f:
                     for chunk in r.iter_bytes():
                         f.write(chunk)
+            if q.get("logo") != "official":  # pushed before 2026-11-28: still our own "GTA VI" badge
+                swapped = video.with_name("official_" + video.name)
+                gc.swap_gta6_logo(video, swapped)
+                video = swapped
             r = yt.post_video(str(video), q["caption"], tags=q["tags"])
         if not r.success and "uploadLimitExceeded" in str(r.error):
             # the channel's own limit (~14-15 uploads in a rolling 24 h; the owner's own uploads count too)
@@ -434,7 +442,7 @@ def v2_sync() -> None:
         shutil.copy(video, wt / rel)
         size += video.stat().st_size
         entry = {"tid": tid, "file": rel, "caption": caption(plan, plan["shorts"][k - 1]["title"]), "tags": plan["tags"],
-                 "v2": True, "rev": rev}
+                 "v2": True, "rev": rev, **({"logo": "official"} if gc.has_official_logo(video) else {})}
         if q is not None:
             queue.remove(q)
         queue.append(entry)
